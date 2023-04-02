@@ -1,0 +1,34 @@
+[
+  {
+    "type": "item_group",
+    "id": "bionics",
+    "items": [
+      [ "bio_furnace", 10 ],
+      [ "bio_storage", 10 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "bionics_op",
+    "items": [
+      [ "bio_furnace", 10 ],
+      [ "bio_storage", 10 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "bionics_tech",
+    "items": [
+      [ "bio_furnace", 10 ],
+      [ "bio_storage", 10 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "bionics_sci",
+    "items": [
+      [ "bio_furnace", 10 ],
+      [ "bio_storage", 10 ]
+    ]
+  }
+]

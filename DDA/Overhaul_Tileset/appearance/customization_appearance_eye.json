@@ -1,0 +1,74 @@
+[    
+  {
+    "id": "EYE_BLUE",
+    "type": "mutation",
+    "name": "Eye tone: blue",
+    "description": "You have a blue eye tone.",
+    "points": 0,
+    "starting_trait": true,
+    "valid": false,
+    "purifiable": false,
+    "player_display": false,
+    "types": [ "eye_tone" ]
+  },
+  {
+    "id": "EYE_GRAY",
+    "type": "mutation",
+    "name": "Eye tone: gray",
+    "description": "You have a gray eye tone.",
+    "points": 0,
+    "starting_trait": true,
+    "valid": false,
+    "purifiable": false,
+    "player_display": false,
+    "types": [ "eye_tone" ]
+  },
+  {
+    "id": "EYE_BROWN",
+    "type": "mutation",
+    "name": "Eye tone: brown",
+    "description": "You have a Brown eye tone.",
+    "points": 0,
+    "starting_trait": true,
+    "valid": false,
+    "purifiable": false,
+    "player_display": false,
+    "types": [ "eye_tone" ]
+  },
+  {
+    "id": "EYE_GREEN",
+    "type": "mutation",
+    "name": "Eye tone: green",
+    "description": "You have a green eye tone.",
+    "points": 0,
+    "starting_trait": true,
+    "valid": false,
+    "purifiable": false,
+    "player_display": false,
+    "types": [ "eye_tone" ]
+  },
+  {
+    "id": "EYE_RED",
+    "type": "mutation",
+    "name": "Eye tone: red",
+    "description": "You have a red eye tone.",
+    "points": 0,
+    "starting_trait": true,
+    "valid": false,
+    "purifiable": false,
+    "player_display": false,
+    "types": [ "eye_tone" ]
+  },
+  {
+    "id": "EYE_YELLOW",
+    "type": "mutation",
+    "name": "Eye tone: yellow",
+    "description": "You have a yellow eye tone.",
+    "points": 0,
+    "starting_trait": true,
+    "valid": false,
+    "purifiable": false,
+    "player_display": false,
+    "types": [ "eye_tone" ]
+  }
+]

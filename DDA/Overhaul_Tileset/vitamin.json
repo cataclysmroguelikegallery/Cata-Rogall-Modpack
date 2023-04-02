@@ -1,0 +1,35 @@
+[
+  {
+    "id": "mutagen_Fox",
+    "type": "vitamin",
+    "vit_type": "counter",
+    "name": "폭스 프라임",
+    "excess": "mutagen_Fox",
+    "min": 0,
+    "max": 2500,
+    "rate": "1 h",
+    "disease_excess": [ [ 100, 500 ], [ 501, 2199 ], [ 2200, 2500 ] ]
+  },
+  {
+    "id": "mutagen_Horse",
+    "type": "vitamin",
+    "vit_type": "counter",
+    "name": "페가서스 프라임",
+    "excess": "mutagen_Horse",
+    "min": 0,
+    "max": 2500,
+    "rate": "1 h",
+    "disease_excess": [ [ 100, 500 ], [ 501, 2199 ], [ 2200, 2500 ] ]
+  },
+  {
+    "id": "mutagen_Golem",
+    "type": "vitamin",
+    "vit_type": "counter",
+    "name": "골렘 프라임",
+    "excess": "mutagen_Golem",
+    "min": 0,
+    "max": 2500,
+    "rate": "1 h",
+    "disease_excess": [ [ 100, 500 ], [ 501, 2199 ], [ 2200, 2500 ] ]
+  }
+]

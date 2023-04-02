@@ -1,0 +1,63 @@
+[
+   {    "type": "sound_effect",
+        "id" : "fire_gun",
+        "volume" : 100,
+        "variant" : "azf_fist_pneumatic",
+        "files" : [
+           "melee/small_bash/hit_metal_1.ogg",
+           "melee/small_bash/hit_metal_2.ogg",
+           "melee/small_bash/hit_metal_3.ogg",
+           "melee/small_bash/hit_metal_4.ogg",
+           "melee/small_bash/hit_metal_5.ogg",
+           "melee/small_bash/hit_metal_6.ogg"
+        ]
+    },
+	{   "type": "sound_effect",
+        "id" : "fire_gun",
+        "volume" : 100,
+        "variant" : "azf_fist_hydraulic",
+        "files" : [
+           "melee/big_bash/hit_metal_1.ogg",
+           "melee/big_bash/hit_metal_2.ogg",
+           "melee/big_bash/hit_metal_3.ogg",
+           "melee/big_bash/hit_metal_4.ogg",
+           "melee/big_bash/hit_metal_5.ogg",
+           "melee/big_bash/hit_metal_6.ogg"
+        ]
+    },
+	{   "type": "sound_effect",
+        "id" : "fire_gun",
+        "volume" : 100,
+        "variant" : "azf_fist_power",
+        "files" : [
+           "melee/big_bash/hit_metal_1.ogg",
+           "melee/big_bash/hit_metal_2.ogg",
+           "melee/big_bash/hit_metal_3.ogg",
+           "melee/big_bash/hit_metal_4.ogg",
+           "melee/big_bash/hit_metal_5.ogg",
+           "melee/big_bash/hit_metal_6.ogg"
+        ]
+    },
+	{   "type": "sound_effect",
+        "id" : "fire_gun",
+        "volume" : 100,
+        "variant" : "azf_mod_powerfistarcflash",
+        "files" : [
+           "env/explosions/explosion_large_1.ogg",
+           "env/explosions/explosion_large_2.ogg",
+           "env/explosions/explosion_large_3.ogg",
+           "env/explosions/explosion_large_4.ogg",
+           "env/explosions/explosion_large_5.ogg",
+           "env/explosions/explosion_large_6.ogg"
+        ]
+    },
+	{   "type": "sound_effect",
+        "id" : "fire_gun",
+        "volume" : 100,
+        "variant" : "azf_mod_powerfistlightining",
+        "files" : [
+           "bionics/elec_crackle_high_1.ogg",
+           "bionics/elec_crackle_high_2.ogg"
+        ]
+    }
+]

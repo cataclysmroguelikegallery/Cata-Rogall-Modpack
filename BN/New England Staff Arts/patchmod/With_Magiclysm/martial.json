@@ -1,0 +1,19 @@
+[
+	{
+		"id":"style_NE_staff",
+		"copy-from":"style_NE_staff",
+		"type": "martial_art",
+		"name":"뉴 잉글랜드 지팡이술",
+		"extend":{
+			"weapons":[
+				"laevateinn",
+				"q_staff_plus_one",
+				"q_staff_plus_two",
+				"i_staff_plus_one",
+				"i_staff_plus_two",
+				"rune_magus_weapon",
+				"springstaff-extended"
+				]
+			}
+	}
+]

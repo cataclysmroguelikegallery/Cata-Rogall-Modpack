@@ -1,0 +1,73 @@
+[
+  {
+    "type": "scenario",
+    "ident" : "mutant",
+    "name" : "Experiment",
+	"copy-from": "mutant",
+	"extend": {
+      "traits" : [ 
+		  "SCALES",
+		  "FUR",
+		  "0TAIL_FOX",
+		  "FELINE_FUR",
+		  "TAIL_THICK",
+		  "TAIL_Horse",
+		  "STONSKIN",
+		  "FOX_FUR",
+		  "MUZZLE",
+		  "MUZZLE_BEAR",
+		  "BEAK_HUM",
+		  "BEAK_PECK",
+		  "PROBOSCIS",
+		  "MINOTAUR",
+		  "MUZZLE_LONG",
+		  "MUZZLE_RAT",
+		  "MUZZLE_FOX",
+		  "MUZZLE_Horse",
+		  "FOX_EARS",
+		  "MOUSE_EARS",
+		  "Horse_EARS",
+		  "STR_UP",
+		  "DEX_UP",
+		  "PER_UP",
+		  "INT_UP"
+		]
+	}
+  },
+  {
+    "type": "scenario",
+    "ident": "lab_chal",
+    "name": "Challenge - Lab Patient",
+	"copy-from": "lab_chal",
+	"extend": {
+      "traits" : [ 
+		  "SCALES",
+		  "FUR",
+		  "FELINE_FUR",
+		  "0TAIL_FOX",
+		  "TAIL_RAT",
+		  "TAIL_THICK",
+		  "TAIL_Horse",
+		  "STONSKIN",
+		  "FOX_FUR",
+		  "MUZZLE",
+		  "MUZZLE_BEAR",
+		  "BEAK_HUM",
+		  "BEAK_PECK",
+		  "PROBOSCIS",
+		  "MINOTAUR",
+		  "MUZZLE_LONG",
+		  "MUZZLE_RAT",
+		  "MUZZLE_FOX",
+		  "MUZZLE_Horse",
+		  "FOX_EARS",
+		  "MOUSE_EARS",
+		  "Horse_EARS",
+		  "STR_UP",
+		  "DEX_UP",
+		  "PER_UP",
+		  "INT_UP"
+		]
+	}
+  }
+]

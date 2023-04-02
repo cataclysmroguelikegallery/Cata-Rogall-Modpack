@@ -1,0 +1,383 @@
+[
+  {
+    "type": "mod_tileset",
+    "compatibility": [ "MX+(Overhaul)", "MSX++DEAD_PEOPLE", "UNDEAD_PEOPLE", "UNDEAD_PEOPLE_BASE"  ],
+    "tiles-new": [
+	  {
+		"file": "overhaul_mutation.png",
+		"tiles": [
+        {
+          "id": "overlay_female_mutation_AMORPHOUS",
+          "fg": 0,
+          "rotates": false
+        },
+        {
+          "id": ["overlay_female_mutation_BIRD_EYE", "overlay_female_mutation_LIZ_EYE", "overlay_female_mutation_COMPOUND_EYES"],
+          "fg": 1,
+          "rotates": false
+        },
+        {
+          "id": "overlay_female_mutation_CEPH_EYES",
+          "fg": 2,
+          "rotates": false
+        },
+        {
+          "id": ["overlay_female_mutation_CHITIN", "overlay_female_mutation_CHITIN2", "overlay_female_mutation_CHITIN3"],
+          "fg": 3,
+          "rotates": false
+        },
+        {
+          "id": ["overlay_female_mutation_CHITIN_FUR", "overlay_female_mutation_CHITIN_FUR2", "overlay_female_mutation_CHITIN_FUR3"],
+          "fg": 3,
+          "rotates": false
+        },
+        {
+          "id": ["overlay_female_mutation_BARK", "overlay_female_mutation_PLANTSKIN"],
+          "fg": 4,
+          "rotates": false
+        },
+        {
+          "id": "overlay_female_mutation_ELFAEYES",
+          "fg": 5,
+          "rotates": false
+        },
+        {
+          "id": "overlay_female_mutation_FEATHERS",
+          "fg": 6,
+          "rotates": false
+        },
+        {
+          "id": "overlay_female_mutation_FEL_EYE",
+          "fg": 7,
+          "rotates": false
+        },
+        {
+          "id": "overlay_female_mutation_LEAVES",
+          "fg": 8,
+          "rotates": false
+        },
+        {
+          "id": ["overlay_female_mutation_LIGHTFUR", "overlay_female_mutation_FUR"],
+          "fg": 9,
+          "rotates": false
+        },
+        {
+          "id": "overlay_female_mutation_LUPINE_FUR",
+          "fg": 10,
+          "rotates": false
+        },
+        {
+          "id": "overlay_female_mutation_LYNX_FUR",
+          "fg": 11,
+          "rotates": false
+        },
+        {
+          "id": "overlay_female_mutation_M_SKIN",
+          "fg": 12,
+          "rotates": false
+        },
+        {
+          "id": "overlay_female_mutation_SCALES",
+          "fg": 13,
+          "rotates": false
+        },
+		{
+          "id": ["overlay_female_mutation_SUNBURN", "overlay_female_mutation_TROGLO2"],
+          "fg": 14,
+          "rotates": false
+        },
+        {
+          "id": "overlay_female_mutation_TROGLO3",
+          "fg": 15,
+          "rotates": false
+        },
+		{
+          "id": "overlay_female_mutation_VISCOUS",
+          "fg": 16,
+          "rotates": false
+        },
+        {
+          "id": "overlay_male_mutation_AMORPHOUS",
+          "fg": 17,
+          "rotates": false
+        },
+        {
+          "id": ["overlay_male_mutation_BIRD_EYE", "overlay_male_mutation_LIZ_EYE", "overlay_male_mutation_COMPOUND_EYES"],
+          "fg": 18,
+          "rotates": false
+        },
+        {
+          "id": "overlay_male_mutation_CEPH_EYES",
+          "fg": 19,
+          "rotates": false
+        },
+        {
+          "id": ["overlay_male_mutation_CHITIN", "overlay_male_mutation_CHITIN2", "overlay_male_mutation_CHITIN3"],
+          "fg": 20,
+          "rotates": false
+        },
+        {
+          "id": ["overlay_male_mutation_CHITIN_FUR", "overlay_male_mutation_CHITIN_FUR2", "overlay_male_mutation_CHITIN_FUR3"],
+          "fg": 20,
+          "rotates": false
+        },
+        {
+          "id": ["overlay_male_mutation_BARK", "overlay_male_mutation_PLANTSKIN"],
+          "fg": 21,
+          "rotates": false
+        },
+        {
+          "id": "overlay_male_mutation_ELFAEYES",
+          "fg": 22,
+          "rotates": false
+        },
+        {
+          "id": "overlay_male_mutation_FEATHERS",
+          "fg": 23,
+          "rotates": false
+        },
+        {
+          "id": "overlay_male_mutation_FEL_EYE",
+          "fg": 24,
+          "rotates": false
+        },
+        {
+          "id": "overlay_male_mutation_LEAVES",
+          "fg": 25,
+          "rotates": false
+        },
+        {
+          "id": ["overlay_male_mutation_LIGHTFUR", "overlay_male_mutation_FUR"],
+          "fg": 26,
+          "rotates": false
+        },
+        {
+          "id": "overlay_male_mutation_LUPINE_FUR",
+          "fg": 27,
+          "rotates": false
+        },
+        {
+          "id": "overlay_male_mutation_LYNX_FUR",
+          "fg": 28,
+          "rotates": false
+        },
+        {
+          "id": "overlay_male_mutation_M_SKIN",
+          "fg": 29,
+          "rotates": false
+        },
+        {
+          "id": "overlay_male_mutation_SCALES",
+          "fg": 30,
+          "rotates": false
+        },
+        {
+          "id": ["overlay_male_mutation_SUNBURN", "overlay_male_mutation_TROGLO2"],
+          "fg": 31,
+          "rotates": false
+        },
+		{
+          "id": "overlay_male_mutation_TROGLO3",
+          "fg": 32,
+          "rotates": false
+        },
+        {
+          "id": "overlay_male_mutation_VISCOUS",
+          "fg": 33,
+          "rotates": false
+        },
+        {
+          "id": "overlay_mutation_ARM_FEATHERS",
+          "fg": 34,
+          "rotates": false
+        },
+        {
+          "id": "overlay_mutation_ALCMET",
+          "fg": 35,
+          "rotates": false
+        },
+        {
+          "id": "overlay_mutation_ANTENNAE",
+          "fg": 36,
+          "rotates": false
+        },
+        {
+          "id": "overlay_mutation_ANTLERS",
+          "fg": 37,
+          "rotates": false
+        },
+        {
+          "id": ["overlay_mutation_ARACHNID_ARMS", "overlay_mutation_ARACHNID_ARMS_OK"],
+          "fg": 38,
+          "rotates": false
+        },
+        {
+          "id": "overlay_mutation_ARM_TENTACLES",
+          "fg": 39,
+          "rotates": false
+        },
+        {
+          "id": "overlay_mutation_ARM_TENTACLES_4",
+          "fg": 40,
+          "rotates": false
+        },
+        {
+          "id": "overlay_mutation_ARM_TENTACLES_8",
+          "fg": 41,
+          "rotates": false
+        },
+        {
+          "id": ["overlay_mutation_BEAK", "overlay_mutation_BEAK_HUM", "overlay_mutation_BEAK_PECK"],
+          "fg": 42,
+          "rotates": false
+        },
+        {
+          "id": "overlay_mutation_CANINE_EARS",
+          "fg": 43,
+          "rotates": false
+        },
+        {
+          "id": "overlay_mutation_CENOBITE",
+          "fg": 44,
+          "rotates": false
+        },
+{
+          "id": "overlay_mutation_ELFA_EARS",
+          "fg": 45,
+          "rotates": false
+        },
+        {
+          "id": "overlay_mutation_FLOWERS",
+          "fg": 47,
+          "rotates": false
+        },
+        {
+          "id": ["overlay_mutation_INSECT_ARMS", "overlay_mutation_INSECT_ARMS_OK"],
+          "fg": 50,
+          "rotates": false
+        },
+        {
+          "id": "overlay_mutation_LEG_TENTACLES",
+          "fg": 51,
+          "rotates": false
+        },
+        {
+          "id": "overlay_mutation_MUZZLE_BEAR",
+          "fg": 52,
+          "rotates": false
+        },
+        {
+          "id": "overlay_mutation_MOUTH_TENTACLES",
+          "fg": 53,
+          "rotates": false
+        },
+        {
+          "id": "overlay_mutation_MUZZLE_LONG",
+          "fg": 54,
+          "rotates": false
+        },
+        {
+          "id": "overlay_mutation_MUZZLE_RAT",
+          "fg": 55,
+          "rotates": false
+        },
+        {
+          "id": "overlay_mutation_M_BLOOM",
+          "fg": 56,
+          "rotates": false
+        },
+        {
+          "id": "overlay_mutation_PAWS_LARGE",
+          "fg": 57,
+          "rotates": false
+        },
+        {
+          "id": ["overlay_mutation_ROOTS2", "overlay_mutation_ROOTS3"],
+          "fg": 58,
+          "rotates": false
+        },
+        {
+          "id": "overlay_mutation_SABER_TEETH",
+          "fg": 59,
+          "rotates": false
+        },
+		{
+          "id": ["overlay_mutation_SORES", "overlay_mutation_SPOTS"],
+          "fg": 60,
+          "rotates": false
+        },
+        {
+          "id": ["overlay_mutation_TAIL_CATTLE", "overlay_mutation_TAIL_CLUB"],
+          "fg": 61,
+          "rotates": false
+        },
+        {
+		  "id": "overlay_mutation_TAIL_FLUFFY",
+          "fg": 62,
+          "rotates": false
+        },
+        {
+          "id": "overlay_mutation_TAIL_RAPTOR",
+          "fg": 63,
+          "rotates": false
+        },
+{
+          "id": "overlay_mutation_TAIL_RAT",
+          "fg": 64,
+          "rotates": false
+        },
+        {
+          "id": "overlay_mutation_TAIL_STING",
+          "fg": 65,
+          "rotates": false
+        },
+        {
+          "id": "overlay_mutation_TAIL_STUB",
+          "fg": 66,
+          "rotates": false
+        },
+        {
+          "id": ["overlay_mutation_TAIL_LONG", "overlay_worn_fur_cat_tail", "overlay_worn_leather_cat_tail"],
+          "fg": 67,
+          "rotates": false
+        },
+        {
+          "id": "overlay_mutation_THRESH_ALPHA",
+          "fg": 68,
+          "rotates": false
+        },
+        {
+          "id": "overlay_mutation_URSINE_EARS",
+          "fg": 69,
+          "rotates": false
+        },
+        {
+          "id": "overlay_mutation_VINES1",
+          "fg": 70,
+          "rotates": false
+        },
+        {
+          "id": ["overlay_mutation_VINES2", "overlay_mutation_VINES3"],
+          "fg": 71,
+          "rotates": false
+        },
+        {
+          "id": ["overlay_mutation_WHISKERS", "overlay_mutation_WHISKERS_RAT"],
+          "fg": 72,
+          "rotates": false
+        },
+        {
+          "id": "overlay_mutation_WINGS_INSECT",
+          "fg": 73,
+          "rotates": false
+        },
+        {
+          "id": "overlay_mutation_WINGS_STUB",
+          "fg": 74,
+          "rotates": false
+        }
+		]
+	  }
+    ]
+  }
+]

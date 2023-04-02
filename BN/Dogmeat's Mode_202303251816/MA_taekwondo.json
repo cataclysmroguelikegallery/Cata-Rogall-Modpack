@@ -1,0 +1,157 @@
+[
+	{
+    "type": "martial_art",
+    "id": "style_taekwondo",
+    "name": { "str": "Taekwondo" },
+    "description": "Taekwondo is the national sport of Korea, and was used by the South Korean army in the 20th century.  Focused on kicks and so it does not benefit from wielded weapons.  It also includes strength training; your blocks absorb extra damage and your attacks do more damage if you are not holding anything.",
+    "initiate": [ "You adopt a narrow fighting stance.", "You adopts a narrow fighting stance." ],
+    "learn_difficulty": 5,
+    "arm_block": 1,
+    "leg_block": 3,
+    "force_unarmed": true,
+    "static_buffs": [
+      {
+        "id": "buff_taekwondo_static",
+        "name": "Taekwondo Stance",
+        "description": "Using your legs to attack allows your hands to be free for better defense.\n\nBlocked damage decreased by 50% of Strength.",
+        "unarmed_allowed": true,
+        "flat_bonuses": [ { "stat": "block", "scaling-stat": "str", "scale": 0.5 } ]
+      },
+      {
+        "id": "buff_taekwondo_static2",
+        "name": "Unhindered",
+        "description": "Your attacks are stronger if you are not holding anything in your hands.\n\n+33% bash damage when not using a weapon.",
+        "unarmed_allowed": true,
+        "mult_bonuses": [ { "stat": "damage", "type": "bash", "scale": 1.33 } ]
+      }
+    ],
+	"onmove_buffs": [
+      {
+        "id": "buff_taekwondo_onmove",
+        "name": "도움닫기",
+        "description": "짧은 돌진을 통해 발차기에 체중을 싣습니다. 민첩의 25%만큼 타격 데미지가 증가합니다.",
+        "skill_requirements": [ { "name": "unarmed", "level": 2 } ],
+        "unarmed_allowed": true,
+	    "flat_bonuses": [ { "stat": "damage", "type": "bash", "scaling-stat": "dex", "scale": 0.25 } ],
+        "buff_duration": 1,
+        "max_stacks": 2
+      }
+    ],
+    "ondodge_buffs": [
+      {
+        "id": "buff_taekwondo_ondodge",
+        "name": "외발자세",
+        "description": "다리를 들어올려 공격을 회피하면서 다음 발차기를 준비합니다.",
+        "unarmed_allowed": true,
+        "skill_requirements": [ { "name": "unarmed", "level": 3 } ],
+        "mult_bonuses": [ { "stat": "movecost", "scale": 0.8 } ],
+        "buff_duration": 1
+      }
+    ],
+
+    "techniques": [
+      "tec_taekwondo_disarm",
+      "tec_taekwondo_strong",
+      "tec_taekwondo_roundhouse",
+      "tec_taekwondo_feint",
+      "tec_taekwondo_push",
+      "tec_taekwondo_sweep",
+	  "tec_taekwondo_flying",
+	  "tec_taekwondo_axe"
+	]
+  },
+
+  {
+    "type": "technique",
+    "id": "tec_taekwondo_disarm",
+    "name": "Snatch Weapon",
+    "messages": [ "You snatch %s's weapon and kick", "<npcname> snatches %s's weapon and kicks" ],
+    "skill_requirements": [ { "name": "unarmed", "level": 4 } ],
+    "unarmed_allowed": true,
+    "crit_ok": true,
+    "dodge_counter": true,
+    "take_weapon": true,
+    "mult_bonuses": [ { "stat": "movecost", "scale": 0.0 } ]
+  },
+  {
+    "type": "technique",
+    "id": "tec_taekwondo_strong",
+    "name": "Spinning Back Kick",
+    "messages": [
+      "You spin and back-kick %s, right in the center of gravity",
+      "<npcname> spins and back-kicks %s, right in the center of gravity"
+    ],
+    "skill_requirements": [ { "name": "unarmed", "level": 5 } ],
+    "unarmed_allowed": true,
+    "crit_tec": true,
+    "stun_dur": 1,
+    "knockback_dist": 2,
+    "mult_bonuses": [ { "stat": "movecost", "scale": 1.2 }, { "stat": "damage", "type": "bash", "scale": 1.6 } ]
+  },
+  {
+    "type": "technique",
+    "id": "tec_taekwondo_push",
+	"name": "Side Kick",
+    "messages": [ "You turn slightly and side-kick %s", "<npcname> turns slightly and side-kicks %s" ],
+    "unarmed_allowed": true,
+    "knockback_dist": 1,
+    "mult_bonuses": [ { "stat": "damage", "type": "bash", "scale": 1.2 } ]
+  },
+  {
+    "type": "technique",
+    "id": "tec_taekwondo_sweep",
+    "name": "Sweep Kick",
+    "messages": [ "You crouch low and sweep-kick %s", "<npcname> crouches low and sweep-kicks %s" ],
+	"skill_requirements": [ { "name": "unarmed", "level": 3 } ],
+    "unarmed_allowed": true,
+    "down_dur": 2
+  },
+  {
+    "type": "technique",
+    "id": "tec_taekwondo_roundhouse",
+    "name": "Roundhouse Kick",
+    "messages": [ "You roundhouse kick %s", "<npcname> roundhouse kicks %s" ],
+    "unarmed_allowed": true,
+    "crit_ok": true,
+	"stun_dur": 1,
+    "mult_bonuses": [ { "stat": "damage", "type": "bash", "scale": 1.3 } ]
+  },
+  {
+    "type": "technique",
+    "id": "tec_taekwondo_feint",
+    "name": "Feint",
+    "messages": [ "You fake a kick at %s", "<npcname> fakes a kick at %s" ],
+    "skill_requirements": [ { "name": "unarmed", "level": 3 } ],
+    "unarmed_allowed": true,
+    "defensive": true,
+    "miss_recovery": true
+  },
+  {
+    "type": "technique",
+    "id": "tec_taekwondo_flying",
+    "name": "Flying Kick",
+    "messages": [ "당신은 빠르게 돌진해서 %s에게 강력한 날아차기를 먹입니다.", "<npcname>은/는 빠르게 돌진해서 %s에게 강력한 날아차기를 먹입니다." ],
+    "req_buffs": [ "buff_taekwondo_onmove" ],
+    "skill_requirements": [ { "name": "unarmed", "level": 5 } ],
+    "unarmed_allowed": true,
+	"crit_tec": true,
+    "knockback_dist": 2,
+    "stun_dur": 2,
+    "mult_bonuses": [ { "stat": "movecost", "scale": 1.2 }, { "stat": "damage", "type": "bash", "scale": 1.8 } ]
+  },
+  {
+    "type": "technique",
+    "id": "tec_taekwondo_axe",
+    "name": "Axe Kick",
+    "messages": [
+      "당신은 높이 차올린 다리를 %s에게 내리찍습니다.",
+      "<npcname>은/는 높이 차올린 다리를 %s에게 내리찍습니다."
+    ],
+    "skill_requirements": [ { "name": "unarmed", "level": 3 } ],
+    "unarmed_allowed": true,
+    "downed_target": true,
+    "crit_ok": true,
+	"stun_dur": 2,
+    "mult_bonuses": [ { "stat": "movecost", "scale": 1.3 }, { "stat": "damage", "type": "bash", "scale": 1.6 } ]
+  }
+]

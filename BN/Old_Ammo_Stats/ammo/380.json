@@ -1,0 +1,77 @@
+[
+  {
+    "id": "380_FMJ",
+    "type": "AMMO",
+    "name": { "str": ".380 ACP FMJ" },
+    "description": ".380 ACP ammunition with a brass jacketed 95gr bullet.  Popular in pocket pistols for over a century, it is often considered the weakest caliber to consider carrying.  One should be careful not to chamber it in 9x18mm Makarov or 9x19mm firearms.",
+    "weight": "6 g",
+    "volume": "250 ml",
+    "price": 140,
+    "price_postapoc": 1000,
+    "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
+    "material": [ "brass", "powder" ],
+    "symbol": "=",
+    "color": "yellow",
+    "count": 50,
+    "stack_size": 50,
+    "ammo_type": "380",
+    "casing": "380_casing",
+    "range": 13,
+    "//": "Base damage of 16, balance increase of one-third.",
+    "damage": { "damage_type": "bullet", "amount": 21, "armor_penetration": 12 },
+    "dispersion": 60,
+    "recoil": 300,
+    "effects": [ "COOKOFF" ]
+  },
+  {
+    "id": "380_JHP",
+    "copy-from": "380_FMJ",
+    "type": "AMMO",
+    "name": { "str": ".380 ACP JHP" },
+    "description": ".380 ACP ammunition with a 95gr jacketed hollow point bullet.  It is a popular round for small concealable backup pistols, and often the weakest recommended defensive caliber.  One should be careful not to chamber it in 9x18mm Makarov or 9x19mm firearms.",
+    "//": "Hollowpoint damage increase of 25%",
+    "damage": { "damage_type": "bullet", "amount": 26, "armor_penetration": 0 }
+  },
+  {
+    "id": "380_p",
+    "copy-from": "380_FMJ",
+    "type": "AMMO",
+    "name": { "str": ".380 ACP +P" },
+    "description": "Overpressure .380 ACP ammunition with a 90gr jacketed hollow point bullet.  These defensive loadings are designed to maximize performance and tend to be more accurate than practice ammo.  One should be careful not to chamber it in 9x18mm Makarov or 9x19mm firearms.",
+    "price": 190,
+    "price_postapoc": 1500,
+    "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
+    "count": 25,
+    "damage": { "damage_type": "bullet", "amount": 30, "armor_penetration": 0 },
+    "relative": { "dispersion": -15 },
+    "proportional": { "recoil": 2.0 }
+  },
+  {
+    "id": "bp_380_FMJ",
+    "copy-from": "380_FMJ",
+    "type": "AMMO",
+    "name": { "str": ".380 ACP FMJ, black powder" },
+    "proportional": {
+      "price": 0.3,
+      "damage": { "damage_type": "bullet", "amount": 0.76, "armor_penetration": 0.5 },
+      "recoil": 0.76,
+      "dispersion": 1.2
+    },
+    "extend": { "effects": [ "RECYCLED", "BLACKPOWDER", "MUZZLE_SMOKE" ] },
+    "delete": { "effects": [ "NEVER_MISFIRES" ], "flags": [ "IRREPLACEABLE_CONSUMABLE" ] }
+  },
+  {
+    "id": "bp_380_JHP",
+    "copy-from": "380_JHP",
+    "type": "AMMO",
+    "name": { "str": ".380 ACP JHP, black powder" },
+    "proportional": {
+      "price": 0.3,
+      "damage": { "damage_type": "bullet", "amount": 0.76, "armor_penetration": 0.5 },
+      "recoil": 0.76,
+      "dispersion": 1.2
+    },
+    "extend": { "effects": [ "RECYCLED", "BLACKPOWDER", "MUZZLE_SMOKE" ] },
+    "delete": { "effects": [ "NEVER_MISFIRES" ], "flags": [ "IRREPLACEABLE_CONSUMABLE" ] }
+  }
+]

@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "NE_Staff_arts_magiclysm",
+    "name": "Patch뉴 잉글랜드 지팡이술_magiclysm",
+    "authors": [ "NappingOcean" ],
+    "description": "NE Staff arts patch for Magiclysm.",
+    "category": "misc_additions",
+    "dependencies": [ "bn","NE_Staff_arts" ,"magiclysm" ]
+  }
+]

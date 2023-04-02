@@ -1,0 +1,44 @@
+[
+ {
+  "type": "TOOL",
+  "id": "oil_press",
+  "name": { "str": "압착기" },
+  "description": "식물성 기름을 만들기 위한 크랭크 프레스입니다. 추출 효율을 높이기 위해 핫플레이트로 원료를 가열합니다.",
+  "looks_like": "hand_crank_charger",
+  "weight": "2300 g",
+  "volume": "1560 ml",
+  "price": 12000,
+  "price_postapoc": 1000,
+  "to_hit": -2,
+  "bashing": 7,
+  "material": "steel",
+  "symbol": ";",
+  "color": "green",
+  "ammo": "battery",
+    "magazines": [
+      [
+        "battery",
+        [
+          "medium_battery_cell",
+          "medium_plus_battery_cell"
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "TOOL",
+    "id": "spinning_wheel",
+    "name": { "str": "물레" },
+    "description": "섬유를 가공해서 실을 만드는 기계. 목화에서 빠른 속도로 많은 양의 실을 뽑아낼 수 있습니다.",
+    "looks_like": "wheel_wood_b",
+    "weight": "25000 g",
+    "to_hit": -4,
+    "color": "yellow",
+    "symbol": "T",
+    "material": "wood",
+    "volume": "10 L",
+    "bashing": 1,
+    "price": 60000,
+    "price_postapoc": 1000
+  }
+]

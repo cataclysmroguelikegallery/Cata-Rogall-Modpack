@@ -1,0 +1,20 @@
+[
+  {
+    "type": "mod_tileset",
+    "compatibility": [ "UNDEAD_PEOPLE_BASE", "UNDEAD_PEOPLE", "MshockRealXotto", "MSX++DEAD_PEOPLE" ],
+    "tiles-new": [
+      {
+        "file": "sq_binary_sword.png",
+        "tiles": [
+		  { "id": "sq_binary_sword", "fg": 0, "rotates": false },
+          { "id": "overlay_wielded_sq_binary_sword", "fg": 1, "rotates": false }
+        ],
+        "//": "range 18113 to 18672",
+        "sprite_width": 64,
+        "sprite_height": 80,
+        "sprite_offset_x": -16,
+        "sprite_offset_y": -32
+      }
+	  ]
+  }
+]

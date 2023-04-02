@@ -1,0 +1,196 @@
+[
+	{
+    "type": "GENERIC",
+    "id": "mediumfridge",
+    "name": "차량용 중형냉장고",
+    "description": "소형 냉장고를 이어붙여 더 많은 내용물을 담을수 있는 냉장고.",
+    "weight": "30000 g",
+    "to_hit": -8,
+    "color": "light_blue",
+    "symbol": "{",
+    "material": [ "steel" ],
+    "volume": "40 L",
+    "bashing": 8,
+    "category": "veh_parts",
+    "price": 120000,
+    "price_postapoc": 1000,
+	"insulation": 2
+	},
+	{
+    "type": "GENERIC",
+    "id": "lagefridge",
+    "name": "차량용 대형냉장고",
+    "description": "기존 냉장고보다 매우 많은 내용물을 담을 수 있는 냉장고.",
+    "weight": "60000 g",
+    "to_hit": -11,
+    "color": "light_blue",
+    "symbol": "{",
+    "material": [ "steel" ],
+    "volume": "80 L",
+    "bashing": 10,
+    "category": "veh_parts",
+    "price": 240000,
+    "price_postapoc": 2000,
+	"insulation": 2
+	},
+  {
+    "type": "GENERIC",
+    "id": "mediumfreezer",
+    "name": "중형냉동고",
+    "description": "기존보다 더 많은 내용물을 담을수 있는 냉동고.",
+    "price": 140000,
+	"price_postapoc": 1000,
+    "copy-from": "mediumfridge",
+	"insulation": 4
+  },
+  {
+    "type": "vehicle_part",
+    "id": "v_mediumfridge",
+    "name": "중형냉장고",
+    "symbol": "H",
+    "looks_like": "f_fridge",
+    "categories": [ "cargo" ],
+    "color": "light_blue",
+    "broken_symbol": "#",
+    "broken_color": "light_blue",
+    "damage_modifier": 160,
+    "durability": 200,
+    "description": "중형 냉장고입니다. 전원을 켜면 내부의 음식을 차갑게 만들어 음식이 상할때 까지의 시간이 연장됩니다.",
+    "epower": -60,
+    "size": "200 L",
+    "item": "mediumfridge",
+    "location": "center",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 3 ] ], "time": "60 m", "using": [ [ "vehicle_wrench_2", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "using": [ [ "vehicle_wrench_2", 1 ] ] },
+      "repair": {
+        "skills": [ [ "mechanics", 4 ] ],
+        "time": "60 m",
+        "using": [ [ "repair_welding_standard", 2 ], [ "soldering_standard", 5 ] ]
+      }
+    },
+    "flags": [ "CARGO", "OBSTACLE", "FRIDGE", "COVERED", "ENABLED_DRAINS_EPOWER" ],
+    "breaks_into": [
+      { "item": "steel_lump", "count": [ 16, 26 ] },
+      { "item": "steel_chunk", "count": [ 16, 26 ] },
+      { "item": "scrap", "count": [ 16, 26 ] },
+      { "item": "hose", "prob": 100 },
+      { "item": "motor_tiny", "prob": 50 }
+    ],
+    "damage_reduction": { "all": 64 }
+  },
+  {
+    "type": "vehicle_part",
+    "id": "v_lagefridge",
+    "name": "대형냉장고",
+    "symbol": "H",
+    "looks_like": "f_fridge",
+    "categories": [ "cargo" ],
+    "color": "light_blue",
+    "broken_symbol": "#",
+    "broken_color": "light_blue",
+    "damage_modifier": 320,
+    "durability": 400,
+    "description": "대형 냉장고입니다. 전원을 켜면 내부의 음식을 차갑게 만들어 음식이 상할때 까지의 시간이 연장됩니다.",
+    "epower": -120,
+    "size": "400 L",
+    "item": "lagefridge",
+    "location": "center",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 3 ] ], "time": "60 m", "using": [ [ "vehicle_wrench_2", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "using": [ [ "vehicle_wrench_2", 1 ] ] },
+      "repair": {
+        "skills": [ [ "mechanics", 4 ] ],
+        "time": "60 m",
+        "using": [ [ "repair_welding_standard", 2 ], [ "soldering_standard", 5 ] ]
+      }
+    },
+    "flags": [ "CARGO", "OBSTACLE", "FRIDGE", "COVERED", "ENABLED_DRAINS_EPOWER" ],
+    "breaks_into": [
+      { "item": "steel_lump", "count": [ 32, 52 ] },
+      { "item": "steel_chunk", "count": [ 32, 52 ] },
+      { "item": "scrap", "count": [ 32, 52 ] },
+      { "item": "hose", "prob": 200 },
+      { "item": "motor_tiny", "prob": 100 }
+    ],
+    "damage_reduction": { "all": 128 }
+  },
+  {
+    "type": "vehicle_part",
+    "id": "mediumfreezer",
+    "name": "중형냉동고",
+    "symbol": "H",
+    "categories": [ "cargo" ],
+    "color": "light_blue",
+    "broken_symbol": "#",
+    "broken_color": "blue",
+    "looks_like": "minifridge",
+    "damage_modifier": 160,
+    "durability": 200,
+    "epower": -90,
+    "size": "200 L",
+    "item": "mediumfreezer",
+    "location": "center",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 3 ] ], "time": "60 m", "using": [ [ "vehicle_wrench_2", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "using": [ [ "vehicle_wrench_2", 1 ] ] },
+      "repair": {
+        "skills": [ [ "mechanics", 4 ] ],
+        "time": "60 m",
+        "using": [ [ "repair_welding_standard", 2 ], [ "soldering_standard", 5 ] ]
+      }
+    },
+    "flags": [ "CARGO", "OBSTACLE", "FREEZER", "COVERED", "ENABLED_DRAINS_EPOWER" ],
+    "breaks_into": [
+      { "item": "steel_lump", "count": [ 16, 26 ] },
+      { "item": "steel_chunk", "count": [ 16, 26 ] },
+      { "item": "scrap", "count": [ 16, 26 ] },
+      { "item": "hose", "prob": 100 },
+      { "item": "motor_tiny", "prob": 50 }
+    ],
+    "damage_reduction": { "all": 64 }
+  },
+  {
+    "type": "GENERIC",
+    "id": "cargo_rack_ex",
+    "name": "차량용 차원 저장고",
+    "description": "텔레포터와 연결된 화물 저장고, 기존보다 더 많은 화물을 실을수 있습니다.",
+    "weight": "175450 g",
+    "to_hit": -4,
+    "color": "cyan",
+    "symbol": "]",
+    "material": [ "steel", "plastic" ],
+    "volume": "100 L",
+    "bashing": 2,
+    "category": "veh_parts",
+    "price": 40000,
+    "price_postapoc": 4000
+  },
+  {
+    "type": "vehicle_part",
+    "id": "cargo_space_ex",
+    "name": "차원 저장고",
+    "symbol": "=",
+    "categories": [ "cargo" ],
+    "color": "light_gray",
+    "broken_symbol": "#",
+    "broken_color": "dark_gray",
+    "durability": 250,
+    "size": "5000 L",
+    "//": "Based roughly on a quarter of a 2m x 1.2m pickup truck bed, assuming a reasonable amount of piling up (about 80cm, ie. sticking up around 20cm over the sides if really stacked).  Could definitely use more subtypes.",
+    "item": "cargo_rack_ex",
+    "location": "center",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 1 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "using": [ [ "vehicle_weld_removal", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 2 ] ], "time": "60 m", "using": [ [ "repair_welding_standard", 4 ] ] }
+    },
+    "flags": [ "BOARDABLE", "CARGO", "COVERED" ],
+    "breaks_into": [
+      { "item": "steel_lump", "count": [ 6, 8 ] },
+      { "item": "steel_chunk", "count": [ 6, 8 ] },
+      { "item": "scrap", "count": [ 6, 8 ] }
+    ],
+    "damage_reduction": { "all": 28 }
+  }
+]

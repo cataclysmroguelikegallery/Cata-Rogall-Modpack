@@ -1,0 +1,46 @@
+[
+  {
+    "id": "death_eye",
+    "type": "SPELL",
+    "name": "직사의 마안",
+    "description": "극한까지 마법을 연마한 애니미스트들은 동전뒤집듯 삶과 죽음을 뒤집을 수 있습니다. 이 마법은 죽음의 시선의 일종의 극단적인 버전으로, 바라보는 것만으로도 상대를 죽음에 이르게 만들 수 있습니다. 그러나 이 강력한 마법은 사용 시 마찬가지로 강력한 반동에 의해 사용 시 신체 일부가 괴사하여 큰 피해를 입게 됩니다.",
+    "valid_targets": [ "hostile" ],
+    "effect": "target_attack",
+    "spell_class": "ANIMIST",
+    "energy_source": "HP",
+    "flags": [ "NO_LEGS", "CONCENTRATE", "SOMATIC" ],
+    "min_damage": 200,
+    "max_damage": 3200,
+    "damage_increment": 100.0,
+    "min_range": 2,
+    "max_range": 12,
+    "range_increment": 0.5,
+    "max_level": 40,
+    "difficulty": 15,
+    "base_casting_time": 100,
+    "base_energy_cost": 80,
+    "energy_increment": -1.0,
+    "final_energy_cost": 40,
+    "damage_type": "bio"
+  },
+  {
+    "id": "death_eye_book",
+    "type": "GENERIC",
+    "name": { "str": "눈빛만으로 사람을 죽이는 법", "str_pl": "눈빛만으로 사람을 죽이는 법의 복사본" },
+    "//": "",
+    "description": "이 책에는 말그대로 눈빛만으로 사람을 죽이는 방법에 대해 서술하고 있습니다. 중2병에 걸린 잼민이가 쓴건가 싶었으나, 자세히 읽으니 복잡한 마법술식이 쓰여있는 것으로 보아 저자는 아마 진심인 것 같습니다.",
+    "weight": "1 kg",
+    "volume": "1250 ml",
+    "price": 35000,
+    "symbol": "?",
+    "color": "black",
+    "use_action": { "type": "learn_spell", "spells": [ "necrotic_gaze", "death_eye" ] }
+  },
+  {
+    "id": "spellbook_tier_2",
+    "type": "item_group",
+    "items": [
+      ["death_eye_book", 60]
+    ]
+  }
+]

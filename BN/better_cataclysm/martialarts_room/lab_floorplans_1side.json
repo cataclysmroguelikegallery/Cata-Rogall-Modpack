@@ -1,0 +1,73 @@
+[
+  {
+    "//": "sifu vs mi-go",
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "lab_1side" ],
+    "weight": 100,
+    "object": {
+      "fill_ter": "t_thconc_floor",
+      "rows": [
+        "|--------|....|--------|",
+        "|]]]]]]]]|....|]]]]]]]]|",
+        "|]......]|...6|]......]|",
+        "|].SSSS.]|....|].SSSS.]|",
+        "|]......]|-LL-|]......]|",
+        "|].SSSS.]|....|].SSSS.]|",
+        "|......................|",
+        "|..SSSS..SSSSSS..SSSS..|",
+        "|......................|",
+        "|..SSSS..SSSSSS..SSSS..|",
+        "|......................|",
+        "|..SSSS..SSSSSS..SSSS..|",
+        "|...................7..|",
+        "|gggggggggggggggggggggL|",
+        "|''''''''''g'''''''''''|",
+        "|''''''''''g'''''''''''|",
+        "|''''''''''g'''''''''''|",
+        "|''''''''''g'''''''''''|",
+        "|''''''''''*'''''''''''|",
+        "|''''''''''g'''''''''''|",
+        "|''''''''''g'''''''''''|",
+        "|''''''''''g'''''''''''|",
+        "|''''''''''g'''''''''''|",
+        "|----------------------|"
+      ],
+      "palettes": [ "lab_palette" ],
+      "furniture": { "S": "f_sofa" },
+      "terrain": { "7": "t_console", "*": "t_thconc_floor" },
+      "place_loot": [
+        { "item": "corpse_halved_upper", "x": [ 12, 22 ], "y": [ 14, 22 ], "chance": 100 },
+        { "group": "all_martialarts", "x": [ 1, 8 ], "y": 1, "chance": 100 },
+        { "group": "all_martialarts", "x": [ 15, 22 ], "y": 1, "chance": 100 },
+        { "group": "all_martialarts", "x": [ 12, 22 ], "y": [ 14, 22 ], "chance": 100 },
+        { "group": "gi", "x": [ 12, 22 ], "y": [ 14, 22 ], "chance": 100 },
+        { "group": "judo_belts", "x": [ 12, 22 ], "y": [ 14, 22 ], "chance": 100 }
+      ],
+      "mapping": {
+        "]": { "items": [ { "item": "all_martialarts", "chance": 1 } ] },
+        "S": { "item": [ { "item": "popcorn", "chance": 1 }, { "item": "popcorn2", "chance": 2 }, { "item": "popcorn3", "chance": 2 } ] },
+        "*": { "item": [ { "item": "glass_shard", "chance": 100 }, { "item": "glass_shard", "chance": 50, "repeat": 4 } ] }
+      },
+      "computers": {
+        "6": {
+          "name": "이계체 대응 전통 무술 효용성 확인 실험공간",
+          "security": 6,
+          "options": [ { "name": "UNLOCK ENTRANCE", "action": "unlock", "security": 7 } ],
+          "failures": [ { "action": "damage" }, { "action": "shutdown" } ]
+        },
+        "7": {
+          "name": "경기장 입구",
+          "security": 1,
+          "options": [ { "name": "UNLOCK ENTRANCE", "action": "unlock", "security": 1 } ],
+          "failures": [ { "action": "damage" }, { "action": "shutdown" } ]
+        }
+      },
+      "place_monster": [
+        { "monster": [ "mon_mi_go", "mon_mi_go_guard" ], "x": [ 1, 10 ], "y": [ 14, 22 ], "chance": 100 },
+        { "monster": [ "mon_mi_go", "mon_mi_go_guard" ], "x": [ 12, 22 ], "y": [ 14, 22 ], "chance": 50 },
+        { "monster": [ "mon_mi_go", "mon_mi_go_guard" ], "x": [ 1, 22 ], "y": [ 6, 13 ], "chance": 50 }
+      ]
+    }
+  }
+]
