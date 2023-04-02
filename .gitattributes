@@ -1,0 +1,12 @@
+# 기본으로 개행문자를 lf로 인식
+* text eol=lf
+
+# json, 텍스트, 마크다운 파일을 text로 인식
+*.json text
+*.txt text
+*.md text
+
+# 이미지 파일은 binary로 인식
+*.png binary
+*.jpg binary
+*.gif binary
