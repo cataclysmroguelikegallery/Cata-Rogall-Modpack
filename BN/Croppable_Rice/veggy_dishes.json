@@ -1,0 +1,23 @@
+[
+  {
+    "type": "COMESTIBLE",
+    "id": "rice_grain",
+    "name": { "str_sp": "rice grain" },
+    "weight": "150 g",
+    "color": "yellow",
+    "spoils_in": "420 days",
+    "comestible_type": "FOOD",
+    "symbol": ".",
+    "quench": -6,
+    "calories": 222,
+    "description": "Newly harvested Massachusetts rice grain. Inedible before peel their husks. Can make seed with it.",
+    "price": 500,
+    "price_postapoc": 300,
+    "material": "veggy",
+    "primary_material": "dried_vegetable",
+    "volume": "250 ml",
+    "flags": [ "EDIBLE_FROZEN" ],
+    "vitamins": [ [ "iron", 8 ] ],
+    "fun": -25
+  }
+]

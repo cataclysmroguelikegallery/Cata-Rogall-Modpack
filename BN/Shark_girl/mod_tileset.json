@@ -1,0 +1,35 @@
+[
+  {
+    "type": "mod_tileset",
+    "compatibility": [
+      "Chibi_Ultica",
+      "UltimateCataclysm",
+      "MshockXottoplus",
+      "UNDEAD_PEOPLE",
+      "UNDEAD_PEOPLE_BASE",
+      "UNDEAD_PEOPLE_LEGACY",
+      "UlticaShell",
+      "MshockXottoplus12",
+      "MSX++DEAD_PEOPLE",
+      "MXplus12_for_cosmetics"
+    ],
+    "tiles-new": [
+     {
+        "file": "add_tile.png",
+        "tiles": [
+          {"id": "overlay_male_mutation_SHARKTEETH", "fg": 1, "rotates": false},
+          {"id": "overlay_female_mutation_SHARKTEETH", "fg": 1, "rotates": false},
+          {"id": "overlay_male_mutation_SEESLEEP", "fg": 2, "rotates": false},
+          {"id": "overlay_female_mutation_SEESLEEP", "fg": 2, "rotates": false},
+          {"id": "overlay_male_mutation_SLEEK_SCALES", "fg": 3, "rotates": false},
+          {"id": "overlay_female_mutation_SLEEK_SCALES", "fg": 4, "rotates": false}
+        ],
+        "//": "range 1 to 5",
+        "sprite_width": 32,
+        "sprite_height": 32,
+        "sprite_offset_x": 0,
+        "sprite_offset_y": 0
+      }
+        ]
+  }
+]

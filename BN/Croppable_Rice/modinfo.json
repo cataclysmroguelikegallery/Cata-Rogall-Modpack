@@ -1,0 +1,11 @@
+{
+  "type": "MOD_INFO",
+  "id": "Rice_Mod",
+  "name": "Croppable Rice",
+  "description": "Add croppable rice called Indica Massachusettstica, which is fictional plant that can be grown in New England. This mod only includes rice grain, rice seed and simple recipes for make dried rice. I made it because no one made it and I'm rice addicted Asian.",
+  "authors": [ "Coalcat" ],
+  "maintainers": [ " " ],
+  "category": "items",
+  "dependencies": [ "bn" ],
+  "path": ""
+}
