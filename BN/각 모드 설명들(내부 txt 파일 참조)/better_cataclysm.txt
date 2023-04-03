@@ -1,0 +1,22 @@
+better_cataclysm
+제작자: twkim991
+
+furnace_return
+- 드랍테이블에 존재하지 않는 CBM: 내부 용광로를 추가
+
+helicopter_rotor_spawn
+- 군용 헬기 착륙장에서 강철 셔터 부수고 들어가는 곳에 헬기 로터 스폰율을 50%로 상승시킴
+- 저거 먹어보겠다고 착륙장 수십군데를 찾아다니는 병신짓은 이제 그만~
+
+lab_more_reward
+- 연구소 보상방에서 나오는 알파뮤타젠, 랩터뮤타젠 등이 1개가 아닌 10개가 출현하도록함
+
+magiclysm_rebalance
+- 매지클리즘의 마법 지속력을 10배가량 증폭
+- '직사의 마안' 마법 추가. 이 마법은 따로 책을 얻어야 배울 수 있는데, 시전자에게 큰 피해를 입히는 대신 적에게 200-3200의 대미지를 입히는 재밌는 마법임
+
+martialarts_room
+- 확정적으로 다량의 무술책이 드랍되는 연구소 방(막사, 도서관, 죄수봉쇄실같은) 추가
+
+https://gall.dcinside.com/board/view/?id=rlike&no=389923&search_pos=-392409&s_type=search_memo&s_keyword=better&page=1
+^ 미-고 죄수 개선버전(Aftershock 모드를 선행으로 필요로 함)

@@ -1,0 +1,194 @@
+[
+  {
+	"result": "sling_smokebomb",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_EXPLOSIVE",
+    "skill_used": "cooking",
+    "skills_required": [[ "mechanics", 1 ],[ "throw", 3 ]],
+    "difficulty": 3,
+    "time": "8 m",
+    "autolearn": true,
+    "qualities": [ { "id": "SCREW", "level": 1 } ],
+    "components": [
+      [ [ "water", 1 ], [ "water_clean", 1 ], [ "salt_water", 1 ], [ "saline", 5 ] ],
+      [ [ "candy", 1 ], [ "cola", 1 ] ],
+      [ [ "vitamins", 10 ], [ "aspirin", 8 ], [ "chem_phenol", 80 ] ],
+      [ [ "canister_empty", 1 ], [ "can_food_unsealed", 1 ], [ "clay_canister", 1 ], [ "can_drink_unsealed", 1 ] ],
+	  [ [ "nail", 1 ] ],
+      [ [ "superglue", 1 ] ]
+	  ]
+  },
+  {
+    "result": "sling_smokebomb",
+	"type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_EXPLOSIVE",
+    "skill_used": "fabrication",
+    "skills_required": ["throw",3],
+    "difficulty": 2,
+    "time": "30 s",
+	"reversible":true,
+    "autolearn": true,
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [
+      [ [ "smokebomb", 1 ] ],
+	  [ [ "nail", 1 ] ]
+	  ]
+  },
+  {
+	"result": "sling_fungicidal",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_EXPLOSIVE",
+    "skill_used": "cooking",
+    "skills_required": [[ "mechanics", 1 ],["throw",3]],
+    "difficulty": 4,
+    "time": "8 m 30s",
+    "autolearn": true,
+    "book_learn": [ [ "textbook_gaswarfare", 3 ] ],
+    "qualities": [ { "id": "SCREW", "level": 1 } ],
+    "components": [
+      [ [ "bleach", 2 ], [ "oxy_powder", 200 ] ],
+      [ [ "fungicide", 50 ] ],
+      [ [ "chem_sulphur", 150 ] ],
+      [ [ "canister_empty", 1 ], [ "can_food_unsealed", 1 ], [ "can_drink_unsealed", 1 ] ],
+      [ [ "superglue", 1 ] ],
+	  [ [ "nail", 1] ]
+    ]
+  },
+  {
+    "result": "sling_fungicidal",
+	"type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_EXPLOSIVE",
+    "skill_used": "fabrication",
+    "skills_required": ["throw",3],
+    "difficulty": 2,
+    "time": "30 s",
+	"reversible":true,
+    "autolearn": true,
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [
+      [ [ "fungicidalbomb_makeshift", 1 ] ],
+	  [ [ "nail", 1 ] ]
+	  ]
+  },
+  {
+	"result": "sling_insecticidal",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_EXPLOSIVE",
+    "skill_used": "cooking",
+    "skills_required": [[ "mechanics", 1 ],["throw",3]],
+    "difficulty": 4,
+    "time": "8 m",
+    "autolearn": true,
+    "book_learn": [ [ "textbook_gaswarfare", 3 ] ],
+    "qualities": [ { "id": "SCREW", "level": 1 } ],
+    "components": [
+      [ [ "bleach", 2 ], [ "oxy_powder", 200 ] ],
+      [ [ "insecticide", 50 ] ],
+      [ [ "water", 2 ], [ "water_clean", 2 ] ],
+      [ [ "canister_empty", 1 ], [ "can_food_unsealed", 1 ], [ "can_drink_unsealed", 1 ] ],
+      [ [ "superglue", 1 ] ],
+	  [ [ "nail", 1 ] ]
+    ]
+  },
+  {
+    "result": "sling_insecticidal",
+	"type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_EXPLOSIVE",
+    "skill_used": "fabrication",
+    "skills_required": ["throw",3],
+    "difficulty": 2,
+    "time": "30 s",
+	"reversible":true,
+    "autolearn": true,
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [
+      [ [ "insecticidalbomb_makeshift", 1 ] ],
+	  [ [ "nail", 1 ] ]
+	  ]
+  },
+  {
+	"result": "sling_molotov",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_EXPLOSIVE",
+    "skill_used": "cooking",
+    "skills_required": [ "throw", 3 ],
+    "time": "1 m",
+	"reversible": true,
+    "autolearn": true,
+    "using": [ [ "accelerant_liquid", 500 ] ],
+    "components": [ [ [ "rag", 1 ] ], [ [ "bottle_glass", 1 ], [ "flask_glass", 1 ], [ "clay_canister", 1 ] ], [ ["fuse", 1] ] ]
+  },
+  {
+    "result": "sling_molotov",
+	"type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_EXPLOSIVE",
+    "skill_used": "fabrication",
+    "skills_required": ["throw",3],
+    "time": "30 s",
+	"reversible":true,
+    "autolearn": true,
+    "components": [
+      [ [ "molotov", 1 ] ],
+	  [ [ "fuse", 1 ] ]
+	  ]
+  },
+  {
+	"result": "sling_impr_pipebomb",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_EXPLOSIVE",
+    "skill_used": "fabrication",
+	"skills_required": ["throw",3],
+    "difficulty": 1,
+    "time": "15 m 30s",
+    "reversible": true,
+    "autolearn": true,
+    "qualities": [ { "id": "SAW_M", "level": 1 } ],
+    "components": [
+      [ [ "volatile_explosive", 30, "LIST" ], [ "stable_explosive", 30, "LIST" ], [ "military_explosive", 30, "LIST" ] ],
+      [ [ "pipe", 1 ] ],
+      [ [ "delay_fuze", 1 ], [ "fuse", 1 ] ],
+	  [ [ "fuse", 1] ]
+    ]
+  },
+  {
+    "result": "sling_impr_pipebomb",
+	"type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_EXPLOSIVE",
+    "skill_used": "fabrication",
+    "skills_required": ["throw",3],
+    "time": "30 s",
+	"reversible":true,
+    "autolearn": true,
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [
+      [ [ "improvised_pipebomb", 1 ] ],
+	  [ [ "fuse", 1 ] ]
+	  ]
+  },
+  {
+	"result": "sling_hand_grenade",
+	"type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_EXPLOSIVE",
+    "skill_used": "fabrication",
+    "skills_required": ["throw",3],
+	"difficulty": 4,
+    "time": "30 s",
+	"autolearn": true,
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [
+      [ [ "grenade", 1 ] ],
+	  [ [ "nail", 1 ] ]
+	  ]
+  }
+]

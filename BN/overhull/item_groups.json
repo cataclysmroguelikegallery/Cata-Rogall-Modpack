@@ -1,0 +1,38 @@
+[
+  {
+    "type" : "item_group",
+    "id" : "chem_lab",
+    "items":[
+      [ "recipe_fox", 3 ]
+    ]
+  },
+  {
+    "type" : "item_group",
+    "id" : "mut_lab",
+    "items":[
+      [ "recipe_fox", 3 ],
+      [ "iv_mutagen_fox", 2 ],
+      [ "iv_mutagen_Horse", 2 ],
+      [ "iv_mutagen_Golem", 2 ],
+      [ "iv_mutagen_Dragon", 2 ]
+    ]
+  },
+  {
+    "type" : "item_group",
+    "id" : "mut_iv",
+    "items":[
+      [ "iv_mutagen_fox", 2 ],
+      [ "iv_mutagen_Horse", 2 ],
+      [ "iv_mutagen_Golem", 2 ],
+      [ "iv_mutagen_Dragon", 2 ]
+    ]
+  },
+  {
+    "type" : "item_group",
+    "id" : "goo",
+    "items":[
+      [ "recipe_fox", 1 ]
+    ]
+  }
+]
+

@@ -1,0 +1,365 @@
+[
+  {
+    "type": "mod_tileset",
+    "compatibility": [ "MX+(Overhaul)", "MSX++DEAD_PEOPLE", "UNDEAD_PEOPLE", "UNDEAD_PEOPLE_BASE" ],
+    "tiles-new": [
+	  {
+		"file": "overhaul.png",
+		"tiles": [
+		{
+          "id": "overlay_worn_hanbok2",
+          "fg": 0,
+          "rotates": false
+		},
+		{
+          "id": "overlay_mutation_FOX_FUR",
+          "fg": 1,
+          "rotates": false
+        },
+        {
+          "id": "overlay_mutation_MUZZLE_FOX",
+          "fg": 2,
+          "rotates": false
+        },
+        {
+		  "id": "overlay_mutation_0TAIL_FOX",
+          "fg": 3,
+          "rotates": false
+        },
+		{
+          "id": "overlay_worn_miko",
+          "fg": 4,
+          "rotates": false
+        },
+        {
+          "id": "overlay_worn_miko2",
+          "fg": 5,
+          "rotates": false
+        },
+        {
+          "id": "overlay_worn_glasses_big",
+          "fg": 6,
+          "rotates": false
+        },
+        {
+          "id": "overlay_worn_ribbon",
+          "fg": 7,
+          "rotates": false
+        },
+        {
+          "id": "overlay_mutation_STONSKIN",
+          "fg": 8,
+          "rotates": false
+        },
+        {
+          "id": "overlay_mutation_STONSKIN2",
+          "fg": 8,
+          "rotates": false
+        },
+        {
+          "id": "overlay_mutation_Horse_EARS",
+          "fg": 9,
+          "rotates": false
+        },
+        {
+          "id": "overlay_mutation_TAIL_Horse",
+          "fg": 10,
+          "rotates": false
+        },
+        {
+          "id": "overlay_mutation_MUZZLE_Horse",
+          "fg": 11,
+          "rotates": false
+        },
+		{
+          "id": "overlay_worn_mudoni",
+          "fg": 12,
+          "rotates": false
+        },
+        {
+          "id": "overlay_worn_mudoni2",
+          "fg": 13,
+          "rotates": false
+		},
+        {
+          "id": "overlay_worn_hanbok",
+          "fg": 14,
+          "rotates": false
+		},
+        {
+          "id": "overlay_mutation_MUZZLE",
+          "fg": 15,
+          "rotates": false
+        },
+		{
+          "id": "lagefridge",
+          "fg": 16,
+          "bg": 36,
+          "rotates": false
+        },
+        {
+          "id": "vp_v_lagefridge",
+          "fg": 16,
+          "rotates": false,
+          "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "broken",
+              "fg": 37,
+              "bg": 16
+            }
+          ]
+        },
+        {
+          "id": "v_bookcase",
+          "fg": 17,
+          "bg": 36,
+          "rotates": false
+        },
+        {
+          "id": "vp_veh_bookcase",
+          "fg": 17,
+          "rotates": false,
+          "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "broken",
+              "fg": 37,
+              "bg": 17
+            }
+          ]
+        },
+		{
+          "id": "mediumfridge",
+          "fg": 18,
+          "bg": 36,
+          "rotates": false
+        },
+        {
+          "id": "vp_v_mediumfridge",
+          "fg": 18,
+          "rotates": false,
+          "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "broken",
+              "fg": 37,
+              "bg": 18
+            }
+          ]
+        },
+		{
+		  "id": "overlay_mutation_GILLS",
+          "fg": 19,
+          "rotates": false
+        },
+        {
+          "id": "overlay_mutation_TAIL_FIN",
+          "fg": 20,
+          "rotates": false
+        },
+        {
+          "id": "overlay_female_mutation_SLEEK_SCALES",
+          "fg": 21,
+          "rotates": false
+        },
+        {
+          "id": "overlay_male_mutation_SLEEK_SCALES",
+          "fg": 22,
+          "rotates": false
+        },
+        {
+          "id": "overlay_mutation_WEBBED",
+          "fg": 23,
+          "rotates": false
+        },
+        {
+          "id": "overlay_mutation_TAIL_THICK",
+          "fg": 24,
+          "rotates": false
+        },
+        {
+          "id": "overlay_female_mutation_THICK_SCALES",
+          "fg": 25,
+          "rotates": false
+        },
+        {
+          "id": "overlay_male_mutation_THICK_SCALES",
+          "fg": 26,
+          "rotates": false
+        },
+		{
+          "id": "overlay_wielded_toolbox",
+          "fg": 27,
+          "rotates": false
+        },
+		{
+          "id": ["overlay_wielded_welder", "overlay_wielded_welder_crude"],
+          "fg": 28,
+          "rotates": false
+        },
+		{
+          "id": "overlay_wielded_1st_aid",
+          "fg": 29,
+          "rotates": false
+        },
+		{
+          "id": "bio_glasses",
+          "fg": 30,
+          "rotates": false
+        },
+		{
+          "id": "overlay_worn_bio_glasses",
+          "fg": 30,
+          "rotates": false
+        },
+		{
+          "id": "hair_ribbon",
+          "fg": 31,
+          "rotates": false
+        },
+		{
+          "id": "overlay_worn_hair_ribbon",
+          "fg": 31,
+          "rotates": false
+        },
+		{
+          "id": "bio_glasses_on",
+          "fg": 32,
+          "rotates": false
+        },
+		{
+          "id": "overlay_worn_bio_glasses_on",
+          "fg": 32,
+          "rotates": false
+        },
+        {
+          "id": "overlay_mutation_TALONS",
+          "fg": 33,
+          "rotates": false
+        },
+        {
+          "id": "overlay_mutation_Dragon_SCALES",
+          "fg": 34,
+          "rotates": false
+        },
+        {
+          "id": "overlay_mutation_RAP_TALONS",
+          "fg": 35,
+          "rotates": false
+        },
+        {
+          "id": "overlay_worn_shield_steel_kite",
+          "fg": 36,
+          "rotates": false
+        },
+        {
+          "id": "shield_steel_kite",
+          "fg": 37,
+          "rotates": false
+        },
+		{
+          "id": "recipe_fox",
+          "fg": 38,
+          "rotates": false
+        },
+		{
+          "id": ["mutagen_fox", "iv_mutagen_fox", "mutagen_Horse", "iv_mutagen_Horse", "mutagen_Golem", "iv_mutagen_Golem", "mutagen_Dragon", "iv_mutagen_Dragon"],
+          "fg": 39,
+          "rotates": false
+        },
+		{
+          "id": ["minifridge", "minifreezer"],
+          "fg": 40,
+          "rotates": false
+        },
+		{
+          "id": ["vp_mediumfreezer", "mediumfreezer"],
+          "fg": 41,
+          "rotates": false
+        },
+		{
+          "id": ["washing_machine", "vp_washing_machine"],
+          "fg": 42,
+          "rotates": false
+        },
+        {
+          "id": ["weldrig", "vp_welding_rig"],
+          "fg": 43,
+          "rotates": false
+        },
+        {
+          "id": "vp_veh_forge",
+          "fg": 44,
+          "rotates": false,
+          "multitile": true
+        },
+        {
+          "id": ["vp_surv_station_t", "surv_station", "vp_craft_rig"],
+          "fg": 45,
+          "rotates": false,
+          "multitile": true
+        },
+        {
+          "id": ["kitchen_unit", "vp_kitchen_unit"],
+          "fg": 46,
+          "rotates": false
+        },
+        {
+          "id": ["chemlab", "vp_chemlab"],
+          "fg": 47,
+          "rotates": false
+        },
+		{
+          "id": "vp_halfboard_ne",
+          "fg": 48,
+          "rotates": true,
+          "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "broken",
+              "fg": 49
+            }
+          ]
+        },
+        {
+          "id": "vp_xlhalfboard_ne",
+          "fg": 48,
+          "rotates": true,
+          "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "broken",
+              "bg": 49
+            }
+          ]
+        },
+        {
+          "id": "vp_halfboard_nw",
+          "fg": 50,
+          "rotates": true,
+          "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "broken",
+              "fg": 51
+            }
+          ]
+        },
+        {
+          "id": "vp_xlhalfboard_nw",
+          "fg": 50,
+          "rotates": true,
+          "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "broken",
+              "bg": 51
+            }
+          ]
+        }
+		]
+	  }
+    ]
+  }
+]
