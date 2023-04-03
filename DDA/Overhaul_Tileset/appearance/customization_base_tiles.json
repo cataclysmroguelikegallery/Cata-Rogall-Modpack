@@ -1,0 +1,62 @@
+[
+  {
+    "type": "mod_tileset",
+    "compatibility": [ "MX+(Overhaul)", "MSX++DEAD_PEOPLE", "UNDEAD_PEOPLE", "UNDEAD_PEOPLE_BASE" ],
+    "tiles-new": [
+	  {
+		"file": "overhaul_customization_base.png",
+		"tiles": [
+		{
+		  "id": "player_female",
+		  "fg": 0,
+		  "bg": 2
+		},
+		{
+		  "id": "player_male",
+		  "fg": 1,
+		  "bg": 2
+		},        
+		{
+		  "id": "npc_female",
+		  "fg": 0,
+		  "bg": 2
+		},
+		{
+		  "id": "npc_male",
+		  "fg": 1,
+		  "bg": 2
+		},
+		{ "id": "overlay_female_mutation_PALE", "fg": 4, "rotates": false },
+		{ "id": "overlay_male_mutation_PALE", "fg": 5, "rotates": false },
+		{ "id": "overlay_female_mutation_ALBINO", "fg": 4, "rotates": false },
+		{ "id": "overlay_male_mutation_ALBINO", "fg": 5, "rotates": false },
+		
+		{ "id": "overlay_female_mutation_SKIN_LIGHT", "fg": 6, "rotates": false },
+		{ "id": "overlay_male_mutation_SKIN_LIGHT", "fg": 7, "rotates": false },
+		{ "id": "overlay_female_mutation_SKIN_MEDIUM", "fg": 8, "rotates": false },
+		{ "id": "overlay_male_mutation_SKIN_MEDIUM", "fg": 9, "rotates": false },
+		{ "id": "overlay_female_mutation_SKIN_TAN", "fg": 10, "rotates": false },
+		{ "id": "overlay_male_mutation_SKIN_TAN", "fg": 11, "rotates": false },
+		{ "id": "overlay_female_mutation_SKIN_DARK", "fg": 12, "rotates": false },
+		{ "id": "overlay_male_mutation_SKIN_DARK", "fg": 13, "rotates": false },
+		{ "id": "overlay_female_mutation_SKIN_PINK", "fg": 14, "rotates": false },
+		{ "id": "overlay_male_mutation_SKIN_PINK", "fg": 15, "rotates": false },
+		{ "id": "overlay_female_mutation_SKIN_YELLOW", "fg": 16, "rotates": false },
+		{ "id": "overlay_male_mutation_SKIN_YELLOW", "fg": 17, "rotates": false },
+		
+		{ "id": "overlay_female_mutation_EYE_BLUE", "fg": 20, "rotates": false },
+		{ "id": "overlay_male_mutation_EYE_BLUE", "fg": 21, "rotates": false },
+		{ "id": "overlay_female_mutation_EYE_GRAY", "fg": 22, "rotates": false },
+		{ "id": "overlay_male_mutation_EYE_GRAY", "fg": 23, "rotates": false },
+		{ "id": "overlay_female_mutation_EYE_BROWN", "fg": 24, "rotates": false },
+		{ "id": "overlay_male_mutation_EYE_BROWN", "fg": 25, "rotates": false },
+		{ "id": "overlay_female_mutation_EYE_GREEN", "fg": 26, "rotates": false },
+		{ "id": "overlay_male_mutation_EYE_GREEN", "fg": 27, "rotates": false },
+		{ "id": "overlay_female_mutation_EYE_RED", "fg": 28, "rotates": false },
+		{ "id": "overlay_male_mutation_EYE_RED", "fg": 29, "rotates": false },
+		{ "id": "overlay_female_mutation_EYE_YELLOW", "fg": 30, "rotates": false }
+		]
+	  }
+    ]
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "type": "vehicle_part",
+    "id": "sq_adv_workbench",
+    "name": { "str": "차량용 머니퓰레이터 작업대" },
+    "symbol": "#",
+    "color": "cyan",
+    "broken_symbol": "#",
+    "broken_color": "light_gray",
+    "damage_modifier": 60,
+    "durability": 120,
+    "size": 120,
+    "item": "sq_adv_workbench",
+    "location": "center",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 1 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 1 ] ], "time": "30 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 2 ] ], "time": "60 m", "using": [ [ "welding_standard", 10 ] ] }
+    },
+    "flags": [ "CARGO", "OBSTACLE", "FLAT_SURF", "WELDRIG", "WORKBENCH" ],
+    "breaks_into": [
+      { "item": "pipe", "count": [ 4, 6 ] },
+      { "item": "sheet_metal", "count": [ 0, 1 ] },
+      { "item": "sheet_metal_small", "count": [ 12, 24 ] },
+      { "item": "steel_chunk", "count": [ 4, 8 ] },
+      { "item": "scrap", "count": [ 12, 24 ] }
+    ],
+    "workbench": { "multiplier": 2.0, "mass": 500000, "volume": "50L" },
+    "damage_reduction": { "all": 29 }
+  },
+  {
+    "id": "sq_space_anomaly",
+    "type": "vehicle_part",
+    "name": "차원 저장고",
+    "//": "Keep away from Svarog detectors!",
+    "item": "sq_space_anomaly",
+    "location": "center",
+    "symbol": "O",
+    "broken_symbol": "O",
+    "color": "magenta",
+    "broken_color": "magenta",
+    "durability": 400,
+    "size": 40000,
+    "cargo_weight_modifier": 0,
+    "breaks_into": [  ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 8 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] },
+      "removal": { "skills": [ [ "mechanics", 6 ] ], "time": "45 m", "using": [ [ "vehicle_weld_removal", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 9 ] ], "time": "25 m", "using": [ [ "welding_standard", 5 ] ] }
+    },
+    "flags": [ "CARGO", "COVERED", "UNMOUNT_ON_DAMAGE" ]
+  }
+]

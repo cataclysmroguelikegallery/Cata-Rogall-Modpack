@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "better_cataclysm",
+    "name": "better cataclysm",
+    "authors": [ "twkim991" ],
+    "description": "카타클의 불합리하고 불공평한 부분을 수정합니다. 자세한건 readme 파일 참조",
+    "category": "rebalance",
+    "dependencies": [ "bn" ]
+  }
+]

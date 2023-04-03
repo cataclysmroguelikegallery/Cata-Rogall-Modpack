@@ -1,0 +1,15 @@
+[
+  {
+    "id": "GAS_FUNGICIDAL_GRENADE",
+    "type": "ammo_effect",
+    "copy-from": "GAS_FUNGICIDAL",
+    "extend": { "aoe": { "radius": 6 } }
+  },
+
+  {
+    "id": "GAS_INSECTICIDAL_GRENADE",
+    "type": "ammo_effect",
+    "copy-from": "GAS_INSECTICIDAL",
+    "extend": { "aoe": { "radius": 6 } }
+  }
+]

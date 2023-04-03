@@ -1,0 +1,22 @@
+[
+  {
+    "id": "recipe_fox",
+    "type": "BOOK",
+    "category": "manuals",
+    "name" : "Tyep2 : 전설의 생명체 재현",
+    "description" : "신화속의 짐승을 구현해보고자하는 과학자들의 연구서. 업데이트로 인해 일부 내용이 검열처리되었습니다.",
+    "weight": "1200 g",
+    "volume": "250 ml",
+    "price": 50000,
+    "price_postapoc": 2000,
+    "material": [ "paper" ],
+    "symbol": "?",
+    "color": "light_green",
+    "skill": "chemistry",
+    "required_level": 6,
+    "max_level": 7,
+    "intelligence": 13,
+    "time": "45 m",
+    "fun": -2
+  }
+]

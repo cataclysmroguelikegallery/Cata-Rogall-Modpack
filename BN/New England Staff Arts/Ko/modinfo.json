@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "NE_Staff_arts",
+    "name": "뉴 잉글랜드 지팡이술",
+    "authors": [ "NappingOcean" ],
+    "description": "무술: 뉴 잉글랜드 지팡이술을 추가합니다. 자동습득 가능합니다.",
+    "category": "misc_additions",
+    "dependencies": [ "bn" ]
+  }
+]

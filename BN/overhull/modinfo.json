@@ -1,0 +1,12 @@
+[    
+  {
+    "type": "MOD_INFO",
+	"category": "SUPPLEMENTAL",
+	"ident": "Overhaul Tileset",
+	"authors": [ "비창", "고양이", "Xotto", "로갤" ],
+	"maintainers": [ "Gallatin", "flamesuit" ],
+	"name": "Overhaul Tileset",
+	"description": "MX+Tileset(Overhaul)의 모드판. Overhaul 타일셋을 적용시키고, 새로운 외형을 추가합니다.",
+	"dependencies": [ "bn" ]
+  }
+]

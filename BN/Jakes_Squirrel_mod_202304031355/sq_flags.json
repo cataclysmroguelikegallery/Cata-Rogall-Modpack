@@ -1,0 +1,20 @@
+[
+  {
+    "id": "nomex_padded",
+    "type": "json_flag",
+    "context": [ "ARMOR", "TOOL_ARMOR" ],
+    "info": "이 장비는 노멕스를 덧대어 <good>화염 방호력이 향상</good>되었습니다"
+  },
+ {
+    "id": "lightened",
+    "type": "json_flag",
+    "context": [ "ARMOR", "TOOL_ARMOR" ],
+    "info": "이 장비는 안감을 빼내어 <good>방해도와 보온도가 감소</good>되었지만, <bad>방어력 또한 감소</bad>되었습니다"
+  },
+ {
+    "id": "pockets",
+    "type": "json_flag",
+    "context": [ "ARMOR", "TOOL_ARMOR" ],
+    "info": "이 장비는 주머니를 부착하여 <good>저장 공간이 늘었</good>지만 <bad>방해도가 조금 증가</bad>되었습니다"
+  }
+]

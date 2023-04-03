@@ -1,0 +1,815 @@
+[
+    {
+        "type" : "mutation",
+        "id" : "TAIL_NINE",
+        "name" : "나인테일",
+        "points" : 2,
+        "visibility" : 9,
+        "ugliness" : -3,
+        "bodytemp_sleep" : 1000,
+        "bodytemp_modifiers" : [0, 250],
+        "description" : "당신은 9개나 되는 꼬리를 가졌습니다. 여차하면 침대 대신 덮고 잘 수 있을 정도로 폭신푹신하며 뛰어난 보온효과를 제공합니다. 다만 꼬리수가 많아진 탓에 회피능력 보너스가 기존보다 약간 감소합니다.",
+        "types" : [ "TAIL" ],
+		"prereqs" : [ "0TAIL_FOX" ],
+        "category" : [ "FOX" ],
+        "threshreq" : [ "THRESH_FOX" ],
+        "restricts_gear" : [ "LEG_L", "LEG_R" ],
+        "allow_soft_gear" : true,
+        "social_modifiers" : { "lie": -15 , "persuade": 25 },
+        "dodge_modifier" : 3
+    },
+	{
+        "type" : "mutation",
+        "id" : "0TAIL_FOX",
+        "name" : "노란 솜털꼬리",
+        "points" : 1,
+        "visibility" : 7,
+        "ugliness" : -2,
+		"description" : "노란색의 길고 푹신한 털이 달린 꼬리가 생겼습니다. 이 꼬리는 몸의 균형을 잡는데 도움이 되고, 회피 능력을 대폭 향상시켜줍니다. 그렇지만 꼬리가 걸리적거려서 다리에 천 재질이 아닌 의복을 착용할 수 없게 됩니다.",
+        "changes_to" : [ "TAIL_NINE" ],
+		"types" : [ "TAIL" ],
+        "prereqs" : [ "TAIL_LONG" ],
+        "category" : [ "FOX" ],
+        "restricts_gear" : [ "LEG_L", "LEG_R" ],
+        "allow_soft_gear" : true,
+        "social_modifiers" : { "lie": -20 , "persuade": 25 },
+        "dodge_modifier" : 4
+    },
+	{
+        "type" : "mutation",
+        "id" : "HORNS_POINTED",
+		"copy-from": "HORNS_POINTED",
+		"extend": { "category": [ "DRAGON" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "TAIL_LONG",
+		"copy-from" : "TAIL_LONG",
+		"extend": { "changes_to" : [ "0TAIL_FOX", "TAIL_Horse" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "TAIL_Horse",
+        "name" : "포니테일",
+        "points" : 1,
+        "visibility" : 7,
+        "description" : "당신은 포니테일을 가지고 있습니다. 머리스타일이 아닌 진짜 포니테일을요. 회피에 보너스가 주어집니다. 그렇지만 꼬리가 걸리적거려서 다리에 천 재질이 아닌 의복을 착용할 수 없게 됩니다.",
+        "types" : [ "TAIL" ],
+		"prereqs" : [ "TAIL_LONG" ],
+        "category" : [ "HORSE" ],
+        "restricts_gear" : [ "LEG_L", "LEG_R" ],
+        "allow_soft_gear" : true,
+		"dodge_modifier" : 3
+    },
+	{
+        "type" : "mutation",
+        "id" : "TAIL_RAPTOR",
+		"copy-from" : "TAIL_RAPTOR",
+		"extend": { "category": [ "DRAGON" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "SLIT_NOSTRILS",
+		"copy-from" : "SLIT_NOSTRILS",
+		"extend": { "category": [ "DRAGON" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "THICKSKIN",
+		"copy-from" : "THICKSKIN",
+        "name" : "Thick-Skinned",
+		"extend": { "category": [ "HORSE" ], "changes_to" : [ "STONSKIN" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "STONSKIN",
+        "name" : "돌 피부",
+        "points" : 2,
+        "visibility" : 5,
+        "ugliness" : 3,
+        "description" : "당신의 피부는 사포로 문질러도 멀쩡할 정도로 매우 딱딱해졌습니다. 움직임이 약간 불편해지지만 받는 절단 피해를 감소시킵니다.",
+        "category" : [ "GOLEM" ],
+		"types" : [ "SKIN" ],
+        "prereqs" : [ "THICKSKIN" ],
+		"changes_to" : [ "STONSKIN2" ],
+        "encumbrance_always" : [
+            [ "TORSO", 8 ],
+            [ "HEAD", 8 ],
+            [ "ARM_L", 8 ],
+            [ "ARM_R", 8 ],
+            [ "HAND_L", 8 ],
+            [ "HAND_R", 8 ],
+            [ "LEG_L", 8 ],
+            [ "LEG_R", 8 ],
+            [ "FOOT_L", 8 ],
+            [ "FOOT_R", 8 ]
+        ],
+        "armor" : [ { "parts" : "ALL", "cut" : 5 } ]
+    },
+	{
+        "type" : "mutation",
+        "id" : "STONSKIN2",
+        "name" : "암석 피부",
+        "points" : 4,
+        "visibility" : 8,
+        "ugliness" : 9,
+        "description" : "당신의 피부는 생기를 잃었고 무기질에 가까워졌습니다. 움직임이 불편해지지만 받는 절단 피해를 크게 감소시키며 타격 피해 또한 감소합니다.",
+        "category" : [ "GOLEM" ],
+		"types" : [ "SKIN" ],
+        "threshreq" : [ "THRESH_Golem" ],
+        "prereqs" : [ "STONSKIN" ],
+        "encumbrance_always" : [
+            [ "TORSO", 25 ],
+            [ "HEAD", 25 ],
+            [ "ARM_L", 25 ],
+            [ "ARM_R", 25 ],
+            [ "HAND_L", 25 ],
+            [ "HAND_R", 25 ],
+            [ "LEG_L", 25 ],
+            [ "LEG_R", 25 ],
+            [ "FOOT_L", 25 ],
+            [ "FOOT_R", 25 ]
+        ],
+        "armor" : [ { "parts" : "ALL", "cut" : 14 }, { "parts" : "ALL", "bash" : 6 } ]
+    },
+	{
+        "type" : "mutation",
+        "id" : "MUT_TOUGH",
+		"copy-from" : "MUT_TOUGH",
+		"extend": { "threshreq" : [ "THRESH_Golem", "THRESH_Dragon" ], "category" : [ "GOLEM", "DRAGON" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "TOUGH2",
+		"copy-from" : "TOUGH2",
+        "extend": { "category" : [ "GOLEM", "DRAGON" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "TOUGH3",
+		"copy-from" : "TOUGH3",
+        "extend": { "category" : [ "GOLEM" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "MUT_TOUGH2",
+		"copy-from" : "MUT_TOUGH2",
+        "extend": { "threshreq" : [ "THRESH_Golem" ], "category" : [ "GOLEM" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "MUT_TOUGH3",
+		"copy-from": "MUT_TOUGH3",
+        "extend": { "threshreq" : [ "THRESH_Golem" ], "category" : [ "GOLEM" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "WINGS_BIRD",
+		"copy-from" : "WINGS_BIRD",
+        "extend": { "category" : [ "HORSE" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "HUGE",
+		"copy-from" : "HUGE",
+        "name" : "Freakishly Huge",
+		"extend": { "category" : [ "GOLEM", "DRAGON" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "GROWL",
+		"copy-from" : "GROWL",
+		"extend": { "category" : [ "GOLEM" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "VOMITOUS",
+		"copy-from" : "VOMITOUS",
+        "extend": { "category" : [ "GOLEM" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "SLOWRUNNER",
+		"copy-from" : "SLOWRUNNER",
+        "extend": { "category" : [ "GOLEM" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "CLUMSY",
+		"copy-from" : "CLUMSY",
+        "extend": { "category" : [ "GOLEM" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "PONDEROUS3",
+		"copy-from" : "PONDEROUS3",
+        "extend": { "category" : [ "GOLEM" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "SLOWHEALER",
+		"copy-from" : "SLOWHEALER",
+        "extend": { "category" : [ "GOLEM" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "STRONGBACK",
+		"copy-from" : "STRONGBACK",
+        "extend": { "category" : [ "HORSE", "GOLEM" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "LIGHTFUR",
+		"copy-from" : "LIGHTFUR",
+		"extend": { "changes_to" : [ "FOX_FUR" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "FOX_FUR",
+        "name" : "노란 털가죽",
+        "points" : 2,
+        "visibility" : 10,
+        "ugliness" : 0,
+        "bodytemp_modifiers" : [100, 500],
+        "bodytemp_sleep" : 250,
+        "description" : "포근한 금빛 털이 온몸을 덮었습니다. 상당한 보온효과를 가집니다.",
+        "types" : [ "SKIN" ],
+        "prereqs" : [ "LIGHTFUR" ],
+        "category" : [ "FOX" ],
+        "armor" : [ { "parts" : "ALL", "bash" : 1 } ]
+    },
+	{
+        "type" : "mutation",
+        "id" : "SCALES",
+		"copy-from" : "SCALES",
+		"extend": { "category" : [ "DRAGON" ], "changes_to" : [ "Dragon_SCALES" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "Dragon_SCALES",
+        "name" : "용 비늘",
+        "points" : 5,
+        "visibility" : 10,
+        "ugliness" : 6,
+        "mixed_effect" : true,
+        "description" : "몸의 비늘이 붉은 빛을 띄며 더욱 단단해졌습니다. 이 비늘은 화염에 내성이 있고 높은 방어력을 가지고 있습니다. 그러나 움직이기 불편해서 민첩성이 2 감소하고 방해도도 약간 증가합니다. 또한 젖음 페널티를 크게 줄여줍니다.",
+		"types" : [ "SKIN" ],
+        "prereqs" : ["SCALES"],
+        "category" : [ "DRAGON" ],
+        "encumbrance_always" : [
+            [ "TORSO", 5 ],
+            [ "HEAD", 5 ],
+            [ "ARM_L", 5 ],
+            [ "ARM_R", 5 ],
+            [ "HAND_L", 5 ],
+            [ "HAND_R", 5 ],
+            [ "LEG_L", 5 ],
+            [ "LEG_R", 5 ],
+            [ "FOOT_L", 5 ],
+            [ "FOOT_R", 5 ]
+        ],
+        "wet_protection" : [
+            { "part" : "HEAD", "ignored" : 5 },
+            { "part" : "LEG_L", "ignored" : 16 },
+            { "part" : "LEG_R", "ignored" : 16 },
+            { "part" : "FOOT_L", "ignored" : 5 },
+            { "part" : "FOOT_R", "ignored" : 5 },
+            { "part" : "ARM_L", "ignored" : 14 },
+            { "part" : "ARM_R", "ignored" : 14 },
+            { "part" : "HAND_L", "ignored" : 4 },
+            { "part" : "HAND_R", "ignored" : 4 },
+            { "part" : "TORSO", "ignored" : 30 }
+        ],
+        "armor" : [ { "parts" : "ALL", "cut" : 18 }, { "parts" : "ALL", "bash" : 12 }  ],
+        "passive_mods" : {
+            "dex_mod" : -2
+        }
+    },
+	{
+        "type" : "mutation",
+        "id" : "SNOUT",
+		"copy-from" : "SNOUT",
+        "extend": { "changes_to" : [ "MUZZLE_FOX", "MUZZLE_Horse", "MUZZLE_Dragon" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "MUZZLE_FOX",
+        "name" : "여우 주둥이",
+        "points" : -1,
+        "visibility" : 3,
+        "ugliness" : 0,
+        "description" : "당신의 입이 뾰족한 여우 주둥이로 변했습니다.",
+        "types" : [ "MUZZLE" ],
+        "prereqs" : ["SNOUT"],
+        "category" : [ "FOX" ],
+        "restricts_gear" : [ "MOUTH" ]
+    },
+	{
+        "type" : "mutation",
+        "id" : "MUZZLE_Horse",
+        "name" : "말 주둥이",
+        "points" : -2,
+        "visibility" : 9,
+        "ugliness" : 8,
+        "description" : "당신의 입은 진짜 말처럼 매우 길쭉하게 변했습니다.",
+        "types" : [ "MUZZLE" ],
+        "prereqs" : ["SNOUT"],
+        "category" : [ "HORSE" ],
+        "restricts_gear" : [ "MOUTH" ]
+    },
+	{
+        "type" : "mutation",
+        "id" : "SABER_TEETH",
+		"copy-from" : "SABER_TEETH",
+        "extend": { "threshreq" : [ "THRESH_Dragon" ], "category" : [ "DRAGON" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "MUZZLE_Dragon",
+        "name" : "용 머리",
+        "points" : -3,
+        "visibility" : 7,
+        "ugliness" : 6,
+        "mixed_effect" : true,
+        "description" : "당신의 얼굴과 턱이 붉고, 크고, 강력하게 변화했습니다. 보기에는 징그럽지만 적을 물어뜯기에 탁월합니다.",
+        "types" : [ "MUZZLE" ],
+        "prereqs" : ["SNOUT"],
+        "category" : [ "DRAGON" ],
+        "threshreq" : ["THRESH_Dragon"],
+        "restricts_gear" : [ "HEAD", "MOUTH" ],
+        "social_modifiers" : { "intimidate" : 20 },
+        "attacks" : {
+            "attack_text_u" : "%s(을)를 한웅큼 깨뭅니다.",
+            "attack_text_npc" : "%1$s(이)가 %2$s(을)를 한웅큼 깨뭅니다.",
+            "blocker_mutations" : [ "FANGS" ],
+            "body_part" : "MOUTH",
+            "chance" : 24,
+            "base_damage" : { "damage_type" : "cut", "amount" : 24 }
+        }
+    },
+	{
+        "type" : "mutation",
+        "id" : "RAP_TALONS",
+		"copy-from" : "RAP_TALONS",
+        "extend": { "category" : [ "DRAGON" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "SNARL",
+		"copy-from" : "SNARL",
+        "extend": { "category" : [ "DRAGON" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "WINGS_BAT",
+		"copy-from" : "WINGS_BAT",
+        "extend": { "category" : [ "DRAGON" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "MEATARIAN",
+		"copy-from" : "MEATARIAN",
+        "extend": { "category" : [ "FOX" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "THRESH_FOX",
+        "name" : "여우",
+        "points" : 1,
+        "description" : "문명이 멸망했지만 당신은 괜찮습니다. 산과 들, 숲이 당신의 집이니까요.",
+        "valid": false,
+        "purifiable": false,
+        "threshold": true
+    },
+	{
+        "type" : "mutation",
+        "id" : "THRESH_Horse",
+        "name" : "페가수스",
+        "points" : 1,
+        "description" : "앞으로 나아가고 전진하며 달립니니다. 그게 당신의 삶이니까요.",
+        "valid": false,
+        "purifiable": false,
+        "threshold": true
+    },
+	{
+        "type" : "mutation",
+        "id" : "THRESH_Golem",
+        "name" : "골렘",
+        "points" : 1,
+        "description" : "당신은 누군가에게 자신이 살아있다고 감히 말할 수 없는 지경에 이르렀습니다",
+        "valid": false,
+        "purifiable": false,
+        "threshold": true
+    },
+	{
+        "type" : "mutation",
+        "id" : "THRESH_Dragon",
+        "name" : "드래곤",
+        "points" : 1,
+        "description" : "그 어떤 것도... 당신을 쉬이 불태우거나 쓰러뜨릴 수 없을 것입니다.",
+        "valid": false,
+        "purifiable": false,
+        "threshold": true
+    },
+	{
+        "type" : "mutation",
+        "id" : "FLEET2",
+		"copy-from" : "FLEET2",
+        "extend": { "category" : [ "HORSE" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "LARGE",
+		"copy-from" : "LARGE",
+        "extend": { "category" : [ "HORSE" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "RUMINANT",
+		"copy-from" : "RUMINANT",
+        "extend": { "category" : [ "HORSE" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "QUICK",
+		"copy-from" : "QUICK",
+        "extend": { "category" : [ "FOX", "DRAGON" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "FLEET",
+		"copy-from" : "FLEET",
+        "extend": { "category" : [ "FOX" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "SMELLY",
+		"copy-from" : "SMELLY",
+        "extend": { "category" : [ "FOX" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "PAWS",
+		"copy-from" : "PAWS",
+        "extend": { "category" : [ "FOX" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "TALONS",
+		"copy-from" : "TALONS",
+        "extend": { "category" : [ "DRAGON" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "CANINE_EARS",
+		"copy-from" : "CANINE_EARS",
+		"extend": { "changes_to" : [ "FOX_EARS", "Horse_EARS", "Rabbit_EARS" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "FOX_EARS",
+        "name" : "여우 귀",
+        "points" : 2,
+        "visibility" : 5,
+        "ugliness" : -2,
+        "description" : "당신의 귀는 뾰족하고 매우 눈에 띕니다. 소리를 듣는데 탁월합니다.",
+		"types" : [ "EARS" ],
+		"prereqs" : [ "CANINE_EARS" ],
+        "category" : [ "FOX" ],
+        "hearing_modifier" : 2.25
+    },
+	{
+        "type" : "mutation",
+        "id" : "Rabbit_EARS",
+        "name" : "토끼 귀",
+        "points" : -1,
+        "visibility" : 10,
+        "ugliness" : -2,
+        "description" : "이 엄청나게 길쭉한 귀는... 마치 토끼가 된 느낌입니다. 보기에 좋고 소리를 듣는데 큰 도움이 되지만, 일반적인 장비를 머리에 착용할 수 없게 됩니다.",
+		"types" : [ "EARS" ],
+        "category" : [ "MUTCAT_CATTLE" ],
+		"prereqs" : [ "CANINE_EARS" ],
+        "restricts_gear" : [ "HEAD" ],
+		"hearing_modifier" : 1.75
+    },
+	{
+        "type" : "mutation",
+        "id" : "Horse_EARS",
+        "name" : "말 귀",
+        "points" : 2,
+        "visibility" : 5,
+        "ugliness" : 4,
+        "description" : "당신의 귀는 작지만 모양새 있는 말의 귀가 되었습니다. 소리를 듣는데 도움이 됩니다.",
+		"types" : [ "EARS" ],
+		"prereqs" : [ "CANINE_EARS" ],
+        "category" : [ "HORSE" ],
+		"hearing_modifier" : 1.25
+    },
+	{
+        "type" : "mutation",
+        "id" : "HOOVES",
+		"copy-from" : "HOOVES",
+        "extend": { "category" : [ "HORSE" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "BEAUTIFUL",
+		"copy-from" : "BEAUTIFUL",
+        "extend": { "category" : [ "FOX" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "BEAUTIFUL4",
+        "name" : "신화적 매력",
+        "points" : 6,
+        "visibility" : 14,
+        "ugliness" : -14,
+        "description" : "당신은 이야기 속에서나 나올법한 미모를 가졌습니다. 누구라도 당신에게 호의를 가지지 않고는 못 배길겁니다.",
+        "cancels" : [ "UGLY", "DEFORMED", "DEFORMED2", "DEFORMED3" ],
+        "prereqs" : [ "BEAUTIFUL3" ],
+        "threshreq" : [ "THRESH_FOX" ],
+        "category": [ "FOX" ],
+		"social_modifiers" : { "persuade": 30 }
+    },
+	{
+        "type" : "mutation",
+        "id" : "UGLY",
+		"copy-from" : "UGLY",
+		"extend": { "cancels" : [ "BEAUTIFUL4" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "DEFORMED",
+		"copy-from" : "DEFORMED",
+        "extend": { "cancels" : [ "BEAUTIFUL4" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "DEFORMED2",
+		"copy-from" : "DEFORMED2",
+        "extend": { "cancels" : [ "BEAUTIFUL4" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "DEFORMED3",
+		"copy-from" : "DEFORMED3",
+		"extend": { "cancels" : [ "BEAUTIFUL4" ], "category" : [ "GOLEM", "DRAGON" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "LIGHTSTEP",
+		"copy-from" : "LIGHTSTEP",
+        "extend": { "category" : [ "FOX" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "PADDED_FEET",
+		"copy-from" : "PADDED_FEET",
+        "extend": { "category" : [ "FOX" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "STR_UP_2",
+		"copy-from" : "STR_UP_2",
+        "extend": { "category" : [ "HORSE" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "STR_UP_3",
+		"copy-from" : "STR_UP_3",
+        "extend": { "category" : [ "GOLEM", "DRAGON" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "STR_UP_4",
+		"copy-from" : "STR_UP_4",
+		"extend": { "threshreq" : [ "THRESH_Golem", "THRESH_Dragon" ], "category" : [ "GOLEM", "DRAGON" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "DEX_UP_2",
+		"copy-from" : "DEX_UP_2",
+		"extend": { "category" : [ "FOX" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "DEX_UP_3",
+		"copy-from" : "DEX_UP_3",
+		"extend": { "changes_to" : [ "DEX_UP_Horse" ], "category" : [ "HORSE" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "INT_UP_2",
+		"copy-from" : "INT_UP_2",
+		"extend": { "changes_to" : [ "INT_UP_FOX" ], "category" : [ "FOX" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "PER_UP_2",
+		"copy-from" : "PER_UP_2",
+        "extend": { "category" : [ "FOX" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "GOODCARDIO",
+		"copy-from" : "GOODCARDIO",
+        "extend": { "category" : [ "HORSE" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "GOODCARDIO2",
+		"copy-from" : "GOODCARDIO2",
+        "extend": { "threshreq" : [ "THRESH_Horse" ], "category" : [ "HORSE" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "DEX_UP_Horse",
+        "name" : "말의 민첩성",
+        "points" : 3,
+        "threshreq" : [ "THRESH_Horse" ],
+        "description" : "당신은 달리기 위해 존재합니다. 민첩성 +5",
+        "prereqs" : [ "DEX_UP_3" ],
+        "category" : [ "HORSE" ],
+        "passive_mods" : {
+            "dex_mod" : 5
+        }
+    },
+	{
+        "type" : "mutation",
+        "id" : "DEX_DOWN",
+        "name" : "골렘의 둔함",
+        "points" : -1,
+        "visibility" : 7,
+        "ugliness" : 7,
+        "description" : "몸이 이상하리만치 둔해진 느낌입니다. 그대신 힘이 강해진 느낌도 함께 듭니다. 체력 +2, 민첩성 -2",
+        "category" : [ "GOLEM" ],
+        "passive_mods" : {
+            "str_mod" : 2,
+            "dex_mod" : -2
+        }
+    },
+	{
+        "type" : "mutation",
+        "id" : "INT_UP_FOX",
+        "name" : "여우의 교활함",
+        "points" : 4,
+        "threshreq" : [ "THRESH_FOX" ],
+        "description" : "어째서인지 머리가 매우 좋아진 느낌입니다. 지능 +5",
+        "prereqs" : [ "INT_UP_2" ],
+        "category" : [ "FOX" ],
+        "passive_mods" : {
+            "int_mod" : 5
+        }
+    },
+	{
+        "type" : "mutation",
+        "id" : "BADTEMPER",
+		"copy-from" : "BADTEMPER",
+        "extend": { "category" : [ "HORSE" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "PARKOUR",
+		"copy-from" : "PARKOUR",
+        "extend": { "threshreq" : [ "THRESH_Horse" ], "category" : [ "HORSE" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "PAINREC2",
+		"copy-from" : "PAINREC2",
+        "extend": { "category" : [ "DRAGON" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "PAINREC3",
+		"copy-from" : "PAINREC3",
+        "extend": { "category" : [ "GOLEM" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "NOPAIN",
+		"copy-from" : "NOPAIN",
+		"extend": { "threshreq" : [ "THRESH_Golem" ], "category" : [ "GOLEM" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "DISRESISTANT",
+		"copy-from" : "DISRESISTANT",
+        "extend": { "category" : [ "GOLEM" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "INFRESIST",
+		"copy-from" : "INFRESIST",
+        "extend": { "category" : [ "GOLEM" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "DISIMMUNE",
+		"copy-from" : "DISIMMUNE",
+        "extend": { "category" : [ "GOLEM" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "INFIMMUNE",
+		"copy-from" : "INFIMMUNE",
+        "extend": { "category" : [ "GOLEM" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "PARAIMMUNE",
+		"copy-from" : "PARAIMMUNE",
+        "extend": { "category" : [ "GOLEM" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "LIGHTEATER",
+		"copy-from" : "LIGHTEATER",
+        "extend": { "category" : [ "GOLEM" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "HUNGER3",
+		"copy-from" : "HUNGER3",
+        "extend": { "category" : [ "DRAGON" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "SLOWLEARNER",
+		"copy-from" : "SLOWLEARNER",
+        "extend": { "category" : [ "GOLEM" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "SLOWREADER",
+		"copy-from" : "SLOWREADER",
+        "extend": { "category" : [ "GOLEM" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "LIZ_EYE",
+		"copy-from" : "LIZ_EYE",
+        "extend": { "category" : [ "DRAGON" ] }
+	},
+	{
+        "type" : "mutation",
+        "id" : "LIZ_IR",
+		"copy-from" : "LIZ_IR",
+        "extend": { "category" : [ "DRAGON" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "MEMBRANE",
+		"copy-from" : "MEMBRANE",
+        "extend": { "category" : [ "DRAGON" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "CARNIVORE",
+		"copy-from" : "CARNIVORE",
+        "extend": { "category" : [ "DRAGON" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "COLDBLOOD3",
+		"copy-from" : "COLDBLOOD3",
+        "extend": { "category" : [ "DRAGON" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "COLDBLOOD4",
+		"copy-from" : "COLDBLOOD4",
+		"extend": { "threshreq" : [  "THRESH_Dragon" ], "category" : [ "DRAGON" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "ROT2",
+		"copy-from" : "ROT2",
+        "extend": { "category" : [ "DRAGON" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "REGEN_LIZ",
+		"copy-from" : "REGEN_LIZ",
+        "name" : "Reptilian Healing",
+        "extend": { "threshreq" : [  "THRESH_Dragon" ], "category" : [ "DRAGON" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "HEAVYSLEEPER2",
+		"copy-from" : "HEAVYSLEEPER2",
+        "extend": { "category" : [ "DRAGON" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "HIBERNATE",
+		"copy-from" : "HIBERNATE",
+        "extend": { "threshreq" : [  "THRESH_Dragon" ], "category" : [ "DRAGON" ] }
+    },
+	{
+        "type" : "mutation",
+        "id" : "PRED4",
+		"copy-from" : "PRED4",
+        "extend": { "threshreq" : [  "THRESH_Dragon" ], "category" : [ "DRAGON" ] }
+    }
+]

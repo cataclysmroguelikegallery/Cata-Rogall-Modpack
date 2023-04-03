@@ -1,0 +1,11 @@
+[
+{
+  "id": "adv_staff_sling",
+  "name": "개조형 스태프 슬링",
+  "type":"GUN",
+  "copy-from": "staff_sling",
+  "description": "스태프 슬링에 더 넓은 가죽과 더 긴 슬링을 덧대어 폭탄을 투척할 수 있도록 개조한 무기입니다.",
+  "ammo": [ "sling_grenade" ],
+  "relative": { "range": 1, "bashing": -3}
+}
+]

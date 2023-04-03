@@ -1,0 +1,83 @@
+[
+ {
+    "id": "sq_rope_loop",
+    "type": "ARMOR",
+    "name": { "str": "밧줄 고리" },
+    "description": "A length of rope tied with a sliding knot into a loop.  You can slip all sorts of large objects in and carry them as a bundle; if you want to tie a single item more securely you'd have to disassemble this loop.  It takes a while to untie it and get things out, and attackers might pull the whole thing undone if you're not careful.",
+    "weight": "216 g",
+    "volume": "360 ml",
+    "price": 360,
+    "price_postapoc": 10,
+    "material": [ "cotton" ],
+    "symbol": "[",
+    "looks_like": "rope_6",
+    "color": "light_gray",
+    "covers": [ "torso" ],
+    "coverage": 10,
+	"rigid": false,
+    "encumbrance": 3,
+    "max_encumbrance": 80,
+    "storage": "50 L",
+    "material_thickness": 2,
+    "flags": [ "NO_SALVAGE", "WATER_FRIENDLY", "TIE_UP", "BELTED", "OVERSIZE" ]
+  },
+  {
+    "id": "sq_nomad_rig",
+    "type": "TOOL_ARMOR",
+    "name": { "str": "유목민 하네스" },
+    "description": "몸 전체에 무게를 분산시키는 맞춤형 경량 파우치 세트. 안정되고 교묘하게 배치된 주머니 덕분에 방해가 되거나 균형을 잃지 않고 유용한 물건을 상당히 많이 보관할 수 있습니다. 어깨에 장착된 손전등과 야전에서 정수를 위한 내부 저장소가 있으며, 모두 내부 바이오닉 전력으로만 구동됩니다.",
+    "weight": "440 g",
+    "volume": "3000 ml",
+    "price": 24000,
+    "price_postapoc": 2500,
+    "material": [ "leather", "cotton" ],
+    "symbol": "[",
+    "looks_like": "survivor_vest",
+    "color": "brown",
+    "covers": [ "torso" ],
+    "coverage": 20,
+    "encumbrance": 1,
+    "storage": "20 L",
+    "material_thickness": 2,
+    "ammo": "battery",
+    "armor_data": { "covers": [ "torso" ], "coverage": 20, "encumbrance": 4, "material_thickness": 2 },
+	"max_charges": 200,
+	"initial_charges": 0,
+    "charges_per_use": 1,
+    "container_data": { "contains": "3 L", "seals":true, "watertight": true },
+    "use_action": [
+      "WATER_PURIFIER",
+      {
+        "type": "transform",
+        "msg": "어깨에 장착된 손전등을 켰습니다.",
+        "target": "sq_nomad_rig_on",
+        "active": true,
+        "need_charges": 1,
+        "need_charges_msg": "내부 동력이 고갈되었습니다."
+      },
+	  {
+		  "type": "holster",
+		  "max_volume": "1750 ml",
+		  "min_volume": "500 ml",
+		  "skills": [ "pistol", "smg" ]
+	  },
+      { "type": "holster" }
+	],
+    "flags": [ "WATER_FRIENDLY", "STURDY", "BELTED", "USE_UPS" ]
+  },
+  {
+    "id": "sq_nomad_rig_on",
+    "copy-from": "sq_nomad_rig",
+    "type": "TOOL_ARMOR",
+    "name": { "str": "유목민 하네스 (켜짐)" },
+    "power_draw": 1500,
+    "revert_to": "sq_nomad_rig",
+    "use_action": {
+      "menu_text": "손전등 끄기",
+      "type": "transform",
+      "msg": "어깨에 장착된 손전등을 껐습니다.",
+      "target": "sq_nomad_rig"
+    },
+    "flags": [ "LIGHT_500", "WATER_FRIENDLY", "STURDY", "BELTED", "USE_UPS" ]
+  }
+]

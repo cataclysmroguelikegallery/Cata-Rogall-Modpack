@@ -1,0 +1,6 @@
+{
+  "type": "ammunition_type",
+  "id": "sling_grenade",
+  "name": "슬링식 류탄",
+  "default": "sling_impr_pipebomb"
+}

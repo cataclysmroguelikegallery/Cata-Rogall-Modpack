@@ -1,0 +1,80 @@
+[
+    {
+        "id" : "mutagen_Fox",
+        "copy-from" : "mutagen_flavor",
+        "type" : "COMESTIBLE",
+        "name" : "여우 뮤타젠",
+		"addiction_potential": 0,
+		"color" : "light_green",
+		"use_action": {
+		"type": "consume_drug",
+		"activation_message": "여우 뮤타젠을 마셨다.",
+		"vitamins": [ [ "mutagen_Fox", 225 ], [ "mutagen", 125 ] ]
+		}
+    },
+    {
+        "id" : "mutagen_Horse",
+        "copy-from" : "mutagen_flavor",
+        "type" : "COMESTIBLE",
+        "name" : "페가서스 뮤타젠",
+		"addiction_potential": 0,
+		"color" : "light_green",
+		"use_action": {
+		"type": "consume_drug",
+		"activation_message": "페가서스 뮤타젠을 마셨다.",
+		"vitamins": [ [ "mutagen_Horse", 225 ], [ "mutagen", 125 ] ]
+		}
+    },
+    {
+        "id" : "mutagen_Golem",
+        "copy-from" : "mutagen_flavor",
+        "type" : "COMESTIBLE",
+        "name" : "골렘 뮤타젠",
+		"addiction_potential": 0,
+		"color" : "light_red",
+		"use_action": {
+		"type": "consume_drug",
+		"activation_message": "골렘 뮤타젠을 마셨다.",
+		"vitamins": [ [ "mutagen_Golem", 225 ], [ "mutagen", 125 ] ]
+		}
+    },
+	{
+        "id" : "iv_mutagen_fox",
+        "copy-from" : "iv_mutagen_flavor",
+        "type" : "COMESTIBLE",
+        "name" : "여우 혈청",
+		"addiction_potential": 6,
+        "color" : "green",
+		"use_action": {
+		"type": "consume_drug",
+		"activation_message": "여우 혈청을 주사했다.",
+		"vitamins": [ [ "mutagen_Fox", 450, 550 ] ]
+		}
+    },
+	{
+        "id" : "iv_mutagen_Horse",
+        "copy-from" : "iv_mutagen_flavor",
+        "type" : "COMESTIBLE",
+        "name" : "페가서스 혈청",
+		"addiction_potential": 6,
+        "color" : "green",
+		"use_action": {
+		"type": "consume_drug",
+		"activation_message": "페가서스 혈청을 주사했다.",
+		"vitamins": [ [ "mutagen_Horse", 450, 550 ] ]
+		}
+    },
+	{
+        "id" : "iv_mutagen_Golem",
+        "copy-from" : "iv_mutagen_flavor",
+        "type" : "COMESTIBLE",
+        "name" : "골렘 혈청",
+		"addiction_potential": 6,
+        "color" : "red",
+		"use_action": {
+		"type": "consume_drug",
+		"activation_message": "골렘 혈청을 주사했다.",
+		"vitamins": [ [ "mutagen_Golem", 450, 550 ] ]
+		}
+    }
+]

@@ -1,0 +1,9 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "dogmeat_mod",
+    "name": "편리한 가방+@",
+    "description": "편리한 가방+@",
+    "dependencies": [ "bn" ]
+  }
+]

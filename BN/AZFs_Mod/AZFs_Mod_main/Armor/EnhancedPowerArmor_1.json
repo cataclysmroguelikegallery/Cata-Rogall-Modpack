@@ -1,0 +1,48 @@
+[
+{	"id": "power_armor_basic_on",
+	"copy-from": "power_armor_basic_on",
+    "type": "TOOL_ARMOR",
+    "name": { "str": "combat exoskeleton (active)", "str_pl": "combat exoskeletons (active)" },
+	"artifact_data":{"effects_worn": ["AEP_STR_UP"]}
+},
+{	"id": "power_armor_heavy_on",
+	"copy-from": "power_armor_heavy_on",
+    "type": "TOOL_ARMOR",
+    "name": { "str": "heavy combat exoskeleton (active)", "str_pl": "heavy combat exoskeletons (active)" },
+	"artifact_data":{"effects_worn": ["AEP_STR_UP","AEP_STR_UP","AEP_DEX_DOWN"]}
+},
+{	"id": "power_armor_light_on",
+	"copy-from": "power_armor_light_on",
+    "type": "TOOL_ARMOR",
+    "name": { "str": "field combat exoskeleton (active)", "str_pl": "field combat exoskeletons (active)" },
+	"artifact_data":{"effects_worn": ["AEP_DEX_UP","AEP_SPEED_UP"]}
+},
+{	"id": "power_armor_helmet_basic_on",
+	"copy-from": "power_armor_helmet_basic_on",
+    "type": "TOOL_ARMOR",
+    "looks_like": "power_armor_helmet_basic",
+    "name": { "str": "environmental combat helmet (active)", "str_pl": "environmental combat helmets (active)" },
+	"artifact_data":{"effects_worn": ["AEP_PER_UP"]}
+},
+{	"id": "power_armor_helmet_heavy_on",
+	"copy-from": "power_armor_helmet_heavy_on",
+    "type": "TOOL_ARMOR",
+    "looks_like": "power_armor_helmet_heavy",
+    "name": { "str": "heavy environmental combat helmet (active)", "str_pl": "heavy environmental combat helmets (active)" },
+	"artifact_data":{"effects_worn": ["AEP_PER_UP"]}
+},
+{	"id": "power_armor_helmet_light_on",
+	"copy-from": "power_armor_helmet_light_on",
+    "type": "TOOL_ARMOR",
+    "looks_like": "power_armor_helmet_light",
+    "name": { "str": "light environmental combat helmet (active)", "str_pl": "light environmental combat helmets (active)" },
+	"artifact_data":{"effects_worn": ["AEP_PER_UP"]}
+},
+{   "id": "rm13_armor_on",
+    "copy-from": "rm13_armor_on",
+    "repairs_like": "rm13_armor",
+    "type": "TOOL_ARMOR",
+    "name": { "str": "RM13 combat armor (on)", "str_pl": "RM13 combat armors (on)" },
+	"artifact_data":{"effects_worn": ["AEP_PER_UP","AEP_PER_UP","AEP_DEX_UP","AEP_SPEED_UP","AEP_STEALTH"]}
+}
+]

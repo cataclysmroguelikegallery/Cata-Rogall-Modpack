@@ -1,0 +1,25 @@
+[
+	{
+		"id": "manual_NE_staff",
+		"copy-from":"book_martial",
+		"type":"GENERIC",
+		"name": {"str_sp": "뉴 잉글랜드 최후의 막대기"},
+		"price_postapoc": 0,
+		"description": "당신이 직접 편찬한 무술서입니다. 당신이 고안한 뉴 잉글랜드 지팡이술의 정수를 담아냈습니다.",
+		"book_data":{"martial_art": "style_NE_staff"}
+	},
+	
+	{
+		"type":"recipe",
+		"result":"manual_NE_staff",
+		"category":"CC_WEAPON",
+		"subcategory":"CSC_WEAPON_OTHER",
+		"skill_used": "fabrication",
+		"skills_required": [ ["bashing",4], ["melee",7] ],
+		"difficulty":4,
+		"time":"90 m",
+		"autolearn":true,
+		"tools":[[["permanent_marker",-1],["survival_marker",-1],["feather",-1]]],
+		"components":[[["paper",80]]]
+	}
+]

@@ -1,0 +1,14 @@
+  {
+    "type": "recipe",
+    "result": "adv_staff_sling",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "fabrication",
+    "difficulty": 4,
+    "skills_required": [ "throw", 3 ],
+    "time": "2 m",
+    "reversible": true,
+    "autolearn": true,
+    "qualities": [ { "id": "SAW_W", "level": 1 }, { "id": "CUT", "level": 2 } ],
+    "components": [ [ [ "staff_sling", 1 ] ], [ [ "filament", 20, "LIST" ], [ "sling", 1 ] ],[ [ "leather", 3 ], [ "fur", 3 ] ] ]
+  },

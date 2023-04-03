@@ -1,0 +1,128 @@
+[
+  {
+    "type": "clothing_mod",
+    "id": "leather_padded",
+    "flag": "leather_padded",
+    "item": "leather",
+    "implement_prompt": "Pad with leather",
+    "destroy_prompt": "Destroy leather padding",
+    "mod_value": [
+      { "type": "bash", "value": 1, "proportion": [ "thickness" ] },
+      { "type": "cut", "value": 1, "proportion": [ "thickness" ] },
+      { "type": "bullet", "value": 1, "proportion": [ "thickness" ] },
+      { "type": "encumbrance", "value": 2, "round_up": true, "proportion": [ "thickness", "coverage" ] }
+    ]
+  },
+  {
+    "type": "clothing_mod",
+    "id": "steel_padded",
+    "flag": "steel_padded",
+    "item": "steel_armor",
+    "implement_prompt": "Pad with steel",
+    "destroy_prompt": "Destroy steel padding",
+    "restricted": true,
+    "mod_value": [
+      { "type": "bash", "value": 3, "proportion": [ "thickness" ] },
+      { "type": "cut", "value": 3, "proportion": [ "thickness" ] },
+      { "type": "bullet", "value": 2, "proportion": [ "thickness" ] },
+      { "type": "encumbrance", "value": 5, "round_up": true, "proportion": [ "thickness", "coverage" ] }
+    ]
+  },
+  {
+    "type": "clothing_mod",
+    "id": "alloy_padded",
+    "flag": "alloy_padded",
+    "item": "alloy_sheet",
+    "implement_prompt": "Pad with superalloy",
+    "destroy_prompt": "Destroy superalloy padding",
+    "restricted": true,
+    "mod_value": [
+      { "type": "bash", "value": 3, "proportion": [ "thickness" ] },
+      { "type": "cut", "value": 3, "proportion": [ "thickness" ] },
+      { "type": "bullet", "value": 2, "proportion": [ "thickness" ] },
+      { "type": "encumbrance", "value": 4, "round_up": true, "proportion": [ "thickness", "coverage" ] }
+    ]
+  },
+  {
+    "type": "clothing_mod",
+    "id": "kevlar_padded",
+    "flag": "kevlar_padded",
+    "item": "kevlar_plate",
+    "implement_prompt": "Pad with Kevlar",
+    "destroy_prompt": "Destroy Kevlar padding",
+    "mod_value": [
+      { "type": "bash", "value": 1, "proportion": [ "thickness" ] },
+      { "type": "cut", "value": 1.5, "proportion": [ "thickness" ] },
+      { "type": "bullet", "value": 2.5, "proportion": [ "thickness" ] },
+      { "type": "encumbrance", "value": 2, "round_up": true, "proportion": [ "thickness", "coverage" ] }
+    ]
+  },
+  {
+    "type": "clothing_mod",
+    "id": "nomex_padded",
+    "flag": "nomex_padded",
+    "item": "nomex",
+    "implement_prompt": "노멕스 덧대기",
+    "destroy_prompt": "덧댄 노멕스 제거",
+    "mod_value": [
+      { "type": "acid", "value": 1, "round_up": true, "proportion": [ "thickness", "coverage" ] },
+      { "type": "fire", "value": 3.5, "round_up": true, "proportion": [ "thickness", "coverage" ] },
+	  { "type": "encumbrance", "value": 2, "round_up": true, "proportion": [ "thickness", "coverage" ] }
+    ]
+  },
+  {
+    "type": "clothing_mod",
+    "id": "furred",
+    "flag": "furred",
+    "item": "fur",
+    "implement_prompt": "Line it with fur",
+    "destroy_prompt": "Destroy fur lining",
+    "mod_value": [
+      { "type": "encumbrance", "value": 1 },
+      { "type": "encumbrance", "value": 4, "proportion": [ "coverage" ] },
+      { "type": "warmth", "value": 35, "proportion": [ "coverage" ] }
+    ]
+  },
+  {
+    "type": "clothing_mod",
+    "id": "wooled",
+    "flag": "wooled",
+    "item": "felt_patch",
+    "implement_prompt": "Line it with wool",
+    "destroy_prompt": "Destroy wool lining",
+    "mod_value": [
+      { "type": "encumbrance", "value": 1 },
+      { "type": "encumbrance", "value": 3, "proportion": [ "coverage" ] },
+      { "type": "warmth", "value": 20, "proportion": [ "coverage" ] }
+    ]
+  },
+  {
+    "type": "clothing_mod",
+    "id": "lightened",
+    "flag": "lightened",
+	"item": "rag",
+    "implement_prompt": "경량화 하기",
+    "destroy_prompt": "덧붙이기",
+    "restricted": true,
+    "mod_value": [
+      { "type": "bash", "value": -0.5, "round_up": true, "proportion": [ "thickness" ] },
+      { "type": "cut", "value": -0.5, "round_up": true, "proportion": [ "thickness" ] },
+      { "type": "bullet", "value": -0.5, "round_up": true, "proportion": [ "thickness" ] },
+      { "type": "encumbrance", "value": -1, "round_up": true, "proportion": [ "thickness" ] },
+      { "type": "warmth", "value": -2, "round_up": true, "proportion": [ "thickness" ] }
+    ]
+  },
+  {
+    "type": "clothing_mod",
+    "id": "pockets",
+    "flag": "pockets",
+	"item": "leather",
+    "implement_prompt": "주머니 만들기",
+    "destroy_prompt": "주머니 떼기",
+    "restricted": true,
+    "mod_value": [
+      { "type": "encumbrance", "value": 1, "round_up" : true, "proportion": [ "thickness" ] },
+      { "type": "storage", "value": 3, "round_up": true, "proportion": [ "thickness", "coverage" ] }
+    ]
+  }  
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "type": "effect_type",
+    "id": "mutagen_Fox",
+    "name": [ "여우 변형", "여우 변형체", "여우 혼합체" ],
+    "desc": [
+      "여우 프라이머를 소모했습니다."
+    ],
+    "max_intensity": 3,
+    "resist_traits": [ "THRESH_FOX" ],
+    "base_mods": {
+      "hunger_min": [ 1 ],
+      "hunger_max": [ 2 ],
+      "hunger_tick": [ 500 ],
+      "hurt_min": [ 1 ],
+      "hurt_max": [ 2 ],
+      "hurt_chance": [ -22 ],
+      "hurt_tick": [ 150 ],
+      "pain_min": [ 1 ],
+      "pain_max": [ 2 ],
+      "pain_chance": [ 100 ],
+      "pain_tick": [ 75 ]
+    },
+    "scaling_mods": {
+      "per_mod": [ 1 ],
+      "dex_mod": [ 2 ],
+      "int_mod": [ 4 ],
+      "hurt_chance": [ 21, 0 ],
+      "pain_chance": [ -10 ],
+	  "speed_mod": [ 2 ]
+    },
+    "rating": "bad",
+    "blood_analysis_description": "여우 프라이머 오염"
+  },
+  {
+    "type": "effect_type",
+    "id": "mutagen_Horse",
+    "name": [ "페가서스 변형", "페가서스 변형체", "페가서스 혼합체" ],
+    "desc": [
+      "페가서스 프라이머를 소모했습니다."
+    ],
+    "max_intensity": 3,
+    "resist_traits": [ "THRESH_Horse" ],
+    "base_mods": {
+      "hunger_min": [ 1 ],
+      "hunger_max": [ 2 ],
+      "hunger_tick": [ 500 ],
+      "hurt_min": [ 1 ],
+      "hurt_max": [ 2 ],
+      "hurt_chance": [ -22 ],
+      "hurt_tick": [ 150 ],
+      "pain_min": [ 1 ],
+      "pain_max": [ 2 ],
+      "pain_chance": [ 100 ],
+      "pain_tick": [ 75 ]
+    },
+    "scaling_mods": {
+      "str_mod": [ 3 ],
+      "per_mod": [ 2 ],
+      "dex_mod": [ 2 ],
+      "int_mod": [ -1 ],
+      "hurt_chance": [ 12, 0 ],
+      "pain_chance": [ -15 ],
+	  "speed_mod": [ 2 ]
+    },
+    "rating": "bad",
+    "blood_analysis_description": "여우 프라이머 오염"
+  },
+  {
+    "type": "effect_type",
+    "id": "mutagen_Golem",
+    "name": [ "골렘 변형", "골렘 변형체", "골렘 혼합체" ],
+    "desc": [
+      "골렘 프라이머를 소모했습니다."
+    ],
+    "max_intensity": 3,
+    "resist_traits": [ "THRESH_Golem" ],
+    "base_mods": {
+      "hunger_min": [ 1 ],
+      "hunger_max": [ 2 ],
+      "hunger_tick": [ 500 ],
+      "hurt_min": [ 1 ],
+      "hurt_max": [ 2 ],
+      "hurt_chance": [ -22 ],
+      "hurt_tick": [ 150 ],
+      "pain_min": [ 0 ],
+      "pain_max": [ 1 ],
+      "pain_chance": [ 100 ],
+      "pain_tick": [ 75 ]
+    },
+    "scaling_mods": {
+      "str_mod": [ 5 ],
+      "per_mod": [ -3 ],
+      "dex_mod": [ -3 ],
+      "int_mod": [ -3 ],
+	  "speed_mod": [ 0.5 ]
+    },
+    "rating": "bad",
+    "blood_analysis_description": "여우 프라이머 오염"
+  }
+]

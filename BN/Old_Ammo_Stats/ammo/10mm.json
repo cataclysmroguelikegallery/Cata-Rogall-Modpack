@@ -1,0 +1,40 @@
+[
+  {
+    "id": "10mm_fmj",
+    "type": "AMMO",
+    "name": { "str": "10mm Auto FMJ" },
+    "description": "A jacketed 10mm Auto round.  The 10mm Auto cartridge is a rather powerful handgun round and the progenitor to the more popular .40 S&W.",
+    "weight": "9 g",
+    "volume": "250 ml",
+    "price": 400,
+    "price_postapoc": 800,
+    "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
+    "material": [ "brass", "powder" ],
+    "symbol": "=",
+    "color": "yellow",
+    "count": 40,
+    "stack_size": 40,
+    "ammo_type": "10mm",
+    "casing": "10mm_casing",
+    "range": 14,
+    "//": "Base damage of 31, balance increase of one-nineth.",
+    "damage": { "damage_type": "bullet", "amount": 34, "armor_penetration": 19 },
+    "dispersion": 50,
+    "recoil": 750,
+    "effects": [ "COOKOFF" ]
+  },
+  {
+    "id": "bp_10mm_fmj",
+    "copy-from": "10mm_fmj",
+    "type": "AMMO",
+    "name": { "str": "10mm Auto FMJ, black powder" },
+    "proportional": {
+      "price": 0.3,
+      "damage": { "damage_type": "bullet", "amount": 0.76, "armor_penetration": 0.5 },
+      "recoil": 0.76,
+      "dispersion": 1.2
+    },
+    "extend": { "effects": [ "RECYCLED", "BLACKPOWDER", "MUZZLE_SMOKE" ] },
+    "delete": { "effects": [ "NEVER_MISFIRES" ], "flags": [ "IRREPLACEABLE_CONSUMABLE" ] }
+  }
+]

@@ -1,0 +1,385 @@
+[
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+	"result": "mutagen_Fox",
+	"category": "CC_CHEM",
+	"subcategory": "CSC_CHEM_MUTAGEN",
+    "skill_used": "chemistry",
+    "skills_required": [ "firstaid", 1 ],
+	"difficulty": 7,
+	"time": "45 m",
+	"batch_time_factors": [ 80, 20 ],
+	"book_learn": [ [ "recipe_fox", 5] ],
+    "using": [ [ "mutagen_production_standard", 25 ] ],
+    "components": [
+      [ [ "mutagen", 1 ] ],
+      [ [ "meat", 3 ], [ "meat_scrap", 30 ] ],
+      [ [ "animal_blood", 4 ], [ "beast_sample", 1 ] ]
+    ],
+	"flags": [ "SECRET" ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+	"result": "mutagen_Horse",
+	"category": "CC_CHEM",
+	"subcategory": "CSC_CHEM_MUTAGEN",
+    "skill_used": "chemistry",
+    "skills_required": [ "firstaid", 1 ],
+	"difficulty": 7,
+	"time": "45 m",
+	"batch_time_factors": [ 80, 20 ],
+	"book_learn": [ [ "recipe_fox", 5] ],
+    "using": [ [ "mutagen_production_standard", 25 ] ],
+    "components": [
+      [ [ "mutagen", 1 ] ],
+      [ [ "meat", 3 ], [ "meat_scrap", 30 ] ],
+      [ [ "animal_blood", 4 ], [ "beast_sample", 1 ] ]
+    ],
+	"flags": [ "SECRET" ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+	"result": "mutagen_Golem",
+	"category": "CC_CHEM",
+	"subcategory": "CSC_CHEM_MUTAGEN",
+    "skill_used": "chemistry",
+    "skills_required": [ "firstaid", 1 ],
+	"difficulty": 7,
+	"time": "45 m",
+	"batch_time_factors": [ 80, 20 ],
+	"book_learn": [ [ "recipe_fox", 5] ],
+    "using": [ [ "mutagen_production_standard", 25 ] ],
+    "components": [
+      [ [ "mutagen", 1 ] ],
+      [ [ "meat", 3 ], [ "meat_scrap", 30 ] ],
+      [ [ "rock", 1 ] ]
+    ],
+	"flags": [ "SECRET" ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "iv_mutagen_fox",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_MUTAGEN",
+    "skill_used": "chemistry",
+    "skills_required": [ "firstaid", 3 ],
+    "difficulty": 7,
+    "time": "2 h",
+    "batch_time_factors": [ 20, 5 ],
+    "book_learn": [ [ "recipe_serum", 6 ], [ "recipe_animal", 6 ] ],
+    "using": [ [ "serum_production_standard", 37 ] ],
+    "components": [ [ [ "mutagen_Fox", 2 ] ] ],
+    "flags": [ "SECRET" ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "iv_mutagen_Horse",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_MUTAGEN",
+    "skill_used": "chemistry",
+    "skills_required": [ "firstaid", 3 ],
+    "difficulty": 7,
+    "time": "2 h",
+    "batch_time_factors": [ 20, 5 ],
+    "book_learn": [ [ "recipe_serum", 6 ], [ "recipe_animal", 6 ] ],
+    "using": [ [ "serum_production_standard", 37 ] ],
+    "components": [ [ [ "mutagen_Horse", 2 ] ] ],
+    "flags": [ "SECRET" ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "iv_mutagen_Golem",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_MUTAGEN",
+    "skill_used": "chemistry",
+    "skills_required": [ "firstaid", 3 ],
+    "difficulty": 7,
+    "time": "2 h",
+    "batch_time_factors": [ 20, 5 ],
+    "book_learn": [ [ "recipe_serum", 6 ], [ "recipe_animal", 6 ] ],
+    "using": [ [ "serum_production_standard", 37 ] ],
+    "components": [ [ [ "mutagen_Golem", 2 ] ] ],
+    "flags": [ "SECRET" ]
+  },
+  {
+    "result": "hanbok",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "tailor",
+    "difficulty": 4,
+    "skills_required": [ "tailor", 3 ],
+    "time": "2 h",
+    "book_learn": [ [ "textbook_tailor", 2 ], [ "tailor_portfolio", 2 ] ],
+    "autolearn": true,
+    "using": [ [ "sewing_standard", 4 ], [ "tailoring_cotton_patchwork", 40 ], [ "fastener_small", 2 ] ],
+    "components": [[ [ "cotton_patchwork", 20 ], [ "scrap_cotton", 100 ] ]]
+  },
+  {
+    "result": "miko",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "tailor",
+    "difficulty": 4,
+    "time": "2 h",
+    "autolearn": true,
+    "reversible": true,
+    "book_learn": [ [ "textbook_tailor", 2 ], [ "tailor_portfolio", 2 ] ],
+    "using": [ [ "sewing_standard", 4 ], [ "tailoring_cotton_patchwork", 40 ], [ "fastener_small", 2 ] ],
+    "components": [[ [ "cotton_patchwork", 20 ], [ "scrap_cotton", 100 ] ]]
+  },
+  {
+    "result": "miko2",
+    "type": "recipe",
+    "copy-from": "lsurvivor_armor",
+    "time": "16 h 35 m",
+    "using": [ [ "sewing_standard", 90 ], [ "fabric_standard_nostretch", 22 ] ],
+    "qualities": [ { "id": "FABRIC_CUT", "level": 2 } ],
+    "components": [
+      [ [ "coat_rain", 2 ] ],
+      [ [ "miko", 1 ] ],
+      [ [ "leather", 12 ] ],
+      [ [ "scrap", 4 ] ],
+      [
+        [ "tacvest", 1 ],
+        [ "legrig", 1 ],
+        [ "vest", 1 ],
+        [ "tool_belt", 1 ],
+        [ "ragpouch", 2 ],
+        [ "leather_pouch", 2 ],
+        [ "dump_pouch", 1 ],
+        [ "purse", 1 ],
+        [ "fanny", 1 ]
+      ],
+      [ [ "duct_tape", 225 ] ],
+      [ [ "kevlar", 2 ], [ "ballistic_vest_esapi", 2 ], [ "kevlar_plate", 32 ] ]
+    ]
+  },
+  {
+    "result": "hanbok2",
+    "type": "recipe",
+    "copy-from": "lsurvivor_armor",
+    "time": "16 h 35 m",
+    "using": [ [ "sewing_standard", 90 ], [ "fabric_standard_nostretch", 22 ] ],
+    "qualities": [ { "id": "FABRIC_CUT", "level": 2 } ],
+    "components": [
+      [ [ "coat_rain", 2 ] ],
+      [ [ "hanbok", 1 ] ],
+      [ [ "leather", 12 ] ],
+      [ [ "scrap", 4 ] ],
+      [
+        [ "tacvest", 1 ],
+        [ "legrig", 1 ],
+        [ "vest", 1 ],
+        [ "tool_belt", 1 ],
+        [ "ragpouch", 2 ],
+        [ "leather_pouch", 2 ],
+        [ "dump_pouch", 1 ],
+        [ "purse", 1 ],
+        [ "fanny", 1 ]
+      ],
+      [ [ "duct_tape", 225 ] ],
+      [ [ "kevlar", 2 ], [ "ballistic_vest_esapi", 2 ], [ "kevlar_plate", 32 ] ]
+    ]
+  },
+  {
+    "result": "ribbon",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_HEAD",
+    "skill_used": "tailor",
+    "difficulty": 1,
+    "skills_required": [ "tailor", 1 ],
+    "time": "40 s",
+    "autolearn": true,
+    "using": [ [ "sewing_standard", 20 ] ],
+    "components": [ [ [ "string_6", 6 ], [ "string_36", 1 ] ] ]
+  },
+  {
+    "result": "hair_ribbon",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_HEAD",
+    "skill_used": "tailor",
+    "difficulty": 2,
+    "skills_required": [ "tailor", 3 ],
+    "time": "2 m",
+    "autolearn": true,
+    "using": [ [ "sewing_standard", 60 ] ],
+    "components": [ [ [ "string_6", 6 ], [ "string_36", 1 ] ], [ [ "rag", 4 ] ], [ [ "stick", 1 ] ] ]
+  },
+  {
+    "result": "mudoni",
+    "type": "recipe",
+    "copy-from": "lsurvivor_armor",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_HEAD",
+    "time": "6 h 35 m",
+    "using": [ [ "sewing_standard", 45 ], [ "fabric_standard_nostretch", 10 ] ],
+    "qualities": [ { "id": "FABRIC_CUT", "level": 2 } ],
+    "components": [
+      [ [ "duct_tape", 120 ] ],
+      [ [ "kevlar", 1 ], [ "ballistic_vest_esapi", 1 ], [ "kevlar_plate", 16 ] ]
+    ]
+  },
+  {
+    "result": "mudoni2",
+    "type": "recipe",
+    "copy-from": "lsurvivor_armor",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_HEAD",
+    "time": "6 h 35 m",
+    "using": [ [ "sewing_standard", 45 ], [ "fabric_standard_nostretch", 10 ] ],
+    "qualities": [ { "id": "FABRIC_CUT", "level": 2 } ],
+    "components": [
+      [ [ "duct_tape", 120 ] ],
+      [ [ "kevlar", 1 ], [ "ballistic_vest_esapi", 1 ], [ "kevlar_plate", 16 ] ]
+    ]
+  },
+  {
+    "result": "bio_glasses",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_HEAD",
+    "skill_used": "electronics",
+    "difficulty": 7,
+    "skills_required": [ [ "fabrication", 6 ], [ "electronics", 5 ] ],
+    "time": "2 h 40 m",
+    "book_learn": [ [ "advanced_electronics", 5 ], [ "textbook_electronics", 6 ] ],
+    "using": [ [ "forging_standard", 1 ], [ "steel_standard", 1 ] ],
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "CHISEL", "level": 3 } ],
+    "tools": [ [ [ "tongs", -1 ] ], [ [ "mold_plastic", -1 ] ] ],
+    "components": [
+      [ [ "goggles_ski", 1 ], [ "goggles_welding", 1 ], [ "sunglasses", 1 ] ],
+      [ [ "power_supply", 1 ] ],
+      [ [ "RAM", 1 ] ],
+      [ [ "e_scrap", 4 ] ],
+      [ [ "scrap", 4 ] ],
+      [ [ "duct_tape", 80 ] ],
+      [ [ "bottle_plastic", 1 ], [ "bottle_plastic_small", 2 ], [ "plastic_chunk", 8 ] ]
+    ]
+  },
+  {
+    "result": "mask_filterXL",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_HEAD",
+    "skill_used": "tailor",
+    "difficulty": 2,
+    "skills_required": [ "fabrication", 1 ],
+    "time": "5 m",
+    "reversible": true,
+    "decomp_learn": 3,
+    "book_learn": [
+      [ "textbook_fireman", 3 ],
+      [ "atomic_survival", 3 ],
+      [ "adv_chemistry", 4 ],
+      [ "textbook_chemistry", 4 ],
+      [ "emergency_book", 3 ],
+      [ "textbook_gaswarfare", 3 ]
+    ],
+    "components": [
+		[ [ "mask_filter", 2 ] ],
+		[ [ "duct_tape", 10 ] ]
+    ],
+    "//": "Airtight takes some skills.",
+    "proficiencies": [ { "proficiency": "prof_closures_waterproofing" } ]
+  },
+  {
+    "result": "mediumfridge",
+    "type": "recipe",
+    "activity_level": "MODERATE_EXERCISE",
+    "copy-from": "minifreezer",
+    "skills_required": [ "fabrication", 4 ],
+    "proficiencies": [ { "proficiency": "prof_plasticworking", "required": false, "time_multiplier": 1.1, "learning_time_multiplier": 0.1 } ],
+    "qualities": [
+      { "id": "HAMMER", "level": 2 },
+      { "id": "SAW_M", "level": 1 },
+      { "id": "DRILL", "level": 1 },
+      { "id": "SCREW", "level": 1 },
+      { "id": "WRENCH", "level": 1 }
+    ],
+    "components": [
+      [ [ "minifridge", 2 ] ],
+      [ [ "string_6", 6 ] ],
+      [ [ "string_36", 1 ] ],
+      [ [ "cable", 40 ] ]
+    ]
+  },
+  {
+    "result": "lagefridge",
+    "type": "recipe",
+    "activity_level": "MODERATE_EXERCISE",
+    "copy-from": "minifreezer",
+    "skills_required": [ "fabrication", 4 ],
+    "proficiencies": [ { "proficiency": "prof_plasticworking", "required": false, "time_multiplier": 1.1, "learning_time_multiplier": 0.1 } ],
+    "qualities": [
+      { "id": "HAMMER", "level": 2 },
+      { "id": "SAW_M", "level": 1 },
+      { "id": "DRILL", "level": 1 },
+      { "id": "SCREW", "level": 1 },
+      { "id": "WRENCH", "level": 1 }
+    ],
+    "components": [
+      [ [ "minifridge", 4 ], [ "mediumfridge", 2 ] ],
+      [ [ "string_6", 12 ] ],
+      [ [ "string_36", 2 ] ],
+      [ [ "cable", 80 ] ]
+    ]
+  },
+  {
+    "result": "mediumfreezer",
+    "type": "recipe",
+    "activity_level": "MODERATE_EXERCISE",
+    "copy-from": "minifreezer",
+    "skills_required": [ "fabrication", 4 ],
+    "proficiencies": [ { "proficiency": "prof_plasticworking", "required": false, "time_multiplier": 1.1, "learning_time_multiplier": 0.1 } ],
+    "qualities": [
+      { "id": "HAMMER", "level": 2 },
+      { "id": "SAW_M", "level": 1 },
+      { "id": "DRILL", "level": 1 },
+      { "id": "SCREW", "level": 1 },
+      { "id": "WRENCH", "level": 1 }
+    ],
+    "components": [
+      [ [ "minifreezer", 2 ] ],
+      [ [ "string_6", 6 ] ],
+      [ [ "string_36", 1 ] ],
+      [ [ "cable", 40 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "MODERATE_EXERCISE",
+    "result": "cargo_rack_ex",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_PARTS",
+    "skill_used": "fabrication",
+    "skills_required": [ "mechanics", 4 ],
+    "difficulty": 8,
+    "time": "4 h",
+    "reversible": true,
+    "autolearn": true,
+    "using": [ [ "welding_standard", 10 ] ],
+    "proficiencies": [
+      { "proficiency": "prof_metalworking" },
+      { "proficiency": "prof_welding_basic", "fail_multiplier": 1.5 },
+      { "proficiency": "prof_welding" }
+    ],
+    "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 }, { "id": "WRENCH", "level": 1 } ],
+    "components": [ [ [ "cargo_rack", 2 ] ], [ [ "portal", 1 ] ] ]
+  }
+]

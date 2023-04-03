@@ -1,0 +1,66 @@
+[
+    {
+        "id" : "mutagen_fox",
+        "copy-from" : "mutagen_flavor",
+        "type" : "COMESTIBLE",
+        "name" : "여우 뮤타젠",
+		"color" : "light_green",
+        "use_action" : { "type" : "mutagen", "mutation_category" : "FOX" }
+    },
+    {
+        "id" : "mutagen_Horse",
+        "copy-from" : "mutagen_flavor",
+        "type" : "COMESTIBLE",
+        "name" : "페가서스 뮤타젠",
+		"color" : "light_green",
+        "use_action" : { "type" : "mutagen", "mutation_category" : "HORSE" }
+    },
+    {
+        "id" : "mutagen_Golem",
+        "copy-from" : "mutagen_flavor",
+        "type" : "COMESTIBLE",
+        "name" : "골렘 뮤타젠",
+		"color" : "light_red",
+        "use_action" : { "type" : "mutagen", "mutation_category" : "GOLEM" }
+    },
+    {
+        "id" : "mutagen_Dragon",
+        "copy-from" : "mutagen_flavor",
+        "type" : "COMESTIBLE",
+        "name" : "드래곤 뮤타젠",
+		"color" : "light_red",
+        "use_action" : { "type" : "mutagen", "mutation_category" : "DRAGON" }
+    },
+	{
+        "id" : "iv_mutagen_fox",
+        "copy-from" : "iv_mutagen_flavor",
+        "type" : "COMESTIBLE",
+        "name" : "여우 혈청",
+        "color" : "green",
+        "use_action" : { "type" : "mutagen_iv", "mutation_category" : "FOX" }
+    },
+	{
+        "id" : "iv_mutagen_Horse",
+        "copy-from" : "iv_mutagen_flavor",
+        "type" : "COMESTIBLE",
+        "name" : "페가서스 혈청",
+        "color" : "green",
+        "use_action" : { "type" : "mutagen_iv", "mutation_category" : "HORSE" }
+    },
+	{
+        "id" : "iv_mutagen_Golem",
+        "copy-from" : "iv_mutagen_flavor",
+        "type" : "COMESTIBLE",
+        "name" : "골렘 혈청",
+        "color" : "red",
+        "use_action" : { "type" : "mutagen_iv", "mutation_category" : "GOLEM" }
+    },
+	{
+        "id" : "iv_mutagen_Dragon",
+        "copy-from" : "iv_mutagen_flavor",
+        "type" : "COMESTIBLE",
+        "name" : "드래곤 혈청",
+        "color" : "red",
+        "use_action" : { "type" : "mutagen_iv", "mutation_category" : "DRAGON" }
+    }
+]

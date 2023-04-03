@@ -1,0 +1,34 @@
+[
+  {
+    "id": "357sig_fmj",
+    "type": "AMMO",
+    "name": { "str": ".357 SIG FMJ" },
+    "description": "Jacketed .357 SIG ammunition.  The .357 SIG round is a high velocity pistol cartridge, giving it a flatter trajectory than many handgun rounds.",
+    "weight": "8 g",
+    "volume": "250 ml",
+    "price": 370,
+    "price_postapoc": 1000,
+    "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
+    "material": [ "brass", "powder" ],
+    "symbol": "=",
+    "color": "light_gray",
+    "count": 50,
+    "stack_size": 50,
+    "ammo_type": "357sig",
+    "casing": "357sig_casing",
+    "range": 16,
+    "//": "Base damage of 28, balance increase of two-nineths.",
+    "damage": { "damage_type": "bullet", "amount": 34, "armor_penetration": 19 },
+    "dispersion": 30,
+    "recoil": 600,
+    "effects": [ "COOKOFF" ]
+  },
+  {
+    "id": "357sig_jhp",
+    "copy-from": "357sig_fmj",
+    "type": "AMMO",
+    "name": { "str": ".357 SIG JHP" },
+    "description": "Jacketed hollow point .357 SIG ammunition.  The .357 SIG round is a high velocity pistol cartridge, giving it a flatter trajectory than many handgun rounds.",
+    "damage": { "damage_type": "bullet", "amount": 42, "armor_penetration": 0 }
+  }
+]

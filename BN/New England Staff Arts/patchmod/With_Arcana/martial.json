@@ -1,0 +1,9 @@
+[
+	{
+		"id":"style_NE_staff",
+		"copy-from":"style_NE_staff",
+		"type": "martial_art",
+		"name":"뉴 잉글랜드 지팡이술",
+		"extend":{"weapons":["staff_druidic", "scourge_staff"]}
+	}
+]

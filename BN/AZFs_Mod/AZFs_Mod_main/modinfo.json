@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "AZF",
+    "name": "AZF의 모드",
+    "authors": ["AZF"],
+    "maintainers": ["AZF"],
+    "description": "AZF가 제작한 모드입니다.",
+    "category": "items",
+    "dependencies": [ "bn" ]
+  }
+]

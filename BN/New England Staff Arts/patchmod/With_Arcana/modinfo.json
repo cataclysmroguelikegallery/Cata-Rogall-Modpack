@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "NE_Staff_arts_arcana",
+    "name": "Patch뉴 잉글랜드 지팡이술_Arcana",
+    "authors": [ "NappingOcean" ],
+    "description": "NE Staff arts patch for Arcana.",
+    "category": "misc_additions",
+    "dependencies": [ "bn","NE_Staff_arts" ,"Arcana" ]
+  }
+]

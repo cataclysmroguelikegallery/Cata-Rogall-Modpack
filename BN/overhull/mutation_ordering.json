@@ -1,0 +1,15 @@
+[
+    {
+        "type" : "overlay_order",
+        "overlay_ordering" : [
+        {
+            "id" : [ "TAIL_NINE" ],
+            "order" : 500
+        },
+		{
+            "id" : [ "0TAIL_FOX"],
+            "order" : 5000
+        }
+        ]
+    }
+]

@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "Revive_hub01_basement",
+    "name": "허브01 지하실 되살리기 모드",
+    "authors": [ "NakedJake" ],
+    "description": "삭제된 허브01의 지하실을 롤백시킵니다.",
+    "category": "buildings",
+    "dependencies": [ "bn" ]
+  }
+]
