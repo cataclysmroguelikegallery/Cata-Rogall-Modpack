@@ -1,0 +1,27 @@
+[
+  {
+    "type": "item_group",
+    "id": "kitchen",
+    "items": [ [ "rice_grain", 12 ] ]
+  },
+  {
+    "type": "item_group",
+    "id": "farming_seeds",
+    "items": [ [ "seed_rice", 40 ] ]
+  },
+  {
+    "type": "item_group",
+    "id": "ant_food",
+    "items": [ [ "rice_grain", 9 ] ]
+  },
+  {
+    "type": "item_group",
+    "id": "trash",
+    "items": [ [ "rice_grain", 15 ] ]
+  },
+  {
+    "type": "item_group",
+    "id": "produce",
+    "items": [ [ "rice_grain", 9 ] ]
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "type": "MOD_INFO",
+  "id": "Rice_Mod_kor",
+  "name": "Croppable Rice",
+  "description": "이 모드는 도정 전의 쌀알, 벼 종자를 추가하여 벼를 심을수 있게 만들어줍니다. 한국인은 밥심이지...",
+  "authors": [ "Coalcat" ],
+  "maintainers": [ " " ],
+  "category": "items",
+  "dependencies": [ "bn" ],
+  "path": ""
+}

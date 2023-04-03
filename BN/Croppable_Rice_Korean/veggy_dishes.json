@@ -1,0 +1,23 @@
+[
+  {
+    "type": "COMESTIBLE",
+    "id": "rice_grain",
+    "name": { "str_sp": "쌀알" },
+    "weight": "150 g",
+    "color": "yellow",
+    "spoils_in": "420 days",
+    "comestible_type": "FOOD",
+    "symbol": ".",
+    "quench": -6,
+    "calories": 222,
+    "description": "갓 수확한 메사추세츠 쌀알입니다. 도정 전에는 먹기 어렵습니다. 약간의 손질만 하면 벼 종자를 만들수 있습니다.",
+    "price": 500,
+    "price_postapoc": 300,
+    "material": "veggy",
+    "primary_material": "dried_vegetable",
+    "volume": "250 ml",
+    "flags": [ "EDIBLE_FROZEN" ],
+    "vitamins": [ [ "iron", 8 ] ],
+    "fun": -25
+  }
+]

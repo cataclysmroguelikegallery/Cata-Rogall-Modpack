@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "desu_cdda_tile_add",
+    "name": "임시 타일 추가 모드",
+    "authors": [ "desu" ],
+    "maintainers": [ "desu" ],
+    "description": "게임 중에 거슬리는 타일 없는 것들을 추가 한 개인 모드입니다.",
+    "category": "misc_additions",
+    "dependencies": [ "bn" ]
+  }
+]

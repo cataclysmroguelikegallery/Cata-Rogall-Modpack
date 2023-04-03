@@ -1,0 +1,13 @@
+[
+  {
+    "id": "seed_rice",
+    "copy-from": "seed",
+    "type": "COMESTIBLE",
+    "name": { "str_sp": "벼 종자" },
+    "description": "인디카 메사추세츠티카, 또는 '메사추세츠 벼'라 불리우는 이 인디카 계열의 쌀은 GMO 기술을 이용해 뉴 잉글랜드에서도 자라나도록 개량되었습니다. (제작자 주: 가상의 식물임)",
+    "weight": "5 g",
+    "price": 50,
+    "stack_size": 40,
+    "seed_data": { "plant_name": "Rice", "fruit": "rice_grain", "byproducts": [ "withered" ], "grow": "14 days" }
+  }
+]
