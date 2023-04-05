@@ -1,5 +1,26 @@
 [
   {
+    "type": "recipe",
+    "result": "barometer",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "mechanics",
+    "skills_required": [ [ "fabrication", 3 ] ],
+    "difficulty": 4,
+    "time": "25 m",
+	"autolearn": true,
+    "reversible": true,
+    "decomp_learn": 7,
+    "book_learn": [ [ "textbook_fabrication", 3 ], [ "textbook_carpentry", 3 ], [ "adv_chemistry", 4 ], [ "textbook_chemistry", 3 ] ],
+    "tools": [ [ [ "surface_heat", 5, "LIST" ] ] ],
+    "using": [ [ "soldering_standard", 10 ] ],
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SCREW", "level": 1 } ],
+    "components": [
+      [ [ "scrap", 1 ] ],
+      [ [ "plastic_chunk", 1 ] ]
+    ]
+  },
+  {
     "id": "sq_atomic_forge",
     "type": "TOOL",
     "category": "tools",
