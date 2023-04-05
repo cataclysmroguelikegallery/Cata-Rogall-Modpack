@@ -49,6 +49,7 @@
     "description": "Grants you an extra turn.",
     "message": "시간이 느리게 흘러가는 느낌이다.",
     "valid_targets": [ "self" ],
+    "flags": [ "SILENT" ],
     "effect": "mod_moves",
     "min_damage": 1000,
     "max_damage": 1000,

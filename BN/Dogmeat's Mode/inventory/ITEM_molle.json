@@ -48,7 +48,7 @@
       "type": "holster",
       "holster_prompt": "Attach what to holder?",
       "holster_msg": "You attach your %s to your %s.",
-      "multi": 4,
+      "multi": 6,
       "min_volume": "1 ml",
       "max_volume": "10000 ml",
       "draw_cost": 200,

@@ -1,0 +1,196 @@
+[
+  {
+    "id": "bike_rack",
+    "type": "vehicle_part",
+    "name": { "str": "bike rack" },
+    "item": "bike_rack",
+    "symbol": "=",
+    "broken_symbol": "#",
+    "color": "light_gray",
+    "broken_color": "dark_gray",
+    "durability": 150,
+    "description": "A collection of pipes and frames for supporting a bike or other small vehicle and carrying it on your vehicle.  Move a single tile wide vehicle so that all of that vehicle's tiles are next to bike racks, and then 'e'xamine any bike rack to mount that vehicle onto the bike rack.  'e'xamine the bike rack to unmount the carried vehicle.",
+    "breaks_into": [
+      { "item": "steel_lump", "count": [ 6, 8 ] },
+      { "item": "steel_chunk", "count": [ 6, 8 ] },
+      { "item": "scrap", "count": [ 6, 8 ] }
+    ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 1 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 1 ] ], "time": "30 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 2 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] }
+    },
+    "flags": [ "BIKE_RACK_VEH", "MULTISQUARE" ],
+    "damage_reduction": { "all": 10 }
+  },
+  {
+    "id": "crane_medium",
+    "type": "vehicle_part",
+    "name": { "str": "boom crane" },
+    "item": "cantilever_medium",
+    "location": "structure",
+    "symbol": "=",
+    "broken_symbol": "*",
+    "color": "light_gray",
+    "broken_color": "light_blue",
+    "durability": 200,
+    "description": "A rigid steel boom crane.  If it is in your line of sight and within two tiles of another vehicle, you will automatically use it when you want jack up the other vehicle to change the its wheels.  To use it to lift a heavy component like an engine that you are installing or removing, the crane must have line of sight to where it is going and it must be within four tiles of it.",
+    "breaks_into": [ { "item": "pipe", "count": [ 8, 32 ] }, { "item": "scrap", "count": [ 8, 24 ] } ],
+    "qualities": [ [ "LIFT", 40 ], [ "JACK", 40 ] ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 5 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 3 ] ], "time": "30 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 6 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] }
+    },
+    "folded_volume": 60,
+    "flags": [ "PROTRUSION", "FOLDABLE" ],
+    "damage_reduction": { "all": 48 }
+  },
+  {
+    "type": "vehicle_part",
+    "id": "plastic_boat_hull",
+    "name": { "str": "plastic boat hull" },
+    "description": "A rigid plastic sheet that keeps water out of your boat.",
+    "symbol": "o",
+    "color": "brown",
+    "looks_like": "boat_board",
+    "broken_symbol": "x",
+    "broken_color": "light_gray",
+    "damage_modifier": 50,
+    "durability": 120,
+    "item": "plastic_boat_hull",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 3 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "using": [ [ "vehicle_weld_removal", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 4 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] }
+    },
+    "folded_volume": 1,
+    "flags": [ "FLOATS", "BOARDABLE", "FOLDABLE" ],
+    "breaks_into": [ { "item": "plastic_chunk", "count": [ 4, 8 ] } ],
+    "damage_reduction": { "all": 12, "stab": 4, "cut": 4 }
+  },
+  {
+    "type": "vehicle_part",
+    "id": "metal_boat_hull",
+    "name": { "str": "metal boat hull" },
+    "description": "A metal sheet that keeps the water out of your boat.",
+    "symbol": "o",
+    "color": "dark_gray",
+    "looks_like": "boat_board",
+    "broken_symbol": "x",
+    "broken_color": "light_gray",
+    "damage_modifier": 50,
+    "durability": 240,
+    "item": "sheet_metal",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 4 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "qualities": [ { "id": "SAW_M", "level": 1 } ] },
+      "repair": { "skills": [ [ "mechanics", 5 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] }
+    },
+    "folded_volume": 1,
+    "flags": [ "FLOATS", "BOARDABLE", "FOLDABLE" ],
+    "breaks_into": "ig_vp_sheet_metal",
+    "damage_reduction": { "all": 28 }
+  },
+  {
+    "type": "vehicle_part",
+    "id": "carbonfiber_boat_hull",
+    "name": { "str": "carbon fiber boat hull" },
+    "description": "A light weight, advanced carbon fiber rigid sheet that keeps the water out of your boat.",
+    "symbol": "o",
+    "color": "brown",
+    "looks_like": "boat_board",
+    "broken_symbol": "x",
+    "broken_color": "light_gray",
+    "damage_modifier": 50,
+    "durability": 480,
+    "item": "carbonfiber_boat_hull",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 6 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] },
+      "removal": { "skills": [ [ "mechanics", 4 ] ], "time": "30 m", "using": [ [ "vehicle_weld_removal", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 7 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] }
+    },
+    "folded_volume": 1,
+    "flags": [ "FLOATS", "BOARDABLE", "FOLDABLE" ],
+    "breaks_into": [ { "item": "kevlar_plate", "count": [ 1, 3 ] } ],
+    "damage_reduction": { "all": 14 }
+  },
+  {
+    "abstract": "turret",
+    "type": "vehicle_part",
+    "symbol": "t",
+    "durability": 400,
+    "damage_modifier": 80,
+    "location": "on_roof",
+    "requirements": { "install": { "time": "100 s" }, "removal": { "time": "50 s" } },
+    "folded_volume": "2500 ml",
+    "flags": [ "FOLDABLE", "TURRET" ]
+  },
+  {
+    "id": "mounted_emp_gun",
+    "copy-from": "turret",
+    "type": "vehicle_part",
+    "name": { "str": "mounted XM34 EMP projector" },
+    "item": "emp_gun",
+    "color": "magenta",
+    "broken_color": "magenta",
+    "breaks_into": [ { "item": "scrap", "count": 9 }, { "item": "steel_chunk", "count": 4 }, { "item": "steel_lump", "count": 1 } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 5 ], [ "electronics", 5 ] ] },
+      "removal": { "skills": [ [ "mechanics", 3 ] ] }
+    }
+  },
+  {
+    "type": "vehicle_part",
+    "abstract": "folding_seat_abstract",
+    "name": { "str": "foldable seat" },
+    "symbol": "#",
+    "looks_like": "seat",
+    "color": "red",
+    "broken_symbol": "*",
+    "broken_color": "red",
+    "damage_modifier": 10,
+    "durability": 20,
+    "description": "A crude seat, too uncomfortable to sleep in.",
+    "item": "sheet",
+    "folded_volume": "2500 ml",
+    "location": "anywhere",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 2 ] ], "time": "200 s", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "200 s", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 2 ] ], "time": "20 s", "using": [ [ "welding_standard", 5 ] ] }
+    },
+    "flags": [ "SEAT", "BOARDABLE", "FOLDABLE", "BELTABLE" ],
+    "breaks_into": [ { "item": "rag", "count": [ 1, 6 ] } ]
+  },
+  {
+    "copy-from": "folding_seat_abstract",
+    "id": "folding_seat",
+    "symbol": "#",
+    "type": "vehicle_part"
+  },
+  {
+    "id": "tearer",
+    "type": "vehicle_part",
+    "name": { "str": "shredder" },
+    "item": "tearer",
+    "location": "structure",
+    "symbol": "*",
+    "broken_symbol": "x",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "durability": 450,
+    "power": -1750,
+    "damage_modifier": 500,
+    "folded_volume": 60,
+    "breaks_into": [  ],
+    "description": "A circular blade, powered by the vehicle's engine.  It will dramatically increase the damage the vehicle delivers in collisions.  Mount on the edges of the vehicle, preferably the front.",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 5 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] },
+      "removal": { "skills": [ [ "mechanics", 3 ] ], "time": "30 m", "using": [ [ "vehicle_weld_removal", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 6 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] }
+    },
+    "flags": [ "UNMOUNT_ON_DAMAGE", "SHARP", "PROTRUSION", "FOLDABLE" ],
+    "damage_reduction": { "all": 82 }
+  }
+]

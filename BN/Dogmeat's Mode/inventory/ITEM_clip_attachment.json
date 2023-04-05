@@ -301,7 +301,7 @@
     "price": 3000,
     "price_postapoc": 3000,
     "ammo": "bandages",
-    "max_charges": 20,
+    "max_charges": 10,
     "charges_per_use": 1,
     "material": "plastic",
     "symbol": "!",
@@ -399,5 +399,39 @@
     "initial_charges": 500,
     "max_charges": 700,
     "flags": [ "BELT_CLIP", "WATCH", "USE_UPS", "NO_UNLOAD", "NO_RELOAD" ]
+  },
+  {
+    "id": "picklocks",
+    "type": "GENERIC",
+    "category": "tools",
+    "name": { "str": "locksmith kit" },
+    "description": "This is a locksmith's set of sturdy steel lock picks and torsion wrenches.  It is essential for silently and quickly opening locks, provided you have some mechanical skill.",
+    "weight": "544 g",
+    "volume": "100 ml",
+    "price": 20000,
+    "price_postapoc": 1000,
+    "material": "steel",
+    "symbol": ";",
+    "color": "light_gray",
+    "qualities": [ [ "LOCKPICK", 5 ] ],
+    "use_action": { "type": "picklock", "pick_quality": 5 },
+    "flags": [ "BELT_CLIP" ]
+  },
+  {
+    "id": "crude_picklock",
+    "type": "GENERIC",
+    "category": "tools",
+    "name": { "str": "improvised lockpick" },
+    "description": "This is an improvised set of picks and torsion wrenches made from scrap metal.  You need MacGyver-like skills to open locks with these as they are brittle, but they lower the chances of alarms being set off.",
+    "weight": "23 g",
+    "volume": "5 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": "steel",
+    "symbol": ";",
+    "color": "light_gray",
+    "qualities": [ [ "LOCKPICK", 3 ] ],
+    "use_action": { "type": "picklock", "pick_quality": 3 },
+    "flags": [ "BELT_CLIP" ]
   }
 ]
