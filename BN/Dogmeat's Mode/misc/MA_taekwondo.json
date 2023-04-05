@@ -33,8 +33,7 @@
         "skill_requirements": [ { "name": "unarmed", "level": 2 } ],
         "unarmed_allowed": true,
 	    "flat_bonuses": [ { "stat": "damage", "type": "bash", "scaling-stat": "dex", "scale": 0.25 } ],
-        "buff_duration": 1,
-        "max_stacks": 2
+        "buff_duration": 1
       }
     ],
     "ondodge_buffs": [
