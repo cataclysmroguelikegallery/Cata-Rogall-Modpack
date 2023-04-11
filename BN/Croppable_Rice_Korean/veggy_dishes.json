@@ -16,7 +16,6 @@
     "material": "veggy",
     "primary_material": "dried_vegetable",
     "volume": "250 ml",
-    "flags": [ "EDIBLE_FROZEN" ],
     "vitamins": [ [ "iron", 8 ] ],
     "fun": -25
   }

@@ -220,7 +220,7 @@
 	},
     "environmental_protection": 20,
     "coverage": 100,
-    "material_thickness": 3,
+    "material_thickness": 4,
     "encumbrance": 20,
     "flags": [
       "VARSIZE",
