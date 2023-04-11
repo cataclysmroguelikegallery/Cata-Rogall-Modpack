@@ -160,8 +160,11 @@
     "revert_to": "sq_advanced_fsurvivor_suit",
     "use_action": { "type": "transform", "menu_text": "Turn off", "msg": "Suit shutting down.", "target": "sq_advanced_fsurvivor_suit" },
     "covers": [ "head", "mouth", "eyes", "torso", "arms", "hands", "legs", "feet" ],
-    "warmth": 50,
+    "warmth": 0,
     "environmental_protection": 70,
+	"relic_data": {
+      "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "ench_effects": [ { "effect": "debug_clairvoyance", "intensity": 1 } ] } ]
+	},
 	"encumbrance": 17,
     "flags": [
       "VARSIZE",
@@ -183,7 +186,6 @@
       "PSYSHIELD_PARTIAL",
       "CLIMATE_CONTROL",
 	  "IR_EFFECT",
-	  "GNV_EFFECT",
 	  "ZOOM",
       "DIMENSIONAL_ANCHOR",
       "USE_UPS",
