@@ -30,7 +30,7 @@
     "warmth": 30,
     "environmental_protection": 20,
 	"relic_data": {
-      "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "STRENGTH", "multiply": 1.0, "add": 5 } ] } ]
+      "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "STRENGTH", "multiply": 1.0 } ] } ]
 	},
     "coverage": 100,
     "material_thickness": 5,
@@ -209,9 +209,9 @@
     "volume": "4500 ml",
     "storage": "12 L",
     "ammo": "battery",
-    "max_charges": 500,
+    "max_charges": 3000,
     "initial_charges": 0,
-	"charges_per_use": 50,
+	"charges_per_use": 500,
     "use_action": [ { "type": "cast_spell", "spell_id": "sq_advanced_lsurvivor_suit_spell", "no_fail": true, "level": 1, "need_worn": true } ],
     "covers": [ "head", "mouth", "eyes", "torso", "arms", "hands", "legs", "feet" ],
     "warmth": 10,
@@ -220,7 +220,7 @@
 	},
     "environmental_protection": 20,
     "coverage": 100,
-    "material_thickness": 3,
+    "material_thickness": 4,
     "encumbrance": 20,
     "flags": [
       "VARSIZE",
