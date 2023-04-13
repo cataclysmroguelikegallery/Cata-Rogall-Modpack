@@ -76,7 +76,11 @@
           { "id": "sq_heat_blade_off", "fg": 28, "rotates": false },
           { "id": "sq_heat_blade_on", "fg": 29, "rotates": false },
           { "id": "overlay_wielded_sq_heat_blade_off", "fg": 30, "rotates": false },
-          { "id": "overlay_wielded_sq_heat_blade_on", "fg": 31, "rotates": false }
+          { "id": "overlay_wielded_sq_heat_blade_on", "fg": 31, "rotates": false },
+          { "id": "sq_hardlight_blade_off", "fg": 32, "rotates": false },
+          { "id": "overlay_wielded_sq_hardlight_blade_off", "fg": 33, "rotates": false },
+          { "id": "sq_hardlight_blade_on", "fg": 34, "rotates": false },
+          { "id": "overlay_wielded_sq_hardlight_blade_on", "fg": 35, "rotates": false }
         ],
         "//": "range 1 to 8",
         "sprite_width": 32,
