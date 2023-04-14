@@ -437,5 +437,103 @@
 	"copy-from": "anbc_suit",
     "name": { "str": "ANBC suit" },
     "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pockets" ]
+  },
+  {
+    "id": "depowered_armor",
+    "type": "ARMOR",
+	"copy-from": "depowered_armor",
+    "name": { "str": "salvaged power armor" },
+    "extend": { "flags": [ "OVERSIZE" ] }
+  },
+  {
+    "id": "depowered_helmet",
+    "type": "ARMOR",
+	"copy-from": "depowered_helmet",
+    "name": { "str": "salvaged power armor helmet" },
+    "extend": { "flags": [ "OVERSIZE" ] }
+  },
+  {
+    "id": "power_armor_basic",
+    "type": "ARMOR",
+	"copy-from": "power_armor_basic",
+    "name": { "str": "combat exoskeleton" },
+    "extend": { "flags": [ "OVERSIZE" ] }
+  },
+  {
+    "id": "power_armor_basic_on",
+    "type": "ARMOR",
+	"copy-from": "power_armor_basic_on",
+    "name": { "str": "combat exoskeleton (active)", "str_pl": "combat exoskeletons (active)" },
+    "extend": { "flags": [ "OVERSIZE", "CLIMATE_CONTROL", "TRADER_AVOID" ] }
+  },
+  {
+    "id": "power_armor_heavy",
+    "type": "ARMOR",
+	"copy-from": "power_armor_heavy",
+    "name": { "str": "heavy combat exoskeleton" },
+    "extend": { "flags": [ "OVERSIZE" ] }
+  },
+  {
+    "id": "power_armor_heavy_on",
+    "type": "ARMOR",
+	"copy-from": "power_armor_heavy_on",
+    "name": { "str": "heavy combat exoskeleton (active)", "str_pl": "heavy combat exoskeletons (active)" },
+    "extend": { "flags": [ "OVERSIZE", "CLIMATE_CONTROL", "TRADER_AVOID" ] }
+  },
+  {
+    "id": "power_armor_light",
+    "type": "ARMOR",
+	"copy-from": "power_armor_light",
+    "name": { "str": "field combat exoskeleton" },
+    "extend": { "flags": [ "OVERSIZE" ] }
+  },
+  {
+    "id": "power_armor_light_on",
+    "type": "ARMOR",
+	"copy-from": "power_armor_light_on",
+    "name": { "str": "field combat exoskeleton (active)", "str_pl": "field combat exoskeletons (active)" },
+    "extend": { "flags": [ "OVERSIZE", "CLIMATE_CONTROL", "TRADER_AVOID" ] }
+  },
+  {
+    "id": "power_armor_helmet_basic",
+    "type": "ARMOR",
+	"copy-from": "power_armor_helmet_basic",
+    "name": { "str": "environmental combat helmet" },
+    "extend": { "flags": [ "OVERSIZE" ] }
+  },
+  {
+    "id": "power_armor_helmet_basic_on",
+    "type": "ARMOR",
+	"copy-from": "power_armor_helmet_basic_on",
+    "name": { "str": "environmental combat helmet (active)", "str_pl": "environmental combat helmets (active)" },
+    "extend": { "flags": [ "OVERSIZE", "WATCH", "THERMOMETER", "CLIMATE_CONTROL", "TRADER_AVOID" ] }
+  },
+  {
+    "id": "power_armor_helmet_heavy",
+    "type": "ARMOR",
+	"copy-from": "power_armor_helmet_heavy",
+    "name": { "str": "heavy environmental combat helmet" },
+    "extend": { "flags": [ "OVERSIZE" ] }
+  },
+  {
+    "id": "power_armor_helmet_heavy_on",
+    "type": "ARMOR",
+	"copy-from": "power_armor_helmet_heavy_on",
+    "name": { "str": "heavy environmental combat helmet (active)", "str_pl": "heavy environmental combat helmets (active)" },
+    "extend": { "flags": [ "OVERSIZE", "WATCH", "THERMOMETER", "CLIMATE_CONTROL", "TRADER_AVOID" ] }
+  },
+  {
+    "id": "power_armor_helmet_light",
+    "type": "ARMOR",
+	"copy-from": "power_armor_helmet_light",
+    "name": { "str": "light environmental combat helmet" },
+    "extend": { "flags": [ "OVERSIZE" ] }
+  },
+  {
+    "id": "power_armor_helmet_light_on",
+    "type": "ARMOR",
+	"copy-from": "power_armor_helmet_light_on",
+    "name": { "str": "light environmental combat helmet (active)", "str_pl": "light environmental combat helmets (active)" },
+    "extend": { "flags": [ "OVERSIZE", "WATCH", "THERMOMETER", "CLIMATE_CONTROL", "TRADER_AVOID" ] }
   }
  ]
