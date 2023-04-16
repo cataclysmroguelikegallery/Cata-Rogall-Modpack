@@ -1,0 +1,39 @@
+[
+	{
+		"id":"kz_ncard_s2_r4_no_01",
+		"type":"TOOL_ARMOR",
+		"copy-from":"kz_ncard_r4_base",
+		"name":{"str": "<color_light_green>맹세의 반지(No.19 침공무기(클리너))</color>","str_pl":"<color_light_green>맹세의 반지(No.19 침공무기(클리너))</color>"},
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_s2_clean", "no_fail": true, "level": 0 },
+		"symbol":"o"
+	}
+,
+	{
+		"id":"kz_ncard_s2_r3_no_01",
+		"type":"TOOL_ARMOR",
+		"copy-from":"kz_ncard_r3_base",
+		"name":{"str": "<color_light_green>맹세의 반지(No.20 침공무기(드론))</color>","str_pl":"<color_light_green>맹세의 반지(No.20 침공무기(드론))</color>"},
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_s2_bit", "no_fail": true, "level": 0 },
+		"symbol":"o"
+	}
+,
+	{
+		"id":"kz_ncard_s2_r3_no_02",
+		"type":"TOOL_ARMOR",
+		"copy-from":"kz_ncard_r3_base",
+		"name":{"str": "<color_light_green>맹세의 반지(No.21 침공무기(슈터))</color>","str_pl":"<color_light_green>맹세의 반지(No.21 침공무기(슈터))</color>"},
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_s2_shot", "no_fail": true, "level": 0 },
+		"symbol":"o"
+	}
+,
+	{
+		"id":"kz_ncard_s2_r3_no_03",
+		"type":"TOOL_ARMOR",
+		"copy-from":"kz_ncard_r3_base",
+		"name":{"str": "<color_light_green>맹세의 반지(No.22 침공무기(파워))</color>","str_pl":"<color_light_green>맹세의 반지(No.22 침공무기(파워))</color>"},
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_ev2_triceratops_fist", "no_fail": true, "level": 0 },
+		"symbol":"o"
+	}
+
+
+]

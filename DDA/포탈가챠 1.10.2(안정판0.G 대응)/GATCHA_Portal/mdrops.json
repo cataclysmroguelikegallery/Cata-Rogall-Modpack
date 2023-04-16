@@ -1,0 +1,87 @@
+[
+	{
+		"id":"mon_triffid_heart",
+		"copy-from":"mon_triffid_heart",
+		"death_drops":"mon_triffid_heart_death_drops",
+		"type":"MONSTER"
+	}
+,
+	{
+		"id":"mon_triffid_heart_death_drops",
+		"subtype":"collection",
+		"extend":{ "entries":[ { "item": "ncard_misc_powder_dimension", "charges": 10 } ]},
+		"type":"item_group"
+	}
+,
+	{
+		"id":"mon_ant_queen",
+		"copy-from":"mon_ant_queen",
+		"death_drops":"mon_ant_queen_death_drops",
+		"type":"MONSTER"
+	}
+,
+	{
+		"id":"mon_ant_queen_death_drops",
+		"subtype":"collection",
+		"extend":{ "entries":[ { "item": "ncard_misc_powder_dimension", "charges": 10 } ]},
+		"type":"item_group"
+	}
+,
+	{
+		"id":"mon_alpha_razorclaw",
+		"copy-from":"mon_alpha_razorclaw",
+		"death_drops":"mon_alpha_razorclaw_death_drops",
+		"type":"MONSTER"
+	}
+,
+	{
+		"id":"mon_alpha_razorclaw_death_drops",
+		"subtype":"collection",
+		"extend":{ "entries":[ { "item": "ncard_misc_powder_dimension", "charges": 5 } ]},
+		"type":"item_group"
+	}
+,
+	{
+		"id":"mon_fungaloid_queen",
+		"copy-from":"mon_fungaloid_queen",
+		"death_drops":"mon_fungaloid_queen_death_drops",
+		"type":"MONSTER"
+	}
+,
+	{
+		"id":"mon_fungaloid_queen_death_drops",
+		"subtype":"collection",
+		"extend":{ "entries":[ { "item": "ncard_misc_powder_dimension", "charges": 5 } ]},
+		"type":"item_group"
+	}
+,
+	{
+		"id":"mon_fungaloid_seeder",
+		"copy-from":"mon_fungaloid_seeder",
+		"death_drops":"mon_fungaloid_seeder_death_drops",
+		"type":"MONSTER"
+	}
+,
+	{
+		"id":"mon_fungaloid_seeder_death_drops",
+		"subtype":"collection",
+		"extend":{ "entries":[ { "item": "ncard_misc_powder_dimension", "charges": 10 } ]},
+		"type":"item_group"
+	}
+,
+	{
+		"id":"mon_ant_acid_queen",
+		"copy-from":"mon_ant_acid_queen",
+		"death_drops":"mon_ant_acid_queen_death_drops",
+		"type":"MONSTER"
+	}
+,
+	{
+		"id":"mon_ant_acid_queen_death_drops",
+		"subtype":"collection",
+		"extend":{ "entries":[ { "item": "ncard_misc_powder_dimension", "charges": 10 } ]},
+		"type":"item_group"
+	}
+
+
+]

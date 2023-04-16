@@ -1,0 +1,59 @@
+[
+	{
+		"id":"TALK_C0_ev4_r3_no_01_dr",
+		"type":"talk_topic",
+		"dynamic_line":"♪",
+		"responses":[ { "text": "（스킨십을 계속한다）", "topic": "TALK_ev4_r3_no_01_dr","effect": [ { "u_add_morale": "morale_ncard", "bonus": 5,"max_bonus": 30,"duration": "30 m","decay_start": "30 m"},{"u_message": "가벼운 스킨십으로 친목을 다졌습니다.（친밀도 변화 없음）","type": "good","popup": true },{ "u_add_effect": "ef_ncard_u_high0", "duration": 28800 },{ "npc_add_effect": "ef_ncard_npc_high0", "duration": 28800 },{ "u_add_var": "time_ev4_r3_no_01_dr", "type": "timer", "context": "time", "time": true }]}] 
+	}
+,
+	{
+		"id":"TALK_C0_ev4_r3_no_02_dr",
+		"type":"talk_topic",
+		"dynamic_line":"♪",
+		"responses":[ { "text": "（스킨십을 계속한다）", "topic": "TALK_ev4_r3_no_02_dr","effect": [ { "u_add_morale": "morale_ncard", "bonus": 5,"max_bonus": 30,"duration": "30 m","decay_start": "30 m"},{"u_message": "가벼운 스킨십으로 친목을 다졌습니다.（친밀도 변화 없음）","type": "good","popup": true },{ "u_add_effect": "ef_ncard_u_high0", "duration": 28800 },{ "npc_add_effect": "ef_ncard_npc_high0", "duration": 28800 },{ "u_add_var": "time_ev4_r3_no_02_dr", "type": "timer", "context": "time", "time": true }]}] 
+	}
+,
+	{
+		"id":"TALK_C0_ev4_r3_no_03_dr",
+		"type":"talk_topic",
+		"dynamic_line":"♪",
+		"responses":[ { "text": "（스킨십을 계속한다）", "topic": "TALK_ev4_r3_no_03_dr","effect": [ { "u_add_morale": "morale_ncard", "bonus": 5,"max_bonus": 30,"duration": "30 m","decay_start": "30 m"},{"u_message": "가벼운 스킨십으로 친목을 다졌습니다.（친밀도 변화 없음）","type": "good","popup": true },{ "u_add_effect": "ef_ncard_u_high0", "duration": 28800 },{ "npc_add_effect": "ef_ncard_npc_high0", "duration": 28800 },{ "u_add_var": "time_ev4_r3_no_03_dr", "type": "timer", "context": "time", "time": true }]}] 
+	}
+,
+	{
+		"id":"TALK_C0_ev4_r3_no_04_dr",
+		"type":"talk_topic",
+		"dynamic_line":"♪",
+		"responses":[ { "text": "（스킨십을 계속한다）", "topic": "TALK_ev4_r3_no_04_dr","effect": [ { "u_add_morale": "morale_ncard", "bonus": 5,"max_bonus": 30,"duration": "30 m","decay_start": "30 m"},{"u_message": "가벼운 스킨십으로 친목을 다졌습니다.（친밀도 변화 없음）","type": "good","popup": true },{ "u_add_effect": "ef_ncard_u_high0", "duration": 28800 },{ "npc_add_effect": "ef_ncard_npc_high0", "duration": 28800 },{ "u_add_var": "time_ev4_r3_no_04_dr", "type": "timer", "context": "time", "time": true }]}] 
+	}
+,
+	{
+		"id":"TALK_C0_ev4_r3_no_05_dr",
+		"type":"talk_topic",
+		"dynamic_line":"♪",
+		"responses":[ { "text": "（스킨십을 계속한다）", "topic": "TALK_ev4_r3_no_05_dr","effect": [ { "u_add_morale": "morale_ncard", "bonus": 5,"max_bonus": 30,"duration": "30 m","decay_start": "30 m"},{"u_message": "가벼운 스킨십으로 친목을 다졌습니다.（친밀도 변화 없음）","type": "good","popup": true },{ "u_add_effect": "ef_ncard_u_high0", "duration": 28800 },{ "npc_add_effect": "ef_ncard_npc_high0", "duration": 28800 },{ "u_add_var": "time_ev4_r3_no_05_dr", "type": "timer", "context": "time", "time": true }]}] 
+	}
+,
+	{
+		"id":"TALK_C0_ev4_r3_no_06_dr",
+		"type":"talk_topic",
+		"dynamic_line":"♪",
+		"responses":[ { "text": "（스킨십을 계속한다）", "topic": "TALK_ev4_r3_no_06_dr","effect": [ { "u_add_morale": "morale_ncard", "bonus": 5,"max_bonus": 30,"duration": "30 m","decay_start": "30 m"},{"u_message": "가벼운 스킨십으로 친목을 다졌습니다.（친밀도 변화 없음）","type": "good","popup": true },{ "u_add_effect": "ef_ncard_u_high0", "duration": 28800 },{ "npc_add_effect": "ef_ncard_npc_high0", "duration": 28800 },{ "u_add_var": "time_ev4_r3_no_06_dr", "type": "timer", "context": "time", "time": true }]}] 
+	}
+,
+	{
+		"id":"TALK_C0_ev4_r4_no_01_dr",
+		"type":"talk_topic",
+		"dynamic_line":"♪",
+		"responses":[ { "text": "（스킨십을 계속한다）", "topic": "TALK_ev4_r4_no_01_dr","effect": [ { "u_add_morale": "morale_ncard", "bonus": 5,"max_bonus": 30,"duration": "30 m","decay_start": "30 m"},{"u_message": "가벼운 스킨십으로 친목을 다졌습니다.（친밀도 변화 없음）","type": "good","popup": true },{ "u_add_effect": "ef_ncard_u_high0", "duration": 28800 },{ "npc_add_effect": "ef_ncard_npc_high0", "duration": 28800 },{ "u_add_var": "time_ev4_r4_no_01_dr", "type": "timer", "context": "time", "time": true }]}] 
+	}
+,
+	{
+		"id":"TALK_C0_ev4_r4_no_02_dr",
+		"type":"talk_topic",
+		"dynamic_line":"♪",
+		"responses":[ { "text": "（스킨십을 계속한다）", "topic": "TALK_ev4_r4_no_02_dr","effect": [ { "u_add_morale": "morale_ncard", "bonus": 5,"max_bonus": 30,"duration": "30 m","decay_start": "30 m"},{"u_message": "가벼운 스킨십으로 친목을 다졌습니다.（친밀도 변화 없음）","type": "good","popup": true },{ "u_add_effect": "ef_ncard_u_high0", "duration": 28800 },{ "npc_add_effect": "ef_ncard_npc_high0", "duration": 28800 },{ "u_add_var": "time_ev4_r4_no_02_dr", "type": "timer", "context": "time", "time": true }]}] 
+	}
+
+
+]

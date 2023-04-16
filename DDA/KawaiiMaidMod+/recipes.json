@@ -1,0 +1,258 @@
+[
+  {
+    "result": "kawaii_tights_black_2",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_FEET",
+    "skill_used": "tailor",
+    "difficulty": 3,
+    "time": "5 m",
+    "autolearn": true,
+    "using": [ [ "sewing_standard", 10 ] ],
+    "components": [ [ [ "rag", 10 ] ] ]
+  },
+  {
+    "result": "kawaii_tights_white_2",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_FEET",
+    "skill_used": "tailor",
+    "difficulty": 3,
+    "time": "5 m",
+    "autolearn": true,
+    "using": [ [ "sewing_standard", 10 ] ],
+    "components": [ [ [ "rag", 10 ] ] ]
+  },
+  {
+    "result": "kawaii_gloves_lss",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_HANDS",
+    "skill_used": "tailor",
+    "difficulty": 5,
+    "skills_required": [ "fabrication", 3 ],
+    "time": "18 h",
+    "autolearn": true,
+    "using": [ [ "sewing_standard", 50 ] ],
+    "tools": [ [ [ "welder", 14 ], [ "welder_crude", 21 ], [ "soldering_iron", 21 ], [ "toolset", 21 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_closures_waterproofing" },
+      { "proficiency": "prof_polymerworking" },
+      { "proficiency": "prof_leatherworking_basic" },
+      { "proficiency": "prof_leatherworking" }
+    ],
+    "components": [
+      [ [ "rag", 6 ] ],
+      [ [ "leather", 2 ] ],
+      [ [ "duct_tape", 80 ] ],
+      [ [ "gloves_tactical", 1 ], [ "kevlar_plate", 4 ] ],
+      [ [ "kawaii_gloves_light", 1 ] ]
+    ]
+  },
+  {
+    "result": "kawaii_gloves_xl_light",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_HANDS",
+    "skill_used": "tailor",
+    "difficulty": 1,
+    "time": "10 m",
+    "autolearn": true,
+    "using": [ [ "sewing_standard", 8 ] ],
+    "components": [ [ [ "rag", 8 ] ] ]
+  },
+  {
+    "result": "kawaii_gloves_xl_lss",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_HANDS",
+    "skill_used": "tailor",
+    "difficulty": 5,
+    "skills_required": [ "fabrication", 3 ],
+    "time": "18 h",
+    "autolearn": true,
+    "using": [ [ "sewing_standard", 100 ] ],
+    "tools": [ [ [ "welder", 28 ], [ "welder_crude", 42 ], [ "soldering_iron", 42 ], [ "toolset", 42 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_closures_waterproofing" },
+      { "proficiency": "prof_polymerworking" },
+      { "proficiency": "prof_leatherworking_basic" },
+      { "proficiency": "prof_leatherworking" }
+    ],
+    "components": [
+      [ [ "rag", 12 ] ],
+      [ [ "leather", 4 ] ],
+      [ [ "duct_tape", 160 ] ],
+      [ [ "gloves_tactical", 2 ], [ "kevlar_plate", 8 ] ],
+      [ [ "kawaii_gloves_xl_light", 1 ] ]
+    ]
+  },
+  {
+    "result": "kawaii_boots_lss",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_FEET",
+    "skill_used": "tailor",
+    "difficulty": 9,
+    "skills_required": [ "fabrication", 9 ],
+    "time": "20 h",
+    "autolearn": true,
+    "using": [ [ "sewing_standard", 100 ] ],
+    "tools": [ [ [ "welder", 21 ], [ "welder_crude", 32 ], [ "soldering_iron", 32 ], [ "toolset", 32 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_cobbling" },
+      { "proficiency": "prof_leatherworking_basic" },
+      { "proficiency": "prof_closures_waterproofing" },
+      { "proficiency": "prof_polymerworking" }
+    ],
+    "components": [
+      [ [ "nomex", 22 ] ],
+      [ [ "kevlar_plate", 15 ] ],
+      [ [ "duct_tape", 300 ] ],
+      [ [ "nomex_socks", 1 ] ],
+      [ [ "kawaii_boots", 1 ] ]
+    ]
+  },
+  {
+    "result": "kawaii_dress_shoes_lss",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_FEET",
+    "skill_used": "tailor",
+    "difficulty": 9,
+    "skills_required": [ "fabrication", 9 ],
+    "time": "20 h",
+    "autolearn": true,
+    "using": [ [ "sewing_standard", 100 ] ],
+    "tools": [ [ [ "welder", 21 ], [ "welder_crude", 32 ], [ "soldering_iron", 32 ], [ "toolset", 32 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_cobbling" },
+      { "proficiency": "prof_leatherworking_basic" },
+      { "proficiency": "prof_closures_waterproofing" },
+      { "proficiency": "prof_polymerworking" }
+    ],
+    "components": [
+      [ [ "nomex", 22 ] ],
+      [ [ "kevlar_plate", 15 ] ],
+      [ [ "duct_tape", 300 ] ],
+      [ [ "nomex_socks", 1 ] ],
+      [ [ "kawaii_dress_shoes", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "kawaii_maid_hat_lss_v2",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_HEAD",
+    "skill_used": "tailor",
+    "difficulty": 5,
+    "skills_required": [ [ "tailor", 6 ] ],
+    "time": "5 h",
+    "autolearn": true,
+    "using": [ [ "sewing_standard", 250 ] ],
+    "components": [  [ [ "rag", 10 ] ], [ [ "kevlar_plate", 12 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "kawaii_maid_dress_lss_v2",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "tailor",
+    "difficulty": 10,
+    "skills_required": [ [ "fabrication", 9 ], [ "electronics", 9 ], [ "melee", 9 ] ],
+    "time": "24 h",
+    "autolearn": true,
+    "using": [ [ "sewing_standard", 200 ] ],
+    "tools": [ [ [ "welder", 28 ], [ "welder_crude", 42 ], [ "soldering_iron", 42 ], [ "toolset", 42 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_polymerworking" },
+      { "proficiency": "prof_closures_waterproofing" }
+    ],
+    "components": [
+      [ [ "rag", 30 ] ],
+      [ [ "coat_rain", 1 ] ],
+      [ [ "kevlar", 1 ], [ "kevlar_plate", 24 ] ],
+      [ [ "element", 6 ] ],
+      [ [ "cable", 12 ] ],
+      [ [ "plut_cell", 2 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "kawaii_maid_dress_lss_v2_long",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "tailor",
+    "difficulty": 10,
+    "skills_required": [ [ "fabrication", 9 ], [ "electronics", 9 ], [ "melee", 9 ] ],
+    "time": "1 m",
+    "autolearn": true,
+    "components": [ [ [ "kawaii_maid_dress_lss_v2", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "kawaii_maid_dress_lss_v2",
+    "id_suffix": "transform",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "tailor",
+    "difficulty": 10,
+    "skills_required": [ [ "fabrication", 9 ], [ "electronics", 9 ], [ "melee", 9 ] ],
+    "time": "1 m",
+    "autolearn": true,
+    "components": [ [ [ "kawaii_maid_dress_lss_v2_long", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "kawaii_maid_dress_lss_v2",
+    "id_suffix": "upgrade",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "tailor",
+    "difficulty": 10,
+    "skills_required": [ [ "fabrication", 9 ], [ "electronics", 9 ], [ "melee", 9 ] ],
+    "time": "1 h",
+    "autolearn": true,
+    "proficiencies": [
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_polymerworking" },
+      { "proficiency": "prof_closures_waterproofing" }
+    ],
+    "components": [ [ [ "kawaii_maid_dress_lss", 1 ] ],[ [ "plut_cell", 2 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "kawaii_maid_dress_lss_v2_long",
+    "id_suffix": "upgrade",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "tailor",
+    "difficulty": 10,
+    "skills_required": [ [ "fabrication", 9 ], [ "electronics", 9 ], [ "melee", 9 ] ],
+    "time": "1 h",
+    "autolearn": true,
+    "proficiencies": [
+      { "proficiency": "prof_elec_soldering" },
+      { "proficiency": "prof_elec_circuits" },
+      { "proficiency": "prof_polymerworking" },
+      { "proficiency": "prof_closures_waterproofing" }
+    ],
+    "components": [ [ [ "kawaii_maid_dress_lss_long", 1 ] ],[ [ "plut_cell", 2 ] ] ]
+  }
+]

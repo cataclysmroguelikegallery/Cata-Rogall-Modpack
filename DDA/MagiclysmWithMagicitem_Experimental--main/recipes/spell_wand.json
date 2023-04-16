@@ -1,0 +1,837 @@
+[
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_light_healing_1",
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_魔法杖(初級)",
+    "skill_used": "fabrication",
+    "skills_required": [ "spellcraft", 1 ],
+    "difficulty": 2,
+    "time": "15 m",
+    "autolearn": true,
+    "qualities": [ { "id": "MANA_FOCUS", "level": 1 } ],
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_biomancer",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_light_healing_2",
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_魔法杖(中級)",
+    "skill_used": "fabrication",
+    "skills_required": [ "spellcraft", 1 ],
+    "difficulty": 4,
+    "time": "15 m",
+    "autolearn": true,
+    "qualities": [ { "id": "CHISEL", "level": 2 }, { "id": "MANA_INFUSE", "level": 1 } ],
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_biomancer",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_light_healing_3",
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_魔法杖(上級)",
+    "skill_used": "fabrication",
+    "skills_required": [ "spellcraft", 1 ],
+    "difficulty": 6,
+    "time": "15 m",
+    "book_learn": [ [ "enchantment_basic", 4 ] ],
+    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_biomancer",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_pain_split_1",
+    "copy-from": "PSY_magi_stave_magic_light_healing_1",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_biomancer",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_bio_grotesque_1",
+    "copy-from": "PSY_magi_stave_magic_light_healing_1",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_biomancer",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_bio_grotesque_2",
+    "copy-from": "PSY_magi_stave_magic_light_healing_2",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_biomancer",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_bio_grotesque_3",
+    "copy-from": "PSY_magi_stave_magic_light_healing_3",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_biomancer",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_bio_acidicspray_1",
+    "copy-from": "PSY_magi_stave_magic_light_healing_1",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_biomancer",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_bio_acidicspray_2",
+    "copy-from": "PSY_magi_stave_magic_light_healing_2",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_biomancer",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_bio_acidicspray_3",
+    "copy-from": "PSY_magi_stave_magic_light_healing_3",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_biomancer",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_druid_veggrasp_1",
+    "copy-from": "PSY_magi_stave_magic_light_healing_1",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_druid",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_druid_veggrasp_2",
+    "copy-from": "PSY_magi_stave_magic_light_healing_2",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_druid",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_druid_veggrasp_3",
+    "copy-from": "PSY_magi_stave_magic_light_healing_3",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_druid",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_druid_rootstrike_1",
+    "copy-from": "PSY_magi_stave_magic_light_healing_1",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_druid",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_druid_rootstrike_2",
+    "copy-from": "PSY_magi_stave_magic_light_healing_2",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_druid",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_druid_rootstrike_3",
+    "copy-from": "PSY_magi_stave_magic_light_healing_3",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_druid",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_summon_cats_1",
+    "copy-from": "PSY_magi_stave_magic_light_healing_1",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_druid",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_summon_cats_2",
+    "copy-from": "PSY_magi_stave_magic_light_healing_2",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_druid",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_summon_cats_3",
+    "copy-from": "PSY_magi_stave_magic_light_healing_3",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_druid",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_eshaper_shardspray_1",
+    "copy-from": "PSY_magi_stave_magic_light_healing_1",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_earthshaper",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_eshaper_shardspray_2",
+    "copy-from": "PSY_magi_stave_magic_light_healing_2",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_earthshaper",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_eshaper_shardspray_3",
+    "copy-from": "PSY_magi_stave_magic_light_healing_3",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_earthshaper",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_eshaper_piercing_bolt_1",
+    "copy-from": "PSY_magi_stave_magic_light_healing_1",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_earthshaper",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_eshaper_piercing_bolt_2",
+    "copy-from": "PSY_magi_stave_magic_light_healing_2",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_earthshaper",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_eshaper_piercing_bolt_3",
+    "copy-from": "PSY_magi_stave_magic_light_healing_3",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_earthshaper",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_eshaper_shardstorm_1",
+    "copy-from": "PSY_magi_stave_magic_light_healing_1",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_earthshaper",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_eshaper_shardstorm_2",
+    "copy-from": "PSY_magi_stave_magic_light_healing_2",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_earthshaper",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_eshaper_shardstorm_3",
+    "copy-from": "PSY_magi_stave_magic_light_healing_3",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_earthshaper",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_nova_flare_1",
+    "copy-from": "PSY_magi_stave_magic_light_healing_1",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_kelvinist",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_nova_flare_2",
+    "copy-from": "PSY_magi_stave_magic_light_healing_2",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_kelvinist",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_nova_flare_3",
+    "copy-from": "PSY_magi_stave_magic_light_healing_3",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_kelvinist",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_ice_spike_1",
+    "copy-from": "PSY_magi_stave_magic_light_healing_1",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_kelvinist",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_ice_spike_2",
+    "copy-from": "PSY_magi_stave_magic_light_healing_2",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_kelvinist",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_ice_spike_3",
+    "copy-from": "PSY_magi_stave_magic_light_healing_3",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_kelvinist",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_frost_spray_1",
+    "copy-from": "PSY_magi_stave_magic_light_healing_1",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_kelvinist",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_frost_spray_2",
+    "copy-from": "PSY_magi_stave_magic_light_healing_2",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_kelvinist",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_frost_spray_3",
+    "copy-from": "PSY_magi_stave_magic_light_healing_3",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_kelvinist",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_freezing_touch_1",
+    "copy-from": "PSY_magi_stave_magic_light_healing_1",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_kelvinist",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_freezing_touch_2",
+    "copy-from": "PSY_magi_stave_magic_light_healing_2",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_kelvinist",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_freezing_touch_3",
+    "copy-from": "PSY_magi_stave_magic_light_healing_3",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_kelvinist",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_phase_door_1",
+    "copy-from": "PSY_magi_stave_magic_light_healing_1",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_magus",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_phase_door_2",
+    "copy-from": "PSY_magi_stave_magic_light_healing_2",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_magus",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_phase_door_3",
+    "copy-from": "PSY_magi_stave_magic_light_healing_3",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_magus",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_gravity_well_1",
+    "copy-from": "PSY_magi_stave_magic_light_healing_1",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_magus",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_gravity_well_2",
+    "copy-from": "PSY_magi_stave_magic_light_healing_2",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_magus",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_gravity_well_3",
+    "copy-from": "PSY_magi_stave_magic_light_healing_3",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_magus",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_magus_mana_bolt_1",
+    "copy-from": "PSY_magi_stave_magic_light_healing_1",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_magus",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_magus_mana_bolt_2",
+    "copy-from": "PSY_magi_stave_magic_light_healing_2",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_magus",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_magus_mana_bolt_3",
+    "copy-from": "PSY_magi_stave_magic_light_healing_3",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_magus",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_lightning_bolt_1",
+    "copy-from": "PSY_magi_stave_magic_light_healing_1",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_stormshaper",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_lightning_bolt_2",
+    "copy-from": "PSY_magi_stave_magic_light_healing_2",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_stormshaper",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_lightning_bolt_3",
+    "copy-from": "PSY_magi_stave_magic_light_healing_3",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_stormshaper",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_lightning_storm_1",
+    "copy-from": "PSY_magi_stave_magic_light_healing_1",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_stormshaper",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_lightning_storm_2",
+    "copy-from": "PSY_magi_stave_magic_light_healing_2",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_stormshaper",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_lightning_storm_3",
+    "copy-from": "PSY_magi_stave_magic_light_healing_3",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_stormshaper",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_stormshaper_ionization_1",
+    "copy-from": "PSY_magi_stave_magic_light_healing_1",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_stormshaper",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_stormshaper_ionization_2",
+    "copy-from": "PSY_magi_stave_magic_light_healing_2",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_stormshaper",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_stormshaper_ionization_3",
+    "copy-from": "PSY_magi_stave_magic_light_healing_3",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_stormshaper",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_improved_knock_1",
+    "copy-from": "PSY_magi_stave_magic_light_healing_1",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_technomancer",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_bless_1",
+    "copy-from": "PSY_magi_stave_magic_light_healing_1",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_technomancer",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_bless_2",
+    "copy-from": "PSY_magi_stave_magic_light_healing_2",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_technomancer",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_bless_3",
+    "copy-from": "PSY_magi_stave_magic_light_healing_3",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_technomancer",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_spirit_armor_1",
+    "copy-from": "PSY_magi_stave_magic_light_healing_1",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_technomancer",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_spirit_armor_2",
+    "copy-from": "PSY_magi_stave_magic_light_healing_2",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_technomancer",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_spirit_armor_3",
+    "copy-from": "PSY_magi_stave_magic_light_healing_3",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_technomancer",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_smite_1",
+    "copy-from": "PSY_magi_stave_magic_light_healing_1",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_animist",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_smite_2",
+    "copy-from": "PSY_magi_stave_magic_light_healing_2",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_animist",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_smite_3",
+    "copy-from": "PSY_magi_stave_magic_light_healing_3",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_animist",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_summon_skeleton_1",
+    "copy-from": "PSY_magi_stave_magic_light_healing_1",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_animist",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_summon_skeleton_2",
+    "copy-from": "PSY_magi_stave_magic_light_healing_2",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_animist",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_summon_skeleton_3",
+    "copy-from": "PSY_magi_stave_magic_light_healing_3",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_animist",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_summon_decayed_pouncer_1",
+    "copy-from": "PSY_magi_stave_magic_light_healing_1",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_animist",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_summon_decayed_pouncer_2",
+    "copy-from": "PSY_magi_stave_magic_light_healing_2",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_animist",   2 ] ]
+     ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_stave_magic_summon_decayed_pouncer_3",
+    "copy-from": "PSY_magi_stave_magic_light_healing_3",
+    "components": [
+       [ [ "crystallized_mana", 200 ] ],
+       [ [ "stick_long", 1 ], [ "q_staff", 1 ], [ "pool_cue", 1 ] ],
+       [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "leather", 1 ], [ "fur", 1 ] ],
+       [ [ "rune_animist",   2 ] ]
+     ]
+  }
+]

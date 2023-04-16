@@ -1,0 +1,54 @@
+[
+		
+		
+		{
+		"type": "mod_tileset","compatibility": [
+		"Custom Tileset",
+		"MshockXottoplus",
+		"MSX++DEAD_PEOPLE",
+		"UNDEAD_PEOPLE",
+		"ChestHole32",
+		"UNDEAD_PEOPLE_BASE",
+		"UltimateCataclysm",
+		"UltimateCataclysmDemo",
+		"Chibi_Ultica",
+		"MshockXottoplus",
+		"Alternative Ultica",
+		"MshockXottoplus"
+		],
+		"tiles-new": [
+		{
+		"file": "tile_config_GATCHA_32x32.png",
+		"tiles": [
+		
+		{ "id": "explosion_spell_ncard_r3_fire", "fg":1, "rotates": false,"multitile": true,"additional_tiles":  [  {  "id": "corner",  "fg": 1}, { "id": "edge", "fg": 1 } ] },
+		{ "id": "explosion_spell_ncard_heal", "fg":1, "rotates": false,"multitile": true,"additional_tiles":  [  {  "id": "corner",  "fg": 1}, { "id": "edge", "fg": 1 } ] },
+		{ "id": "explosion_spell_ncard_pull_ally2", "fg":1, "rotates": false,"multitile": true,"additional_tiles":  [  {  "id": "corner",  "fg": 1}, { "id": "edge", "fg": 1 } ] },
+		{ "id": "explosion_spell_ncard_kitunebi", "fg":4, "rotates": false,"multitile": true,"additional_tiles":  [  {  "id": "corner",  "fg": 4}, { "id": "edge", "fg": 4 } ] },
+		{ "id": "explosion_spell_ncard_revive_aoe", "fg":6, "rotates": false,"multitile": true,"additional_tiles":  [  {  "id": "corner",  "fg": 6}, { "id": "edge", "fg": 6 } ] },
+		{ "id": "explosion_spell_ncard_pull_ally", "fg":1, "rotates": false,"multitile": true,"additional_tiles":  [  {  "id": "corner",  "fg": 1}, { "id": "edge", "fg": 1 } ] },
+		
+		{ "id": "explosion_spell_ncard_holy", "fg":1, "rotates": false,"multitile": true,"additional_tiles":  [  {  "id": "corner",  "fg": 1}, { "id": "edge", "fg": 1 } ] },
+		{ "id": "explosion_spell_ncard_holy2", "fg":1, "rotates": false,"multitile": true,"additional_tiles":  [  {  "id": "corner",  "fg": 1}, { "id": "edge", "fg": 1 } ] },
+		
+		{ "id": "explosion_spell_ncard_heartcharge", "fg":7, "rotates": false,"multitile": true,"additional_tiles":  [  {  "id": "corner",  "fg": 7}, { "id": "edge", "fg": 7 } ] },
+		
+		{ "id": "fd_ncard_deathcross2", "fg":2, "rotates": false }
+		
+		
+		
+		
+		
+		
+		],
+		"sprite_width": 32,
+		"sprite_height": 32,
+		"sprite_offset_x": 0,
+		"sprite_offset_y": 0
+		      }
+		
+		    ]
+		  }
+
+
+]

@@ -1,0 +1,381 @@
+[
+	{
+		"id":"TALK_P1_r4_no_01",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "（먹게 해준다）（체력 미회복・스킨쉽횟수+）", "topic": "TALK_r4_no_01","condition":  { "u_has_items": { "item": "chocolate", "count": 1 } },"effect": [ { "npc_cast_spell": { "id": "spell_ncard_heal" }, "targeted": true },{ "u_consume_item": "chocolate", "count": 1  },{"u_message": "초코바를 맛있게 먹었다.","type": "good","popup": true },{ "u_add_var": "present_r4_no_01", "type": "counter", "context": "present","value": "3" }], "default": true },{ "text": "줄게 없다", "topic": "TALK_r4_no_01" } ] 
+	}
+,
+	{
+		"id":"TALK_P1_r4_no_02",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "（먹게 해준다）（체력 미회복・스킨쉽횟수+）", "topic": "TALK_r4_no_02","condition":  { "u_has_items": { "item": "chocolate", "count": 1 } },"effect": [ { "npc_cast_spell": { "id": "spell_ncard_heal" }, "targeted": true },{ "u_consume_item": "chocolate", "count": 1  },{"u_message": "초코바를 맛있게 먹었다.","type": "good","popup": true },{ "u_add_var": "present_r4_no_02", "type": "counter", "context": "present","value": "3" }], "default": true },{ "text": "줄게 없다", "topic": "TALK_r4_no_02" } ] 
+	}
+,
+	{
+		"id":"TALK_P1_r4_no_03",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "（먹게 해준다）（체력 미회복・스킨쉽횟수+）", "topic": "TALK_r4_no_03","condition":  { "u_has_items": { "item": "chocolate", "count": 1 } },"effect": [ { "npc_cast_spell": { "id": "spell_ncard_heal" }, "targeted": true },{ "u_consume_item": "chocolate", "count": 1  },{"u_message": "초코바를 맛있게 먹었다.","type": "good","popup": true },{ "u_add_var": "present_r4_no_03", "type": "counter", "context": "present","value": "3" }], "default": true },{ "text": "줄게 없다", "topic": "TALK_r4_no_03" } ] 
+	}
+,
+	{
+		"id":"TALK_P1_r4_no_04",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "（먹게 해준다）（체력 미회복・스킨쉽횟수+）", "topic": "TALK_r4_no_04","condition":  { "u_has_items": { "item": "chocolate", "count": 1 } },"effect": [ { "npc_cast_spell": { "id": "spell_ncard_heal" }, "targeted": true },{ "u_consume_item": "chocolate", "count": 1  },{"u_message": "초코바를 맛있게 먹었다.","type": "good","popup": true },{ "u_add_var": "present_r4_no_04", "type": "counter", "context": "present","value": "3" }], "default": true },{ "text": "줄게 없다", "topic": "TALK_r4_no_04" } ] 
+	}
+,
+	{
+		"id":"TALK_P1_r3_no_01",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "（먹게 해준다）（체력 미회복・스킨쉽횟수+）", "topic": "TALK_r3_no_01","condition":  { "u_has_items": { "item": "chocolate", "count": 1 } },"effect": [ { "npc_cast_spell": { "id": "spell_ncard_heal" }, "targeted": true },{ "u_consume_item": "chocolate", "count": 1  },{"u_message": "초코바를 맛있게 먹었다.","type": "good","popup": true },{ "u_add_var": "present_r3_no_01", "type": "counter", "context": "present","value": "3" }], "default": true },{ "text": "줄게 없다", "topic": "TALK_r3_no_01" } ] 
+	}
+,
+	{
+		"id":"TALK_P1_r3_no_02",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "（먹게 해준다）（체력 미회복・스킨쉽횟수+）", "topic": "TALK_r3_no_02","condition":  { "u_has_items": { "item": "chocolate", "count": 1 } },"effect": [ { "npc_cast_spell": { "id": "spell_ncard_heal" }, "targeted": true },{ "u_consume_item": "chocolate", "count": 1  },{"u_message": "초코바를 맛있게 먹었다.","type": "good","popup": true },{ "u_add_var": "present_r3_no_02", "type": "counter", "context": "present","value": "3" }], "default": true },{ "text": "줄게 없다", "topic": "TALK_r3_no_02" } ] 
+	}
+,
+	{
+		"id":"TALK_P1_r3_no_03",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "（먹게 해준다）（체력 미회복・스킨쉽횟수+）", "topic": "TALK_r3_no_03","condition":  { "u_has_items": { "item": "chocolate", "count": 1 } },"effect": [ { "npc_cast_spell": { "id": "spell_ncard_heal" }, "targeted": true },{ "u_consume_item": "chocolate", "count": 1  },{"u_message": "초코바를 맛있게 먹었다.","type": "good","popup": true },{ "u_add_var": "present_r3_no_03", "type": "counter", "context": "present","value": "3" }], "default": true },{ "text": "줄게 없다", "topic": "TALK_r3_no_03" } ] 
+	}
+,
+	{
+		"id":"TALK_P1_r3_no_04",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "（먹게 해준다）（체력 미회복・스킨쉽횟수+）", "topic": "TALK_r3_no_04","condition":  { "u_has_items": { "item": "chocolate", "count": 1 } },"effect": [ { "npc_cast_spell": { "id": "spell_ncard_heal" }, "targeted": true },{ "u_consume_item": "chocolate", "count": 1  },{"u_message": "초코바를 맛있게 먹었다.","type": "good","popup": true },{ "u_add_var": "present_r3_no_04", "type": "counter", "context": "present","value": "3" }], "default": true },{ "text": "줄게 없다", "topic": "TALK_r3_no_04" } ] 
+	}
+,
+	{
+		"id":"TALK_P1_r3_no_05",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "（먹게 해준다）（체력 미회복・스킨쉽횟수+）", "topic": "TALK_r3_no_05","condition":  { "u_has_items": { "item": "chocolate", "count": 1 } },"effect": [ { "npc_cast_spell": { "id": "spell_ncard_heal" }, "targeted": true },{ "u_consume_item": "chocolate", "count": 1  },{"u_message": "초코바를 맛있게 먹었다.","type": "good","popup": true },{ "u_add_var": "present_r3_no_05", "type": "counter", "context": "present","value": "3" }], "default": true },{ "text": "줄게 없다", "topic": "TALK_r3_no_05" } ] 
+	}
+,
+	{
+		"id":"TALK_P1_r3_no_06",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "（먹게 해준다）（체력 미회복・스킨쉽횟수+）", "topic": "TALK_r3_no_06","condition":  { "u_has_items": { "item": "chocolate", "count": 1 } },"effect": [ { "npc_cast_spell": { "id": "spell_ncard_heal" }, "targeted": true },{ "u_consume_item": "chocolate", "count": 1  },{"u_message": "초코바를 맛있게 먹었다.","type": "good","popup": true },{ "u_add_var": "present_r3_no_06", "type": "counter", "context": "present","value": "3" }], "default": true },{ "text": "줄게 없다", "topic": "TALK_r3_no_06" } ] 
+	}
+,
+	{
+		"id":"TALK_P1_r3_no_07",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "（먹게 해준다）（체력 미회복・스킨쉽횟수+）", "topic": "TALK_r3_no_07","condition":  { "u_has_items": { "item": "chocolate", "count": 1 } },"effect": [ { "npc_cast_spell": { "id": "spell_ncard_heal" }, "targeted": true },{ "u_consume_item": "chocolate", "count": 1  },{"u_message": "초코바를 맛있게 먹었다.","type": "good","popup": true },{ "u_add_var": "present_r3_no_07", "type": "counter", "context": "present","value": "3" }], "default": true },{ "text": "줄게 없다", "topic": "TALK_r3_no_07" } ] 
+	}
+,
+	{
+		"id":"TALK_P1_r3_no_08",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "（먹게 해준다）（체력 미회복・스킨쉽횟수+）", "topic": "TALK_r3_no_08","condition":  { "u_has_items": { "item": "chocolate", "count": 1 } },"effect": [ { "npc_cast_spell": { "id": "spell_ncard_heal" }, "targeted": true },{ "u_consume_item": "chocolate", "count": 1  },{"u_message": "초코바를 맛있게 먹었다.","type": "good","popup": true },{ "u_add_var": "present_r3_no_08", "type": "counter", "context": "present","value": "3" }], "default": true },{ "text": "줄게 없다", "topic": "TALK_r3_no_08" } ] 
+	}
+,
+	{
+		"id":"TALK_P1_r3_no_09",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "（먹게 해준다）（체력 미회복・스킨쉽횟수+）", "topic": "TALK_r3_no_09","condition":  { "u_has_items": { "item": "chocolate", "count": 1 } },"effect": [ { "npc_cast_spell": { "id": "spell_ncard_heal" }, "targeted": true },{ "u_consume_item": "chocolate", "count": 1  },{"u_message": "초코바를 맛있게 먹었다.","type": "good","popup": true },{ "u_add_var": "present_r3_no_09", "type": "counter", "context": "present","value": "3" }], "default": true },{ "text": "줄게 없다", "topic": "TALK_r3_no_09" } ] 
+	}
+,
+	{
+		"id":"TALK_P1_r3_no_10",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "（먹게 해준다）（체력 미회복・스킨쉽횟수+）", "topic": "TALK_r3_no_10","condition":  { "u_has_items": { "item": "chocolate", "count": 1 } },"effect": [ { "npc_cast_spell": { "id": "spell_ncard_heal" }, "targeted": true },{ "u_consume_item": "chocolate", "count": 1  },{"u_message": "초코바를 맛있게 먹었다.","type": "good","popup": true },{ "u_add_var": "present_r3_no_10", "type": "counter", "context": "present","value": "3" }], "default": true },{ "text": "줄게 없다", "topic": "TALK_r3_no_10" } ] 
+	}
+,
+	{
+		"id":"TALK_P1_r3_no_11",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "（먹게 해준다）（체력 미회복・스킨쉽횟수+）", "topic": "TALK_r3_no_11","condition":  { "u_has_items": { "item": "chocolate", "count": 1 } },"effect": [ { "npc_cast_spell": { "id": "spell_ncard_heal" }, "targeted": true },{ "u_consume_item": "chocolate", "count": 1  },{"u_message": "초코바를 맛있게 먹었다.","type": "good","popup": true },{ "u_add_var": "present_r3_no_11", "type": "counter", "context": "present","value": "3" }], "default": true },{ "text": "줄게 없다", "topic": "TALK_r3_no_11" } ] 
+	}
+,
+	{
+		"id":"TALK_P1_s2_r4_no_01",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "（먹게 해준다）（체력 미회복・스킨쉽횟수+）", "topic": "TALK_s2_r4_no_01","condition":  { "u_has_items": { "item": "chocolate", "count": 1 } },"effect": [ { "npc_cast_spell": { "id": "spell_ncard_heal" }, "targeted": true },{ "u_consume_item": "chocolate", "count": 1  },{"u_message": "초코바를 맛있게 먹었다.","type": "good","popup": true },{ "u_add_var": "present_s2_r4_no_01", "type": "counter", "context": "present","value": "3" }], "default": true },{ "text": "줄게 없다", "topic": "TALK_s2_r4_no_01" } ] 
+	}
+,
+	{
+		"id":"TALK_P1_s2_r3_no_01",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "（먹게 해준다）（체력 미회복・스킨쉽횟수+）", "topic": "TALK_s2_r3_no_01","condition":  { "u_has_items": { "item": "chocolate", "count": 1 } },"effect": [ { "npc_cast_spell": { "id": "spell_ncard_heal" }, "targeted": true },{ "u_consume_item": "chocolate", "count": 1  },{"u_message": "초코바를 맛있게 먹었다.","type": "good","popup": true },{ "u_add_var": "present_s2_r3_no_01", "type": "counter", "context": "present","value": "3" }], "default": true },{ "text": "줄게 없다", "topic": "TALK_s2_r3_no_01" } ] 
+	}
+,
+	{
+		"id":"TALK_P1_s2_r3_no_02",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "（먹게 해준다）（체력 미회복・스킨쉽횟수+）", "topic": "TALK_s2_r3_no_02","condition":  { "u_has_items": { "item": "chocolate", "count": 1 } },"effect": [ { "npc_cast_spell": { "id": "spell_ncard_heal" }, "targeted": true },{ "u_consume_item": "chocolate", "count": 1  },{"u_message": "초코바를 맛있게 먹었다.","type": "good","popup": true },{ "u_add_var": "present_s2_r3_no_02", "type": "counter", "context": "present","value": "3" }], "default": true },{ "text": "줄게 없다", "topic": "TALK_s2_r3_no_02" } ] 
+	}
+,
+	{
+		"id":"TALK_P1_s2_r3_no_03",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "（먹게 해준다）（체력 미회복・스킨쉽횟수+）", "topic": "TALK_s2_r3_no_03","condition":  { "u_has_items": { "item": "chocolate", "count": 1 } },"effect": [ { "npc_cast_spell": { "id": "spell_ncard_heal" }, "targeted": true },{ "u_consume_item": "chocolate", "count": 1  },{"u_message": "초코바를 맛있게 먹었다.","type": "good","popup": true },{ "u_add_var": "present_s2_r3_no_03", "type": "counter", "context": "present","value": "3" }], "default": true },{ "text": "줄게 없다", "topic": "TALK_s2_r3_no_03" } ] 
+	}
+,
+	{
+		"id":"TALK_P1_s2_r3_no_04",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "（먹게 해준다）（체력 미회복・스킨쉽횟수+）", "topic": "TALK_s2_r3_no_04","condition":  { "u_has_items": { "item": "chocolate", "count": 1 } },"effect": [ { "npc_cast_spell": { "id": "spell_ncard_heal" }, "targeted": true },{ "u_consume_item": "chocolate", "count": 1  },{"u_message": "초코바를 맛있게 먹었다.","type": "good","popup": true },{ "u_add_var": "present_s2_r3_no_04", "type": "counter", "context": "present","value": "3" }], "default": true },{ "text": "줄게 없다", "topic": "TALK_s2_r3_no_04" } ] 
+	}
+,
+	{
+		"id":"TALK_P1_ev1_r4_no_01",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "（먹게 해준다）（체력 미회복・스킨쉽횟수+）", "topic": "TALK_ev1_r4_no_01","condition":  { "u_has_items": { "item": "chocolate", "count": 1 } },"effect": [ { "npc_cast_spell": { "id": "spell_ncard_heal" }, "targeted": true },{ "u_consume_item": "chocolate", "count": 1  },{"u_message": "초코바를 맛있게 먹었다.","type": "good","popup": true },{ "u_add_var": "present_ev1_r4_no_01", "type": "counter", "context": "present","value": "3" }], "default": true },{ "text": "줄게 없다", "topic": "TALK_ev1_r4_no_01" } ] 
+	}
+,
+	{
+		"id":"TALK_P1_ev1_r4_no_02",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "（먹게 해준다）（체력 미회복・스킨쉽횟수+）", "topic": "TALK_ev1_r4_no_02","condition":  { "u_has_items": { "item": "chocolate", "count": 1 } },"effect": [ { "npc_cast_spell": { "id": "spell_ncard_heal" }, "targeted": true },{ "u_consume_item": "chocolate", "count": 1  },{"u_message": "초코바를 맛있게 먹었다.","type": "good","popup": true },{ "u_add_var": "present_ev1_r4_no_02", "type": "counter", "context": "present","value": "3" }], "default": true },{ "text": "줄게 없다", "topic": "TALK_ev1_r4_no_02" } ] 
+	}
+,
+	{
+		"id":"TALK_P1_ev2_r4_no_01",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "（먹게 해준다）（체력 미회복・스킨쉽횟수+）", "topic": "TALK_ev2_r4_no_01","condition":  { "u_has_items": { "item": "chocolate", "count": 1 } },"effect": [ { "npc_cast_spell": { "id": "spell_ncard_heal" }, "targeted": true },{ "u_consume_item": "chocolate", "count": 1  },{"u_message": "초코바를 맛있게 먹었다.","type": "good","popup": true },{ "u_add_var": "present_ev2_r4_no_01", "type": "counter", "context": "present","value": "3" }], "default": true },{ "text": "줄게 없다", "topic": "TALK_ev2_r4_no_01" } ] 
+	}
+,
+	{
+		"id":"TALK_P1_ev2_r4_no_02",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "（먹게 해준다）（체력 미회복・스킨쉽횟수+）", "topic": "TALK_ev2_r4_no_02","condition":  { "u_has_items": { "item": "chocolate", "count": 1 } },"effect": [ { "npc_cast_spell": { "id": "spell_ncard_heal" }, "targeted": true },{ "u_consume_item": "chocolate", "count": 1  },{"u_message": "초코바를 맛있게 먹었다.","type": "good","popup": true },{ "u_add_var": "present_ev2_r4_no_02", "type": "counter", "context": "present","value": "3" }], "default": true },{ "text": "줄게 없다", "topic": "TALK_ev2_r4_no_02" } ] 
+	}
+,
+	{
+		"id":"TALK_P1_ev3_r4_no_01",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "（먹게 해준다）（체력 미회복・스킨쉽횟수+）", "topic": "TALK_ev3_r4_no_01","condition":  { "u_has_items": { "item": "chocolate", "count": 1 } },"effect": [ { "npc_cast_spell": { "id": "spell_ncard_heal" }, "targeted": true },{ "u_consume_item": "chocolate", "count": 1  },{"u_message": "초코바를 맛있게 먹었다.","type": "good","popup": true },{ "u_add_var": "present_ev3_r4_no_01", "type": "counter", "context": "present","value": "3" }], "default": true },{ "text": "줄게 없다", "topic": "TALK_ev3_r4_no_01" } ] 
+	}
+,
+	{
+		"id":"TALK_P1_ev3_r4_no_02",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "（먹게 해준다）（체력 미회복・스킨쉽횟수+）", "topic": "TALK_ev3_r4_no_02","condition":  { "u_has_items": { "item": "chocolate", "count": 1 } },"effect": [ { "npc_cast_spell": { "id": "spell_ncard_heal" }, "targeted": true },{ "u_consume_item": "chocolate", "count": 1  },{"u_message": "초코바를 맛있게 먹었다.","type": "good","popup": true },{ "u_add_var": "present_ev3_r4_no_02", "type": "counter", "context": "present","value": "3" }], "default": true },{ "text": "줄게 없다", "topic": "TALK_ev3_r4_no_02" } ] 
+	}
+,
+	{
+		"id":"TALK_P1_ev1_r3_no_01",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "（먹게 해준다）（체력 미회복・스킨쉽횟수+）", "topic": "TALK_ev1_r3_no_01","condition":  { "u_has_items": { "item": "chocolate", "count": 1 } },"effect": [ { "npc_cast_spell": { "id": "spell_ncard_heal" }, "targeted": true },{ "u_consume_item": "chocolate", "count": 1  },{"u_message": "초코바를 맛있게 먹었다.","type": "good","popup": true },{ "u_add_var": "present_ev1_r3_no_01", "type": "counter", "context": "present","value": "3" }], "default": true },{ "text": "줄게 없다", "topic": "TALK_ev1_r3_no_01" } ] 
+	}
+,
+	{
+		"id":"TALK_P1_ev1_r3_no_02",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "（먹게 해준다）（체력 미회복・스킨쉽횟수+）", "topic": "TALK_ev1_r3_no_02","condition":  { "u_has_items": { "item": "chocolate", "count": 1 } },"effect": [ { "npc_cast_spell": { "id": "spell_ncard_heal" }, "targeted": true },{ "u_consume_item": "chocolate", "count": 1  },{"u_message": "초코바를 맛있게 먹었다.","type": "good","popup": true },{ "u_add_var": "present_ev1_r3_no_02", "type": "counter", "context": "present","value": "3" }], "default": true },{ "text": "줄게 없다", "topic": "TALK_ev1_r3_no_02" } ] 
+	}
+,
+	{
+		"id":"TALK_P1_ev1_r3_no_03",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "（먹게 해준다）（체력 미회복・스킨쉽횟수+）", "topic": "TALK_ev1_r3_no_03","condition":  { "u_has_items": { "item": "chocolate", "count": 1 } },"effect": [ { "npc_cast_spell": { "id": "spell_ncard_heal" }, "targeted": true },{ "u_consume_item": "chocolate", "count": 1  },{"u_message": "초코바를 맛있게 먹었다.","type": "good","popup": true },{ "u_add_var": "present_ev1_r3_no_03", "type": "counter", "context": "present","value": "3" }], "default": true },{ "text": "줄게 없다", "topic": "TALK_ev1_r3_no_03" } ] 
+	}
+,
+	{
+		"id":"TALK_P1_ev1_r3_no_04",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "（먹게 해준다）（체력 미회복・스킨쉽횟수+）", "topic": "TALK_ev1_r3_no_04","condition":  { "u_has_items": { "item": "chocolate", "count": 1 } },"effect": [ { "npc_cast_spell": { "id": "spell_ncard_heal" }, "targeted": true },{ "u_consume_item": "chocolate", "count": 1  },{"u_message": "초코바를 맛있게 먹었다.","type": "good","popup": true },{ "u_add_var": "present_ev1_r3_no_04", "type": "counter", "context": "present","value": "3" }], "default": true },{ "text": "줄게 없다", "topic": "TALK_ev1_r3_no_04" } ] 
+	}
+,
+	{
+		"id":"TALK_P1_ev2_r3_no_01",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "（먹게 해준다）（체력 미회복・스킨쉽횟수+）", "topic": "TALK_ev2_r3_no_01","condition":  { "u_has_items": { "item": "chocolate", "count": 1 } },"effect": [ { "npc_cast_spell": { "id": "spell_ncard_heal" }, "targeted": true },{ "u_consume_item": "chocolate", "count": 1  },{"u_message": "초코바를 맛있게 먹었다.","type": "good","popup": true },{ "u_add_var": "present_ev2_r3_no_01", "type": "counter", "context": "present","value": "3" }], "default": true },{ "text": "줄게 없다", "topic": "TALK_ev2_r3_no_01" } ] 
+	}
+,
+	{
+		"id":"TALK_P1_ev2_r3_no_02",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "（먹게 해준다）（체력 미회복・스킨쉽횟수+）", "topic": "TALK_ev2_r3_no_02","condition":  { "u_has_items": { "item": "chocolate", "count": 1 } },"effect": [ { "npc_cast_spell": { "id": "spell_ncard_heal" }, "targeted": true },{ "u_consume_item": "chocolate", "count": 1  },{"u_message": "초코바를 맛있게 먹었다.","type": "good","popup": true },{ "u_add_var": "present_ev2_r3_no_02", "type": "counter", "context": "present","value": "3" }], "default": true },{ "text": "줄게 없다", "topic": "TALK_ev2_r3_no_02" } ] 
+	}
+,
+	{
+		"id":"TALK_P1_ev2_r3_no_03",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "（먹게 해준다）（체력 미회복・스킨쉽횟수+）", "topic": "TALK_ev2_r3_no_03","condition":  { "u_has_items": { "item": "chocolate", "count": 1 } },"effect": [ { "npc_cast_spell": { "id": "spell_ncard_heal" }, "targeted": true },{ "u_consume_item": "chocolate", "count": 1  },{"u_message": "초코바를 맛있게 먹었다.","type": "good","popup": true },{ "u_add_var": "present_ev2_r3_no_03", "type": "counter", "context": "present","value": "3" }], "default": true },{ "text": "줄게 없다", "topic": "TALK_ev2_r3_no_03" } ] 
+	}
+,
+	{
+		"id":"TALK_P1_ev2_r3_no_04",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "（먹게 해준다）（체력 미회복・스킨쉽횟수+）", "topic": "TALK_ev2_r3_no_04","condition":  { "u_has_items": { "item": "chocolate", "count": 1 } },"effect": [ { "npc_cast_spell": { "id": "spell_ncard_heal" }, "targeted": true },{ "u_consume_item": "chocolate", "count": 1  },{"u_message": "초코바를 맛있게 먹었다.","type": "good","popup": true },{ "u_add_var": "present_ev2_r3_no_04", "type": "counter", "context": "present","value": "3" }], "default": true },{ "text": "줄게 없다", "topic": "TALK_ev2_r3_no_04" } ] 
+	}
+,
+	{
+		"id":"TALK_P1_ev3_r3_no_01",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "（먹게 해준다）（체력 미회복・스킨쉽횟수+）", "topic": "TALK_ev3_r3_no_01","condition":  { "u_has_items": { "item": "chocolate", "count": 1 } },"effect": [ { "npc_cast_spell": { "id": "spell_ncard_heal" }, "targeted": true },{ "u_consume_item": "chocolate", "count": 1  },{"u_message": "초코바를 맛있게 먹었다.","type": "good","popup": true },{ "u_add_var": "present_ev3_r3_no_01", "type": "counter", "context": "present","value": "3" }], "default": true },{ "text": "줄게 없다", "topic": "TALK_ev3_r3_no_01" } ] 
+	}
+,
+	{
+		"id":"TALK_P1_ev3_r3_no_02",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "（먹게 해준다）（체력 미회복・스킨쉽횟수+）", "topic": "TALK_ev3_r3_no_02","condition":  { "u_has_items": { "item": "chocolate", "count": 1 } },"effect": [ { "npc_cast_spell": { "id": "spell_ncard_heal" }, "targeted": true },{ "u_consume_item": "chocolate", "count": 1  },{"u_message": "초코바를 맛있게 먹었다.","type": "good","popup": true },{ "u_add_var": "present_ev3_r3_no_02", "type": "counter", "context": "present","value": "3" }], "default": true },{ "text": "줄게 없다", "topic": "TALK_ev3_r3_no_02" } ] 
+	}
+,
+	{
+		"id":"TALK_P1_ev3_r3_no_03",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "（먹게 해준다）（체력 미회복・스킨쉽횟수+）", "topic": "TALK_ev3_r3_no_03","condition":  { "u_has_items": { "item": "chocolate", "count": 1 } },"effect": [ { "npc_cast_spell": { "id": "spell_ncard_heal" }, "targeted": true },{ "u_consume_item": "chocolate", "count": 1  },{"u_message": "초코바를 맛있게 먹었다.","type": "good","popup": true },{ "u_add_var": "present_ev3_r3_no_03", "type": "counter", "context": "present","value": "3" }], "default": true },{ "text": "줄게 없다", "topic": "TALK_ev3_r3_no_03" } ] 
+	}
+,
+	{
+		"id":"TALK_P1_ev3_r3_no_04",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "（먹게 해준다）（체력 미회복・스킨쉽횟수+）", "topic": "TALK_ev3_r3_no_04","condition":  { "u_has_items": { "item": "chocolate", "count": 1 } },"effect": [ { "npc_cast_spell": { "id": "spell_ncard_heal" }, "targeted": true },{ "u_consume_item": "chocolate", "count": 1  },{"u_message": "초코바를 맛있게 먹었다.","type": "good","popup": true },{ "u_add_var": "present_ev3_r3_no_04", "type": "counter", "context": "present","value": "3" }], "default": true },{ "text": "줄게 없다", "topic": "TALK_ev3_r3_no_04" } ] 
+	}
+,
+	{
+		"id":"TALK_P1_ev4_r3_no_01",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "（먹게 해준다）（체력 미회복・스킨쉽횟수+）", "topic": "TALK_ev4_r3_no_01","condition":  { "u_has_items": { "item": "chocolate", "count": 1 } },"effect": [ { "npc_cast_spell": { "id": "spell_ncard_heal" }, "targeted": true },{ "u_consume_item": "chocolate", "count": 1  },{"u_message": "초코바를 맛있게 먹었다.","type": "good","popup": true },{ "u_add_var": "present_ev4_r3_no_01", "type": "counter", "context": "present","value": "3" }], "default": true },{ "text": "줄게 없다", "topic": "TALK_ev4_r3_no_01" } ] 
+	}
+,
+	{
+		"id":"TALK_P1_ev4_r3_no_02",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "（먹게 해준다）（체력 미회복・스킨쉽횟수+）", "topic": "TALK_ev4_r3_no_02","condition":  { "u_has_items": { "item": "chocolate", "count": 1 } },"effect": [ { "npc_cast_spell": { "id": "spell_ncard_heal" }, "targeted": true },{ "u_consume_item": "chocolate", "count": 1  },{"u_message": "초코바를 맛있게 먹었다.","type": "good","popup": true },{ "u_add_var": "present_ev4_r3_no_02", "type": "counter", "context": "present","value": "3" }], "default": true },{ "text": "줄게 없다", "topic": "TALK_ev4_r3_no_02" } ] 
+	}
+,
+	{
+		"id":"TALK_P1_ev4_r3_no_03",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "（먹게 해준다）（체력 미회복・스킨쉽횟수+）", "topic": "TALK_ev4_r3_no_03","condition":  { "u_has_items": { "item": "chocolate", "count": 1 } },"effect": [ { "npc_cast_spell": { "id": "spell_ncard_heal" }, "targeted": true },{ "u_consume_item": "chocolate", "count": 1  },{"u_message": "초코바를 맛있게 먹었다.","type": "good","popup": true },{ "u_add_var": "present_ev4_r3_no_03", "type": "counter", "context": "present","value": "3" }], "default": true },{ "text": "줄게 없다", "topic": "TALK_ev4_r3_no_03" } ] 
+	}
+,
+	{
+		"id":"TALK_P1_ev4_r3_no_04",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "（먹게 해준다）（체력 미회복・스킨쉽횟수+）", "topic": "TALK_ev4_r3_no_04","condition":  { "u_has_items": { "item": "chocolate", "count": 1 } },"effect": [ { "npc_cast_spell": { "id": "spell_ncard_heal" }, "targeted": true },{ "u_consume_item": "chocolate", "count": 1  },{"u_message": "초코바를 맛있게 먹었다.","type": "good","popup": true },{ "u_add_var": "present_ev4_r3_no_04", "type": "counter", "context": "present","value": "3" }], "default": true },{ "text": "줄게 없다", "topic": "TALK_ev4_r3_no_04" } ] 
+	}
+,
+	{
+		"id":"TALK_P1_ev4_r3_no_05",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "（먹게 해준다）（체력 미회복・스킨쉽횟수+）", "topic": "TALK_ev4_r3_no_05","condition":  { "u_has_items": { "item": "chocolate", "count": 1 } },"effect": [ { "npc_cast_spell": { "id": "spell_ncard_heal" }, "targeted": true },{ "u_consume_item": "chocolate", "count": 1  },{"u_message": "초코바를 맛있게 먹었다.","type": "good","popup": true },{ "u_add_var": "present_ev4_r3_no_05", "type": "counter", "context": "present","value": "3" }], "default": true },{ "text": "줄게 없다", "topic": "TALK_ev4_r3_no_05" } ] 
+	}
+,
+	{
+		"id":"TALK_P1_ev4_r3_no_06",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "（먹게 해준다）（체력 미회복・스킨쉽횟수+）", "topic": "TALK_ev4_r3_no_06","condition":  { "u_has_items": { "item": "chocolate", "count": 1 } },"effect": [ { "npc_cast_spell": { "id": "spell_ncard_heal" }, "targeted": true },{ "u_consume_item": "chocolate", "count": 1  },{"u_message": "초코바를 맛있게 먹었다.","type": "good","popup": true },{ "u_add_var": "present_ev4_r3_no_06", "type": "counter", "context": "present","value": "3" }], "default": true },{ "text": "줄게 없다", "topic": "TALK_ev4_r3_no_06" } ] 
+	}
+,
+	{
+		"id":"TALK_P1_ev4_r4_no_01",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "（먹게 해준다）（체력 미회복・스킨쉽횟수+）", "topic": "TALK_ev4_r4_no_01","condition":  { "u_has_items": { "item": "chocolate", "count": 1 } },"effect": [ { "npc_cast_spell": { "id": "spell_ncard_heal" }, "targeted": true },{ "u_consume_item": "chocolate", "count": 1  },{"u_message": "초코바를 맛있게 먹었다.","type": "good","popup": true },{ "u_add_var": "present_ev4_r4_no_01", "type": "counter", "context": "present","value": "3" }], "default": true },{ "text": "줄게 없다", "topic": "TALK_ev4_r4_no_01" } ] 
+	}
+,
+	{
+		"id":"TALK_P1_ev4_r4_no_02",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "（먹게 해준다）（체력 미회복・스킨쉽횟수+）", "topic": "TALK_ev4_r4_no_02","condition":  { "u_has_items": { "item": "chocolate", "count": 1 } },"effect": [ { "npc_cast_spell": { "id": "spell_ncard_heal" }, "targeted": true },{ "u_consume_item": "chocolate", "count": 1  },{"u_message": "초코바를 맛있게 먹었다.","type": "good","popup": true },{ "u_add_var": "present_ev4_r4_no_02", "type": "counter", "context": "present","value": "3" }], "default": true },{ "text": "줄게 없다", "topic": "TALK_ev4_r4_no_02" } ] 
+	}
+,
+	{
+		"id":"TALK_P1_ev5_r4_no_01",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "（먹게 해준다）（체력 미회복・스킨쉽횟수+）", "topic": "TALK_ev5_r4_no_01","condition":  { "u_has_items": { "item": "chocolate", "count": 1 } },"effect": [ { "npc_cast_spell": { "id": "spell_ncard_heal" }, "targeted": true },{ "u_consume_item": "chocolate", "count": 1  },{"u_message": "초코바를 맛있게 먹었다.","type": "good","popup": true },{ "u_add_var": "present_ev5_r4_no_01", "type": "counter", "context": "present","value": "3" }], "default": true },{ "text": "줄게 없다", "topic": "TALK_ev5_r4_no_01" } ] 
+	}
+,
+	{
+		"id":"TALK_P1_ev5_r4_no_02",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "（먹게 해준다）（체력 미회복・스킨쉽횟수+）", "topic": "TALK_ev5_r4_no_02","condition":  { "u_has_items": { "item": "chocolate", "count": 1 } },"effect": [ { "npc_cast_spell": { "id": "spell_ncard_heal" }, "targeted": true },{ "u_consume_item": "chocolate", "count": 1  },{"u_message": "초코바를 맛있게 먹었다.","type": "good","popup": true },{ "u_add_var": "present_ev5_r4_no_02", "type": "counter", "context": "present","value": "3" }], "default": true },{ "text": "줄게 없다", "topic": "TALK_ev5_r4_no_02" } ] 
+	}
+,
+	{
+		"id":"TALK_P1_ev5_r3_no_01",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "（먹게 해준다）（체력 미회복・스킨쉽횟수+）", "topic": "TALK_ev5_r3_no_01","condition":  { "u_has_items": { "item": "chocolate", "count": 1 } },"effect": [ { "npc_cast_spell": { "id": "spell_ncard_heal" }, "targeted": true },{ "u_consume_item": "chocolate", "count": 1  },{"u_message": "초코바를 맛있게 먹었다.","type": "good","popup": true },{ "u_add_var": "present_ev5_r3_no_01", "type": "counter", "context": "present","value": "3" }], "default": true },{ "text": "줄게 없다", "topic": "TALK_ev5_r3_no_01" } ] 
+	}
+,
+	{
+		"id":"TALK_P1_ev5_r3_no_02",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "（먹게 해준다）（체력 미회복・스킨쉽횟수+）", "topic": "TALK_ev5_r3_no_02","condition":  { "u_has_items": { "item": "chocolate", "count": 1 } },"effect": [ { "npc_cast_spell": { "id": "spell_ncard_heal" }, "targeted": true },{ "u_consume_item": "chocolate", "count": 1  },{"u_message": "초코바를 맛있게 먹었다.","type": "good","popup": true },{ "u_add_var": "present_ev5_r3_no_02", "type": "counter", "context": "present","value": "3" }], "default": true },{ "text": "줄게 없다", "topic": "TALK_ev5_r3_no_02" } ] 
+	}
+,
+	{
+		"id":"TALK_P1_ev5_r3_no_03",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "（먹게 해준다）（체력 미회복・스킨쉽횟수+）", "topic": "TALK_ev5_r3_no_03","condition":  { "u_has_items": { "item": "chocolate", "count": 1 } },"effect": [ { "npc_cast_spell": { "id": "spell_ncard_heal" }, "targeted": true },{ "u_consume_item": "chocolate", "count": 1  },{"u_message": "초코바를 맛있게 먹었다.","type": "good","popup": true },{ "u_add_var": "present_ev5_r3_no_03", "type": "counter", "context": "present","value": "3" }], "default": true },{ "text": "줄게 없다", "topic": "TALK_ev5_r3_no_03" } ] 
+	}
+,
+	{
+		"id":"TALK_P1_ev5_r3_no_04",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "（먹게 해준다）（체력 미회복・스킨쉽횟수+）", "topic": "TALK_ev5_r3_no_04","condition":  { "u_has_items": { "item": "chocolate", "count": 1 } },"effect": [ { "npc_cast_spell": { "id": "spell_ncard_heal" }, "targeted": true },{ "u_consume_item": "chocolate", "count": 1  },{"u_message": "초코바를 맛있게 먹었다.","type": "good","popup": true },{ "u_add_var": "present_ev5_r3_no_04", "type": "counter", "context": "present","value": "3" }], "default": true },{ "text": "줄게 없다", "topic": "TALK_ev5_r3_no_04" } ] 
+	}
+,
+	{
+		"id":"TALK_P1_ev6_r4_no_01",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "（먹게 해준다）（체력 미회복・스킨쉽횟수+）", "topic": "TALK_ev6_r4_no_01","condition":  { "u_has_items": { "item": "chocolate", "count": 1 } },"effect": [ { "npc_cast_spell": { "id": "spell_ncard_heal" }, "targeted": true },{ "u_consume_item": "chocolate", "count": 1  },{"u_message": "초코바를 맛있게 먹었다.","type": "good","popup": true },{ "u_add_var": "present_ev6_r4_no_01", "type": "counter", "context": "present","value": "3" }], "default": true },{ "text": "줄게 없다", "topic": "TALK_ev6_r4_no_01" } ] 
+	}
+,
+	{
+		"id":"TALK_P1_ev6_r4_no_02",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "（먹게 해준다）（체력 미회복・스킨쉽횟수+）", "topic": "TALK_ev6_r4_no_02","condition":  { "u_has_items": { "item": "chocolate", "count": 1 } },"effect": [ { "npc_cast_spell": { "id": "spell_ncard_heal" }, "targeted": true },{ "u_consume_item": "chocolate", "count": 1  },{"u_message": "초코바를 맛있게 먹었다.","type": "good","popup": true },{ "u_add_var": "present_ev6_r4_no_02", "type": "counter", "context": "present","value": "3" }], "default": true },{ "text": "줄게 없다", "topic": "TALK_ev6_r4_no_02" } ] 
+	}
+
+
+]

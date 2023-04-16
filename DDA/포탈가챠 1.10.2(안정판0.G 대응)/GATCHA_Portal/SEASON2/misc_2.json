@@ -1,0 +1,131 @@
+[
+	{
+		"id":"ncard_misc_call_cthlhu",
+		"type":"TOOL",
+		"looks_like":"card_call_crate_1",
+		"name":"이계의 눈알",
+		"description":"아찔할 정도로 치밀한 조각이 되어 있는 석제의 눈알입니다.왠지 이쪽을 응시하고 있는 것 같은 생각이 듭니다.",
+		"weight":"1 kg",
+		"volume":"1000 ml",
+		"material":[ "stone" ],
+		"symbol":"o",
+		"color":"light_gray",
+		"flags":[ "TRADER_AVOID","UNBREAKABLE_MELEE" ],
+		"chat_topics":["TALK_S3_EVENT"],
+		"use_action":{
+      "type": "effect_on_conditions",
+      "description": "조사하다",
+      "effect_on_conditions": [
+        {
+          "id": "eoc_ncard_S3_event",
+          "effect": [
+            { "u_message": "이계로부터의 시선을 느꼈다…。" },
+            
+            "open_dialogue"
+          ]
+        }
+      ]
+    },
+		"to_hit":-1
+	}
+,
+	{
+		"id":"TALK_S3_EVENT",
+		"type":"talk_topic",
+		"dynamic_line":"…（손안의 조각이 이쪽을 응시하고 있는 것 같다…）",
+		"responses":[ { "text": "마주 바라본다", "topic": "TALK_S3_EVENT2" }, { "text": "눈을 돌린다", "topic": "TALK_DONE" } ] 
+	}
+,
+	{
+		"id":"TALK_S3_EVENT2",
+		"type":"talk_topic",
+		"dynamic_line":"…（주위에서 이상한 낌새가 풍겨온다…）",
+		"responses":[ { "text": "계속 바라본다", "topic": "TALK_S3_EVENT3" }, { "text": "눈을 돌린다", "topic": "TALK_DONE" } ] 
+	}
+,
+	{
+		"id":"TALK_S3_EVENT3",
+		"type":"talk_topic",
+		"dynamic_line":"…（주위에서 불쾌한 냄새가 진동했습니다!）",
+		"speaker_effect": { "effect": [{ "u_add_var": "counter_s3_attack", "type": "counter", "context": "attack", "value": "1" },
+      { "queue_eocs": "eoc_s3_attack1", "time_in_future": [ "4 s", "4 s" ]}                                            ]
+		                            },
+
+		"responses":[ { "text": "주위에서 몬스터가 덤벼든다! 싸울 준비를 합시다!", "topic": "TALK_DONE" } ] 
+	}
+,
+{
+    "id":"eoc_s3_attack1",
+    "type":"effect_on_condition",
+    "condition": { "u_compare_var": "counter_s3_attack","type": "counter","context": "attack","op": "<","value": 20 },
+    "false_effect": [
+    { "run_eocs": "eoc_s3_attack2" },
+    { "u_message": "적의 군세는 더욱 거세진 것 같습니다!" }
+    ],
+    "effect": [
+    { "u_adjust_var": "counter_s3_attack", "type": "counter", "context": "attack", "adjustment": 1 },
+    { "u_make_sound": "(땅울림)", "volume": 120, "type": "alert" },
+    { "queue_eocs": "eoc_s3_attack1", "time_in_future": [ "30 s", "1 m" ]},
+    {
+      "u_spawn_monster": "mon_zombie",
+      "real_count": 7,
+      "hallucination_count": 3,
+      "outdoor_only": false,
+      "min_radius": 40,
+      "max_radius": 50,
+      "lifespan": [ "3 minutes", "3 minutes" ],
+      "spawn_message": "이계의 생물이 이쪽으로 다가옵니다!",
+      "spawn_message_plural": "이계의 생물군이 이쪽으로 다가옵니다!"
+    }]
+}
+,
+{
+    "id":"eoc_s3_attack2",
+    "type":"effect_on_condition",
+    "condition": { "u_compare_var": "counter_s3_attack","type": "counter","context": "attack","op": "<","value": 40 },
+    "false_effect": [
+    { "run_eocs": "eoc_s3_attack3" },
+    { "u_message": "적의 군세는 더욱 거세진 것 같습니다!" }
+    ],
+    "effect": [
+    { "u_adjust_var": "counter_s3_attack", "type": "counter", "context": "attack", "adjustment": 1 },
+    { "u_make_sound": "(땅울림)", "volume": 120, "type": "alert" },
+    { "queue_eocs": "eoc_s3_attack1", "time_in_future": [ "30 s", "1 m" ]},
+    {
+      "u_spawn_monster": "mon_zombie_tough",
+      "real_count": 7,
+      "hallucination_count": 3,
+      "outdoor_only": false,
+      "min_radius": 40,
+      "max_radius": 50,
+      "lifespan": [ "3 minutes", "3 minutes" ],
+      "spawn_message": "이계의 생물이 이쪽으로 다가옵니다!",
+      "spawn_message_plural": "이계의 생물군이 이쪽으로 다가옵니다!"
+    }]
+}
+,
+{
+    "id":"eoc_s3_attack3",
+    "type":"effect_on_condition",
+    "condition": { "u_compare_var": "counter_s3_attack","type": "counter","context": "attack","op": "<","value": 60 },
+    "false_effect": [
+    { "u_message": "적의 기척이 물러갑니다…" }
+    ],
+    "effect": [
+    { "u_adjust_var": "counter_s3_attack", "type": "counter", "context": "attack", "adjustment": 1 },
+    { "u_make_sound": "(땅울림)", "volume": 120, "type": "alert" },
+    { "queue_eocs": "eoc_s3_attack1", "time_in_future": [ "30 s", "1 m" ]},
+    {
+      "u_spawn_monster": "mon_zombie_bio_op",
+      "real_count": 7,
+      "hallucination_count": 3,
+      "outdoor_only": false,
+      "min_radius": 40,
+      "max_radius": 50,
+      "lifespan": [ "3 minutes", "3 minutes" ],
+      "spawn_message": "이계의 생물이 이쪽으로 다가옵니다!",
+      "spawn_message_plural": "이계의 생물군이 이쪽으로 다가옵니다!"
+    }]
+}
+
+]

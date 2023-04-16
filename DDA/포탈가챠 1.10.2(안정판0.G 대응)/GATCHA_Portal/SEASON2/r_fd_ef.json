@@ -1,0 +1,31 @@
+[
+	{
+		"id":"ef_fd_ncard_s2_rift",
+		"type":"effect_type",
+		"name":[ "뒤틀림" ],
+		"desc":[ "당신은 포털의 영향을 받고 있습니다." ],
+		"apply_message":"당신은 포털의 영향을 받고 있습니다.",
+		"rating":"bad",
+		"max_duration":"1 s",
+		"max_intensity":1,
+		"int_dur_factor":"1 s",
+		"base_mods":{  "per_mod": [ -1 ],"bash_mod": [ -1 ] },
+		"show_in_info":true
+	}
+,
+	{
+		"id":"ef_fd_ncard_s2_rift2",
+		"type":"effect_type",
+		"name":[ "뒤틀림" ],
+		"desc":[ "당신은 포털의 영향을 받고 있습니다." ],
+		"apply_message":"당신은 포털의 영향을 받고 있습니다.",
+		"rating":"bad",
+		"max_duration":"1 s",
+		"max_intensity":1,
+		"int_dur_factor":"1 s",
+		"base_mods":{  "per_mod": [ -1 ],"bash_mod": [ -1 ] },
+		"show_in_info":true
+	}
+
+
+]

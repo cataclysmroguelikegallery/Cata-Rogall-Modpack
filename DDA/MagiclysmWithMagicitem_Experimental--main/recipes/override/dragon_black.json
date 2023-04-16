@@ -1,0 +1,164 @@
+[
+  {
+    "//1": "黒竜皮アーマーの制作時間を変更(70h→8h)",
+    "result": "suit_black_dragon_hide",
+    "type": "recipe",
+    "copy-from": "suit_black_dragon_hide",
+    "time": "8 h",
+    "components": [ [ [ "black_dragon_tanned_hide", 22 ] ], [ [ "dragon_essence", 11 ] ] ]
+  },
+  {
+    "//1": "黒竜鱗アーマーの制作時間を変更(290h→8h)",
+    "result": "suit_black_dragon_scale",
+    "type": "recipe",
+    "copy-from": "suit_black_dragon_scale",
+    "time": "8 h",
+    "using": [ [ "sewing_standard", 250 ], [ "welding_standard", 50 ] ],
+    "components": [ [ [ "black_dragon_tanned_hide", 22 ] ], [ [ "dragon_black_scale", 1100 ] ], [ [ "dragon_essence", 11 ] ] ]
+  },
+  {
+    "//1": "黒竜皮ブーツの制作時間を変更(25h→8h)",
+    "result": "boots_black_dragon_hide",
+    "type": "recipe",
+    "copy-from": "boots_black_dragon_hide",
+    "time": "8 h",
+    "components": [ [ [ "black_dragon_tanned_hide", 4 ] ], [ [ "dragon_essence", 2 ] ] ]
+  },
+  {
+    "//1": "黒竜鱗ブーツの制作時間を変更(30h→8h)",
+    "result": "boots_black_dragon_scale",
+    "type": "recipe",
+    "copy-from": "boots_black_dragon_scale",
+    "time": "8 h",
+    "components": [ [ [ "black_dragon_tanned_hide", 6 ] ], [ [ "dragon_black_scale", 75 ] ], [ [ "dragon_essence", 4 ] ] ]
+  },
+  {
+    "//1": "黒竜皮ヘルメットの制作時間を変更(25h→8h)",
+    "result": "helmet_black_dragon_hide",
+    "type": "recipe",
+    "copy-from": "helmet_black_dragon_hide",
+    "time": "8 h",
+    "components": [ [ [ "black_dragon_tanned_hide", 3 ] ], [ [ "dragon_essence", 2 ] ] ]
+  },
+  {
+    "//1": "黒竜鱗ヘルメットの制作時間を変更(30h→8h)",
+    "result": "helmet_black_dragon_scale",
+    "type": "recipe",
+    "copy-from": "helmet_black_dragon_scale",
+    "time": "8 h",
+    "components": [ [ [ "black_dragon_tanned_hide", 1 ] ], [ [ "dragon_black_scale", 90 ] ], [ [ "dragon_essence", 4 ] ] ]
+  },
+  {
+    "//1": "黒竜皮グローブの制作時間を変更(30h→8h)",
+    "result": "gloves_black_dragon_hide",
+    "type": "recipe",
+    "copy-from": "gloves_black_dragon_hide",
+    "time": "8 h",
+    "components": [ [ [ "black_dragon_tanned_hide", 3 ] ], [ [ "dragon_essence", 3 ] ] ]
+  },
+  {
+    "//1": "黒竜鱗ガントレットの制作時間を変更(40h→8h)",
+    "result": "gauntlets_black_dragon_scale",
+    "type": "recipe",
+    "copy-from": "gauntlets_black_dragon_scale",
+    "time": "8 h",
+    "components": [ [ [ "black_dragon_tanned_hide", 4 ] ], [ [ "dragon_black_scale", 50 ] ], [ [ "dragon_essence", 5 ] ] ]
+  },
+  {
+    "//1": "XL黒竜皮アーマーの制作時間を変更(60h→8h)",
+    "result": "suit_xlblack_dragon_hide",
+    "type": "recipe",
+    "copy-from": "suit_xlblack_dragon_hide",
+    "time": "8 h",
+    "components": [ [ [ "black_dragon_tanned_hide", 35 ] ], [ [ "dragon_essence", 18 ] ] ]
+  },
+  {
+    "//1": "XL黒竜鱗アーマーの制作時間を変更(340h→8h)",
+    "result": "suit_xlblack_dragon_scale",
+    "type": "recipe",
+    "copy-from": "suit_xlblack_dragon_scale",
+    "time": "8 h",
+    "components": [ [ [ "black_dragon_tanned_hide", 35 ] ], [ [ "dragon_black_scale", 1800 ] ], [ [ "dragon_essence", 20 ] ] ]
+  },
+  {
+    "//1": "XL黒竜皮ブーツの制作時間を変更(32h→8h)",
+    "result": "boots_xlblack_dragon_hide",
+    "type": "recipe",
+    "copy-from": "boots_xlblack_dragon_hide",
+    "time": "8 h",
+    "components": [ [ [ "black_dragon_tanned_hide", 6 ] ], [ [ "dragon_essence", 3 ] ] ]
+  },
+  {
+    "//1": "XL黒竜鱗ブーツの制作時間を変更(40h→8h)",
+    "result": "boots_xlblack_dragon_scale",
+    "type": "recipe",
+    "copy-from": "boots_xlblack_dragon_scale",
+    "time": "8 h",
+    "components": [ [ [ "black_dragon_tanned_hide", 8 ] ], [ [ "dragon_black_scale", 125 ] ], [ [ "dragon_essence", 6 ] ] ]
+  },
+  {
+    "//1": "XL黒竜皮ヘルメットの制作時間を変更(32h→8h)",
+    "result": "helmet_xlblack_dragon_hide",
+    "type": "recipe",
+    "copy-from": "helmet_xlblack_dragon_hide",
+    "time": "8 h",
+    "components": [ [ [ "black_dragon_tanned_hide", 4 ] ], [ [ "dragon_essence", 3 ] ] ]
+  },
+  {
+    "//1": "XL黒竜鱗ヘルメットの制作時間を変更(40h→8h)",
+    "result": "helmet_xlblack_dragon_scale",
+    "type": "recipe",
+    "copy-from": "helmet_xlblack_dragon_scale",
+    "time": "8 h",
+    "components": [ [ [ "black_dragon_tanned_hide", 2 ] ], [ [ "dragon_black_scale", 140 ] ], [ [ "dragon_essence", 6 ] ] ]
+  },
+  {
+    "//1": "XL黒竜皮グローブの制作時間を変更(40h→8h)",
+    "result": "gloves_xlblack_dragon_hide",
+    "type": "recipe",
+    "copy-from": "gloves_xlblack_dragon_hide",
+    "time": "8 h",
+    "components": [ [ [ "black_dragon_tanned_hide", 4 ] ], [ [ "dragon_essence", 4 ] ] ]
+  },
+  {
+    "//1": "XL黒竜鱗ガントレットの制作時間を変更(50h→8h)",
+    "result": "gauntlets_xlblack_dragon_scale",
+    "type": "recipe",
+    "copy-from": "gauntlets_xlblack_dragon_scale",
+    "time": "8 h",
+    "components": [ [ [ "black_dragon_tanned_hide", 6 ] ], [ [ "dragon_black_scale", 75 ] ], [ [ "dragon_essence", 7 ] ] ]
+  },
+  {
+    "//1": "変異原物質(黒竜)の制作時間を変更(4h→30m)",
+    "type": "recipe",
+    "result": "mutagen_black_dragon",
+    "copy-from": "mutagen_black_dragon",
+    "time": "30 m",
+    "components": [ [ [ "dragon_essence", 5 ] ], [ [ "potion_starter_superior", 1 ] ] ]
+  },
+  {
+    "//1": "変異原プライマー(黒竜)の制作時間を変更(8h→30m)",
+    "type": "recipe",
+    "result": "iv_black_dragon",
+    "copy-from": "iv_black_dragon",
+    "time": "30 m",
+    "components": [ [ [ "dragon_essence", 5 ] ], [ [ "mutagen_black_dragon", 1 ] ], [ [ "manatouched_serum", 1 ] ] ],
+    "flags": [ "SECRET" ]
+  },
+  {
+    "//1": "黒竜皮バックパックの制作時間を変更(10h→4h)",
+    "result": "backpack_black_dragon_hide",
+    "type": "recipe",
+    "copy-from": "backpack_black_dragon_hide",
+    "time": "4 h",
+    "components": [ [ [ "black_dragon_tanned_hide", 10 ] ], [ [ "dragon_essence", 3 ] ], [ [ "plastic_sheet", 1 ] ] ]
+  },
+  {
+    "//1": "XL黒竜皮バックパックの制作時間を変更(10h→4h)",
+    "result": "backpack_xl_black_dragon_hide",
+    "type": "recipe",
+    "copy-from": "backpack_xl_black_dragon_hide",
+    "time": "4 h",
+    "components": [ [ [ "black_dragon_tanned_hide", 14 ] ], [ [ "dragon_essence", 4 ] ], [ [ "plastic_sheet", 1 ] ] ]
+  }
+]

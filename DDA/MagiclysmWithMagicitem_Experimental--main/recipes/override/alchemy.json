@@ -1,0 +1,21 @@
+[
+  {
+    "//1": "エッセンス(竜)の制作時間を変更(2h → 30m)",
+    "type": "recipe",
+    "activity_level": "fake",
+    "result": "dragon_essence",
+    "copy-from": "dragon_essence",
+    "components": [ [ [ "dragon_scale", 4, "LIST" ], [ "meat_dragon", 40 ] ] ],
+    "time": "30 m"
+  },
+  {
+    "//1": "エッセンス(竜)の制作時間を変更(2h → 30m)",
+    "type": "recipe",
+    "activity_level": "fake",
+    "result": "dragon_essence",
+    "copy-from": "dragon_essence",
+    "id_suffix": "with_blood",
+    "components": [ [ [ "dragon_scale", 6, "LIST" ], [ "meat_dragon", 60 ] ], [ [ "dragon_blood", 500 ] ] ],
+    "time": "30 m"
+  }
+]

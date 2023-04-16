@@ -1,0 +1,14 @@
+[
+  {
+    "id": "nested_kawaii_wig",
+    "type": "nested_category",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_HEAD",
+    "name": "가발[kawaii]",
+    "description": "KawaiiMaidMod의 가발과 헤어 익스텐션 레시피입니다.",
+    "skill_used": "tailor",
+    "difficulty": 0,
+    "nested_category_data": [ "kawaii_wig_01", "kawaii_wig_02", "kawaii_wig_03", "kawaii_wig_04", "kawaii_wig_05", "kawaii_wig_06", "kawaii_wig_07", "kawaii_wig_08", "kawaii_wig_09", "kawaii_wig_10", "kawaii_wig_11", "kawaii_wig_12", "kawaii_wig_13", "kawaii_wig_14", "kawaii_wig_15", "kawaii_wig_16", "kawaii_wig_17", "kawaii_wig_18" ]
+  }
+]

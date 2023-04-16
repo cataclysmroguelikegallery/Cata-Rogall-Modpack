@@ -1,0 +1,18 @@
+[
+  {
+    "//1": "フェラルフォームの前提の材料(アイテム)を削除する(難易度低下)",
+    "id": "druid_feralform",
+    "type": "SPELL",
+    "name": "Feral Form",
+    "copy-from": "druid_feralform",
+    "components": ""
+  },
+  {
+    "//1": "フェラルフォーム+の前提の材料(アイテム)を削除する(難易度低下)",
+    "id": "druid_feralform_plus",
+    "type": "SPELL",
+    "name": "Feral Form",
+    "copy-from": "druid_feralform_plus",
+    "components": ""
+  }
+]

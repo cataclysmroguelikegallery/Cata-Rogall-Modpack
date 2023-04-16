@@ -1,0 +1,92 @@
+[
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_smite_1",
+    "name": { "str": "하급 지팡이(강타)[MWMI]", "str_pl": "하급 지팡이(강타)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "마나 크리스탈을 끼우는 소켓이 달린 길쭉한 나무 지팡이입니다. 강타을 영창하는 기능을 가지고 있습니다.",
+    "price": "200 USD",
+    "price_postapoc": "200 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "smite", "no_fail": true, "level": 4, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_smite_2",
+    "name": { "str": "중급 지팡이(강타)[MWMI]", "str_pl": "중급 지팡이(강타)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "마나 크리스탈을 끼우는 소켓이 달린 길쭉한 나무 지팡이입니다. 강타을 영창하는 기능을 가지고 있습니다.",
+    "price": "400 USD",
+    "price_postapoc": "400 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "smite", "no_fail": true, "level": 8, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_smite_3",
+    "name": { "str": "상급 지팡이(강타)[MWMI]", "str_pl": "상급 지팡이(강타)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "마나 크리스탈을 끼우는 소켓이 달린 길쭉한 나무 지팡이입니다. 강타을 영창하는 기능을 가지고 있습니다.",
+    "price": "600 USD",
+    "price_postapoc": "600 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "smite", "no_fail": true, "level": 12, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_summon_skeleton_1",
+    "name": { "str": "하급 지팡이(스켈레톤 소환)[MWMI]", "str_pl": "하급 지팡이(스켈레톤 소환)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "마나 크리스탈을 끼우는 소켓이 달린 길쭉한 나무 지팡이입니다. 스켈레톤 소환을 영창하는 기능을 가지고 있습니다.",
+    "price": "200 USD",
+    "price_postapoc": "200 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "summon_skeleton", "no_fail": true, "level": 4, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_summon_skeleton_2",
+    "name": { "str": "중급 지팡이(스켈레톤 소환)[MWMI]", "str_pl": "중급 지팡이(스켈레톤 소환)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "마나 크리스탈을 끼우는 소켓이 달린 길쭉한 나무 지팡이입니다. 스켈레톤 소환을 영창하는 기능을 가지고 있습니다.",
+    "price": "400 USD",
+    "price_postapoc": "400 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "summon_skeleton", "no_fail": true, "level": 8, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_summon_skeleton_3",
+    "name": { "str": "상급 지팡이(스켈레톤 소환)[MWMI]", "str_pl": "상급 지팡이(스켈레톤 소환)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "마나 크리스탈을 끼우는 소켓이 달린 길쭉한 나무 지팡이입니다. 스켈레톤 소환을 영창하는 기능을 가지고 있습니다.",
+    "price": "600 USD",
+    "price_postapoc": "600 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "summon_skeleton", "no_fail": true, "level": 12, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_summon_decayed_pouncer_1",
+    "name": { "str": "하급 지팡이(좀비퓨마 소환)[MWMI]", "str_pl": "하급 지팡이(좀비퓨마 소환)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "마나 크리스탈을 끼우는 소켓이 달린 길쭉한 나무 지팡이입니다. 좀비퓨마 소환을 영창하는 기능을 가지고 있습니다.",
+    "price": "200 USD",
+    "price_postapoc": "200 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "summon_decayed_pouncer", "no_fail": true, "level": 4, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_summon_decayed_pouncer_2",
+    "name": { "str": "중급 지팡이(좀비퓨마 소환)[MWMI]", "str_pl": "중급 지팡이(좀비퓨마 소환)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "마나 크리스탈을 끼우는 소켓이 달린 길쭉한 나무 지팡이입니다. 좀비퓨마 소환을 영창하는 기능을 가지고 있습니다.",
+    "price": "400 USD",
+    "price_postapoc": "400 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "summon_decayed_pouncer", "no_fail": true, "level": 8, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_summon_decayed_pouncer_3",
+    "name": { "str": "상급 지팡이(좀비퓨마 소환)[MWMI]", "str_pl": "상급 지팡이(좀비퓨마 소환)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "마나 크리스탈을 끼우는 소켓이 달린 길쭉한 나무 지팡이입니다. 좀비퓨마 소환을 영창하는 기능을 가지고 있습니다.",
+    "price": "600 USD",
+    "price_postapoc": "600 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "summon_decayed_pouncer", "no_fail": true, "level": 12, "need_wielding": true }
+  }
+]

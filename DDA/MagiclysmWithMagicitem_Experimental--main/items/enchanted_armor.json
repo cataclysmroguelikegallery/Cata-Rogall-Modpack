@@ -1,0 +1,85 @@
+[
+  {
+    "id": "PSY_magi_shield_kite_thunder",
+    "type": "ARMOR",
+    "name": { "str": "번개의 카이트 실드" },
+    "category": "armor",
+    "description": "천둥의 힘이 깃든 카이트 실드입니다. 장비해야 효과를 발휘합니다.",
+    "weight": "3175 g",
+    "volume": "4 L",
+    "price": "900 USD",
+    "bashing": 4,
+    "material": [ "wood","iron" ],
+    "symbol": "[",
+    "color": "light_gray",
+    "sided": true,
+    "material_thickness": 10,
+    "techniques": [ "WBLOCK_2" ],
+    "flags": [ "OVERSIZE", "BELTED", "RESTRICT_HANDS", "BLOCK_WHILE_WORN","PADDED" ],
+    "armor": [
+      { "covers": [ "hand_l", "hand_r" ], "coverage": 90, "encumbrance": 10 },
+      { "covers": [ "arm_l", "arm_r" ], "specifically_covers": [ "arm_lower_l", "arm_lower_r" ], "coverage": 50 }
+    ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "ARMOR_CUT", "add": -2 },
+            { "value": "ARMOR_BASH", "add": -2 },
+            { "value": "ARMOR_STAB", "add": -2 },
+            { "value": "ARMOR_BULLET", "add": -1 },
+            { "value": "ARMOR_ELEC", "add": -5 }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "PSY_magi_shield_kite_fleeze",
+    "type": "ARMOR",
+    "name": { "str": "얼음의 카이트 실드" },
+    "category": "armor",
+    "description": "얼음의 힘이 깃든 카이트 실드입니다. 장비해야 효과를 발휘합니다.",
+    "copy-from": "PSY_magi_shield_kite_thunder",
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "ARMOR_CUT", "add": -2 },
+            { "value": "ARMOR_BASH", "add": -2 },
+            { "value": "ARMOR_STAB", "add": -2 },
+            { "value": "ARMOR_BULLET", "add": -1 },
+            { "value": "ARMOR_COLD", "add": -5 }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "PSY_magi_shield_kite_fire",
+    "type": "ARMOR",
+    "name": { "str": "화염의 카이트 실드" },
+    "category": "armor",
+    "description": "얼음의 힘이 깃든 카이트 실드입니다. 장착하면 화염 피해를 감소시킵니다.",
+    "copy-from": "PSY_magi_shield_kite_thunder",
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "ARMOR_CUT", "add": -2 },
+            { "value": "ARMOR_BASH", "add": -2 },
+            { "value": "ARMOR_STAB", "add": -2 },
+            { "value": "ARMOR_BULLET", "add": -1 },
+            { "value": "ARMOR_HEAT", "add": -5 }
+          ]
+        }
+      ]
+    }
+  }
+]

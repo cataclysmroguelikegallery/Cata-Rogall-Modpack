@@ -1,0 +1,18 @@
+[
+	{
+		"id":"ef_ncard_s2_clean",
+		"type":"effect_type",
+		"name":[ "주포" ],
+		"desc":[ "당신은 파괴 되었습니다!" ],
+		"apply_message":"당신은 파괴 되었습니다!",
+		"rating":"bad",
+		"max_duration":"1 s",
+		"max_intensity":1,
+		"int_dur_factor":"1 s",
+		"base_mods":{ "speed_mod": [ -30 ], "dodge_mod": [ -3 ], "bash_mod": [ -1 ],"hurt_min": [ 350 ], "hurt_chance": [ 0 ] },
+		"show_in_info":true,
+		"flags":[ "EFFECT_IMPEDING" ]
+	}
+
+
+]

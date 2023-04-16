@@ -1,0 +1,61 @@
+[
+  {
+    "id": "bless",
+    "type": "SPELL",
+    "name": { "str": "Bless" },
+    "copy-from": "bless",
+    "//": "duration is in moves",
+    "min_duration": 30000,
+    "max_duration": 60000,
+    "duration_increment": 800
+  },
+  {
+    "id": "holy_blade",
+    "type": "SPELL",
+    "copy-from": "holy_blade",
+    "min_duration": 60000
+  },
+  {
+    "id": "spirit_armor",
+    "type": "SPELL",
+    "name": "Spiritual Armor",
+    "copy-from": "spirit_armor",
+    "min_duration": 60000,
+    "max_duration": 360000
+  },
+  {
+    "id": "taze",
+    "type": "SPELL",
+    "name": "Taze",
+    "copy-from": "taze",
+    "energy_source": "MANA"
+  },
+  {
+    "id": "laze",
+    "type": "SPELL",
+    "name": "Laze",
+    "copy-from": "laze",
+    "energy_source": "MANA"
+  },
+  {
+    "type": "SPELL",
+    "name": "X-ray Vision",
+    "id": "x-ray",
+    "copy-from": "x-ray",
+    "energy_source": "MANA"
+  },
+  {
+    "id": "technomancer_knifeshot",
+    "type": "SPELL",
+    "name": "Knifeshot",
+    "copy-from": "technomancer_knifeshot",
+    "energy_source": "MANA"
+  },
+  {
+    "id": "technomancer_knifeshot_superior",
+    "type": "SPELL",
+    "name": "Hypervelocity Knifeshot",
+    "copy-from": "technomancer_knifeshot_superior",
+    "energy_source": "MANA"
+  }
+]

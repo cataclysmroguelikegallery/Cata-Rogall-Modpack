@@ -1,0 +1,16 @@
+[
+	{
+		"id":"map_ncard_s2_base",
+		"type":"city_building",
+		"locations":[ "land" ],
+		"overmaps":[ { "point": [ 0, 0, 0 ], "overmap": "map_ncard_s2_base" } ]
+	}
+,
+	{
+		"type":"region_overlay",
+		"regions":[ "all" ],
+		"city":{"houses": { "map_ncard_s2_base": 19 }}
+	}
+
+
+]

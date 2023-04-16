@@ -1,0 +1,103 @@
+[
+	{
+		"id":"fd_ncard_crate_flash_r3",
+		"type":"field_type",
+		"intensity_levels":[{ "name": "発光","light_emitted": 40,"transparent": true,   "color": "yellow", "sym": "@","effects": [{ "effect_id": "ef_fd_ncard_buff", "intensity": 1, "min_duration": "16 s", "immune_in_vehicle": false, "is_environmental": false }] }],
+		"description_affix":"illuminated_by",
+		"priority":4,
+		"half_life":"16 s",
+		"dirty_transparency_cache":true,
+		"phase":"solid",
+		"display_items":true,
+		"display_field":true,
+		"looks_like":"fd_laser"
+	},
+	{
+		"id":"fd_ncard_crate_flash_r4",
+		"type":"field_type",
+		"intensity_levels":[{ "name": "発光","light_emitted": 40,"transparent": true,   "color": "yellow", "sym": "@","effects": [{ "effect_id": "ef_fd_ncard_buff", "intensity": 1, "min_duration": "16 s", "immune_in_vehicle": false, "is_environmental": false }] }],
+		"description_affix":"illuminated_by",
+		"priority":4,
+		"half_life":"16 s",
+		"dirty_transparency_cache":true,
+		"phase":"solid",
+		"display_items":true,
+		"display_field":true,
+		"looks_like":"fd_laser"
+	},
+
+  {
+    "id": "ncard_misc_crate_flash_r4",
+    "type": "GENERIC",
+    "description": "発光しています。",
+    "symbol": "_",
+    "name": { "str": "発光" },
+    "countdown_interval": 0,
+    "countdown_destroy": true,
+    "emits": [ "emit_fd_ncard_crate_flash_r4" ],
+    "countdown_action": {
+      "type": "explosion",
+      "fields_type": "fd_ncard_crate_flash_r4",
+      "fields_radius": 0,
+      "fields_min_intensity": 1,
+      "fields_max_intensity": 1,
+      "sound_volume": 0
+    },
+    "flags": [ "TRADER_AVOID","ZERO_WEIGHT","ACTIVATE_ON_PLACE" ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_se_ticket",
+    "effect": [
+      { "sound_effect": "f_lootcrate_rare0", "id": "smash_success" }
+    ]
+  },
+{
+        "id":"emit_fd_ncard_crate_flash_r4",
+        "type":"emit",
+        "field":"fd_ncard_crate_flash_r4",
+        "intensity":1,
+        "qty":1
+},
+     {
+        "type": "sound_effect",
+        "id" : "smash_success",
+        "variant" : "f_lootcrate_rare0",
+        "volume" : 90,
+        "files" : ["GATCHA_sound/cast_gatcha0.mp3"]
+     },
+    {
+        "type": "sound_effect",
+        "id" : "smash_success",
+        "variant" : "f_lootcrate_rare1",
+        "volume" : 90,
+        "files" : ["GATCHA_sound/cast_gatcha1.mp3"]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "smash_success",
+        "variant" : "f_lootcrate_rare2",
+        "volume" : 90,
+        "files" : [
+            "GATCHA_sound/cast_gatcha1.mp3"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "smash_success",
+        "variant" : "f_lootcrate_rare3",
+        "volume" : 90,
+        "files" : [
+            "GATCHA_sound/cast_gatcha3.mp3"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "smash_success",
+        "variant" : "f_lootcrate_rare4",
+        "volume" : 90,
+        "files" : [
+            "GATCHA_sound/cast_gatcha4.mp3"
+        ]
+    }
+]

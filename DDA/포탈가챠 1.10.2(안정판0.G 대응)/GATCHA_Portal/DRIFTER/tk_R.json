@@ -1,0 +1,59 @@
+[
+	{
+		"id":"TALK_R_ev4_r3_no_01_dr",
+		"type":"talk_topic",
+		"dynamic_line":"？",
+		"responses":[ { "text": "[요구: 금 100] 고용한다（고용기간 : 1일 경과 후 몬스터가 읽혀지지 않을 때까지）", "topic": "TALK_R1_ev4_r3_no_01_dr"}, { "text": "[요구: 금 1000] 영구고용한다（카드화・성능변화）", "topic": "TALK_R9_ev4_r3_no_01_dr" }, { "text": "아무것도 아니야", "topic": "TALK_ev4_r3_no_01_dr" } ] 
+	}
+,
+	{
+		"id":"TALK_R_ev4_r3_no_02_dr",
+		"type":"talk_topic",
+		"dynamic_line":"？",
+		"responses":[ { "text": "[요구: 금 100] 고용한다（고용기간 : 1일 경과 후 몬스터가 읽혀지지 않을 때까지）", "topic": "TALK_R1_ev4_r3_no_02_dr"}, { "text": "[요구: 금 1000] 영구고용한다（카드화・성능변화）", "topic": "TALK_R9_ev4_r3_no_02_dr" }, { "text": "아무것도 아니야", "topic": "TALK_ev4_r3_no_02_dr" } ] 
+	}
+,
+	{
+		"id":"TALK_R_ev4_r3_no_03_dr",
+		"type":"talk_topic",
+		"dynamic_line":"？",
+		"responses":[ { "text": "[요구: 금 100] 고용한다（고용기간 : 1일 경과 후 몬스터가 읽혀지지 않을 때까지）", "topic": "TALK_R1_ev4_r3_no_03_dr"}, { "text": "[요구: 금 1000] 영구고용한다（카드화・성능변화）", "topic": "TALK_R9_ev4_r3_no_03_dr" }, { "text": "아무것도 아니야", "topic": "TALK_ev4_r3_no_03_dr" } ] 
+	}
+,
+	{
+		"id":"TALK_R_ev4_r3_no_04_dr",
+		"type":"talk_topic",
+		"dynamic_line":"？",
+		"responses":[ { "text": "[요구: 금 100] 고용한다（고용기간 : 1일 경과 후 몬스터가 읽혀지지 않을 때까지）", "topic": "TALK_R1_ev4_r3_no_04_dr"}, { "text": "[요구: 금 1000] 영구고용한다（카드화・성능변화）", "topic": "TALK_R9_ev4_r3_no_04_dr" }, { "text": "아무것도 아니야", "topic": "TALK_ev4_r3_no_04_dr" } ] 
+	}
+,
+	{
+		"id":"TALK_R_ev4_r3_no_05_dr",
+		"type":"talk_topic",
+		"dynamic_line":"？",
+		"responses":[ { "text": "[요구: 금 100] 고용한다（고용기간 : 1일 경과 후 몬스터가 읽혀지지 않을 때까지）", "topic": "TALK_R1_ev4_r3_no_05_dr"}, { "text": "[요구: 금 1000] 영구고용한다（카드화・성능변화）", "topic": "TALK_R9_ev4_r3_no_05_dr" }, { "text": "아무것도 아니야", "topic": "TALK_ev4_r3_no_05_dr" } ] 
+	}
+,
+	{
+		"id":"TALK_R_ev4_r3_no_06_dr",
+		"type":"talk_topic",
+		"dynamic_line":"？",
+		"responses":[ { "text": "[요구: 금 100] 고용한다（고용기간 : 1일 경과 후 몬스터가 읽혀지지 않을 때까지）", "topic": "TALK_R1_ev4_r3_no_06_dr"}, { "text": "[요구: 금 1000] 영구고용한다（카드화・성능변화）", "topic": "TALK_R9_ev4_r3_no_06_dr" }, { "text": "아무것도 아니야", "topic": "TALK_ev4_r3_no_06_dr" } ] 
+	}
+,
+	{
+		"id":"TALK_R_ev4_r4_no_01_dr",
+		"type":"talk_topic",
+		"dynamic_line":"？",
+		"responses":[ { "text": "[요구: 금 100] 고용한다（고용기간 : 1일 경과 후 몬스터가 읽혀지지 않을 때까지）", "topic": "TALK_R1_ev4_r4_no_01_dr"}, { "text": "[요구: 금 1000] 영구고용한다（카드화・성능변화）", "topic": "TALK_R9_ev4_r4_no_01_dr" }, { "text": "아무것도 아니야", "topic": "TALK_ev4_r4_no_01_dr" } ] 
+	}
+,
+	{
+		"id":"TALK_R_ev4_r4_no_02_dr",
+		"type":"talk_topic",
+		"dynamic_line":"？",
+		"responses":[ { "text": "[요구: 금 100] 고용한다（고용기간 : 1일 경과 후 몬스터가 읽혀지지 않을 때까지）", "topic": "TALK_R1_ev4_r4_no_02_dr"}, { "text": "[요구: 금 1000] 영구고용한다（카드화・성능변화）", "topic": "TALK_R9_ev4_r4_no_02_dr" }, { "text": "아무것도 아니야", "topic": "TALK_ev4_r4_no_02_dr" } ] 
+	}
+
+
+]

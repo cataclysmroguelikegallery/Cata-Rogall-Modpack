@@ -1,0 +1,63 @@
+[
+	{
+		"type":"furniture",
+		"id":"f_lootcrate_s2_rare1",
+		"name":"보물상자(구리)",
+		"description":"보물상자입니다. 두드리는 명령어(s 키)로 부수고 열 수 있습니다.",
+		"symbol":"n",
+		"color":"brown",
+		"copy-from":"f_lootcrate_ev3_rare1",
+		"light_emitted":10,
+		"move_cost_mod":2,
+		"required_str":0,
+		"flags":["TRANSPARENT","PLACE_ITEM","NOCOLLIDE"],
+		"bash":{"str_min":0,"str_max":0,"sound_vol":2,"sound":"*キラッ*","sound_fail":"*ガキン*","items":[{"group":"item_group_chest_r1"}]}
+	}
+,
+	{
+		"type":"furniture",
+		"id":"f_lootcrate_s2_rare2",
+		"name":"보물상자(은)",
+		"description":"보물상자입니다. 두드리는 명령어(s 키)로 부수고 열 수 있습니다.",
+		"symbol":"n",
+		"color":"white",
+		"copy-from":"f_lootcrate_ev3_rare2",
+		"light_emitted":10,
+		"move_cost_mod":2,
+		"required_str":0,
+		"flags":["TRANSPARENT","PLACE_ITEM","NOCOLLIDE" ],
+		"bash":{"str_min":0,"str_max":0,"sound_vol":2,"sound":"*キラッ*","sound_fail":"*ガキン*","items":[{"group":"item_group_chest_r2"}]}
+	}
+,
+	{
+		"type":"furniture",
+		"id":"f_lootcrate_s2_rare3",
+		"name":"보물상자(금)",
+		"description":"빛나는 보물상자입니다. 두드리는 명령어(s 키)로 부수고 열 수 있습니다.",
+		"symbol":"n",
+		"color":"yellow",
+		"copy-from":"f_lootcrate_ev3_rare3",
+		"light_emitted":40,
+		"move_cost_mod":2,
+		"required_str":0,
+		"flags":["TRANSPARENT","PLACE_ITEM","NOCOLLIDE" ],
+		"bash":{"str_min":0,"str_max":0,"sound_vol":2,"sound":"*キラッ*","sound_fail":"*ガキン*","items":[{"group":"item_group_chest_s2_r3"}]}
+	}
+,
+	{
+		"type":"furniture",
+		"id":"f_lootcrate_s2_rare4",
+		"name":"보물상자(무지개)",
+		"description":"빛나는 보물상자입니다. 두드리는 명령어(s 키)로 부수고 열 수 있습니다.",
+		"symbol":"n",
+		"color":"cyan",
+		"copy-from":"f_lootcrate_ev3_rare4",
+		"light_emitted":40,
+		"move_cost_mod":2,
+		"required_str":0,
+		"flags":["TRANSPARENT","PLACE_ITEM","NOCOLLIDE" ],
+		"bash":{"str_min":0,"str_max":0,"sound_vol":2,"sound":"*キラッ*","sound_fail":"*ガキン*","items":[{"group":"item_group_chest_s2_r4"}]}
+	}
+
+
+]

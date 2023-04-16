@@ -1,0 +1,87 @@
+[
+	{
+		"result":"ncard_ev1_r4_no_01",
+		"type":"uncraft",
+		"tools":[ [ [ "ncard_misc_dimension_hammer", -1 ] ] ],
+		"components":[ [ [ "ncard_misc_powder_rainbow", 10 ] ] ]
+	}
+,
+	{
+		"result":"ncard_ev1_r4_no_02",
+		"type":"uncraft",
+		"tools":[ [ [ "ncard_misc_dimension_hammer", -1 ] ] ],
+		"components":[ [ [ "ncard_misc_powder_rainbow", 10 ] ] ]
+	}
+,
+	{
+		"result":"ncard_ev2_r4_no_01",
+		"type":"uncraft",
+		"tools":[ [ [ "ncard_misc_dimension_hammer", -1 ] ] ],
+		"components":[ [ [ "ncard_misc_powder_rainbow", 10 ] ] ]
+	}
+,
+	{
+		"result":"ncard_ev2_r4_no_02",
+		"type":"uncraft",
+		"tools":[ [ [ "ncard_misc_dimension_hammer", -1 ] ] ],
+		"components":[ [ [ "ncard_misc_powder_rainbow", 10 ] ] ]
+	}
+,
+	{
+		"result":"ncard_ev3_r4_no_01",
+		"type":"uncraft",
+		"tools":[ [ [ "ncard_misc_dimension_hammer", -1 ] ] ],
+		"components":[ [ [ "ncard_misc_powder_rainbow", 10 ] ] ]
+	}
+,
+	{
+		"result":"ncard_ev3_r4_no_02",
+		"type":"uncraft",
+		"tools":[ [ [ "ncard_misc_dimension_hammer", -1 ] ] ],
+		"components":[ [ [ "ncard_misc_powder_rainbow", 10 ] ] ]
+	}
+,
+	{
+		"result":"ncard_ev4_r4_no_01",
+		"type":"uncraft",
+		"tools":[ [ [ "ncard_misc_dimension_hammer", -1 ] ] ],
+		"components":[ [ [ "ncard_misc_powder_rainbow", 10 ] ] ]
+	}
+,
+	{
+		"result":"ncard_ev4_r4_no_02",
+		"type":"uncraft",
+		"tools":[ [ [ "ncard_misc_dimension_hammer", -1 ] ] ],
+		"components":[ [ [ "ncard_misc_powder_rainbow", 10 ] ] ]
+	}
+,
+	{
+		"result":"ncard_ev5_r4_no_01",
+		"type":"uncraft",
+		"tools":[ [ [ "ncard_misc_dimension_hammer", -1 ] ] ],
+		"components":[ [ [ "ncard_misc_powder_rainbow", 10 ] ] ]
+	}
+,
+	{
+		"result":"ncard_ev5_r4_no_02",
+		"type":"uncraft",
+		"tools":[ [ [ "ncard_misc_dimension_hammer", -1 ] ] ],
+		"components":[ [ [ "ncard_misc_powder_rainbow", 10 ] ] ]
+	}
+,
+	{
+		"result":"ncard_ev6_r4_no_01",
+		"type":"uncraft",
+		"tools":[ [ [ "ncard_misc_dimension_hammer", -1 ] ] ],
+		"components":[ [ [ "ncard_misc_powder_rainbow", 10 ] ] ]
+	}
+,
+	{
+		"result":"ncard_ev6_r4_no_02",
+		"type":"uncraft",
+		"tools":[ [ [ "ncard_misc_dimension_hammer", -1 ] ] ],
+		"components":[ [ [ "ncard_misc_powder_rainbow", 10 ] ] ]
+	}
+
+
+]

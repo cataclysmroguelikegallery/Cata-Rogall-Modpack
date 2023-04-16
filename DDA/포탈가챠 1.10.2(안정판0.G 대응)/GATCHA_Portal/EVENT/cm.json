@@ -1,0 +1,81 @@
+[
+	{
+		"id":"ncard_cm_ev1_cocktail",
+		"type":"COMESTIBLE",
+		"name":{ "str_sp": "성스러운 샴페인" },
+		"description":"보기에도 먹음직스러운 거품이 이는 호박색 액체입니다.마시면 꿀을 닮은 농후하고 질 좋은 맛이 입안 가득 퍼져 몸 속에서부터 타오르는 듯한 힘이 넘쳐날 것입니다.",
+		"weight":"252 g",
+		"color":"yellow",
+		"use_action":{"type": "consume_drug","activation_message": "몸 안쪽에서 활력이 솟아나는 것 같아요!","effects": [{ "id": "ef_ncard_ev1_cm_holy_cocktail", "duration": "20 m" },{ "id": "drunk", "duration": 810 }]},
+		"stim":10,
+		"container":"ncard_cm_ev1_bottle_glass",
+		"comestible_type":"DRINK",
+		"symbol":"~",
+		"quench":10,
+		"healthy":20,
+		"calories":784,
+		"material":[ "alcohol", "water" ],
+		"primary_material":"water",
+		"volume":"750 ml",
+		"phase":"liquid",
+		"charges":1,
+		"fun":70,
+		"freezing_point":-70,
+		"flags":[ "TRADER_AVOID","EATEN_HOT","EATEN_COLD" ]
+	}
+,
+	{
+		"id":"ncard_cm_ev1_bottle_glass",
+		"type":"GENERIC",
+		"name":{ "str_sp": "성스러운 병" },
+		"description":"금빛 장식을 한 호화로운 병입니다.",
+		"copy-from":"bottle_glass",
+		"color":"yellow",
+		"material":[ "gold" ],
+		"flags":[ "TRADER_AVOID" ]
+	}
+,
+	{
+		"id":"ncard_cm_ev2_omochi",
+		"type":"COMESTIBLE",
+		"name":{ "str_sp": "모찌" },
+		"description":"눌은 떡. 쌀의 고소한 냄새와 쫄깃한 식감이 당신의 내적인 힘을 끌어내는 것 같습니다.",
+		"weight":"200 g",
+		"color":"white",
+		"use_action":{"type": "consume_drug","activation_message": "몸속에서 힘이 솟는 것 같습니다!","effects": [{ "id": "ef_ncard_ev2_cm_omochi", "duration": "20 m" }]},
+		"comestible_type":"FOOD",
+		"symbol":"o",
+		"healthy":10,
+		"calories":800,
+		"material":[ "veggy" ],
+		"primary_material":"dried_vegetable",
+		"volume":"200 ml",
+		"spoils_in":"360 days",
+		"fun":70,
+		"freezing_point":0,
+		"flags":[ "TRADER_AVOID","EATEN_HOT" ]
+	}
+,
+	{
+		"id":"ncard_cm_ev3_omochi",
+		"type":"COMESTIBLE",
+		"name":{ "str_sp": "사쿠라모찌" },
+		"description":"벚꽃잎으로 떡과자를 싼 것입니다.달콤한 냄새와 쫄깃한 식감이 당신의 내적인 힘을 끌어내는 것 같습니다.",
+		"weight":"200 g",
+		"color":"white",
+		"use_action":{"type": "consume_drug","activation_message": "몸속에서 힘이 솟는 것 같습니다.!","effects": [{ "id": "ef_ncard_ev2_cm_omochi", "duration": "20 m" }]},
+		"comestible_type":"FOOD",
+		"symbol":"o",
+		"healthy":10,
+		"calories":800,
+		"material":[ "veggy" ],
+		"primary_material":"dried_vegetable",
+		"volume":"200 ml",
+		"spoils_in":"360 days",
+		"fun":70,
+		"freezing_point":0,
+		"flags":[ "TRADER_AVOID","EATEN_HOT" ]
+	}
+
+
+]

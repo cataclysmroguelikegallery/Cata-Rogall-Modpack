@@ -1,0 +1,30 @@
+[
+	{
+		"id":"item_group_ncard_r1",
+		"type":"item_group",
+		"subtype":"distribution",
+		"items":[["ncard_r1_bear",10],
+				["ncard_r1_zombie",10],
+				["ncard_r1_mi_go",10],
+				["ncard_r1_bee",10],
+				["ncard_r1_zombie_fireman",10],
+				["ncard_r1_vinebeast",10],
+				["ncard_r1_frog_giant",10],
+				["ncard_r1_rabbit",5],
+				["ncard_r1_cat_siamese",5],
+				["ncard_r1_chicken",5],
+				["ncard_r1_dog_bull",10],
+				["ncard_r1_wolf",10],
+				["ncard_r1_zombie_runner",10],
+				["ncard_r1_pig",10],
+				["ncard_r1_cougar",10],
+				["ncard_r1_turkey",5],
+				["ncard_r1_pigeon",5],
+				["ncard_r1_deer",10],
+				["ncard_r1_broken_cyborg",10],
+				["ncard_r1_squirrel",5],
+				["ncard_r1_razorclaw",10]]
+	}
+
+
+]

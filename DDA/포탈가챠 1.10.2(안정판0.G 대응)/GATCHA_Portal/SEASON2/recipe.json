@@ -1,0 +1,93 @@
+[
+	{
+		"type":"recipe",
+		"activity_level":"LIGHT_EXERCISE",
+		"result":"card_call_crate_s2_1",
+		"category":"CC_GATCHA",
+		"subcategory":"CSC_GATCHA_TOOLS",
+		"reversible":false,
+		"skill_used":"fabrication",
+		"difficulty":0,
+		"time":"3m",
+		"book_learn":[ [ "ncard_misc_s2_keystone", 1 ] ],
+		"tools":[ [ [ "ncard_misc_s2_keystone", -1 ] ] ],
+		"components":[   [ [ "paper", 10 ] ] , [[ "ncard_misc_powder_dimension", 4 ],[ "ncard_misc_powder_dimension_pure", 4 ] ]],
+		"autolearn":true,
+		"flags":["FULL_MAGAZINE"]
+	}
+,
+	{
+		"type":"recipe",
+		"activity_level":"LIGHT_EXERCISE",
+		"result":"card_call_crate_s2_2",
+		"byproducts":[ [ "ncard_misc_powder_dimension_ash" ] ],
+		"category":"CC_GATCHA",
+		"subcategory":"CSC_GATCHA_TOOLS",
+		"reversible":false,
+		"skill_used":"fabrication",
+		"difficulty":0,
+		"time":"25m",
+		"book_learn":[ [ "ncard_misc_s2_keystone", 1 ] ],
+		"tools":[ [ [ "ncard_misc_s2_keystone", -1 ] ] ],
+		"components":[  [ [ "paper", 100 ] ] , [[ "ncard_misc_powder_dimension", 40 ],[ "ncard_misc_powder_dimension_pure", 40 ] ]],
+		"autolearn":true,
+		"flags":["FULL_MAGAZINE"]
+	}
+,
+	{
+		"type":"recipe",
+		"activity_level":"LIGHT_EXERCISE",
+		"result":"card_call_crate_s2_3",
+		"byproducts":[ [ "ncard_misc_powder_dimension_ash",10 ] ],
+		"category":"CC_GATCHA",
+		"subcategory":"CSC_GATCHA_TOOLS",
+		"reversible":false,
+		"skill_used":"fabrication",
+		"difficulty":0,
+		"time":"200m",
+		"book_learn":[ [ "ncard_misc_s2_keystone", 1 ] ],
+		"tools":[ [ [ "ncard_misc_s2_keystone", -1 ] ] ],
+		"components":[  [ [ "paper", 1000 ] ] , [[ "ncard_misc_powder_dimension", 400 ],[ "ncard_misc_powder_dimension_pure", 400 ] ]],
+		"autolearn":false,
+		"flags":["FULL_MAGAZINE","SECRET"]
+	}
+,
+	{
+		"type":"uncraft",
+		"result":"ncard_misc_s2_keystone",
+		"tools":[ [ [ "ncard_misc_s2_keystone", -1 ] ] ],
+		"components":[[ [ "ncard_misc_powder_gold",5 ]],[[ "ncard_misc_powder_dimension",30 ]]  ]
+	}
+,
+	{
+		"type":"uncraft",
+		"result":"ncard_misc_s2_keystone_1",
+		"tools":[ [ [ "ncard_misc_s2_keystone", -1 ] ] ],
+		"components":[[[ "ncard_misc_powder_dimension",10 ]]]
+	}
+,
+	{
+		"type":"uncraft",
+		"result":"ncard_misc_s2_keystone_2",
+		"tools":[ [ [ "ncard_misc_s2_keystone", -1 ] ] ],
+		"components":[[[ "ncard_misc_powder_dimension",10 ]]]
+	}
+,
+	{
+		"type":"recipe",
+		"activity_level":"LIGHT_EXERCISE",
+		"result":"ncard_misc_s2_keystone",
+		"category":"CC_GATCHA",
+		"subcategory":"CSC_GATCHA_TOOLS",
+		"reversible":false,
+		"skill_used":"fabrication",
+		"difficulty":0,
+		"time":"1 h",
+		"book_learn":[ [ "ncard_misc_s2_keystone_1", 2 ],[ "ncard_misc_s2_keystone_2", 2 ]],
+		"components":[[ [ "ncard_misc_s2_keystone_1", 1 ]],[[ "ncard_misc_s2_keystone_2", 1 ]]],
+		"autolearn":false,
+		"flags":["SECRET"]
+	}
+
+
+]

@@ -1,0 +1,381 @@
+[
+	{
+		"id":"TALK_C2_r4_no_01",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥",
+		"responses":[ { "text": "（친밀한 접촉을 계속한다）","topic": "TALK_r4_no_01","effect": [ { "u_adjust_var": "love_r4_no_01", "type": "counter", "context": "love", "adjustment": 2 },{ "u_add_morale": "morale_ncard", "bonus": 15,"max_bonus": 50,"duration": "8 h","decay_start": "3 h"},{"u_message": "친밀한 접촉으로 친목을 다졌습니다. \n<color_light_red>서로의 친밀도가 늘어난 것 같아요.</color>","type": "good","popup": true },{ "u_add_effect": "ncard_fatigue", "duration": 28800 },{ "u_add_effect": "ef_ncard_u_high2", "duration": 28800 },{ "npc_add_effect": "ef_ncard_npc_high2", "duration": 28800 },{ "u_adjust_var": "present_r4_no_01", "type": "counter", "context": "present","adjustment": -3 } ,{ "u_add_var": "time_r4_no_01", "type": "timer", "context": "time", "time": true }] }] 
+	}
+,
+	{
+		"id":"TALK_C2_r4_no_02",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥",
+		"responses":[ { "text": "（친밀한 접촉을 계속한다）","topic": "TALK_r4_no_02","effect": [ { "u_adjust_var": "love_r4_no_02", "type": "counter", "context": "love", "adjustment": 2 },{ "u_add_morale": "morale_ncard", "bonus": 15,"max_bonus": 50,"duration": "8 h","decay_start": "3 h"},{"u_message": "친밀한 접촉으로 친목을 다졌습니다. \n<color_light_red>서로의 친밀도가 늘어난 것 같아요.</color>","type": "good","popup": true },{ "u_add_effect": "ncard_fatigue", "duration": 28800 },{ "u_add_effect": "ef_ncard_u_high2", "duration": 28800 },{ "npc_add_effect": "ef_ncard_npc_high2", "duration": 28800 },{ "u_adjust_var": "present_r4_no_02", "type": "counter", "context": "present","adjustment": -3 } ,{ "u_add_var": "time_r4_no_02", "type": "timer", "context": "time", "time": true }] }] 
+	}
+,
+	{
+		"id":"TALK_C2_r4_no_03",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥",
+		"responses":[ { "text": "（친밀한 접촉을 계속한다）","topic": "TALK_r4_no_03","effect": [ { "u_adjust_var": "love_r4_no_03", "type": "counter", "context": "love", "adjustment": 2 },{ "u_add_morale": "morale_ncard", "bonus": 15,"max_bonus": 50,"duration": "8 h","decay_start": "3 h"},{"u_message": "친밀한 접촉으로 친목을 다졌습니다. \n<color_light_red>서로의 친밀도가 늘어난 것 같아요.</color>","type": "good","popup": true },{ "u_add_effect": "ncard_fatigue", "duration": 28800 },{ "u_add_effect": "ef_ncard_u_high2", "duration": 28800 },{ "npc_add_effect": "ef_ncard_npc_high2", "duration": 28800 },{ "u_adjust_var": "present_r4_no_03", "type": "counter", "context": "present","adjustment": -3 } ,{ "u_add_var": "time_r4_no_03", "type": "timer", "context": "time", "time": true }] }] 
+	}
+,
+	{
+		"id":"TALK_C2_r4_no_04",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥",
+		"responses":[ { "text": "（친밀한 접촉을 계속한다）","topic": "TALK_r4_no_04","effect": [ { "u_adjust_var": "love_r4_no_04", "type": "counter", "context": "love", "adjustment": 2 },{ "u_add_morale": "morale_ncard", "bonus": 15,"max_bonus": 50,"duration": "8 h","decay_start": "3 h"},{"u_message": "친밀한 접촉으로 친목을 다졌습니다. \n<color_light_red>서로의 친밀도가 늘어난 것 같아요.</color>","type": "good","popup": true },{ "u_add_effect": "ncard_fatigue", "duration": 28800 },{ "u_add_effect": "ef_ncard_u_high2", "duration": 28800 },{ "npc_add_effect": "ef_ncard_npc_high2", "duration": 28800 },{ "u_adjust_var": "present_r4_no_04", "type": "counter", "context": "present","adjustment": -3 } ,{ "u_add_var": "time_r4_no_04", "type": "timer", "context": "time", "time": true }] }] 
+	}
+,
+	{
+		"id":"TALK_C2_r3_no_01",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥",
+		"responses":[ { "text": "（친밀한 접촉을 계속한다）","topic": "TALK_r3_no_01","effect": [ { "u_adjust_var": "love_r3_no_01", "type": "counter", "context": "love", "adjustment": 2 },{ "u_add_morale": "morale_ncard", "bonus": 15,"max_bonus": 50,"duration": "8 h","decay_start": "3 h"},{"u_message": "친밀한 접촉으로 친목을 다졌습니다. \n<color_light_red>서로의 친밀도가 늘어난 것 같아요.</color>","type": "good","popup": true },{ "u_add_effect": "ncard_fatigue", "duration": 28800 },{ "u_add_effect": "ef_ncard_u_high2", "duration": 28800 },{ "npc_add_effect": "ef_ncard_npc_high2", "duration": 28800 },{ "u_adjust_var": "present_r3_no_01", "type": "counter", "context": "present","adjustment": -3 } ,{ "u_add_var": "time_r3_no_01", "type": "timer", "context": "time", "time": true }] }] 
+	}
+,
+	{
+		"id":"TALK_C2_r3_no_02",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥",
+		"responses":[ { "text": "（친밀한 접촉을 계속한다）","topic": "TALK_r3_no_02","effect": [ { "u_adjust_var": "love_r3_no_02", "type": "counter", "context": "love", "adjustment": 2 },{ "u_add_morale": "morale_ncard", "bonus": 15,"max_bonus": 50,"duration": "8 h","decay_start": "3 h"},{"u_message": "친밀한 접촉으로 친목을 다졌습니다. \n<color_light_red>서로의 친밀도가 늘어난 것 같아요.</color>","type": "good","popup": true },{ "u_add_effect": "ncard_fatigue", "duration": 28800 },{ "u_add_effect": "ef_ncard_u_high2", "duration": 28800 },{ "npc_add_effect": "ef_ncard_npc_high2", "duration": 28800 },{ "u_adjust_var": "present_r3_no_02", "type": "counter", "context": "present","adjustment": -3 } ,{ "u_add_var": "time_r3_no_02", "type": "timer", "context": "time", "time": true }] }] 
+	}
+,
+	{
+		"id":"TALK_C2_r3_no_03",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥",
+		"responses":[ { "text": "（친밀한 접촉을 계속한다）","topic": "TALK_r3_no_03","effect": [ { "u_adjust_var": "love_r3_no_03", "type": "counter", "context": "love", "adjustment": 2 },{ "u_add_morale": "morale_ncard", "bonus": 15,"max_bonus": 50,"duration": "8 h","decay_start": "3 h"},{"u_message": "친밀한 접촉으로 친목을 다졌습니다. \n<color_light_red>서로의 친밀도가 늘어난 것 같아요.</color>","type": "good","popup": true },{ "u_add_effect": "ncard_fatigue", "duration": 28800 },{ "u_add_effect": "ef_ncard_u_high2", "duration": 28800 },{ "npc_add_effect": "ef_ncard_npc_high2", "duration": 28800 },{ "u_adjust_var": "present_r3_no_03", "type": "counter", "context": "present","adjustment": -3 } ,{ "u_add_var": "time_r3_no_03", "type": "timer", "context": "time", "time": true }] }] 
+	}
+,
+	{
+		"id":"TALK_C2_r3_no_04",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥",
+		"responses":[ { "text": "（친밀한 접촉을 계속한다）","topic": "TALK_r3_no_04","effect": [ { "u_adjust_var": "love_r3_no_04", "type": "counter", "context": "love", "adjustment": 2 },{ "u_add_morale": "morale_ncard", "bonus": 15,"max_bonus": 50,"duration": "8 h","decay_start": "3 h"},{"u_message": "친밀한 접촉으로 친목을 다졌습니다. \n<color_light_red>서로의 친밀도가 늘어난 것 같아요.</color>","type": "good","popup": true },{ "u_add_effect": "ncard_fatigue", "duration": 28800 },{ "u_add_effect": "ef_ncard_u_high2", "duration": 28800 },{ "npc_add_effect": "ef_ncard_npc_high2", "duration": 28800 },{ "u_adjust_var": "present_r3_no_04", "type": "counter", "context": "present","adjustment": -3 } ,{ "u_add_var": "time_r3_no_04", "type": "timer", "context": "time", "time": true }] }] 
+	}
+,
+	{
+		"id":"TALK_C2_r3_no_05",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥",
+		"responses":[ { "text": "（친밀한 접촉을 계속한다）","topic": "TALK_r3_no_05","effect": [ { "u_adjust_var": "love_r3_no_05", "type": "counter", "context": "love", "adjustment": 2 },{ "u_add_morale": "morale_ncard", "bonus": 15,"max_bonus": 50,"duration": "8 h","decay_start": "3 h"},{"u_message": "친밀한 접촉으로 친목을 다졌습니다. \n<color_light_red>서로의 친밀도가 늘어난 것 같아요.</color>","type": "good","popup": true },{ "u_add_effect": "ncard_fatigue", "duration": 28800 },{ "u_add_effect": "ef_ncard_u_high2", "duration": 28800 },{ "npc_add_effect": "ef_ncard_npc_high2", "duration": 28800 },{ "u_adjust_var": "present_r3_no_05", "type": "counter", "context": "present","adjustment": -3 } ,{ "u_add_var": "time_r3_no_05", "type": "timer", "context": "time", "time": true }] }] 
+	}
+,
+	{
+		"id":"TALK_C2_r3_no_06",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥",
+		"responses":[ { "text": "（친밀한 접촉을 계속한다）","topic": "TALK_r3_no_06","effect": [ { "u_adjust_var": "love_r3_no_06", "type": "counter", "context": "love", "adjustment": 2 },{ "u_add_morale": "morale_ncard", "bonus": 15,"max_bonus": 50,"duration": "8 h","decay_start": "3 h"},{"u_message": "친밀한 접촉으로 친목을 다졌습니다. \n<color_light_red>서로의 친밀도가 늘어난 것 같아요.</color>","type": "good","popup": true },{ "u_add_effect": "ncard_fatigue", "duration": 28800 },{ "u_add_effect": "ef_ncard_u_high2", "duration": 28800 },{ "npc_add_effect": "ef_ncard_npc_high2", "duration": 28800 },{ "u_adjust_var": "present_r3_no_06", "type": "counter", "context": "present","adjustment": -3 } ,{ "u_add_var": "time_r3_no_06", "type": "timer", "context": "time", "time": true }] }] 
+	}
+,
+	{
+		"id":"TALK_C2_r3_no_07",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥",
+		"responses":[ { "text": "（친밀한 접촉을 계속한다）","topic": "TALK_r3_no_07","effect": [ { "u_adjust_var": "love_r3_no_07", "type": "counter", "context": "love", "adjustment": 2 },{ "u_add_morale": "morale_ncard", "bonus": 15,"max_bonus": 50,"duration": "8 h","decay_start": "3 h"},{"u_message": "친밀한 접촉으로 친목을 다졌습니다. \n<color_light_red>서로의 친밀도가 늘어난 것 같아요.</color>","type": "good","popup": true },{ "u_add_effect": "ncard_fatigue", "duration": 28800 },{ "u_add_effect": "ef_ncard_u_high2", "duration": 28800 },{ "npc_add_effect": "ef_ncard_npc_high2", "duration": 28800 },{ "u_adjust_var": "present_r3_no_07", "type": "counter", "context": "present","adjustment": -3 } ,{ "u_add_var": "time_r3_no_07", "type": "timer", "context": "time", "time": true }] }] 
+	}
+,
+	{
+		"id":"TALK_C2_r3_no_08",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥",
+		"responses":[ { "text": "（친밀한 접촉을 계속한다）","topic": "TALK_r3_no_08","effect": [ { "u_adjust_var": "love_r3_no_08", "type": "counter", "context": "love", "adjustment": 2 },{ "u_add_morale": "morale_ncard", "bonus": 15,"max_bonus": 50,"duration": "8 h","decay_start": "3 h"},{"u_message": "친밀한 접촉으로 친목을 다졌습니다. \n<color_light_red>서로의 친밀도가 늘어난 것 같아요.</color>","type": "good","popup": true },{ "u_add_effect": "ncard_fatigue", "duration": 28800 },{ "u_add_effect": "ef_ncard_u_high2", "duration": 28800 },{ "npc_add_effect": "ef_ncard_npc_high2", "duration": 28800 },{ "u_adjust_var": "present_r3_no_08", "type": "counter", "context": "present","adjustment": -3 } ,{ "u_add_var": "time_r3_no_08", "type": "timer", "context": "time", "time": true }] }] 
+	}
+,
+	{
+		"id":"TALK_C2_r3_no_09",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥",
+		"responses":[ { "text": "（친밀한 접촉을 계속한다）","topic": "TALK_r3_no_09","effect": [ { "u_adjust_var": "love_r3_no_09", "type": "counter", "context": "love", "adjustment": 2 },{ "u_add_morale": "morale_ncard", "bonus": 15,"max_bonus": 50,"duration": "8 h","decay_start": "3 h"},{"u_message": "친밀한 접촉으로 친목을 다졌습니다. \n<color_light_red>서로의 친밀도가 늘어난 것 같아요.</color>","type": "good","popup": true },{ "u_add_effect": "ncard_fatigue", "duration": 28800 },{ "u_add_effect": "ef_ncard_u_high2", "duration": 28800 },{ "npc_add_effect": "ef_ncard_npc_high2", "duration": 28800 },{ "u_adjust_var": "present_r3_no_09", "type": "counter", "context": "present","adjustment": -3 } ,{ "u_add_var": "time_r3_no_09", "type": "timer", "context": "time", "time": true }] }] 
+	}
+,
+	{
+		"id":"TALK_C2_r3_no_10",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥",
+		"responses":[ { "text": "（친밀한 접촉을 계속한다）","topic": "TALK_r3_no_10","effect": [ { "u_adjust_var": "love_r3_no_10", "type": "counter", "context": "love", "adjustment": 2 },{ "u_add_morale": "morale_ncard", "bonus": 15,"max_bonus": 50,"duration": "8 h","decay_start": "3 h"},{"u_message": "친밀한 접촉으로 친목을 다졌습니다. \n<color_light_red>서로의 친밀도가 늘어난 것 같아요.</color>","type": "good","popup": true },{ "u_add_effect": "ncard_fatigue", "duration": 28800 },{ "u_add_effect": "ef_ncard_u_high2", "duration": 28800 },{ "npc_add_effect": "ef_ncard_npc_high2", "duration": 28800 },{ "u_adjust_var": "present_r3_no_10", "type": "counter", "context": "present","adjustment": -3 } ,{ "u_add_var": "time_r3_no_10", "type": "timer", "context": "time", "time": true }] }] 
+	}
+,
+	{
+		"id":"TALK_C2_r3_no_11",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥",
+		"responses":[ { "text": "（친밀한 접촉을 계속한다）","topic": "TALK_r3_no_11","effect": [ { "u_adjust_var": "love_r3_no_11", "type": "counter", "context": "love", "adjustment": 2 },{ "u_add_morale": "morale_ncard", "bonus": 15,"max_bonus": 50,"duration": "8 h","decay_start": "3 h"},{"u_message": "친밀한 접촉으로 친목을 다졌습니다. \n<color_light_red>서로의 친밀도가 늘어난 것 같아요.</color>","type": "good","popup": true },{ "u_add_effect": "ncard_fatigue", "duration": 28800 },{ "u_add_effect": "ef_ncard_u_high2", "duration": 28800 },{ "npc_add_effect": "ef_ncard_npc_high2", "duration": 28800 },{ "u_adjust_var": "present_r3_no_11", "type": "counter", "context": "present","adjustment": -3 } ,{ "u_add_var": "time_r3_no_11", "type": "timer", "context": "time", "time": true }] }] 
+	}
+,
+	{
+		"id":"TALK_C2_s2_r4_no_01",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥",
+		"responses":[ { "text": "（친밀한 접촉을 계속한다）","topic": "TALK_s2_r4_no_01","effect": [ { "u_adjust_var": "love_s2_r4_no_01", "type": "counter", "context": "love", "adjustment": 2 },{ "u_add_morale": "morale_ncard", "bonus": 15,"max_bonus": 50,"duration": "8 h","decay_start": "3 h"},{"u_message": "친밀한 접촉으로 친목을 다졌습니다. \n<color_light_red>서로의 친밀도가 늘어난 것 같아요.</color>","type": "good","popup": true },{ "u_add_effect": "ncard_fatigue", "duration": 28800 },{ "u_add_effect": "ef_ncard_u_high2", "duration": 28800 },{ "npc_add_effect": "ef_ncard_npc_high2", "duration": 28800 },{ "u_adjust_var": "present_s2_r4_no_01", "type": "counter", "context": "present","adjustment": -3 } ,{ "u_add_var": "time_s2_r4_no_01", "type": "timer", "context": "time", "time": true }] }] 
+	}
+,
+	{
+		"id":"TALK_C2_s2_r3_no_01",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥",
+		"responses":[ { "text": "（친밀한 접촉을 계속한다）","topic": "TALK_s2_r3_no_01","effect": [ { "u_adjust_var": "love_s2_r3_no_01", "type": "counter", "context": "love", "adjustment": 2 },{ "u_add_morale": "morale_ncard", "bonus": 15,"max_bonus": 50,"duration": "8 h","decay_start": "3 h"},{"u_message": "친밀한 접촉으로 친목을 다졌습니다. \n<color_light_red>서로의 친밀도가 늘어난 것 같아요.</color>","type": "good","popup": true },{ "u_add_effect": "ncard_fatigue", "duration": 28800 },{ "u_add_effect": "ef_ncard_u_high2", "duration": 28800 },{ "npc_add_effect": "ef_ncard_npc_high2", "duration": 28800 },{ "u_adjust_var": "present_s2_r3_no_01", "type": "counter", "context": "present","adjustment": -3 } ,{ "u_add_var": "time_s2_r3_no_01", "type": "timer", "context": "time", "time": true }] }] 
+	}
+,
+	{
+		"id":"TALK_C2_s2_r3_no_02",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥",
+		"responses":[ { "text": "（친밀한 접촉을 계속한다）","topic": "TALK_s2_r3_no_02","effect": [ { "u_adjust_var": "love_s2_r3_no_02", "type": "counter", "context": "love", "adjustment": 2 },{ "u_add_morale": "morale_ncard", "bonus": 15,"max_bonus": 50,"duration": "8 h","decay_start": "3 h"},{"u_message": "친밀한 접촉으로 친목을 다졌습니다. \n<color_light_red>서로의 친밀도가 늘어난 것 같아요.</color>","type": "good","popup": true },{ "u_add_effect": "ncard_fatigue", "duration": 28800 },{ "u_add_effect": "ef_ncard_u_high2", "duration": 28800 },{ "npc_add_effect": "ef_ncard_npc_high2", "duration": 28800 },{ "u_adjust_var": "present_s2_r3_no_02", "type": "counter", "context": "present","adjustment": -3 } ,{ "u_add_var": "time_s2_r3_no_02", "type": "timer", "context": "time", "time": true }] }] 
+	}
+,
+	{
+		"id":"TALK_C2_s2_r3_no_03",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥",
+		"responses":[ { "text": "（친밀한 접촉을 계속한다）","topic": "TALK_s2_r3_no_03","effect": [ { "u_adjust_var": "love_s2_r3_no_03", "type": "counter", "context": "love", "adjustment": 2 },{ "u_add_morale": "morale_ncard", "bonus": 15,"max_bonus": 50,"duration": "8 h","decay_start": "3 h"},{"u_message": "친밀한 접촉으로 친목을 다졌습니다. \n<color_light_red>서로의 친밀도가 늘어난 것 같아요.</color>","type": "good","popup": true },{ "u_add_effect": "ncard_fatigue", "duration": 28800 },{ "u_add_effect": "ef_ncard_u_high2", "duration": 28800 },{ "npc_add_effect": "ef_ncard_npc_high2", "duration": 28800 },{ "u_adjust_var": "present_s2_r3_no_03", "type": "counter", "context": "present","adjustment": -3 } ,{ "u_add_var": "time_s2_r3_no_03", "type": "timer", "context": "time", "time": true }] }] 
+	}
+,
+	{
+		"id":"TALK_C2_s2_r3_no_04",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥",
+		"responses":[ { "text": "（친밀한 접촉을 계속한다）","topic": "TALK_s2_r3_no_04","effect": [ { "u_adjust_var": "love_s2_r3_no_04", "type": "counter", "context": "love", "adjustment": 2 },{ "u_add_morale": "morale_ncard", "bonus": 15,"max_bonus": 50,"duration": "8 h","decay_start": "3 h"},{"u_message": "친밀한 접촉으로 친목을 다졌습니다. \n<color_light_red>서로의 친밀도가 늘어난 것 같아요.</color>","type": "good","popup": true },{ "u_add_effect": "ncard_fatigue", "duration": 28800 },{ "u_add_effect": "ef_ncard_u_high2", "duration": 28800 },{ "npc_add_effect": "ef_ncard_npc_high2", "duration": 28800 },{ "u_adjust_var": "present_s2_r3_no_04", "type": "counter", "context": "present","adjustment": -3 } ,{ "u_add_var": "time_s2_r3_no_04", "type": "timer", "context": "time", "time": true }] }] 
+	}
+,
+	{
+		"id":"TALK_C2_ev1_r4_no_01",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥",
+		"responses":[ { "text": "（친밀한 접촉을 계속한다）","topic": "TALK_ev1_r4_no_01","effect": [ { "u_adjust_var": "love_ev1_r4_no_01", "type": "counter", "context": "love", "adjustment": 2 },{ "u_add_morale": "morale_ncard", "bonus": 15,"max_bonus": 50,"duration": "8 h","decay_start": "3 h"},{"u_message": "친밀한 접촉으로 친목을 다졌습니다. \n<color_light_red>서로의 친밀도가 늘어난 것 같아요.</color>","type": "good","popup": true },{ "u_add_effect": "ncard_fatigue", "duration": 28800 },{ "u_add_effect": "ef_ncard_u_high2", "duration": 28800 },{ "npc_add_effect": "ef_ncard_npc_high2", "duration": 28800 },{ "u_adjust_var": "present_ev1_r4_no_01", "type": "counter", "context": "present","adjustment": -3 } ,{ "u_add_var": "time_ev1_r4_no_01", "type": "timer", "context": "time", "time": true }] }] 
+	}
+,
+	{
+		"id":"TALK_C2_ev1_r4_no_02",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥",
+		"responses":[ { "text": "（친밀한 접촉을 계속한다）","topic": "TALK_ev1_r4_no_02","effect": [ { "u_adjust_var": "love_ev1_r4_no_02", "type": "counter", "context": "love", "adjustment": 2 },{ "u_add_morale": "morale_ncard", "bonus": 15,"max_bonus": 50,"duration": "8 h","decay_start": "3 h"},{"u_message": "친밀한 접촉으로 친목을 다졌습니다. \n<color_light_red>서로의 친밀도가 늘어난 것 같아요.</color>","type": "good","popup": true },{ "u_add_effect": "ncard_fatigue", "duration": 28800 },{ "u_add_effect": "ef_ncard_u_high2", "duration": 28800 },{ "npc_add_effect": "ef_ncard_npc_high2", "duration": 28800 },{ "u_adjust_var": "present_ev1_r4_no_02", "type": "counter", "context": "present","adjustment": -3 } ,{ "u_add_var": "time_ev1_r4_no_02", "type": "timer", "context": "time", "time": true }] }] 
+	}
+,
+	{
+		"id":"TALK_C2_ev2_r4_no_01",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥",
+		"responses":[ { "text": "（친밀한 접촉을 계속한다）","topic": "TALK_ev2_r4_no_01","effect": [ { "u_adjust_var": "love_ev2_r4_no_01", "type": "counter", "context": "love", "adjustment": 2 },{ "u_add_morale": "morale_ncard", "bonus": 15,"max_bonus": 50,"duration": "8 h","decay_start": "3 h"},{"u_message": "친밀한 접촉으로 친목을 다졌습니다. \n<color_light_red>서로의 친밀도가 늘어난 것 같아요.</color>","type": "good","popup": true },{ "u_add_effect": "ncard_fatigue", "duration": 28800 },{ "u_add_effect": "ef_ncard_u_high2", "duration": 28800 },{ "npc_add_effect": "ef_ncard_npc_high2", "duration": 28800 },{ "u_adjust_var": "present_ev2_r4_no_01", "type": "counter", "context": "present","adjustment": -3 } ,{ "u_add_var": "time_ev2_r4_no_01", "type": "timer", "context": "time", "time": true }] }] 
+	}
+,
+	{
+		"id":"TALK_C2_ev2_r4_no_02",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥",
+		"responses":[ { "text": "（친밀한 접촉을 계속한다）","topic": "TALK_ev2_r4_no_02","effect": [ { "u_adjust_var": "love_ev2_r4_no_02", "type": "counter", "context": "love", "adjustment": 2 },{ "u_add_morale": "morale_ncard", "bonus": 15,"max_bonus": 50,"duration": "8 h","decay_start": "3 h"},{"u_message": "친밀한 접촉으로 친목을 다졌습니다. \n<color_light_red>서로의 친밀도가 늘어난 것 같아요.</color>","type": "good","popup": true },{ "u_add_effect": "ncard_fatigue", "duration": 28800 },{ "u_add_effect": "ef_ncard_u_high2", "duration": 28800 },{ "npc_add_effect": "ef_ncard_npc_high2", "duration": 28800 },{ "u_adjust_var": "present_ev2_r4_no_02", "type": "counter", "context": "present","adjustment": -3 } ,{ "u_add_var": "time_ev2_r4_no_02", "type": "timer", "context": "time", "time": true }] }] 
+	}
+,
+	{
+		"id":"TALK_C2_ev3_r4_no_01",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥",
+		"responses":[ { "text": "（친밀한 접촉을 계속한다）","topic": "TALK_ev3_r4_no_01","effect": [ { "u_adjust_var": "love_ev3_r4_no_01", "type": "counter", "context": "love", "adjustment": 2 },{ "u_add_morale": "morale_ncard", "bonus": 15,"max_bonus": 50,"duration": "8 h","decay_start": "3 h"},{"u_message": "친밀한 접촉으로 친목을 다졌습니다. \n<color_light_red>서로의 친밀도가 늘어난 것 같아요.</color>","type": "good","popup": true },{ "u_add_effect": "ncard_fatigue", "duration": 28800 },{ "u_add_effect": "ef_ncard_u_high2", "duration": 28800 },{ "npc_add_effect": "ef_ncard_npc_high2", "duration": 28800 },{ "u_adjust_var": "present_ev3_r4_no_01", "type": "counter", "context": "present","adjustment": -3 } ,{ "u_add_var": "time_ev3_r4_no_01", "type": "timer", "context": "time", "time": true }] }] 
+	}
+,
+	{
+		"id":"TALK_C2_ev3_r4_no_02",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥",
+		"responses":[ { "text": "（친밀한 접촉을 계속한다）","topic": "TALK_ev3_r4_no_02","effect": [ { "u_adjust_var": "love_ev3_r4_no_02", "type": "counter", "context": "love", "adjustment": 2 },{ "u_add_morale": "morale_ncard", "bonus": 15,"max_bonus": 50,"duration": "8 h","decay_start": "3 h"},{"u_message": "친밀한 접촉으로 친목을 다졌습니다. \n<color_light_red>서로의 친밀도가 늘어난 것 같아요.</color>","type": "good","popup": true },{ "u_add_effect": "ncard_fatigue", "duration": 28800 },{ "u_add_effect": "ef_ncard_u_high2", "duration": 28800 },{ "npc_add_effect": "ef_ncard_npc_high2", "duration": 28800 },{ "u_adjust_var": "present_ev3_r4_no_02", "type": "counter", "context": "present","adjustment": -3 } ,{ "u_add_var": "time_ev3_r4_no_02", "type": "timer", "context": "time", "time": true }] }] 
+	}
+,
+	{
+		"id":"TALK_C2_ev1_r3_no_01",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥",
+		"responses":[ { "text": "（친밀한 접촉을 계속한다）","topic": "TALK_ev1_r3_no_01","effect": [ { "u_adjust_var": "love_ev1_r3_no_01", "type": "counter", "context": "love", "adjustment": 2 },{ "u_add_morale": "morale_ncard", "bonus": 15,"max_bonus": 50,"duration": "8 h","decay_start": "3 h"},{"u_message": "친밀한 접촉으로 친목을 다졌습니다. \n<color_light_red>서로의 친밀도가 늘어난 것 같아요.</color>","type": "good","popup": true },{ "u_add_effect": "ncard_fatigue", "duration": 28800 },{ "u_add_effect": "ef_ncard_u_high2", "duration": 28800 },{ "npc_add_effect": "ef_ncard_npc_high2", "duration": 28800 },{ "u_adjust_var": "present_ev1_r3_no_01", "type": "counter", "context": "present","adjustment": -3 } ,{ "u_add_var": "time_ev1_r3_no_01", "type": "timer", "context": "time", "time": true }] }] 
+	}
+,
+	{
+		"id":"TALK_C2_ev1_r3_no_02",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥",
+		"responses":[ { "text": "（친밀한 접촉을 계속한다）","topic": "TALK_ev1_r3_no_02","effect": [ { "u_adjust_var": "love_ev1_r3_no_02", "type": "counter", "context": "love", "adjustment": 2 },{ "u_add_morale": "morale_ncard", "bonus": 15,"max_bonus": 50,"duration": "8 h","decay_start": "3 h"},{"u_message": "친밀한 접촉으로 친목을 다졌습니다. \n<color_light_red>서로의 친밀도가 늘어난 것 같아요.</color>","type": "good","popup": true },{ "u_add_effect": "ncard_fatigue", "duration": 28800 },{ "u_add_effect": "ef_ncard_u_high2", "duration": 28800 },{ "npc_add_effect": "ef_ncard_npc_high2", "duration": 28800 },{ "u_adjust_var": "present_ev1_r3_no_02", "type": "counter", "context": "present","adjustment": -3 } ,{ "u_add_var": "time_ev1_r3_no_02", "type": "timer", "context": "time", "time": true }] }] 
+	}
+,
+	{
+		"id":"TALK_C2_ev1_r3_no_03",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥",
+		"responses":[ { "text": "（친밀한 접촉을 계속한다）","topic": "TALK_ev1_r3_no_03","effect": [ { "u_adjust_var": "love_ev1_r3_no_03", "type": "counter", "context": "love", "adjustment": 2 },{ "u_add_morale": "morale_ncard", "bonus": 15,"max_bonus": 50,"duration": "8 h","decay_start": "3 h"},{"u_message": "친밀한 접촉으로 친목을 다졌습니다. \n<color_light_red>서로의 친밀도가 늘어난 것 같아요.</color>","type": "good","popup": true },{ "u_add_effect": "ncard_fatigue", "duration": 28800 },{ "u_add_effect": "ef_ncard_u_high2", "duration": 28800 },{ "npc_add_effect": "ef_ncard_npc_high2", "duration": 28800 },{ "u_adjust_var": "present_ev1_r3_no_03", "type": "counter", "context": "present","adjustment": -3 } ,{ "u_add_var": "time_ev1_r3_no_03", "type": "timer", "context": "time", "time": true }] }] 
+	}
+,
+	{
+		"id":"TALK_C2_ev1_r3_no_04",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥",
+		"responses":[ { "text": "（친밀한 접촉을 계속한다）","topic": "TALK_ev1_r3_no_04","effect": [ { "u_adjust_var": "love_ev1_r3_no_04", "type": "counter", "context": "love", "adjustment": 2 },{ "u_add_morale": "morale_ncard", "bonus": 15,"max_bonus": 50,"duration": "8 h","decay_start": "3 h"},{"u_message": "친밀한 접촉으로 친목을 다졌습니다. \n<color_light_red>서로의 친밀도가 늘어난 것 같아요.</color>","type": "good","popup": true },{ "u_add_effect": "ncard_fatigue", "duration": 28800 },{ "u_add_effect": "ef_ncard_u_high2", "duration": 28800 },{ "npc_add_effect": "ef_ncard_npc_high2", "duration": 28800 },{ "u_adjust_var": "present_ev1_r3_no_04", "type": "counter", "context": "present","adjustment": -3 } ,{ "u_add_var": "time_ev1_r3_no_04", "type": "timer", "context": "time", "time": true }] }] 
+	}
+,
+	{
+		"id":"TALK_C2_ev2_r3_no_01",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥",
+		"responses":[ { "text": "（친밀한 접촉을 계속한다）","topic": "TALK_ev2_r3_no_01","effect": [ { "u_adjust_var": "love_ev2_r3_no_01", "type": "counter", "context": "love", "adjustment": 2 },{ "u_add_morale": "morale_ncard", "bonus": 15,"max_bonus": 50,"duration": "8 h","decay_start": "3 h"},{"u_message": "친밀한 접촉으로 친목을 다졌습니다. \n<color_light_red>서로의 친밀도가 늘어난 것 같아요.</color>","type": "good","popup": true },{ "u_add_effect": "ncard_fatigue", "duration": 28800 },{ "u_add_effect": "ef_ncard_u_high2", "duration": 28800 },{ "npc_add_effect": "ef_ncard_npc_high2", "duration": 28800 },{ "u_adjust_var": "present_ev2_r3_no_01", "type": "counter", "context": "present","adjustment": -3 } ,{ "u_add_var": "time_ev2_r3_no_01", "type": "timer", "context": "time", "time": true }] }] 
+	}
+,
+	{
+		"id":"TALK_C2_ev2_r3_no_02",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥",
+		"responses":[ { "text": "（친밀한 접촉을 계속한다）","topic": "TALK_ev2_r3_no_02","effect": [ { "u_adjust_var": "love_ev2_r3_no_02", "type": "counter", "context": "love", "adjustment": 2 },{ "u_add_morale": "morale_ncard", "bonus": 15,"max_bonus": 50,"duration": "8 h","decay_start": "3 h"},{"u_message": "친밀한 접촉으로 친목을 다졌습니다. \n<color_light_red>서로의 친밀도가 늘어난 것 같아요.</color>","type": "good","popup": true },{ "u_add_effect": "ncard_fatigue", "duration": 28800 },{ "u_add_effect": "ef_ncard_u_high2", "duration": 28800 },{ "npc_add_effect": "ef_ncard_npc_high2", "duration": 28800 },{ "u_adjust_var": "present_ev2_r3_no_02", "type": "counter", "context": "present","adjustment": -3 } ,{ "u_add_var": "time_ev2_r3_no_02", "type": "timer", "context": "time", "time": true }] }] 
+	}
+,
+	{
+		"id":"TALK_C2_ev2_r3_no_03",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥",
+		"responses":[ { "text": "（친밀한 접촉을 계속한다）","topic": "TALK_ev2_r3_no_03","effect": [ { "u_adjust_var": "love_ev2_r3_no_03", "type": "counter", "context": "love", "adjustment": 2 },{ "u_add_morale": "morale_ncard", "bonus": 15,"max_bonus": 50,"duration": "8 h","decay_start": "3 h"},{"u_message": "친밀한 접촉으로 친목을 다졌습니다. \n<color_light_red>서로의 친밀도가 늘어난 것 같아요.</color>","type": "good","popup": true },{ "u_add_effect": "ncard_fatigue", "duration": 28800 },{ "u_add_effect": "ef_ncard_u_high2", "duration": 28800 },{ "npc_add_effect": "ef_ncard_npc_high2", "duration": 28800 },{ "u_adjust_var": "present_ev2_r3_no_03", "type": "counter", "context": "present","adjustment": -3 } ,{ "u_add_var": "time_ev2_r3_no_03", "type": "timer", "context": "time", "time": true }] }] 
+	}
+,
+	{
+		"id":"TALK_C2_ev2_r3_no_04",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥",
+		"responses":[ { "text": "（친밀한 접촉을 계속한다）","topic": "TALK_ev2_r3_no_04","effect": [ { "u_adjust_var": "love_ev2_r3_no_04", "type": "counter", "context": "love", "adjustment": 2 },{ "u_add_morale": "morale_ncard", "bonus": 15,"max_bonus": 50,"duration": "8 h","decay_start": "3 h"},{"u_message": "친밀한 접촉으로 친목을 다졌습니다. \n<color_light_red>서로의 친밀도가 늘어난 것 같아요.</color>","type": "good","popup": true },{ "u_add_effect": "ncard_fatigue", "duration": 28800 },{ "u_add_effect": "ef_ncard_u_high2", "duration": 28800 },{ "npc_add_effect": "ef_ncard_npc_high2", "duration": 28800 },{ "u_adjust_var": "present_ev2_r3_no_04", "type": "counter", "context": "present","adjustment": -3 } ,{ "u_add_var": "time_ev2_r3_no_04", "type": "timer", "context": "time", "time": true }] }] 
+	}
+,
+	{
+		"id":"TALK_C2_ev3_r3_no_01",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥",
+		"responses":[ { "text": "（친밀한 접촉을 계속한다）","topic": "TALK_ev3_r3_no_01","effect": [ { "u_adjust_var": "love_ev3_r3_no_01", "type": "counter", "context": "love", "adjustment": 2 },{ "u_add_morale": "morale_ncard", "bonus": 15,"max_bonus": 50,"duration": "8 h","decay_start": "3 h"},{"u_message": "친밀한 접촉으로 친목을 다졌습니다. \n<color_light_red>서로의 친밀도가 늘어난 것 같아요.</color>","type": "good","popup": true },{ "u_add_effect": "ncard_fatigue", "duration": 28800 },{ "u_add_effect": "ef_ncard_u_high2", "duration": 28800 },{ "npc_add_effect": "ef_ncard_npc_high2", "duration": 28800 },{ "u_adjust_var": "present_ev3_r3_no_01", "type": "counter", "context": "present","adjustment": -3 } ,{ "u_add_var": "time_ev3_r3_no_01", "type": "timer", "context": "time", "time": true }] }] 
+	}
+,
+	{
+		"id":"TALK_C2_ev3_r3_no_02",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥",
+		"responses":[ { "text": "（친밀한 접촉을 계속한다）","topic": "TALK_ev3_r3_no_02","effect": [ { "u_adjust_var": "love_ev3_r3_no_02", "type": "counter", "context": "love", "adjustment": 2 },{ "u_add_morale": "morale_ncard", "bonus": 15,"max_bonus": 50,"duration": "8 h","decay_start": "3 h"},{"u_message": "친밀한 접촉으로 친목을 다졌습니다. \n<color_light_red>서로의 친밀도가 늘어난 것 같아요.</color>","type": "good","popup": true },{ "u_add_effect": "ncard_fatigue", "duration": 28800 },{ "u_add_effect": "ef_ncard_u_high2", "duration": 28800 },{ "npc_add_effect": "ef_ncard_npc_high2", "duration": 28800 },{ "u_adjust_var": "present_ev3_r3_no_02", "type": "counter", "context": "present","adjustment": -3 } ,{ "u_add_var": "time_ev3_r3_no_02", "type": "timer", "context": "time", "time": true }] }] 
+	}
+,
+	{
+		"id":"TALK_C2_ev3_r3_no_03",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥",
+		"responses":[ { "text": "（친밀한 접촉을 계속한다）","topic": "TALK_ev3_r3_no_03","effect": [ { "u_adjust_var": "love_ev3_r3_no_03", "type": "counter", "context": "love", "adjustment": 2 },{ "u_add_morale": "morale_ncard", "bonus": 15,"max_bonus": 50,"duration": "8 h","decay_start": "3 h"},{"u_message": "친밀한 접촉으로 친목을 다졌습니다. \n<color_light_red>서로의 친밀도가 늘어난 것 같아요.</color>","type": "good","popup": true },{ "u_add_effect": "ncard_fatigue", "duration": 28800 },{ "u_add_effect": "ef_ncard_u_high2", "duration": 28800 },{ "npc_add_effect": "ef_ncard_npc_high2", "duration": 28800 },{ "u_adjust_var": "present_ev3_r3_no_03", "type": "counter", "context": "present","adjustment": -3 } ,{ "u_add_var": "time_ev3_r3_no_03", "type": "timer", "context": "time", "time": true }] }] 
+	}
+,
+	{
+		"id":"TALK_C2_ev3_r3_no_04",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥",
+		"responses":[ { "text": "（친밀한 접촉을 계속한다）","topic": "TALK_ev3_r3_no_04","effect": [ { "u_adjust_var": "love_ev3_r3_no_04", "type": "counter", "context": "love", "adjustment": 2 },{ "u_add_morale": "morale_ncard", "bonus": 15,"max_bonus": 50,"duration": "8 h","decay_start": "3 h"},{"u_message": "친밀한 접촉으로 친목을 다졌습니다. \n<color_light_red>서로의 친밀도가 늘어난 것 같아요.</color>","type": "good","popup": true },{ "u_add_effect": "ncard_fatigue", "duration": 28800 },{ "u_add_effect": "ef_ncard_u_high2", "duration": 28800 },{ "npc_add_effect": "ef_ncard_npc_high2", "duration": 28800 },{ "u_adjust_var": "present_ev3_r3_no_04", "type": "counter", "context": "present","adjustment": -3 } ,{ "u_add_var": "time_ev3_r3_no_04", "type": "timer", "context": "time", "time": true }] }] 
+	}
+,
+	{
+		"id":"TALK_C2_ev4_r3_no_01",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥",
+		"responses":[ { "text": "（친밀한 접촉을 계속한다）","topic": "TALK_ev4_r3_no_01","effect": [ { "u_adjust_var": "love_ev4_r3_no_01", "type": "counter", "context": "love", "adjustment": 2 },{ "u_add_morale": "morale_ncard", "bonus": 15,"max_bonus": 50,"duration": "8 h","decay_start": "3 h"},{"u_message": "친밀한 접촉으로 친목을 다졌습니다. \n<color_light_red>서로의 친밀도가 늘어난 것 같아요.</color>","type": "good","popup": true },{ "u_add_effect": "ncard_fatigue", "duration": 28800 },{ "u_add_effect": "ef_ncard_u_high2", "duration": 28800 },{ "npc_add_effect": "ef_ncard_npc_high2", "duration": 28800 },{ "u_adjust_var": "present_ev4_r3_no_01", "type": "counter", "context": "present","adjustment": -3 } ,{ "u_add_var": "time_ev4_r3_no_01", "type": "timer", "context": "time", "time": true }] }] 
+	}
+,
+	{
+		"id":"TALK_C2_ev4_r3_no_02",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥",
+		"responses":[ { "text": "（친밀한 접촉을 계속한다）","topic": "TALK_ev4_r3_no_02","effect": [ { "u_adjust_var": "love_ev4_r3_no_02", "type": "counter", "context": "love", "adjustment": 2 },{ "u_add_morale": "morale_ncard", "bonus": 15,"max_bonus": 50,"duration": "8 h","decay_start": "3 h"},{"u_message": "친밀한 접촉으로 친목을 다졌습니다. \n<color_light_red>서로의 친밀도가 늘어난 것 같아요.</color>","type": "good","popup": true },{ "u_add_effect": "ncard_fatigue", "duration": 28800 },{ "u_add_effect": "ef_ncard_u_high2", "duration": 28800 },{ "npc_add_effect": "ef_ncard_npc_high2", "duration": 28800 },{ "u_adjust_var": "present_ev4_r3_no_02", "type": "counter", "context": "present","adjustment": -3 } ,{ "u_add_var": "time_ev4_r3_no_02", "type": "timer", "context": "time", "time": true }] }] 
+	}
+,
+	{
+		"id":"TALK_C2_ev4_r3_no_03",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥",
+		"responses":[ { "text": "（친밀한 접촉을 계속한다）","topic": "TALK_ev4_r3_no_03","effect": [ { "u_adjust_var": "love_ev4_r3_no_03", "type": "counter", "context": "love", "adjustment": 2 },{ "u_add_morale": "morale_ncard", "bonus": 15,"max_bonus": 50,"duration": "8 h","decay_start": "3 h"},{"u_message": "친밀한 접촉으로 친목을 다졌습니다. \n<color_light_red>서로의 친밀도가 늘어난 것 같아요.</color>","type": "good","popup": true },{ "u_add_effect": "ncard_fatigue", "duration": 28800 },{ "u_add_effect": "ef_ncard_u_high2", "duration": 28800 },{ "npc_add_effect": "ef_ncard_npc_high2", "duration": 28800 },{ "u_adjust_var": "present_ev4_r3_no_03", "type": "counter", "context": "present","adjustment": -3 } ,{ "u_add_var": "time_ev4_r3_no_03", "type": "timer", "context": "time", "time": true }] }] 
+	}
+,
+	{
+		"id":"TALK_C2_ev4_r3_no_04",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥",
+		"responses":[ { "text": "（친밀한 접촉을 계속한다）","topic": "TALK_ev4_r3_no_04","effect": [ { "u_adjust_var": "love_ev4_r3_no_04", "type": "counter", "context": "love", "adjustment": 2 },{ "u_add_morale": "morale_ncard", "bonus": 15,"max_bonus": 50,"duration": "8 h","decay_start": "3 h"},{"u_message": "친밀한 접촉으로 친목을 다졌습니다. \n<color_light_red>서로의 친밀도가 늘어난 것 같아요.</color>","type": "good","popup": true },{ "u_add_effect": "ncard_fatigue", "duration": 28800 },{ "u_add_effect": "ef_ncard_u_high2", "duration": 28800 },{ "npc_add_effect": "ef_ncard_npc_high2", "duration": 28800 },{ "u_adjust_var": "present_ev4_r3_no_04", "type": "counter", "context": "present","adjustment": -3 } ,{ "u_add_var": "time_ev4_r3_no_04", "type": "timer", "context": "time", "time": true }] }] 
+	}
+,
+	{
+		"id":"TALK_C2_ev4_r3_no_05",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥",
+		"responses":[ { "text": "（친밀한 접촉을 계속한다）","topic": "TALK_ev4_r3_no_05","effect": [ { "u_adjust_var": "love_ev4_r3_no_05", "type": "counter", "context": "love", "adjustment": 2 },{ "u_add_morale": "morale_ncard", "bonus": 15,"max_bonus": 50,"duration": "8 h","decay_start": "3 h"},{"u_message": "친밀한 접촉으로 친목을 다졌습니다. \n<color_light_red>서로의 친밀도가 늘어난 것 같아요.</color>","type": "good","popup": true },{ "u_add_effect": "ncard_fatigue", "duration": 28800 },{ "u_add_effect": "ef_ncard_u_high2", "duration": 28800 },{ "npc_add_effect": "ef_ncard_npc_high2", "duration": 28800 },{ "u_adjust_var": "present_ev4_r3_no_05", "type": "counter", "context": "present","adjustment": -3 } ,{ "u_add_var": "time_ev4_r3_no_05", "type": "timer", "context": "time", "time": true }] }] 
+	}
+,
+	{
+		"id":"TALK_C2_ev4_r3_no_06",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥",
+		"responses":[ { "text": "（친밀한 접촉을 계속한다）","topic": "TALK_ev4_r3_no_06","effect": [ { "u_adjust_var": "love_ev4_r3_no_06", "type": "counter", "context": "love", "adjustment": 2 },{ "u_add_morale": "morale_ncard", "bonus": 15,"max_bonus": 50,"duration": "8 h","decay_start": "3 h"},{"u_message": "친밀한 접촉으로 친목을 다졌습니다. \n<color_light_red>서로의 친밀도가 늘어난 것 같아요.</color>","type": "good","popup": true },{ "u_add_effect": "ncard_fatigue", "duration": 28800 },{ "u_add_effect": "ef_ncard_u_high2", "duration": 28800 },{ "npc_add_effect": "ef_ncard_npc_high2", "duration": 28800 },{ "u_adjust_var": "present_ev4_r3_no_06", "type": "counter", "context": "present","adjustment": -3 } ,{ "u_add_var": "time_ev4_r3_no_06", "type": "timer", "context": "time", "time": true }] }] 
+	}
+,
+	{
+		"id":"TALK_C2_ev4_r4_no_01",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥",
+		"responses":[ { "text": "（친밀한 접촉을 계속한다）","topic": "TALK_ev4_r4_no_01","effect": [ { "u_adjust_var": "love_ev4_r4_no_01", "type": "counter", "context": "love", "adjustment": 2 },{ "u_add_morale": "morale_ncard", "bonus": 15,"max_bonus": 50,"duration": "8 h","decay_start": "3 h"},{"u_message": "친밀한 접촉으로 친목을 다졌습니다. \n<color_light_red>서로의 친밀도가 늘어난 것 같아요.</color>","type": "good","popup": true },{ "u_add_effect": "ncard_fatigue", "duration": 28800 },{ "u_add_effect": "ef_ncard_u_high2", "duration": 28800 },{ "npc_add_effect": "ef_ncard_npc_high2", "duration": 28800 },{ "u_adjust_var": "present_ev4_r4_no_01", "type": "counter", "context": "present","adjustment": -3 } ,{ "u_add_var": "time_ev4_r4_no_01", "type": "timer", "context": "time", "time": true }] }] 
+	}
+,
+	{
+		"id":"TALK_C2_ev4_r4_no_02",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥",
+		"responses":[ { "text": "（친밀한 접촉을 계속한다）","topic": "TALK_ev4_r4_no_02","effect": [ { "u_adjust_var": "love_ev4_r4_no_02", "type": "counter", "context": "love", "adjustment": 2 },{ "u_add_morale": "morale_ncard", "bonus": 15,"max_bonus": 50,"duration": "8 h","decay_start": "3 h"},{"u_message": "친밀한 접촉으로 친목을 다졌습니다. \n<color_light_red>서로의 친밀도가 늘어난 것 같아요.</color>","type": "good","popup": true },{ "u_add_effect": "ncard_fatigue", "duration": 28800 },{ "u_add_effect": "ef_ncard_u_high2", "duration": 28800 },{ "npc_add_effect": "ef_ncard_npc_high2", "duration": 28800 },{ "u_adjust_var": "present_ev4_r4_no_02", "type": "counter", "context": "present","adjustment": -3 } ,{ "u_add_var": "time_ev4_r4_no_02", "type": "timer", "context": "time", "time": true }] }] 
+	}
+,
+	{
+		"id":"TALK_C2_ev5_r4_no_01",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥",
+		"responses":[ { "text": "（친밀한 접촉을 계속한다）","topic": "TALK_ev5_r4_no_01","effect": [ { "u_adjust_var": "love_ev5_r4_no_01", "type": "counter", "context": "love", "adjustment": 2 },{ "u_add_morale": "morale_ncard", "bonus": 15,"max_bonus": 50,"duration": "8 h","decay_start": "3 h"},{"u_message": "친밀한 접촉으로 친목을 다졌습니다. \n<color_light_red>서로의 친밀도가 늘어난 것 같아요.</color>","type": "good","popup": true },{ "u_add_effect": "ncard_fatigue", "duration": 28800 },{ "u_add_effect": "ef_ncard_u_high2", "duration": 28800 },{ "npc_add_effect": "ef_ncard_npc_high2", "duration": 28800 },{ "u_adjust_var": "present_ev5_r4_no_01", "type": "counter", "context": "present","adjustment": -3 } ,{ "u_add_var": "time_ev5_r4_no_01", "type": "timer", "context": "time", "time": true }] }] 
+	}
+,
+	{
+		"id":"TALK_C2_ev5_r4_no_02",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥",
+		"responses":[ { "text": "（친밀한 접촉을 계속한다）","topic": "TALK_ev5_r4_no_02","effect": [ { "u_adjust_var": "love_ev5_r4_no_02", "type": "counter", "context": "love", "adjustment": 2 },{ "u_add_morale": "morale_ncard", "bonus": 15,"max_bonus": 50,"duration": "8 h","decay_start": "3 h"},{"u_message": "친밀한 접촉으로 친목을 다졌습니다. \n<color_light_red>서로의 친밀도가 늘어난 것 같아요.</color>","type": "good","popup": true },{ "u_add_effect": "ncard_fatigue", "duration": 28800 },{ "u_add_effect": "ef_ncard_u_high2", "duration": 28800 },{ "npc_add_effect": "ef_ncard_npc_high2", "duration": 28800 },{ "u_adjust_var": "present_ev5_r4_no_02", "type": "counter", "context": "present","adjustment": -3 } ,{ "u_add_var": "time_ev5_r4_no_02", "type": "timer", "context": "time", "time": true }] }] 
+	}
+,
+	{
+		"id":"TALK_C2_ev5_r3_no_01",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥",
+		"responses":[ { "text": "（친밀한 접촉을 계속한다）","topic": "TALK_ev5_r3_no_01","effect": [ { "u_adjust_var": "love_ev5_r3_no_01", "type": "counter", "context": "love", "adjustment": 2 },{ "u_add_morale": "morale_ncard", "bonus": 15,"max_bonus": 50,"duration": "8 h","decay_start": "3 h"},{"u_message": "친밀한 접촉으로 친목을 다졌습니다. \n<color_light_red>서로의 친밀도가 늘어난 것 같아요.</color>","type": "good","popup": true },{ "u_add_effect": "ncard_fatigue", "duration": 28800 },{ "u_add_effect": "ef_ncard_u_high2", "duration": 28800 },{ "npc_add_effect": "ef_ncard_npc_high2", "duration": 28800 },{ "u_adjust_var": "present_ev5_r3_no_01", "type": "counter", "context": "present","adjustment": -3 } ,{ "u_add_var": "time_ev5_r3_no_01", "type": "timer", "context": "time", "time": true }] }] 
+	}
+,
+	{
+		"id":"TALK_C2_ev5_r3_no_02",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥",
+		"responses":[ { "text": "（친밀한 접촉을 계속한다）","topic": "TALK_ev5_r3_no_02","effect": [ { "u_adjust_var": "love_ev5_r3_no_02", "type": "counter", "context": "love", "adjustment": 2 },{ "u_add_morale": "morale_ncard", "bonus": 15,"max_bonus": 50,"duration": "8 h","decay_start": "3 h"},{"u_message": "친밀한 접촉으로 친목을 다졌습니다. \n<color_light_red>서로의 친밀도가 늘어난 것 같아요.</color>","type": "good","popup": true },{ "u_add_effect": "ncard_fatigue", "duration": 28800 },{ "u_add_effect": "ef_ncard_u_high2", "duration": 28800 },{ "npc_add_effect": "ef_ncard_npc_high2", "duration": 28800 },{ "u_adjust_var": "present_ev5_r3_no_02", "type": "counter", "context": "present","adjustment": -3 } ,{ "u_add_var": "time_ev5_r3_no_02", "type": "timer", "context": "time", "time": true }] }] 
+	}
+,
+	{
+		"id":"TALK_C2_ev5_r3_no_03",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥",
+		"responses":[ { "text": "（친밀한 접촉을 계속한다）","topic": "TALK_ev5_r3_no_03","effect": [ { "u_adjust_var": "love_ev5_r3_no_03", "type": "counter", "context": "love", "adjustment": 2 },{ "u_add_morale": "morale_ncard", "bonus": 15,"max_bonus": 50,"duration": "8 h","decay_start": "3 h"},{"u_message": "친밀한 접촉으로 친목을 다졌습니다. \n<color_light_red>서로의 친밀도가 늘어난 것 같아요.</color>","type": "good","popup": true },{ "u_add_effect": "ncard_fatigue", "duration": 28800 },{ "u_add_effect": "ef_ncard_u_high2", "duration": 28800 },{ "npc_add_effect": "ef_ncard_npc_high2", "duration": 28800 },{ "u_adjust_var": "present_ev5_r3_no_03", "type": "counter", "context": "present","adjustment": -3 } ,{ "u_add_var": "time_ev5_r3_no_03", "type": "timer", "context": "time", "time": true }] }] 
+	}
+,
+	{
+		"id":"TALK_C2_ev5_r3_no_04",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥",
+		"responses":[ { "text": "（친밀한 접촉을 계속한다）","topic": "TALK_ev5_r3_no_04","effect": [ { "u_adjust_var": "love_ev5_r3_no_04", "type": "counter", "context": "love", "adjustment": 2 },{ "u_add_morale": "morale_ncard", "bonus": 15,"max_bonus": 50,"duration": "8 h","decay_start": "3 h"},{"u_message": "친밀한 접촉으로 친목을 다졌습니다. \n<color_light_red>서로의 친밀도가 늘어난 것 같아요.</color>","type": "good","popup": true },{ "u_add_effect": "ncard_fatigue", "duration": 28800 },{ "u_add_effect": "ef_ncard_u_high2", "duration": 28800 },{ "npc_add_effect": "ef_ncard_npc_high2", "duration": 28800 },{ "u_adjust_var": "present_ev5_r3_no_04", "type": "counter", "context": "present","adjustment": -3 } ,{ "u_add_var": "time_ev5_r3_no_04", "type": "timer", "context": "time", "time": true }] }] 
+	}
+,
+	{
+		"id":"TALK_C2_ev6_r4_no_01",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥",
+		"responses":[ { "text": "（친밀한 접촉을 계속한다）","topic": "TALK_ev6_r4_no_01","effect": [ { "u_adjust_var": "love_ev6_r4_no_01", "type": "counter", "context": "love", "adjustment": 2 },{ "u_add_morale": "morale_ncard", "bonus": 15,"max_bonus": 50,"duration": "8 h","decay_start": "3 h"},{"u_message": "친밀한 접촉으로 친목을 다졌습니다. \n<color_light_red>서로의 친밀도가 늘어난 것 같아요.</color>","type": "good","popup": true },{ "u_add_effect": "ncard_fatigue", "duration": 28800 },{ "u_add_effect": "ef_ncard_u_high2", "duration": 28800 },{ "npc_add_effect": "ef_ncard_npc_high2", "duration": 28800 },{ "u_adjust_var": "present_ev6_r4_no_01", "type": "counter", "context": "present","adjustment": -3 } ,{ "u_add_var": "time_ev6_r4_no_01", "type": "timer", "context": "time", "time": true }] }] 
+	}
+,
+	{
+		"id":"TALK_C2_ev6_r4_no_02",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥",
+		"responses":[ { "text": "（친밀한 접촉을 계속한다）","topic": "TALK_ev6_r4_no_02","effect": [ { "u_adjust_var": "love_ev6_r4_no_02", "type": "counter", "context": "love", "adjustment": 2 },{ "u_add_morale": "morale_ncard", "bonus": 15,"max_bonus": 50,"duration": "8 h","decay_start": "3 h"},{"u_message": "친밀한 접촉으로 친목을 다졌습니다. \n<color_light_red>서로의 친밀도가 늘어난 것 같아요.</color>","type": "good","popup": true },{ "u_add_effect": "ncard_fatigue", "duration": 28800 },{ "u_add_effect": "ef_ncard_u_high2", "duration": 28800 },{ "npc_add_effect": "ef_ncard_npc_high2", "duration": 28800 },{ "u_adjust_var": "present_ev6_r4_no_02", "type": "counter", "context": "present","adjustment": -3 } ,{ "u_add_var": "time_ev6_r4_no_02", "type": "timer", "context": "time", "time": true }] }] 
+	}
+
+
+]

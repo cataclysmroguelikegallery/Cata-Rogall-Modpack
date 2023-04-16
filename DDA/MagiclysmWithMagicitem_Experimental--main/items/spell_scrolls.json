@@ -1,0 +1,11 @@
+[
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "spell_scroll_summon_golem_clay_weak",
+    "//": "Classless spell",
+    "name": { "str": "주문서(위크 골렘 소환)", "str_pl": "위크 골렘 소환" },
+    "description": "A proper wizard is always prepared, crystallize your mana for the future!",
+    "use_action": { "type": "learn_spell", "spells": [ "summon_golem_clay_weak" ] }
+  }
+]

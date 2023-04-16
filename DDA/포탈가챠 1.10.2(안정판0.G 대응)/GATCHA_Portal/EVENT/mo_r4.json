@@ -1,0 +1,188 @@
+[
+	{
+		"id":"mon_ncard_ev1_r4_no_01",
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_r4_no_00",
+		"name":{"str": "No.23 산타클로스","str_pl":"No.23 산타클로스"},
+		"description":"포탈 건너편에서 호출된 존재입니다.",
+		"symbol":"S",
+		"chat_topics":["TALK_ev1_r4_no_01"],
+		"death_drops":{"subtype": "distribution","items":[{ "item": "ncard_ev1_r4_no_01_C" , "count": 1, "prob": 100}]},
+		"death_function":{ "corpse_type": "NO_CORPSE", "message": "The %s fades away." },
+		"emit_fields":[ { "emit_id": "emit_fd_ncard_ev1_xmas_box2", "delay": "4 d" } ],
+		"special_attacks":[{"type": "spell","spell_data": { "id": "spell_ncard_ev1_holy_cocktail", "min_level": 0 },"cooldown": 70,"monster_message": "<color_yellow>%1$s가 성스러운 샴페인을 터뜨렸습니다!</color>"}],
+		"flags":[ "SEES", "HEARS", "SMELLS", "WARM", "PATH_AVOID_FALL", "FIREPROOF","ACIDPROOF","COLDPROOF","ALWAYS_SEES_YOU"  ],
+		"path_settings":{ "max_dist": 50,"avoid_traps": true, "avoid_sharp": true }
+	}
+,
+	{
+		"id":"mon_ncard_ev1_r4_no_02",
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_r4_no_00",
+		"name":{"str": "No.24 산타클로스","str_pl":"No.24 산타클로스"},
+		"description":"포탈 건너편에서 호출된 존재입니다.",
+		"symbol":"S",
+		"chat_topics":["TALK_ev1_r4_no_02"],
+		"death_drops":{"subtype": "distribution","items":[{ "item": "ncard_ev1_r4_no_02_C" , "count": 1, "prob": 100}]},
+		"death_function":{ "corpse_type": "NO_CORPSE", "message": "The %s fades away." },
+		"emit_fields":[ { "emit_id": "emit_fd_ncard_ev1_xmas_box2", "delay": "4 d" } ],
+		"special_attacks":[{"type": "spell","spell_data": { "id": "spell_ncard_ev1_holy_cocktail", "min_level": 0 },"cooldown": 70,"monster_message": "<color_yellow>%1$s가 성스러운 샴페인을 터뜨렸습니다.!</color>"}],
+		"flags":[ "SEES", "HEARS", "SMELLS", "WARM", "PATH_AVOID_FALL", "FIREPROOF","ACIDPROOF","COLDPROOF","ALWAYS_SEES_YOU"  ],
+		"path_settings":{ "max_dist": 50,"avoid_traps": true, "avoid_sharp": true }
+	}
+,
+	{
+		"id":"mon_ncard_ev2_r4_no_01",
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_r4_no_00",
+		"name":{"str": "No.29 호랑이 소녀","str_pl":"No.29 호랑이 소녀"},
+		"description":"포탈 건너편에서 호출된 존재입니다.",
+		"symbol":"T",
+		"chat_topics":["TALK_ev2_r4_no_01"],
+		"death_drops":{"subtype": "distribution","items":[{ "item": "ncard_ev2_r4_no_01_C" , "count": 1, "prob": 100}]},
+		"death_function":{ "corpse_type": "NO_CORPSE", "message": "The %s fades away." },
+		"special_attacks":[{"type": "spell","spell_data": { "id": "spell_ncard_ev2_dashslash", "min_level": 0 },"cooldown": 70,"monster_message": "<color_yellow>%1$s가 도약하면서 주위를 잘랐습니다!</color>"}],
+		"flags":[ "SEES", "HEARS", "SMELLS", "WARM", "PATH_AVOID_FALL", "FIREPROOF","ACIDPROOF","COLDPROOF","ALWAYS_SEES_YOU"  ],
+		"path_settings":{ "max_dist": 50,"avoid_traps": true, "avoid_sharp": true }
+	}
+,
+	{
+		"id":"mon_ncard_ev2_r4_no_02",
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_r4_no_00",
+		"name":{"str": "No.30 호랑이 소녀","str_pl":"No.30 호랑이 소녀"},
+		"description":"포탈 건너편에서 호출된 존재입니다.",
+		"symbol":"T",
+		"chat_topics":["TALK_ev2_r4_no_02"],
+		"death_drops":{"subtype": "distribution","items":[{ "item": "ncard_ev2_r4_no_02_C" , "count": 1, "prob": 100}]},
+		"death_function":{ "corpse_type": "NO_CORPSE", "message": "The %s fades away." },
+		"special_attacks":[{"type": "spell","spell_data": { "id": "spell_ncard_ev2_dashslash", "min_level": 0 },"cooldown": 70,"monster_message": "<color_yellow>%1$s가 도약하면서 주위를 잘랐습니다!</color>"}],
+		"flags":[ "SEES", "HEARS", "SMELLS", "WARM", "PATH_AVOID_FALL", "FIREPROOF","ACIDPROOF","COLDPROOF","ALWAYS_SEES_YOU"  ],
+		"path_settings":{ "max_dist": 50,"avoid_traps": true, "avoid_sharp": true }
+	}
+,
+	{
+		"id":"mon_ncard_ev3_r4_no_01",
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_r4_no_00",
+		"name":{"str": "No.35 검성","str_pl":"No.35 검성"},
+		"description":"포탈 건너편에서 호출된 존재입니다.",
+		"symbol":"F",
+		"chat_topics":["TALK_ev3_r4_no_01"],
+		"death_drops":{"subtype": "distribution","items":[{ "item": "ncard_ev3_r4_no_01_C" , "count": 1, "prob": 100}]},
+		"death_function":{ "corpse_type": "NO_CORPSE", "message": "The %s fades away." },
+		"special_attacks":[{"type": "spell","spell_data": { "id": "spell_ncard_ev3_sanoubu", "min_level": 0 },"cooldown": 70,"monster_message": "<color_yellow>%1$s의 손에서 연분홍빛 빛줄기가 반짝였습니다!</color>"}],
+		"flags":[ "SEES", "HEARS", "SMELLS", "WARM", "PATH_AVOID_FALL", "FIREPROOF","ACIDPROOF","COLDPROOF","ALWAYS_SEES_YOU"  ],
+		"path_settings":{ "max_dist": 50,"avoid_traps": true, "avoid_sharp": true }
+	}
+,
+	{
+		"id":"mon_ncard_ev3_r4_no_02",
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_r4_no_00",
+		"name":{"str": "No.36 검성","str_pl":"No.36 검성"},
+		"description":"포탈 건너편에서 호출된 존재입니다.",
+		"symbol":"F",
+		"chat_topics":["TALK_ev3_r4_no_02"],
+		"death_drops":{"subtype": "distribution","items":[{ "item": "ncard_ev3_r4_no_02_C" , "count": 1, "prob": 100}]},
+		"death_function":{ "corpse_type": "NO_CORPSE", "message": "The %s fades away." },
+		"special_attacks":[{"type": "spell","spell_data": { "id": "spell_ncard_ev3_sanoubu", "min_level": 0 },"cooldown": 70,"monster_message": "<color_yellow>%1$s의 손에서 연분홍빛 빛줄기가 반짝였습니다!</color>"}],
+		"flags":[ "SEES", "HEARS", "SMELLS", "WARM", "PATH_AVOID_FALL", "FIREPROOF","ACIDPROOF","COLDPROOF","ALWAYS_SEES_YOU"  ],
+		"path_settings":{ "max_dist": 50,"avoid_traps": true, "avoid_sharp": true }
+	}
+,
+	{
+		"id":"mon_ncard_ev4_r4_no_01",
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_r4_no_00",
+		"name":{"str": "No.41 행상인","str_pl":"No.41 행상인"},
+		"description":"포탈 건너편에서 호출된 존재입니다.",
+		"symbol":"@",
+		"chat_topics":["TALK_ev4_r4_no_01"],
+		"death_drops":{"subtype": "distribution","items":[{ "item": "ncard_ev4_r4_no_01_C" , "count": 1, "prob": 100}]},
+		"death_function":{ "corpse_type": "NO_CORPSE", "message": "The %s fades away." },
+		"emit_fields":[ { "emit_id": "emit_fd_ncard_nosell", "delay": "1 s" } ],
+		"special_attacks":[{"type": "spell","spell_data": { "id": "spell_ncard_ev4_potion", "min_level": 0 },"cooldown": 70,"monster_message": "<color_yellow>%1$s가 뭔가 액체가 든 병을 집어던졌습니다!</color>"}],
+		"flags":[ "SEES", "HEARS", "SMELLS", "WARM", "PATH_AVOID_FALL", "FIREPROOF","ACIDPROOF","COLDPROOF","ALWAYS_SEES_YOU"  ],
+		"path_settings":{ "max_dist": 50,"avoid_traps": true, "avoid_sharp": true }
+	}
+,
+	{
+		"id":"mon_ncard_ev4_r4_no_02",
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_r4_no_00",
+		"name":{"str": "No.42 행상인","str_pl":"No.42 행상인"},
+		"description":"포탈 건너편에서 호출된 존재입니다.",
+		"symbol":"@",
+		"chat_topics":["TALK_ev4_r4_no_02"],
+		"death_drops":{"subtype": "distribution","items":[{ "item": "ncard_ev4_r4_no_02_C" , "count": 1, "prob": 100}]},
+		"death_function":{ "corpse_type": "NO_CORPSE", "message": "The %s fades away." },
+		"emit_fields":[ { "emit_id": "emit_fd_ncard_nosell", "delay": "1 s" } ],
+		"special_attacks":[{"type": "spell","spell_data": { "id": "spell_ncard_ev4_potion", "min_level": 0 },"cooldown": 70,"monster_message": "<color_yellow>%1$s가 뭔가 액체가 든 병을 집어던졌습니다!</color>"}],
+		"flags":[ "SEES", "HEARS", "SMELLS", "WARM", "PATH_AVOID_FALL", "FIREPROOF","ACIDPROOF","COLDPROOF","ALWAYS_SEES_YOU"  ],
+		"path_settings":{ "max_dist": 50,"avoid_traps": true, "avoid_sharp": true }
+	}
+,
+	{
+		"id":"mon_ncard_ev5_r4_no_01",
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_r4_no_00",
+		"name":{"str": "No.49 상급 몽마","str_pl":"No.49 상급 몽마"},
+		"description":"포탈 건너편에서 호출된 존재입니다.",
+		"symbol":"@",
+		"chat_topics":["TALK_ev5_r4_no_01"],
+		"death_drops":{"subtype": "distribution","items":[{ "item": "ncard_ev5_r4_no_01_C" , "count": 1, "prob": 100}]},
+		"death_function":{ "corpse_type": "NO_CORPSE", "message": "The %s fades away." },
+		"special_attacks":[{"type": "spell","spell_data": { "id": "spell_ncard_ev5_somno", "min_level": 0 },"cooldown": 70,"monster_message": "<color_yellow>%1$s가 미소짓자 주위 공기가 진흙처럼 가라앉는 것처럼 느껴집니다!</color>"}],
+		"flags":[ "SEES", "HEARS", "SMELLS", "WARM", "PATH_AVOID_FALL", "FIREPROOF","ACIDPROOF","COLDPROOF","ALWAYS_SEES_YOU"  ],
+		"path_settings":{ "max_dist": 50,"avoid_traps": true, "avoid_sharp": true }
+	}
+,
+	{
+		"id":"mon_ncard_ev5_r4_no_02",
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_r4_no_00",
+		"name":{"str": "No.50 상급 몽마","str_pl":"No.50 상급 몽마"},
+		"description":"포탈 건너편에서 호출된 존재입니다.",
+		"symbol":"@",
+		"chat_topics":["TALK_ev5_r4_no_02"],
+		"death_drops":{"subtype": "distribution","items":[{ "item": "ncard_ev5_r4_no_02_C" , "count": 1, "prob": 100}]},
+		"death_function":{ "corpse_type": "NO_CORPSE", "message": "The %s fades away." },
+		"starting_ammo":{ "milk_raw": 40 },
+		"special_attacks":[{"type": "spell","spell_data": { "id": "spell_ncard_ev5_somno", "min_level": 0 },"cooldown": 70,"monster_message": "<color_yellow>%1$s가 미소짓자 주위 공기가 진흙처럼 가라앉는 것처럼 느껴집니다!</color>"}],
+		"flags":[ "SEES", "HEARS", "SMELLS", "WARM", "PATH_AVOID_FALL", "FIREPROOF","ACIDPROOF","COLDPROOF","MILKABLE","ALWAYS_SEES_YOU"  ],
+		"path_settings":{ "max_dist": 50,"avoid_traps": true, "avoid_sharp": true }
+	}
+,
+	{
+		"id":"mon_ncard_ev6_r4_no_01",
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_r4_no_00",
+		"name":{"str": "No.55 토끼 소녀","str_pl":"No.55 토끼 소녀"},
+		"description":"포탈 건너편에서 호출된 존재입니다.",
+		"symbol":"R",
+		"chat_topics":["TALK_ev6_r4_no_01"],
+		"death_drops":{"subtype": "distribution","items":[{ "item": "ncard_ev6_r4_no_01_C" , "count": 1, "prob": 100}]},
+		"death_function":{ "corpse_type": "NO_CORPSE", "message": "The %s fades away." },
+		"special_attacks":[{"type": "spell","spell_data": { "id": "spell_ncard_ev6_springheel", "min_level": 0 },"cooldown": 70,"monster_message": "<color_yellow>%1$s가 신속의 발차기를 반복했습니다!</color>"}, { "id": "smash", "throw_strength": 96 }],
+		"flags":[ "SEES", "HEARS", "SMELLS", "WARM", "PATH_AVOID_FALL", "FIREPROOF","ACIDPROOF","COLDPROOF","ALWAYS_SEES_YOU"  ],
+		"path_settings":{ "max_dist": 50,"avoid_traps": true, "avoid_sharp": true }
+	}
+,
+	{
+		"id":"mon_ncard_ev6_r4_no_02",
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_r4_no_00",
+		"name":{"str": "No.56 토끼 소녀","str_pl":"No.56 토끼 소녀"},
+		"description":"포탈 건너편에서 호출된 존재입니다.",
+		"symbol":"R",
+		"chat_topics":["TALK_ev6_r4_no_02"],
+		"death_drops":{"subtype": "distribution","items":[{ "item": "ncard_ev6_r4_no_02_C" , "count": 1, "prob": 100}]},
+		"death_function":{ "corpse_type": "NO_CORPSE", "message": "The %s fades away." },
+		"special_attacks":[{"type": "spell","spell_data": { "id": "spell_ncard_ev6_springheel", "min_level": 0 },"cooldown": 70,"monster_message": "<color_yellow>%1$s가 신속의 발차기를 반복했습니다!</color>"}, { "id": "smash", "throw_strength": 96 }],
+		"flags":[ "SEES", "HEARS", "SMELLS", "WARM", "PATH_AVOID_FALL", "FIREPROOF","ACIDPROOF","COLDPROOF","ALWAYS_SEES_YOU"  ],
+		"path_settings":{ "max_dist": 50,"avoid_traps": true, "avoid_sharp": true }
+	}
+
+
+]

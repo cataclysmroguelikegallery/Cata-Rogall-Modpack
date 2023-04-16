@@ -1,0 +1,14 @@
+[
+  {
+    "type": "scenario",
+    "ident": "lab_chal",
+    "copy-from": "lab_chal",
+    "extend": { "professions": [ "kawaii_catmaid_lab", "kawaii_catmaid2", "kawaii_wolfmaid_lab", "kawaii_wolfmaid2", "kawaii_bunnymaid_lab", "kawaii_bunnymaid2" ] }
+  },
+  {
+    "type": "scenario",
+    "ident": "bad_day",
+    "copy-from": "bad_day",
+    "extend": { "professions": [ "c_maid" ] }
+  }
+]

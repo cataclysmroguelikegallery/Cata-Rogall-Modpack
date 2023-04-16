@@ -1,0 +1,172 @@
+[
+	{
+		"id":"ncard_r3_no_01",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r3",
+		"name":{"str": "<color_yellow>금 카드(소환/No.5 천사)</color>","str_pl":"<color_yellow>금 카드(소환/No.5 천사)</color>"},
+		"description":"<color_yellow>반짝이는 카드입니다. 포털 건너편에서 유니크한 존재를 불러옵니다.  소멸되면 카드가 재출현되어 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"yellow",
+		"use_action":[{ "type": "place_monster", "monster_id": "mon_ncard_r3_no_01", "difficulty": 0, "moves": 200,"friendly_msg": "異次元の存在が召喚されました。","place_randomly": true,"skills": [ "fabrication" ],"is_pet": true }],
+		"price":1
+	}
+,
+	{
+		"id":"ncard_r3_no_02",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r3",
+		"name":{"str": "<color_yellow>금 카드(소환/No.6 천사)</color>","str_pl":"<color_yellow>금 카드(소환/No.6 천사)</color>"},
+		"description":"<color_yellow>반짝이는 카드입니다. 포털 건너편에서 유니크한 존재를 불러옵니다.  소멸되면 카드가 재출현되어 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"yellow",
+		"use_action":[{ "type": "place_monster", "monster_id": "mon_ncard_r3_no_02", "difficulty": 0, "moves": 200,"friendly_msg": "異次元の存在が召喚されました。","place_randomly": true,"skills": [ "fabrication" ],"is_pet": true }],
+		"price":1
+	}
+,
+	{
+		"id":"ncard_r3_no_03",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r3",
+		"name":{"str": "<color_yellow>금 카드(소환/No.7 천사)</color>","str_pl":"<color_yellow>금 카드(소환/No.7 천사)</color>"},
+		"description":"<color_yellow>반짝이는 카드입니다. 포털 건너편에서 유니크한 존재를 불러옵니다.  소멸되면 카드가 재출현되어 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"yellow",
+		"use_action":[{ "type": "place_monster", "monster_id": "mon_ncard_r3_no_03", "difficulty": 0, "moves": 200,"friendly_msg": "異次元の存在が召喚されました。","place_randomly": true,"skills": [ "fabrication" ],"is_pet": true }],
+		"price":1
+	}
+,
+	{
+		"id":"ncard_r3_no_04",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r3",
+		"name":{"str": "<color_yellow>금 카드(소환/No.8 메이드씨)</color>","str_pl":"<color_yellow>금 카드(소환/No.8 메이드씨)</color>"},
+		"description":"<color_yellow>반짝이는 카드입니다. 포털 건너편에서 유니크한 존재를 불러옵니다.  소멸되면 카드가 재출현되어 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"yellow",
+		"use_action":[{ "type": "place_monster", "monster_id": "mon_ncard_r3_no_04", "difficulty": 0, "moves": 200,"friendly_msg": "異次元の存在が召喚されました。","place_randomly": true,"skills": [ "fabrication" ],"is_pet": true }],
+		"price":1
+	}
+,
+	{
+		"id":"ncard_r3_no_05",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r3",
+		"name":{"str": "<color_yellow>금 카드(소환/No.9 메이드씨)</color>","str_pl":"<color_yellow>금 카드(소환/No.9 메이드씨)</color>"},
+		"description":"<color_yellow>반짝이는 카드입니다. 포털 건너편에서 유니크한 존재를 불러옵니다.  소멸되면 카드가 재출현되어 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"yellow",
+		"use_action":[{ "type": "place_monster", "monster_id": "mon_ncard_r3_no_05", "difficulty": 0, "moves": 200,"friendly_msg": "異次元の存在が召喚されました。","place_randomly": true,"skills": [ "fabrication" ],"is_pet": true }],
+		"price":1
+	}
+,
+	{
+		"id":"ncard_r3_no_06",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r3",
+		"name":{"str": "<color_yellow>금 카드(소환/No.10 좀비 소녀)</color>","str_pl":"<color_yellow>금 카드(소환/No.10 좀비 소녀)</color>"},
+		"description":"<color_yellow>반짝이는 카드입니다. 포털 건너편에서 유니크한 존재를 불러옵니다.  소멸되면 카드가 재출현되어 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"yellow",
+		"use_action":[{ "type": "place_monster", "monster_id": "mon_ncard_r3_no_06", "difficulty": 0, "moves": 200,"friendly_msg": "異次元の存在が召喚されました。","place_randomly": true,"skills": [ "fabrication" ],"is_pet": true }],
+		"price":1
+	}
+,
+	{
+		"id":"ncard_r3_no_07",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r3",
+		"name":{"str": "<color_yellow>금 카드(소환/No.11 여우귀 무녀)</color>","str_pl":"<color_yellow>금 카드(소환/No.11 여우귀 무녀)</color>"},
+		"description":"<color_yellow>반짝이는 카드입니다. 포털 건너편에서 유니크한 존재를 불러옵니다.  소멸되면 카드가 재출현되어 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"yellow",
+		"use_action":[{ "type": "place_monster", "monster_id": "mon_ncard_r3_no_07", "difficulty": 0, "moves": 200,"friendly_msg": "異次元の存在が召喚されました。","place_randomly": true,"skills": [ "fabrication" ],"is_pet": true }],
+		"price":1
+	}
+,
+	{
+		"id":"ncard_r3_no_08",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r3",
+		"name":{"str": "<color_yellow>금 카드(소환/No.12 불의 정령)</color>","str_pl":"<color_yellow>금 카드(소환/No.12 불의 정령)</color>"},
+		"description":"<color_yellow>반짝이는 카드입니다. 포털 건너편에서 유니크한 존재를 불러옵니다.  소멸되면 카드가 재출현되어 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"yellow",
+		"use_action":[{ "type": "place_monster", "monster_id": "mon_ncard_r3_no_08", "difficulty": 0, "moves": 200,"friendly_msg": "異次元の存在が召喚されました。","place_randomly": true,"skills": [ "fabrication" ],"is_pet": true }],
+		"price":1
+	}
+,
+	{
+		"id":"ncard_r3_no_09",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r3",
+		"name":{"str": "<color_yellow>금 카드(소환/No.13 불의 정령)</color>","str_pl":"<color_yellow>금 카드(소환/No.13 불의 정령)</color>"},
+		"description":"<color_yellow>반짝이는 카드입니다. 포털 건너편에서 유니크한 존재를 불러옵니다.  소멸되면 카드가 재출현되어 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"yellow",
+		"use_action":[{ "type": "place_monster", "monster_id": "mon_ncard_r3_no_09", "difficulty": 0, "moves": 200,"friendly_msg": "異次元の存在が召喚されました。","place_randomly": true,"skills": [ "fabrication" ],"is_pet": true }],
+		"price":1
+	}
+,
+	{
+		"id":"ncard_r3_no_10",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r3",
+		"name":{"str": "<color_yellow>금 카드(소환/No.14 마법소녀)</color>","str_pl":"<color_yellow>금 카드(소환/No.14 마법소녀)</color>"},
+		"description":"<color_yellow>반짝이는 카드입니다. 포털 건너편에서 유니크한 존재를 불러옵니다.  소멸되면 카드가 재출현되어 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"yellow",
+		"use_action":[{ "type": "place_monster", "monster_id": "mon_ncard_r3_no_10", "difficulty": 0, "moves": 200,"friendly_msg": "異次元の存在が召喚されました。","place_randomly": true,"skills": [ "fabrication" ],"is_pet": true }],
+		"price":1
+	}
+,
+	{
+		"id":"ncard_r3_no_11",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r3",
+		"name":{"str": "<color_yellow>금 카드(소환/No.15 악마)</color>","str_pl":"<color_yellow>금 카드(소환/No.15 악마)</color>"},
+		"description":"<color_yellow>반짝이는 카드입니다. 포털 건너편에서 유니크한 존재를 불러옵니다.  소멸되면 카드가 재출현되어 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"yellow",
+		"use_action":[{ "type": "place_monster", "monster_id": "mon_ncard_r3_no_11", "difficulty": 0, "moves": 200,"friendly_msg": "異次元の存在が召喚されました。","place_randomly": true,"skills": [ "fabrication" ],"is_pet": true }],
+		"price":1
+	}
+,
+	{
+		"id":"ncard_r3_no_12",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r3",
+		"name":{"str": "<color_yellow>금 카드(소환/No.16 네코)</color>","str_pl":"<color_yellow>금 카드(소환/No.16 네코)</color>"},
+		"description":"<color_yellow>반짝이는 카드입니다. 포털 건너편에서 유니크한 존재를 불러옵니다.  소멸되면 카드가 재출현되어 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"yellow",
+		"use_action":[{ "type": "place_monster", "monster_id": "mon_ncard_r3_no_12", "difficulty": 0, "moves": 200,"friendly_msg": "異次元の存在が召喚されました。","place_randomly": true,"skills": [ "fabrication" ],"is_pet": true }],
+		"price":1
+	}
+,
+	{
+		"id":"ncard_r3_no_13",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r3",
+		"name":{"str": "<color_yellow>금 카드(소환/No.17 레인보우 네코)</color>","str_pl":"<color_yellow>금 카드(소환/No.17 레인보우 네코)</color>"},
+		"description":"<color_yellow>반짝이는 카드입니다. 포털 건너편에서 유니크한 존재를 불러옵니다.  소멸되면 카드가 재출현되어 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"yellow",
+		"use_action":[{ "type": "place_monster", "monster_id": "mon_ncard_r3_no_13", "difficulty": 0, "moves": 200,"friendly_msg": "異次元の存在が召喚されました。","place_randomly": true,"skills": [ "fabrication" ],"is_pet": true }],
+		"price":1
+	}
+,
+	{
+		"id":"ncard_r3_no_14",
+		"type":"GENERIC",
+		"copy-from":"ncard_misc_hammer_sledge",
+		"name":{"str": "<color_yellow>금 카드(소환/No.18 해머헤드 샤크)</color>","str_pl":"<color_yellow>금 카드(소환/No.18 해머헤드 샤크)</color>"},
+		"description":"<color_yellow>반짝이는 카드입니다. 포털 건너편에서 유니크한 존재를 불러옵니다.  소멸되면 카드가 재출현되어 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"yellow",
+		"flags":[ "SINGLE_USE","UNBREAKABLE_MELEE","TRADER_AVOID","NO_REPAIR","NONCONDUCTIVE", "ALWAYS_TWOHAND" ],
+		"use_action":[{ "type": "place_monster", "monster_id": "mon_ncard_r3_no_14", "difficulty": 0, "moves": 200,"friendly_msg": "異次元の存在が召喚されました。","place_randomly": true,"skills": [ "fabrication" ],"is_pet": true }],
+		"price":1
+	}
+
+
+]

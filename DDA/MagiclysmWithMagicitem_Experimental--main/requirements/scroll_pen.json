@@ -1,0 +1,15 @@
+[
+  {
+    "id": "scroll_pen",
+    "type": "requirement",
+    "tools": [ 
+      [ [ "pen", 1 ] ,
+        [ "pencil", 1  ],
+        [ "black_pen", 1  ],
+        [ "blue_pen", 1  ],
+        [ "red_pen", 1  ],
+        [ "green_pen", 1 ] 
+      ] 
+    ]
+  }
+]

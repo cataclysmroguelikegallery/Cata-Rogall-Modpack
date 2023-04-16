@@ -1,0 +1,59 @@
+[
+	{
+		"id":"ncard_book_sinki",
+		"type":"BOOK",
+		"copy-from":"holybook_kojiki",
+		"name":"책(학습/신기)",
+		"description":"신격의 힘의 근원에 대해 쓴 고풍스러운 책입니다.",
+		"skill":"fabrication",
+		"max_level":1,
+		"intelligence":8,
+		"time":20,
+		"flags":[ "TRADER_AVOID" ,"ALLOWS_REMOTE_USE" ],
+		"fun":-1
+	}
+,
+	{
+		"id":"ncard_book_tenjo_gold",
+		"type":"BOOK",
+		"copy-from":"holybook_kojiki",
+		"name":"책(학습/천장 목록(금))",
+		"description":"10장 묶음 이상의 가챠 티켓을 제작할 때 부산물로 얻는 차원의 재를 특정 카드로 변환하는 방법이 적힌 목록입니다.",
+		"skill":"fabrication",
+		"max_level":1,
+		"intelligence":8,
+		"time":20,
+		"flags":[ "TRADER_AVOID" ,"ALLOWS_REMOTE_USE" ],
+		"fun":-1
+	}
+,
+	{
+		"id":"ncard_book_tenjo_rainbow",
+		"type":"BOOK",
+		"copy-from":"holybook_kojiki",
+		"name":"책(학습/천장 목록(무지개))",
+		"description":"10장 묶음 이상의 가챠 티켓을 제작할 때 부산물로 얻을 수 있는 차원의 재를 특정 강력한 카드로 변환하는 방법이 적힌 목록입니다. ",
+		"skill":"fabrication",
+		"max_level":1,
+		"intelligence":8,
+		"time":20,
+		"flags":[ "TRADER_AVOID" ,"ALLOWS_REMOTE_USE" ],
+		"fun":-1
+	}
+,
+	{
+		"id":"ncard_book_tenjo_ash",
+		"type":"BOOK",
+		"copy-from":"holybook_kojiki",
+		"name":"책(학습/천장으로 가는길)",
+		"description":"강력한 힘을 지닌 가루를 차원 재로 변환하는 방법이 작성되었습니다. 잘 생각하고 실행해 보세요. ",
+		"skill":"fabrication",
+		"max_level":1,
+		"intelligence":8,
+		"time":20,
+		"flags":[ "TRADER_AVOID" ,"ALLOWS_REMOTE_USE" ],
+		"fun":-1
+	}
+
+
+]

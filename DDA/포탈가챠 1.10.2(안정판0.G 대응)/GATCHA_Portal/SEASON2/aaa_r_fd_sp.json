@@ -1,0 +1,34 @@
+[
+	{
+		"id":"spell_fd_ncard_s2_rift",
+		"type":"SPELL",
+		"name":"뒤틀림",
+		"description":"none",
+		"flags":["SILENT", "IGNORE_WALLS","NO_PROJECTILE" ],
+		"valid_targets":[ "self" ],
+		"effect":"emit",
+		"effect_str":"emit_fd_ncard_s2_rift",
+		"shape":"blast",
+		"base_casting_time":0,
+		"min_damage":1,
+		"max_damage":1
+	}
+,
+	{
+		"id":"spell_fd_ncard_s2_rift2",
+		"type":"SPELL",
+		"name":"뒤틀림",
+		"description":"none",
+		"flags":["SILENT", "IGNORE_WALLS","NO_PROJECTILE" ],
+		"valid_targets":[ "self" ],
+		"effect":"emit",
+		"effect_str":"emit_fd_ncard_s2_rift2",
+		"shape":"blast",
+		"extra_effects":[ { "id": "death_explosion", "hit_self": true } ],
+		"base_casting_time":0,
+		"min_damage":1,
+		"max_damage":1
+	}
+
+
+]

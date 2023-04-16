@@ -1,0 +1,224 @@
+[
+  {
+    "id": "kawaii_tights_black_2",
+    "copy-from": "kawaii_tights_black",
+    "type": "ARMOR",
+    "name": { "str": "여름용 타이즈(흑)", "str_pl": "여름용 타이즈(흑)" },
+    "description": "夏でも涼しいタイツです。",
+    "color": "dark_gray",
+    "armor": [ { "encumbrance": 0, "coverage": 100, "covers": [ "foot_l", "foot_r", "leg_r", "leg_l" ] } ],
+    "weight": "100 g",
+    "volume": "250 ml",
+    "price": 1500,
+    "warmth": 0
+  },
+  {
+    "id": "kawaii_tights_white_2",
+    "copy-from": "kawaii_tights_black_2",
+    "type": "ARMOR",
+    "name": { "str": "여름용 타이즈(백)", "str_pl": "여름용 타이즈(백)" },
+    "color": "white"
+  },
+  {
+    "id": "kawaii_boots_lss",
+    "copy-from": "kawaii_boots_hi",
+    "type": "ARMOR",
+    "name": { "str": "부츠<color_light_red>+</color>", "str_pl": "부츠<color_light_red>+</color>" },
+    "description": "매우 튼튼한 부츠입니다.",
+    "color": "dark_gray"
+  },
+  {
+    "id": "kawaii_dress_shoes_lss",
+    "copy-from": "kawaii_shoes_hi",
+    "type": "ARMOR",
+    "name": { "str": "드레스 신발<color_light_red>+</color>", "str_pl": "드레스 신발<color_light_red>+</color>" },
+    "description": "매우 튼튼한 드레스 신발입니다.",
+    "color": "dark_gray"
+  },
+  {
+    "id": "kawaii_gloves_lss",
+    "copy-from": "gloves_lsurvivor",
+    "looks_like": "gloves_white",
+    "type": "ARMOR",
+    "category": "clothing",
+    "name": { "str": "메이드 장갑<color_light_red>+</color>", "str_pl": "메이드 장갑<color_light_red>+</color>" },
+    "description": "매우 튼튼한 메이드 장갑입니다.",
+    "color": "white",
+    "extend": { "flags": "FANCY" }
+  },
+  {
+    "id": "kawaii_gloves_xl_light",
+    "copy-from": "kawaii_gloves_light",
+    "type": "ARMOR",
+    "name": { "str": "XL메이드 장갑", "str_pl": "XL메이드 장갑" },
+    "color": "white",
+    "extend": { "flags": [ "OVERSIZE", "ALLOWS_NATURAL_ATTACKS" ] }
+  },
+  {
+    "id": "kawaii_gloves_xl_lss",
+    "copy-from": "kawaii_gloves_lss",
+    "type": "ARMOR",
+    "name": { "str": "XL메이드 장갑<color_light_red>+</color>", "str_pl": "XL메이드 장갑<color_light_red>+</color>" },
+    "color": "white",
+    "extend": { "flags": [ "OVERSIZE", "ALLOWS_NATURAL_ATTACKS" ] }
+  },
+  {
+    "id": "kawaii_maid_hat_lss_v2",
+    "type": "ARMOR",
+    "category": "clothing",
+    "name": { "str": "화이트 브림<color_light_red>+</color>", "str_pl": "화이트 브림<color_light_red>+</color>" },
+    "description": "프릴이 달린 흰색 헤드피스입니다.",
+    "weight": 15,
+    "volume": 1,
+    "price": 55000,
+    "material": [ "cotton" ],
+    "symbol": "[",
+    "color": "white",
+    "armor": [ { "encumbrance": [ 5, 5 ], "coverage": 100, "covers": [ "head" ] } ],
+    "warmth": 20,
+    "material_thickness": 5,
+    "flags": [ "VARSIZE", "FANCY", "WATERPROOF", "RAINPROOF", "STURDY" ],
+    "environmental_protection": 5
+  },
+  {
+    "id": "kawaii_maid_dress_lss_v2",
+    "copy-from": "lsurvivor_suit",
+    "looks_like": "kawaii_maid_dress",
+    "type": "TOOL_ARMOR",
+    "category": "clothing",
+    "name": { "str": "메이드복<color_light_red>+</color>", "str_pl": "메이드복<color_light_red>+</color>" },
+    "description": "프릴이 달린 흰색 앞치마와 검은색 메이드복입니다.",
+    "material": [ "cotton" ],
+    "color": "dark_gray",
+    "weight": "4400 g",
+    "volume": "9500 ml",
+    "price": 150000,
+    "price_postapoc": 10000,
+    "warmth": 5,
+    "environmental_protection": 5,
+    "passive_effects": [
+      {
+        "has": "WORN",
+        "condition": "ALWAYS",
+          "values": [
+          { "value": "CLIMATE_CONTROL_HEAT", "add": 50 },
+          { "value": "CLIMATE_CONTROL_CHILL", "add": 50 }
+        ]
+      }
+    ],
+    "flags": [ "VARSIZE", "WATERPROOF", "POCKETS", "RAINPROOF", "STURDY", "FANCY" ]
+  },
+  {
+    "id": "kawaii_maid_dress_lss_v2_long",
+    "copy-from": "kawaii_maid_dress_lss_v2",
+    "type": "TOOL_ARMOR",
+    "name": { "str": "메이드복(롱)<color_light_red>+</color>", "str_pl": "메이드복(롱)<color_light_red>+</color>" }
+  },
+  {
+    "id": "kawaii_maid_dress_c",
+    "copy-from": "kawaii_maid_dress",
+    "repairs_like": "kawaii_maid_dress",
+    "type": "ARMOR",
+    "name": { "str": "<color_red>영원</color>의 메이드복", "str_pl": "<color_red>영원</color>의 메이드복" },
+    "description": "프릴이 달린 흰색 앞치마와 검은색 하녀복입니다. 뭔가 <color_red>무서운 힘</color>이 느껴진다. 쉽게 입으려고 하지 않는 것이 좋을 것 같습니다.",
+    "longest_side": "30 cm",
+    "price": 0,
+    "price_postapoc": 0,
+    "warmth": 0,
+    "armor": [
+      { "covers": [ "torso" ], "coverage": 100, "encumbrance": [ 0, 0 ], "rigid_layer_only": true },
+      { "covers": [ "leg_l", "leg_r" ], "coverage": 95, "encumbrance": [ 0, 0 ], "rigid_layer_only": true },
+      { "covers": [ "arm_l", "arm_r" ], "coverage": 95, "encumbrance": [ 0, 0 ], "rigid_layer_only": true }
+    ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "STRENGTH", "add": -3 },
+            { "value": "DEXTERITY", "add": 3 },
+            { "value": "BONUS_DODGE", "add": 2 },
+            { "value": "CLIMATE_CONTROL_HEAT", "add": 300 },
+            { "value": "CLIMATE_CONTROL_CHILL", "add": 300 }
+          ],
+          "mutations": [ "STYLISH", "eternal_maid" ]
+        }
+      ]
+    },
+    "flags": [
+      "HARD",
+      "VARSIZE",
+      "WATERPROOF",
+      "RAINPROOF",
+      "STURDY",
+      "SUPER_FANCY",
+      "ELECTRIC_IMMUNE",
+      "RAD_PROOF",
+      "FIT",
+      "ALLOWS_TAIL",
+      "ALLOWS_NATURAL_ATTACKS",
+      "TRADER_AVOID",
+      "NO_TAKEOFF"
+    ]
+  },
+  {
+    "id": "kawaii_maid_dress_c_long",
+    "copy-from": "kawaii_maid_dress_c",
+    "repairs_like": "kawaii_maid_dress",
+    "type": "ARMOR",
+    "name": {
+      "str": "<color_red>영원</color>의 메이드복(롱)",
+      "str_pl": "<color_red>영원</color>의 메이드복(롱)"
+    }
+  },
+  {
+    "id": "kawaii_maid_hat_c",
+    "copy-from": "maid_hat",
+    "looks_like": "kawaii_maid_hat",
+    "repairs_like": "kawaii_maid_hat",
+    "type": "ARMOR",
+    "name": { "str": "<color_red>영원</color>의 화이트 브림", "str_pl": "<color_red>영원</color>ㅇ의 화이트 브림" },
+    "description": "프릴이 달린 하얀색 헤드피스입니다. 뭔가 <color_red>무서운 힘</color>이 느껴집니다. 쉽게 달지 않는 것이 좋을 것 같습니다.",
+    "longest_side": "20 cm",
+    "price": 0,
+    "price_postapoc": 0,
+    "warmth": 0,
+    "armor": [
+      { "covers": [ "head" ], "coverage": 25, "rigid_layer_only": true },
+      { "covers": [ "mouth" ], "coverage": 0, "rigid_layer_only": true }
+    ],
+    "environmental_protection": 15,
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "STRENGTH", "add": -3 },
+            { "value": "INTELLIGENCE", "add": 3 },
+            { "value": "PERCEPTION", "add": 3 }
+          ],
+          "mutations": [ "PRETTY","TABLEMANNERS","SQUEAMISH","TRUTHTELLER" ]
+        }
+      ]
+    },
+    "flags": [
+      "HARD",
+      "VARSIZE",
+      "WATERPROOF",
+      "RAINPROOF",
+      "STURDY",
+      "SUPER_FANCY",
+      "FIX_FARSIGHT",
+      "FIX_NEARSIGHT",
+      "PARTIAL_DEAF",
+      "DIMENSIONAL_ANCHOR",
+      "PORTAL_PROOF",
+      "ALLOWS_NATURAL_ATTACKS",
+      "FIT",
+      "TRADER_AVOID",
+      "NO_TAKEOFF"
+    ]
+  }
+]

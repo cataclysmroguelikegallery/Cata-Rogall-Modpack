@@ -1,0 +1,95 @@
+[
+  {
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_light_healing_talisman_1",
+    "name": "가벼운 상처 치료의 두루마리(초급)[MWMI]",
+    "description": "가벼운 상처 치료의 마법이 갇힌 스크롤입니다. 사용하는 것으로 가벼운 상처 치료을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "light_healing", "no_fail": true, "level": 2 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base"
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_light_healing_talisman_2",
+    "name": "가벼운 상처 치료의 두루마리(중급)[MWMI]",
+    "description": "가벼운 상처 치료의 마법이 갇힌 스크롤입니다. 사용하는 것으로 가벼운 상처 치료을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "light_healing", "no_fail": true, "level": 4 },
+    "copy-from": "PSY_magi_base",
+    "material": [ "wood" ],
+    "price": "60 USD",
+    "price_postapoc": "60 USD"
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_light_healing_talisman_3",
+    "name": "가벼운 상처 치료의 두루마리(상급)[MWMI]",
+    "description": "가벼운 상처 치료의 마법이 갇힌 스크롤입니다. 사용하는 것으로 가벼운 상처 치료을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "light_healing", "no_fail": true, "level": 6 },
+    "copy-from": "PSY_magi_base",
+    "material": [ "wood" ],
+    "price": "80 USD",
+    "price_postapoc": "80 USD"
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_vicious_tentacle_talisman_1",
+    "name": "악날한 촉수의 두루마리(초급)[MWMI]",
+    "description": "악날한 촉수의 마법이 갇힌 스크롤입니다. 사용하는 것으로 악날한 촉수을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "vicious_tentacle", "no_fail": true, "level": 5 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base"
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_vicious_tentacle_talisman_2",
+    "name": "악날한 촉수의 두루마리(중급)[MWMI]",
+    "description": "악날한 촉수의 마법이 갇힌 스크롤입니다. 사용하는 것으로 악날한 촉수을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "vicious_tentacle", "no_fail": true, "level": 7 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base",
+    "price": "60 USD",
+    "price_postapoc": "60 USD"
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_vicious_tentacle_talisman_3",
+    "name": "악날한 촉수의 두루마리(상급)[MWMI]",
+    "description": "악날한 촉수의 마법이 갇힌 스크롤입니다. 사용하는 것으로 악날한 촉수을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "vicious_tentacle", "no_fail": true, "level": 10 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base",
+    "price": "80 USD",
+    "price_postapoc": "80 USD"
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_bio_bonespear_talisman_1",
+    "name": "뼈창 소환의 두루마리(초급)[MWMI]",
+    "description": "뼈창 소환의 마법이 갇힌 스크롤입니다. 사용하는 것으로 뼈창 소환을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "bio_bonespear", "no_fail": true, "level": 5 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base"
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_bio_bonespear_talisman_2",
+    "name": "뼈창 소환의 두루마리(중급)[MWMI]",
+    "description": "뼈창 소환의 마법이 갇힌 스크롤입니다. 사용하는 것으로 뼈창 소환을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "bio_bonespear", "no_fail": true, "level": 7 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base",
+    "price": "60 USD",
+    "price_postapoc": "60 USD"
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_bio_bonespear_talisman_3",
+    "name": "뼈창 소환의 두루마리(상급)[MWMI]",
+    "description": "뼈창 소환의 마법이 갇힌 스크롤입니다. 사용하는 것으로 뼈창 소환을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "bio_bonespear", "no_fail": true, "level": 10 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base",
+    "price": "80 USD",
+    "price_postapoc": "80 USD"
+  }
+]

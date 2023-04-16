@@ -1,0 +1,91 @@
+[
+		
+		
+		{
+		"type": "mod_tileset","compatibility": [
+		"Custom Tileset",
+		"MshockXottoplus",
+		"MSX++DEAD_PEOPLE",
+		"UNDEAD_PEOPLE",
+		"ChestHole32",
+		"UNDEAD_PEOPLE_BASE",
+		"UltimateCataclysm",
+		"UltimateCataclysmDemo",
+		"Alternative Ultica",
+		"MshockXottoplus",
+		"Chibi_Ultica",
+		"MshockXottoplus"
+		],
+		"tiles-new": [
+		{
+		"file": "EVENT/tile_config_GATCHA_ev1_88x88.png",
+		"tiles": [
+		{ "id": "mon_ncard_ev1_r4_no_01", "fg":0, "rotates": false },
+		{ "id": "mon_ncard_ev1_r4_no_02", "fg":1, "rotates": false },
+		{ "id": "mon_ncard_ev2_r4_no_01", "fg":3, "rotates": false },
+		{ "id": "mon_ncard_ev2_r4_no_02", "fg":4, "rotates": false },
+		{ "id": "mon_ncard_ev3_r4_no_01", "fg":5, "rotates": false },
+		{ "id": "mon_ncard_ev3_r4_no_02", "fg":6, "rotates": false },
+		
+		
+		
+		{ "id": "mon_ncard_ev3_r3_no_01", "fg":40, "rotates": false },
+		{ "id": "mon_ncard_ev3_r3_no_02", "fg":41, "rotates": false },
+		{ "id": "mon_ncard_ev3_r3_no_03", "fg":42, "rotates": false },
+		{ "id": "mon_ncard_ev3_r3_no_04", "fg":43, "rotates": false },
+		
+		{ "id": ["mon_ncard_ev4_r4_no_01","mon_ncard_ev4_r4_no_01_dr","mon_ncard_ev4_r4_no_01_dr_em"], "fg":7, "rotates": false },
+		{ "id": ["mon_ncard_ev4_r4_no_02","mon_ncard_ev4_r4_no_02_dr","mon_ncard_ev4_r4_no_02_dr_em"], "fg":8, "rotates": false },
+		{ "id": ["mon_ncard_ev4_r3_no_01","mon_ncard_ev4_r3_no_01_dr","mon_ncard_ev4_r3_no_01_dr_em"], "fg":44, "rotates": false },
+		{ "id": ["mon_ncard_ev4_r3_no_02","mon_ncard_ev4_r3_no_02_dr","mon_ncard_ev4_r3_no_02_dr_em"], "fg":45, "rotates": false },
+		{ "id": ["mon_ncard_ev4_r3_no_03","mon_ncard_ev4_r3_no_03_dr","mon_ncard_ev4_r3_no_03_dr_em"], "fg":46, "rotates": false },
+		{ "id": ["mon_ncard_ev4_r3_no_04","mon_ncard_ev4_r3_no_04_dr","mon_ncard_ev4_r3_no_04_dr_em"], "fg":47, "rotates": false },
+		{ "id": ["mon_ncard_ev4_r3_no_05","mon_ncard_ev4_r3_no_05_dr","mon_ncard_ev4_r3_no_05_dr_em"], "fg":48, "rotates": false },
+		{ "id": ["mon_ncard_ev4_r3_no_06","mon_ncard_ev4_r3_no_06_dr","mon_ncard_ev4_r3_no_06_dr_em"], "fg":49, "rotates": false },
+		
+		{ "id": "mon_ncard_ev5_r3_no_01", "fg":50, "rotates": false },
+		{ "id": "mon_ncard_ev5_r3_no_02", "fg":51, "rotates": false },
+		{ "id": "mon_ncard_ev5_r3_no_03", "fg":52, "rotates": false },
+		{ "id": "mon_ncard_ev5_r3_no_04", "fg":53, "rotates": false },
+		
+		
+		{ "id": "explosion_spell_ncard_ev1_holy_cocktail", "fg":20, "rotates": false },
+		{ "id": "explosion_spell_ncard_ev2_dashslash", "fg":21, "rotates": false },
+		{ "id": "explosion_spell_ncard_ev3_sanoubu", "fg":22, "rotates": false },
+		{ "id": "explosion_spell_ncard_ev3_sanoubu2", "fg":23, "rotates": false },
+		{ "id": "explosion_spell_ncard_ev4_potion", "fg":24, "rotates": false },
+		{ "id": "explosion_spell_ncard_ev4_slash", "fg":25, "rotates": false },
+		{ "id": "explosion_spell_ncard_ev4_cut", "fg":26, "rotates": false },
+		{ "id": "explosion_spell_ncard_ev4_hummer", "fg":27, "rotates": false },
+		{ "id": "explosion_spell_ncard_ev4_hummer2", "fg":27, "rotates": false },
+		{ "id": "explosion_spell_ncard_ev5_somno", "fg":28, "rotates": false },
+		{ "id": "explosion_spell_ncard_ev5_somno2", "fg":28, "rotates": false },
+		{ "id": "explosion_spell_ncard_ev5_sadism", "fg":29, "rotates": false },
+		{ "id": "explosion_spell_ncard_ev5_sadism2", "fg":29, "rotates": false },
+		{ "id": "explosion_spell_ncard_ev5_ex", "fg":30, "rotates": false },
+		{ "id": "explosion_spell_ncard_ev6_springheel", "fg":31, "rotates": false },
+		{ "id": "explosion_spell_ncard_ev6_springheel2", "fg":31, "rotates": false },
+		{ "id": "explosion_spell_ncard_ev6_springheel3", "fg":31, "rotates": false },
+		
+		{ "id": "ncard_misc_ev5_cushion", "fg":80, "rotates": false },
+		{ "id": "ncard_misc_ev5_cushion2", "fg":81, "rotates": false },
+		{ "id": "ncard_misc_ev5_cushion3", "fg":82, "rotates": false },
+		{ "id": "ncard_misc_ev5_cushion4", "fg":83, "rotates": false },
+		{ "id": "ncard_misc_ev5_cushion5", "fg":84, "rotates": false },
+		{ "id": "ncard_misc_ev5_cushion6", "fg":85, "rotates": false },
+		{ "id": "ncard_misc_ev5_cushion7", "fg":86, "rotates": true }
+		
+		
+		
+		],
+		"sprite_width": 88,
+		"sprite_height": 88,
+		"sprite_offset_x": -23,
+		"sprite_offset_y": -56
+		      }
+		
+		    ]
+		  }
+
+
+]

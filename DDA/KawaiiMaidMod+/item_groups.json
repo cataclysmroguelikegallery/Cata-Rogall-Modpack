@@ -1,0 +1,25 @@
+[
+  {
+    "type": "item_group",
+    "id": "kawaii_item_group",
+    "items": [
+      [ "kawaii_shelia_off", 10 ],
+      [ "kawaii_leila", 10 ],
+      [ "kawaii_glass_bow", 10 ],
+      [ "kawaii_rita_and_rosa_off", 10 ],
+      [ "kawaii_crystal_td", 5 ],
+      [ "kawaii_crystal_tr", 5 ],
+      [ "kawaii_death_scythe", 10 ],
+      [ "kawaii_crowbar_lance", 10 ],
+      { "item": "kawaii_arrow_little_mary", "prob": 10, "charges": 100 },
+      { "collection": [ { "item": "kawaii_maid_dress_c" }, { "item": "kawaii_maid_hat_c" } ], "prob": 5 },
+      { "collection": [ { "item": "kawaii_maid_dress_c_long" }, { "item": "kawaii_maid_hat_c" } ], "prob": 5 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "vault",
+    "copy-from": "vault",
+    "extend": { "items": [ { "group": "kawaii_item_group", "prob": 200 } ] }
+  }
+]

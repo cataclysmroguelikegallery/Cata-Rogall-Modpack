@@ -1,0 +1,39 @@
+[
+	{
+		"id":"ncard_s2_r3_no_01",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r3",
+		"name":{"str": "<color_yellow>금 카드(소환/No.20 침공무기(드론))</color>","str_pl":"<color_yellow>금 카드(소환/No.20 침공무기(드론))</color>"},
+		"description":"<color_yellow>반짝이는 카드입니다. 포털 건너편에서 유니크한 존재를 불러옵니다.  소멸되면 카드가 재출현되어 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"yellow",
+		"use_action":[{ "type": "place_monster", "monster_id": "mon_ncard_s2_r3_no_01", "difficulty": 0, "moves": 200,"friendly_msg": "이계의 존재가 소환 되었습니다. ","place_randomly": true,"skills": [ "fabrication" ],"is_pet": true }],
+		"price":1
+	}
+,
+	{
+		"id":"ncard_s2_r3_no_02",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r3",
+		"name":{"str": "<color_yellow>금 카드(소환/No.21 침공무기(슈터))</color>","str_pl":"<color_yellow>금 카드(소환/No.21 침공무기(슈터))</color>"},
+		"description":"<color_yellow>반짝이는 카드입니다. 포털 건너편에서 유니크한 존재를 불러옵니다.  소멸되면 카드가 재출현되어 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"yellow",
+		"use_action":[{ "type": "place_monster", "monster_id": "mon_ncard_s2_r3_no_02", "difficulty": 0, "moves": 200,"friendly_msg": "이계의 존재가 소환 되었습니다. ","place_randomly": true,"skills": [ "fabrication" ],"is_pet": true }],
+		"price":1
+	}
+,
+	{
+		"id":"ncard_s2_r3_no_03",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r3",
+		"name":{"str": "<color_yellow>金製のカード(소환/No.22 侵攻兵器(パワー))</color>","str_pl":"<color_yellow>金製のカード(召喚/No.22 侵攻兵器(パワー))</color>"},
+		"description":"<color_yellow>반짝이는 카드입니다. 포털 건너편에서 유니크한 존재를 불러옵니다.  소멸되면 카드가 재출현되어 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"yellow",
+		"use_action":[{ "type": "place_monster", "monster_id": "mon_ncard_s2_r3_no_03", "difficulty": 0, "moves": 200,"friendly_msg": "이계의 존재가 소환 되었습니다. ","place_randomly": true,"skills": [ "fabrication" ],"is_pet": true }],
+		"price":1
+	}
+
+
+]

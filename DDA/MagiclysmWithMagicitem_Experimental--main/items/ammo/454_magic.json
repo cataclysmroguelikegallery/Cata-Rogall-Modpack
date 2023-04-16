@@ -1,0 +1,80 @@
+[
+  {
+    "id": "PSY_magi_454_magic",
+    "type": "AMMO",
+    "name": { "str": "셉템전용 마나 카트리지[MWMI]" },
+    "description": "마나 카트리지 전용 권총 셉템의 전용 카트리지 입니다. 이 카트리지에는 마력이 담겨 있습니다.",
+    "looks_like": "bp_454_Casull",
+    "weight": "16 g",
+    "volume": "250 ml",
+    "price": 10,
+    "price_postapoc": 10,
+    "material": [ "steel", "powder" ],
+    "symbol": "=",
+    "color": "light_gray",
+    "count": 5,
+    "stack_size": 5,
+    "ammo_type": "PSY_magi_454_magic",
+    "range": 16,
+    "damage": { "damage_type": "bullet", "amount": 48, "armor_penetration": 8 },
+    "dispersion": 30,
+    "recoil": 1500,
+    "effects": [ "COOKOFF" ]
+  },
+  {
+    "id": "PSY_magi_454_magic_magus",
+    "copy-from": "PSY_magi_454_magic",
+    "type": "AMMO",
+    "name": { "str": "셉템전용 마나 카트리지[魔][MWMI]" },
+    "description": "마나 카트리지 전용 권총 셉템의 전용 카트리지 입니다. 이 카트리지에는 마법사의 마력이 담겨 있습니다.",
+    "count": 5,
+    "dispersion": 0,
+    "relative": { "damage": { "damage_type": "bullet", "amount": 0.9, "armor_penetration": 3 } },
+    "extend": { "effects": [ "SHOT", "NEVER_MISFIRES"] }
+  },
+  {
+    "id": "PSY_magi_454_magic_fire",
+    "copy-from": "PSY_magi_454_magic",
+    "type": "AMMO",
+    "name": { "str": "셉템전용 마나 카트리지[炎][MWMI]" },
+    "description": "마나 카트리지 전용 권총 셉템의 전용 카트리지 입니다. 이 카트리지에는 켈비니스트의 마력이 담겨 있습니다.",
+    "count": 5,
+    "dispersion": 0,
+    "proportional": { "range": 0.8, "damage": { "damage_type": "bullet", "amount": 0.7 }, "recoil": 0.7  },
+    "extend": { "effects": [ "SHOT", "NEVER_MISFIRES","INCENDIARY"] }
+  },
+  {
+    "id": "PSY_magi_454_magic_thunder",
+    "copy-from": "PSY_magi_454_magic",
+    "type": "AMMO",
+    "name": { "str": "셉템전용 마나 카트리지[雷][MWMI]" },
+    "description": "마나 카트리지 전용 권총 셉템의 전용 카트리지 입니다. 이 카트리지에는 스톰 셰이퍼의 마력이 담겨 있습니다.",
+    "count": 5,
+    "dispersion": 0,
+    "proportional": { "range": 0.8, "damage": { "damage_type": "bullet", "amount": 0.7 }, "recoil": 0.7  },
+    "extend": { "effects": [ "SHOT", "NEVER_MISFIRES","BOUNCE","LIGHTNING"] }
+  },
+  {
+    "id": "PSY_magi_454_magic_earth",
+    "copy-from": "PSY_magi_454_magic",
+    "type": "AMMO",
+    "name": { "str": "셉템전용 마나 카트리지[地][MWMI]" },
+    "description": "마나 카트리지 전용 권총 셉템의 전용 카트리지 입니다. 이 카트리지에는 어스 셰이퍼의 마력이 담겨 있습니다.",
+    "count": 5,
+    "dispersion": 0,
+    "proportional": { "range": 0.8, "damage": { "damage_type": "bullet", "amount": 0.7 }, "recoil": 0.7  },
+    "extend": { "effects": [ "SHOT", "NEVER_MISFIRES","CUSTOM_EXPLOSION"] },
+    "explosion": { "power": 1, "shrapnel": {  "casing_mass": 20, "recovery": 10, "drop": "shrapnel" } }
+  },
+  {
+    "id": "PSY_magi_454_magic_wood",
+    "copy-from": "PSY_magi_454_magic",
+    "type": "AMMO",
+    "name": { "str": "셉템전용 마나 카트리지[木][MWMI]" },
+    "description": "마나 카트리지 전용 권총 셉템의 전용 카트리지 입니다. 이 카트리지에는 드루이드의 마력이 담겨 있습니다.",
+    "count": 5,
+    "dispersion": 0,
+    "proportional": { "range": 0.8, "damage": { "damage_type": "bullet", "amount": 0.7 }, "recoil": 0.7  },
+    "extend": { "effects": [ "SHOT", "NEVER_MISFIRES","BLINDS_EYES"] }
+  }
+]

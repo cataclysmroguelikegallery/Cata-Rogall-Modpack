@@ -1,0 +1,19 @@
+[{
+  "type": "mod_tileset",
+  "compatibility": [ "UNDEAD_PEOPLE_BASE", "MSX++DEAD_PEOPLE", "MSX++DEAD_PEOPLE+", "UNDEAD_PEOPLE" ],
+  "tiles-new": [
+    {
+      "file": "tile/tiles_kawaiimaidmod_32offset.png",
+      "sprite_offset_y":-4,
+      "tiles": [
+		{ "id": "overlay_worn_aaa_layer_kawaii_nurse_cap","fg": 28, "rotates": false },
+		{ "id": "overlay_worn_aaa_layer_kawaii_raincoat_off","fg": 5, "rotates": false },
+		{ "id": "overlay_worn_aaa_layer_kawaii_raincoat","fg": 4, "rotates": false },
+		{ "id": "overlay_worn_aaa_layer_kawaii_sister_veil","fg": 3, "rotates": false },
+		{ "id": "overlay_worn_aaa_layer_kawaii_wedding_veil_b","fg": 1, "rotates": false },
+		{ "id": "overlay_worn_aaa_layer_kawaii_wedding_veil_a","fg": 0, "rotates": false }
+      ]
+    }
+  ]
+}
+]

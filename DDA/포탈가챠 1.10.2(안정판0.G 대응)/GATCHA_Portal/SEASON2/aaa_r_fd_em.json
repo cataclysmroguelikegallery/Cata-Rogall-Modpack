@@ -1,0 +1,19 @@
+[
+	{
+		"id":"emit_fd_ncard_s2_rift",
+		"type":"emit",
+		"field":"fd_ncard_s2_rift",
+		"intensity":1,
+		"qty":1
+	}
+,
+	{
+		"id":"emit_fd_ncard_s2_rift2",
+		"type":"emit",
+		"field":"fd_ncard_s2_rift2",
+		"intensity":1,
+		"qty":15
+	}
+
+
+]

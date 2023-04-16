@@ -1,0 +1,41 @@
+  {
+    "id": "PSY_magi_magic_revolver_ver4",
+    "copy-from": "pistol_revolver",
+    "looks_like": "sw_619",
+    "type": "GUN",
+    "name": "마나 카트리지 전용 권총 쿼투올[MWMI]",
+    "extend": { "flags": [ "MAGIC_FOCUS" ] },
+    "description": "마법사를 위해 설계된 마나 카트리지 탄 전용 권총 쿼투올입니다. 트리아에 한층 더 개조를 더해 한층 더 위력의 마나 카트리지를 사용할 수 있게 되었습니다.",
+    "weight": "1200 g",
+    "volume": "500 ml",
+    "price": 44000,
+    "to_hit": -2,
+    "bashing": 10,
+    "material": [ "steel", "wood","copper","silver" ],
+    "symbol": "(",
+    "color": "dark_gray",
+    "ammo": [ "PSY_magi_40_magic" ],
+    "ranged_damage": { "damage_type": "bullet", "amount": 1 },
+    "dispersion": 320,
+    "durability": 8,
+    "clip_size": 6,
+    "pocket_data": [ 
+      { "pocket_type": "MAGAZINE",
+        "holster": true, 
+        "rigid": true, 
+        "ammo_restriction": { "PSY_magi_40_magic": 6 },
+        "allowed_speedloaders": [ "PSY_magi_40_magic_speedloader6" ]
+      }
+    ],
+    "valid_mod_locations": [
+      [ "accessories", 2 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ]
+  }

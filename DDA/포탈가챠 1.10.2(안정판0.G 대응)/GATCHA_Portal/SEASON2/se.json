@@ -1,0 +1,35 @@
+[
+	{
+		"type":"sound_effect",
+		"variant":"f_lootcrate_s2_rare1",
+		"id":"smash_success",
+		"volume":90,
+		"files":["GATCHA_sound/cast_gatcha1.mp3"]
+	}
+,
+	{
+		"type":"sound_effect",
+		"variant":"f_lootcrate_s2_rare2",
+		"id":"smash_success",
+		"volume":90,
+		"files":["GATCHA_sound/cast_gatcha1.mp3"]
+	}
+,
+	{
+		"type":"sound_effect",
+		"variant":"f_lootcrate_s2_rare3",
+		"id":"smash_success",
+		"volume":90,
+		"files":["GATCHA_sound/cast_gatcha3.mp3"]
+	}
+,
+	{
+		"type":"sound_effect",
+		"variant":"f_lootcrate_s2_rare4",
+		"id":"smash_success",
+		"volume":90,
+		"files":["GATCHA_sound/cast_gatcha4.mp3"]
+	}
+
+
+]

@@ -1,0 +1,51 @@
+[
+	{
+		"category":"<tk_ncard_dr_1>",
+		"type":"snippet",
+		"text":[ "?（<tk_ncard_dr_1_1><tk_ncard_dr_1_2><tk_ncard_dr_1_3>）" ] 
+	}
+,
+	{
+		"category":"<tk_ncard_dr_1_1>",
+		"type":"snippet",
+		"text":[ "당신의 시선을 눈치채면、","이쪽의 모습을 확인해보니、","당신의 낌새를 알아차리면、" ] 
+	}
+,
+	{
+		"category":"<tk_ncard_dr_1_2>",
+		"type":"snippet",
+		"text":[ "느긋한 행동으로","지긋이 눈을 마주치고","조금 즐거운 모습으로" ] 
+	}
+,
+	{
+		"category":"<tk_ncard_dr_1_3>",
+		"type":"snippet",
+		"text":[ "어깨를 으쓱했다","한쪽 눈을 감아 보였다","고개를 갸웃했다" ] 
+	}
+,
+	{
+		"category":"<tk_ncard_dr_trader>",
+		"type":"snippet",
+		"text":[ "…?（<tk_ncard_dr_trader_1><tk_ncard_dr_trader_2><tk_ncard_dr_trader_3>）" ] 
+	}
+,
+	{
+		"category":"<tk_ncard_dr_trader_1>",
+		"type":"snippet",
+		"text":[ "당신의 시선을 눈치채면、","이쪽 모습을 확인해 보더니、","당신의 낌새를 알아차리면、" ] 
+	}
+,
+	{
+		"category":"<tk_ncard_dr_trader_2>",
+		"type":"snippet",
+		"text":[ "자못 피곤한 듯한 모습으로","나른한 눈을 하고","크게 기지개를 켜고 나서" ] 
+	}
+,
+	{
+		"category":"<tk_ncard_dr_trader_3>",
+		"type":"snippet",
+		"text":[ "물건을 꺼냈다","두 눈을 감았다","희미하게 미소지었다" ] 
+	}
+
+
+]

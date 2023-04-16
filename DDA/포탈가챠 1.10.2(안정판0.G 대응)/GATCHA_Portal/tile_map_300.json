@@ -1,0 +1,57 @@
+[
+		
+		
+		{
+		"type": "mod_tileset","compatibility": [
+		"Custom Tileset",
+		"MshockXottoplus",
+		"MSX++DEAD_PEOPLE",
+		"UNDEAD_PEOPLE",
+		"ChestHole32",
+		"UNDEAD_PEOPLE_BASE",
+		"UltimateCataclysm",
+		"UltimateCataclysmDemo",
+		"Chibi_Ultica",
+		"MshockXottoplus",
+		"Alternative Ultica",
+		"MshockXottoplus"
+		],
+		"tiles-new": [
+		{
+		"file": "tile_config_GATCHA_150x300.png",
+		"tiles": [
+		{ "id": ["fd_ncard_crate_flash_r4"], "rotates": false,"animated": true,
+		"fg":[{"weight": 5, "sprite":20},
+		{"weight": 5, "sprite":21},
+		{"weight": 5, "sprite":22},
+		{"weight": 5, "sprite":23},
+		{"weight": 5, "sprite":24},
+		{"weight": 5, "sprite":25},
+		{"weight": 5, "sprite":26},
+		{"weight": 5, "sprite":27},
+		{"weight": 5, "sprite":28},
+		{"weight": 5, "sprite":29},
+		{"weight": 5, "sprite":30},
+		{"weight": 5, "sprite":31},
+		{"weight": 5, "sprite":32},
+		{"weight": 5, "sprite":33},
+		{"weight": 5, "sprite":34},
+		{"weight": 5, "sprite":35},
+		{"weight": 5, "sprite":36},
+		{"weight": 5, "sprite":37}
+		]
+		
+		}
+		
+		],
+		"sprite_width": 150,
+		"sprite_height": 300,
+		"sprite_offset_x": -59,
+		"sprite_offset_y": -270
+		      }
+		
+		    ]
+		  }
+
+
+]

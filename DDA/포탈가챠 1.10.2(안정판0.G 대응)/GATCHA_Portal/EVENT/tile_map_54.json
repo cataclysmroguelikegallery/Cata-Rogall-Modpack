@@ -1,0 +1,149 @@
+[
+		
+		
+		{
+		"type": "mod_tileset","compatibility": [
+		"Custom Tileset",
+		"MshockXottoplus",
+		"MSX++DEAD_PEOPLE",
+		"UNDEAD_PEOPLE",
+		"ChestHole32",
+		"UNDEAD_PEOPLE_BASE",
+		"UltimateCataclysm",
+		"UltimateCataclysmDemo",
+		"Chibi_Ultica",
+		"MshockXottoplus",
+		"Alternative Ultica",
+		"MshockXottoplus"
+		],
+		"tiles-new": [
+		{
+		"file": "EVENT/tile_config_GATCHA_ev1_.png",
+		"tiles": [
+		
+		{ "id": "card_call_crate_ev1_1", "fg":2, "rotates": false },
+		{ "id": "card_call_crate_ev1_2", "fg":2, "rotates": false },
+		{ "id": "card_call_crate_ev1_3", "fg":2, "rotates": false },
+		{ "id": "f_lootcrate_ev1_xmas_box", "fg":1, "rotates": false },
+		{ "id": "f_lootcrate_ev1_xmas_box2", "fg":3, "rotates": false },
+		{ "id": "f_lootcrate_ev2_event_box", "fg":8, "rotates": false },
+		{ "id": "f_lootcrate_ev3_event_box", "fg":11, "rotates": false },
+		{ "id": "f_lootcrate_ev5_event_box", "fg":13, "rotates": false },
+		{ "id": "f_lootcrate_ev6_event_box", "fg":8, "rotates": false },
+		
+		{ "id": "mon_ncard_ev1_r3_no_01", "fg":20, "rotates": false },
+		{ "id": "mon_ncard_ev1_r3_no_02", "fg":21, "rotates": false },
+		{ "id": "mon_ncard_ev1_r3_no_03", "fg":22, "rotates": false },
+		{ "id": "mon_ncard_ev1_r3_no_04", "fg":23, "rotates": false },
+		{ "id": "mon_ncard_ev2_r3_no_01", "fg":24, "rotates": false },
+		{ "id": "mon_ncard_ev2_r3_no_02", "fg":25, "rotates": false },
+		{ "id": "mon_ncard_ev2_r3_no_03", "fg":26, "rotates": false },
+		{ "id": "mon_ncard_ev2_r3_no_04", "fg":27, "rotates": false },
+		
+		{ "id": "ncard_cm_ev1_cocktail", "fg":5, "rotates": false },
+		{ "id": "ncard_cm_ev1_bottle_glass", "fg":6, "rotates": false },
+		{ "id": "ncard_cm_ev2_omochi", "fg":7, "rotates": false },
+		{ "id": "ncard_cm_ev3_omochi", "fg":12, "rotates": false },
+		
+		{ "id": "ncard_armor_ev2_omamori1", "fg":10, "rotates": false },
+		{ "id": "ncard_armor_ev2_omamori2", "fg":10, "rotates": false },
+		{ "id": "ncard_armor_ev2_omamori3", "fg":10, "rotates": false },
+		{ "id": "ncard_armor_ev2_omamori4", "fg":10, "rotates": false },
+		
+		{ "id": "ncard_misc_ev1_keystone", "fg":4, "rotates": false },
+		{ "id": "ncard_misc_ev1_xmas_box", "fg":1, "rotates": false },
+		{ "id": "card_call_crate_ev2_1", "fg":9, "rotates": false },
+		{ "id": "card_call_crate_ev2_2", "fg":9, "rotates": false },
+		{ "id": "card_call_crate_ev2_3", "fg":9, "rotates": false },
+		{ "id": "ncard_misc_ev2_keystone", "fg":4, "rotates": false },
+		{ "id": "ncard_misc_ev2_event_box", "fg":8, "rotates": false },
+		{ "id": "ncard_misc_ev3_event_box", "fg":11, "rotates": false },
+		{ "id": "explosion_spell_ncard_ev2_triceratops_fist", "fg":40, "rotates": false },
+		{ "id": "explosion_spell_ncard_ev2_triceratops_fist2", "fg":40, "rotates": false },
+		{ "id": "explosion_spell_ncard_ev2_charm", "fg":41, "rotates": false },
+		{ "id": "explosion_spell_ncard_ev2_charm2", "fg":41, "rotates": false },
+		{ "id": "explosion_spell_ncard_ev3_issen", "fg":42, "rotates": false }
+		
+		
+		
+		
+		
+		
+		
+		
+		],
+		"sprite_width": 42,
+		"sprite_height": 54,
+		"sprite_offset_x": -5,
+		"sprite_offset_y": -22
+		      }
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		    ]
+		  }
+
+
+]

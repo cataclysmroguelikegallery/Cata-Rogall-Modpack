@@ -1,0 +1,22 @@
+[
+	{
+		"type":"ter_furn_transform",
+		"id":"place_crate_s2_rare0",
+		"furniture":[
+    {
+    "result": [ [ "f_lootcrate_s2_rare1", 8600 ],[ "f_lootcrate_s2_rare2", 30 ],[ "f_lootcrate_s2_rare3", 6 ], "f_lootcrate_s2_rare4" ],
+    "valid_furniture": [ "f_lootcrate_s2_rare1" ]    } ,
+    {
+    "result": [ [ "f_lootcrate_s2_rare2", 8600 ],[ "f_lootcrate_s2_rare3", 6 ],"f_lootcrate_s2_rare4" ],
+    "valid_furniture": [ "f_lootcrate_s2_rare2" ]    } ,
+    {
+    "result": [ [ "f_lootcrate_s2_rare3", 8600 ],"f_lootcrate_s2_rare4" ],
+    "valid_furniture": [ "f_lootcrate_s2_rare3" ]    } ,
+    {
+    "result": [ [ "f_null", 8600 ],[ "f_lootcrate_s2_rare1", 164 ],[ "f_lootcrate_s2_rare2", 30 ],[ "f_lootcrate_s2_rare3", 6 ], "f_lootcrate_s2_rare4" ],
+    "valid_furniture": [ "f_null" ]    }
+]
+	}
+
+
+]

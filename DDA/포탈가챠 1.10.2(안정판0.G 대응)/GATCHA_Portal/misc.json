@@ -1,0 +1,541 @@
+[
+	{
+		"id":"ncard_base",
+		"type":"GENERIC",
+		"name":"base_card",
+		"description":"none",
+		"weight":"50 g",
+		"volume":"10 ml",
+		"material":[ "ncard_material_dimensionsteel" ],
+		"symbol":"i",
+		"color":"white",
+		"flags":[ "TRADER_AVOID" ],
+		"to_hit":-1
+	}
+,
+	{
+		"id":"ncard_base_r1",
+		"type":"GENERIC",
+		"copy-from":"ncard_base",
+		"name":"base_card_r1",
+		"description":"none",
+		"flags":[ "TRADER_AVOID","SINGLE_USE" ]
+	}
+,
+	{
+		"id":"ncard_base_r2",
+		"type":"GENERIC",
+		"copy-from":"ncard_base",
+		"name":"base_card_r2",
+		"description":"none",
+		"flags":[ "TRADER_AVOID","SINGLE_USE" ]
+	}
+,
+	{
+		"id":"ncard_base_r3",
+		"type":"GENERIC",
+		"copy-from":"ncard_base",
+		"name":"base_card_r3",
+		"description":"none",
+		"flags":[ "SINGLE_USE","UNBREAKABLE_MELEE","TRADER_AVOID","NO_REPAIR" ]
+	}
+,
+	{
+		"id":"ncard_base_r4",
+		"type":"GENERIC",
+		"copy-from":"ncard_base",
+		"name":"base_card_r4",
+		"description":"none",
+		"flags":[ "SINGLE_USE","UNBREAKABLE_MELEE","TRADER_AVOID","NO_REPAIR" ]
+	}
+,
+	{
+		"id":"card_call_crate_1",
+		"type":"TOOL",
+		"name":"포탈 가챠 티켓",
+		"description":"기묘한 도안이나 문양이 그려진 티켓. 한 장을 뜯어서 의사를 담으면 무슨 일이 일어날지도 모릅니다.반경 3미터 이내에 아무것도 없는 상태로 사용해 주세요.이것을 만들려면 먼저 '차원의 가루 수집기'를 만들어야 합니다.",
+		"weight":"1 g",
+		"volume":"1 ml",
+		"material":[ "paper" ],
+		"symbol":"_",
+		"color":"light_gray",
+		"flags":[ "TRADER_AVOID","NO_UNLOAD","NO_RELOAD","UNBREAKABLE_MELEE" ],
+		"pocket_data":[ { "pocket_type": "MAGAZINE",  "ammo_restriction": { "ncard_misc_t": 1 } } ],
+		"use_action":{ "type": "cast_spell", "spell_id": "call_crate", "no_fail": true, "level": 0 },
+		"to_hit":-1,
+		"initial_charges":1,
+		"max_charges":1,
+		"charges_per_use":1
+	}
+,
+	{
+		"id":"card_call_crate_2",
+		"type":"TOOL",
+		"name":"포탈 가챠 티켓(10개 묶음)",
+		"description":"기묘한 도안이나 문양이 그려진 티켓. 한 장을 뜯어서 의사를 담으면 무슨 일이 일어날지도 모릅니다.반경 3미터 이내에 아무것도 없는 상태로 사용해 주세요.이것을 만들려면 먼저 '차원의 가루 수집기'를 만들어야 합니다.",
+		"weight":"1 g",
+		"volume":"1 ml",
+		"material":[ "paper" ],
+		"symbol":"_",
+		"color":"light_gray",
+		"flags":[ "TRADER_AVOID","NO_UNLOAD","NO_RELOAD","UNBREAKABLE_MELEE" ],
+		"pocket_data":[ { "pocket_type": "MAGAZINE",  "ammo_restriction": { "ncard_misc_t": 10 } } ],
+		"use_action":{ "type": "cast_spell", "spell_id": "call_crate", "no_fail": true, "level": 0 },
+		"to_hit":-1,
+		"initial_charges":10,
+		"max_charges":10,
+		"charges_per_use":1
+	}
+,
+	{
+		"id":"ncard_misc_powder_base",
+		"type":"AMMO",
+		"copy-from":"ash",
+		"name":"powder_base",
+		"//":"countは1を指定しておかないと製作で副産物が大量にできてしまうので注意",
+		"count":1,
+		"stack_size":100,
+		"flags":[ "TRADER_AVOID","ZERO_WEIGHT","UNBREAKABLE_MELEE" ]
+	}
+,
+	{
+		"id":"ncard_misc_powder_b",
+		"type":"ammunition_type",
+		"name":"powder_base",
+		"default":"ncard_misc_powder_angel"
+	}
+,
+	{
+		"id":"ncard_misc_powder_angel",
+		"type":"AMMO",
+		"copy-from":"ncard_misc_powder_base",
+		"name":{"str": "활력","str_pl":"활력"},
+		"description":"희미하게 발광하는 힘의 원천입니다.",
+		"weight":0,
+		"volume":0,
+		"symbol":".",
+		"color":"light_red",
+		"flags":[ "TRADER_AVOID","ZERO_WEIGHT","UNBREAKABLE_MELEE" ],
+		"ammo_type":"ncard_misc_powder_a"
+	}
+,
+	{
+		"id":"ncard_misc_powder_a",
+		"type":"ammunition_type",
+		"name":"활력",
+		"default":"ncard_misc_powder_angel"
+	}
+,
+	{
+		"id":"ncard_misc_powder_dimension",
+		"type":"AMMO",
+		"copy-from":"ncard_misc_powder_base",
+		"name":"차원의 가루",
+		"description":"언뜻 보면 티끌이나 먼지처럼 보이지만 포탈의 문을 여는 힘이 깃들어 있습니다. '차원의 가루 분쇄기' 등의 기계로 가공하여 사용할 수 있는 양을 최대 5배까지 늘릴 수 있지만, 레시피 습득에는 제작과 전자공학 기술을 높여야 합니다.",
+		"weight":0,
+		"volume":0,
+		"flags":[ "TRADER_AVOID","ZERO_WEIGHT","UNBREAKABLE_MELEE" ],
+		"ammo_type":"ncard_misc_powder_d"
+	}
+,
+	{
+		"id":"ncard_misc_powder_d",
+		"type":"ammunition_type",
+		"name":"차원의 가루",
+		"default":"ncard_misc_powder_dimension"
+	}
+,
+	{
+		"id":"ncard_misc_powder_dimension_pure",
+		"type":"AMMO",
+		"copy-from":"ncard_misc_powder_base",
+		"name":"차원의 가루(처리됨)",
+		"description":"차원의 가루에 다양한 가공을 가한것 입니다. 너무 크거나 더러워졌던 입자들이 올바른 절차로 처리되면서 제작에 사용할 수 있는 양이 늘어났습니다.",
+		"weight":0,
+		"volume":0,
+		"flags":[ "TRADER_AVOID","ZERO_WEIGHT","UNBREAKABLE_MELEE" ],
+		"ammo_type":"ncard_misc_powder_d_pure"
+	}
+,
+	{
+		"id":"ncard_misc_powder_d_pure",
+		"type":"ammunition_type",
+		"name":"차원의 가루(처리됨)",
+		"default":"ncard_misc_powder_dimension_pure"
+	}
+,
+	{
+		"id":"ncard_misc_powder_dimension_washed",
+		"type":"AMMO",
+		"copy-from":"ncard_misc_powder_base",
+		"name":"차원의 가루(세척)",
+		"description":"차원의 가루을 세척한 것입니다.제작에 사용하려면 분쇄해야 합니다.",
+		"weight":0,
+		"volume":0,
+		"flags":[ "TRADER_AVOID","ZERO_WEIGHT","UNBREAKABLE_MELEE" ],
+		"ammo_type":"ncard_misc_powder_d_washed"
+	}
+,
+	{
+		"id":"ncard_misc_powder_dimension_washed_pure",
+		"type":"AMMO",
+		"copy-from":"ncard_misc_powder_base",
+		"name":"차원의 가루(세척･순수)",
+		"description":"차원의 가루을 세척한 것입니다.제작에 사용하려면 분쇄해야 합니다.",
+		"flags":[ "TRADER_AVOID","ZERO_WEIGHT","UNBREAKABLE_MELEE" ],
+		"ammo_type":"ncard_misc_powder_d_washed"
+	}
+,
+	{
+		"id":"ncard_misc_powder_d_washed",
+		"type":"ammunition_type",
+		"name":"차원의 가루(세척)",
+		"default":"ncard_misc_powder_dimension_washed"
+	}
+,
+	{
+		"id":"ncard_misc_powder_dimension_separated",
+		"type":"AMMO",
+		"copy-from":"ncard_misc_powder_base",
+		"name":"차원의 가루(분리)",
+		"description":"차원의 가루에서 불순물을 분리한 것입니다.제작에 사용하려면 세척, 분쇄해야 합니다.",
+		"weight":0,
+		"volume":0,
+		"flags":[ "TRADER_AVOID","ZERO_WEIGHT","UNBREAKABLE_MELEE" ],
+		"ammo_type":"ncard_misc_powder_d_separated"
+	}
+,
+	{
+		"id":"ncard_misc_powder_dimension_separated_pure",
+		"type":"AMMO",
+		"copy-from":"ncard_misc_powder_base",
+		"name":"차원의 가루(분리･순수)",
+		"description":"차원의 가루에서 불순물을 분리한 것입니다.제작에 사용하려면 세척, 분쇄해야 합니다.",
+		"flags":[ "TRADER_AVOID","ZERO_WEIGHT","UNBREAKABLE_MELEE" ],
+		"ammo_type":"ncard_misc_powder_d_separated"
+	}
+,
+	{
+		"id":"ncard_misc_powder_d_separated",
+		"type":"ammunition_type",
+		"name":"차원의 가루(분리)",
+		"default":"ncard_misc_powder_dimension_separated"
+	}
+,
+	{
+		"id":"ncard_misc_powder_dimension_crystalized",
+		"type":"AMMO",
+		"copy-from":"ncard_misc_powder_base",
+		"name":"차원의 가루(성장)",
+		"description":"차원의 가루의 결정을 성장시킨 것입니다.제작에 사용하려면 분리, 세척, 분쇄해야 합니다.",
+		"weight":0,
+		"volume":0,
+		"flags":[ "TRADER_AVOID","ZERO_WEIGHT","UNBREAKABLE_MELEE" ],
+		"ammo_type":"ncard_misc_powder_d_crystalized"
+	}
+,
+	{
+		"id":"ncard_misc_powder_dimension_crystalized_pure",
+		"type":"AMMO",
+		"copy-from":"ncard_misc_powder_base",
+		"name":"차원의 가루(성장･순수)",
+		"description":"차원의 가루의 결정을 성장시킨 것입니다.제작에 사용하려면 분리, 세척, 분쇄해야 합니다.",
+		"flags":[ "TRADER_AVOID","ZERO_WEIGHT","UNBREAKABLE_MELEE" ],
+		"ammo_type":"ncard_misc_powder_d_crystalized"
+	}
+,
+	{
+		"id":"ncard_misc_powder_d_crystalized",
+		"type":"ammunition_type",
+		"name":"차원의 가루(성장)",
+		"default":"ncard_misc_powder_dimension_crystalized"
+	}
+,
+	{
+		"id":"ncard_misc_powder_dimension_ash",
+		"type":"AMMO",
+		"copy-from":"ncard_misc_powder_base",
+		"name":"차원의 재",
+		"description":"차원의 가루을 가공하는 과정에서 생긴 부산물입니다.아무런 가치가 없어 보이지만 끝 모를 힘이 숨겨져 있을지도 모릅니다.",
+		"weight":0,
+		"volume":0,
+		"flags":[ "TRADER_AVOID","ZERO_WEIGHT","UNBREAKABLE_MELEE" ],
+		"ammo_type":"ncard_misc_powder_d_a"
+	}
+,
+	{
+		"id":"ncard_misc_powder_d_a",
+		"type":"ammunition_type",
+		"name":"차원의 재",
+		"default":"ncard_misc_powder_dimension_ash"
+	}
+,
+	{
+		"id":"ncard_misc_powder_dimension_2",
+		"type":"AMMO",
+		"copy-from":"ncard_misc_powder_base",
+		"name":"차원의 결정",
+		"description":"차원의 가루을 가공하는 과정에서 생긴 부산물입니다.",
+		"weight":0,
+		"volume":0,
+		"flags":[ "TRADER_AVOID","ZERO_WEIGHT","UNBREAKABLE_MELEE" ],
+		"ammo_type":"ncard_misc_powder_d_2"
+	}
+,
+	{
+		"id":"ncard_misc_powder_d_2",
+		"type":"ammunition_type",
+		"name":"차원의 결정",
+		"default":"ncard_misc_powder_dimension_2"
+	}
+,
+	{
+		"id":"ncard_misc_ticket",
+		"type":"AMMO",
+		"copy-from":"ncard_misc_powder_base",
+		"name":"티켓",
+		"description":"티켓의 반권입니다",
+		"weight":0,
+		"volume":0,
+		"flags":[ "TRADER_AVOID","ZERO_WEIGHT","UNBREAKABLE_MELEE" ],
+		"ammo_type":"ncard_misc_t"
+	}
+,
+	{
+		"id":"ncard_misc_t",
+		"type":"ammunition_type",
+		"name":"티켓",
+		"default":"ncard_misc_ticket"
+	}
+,
+	{
+		"id":"card_call_crate_full",
+		"type":"TOOL",
+		"name":"가챠 티켓 구판(10개 묶음)",
+		"description":"기묘한 무늬와 문양이 그려진 티켓. 한 장을 뜯어 하늘에 빌면 무슨 일이 일어날지 모릅니다.",
+		"weight":"7 g",
+		"volume":"1 ml",
+		"material":[ "paper" ],
+		"symbol":"_",
+		"color":"light_gray",
+		"flags":[ "TRADER_AVOID","UNBREAKABLE_MELEE" ],
+		"use_action":{ "type": "cast_spell", "spell_id": "call_crate_full", "no_fail": true, "level": 0 },
+		"to_hit":-1,
+		"initial_charges":10,
+		"max_charges":10,
+		"charges_per_use":1
+	}
+,
+	{
+		"id":"ncard_misc_crasher",
+		"type":"TOOL",
+		"looks_like":"i4_combustion",
+		"name":"차원의 가루 분쇄기",
+		"description":"차원의 가루을 부수기 위한 장치입니다.너무 큰 입자를 꼼꼼히 분쇄하여 제작에 사용할 수 있는 양이 2배가 됩니다.가동에는 대량의 휘발유를 소비합니다.",
+		"weight":"20071 g",
+		"volume":"60 L",
+		"material":[ "steel" ],
+		"symbol":"M",
+		"color":"light_gray",
+		"flags":[ "TRADER_AVOID" ,"ALLOWS_REMOTE_USE" ],
+		"ammo":[ "gasoline" ],
+		"pocket_data":[ { "pocket_type": "MAGAZINE", "rigid": true, "watertight": true, "ammo_restriction": { "gasoline": 60000 } } ],
+		"to_hit":-1
+	}
+,
+	{
+		"id":"ncard_misc_crasher_d",
+		"type":"TOOL",
+		"looks_like":"i4_combustion",
+		"name":"차원의 가루 분쇄기(디젤)",
+		"description":"차원의 가루을 부수기 위한 장치입니다.너무 큰 입자를 꼼꼼히 분쇄하여 제작에 사용할 수 있는 양이 2배가 됩니다.가동에는 대량의 경유 또는 JP-8 연료를 소비합니다.",
+		"weight":"20071 g",
+		"volume":"25 L",
+		"material":[ "steel" ],
+		"symbol":"M",
+		"color":"light_gray",
+		"flags":[ "TRADER_AVOID" ,"ALLOWS_REMOTE_USE" ],
+		"ammo":[ "diesel","jp8" ],
+		"pocket_data":[ { "pocket_type": "MAGAZINE", "rigid": true, "watertight": true, "ammo_restriction": { "diesel": 60000,"jp8": 60000 } } ],
+		"to_hit":-1
+	}
+,
+	{
+		"id":"ncard_misc_washer",
+		"type":"TOOL",
+		"looks_like":"i4_combustion",
+		"name":"차원의 가루 세척기",
+		"description":"차원의 가루에 부착된 오염을 씻어내기 위한 장치입니다.제작에 사용할 수 있는 양이 3배가 됩니다.적정한 축전지를 장전하거나, 양쪽 모두 차에 실어 사용합니다. 처리한 차원의 가루는 분쇄가 필요하다는 것을 주의해주세요.",
+		"weight":"20071 g",
+		"volume":"25 L",
+		"material":[ "steel" ],
+		"symbol":"M",
+		"color":"light_gray",
+		"flags":[ "TRADER_AVOID" ,"ALLOWS_REMOTE_USE" ],
+		"ammo":[ "battery" ],
+		"//":"マガジンは大きいサイズ を指定　小さいと車載時に装填している扱いにならないっぽい？",
+		"pocket_data":[{"pocket_type": "MAGAZINE_WELL","rigid": false,"item_restriction": [ "medium_storage_battery","storage_battery","large_storage_battery" ]}],
+		"to_hit":-1
+	}
+,
+	{
+		"id":"ncard_misc_centrifuge",
+		"type":"TOOL",
+		"looks_like":"i4_combustion",
+		"name":"차원의 가루 원심 분리기",
+		"description":"차원의 가루에 섞인 불순물을 복수의 공정을 거쳐 분리하는 장치입니다.제작에 사용할 수 있는 양이 4배가 됩니다. 적절한 축전지를 장착하거나, 양쪽 모두 차에 실어 사용합니다.처리한 차원 가루는 세척,분쇄가 필요하다는 것을 주의해주세요.",
+		"weight":"20071 g",
+		"volume":"25 L",
+		"material":[ "steel" ],
+		"symbol":"M",
+		"color":"light_gray",
+		"flags":[ "TRADER_AVOID" ,"ALLOWS_REMOTE_USE" ],
+		"ammo":[ "battery" ],
+		"pocket_data":[{"pocket_type": "MAGAZINE_WELL","rigid": false,"item_restriction": [ "medium_storage_battery","storage_battery","large_storage_battery" ]}],
+		"to_hit":-1
+	}
+,
+	{
+		"id":"ncard_misc_growthmachine",
+		"type":"TOOL",
+		"looks_like":"i4_combustion",
+		"name":"차원의 가루 결정 육성 장치",
+		"description":"차원의 가루와 같은 성분을 액체 속에 넣어 더 크게 키우는 장치입니다. 제작에 사용할 수 있는 양이 5배입니다. 적절한 축전지를 장착하거나, 양쪽 모두 차에 실어 사용합니다. 처리한 차원의 가루는 분리,세척,분쇄가 필요하다는 것을 주의해주세요.",
+		"weight":"20071 g",
+		"volume":"25 L",
+		"material":[ "steel" ],
+		"symbol":"M",
+		"color":"light_gray",
+		"flags":[ "TRADER_AVOID" ,"ALLOWS_REMOTE_USE" ],
+		"ammo":[ "battery" ],
+		"pocket_data":[{"pocket_type": "MAGAZINE_WELL","rigid": false,"item_restriction": [ "medium_storage_battery","storage_battery","large_storage_battery" ]}],
+		"to_hit":-1
+	}
+,
+	{
+		"id":"ncard_misc_hammer_sledge",
+		"type":"GENERIC",
+		"copy-from":"hammer_sledge",
+		"name":"dummy_sledge",
+		"description":"none",
+		"weight":"1 g",
+		"volume":"5 ml",
+		"longest_side":"10 cm",
+		"flags":[ "TRADER_AVOID","NONCONDUCTIVE", "ALWAYS_TWOHAND","UNBREAKABLE_MELEE" ]
+	}
+,
+	{
+		"id":"ncard_misc_card_holder",
+		"type":"TOOL_ARMOR",
+		"copy-from":"ncard_base",
+		"name":{"str": "4차원 카드 홀더","str_pl":"4차원 카드 홀더"},
+		"description":"보고 있으면 빨려 들어갈 것 같은 예각적인 무늬가 새겨진 카드 홀더입니다. 특별한 카드로부터 호출된 우호적인 존재를 상태를 유지한 채 「수납」할 수 있습니다.",
+		"weight":"50 g",
+		"volume":"10 ml",
+		"material":[ "steel" ],
+		"symbol":"i",
+		"color":"light_gray",
+		"flags":[ "TRADER_AVOID","UNBREAKABLE_MELEE" ],
+		"use_action":[ "CAPTURE_MONSTER_ACT" ],
+		"properties":[ [ "creature_size_capacity", "TINY" ] ]
+	}
+,
+	{
+		"id":"ncard_misc_card_file",
+		"type":"TOOL_ARMOR",
+		"copy-from":"ncard_base",
+		"name":"4차원 카드 폴더",
+		"description":"4차원 카드 홀더을 수납하기 위한 파일입니다. 아무래도 무게를 무시하는 것 같아요.",
+		"weight":"50 g",
+		"volume":"10 ml",
+		"material":[ "steel" ],
+		"symbol":"i",
+		"color":"light_gray",
+		"flags":[ "TRADER_AVOID","UNBREAKABLE_MELEE" ]
+	}
+,
+	{
+		"id":"ncard_misc_dimension_hammer",
+		"type":"TOOL",
+		"copy-from":"hammer",
+		"name":"차원의 망치",
+		"description":"희귀 소환카드를 분해하기 위한 도구입니다.필요가 없는 한 만들지 맙시다.분해하려면 그 카드가 소환 가능한 상태여야 합니다.",
+		"material":[ "ncard_material_dimensionsteel" ],
+		"flags":[ "TRADER_AVOID","NONCONDUCTIVE", "ALWAYS_TWOHAND","UNBREAKABLE_MELEE" ]
+	}
+,
+	{
+		"id":"ncard_misc_powder_gold",
+		"type":"AMMO",
+		"copy-from":"ncard_misc_powder_base",
+		"name":"반짝이는 황금가루",
+		"description":"금 카드에서 꺼낸 힘의 원천입니다. 제작에 사용할 수 있습니다.",
+		"volume":"1 ml",
+		"color":"yellow",
+		"flags":[ "TRADER_AVOID","ZERO_WEIGHT","UNBREAKABLE_MELEE" ],
+		"ammo_type":"ncard_misc_powder_g"
+	}
+,
+	{
+		"id":"ncard_misc_powder_g",
+		"type":"ammunition_type",
+		"name":"황금 가루",
+		"default":"ncard_misc_powder_gold"
+	}
+,
+	{
+		"id":"ncard_misc_powder_rainbow",
+		"type":"AMMO",
+		"copy-from":"ncard_misc_powder_base",
+		"name":"빛나는 무지개가루",
+		"description":"무지개 카드에서 꺼낸 힘의 원천입니다. 제작에 사용할 수 있습니다.",
+		"volume":"1 ml",
+		"color":"light_cyan",
+		"flags":[ "TRADER_AVOID","ZERO_WEIGHT","UNBREAKABLE_MELEE" ],
+		"ammo_type":"ncard_misc_powder_r"
+	}
+,
+	{
+		"id":"ncard_misc_powder_r",
+		"type":"ammunition_type",
+		"name":"무지개 가루",
+		"default":"ncard_misc_powder_rainbow"
+	}
+,
+	{
+		"id":"card_call_crate_3",
+		"type":"TOOL",
+		"name":"포탈 가챠 티켓(100개 묶음)",
+		"description":"기묘한 도안이나 문양이 그려진 티켓. 한 장을 뜯어서 의사를 담으면 무슨 일이 일어날지도 모릅니다.반경 3미터 이내에 아무것도 없는 상태로 사용해 주세요.이것을 만들려면 먼저 '차원의 가루 수집기'를 만들어야 합니다.",
+		"weight":"1 g",
+		"volume":"1 ml",
+		"material":[ "paper" ],
+		"symbol":"_",
+		"color":"light_gray",
+		"flags":[ "TRADER_AVOID","NO_UNLOAD","NO_RELOAD","UNBREAKABLE_MELEE" ],
+		"pocket_data":[ { "pocket_type": "MAGAZINE",  "ammo_restriction": { "ncard_misc_t": 100 } } ],
+		"use_action":{ "type": "cast_spell", "spell_id": "call_crate", "no_fail": true, "level": 0 },
+		"to_hit":-1,
+		"initial_charges":100,
+		"max_charges":100,
+		"charges_per_use":1
+	}
+,
+	{
+		"id":"ncard_misc_coin_gold",
+		"type":"GENERIC",
+		"looks_like":"coin_gold",
+		"category":"currency",
+		"name":{"str": "포탈 금화","str_pl":"포탈 금화"},
+		"description":"포털을 이용하여 방랑하는 존재들 사이에 거래되고 있는 것 같은 화폐입니다.언뜻 보면 금으로 만든 것 같지만 자세히 관찰하면 일곱 빛깔의 빛을 발하여 반짝이고 있습니다.현금 1만 달러당 한 장 교환해 줄 수 있습니다.",
+		"weight":"31 g",
+		"volume":"1 ml",
+		"material":[ "ncard_material_dimensionsteel" ],
+		"symbol":"o",
+		"color":"yellow",
+		"flags":[ "TRADER_AVOID","UNBREAKABLE_MELEE" ],
+		"use_action":[ "COIN_FLIP" ]
+	}
+
+
+]

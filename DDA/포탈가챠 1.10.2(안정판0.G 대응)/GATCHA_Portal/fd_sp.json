@@ -1,0 +1,55 @@
+[
+	{
+		"id":"spell_fd_ncard_buff",
+		"//":"emitを介してeffectを付与するspell fd_○○のjsonはこれ関連",
+		"type":"SPELL",
+		"name":"축복",
+		"description":"none",
+		"flags":["SILENT", "IGNORE_WALLS","NO_PROJECTILE" ],
+		"valid_targets":[ "self", "ally" ],
+		"effect":"emit",
+		"effect_str":"emit_fd_ncard_buff",
+		"shape":"blast",
+		"base_casting_time":0,
+		"min_aoe":1,
+		"max_aoe":1,
+		"min_range":50,
+		"max_range":50
+	}
+,
+	{
+		"id":"spell_fd_ncard_deathcross2",
+		"type":"SPELL",
+		"name":"파괴의 여파",
+		"description":"none",
+		"flags":["SILENT", "IGNORE_WALLS","NO_PROJECTILE" ],
+		"valid_targets":[ "hostile" ],
+		"effect":"emit",
+		"effect_str":"emit_fd_ncard_deathcross2",
+		"shape":"blast",
+		"base_casting_time":0,
+		"min_damage":1,
+		"max_damage":1,
+		"min_range":50,
+		"max_range":50
+	}
+,
+	{
+		"id":"spell_fd_ncard_smoke",
+		"type":"SPELL",
+		"name":"분진",
+		"description":"none",
+		"flags":["SILENT", "IGNORE_WALLS","NO_PROJECTILE" ],
+		"valid_targets":[ "self" ],
+		"effect":"emit",
+		"effect_str":"emit_fd_ncard_smoke",
+		"shape":"blast",
+		"base_casting_time":0,
+		"min_damage":1,
+		"max_damage":1,
+		"min_range":50,
+		"max_range":50
+	}
+
+
+]

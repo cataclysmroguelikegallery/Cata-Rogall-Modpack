@@ -1,0 +1,141 @@
+[
+  {
+    "//1": "プレートアーマーがobsoluteに入っていたので消されても機能するようにこちらに記述を残しておく",
+    "id": "armor_lightplate",
+    "type": "ARMOR",
+    "category": "armor",
+    "name": { "str": "plate armor" },
+    "description": "A suit of Gothic plate armor.",
+    "weight": "11 kg",
+    "volume": "17500 ml",
+    "price": 60000,
+    "price_postapoc": 12000,
+    "to_hit": -5,
+    "bashing": 8,
+    "material": [ "steel", "leather" ],
+    "symbol": "[",
+    "looks_like": "armor_larmor",
+    "color": "light_gray",
+    "warmth": 20,
+    "longest_side": "60 cm",
+    "material_thickness": 4,
+    "flags": [ "VARSIZE", "OUTER", "STURDY" ],
+    "armor": [ { "encumbrance": 20, "coverage": 95, "covers": [ "torso", "leg_l", "leg_r", "arm_l", "arm_r" ] } ]
+  },
+  {
+    "id": "armor_lightplate_mithril",
+    "copy-from": "armor_lightplate",
+    "type": "ARMOR",
+    "name": { "str": "미스릴 아머" },
+    "material": [ "mithril_metal", "leather" ],
+    "proportional": { "weight": 0.5 },
+    "material_thickness": 5
+  },
+  {
+    "id": "armor_lightplate_mithril_xl",
+    "copy-from": "armor_lightplate_mithril",
+    "type": "ARMOR",
+    "name": { "str": "XL미스릴 아머" },
+    "material": [ "mithril_metal", "leather" ],
+    "proportional": { "weight": 1.125, "volume": 1.13, "price": 1.25 },
+    "material_thickness": 5,
+    "extend": { "flags": [ "OVERSIZE" ] }
+  },
+  {
+    "id": "armor_lightplate_mithril_xs",
+    "copy-from": "armor_lightplate_mithril",
+    "type": "ARMOR",
+    "name": { "str": "XS미스릴 아머" },
+    "material": [ "mithril_metal", "leather" ],
+    "proportional": { "weight": 0.75, "volume": 0.75, "price": 0.5 },
+    "material_thickness": 5,
+    "extend": { "flags": [ "UNDERSIZE" ] }
+  },
+  {
+    "id": "gloves_plate_mithril",
+    "copy-from": "armor_lightplate",
+    "type": "ARMOR",
+    "name": { "str": "미스릴  건틀렛" },
+    "material": [ "mithril_metal", "leather" ],
+    "proportional": { "weight": 0.5 },
+    "material_thickness": 5
+  },
+  {
+    "id": "gloves_plate_mithril_xl",
+    "copy-from": "armor_lightplate_mithril",
+    "type": "ARMOR",
+    "name": { "str": "XL미스릴  건틀렛" },
+    "material": [ "mithril_metal", "leather" ],
+    "proportional": { "weight": 1.125, "volume": 1.13, "price": 1.25 },
+    "material_thickness": 5,
+    "extend": { "flags": [ "OVERSIZE" ] }
+  },
+  {
+    "id": "gloves_plate_mithril_xs",
+    "copy-from": "armor_lightplate_mithril",
+    "type": "ARMOR",
+    "name": { "str": "XS미스릴  건틀렛" },
+    "material": [ "mithril_metal", "leather" ],
+    "proportional": { "weight": 0.75, "volume": 0.75, "price": 0.5 },
+    "material_thickness": 5,
+    "extend": { "flags": [ "UNDERSIZE" ] }
+  },
+  {
+    "id": "boots_plate_mithril",
+    "copy-from": "armor_lightplate",
+    "type": "ARMOR",
+    "name": { "str": "미스릴  부츠" },
+    "material": [ "mithril_metal", "leather" ],
+    "proportional": { "weight": 0.5 },
+    "material_thickness": 5
+  },
+  {
+    "id": "boots_plate_mithril_xl",
+    "copy-from": "armor_lightplate_mithril",
+    "type": "ARMOR",
+    "name": { "str": "XL미스릴  부츠" },
+    "material": [ "mithril_metal", "leather" ],
+    "proportional": { "weight": 1.125, "volume": 1.13, "price": 1.25 },
+    "material_thickness": 5,
+    "extend": { "flags": [ "OVERSIZE" ] }
+  },
+  {
+    "id": "boots_plate_mithril_xs",
+    "copy-from": "armor_lightplate_mithril",
+    "type": "ARMOR",
+    "name": { "str": "XS미스릴  부츠" },
+    "material": [ "mithril_metal", "leather" ],
+    "proportional": { "weight": 0.75, "volume": 0.75, "price": 0.5 },
+    "material_thickness": 5,
+    "extend": { "flags": [ "UNDERSIZE" ] }
+  },
+  {
+    "id": "helmet_armet_mithril",
+    "copy-from": "helmet_armet",
+    "type": "ARMOR",
+    "name": { "str": "미스릴  아멧 헬멧" },
+    "material": [ "mithril_metal", "leather" ],
+    "proportional": { "weight": 0.5 },
+    "material_thickness": 5
+  },
+  {
+    "id": "helmet_armet_mithril_xl",
+    "copy-from": "helmet_armet_mithril",
+    "type": "ARMOR",
+    "name": { "str": "XL미스릴  아멧 헬멧" },
+    "material": [ "mithril_metal", "leather" ],
+    "proportional": { "weight": 1.125, "volume": 1.13, "price": 1.25 },
+    "material_thickness": 5,
+    "extend": { "flags": [ "OVERSIZE" ] }
+  },
+  {
+    "id": "helmet_armet_mithril_xs",
+    "copy-from": "helmet_armet_mithril",
+    "type": "ARMOR",
+    "name": { "str": "XS미스릴  아멧 헬멧" },
+    "material": [ "mithril_metal", "leather" ],
+    "proportional": { "weight": 0.75, "volume": 0.75, "price": 0.5 },
+    "material_thickness": 5,
+    "extend": { "flags": [ "UNDERSIZE" ] }
+  }
+]

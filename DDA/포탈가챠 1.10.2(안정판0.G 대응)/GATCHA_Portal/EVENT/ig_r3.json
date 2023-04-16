@@ -1,0 +1,31 @@
+[
+	{
+		"id":"item_group_ncard_ev1_r3",
+		"type":"item_group",
+		"subtype":"distribution",
+		"entries":[{"item": "ncard_ev1_r3_no_01","prob":10},{"item": "ncard_ev1_r3_no_02","prob":10},{"item": "ncard_ev1_r3_no_03","prob":10},{"item": "ncard_ev1_r3_no_04","prob":10}]
+	}
+,
+	{
+		"id":"item_group_ncard_ev2_r3",
+		"type":"item_group",
+		"subtype":"distribution",
+		"entries":[{"item": "ncard_ev2_r3_no_01","prob":10},{"item": "ncard_ev2_r3_no_02","prob":10},{"item": "ncard_ev2_r3_no_03","prob":10},{"item": "ncard_ev2_r3_no_04","prob":10}]
+	}
+,
+	{
+		"id":"item_group_ncard_ev3_r3",
+		"type":"item_group",
+		"subtype":"distribution",
+		"entries":[{"item": "ncard_ev3_r3_no_01","prob":10},{"item": "ncard_ev3_r3_no_02","prob":10},{"item": "ncard_ev3_r3_no_03","prob":10},{"item": "ncard_ev3_r3_no_04","prob":10}]
+	}
+,
+	{
+		"id":"item_group_ncard_ev5_r3",
+		"type":"item_group",
+		"subtype":"distribution",
+		"entries":[{"item": "ncard_ev5_r3_no_01","prob":10},{"item": "ncard_ev5_r3_no_02","prob":10},{"item": "ncard_ev5_r3_no_03","prob":10},{"item": "ncard_ev5_r3_no_04","prob":10}]
+	}
+
+
+]

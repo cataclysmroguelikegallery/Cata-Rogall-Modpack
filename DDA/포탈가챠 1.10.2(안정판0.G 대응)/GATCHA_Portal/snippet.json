@@ -1,0 +1,237 @@
+[
+	{
+		"category":"<tk_ncard_1_1>",
+		"type":"snippet",
+		"text":[ "（기분이 좋아 보이고 있다）" ] 
+	}
+,
+	{
+		"category":"<tk_ncard_1_2>",
+		"type":"snippet",
+		"text":[ "（신기한 듯이 이쪽을 보고 있다）","（흥미 있는 듯이 주위를 둘러보고 있다）" ] 
+	}
+,
+	{
+		"category":"<tk_ncard_1_3>",
+		"type":"snippet",
+		"text":[ "･･･（잠시 접하지 않아서 그런지 힐끔힐끔 이쪽을 보고 있다）" ] 
+	}
+,
+	{
+		"category":"<tk_ncard_2_1>",
+		"type":"snippet",
+		"text":[ "…♪（접촉이 즐거웠는가、<tk_ncard_2_1_2><tk_ncard_2_1_3>）" ] 
+	}
+,
+	{
+		"category":"<tk_ncard_2_1_1>",
+		"type":"snippet",
+		"text":[ "당신의 시선을 눈치채면、","이쪽 모습을 확인해 보더니、","당신의 낌새를 알아차리면、" ] 
+	}
+,
+	{
+		"category":"<tk_ncard_2_1_2>",
+		"type":"snippet",
+		"text":[ "만족스러운 눈빛으로","채워진 표정으로","침착하지 못한 모습으로" ] 
+	}
+,
+	{
+		"category":"<tk_ncard_2_1_3>",
+		"type":"snippet",
+		"text":[ "손을 나풀거리고 있다…","미소짓고 다가왔다…","쑥스러워 하고 있다…" ] 
+	}
+,
+	{
+		"category":"<tk_ncard_2_2>",
+		"type":"snippet",
+		"text":[ "･･･♪（<tk_ncard_2_2_1><tk_ncard_2_2_2><tk_ncard_2_2_3>）" ] 
+	}
+,
+	{
+		"category":"<tk_ncard_2_2_1>",
+		"type":"snippet",
+		"text":[ "당신의 시선을 눈치채면、","이쪽 모습을 확인해보니、","당신의 낌새를 알아차리면、" ] 
+	}
+,
+	{
+		"category":"<tk_ncard_2_2_2>",
+		"type":"snippet",
+		"text":[ "기분 좋은 모습으로","위로하는 듯한 표정으로","뭔가 기대했던 모습으로" ] 
+	}
+,
+	{
+		"category":"<tk_ncard_2_2_3>",
+		"type":"snippet",
+		"text":[ "다가왔다","웃는 얼굴을 보였다","손을 흔들어 왔다" ] 
+	}
+,
+	{
+		"category":"<tk_ncard_2_3>",
+		"type":"snippet",
+		"text":[ "･･･（<tk_ncard_2_3_1><tk_ncard_2_3_2><tk_ncard_2_3_3>）" ] 
+	}
+,
+	{
+		"category":"<tk_ncard_2_3_1>",
+		"type":"snippet",
+		"text":[ "당신의 시선을 눈치채면、","이쪽 모습을 확인해 보더니、","당신의 낌새를 알아차리면、" ] 
+	}
+,
+	{
+		"category":"<tk_ncard_2_3_2>",
+		"type":"snippet",
+		"text":[ "어리광을 부리는 듯한 눈빛으로","갖고 싶은 듯한 모습으로","뭔가 호소하는 듯한 표정으로" ] 
+	}
+,
+	{
+		"category":"<tk_ncard_2_3_3>",
+		"type":"snippet",
+		"text":[ "이쪽을 살피고 다가왔다","얼굴을 들여다 보러왔다","다가왔다" ] 
+	}
+,
+	{
+		"category":"<tk_ncard_3_1>",
+		"type":"snippet",
+		"text":[ "…♥（만남의 여운이 가시지 않는가、<tk_ncard_3_1_2><tk_ncard_3_1_3>）" ] 
+	}
+,
+	{
+		"category":"<tk_ncard_3_1_1>",
+		"type":"snippet",
+		"text":[ "당신의 시선을 눈치채면、","이쪽 모습을 확인해 보더니、","당신의 낌새를 알아차리면、" ] 
+	}
+,
+	{
+		"category":"<tk_ncard_3_1_2>",
+		"type":"snippet",
+		"text":[ "상기된 얼굴로","만족스럽고 행복한 표정으로","뺨을 붉게 물들이면서" ] 
+	}
+,
+	{
+		"category":"<tk_ncard_3_1_3>",
+		"type":"snippet",
+		"text":[ "손에 손가락을 감아 왔다…","물끄러미 바라봤다…","몸을 밀착시켜 왔다…" ] 
+	}
+,
+	{
+		"category":"<tk_ncard_3_2>",
+		"type":"snippet",
+		"text":[ "･･･♥（<tk_ncard_3_2_1><tk_ncard_3_2_2><tk_ncard_3_2_3>）" ] 
+	}
+,
+	{
+		"category":"<tk_ncard_3_2_1>",
+		"type":"snippet",
+		"text":[ "당신의 시선을 눈치채면、","이쪽 모습을 확인해 보더니、","당신의 낌새를 알아차리면、" ] 
+	}
+,
+	{
+		"category":"<tk_ncard_3_2_2>",
+		"type":"snippet",
+		"text":[ "숨이 닿는 거리까지 얼굴을 가까이 대고는","뜨거운 눈으로 바라보면서","기쁜 듯이 달려가" ] 
+	}
+,
+	{
+		"category":"<tk_ncard_3_2_3>",
+		"type":"snippet",
+		"text":[ "의미심장하게 미소지어 왔다…","당신의 몸을 쓰다듬었다…","몸을 밀착해 왔다.…" ] 
+	}
+,
+	{
+		"category":"<tk_ncard_3_3>",
+		"type":"snippet",
+		"text":[ "…♥（오랫동안 접촉하지 않아서 그런지、<tk_ncard_3_3_2><tk_ncard_3_3_3>）" ] 
+	}
+,
+	{
+		"category":"<tk_ncard_3_3_1>",
+		"type":"snippet",
+		"text":[ "당신의 시선을 눈치채면、","이쪽 모습을 확인해 보더니、","당신의 낌새를 알아차리면、" ] 
+	}
+,
+	{
+		"category":"<tk_ncard_3_3_2>",
+		"type":"snippet",
+		"text":[ "외로움을 깨닫지 못할까 봐 얼버무리는 듯한 표정으로","눈에 눈물이 고여","불안한 듯한 모습으로" ] 
+	}
+,
+	{
+		"category":"<tk_ncard_3_3_3>",
+		"type":"snippet",
+		"text":[ "얼굴을 가까이 대어 왔다…","지근거리에서 바라봤다…","몸을 밀착해 왔다…" ] 
+	}
+,
+	{
+		"category":"<tk_ncard_4_1>",
+		"type":"snippet",
+		"text":[ "…♥♥♥（만남의 여운이 가시지 않는가、<tk_ncard_4_1_2><tk_ncard_4_1_3>）" ] 
+	}
+,
+	{
+		"category":"<tk_ncard_4_1_1>",
+		"type":"snippet",
+		"text":[ "당신의 시선을 눈치채면、","이쪽 모습을 확인해 보더니、","당신의 낌새를 알아차리면、" ] 
+	}
+,
+	{
+		"category":"<tk_ncard_4_1_2>",
+		"type":"snippet",
+		"text":[ "도취한 모습으로","녹은 미소를 띄우며","요염한 몸짓으로" ] 
+	}
+,
+	{
+		"category":"<tk_ncard_4_1_3>",
+		"type":"snippet",
+		"text":[ "살갗에 손가락을 기댔다.…","피부를 맞대어 왔다…","온몸을 뒤엉켜 왔다…" ] 
+	}
+,
+	{
+		"category":"<tk_ncard_4_2>",
+		"type":"snippet",
+		"text":[ "･･･♥♥♥（<tk_ncard_4_2_1><tk_ncard_4_2_2><tk_ncard_4_2_3>）" ] 
+	}
+,
+	{
+		"category":"<tk_ncard_4_2_1>",
+		"type":"snippet",
+		"text":[ "당신의 시선을 눈치채면、","이쪽 모습을 확인해 보더니、","당신의 낌새를 알아차리면、" ] 
+	}
+,
+	{
+		"category":"<tk_ncard_4_2_2>",
+		"type":"snippet",
+		"text":[ "애정과 믿음이 담긴 눈으로","마음속 깊은 곳에서 행복한 모습으로","다시는 떠나지 않겠다는 듯이" ] 
+	}
+,
+	{
+		"category":"<tk_ncard_4_2_3>",
+		"type":"snippet",
+		"text":[ "양손을 잡고 손가락을 꼬아 왔다.…","사랑스러운 듯이 안아 왔다…","상반신을 기대어 왔다.…" ] 
+	}
+,
+	{
+		"category":"<tk_ncard_4_3>",
+		"type":"snippet",
+		"text":[ "…♥♥♥（오랫동안 접촉하지 않아서 그런지、<tk_ncard_4_3_2><tk_ncard_4_3_3>）" ] 
+	}
+,
+	{
+		"category":"<tk_ncard_4_3_1>",
+		"type":"snippet",
+		"text":[ "당신의 시선을 눈치채면、","이쪽 모습을 확인해 보더니、","당신의 낌새를 알아차리면、" ] 
+	}
+,
+	{
+		"category":"<tk_ncard_4_3_2>",
+		"type":"snippet",
+		"text":[ "외로워서 어쩔 수 없다는 듯","금방이라도 울 것 같은 표정으로","마음속으로 불안해 하는 모습으로" ] 
+	}
+,
+	{
+		"category":"<tk_ncard_4_3_3>",
+		"type":"snippet",
+		"text":[ "양손을 잡아왔다…","껴안아 왔다…","세게 끌어안아 왔다…" ] 
+	}
+
+
+]

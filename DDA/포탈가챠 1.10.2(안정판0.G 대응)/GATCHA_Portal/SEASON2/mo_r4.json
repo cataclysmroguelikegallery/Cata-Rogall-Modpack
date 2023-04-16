@@ -1,0 +1,18 @@
+[
+	{
+		"id":"mon_ncard_s2_r4_no_01",
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_r4_no_00",
+		"name":{"str": "No.19 침공무기(클리너)","str_pl":"No.19 침공무기(클리너)"},
+		"description":"포털 건너편에서 호출된 존재입니다.",
+		"symbol":"M",
+		"chat_topics":["TALK_s2_r4_no_01"],
+		"death_drops":{"subtype": "distribution","items":[{ "item": "ncard_s2_r4_no_01_C" , "count": 1, "prob": 100}]},
+		"death_function":{ "corpse_type": "NO_CORPSE", "message": "The %s fades away." },
+		"special_attacks":[{"type": "spell","spell_data": { "id": "spell_ncard_s2_clean", "min_level": 0 },"cooldown": 110,"monster_message": "<color_yellow>%1$s가 주포를 발사했다!</color>"}],
+		"flags":[ "SEES", "HEARS", "SMELLS", "WARM", "PATH_AVOID_FALL", "FIREPROOF","ACIDPROOF","COLDPROOF","ALWAYS_SEES_YOU"  ],
+		"path_settings":{ "max_dist": 50,"avoid_traps": true, "avoid_sharp": true }
+	}
+
+
+]

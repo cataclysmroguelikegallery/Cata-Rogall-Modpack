@@ -1,0 +1,122 @@
+[
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_nova_flare_1",
+    "name": { "str": "하급 지팡이(초신성 폭발)[MWMI]", "str_pl": "하급 지팡이(초신성 폭발)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "마나 크리스탈을 끼우는 소켓이 달린 길쭉한 나무 지팡이입니다. 초신성 폭발을 영창하는 기능을 가지고 있습니다.",
+    "price": "200 USD",
+    "price_postapoc": "200 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "nova_flare", "no_fail": true, "level": 4, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_nova_flare_2",
+    "name": { "str": "중급 지팡이(초신성 폭발)[MWMI]", "str_pl": "중급 지팡이(초신성 폭발)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "마나 크리스탈을 끼우는 소켓이 달린 길쭉한 나무 지팡이입니다. 초신성 폭발을 영창하는 기능을 가지고 있습니다.",
+    "price": "400 USD",
+    "price_postapoc": "400 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "nova_flare", "no_fail": true, "level": 8, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_nova_flare_3",
+    "name": { "str": "상급 지팡이(초신성 폭발)[MWMI]", "str_pl": "상급 지팡이(초신성 폭발)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "마나 크리스탈을 끼우는 소켓이 달린 길쭉한 나무 지팡이입니다. 초신성 폭발을 영창하는 기능을 가지고 있습니다.",
+    "price": "600 USD",
+    "price_postapoc": "600 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "nova_flare", "no_fail": true, "level": 12, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_ice_spike_1",
+    "name": { "str": "하급 지팡이(고드름 낙하)[MWMI]", "str_pl": "하급 지팡이(고드름 낙하)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "마나 크리스탈을 끼우는 소켓이 달린 길쭉한 나무 지팡이입니다. 고드름 낙하을 영창하는 기능을 가지고 있습니다.",
+    "price": "200 USD",
+    "price_postapoc": "200 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "ice_spike", "no_fail": true, "level": 4, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_ice_spike_2",
+    "name": { "str": "중급 지팡이(고드름 낙하)[MWMI]", "str_pl": "중급 지팡이(고드름 낙하)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "마나 크리스탈을 끼우는 소켓이 달린 길쭉한 나무 지팡이입니다. 고드름 낙하을 영창하는 기능을 가지고 있습니다.",
+    "price": "400 USD",
+    "price_postapoc": "400 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "ice_spike", "no_fail": true, "level": 8, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_ice_spike_3",
+    "name": { "str": "상급 지팡이(고드름 낙하)[MWMI]", "str_pl": "상급 지팡이(고드름 낙하)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "마나 크리스탈을 끼우는 소켓이 달린 길쭉한 나무 지팡이입니다. 고드름 낙하을 영창하는 기능을 가지고 있습니다.",
+    "price": "600 USD",
+    "price_postapoc": "600 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "ice_spike", "no_fail": true, "level": 12, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_frost_spray_1",
+    "name": { "str": "하급 지팡이(서리 분사)[MWMI]", "str_pl": "하급 지팡이(서리 분사)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "마나 크리스탈을 끼우는 소켓이 달린 길쭉한 나무 지팡이입니다. 서리 분사을 영창하는 기능을 가지고 있습니다.",
+    "price": "200 USD",
+    "price_postapoc": "200 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "frost_spray", "no_fail": true, "level": 4, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_frost_spray_2",
+    "name": { "str": "중급 지팡이(서리 분사)[MWMI]", "str_pl": "중급 지팡이(서리 분사)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "마나 크리스탈을 끼우는 소켓이 달린 길쭉한 나무 지팡이입니다. 서리 분사을 영창하는 기능을 가지고 있습니다.",
+    "price": "400 USD",
+    "price_postapoc": "400 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "frost_spray", "no_fail": true, "level": 8, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_frost_spray_3",
+    "name": { "str": "상급 지팡이(서리 분사)[MWMI]", "str_pl": "상급 지팡이(서리 분사)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "마나 크리스탈을 끼우는 소켓이 달린 길쭉한 나무 지팡이입니다. 서리 분사을 영창하는 기능을 가지고 있습니다.",
+    "price": "600 USD",
+    "price_postapoc": "600 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "frost_spray", "no_fail": true, "level": 12, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_freezing_touch_1",
+    "name": { "str": "하급 지팡이(서늘한 접촉)[MWMI]", "str_pl": "하급 지팡이(서늘한 접촉)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "마나 크리스탈을 끼우는 소켓이 달린 길쭉한 나무 지팡이입니다. 서늘한 접촉을 영창하는 기능을 가지고 있습니다.",
+    "price": "200 USD",
+    "price_postapoc": "200 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "freezing_touch", "no_fail": true, "level": 4, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_freezing_touch_2",
+    "name": { "str": "중급 지팡이(서늘한 접촉)[MWMI]", "str_pl": "중급 지팡이(서늘한 접촉)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "마나 크리스탈을 끼우는 소켓이 달린 길쭉한 나무 지팡이입니다. 서늘한 접촉을 영창하는 기능을 가지고 있습니다.",
+    "price": "400 USD",
+    "price_postapoc": "400 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "freezing_touch", "no_fail": true, "level": 8, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_freezing_touch_3",
+    "name": { "str": "상급 지팡이(서늘한 접촉)[MWMI]", "str_pl": "상급 지팡이(서늘한 접촉)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "마나 크리스탈을 끼우는 소켓이 달린 길쭉한 나무 지팡이입니다. 서늘한 접촉을 영창하는 기능을 가지고 있습니다.",
+    "price": "600 USD",
+    "price_postapoc": "600 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "freezing_touch", "no_fail": true, "level": 12, "need_wielding": true }
+  }
+]

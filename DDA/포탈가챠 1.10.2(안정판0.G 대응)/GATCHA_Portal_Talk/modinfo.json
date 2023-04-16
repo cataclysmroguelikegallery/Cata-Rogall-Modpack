@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "GATCHA_Portal_Talk",
+    "name": "포탈 가챠 TALK",
+    "authors": [ "m"],
+    "description": "포탈 가챠MOD의 유니크 몬스터가 여러가지 이야기를 하는MOD입니다. 이야기를 하는중에는 소리가 발생하니 주의해 주세요.",
+    "category": "SUPPLEMENTAL",
+    "dependencies": [ "dda","GATCHA_Portal" ]
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "type": "recipe",
+    "result": "crystallized_mana",
+    "id_suffix": "using_mwmi",
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_OTHER",
+    "skill_used": "fabrication",
+    "skills_required": [ "spellcraft", 1 ],
+    "difficulty": 2,
+    "time": "30 m",
+    "autolearn": true,
+    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
+    "components": [
+       [ [ "glass_shard", 100 ] ]
+     ]
+  },{
+    "type": "recipe",
+    "result": "small_mana_crystal",
+    "id_suffix": "using_mwmi",
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_OTHER",
+    "skill_used": "fabrication",
+    "skills_required": [ "spellcraft", 2 ],
+    "difficulty": 2,
+    "time": "30 m",
+    "autolearn": true,
+    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
+    "components": [
+       [ [ "glass_shard", 200 ] ]
+     ]
+  }
+]

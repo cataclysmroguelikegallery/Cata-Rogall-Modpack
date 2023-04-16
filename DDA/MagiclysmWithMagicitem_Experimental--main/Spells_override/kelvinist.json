@@ -1,0 +1,48 @@
+[
+  {
+    "//1": "各種ケルビニストの氷魔法に鈍足効果を付与(実験的)",
+    "id": "ice_spike",
+    "type": "SPELL",
+    "name": "Ice Spike",
+    "copy-from": "ice_spike",
+    "extend": { "effect_str": [ "slow_freeze_effect" ] }
+  },
+  {
+    "id": "cone_cold",
+    "type": "SPELL",
+    "name": "Cone of Cold",
+    "copy-from": "cone_cold",
+    "extend": { "effect_str": [ "slow_freeze_effect" ] }
+  },
+  {
+    "id": "frost_spray",
+    "type": "SPELL",
+    "name": "Frost Spray",
+    "copy-from": "cone_cold",
+    "effect_str": "slow_freeze_effect"
+  },
+  {
+    "//1": "フレイムソードの前提の材料(アイテム)を削除する(難易度低下)",
+    "id": "kelvinist_summon_flamesword",
+    "type": "SPELL",
+    "name": "Flamesword",
+    "copy-from": "kelvinist_summon_flamesword",
+    "components": ""
+  },
+  {
+    "//1": "フレイムソード+の前提の材料(アイテム)を削除する(難易度低下)",
+    "id": "kelvinist_summon_flamesword_plus",
+    "type": "SPELL",
+    "name": "Enhanced Flamesword",
+    "copy-from": "kelvinist_summon_flamesword",
+    "components": ""
+  },
+  {
+    "//1": "フレイムブレス+の前提の材料(アイテム)を削除する(難易度低下)",
+    "id": "kelvinist_flamebreath",
+    "type": "SPELL",
+    "name": { "str": "Flamebreath" },
+    "copy-from": "kelvinist_flamebreath",
+    "components": ""
+  }
+]

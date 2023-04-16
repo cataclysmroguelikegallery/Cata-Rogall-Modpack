@@ -1,0 +1,14 @@
+[
+  {
+    "type": "recipe_category",
+    "id": "CC_GATCHA",
+    "recipe_subcategories": [
+      "CSC_ALL",
+      "CSC_GATCHA_TOOLS",
+      "CSC_GATCHA_ARMOR",
+      "CSC_GATCHA_ELECTRONIC",
+      "CSC_GATCHA_MATERIALS",
+      "CSC_GATCHA_OTHER"
+    ]
+  }
+]

@@ -1,0 +1,83 @@
+[
+	{
+		"type":"ter_furn_transform",
+		"id":"place_crate_rare0",
+		"//":"注意：f_nullを対象にした処理は最後の行に持ってくること",
+		"furniture":[
+    {
+    "result": [ [ "f_lootcrate_rare1", 8600 ],[ "f_lootcrate_rare2", 30 ],[ "f_lootcrate_rare3", 6 ], "f_lootcrate_rare4" ],
+    "valid_furniture": [ "f_lootcrate_rare1" ]    } ,
+    {
+    "result": [ [ "f_lootcrate_rare2", 8600 ],[ "f_lootcrate_rare3", 6 ],"f_lootcrate_rare4" ],
+    "valid_furniture": [ "f_lootcrate_rare2" ]    } ,
+    {
+    "result": [ [ "f_lootcrate_rare3", 8600 ],"f_lootcrate_rare4" ],
+    "valid_furniture": [ "f_lootcrate_rare3" ]    } ,
+    {
+    "result": [ [ "f_null", 8600 ],[ "f_lootcrate_rare1", 164 ],[ "f_lootcrate_rare2", 30 ],[ "f_lootcrate_rare3", 6 ], "f_lootcrate_rare4" ],
+    "valid_furniture": [ "f_null" ]    }
+]
+	}
+,
+	{
+		"type":"ter_furn_transform",
+		"id":"place_crate_rare1",
+		"furniture":[
+    {
+    "result": [ [ "f_lootcrate_rare1", 1500 ], "f_lootcrate_rare3" ],
+    "valid_furniture": [ "f_lootcrate_rare1" ]    }
+]
+	}
+,
+	{
+		"type":"ter_furn_transform",
+		"id":"place_crate_rare2",
+		"furniture":[
+    {
+    "result": [ [ "f_lootcrate_rare2", 1500 ], "f_lootcrate_rare3" ],
+    "valid_furniture": [ "f_lootcrate_rare2" ]    }
+]
+	}
+,
+	{
+		"type":"ter_furn_transform",
+		"id":"place_crate_rare3",
+		"furniture":[
+    {
+    "result": [ [ "f_lootcrate_rare1", 166 ], "f_lootcrate_rare2" ],
+    "valid_furniture": [ "f_lootcrate_rare1" ]    }
+]
+	}
+,
+	{
+		"type":"ter_furn_transform",
+		"id":"place_crate_rare4",
+		"furniture":[
+    {
+    "result": [ [ "f_null", 1500 ], "f_lootcrate_rare3" ],
+    "valid_furniture": [ "f_null" ]    }
+]
+	}
+,
+	{
+		"type":"ter_furn_transform",
+		"id":"place_crate_rare5",
+		"furniture":[
+    {
+    "result": [ [ "f_null", 166 ], "f_lootcrate_rare2" ],
+    "valid_furniture": [ "f_null" ]    }
+]
+	}
+,
+	{
+		"type":"ter_furn_transform",
+		"id":"place_crate_rare6",
+		"furniture":[
+    {
+    "result": [ [ "f_null", 44 ], "f_lootcrate_rare1" ],
+    "valid_furniture": [ "f_null" ]    }
+]
+	}
+
+
+]

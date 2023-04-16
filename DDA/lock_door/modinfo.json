@@ -1,0 +1,13 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "lock_doooorrrrr",
+    "name": "추가 - 문단속 확인 OK！",
+    "authors": [ "YasuYasu" ],
+    "maintainers": [ "YasuYasu" ],
+    "description": "문에 자물쇠를 거는 모드입니다. 잠금장치를 걸려면 건축 메뉴에서 잠금장치를 걸면 됩니다(대상 건축 작업의 마지막에 LD가 붙습니다). (테스트 버전)",
+    "category": "rebalance",
+    "dependencies": [ "dda" ],
+    "version": "0.1"
+  }
+]

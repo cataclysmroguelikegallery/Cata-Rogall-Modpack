@@ -1,0 +1,113 @@
+[
+  {
+    "//1": "ミスリルソードは本家にもあり、それをオーバーライド(魔法の焦点具として追加)",
+    "id": "longsword_mithril",
+    "copy-from": "longsword_mithril",
+    "type": "TOOL",
+    "name": { "str": "미스릴 소드" },
+    "material": [ "mithril_metal" ],
+    "extend": { "flags": [ "MAGIC_FOCUS" ] }
+  },
+  {
+    "//1": "各種ミスリル武器(魔法の焦点具の機能を追加し、性能を変化)",
+    "id": "falx_mithril",
+    "copy-from": "falx",
+    "type": "TOOL",
+    "name": { "str": "미스릴 팔스" },
+    "material": [ "mithril_metal" ],
+    "weight": "680 g",
+    "proportional": { "cutting": 1.5, "bashing": 0.7 },
+    "extend": { "flags": [ "MAGIC_FOCUS" ] }
+  },
+  {
+    "id": "battleaxe_mithril",
+    "copy-from": "battleaxe",
+    "type": "TOOL",
+    "name": { "str": "미스릴 배틀액스" },
+    "material": [ "mithril_metal" ],
+    "weight": "1001 g",
+    "proportional": { "cutting": 1.5, "bashing": 0.7 },
+    "extend": { "flags": [ "MAGIC_FOCUS" ] }
+  },
+  {
+    "id": "katana_mithril",
+    "copy-from": "katana",
+    "type": "TOOL",
+    "name": { "str": "미스릴 일본도" },
+    "material": [ "mithril_metal" ],
+    "weight": "562 g",
+    "proportional": { "cutting": 1.5, "bashing": 0.7 },
+    "extend": { "flags": [ "MAGIC_FOCUS" ] }
+  },
+  {
+    "id": "qiang_mithril",
+    "copy-from": "qiang",
+    "type": "TOOL",
+    "name": { "str": "미스릴 스피어" },
+    "material": [ "mithril_metal" ],
+    "weight": "699 g",
+    "proportional": { "cutting": 1.5, "bashing": 0.7 },
+    "extend": { "flags": [ "MAGIC_FOCUS" ] }
+  },
+  {
+    "id": "rapier_mithril",
+    "copy-from": "rapier",
+    "type": "TOOL",
+    "name": { "str": "미스릴 레이피어" },
+    "material": [ "mithril_metal" ],
+    "weight": "500 g",
+    "proportional": { "cutting": 1.5, "bashing": 0.7 },
+    "extend": { "flags": [ "MAGIC_FOCUS" ] }
+  },
+  {
+    "id": "estoc_mithril",
+    "copy-from": "estoc",
+    "type": "TOOL",
+    "name": { "str": "미스릴 에스톡" },
+    "material": [ "mithril_metal" ],
+    "weight": "907 g",
+    "proportional": { "cutting": 1.5, "bashing": 0.7 },
+    "extend": { "flags": [ "MAGIC_FOCUS" ] }
+  },
+  {
+    "id": "knife_combat_mithril",
+    "copy-from": "knife_combat",
+    "type": "TOOL",
+    "name": { "str": "미스릴 나이프" },
+    "material": [ "mithril_metal" ],
+    "weight": "279 g",
+    "proportional": { "cutting": 1.5, "bashing": 0.7 },
+    "extend": { "flags": [ "MAGIC_FOCUS" ] }
+  },
+  {
+    "id": "bagh_nakha_mithril",
+    "copy-from": "bagh_nakha",
+    "type": "TOOL",
+    "name": { "str": "미스릴 클로" },
+    "material": [ "mithril_metal" ],
+    "weight": "279 g",
+    "proportional": { "cutting": 1.5, "bashing": 0.7 },
+    "extend": { "flags": [ "MAGIC_FOCUS" ] }
+  },
+  {
+    "id": "warhammer_mithril",
+    "copy-from": "warhammer",
+    "type": "TOOL",
+    "name": { "str": "미스릴 해머" },
+    "material": [ "mithril_metal" ],
+    "weight": "279 g",
+    "proportional": { "cutting": 1.5, "bashing": 1.1 },
+    "extend": { "flags": [ "MAGIC_FOCUS" ] }
+  },
+  {
+    "id": "ladle_mithril",
+    "copy-from": "ladle",
+    "type": "TOOL",
+    "name": { "str": "미스릴 국자" },
+    "material": [ "mithril_metal" ],
+    "weight": "279 g",
+    "bashing": 15,
+    "cutting": 10,
+    "extend": { "flags": [ "MAGIC_FOCUS" ] }
+  }
+]

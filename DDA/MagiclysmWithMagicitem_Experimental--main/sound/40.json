@@ -1,0 +1,39 @@
+[
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun",
+        "volume" : 75,
+        "variant" : "PSY_magi_magic_revolver_ver4",
+        "files" : [
+            "guns/40/40_1.ogg",
+			"guns/40/40_2.ogg",
+			"guns/40/40_3.ogg",
+			"guns/40/40_4.ogg"
+        ]
+    },
+	{
+        "type": "sound_effect",
+        "id" : "fire_gun_distant",
+        "volume" : 60,
+        "variant" : "PSY_magi_magic_revolver_ver4",
+        "files" : [
+            "guns/40/40_1.ogg",
+			"guns/40/40_2.ogg",
+			"guns/40/40_3.ogg",
+			"guns/40/40_4.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "reload",
+        "volume" : 75,
+        "variant" : "PSY_magi_magic_revolver_ver4",
+        "files" : [
+            "guns/reload/revolver/revolver_1.ogg",
+			"guns/reload/revolver/revolver_2.ogg",
+			"guns/reload/revolver/revolver_3.ogg",
+			"guns/reload/revolver/revolver_4.ogg",
+			"guns/reload/revolver/revolver_5.ogg"
+        ]
+    }
+]

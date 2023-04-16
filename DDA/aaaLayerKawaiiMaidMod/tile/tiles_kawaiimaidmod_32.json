@@ -1,0 +1,58 @@
+[{
+  "type": "mod_tileset",
+  "compatibility": [ "UNDEAD_PEOPLE_BASE", "MSX++DEAD_PEOPLE", "MSX++DEAD_PEOPLE+", "UNDEAD_PEOPLE" ],
+  "tiles-new": [
+    {
+      "file": "tile/tiles_kawaiimaidmod_32.png",
+      "tiles": [
+      
+		{ "id": "overlay_worn_aaa_layer_kawaii_nurse","fg": 77, "rotates": false },
+		{ "id": "overlay_worn_aaa_layer_kawaii_angel_wing_bag","fg": 76, "rotates": false },
+		{ "id": "overlay_worn_aaa_layer_kawaii_sukumizu_siro","fg": 75, "rotates": false },
+		{ "id": "overlay_worn_aaa_layer_kawaii_sukumizu_kon","fg": 74, "rotates": false },
+		{ "id": "overlay_worn_aaa_layer_kawaii_gloves_light","fg": 73, "rotates": false },
+		{ "id": "overlay_worn_aaa_layer_kawaii_shoes_hi","fg": 54, "rotates": false },
+		{ "id": "overlay_worn_aaa_layer_kawaii_boots_hi","fg": 53, "rotates": false },
+		{ "id": "overlay_worn_aaa_layer_kawaii_maid_dress_long","fg": 52, "rotates": false },
+		{ "id": "overlay_worn_aaa_layer_kawaii_tights_white","fg": 51, "rotates": false },
+		{ "id": "overlay_worn_aaa_layer_kawaii_tights_black","fg": 50, "rotates": false },
+		{ "id": "overlay_worn_aaa_layer_kawaii_scarf_loose","fg": 49, "rotates": false },
+		{ "id": "overlay_worn_aaa_layer_kawaii_scarf","fg": 48, "rotates": false },
+		{ "id": "overlay_worn_aaa_layer_kawaii_loafer","fg": 44, "rotates": false },
+		{ "id": "overlay_worn_aaa_layer_kawaii_socks_white","fg": 43, "rotates": false },
+		{ "id": "overlay_worn_aaa_layer_kawaii_sailor_fuku","fg": 42, "rotates": false },
+		{ "id": "overlay_worn_aaa_layer_kawaii_boots","fg": 41, "rotates": false },
+		{ "id": "overlay_worn_aaa_layer_kawaii_sister_dress","fg": 31, "rotates": false },
+		{ "id": "overlay_worn_aaa_layer_kawaii_maid_niso_thin","fg": 30, "rotates": false },
+		{ "id": "overlay_worn_aaa_layer_kawaii_maid_niso_thick","fg": 29, "rotates": false },
+		{ "id": "overlay_worn_aaa_layer_kawaii_maid_garter","fg": 28, "rotates": false },
+		{ "id": "overlay_worn_aaa_layer_kawaii_maid_simabura_green","fg": 26, "rotates": false },
+		{ "id": "overlay_worn_aaa_layer_kawaii_maid_simapan_green","fg": 25, "rotates": false },
+		{ "id": "overlay_worn_aaa_layer_kawaii_maid_simabura_pink","fg": 24, "rotates": false },
+		{ "id": "overlay_worn_aaa_layer_kawaii_maid_simapan_pink","fg": 23, "rotates": false },
+		{ "id": "overlay_worn_aaa_layer_kawaii_maid_megane_09","fg": 22, "rotates": false },
+		{ "id": "overlay_worn_aaa_layer_kawaii_maid_megane_08","fg": 21, "rotates": false },
+		{ "id": "overlay_worn_aaa_layer_kawaii_maid_megane_07","fg": 20, "rotates": false },
+		{ "id": "overlay_worn_aaa_layer_kawaii_maid_megane_06","fg": 19, "rotates": false },
+		{ "id": "overlay_worn_aaa_layer_kawaii_maid_megane_05","fg": 18, "rotates": false },
+		{ "id": "overlay_worn_aaa_layer_kawaii_maid_megane_04","fg": 17, "rotates": false },
+		{ "id": "overlay_worn_aaa_layer_kawaii_maid_megane_03","fg": 16, "rotates": false },
+		{ "id": "overlay_worn_aaa_layer_kawaii_hitec_megane","fg": 15, "rotates": false },
+		{ "id": "overlay_worn_aaa_layer_kawaii_wedding_dress","fg": 14, "rotates": false },
+		{ "id": "overlay_worn_aaa_layer_kawaii_bikini_top_black","fg": 12, "rotates": false },
+		{ "id": "overlay_worn_aaa_layer_kawaii_bikini_bottom_black","fg": 11, "rotates": false },
+		{ "id": "overlay_worn_aaa_layer_kawaii_vest","fg": 10, "rotates": false },
+		{ "id": "overlay_worn_aaa_layer_kawaii_tailskirt_mini","fg": 9, "rotates": false },
+		{ "id": "overlay_worn_aaa_layer_kawaii_hat_cotton","fg": 8, "rotates": false },
+		{ "id": "overlay_worn_aaa_layer_kawaii_balclava","fg": 7, "rotates": false },
+		{ "id": "overlay_worn_aaa_layer_kawaii_maid_megane_01","fg": 6, "rotates": false },
+		{ "id": "overlay_worn_aaa_layer_kawaii_maid_bra","fg": 5, "rotates": false },
+		{ "id": "overlay_worn_aaa_layer_kawaii_maid_panties","fg": 4, "rotates": false },
+		{ "id": "overlay_worn_aaa_layer_kawaii_dress_shoes","fg": 3, "rotates": false },
+		{ "id": "overlay_worn_aaa_layer_kawaii_maid_hat","fg": 2, "rotates": false },
+		{ "id": "overlay_worn_aaa_layer_kawaii_maid_dress","fg": 1, "rotates": false }
+      ]
+    }
+  ]
+}
+]

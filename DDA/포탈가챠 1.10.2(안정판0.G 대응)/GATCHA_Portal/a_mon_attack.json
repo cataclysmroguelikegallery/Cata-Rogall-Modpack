@@ -1,0 +1,37 @@
+[
+	{
+		"type":"monster_attack",
+		"attack_type":"melee",
+		"id":"ncard_attack_shoggoth",
+		"cooldown":5,
+		"move_cost":300,
+		"damage_max_instance":[ { "damage_type": "stab", "amount": 400, "armor_penetration": 8, "armor_multiplier": 0.5 } ],
+		"body_parts":[ [ "leg_l", 4 ], [ "leg_r", 4 ], [ "head", 2 ], [ "arm_l", 4 ], [ "arm_r", 4 ], [ "torso", 6 ] ],
+		"effects":[ { "id": "bleed", "duration": 100, "affect_hit_bp": true } ],
+		"hit_dmg_u":"%1$s의 필살의 일격이 당신을 파괴했다!",
+		"hit_dmg_npc":"<color_light_cyan>%1$s의 필살의 일격이 <npcname>의 몸통을 파괴했다!</color>",
+		"miss_msg_u":"%1$s의 필살의 일격은 빗나갔다. ",
+		"miss_msg_npc":"%1$s의 필살의 일격은 빗나갔다. ",
+		"no_dmg_msg_u":"%1$s의 필살의 일격은 막혔다. ",
+		"no_dmg_msg_npc":"%1$s의 필살의 일격은 막혔다. ",
+		"dodgeable":false,
+		"blockable":true,
+		"//":"ショゴス対策"
+	}
+,
+	{
+		"type":"monster_attack",
+		"attack_type":"melee",
+		"id":"ncard_attack_sintoukei",
+		"cooldown":5,
+		"move_cost":150,
+		"damage_max_instance":[ { "damage_type": "stab", "amount": 100, "armor_penetration": 40, "armor_multiplier": 0.0 } ],
+		"body_parts":[ [ "leg_l", 4 ], [ "leg_r", 4 ], [ "head", 2 ], [ "arm_l", 4 ], [ "arm_r", 4 ], [ "torso", 6 ] ],
+		"effects":[ { "id": "stunned", "duration": 100, "affect_hit_bp": true } ],
+		"hit_dmg_npc":"%1$s의 타격이 <npcname>에 침투했습니다!",
+		"dodgeable":false,
+		"blockable":false
+	}
+
+
+]

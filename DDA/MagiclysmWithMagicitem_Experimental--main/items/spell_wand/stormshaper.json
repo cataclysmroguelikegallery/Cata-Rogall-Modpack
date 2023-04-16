@@ -1,0 +1,92 @@
+[
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_lightning_bolt_1",
+    "name": { "str": "하급 지팡이(번개의 화살)[MWMI]", "str_pl": "하급 지팡이(번개의 화살)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "마나 크리스탈을 끼우는 소켓이 달린 길쭉한 나무 지팡이입니다. 번개의 화살을 영창하는 기능을 가지고 있습니다.",
+    "price": "200 USD",
+    "price_postapoc": "200 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "lightning_bolt", "no_fail": true, "level": 4, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_lightning_bolt_2",
+    "name": { "str": "중급 지팡이(번개의 화살)[MWMI]", "str_pl": "중급 지팡이(번개의 화살)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "마나 크리스탈을 끼우는 소켓이 달린 길쭉한 나무 지팡이입니다. 번개의 화살을 영창하는 기능을 가지고 있습니다.",
+    "price": "400 USD",
+    "price_postapoc": "400 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "lightning_bolt", "no_fail": true, "level": 8, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_lightning_bolt_3",
+    "name": { "str": "상급 지팡이(번개의 화살)[MWMI]", "str_pl": "상급 지팡이(번개의 화살)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "마나 크리스탈을 끼우는 소켓이 달린 길쭉한 나무 지팡이입니다. 번개의 화살을 영창하는 기능을 가지고 있습니다.",
+    "price": "600 USD",
+    "price_postapoc": "600 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "lightning_bolt", "no_fail": true, "level": 12, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_lightning_storm_1",
+    "name": { "str": "하급 지팡이(번개치는 폭풍)[MWMI]", "str_pl": "하급 지팡이(번개치는 폭풍)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "마나 크리스탈을 끼우는 소켓이 달린 길쭉한 나무 지팡이입니다. 번개치는 폭풍을 영창하는 기능을 가지고 있습니다.",
+    "price": "200 USD",
+    "price_postapoc": "200 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "lightning_storm", "no_fail": true, "level": 4, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_lightning_storm_2",
+    "name": { "str": "중급 지팡이(번개치는 폭풍)[MWMI]", "str_pl": "중급 지팡이(번개치는 폭풍)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "마나 크리스탈을 끼우는 소켓이 달린 길쭉한 나무 지팡이입니다. 번개치는 폭풍을 영창하는 기능을 가지고 있습니다.",
+    "price": "400 USD",
+    "price_postapoc": "400 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "lightning_storm", "no_fail": true, "level": 8, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_lightning_storm_3",
+    "name": { "str": "상급 지팡이(번개치는 폭풍)[MWMI]", "str_pl": "상급 지팡이(번개치는 폭풍)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "마나 크리스탈을 끼우는 소켓이 달린 길쭉한 나무 지팡이입니다. 번개치는 폭풍을 영창하는 기능을 가지고 있습니다.",
+    "price": "600 USD",
+    "price_postapoc": "600 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "lightning_storm", "no_fail": true, "level": 12, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_stormshaper_ionization_1",
+    "name": { "str": "하급 지팡이(이온화)[MWMI]", "str_pl": "하급 지팡이(이온화)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "마나 크리스탈을 끼우는 소켓이 달린 길쭉한 나무 지팡이입니다. 이온화을 영창하는 기능을 가지고 있습니다.",
+    "price": "200 USD",
+    "price_postapoc": "200 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "stormshaper_ionization", "no_fail": true, "level": 4, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_stormshaper_ionization_2",
+    "name": { "str": "중급 지팡이(이온화)[MWMI]", "str_pl": "중급 지팡이(이온화)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "마나 크리스탈을 끼우는 소켓이 달린 길쭉한 나무 지팡이입니다. 이온화을 영창하는 기능을 가지고 있습니다.",
+    "price": "400 USD",
+    "price_postapoc": "400 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "stormshaper_ionization", "no_fail": true, "level": 8, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_stormshaper_ionization_3",
+    "name": { "str": "상급 지팡이(이온화)[MWMI]", "str_pl": "상급 지팡이(이온화)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "마나 크리스탈을 끼우는 소켓이 달린 길쭉한 나무 지팡이입니다. 이온화을 영창하는 기능을 가지고 있습니다.",
+    "price": "600 USD",
+    "price_postapoc": "600 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "stormshaper_ionization", "no_fail": true, "level": 12, "need_wielding": true }
+  }
+]

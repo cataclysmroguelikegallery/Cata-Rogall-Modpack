@@ -1,0 +1,10 @@
+[
+	{
+		"id":"TALK_misc_r4_no_01",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "<color_light_red>（동료가 된다）</color>", "topic": "TALK_DONE","effect": "follow"}, { "text": "아무것도 아니야", "topic": "TALK_r4_no_01" } ] 
+	}
+
+
+]

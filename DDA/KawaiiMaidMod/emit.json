@@ -1,0 +1,23 @@
+[
+  {
+    "id": "fd_cold_breezes",
+    "type": "field_type",
+    "intensity_levels": [
+      { "name": "そよ風", "sym": " ", "convection_temperature_mod": -10 }
+      ],
+    "decay_amount_factor": 5,
+    "percent_spread": 100,
+    "outdoor_age_speedup": "100 minutes",
+    "priority": -1,
+    "half_life": "1 minutes",
+    "phase": "gas",
+    "display_field": true
+  },
+  {
+    "id": "emit_cold_air_weak_stream",
+    "type": "emit",
+    "field": "fd_cold_breezes",
+    "intensity": 1,
+    "qty": 8
+  }
+]

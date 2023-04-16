@@ -1,0 +1,309 @@
+[
+	{
+		"id":"kz_ncard_ev1_r4_no_01",
+		"type":"TOOL_ARMOR",
+		"copy-from":"kz_ncard_r4_base",
+		"name":{"str": "<color_light_green>맹세의 반지(No.23 산타클로스)</color>","str_pl":"<color_light_green>맹세의 반지(No.23 산타클로스)</color>"},
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_ev1_holy_cocktail", "no_fail": true, "level": 0 },
+		"symbol":"o"
+	}
+,
+	{
+		"id":"kz_ncard_ev1_r4_no_02",
+		"type":"TOOL_ARMOR",
+		"copy-from":"kz_ncard_r4_base",
+		"name":{"str": "<color_light_green>맹세의 반지(No.24 산타클로스)</color>","str_pl":"<color_light_green>맹세의 반지(No.24 산타클로스)</color>"},
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_ev1_holy_cocktail", "no_fail": true, "level": 0 },
+		"symbol":"o"
+	}
+,
+	{
+		"id":"kz_ncard_ev1_r3_no_01",
+		"type":"TOOL_ARMOR",
+		"copy-from":"kz_ncard_r3_base",
+		"name":{"str": "<color_light_green>맹세의 반지(No.25 순록 소녀)</color>","str_pl":"<color_light_green>맹세의 반지(No.25 순록 소녀)</color>"},
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_ev2_triceratops_fist", "no_fail": true, "level": 0 },
+		"symbol":"o"
+	}
+,
+	{
+		"id":"kz_ncard_ev1_r3_no_02",
+		"type":"TOOL_ARMOR",
+		"copy-from":"kz_ncard_r3_base",
+		"name":{"str": "<color_light_green>맹세의 반지(No.26 순록 소녀)</color>","str_pl":"<color_light_green>맹세의 반지(No.26 순록 소녀)</color>"},
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_ev2_triceratops_fist", "no_fail": true, "level": 0 },
+		"symbol":"o"
+	}
+,
+	{
+		"id":"kz_ncard_ev1_r3_no_03",
+		"type":"TOOL_ARMOR",
+		"copy-from":"kz_ncard_r3_base",
+		"name":{"str": "<color_light_green>맹세의 반지(No.27 순록 소녀)</color>","str_pl":"<color_light_green>맹세의 반지(No.27 순록 소녀)</color>"},
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_ev2_triceratops_fist", "no_fail": true, "level": 0 },
+		"symbol":"o"
+	}
+,
+	{
+		"id":"kz_ncard_ev1_r3_no_04",
+		"type":"TOOL_ARMOR",
+		"copy-from":"kz_ncard_r3_base",
+		"name":{"str": "<color_light_green>맹세의 반지(No.28 순록 소녀)</color>","str_pl":"<color_light_green>맹세의 반지(No.28 순록 소녀)</color>"},
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_ev2_triceratops_fist", "no_fail": true, "level": 0 },
+		"symbol":"o"
+	}
+,
+	{
+		"id":"kz_ncard_ev2_r4_no_01",
+		"type":"TOOL_ARMOR",
+		"copy-from":"kz_ncard_r4_base",
+		"name":{"str": "<color_light_green>맹세의 반지(No.29 호랑이 소녀)</color>","str_pl":"<color_light_green>맹세의 반지(No.29 호랑이 소녀)</color>"},
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_ev2_dashslash", "no_fail": true, "level": 0 },
+		"symbol":"o"
+	}
+,
+	{
+		"id":"kz_ncard_ev2_r4_no_02",
+		"type":"TOOL_ARMOR",
+		"copy-from":"kz_ncard_r4_base",
+		"name":{"str": "<color_light_green>맹세의 반지(No.30 호랑이 소녀)</color>","str_pl":"<color_light_green>맹세의 반지(No.30 호랑이 소녀)</color>"},
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_ev2_dashslash", "no_fail": true, "level": 0 },
+		"symbol":"o"
+	}
+,
+	{
+		"id":"kz_ncard_ev2_r3_no_01",
+		"type":"TOOL_ARMOR",
+		"copy-from":"kz_ncard_r3_base",
+		"name":{"str": "<color_light_green>맹세의 반지(No.31 소녀)</color>","str_pl":"<color_light_green>맹세의 반지(No.31 소녀)</color>"},
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_ev2_charm", "no_fail": true, "level": 0 },
+		"symbol":"o"
+	}
+,
+	{
+		"id":"kz_ncard_ev2_r3_no_02",
+		"type":"TOOL_ARMOR",
+		"copy-from":"kz_ncard_r3_base",
+		"name":{"str": "<color_light_green>맹세의 반지(No.32 소녀)</color>","str_pl":"<color_light_green>맹세의 반지(No.32 소녀)</color>"},
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_ev2_charm", "no_fail": true, "level": 0 },
+		"symbol":"o"
+	}
+,
+	{
+		"id":"kz_ncard_ev2_r3_no_03",
+		"type":"TOOL_ARMOR",
+		"copy-from":"kz_ncard_r3_base",
+		"name":{"str": "<color_light_green>맹세의 반지(No.33 소여자)</color>","str_pl":"<color_light_green>맹세의 반지(No.33 소여자)</color>"},
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_ev2_triceratops_fist", "no_fail": true, "level": 0 },
+		"symbol":"o"
+	}
+,
+	{
+		"id":"kz_ncard_ev2_r3_no_04",
+		"type":"TOOL_ARMOR",
+		"copy-from":"kz_ncard_r3_base",
+		"name":{"str": "<color_light_green>맹세의 반지(No.34 소여자)</color>","str_pl":"<color_light_green>맹세의 반지(No.34 소여자)</color>"},
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_ev2_triceratops_fist", "no_fail": true, "level": 0 },
+		"symbol":"o"
+	}
+,
+	{
+		"id":"kz_ncard_ev3_r4_no_01",
+		"type":"TOOL_ARMOR",
+		"copy-from":"kz_ncard_r4_base",
+		"name":{"str": "<color_light_green>맹세의 반지(No.35 검성)</color>","str_pl":"<color_light_green>맹세의 반지(No.35 검성)</color>"},
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_ev3_sanoubu", "no_fail": true, "level": 0 },
+		"symbol":"o"
+	}
+,
+	{
+		"id":"kz_ncard_ev3_r4_no_02",
+		"type":"TOOL_ARMOR",
+		"copy-from":"kz_ncard_r4_base",
+		"name":{"str": "<color_light_green>맹세의 반지(No.36 검성)</color>","str_pl":"<color_light_green>맹세의 반지(No.36 검성)</color>"},
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_ev3_sanoubu", "no_fail": true, "level": 0 },
+		"symbol":"o"
+	}
+,
+	{
+		"id":"kz_ncard_ev3_r3_no_01",
+		"type":"TOOL_ARMOR",
+		"copy-from":"kz_ncard_r3_base",
+		"name":{"str": "<color_light_green>맹세의 반지(No.37 여우귀 용병)</color>","str_pl":"<color_light_green>맹세의 반지(No.37 여우귀 용병)</color>"},
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_ev3_issen", "no_fail": true, "level": 0 },
+		"symbol":"o"
+	}
+,
+	{
+		"id":"kz_ncard_ev3_r3_no_02",
+		"type":"TOOL_ARMOR",
+		"copy-from":"kz_ncard_r3_base",
+		"name":{"str": "<color_light_green>맹세의 반지(No.38 여우귀 용병)</color>","str_pl":"<color_light_green>맹세의 반지(No.38 여우귀 용병)</color>"},
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_ev3_issen", "no_fail": true, "level": 0 },
+		"symbol":"o"
+	}
+,
+	{
+		"id":"kz_ncard_ev3_r3_no_03",
+		"type":"TOOL_ARMOR",
+		"copy-from":"kz_ncard_r3_base",
+		"name":{"str": "<color_light_green>맹세의 반지(No.39 여우귀 검사)</color>","str_pl":"<color_light_green>맹세의 반지(No.39 여우귀 검사)</color>"},
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_ev3_issen", "no_fail": true, "level": 0 },
+		"symbol":"o"
+	}
+,
+	{
+		"id":"kz_ncard_ev3_r3_no_04",
+		"type":"TOOL_ARMOR",
+		"copy-from":"kz_ncard_r3_base",
+		"name":{"str": "<color_light_green>맹세의 반지(No.40 여우귀 검사)</color>","str_pl":"<color_light_green>맹세의 반지(No.40 여우귀 검사)</color>"},
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_ev3_issen", "no_fail": true, "level": 0 },
+		"symbol":"o"
+	}
+,
+	{
+		"id":"kz_ncard_ev4_r4_no_01",
+		"type":"TOOL_ARMOR",
+		"copy-from":"kz_ncard_r4_base",
+		"name":{"str": "<color_light_green>맹세의 반지(No.41 행상인)</color>","str_pl":"<color_light_green>맹세의 반지(No.41 행상인)</color>"},
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_ev4_potion", "no_fail": true, "level": 0 },
+		"symbol":"o"
+	}
+,
+	{
+		"id":"kz_ncard_ev4_r4_no_02",
+		"type":"TOOL_ARMOR",
+		"copy-from":"kz_ncard_r4_base",
+		"name":{"str": "<color_light_green>맹세의 반지(No.42 행상인)</color>","str_pl":"<color_light_green>맹세의 반지(No.42 행상인)</color>"},
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_ev4_potion", "no_fail": true, "level": 0 },
+		"symbol":"o"
+	}
+,
+	{
+		"id":"kz_ncard_ev4_r3_no_01",
+		"type":"TOOL_ARMOR",
+		"copy-from":"kz_ncard_r3_base",
+		"name":{"str": "<color_light_green>맹세의 반지(No.43 검사)</color>","str_pl":"<color_light_green>맹세의 반지(No.43 검사)</color>"},
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_ev4_slash", "no_fail": true, "level": 0 },
+		"symbol":"o"
+	}
+,
+	{
+		"id":"kz_ncard_ev4_r3_no_02",
+		"type":"TOOL_ARMOR",
+		"copy-from":"kz_ncard_r3_base",
+		"name":{"str": "<color_light_green>맹세의 반지(No.44 검사)</color>","str_pl":"<color_light_green>맹세의 반지(No.44 검사)</color>"},
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_ev4_slash", "no_fail": true, "level": 0 },
+		"symbol":"o"
+	}
+,
+	{
+		"id":"kz_ncard_ev4_r3_no_03",
+		"type":"TOOL_ARMOR",
+		"copy-from":"kz_ncard_r3_base",
+		"name":{"str": "<color_light_green>맹세의 반지(No.45 탐험가)</color>","str_pl":"<color_light_green>맹세의 반지(No.45 탐험가)</color>"},
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_ev4_cut", "no_fail": true, "level": 0 },
+		"symbol":"o"
+	}
+,
+	{
+		"id":"kz_ncard_ev4_r3_no_04",
+		"type":"TOOL_ARMOR",
+		"copy-from":"kz_ncard_r3_base",
+		"name":{"str": "<color_light_green>맹세의 반지(No.46 탐험가)</color>","str_pl":"<color_light_green>맹세의 반지(No.46 탐험가)</color>"},
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_ev4_cut", "no_fail": true, "level": 0 },
+		"symbol":"o"
+	}
+,
+	{
+		"id":"kz_ncard_ev4_r3_no_05",
+		"type":"TOOL_ARMOR",
+		"copy-from":"kz_ncard_r3_base",
+		"name":{"str": "<color_light_green>맹세의 반지(No.47 여행자)</color>","str_pl":"<color_light_green>맹세의 반지(No.47 여행자)</color>"},
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_ev4_hummer", "no_fail": true, "level": 0 },
+		"symbol":"o"
+	}
+,
+	{
+		"id":"kz_ncard_ev4_r3_no_06",
+		"type":"TOOL_ARMOR",
+		"copy-from":"kz_ncard_r3_base",
+		"name":{"str": "<color_light_green>맹세의 반지(No.48 여행자)</color>","str_pl":"<color_light_green>맹세의 반지(No.48 여행자)</color>"},
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_ev4_hummer", "no_fail": true, "level": 0 },
+		"symbol":"o"
+	}
+,
+	{
+		"id":"kz_ncard_ev5_r4_no_01",
+		"type":"TOOL_ARMOR",
+		"copy-from":"kz_ncard_r4_base",
+		"name":{"str": "<color_light_green>맹세의 반지(No.49 상급 몽마)</color>","str_pl":"<color_light_green>맹세의 반지(No.49 상급 몽마)</color>"},
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_ev5_somno", "no_fail": true, "level": 0 },
+		"symbol":"o"
+	}
+,
+	{
+		"id":"kz_ncard_ev5_r4_no_02",
+		"type":"TOOL_ARMOR",
+		"copy-from":"kz_ncard_r4_base",
+		"name":{"str": "<color_light_green>맹세의 반지(No.50 상급 몽마)</color>","str_pl":"<color_light_green>맹세의 반지(No.50 상급 몽마)</color>"},
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_ev5_somno", "no_fail": true, "level": 0 },
+		"symbol":"o"
+	}
+,
+	{
+		"id":"kz_ncard_ev5_r3_no_01",
+		"type":"TOOL_ARMOR",
+		"copy-from":"kz_ncard_r3_base",
+		"name":{"str": "<color_light_green>맹세의 반지(No.51 몽마)</color>","str_pl":"<color_light_green>맹세의 반지(No.51 몽마)</color>"},
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_ev5_sadism", "no_fail": true, "level": 0 },
+		"symbol":"o"
+	}
+,
+	{
+		"id":"kz_ncard_ev5_r3_no_02",
+		"type":"TOOL_ARMOR",
+		"copy-from":"kz_ncard_r3_base",
+		"name":{"str": "<color_light_green>맹세의 반지(No.52 몽마)</color>","str_pl":"<color_light_green>맹세의 반지(No.52 몽마)</color>"},
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_ev5_sadism", "no_fail": true, "level": 0 },
+		"symbol":"o"
+	}
+,
+	{
+		"id":"kz_ncard_ev5_r3_no_03",
+		"type":"TOOL_ARMOR",
+		"copy-from":"kz_ncard_r3_base",
+		"name":{"str": "<color_light_green>맹세의 반지(No.53 몽마)</color>","str_pl":"<color_light_green>맹세의 반지(No.53 몽마)</color>"},
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_ev5_ex", "no_fail": true, "level": 0 },
+		"symbol":"o"
+	}
+,
+	{
+		"id":"kz_ncard_ev5_r3_no_04",
+		"type":"TOOL_ARMOR",
+		"copy-from":"kz_ncard_r3_base",
+		"name":{"str": "<color_light_green>맹세의 반지(No.54 몽마)</color>","str_pl":"<color_light_green>맹세의 반지(No.54 몽마)</color>"},
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_ev5_ex", "no_fail": true, "level": 0 },
+		"symbol":"o"
+	}
+,
+	{
+		"id":"kz_ncard_ev6_r4_no_01",
+		"type":"TOOL_ARMOR",
+		"copy-from":"kz_ncard_r4_base",
+		"name":{"str": "<color_light_green>맹세의 반지(No.55 토끼 소녀)</color>","str_pl":"<color_light_green>맹세의 반지(No.55 토끼 소녀)</color>"},
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_ev6_springheel", "no_fail": true, "level": 0 },
+		"symbol":"o"
+	}
+,
+	{
+		"id":"kz_ncard_ev6_r4_no_02",
+		"type":"TOOL_ARMOR",
+		"copy-from":"kz_ncard_r4_base",
+		"name":{"str": "<color_light_green>맹세의 반지(No.56 토끼 소녀)</color>","str_pl":"<color_light_green>맹세의 반지(No.56 토끼 소녀)</color>"},
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_ev6_springheel", "no_fail": true, "level": 0 },
+		"symbol":"o"
+	}
+
+
+]

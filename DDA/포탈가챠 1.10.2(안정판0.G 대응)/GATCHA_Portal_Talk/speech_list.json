@@ -1,0 +1,395 @@
+[
+	{
+		"id":"mon_ncard_r3_no_01",
+		"extend":{"special_attacks": [ [ "PARROT", 1100 ] ] },
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_r3_no_01"
+	}
+,
+	{
+		"id":"mon_ncard_r3_no_02",
+		"extend":{"special_attacks": [ [ "PARROT", 1100 ] ] },
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_r3_no_02"
+	}
+,
+	{
+		"id":"mon_ncard_r3_no_03",
+		"extend":{"special_attacks": [ [ "PARROT", 1100 ] ] },
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_r3_no_03"
+	}
+,
+	{
+		"id":"mon_ncard_r3_no_04",
+		"extend":{"special_attacks": [ [ "PARROT", 1100 ] ] },
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_r3_no_04"
+	}
+,
+	{
+		"id":"mon_ncard_r3_no_05",
+		"extend":{"special_attacks": [ [ "PARROT", 1100 ] ] },
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_r3_no_05"
+	}
+,
+	{
+		"id":"mon_ncard_r3_no_06",
+		"extend":{"special_attacks": [ [ "PARROT", 1100 ] ] },
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_r3_no_06"
+	}
+,
+	{
+		"id":"mon_ncard_r3_no_07",
+		"extend":{"special_attacks": [ [ "PARROT", 1100 ] ] },
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_r3_no_07"
+	}
+,
+	{
+		"id":"mon_ncard_r3_no_08",
+		"extend":{"special_attacks": [ [ "PARROT", 1100 ] ] },
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_r3_no_08"
+	}
+,
+	{
+		"id":"mon_ncard_r3_no_09",
+		"extend":{"special_attacks": [ [ "PARROT", 1100 ] ] },
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_r3_no_09"
+	}
+,
+	{
+		"id":"mon_ncard_r3_no_10",
+		"extend":{"special_attacks": [ [ "PARROT", 1100 ] ] },
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_r3_no_10"
+	}
+,
+	{
+		"id":"mon_ncard_r3_no_11",
+		"extend":{"special_attacks": [ [ "PARROT", 1100 ] ] },
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_r3_no_11"
+	}
+,
+	{
+		"id":"mon_ncard_r3_no_12",
+		"extend":{"special_attacks": [ [ "PARROT", 1100 ] ] },
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_r3_no_12"
+	}
+,
+	{
+		"id":"mon_ncard_r3_no_13",
+		"extend":{"special_attacks": [ [ "PARROT", 1100 ] ] },
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_r3_no_13"
+	}
+,
+	{
+		"id":"mon_ncard_r3_no_14",
+		"extend":{"special_attacks": [ [ "PARROT", 1100 ] ] },
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_r3_no_14"
+	}
+,
+	{
+		"id":"mon_ncard_r4_no_01",
+		"extend":{"special_attacks": [ [ "PARROT", 1100 ] ] },
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_r4_no_01"
+	}
+,
+	{
+		"id":"mon_ncard_r4_no_02",
+		"extend":{"special_attacks": [ [ "PARROT", 1100 ] ] },
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_r4_no_02"
+	}
+,
+	{
+		"id":"mon_ncard_r4_no_03",
+		"extend":{"special_attacks": [ [ "PARROT", 1100 ] ] },
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_r4_no_03"
+	}
+,
+	{
+		"id":"mon_ncard_r4_no_04",
+		"extend":{"special_attacks": [ [ "PARROT", 1100 ] ] },
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_r4_no_04"
+	}
+,
+	{
+		"id":"mon_ncard_s2_r3_no_01",
+		"extend":{"special_attacks": [ [ "PARROT", 1100 ] ] },
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_s2_r3_no_01"
+	}
+,
+	{
+		"id":"mon_ncard_s2_r3_no_02",
+		"extend":{"special_attacks": [ [ "PARROT", 1100 ] ] },
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_s2_r3_no_02"
+	}
+,
+	{
+		"id":"mon_ncard_s2_r3_no_03",
+		"extend":{"special_attacks": [ [ "PARROT", 1100 ] ] },
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_s2_r3_no_03"
+	}
+,
+	{
+		"id":"mon_ncard_s2_r4_no_01",
+		"extend":{"special_attacks": [ [ "PARROT", 1100 ] ] },
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_s2_r4_no_01"
+	}
+,
+	{
+		"id":"mon_ncard_ev1_r3_no_01",
+		"extend":{"special_attacks": [ [ "PARROT", 1100 ] ] },
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_ev1_r3_no_01"
+	}
+,
+	{
+		"id":"mon_ncard_ev1_r3_no_02",
+		"extend":{"special_attacks": [ [ "PARROT", 1100 ] ] },
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_ev1_r3_no_02"
+	}
+,
+	{
+		"id":"mon_ncard_ev1_r3_no_03",
+		"extend":{"special_attacks": [ [ "PARROT", 1100 ] ] },
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_ev1_r3_no_03"
+	}
+,
+	{
+		"id":"mon_ncard_ev1_r3_no_04",
+		"extend":{"special_attacks": [ [ "PARROT", 1100 ] ] },
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_ev1_r3_no_04"
+	}
+,
+	{
+		"id":"mon_ncard_ev2_r3_no_01",
+		"extend":{"special_attacks": [ [ "PARROT", 1100 ] ] },
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_ev2_r3_no_01"
+	}
+,
+	{
+		"id":"mon_ncard_ev2_r3_no_02",
+		"extend":{"special_attacks": [ [ "PARROT", 1100 ] ] },
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_ev2_r3_no_02"
+	}
+,
+	{
+		"id":"mon_ncard_ev2_r3_no_03",
+		"extend":{"special_attacks": [ [ "PARROT", 1100 ] ] },
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_ev2_r3_no_03"
+	}
+,
+	{
+		"id":"mon_ncard_ev2_r3_no_04",
+		"extend":{"special_attacks": [ [ "PARROT", 1100 ] ] },
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_ev2_r3_no_04"
+	}
+,
+	{
+		"id":"mon_ncard_ev1_r4_no_01",
+		"extend":{"special_attacks": [ [ "PARROT", 1100 ] ] },
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_ev1_r4_no_01"
+	}
+,
+	{
+		"id":"mon_ncard_ev1_r4_no_02",
+		"extend":{"special_attacks": [ [ "PARROT", 1100 ] ] },
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_ev1_r4_no_02"
+	}
+,
+	{
+		"id":"mon_ncard_ev2_r4_no_01",
+		"extend":{"special_attacks": [ [ "PARROT", 1100 ] ] },
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_ev2_r4_no_01"
+	}
+,
+	{
+		"id":"mon_ncard_ev2_r4_no_02",
+		"extend":{"special_attacks": [ [ "PARROT", 1100 ] ] },
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_ev2_r4_no_02"
+	}
+,
+	{
+		"id":"mon_ncard_ev3_r3_no_01",
+		"extend":{"special_attacks": [ [ "PARROT", 1100 ] ] },
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_ev3_r3_no_01"
+	}
+,
+	{
+		"id":"mon_ncard_ev3_r3_no_02",
+		"extend":{"special_attacks": [ [ "PARROT", 1100 ] ] },
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_ev3_r3_no_02"
+	}
+,
+	{
+		"id":"mon_ncard_ev3_r3_no_03",
+		"extend":{"special_attacks": [ [ "PARROT", 1100 ] ] },
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_ev3_r3_no_03"
+	}
+,
+	{
+		"id":"mon_ncard_ev3_r3_no_04",
+		"extend":{"special_attacks": [ [ "PARROT", 1100 ] ] },
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_ev3_r3_no_04"
+	}
+,
+	{
+		"id":"mon_ncard_ev3_r4_no_01",
+		"extend":{"special_attacks": [ [ "PARROT", 1100 ] ] },
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_ev3_r4_no_01"
+	}
+,
+	{
+		"id":"mon_ncard_ev3_r4_no_02",
+		"extend":{"special_attacks": [ [ "PARROT", 1100 ] ] },
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_ev3_r4_no_02"
+	}
+,
+	{
+		"id":"mon_ncard_ev4_r3_no_01",
+		"extend":{"special_attacks": [ [ "PARROT", 1100 ] ] },
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_ev4_r3_no_01"
+	}
+,
+	{
+		"id":"mon_ncard_ev4_r3_no_02",
+		"extend":{"special_attacks": [ [ "PARROT", 1100 ] ] },
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_ev4_r3_no_02"
+	}
+,
+	{
+		"id":"mon_ncard_ev4_r3_no_03",
+		"extend":{"special_attacks": [ [ "PARROT", 1100 ] ] },
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_ev4_r3_no_03"
+	}
+,
+	{
+		"id":"mon_ncard_ev4_r3_no_04",
+		"extend":{"special_attacks": [ [ "PARROT", 1100 ] ] },
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_ev4_r3_no_04"
+	}
+,
+	{
+		"id":"mon_ncard_ev4_r3_no_05",
+		"extend":{"special_attacks": [ [ "PARROT", 1100 ] ] },
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_ev4_r3_no_05"
+	}
+,
+	{
+		"id":"mon_ncard_ev4_r3_no_06",
+		"extend":{"special_attacks": [ [ "PARROT", 1100 ] ] },
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_ev4_r3_no_06"
+	}
+,
+	{
+		"id":"mon_ncard_ev4_r4_no_01",
+		"extend":{"special_attacks": [ [ "PARROT", 1100 ] ] },
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_ev4_r4_no_01"
+	}
+,
+	{
+		"id":"mon_ncard_ev4_r4_no_02",
+		"extend":{"special_attacks": [ [ "PARROT", 1100 ] ] },
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_ev4_r4_no_02"
+	}
+,
+	{
+		"id":"mon_ncard_ev5_r3_no_01",
+		"extend":{"special_attacks": [ [ "PARROT", 1100 ] ] },
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_ev5_r3_no_01"
+	}
+,
+	{
+		"id":"mon_ncard_ev5_r3_no_02",
+		"extend":{"special_attacks": [ [ "PARROT", 1100 ] ] },
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_ev5_r3_no_02"
+	}
+,
+	{
+		"id":"mon_ncard_ev5_r3_no_03",
+		"extend":{"special_attacks": [ [ "PARROT", 1100 ] ] },
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_ev5_r3_no_03"
+	}
+,
+	{
+		"id":"mon_ncard_ev5_r3_no_04",
+		"extend":{"special_attacks": [ [ "PARROT", 1100 ] ] },
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_ev5_r3_no_04"
+	}
+,
+	{
+		"id":"mon_ncard_ev5_r4_no_01",
+		"extend":{"special_attacks": [ [ "PARROT", 1100 ] ] },
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_ev5_r4_no_01"
+	}
+,
+	{
+		"id":"mon_ncard_ev5_r4_no_02",
+		"extend":{"special_attacks": [ [ "PARROT", 1100 ] ] },
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_ev5_r4_no_02"
+	}
+,
+	{
+		"id":"mon_ncard_ev6_r4_no_01",
+		"extend":{"special_attacks": [ [ "PARROT", 1100 ] ] },
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_ev6_r4_no_01"
+	}
+,
+	{
+		"id":"mon_ncard_ev6_r4_no_02",
+		"extend":{"special_attacks": [ [ "PARROT", 1100 ] ] },
+		"type":"MONSTER",
+		"copy-from":"mon_ncard_ev6_r4_no_02"
+	}
+
+
+]

@@ -64,13 +64,11 @@
     "type": "technique",
     "id": "tec_taekwondo_disarm",
     "name": "Snatch Weapon",
-    "messages": [ "You snatch %s's weapon and kick", "<npcname> snatches %s's weapon and kicks" ],
+    "messages": [ "You snatch %s's weapon", "<npcname> snatches %s's weapon" ],
     "skill_requirements": [ { "name": "unarmed", "level": 4 } ],
     "unarmed_allowed": true,
-    "crit_ok": true,
-    "dodge_counter": true,
-    "take_weapon": true,
-    "mult_bonuses": [ { "stat": "movecost", "scale": 0.0 } ]
+    "weighting": 2,
+    "take_weapon": true
   },
   {
     "type": "technique",

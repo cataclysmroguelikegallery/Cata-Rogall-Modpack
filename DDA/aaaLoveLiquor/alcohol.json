@@ -1,0 +1,302 @@
+[
+  {
+    "type": "COMESTIBLE",
+    "id": "stout",
+    "name": { "str_sp": "stout" },
+    "copy-from": "stout",
+    "healthy": 0
+  },
+  
+  {
+    "type": "COMESTIBLE",
+    "id": "madeira",
+    "name": { "str_sp": "Madeira wine" },
+    "copy-from": "madeira",
+    "healthy": 0
+  },
+  
+  {
+    "type": "COMESTIBLE",
+    "id": "single_malt_whiskey",
+    "name": { "str_sp": "single malt whiskey" },
+    "copy-from": "single_malt_whiskey",
+    "healthy": 0
+  },
+  
+  {
+    "type": "COMESTIBLE",
+    "id": "single_pot_whiskey",
+    "name": { "str_sp": "single pot still Irish whiskey" },
+    "copy-from": "single_pot_whiskey",
+    "healthy": 0
+  },
+  
+  {
+    "type": "COMESTIBLE",
+    "id": "cheap_whiskey",
+    "name": { "str_sp": "cheap whiskey" },
+    "copy-from": "cheap_whiskey",
+    "healthy": 0
+  },
+  
+  {
+    "type": "COMESTIBLE",
+    "id": "canadian_whiskey",
+    "name": { "str_sp": "Canadian whiskey" },
+    "copy-from": "canadian_whiskey",
+    "healthy": 0
+  },
+  
+  
+  {
+    "type": "COMESTIBLE",
+    "id": "india_pale_ale",
+    "name": { "str_sp": "India pale ale" },
+    "copy-from": "india_pale_ale",
+    "healthy": 0
+  },
+  
+  {
+    "type": "COMESTIBLE",
+    "id": "pale_ale",
+    "name": { "str_sp": "American pale ale" },
+    "copy-from": "pale_ale",
+    "healthy": 0
+  },
+  
+  {
+    "type": "COMESTIBLE",
+    "id": "european_pilsner",
+    "name": { "str_sp": "European pilsner" },
+    "copy-from": "european_pilsner",
+    "healthy": 0
+  },
+  
+  {
+    "type": "COMESTIBLE",
+    "id": "bristol_sherry",
+    "name": { "str_sp": "Bristol Cream" },
+    "copy-from": "bristol_sherry",
+    "healthy": 0
+  },
+  
+  {
+    "type": "COMESTIBLE",
+    "id": "belgian_ale",
+    "name": { "str_sp": "Belgian ale" },
+    "copy-from": "belgian_ale",
+    "healthy": 0
+  },
+  
+  {
+    "type": "COMESTIBLE",
+    "id": "imperial_stout",
+    "name": { "str_sp": "imperial stout" },
+    "copy-from": "imperial_stout",
+    "healthy": 0
+  },
+  
+  {
+    "type": "COMESTIBLE",
+    "id": "wine_barley",
+    "name": { "str_sp": "barley wine" },
+    "copy-from": "wine_barley",
+    "healthy": 0
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "whiskey",
+    "name": { "str_sp": "whiskey" },
+    "copy-from": "whiskey",
+    "healthy": 0
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "vodka",
+    "name": { "str_sp": "vodka" },
+    "copy-from": "vodka",
+    "healthy": 0
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "gin",
+    "name": { "str_sp": "gin" },
+    "copy-from": "gin",
+    "healthy": 0
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "rum",
+    "name": { "str_sp": "rum" },
+    "copy-from": "rum",
+    "healthy": 0
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "tequila",
+    "name": { "str_sp": "tequila" },
+    "copy-from": "tequila",
+    "healthy": 0
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "triple_sec",
+    "name": { "str_sp": "triple sec" },
+    "copy-from": "triple_sec",
+    "healthy": 0
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "bum_wine",
+    "name": { "str_sp": "cheap wine" },
+    "copy-from": "bum_wine",
+    "healthy": 0
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "mixed_alcohol_strong",
+    "name": { "str_sp": "strong mixed alcohol" },
+    "copy-from": "mixed_alcohol_strong",
+    "healthy": -2
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "mixed_alcohol_weak",
+    "name": { "str_sp": "weak mixed alcohol" },
+    "copy-from": "mixed_alcohol_weak",
+    "healthy": -1
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "fruit_wine",
+    "name": { "str_sp": "fruit wine" },
+    "copy-from": "fruit_wine",
+    "healthy": 0
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "brandy",
+    "name": { "str_sp": "brandy" },
+    "copy-from": "brandy",
+    "healthy": 0
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "irish_coffee",
+    "name": { "str_sp": "Irish coffee" },
+    "copy-from": "irish_coffee",
+    "healthy": 0
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "long_island",
+    "name": { "str_sp": "Long Island iced tea" },
+    "copy-from": "long_island",
+    "healthy": 0
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "drink_rumcola",
+    "name": { "str_sp": "rum & cola" },
+    "copy-from": "drink_rumcola",
+    "healthy": 0
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "sherry",
+    "name": { "str_sp": "sherry" },
+    "copy-from": "sherry",
+    "healthy": 0
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "drink_hobo",
+    "name": { "str_sp": "fancy hobo" },
+    "copy-from": "drink_hobo",
+    "healthy": 0
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "drink_kalimotxo",
+    "name": { "str_sp": "kalimotxo" },
+    "copy-from": "drink_kalimotxo",
+    "healthy": 0
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "drink_wsour",
+    "name": { "str": "whiskey sour" },
+    "copy-from": "drink_wsour",
+    "healthy": 0
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "drink_royrogers",
+    "name": { "str": "Roy Rogers drink" },
+    "copy-from": "drink_royrogers",
+    "healthy": 0
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "eggnog_spiked",
+    "name": { "str": "spiked eggnog" },
+    "copy-from": "eggnog_spiked",
+    "healthy": 0
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "drink_gunfire",
+    "name": { "str_sp": "gunfire cocktail" },
+    "copy-from": "drink_gunfire",
+    "healthy": 0
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "drink_karsk",
+    "name": { "str_sp": "karsk" },
+    "copy-from": "drink_karsk",
+    "healthy": 0
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "drink_gintonic",
+    "name": { "str_sp": "gin and tonic" },
+    "copy-from": "drink_gintonic",
+    "healthy": 0
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "drink_pinacolada",
+    "name": { "str_sp": "pina colada" },
+    "copy-from": "drink_pinacolada",
+    "healthy": 0
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "drink_tequilasunrise",
+    "name": { "str_sp": "tequila sunrise" },
+    "copy-from": "drink_tequilasunrise",
+    "healthy": 0
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "moonshine",
+    "name": { "str_sp": "moonshine" },
+    "copy-from": "moonshine",
+    "healthy": 0
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "sake_filtered",
+    "name": { "str_sp": "sake" },
+    "copy-from": "sake_filtered",
+    "healthy": 0
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "drink_hard_seltzer",
+    "name": { "str_sp": "hard seltzer" },
+    "copy-from": "drink_hard_seltzer",
+    "healthy": 0
+  }
+]

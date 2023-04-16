@@ -1,0 +1,25 @@
+[
+	{
+		"id":"item_group_ncard_r2",
+		"type":"item_group",
+		"subtype":"distribution",
+		"items":[["ncard_r2_grenade_hack",2],
+				["ncard_r2_mi_go_guard",10],
+				["ncard_r2_fungal_fighter",10],
+				["ncard_r2_flying_polyp",10],
+				["ncard_r2_thing",3],
+				["ncard_r2_flesh_golem",0],
+				["ncard_r2_jabberwock",2],
+				["ncard_r2_giant_crayfish",5],
+				["ncard_r2_cow",1],
+				["ncard_r2_dog_bull",10],
+				["ncard_r2_dog_samoyed",10],
+				["ncard_r2_razorclaw",10],
+				["ncard_r2_gas_zombie",0],
+				["ncard_r2_ant_small",10],
+				["ncard_r2_ant_acid_small",10],
+				["ncard_r2_zombie_kevlar_1",10]]
+	}
+
+
+]

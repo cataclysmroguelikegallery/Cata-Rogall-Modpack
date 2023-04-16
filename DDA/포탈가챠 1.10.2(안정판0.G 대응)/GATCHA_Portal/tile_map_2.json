@@ -1,0 +1,39 @@
+[
+		
+		
+		{
+		"type": "mod_tileset","compatibility": [
+		"Custom Tileset",
+		"MshockXottoplus",
+		"MSX++DEAD_PEOPLE",
+		"UNDEAD_PEOPLE",
+		"ChestHole32",
+		"UNDEAD_PEOPLE_BASE",
+		"UltimateCataclysm",
+		"UltimateCataclysmDemo",
+		"Chibi_Ultica",
+		"MshockXottoplus",
+		"Alternative Ultica",
+		"MshockXottoplus"
+		],
+		"tiles-new": [
+		{
+		"file": "tile_config_GATCHA_64x80.png",
+		"tiles": [
+		{ "id": "mon_ncard_r4_no_01", "fg":0, "rotates": false },
+		{ "id": "mon_ncard_r4_no_02", "fg":1, "rotates": false },
+		{ "id": "mon_ncard_r4_no_03", "fg":2, "rotates": false },
+		{ "id": "mon_ncard_r4_no_04", "fg":3, "rotates": false }
+		
+		],
+		"sprite_width": 64,
+		"sprite_height": 80,
+		"sprite_offset_x": -16,
+		"sprite_offset_y": -48
+		      }
+		
+		    ]
+		  }
+
+
+]

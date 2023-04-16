@@ -1,0 +1,32 @@
+[
+	{
+		"id":"ef_ncard_ev1_cm_holy_cocktail",
+		"type":"effect_type",
+		"name":[ "성스러운 샴페인" ],
+		"desc":[ "당신은 성스러운 알코올의 영향을 받고 있어요!" ],
+		"apply_message":"당신은 성스러운 알코올의 영향을 받고 있어요!",
+		"rating":"good",
+		"max_duration":"20 m",
+		"max_intensity":1,
+		"int_dur_factor":"20 m",
+		"base_mods":{ "speed_mod": [ 10 ], "dodge_mod": [ 1 ], "str_mod": [ 1 ],"per_mod": [ 1 ], "bash_mod": [ 1 ],"health_min": [ 1 ], "health_chance": [ 120 ] },
+		"show_in_info":true,
+		"removes_effects":[ "frostbite","frostbite_recovery","cold","shakes","fungus","common_cold","onfire","hot","hot_speed","relax_gas"]
+	}
+,
+	{
+		"id":"ef_ncard_ev2_cm_omochi",
+		"type":"effect_type",
+		"name":[ "힘모찌" ],
+		"desc":[ "당신은 모찌의 영향을 받고있다!" ],
+		"apply_message":"당신은 모찌의 영향을 받고있다!",
+		"rating":"good",
+		"max_duration":"20 m",
+		"max_intensity":1,
+		"int_dur_factor":"30 m",
+		"base_mods":{ "dodge_mod": [ 1 ], "str_mod": [ 3 ], "health_min": [ 1 ], "health_chance": [ 120 ] },
+		"show_in_info":true
+	}
+
+
+]

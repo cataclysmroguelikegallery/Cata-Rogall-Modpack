@@ -1,0 +1,12 @@
+[
+  {
+    "type": "mutation",
+    "id": "WINGS_MANA",
+    "name": { "str": "마나의 날개" },
+    "points": 0,
+    "visibility": 0,
+    "ugliness": 0,
+    "description": "목걸이에서 방출되는 마나가 날개를 형상화하여 낙하 피해를 무효화합니다.",
+    "flags": [ "WINGS_2" ]
+  }
+]

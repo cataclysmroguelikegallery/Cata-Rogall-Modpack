@@ -1,0 +1,61 @@
+[
+
+		
+		{
+		"type": "mod_tileset",
+		"compatibility": [
+		"Ultica_iso"
+		],
+		  "tile_info": [
+		    { "pixelscale": 2, "width": 48, "height": 24, "iso": true }
+		  ],
+		"tiles-new": [
+		{
+		"file": "tiles_override/tile_config_140x140.png",
+		"tiles": [
+		{ "id": "mon_ncard_ev5_r4_no_01", "rotates": false,"animated": true,
+		     "fg":[
+		       {"weight": 48,   "sprite":0},
+		       {"weight": 8,     "sprite":1},
+		       {"weight": 8,     "sprite":2},
+		       {"weight": 16,   "sprite":3}
+		     ]
+		},
+		{ "id": "mon_ncard_ev5_r4_no_02", "rotates": false,"animated": true,
+		     "fg":[
+		       {"weight": 48,   "sprite":4},
+		       {"weight": 8,     "sprite":5},
+		       {"weight": 8,     "sprite":6},
+		       {"weight": 16,   "sprite":7}
+		     ]
+		},
+		{ "id": "mon_ncard_ev6_r4_no_01", "rotates": false,"animated": true,
+		     "fg":[
+		       {"weight": 48,   "sprite":8},
+		       {"weight": 8,     "sprite":9},
+		       {"weight": 8,     "sprite":10},
+		       {"weight": 16,   "sprite":11}
+		     ]
+		},
+		{ "id": "mon_ncard_ev6_r4_no_02", "rotates": false,"animated": true,
+		     "fg":[
+		       {"weight": 48,   "sprite":12},
+		       {"weight": 8,     "sprite":13},
+		       {"weight": 8,     "sprite":14},
+		       {"weight": 16,   "sprite":15}
+		     ]
+		}
+		],
+		
+		"sprite_width": 140,
+		"sprite_height": 140,
+		"sprite_offset_x": -110,
+		"sprite_offset_y": -262,
+		"pixelscale": 2
+		}
+		
+		    ]
+		  }
+
+
+]

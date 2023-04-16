@@ -1,0 +1,381 @@
+[
+	{
+		"id":"TALK_K_r4_no_01",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥（친애의 감정이 담긴 표정으로 미소를 짓자 조용히 몸을 맡겨 왔다）",
+		"responses":[ { "text": "（맹세를 주고받았다）", "topic": "TALK_DONE","effect":[{"u_message": "평온한 분위기 속에서 엄밀히 다짐했습니다.\n<color_light_red>당신은 맹세의 반지를 받았습니다.</color>","type": "good","popup": true },{ "u_add_morale": "morale_ncard_k", "bonus": 120,"max_bonus": 120,"duration": "3 d","decay_start": "3 d"},{ "u_add_var": "k_r4_no_01", "type": "counter", "context": "k","value": "1" },{ "u_spawn_item": "kz_ncard_r4_no_01", "count": 1 }] } ]
+	}
+,
+	{
+		"id":"TALK_K_r4_no_02",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥（친애의 감정이 담긴 표정으로 미소를 짓자 조용히 몸을 맡겨 왔다）",
+		"responses":[ { "text": "（맹세를 주고받았다）", "topic": "TALK_DONE","effect":[{"u_message": "평온한 분위기 속에서 엄밀히 다짐했습니다.\n<color_light_red>당신은 맹세의 반지를 받았습니다.</color>","type": "good","popup": true },{ "u_add_morale": "morale_ncard_k", "bonus": 120,"max_bonus": 120,"duration": "3 d","decay_start": "3 d"},{ "u_add_var": "k_r4_no_02", "type": "counter", "context": "k","value": "1" },{ "u_spawn_item": "kz_ncard_r4_no_02", "count": 1 }] } ]
+	}
+,
+	{
+		"id":"TALK_K_r4_no_03",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥（친애의 감정이 담긴 표정으로 미소를 짓자 조용히 몸을 맡겨 왔다）",
+		"responses":[ { "text": "（맹세를 주고받았다）", "topic": "TALK_DONE","effect":[{"u_message": "평온한 분위기 속에서 엄밀히 다짐했습니다.\n<color_light_red>당신은 맹세의 반지를 받았습니다.</color>","type": "good","popup": true },{ "u_add_morale": "morale_ncard_k", "bonus": 120,"max_bonus": 120,"duration": "3 d","decay_start": "3 d"},{ "u_add_var": "k_r4_no_03", "type": "counter", "context": "k","value": "1" },{ "u_spawn_item": "kz_ncard_r4_no_03", "count": 1 }] } ]
+	}
+,
+	{
+		"id":"TALK_K_r4_no_04",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥（친애의 감정이 담긴 표정으로 미소를 짓자 조용히 몸을 맡겨 왔다）",
+		"responses":[ { "text": "（맹세를 주고받았다）", "topic": "TALK_DONE","effect":[{"u_message": "평온한 분위기 속에서 엄밀히 다짐했습니다.\n<color_light_red>당신은 맹세의 반지를 받았습니다.</color>","type": "good","popup": true },{ "u_add_morale": "morale_ncard_k", "bonus": 120,"max_bonus": 120,"duration": "3 d","decay_start": "3 d"},{ "u_add_var": "k_r4_no_04", "type": "counter", "context": "k","value": "1" },{ "u_spawn_item": "kz_ncard_r4_no_04", "count": 1 }] } ]
+	}
+,
+	{
+		"id":"TALK_K_r3_no_01",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥（친애의 감정이 담긴 표정으로 미소를 짓자 조용히 몸을 맡겨 왔다）",
+		"responses":[ { "text": "（맹세를 주고받았다）", "topic": "TALK_DONE","effect":[{"u_message": "평온한 분위기 속에서 엄밀히 다짐했습니다.\n<color_light_red>당신은 맹세의 반지를 받았습니다.</color>","type": "good","popup": true },{ "u_add_morale": "morale_ncard_k", "bonus": 120,"max_bonus": 120,"duration": "3 d","decay_start": "3 d"},{ "u_add_var": "k_r3_no_01", "type": "counter", "context": "k","value": "1" },{ "u_spawn_item": "kz_ncard_r3_no_01", "count": 1 }] } ]
+	}
+,
+	{
+		"id":"TALK_K_r3_no_02",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥（친애의 감정이 담긴 표정으로 미소를 짓자 조용히 몸을 맡겨 왔다）",
+		"responses":[ { "text": "（맹세를 주고받았다）", "topic": "TALK_DONE","effect":[{"u_message": "평온한 분위기 속에서 엄밀히 다짐했습니다.\n<color_light_red>당신은 맹세의 반지를 받았습니다.</color>","type": "good","popup": true },{ "u_add_morale": "morale_ncard_k", "bonus": 120,"max_bonus": 120,"duration": "3 d","decay_start": "3 d"},{ "u_add_var": "k_r3_no_02", "type": "counter", "context": "k","value": "1" },{ "u_spawn_item": "kz_ncard_r3_no_02", "count": 1 }] } ]
+	}
+,
+	{
+		"id":"TALK_K_r3_no_03",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥（친애의 감정이 담긴 표정으로 미소를 짓자 조용히 몸을 맡겨 왔다）",
+		"responses":[ { "text": "（맹세를 주고받았다）", "topic": "TALK_DONE","effect":[{"u_message": "평온한 분위기 속에서 엄밀히 다짐했습니다.\n<color_light_red>당신은 맹세의 반지를 받았습니다.</color>","type": "good","popup": true },{ "u_add_morale": "morale_ncard_k", "bonus": 120,"max_bonus": 120,"duration": "3 d","decay_start": "3 d"},{ "u_add_var": "k_r3_no_03", "type": "counter", "context": "k","value": "1" },{ "u_spawn_item": "kz_ncard_r3_no_03", "count": 1 }] } ]
+	}
+,
+	{
+		"id":"TALK_K_r3_no_04",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥（친애의 감정이 담긴 표정으로 미소를 짓자 조용히 몸을 맡겨 왔다）",
+		"responses":[ { "text": "（맹세를 주고받았다）", "topic": "TALK_DONE","effect":[{"u_message": "평온한 분위기 속에서 엄밀히 다짐했습니다.\n<color_light_red>당신은 맹세의 반지를 받았습니다.</color>","type": "good","popup": true },{ "u_add_morale": "morale_ncard_k", "bonus": 120,"max_bonus": 120,"duration": "3 d","decay_start": "3 d"},{ "u_add_var": "k_r3_no_04", "type": "counter", "context": "k","value": "1" },{ "u_spawn_item": "kz_ncard_r3_no_04", "count": 1 }] } ]
+	}
+,
+	{
+		"id":"TALK_K_r3_no_05",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥（친애의 감정이 담긴 표정으로 미소를 짓자 조용히 몸을 맡겨 왔다）",
+		"responses":[ { "text": "（맹세를 주고받았다）", "topic": "TALK_DONE","effect":[{"u_message": "평온한 분위기 속에서 엄밀히 다짐했습니다.\n<color_light_red>당신은 맹세의 반지를 받았습니다.</color>","type": "good","popup": true },{ "u_add_morale": "morale_ncard_k", "bonus": 120,"max_bonus": 120,"duration": "3 d","decay_start": "3 d"},{ "u_add_var": "k_r3_no_05", "type": "counter", "context": "k","value": "1" },{ "u_spawn_item": "kz_ncard_r3_no_05", "count": 1 }] } ]
+	}
+,
+	{
+		"id":"TALK_K_r3_no_06",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥（친애의 감정이 담긴 표정으로 미소를 짓자 조용히 몸을 맡겨 왔다）",
+		"responses":[ { "text": "（맹세를 주고받았다）", "topic": "TALK_DONE","effect":[{"u_message": "평온한 분위기 속에서 엄밀히 다짐했습니다.\n<color_light_red>당신은 맹세의 반지를 받았습니다.</color>","type": "good","popup": true },{ "u_add_morale": "morale_ncard_k", "bonus": 120,"max_bonus": 120,"duration": "3 d","decay_start": "3 d"},{ "u_add_var": "k_r3_no_06", "type": "counter", "context": "k","value": "1" },{ "u_spawn_item": "kz_ncard_r3_no_06", "count": 1 }] } ]
+	}
+,
+	{
+		"id":"TALK_K_r3_no_07",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥（친애의 감정이 담긴 표정으로 미소를 짓자 조용히 몸을 맡겨 왔다）",
+		"responses":[ { "text": "（맹세를 주고받았다）", "topic": "TALK_DONE","effect":[{"u_message": "평온한 분위기 속에서 엄밀히 다짐했습니다.\n<color_light_red>당신은 맹세의 반지를 받았습니다.</color>","type": "good","popup": true },{ "u_add_morale": "morale_ncard_k", "bonus": 120,"max_bonus": 120,"duration": "3 d","decay_start": "3 d"},{ "u_add_var": "k_r3_no_07", "type": "counter", "context": "k","value": "1" },{ "u_spawn_item": "kz_ncard_r3_no_07", "count": 1 }] } ]
+	}
+,
+	{
+		"id":"TALK_K_r3_no_08",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥（친애의 감정이 담긴 표정으로 미소를 짓자 조용히 몸을 맡겨 왔다）",
+		"responses":[ { "text": "（맹세를 주고받았다）", "topic": "TALK_DONE","effect":[{"u_message": "평온한 분위기 속에서 엄밀히 다짐했습니다.\n<color_light_red>당신은 맹세의 반지를 받았습니다.</color>","type": "good","popup": true },{ "u_add_morale": "morale_ncard_k", "bonus": 120,"max_bonus": 120,"duration": "3 d","decay_start": "3 d"},{ "u_add_var": "k_r3_no_08", "type": "counter", "context": "k","value": "1" },{ "u_spawn_item": "kz_ncard_r3_no_08", "count": 1 }] } ]
+	}
+,
+	{
+		"id":"TALK_K_r3_no_09",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥（친애의 감정이 담긴 표정으로 미소를 짓자 조용히 몸을 맡겨 왔다）",
+		"responses":[ { "text": "（맹세를 주고받았다）", "topic": "TALK_DONE","effect":[{"u_message": "평온한 분위기 속에서 엄밀히 다짐했습니다.\n<color_light_red>당신은 맹세의 반지를 받았습니다.</color>","type": "good","popup": true },{ "u_add_morale": "morale_ncard_k", "bonus": 120,"max_bonus": 120,"duration": "3 d","decay_start": "3 d"},{ "u_add_var": "k_r3_no_09", "type": "counter", "context": "k","value": "1" },{ "u_spawn_item": "kz_ncard_r3_no_09", "count": 1 }] } ]
+	}
+,
+	{
+		"id":"TALK_K_r3_no_10",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥（친애의 감정이 담긴 표정으로 미소를 짓자 조용히 몸을 맡겨 왔다）",
+		"responses":[ { "text": "（맹세를 주고받았다）", "topic": "TALK_DONE","effect":[{"u_message": "평온한 분위기 속에서 엄밀히 다짐했습니다.\n<color_light_red>당신은 맹세의 반지를 받았습니다.</color>","type": "good","popup": true },{ "u_add_morale": "morale_ncard_k", "bonus": 120,"max_bonus": 120,"duration": "3 d","decay_start": "3 d"},{ "u_add_var": "k_r3_no_10", "type": "counter", "context": "k","value": "1" },{ "u_spawn_item": "kz_ncard_r3_no_10", "count": 1 }] } ]
+	}
+,
+	{
+		"id":"TALK_K_r3_no_11",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥（친애의 감정이 담긴 표정으로 미소를 짓자 조용히 몸을 맡겨 왔다）",
+		"responses":[ { "text": "（맹세를 주고받았다）", "topic": "TALK_DONE","effect":[{"u_message": "평온한 분위기 속에서 엄밀히 다짐했습니다.\n<color_light_red>당신은 맹세의 반지를 받았습니다.</color>","type": "good","popup": true },{ "u_add_morale": "morale_ncard_k", "bonus": 120,"max_bonus": 120,"duration": "3 d","decay_start": "3 d"},{ "u_add_var": "k_r3_no_11", "type": "counter", "context": "k","value": "1" },{ "u_spawn_item": "kz_ncard_r3_no_11", "count": 1 }] } ]
+	}
+,
+	{
+		"id":"TALK_K_s2_r4_no_01",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥（친애의 감정이 담긴 표정으로 미소를 짓자 조용히 몸을 맡겨 왔다）",
+		"responses":[ { "text": "（맹세를 주고받았다）", "topic": "TALK_DONE","effect":[{"u_message": "평온한 분위기 속에서 엄밀히 다짐했습니다.\n<color_light_red>당신은 맹세의 반지를 받았습니다.</color>","type": "good","popup": true },{ "u_add_morale": "morale_ncard_k", "bonus": 120,"max_bonus": 120,"duration": "3 d","decay_start": "3 d"},{ "u_add_var": "k_s2_r4_no_01", "type": "counter", "context": "k","value": "1" },{ "u_spawn_item": "kz_ncard_s2_r4_no_01", "count": 1 }] } ]
+	}
+,
+	{
+		"id":"TALK_K_s2_r3_no_01",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥（친애의 감정이 담긴 표정으로 미소를 짓자 조용히 몸을 맡겨 왔다）",
+		"responses":[ { "text": "（맹세를 주고받았다）", "topic": "TALK_DONE","effect":[{"u_message": "평온한 분위기 속에서 엄밀히 다짐했습니다.\n<color_light_red>당신은 맹세의 반지를 받았습니다.</color>","type": "good","popup": true },{ "u_add_morale": "morale_ncard_k", "bonus": 120,"max_bonus": 120,"duration": "3 d","decay_start": "3 d"},{ "u_add_var": "k_s2_r3_no_01", "type": "counter", "context": "k","value": "1" },{ "u_spawn_item": "kz_ncard_s2_r3_no_01", "count": 1 }] } ]
+	}
+,
+	{
+		"id":"TALK_K_s2_r3_no_02",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥（친애의 감정이 담긴 표정으로 미소를 짓자 조용히 몸을 맡겨 왔다）",
+		"responses":[ { "text": "（맹세를 주고받았다）", "topic": "TALK_DONE","effect":[{"u_message": "평온한 분위기 속에서 엄밀히 다짐했습니다.\n<color_light_red>당신은 맹세의 반지를 받았습니다.</color>","type": "good","popup": true },{ "u_add_morale": "morale_ncard_k", "bonus": 120,"max_bonus": 120,"duration": "3 d","decay_start": "3 d"},{ "u_add_var": "k_s2_r3_no_02", "type": "counter", "context": "k","value": "1" },{ "u_spawn_item": "kz_ncard_s2_r3_no_02", "count": 1 }] } ]
+	}
+,
+	{
+		"id":"TALK_K_s2_r3_no_03",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥（친애의 감정이 담긴 표정으로 미소를 짓자 조용히 몸을 맡겨 왔다）",
+		"responses":[ { "text": "（맹세를 주고받았다）", "topic": "TALK_DONE","effect":[{"u_message": "평온한 분위기 속에서 엄밀히 다짐했습니다.\n<color_light_red>당신은 맹세의 반지를 받았습니다.</color>","type": "good","popup": true },{ "u_add_morale": "morale_ncard_k", "bonus": 120,"max_bonus": 120,"duration": "3 d","decay_start": "3 d"},{ "u_add_var": "k_s2_r3_no_03", "type": "counter", "context": "k","value": "1" },{ "u_spawn_item": "kz_ncard_s2_r3_no_03", "count": 1 }] } ]
+	}
+,
+	{
+		"id":"TALK_K_s2_r3_no_04",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥（친애의 감정이 담긴 표정으로 미소를 짓자 조용히 몸을 맡겨 왔다）",
+		"responses":[ { "text": "（맹세를 주고받았다）", "topic": "TALK_DONE","effect":[{"u_message": "평온한 분위기 속에서 엄밀히 다짐했습니다.\n<color_light_red>당신은 맹세의 반지를 받았습니다.</color>","type": "good","popup": true },{ "u_add_morale": "morale_ncard_k", "bonus": 120,"max_bonus": 120,"duration": "3 d","decay_start": "3 d"},{ "u_add_var": "k_s2_r3_no_04", "type": "counter", "context": "k","value": "1" },{ "u_spawn_item": "kz_ncard_s2_r3_no_04", "count": 1 }] } ]
+	}
+,
+	{
+		"id":"TALK_K_ev1_r4_no_01",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥（친애의 감정이 담긴 표정으로 미소를 짓자 조용히 몸을 맡겨 왔다）",
+		"responses":[ { "text": "（맹세를 주고받았다）", "topic": "TALK_DONE","effect":[{"u_message": "평온한 분위기 속에서 엄밀히 다짐했습니다.\n<color_light_red>당신은 맹세의 반지를 받았습니다.</color>","type": "good","popup": true },{ "u_add_morale": "morale_ncard_k", "bonus": 120,"max_bonus": 120,"duration": "3 d","decay_start": "3 d"},{ "u_add_var": "k_ev1_r4_no_01", "type": "counter", "context": "k","value": "1" },{ "u_spawn_item": "kz_ncard_ev1_r4_no_01", "count": 1 }] } ]
+	}
+,
+	{
+		"id":"TALK_K_ev1_r4_no_02",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥（친애의 감정이 담긴 표정으로 미소를 짓자 조용히 몸을 맡겨 왔다）",
+		"responses":[ { "text": "（맹세를 주고받았다）", "topic": "TALK_DONE","effect":[{"u_message": "평온한 분위기 속에서 엄밀히 다짐했습니다.\n<color_light_red>당신은 맹세의 반지를 받았습니다.</color>","type": "good","popup": true },{ "u_add_morale": "morale_ncard_k", "bonus": 120,"max_bonus": 120,"duration": "3 d","decay_start": "3 d"},{ "u_add_var": "k_ev1_r4_no_02", "type": "counter", "context": "k","value": "1" },{ "u_spawn_item": "kz_ncard_ev1_r4_no_02", "count": 1 }] } ]
+	}
+,
+	{
+		"id":"TALK_K_ev2_r4_no_01",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥（친애의 감정이 담긴 표정으로 미소를 짓자 조용히 몸을 맡겨 왔다）",
+		"responses":[ { "text": "（맹세를 주고받았다）", "topic": "TALK_DONE","effect":[{"u_message": "평온한 분위기 속에서 엄밀히 다짐했습니다.\n<color_light_red>당신은 맹세의 반지를 받았습니다.</color>","type": "good","popup": true },{ "u_add_morale": "morale_ncard_k", "bonus": 120,"max_bonus": 120,"duration": "3 d","decay_start": "3 d"},{ "u_add_var": "k_ev2_r4_no_01", "type": "counter", "context": "k","value": "1" },{ "u_spawn_item": "kz_ncard_ev2_r4_no_01", "count": 1 }] } ]
+	}
+,
+	{
+		"id":"TALK_K_ev2_r4_no_02",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥（친애의 감정이 담긴 표정으로 미소를 짓자 조용히 몸을 맡겨 왔다）",
+		"responses":[ { "text": "（맹세를 주고받았다）", "topic": "TALK_DONE","effect":[{"u_message": "평온한 분위기 속에서 엄밀히 다짐했습니다.\n<color_light_red>당신은 맹세의 반지를 받았습니다.</color>","type": "good","popup": true },{ "u_add_morale": "morale_ncard_k", "bonus": 120,"max_bonus": 120,"duration": "3 d","decay_start": "3 d"},{ "u_add_var": "k_ev2_r4_no_02", "type": "counter", "context": "k","value": "1" },{ "u_spawn_item": "kz_ncard_ev2_r4_no_02", "count": 1 }] } ]
+	}
+,
+	{
+		"id":"TALK_K_ev3_r4_no_01",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥（친애의 감정이 담긴 표정으로 미소를 짓자 조용히 몸을 맡겨 왔다）",
+		"responses":[ { "text": "（맹세를 주고받았다）", "topic": "TALK_DONE","effect":[{"u_message": "평온한 분위기 속에서 엄밀히 다짐했습니다.\n<color_light_red>당신은 맹세의 반지를 받았습니다.</color>","type": "good","popup": true },{ "u_add_morale": "morale_ncard_k", "bonus": 120,"max_bonus": 120,"duration": "3 d","decay_start": "3 d"},{ "u_add_var": "k_ev3_r4_no_01", "type": "counter", "context": "k","value": "1" },{ "u_spawn_item": "kz_ncard_ev3_r4_no_01", "count": 1 }] } ]
+	}
+,
+	{
+		"id":"TALK_K_ev3_r4_no_02",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥（친애의 감정이 담긴 표정으로 미소를 짓자 조용히 몸을 맡겨 왔다）",
+		"responses":[ { "text": "（맹세를 주고받았다）", "topic": "TALK_DONE","effect":[{"u_message": "평온한 분위기 속에서 엄밀히 다짐했습니다.\n<color_light_red>당신은 맹세의 반지를 받았습니다.</color>","type": "good","popup": true },{ "u_add_morale": "morale_ncard_k", "bonus": 120,"max_bonus": 120,"duration": "3 d","decay_start": "3 d"},{ "u_add_var": "k_ev3_r4_no_02", "type": "counter", "context": "k","value": "1" },{ "u_spawn_item": "kz_ncard_ev3_r4_no_02", "count": 1 }] } ]
+	}
+,
+	{
+		"id":"TALK_K_ev1_r3_no_01",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥（친애의 감정이 담긴 표정으로 미소를 짓자 조용히 몸을 맡겨 왔다）",
+		"responses":[ { "text": "（맹세를 주고받았다）", "topic": "TALK_DONE","effect":[{"u_message": "평온한 분위기 속에서 엄밀히 다짐했습니다.\n<color_light_red>당신은 맹세의 반지를 받았습니다.</color>","type": "good","popup": true },{ "u_add_morale": "morale_ncard_k", "bonus": 120,"max_bonus": 120,"duration": "3 d","decay_start": "3 d"},{ "u_add_var": "k_ev1_r3_no_01", "type": "counter", "context": "k","value": "1" },{ "u_spawn_item": "kz_ncard_ev1_r3_no_01", "count": 1 }] } ]
+	}
+,
+	{
+		"id":"TALK_K_ev1_r3_no_02",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥（친애의 감정이 담긴 표정으로 미소를 짓자 조용히 몸을 맡겨 왔다）",
+		"responses":[ { "text": "（맹세를 주고받았다）", "topic": "TALK_DONE","effect":[{"u_message": "평온한 분위기 속에서 엄밀히 다짐했습니다.\n<color_light_red>당신은 맹세의 반지를 받았습니다.</color>","type": "good","popup": true },{ "u_add_morale": "morale_ncard_k", "bonus": 120,"max_bonus": 120,"duration": "3 d","decay_start": "3 d"},{ "u_add_var": "k_ev1_r3_no_02", "type": "counter", "context": "k","value": "1" },{ "u_spawn_item": "kz_ncard_ev1_r3_no_02", "count": 1 }] } ]
+	}
+,
+	{
+		"id":"TALK_K_ev1_r3_no_03",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥（친애의 감정이 담긴 표정으로 미소를 짓자 조용히 몸을 맡겨 왔다）",
+		"responses":[ { "text": "（맹세를 주고받았다）", "topic": "TALK_DONE","effect":[{"u_message": "평온한 분위기 속에서 엄밀히 다짐했습니다.\n<color_light_red>당신은 맹세의 반지를 받았습니다.</color>","type": "good","popup": true },{ "u_add_morale": "morale_ncard_k", "bonus": 120,"max_bonus": 120,"duration": "3 d","decay_start": "3 d"},{ "u_add_var": "k_ev1_r3_no_03", "type": "counter", "context": "k","value": "1" },{ "u_spawn_item": "kz_ncard_ev1_r3_no_03", "count": 1 }] } ]
+	}
+,
+	{
+		"id":"TALK_K_ev1_r3_no_04",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥（친애의 감정이 담긴 표정으로 미소를 짓자 조용히 몸을 맡겨 왔다）",
+		"responses":[ { "text": "（맹세를 주고받았다）", "topic": "TALK_DONE","effect":[{"u_message": "평온한 분위기 속에서 엄밀히 다짐했습니다.\n<color_light_red>당신은 맹세의 반지를 받았습니다.</color>","type": "good","popup": true },{ "u_add_morale": "morale_ncard_k", "bonus": 120,"max_bonus": 120,"duration": "3 d","decay_start": "3 d"},{ "u_add_var": "k_ev1_r3_no_04", "type": "counter", "context": "k","value": "1" },{ "u_spawn_item": "kz_ncard_ev1_r3_no_04", "count": 1 }] } ]
+	}
+,
+	{
+		"id":"TALK_K_ev2_r3_no_01",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥（친애의 감정이 담긴 표정으로 미소를 짓자 조용히 몸을 맡겨 왔다）",
+		"responses":[ { "text": "（맹세를 주고받았다）", "topic": "TALK_DONE","effect":[{"u_message": "평온한 분위기 속에서 엄밀히 다짐했습니다.\n<color_light_red>당신은 맹세의 반지를 받았습니다.</color>","type": "good","popup": true },{ "u_add_morale": "morale_ncard_k", "bonus": 120,"max_bonus": 120,"duration": "3 d","decay_start": "3 d"},{ "u_add_var": "k_ev2_r3_no_01", "type": "counter", "context": "k","value": "1" },{ "u_spawn_item": "kz_ncard_ev2_r3_no_01", "count": 1 }] } ]
+	}
+,
+	{
+		"id":"TALK_K_ev2_r3_no_02",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥（친애의 감정이 담긴 표정으로 미소를 짓자 조용히 몸을 맡겨 왔다）",
+		"responses":[ { "text": "（맹세를 주고받았다）", "topic": "TALK_DONE","effect":[{"u_message": "평온한 분위기 속에서 엄밀히 다짐했습니다.\n<color_light_red>당신은 맹세의 반지를 받았습니다.</color>","type": "good","popup": true },{ "u_add_morale": "morale_ncard_k", "bonus": 120,"max_bonus": 120,"duration": "3 d","decay_start": "3 d"},{ "u_add_var": "k_ev2_r3_no_02", "type": "counter", "context": "k","value": "1" },{ "u_spawn_item": "kz_ncard_ev2_r3_no_02", "count": 1 }] } ]
+	}
+,
+	{
+		"id":"TALK_K_ev2_r3_no_03",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥（친애의 감정이 담긴 표정으로 미소를 짓자 조용히 몸을 맡겨 왔다）",
+		"responses":[ { "text": "（맹세를 주고받았다）", "topic": "TALK_DONE","effect":[{"u_message": "평온한 분위기 속에서 엄밀히 다짐했습니다.\n<color_light_red>당신은 맹세의 반지를 받았습니다.</color>","type": "good","popup": true },{ "u_add_morale": "morale_ncard_k", "bonus": 120,"max_bonus": 120,"duration": "3 d","decay_start": "3 d"},{ "u_add_var": "k_ev2_r3_no_03", "type": "counter", "context": "k","value": "1" },{ "u_spawn_item": "kz_ncard_ev2_r3_no_03", "count": 1 }] } ]
+	}
+,
+	{
+		"id":"TALK_K_ev2_r3_no_04",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥（친애의 감정이 담긴 표정으로 미소를 짓자 조용히 몸을 맡겨 왔다）",
+		"responses":[ { "text": "（맹세를 주고받았다）", "topic": "TALK_DONE","effect":[{"u_message": "평온한 분위기 속에서 엄밀히 다짐했습니다.\n<color_light_red>당신은 맹세의 반지를 받았습니다.</color>","type": "good","popup": true },{ "u_add_morale": "morale_ncard_k", "bonus": 120,"max_bonus": 120,"duration": "3 d","decay_start": "3 d"},{ "u_add_var": "k_ev2_r3_no_04", "type": "counter", "context": "k","value": "1" },{ "u_spawn_item": "kz_ncard_ev2_r3_no_04", "count": 1 }] } ]
+	}
+,
+	{
+		"id":"TALK_K_ev3_r3_no_01",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥（친애의 감정이 담긴 표정으로 미소를 짓자 조용히 몸을 맡겨 왔다）",
+		"responses":[ { "text": "（맹세를 주고받았다）", "topic": "TALK_DONE","effect":[{"u_message": "평온한 분위기 속에서 엄밀히 다짐했습니다.\n<color_light_red>당신은 맹세의 반지를 받았습니다.</color>","type": "good","popup": true },{ "u_add_morale": "morale_ncard_k", "bonus": 120,"max_bonus": 120,"duration": "3 d","decay_start": "3 d"},{ "u_add_var": "k_ev3_r3_no_01", "type": "counter", "context": "k","value": "1" },{ "u_spawn_item": "kz_ncard_ev3_r3_no_01", "count": 1 }] } ]
+	}
+,
+	{
+		"id":"TALK_K_ev3_r3_no_02",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥（친애의 감정이 담긴 표정으로 미소를 짓자 조용히 몸을 맡겨 왔다）",
+		"responses":[ { "text": "（맹세를 주고받았다）", "topic": "TALK_DONE","effect":[{"u_message": "평온한 분위기 속에서 엄밀히 다짐했습니다.\n<color_light_red>당신은 맹세의 반지를 받았습니다.</color>","type": "good","popup": true },{ "u_add_morale": "morale_ncard_k", "bonus": 120,"max_bonus": 120,"duration": "3 d","decay_start": "3 d"},{ "u_add_var": "k_ev3_r3_no_02", "type": "counter", "context": "k","value": "1" },{ "u_spawn_item": "kz_ncard_ev3_r3_no_02", "count": 1 }] } ]
+	}
+,
+	{
+		"id":"TALK_K_ev3_r3_no_03",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥（친애의 감정이 담긴 표정으로 미소를 짓자 조용히 몸을 맡겨 왔다）",
+		"responses":[ { "text": "（맹세를 주고받았다）", "topic": "TALK_DONE","effect":[{"u_message": "평온한 분위기 속에서 엄밀히 다짐했습니다.\n<color_light_red>당신은 맹세의 반지를 받았습니다.</color>","type": "good","popup": true },{ "u_add_morale": "morale_ncard_k", "bonus": 120,"max_bonus": 120,"duration": "3 d","decay_start": "3 d"},{ "u_add_var": "k_ev3_r3_no_03", "type": "counter", "context": "k","value": "1" },{ "u_spawn_item": "kz_ncard_ev3_r3_no_03", "count": 1 }] } ]
+	}
+,
+	{
+		"id":"TALK_K_ev3_r3_no_04",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥（친애의 감정이 담긴 표정으로 미소를 짓자 조용히 몸을 맡겨 왔다）",
+		"responses":[ { "text": "（맹세를 주고받았다）", "topic": "TALK_DONE","effect":[{"u_message": "평온한 분위기 속에서 엄밀히 다짐했습니다.\n<color_light_red>당신은 맹세의 반지를 받았습니다.</color>","type": "good","popup": true },{ "u_add_morale": "morale_ncard_k", "bonus": 120,"max_bonus": 120,"duration": "3 d","decay_start": "3 d"},{ "u_add_var": "k_ev3_r3_no_04", "type": "counter", "context": "k","value": "1" },{ "u_spawn_item": "kz_ncard_ev3_r3_no_04", "count": 1 }] } ]
+	}
+,
+	{
+		"id":"TALK_K_ev4_r3_no_01",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥（친애의 감정이 담긴 표정으로 미소를 짓자 조용히 몸을 맡겨 왔다）",
+		"responses":[ { "text": "（맹세를 주고받았다）", "topic": "TALK_DONE","effect":[{"u_message": "평온한 분위기 속에서 엄밀히 다짐했습니다.\n<color_light_red>당신은 맹세의 반지를 받았습니다.</color>","type": "good","popup": true },{ "u_add_morale": "morale_ncard_k", "bonus": 120,"max_bonus": 120,"duration": "3 d","decay_start": "3 d"},{ "u_add_var": "k_ev4_r3_no_01", "type": "counter", "context": "k","value": "1" },{ "u_spawn_item": "kz_ncard_ev4_r3_no_01", "count": 1 }] } ]
+	}
+,
+	{
+		"id":"TALK_K_ev4_r3_no_02",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥（친애의 감정이 담긴 표정으로 미소를 짓자 조용히 몸을 맡겨 왔다）",
+		"responses":[ { "text": "（맹세를 주고받았다）", "topic": "TALK_DONE","effect":[{"u_message": "평온한 분위기 속에서 엄밀히 다짐했습니다.\n<color_light_red>당신은 맹세의 반지를 받았습니다.</color>","type": "good","popup": true },{ "u_add_morale": "morale_ncard_k", "bonus": 120,"max_bonus": 120,"duration": "3 d","decay_start": "3 d"},{ "u_add_var": "k_ev4_r3_no_02", "type": "counter", "context": "k","value": "1" },{ "u_spawn_item": "kz_ncard_ev4_r3_no_02", "count": 1 }] } ]
+	}
+,
+	{
+		"id":"TALK_K_ev4_r3_no_03",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥（친애의 감정이 담긴 표정으로 미소를 짓자 조용히 몸을 맡겨 왔다）",
+		"responses":[ { "text": "（맹세를 주고받았다）", "topic": "TALK_DONE","effect":[{"u_message": "평온한 분위기 속에서 엄밀히 다짐했습니다.\n<color_light_red>당신은 맹세의 반지를 받았습니다.</color>","type": "good","popup": true },{ "u_add_morale": "morale_ncard_k", "bonus": 120,"max_bonus": 120,"duration": "3 d","decay_start": "3 d"},{ "u_add_var": "k_ev4_r3_no_03", "type": "counter", "context": "k","value": "1" },{ "u_spawn_item": "kz_ncard_ev4_r3_no_03", "count": 1 }] } ]
+	}
+,
+	{
+		"id":"TALK_K_ev4_r3_no_04",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥（친애의 감정이 담긴 표정으로 미소를 짓자 조용히 몸을 맡겨 왔다）",
+		"responses":[ { "text": "（맹세를 주고받았다）", "topic": "TALK_DONE","effect":[{"u_message": "평온한 분위기 속에서 엄밀히 다짐했습니다.\n<color_light_red>당신은 맹세의 반지를 받았습니다.</color>","type": "good","popup": true },{ "u_add_morale": "morale_ncard_k", "bonus": 120,"max_bonus": 120,"duration": "3 d","decay_start": "3 d"},{ "u_add_var": "k_ev4_r3_no_04", "type": "counter", "context": "k","value": "1" },{ "u_spawn_item": "kz_ncard_ev4_r3_no_04", "count": 1 }] } ]
+	}
+,
+	{
+		"id":"TALK_K_ev4_r3_no_05",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥（친애의 감정이 담긴 표정으로 미소를 짓자 조용히 몸을 맡겨 왔다）",
+		"responses":[ { "text": "（맹세를 주고받았다）", "topic": "TALK_DONE","effect":[{"u_message": "평온한 분위기 속에서 엄밀히 다짐했습니다.\n<color_light_red>당신은 맹세의 반지를 받았습니다.</color>","type": "good","popup": true },{ "u_add_morale": "morale_ncard_k", "bonus": 120,"max_bonus": 120,"duration": "3 d","decay_start": "3 d"},{ "u_add_var": "k_ev4_r3_no_05", "type": "counter", "context": "k","value": "1" },{ "u_spawn_item": "kz_ncard_ev4_r3_no_05", "count": 1 }] } ]
+	}
+,
+	{
+		"id":"TALK_K_ev4_r3_no_06",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥（친애의 감정이 담긴 표정으로 미소를 짓자 조용히 몸을 맡겨 왔다）",
+		"responses":[ { "text": "（맹세를 주고받았다）", "topic": "TALK_DONE","effect":[{"u_message": "평온한 분위기 속에서 엄밀히 다짐했습니다.\n<color_light_red>당신은 맹세의 반지를 받았습니다.</color>","type": "good","popup": true },{ "u_add_morale": "morale_ncard_k", "bonus": 120,"max_bonus": 120,"duration": "3 d","decay_start": "3 d"},{ "u_add_var": "k_ev4_r3_no_06", "type": "counter", "context": "k","value": "1" },{ "u_spawn_item": "kz_ncard_ev4_r3_no_06", "count": 1 }] } ]
+	}
+,
+	{
+		"id":"TALK_K_ev4_r4_no_01",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥（친애의 감정이 담긴 표정으로 미소를 짓자 조용히 몸을 맡겨 왔다）",
+		"responses":[ { "text": "（맹세를 주고받았다）", "topic": "TALK_DONE","effect":[{"u_message": "평온한 분위기 속에서 엄밀히 다짐했습니다.\n<color_light_red>당신은 맹세의 반지를 받았습니다.</color>","type": "good","popup": true },{ "u_add_morale": "morale_ncard_k", "bonus": 120,"max_bonus": 120,"duration": "3 d","decay_start": "3 d"},{ "u_add_var": "k_ev4_r4_no_01", "type": "counter", "context": "k","value": "1" },{ "u_spawn_item": "kz_ncard_ev4_r4_no_01", "count": 1 }] } ]
+	}
+,
+	{
+		"id":"TALK_K_ev4_r4_no_02",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥（친애의 감정이 담긴 표정으로 미소를 짓자 조용히 몸을 맡겨 왔다）",
+		"responses":[ { "text": "（맹세를 주고받았다）", "topic": "TALK_DONE","effect":[{"u_message": "평온한 분위기 속에서 엄밀히 다짐했습니다.\n<color_light_red>당신은 맹세의 반지를 받았습니다.</color>","type": "good","popup": true },{ "u_add_morale": "morale_ncard_k", "bonus": 120,"max_bonus": 120,"duration": "3 d","decay_start": "3 d"},{ "u_add_var": "k_ev4_r4_no_02", "type": "counter", "context": "k","value": "1" },{ "u_spawn_item": "kz_ncard_ev4_r4_no_02", "count": 1 }] } ]
+	}
+,
+	{
+		"id":"TALK_K_ev5_r4_no_01",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥（친애의 감정이 담긴 표정으로 미소를 짓자 조용히 몸을 맡겨 왔다）",
+		"responses":[ { "text": "（맹세를 주고받았다）", "topic": "TALK_DONE","effect":[{"u_message": "평온한 분위기 속에서 엄밀히 다짐했습니다.\n<color_light_red>당신은 맹세의 반지를 받았습니다.</color>","type": "good","popup": true },{ "u_add_morale": "morale_ncard_k", "bonus": 120,"max_bonus": 120,"duration": "3 d","decay_start": "3 d"},{ "u_add_var": "k_ev5_r4_no_01", "type": "counter", "context": "k","value": "1" },{ "u_spawn_item": "kz_ncard_ev5_r4_no_01", "count": 1 }] } ]
+	}
+,
+	{
+		"id":"TALK_K_ev5_r4_no_02",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥（친애의 감정이 담긴 표정으로 미소를 짓자 조용히 몸을 맡겨 왔다）",
+		"responses":[ { "text": "（맹세를 주고받았다）", "topic": "TALK_DONE","effect":[{"u_message": "평온한 분위기 속에서 엄밀히 다짐했습니다.\n<color_light_red>당신은 맹세의 반지를 받았습니다.</color>","type": "good","popup": true },{ "u_add_morale": "morale_ncard_k", "bonus": 120,"max_bonus": 120,"duration": "3 d","decay_start": "3 d"},{ "u_add_var": "k_ev5_r4_no_02", "type": "counter", "context": "k","value": "1" },{ "u_spawn_item": "kz_ncard_ev5_r4_no_02", "count": 1 }] } ]
+	}
+,
+	{
+		"id":"TALK_K_ev5_r3_no_01",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥（친애의 감정이 담긴 표정으로 미소를 짓자 조용히 몸을 맡겨 왔다）",
+		"responses":[ { "text": "（맹세를 주고받았다）", "topic": "TALK_DONE","effect":[{"u_message": "평온한 분위기 속에서 엄밀히 다짐했습니다.\n<color_light_red>당신은 맹세의 반지를 받았습니다.</color>","type": "good","popup": true },{ "u_add_morale": "morale_ncard_k", "bonus": 120,"max_bonus": 120,"duration": "3 d","decay_start": "3 d"},{ "u_add_var": "k_ev5_r3_no_01", "type": "counter", "context": "k","value": "1" },{ "u_spawn_item": "kz_ncard_ev5_r3_no_01", "count": 1 }] } ]
+	}
+,
+	{
+		"id":"TALK_K_ev5_r3_no_02",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥（친애의 감정이 담긴 표정으로 미소를 짓자 조용히 몸을 맡겨 왔다）",
+		"responses":[ { "text": "（맹세를 주고받았다）", "topic": "TALK_DONE","effect":[{"u_message": "평온한 분위기 속에서 엄밀히 다짐했습니다.\n<color_light_red>당신은 맹세의 반지를 받았습니다.</color>","type": "good","popup": true },{ "u_add_morale": "morale_ncard_k", "bonus": 120,"max_bonus": 120,"duration": "3 d","decay_start": "3 d"},{ "u_add_var": "k_ev5_r3_no_02", "type": "counter", "context": "k","value": "1" },{ "u_spawn_item": "kz_ncard_ev5_r3_no_02", "count": 1 }] } ]
+	}
+,
+	{
+		"id":"TALK_K_ev5_r3_no_03",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥（친애의 감정이 담긴 표정으로 미소를 짓자 조용히 몸을 맡겨 왔다）",
+		"responses":[ { "text": "（맹세를 주고받았다）", "topic": "TALK_DONE","effect":[{"u_message": "평온한 분위기 속에서 엄밀히 다짐했습니다.\n<color_light_red>당신은 맹세의 반지를 받았습니다.</color>","type": "good","popup": true },{ "u_add_morale": "morale_ncard_k", "bonus": 120,"max_bonus": 120,"duration": "3 d","decay_start": "3 d"},{ "u_add_var": "k_ev5_r3_no_03", "type": "counter", "context": "k","value": "1" },{ "u_spawn_item": "kz_ncard_ev5_r3_no_03", "count": 1 }] } ]
+	}
+,
+	{
+		"id":"TALK_K_ev5_r3_no_04",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥（친애의 감정이 담긴 표정으로 미소를 짓자 조용히 몸을 맡겨 왔다）",
+		"responses":[ { "text": "（맹세를 주고받았다）", "topic": "TALK_DONE","effect":[{"u_message": "평온한 분위기 속에서 엄밀히 다짐했습니다.\n<color_light_red>당신은 맹세의 반지를 받았습니다.</color>","type": "good","popup": true },{ "u_add_morale": "morale_ncard_k", "bonus": 120,"max_bonus": 120,"duration": "3 d","decay_start": "3 d"},{ "u_add_var": "k_ev5_r3_no_04", "type": "counter", "context": "k","value": "1" },{ "u_spawn_item": "kz_ncard_ev5_r3_no_04", "count": 1 }] } ]
+	}
+,
+	{
+		"id":"TALK_K_ev6_r4_no_01",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥（친애의 감정이 담긴 표정으로 미소를 짓자 조용히 몸을 맡겨 왔다）",
+		"responses":[ { "text": "（맹세를 주고받았다）", "topic": "TALK_DONE","effect":[{"u_message": "평온한 분위기 속에서 엄밀히 다짐했습니다.\n<color_light_red>당신은 맹세의 반지를 받았습니다.</color>","type": "good","popup": true },{ "u_add_morale": "morale_ncard_k", "bonus": 120,"max_bonus": 120,"duration": "3 d","decay_start": "3 d"},{ "u_add_var": "k_ev6_r4_no_01", "type": "counter", "context": "k","value": "1" },{ "u_spawn_item": "kz_ncard_ev6_r4_no_01", "count": 1 }] } ]
+	}
+,
+	{
+		"id":"TALK_K_ev6_r4_no_02",
+		"type":"talk_topic",
+		"dynamic_line":"･･･♥（친애의 감정이 담긴 표정으로 미소를 짓자 조용히 몸을 맡겨 왔다）",
+		"responses":[ { "text": "（맹세를 주고받았다）", "topic": "TALK_DONE","effect":[{"u_message": "평온한 분위기 속에서 엄밀히 다짐했습니다.\n<color_light_red>당신은 맹세의 반지를 받았습니다.</color>","type": "good","popup": true },{ "u_add_morale": "morale_ncard_k", "bonus": 120,"max_bonus": 120,"duration": "3 d","decay_start": "3 d"},{ "u_add_var": "k_ev6_r4_no_02", "type": "counter", "context": "k","value": "1" },{ "u_spawn_item": "kz_ncard_ev6_r4_no_02", "count": 1 }] } ]
+	}
+
+
+]

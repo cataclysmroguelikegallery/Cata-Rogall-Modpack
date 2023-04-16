@@ -1,0 +1,78 @@
+[
+  {
+    "id": "PSY_magi_ench_magic_scarf",
+    "type": "enchantment",
+    "has": "WORN",
+    "condition": "ALWAYS",
+    "mutations": [ "MANA_SUBTLE_SPELL","MANA_SILENT_SPELL" ]
+  },
+  {
+    "id": "PSY_magi_ench_mbracer_siphon_1",
+    "type": "enchantment",
+    "has": "WORN",
+    "condition": "ALWAYS",
+    "mutations": [ "MANA_SIPHON_1" ]
+  },
+  {
+    "id": "PSY_magi_ench_mbracer_siphon_2",
+    "type": "enchantment",
+    "has": "WORN",
+    "condition": "ALWAYS",
+    "mutations": [ "MANA_SIPHON_2" ]
+  },
+  {
+    "id": "PSY_magi_ench_mbracer_siphon_3",
+    "type": "enchantment",
+    "has": "WORN",
+    "condition": "ALWAYS",
+    "mutations": [ "MANA_SIPHON_3" ]
+  },
+  {
+    "id": "PSY_magi_ench_learning_bracelet",
+    "type": "enchantment",
+    "has": "WORN",
+    "condition": "ALWAYS",
+    "mutations": [ "FASTLEARNER" ]
+  },
+  {
+    "id": "PSY_magi_ench_glasses_bookworm",
+    "type": "enchantment",
+    "has": "WORN",
+    "condition": "ALWAYS",
+    "mutations": [ "LOVES_BOOKS" ]
+  },
+  {
+    "id": "PSY_magi_ench_beauty_hair_ornaments_1",
+    "type": "enchantment",
+    "has": "WORN",
+    "condition": "ALWAYS",
+    "mutations": [ "PRETTY" ]
+  },
+  {
+    "id": "PSY_magi_ench_beauty_hair_ornaments_2",
+    "type": "enchantment",
+    "has": "WORN",
+    "condition": "ALWAYS",
+    "mutations": [ "PRETTY","BEAUTIFUL" ]
+  },
+  {
+    "id": "PSY_magi_ench_smelly_necklace",
+    "type": "enchantment",
+    "has": "WORN",
+    "condition": "ALWAYS",
+    "mutations": [ "SMELLY" ],
+    "values": [
+      { "value": "ARMOR_CUT", "add": -2 },
+      { "value": "ARMOR_BASH", "add": -2 },
+      { "value": "ARMOR_STAB", "add": -2 },
+      { "value": "ARMOR_BULLET", "add": -1 }
+    ]
+  },
+  {
+    "id": "PSY_magi_ench_angel_wing",
+    "type": "enchantment",
+    "has": "WORN",
+    "condition": "ALWAYS",
+    "mutations": [ "WINGS_MANA" ]
+  }
+]

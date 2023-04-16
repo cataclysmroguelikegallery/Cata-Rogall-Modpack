@@ -1,0 +1,27 @@
+[
+	{
+		"id":"emit_fd_ncard_buff",
+		"type":"emit",
+		"field":"fd_ncard_buff",
+		"intensity":1,
+		"qty":7
+	}
+,
+	{
+		"id":"emit_fd_ncard_deathcross2",
+		"type":"emit",
+		"field":"fd_ncard_deathcross2",
+		"intensity":1,
+		"qty":9
+	}
+,
+	{
+		"id":"emit_fd_ncard_smoke",
+		"type":"emit",
+		"field":"fd_ncard_smoke",
+		"intensity":1,
+		"qty":15
+	}
+
+
+]

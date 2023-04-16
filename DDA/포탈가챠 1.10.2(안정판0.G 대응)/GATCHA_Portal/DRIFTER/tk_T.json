@@ -1,0 +1,17 @@
+[
+	{
+		"id":"TALK_T_trader",
+		"type":"talk_topic",
+		"dynamic_line":"？",
+		"responses":[ { "text": "[요구: 포탈 금화 39개]요호마을 가챠 티켓(10개 묶음)을 구입", "topic": "TALK_T1_1"},{ "text": "[요구: 포탈 금화 39개]포탈 가챠 티켓(10개 묶음)을 구입", "topic": "TALK_T1_2"},{"condition":{ "not": { "npc_is_in_field": "fd_ncard_nosell" } }, "text": "[요구: 포탈 금화 975개]행상인 을 구입", "topic": "TALK_T1_99"},{ "text": "돈이 있는 장소를 가르쳐 받는다", "topic": "TALK_DONE","condition": { "not" :{"u_compare_time_since_var": "time_MONEY_BANK","type": "timer", "context": "time", "op": "<", "time": "30 d" }},"effect": [{ "assign_mission": "MISSION_REACH_MONEY_BANK" }] },  { "text": "달러 지폐를 포탈 금화로 교환 한다", "topic": "TALK_EX_exchange" },{ "text": "아무것도 아니야", "topic": "TALK_DONE" } ] 
+	}
+,
+	{
+		"id":"TALK_T_trader2",
+		"type":"talk_topic",
+		"dynamic_line":"？",
+		"responses":[ { "text": "[요구: 포탈 금화 39개]요호마을 가챠 티켓(10개 묶음)을 구입", "topic": "TALK_T1_1_2"},{ "text": "[요구: 포탈 금화 39개]포탈 가챠 티켓(10개 묶음)을 구입", "topic": "TALK_T1_2_2"},{"condition":{ "not": { "npc_is_in_field": "fd_ncard_nosell" } }, "text": "[요구: 포탈 금화 975개]행상인 을 구입", "topic": "TALK_T1_99_2"},{ "text": "돈이 있는 장소를 가르쳐 받는다", "topic": "TALK_DONE","condition": { "not" :{"u_compare_time_since_var": "time_MONEY_BANK","type": "timer", "context": "time", "op": "<", "time": "30 d" }},"effect": [{ "assign_mission": "MISSION_REACH_MONEY_BANK" }] },  { "text": "달러 지폐를 포탈 금화로 교환 한다", "topic": "TALK_EX_exchange" },{ "text": "아무것도 아니야", "topic": "TALK_DONE" } ] 
+	}
+
+
+]

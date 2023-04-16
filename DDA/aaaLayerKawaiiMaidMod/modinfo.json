@@ -1,0 +1,9 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "aaa_Layer_KawaiiMaidMod",
+    "name": "추가 - KawaiiMaidMod용 겹쳐입기 장비",
+    "authors": [ "inoue", "aaa4604" ],
+    "description": "방어구 가장 위에 겹쳐 입으면 캐릭터의 외형을 바꿀 수 있는 KawaiiMaidMod 장비를 추가합니다."
+  }
+]

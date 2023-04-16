@@ -1,0 +1,210 @@
+[
+		
+		
+		{
+		  "tile_info": [
+		    { "pixelscale": 1, "width": 32, "height": 32, "iso": true }
+		  ],
+		
+		"type": "mod_tileset","compatibility": [
+		"Custom Tileset",
+		"MshockXottoplus",
+		"MSX++DEAD_PEOPLE",
+		"UNDEAD_PEOPLE",
+		"ChestHole32",
+		"UNDEAD_PEOPLE_BASE",
+		"UltimateCataclysm",
+		"UltimateCataclysmDemo",
+		"Chibi_Ultica",
+		"MshockXottoplus",
+		"Alternative Ultica",
+		"MshockXottoplus"
+		],
+		"tiles-new": [
+		{
+		"file": "tile_config_GATCHA.png",
+		"tiles": [
+		
+		{ "id": "ncard_misc_bin_prism_2", "fg":1, "rotates": false },
+		{ "id": "ncard_misc_bin_prism_auto", "fg":1, "rotates": false },{ "id": "card_call_crate_2", "fg":2, "rotates": false },
+		{ "id": "card_call_crate_1", "fg":2, "rotates": false },{ "id": "card_call_crate_3", "fg":2, "rotates": false },
+		
+		{ "id": "mon_ncard_kitunebi", "fg":3, "rotates": false },
+		{ "id": "overlay_worn_ncard_misc_yukari", "fg":18, "rotates": false },
+		{ "id": "overlay_worn_ncard_misc_kiritan", "fg":19, "rotates": false },
+		{ "id": "overlay_worn_ncard_misc_akari", "fg":39, "rotates": false },
+		
+		{ "id": "ef_ncard_holy2", "fg":100, "rotates": false },
+		{ "id": "ef_ncard_holysword", "fg":101, "rotates": false },
+		
+		{ "id": "explosion_call_crate", "fg":0, "rotates": false,"multitile": true,"additional_tiles":  [  {  "id": "corner",  "fg": 0}, { "id": "edge", "fg": 0 } ] },
+		{ "id": "explosion_call_crate_1", "fg":0, "rotates": false,"multitile": true,"additional_tiles":  [  {  "id": "corner",  "fg": 0}, { "id": "edge", "fg": 0 } ] },
+		{ "id": "explosion_call_crate_full", "fg":0, "rotates": false,"multitile": true,"additional_tiles":  [  {  "id": "corner",  "fg": 0}, { "id": "edge", "fg": 0 } ] },
+		
+		{ "id": "explosion_spell_ncard_deathcross", "fg":102, "rotates": false,"multitile": true,"additional_tiles":  [  {  "id": "corner",  "fg": 102}, { "id": "edge", "fg": 102 } ] },
+		{ "id": "explosion_spell_ncard_deathcross2", "fg":102, "rotates": false,"multitile": true,"additional_tiles":  [  {  "id": "corner",  "fg": 102}, { "id": "edge", "fg": 102 } ] },
+		{ "id": "explosion_spell_ncard_holysword", "fg":101, "rotates": false,"multitile": true,"additional_tiles":  [  {  "id": "corner",  "fg": 101}, { "id": "edge", "fg": 101 } ] },
+		{ "id": "explosion_spell_ncard_holysword2", "fg":101, "rotates": false,"multitile": true,"additional_tiles":  [  {  "id": "corner",  "fg": 101}, { "id": "edge", "fg": 101 } ] },
+		{ "id": "explosion_spell_ncard_pilebunker", "fg":103, "rotates": false,"multitile": true,"additional_tiles":  [  {  "id": "corner",  "fg": 103}, { "id": "edge", "fg": 103 } ] },
+		{ "id": "explosion_spell_ncard_pilebunker2", "fg":103, "rotates": false,"multitile": true,"additional_tiles":  [  {  "id": "corner",  "fg": 103}, { "id": "edge", "fg": 103 } ] },
+		{ "id": "explosion_spell_ncard_knife", "fg":104, "rotates": false,"multitile": true,"additional_tiles":  [  {  "id": "corner",  "fg": 104}, { "id": "edge", "fg": 104 } ] },
+		{ "id": "explosion_spell_ncard_knife2", "fg":104, "rotates": false,"multitile": true,"additional_tiles":  [  {  "id": "corner",  "fg": 104}, { "id": "edge", "fg": 104 } ] },
+		{ "id": "explosion_spell_ncard_push_hostile", "fg":103, "rotates": false,"multitile": true,"additional_tiles":  [  {  "id": "corner",  "fg": 103}, { "id": "edge", "fg": 103 } ] },
+		{ "id": "explosion_spell_ncard_heartcharge2", "fg":105, "rotates": false,"multitile": true,"additional_tiles":  [  {  "id": "corner",  "fg": 105}, { "id": "edge", "fg": 105 } ] },
+		{ "id": "explosion_spell_ncard_charm", "fg":105, "rotates": false,"multitile": true,"additional_tiles":  [  {  "id": "corner",  "fg": 105}, { "id": "edge", "fg": 105 } ] },
+		{ "id": "explosion_spell_ncard_risingstorm", "fg":106, "rotates": false,"multitile": true,"additional_tiles":  [  {  "id": "corner",  "fg": 106}, { "id": "edge", "fg": 106 } ] },
+		{ "id": "overlay_effect_ef_ncard_u_high1", "fg":107, "rotates": false,"multitile": true,"additional_tiles":  [  {  "id": "corner",  "fg": 107}, { "id": "edge", "fg": 107 } ] },
+		{ "id": "overlay_effect_ef_ncard_u_high2", "fg":108, "rotates": false,"multitile": true,"additional_tiles":  [  {  "id": "corner",  "fg": 108}, { "id": "edge", "fg": 108 } ] },
+		{ "id": "overlay_effect_ef_ncard_u_high3", "fg":109, "rotates": false,"multitile": true,"additional_tiles":  [  {  "id": "corner",  "fg": 109}, { "id": "edge", "fg": 109 } ] },
+		
+		
+		{ "id": "spell_fd_ncard_deathcross2", "fg":102, "rotates": false,"multitile": true,"additional_tiles":  [  {  "id": "corner",  "fg": 102}, { "id": "edge", "fg": 102 } ] },
+		{ "id": "spell_fd_ncard_smoke", "fg":0, "rotates": false,"multitile": true,"additional_tiles":  [  {  "id": "corner",  "fg": 0}, { "id": "edge", "fg": 0 } ] },
+		
+		
+		{ "id": "ncard_pet_armor_r3_base", "fg":7, "rotates": false },
+		{ "id": "ncard_pet_armor_r4_base", "fg":8, "rotates": false },
+		
+		{ "id": "ncard_base_r1", "fg":10, "rotates": false },
+		{ "id": "ncard_base_r2", "fg":11, "rotates": false },
+		{ "id": "ncard_base_r3", "fg":12, "rotates": false },
+		{ "id": "ncard_base_r4", "fg":13, "rotates": false },
+		
+		{ "id": "mon_ncard_r3_no_01", "fg":20, "rotates": false },
+		{ "id": "mon_ncard_r3_no_02", "fg":21, "rotates": false },
+		{ "id": "mon_ncard_r3_no_03", "fg":22, "rotates": false },
+		{ "id": "mon_ncard_r3_no_04", "fg":23, "rotates": false },
+		{ "id": "mon_ncard_r3_no_05", "fg":24, "rotates": false },
+		{ "id": "mon_ncard_r3_no_06", "fg":25, "rotates": false },
+		{ "id": "mon_ncard_r3_no_07", "fg":26, "rotates": false },
+		{ "id": "mon_ncard_r3_no_08", "fg":27, "rotates": false },
+		{ "id": "mon_ncard_r3_no_09", "fg":28, "rotates": false },
+		{ "id": "mon_ncard_r3_no_10", "fg":29, "rotates": false },
+		{ "id": "mon_ncard_r3_no_11", "fg":30, "rotates": false },{ "id": "overlay_wielded_ncard_r3_no_14_C", "fg":33, "rotates": false },
+		{ "id": "mon_ncard_r3_no_12", "fg":31, "rotates": false },{ "id": "ncard_r3_no_14_C", "fg":33, "rotates": false },
+		{ "id": "mon_ncard_r3_no_13", "fg":32, "rotates": false },{ "id": "overlay_wielded_ncard_r3_no_14", "fg":33, "rotates": false },
+		{ "id": "mon_ncard_r3_no_14", "fg":33, "rotates": false },{ "id": "ncard_r3_no_14", "fg":33, "rotates": false },
+		
+		{ "id": "ncard_misc_powder_rainbow", "fg":4, "rotates": false },
+		{ "id": "ncard_misc_powder_gold", "fg":5, "rotates": false },
+		{ "id": "ncard_misc_powder_angel", "fg":6, "rotates": false },
+		
+		{ "id": "ncard_misc_card_holder", "fg":9, "rotates": false },
+		{ "id": "f_lootcrate_rare1", "fg":14, "rotates": false },
+		{ "id": "f_lootcrate_rare2", "fg":15, "rotates": false }
+		
+		],
+		"sprite_width": 42,
+		"sprite_height": 54,
+		"sprite_offset_x": -5,
+		"sprite_offset_y": -22
+		      },
+		{
+		"file": "tile_config_GATCHA_64x80.png",
+		"tiles": [
+		{ "id": "mon_ncard_r4_no_01", "fg":0, "rotates": false },
+		{ "id": "mon_ncard_r4_no_02", "fg":1, "rotates": false },
+		{ "id": "mon_ncard_r4_no_03", "fg":2, "rotates": false },
+		{ "id": "mon_ncard_r4_no_04", "fg":3, "rotates": false }
+		
+		],
+		"sprite_width": 64,
+		"sprite_height": 80,
+		"sprite_offset_x": -16,
+		"sprite_offset_y": -48
+		      }
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		    ]
+		  }
+
+
+]

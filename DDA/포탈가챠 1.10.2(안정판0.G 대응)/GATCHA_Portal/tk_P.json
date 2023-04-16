@@ -1,0 +1,381 @@
+[
+	{
+		"id":"TALK_P_r4_no_01",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "<color_light_red>（[요구: 초코바] 초코바를 준다）</color>", "topic": "TALK_P1_r4_no_01"}, { "text": "아무것도 아니야", "topic": "TALK_r4_no_01" } ] 
+	}
+,
+	{
+		"id":"TALK_P_r4_no_02",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "<color_light_red>（[요구: 초코바] 초코바를 준다）</color>", "topic": "TALK_P1_r4_no_02"}, { "text": "아무것도 아니야", "topic": "TALK_r4_no_02" } ] 
+	}
+,
+	{
+		"id":"TALK_P_r4_no_03",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "<color_light_red>（[요구: 초코바] 초코바를 준다）</color>", "topic": "TALK_P1_r4_no_03"}, { "text": "아무것도 아니야", "topic": "TALK_r4_no_03" } ] 
+	}
+,
+	{
+		"id":"TALK_P_r4_no_04",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "<color_light_red>（[요구: 초코바] 초코바를 준다）</color>", "topic": "TALK_P1_r4_no_04"}, { "text": "아무것도 아니야", "topic": "TALK_r4_no_04" } ] 
+	}
+,
+	{
+		"id":"TALK_P_r3_no_01",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "<color_light_red>（[요구: 초코바] 초코바를 준다）</color>", "topic": "TALK_P1_r3_no_01"}, { "text": "아무것도 아니야", "topic": "TALK_r3_no_01" } ] 
+	}
+,
+	{
+		"id":"TALK_P_r3_no_02",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "<color_light_red>（[요구: 초코바] 초코바를 준다）</color>", "topic": "TALK_P1_r3_no_02"}, { "text": "아무것도 아니야", "topic": "TALK_r3_no_02" } ] 
+	}
+,
+	{
+		"id":"TALK_P_r3_no_03",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "<color_light_red>（[요구: 초코바] 초코바를 준다）</color>", "topic": "TALK_P1_r3_no_03"}, { "text": "아무것도 아니야", "topic": "TALK_r3_no_03" } ] 
+	}
+,
+	{
+		"id":"TALK_P_r3_no_04",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "<color_light_red>（[요구: 초코바] 초코바를 준다）</color>", "topic": "TALK_P1_r3_no_04"}, { "text": "아무것도 아니야", "topic": "TALK_r3_no_04" } ] 
+	}
+,
+	{
+		"id":"TALK_P_r3_no_05",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "<color_light_red>（[요구: 초코바] 초코바를 준다）</color>", "topic": "TALK_P1_r3_no_05"}, { "text": "아무것도 아니야", "topic": "TALK_r3_no_05" } ] 
+	}
+,
+	{
+		"id":"TALK_P_r3_no_06",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "<color_light_red>（[요구: 초코바] 초코바를 준다）</color>", "topic": "TALK_P1_r3_no_06"}, { "text": "아무것도 아니야", "topic": "TALK_r3_no_06" } ] 
+	}
+,
+	{
+		"id":"TALK_P_r3_no_07",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "<color_light_red>（[요구: 초코바] 초코바를 준다）</color>", "topic": "TALK_P1_r3_no_07"}, { "text": "아무것도 아니야", "topic": "TALK_r3_no_07" } ] 
+	}
+,
+	{
+		"id":"TALK_P_r3_no_08",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "<color_light_red>（[요구: 초코바] 초코바를 준다）</color>", "topic": "TALK_P1_r3_no_08"}, { "text": "아무것도 아니야", "topic": "TALK_r3_no_08" } ] 
+	}
+,
+	{
+		"id":"TALK_P_r3_no_09",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "<color_light_red>（[요구: 초코바] 초코바를 준다）</color>", "topic": "TALK_P1_r3_no_09"}, { "text": "아무것도 아니야", "topic": "TALK_r3_no_09" } ] 
+	}
+,
+	{
+		"id":"TALK_P_r3_no_10",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "<color_light_red>（[요구: 초코바] 초코바를 준다）</color>", "topic": "TALK_P1_r3_no_10"}, { "text": "아무것도 아니야", "topic": "TALK_r3_no_10" } ] 
+	}
+,
+	{
+		"id":"TALK_P_r3_no_11",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "<color_light_red>（[요구: 초코바] 초코바를 준다）</color>", "topic": "TALK_P1_r3_no_11"}, { "text": "아무것도 아니야", "topic": "TALK_r3_no_11" } ] 
+	}
+,
+	{
+		"id":"TALK_P_s2_r4_no_01",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "<color_light_red>（[요구: 초코바] 초코바를 준다）</color>", "topic": "TALK_P1_s2_r4_no_01"}, { "text": "아무것도 아니야", "topic": "TALK_s2_r4_no_01" } ] 
+	}
+,
+	{
+		"id":"TALK_P_s2_r3_no_01",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "<color_light_red>（[요구: 초코바] 초코바를 준다）</color>", "topic": "TALK_P1_s2_r3_no_01"}, { "text": "아무것도 아니야", "topic": "TALK_s2_r3_no_01" } ] 
+	}
+,
+	{
+		"id":"TALK_P_s2_r3_no_02",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "<color_light_red>（[요구: 초코바] 초코바를 준다）</color>", "topic": "TALK_P1_s2_r3_no_02"}, { "text": "아무것도 아니야", "topic": "TALK_s2_r3_no_02" } ] 
+	}
+,
+	{
+		"id":"TALK_P_s2_r3_no_03",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "<color_light_red>（[요구: 초코바] 초코바를 준다）</color>", "topic": "TALK_P1_s2_r3_no_03"}, { "text": "아무것도 아니야", "topic": "TALK_s2_r3_no_03" } ] 
+	}
+,
+	{
+		"id":"TALK_P_s2_r3_no_04",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "<color_light_red>（[요구: 초코바] 초코바를 준다）</color>", "topic": "TALK_P1_s2_r3_no_04"}, { "text": "아무것도 아니야", "topic": "TALK_s2_r3_no_04" } ] 
+	}
+,
+	{
+		"id":"TALK_P_ev1_r4_no_01",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "<color_light_red>（[요구: 초코바] 초코바를 준다）</color>", "topic": "TALK_P1_ev1_r4_no_01"}, { "text": "아무것도 아니야", "topic": "TALK_ev1_r4_no_01" } ] 
+	}
+,
+	{
+		"id":"TALK_P_ev1_r4_no_02",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "<color_light_red>（[요구: 초코바] 초코바를 준다）</color>", "topic": "TALK_P1_ev1_r4_no_02"}, { "text": "아무것도 아니야", "topic": "TALK_ev1_r4_no_02" } ] 
+	}
+,
+	{
+		"id":"TALK_P_ev2_r4_no_01",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "<color_light_red>（[요구: 초코바] 초코바를 준다）</color>", "topic": "TALK_P1_ev2_r4_no_01"}, { "text": "아무것도 아니야", "topic": "TALK_ev2_r4_no_01" } ] 
+	}
+,
+	{
+		"id":"TALK_P_ev2_r4_no_02",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "<color_light_red>（[요구: 초코바] 초코바를 준다）</color>", "topic": "TALK_P1_ev2_r4_no_02"}, { "text": "아무것도 아니야", "topic": "TALK_ev2_r4_no_02" } ] 
+	}
+,
+	{
+		"id":"TALK_P_ev3_r4_no_01",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "<color_light_red>（[요구: 초코바] 초코바를 준다）</color>", "topic": "TALK_P1_ev3_r4_no_01"}, { "text": "아무것도 아니야", "topic": "TALK_ev3_r4_no_01" } ] 
+	}
+,
+	{
+		"id":"TALK_P_ev3_r4_no_02",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "<color_light_red>（[요구: 초코바] 초코바를 준다）</color>", "topic": "TALK_P1_ev3_r4_no_02"}, { "text": "아무것도 아니야", "topic": "TALK_ev3_r4_no_02" } ] 
+	}
+,
+	{
+		"id":"TALK_P_ev1_r3_no_01",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "<color_light_red>（[요구: 초코바] 초코바를 준다）</color>", "topic": "TALK_P1_ev1_r3_no_01"}, { "text": "아무것도 아니야", "topic": "TALK_ev1_r3_no_01" } ] 
+	}
+,
+	{
+		"id":"TALK_P_ev1_r3_no_02",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "<color_light_red>（[요구: 초코바] 초코바를 준다）</color>", "topic": "TALK_P1_ev1_r3_no_02"}, { "text": "아무것도 아니야", "topic": "TALK_ev1_r3_no_02" } ] 
+	}
+,
+	{
+		"id":"TALK_P_ev1_r3_no_03",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "<color_light_red>（[요구: 초코바] 초코바를 준다）</color>", "topic": "TALK_P1_ev1_r3_no_03"}, { "text": "아무것도 아니야", "topic": "TALK_ev1_r3_no_03" } ] 
+	}
+,
+	{
+		"id":"TALK_P_ev1_r3_no_04",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "<color_light_red>（[요구: 초코바] 초코바를 준다）</color>", "topic": "TALK_P1_ev1_r3_no_04"}, { "text": "아무것도 아니야", "topic": "TALK_ev1_r3_no_04" } ] 
+	}
+,
+	{
+		"id":"TALK_P_ev2_r3_no_01",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "<color_light_red>（[요구: 초코바] 초코바를 준다）</color>", "topic": "TALK_P1_ev2_r3_no_01"}, { "text": "아무것도 아니야", "topic": "TALK_ev2_r3_no_01" } ] 
+	}
+,
+	{
+		"id":"TALK_P_ev2_r3_no_02",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "<color_light_red>（[요구: 초코바] 초코바를 준다）</color>", "topic": "TALK_P1_ev2_r3_no_02"}, { "text": "아무것도 아니야", "topic": "TALK_ev2_r3_no_02" } ] 
+	}
+,
+	{
+		"id":"TALK_P_ev2_r3_no_03",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "<color_light_red>（[요구: 초코바] 초코바를 준다）</color>", "topic": "TALK_P1_ev2_r3_no_03"}, { "text": "아무것도 아니야", "topic": "TALK_ev2_r3_no_03" } ] 
+	}
+,
+	{
+		"id":"TALK_P_ev2_r3_no_04",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "<color_light_red>（[요구: 초코바] 초코바를 준다）</color>", "topic": "TALK_P1_ev2_r3_no_04"}, { "text": "아무것도 아니야", "topic": "TALK_ev2_r3_no_04" } ] 
+	}
+,
+	{
+		"id":"TALK_P_ev3_r3_no_01",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "<color_light_red>（[요구: 초코바] 초코바를 준다）</color>", "topic": "TALK_P1_ev3_r3_no_01"}, { "text": "아무것도 아니야", "topic": "TALK_ev3_r3_no_01" } ] 
+	}
+,
+	{
+		"id":"TALK_P_ev3_r3_no_02",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "<color_light_red>（[요구: 초코바] 초코바를 준다）</color>", "topic": "TALK_P1_ev3_r3_no_02"}, { "text": "아무것도 아니야", "topic": "TALK_ev3_r3_no_02" } ] 
+	}
+,
+	{
+		"id":"TALK_P_ev3_r3_no_03",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "<color_light_red>（[요구: 초코바] 초코바를 준다）</color>", "topic": "TALK_P1_ev3_r3_no_03"}, { "text": "아무것도 아니야", "topic": "TALK_ev3_r3_no_03" } ] 
+	}
+,
+	{
+		"id":"TALK_P_ev3_r3_no_04",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "<color_light_red>（[요구: 초코바] 초코바를 준다）</color>", "topic": "TALK_P1_ev3_r3_no_04"}, { "text": "아무것도 아니야", "topic": "TALK_ev3_r3_no_04" } ] 
+	}
+,
+	{
+		"id":"TALK_P_ev4_r3_no_01",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "<color_light_red>（[요구: 초코바] 초코바를 준다）</color>", "topic": "TALK_P1_ev4_r3_no_01"}, { "text": "아무것도 아니야", "topic": "TALK_ev4_r3_no_01" } ] 
+	}
+,
+	{
+		"id":"TALK_P_ev4_r3_no_02",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "<color_light_red>（[요구: 초코바] 초코바를 준다）</color>", "topic": "TALK_P1_ev4_r3_no_02"}, { "text": "아무것도 아니야", "topic": "TALK_ev4_r3_no_02" } ] 
+	}
+,
+	{
+		"id":"TALK_P_ev4_r3_no_03",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "<color_light_red>（[요구: 초코바] 초코바를 준다）</color>", "topic": "TALK_P1_ev4_r3_no_03"}, { "text": "아무것도 아니야", "topic": "TALK_ev4_r3_no_03" } ] 
+	}
+,
+	{
+		"id":"TALK_P_ev4_r3_no_04",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "<color_light_red>（[요구: 초코바] 초코바를 준다）</color>", "topic": "TALK_P1_ev4_r3_no_04"}, { "text": "아무것도 아니야", "topic": "TALK_ev4_r3_no_04" } ] 
+	}
+,
+	{
+		"id":"TALK_P_ev4_r3_no_05",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "<color_light_red>（[요구: 초코바] 초코바를 준다）</color>", "topic": "TALK_P1_ev4_r3_no_05"}, { "text": "아무것도 아니야", "topic": "TALK_ev4_r3_no_05" } ] 
+	}
+,
+	{
+		"id":"TALK_P_ev4_r3_no_06",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "<color_light_red>（[요구: 초코바] 초코바를 준다）</color>", "topic": "TALK_P1_ev4_r3_no_06"}, { "text": "아무것도 아니야", "topic": "TALK_ev4_r3_no_06" } ] 
+	}
+,
+	{
+		"id":"TALK_P_ev4_r4_no_01",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "<color_light_red>（[요구: 초코바] 초코바를 준다）</color>", "topic": "TALK_P1_ev4_r4_no_01"}, { "text": "아무것도 아니야", "topic": "TALK_ev4_r4_no_01" } ] 
+	}
+,
+	{
+		"id":"TALK_P_ev4_r4_no_02",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "<color_light_red>（[요구: 초코바] 초코바를 준다）</color>", "topic": "TALK_P1_ev4_r4_no_02"}, { "text": "아무것도 아니야", "topic": "TALK_ev4_r4_no_02" } ] 
+	}
+,
+	{
+		"id":"TALK_P_ev5_r4_no_01",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "<color_light_red>（[요구: 초코바] 초코바를 준다）</color>", "topic": "TALK_P1_ev5_r4_no_01"}, { "text": "아무것도 아니야", "topic": "TALK_ev5_r4_no_01" } ] 
+	}
+,
+	{
+		"id":"TALK_P_ev5_r4_no_02",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "<color_light_red>（[요구: 초코바] 초코바를 준다）</color>", "topic": "TALK_P1_ev5_r4_no_02"}, { "text": "아무것도 아니야", "topic": "TALK_ev5_r4_no_02" } ] 
+	}
+,
+	{
+		"id":"TALK_P_ev5_r3_no_01",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "<color_light_red>（[요구: 초코바] 초코바를 준다）</color>", "topic": "TALK_P1_ev5_r3_no_01"}, { "text": "아무것도 아니야", "topic": "TALK_ev5_r3_no_01" } ] 
+	}
+,
+	{
+		"id":"TALK_P_ev5_r3_no_02",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "<color_light_red>（[요구: 초코바] 초코바를 준다）</color>", "topic": "TALK_P1_ev5_r3_no_02"}, { "text": "아무것도 아니야", "topic": "TALK_ev5_r3_no_02" } ] 
+	}
+,
+	{
+		"id":"TALK_P_ev5_r3_no_03",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "<color_light_red>（[요구: 초코바] 초코바를 준다）</color>", "topic": "TALK_P1_ev5_r3_no_03"}, { "text": "아무것도 아니야", "topic": "TALK_ev5_r3_no_03" } ] 
+	}
+,
+	{
+		"id":"TALK_P_ev5_r3_no_04",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "<color_light_red>（[요구: 초코바] 초코바를 준다）</color>", "topic": "TALK_P1_ev5_r3_no_04"}, { "text": "아무것도 아니야", "topic": "TALK_ev5_r3_no_04" } ] 
+	}
+,
+	{
+		"id":"TALK_P_ev6_r4_no_01",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "<color_light_red>（[요구: 초코바] 초코바를 준다）</color>", "topic": "TALK_P1_ev6_r4_no_01"}, { "text": "아무것도 아니야", "topic": "TALK_ev6_r4_no_01" } ] 
+	}
+,
+	{
+		"id":"TALK_P_ev6_r4_no_02",
+		"type":"talk_topic",
+		"dynamic_line":"?",
+		"responses":[ { "text": "<color_light_red>（[요구: 초코바] 초코바를 준다）</color>", "topic": "TALK_P1_ev6_r4_no_02"}, { "text": "아무것도 아니야", "topic": "TALK_ev6_r4_no_02" } ] 
+	}
+
+
+]

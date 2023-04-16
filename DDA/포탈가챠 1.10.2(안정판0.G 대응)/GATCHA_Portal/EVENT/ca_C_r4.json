@@ -1,0 +1,183 @@
+[
+	{
+		"id":"ncard_ev1_r4_no_01_C",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r4",
+		"name":{"str": "무지개 카드(소환/No.23 산타 클로스)(회복중)","str_pl":"무지개 카드(소환/No.23 산타 클로스)(회복중)"},
+		"description":"<color_light_cyan>신성하게 반짝이는 카드입니다. 포털 건너편에서 고위 존재를 불러옵니다. 소멸되면 카드가 재출현하여 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"light_cyan",
+		"flags":[ "UNBREAKABLE_MELEE","TRADER_AVOID","NO_UNLOAD" ],
+		"use_action":{"target": "ncard_ev1_r4_no_01","msg": "카드가 사용 가능하게 되었습니다.","need_charges": 210,"need_charges_msg": "카드에 힘이 쌓이지 않았습니다","menu_text":"부활시킨다","type": "transform"},
+		"relic_data":{ "charge_info": { "recharge_type": "periodic", "time": "4 h 48 m", "regenerate_ammo": true } },
+		"pocket_data":[ { "pocket_type": "MAGAZINE", "ammo_restriction": { "ncard_misc_powder_a": 210 } } ],
+		"price":1
+	}
+,
+	{
+		"id":"ncard_ev1_r4_no_02_C",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r4",
+		"name":{"str": "무지개 카드(소환/No.24 산타 클로스)(회복중)","str_pl":"무지개 카드(소환/No.24 산타 클로스)(회복중)"},
+		"description":"<color_light_cyan>신성하게 반짝이는 카드입니다. 포털 건너편에서 고위 존재를 불러옵니다. 소멸되면 카드가 재출현하여 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"light_cyan",
+		"flags":[ "UNBREAKABLE_MELEE","TRADER_AVOID","NO_UNLOAD" ],
+		"use_action":{"target": "ncard_ev1_r4_no_02","msg": "카드가 사용 가능하게 되었습니다.","need_charges": 210,"need_charges_msg": "카드에 힘이 쌓이지 않았습니다","menu_text":"부활시킨다","type": "transform"},
+		"relic_data":{ "charge_info": { "recharge_type": "periodic", "time": "4 h 48 m", "regenerate_ammo": true } },
+		"pocket_data":[ { "pocket_type": "MAGAZINE", "ammo_restriction": { "ncard_misc_powder_a": 210 } } ],
+		"price":1
+	}
+,
+	{
+		"id":"ncard_ev2_r4_no_01_C",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r4",
+		"name":{"str": "무지개 카드(소환/No.29 호랑이 소녀)(회복중)","str_pl":"무지개 카드(소환/No.29 호랑이 소녀)(회복중)"},
+		"description":"<color_light_cyan>신성하게 반짝이는 카드입니다. 포털 건너편에서 고위 존재를 불러옵니다. 소멸되면 카드가 재출현하여 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"light_cyan",
+		"flags":[ "UNBREAKABLE_MELEE","TRADER_AVOID","NO_UNLOAD" ],
+		"use_action":{"target": "ncard_ev2_r4_no_01","msg": "카드가 사용 가능하게 되었습니다.","need_charges": 210,"need_charges_msg": "카드에 힘이 쌓이지 않았습니다","menu_text":"부활시킨다","type": "transform"},
+		"relic_data":{ "charge_info": { "recharge_type": "periodic", "time": "4 h 48 m", "regenerate_ammo": true } },
+		"pocket_data":[ { "pocket_type": "MAGAZINE", "ammo_restriction": { "ncard_misc_powder_a": 210 } } ],
+		"price":1
+	}
+,
+	{
+		"id":"ncard_ev2_r4_no_02_C",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r4",
+		"name":{"str": "무지개 카드(소환/No.30 호랑이 소녀)(회복중)","str_pl":"무지개 카드(소환/No.30 호랑이 소녀)(회복중)"},
+		"description":"<color_light_cyan>신성하게 반짝이는 카드입니다. 포털 건너편에서 고위 존재를 불러옵니다. 소멸되면 카드가 재출현하여 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"light_cyan",
+		"flags":[ "UNBREAKABLE_MELEE","TRADER_AVOID","NO_UNLOAD" ],
+		"use_action":{"target": "ncard_ev2_r4_no_02","msg": "카드가 사용 가능하게 되었습니다.","need_charges": 210,"need_charges_msg": "카드에 힘이 쌓이지 않았습니다","menu_text":"부활시킨다","type": "transform"},
+		"relic_data":{ "charge_info": { "recharge_type": "periodic", "time": "4 h 48 m", "regenerate_ammo": true } },
+		"pocket_data":[ { "pocket_type": "MAGAZINE", "ammo_restriction": { "ncard_misc_powder_a": 210 } } ],
+		"price":1
+	}
+,
+	{
+		"id":"ncard_ev3_r4_no_01_C",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r4",
+		"name":{"str": "무지개 카드(소환/No.35 검성)(회복중)","str_pl":"무지개 카드(소환/No.35 검성)(회복중)"},
+		"description":"<color_light_cyan>신성하게 반짝이는 카드입니다. 포털 건너편에서 고위 존재를 불러옵니다. 소멸되면 카드가 재출현하여 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"light_cyan",
+		"flags":[ "UNBREAKABLE_MELEE","TRADER_AVOID","NO_UNLOAD" ],
+		"use_action":{"target": "ncard_ev3_r4_no_01","msg": "카드가 사용 가능하게 되었습니다.","need_charges": 210,"need_charges_msg": "카드에 힘이 쌓이지 않았습니다","menu_text":"부활시킨다","type": "transform"},
+		"relic_data":{ "charge_info": { "recharge_type": "periodic", "time": "4 h 48 m", "regenerate_ammo": true } },
+		"pocket_data":[ { "pocket_type": "MAGAZINE", "ammo_restriction": { "ncard_misc_powder_a": 210 } } ],
+		"price":1
+	}
+,
+	{
+		"id":"ncard_ev3_r4_no_02_C",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r4",
+		"name":{"str": "무지개 카드(소환/No.36 검성)(회복중)","str_pl":"무지개 카드(소환/No.36 검성)(회복중)"},
+		"description":"<color_light_cyan>신성하게 반짝이는 카드입니다. 포털 건너편에서 고위 존재를 불러옵니다. 소멸되면 카드가 재출현하여 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"light_cyan",
+		"flags":[ "UNBREAKABLE_MELEE","TRADER_AVOID","NO_UNLOAD" ],
+		"use_action":{"target": "ncard_ev3_r4_no_02","msg": "카드가 사용 가능하게 되었습니다.","need_charges": 210,"need_charges_msg": "카드에 힘이 쌓이지 않았습니다","menu_text":"부활시킨다","type": "transform"},
+		"relic_data":{ "charge_info": { "recharge_type": "periodic", "time": "4 h 48 m", "regenerate_ammo": true } },
+		"pocket_data":[ { "pocket_type": "MAGAZINE", "ammo_restriction": { "ncard_misc_powder_a": 210 } } ],
+		"price":1
+	}
+,
+	{
+		"id":"ncard_ev4_r4_no_01_C",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r4",
+		"name":{"str": "무지개 카드(소환/No.41 행상인)(회복중)","str_pl":"무지개 카드(소환/No.41 행상인)(회복중)"},
+		"description":"<color_light_cyan>신성하게 반짝이는 카드입니다. 포털 건너편에서 고위 존재를 불러옵니다. 소멸되면 카드가 재출현하여 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"light_cyan",
+		"flags":[ "UNBREAKABLE_MELEE","TRADER_AVOID","NO_UNLOAD" ],
+		"use_action":{"target": "ncard_ev4_r4_no_01","msg": "카드가 사용 가능하게 되었습니다.","need_charges": 210,"need_charges_msg": "카드에 힘이 쌓이지 않았습니다","menu_text":"부활시킨다","type": "transform"},
+		"relic_data":{ "charge_info": { "recharge_type": "periodic", "time": "4 h 48 m", "regenerate_ammo": true } },
+		"pocket_data":[ { "pocket_type": "MAGAZINE", "ammo_restriction": { "ncard_misc_powder_a": 210 } } ],
+		"price":1
+	}
+,
+	{
+		"id":"ncard_ev4_r4_no_02_C",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r4",
+		"name":{"str": "무지개 카드(소환/No.42 행상인)(회복중)","str_pl":"무지개 카드(소환/No.42 행상인)(회복중)"},
+		"description":"<color_light_cyan>신성하게 반짝이는 카드입니다. 포털 건너편에서 고위 존재를 불러옵니다. 소멸되면 카드가 재출현하여 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"light_cyan",
+		"flags":[ "UNBREAKABLE_MELEE","TRADER_AVOID","NO_UNLOAD" ],
+		"use_action":{"target": "ncard_ev4_r4_no_02","msg": "카드가 사용 가능하게 되었습니다.。","need_charges": 210,"need_charges_msg": "카드에 힘이 쌓이지 않았습니다","menu_text":"부활시킨다","type": "transform"},
+		"relic_data":{ "charge_info": { "recharge_type": "periodic", "time": "4 h 48 m", "regenerate_ammo": true } },
+		"pocket_data":[ { "pocket_type": "MAGAZINE", "ammo_restriction": { "ncard_misc_powder_a": 210 } } ],
+		"price":1
+	}
+,
+	{
+		"id":"ncard_ev5_r4_no_01_C",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r4",
+		"name":{"str": "무지개 카드(소환/No.49 상급 몽마)(회복중)","str_pl":"무지개 카드(소환/No.49 상급 몽마)(회복중)"},
+		"description":"<color_light_cyan>신성하게 반짝이는 카드입니다. 포털 건너편에서 고위 존재를 불러옵니다. 소멸되면 카드가 재출현하여 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"light_cyan",
+		"flags":[ "UNBREAKABLE_MELEE","TRADER_AVOID","NO_UNLOAD" ],
+		"use_action":{"target": "ncard_ev5_r4_no_01","msg": "카드가 사용 가능하게 되었습니다.。","need_charges": 210,"need_charges_msg": "카드에 힘이 쌓이지 않았습니다","menu_text":"부활시킨다","type": "transform"},
+		"relic_data":{ "charge_info": { "recharge_type": "periodic", "time": "4 h 48 m", "regenerate_ammo": true } },
+		"pocket_data":[ { "pocket_type": "MAGAZINE", "ammo_restriction": { "ncard_misc_powder_a": 210 } } ],
+		"price":1
+	}
+,
+	{
+		"id":"ncard_ev5_r4_no_02_C",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r4",
+		"name":{"str": "무지개 카드(소환/No.50 상급 몽마)(회복중)","str_pl":"무지개 카드(소환/No.50 상급 몽마)(회복중)"},
+		"description":"<color_light_cyan>신성하게 반짝이는 카드입니다. 포털 건너편에서 고위 존재를 불러옵니다. 소멸되면 카드가 재출현하여 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"light_cyan",
+		"flags":[ "UNBREAKABLE_MELEE","TRADER_AVOID","NO_UNLOAD" ],
+		"use_action":{"target": "ncard_ev5_r4_no_02","msg": "카드가 사용 가능하게 되었습니다.。","need_charges": 210,"need_charges_msg": "카드에 힘이 쌓이지 않았습니다","menu_text":"부활시킨다","type": "transform"},
+		"relic_data":{ "charge_info": { "recharge_type": "periodic", "time": "4 h 48 m", "regenerate_ammo": true } },
+		"pocket_data":[ { "pocket_type": "MAGAZINE", "ammo_restriction": { "ncard_misc_powder_a": 210 } } ],
+		"price":1
+	}
+,
+	{
+		"id":"ncard_ev6_r4_no_01_C",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r4",
+		"name":{"str": "무지개 카드(소환/No.55 토끼 소녀)(회복중)","str_pl":"무지개 카드(소환/No.55 토끼 소녀)(회복중)"},
+		"description":"<color_light_cyan>신성하게 반짝이는 카드입니다. 포털 건너편에서 고위 존재를 불러옵니다. 소멸되면 카드가 재출현하여 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"light_cyan",
+		"flags":[ "UNBREAKABLE_MELEE","TRADER_AVOID","NO_UNLOAD" ],
+		"use_action":{"target": "ncard_ev6_r4_no_01","msg": "카드가 사용 가능하게 되었습니다.。","need_charges": 210,"need_charges_msg": "카드에 힘이 쌓이지 않았습니다","menu_text":"부활시킨다","type": "transform"},
+		"relic_data":{ "charge_info": { "recharge_type": "periodic", "time": "4 h 48 m", "regenerate_ammo": true } },
+		"pocket_data":[ { "pocket_type": "MAGAZINE", "ammo_restriction": { "ncard_misc_powder_a": 210 } } ],
+		"price":1
+	}
+,
+	{
+		"id":"ncard_ev6_r4_no_02_C",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r4",
+		"name":{"str": "무지개 카드(소환/No.56 토끼 소녀)(회복중)","str_pl":"무지개 카드(소환/No.56 토끼 소녀)(회복중)"},
+		"description":"<color_light_cyan>신성하게 반짝이는 카드입니다. 포털 건너편에서 고위 존재를 불러옵니다. 소멸되면 카드가 재출현하여 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"light_cyan",
+		"flags":[ "UNBREAKABLE_MELEE","TRADER_AVOID","NO_UNLOAD" ],
+		"use_action":{"target": "ncard_ev6_r4_no_02","msg": "카드가 사용 가능하게 되었습니다.。","need_charges": 210,"need_charges_msg": "카드에 힘이 쌓이지 않았습니다","menu_text":"부활시킨다","type": "transform"},
+		"relic_data":{ "charge_info": { "recharge_type": "periodic", "time": "4 h 48 m", "regenerate_ammo": true } },
+		"pocket_data":[ { "pocket_type": "MAGAZINE", "ammo_restriction": { "ncard_misc_powder_a": 210 } } ],
+		"price":1
+	}
+
+
+]

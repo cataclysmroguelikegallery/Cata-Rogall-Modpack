@@ -1,0 +1,107 @@
+[
+  {
+    "id": "PSY_magi_magic_backpack",
+    "type": "ARMOR",
+    "name": { "str": "마법의 가방[MWMI]" },
+    "description": "마법의 기술과 지식을 결집한 마법의 가방입니다.이 가방에 넣은 것은 다른 차원의 공간에 저장되기 때문에 무게를 느끼지 못하고 식품도 썩지 않습니다.",
+    "weight": "633 g",
+    "volume": "2 L",
+    "price_postapoc": "1000 USD",
+    "material": [ "cotton" ],
+    "symbol": "[",
+    "looks_like": "ragpouch",
+    "color": "green",
+    "armor": [ { "encumbrance": [ 5, 10 ], "coverage": 15, "covers": [ "torso" ] } ],
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "moves": 200,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "1000 kg",
+        "max_item_length": "2 meter",
+        "weight_multiplier": 0,
+        "spoil_multiplier": 0,
+        "rigid": true
+      }
+    ],
+    "warmth": 6,
+    "material_thickness": 2,
+    "flags": [ "BELTED","TARDIS" ]
+  },
+  {
+    "id": "PSY_magi_magic_backpack_1",
+    "type": "ARMOR",
+    "name": { "str": "마법의 가방+1[MWMI]" },
+    "copy-from": "PSY_magi_magic_backpack",
+    "price_postapoc": "3000 USD",
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "moves": 200,
+        "max_contains_volume": "40 L",
+        "max_contains_weight": "1000 kg",
+        "max_item_length": "2 meter",
+        "weight_multiplier": 0,
+        "spoil_multiplier": 0,
+        "rigid": true
+      }
+    ]
+  },
+  {
+    "id": "PSY_magi_magic_backpack_2",
+    "type": "ARMOR",
+    "name": { "str": "마법의 가방+2[MWMI]" },
+    "copy-from": "PSY_magi_magic_backpack",
+    "price_postapoc": "5000 USD",
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "moves": 200,
+        "max_contains_volume": "60 L",
+        "max_contains_weight": "1000 kg",
+        "max_item_length": "2 meter",
+        "weight_multiplier": 0,
+        "spoil_multiplier": 0,
+        "rigid": true
+      }
+    ]
+  },
+  {
+    "id": "PSY_magi_magic_backpack_3",
+    "type": "ARMOR",
+    "name": { "str": "마법의 가방+3[MWMI]" },
+    "copy-from": "PSY_magi_magic_backpack",
+    "price_postapoc": "7000 USD",
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "moves": 200,
+        "max_contains_volume": "80 L",
+        "max_contains_weight": "1000 kg",
+        "max_item_length": "2 meter",
+        "weight_multiplier": 0,
+        "spoil_multiplier": 0,
+        "rigid": true
+      }
+    ]
+  },
+  {
+    "id": "PSY_magi_magic_backpack_4",
+    "type": "ARMOR",
+    "name": { "str": "마법의 가방+4[MWMI]" },
+    "copy-from": "PSY_magi_magic_backpack",
+    "price_postapoc": "9000 USD",
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "moves": 200,
+        "max_contains_volume": "100 L",
+        "max_contains_weight": "1000 kg",
+        "max_item_length": "2 meter",
+        "weight_multiplier": 0,
+        "spoil_multiplier": 0,
+        "rigid": true
+      }
+    ]
+  }
+]

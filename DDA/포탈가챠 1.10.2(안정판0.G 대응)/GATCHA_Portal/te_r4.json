@@ -1,0 +1,83 @@
+[
+	{
+		"type":"recipe",
+		"activity_level":"BRISK_EXERCISE",
+		"result":"ncard_r4_no_01_C",
+		"category":"CC_GATCHA",
+		"subcategory":"CSC_GATCHA_OTHER",
+		"reversible":false,
+		"skill_used":"fabrication",
+		"difficulty":0,
+		"time":"7 h",
+		"book_learn":[ [ "ncard_book_tenjo_rainbow", 1 ] ],
+		"proficiencies":[ { "proficiency": "prof_metalworking" },{ "proficiency": "prof_blacksmithing" } ],
+		"qualities":[ { "id": "GRIND", "level": 2 } ],
+		"tools":[ [ [ "hotcut", -1 ] ] ],
+		"using":[ [ "blacksmithing_standard", 10 ] ],
+		"components":[ [[ "ncard_misc_powder_dimension_ash", 150 ]],[[ "silver", 100 ]],[[ "gold", 100 ]] ],
+		"autolearn":false,
+		"flags":["FULL_MAGAZINE","SECRET"]
+	}
+,
+	{
+		"type":"recipe",
+		"activity_level":"BRISK_EXERCISE",
+		"result":"ncard_r4_no_02_C",
+		"category":"CC_GATCHA",
+		"subcategory":"CSC_GATCHA_OTHER",
+		"reversible":false,
+		"skill_used":"fabrication",
+		"difficulty":0,
+		"time":"7 h",
+		"book_learn":[ [ "ncard_book_tenjo_rainbow", 1 ] ],
+		"proficiencies":[ { "proficiency": "prof_metalworking" },{ "proficiency": "prof_blacksmithing" } ],
+		"qualities":[ { "id": "GRIND", "level": 2 } ],
+		"tools":[ [ [ "hotcut", -1 ] ] ],
+		"using":[ [ "blacksmithing_standard", 10 ] ],
+		"components":[ [[ "ncard_misc_powder_dimension_ash", 150 ]],[[ "silver", 100 ]],[[ "gold", 100 ]] ],
+		"autolearn":false,
+		"flags":["FULL_MAGAZINE","SECRET"]
+	}
+,
+	{
+		"type":"recipe",
+		"activity_level":"BRISK_EXERCISE",
+		"result":"ncard_r4_no_03_C",
+		"category":"CC_GATCHA",
+		"subcategory":"CSC_GATCHA_OTHER",
+		"reversible":false,
+		"skill_used":"fabrication",
+		"difficulty":0,
+		"time":"7 h",
+		"book_learn":[ [ "ncard_book_tenjo_rainbow", 1 ] ],
+		"proficiencies":[ { "proficiency": "prof_metalworking" },{ "proficiency": "prof_blacksmithing" } ],
+		"qualities":[ { "id": "GRIND", "level": 2 } ],
+		"tools":[ [ [ "hotcut", -1 ] ] ],
+		"using":[ [ "blacksmithing_standard", 10 ] ],
+		"components":[ [[ "ncard_misc_powder_dimension_ash", 150 ]],[[ "silver", 100 ]],[[ "gold", 100 ]] ],
+		"autolearn":false,
+		"flags":["FULL_MAGAZINE","SECRET"]
+	}
+,
+	{
+		"type":"recipe",
+		"activity_level":"BRISK_EXERCISE",
+		"result":"ncard_r4_no_04_C",
+		"category":"CC_GATCHA",
+		"subcategory":"CSC_GATCHA_OTHER",
+		"reversible":false,
+		"skill_used":"fabrication",
+		"difficulty":0,
+		"time":"7 h",
+		"book_learn":[ [ "ncard_book_tenjo_rainbow", 1 ] ],
+		"proficiencies":[ { "proficiency": "prof_metalworking" },{ "proficiency": "prof_blacksmithing" } ],
+		"qualities":[ { "id": "GRIND", "level": 2 } ],
+		"tools":[ [ [ "hotcut", -1 ] ] ],
+		"using":[ [ "blacksmithing_standard", 10 ] ],
+		"components":[ [[ "ncard_misc_powder_dimension_ash", 150 ]],[[ "silver", 100 ]],[[ "gold", 100 ]] ],
+		"autolearn":false,
+		"flags":["FULL_MAGAZINE","SECRET"]
+	}
+
+
+]

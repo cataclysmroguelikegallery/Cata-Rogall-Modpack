@@ -1,0 +1,59 @@
+[
+  {
+    "type": "mod_tileset",
+    "compatibility": [ "Custom Tileset", "UNDEAD_PEOPLE_BASE", "MSX++DEAD_PEOPLE", "MshockXottoplus", "UNDEAD_PEOPLE", "MSX++ZaragaTiles", "MshockXottoplus" ],
+    "tiles-new": [
+      {
+        "file": "tiles/Magiclysm_With_Magicitem_large.png",
+        "sprite_height":32,
+        "sprite_width":48,
+        "sprite_offset_x":-8,
+        "tiles": [
+          { "id": "overlay_worn_PSY_magi_mnecklace_angel_wing","fg": 0, "rotates": false }
+        ]
+      },
+      {
+        "file": "tiles/Magiclysm_With_Magicitem_normal.png",
+        "sprite_height":32,
+        "sprite_width":32,
+        "tiles": [
+          { "id": "overlay_worn_PSY_magi_hayate_bandana_head","fg": 1, "rotates": false },
+          { "id": "overlay_worn_PSY_magi_hayate_tshirt"      ,"fg": 2, "rotates": false },
+          { "id": "overlay_worn_PSY_magi_hayate_boots"       ,"fg": 3, "rotates": false },
+          { "id": "overlay_worn_PSY_magi_hayate_bracelet"    ,"fg": 4, "rotates": false },
+          
+          { "id": "overlay_worn_PSY_magi_head_kyodan"        ,"fg": 5, "rotates": false },
+          { "id": "overlay_worn_PSY_magi_tshirt_kyodan"      ,"fg": 6, "rotates": false },
+          { "id": "overlay_worn_PSY_magi_boots_kyodan"       ,"fg": 7, "rotates": false },
+          { "id": "overlay_worn_PSY_magi_bracelet_kyodan"    ,"fg": 8, "rotates": false },
+
+          { "id": "overlay_worn_PSY_magi_head_sister"        ,"fg": 9, "rotates": false },
+          { "id": "overlay_worn_PSY_magi_tshirt_sister"      ,"fg":10, "rotates": false },
+
+          { "id": "overlay_worn_PSY_magi_head_bouei"        ,"fg":13, "rotates": false },
+          { "id": "overlay_worn_PSY_magi_tshirt_bouei"      ,"fg":14, "rotates": false },
+          { "id": "overlay_worn_PSY_magi_boots_bouei"       ,"fg":15, "rotates": false },
+          { "id": "overlay_worn_PSY_magi_bracelet_bouei"    ,"fg":16, "rotates": false },
+          
+          { "id": "overlay_worn_PSY_magi_head_val"          ,"fg":17, "rotates": false },
+          { "id": "overlay_worn_PSY_magi_tshirt_val"        ,"fg":18, "rotates": false },
+          { "id": "overlay_worn_PSY_magi_boots_val"         ,"fg":19, "rotates": false },
+          { "id": "overlay_worn_PSY_magi_bracelet_val"      ,"fg":20, "rotates": false }
+        ]
+      },
+      {
+        "file": "tiles/Magiclysm_With_Magicitem_normal_armor.png",
+        "sprite_height":32,
+        "sprite_width":32,
+        "tiles": [
+          { "id": "PSY_magi_shield_kite_fleeze" ,"fg": 21, "rotates": false },
+          { "id": "overlay_worn_PSY_magi_shield_kite_fleeze"    ,"fg": 22, "rotates": false },
+          { "id": "PSY_magi_shield_kite_thunder","fg": 25, "rotates": false },
+          { "id": "overlay_worn_PSY_magi_shield_kite_thunder"   ,"fg": 26, "rotates": false },
+          { "id": "PSY_magi_shield_kite_fire","fg": 29, "rotates": false },
+          { "id": "overlay_worn_PSY_magi_shield_kite_fire"   ,"fg": 30, "rotates": false }
+        ]
+      }
+    ]
+  }
+]

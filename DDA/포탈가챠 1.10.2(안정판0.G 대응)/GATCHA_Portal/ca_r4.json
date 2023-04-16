@@ -1,0 +1,63 @@
+[
+	{
+		"id":"ncard_r4_no_debug",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r4",
+		"name":{"str": "<color_light_cyan>무지개 카드(소환/No. debug)</color>","str_pl":"<color_light_cyan>무지개 카드(소환/No. debug)</color>"},
+		"description":"<color_light_cyan>신성하게 반짝이는 카드입니다. 포털 건너편에서 고위 존재를 불러옵니다. 소멸되면 카드가 재출현하여 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"light_cyan",
+		"use_action":[{ "type": "place_monster", "monster_id": "mon_ncard_r4_no_debug", "difficulty": 0, "moves": 0,"friendly_msg": "異次元の存在が召喚されました。","place_randomly": true,"skills": [ "fabrication" ],"is_pet": true }],
+		"price":1
+	}
+,
+	{
+		"id":"ncard_r4_no_01",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r4",
+		"name":{"str": "<color_light_cyan>무지개 카드(소환/No.1 타천사)</color>","str_pl":"<color_light_cyan>무지개 카드(소환/No.1 타천사)</color>"},
+		"description":"<color_light_cyan>신성하게 반짝이는 카드입니다. 포털 건너편에서 고위 존재를 불러옵니다. 소멸되면 카드가 재출현하여 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"light_cyan",
+		"use_action":[{ "type": "place_monster", "monster_id": "mon_ncard_r4_no_01", "difficulty": 0, "moves": 0,"friendly_msg": "異次元の存在が召喚されました。","place_randomly": true,"skills": [ "fabrication" ],"is_pet": true }],
+		"price":1
+	}
+,
+	{
+		"id":"ncard_r4_no_02",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r4",
+		"name":{"str": "<color_light_cyan>무지개 카드(소환/No.2 대천사)</color>","str_pl":"<color_light_cyan>무지개 카드(소환/No.2 대천사)</color>"},
+		"description":"<color_light_cyan>신성하게 반짝이는 카드입니다. 포털 건너편에서 고위 존재를 불러옵니다. 소멸되면 카드가 재출현하여 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"light_cyan",
+		"use_action":[{ "type": "place_monster", "monster_id": "mon_ncard_r4_no_02", "difficulty": 0, "moves": 0,"friendly_msg": "異次元の存在が召喚されました。","place_randomly": true,"skills": [ "fabrication" ],"is_pet": true }],
+		"price":1
+	}
+,
+	{
+		"id":"ncard_r4_no_03",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r4",
+		"name":{"str": "<color_light_cyan>무지개 카드(소환/No.3 토목작업기계)</color>","str_pl":"<color_light_cyan>무지개 카드(소환/No.3 토목작업기계)</color>"},
+		"description":"<color_light_cyan>신성하게 반짝이는 카드입니다. 포털 건너편에서 고위 존재를 불러옵니다. 소멸되면 카드가 재출현하여 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"light_cyan",
+		"use_action":[{ "type": "place_monster", "monster_id": "mon_ncard_r4_no_03", "difficulty": 0, "moves": 0,"friendly_msg": "異次元の存在が召喚されました。","place_randomly": true,"skills": [ "fabrication" ],"is_pet": true }],
+		"price":1
+	}
+,
+	{
+		"id":"ncard_r4_no_04",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r4",
+		"name":{"str": "<color_light_cyan>무지개 카드(소환/No.4 격투가 뿔소녀)</color>","str_pl":"<color_light_cyan>무지개 카드(소환/No.4 격투가 뿔소녀)</color>"},
+		"description":"<color_light_cyan>신성하게 반짝이는 카드입니다. 포털 건너편에서 고위 존재를 불러옵니다. 소멸되면 카드가 재출현하여 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"light_cyan",
+		"use_action":[{ "type": "place_monster", "monster_id": "mon_ncard_r4_no_04", "difficulty": 0, "moves": 0,"friendly_msg": "異次元の存在が召喚されました。","place_randomly": true,"skills": [ "fabrication" ],"is_pet": true }],
+		"price":1
+	}
+
+
+]

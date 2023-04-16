@@ -1,0 +1,87 @@
+[
+  {
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_lightning_bolt_talisman_1",
+    "name": "번개의 화살의 석판(초급)[MWMI]",
+    "description": "번개의 화살 의 마법이 갇힌 석판입니다. 사용하는 것으로 번개의 화살을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "lightning_bolt", "no_fail": true, "level": 5 },
+    "material": [ "stone" ],
+    "copy-from": "PSY_magi_base"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_lightning_bolt_talisman_2",
+    "name": "번개의 화살의 석판(중급)[MWMI]",
+    "description": "번개의 화살 의 마법이 갇힌 석판입니다. 사용하는 것으로 번개의 화살을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "lightning_bolt", "no_fail": true, "level": 7 },
+    "material": [ "stone" ],
+    "copy-from": "PSY_magi_base",
+    "price": "60 USD",
+    "price_postapoc": "60 USD"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_lightning_bolt_talisman_3",
+    "name": "번개의 화살의 석판(상급)[MWMI]",
+    "description": "번개의 화살 의 마법이 갇힌 석판입니다. 사용하는 것으로 번개의 화살을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "lightning_bolt", "no_fail": true, "level": 10 },
+    "material": [ "stone" ],
+    "copy-from": "PSY_magi_base",
+    "price": "80 USD",
+    "price_postapoc": "80 USD"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_windrun_talisman_1",
+    "name": "바람의 질주의 석판(초급)[MWMI]",
+    "description": "바람의 질주 의 마법이 갇힌 석판입니다. 사용하는 것으로 바람의 질주을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "windrun", "no_fail": true, "level": 5 },
+    "material": [ "stone" ],
+    "copy-from": "PSY_magi_base"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_windrun_talisman_2",
+    "name": "바람의 질주의 석판(중급)[MWMI]",
+    "description": "바람의 질주 의 마법이 갇힌 석판입니다. 사용하는 것으로 바람의 질주을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "windrun", "no_fail": true, "level": 7 },
+    "material": [ "stone" ],
+    "copy-from": "PSY_magi_base",
+    "price": "60 USD",
+    "price_postapoc": "60 USD"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_windrun_talisman_3",
+    "name": "바람의 질주의 석판(상급)[MWMI]",
+    "description": "바람의 질주 의 마법이 갇힌 석판입니다. 사용하는 것으로 바람의 질주을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "windrun", "no_fail": true, "level": 10 },
+    "material": [ "stone" ],
+    "copy-from": "PSY_magi_base",
+    "price": "80 USD",
+    "price_postapoc": "80 USD"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_thorns_zap_talisman_1",
+    "name": "격퇴의 아크의 석판(초급)[MWMI]",
+    "description": "격퇴의 아크 의 마법이 갇힌 석판입니다. 사용하는 것으로 격퇴의 아크을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "stormshaper_repelling_arc", "no_fail": true, "level": 5 },
+    "material": [ "stone" ],
+    "copy-from": "PSY_magi_base"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_thorns_zap_talisman_2",
+    "name": "격퇴의 아크의 석판(중급)[MWMI]",
+    "description": "격퇴의 아크 의 마법이 갇힌 석판입니다. 사용하는 것으로 격퇴의 아크을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "stormshaper_repelling_arc", "no_fail": true, "level": 7 },
+    "material": [ "stone" ],
+    "copy-from": "PSY_magi_base",
+    "price": "60 USD",
+    "price_postapoc": "60 USD"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_thorns_zap_talisman_3",
+    "name": "격퇴의 아크의 석판(상급)[MWMI]",
+    "description": "격퇴의 아크 의 마법이 갇힌 석판입니다. 사용하는 것으로 격퇴의 아크을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "stormshaper_repelling_arc", "no_fail": true, "level": 10 },
+    "material": [ "stone" ],
+    "copy-from": "PSY_magi_base",
+    "price": "80 USD",
+    "price_postapoc": "80 USD"
+  }
+]

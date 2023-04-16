@@ -1,0 +1,101 @@
+[
+	{
+		"result":"ncard_r3_no_01",
+		"type":"uncraft",
+		"tools":[ [ [ "ncard_misc_dimension_hammer", -1 ] ] ],
+		"components":[ [ [ "ncard_misc_powder_gold", 10 ] ] ]
+	}
+,
+	{
+		"result":"ncard_r3_no_02",
+		"type":"uncraft",
+		"tools":[ [ [ "ncard_misc_dimension_hammer", -1 ] ] ],
+		"components":[ [ [ "ncard_misc_powder_gold", 10 ] ] ]
+	}
+,
+	{
+		"result":"ncard_r3_no_03",
+		"type":"uncraft",
+		"tools":[ [ [ "ncard_misc_dimension_hammer", -1 ] ] ],
+		"components":[ [ [ "ncard_misc_powder_gold", 10 ] ] ]
+	}
+,
+	{
+		"result":"ncard_r3_no_04",
+		"type":"uncraft",
+		"tools":[ [ [ "ncard_misc_dimension_hammer", -1 ] ] ],
+		"components":[ [ [ "ncard_misc_powder_gold", 10 ] ] ]
+	}
+,
+	{
+		"result":"ncard_r3_no_05",
+		"type":"uncraft",
+		"tools":[ [ [ "ncard_misc_dimension_hammer", -1 ] ] ],
+		"components":[ [ [ "ncard_misc_powder_gold", 10 ] ] ]
+	}
+,
+	{
+		"result":"ncard_r3_no_06",
+		"type":"uncraft",
+		"tools":[ [ [ "ncard_misc_dimension_hammer", -1 ] ] ],
+		"components":[ [ [ "ncard_misc_powder_gold", 10 ] ] ]
+	}
+,
+	{
+		"result":"ncard_r3_no_07",
+		"type":"uncraft",
+		"tools":[ [ [ "ncard_misc_dimension_hammer", -1 ] ] ],
+		"components":[ [ [ "ncard_misc_powder_gold", 10 ] ] ]
+	}
+,
+	{
+		"result":"ncard_r3_no_08",
+		"type":"uncraft",
+		"tools":[ [ [ "ncard_misc_dimension_hammer", -1 ] ] ],
+		"components":[ [ [ "ncard_misc_powder_gold", 10 ] ] ]
+	}
+,
+	{
+		"result":"ncard_r3_no_09",
+		"type":"uncraft",
+		"tools":[ [ [ "ncard_misc_dimension_hammer", -1 ] ] ],
+		"components":[ [ [ "ncard_misc_powder_gold", 10 ] ] ]
+	}
+,
+	{
+		"result":"ncard_r3_no_10",
+		"type":"uncraft",
+		"tools":[ [ [ "ncard_misc_dimension_hammer", -1 ] ] ],
+		"components":[ [ [ "ncard_misc_powder_gold", 10 ] ] ]
+	}
+,
+	{
+		"result":"ncard_r3_no_11",
+		"type":"uncraft",
+		"tools":[ [ [ "ncard_misc_dimension_hammer", -1 ] ] ],
+		"components":[ [ [ "ncard_misc_powder_gold", 10 ] ] ]
+	}
+,
+	{
+		"result":"ncard_r3_no_12",
+		"type":"uncraft",
+		"tools":[ [ [ "ncard_misc_dimension_hammer", -1 ] ] ],
+		"components":[ [ [ "ncard_misc_powder_gold", 10 ] ] ]
+	}
+,
+	{
+		"result":"ncard_r3_no_13",
+		"type":"uncraft",
+		"tools":[ [ [ "ncard_misc_dimension_hammer", -1 ] ] ],
+		"components":[ [ [ "ncard_misc_powder_gold", 10 ] ] ]
+	}
+,
+	{
+		"result":"ncard_r3_no_14",
+		"type":"uncraft",
+		"tools":[ [ [ "ncard_misc_dimension_hammer", -1 ] ] ],
+		"components":[ [ [ "ncard_misc_powder_gold", 10 ] ] ]
+	}
+
+
+]

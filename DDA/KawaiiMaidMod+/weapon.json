@@ -1,0 +1,21 @@
+[
+  {
+    "id": "kawaii_death_scythe_replica",
+    "type": "GENERIC",
+    "symbol": "/",
+    "color": "light_gray",
+    "name": { "str": "Kawaii데스사이즈 레플리카", "str_pl": "Kawaii데스사이즈 레플리카" },
+    "description": "사신이 사용했다는 전설의 큰 낫, Death의 복제품으로, 사용하지 않을 때는 접을 수 있도록 되어 있습니다.",
+    "price": 10000,
+    "material": [ "steel" ],
+    "flags": [ "DURABLE_MELEE", "REACH_ATTACK", "REACH3", "NONCONDUCTIVE", "SHEATH_SPEAR" ],
+    "weapon_category": [ "BLADED_FARMING", "HOOKING_WEAPONRY", "POLEARMS" ],
+    "techniques": [ "WBLOCK_2", "VORPAL" ],
+    "weight": "1600 g",
+    "volume": "2000 ml",
+    "longest_side": "90 cm",
+    "bashing": 35,
+    "cutting": 45,
+    "to_hit": { "grip": "weapon", "length": "long", "surface": "line", "balance": "good" }
+  }
+]

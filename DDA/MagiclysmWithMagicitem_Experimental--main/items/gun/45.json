@@ -1,0 +1,40 @@
+{
+    "id": "PSY_magi_magic_revolver_ver5",
+    "copy-from": "pistol_revolver",
+    "looks_like": "sw_619",
+    "type": "GUN",
+    "name": "마나 카트리지 전용 권총 퀸퀘[MWMI]",
+    "extend": { "flags": [ "MAGIC_FOCUS" ] },
+    "description": "마법사를 위해 설계된 마나 카트리지 탄 전용 권총 퀸퀘입니다. 상당한 위력을 자랑합니다만, 과신은 금물, 총알 깨짐에 주의합시다.",
+    "weight": "1386 g",
+    "volume": "750 ml",
+    "price": 56100,
+    "to_hit": -2,
+    "bashing": 10,
+    "material": [ "steel", "wood","copper","silver","gold" ],
+    "symbol": "(",
+    "color": "dark_gray",
+    "ammo": "PSY_magi_45_magic",
+    "ranged_damage": { "damage_type": "bullet", "amount": 1 },
+    "dispersion": 280,
+    "durability": 8,
+    "pocket_data": [ 
+      { "pocket_type": "MAGAZINE",
+        "holster": true, 
+        "rigid": true, 
+        "ammo_restriction": { "PSY_magi_45_magic": 6 },
+        "allowed_speedloaders": [ "PSY_magi_45_magic_speedloader6" ]
+      }
+    ],
+    "valid_mod_locations": [
+      [ "accessories", 2 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ]
+  }

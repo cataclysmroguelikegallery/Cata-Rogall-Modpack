@@ -1,0 +1,13 @@
+[
+  {
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_magic_fruit",
+    "name": { "str": "마법의 과일[MWMI]" },
+    "copy-from": "apple",
+    "healthy": 4,
+    "description": "마나를 주입한 과일입니다. 먹으면 마나가 회복됩니다.",
+    "fun": 5,
+    "vitamins": [ [ "vitA", 1 ], [ "vitC", 17 ], [ "iron", 1 ] ],
+    "use_action": { "type": "cast_spell", "spell_id": "potion_recover_mana", "no_fail": true, "level": 1 }
+  }
+]
