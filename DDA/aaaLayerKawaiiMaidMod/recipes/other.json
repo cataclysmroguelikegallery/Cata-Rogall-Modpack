@@ -1,0 +1,751 @@
+[
+  
+  {
+    "result": "aaa_layer_SKIN_PALE_JP",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "cotton_patchwork"
+  },
+  
+  
+  {
+    "result": "aaa_layer_kawaii_raincoat_off",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_kawaii_raincoat",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_kawaii_sister_veil",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_kawaii_wedding_veil_b",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_kawaii_wedding_veil_a",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_kawaii_gloves_light",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_kawaii_angel_wing_bag",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_kawaii_nurse",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_kawaii_sukumizu_siro",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_kawaii_sukumizu_kon",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_kawaii_wedding_dress",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_kawaii_shoes_hi",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_kawaii_boots_hi",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_kawaii_maid_dress_long",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_kawaii_tights_white",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_kawaii_tights_black",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_kawaii_scarf_loose",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_kawaii_scarf",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_kawaii_loafer",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_kawaii_socks_white",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_kawaii_sailor_fuku",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_kawaii_boots",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_kawaii_sister_dress",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_kawaii_maid_niso_thin",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_kawaii_maid_niso_thick",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_kawaii_maid_garter",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_kawaii_maid_simabura_green",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_kawaii_maid_simapan_green",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_kawaii_maid_simabura_pink",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_kawaii_maid_simapan_pink",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_kawaii_maid_megane_09",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_kawaii_maid_megane_08",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_kawaii_maid_megane_07",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_kawaii_maid_megane_06",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_kawaii_maid_megane_05",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_kawaii_maid_megane_04",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_kawaii_maid_megane_03",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_kawaii_hitec_megane",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_kawaii_bikini_top_black",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_kawaii_bikini_bottom_black",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_kawaii_vest",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_kawaii_tailskirt_mini",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_kawaii_hat_cotton",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_kawaii_balclava",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_kawaii_maid_megane_01",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_kawaii_maid_bra",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_kawaii_maid_panties",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_kawaii_dress_shoes",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_kawaii_maid_hat",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_kawaii_maid_dress",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_hair1purplejp",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_hair1aquajp",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_hair1greenjp",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_hair1bluejp",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_hair1orangejp",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_hair1pinkjp",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_hair1greyjp",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_hair1whitejp",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_hair1blackjp",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_hair1brownjp",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_hair1redjp",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_hair1blondjp",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_EYE_BLUE_JP_2",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_EYE_GRAY_JP_2",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_EYE_BROWN_JP_2",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_EYE_GREEN_JP_2",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_EYE_RED_JP_2",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_EYE_YELLOW_JP_2",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_EYE_PURPLE_JP_2",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_EYE_BLUE_JP",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_EYE_GRAY_JP",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_EYE_BROWN_JP",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_EYE_GREEN_JP",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_EYE_RED_JP",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_EYE_YELLOW_JP",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_EYE_PURPLE_JP",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_SKIN_PINK_JP",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_SKIN_DARK_JP",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_SKIN_TAN_JP",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_SKIN_MEDIUM_JP",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_SKIN_LIGHT_JP",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "result": "aaa_layer_kawaii_nurse_cap",
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  }
+  
+]

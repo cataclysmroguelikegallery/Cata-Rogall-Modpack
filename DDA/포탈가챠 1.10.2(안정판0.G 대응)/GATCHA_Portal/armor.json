@@ -1,0 +1,91 @@
+[
+	{
+		"id":"ncard_misc_bin_prism",
+		"type":"TOOL_ARMOR",
+		"name":"차원의 가루 수집기(구판･수집 기능은 삭제되어 있습니다.)",
+		"description":"작은 병과 풍차와 렌즈를 조합한 기괴한 액세서리로, 시간이 경과함에 따라 포털 건너편에 간섭하기 위한 소재를 축적합니다.효과를 발휘하려면 당신이 착용해야 합니다.아무래도 공기중의 먼지를 모으고 있는 것 같기도 합니다만…",
+		"weight":"50 g",
+		"volume":"150 ml",
+		"price":1,
+		"material":[ "wood","glass" ],
+		"symbol":"_",
+		"color":"white",
+		"flags":[ "ONLY_ONE","TRADER_AVOID","UNBREAKABLE_MELEE","NO_RELOAD","DANGEROUS","POWERARMOR_COMPATIBLE" ],
+		"pocket_data":[ { "pocket_type": "MAGAZINE", "holster": true, "ammo_restriction": { "ncard_misc_powder_d": 140 } } ]
+	}
+,
+	{
+		"id":"ncard_misc_yukari",
+		"type":"TOOL_ARMOR",
+		"name":"유카리",
+		"description":"none",
+		"weight":"1 g",
+		"volume":"1 ml",
+		"price":1,
+		"material":[ "steel" ],
+		"symbol":"_",
+		"color":"white",
+		"flags":[ "FANCY","AURA","ONLY_ONE","TRADER_AVOID","UNBREAKABLE_MELEE","NO_RELOAD","POWERARMOR_COMPATIBLE" ]
+	}
+,
+	{
+		"id":"ncard_misc_kiritan",
+		"type":"TOOL_ARMOR",
+		"name":"키리탄",
+		"description":"none",
+		"weight":"1 g",
+		"volume":"1 ml",
+		"price":1,
+		"material":[ "steel" ],
+		"symbol":"_",
+		"color":"white",
+		"flags":[ "FANCY","AURA","ONLY_ONE","TRADER_AVOID","UNBREAKABLE_MELEE","NO_RELOAD","POWERARMOR_COMPATIBLE" ]
+	}
+,
+	{
+		"id":"ncard_misc_akari",
+		"type":"TOOL_ARMOR",
+		"name":"아카리짱",
+		"description":"none",
+		"weight":"1 g",
+		"volume":"1 ml",
+		"price":1,
+		"material":[ "steel" ],
+		"symbol":"_",
+		"color":"white",
+		"flags":[ "FANCY","AURA","ONLY_ONE","TRADER_AVOID","UNBREAKABLE_MELEE","NO_RELOAD","POWERARMOR_COMPATIBLE" ]
+	}
+,
+	{
+		"id":"ncard_misc_bin_prism_auto",
+		"type":"TOOL_ARMOR",
+		"name":"나선식 차원의 가루 수집기",
+		"description":"지금까지 빼놓았던 소재를 모으도록 조정된 차원의 가루 수집기입니다.기동시키기 위해 착용할 필요가 있습니다. 생산된 가루는 분쇄기로 늘릴 수 없고 생산효율도 저하되고 있습니다. 운반하지 않으면 더욱 효율이 떨어지는 것 같습니다.",
+		"weight":"150 g",
+		"volume":"680 ml",
+		"price":1,
+		"material":[ "wood","glass" ],
+		"symbol":"_",
+		"color":"white",
+		"flags":[ "TRADER_AVOID","UNBREAKABLE_MELEE","NO_RELOAD","POWERARMOR_COMPATIBLE","AURA" ],
+		"relic_data":{ "charge_info": {  "recharge_type": "periodic", "time": "14 h 24 m", "regenerate_ammo": true } },
+		"pocket_data":[ { "pocket_type": "MAGAZINE", "holster": true, "ammo_restriction": { "ncard_misc_powder_d_pure": 140 } } ]
+	}
+,
+	{
+		"id":"ncard_misc_bin_prism_2",
+		"type":"TOOL_ARMOR",
+		"name":"차원의 가루 수집기",
+		"description":"작은 병과 풍차와 렌즈를 조합한 기괴한 액세서리로, 시간이 경과함에 따라 포털 건너편에 간섭하기 위한 소재를 축적합니다.가지고 있는 것만으로 효과를 발휘합니다.아무래도 공기중의 먼지를 쌓고 있는 것 같기도 합니다만…",
+		"weight":"50 g",
+		"volume":"150 ml",
+		"price":1,
+		"material":[ "wood","glass" ],
+		"symbol":"_",
+		"color":"white",
+		"flags":[ "ONLY_ONE","TRADER_AVOID","UNBREAKABLE_MELEE","NO_RELOAD","POWERARMOR_COMPATIBLE","AURA" ],
+		"relic_data":{"passive_effects": [{"mutations": ["mutate_ncard_bin_prism"]}]}
+	}
+
+
+]

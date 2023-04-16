@@ -1,0 +1,157 @@
+[
+	{
+		"result":"ncard_ev1_r3_no_01",
+		"type":"uncraft",
+		"tools":[ [ [ "ncard_misc_dimension_hammer", -1 ] ] ],
+		"components":[ [ [ "ncard_misc_powder_gold", 10 ] ] ]
+	}
+,
+	{
+		"result":"ncard_ev1_r3_no_02",
+		"type":"uncraft",
+		"tools":[ [ [ "ncard_misc_dimension_hammer", -1 ] ] ],
+		"components":[ [ [ "ncard_misc_powder_gold", 10 ] ] ]
+	}
+,
+	{
+		"result":"ncard_ev1_r3_no_03",
+		"type":"uncraft",
+		"tools":[ [ [ "ncard_misc_dimension_hammer", -1 ] ] ],
+		"components":[ [ [ "ncard_misc_powder_gold", 10 ] ] ]
+	}
+,
+	{
+		"result":"ncard_ev1_r3_no_04",
+		"type":"uncraft",
+		"tools":[ [ [ "ncard_misc_dimension_hammer", -1 ] ] ],
+		"components":[ [ [ "ncard_misc_powder_gold", 10 ] ] ]
+	}
+,
+	{
+		"result":"ncard_ev2_r3_no_01",
+		"type":"uncraft",
+		"tools":[ [ [ "ncard_misc_dimension_hammer", -1 ] ] ],
+		"components":[ [ [ "ncard_misc_powder_gold", 10 ] ] ]
+	}
+,
+	{
+		"result":"ncard_ev2_r3_no_02",
+		"type":"uncraft",
+		"tools":[ [ [ "ncard_misc_dimension_hammer", -1 ] ] ],
+		"components":[ [ [ "ncard_misc_powder_gold", 10 ] ] ]
+	}
+,
+	{
+		"result":"ncard_ev2_r3_no_03",
+		"type":"uncraft",
+		"tools":[ [ [ "ncard_misc_dimension_hammer", -1 ] ] ],
+		"components":[ [ [ "ncard_misc_powder_gold", 10 ] ] ]
+	}
+,
+	{
+		"result":"ncard_ev2_r3_no_04",
+		"type":"uncraft",
+		"tools":[ [ [ "ncard_misc_dimension_hammer", -1 ] ] ],
+		"components":[ [ [ "ncard_misc_powder_gold", 10 ] ] ]
+	}
+,
+	{
+		"result":"ncard_ev3_r3_no_01",
+		"type":"uncraft",
+		"tools":[ [ [ "ncard_misc_dimension_hammer", -1 ] ] ],
+		"components":[ [ [ "ncard_misc_powder_gold", 10 ] ] ]
+	}
+,
+	{
+		"result":"ncard_ev3_r3_no_02",
+		"type":"uncraft",
+		"tools":[ [ [ "ncard_misc_dimension_hammer", -1 ] ] ],
+		"components":[ [ [ "ncard_misc_powder_gold", 10 ] ] ]
+	}
+,
+	{
+		"result":"ncard_ev3_r3_no_03",
+		"type":"uncraft",
+		"tools":[ [ [ "ncard_misc_dimension_hammer", -1 ] ] ],
+		"components":[ [ [ "ncard_misc_powder_gold", 10 ] ] ]
+	}
+,
+	{
+		"result":"ncard_ev3_r3_no_04",
+		"type":"uncraft",
+		"tools":[ [ [ "ncard_misc_dimension_hammer", -1 ] ] ],
+		"components":[ [ [ "ncard_misc_powder_gold", 10 ] ] ]
+	}
+,
+	{
+		"result":"ncard_ev4_r3_no_01",
+		"type":"uncraft",
+		"tools":[ [ [ "ncard_misc_dimension_hammer", -1 ] ] ],
+		"components":[ [ [ "ncard_misc_powder_gold", 10 ] ] ]
+	}
+,
+	{
+		"result":"ncard_ev4_r3_no_02",
+		"type":"uncraft",
+		"tools":[ [ [ "ncard_misc_dimension_hammer", -1 ] ] ],
+		"components":[ [ [ "ncard_misc_powder_gold", 10 ] ] ]
+	}
+,
+	{
+		"result":"ncard_ev4_r3_no_03",
+		"type":"uncraft",
+		"tools":[ [ [ "ncard_misc_dimension_hammer", -1 ] ] ],
+		"components":[ [ [ "ncard_misc_powder_gold", 10 ] ] ]
+	}
+,
+	{
+		"result":"ncard_ev4_r3_no_04",
+		"type":"uncraft",
+		"tools":[ [ [ "ncard_misc_dimension_hammer", -1 ] ] ],
+		"components":[ [ [ "ncard_misc_powder_gold", 10 ] ] ]
+	}
+,
+	{
+		"result":"ncard_ev4_r3_no_05",
+		"type":"uncraft",
+		"tools":[ [ [ "ncard_misc_dimension_hammer", -1 ] ] ],
+		"components":[ [ [ "ncard_misc_powder_gold", 10 ] ] ]
+	}
+,
+	{
+		"result":"ncard_ev4_r3_no_06",
+		"type":"uncraft",
+		"tools":[ [ [ "ncard_misc_dimension_hammer", -1 ] ] ],
+		"components":[ [ [ "ncard_misc_powder_gold", 10 ] ] ]
+	}
+,
+	{
+		"result":"ncard_ev5_r3_no_01",
+		"type":"uncraft",
+		"tools":[ [ [ "ncard_misc_dimension_hammer", -1 ] ] ],
+		"components":[ [ [ "ncard_misc_powder_gold", 10 ] ] ]
+	}
+,
+	{
+		"result":"ncard_ev5_r3_no_02",
+		"type":"uncraft",
+		"tools":[ [ [ "ncard_misc_dimension_hammer", -1 ] ] ],
+		"components":[ [ [ "ncard_misc_powder_gold", 10 ] ] ]
+	}
+,
+	{
+		"result":"ncard_ev5_r3_no_03",
+		"type":"uncraft",
+		"tools":[ [ [ "ncard_misc_dimension_hammer", -1 ] ] ],
+		"components":[ [ [ "ncard_misc_powder_gold", 10 ] ] ]
+	}
+,
+	{
+		"result":"ncard_ev5_r3_no_04",
+		"type":"uncraft",
+		"tools":[ [ [ "ncard_misc_dimension_hammer", -1 ] ] ],
+		"components":[ [ [ "ncard_misc_powder_gold", 10 ] ] ]
+	}
+
+
+]

@@ -1,0 +1,111 @@
+[
+	{
+		"id":"chocolate",
+		"name":{ "str": "chocolate bar" },
+		"type":"COMESTIBLE",
+		"copy-from":"chocolate",
+		"use_action":[ "PETFOOD" ],
+		"petfood":[ "PORTALDRIFTER_FOOD","PORTALDRIFTER_FOOD2" ]
+	}
+,
+	{
+		"id":"chocolate_military",
+		"name":{ "str": "military chocolate bar" },
+		"type":"COMESTIBLE",
+		"copy-from":"chocolate_military",
+		"use_action":[ "PETFOOD" ],
+		"petfood":[ "PORTALDRIFTER_FOOD","PORTALDRIFTER_FOOD2" ]
+	}
+,
+	{
+		"id":"jerky",
+		"name":{ "str_sp": "meat jerky" },
+		"type":"COMESTIBLE",
+		"copy-from":"jerky",
+		"use_action":[ "PETFOOD" ],
+		"petfood":[ "PORTALDRIFTER_FOOD" ]
+	}
+,
+	{
+		"id":"sausage",
+		"name":{ "str": "smoked sausage" },
+		"type":"COMESTIBLE",
+		"copy-from":"sausage",
+		"use_action":[ "PETFOOD" ],
+		"petfood":[ "PORTALDRIFTER_FOOD" ]
+	}
+,
+	{
+		"id":"bologna",
+		"name":{ "str_sp": "bologna" },
+		"type":"COMESTIBLE",
+		"copy-from":"bologna",
+		"use_action":[ "PETFOOD" ],
+		"petfood":[ "PORTALDRIFTER_FOOD" ]
+	}
+,
+	{
+		"id":"dry_meat",
+		"name":{ "str": "dehydrated meat" },
+		"type":"COMESTIBLE",
+		"copy-from":"dry_meat",
+		"use_action":[ "PETFOOD" ],
+		"petfood":[ "PORTALDRIFTER_FOOD" ]
+	}
+,
+	{
+		"id":"dry_lobster",
+		"name":{ "str_sp": "dehydrated lobster" },
+		"type":"COMESTIBLE",
+		"copy-from":"dry_lobster",
+		"use_action":[ "PETFOOD" ],
+		"petfood":[ "PORTALDRIFTER_FOOD" ]
+	}
+,
+	{
+		"id":"dry_mollusk",
+		"name":{ "str_sp": "dehydrated mollusk" },
+		"type":"COMESTIBLE",
+		"copy-from":"dry_mollusk",
+		"use_action":[ "PETFOOD" ],
+		"petfood":[ "PORTALDRIFTER_FOOD" ]
+	}
+,
+	{
+		"id":"meat_canned",
+		"name":{ "str": "canned meat" },
+		"type":"COMESTIBLE",
+		"copy-from":"meat_canned",
+		"use_action":[ "PETFOOD" ],
+		"petfood":[ "PORTALDRIFTER_FOOD" ]
+	}
+,
+	{
+		"id":"lobster_canned",
+		"name":{ "str_sp": "canned lobster" },
+		"type":"COMESTIBLE",
+		"copy-from":"lobster_canned",
+		"use_action":[ "PETFOOD" ],
+		"petfood":[ "PORTALDRIFTER_FOOD" ]
+	}
+,
+	{
+		"id":"can_clams",
+		"name":{ "str": "canned clam" },
+		"type":"COMESTIBLE",
+		"copy-from":"can_clams",
+		"use_action":[ "PETFOOD" ],
+		"petfood":[ "PORTALDRIFTER_FOOD" ]
+	}
+,
+	{
+		"id":"ncard_debugfood",
+		"name":"debugフード",
+		"type":"COMESTIBLE",
+		"copy-from":"jerky",
+		"use_action":[ "PETFOOD" ],
+		"petfood":[ "PORTALDRIFTER_FOOD" ]
+	}
+
+
+]

@@ -1,0 +1,166 @@
+[
+  {
+    "type": "recipe",
+    "result": "PSY_magi_magic_revolver_ver1",
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_WEAPONS",
+    "skill_used": "fabrication",
+    "skills_required": [ "spellcraft", 1 ],
+    "difficulty": 1,
+    "time": "30 m",
+    "autolearn": true,
+    "qualities": [
+      { "id": "HAMMER", "level": 1 },
+      { "id": "SCREW"      ,  "level": 1 }
+     ],
+    "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
+    "components": [
+       [ [ "pipe",  1 ] ],
+       [ [ "2x4",   1 ] ],
+       [ [ "scrap", 2 ] ]
+     ]
+  },{
+    "type": "recipe",
+    "result": "PSY_magi_magic_revolver_ver2",
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_WEAPONS",
+    "skill_used": "fabrication",
+    "skills_required": [ "spellcraft", 3 ],
+    "difficulty": 3,
+    "time": "45 m",
+    "autolearn": true,
+    "qualities": [
+      { "id": "HAMMER", "level": 3 },
+      { "id": "SCREW"      , "level": 1 },
+      { "id": "MANA_FOCUS", "level": 1 }
+     ],
+    "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
+    "components": [
+      [ [ "PSY_magi_magic_revolver_ver1", 1 ] ],
+      [ [ "pipe"               , 1 ] ],
+      [ [ "spring"             , 1 ] ],
+      [ [ "scrap"              , 2 ] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "PSY_magi_magic_revolver_ver3",
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_WEAPONS",
+    "skill_used": "fabrication",
+    "skills_required": [ "spellcraft", 5 ],
+    "difficulty": 3,
+    "time": "45 m",
+    "autolearn": true,
+    "qualities": [
+      { "id": "HAMMER", "level": 3 },
+      { "id": "SCREW_FINE",  "level": 1 },
+      { "id": "MANA_FOCUS",  "level": 1 }
+     ],
+    "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
+    "components": [
+      [ [ "PSY_magi_magic_revolver_ver2", 1  ] ],
+      [ [ "pipe"               , 1  ] ],
+      [ [ "spring"             , 1  ] ],
+      [ [ "scrap"              , 4  ] ],
+      [ [ "copper"             , 20 ] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "PSY_magi_magic_revolver_ver4",
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_WEAPONS",
+    "skill_used": "fabrication",
+    "skills_required": [ "spellcraft", 7 ],
+    "difficulty": 5,
+    "time": "60 m",
+    "autolearn": true,
+    "qualities": [
+      { "id": "HAMMER", "level": 3 },
+      { "id": "SCREW_FINE",  "level": 1 },
+      { "id": "MANA_FOCUS",  "level": 1 },
+      { "id": "MANA_INFUSE", "level": 1 }
+     ],
+    "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
+    "components": [
+      [ [ "PSY_magi_magic_revolver_ver3", 1  ] ],
+      [ [ "pipe"               , 1  ] ],
+      [ [ "spring"             , 1  ] ],
+      [ [ "scrap"              , 4  ] ],
+      [ [ "silver_small"       , 10 ] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "PSY_magi_magic_revolver_ver5",
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_WEAPONS",
+    "skill_used": "fabrication",
+    "skills_required": [ "spellcraft", 7 ],
+    "difficulty": 5,
+    "time": "60 m",
+    "autolearn": true,
+    "qualities": [
+      { "id": "HAMMER", "level": 3 },
+      { "id": "SCREW_FINE",  "level": 1 },
+      { "id": "MANA_FOCUS",  "level": 1 },
+      { "id": "MANA_INFUSE", "level": 1 }
+     ],
+    "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
+    "components": [
+      [ [ "PSY_magi_magic_revolver_ver4", 1  ] ],
+      [ [ "pipe"               , 1  ] ],
+      [ [ "spring"             , 1  ] ],
+      [ [ "scrap"              , 4  ] ],
+      [ [ "gold_small"         , 10 ] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "PSY_magi_magic_revolver_ver6",
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_WEAPONS",
+    "skill_used": "fabrication",
+    "skills_required": [ "spellcraft", 9 ],
+    "difficulty": 7,
+    "time": "60 m",
+    "autolearn": true,
+    "qualities": [
+      { "id": "HAMMER", "level": 3 },
+      { "id": "SCREW_FINE",  "level": 1 },
+      { "id": "MANA_FOCUS",  "level": 1 },
+      { "id": "MANA_INFUSE", "level": 1 }
+     ],
+    "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
+    "components": [
+      [ [ "PSY_magi_magic_revolver_ver5"      , 1  ] ],
+      [ [ "pipe"                     , 1  ] ],
+      [ [ "spring"                   , 1  ] ],
+      [ [ "scrap"                    , 4  ] ],
+      [ [ "platinum_small"           , 10 ] ],
+      [ [ "crystallized_mana"        , 10 ] ]
+    ]
+  },{
+    "type": "recipe",
+    "result": "PSY_magi_magic_revolver_ver7",
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_WEAPONS",
+    "skill_used": "fabrication",
+    "skills_required": [ "spellcraft", 11 ],
+    "difficulty": 8,
+    "time": "60 m",
+    "autolearn": true,
+    "qualities": [
+      { "id": "HAMMER", "level": 3 },
+      { "id": "SCREW_FINE",  "level": 1 },
+      { "id": "MANA_FOCUS",  "level": 1 },
+      { "id": "MANA_INFUSE", "level": 1 }
+     ],
+    "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
+    "components": [
+      [ [ "PSY_magi_magic_revolver_ver6", 1  ] ],
+      [ [ "pipe"                     , 1  ] ],
+      [ [ "spring"                   , 1  ] ],
+      [ [ "crystallized_mana"        , 20 ] ],
+      [ [ "black_dragon_tanned_hide" , 1  ] ],
+      [ [ "dragon_essence"           , 1  ] ]
+    ]
+  }
+]

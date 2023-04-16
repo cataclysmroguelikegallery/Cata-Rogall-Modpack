@@ -1,0 +1,227 @@
+[
+	{
+		"id":"ncard_r2_grenade_hack",
+		"type":"TOOL",
+		"copy-from":"ncard_base_r2",
+		"name":"은 카드(소환/수류탄 맨핵)",
+		"description":"수수께끼의 힘으로 포털 건너편에서 뭔가를 불러오는 일회용 카드입니다.소환된 존재는 일정 시간 내에 소멸됩니다.",
+		"material":[ "silver" ],
+		"symbol":"i",
+		"color":"white",
+		"flags":[ "SINGLE_USE","UNBREAKABLE_MELEE","TRADER_AVOID","NO_UNLOAD", "NO_RELOAD" ],
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_r2_grenade_hack", "no_fail": true, "level": 0 },
+		"price":0
+	}
+,
+	{
+		"id":"ncard_r2_mi_go_guard",
+		"type":"TOOL",
+		"copy-from":"ncard_base_r2",
+		"name":"은 카드(소환/미-고 가드)",
+		"description":"수수께끼의 힘으로 포털 건너편에서 뭔가를 불러오는 일회용 카드입니다.소환된 존재는 일정 시간 내에 소멸됩니다.",
+		"material":[ "silver" ],
+		"symbol":"i",
+		"color":"white",
+		"flags":[ "SINGLE_USE","UNBREAKABLE_MELEE","TRADER_AVOID","NO_UNLOAD", "NO_RELOAD" ],
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_r2_mi_go_guard", "no_fail": true, "level": 0 },
+		"price":0
+	}
+,
+	{
+		"id":"ncard_r2_fungal_fighter",
+		"type":"TOOL",
+		"copy-from":"ncard_base_r2",
+		"name":"은 카드(소환/진균 전사)",
+		"description":"수수께끼의 힘으로 포털 건너편에서 뭔가를 불러오는 일회용 카드입니다.소환된 존재는 일정 시간 내에 소멸됩니다.",
+		"material":[ "silver" ],
+		"symbol":"i",
+		"color":"white",
+		"flags":[ "SINGLE_USE","UNBREAKABLE_MELEE","TRADER_AVOID","NO_UNLOAD", "NO_RELOAD" ],
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_r2_fungal_fighter", "no_fail": true, "level": 0 },
+		"price":0
+	}
+,
+	{
+		"id":"ncard_r2_flying_polyp",
+		"type":"TOOL",
+		"copy-from":"ncard_base_r2",
+		"name":"은 카드(소환/날아다니는 폴립)",
+		"description":"수수께끼의 힘으로 포털 건너편에서 뭔가를 불러오는 일회용 카드입니다.소환된 존재는 일정 시간 내에 소멸됩니다.",
+		"material":[ "silver" ],
+		"symbol":"i",
+		"color":"white",
+		"flags":[ "SINGLE_USE","UNBREAKABLE_MELEE","TRADER_AVOID","NO_UNLOAD", "NO_RELOAD" ],
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_r2_flying_polyp", "no_fail": true, "level": 0 },
+		"price":0
+	}
+,
+	{
+		"id":"ncard_r2_thing",
+		"type":"TOOL",
+		"copy-from":"ncard_base_r2",
+		"name":"은 카드(소환/물체X)",
+		"description":"수수께끼의 힘으로 포털 건너편에서 뭔가를 불러오는 일회용 카드입니다.소환된 존재는 일정 시간 내에 소멸됩니다.",
+		"material":[ "silver" ],
+		"symbol":"i",
+		"color":"white",
+		"flags":[ "SINGLE_USE","UNBREAKABLE_MELEE","TRADER_AVOID","NO_UNLOAD", "NO_RELOAD" ],
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_r2_thing", "no_fail": true, "level": 0 },
+		"price":0
+	}
+,
+	{
+		"id":"ncard_r2_flesh_golem",
+		"type":"TOOL",
+		"copy-from":"ncard_base_r2",
+		"name":"은 카드(소환/살덩이 골렘)",
+		"description":"수수께끼의 힘으로 포털 건너편에서 뭔가를 불러오는 일회용 카드입니다.소환된 존재는 일정 시간 내에 소멸됩니다.",
+		"material":[ "silver" ],
+		"symbol":"i",
+		"color":"white",
+		"flags":[ "SINGLE_USE","UNBREAKABLE_MELEE","TRADER_AVOID","NO_UNLOAD", "NO_RELOAD" ],
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_r2_flesh_golem", "no_fail": true, "level": 0 },
+		"price":0
+	}
+,
+	{
+		"id":"ncard_r2_jabberwock",
+		"type":"TOOL",
+		"copy-from":"ncard_base_r2",
+		"name":"은 카드(소환/재버워키)",
+		"description":"수수께끼의 힘으로 포털 건너편에서 뭔가를 불러오는 일회용 카드입니다.소환된 존재는 일정 시간 내에 소멸됩니다.",
+		"material":[ "silver" ],
+		"symbol":"i",
+		"color":"white",
+		"flags":[ "SINGLE_USE","UNBREAKABLE_MELEE","TRADER_AVOID","NO_UNLOAD", "NO_RELOAD" ],
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_r2_jabberwock", "no_fail": true, "level": 0 },
+		"price":0
+	}
+,
+	{
+		"id":"ncard_r2_giant_crayfish",
+		"type":"TOOL",
+		"copy-from":"ncard_base_r2",
+		"name":"은 카드(소환/거대 가재)",
+		"description":"수수께끼의 힘으로 포털 건너편에서 뭔가를 불러오는 일회용 카드입니다.소환된 존재는 일정 시간 내에 소멸됩니다.",
+		"material":[ "silver" ],
+		"symbol":"i",
+		"color":"white",
+		"flags":[ "SINGLE_USE","UNBREAKABLE_MELEE","TRADER_AVOID","NO_UNLOAD", "NO_RELOAD" ],
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_r2_giant_crayfish", "no_fail": true, "level": 0 },
+		"price":0
+	}
+,
+	{
+		"id":"ncard_r2_cow",
+		"type":"TOOL",
+		"copy-from":"ncard_base_r2",
+		"name":"은 카드(영속소환/소)",
+		"description":"수수께끼의 힘으로 포털 건너편에서 뭔가를 불러오는 일회용 카드입니다.소환된 존재는 일정 시간 내에 소멸됩니다.",
+		"material":[ "silver" ],
+		"symbol":"i",
+		"color":"white",
+		"flags":[ "SINGLE_USE","UNBREAKABLE_MELEE","TRADER_AVOID","NO_UNLOAD", "NO_RELOAD" ],
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_r2_cow", "no_fail": true, "level": 0 },
+		"price":0
+	}
+,
+	{
+		"id":"ncard_r2_dog_bull",
+		"type":"TOOL",
+		"copy-from":"ncard_base_r2",
+		"name":"은 카드(영속소환/불독)",
+		"description":"수수께끼의 힘으로 포털 건너편에서 뭔가를 불러오는 일회용 카드입니다.소환된 존재는 일정 시간 내에 소멸됩니다.",
+		"material":[ "silver" ],
+		"symbol":"i",
+		"color":"white",
+		"flags":[ "SINGLE_USE","UNBREAKABLE_MELEE","TRADER_AVOID","NO_UNLOAD", "NO_RELOAD" ],
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_r2_dog_bull", "no_fail": true, "level": 0 },
+		"price":0
+	}
+,
+	{
+		"id":"ncard_r2_dog_samoyed",
+		"type":"TOOL",
+		"copy-from":"ncard_base_r2",
+		"name":"은 카드(영속소환/사모예드)",
+		"description":"수수께끼의 힘으로 포털 건너편에서 뭔가를 불러오는 일회용 카드입니다.소환된 존재는 일정 시간 내에 소멸됩니다.",
+		"material":[ "silver" ],
+		"symbol":"i",
+		"color":"white",
+		"flags":[ "SINGLE_USE","UNBREAKABLE_MELEE","TRADER_AVOID","NO_UNLOAD", "NO_RELOAD" ],
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_r2_dog_samoyed", "no_fail": true, "level": 0 },
+		"price":0
+	}
+,
+	{
+		"id":"ncard_r2_razorclaw",
+		"type":"TOOL",
+		"copy-from":"ncard_base_r2",
+		"name":"은 카드(소환/레이저 클로)",
+		"description":"수수께끼의 힘으로 포털 건너편에서 뭔가를 불러오는 일회용 카드입니다.소환된 존재는 일정 시간 내에 소멸됩니다.",
+		"material":[ "silver" ],
+		"symbol":"i",
+		"color":"white",
+		"flags":[ "SINGLE_USE","UNBREAKABLE_MELEE","TRADER_AVOID","NO_UNLOAD", "NO_RELOAD" ],
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_r2_razorclaw", "no_fail": true, "level": 0 },
+		"price":0
+	}
+,
+	{
+		"id":"ncard_r2_gas_zombie",
+		"type":"TOOL",
+		"copy-from":"ncard_base_r2",
+		"name":"은 카드(소환/가솔린 좀비)",
+		"description":"수수께끼의 힘으로 포털 건너편에서 뭔가를 불러오는 일회용 카드입니다.소환된 존재는 일정 시간 내에 소멸됩니다.",
+		"material":[ "silver" ],
+		"symbol":"i",
+		"color":"white",
+		"flags":[ "SINGLE_USE","UNBREAKABLE_MELEE","TRADER_AVOID","NO_UNLOAD", "NO_RELOAD" ],
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_r2_gas_zombie", "no_fail": true, "level": 0 },
+		"price":0
+	}
+,
+	{
+		"id":"ncard_r2_ant_small",
+		"type":"TOOL",
+		"copy-from":"ncard_base_r2",
+		"name":"은 카드(소환/개미)",
+		"description":"수수께끼의 힘으로 포털 건너편에서 뭔가를 불러오는 일회용 카드입니다.소환된 존재는 일정 시간 내에 소멸됩니다.",
+		"material":[ "silver" ],
+		"symbol":"i",
+		"color":"white",
+		"flags":[ "SINGLE_USE","UNBREAKABLE_MELEE","TRADER_AVOID","NO_UNLOAD", "NO_RELOAD" ],
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_r2_ant_small", "no_fail": true, "level": 0 },
+		"price":0
+	}
+,
+	{
+		"id":"ncard_r2_ant_acid_small",
+		"type":"TOOL",
+		"copy-from":"ncard_base_r2",
+		"name":"은 카드(소환/산성 개미)",
+		"description":"수수께끼의 힘으로 포털 건너편에서 뭔가를 불러오는 일회용 카드입니다.소환된 존재는 일정 시간 내에 소멸됩니다.",
+		"material":[ "silver" ],
+		"symbol":"i",
+		"color":"white",
+		"flags":[ "SINGLE_USE","UNBREAKABLE_MELEE","TRADER_AVOID","NO_UNLOAD", "NO_RELOAD" ],
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_r2_ant_acid_small", "no_fail": true, "level": 0 },
+		"price":0
+	}
+,
+	{
+		"id":"ncard_r2_zombie_kevlar_1",
+		"type":"TOOL",
+		"copy-from":"ncard_base_r2",
+		"name":"은 카드(소환/케블라 좀비)",
+		"description":"수수께끼의 힘으로 포털 건너편에서 뭔가를 불러오는 일회용 카드입니다.소환된 존재는 일정 시간 내에 소멸됩니다.",
+		"material":[ "silver" ],
+		"symbol":"i",
+		"color":"white",
+		"flags":[ "SINGLE_USE","UNBREAKABLE_MELEE","TRADER_AVOID","NO_UNLOAD", "NO_RELOAD" ],
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_r2_zombie_kevlar_1", "no_fail": true, "level": 0 },
+		"price":0
+	}
+
+
+]

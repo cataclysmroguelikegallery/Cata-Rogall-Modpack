@@ -1,0 +1,35 @@
+[
+  {
+    "//1": "建築メニューへ追加(開いた金属ドア→閉じた金属ドア)",
+    "type": "construction",
+    "id": "lock_door_metaldoor",
+    "group": "lock_door",
+    "category": "OTHER",
+    "required_skills": [ [ "traps", 0 ] ],
+    "time": "5 s",
+    "pre_terrain": "t_door_metal_c",
+    "post_terrain": "t_door_metal_pickable"
+  },
+  {
+    "//1": "建築メニューへ追加(開いたスイングドア→閉じたスイングドア)",
+    "type": "construction",
+    "id": "lock_door_metaldoor_bar",
+    "group": "lock_door_2",
+    "category": "OTHER",
+    "required_skills": [ [ "traps", 0 ] ],
+    "time": "5 s",
+    "pre_terrain": "t_door_bar_c",
+    "post_terrain": "t_door_bar_locked"
+  },
+  {
+    "//1": "建築メニューへ追加(ドアスコープ付きの開いた木製ドア→ドアスコープ付きの閉じた木製ドア)",
+    "type": "construction",
+    "id": "lock_door",
+    "group": "lock_door_4",
+    "category": "OTHER",
+    "required_skills": [ [ "traps", 0 ] ],
+    "time": "5 s",
+    "pre_terrain": "t_door_c_peep",
+    "post_terrain": "t_door_locked_peep"
+  }
+]

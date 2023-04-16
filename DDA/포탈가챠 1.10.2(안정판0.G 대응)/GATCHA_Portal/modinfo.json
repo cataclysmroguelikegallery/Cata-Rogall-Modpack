@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "GATCHA_Portal",
+    "name": "포탈 가챠 MOD",
+    "authors": [ "m_kw"],
+    "description": "신기한 티켓을 작성하고 포털 건너편에서 여성형 몬스터 등을 소환할 수 있습니다.",
+    "category": "SUPPLEMENTAL",
+    "dependencies": [ "dda" ]
+  }
+]

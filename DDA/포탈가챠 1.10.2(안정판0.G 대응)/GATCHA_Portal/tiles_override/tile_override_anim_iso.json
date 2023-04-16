@@ -1,0 +1,134 @@
+[
+		
+		
+		{
+		"type": "mod_tileset",
+		"compatibility": [
+		"Ultica_iso"
+		],
+		"tiles-new": [
+		{
+		"file": "tiles_override/tile_config.png",
+		"tiles": [
+		{ "id": "mon_ncard_r4_no_01", "rotates": false,"animated": true,
+		     "fg":[
+		       {"weight": 48,   "sprite":0},
+		       {"weight": 8,     "sprite":1},
+		       {"weight": 8,     "sprite":2},
+		       {"weight": 16,   "sprite":3}
+		     ]
+		},
+		{ "id": "mon_ncard_r4_no_02", "rotates": false,"animated": true,
+		     "fg":[
+		       {"weight": 48,   "sprite":5},
+		       {"weight": 8,     "sprite":6},
+		       {"weight": 8,     "sprite":7},
+		       {"weight": 16,   "sprite":8}
+		     ]
+		},
+		{ "id": "mon_ncard_r4_no_03", "rotates": false,"animated": true,
+		     "fg":[
+		       {"weight": 48,   "sprite":10},
+		       {"weight": 8,     "sprite":11},
+		       {"weight": 8,     "sprite":12},
+		       {"weight": 16,   "sprite":13}
+		     ]
+		},
+		{ "id": "mon_ncard_r4_no_04", "rotates": false,"animated": true,
+		     "fg":[
+		       {"weight": 48,   "sprite":15},
+		       {"weight": 8,     "sprite":16},
+		       {"weight": 8,     "sprite":17},
+		       {"weight": 16,   "sprite":18}
+		     ]
+		},
+		{ "id": "mon_ncard_s2_r4_no_01", "rotates": false,"animated": true,
+		     "fg":[
+		       {"weight": 48,   "sprite":20},
+		       {"weight": 8,     "sprite":21},
+		       {"weight": 8,     "sprite":22},
+		       {"weight": 16,   "sprite":23}
+		     ]
+		},
+
+		{ "id": "mon_ncard_ev1_r4_no_01", "rotates": false,"animated": true,
+		     "fg":[
+		       {"weight": 48,   "sprite":30},
+		       {"weight": 8,     "sprite":31},
+		       {"weight": 8,     "sprite":32},
+		       {"weight": 16,   "sprite":33}
+		     ]
+		},
+		{ "id": "mon_ncard_ev1_r4_no_02", "rotates": false,"animated": true,
+		     "fg":[
+		       {"weight": 48,   "sprite":35},
+		       {"weight": 8,     "sprite":36},
+		       {"weight": 8,     "sprite":37},
+		       {"weight": 16,   "sprite":38}
+		     ]
+		},
+
+		{ "id": "mon_ncard_ev2_r4_no_01", "rotates": false,"animated": true,
+		     "fg":[
+		       {"weight": 48,   "sprite":40},
+		       {"weight": 8,     "sprite":41},
+		       {"weight": 8,     "sprite":42},
+		       {"weight": 16,   "sprite":43}
+		     ]
+		},
+		{ "id": "mon_ncard_ev2_r4_no_02", "rotates": false,"animated": true,
+		     "fg":[
+		       {"weight": 48,   "sprite":45},
+		       {"weight": 8,     "sprite":46},
+		       {"weight": 8,     "sprite":47},
+		       {"weight": 16,   "sprite":48}
+		     ]
+		},
+
+
+
+		{ "id": "mon_ncard_ev3_r4_no_01", "rotates": false,"animated": true,
+		     "fg":[
+		       {"weight": 48,   "sprite":50},
+		       {"weight": 8,     "sprite":51},
+		       {"weight": 8,     "sprite":52},
+		       {"weight": 16,   "sprite":53}
+		     ]
+		},
+		{ "id": "mon_ncard_ev3_r4_no_02", "rotates": false,"animated": true,
+		     "fg":[
+		       {"weight": 48,   "sprite":55},
+		       {"weight": 8,     "sprite":56},
+		       {"weight": 8,     "sprite":57},
+		       {"weight": 16,   "sprite":58}
+		     ]
+		},
+		{ "id": [ "mon_ncard_ev4_r4_no_01", "mon_ncard_ev4_r4_no_01_dr" ], "rotates": false,"animated": true,
+		     "fg":[
+		       {"weight": 48,   "sprite":60},
+		       {"weight": 8,     "sprite":61},
+		       {"weight": 8,     "sprite":62},
+		       {"weight": 16,   "sprite":63}
+		     ]
+		},
+		{ "id": [ "mon_ncard_ev4_r4_no_02", "mon_ncard_ev4_r4_no_02_dr" ], "rotates": false,"animated": true,
+		     "fg":[
+		       {"weight": 48,   "sprite":65},
+		       {"weight": 8,     "sprite":66},
+		       {"weight": 8,     "sprite":67},
+		       {"weight": 16,   "sprite":68}
+		     ]
+		}
+		],
+		"sprite_width": 88,
+		"sprite_height": 88,
+		"sprite_offset_x": -58,
+		"sprite_offset_y": -162,
+		"pixelscale": 2
+		      }
+		
+		    ]
+		  }
+
+
+]

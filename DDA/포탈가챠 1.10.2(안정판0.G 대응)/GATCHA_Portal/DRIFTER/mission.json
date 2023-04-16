@@ -1,0 +1,18 @@
+[
+  {
+    "id": "MISSION_REACH_MONEY_BANK",
+    "type": "mission_definition",
+    "name": { "str": "돈 있는 곳을 찾으러 가다" },
+    "description": "행상인에게 돈이 많이 있을 것 같은 장소를 물었습니다.찾으러 갑시다.",
+    "goal": "MGOAL_GO_TO",
+    "difficulty": 2,
+    "value": 0,
+    "start": {
+      "effect": [{ "u_message": "ミッション「お金のある場所を見つけに行く」を受注しました。","type": "good","popup": true  },
+                     { "u_add_var": "time_MONEY_BANK", "type": "timer", "context": "time", "time": true }
+      ],
+      "assign_mission_target": { "om_terrain": "bank_1", "reveal_radius": 5, "cant_see": true }
+
+    }
+  }
+  ]

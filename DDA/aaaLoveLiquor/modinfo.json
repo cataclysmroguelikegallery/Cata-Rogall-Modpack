@@ -1,0 +1,10 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "aaa_Love_Liquor",
+    "name": "변경 - 술 무제한 마시기MOD",
+    "authors": [ "aaa4604" ],
+    "description": "알코올성 음료의 건강도 감소가 사라집니다 (일부 술은 건강도가 감소합니다) \n술을 마시자 마시자 술을 마시자。",
+    "dependencies": [ "dda"]
+  }
+]

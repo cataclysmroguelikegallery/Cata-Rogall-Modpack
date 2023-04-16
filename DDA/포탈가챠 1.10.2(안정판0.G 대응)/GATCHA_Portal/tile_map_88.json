@@ -1,0 +1,54 @@
+[
+		
+		
+		{
+		"type": "mod_tileset","compatibility": [
+		"Custom Tileset",
+		"MshockXottoplus",
+		"MSX++DEAD_PEOPLE",
+		"UNDEAD_PEOPLE",
+		"ChestHole32",
+		"UNDEAD_PEOPLE_BASE",
+		"UltimateCataclysm",
+		"UltimateCataclysmDemo",
+		"Chibi_Ultica",
+		"MshockXottoplus",
+		"Alternative Ultica",
+		"MshockXottoplus"
+		],
+		"tiles-new": [
+		{
+		"file": "tile_config_GATCHA_88x88.png",
+		"tiles": [
+		{ "id": ["explosion_call_crate_1",
+		"explosion_call_crate_ev1_1",
+		"explosion_call_crate_ev2_1",
+		"explosion_call_crate_ev3_1",
+		"explosion_call_crate_ev5_1",
+		"explosion_call_crate_ev6_1",
+		"explosion_call_crate_s2_1"], "rotates": false,"animated": true,"fg":[{"weight": 5, "sprite":2},
+		{"weight": 5, "sprite":4},
+		{"weight": 5, "sprite":22},
+		{"weight": 5, "sprite":24},
+		{"weight": 5, "sprite":42},
+		{"weight": 5, "sprite":44}
+		]
+		},
+		{ "id": "explosion_call_crate_ev1_", "fg":10, "rotates": false },
+		{ "id": "explosion_call_crate_ev2_", "fg":10, "rotates": false },
+		{ "id": "explosion_call_crate_ev3_", "fg":10, "rotates": false },
+		{ "id": "explosion_call_crate_ev5_", "fg":10, "rotates": false },
+		{ "id": "explosion_call_crate_ev6_", "fg":10, "rotates": false },
+		{ "id": "explosion_call_crate_s2_", "fg":10, "rotates": true }
+		],
+		"sprite_width": 88,
+		"sprite_height": 88,
+		"sprite_offset_x": -29,
+		"sprite_offset_y": -36
+		      }
+		
+		    ]
+		  }
+
+
+]

@@ -1,0 +1,59 @@
+[
+	{
+		"id":"ef_fd_ncard_buff",
+		"type":"effect_type",
+		"name":[ "축복" ],
+		"desc":[ "당신은 축복받고 있습니다" ],
+		"apply_message":"당신은 축복받고 있습니다。",
+		"rating":"good",
+		"max_duration":"1 m",
+		"max_intensity":1,
+		"int_dur_factor":"1 m",
+		"base_mods":{ "speed_mod": [ 10 ], "str_mod": [ 1 ], "dex_mod": [ 1 ] },
+		"show_in_info":true
+	}
+,
+	{
+		"id":"ef_fd_ncard_deathcross2",
+		"type":"effect_type",
+		"name":[ "파괴의 여파" ],
+		"desc":[ "당신은 파괴의 여파의 영향을 받고있습니다!" ],
+		"apply_message":"당신은 파괴의 여파의 영향을 받고있습니다!",
+		"rating":"bad",
+		"max_duration":"10 s",
+		"max_intensity":1,
+		"int_dur_factor":"2 s",
+		"base_mods":{ "speed_mod": [ -50 ], "dodge_mod": [ -5 ], "bash_mod": [ -1 ] },
+		"show_in_info":true,
+		"flags":[ "EFFECT_IMPEDING" ]
+	}
+,
+	{
+		"id":"ef_fd_ncard_smoke",
+		"type":"effect_type",
+		"name":[ "분진" ],
+		"desc":[ "당신은 분진의 영향을 받고있습니다" ],
+		"apply_message":"당신은 분진의 영향을 받고있습니다",
+		"rating":"bad",
+		"max_duration":"1 s",
+		"max_intensity":1,
+		"int_dur_factor":"1 s",
+		"base_mods":{  "per_mod": [ -1 ],"bash_mod": [ -4 ] },
+		"show_in_info":true
+	}
+,
+	{
+		"id":"ef_fd_ncard_regen",
+		"type":"effect_type",
+		"name":[ "자연회복" ],
+		"desc":[ "당신은 자연회복의 영향을 받고있습니다" ],
+		"apply_message":"당신은 자연회복의 영향을 받고있습니다",
+		"rating":"good",
+		"max_duration":"21 d",
+		"max_intensity":1,
+		"base_mods":{ "health_amount": [ 15 ],"health_min": [ 15 ],"health_max": [ 15 ],"health_chance": [ 13, 100 ],"health_tick": [ 36 ] },
+		"show_in_info":true
+	}
+
+
+]

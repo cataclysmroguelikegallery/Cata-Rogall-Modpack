@@ -1,0 +1,218 @@
+[
+  {
+    "type": "recipe",
+    "result": "PSY_magi_magic_Gauntlet_MA_1",
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_WEAPONS",
+    "skill_used": "fabrication",
+    "skills_required": [ "spellcraft", 3 ],
+    "difficulty": 4,
+    "time": "120 m",
+    "autolearn": true,
+    "using": [ [ "forging_standard", 14 ], [ "steel_standard", 3 ] ],
+    "qualities": [
+      { "id": "ANVIL", "level": 3 },
+      { "id": "HAMMER", "level": 3 },
+      { "id": "CHISEL", "level": 3 },
+      { "id": "MANA_INFUSE", "level": 1 }
+    ],
+    "tools": [ [ [ "tongs", -1 ] ], [ [ "swage", -1 ] ] ],
+    "components": [ 
+      [ [ "rune_magus", 1 ] ],
+      [ [ "leather", 2 ] ],
+      [ [ "rag", 2 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_magic_Gauntlet_MA_2",
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_WEAPONS",
+    "skill_used": "fabrication",
+    "skills_required": [ "spellcraft", 3 ],
+    "difficulty": 4,
+    "time": "120 m",
+    "autolearn": true,
+    "using": [ [ "forging_standard", 14 ], [ "steel_standard", 3 ] ],
+    "qualities": [
+      { "id": "ANVIL", "level": 3 },
+      { "id": "HAMMER", "level": 3 },
+      { "id": "CHISEL", "level": 3 },
+      { "id": "MANA_INFUSE", "level": 1 }
+    ],
+    "tools": [ [ [ "tongs", -1 ] ], [ [ "swage", -1 ] ] ],
+    "components": [ 
+      [ [ "rune_animist", 1 ] ],
+      [ [ "leather", 2 ] ],
+      [ [ "rag", 2 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_magic_Gauntlet_MA_3",
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_WEAPONS",
+    "skill_used": "fabrication",
+    "skills_required": [ "spellcraft", 3 ],
+    "difficulty": 4,
+    "time": "120 m",
+    "autolearn": true,
+    "using": [ [ "forging_standard", 14 ], [ "steel_standard", 3 ] ],
+    "qualities": [
+      { "id": "ANVIL", "level": 3 },
+      { "id": "HAMMER", "level": 3 },
+      { "id": "CHISEL", "level": 3 },
+      { "id": "MANA_INFUSE", "level": 1 }
+    ],
+    "tools": [ [ [ "tongs", -1 ] ], [ [ "swage", -1 ] ] ],
+    "components": [ 
+      [ [ "rune_kelvinist", 1 ] ],
+      [ [ "leather", 2 ] ],
+      [ [ "rag", 2 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_magic_Gauntlet_MA_4",
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_WEAPONS",
+    "skill_used": "fabrication",
+    "skills_required": [ "spellcraft", 3 ],
+    "difficulty": 4,
+    "time": "120 m",
+    "autolearn": true,
+    "using": [ [ "forging_standard", 14 ], [ "steel_standard", 3 ] ],
+    "qualities": [
+      { "id": "ANVIL", "level": 3 },
+      { "id": "HAMMER", "level": 3 },
+      { "id": "CHISEL", "level": 3 },
+      { "id": "MANA_INFUSE", "level": 1 }
+    ],
+    "tools": [ [ [ "tongs", -1 ] ], [ [ "swage", -1 ] ] ],
+    "components": [ 
+      [ [ "rune_kelvinist", 1 ] ],
+      [ [ "leather", 2 ] ],
+      [ [ "rag", 2 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_magic_Gauntlet_MA_5",
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_WEAPONS",
+    "skill_used": "fabrication",
+    "skills_required": [ "spellcraft", 3 ],
+    "difficulty": 4,
+    "time": "120 m",
+    "autolearn": true,
+    "using": [ [ "forging_standard", 14 ], [ "steel_standard", 3 ] ],
+    "qualities": [
+      { "id": "ANVIL", "level": 3 },
+      { "id": "HAMMER", "level": 3 },
+      { "id": "CHISEL", "level": 3 },
+      { "id": "MANA_INFUSE", "level": 1 }
+    ],
+    "tools": [ [ [ "tongs", -1 ] ], [ [ "swage", -1 ] ] ],
+    "components": [ 
+      [ [ "rune_stormshaper", 1 ] ],
+      [ [ "leather", 2 ] ],
+      [ [ "rag", 2 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_magic_Gauntlet_MA_6",
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_WEAPONS",
+    "skill_used": "fabrication",
+    "skills_required": [ "spellcraft", 3 ],
+    "difficulty": 4,
+    "time": "120 m",
+    "autolearn": true,
+    "using": [ [ "forging_standard", 14 ], [ "steel_standard", 3 ] ],
+    "qualities": [
+      { "id": "ANVIL", "level": 3 },
+      { "id": "HAMMER", "level": 3 },
+      { "id": "CHISEL", "level": 3 },
+      { "id": "MANA_INFUSE", "level": 1 }
+    ],
+    "tools": [ [ [ "tongs", -1 ] ], [ [ "swage", -1 ] ] ],
+    "components": [ 
+      [ [ "rune_technomancer", 1 ] ],
+      [ [ "leather", 2 ] ],
+      [ [ "rag", 2 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_magic_Gauntlet_MA_7",
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_WEAPONS",
+    "skill_used": "fabrication",
+    "skills_required": [ "spellcraft", 3 ],
+    "difficulty": 4,
+    "time": "120 m",
+    "autolearn": true,
+    "using": [ [ "forging_standard", 14 ], [ "steel_standard", 3 ] ],
+    "qualities": [
+      { "id": "ANVIL", "level": 3 },
+      { "id": "HAMMER", "level": 3 },
+      { "id": "CHISEL", "level": 3 },
+      { "id": "MANA_INFUSE", "level": 1 }
+    ],
+    "tools": [ [ [ "tongs", -1 ] ], [ [ "swage", -1 ] ] ],
+    "components": [ 
+      [ [ "rune_earthshaper", 1 ] ],
+      [ [ "leather", 2 ] ],
+      [ [ "rag", 2 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_magic_Gauntlet_MA_8",
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_WEAPONS",
+    "skill_used": "fabrication",
+    "skills_required": [ "spellcraft", 3 ],
+    "difficulty": 4,
+    "time": "120 m",
+    "autolearn": true,
+    "using": [ [ "forging_standard", 14 ], [ "steel_standard", 3 ] ],
+    "qualities": [
+      { "id": "ANVIL", "level": 3 },
+      { "id": "HAMMER", "level": 3 },
+      { "id": "CHISEL", "level": 3 },
+      { "id": "MANA_INFUSE", "level": 1 }
+    ],
+    "tools": [ [ [ "tongs", -1 ] ], [ [ "swage", -1 ] ] ],
+    "components": [ 
+      [ [ "rune_biomancer", 1 ] ],
+      [ [ "leather", 2 ] ],
+      [ [ "rag", 2 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_magic_Gauntlet_MA_9",
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_WEAPONS",
+    "skill_used": "fabrication",
+    "skills_required": [ "spellcraft", 3 ],
+    "difficulty": 4,
+    "time": "120 m",
+    "autolearn": true,
+    "using": [ [ "forging_standard", 14 ], [ "steel_standard", 3 ] ],
+    "qualities": [
+      { "id": "ANVIL", "level": 3 },
+      { "id": "HAMMER", "level": 3 },
+      { "id": "CHISEL", "level": 3 },
+      { "id": "MANA_INFUSE", "level": 1 }
+    ],
+    "tools": [ [ [ "tongs", -1 ] ], [ [ "swage", -1 ] ] ],
+    "components": [ 
+      [ [ "rune_druid", 1 ] ],
+      [ [ "leather", 2 ] ],
+      [ [ "rag", 2 ] ]
+    ]
+  }
+]

@@ -1,0 +1,11 @@
+[
+	{
+		"id":"item_group_ncard_s2_r4",
+		"type":"item_group",
+		"subtype":"distribution",
+		"items":[["ncard_s2_r4_no_01",10],
+				["ncard_s2_r4_no_01",10]]
+	}
+
+
+]

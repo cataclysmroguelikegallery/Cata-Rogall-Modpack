@@ -1,0 +1,78 @@
+[
+  {
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_recover_mana_talisman_1",
+    "name": "생명력 전환의 두루마리(초급)[MWMI]",
+    "description": "생명력 전환의 마법이 갇힌 스크롤입니다. 사용하는 것으로 생명력 전환을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "recover_mana", "no_fail": true, "level": 5 },
+    "copy-from": "PSY_magi_base"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_recover_mana_talisman_2",
+    "name": "생명력 전환의 두루마리(중급)[MWMI]",
+    "description": "생명력 전환의 마법이 갇힌 스크롤입니다. 사용하는 것으로 생명력 전환을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "recover_mana", "no_fail": true, "level": 7 },
+    "copy-from": "PSY_magi_base",
+    "price": "60 USD",
+    "price_postapoc": "60 USD"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_recover_mana_talisman_3",
+    "name": "생명력 전환의 두루마리(상급)[MWMI]",
+    "description": "생명력 전환의 마법이 갇힌 스크롤입니다. 사용하는 것으로 생명력 전환을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "recover_mana", "no_fail": true, "level": 10 },
+    "copy-from": "PSY_magi_base",
+    "price": "80 USD",
+    "price_postapoc": "80 USD"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_summon_zombie_talisman_1",
+    "name": "좀비 소환의 두루마리(초급)[MWMI]",
+    "description": "좀비 소환의 마법이 갇힌 스크롤입니다. 사용하는 것으로 좀비 소환을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "summon_zombie", "no_fail": true, "level": 5 },
+    "copy-from": "PSY_magi_base"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_summon_zombie_talisman_2",
+    "name": "좀비 소환의 두루마리(중급)[MWMI]",
+    "description": "좀비 소환의 마법이 갇힌 스크롤입니다. 사용하는 것으로 좀비 소환을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "summon_zombie", "no_fail": true, "level": 7 },
+    "copy-from": "PSY_magi_base",
+    "price": "60 USD",
+    "price_postapoc": "60 USD"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_summon_zombie_talisman_3",
+    "name": "좀비 소환의 두루마리(상급)[MWMI]",
+    "description": "좀비 소환의 마법이 갇힌 스크롤입니다. 사용하는 것으로 좀비 소환을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "summon_zombie", "no_fail": true, "level": 10 },
+    "copy-from": "PSY_magi_base",
+    "price": "80 USD",
+    "price_postapoc": "80 USD"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_summon_wisps_talisman_1",
+    "name": "이그누스 파투스의 두루마리(초급)[MWMI]",
+    "description": "이그누스 파투스의 마법이 갇힌 스크롤입니다. 사용하는 것으로 이그누스 파투스을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "summon_wisps", "no_fail": true, "level": 5 },
+    "copy-from": "PSY_magi_base"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_summon_wisps_talisman_2",
+    "name": "이그누스 파투스의 두루마리(중급)[MWMI]",
+    "description": "이그누스 파투스의 마법이 갇힌 스크롤입니다. 사용하는 것으로 이그누스 파투스을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "summon_wisps", "no_fail": true, "level": 7 },
+    "copy-from": "PSY_magi_base",
+    "price": "60 USD",
+    "price_postapoc": "60 USD"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_summon_wisps_talisman_3",
+    "name": "이그누스 파투스의 두루마리(상급)[MWMI]",
+    "description": "이그누스 파투스의 마법이 갇힌 스크롤입니다. 사용하는 것으로 이그누스 파투스을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "summon_wisps", "no_fail": true, "level": 10 },
+    "copy-from": "PSY_magi_base",
+    "price": "80 USD",
+    "price_postapoc": "80 USD"
+  }
+]

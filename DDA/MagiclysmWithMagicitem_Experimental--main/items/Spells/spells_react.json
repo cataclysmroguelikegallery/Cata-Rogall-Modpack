@@ -1,0 +1,47 @@
+[
+  {
+    "id": "PSY_magi_react_venom_MA",
+    "type": "SPELL",
+    "name": { "str": "React: Venom" },
+    "description": "Inflicts a bit of biological damage and poison.",
+    "message": "Sickening venom flows from your staff as you strike.",
+    "flags": [ "RANDOM_DURATION" ],
+    "valid_targets": [ "hostile" ],
+    "effect_str": "poison",
+    "min_range": 1,
+    "max_range": 1,
+    "effect": "attack",
+    "shape": "blast",
+    "min_duration": 500,
+    "max_duration": 25000
+  },
+  {
+    "type": "SPELL",
+    "id": "PSY_magi_react_drain_life_MA",
+    "name": { "str": "React: Drain Life Shell" },
+    "description": "This exists only to trigger on-self effects from an on-hit action.",
+    "valid_targets": [ "hostile" ],
+    "message": "",
+    "min_range": 1,
+    "max_range": 1,
+    "effect": "attack",
+    "shape": "blast",
+    "flags": [ "SILENT" ],
+    "extra_effects": [ { "id": "PSY_magi_react_drain_life_2_MA", "hit_self": true } ]
+  },
+  {
+    "id": "PSY_magi_react_drain_life_2_MA",
+    "type": "SPELL",
+    "name": { "str": "React: Drain Life Effect" },
+    "description": "This creates the effect that heals the caster.",
+    "message": "",
+    "valid_targets": [ "self" ],
+    "effect": "attack",
+    "shape": "blast",
+    "min_damage": -1,
+    "max_damage": -3,
+    "flags": [ "RANDOM_DURATION", "RANDOM_DAMAGE", "SILENT" ],
+    "min_duration": 500,
+    "max_duration": 1000
+  }
+]

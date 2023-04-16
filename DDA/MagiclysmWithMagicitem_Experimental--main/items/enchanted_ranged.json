@@ -1,0 +1,42 @@
+[
+  {
+    "id": "PSY_magi_Kar98k_teneblae",
+    "copy-from": "boreal_mosin",
+    "type": "GUN",
+    "name": { "str_sp": "라이플(308구경/모젤 Kar98k 테네브라에)[MWMI]" },
+    "description": "7.62x51mmNATO탄을 장전하는, 커니스 인더스트리스가 제작한 kar98k의 최신모델입니다. 총알에 약간의 독 특성을 주는 마법이 총신에 담겨 있습니다.",
+    "ranged_damage": { "damage_type": "biological", "amount": 3 }
+  },
+  {
+    "id": "PSY_magi_type38_ignis",
+    "copy-from": "boreal_mosin",
+    "type": "GUN",
+    "name": { "str_sp": "라이플(308구경/38식 보병총 이그니스)[MWMI]" },
+    "description": "7.62x51mmNATO탄을 장전하는, 커니스 인더스트리스가 제작한 38식 보병총의 최신모델입니다.총알에 약간의 불꽃 특성을 주는 마법이 총신에 담겨 있습니다.",
+    "ranged_damage": { "damage_type": "heat", "amount": 3 }
+  },
+  {
+    "id": "PSY_magi_M1903_electrica",
+    "copy-from": "boreal_mosin",
+    "type": "GUN",
+    "name": { "str_sp": "라이플(308구경/스프링필드 M1903 일렉트로니카)[MWMI]" },
+    "description": "7.62x51mmNATO탄을 장전하는, 커니스 인더스트리스가 제작한 M1903의 최신모델입니다.총알에 약간의 천둥의 특성을 주는 마법이 총신에 담겨 있습니다.",
+    "ranged_damage": { "damage_type": "electric", "amount": 3 }
+  },
+  {
+    "id": "PSY_magi_enfield_acidus",
+    "copy-from": "boreal_mosin",
+    "type": "GUN",
+    "name": { "str_sp": "라이플(308구경/리엔필드 Mk III 아키토스)[MWMI]" },
+    "description": "7.62x51mmNATO탄을 장전하는, 커니스 인더스트리스가 제작한 리엔필드의 최신모델입니다. 총알에 약간의 산의 특성을 주는 마법이 총신에 담겨 있습니다.",
+    "ranged_damage": { "damage_type": "acid", "amount": 3 }
+  },
+  {
+    "id": "PSY_magi_carcano_clear",
+    "copy-from": "boreal_mosin",
+    "type": "GUN",
+    "name": { "str_sp": "라이플(308구경/카르카노 M1938 클라루스[MWMI]" },
+    "description": "7.62x51mmNATO탄을 장전하는, 커니스 인더스트리스가 제작한 카르카노의 최신모델입니다. 총알에 약간의 순수 데미지 특성을 부여하는 마법이 총신에 담겨 있습니다.",
+    "ranged_damage": { "damage_type": "pure", "amount": 3 }
+  }
+]

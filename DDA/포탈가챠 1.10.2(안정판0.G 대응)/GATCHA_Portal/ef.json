@@ -1,0 +1,121 @@
+[
+	{
+		"id":"ncard_fatigue",
+		"type":"effect_type",
+		"name":[ "기분 좋은 피로" ],
+		"desc":[ "당신은 만족했습니다. 이 효과가 사라질 때까지 포탈 가챠 몬스터와의 스킨십은 불가능 합니다." ],
+		"rating":"mixed",
+		"max_duration":"8 h",
+		"show_in_info":true
+	}
+,
+	{
+		"id":"ef_ncard_npc_high0",
+		"type":"effect_type",
+		"name":[ "장난" ],
+		"rating":"good",
+		"max_duration":"8 h",
+		"base_mods":{ "speed_mod": [ 5 ] },
+		"show_in_info":true
+	}
+,
+	{
+		"id":"ef_ncard_npc_high1",
+		"type":"effect_type",
+		"name":[ "즐거움" ],
+		"rating":"good",
+		"max_duration":"8 h",
+		"base_mods":{ "speed_mod": [ 5 ] },
+		"show_in_info":true
+	}
+,
+	{
+		"id":"ef_ncard_npc_high2",
+		"type":"effect_type",
+		"name":[ "매우 좋은 기분" ],
+		"rating":"good",
+		"max_duration":"8 h",
+		"base_mods":{ "speed_mod": [ 10 ] },
+		"removes_effects":[ "ef_ncard_npc_high1" ],
+		"resist_effects":[ "ef_ncard_npc_high1" ],
+		"show_in_info":true
+	}
+,
+	{
+		"id":"ef_ncard_npc_high3",
+		"type":"effect_type",
+		"name":[ "고양감" ],
+		"rating":"good",
+		"max_duration":"8 h",
+		"base_mods":{ "speed_mod": [ 15 ] },
+		"removes_effects":[ "ef_ncard_npc_high1","ef_ncard_npc_high2" ],
+		"resist_effects":[ "ef_ncard_npc_high1","ef_ncard_npc_high2" ],
+		"show_in_info":true
+	}
+,
+	{
+		"id":"ef_ncard_u_high0",
+		"type":"effect_type",
+		"name":[ "장난" ],
+		"desc":[ "당신은 애완동물과 놀았습니다.의욕이 상승하고 있습니다." ],
+		"apply_message":"당신과 애완동물은 적극적인 접촉으로 즐거워지고 있습니다.",
+
+		"rating":"good",
+		"max_duration":"30 m",
+		"base_mods":{ "bash_mod": [ 0.1 ],"stamina_amount": [5] },
+		"show_in_info":true
+	}
+,
+	{
+		"id":"ef_ncard_u_high1",
+		"type":"effect_type",
+		"name":[ "즐거움" ],
+		"desc":[ "당신은 애완동물과의 만남으로 즐거워지고 있습니다.의욕, 스태미나, 완력이 상승하고 있습니다." ],
+		"apply_message":"당신과 애완동물은 적극적인 접촉으로 즐거워지고 있습니다.",
+		"remove_message":"좀 진정됐어요.몬스터와 다시 장난칠 수 있습니다。",
+		"rating":"good",
+		"max_duration":"8 h",
+		"base_mods":{ "bash_mod": [ 0.3 ], "str_mod": [ 1 ],"stamina_amount": [10] },
+		"show_in_info":true
+	}
+,
+	{
+		"id":"ef_ncard_u_high2",
+		"type":"effect_type",
+		"name":[ "매우 좋은 기분" ],
+		"desc":[ "당신은 애완동물과 친한 친구 때문에 기분이 좋아지고 있습니다.의욕, 스태미너, 완력, 기용이 상승하고 있습니다." ],
+		"apply_message":"당신과 애완동물은 친밀한 접촉으로 즐거워지고 있습니다.",
+		"remove_message":"좀 진정됐어요.몬스터와 다시 장난칠 수 있습니다。",
+		"rating":"good",
+		"max_duration":"8 h",
+		"base_mods":{ "bash_mod": [ 0.6 ], "str_mod": [ 2 ],"dex_mod": [ 1 ],"stamina_amount": [20] },
+		"removes_effects":[ "ef_ncard_u_high1" ],
+		"resist_effects":[ "ef_ncard_u_high1" ],
+		"show_in_info":true
+	}
+,
+	{
+		"id":"ef_ncard_u_high3",
+		"type":"effect_type",
+		"name":[ "고양감" ],
+		"desc":[ "당신은 애완동물과의 매우 친밀한 접촉으로 고양되어 있습니다.의욕, 스태미너, 완력, 기용, 감각이 상승하고 있습니다." ],
+		"apply_message":"당신과 애완동물은 매우 친밀한 접촉으로 즐거워지고 있습니다.",
+		"remove_message":"좀 진정됐어요.몬스터와 다시 장난칠 수 있습니다。",
+		"rating":"good",
+		"max_duration":"8 h",
+		"base_mods":{ "bash_mod": [ 1 ], "str_mod": [ 3 ],"dex_mod": [ 2 ],"per_mod": [ 1 ],"stamina_amount": [30] },
+		"removes_effects":[ "ef_ncard_u_high1","ef_ncard_u_high2" ],
+		"resist_effects":[ "ef_ncard_u_high1","ef_ncard_u_high2" ],
+		"show_in_info":true
+	}
+,
+	{
+		"id":"ef_ncard_employ",
+		"type":"effect_type",
+		"name":[ "고용됨" ],
+		"rating":"mixed",
+		"max_duration":"24 h"
+	}
+
+
+]

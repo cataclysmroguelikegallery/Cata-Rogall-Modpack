@@ -1,0 +1,105 @@
+[
+  {
+    "type": "recipe",
+    "result": "PSY_magi_22_magic",
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_AMMO",
+    "skill_used": "fabrication",
+    "skills_required": [ "spellcraft", 1 ],
+    "difficulty": 1,
+    "time": "1 m",
+    "autolearn": true,
+    "qualities": [
+      { "id": "MANA_FOCUS", "level": 1 }
+     ],
+    "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
+    "components": [
+       [ [ "pebble",  1 ] ]
+     ]
+  },{
+    "type": "recipe",
+    "result": "PSY_magi_22_magic_magus",
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_AMMO",
+    "skill_used": "fabrication",
+    "skills_required": [ "spellcraft", 1 ],
+    "difficulty": 1,
+    "time": "1 m",
+    "autolearn": true,
+    "qualities": [
+      { "id": "MANA_FOCUS", "level": 1 }
+     ],
+    "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
+    "components": [
+       [ [ "rune_magus",  1 ] ]
+     ]
+  },{
+    "type": "recipe",
+    "result": "PSY_magi_22_magic_fire",
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_AMMO",
+    "skill_used": "fabrication",
+    "skills_required": [ "spellcraft", 1 ],
+    "difficulty": 1,
+    "time": "1 m",
+    "autolearn": true,
+    "qualities": [
+      { "id": "MANA_FOCUS", "level": 1 }
+     ],
+    "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
+    "components": [
+       [ [ "rune_kelvinist",  1 ] ]
+     ]
+  },{
+    "type": "recipe",
+    "result": "PSY_magi_22_magic_thunder",
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_AMMO",
+    "skill_used": "fabrication",
+    "skills_required": [ "spellcraft", 1 ],
+    "difficulty": 1,
+    "time": "1 m",
+    "autolearn": true,
+    "qualities": [
+      { "id": "MANA_FOCUS", "level": 1 }
+     ],
+    "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
+    "components": [
+       [ [ "rune_stormshaper",  1 ] ]
+     ]
+  },{
+    "type": "recipe",
+    "result": "PSY_magi_22_magic_earth",
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_AMMO",
+    "skill_used": "fabrication",
+    "skills_required": [ "spellcraft", 1 ],
+    "difficulty": 1,
+    "time": "1 m",
+    "autolearn": true,
+    "qualities": [
+      { "id": "MANA_FOCUS", "level": 1 }
+     ],
+    "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
+    "components": [
+       [ [ "rune_earthshaper",  1 ] ]
+     ]
+  },{
+    "type": "recipe",
+    "result": "PSY_magi_22_magic_wood",
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_AMMO",
+    "skill_used": "fabrication",
+    "skills_required": [ "spellcraft", 1 ],
+    "difficulty": 1,
+    "time": "1 m",
+    "autolearn": true,
+    "qualities": [
+      { "id": "MANA_FOCUS", "level": 1 }
+     ],
+    "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
+    "components": [
+       [ [ "rune_druid",  1 ] ]
+     ]
+  }
+]

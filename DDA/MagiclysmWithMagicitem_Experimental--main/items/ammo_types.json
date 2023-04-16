@@ -1,0 +1,44 @@
+[
+  {
+    "type": "ammunition_type",
+    "id": "PSY_magi_22_magic",
+    "name": "ウーヌム専用マナカートリッジ",
+    "default": "PSY_magi_22_magic"
+  },
+  {
+    "type": "ammunition_type",
+    "id": "PSY_magi_38_magic",
+    "name": "デュオ専用マナカートリッジ",
+    "default": "PSY_magi_38_magic"
+  },
+  {
+    "type": "ammunition_type",
+    "id": "PSY_magi_9x19_magic",
+    "name": "トリア専用マナカートリッジ",
+    "default": "PSY_magi_9x19_magic"
+  },
+  {
+    "type": "ammunition_type",
+    "id": "PSY_magi_40_magic",
+    "name": "クァットゥオル専用マナカートリッジ",
+    "default": "PSY_magi_40_magic"
+  },
+  {
+    "type": "ammunition_type",
+    "id": "PSY_magi_45_magic",
+    "name": "クィーンクェ専用マナカートリッジ",
+    "default": "PSY_magi_45_magic"
+  },
+  {
+    "type": "ammunition_type",
+    "id": "PSY_magi_44_magic",
+    "name": "セクス専用マナカートリッジ",
+    "default": "PSY_magi_44_magic"
+  },
+  {
+    "type": "ammunition_type",
+    "id": "PSY_magi_454_magic",
+    "name": "セプテム専用マナカートリッジ",
+    "default": "PSY_magi_454_magic"
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "id": "tawara",
+    "type": "GENERIC",
+    "category": "container",
+    "looks_like": "keg",
+    "name": { "str": "쌀 가마니.", "str_pl": "쌀 가마니." },
+    "description": "짚을 원기둥 모양으로 엮어 만든 주머니입니다. 과거 쌀이나 고구마 등의 농산물과 목탄이나 소금물고기 등 각종 산품을 포장하기 위해 사용되었습니다",
+    "weight": "15000 g",
+    "volume": "60050 ml",
+    "price": 10000,
+    "price_postapoc": 250,
+    "to_hit": -4,
+    "bashing": 6,
+    "material": [ "straw" ],
+    "symbol": "}",
+    "color": "light_cyan",
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "rigid": true,
+        "watertight": true,
+        "max_contains_volume": "60 L",
+        "max_contains_weight": "120 kg"
+      }
+    ],
+    "qualities": [ [ "CONTAIN", 1 ] ]
+  }
+]

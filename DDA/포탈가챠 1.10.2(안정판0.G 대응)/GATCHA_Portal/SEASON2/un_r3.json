@@ -1,0 +1,24 @@
+[
+	{
+		"result":"ncard_s2_r3_no_01",
+		"type":"uncraft",
+		"tools":[ [ [ "ncard_misc_dimension_hammer", -1 ] ] ],
+		"components":[ [ [ "ncard_misc_powder_gold", 10 ] ] ]
+	}
+,
+	{
+		"result":"ncard_s2_r3_no_02",
+		"type":"uncraft",
+		"tools":[ [ [ "ncard_misc_dimension_hammer", -1 ] ] ],
+		"components":[ [ [ "ncard_misc_powder_gold", 10 ] ] ]
+	}
+,
+	{
+		"result":"ncard_s2_r3_no_03",
+		"type":"uncraft",
+		"tools":[ [ [ "ncard_misc_dimension_hammer", -1 ] ] ],
+		"components":[ [ [ "ncard_misc_powder_gold", 10 ] ] ]
+	}
+
+
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "//1": "シャードスプレーの前提の材料(アイテム)を削除する(難易度低下)",
+    "id": "eshaper_shardspray",
+    "type": "SPELL",
+    "name": "Shardspray",
+    "copy-from": "eshaper_shardspray",
+    "components": ""
+  }
+]

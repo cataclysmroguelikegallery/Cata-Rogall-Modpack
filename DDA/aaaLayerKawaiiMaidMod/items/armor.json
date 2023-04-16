@@ -1,0 +1,597 @@
+[
+
+  {
+    "id": "aaa_layer_SKIN_PALE_JP",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]소체_PALE(KawaiiMaidMod)",
+    "description": "이것을 가장위에 장비하는 걸로 캐릭터의 외형을 변경할 수 있습니다.",
+    "looks_like": "survivor_hairtrimmer",
+    "price": 1,
+    "price_postapoc": 1,
+    "weight": "1 g",
+    "volume": "1 ml",
+    "time": "1 m",
+    "symbol": "[",
+    "warmth": 0,
+    "environmental_protection": 0,
+    "material": [ "cotton" ]
+  },
+  
+  
+  {
+    "id": "aaa_layer_kawaii_raincoat_off",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]비옷(후드OFF)(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_kawaii_raincoat",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]비옷(후드ON)(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_kawaii_nurse_cap",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]간호사 모자(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_kawaii_sister_veil",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]시스터 베일(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_kawaii_wedding_veil_b",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]웨딩 베일(장식포함)(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_kawaii_wedding_veil_a",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]웨딩 베일(장식미포함)(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  
+  {
+    "id": "aaa_layer_kawaii_gloves_light",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]메이드 장갑(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_kawaii_angel_wing_bag",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]천사의 날개(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_kawaii_nurse",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]간호사복(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_kawaii_sukumizu_siro",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]학교수영복(백)(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_kawaii_sukumizu_kon",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]학교수영복(감)(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_kawaii_wedding_dress",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]웨딩 드레스(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_kawaii_shoes_hi",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]메이드장의 펌프스(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_kawaii_boots_hi",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]메이드장의 부츠(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_kawaii_maid_dress_long",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]메이드복(롱)(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_kawaii_tights_white",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]두꺼운 타이즈(백)(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_kawaii_tights_black",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]두꺼운 타이즈(흑)(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_kawaii_scarf_loose",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]세련된 스카프(느슨하게)(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_kawaii_scarf",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]세련된 스카프(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_kawaii_loafer",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]로퍼(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_kawaii_socks_white",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]양말(백)(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_kawaii_sailor_fuku",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]세라복(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_kawaii_boots",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]부츠(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_kawaii_sister_dress",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]시스터 드레스(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_kawaii_maid_niso_thin",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]드레스 무릎양말(얇은)(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_kawaii_maid_niso_thick",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]드레스 무릎양말(두꺼운)(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_kawaii_maid_garter",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]가터 벨트(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_kawaii_maid_simabura_green",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]줄무늬 브라(녹색)(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_kawaii_maid_simapan_green",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]줄무늬 팬티(녹색)(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_kawaii_maid_simabura_pink",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]줄무늬 브라(핑크)(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_kawaii_maid_simapan_pink",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]줄무늬 팬티(핑크)(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_kawaii_maid_megane_09",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]안경(풀 프레임・적)(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_kawaii_maid_megane_08",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]안경(풀 프레임・흑)(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_kawaii_maid_megane_07",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]모노클(체인부착)(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_kawaii_maid_megane_06",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]모노클(황동)(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_kawaii_maid_megane_05",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]안경(언더 프레임大・흑)(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_kawaii_maid_megane_04",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]안경(언더 프레임・적・낮게)(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_kawaii_maid_megane_03",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]안경(언더 프레임・적)(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_kawaii_hitec_megane",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]하이테크 안경(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_kawaii_bikini_top_black",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]비키니 탑(흑)(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_kawaii_bikini_bottom_black",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]비키니 팬티(흑)(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_kawaii_vest",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]다용도 조끼改(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_kawaii_tailskirt_mini",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]피쉬테일 미니 스커트(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_kawaii_hat_cotton",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]면 모자(백)(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_kawaii_balclava",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]복면改(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_kawaii_maid_megane_01",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]안경(언더 프레임・흑)(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_kawaii_maid_bra",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]순백의 브래지어(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_kawaii_maid_panties",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]순백의 팬티(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_kawaii_dress_shoes",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]드레스 신발(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_kawaii_maid_hat",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]화이트 브림(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_kawaii_maid_dress",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]메이드복(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_hair1purplejp",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]머리카락(보라색)(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_hair1aquajp",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]머리카락(물색)(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_hair1greenjp",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]머리카락(녹색)(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_hair1bluejp",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]머리카락(청색)(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_hair1orangejp",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]머리카락(주황색)(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_hair1pinkjp",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]머리카락(복숭아색)(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_hair1greyjp",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]머리카락(회색)(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_hair1whitejp",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]머리카락(백색)(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_hair1blackjp",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]머리카락(흑색)(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_hair1brownjp",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]머리카락(갈색)(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_hair1redjp",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]머리카락(적색)(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_hair1blondjp",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]머리카락(금색)(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  
+  {
+    "id": "aaa_layer_EYE_BLUE_JP_2",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]눈동자(청색_하이라이트 없음)(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_EYE_GRAY_JP_2",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]눈동자(회색_하이라이트 없음)(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_EYE_BROWN_JP_2",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]눈동자(갈색_하이라이트 없음)(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_EYE_GREEN_JP_2",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]눈동자(녹색_하이라이트 없음)(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_EYE_RED_JP_2",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]눈동자(적색_하이라이트 없음)(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_EYE_YELLOW_JP_2",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]눈동자(황색_하이라이트 없음)(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_EYE_PURPLE_JP_2",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]눈동자(보라색_하이라이트 없음)(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_EYE_BLUE_JP",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]눈동자(청색)(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_EYE_GRAY_JP",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]눈동자(회색)(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_EYE_BROWN_JP",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]눈동자(갈색)(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_EYE_GREEN_JP",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]눈동자(녹색)(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_EYE_RED_JP",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]눈동자(적색)(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_EYE_YELLOW_JP",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]눈동자(황색)(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_EYE_PURPLE_JP",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]눈동자(보라색)(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_SKIN_PINK_JP",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]소체_PINK(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_SKIN_DARK_JP",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]소체_DARK(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_SKIN_TAN_JP",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]소체_TAN(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_SKIN_MEDIUM_JP",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]소체_MEDIUM(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  },
+  
+  {
+    "id": "aaa_layer_SKIN_LIGHT_JP",
+    "type": "ARMOR",
+    "name": "[겹쳐입기]소체_LIGHT(KawaiiMaidMod)",
+    "copy-from": "aaa_layer_SKIN_PALE_JP"
+  }
+
+]

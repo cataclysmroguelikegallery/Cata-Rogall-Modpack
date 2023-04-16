@@ -1,0 +1,16 @@
+[
+	{
+		"id":[ "map_ncard_s2_base" ],
+		"type":"overmap_terrain",
+		"copy-from":"generic_city_house",
+		"name":"기계문명의 침공거점",
+		"sym":"M",
+		"see_cost":5,
+		"extras":"build",
+		"mondensity":2,
+		"flags":[ "KNOWN_UP", "GENERIC_LOOT","NO_ROTATE" ],
+		"color":"magenta"
+	}
+
+
+]

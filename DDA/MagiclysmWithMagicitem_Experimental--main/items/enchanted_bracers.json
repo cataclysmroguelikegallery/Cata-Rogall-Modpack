@@ -1,0 +1,58 @@
+[
+  {
+    "type": "TOOL_ARMOR",
+    "id": "PSY_magi_mbracer_defense_lesser_xl",
+    "name": { "str": "XL 방어의 건틀릿", "str_pl": "XL 방어의 건틀릿" },
+    "copy-from": "mbracer_defense_lesser",
+    "extend": { "flags": [ "OVERSIZE" ] }
+  },
+  {
+    "type": "TOOL_ARMOR",
+    "id": "PSY_magi_mbracer_lightning_lesser_xl",
+    "name": { "str": "XL 전광의 건틀릿", "str_pl": "XL 전광의 건틀릿" },
+    "copy-from": "mbracer_lightning_lesser",
+    "extend": { "flags": [ "OVERSIZE" ] }
+  },
+  {
+    "type": "TOOL_ARMOR",
+    "id": "PSY_magi_mbracer_defense_greater_xl",
+    "name": { "str": "XL 철벽의 건틀릿", "str_pl": "XL 철벽의 건틀릿" },
+    "copy-from": "mbracer_defense_greater",
+    "extend": { "flags": [ "OVERSIZE" ] }
+  },
+  {
+    "type": "TOOL_ARMOR",
+    "id": "PSY_magi_mbracer_lightning_greater_xl",
+    "name": { "str": "XL 뇌격의 건틀릿", "str_pl": "XL 뇌격의 건틀릿" },
+    "copy-from": "mbracer_lightning_greater",
+    "extend": { "flags": [ "OVERSIZE" ] }
+  },
+  {
+    "type": "TOOL_ARMOR",
+    "id": "PSY_magi_mbracer_defense_lesser_xs",
+    "name": { "str": "XS 방어의 건틀릿", "str_pl": "XS 방어의 건틀릿" },
+    "copy-from": "mbracer_defense_lesser",
+    "extend": { "flags": [ "UNDERSIZE" ] }
+  },
+  {
+    "type": "TOOL_ARMOR",
+    "id": "PSY_magi_mbracer_lightning_lesser_xs",
+    "name": { "str": "XS 전광의 건틀릿", "str_pl": "XS 전광의 건틀릿" },
+    "copy-from": "mbracer_lightning_lesser",
+    "extend": { "flags": [ "UNDERSIZE" ] }
+  },
+  {
+    "type": "TOOL_ARMOR",
+    "id": "PSY_magi_mbracer_defense_greater_xs",
+    "name": { "str": "XS 철벽의 건틀릿", "str_pl": "XS 철벽의 건틀릿" },
+    "copy-from": "mbracer_defense_greater",
+    "extend": { "flags": [ "UNDERSIZE" ] }
+  },
+  {
+    "type": "TOOL_ARMOR",
+    "id": "PSY_magi_mbracer_lightning_greater_xs",
+    "name": { "str": "XS 뇌격의 건틀릿", "str_pl": "XS 뇌격의 건틀릿" },
+    "copy-from": "mbracer_lightning_greater",
+    "extend": { "flags": [ "UNDERSIZE" ] }
+  }
+]

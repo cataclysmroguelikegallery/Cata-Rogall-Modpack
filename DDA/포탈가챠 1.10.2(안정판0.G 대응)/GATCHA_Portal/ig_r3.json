@@ -1,0 +1,23 @@
+[
+	{
+		"id":"item_group_ncard_r3",
+		"type":"item_group",
+		"subtype":"distribution",
+		"items":[["ncard_r3_no_01",10],
+				["ncard_r3_no_02",10],
+				["ncard_r3_no_03",10],
+				["ncard_r3_no_04",10],
+				["ncard_r3_no_05",10],
+				["ncard_r3_no_06",10],
+				["ncard_r3_no_07",10],
+				["ncard_r3_no_08",10],
+				["ncard_r3_no_09",10],
+				["ncard_r3_no_10",10],
+				["ncard_r3_no_11",10],
+				["ncard_r3_no_12",10],
+				["ncard_r3_no_13",10],
+				["ncard_r3_no_14",3]]
+	}
+
+
+]

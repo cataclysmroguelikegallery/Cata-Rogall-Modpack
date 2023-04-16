@@ -1,0 +1,13 @@
+[
+	{
+		"id":"mutate_ncard_bin_prism",
+		"type":"mutation",
+		"name":"차원 건너기",
+		"points":1,
+		"description":"포털 건너편에 간섭하는 가루를 수집하고 있습니다.",
+		"starting_trait":false,
+		"valid":false
+	}
+
+
+]

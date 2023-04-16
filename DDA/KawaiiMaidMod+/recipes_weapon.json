@@ -1,0 +1,25 @@
+[
+  {
+    "type": "recipe",
+    "activity_level": "BRISK_EXERCISE",
+    "result": "kawaii_death_scythe_replica",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_CUTTING",
+    "skill_used": "fabrication",
+    "difficulty": 10,
+    "skills_required": [ [ "melee", 8 ], [ "cutting", 8 ] ],
+    "time": "8 h",
+    "autolearn": true,
+    "proficiencies": [
+      { "proficiency": "prof_metalworking" },
+      { "proficiency": "prof_blacksmithing" },
+      { "proficiency": "prof_bladesmith" }
+    ],
+    "using": [ [ "blacksmithing_standard", 12 ], [ "steel_standard", 6 ] ],
+    "components": [
+      [ [ "pipe", 2 ] ],
+      [ [ "duct_tape", 200 ] ],
+      [ [ "kevlar_plate", 2 ] ]
+    ]
+  }
+]

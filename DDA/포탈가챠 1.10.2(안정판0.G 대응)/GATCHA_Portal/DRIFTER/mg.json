@@ -1,0 +1,113 @@
+[
+	{
+		"type":"monstergroup",
+		"name":"GROUP_FOREST",
+		"monsters":[{ "group": "GROUP_FOREST_pd", "weight": 150 } ]
+	}
+,
+	{
+		"type":"monstergroup",
+		"name":"GROUP_FOREST_pd",
+		"monsters":[{ "monster": "mon_null", "weight": 1 },{ "monster": "mon_ncard_ev4_r4_no_01_dr", "weight": 100 },{ "monster": "mon_ncard_ev4_r4_no_02_dr", "weight": 100 },{ "monster": "mon_ncard_ev4_r3_no_01_dr", "weight": 200 },{ "monster": "mon_ncard_ev4_r3_no_02_dr", "weight": 200 },{ "monster": "mon_ncard_ev4_r3_no_03_dr", "weight": 200 },{ "monster": "mon_ncard_ev4_r3_no_04_dr", "weight": 200 },{ "monster": "mon_ncard_ev4_r3_no_05_dr", "weight": 200 },{ "monster": "mon_ncard_ev4_r3_no_06_dr", "weight": 200 } ]
+	}
+,
+	{
+		"type":"monstergroup",
+		"name":"pd_mongroup",
+		"default":"mon_null",
+		"monsters":[{ "monster": "mon_ncard_ev4_r4_no_01_dr", "weight": 2 },{ "monster": "mon_ncard_ev4_r4_no_02_dr", "weight": 2 },{ "monster": "mon_ncard_ev4_r3_no_01_dr", "weight": 4 },{ "monster": "mon_ncard_ev4_r3_no_02_dr", "weight": 4 },{ "monster": "mon_ncard_ev4_r3_no_03_dr", "weight": 4 },{ "monster": "mon_ncard_ev4_r3_no_04_dr", "weight": 4 },{ "monster": "mon_ncard_ev4_r3_no_05_dr", "weight": 4 },{ "monster": "mon_ncard_ev4_r3_no_06_dr", "weight": 4 } ]
+	}
+,
+	{
+		"type":"monstergroup",
+		"name":"pd_2_mongroup",
+		"default":"mon_null",
+		"monsters":[{ "monster": "mon_ncard_ev4_r4_no_01_dr", "weight": 1 },{ "monster": "mon_ncard_ev4_r4_no_02_dr", "weight": 1 },{ "monster": "mon_ncard_ev4_r3_no_01_dr", "weight": 1 },{ "monster": "mon_ncard_ev4_r3_no_02_dr", "weight": 1 },{ "monster": "mon_ncard_ev4_r3_no_03_dr", "weight": 1 },{ "monster": "mon_ncard_ev4_r3_no_04_dr", "weight": 1 },{ "monster": "mon_ncard_ev4_r3_no_05_dr", "weight": 1 },{ "monster": "mon_ncard_ev4_r3_no_06_dr", "weight": 1 } ]
+	}
+,
+	{
+		"type":"monstergroup",
+		"name":"GROUP_HOSPITAL",
+		"monsters":[{ "group": "GROUP_HOSPITAL_pd", "weight": 1 } ]
+	}
+,
+	{
+		"type":"monstergroup",
+		"name":"GROUP_HOSPITAL_pd",
+		"monsters":[{ "monster": "mon_null", "weight": 15000 },{ "monster": "mon_ncard_ev4_r4_no_01_dr", "weight": 2 },{ "monster": "mon_ncard_ev4_r4_no_02_dr", "weight": 2 },{ "monster": "mon_ncard_ev4_r3_no_01_dr", "weight": 4 },{ "monster": "mon_ncard_ev4_r3_no_02_dr", "weight": 4 },{ "monster": "mon_ncard_ev4_r3_no_03_dr", "weight": 4 },{ "monster": "mon_ncard_ev4_r3_no_04_dr", "weight": 4 },{ "monster": "mon_ncard_ev4_r3_no_05_dr", "weight": 4 },{ "monster": "mon_ncard_ev4_r3_no_06_dr", "weight": 4 } ]
+	}
+,
+	{
+		"type":"monstergroup",
+		"name":"GROUP_GROCERY",
+		"monsters":[{ "group": "GROUP_GROCERY_pd", "weight": 1 } ]
+	}
+,
+	{
+		"type":"monstergroup",
+		"name":"GROUP_GROCERY_pd",
+		"monsters":[{ "monster": "mon_null", "weight": 15000 },{ "monster": "mon_ncard_ev4_r4_no_01_dr", "weight": 2 },{ "monster": "mon_ncard_ev4_r4_no_02_dr", "weight": 2 },{ "monster": "mon_ncard_ev4_r3_no_01_dr", "weight": 4 },{ "monster": "mon_ncard_ev4_r3_no_02_dr", "weight": 4 },{ "monster": "mon_ncard_ev4_r3_no_03_dr", "weight": 4 },{ "monster": "mon_ncard_ev4_r3_no_04_dr", "weight": 4 },{ "monster": "mon_ncard_ev4_r3_no_05_dr", "weight": 4 },{ "monster": "mon_ncard_ev4_r3_no_06_dr", "weight": 4 } ]
+	}
+,
+	{
+		"type":"monstergroup",
+		"name":"GROUP_SWAMP",
+		"monsters":[{ "group": "GROUP_SWAMP_pd", "weight": 100 } ]
+	}
+,
+	{
+		"type":"monstergroup",
+		"name":"GROUP_SWAMP_pd",
+		"monsters":[{ "monster": "mon_null", "weight": 1 },{ "monster": "mon_ncard_ev4_r4_no_01_dr", "weight": 2 },{ "monster": "mon_ncard_ev4_r4_no_02_dr", "weight": 2 },{ "monster": "mon_ncard_ev4_r3_no_01_dr", "weight": 4 },{ "monster": "mon_ncard_ev4_r3_no_02_dr", "weight": 4 },{ "monster": "mon_ncard_ev4_r3_no_03_dr", "weight": 4 },{ "monster": "mon_ncard_ev4_r3_no_04_dr", "weight": 4 },{ "monster": "mon_ncard_ev4_r3_no_05_dr", "weight": 4 },{ "monster": "mon_ncard_ev4_r3_no_06_dr", "weight": 4 } ]
+	}
+,
+	{
+		"type":"monstergroup",
+		"name":"GROUP_RIVER",
+		"monsters":[{ "group": "GROUP_RIVER_pd", "weight": 1 } ]
+	}
+,
+	{
+		"type":"monstergroup",
+		"name":"GROUP_RIVER_pd",
+		"monsters":[{ "monster": "mon_null", "weight": 15000 },{ "monster": "mon_ncard_ev4_r4_no_01_dr", "weight": 2 },{ "monster": "mon_ncard_ev4_r4_no_02_dr", "weight": 2 },{ "monster": "mon_ncard_ev4_r3_no_01_dr", "weight": 4 },{ "monster": "mon_ncard_ev4_r3_no_02_dr", "weight": 4 },{ "monster": "mon_ncard_ev4_r3_no_03_dr", "weight": 4 },{ "monster": "mon_ncard_ev4_r3_no_04_dr", "weight": 4 },{ "monster": "mon_ncard_ev4_r3_no_05_dr", "weight": 4 },{ "monster": "mon_ncard_ev4_r3_no_06_dr", "weight": 4 } ]
+	}
+,
+	{
+		"type":"monstergroup",
+		"name":"GROUP_CAVE",
+		"monsters":[{ "group": "GROUP_CAVE_pd", "weight": 1 } ]
+	}
+,
+	{
+		"type":"monstergroup",
+		"name":"GROUP_CAVE_pd",
+		"monsters":[{ "monster": "mon_null", "weight": 15000 },{ "monster": "mon_ncard_ev4_r4_no_01_dr", "weight": 2 },{ "monster": "mon_ncard_ev4_r4_no_02_dr", "weight": 2 },{ "monster": "mon_ncard_ev4_r3_no_01_dr", "weight": 4 },{ "monster": "mon_ncard_ev4_r3_no_02_dr", "weight": 4 },{ "monster": "mon_ncard_ev4_r3_no_03_dr", "weight": 4 },{ "monster": "mon_ncard_ev4_r3_no_04_dr", "weight": 4 },{ "monster": "mon_ncard_ev4_r3_no_05_dr", "weight": 4 },{ "monster": "mon_ncard_ev4_r3_no_06_dr", "weight": 4 } ]
+	}
+,
+	{
+		"type":"monstergroup",
+		"name":"GROUP_ZOMBIE",
+		"monsters":[{ "group": "GROUP_ZOMBIE_pd", "weight": 1 } ]
+	}
+,
+	{
+		"type":"monstergroup",
+		"name":"GROUP_ZOMBIE_pd",
+		"monsters":[{ "monster": "mon_null", "weight": 3000 },{ "monster": "mon_ncard_ev4_r4_no_01_dr", "weight": 2 },{ "monster": "mon_ncard_ev4_r4_no_02_dr", "weight": 2 },{ "monster": "mon_ncard_ev4_r3_no_01_dr", "weight": 4 },{ "monster": "mon_ncard_ev4_r3_no_02_dr", "weight": 4 },{ "monster": "mon_ncard_ev4_r3_no_03_dr", "weight": 4 },{ "monster": "mon_ncard_ev4_r3_no_04_dr", "weight": 4 },{ "monster": "mon_ncard_ev4_r3_no_05_dr", "weight": 4 },{ "monster": "mon_ncard_ev4_r3_no_06_dr", "weight": 4 } ]
+	}
+,
+	{
+		"type":"monstergroup",
+		"name":"GROUP_HOUSE",
+		"monsters":[{ "group": "GROUP_HOUSE_pd", "weight": 1 } ]
+	}
+,
+	{
+		"type":"monstergroup",
+		"name":"GROUP_HOUSE_pd",
+		"monsters":[{ "monster": "mon_null", "weight": 15000 },{ "monster": "mon_ncard_ev4_r4_no_01_dr", "weight": 2 },{ "monster": "mon_ncard_ev4_r4_no_02_dr", "weight": 2 },{ "monster": "mon_ncard_ev4_r3_no_01_dr", "weight": 4 },{ "monster": "mon_ncard_ev4_r3_no_02_dr", "weight": 4 },{ "monster": "mon_ncard_ev4_r3_no_03_dr", "weight": 4 },{ "monster": "mon_ncard_ev4_r3_no_04_dr", "weight": 4 },{ "monster": "mon_ncard_ev4_r3_no_05_dr", "weight": 4 },{ "monster": "mon_ncard_ev4_r3_no_06_dr", "weight": 4 } ]
+	}
+
+
+]

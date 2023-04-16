@@ -1,0 +1,39 @@
+  {
+    "id": "PSY_magi_magic_revolver_ver2",
+    "copy-from": "pistol_revolver",
+    "looks_like": "sw_619",
+    "type": "GUN",
+    "name": "마나 카트리지 전용 권총 듀오[MWMI]",
+    "extend": { "flags": [ "MAGIC_FOCUS" ] },
+    "description": "마법사를 위해 설계된 마나 카트리지 탄 전용 권총 듀오입니다. 당신의 기술이 성장함에 따라, 우눔이상의 대구경의 마나 카트리지를 사용하는 것이 가능하게 되었습니다.",
+    "weight": "907 g",
+    "volume": "500 ml",
+    "price": 22400,
+    "to_hit": -2,
+    "bashing": 9,
+    "material": [ "steel", "wood" ],
+    "color": "dark_gray",
+    "ammo": "PSY_magi_38_magic",
+    "dispersion": 480,
+    "durability": 8,
+    "clip_size": 6,
+    "pocket_data": [ 
+      { "pocket_type": "MAGAZINE",
+        "holster": true, 
+        "rigid": true, 
+        "ammo_restriction": { "PSY_magi_38_magic": 6 },
+        "allowed_speedloaders": [ "PSY_magi_38_magic_speedloader6" ]
+      }
+    ],
+    "valid_mod_locations": [
+      [ "accessories", 2 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ]
+  }

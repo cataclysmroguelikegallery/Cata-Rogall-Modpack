@@ -1,0 +1,102 @@
+[
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_light_healing_1",
+    "name": { "str": "하급 지팡이(가벼운 상처 치료)[MWMI]", "str_pl": "하급 지팡이(가벼운 상처 치료)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "마나 크리스탈을 끼우는 소켓이 달린 길쭉한 나무 지팡이입니다. 가벼운 상처 치료을 영창하는 기능을 가지고 있습니다.",
+    "price": "200 USD",
+    "price_postapoc": "200 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "light_healing", "no_fail": true, "level": 2, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_light_healing_2",
+    "name": { "str": "중급 지팡이(가벼운 상처 치료)[MWMI]", "str_pl": "중급 지팡이(가벼운 상처 치료)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "마나 크리스탈을 끼우는 소켓이 달린 길쭉한 나무 지팡이입니다. 가벼운 상처 치료을 영창하는 기능을 가지고 있습니다.",
+    "price": "400 USD",
+    "price_postapoc": "400 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "light_healing", "no_fail": true, "level": 4, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_light_healing_3",
+    "name": { "str": "상급 지팡이(가벼운 상처 치료)[MWMI]", "str_pl": "상급 지팡이(가벼운 상처 치료)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "마나 크리스탈을 끼우는 소켓이 달린 길쭉한 나무 지팡이입니다. 가벼운 상처 치료을 영창하는 기능을 가지고 있습니다.",
+    "price": "600 USD",
+    "price_postapoc": "600 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "light_healing", "no_fail": true, "level": 6, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_pain_split_1",
+    "name": { "str": "하급 지팡이(고통 나누기)[MWMI]", "str_pl": "하급 지팡이(고통 나누기)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "마나 크리스탈을 끼우는 소켓이 달린 길쭉한 나무 지팡이입니다. 고통 나누기을 영창하는 기능을 가지고 있습니다.",
+    "price": "600 USD",
+    "price_postapoc": "600 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "pain_split", "no_fail": true, "level": 2, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_bio_grotesque_1",
+    "name": { "str": "하급 지팡이(기괴한 강화)[MWMI]", "str_pl": "하급 지팡이(기괴한 강화)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "마나 크리스탈을 끼우는 소켓이 달린 길쭉한 나무 지팡이입니다. 기괴한 강화을 영창하는 기능을 가지고 있습니다.",
+    "price": "200 USD",
+    "price_postapoc": "200 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "bio_grotesque", "no_fail": true, "level": 4, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_bio_grotesque_2",
+    "name": { "str": "중급 지팡이(기괴한 강화)[MWMI]", "str_pl": "중급 지팡이(기괴한 강화)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "마나 크리스탈을 끼우는 소켓이 달린 길쭉한 나무 지팡이입니다. 기괴한 강화을 영창하는 기능을 가지고 있습니다.",
+    "price": "400 USD",
+    "price_postapoc": "400 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "bio_grotesque", "no_fail": true, "level": 8, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_bio_grotesque_3",
+    "name": { "str": "상급 지팡이(기괴한 강화)[MWMI]", "str_pl": "상급 지팡이(기괴한 강화)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "마나 크리스탈을 끼우는 소켓이 달린 길쭉한 나무 지팡이입니다. 기괴한 강화을 영창하는 기능을 가지고 있습니다.",
+    "price": "600 USD",
+    "price_postapoc": "600 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "bio_grotesque", "no_fail": true, "level": 12, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_bio_acidicspray_1",
+    "name": { "str": "하급 지팡이(산성 분사)[MWMI]", "str_pl": "하급 지팡이(산성 분사)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "마나 크리스탈을 끼우는 소켓이 달린 길쭉한 나무 지팡이입니다. 산성 분사을 영창하는 기능을 가지고 있습니다.",
+    "price": "200 USD",
+    "price_postapoc": "200 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "bio_acidicspray", "no_fail": true, "level": 4, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_bio_acidicspray_2",
+    "name": { "str": "중급 지팡이(산성 분사)[MWMI]", "str_pl": "중급 지팡이(산성 분사)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "마나 크리스탈을 끼우는 소켓이 달린 길쭉한 나무 지팡이입니다. 산성 분사을 영창하는 기능을 가지고 있습니다.",
+    "price": "400 USD",
+    "price_postapoc": "400 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "bio_acidicspray", "no_fail": true, "level": 8, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_bio_acidicspray_3",
+    "name": { "str": "상급 지팡이(산성 분사)[MWMI]", "str_pl": "상급 지팡이(산성 분사)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "마나 크리스탈을 끼우는 소켓이 달린 길쭉한 나무 지팡이입니다. 산성 분사을 영창하는 기능을 가지고 있습니다.",
+    "price": "600 USD",
+    "price_postapoc": "600 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "bio_acidicspray", "no_fail": true, "level": 12, "need_wielding": true }
+  }
+]

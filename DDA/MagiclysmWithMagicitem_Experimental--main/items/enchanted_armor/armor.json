@@ -1,0 +1,354 @@
+[
+  {
+    "id": "PSY_magi_hayate_bandana_head",
+    "type": "TOOL_ARMOR",
+    "category": "clothing",
+    "name": { "str": "질풍의 반다나" },
+    "description": "바람문장이 새겨진 반다나입니다. 장비시 속도가 빨라집니다.",
+    "copy-from": "headscarf",
+    "repairs_like": "headscarf",
+    "price": "2000 USD",
+    "price_postapoc": "2000 USD",
+    "relic_data": { 
+      "passive_effects": [ 
+        { 
+          "has": "WORN", "condition": "ALWAYS", "values": 
+          [
+            { "value": "SPEED", "add": 5 } 
+          ] 
+        } 
+      ] 
+    }
+  },
+  {
+    "id": "PSY_magi_hayate_tshirt",
+    "type": "ARMOR",
+    "name": { "str": "질풍의 옷" },
+    "description": "바람문장이 새겨진 옷입니다. 장비하면 속도가 빨라집니다.",
+    "copy-from": "tshirt",
+    "repairs_like": "tshirt",
+    "price": "2000 USD",
+    "price_postapoc": "2000 USD",
+    "flags": [ "VARSIZE", "FANCY" ],
+    "relic_data": { 
+      "passive_effects": [ 
+        { 
+          "has": "WORN", "condition": "ALWAYS", "values": 
+          [
+            { "value": "SPEED", "add": 5 } 
+          ] 
+        } 
+      ] 
+    }
+  },
+  {
+    "id": "PSY_magi_hayate_bracelet",
+    "type": "ARMOR",
+    "name": { "str": "질풍의 팔찌" },
+    "description": "바람 문장이 새겨진 팔찌입니다. 장비하면 속도가 빨라 집니다.",
+    "copy-from": "silver_bracelet",
+    "price": "2000 USD",
+    "price_postapoc": "2000 USD",
+    "flags": [ "FANCY" ],
+    "relic_data": { 
+      "passive_effects": [ 
+        { 
+          "has": "WORN", "condition": "ALWAYS", "values": 
+          [
+            { "value": "SPEED", "add": 5 } 
+          ] 
+        } 
+      ] 
+    }
+  },
+  {
+    "id": "PSY_magi_hayate_boots",
+    "type": "ARMOR",
+    "name": { "str": "질풍의 부츠", "str_pl": "질풍의 부츠" },
+    "description": "바람의 문장이 새겨진 부츠입니다. 장비하면 속도가 빨라 집니다.",
+    "copy-from": "boots",
+    "repairs_like": "boots",
+    "price": "2000 USD",
+    "price_postapoc": "2000 USD",
+    "looks_like": "dress_shoes",
+    "relic_data": { 
+      "passive_effects": [ 
+        { 
+          "has": "WORN", "condition": "ALWAYS", "values": 
+          [
+            { "value": "SPEED", "add": 5 },
+            { "value": "MOVE_COST", "add": -15 }
+          ] 
+        } 
+      ] 
+    }
+  },
+  {
+    "id": "PSY_magi_head_kyodan",
+    "type": "TOOL_ARMOR",
+    "category": "clothing",
+    "name": { "str": "교단의 모자" },
+    "description": "어딘가 들어보지 못한 교단이 사용하고 있는 모자입니다. 장비하면 마력이 강화됩니다.",
+    "copy-from": "headscarf",
+    "warmth": 5,
+    "relic_data": { 
+      "passive_effects": [ 
+        { 
+          "has": "WORN", "condition": "ALWAYS", "values": 
+          [
+            { "value": "MAX_MANA", "add": 2000 },
+            { "value": "REGEN_MANA", "multiply": 0.5  },
+            { "value": "REGEN_MANA", "multiply": 0.5  }
+          ]
+        } 
+      ] 
+    }
+  },
+  {
+    "id": "PSY_magi_tshirt_kyodan",
+    "type": "ARMOR",
+    "name": { "str": "교단의 옷" },
+    "description": "어딘가 들어보지 못한 교단이 사용하고 있는 옷입니다. 장비하면 마력이 강화됩니다.",
+    "copy-from": "jumpsuit",
+    "repairs_like": "jumpsuit",
+    "flags": [ "VARSIZE", "FANCY" ],
+    "relic_data": { 
+      "passive_effects": [ 
+        { 
+          "has": "WORN", "condition": "ALWAYS", "values": 
+          [
+            { "value": "MAX_MANA", "add": 2000 },
+            { "value": "REGEN_MANA", "multiply": 0.5  } 
+          ] 
+        } 
+      ] 
+    }  },
+  {
+    "id": "PSY_magi_bracelet_kyodan",
+    "type": "ARMOR",
+    "name": { "str": "교단의 장갑" },
+    "description": "어딘가 들어보지 못한 교단이 사용하고 있는 장갑입니다. 장비하면 마력이 강화됩니다.",
+    "copy-from": "gloves_light",
+    "repairs_like": "gloves_light",
+    "flags": [ "FANCY" ],
+    "relic_data": { 
+      "passive_effects": [ 
+        { 
+          "has": "WORN", "condition": "ALWAYS", "values": 
+          [
+            { "value": "MAX_MANA", "add": 500 },
+            { "value": "REGEN_MANA", "multiply": 0.5  } 
+          ] 
+        } 
+      ] 
+    }
+  },
+  {
+    "id": "PSY_magi_boots_kyodan",
+    "type": "ARMOR",
+    "name": { "str": "교단의 신발", "str_pl": "교단의 신발" },
+    "description": "어딘가 들어보지 못한 교단이 사용하고 있는 신발입니다. 장비하면 마력이 강화됩니다.",
+     "copy-from": "dress_shoes",
+    "repairs_like": "dress_shoes",
+    "relic_data": { 
+      "passive_effects": [ 
+        { 
+          "has": "WORN", "condition": "ALWAYS", "values": 
+          [
+            { "value": "MAX_MANA", "add": 500 },
+            { "value": "REGEN_MANA", "multiply": 0.5  } 
+          ] 
+        } 
+      ] 
+    }
+  },
+  {
+    "id": "PSY_magi_head_sister",
+    "type": "TOOL_ARMOR",
+    "category": "clothing",
+    "name": { "str": "교단의 면사포" },
+    "description": "어딘가 들어보지 못한 교단이 사용하고 있는 면사포 입니다. 장비하면 마력이 강화됩니다.",
+    "copy-from": "headscarf",
+    "repairs_like": "headscarf",
+    "armor": [ { "coverage": 80, "covers": [ "head" ] } ],
+    "relic_data": { 
+      "passive_effects": [ 
+        { 
+          "has": "WORN", "condition": "ALWAYS", "values": 
+          [
+            { "value": "MAX_MANA", "add": 1000 },
+            { "value": "REGEN_MANA", "multiply": 0.5  } 
+          ] 
+        } 
+      ] 
+    }
+  },
+  {
+    "id": "PSY_magi_tshirt_sister",
+    "type": "ARMOR",
+    "name": { "str": "교단의 수녀복" },
+    "description": "어딘가 들어보지 못한 교단이 사용하고 있는 입니다. 장비하면 마력이 강화됩니다.",
+    "copy-from": "PSY_magi_tshirt_kyodan"
+  },
+  {
+    "id": "PSY_magi_head_bouei",
+    "type": "TOOL_ARMOR",
+    "category": "clothing",
+    "name": { "str": "방위자의 투구" },
+    "description": "방위자라고 불리는 집단이 장비하는 투구입니다. 장비하면 다소의 보호를 받을 수 있습니다.",
+    "copy-from": "helmet_armet",
+    "repairs_like": "helmet_armet",
+    "weight": "2000 g",
+    "volume": "2050 ml",
+    "armor": [
+      { "covers": [ "head" ], "coverage": 100, "encumbrance": 30 },
+      { "covers": [ "mouth" ], "coverage": 100, "encumbrance": 20 },
+      { "covers": [ "eyes" ], "coverage": 100, "encumbrance": 20 }
+    ],
+    "warmth": 10,
+    "material_thickness": 6,
+    "environmental_protection": 3,
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "ARMOR_CUT", "add": -5 },
+            { "value": "ARMOR_BASH", "add": -5 },
+            { "value": "ARMOR_STAB", "add": -5 },
+            { "value": "ARMOR_BULLET", "add": -5 }
+          ]
+        }
+      ]
+    }  
+  },
+  {
+    "id": "PSY_magi_tshirt_bouei",
+    "type": "ARMOR",
+    "name": { "str": "방위자의 갑옷" },
+    "description": "방위자라고 불리는 집단이 장비하는 갑옷입니다. 장비하면 다소의 보호를 받을 수 있습니다.",
+    "copy-from": "armor_lightplate",
+    "repairs_like": "armor_lightplate",
+    "weight": "10 kg",
+    "volume": "17500 ml",
+    "material_thickness": 6,
+    "environmental_protection": 3,
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "ARMOR_CUT", "add": -5 },
+            { "value": "ARMOR_BASH", "add": -5 },
+            { "value": "ARMOR_STAB", "add": -5 },
+            { "value": "ARMOR_BULLET", "add": -5 }
+          ]
+        }
+      ]
+    }  
+  },
+  {
+    "id": "PSY_magi_bracelet_bouei",
+    "type": "ARMOR",
+    "name": { "str": "방위자의 건틀릿" },
+    "description": "방위자라고 불리는 집단이 장비하는 건틀릿. 장비하면 다소의 보호를 받을 수 있습니다.",
+    "copy-from": "gloves_plate",
+    "repairs_like": "gloves_plate",
+    "weight": "800 g",
+    "volume": "1300 ml",
+    "warmth": 20,
+    "material_thickness": 4,
+    "environmental_protection": 3,
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "ARMOR_CUT", "add": -5 },
+            { "value": "ARMOR_BASH", "add": -5 },
+            { "value": "ARMOR_STAB", "add": -5 },
+            { "value": "ARMOR_BULLET", "add": -5 }
+          ]
+        }
+      ]
+    }  
+  },
+  {
+    "id": "PSY_magi_boots_bouei",
+    "type": "ARMOR",
+    "name": { "str": "방위자의 그리브", "str_pl": "방위자의 그리브" },
+    "description": "방위자라고 불리는 집단이 장비하는 그리브 입니다. 장비하면 다소의 보호를 받을 수 있습니다.",
+    "copy-from": "boots_plate",
+    "repairs_like": "boots_plate",
+    "weight": "1500 g",
+    "volume": "2250 ml",
+    "material_thickness": 4,
+    "environmental_protection": 3,
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "ARMOR_CUT", "add": -5 },
+            { "value": "ARMOR_BASH", "add": -5 },
+            { "value": "ARMOR_STAB", "add": -5 },
+            { "value": "ARMOR_BULLET", "add": -5 }
+          ]
+        }
+      ]
+    }  
+  },
+  {
+    "id": "PSY_magi_head_val",
+    "type": "TOOL_ARMOR",
+    "category": "clothing",
+    "name": { "str": "발키리의 투구" },
+    "description": "발키리라고 불리는 집단이 장비하는 투구입니다. 장비하면 다소의 보호를 받을 수 있습니다.",
+    "copy-from": "PSY_magi_head_bouei",
+    "weight": "1175 g",
+    "volume": "1750 ml",
+    "armor": [
+      { "covers": [ "head" ], "coverage": 40, "encumbrance": 10 }
+    ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "ARMOR_CUT", "add": -5 },
+            { "value": "ARMOR_BASH", "add": -5 },
+            { "value": "ARMOR_STAB", "add": -5 },
+            { "value": "ARMOR_BULLET", "add": -5 }
+          ]
+        }
+      ]
+    }  
+  },
+  {
+    "id": "PSY_magi_tshirt_val",
+    "repairs_like": "tshirt",
+    "type": "ARMOR",
+    "name": { "str": "발키리의 갑옷" },
+    "description": "발키리라고 불리는 집단이 장비하는 갑옷입니다. 장비하면 다소의 보호를 받을 수 있습니다.",
+    "copy-from": "PSY_magi_tshirt_bouei"
+  },
+  {
+    "id": "PSY_magi_bracelet_val",
+    "type": "ARMOR",
+    "name": { "str": "발키리의 건틀릿" },
+    "description": "발키리라고 불리는 집단이 장비하는 건틀릿입니다. 장비하면 다소의 보호를 받을 수 있습니다.",
+    "copy-from": "PSY_magi_bracelet_bouei"
+  },
+  {
+    "id": "PSY_magi_boots_val",
+    "type": "ARMOR",
+    "name": { "str": "발키리의 신발", "str_pl": "발키리의 신발" },
+    "description": "발키리라고 불리는 집단이 장비하는 신발입니다. 장비하면 다소의 보호를 받을 수 있습니다.",
+    "copy-from": "PSY_magi_boots_bouei"
+  }
+]

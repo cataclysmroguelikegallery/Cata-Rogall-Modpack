@@ -1,0 +1,35 @@
+[
+	{
+		"id":"ncard_spell_card_pull_ally2",
+		"type":"TOOL",
+		"copy-from":"ncard_base_r1",
+		"name":"구리 카드(영창/추진(약))",
+		"description":"수수께끼의 힘으로 아군 몬스터를 15미터 정도 앞까지 날려 버리는 일회용 카드입니다.적이나 NPC에는 효과가 없으므로 주의해 주세요.",
+		"material":[ "bronze" ],
+		"symbol":"i",
+		"color":"brown",
+		"flags":[ "UNBREAKABLE_MELEE","TRADER_AVOID","NO_UNLOAD", "NO_RELOAD" ],
+		"pocket_data":[ { "pocket_type": "MAGAZINE", "ammo_restriction": { "ncard_misc_powder_a": 3 } } ],
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_pull_ally2", "no_fail": true, "level": 0 },
+		"price":0,
+		"charges_per_use":1
+	}
+,
+	{
+		"id":"ncard_spell_card_pull_ally",
+		"type":"TOOL",
+		"copy-from":"ncard_base_r1",
+		"name":"구리 카드(영창/추진)",
+		"description":"수수께끼의 힘으로 아군 몬스터를 30미터 정도 앞까지 날려 버리는 일회용 카드입니다.적이나 NPC에는 효과가 없으므로 주의해 주세요.",
+		"material":[ "bronze" ],
+		"symbol":"i",
+		"color":"brown",
+		"flags":[ "UNBREAKABLE_MELEE","TRADER_AVOID","NO_UNLOAD", "NO_RELOAD" ],
+		"pocket_data":[ { "pocket_type": "MAGAZINE", "ammo_restriction": { "ncard_misc_powder_a": 3 } } ],
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_pull_ally", "no_fail": true, "level": 0 },
+		"price":0,
+		"charges_per_use":1
+	}
+
+
+]

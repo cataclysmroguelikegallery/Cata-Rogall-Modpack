@@ -1,0 +1,45 @@
+[
+	{
+		"id":"TALK_T1_1",
+		"type":"talk_topic",
+		"dynamic_line":"？",
+		"responses":[ { "text": "포탈 금화을 준다","topic": "TALK_T_trader", "condition":  { "u_has_items": { "item": "ncard_misc_coin_gold", "count": 39 } }, "effect": [{ "u_consume_item": "ncard_misc_coin_gold", "count": 39 },{"u_message": "구입 했습니다","type": "good","popup": true },{ "u_spawn_item": "card_call_crate_ev5_2", "count": 1 } ] },{ "text": "줄것이 없다", "topic": "TALK_T_trader" } ]
+	}
+,
+	{
+		"id":"TALK_T1_2",
+		"type":"talk_topic",
+		"dynamic_line":"？",
+		"responses":[ { "text": "포탈 금화을 준다","topic": "TALK_T_trader", "condition":  { "u_has_items": { "item": "ncard_misc_coin_gold", "count": 39 } }, "effect": [{ "u_consume_item": "ncard_misc_coin_gold", "count": 39 },{"u_message": "구입 했습니다","type": "good","popup": true },{ "u_spawn_item": "card_call_crate_2", "count": 1 } ] },{ "text": "줄것이 없다", "topic": "TALK_T_trader" } ]
+	}
+,
+	{
+		"id":"TALK_T1_99",
+		"type":"talk_topic",
+		"dynamic_line":"？",
+		"responses":[ { "text": "포탈 금화을 준다","topic": "TALK_DONE", "condition":  { "u_has_items": { "item": "ncard_misc_coin_gold", "count": 975 } }, "effect": [{ "u_consume_item": "ncard_misc_coin_gold", "count": 975  },{"u_message": "행상인은 귀찮은 듯이 행동하면서도 미소 짓는 것처럼 보였습니다.","type": "good","popup": true },{ "u_spawn_item": "ncard_ev4_r4_no_01", "count": 1 },{"u_message": "행상인의 신병을 매입했습니다! 수중에는 친근하게 반짝이는 카드가 남았습니다.","type": "good","popup": true },{ "npc_cast_spell": { "id": "spell_ncard_selfkill","hit_self": true } } ] },{ "text": "줄것이 없다", "topic": "TALK_T_trader" } ]
+	}
+,
+	{
+		"id":"TALK_T1_1_2",
+		"type":"talk_topic",
+		"dynamic_line":"？",
+		"responses":[ { "text": "포탈 금화을 준다","topic": "TALK_T_trader2", "condition":  { "u_has_items": { "item": "ncard_misc_coin_gold", "count": 39 } }, "effect": [{ "u_consume_item": "ncard_misc_coin_gold", "count": 39 },{"u_message": "구입 했습니다","type": "good","popup": true },{ "u_spawn_item": "card_call_crate_ev3_2", "count": 1 } ] },{ "text": "줄것이 없다", "topic": "TALK_T_trader2" } ]
+	}
+,
+	{
+		"id":"TALK_T1_2_2",
+		"type":"talk_topic",
+		"dynamic_line":"？",
+		"responses":[ { "text": "포탈 금화을 준다","topic": "TALK_T_trader2", "condition":  { "u_has_items": { "item": "ncard_misc_coin_gold", "count": 39 } }, "effect": [{ "u_consume_item": "ncard_misc_coin_gold", "count": 39 },{"u_message": "구입 했습니다","type": "good","popup": true },{ "u_spawn_item": "card_call_crate_2", "count": 1 } ] },{ "text": "줄것이 없다", "topic": "TALK_T_trader2" } ]
+	}
+,
+	{
+		"id":"TALK_T1_99_2",
+		"type":"talk_topic",
+		"dynamic_line":"？",
+		"responses":[ { "text": "포탈 금화을 준다","topic": "TALK_DONE", "condition":  { "u_has_items": { "item": "ncard_misc_coin_gold", "count": 975 } }, "effect": [{ "u_consume_item": "ncard_misc_coin_gold", "count": 975  },{"u_message": "행상인은 귀찮은 듯이 행동하면서도 미소 짓는 것처럼 보였습니다.","type": "good","popup": true },{ "u_spawn_item": "ncard_ev4_r4_no_02", "count": 1 },{"u_message": "행상인의 신병을 매입했습니다! 수중에는 친근하게 반짝이는 카드가 남았습니다.","type": "good","popup": true },{ "npc_cast_spell": { "id": "spell_ncard_selfkill","hit_self": true } } ] },{ "text": "줄것이 없다", "topic": "TALK_T_trader2" } ]
+	}
+
+
+]

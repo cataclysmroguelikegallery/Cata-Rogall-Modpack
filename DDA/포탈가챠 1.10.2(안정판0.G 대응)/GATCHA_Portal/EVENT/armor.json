@@ -1,0 +1,63 @@
+[
+	{
+		"id":"ncard_armor_ev2_omamori1",
+		"type":"ARMOR",
+		"name":"신체건승부적",
+		"description":"아주 흔한 외형 부적이지만 뭔가 가호가 있을 것 같은 생각이 듭니다.",
+		"weight":"10 g",
+		"volume":"10 ml",
+		"price":1,
+		"material":[ "cotton" ],
+		"symbol":"_",
+		"color":"red",
+		"flags":[ "ONLY_ONE","TRADER_AVOID","UNBREAKABLE_MELEE","POWERARMOR_COMPATIBLE" ],
+		"relic_data":{ "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "STRENGTH", "add": 1 } ] } ] }
+	}
+,
+	{
+		"id":"ncard_armor_ev2_omamori2",
+		"type":"ARMOR",
+		"name":"연결부적",
+		"description":"아주 흔한 외형 부적이지만 뭔가 가호가 있을 것 같은 생각이 듭니다.",
+		"weight":"10 g",
+		"volume":"10 ml",
+		"price":1,
+		"material":[ "cotton" ],
+		"symbol":"_",
+		"color":"red",
+		"flags":[ "ONLY_ONE","TRADER_AVOID","UNBREAKABLE_MELEE","POWERARMOR_COMPATIBLE" ],
+		"relic_data":{ "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "DEXTERITY", "add": 1 } ] } ] }
+	}
+,
+	{
+		"id":"ncard_armor_ev2_omamori3",
+		"type":"ARMOR",
+		"name":"학업부적",
+		"description":"아주 흔한 외형 부적이지만 뭔가 가호가 있을 것 같은 생각이 듭니다.",
+		"weight":"10 g",
+		"volume":"10 ml",
+		"price":1,
+		"material":[ "cotton" ],
+		"symbol":"_",
+		"color":"red",
+		"flags":[ "ONLY_ONE","TRADER_AVOID","UNBREAKABLE_MELEE","POWERARMOR_COMPATIBLE" ],
+		"relic_data":{ "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "INTELLIGENCE", "add": 1 } ] } ] }
+	}
+,
+	{
+		"id":"ncard_armor_ev2_omamori4",
+		"type":"ARMOR",
+		"name":"안전운전부적",
+		"description":"아주 흔한 외형 부적이지만 뭔가 가호가 있을 것 같은 생각이 듭니다.",
+		"weight":"10 g",
+		"volume":"10 ml",
+		"price":1,
+		"material":[ "cotton" ],
+		"symbol":"_",
+		"color":"red",
+		"flags":[ "ONLY_ONE","TRADER_AVOID","UNBREAKABLE_MELEE","POWERARMOR_COMPATIBLE" ],
+		"relic_data":{ "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "PERCEPTION", "add": 1 } ] } ] }
+	}
+
+
+]

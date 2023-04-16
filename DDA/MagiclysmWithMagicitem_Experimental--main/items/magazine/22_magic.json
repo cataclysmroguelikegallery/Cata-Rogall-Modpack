@@ -1,0 +1,19 @@
+[
+  {
+    "id": "PSY_magi_22_magic_speedloader8",
+    "type": "MAGAZINE",
+    "name": "우눔전용 스피드로더[MWMI]",
+    "description": "마나 카트리지 탄 전용 권총 우눔의 스피드로더 입니다.이를 사용하여 빠른 리로드가 가능합니다.",
+    "looks_like": "22_speedloader8",
+    "weight": "64 g",
+    "volume": "250 ml",
+    "price": 600,
+    "material": "steel",
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": "PSY_magi_22_magic",
+    "capacity": 8,
+    "flags": [ "SPEEDLOADER" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "PSY_magi_22_magic": 8 } } ]
+  }
+]

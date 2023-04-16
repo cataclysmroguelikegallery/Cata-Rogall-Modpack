@@ -1,0 +1,171 @@
+[
+  {
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_fireball_talisman_1",
+    "name": "화염구의 두루마리(초급)[MWMI]",
+    "description": "화염구의 마법이 갇힌 스크롤입니다. 사용하는 것으로 화염구을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "fireball", "no_fail": true, "level": 5 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_fireball_talisman_2",
+    "name": "화염구의 두루마리(중급)[MWMI]",
+    "description": "화염구의 마법이 갇힌 스크롤입니다. 사용하는 것으로 화염구을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "fireball", "no_fail": true, "level": 7 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base",
+    "price": "60 USD",
+    "price_postapoc": "60 USD"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_fireball_talisman_3",
+    "name": "화염구의 두루마리(상급)[MWMI]",
+    "description": "화염구의 마법이 갇힌 스크롤입니다. 사용하는 것으로 화염구을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "fireball", "no_fail": true, "level": 10 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base",
+    "price": "80 USD",
+    "price_postapoc": "80 USD"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_point_flare_talisman_1",
+    "name": "포인트 플레어의 두루마리(초급)[MWMI]",
+    "description": "포인트 플레어의 마법이 갇힌 스크롤입니다. 사용하는 것으로 포인트 플레어을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "point_flare", "no_fail": true, "level": 5 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_point_flare_talisman_2",
+    "name": "포인트 플레어의 두루마리(중급)[MWMI]",
+    "description": "포인트 플레어의 마법이 갇힌 스크롤입니다. 사용하는 것으로 포인트 플레어을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "point_flare", "no_fail": true, "level": 7 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base",
+    "price": "60 USD",
+    "price_postapoc": "60 USD"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_point_flare_talisman_3",
+    "name": "포인트 플레어의 두루마리(상급)[MWMI]",
+    "description": "포인트 플레어의 마법이 갇힌 스크롤입니다. 사용하는 것으로 포인트 플레어을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "point_flare", "no_fail": true, "level": 10 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base",
+    "price": "80 USD",
+    "price_postapoc": "80 USD"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_burning_hands_talisman_1",
+    "name": "불타는 손길의 두루마리(초급)[MWMI]",
+    "description": "불타는 손길의 마법이 갇힌 스크롤입니다. 사용하는 것으로 불타는 손길을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "burning_hands", "no_fail": true, "level": 5 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_burning_hands_talisman_2",
+    "name": "불타는 손길의 두루마리(중급)[MWMI]",
+    "description": "불타는 손길의 마법이 갇힌 스크롤입니다. 사용하는 것으로 불타는 손길을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "burning_hands", "no_fail": true, "level": 7 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base",
+    "price": "60 USD",
+    "price_postapoc": "60 USD"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_burning_hands_talisman_3",
+    "name": "불타는 손길의 두루마리(상급)[MWMI]",
+    "description": "불타는 손길의 마법이 갇힌 스크롤입니다. 사용하는 것으로 불타는 손길을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "burning_hands", "no_fail": true, "level": 10 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base",
+    "price": "60 USD",
+    "price_postapoc": "60 USD"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_ice_spike_talisman_1",
+    "name": "고드름 낙하의 두루마리(초급)[MWMI]",
+    "description": "고드름 낙하의 마법이 갇힌 스크롤입니다. 사용하는 것으로 고드름 낙하을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "ice_spike", "no_fail": true, "level": 5 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_ice_spike_talisman_2",
+    "name": "고드름 낙하의 두루마리(중급)[MWMI]",
+    "description": "고드름 낙하의 마법이 갇힌 스크롤입니다. 사용하는 것으로 고드름 낙하을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "ice_spike", "no_fail": true, "level": 7 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base",
+    "price": "60 USD",
+    "price_postapoc": "60 USD"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_ice_spike_talisman_3",
+    "name": "고드름 낙하의 두루마리(상급)[MWMI]",
+    "description": "고드름 낙하의 마법이 갇힌 스크롤입니다. 사용하는 것으로 고드름 낙하을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "ice_spike", "no_fail": true, "level": 10 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base",
+    "price": "80 USD",
+    "price_postapoc": "80 USD"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_glide_ice_talisman_1",
+    "name": "빙상 활주의 두루마리(초급)[MWMI]",
+    "description": "빙상 활주의 마법이 갇힌 스크롤입니다. 사용하는 것으로 빙상 활주을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "glide_ice", "no_fail": true, "level": 5 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_glide_ice_talisman_2",
+    "name": "빙상 활주의 두루마리(중급)[MWMI]",
+    "description": "빙상 활주의 마법이 갇힌 스크롤입니다. 사용하는 것으로 빙상 활주을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "glide_ice", "no_fail": true, "level": 7 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base",
+    "price": "60 USD",
+    "price_postapoc": "60 USD"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_glide_ice_talisman_3",
+    "name": "빙상 활주의 두루마리(상급)[MWMI]",
+    "description": "빙상 활주의 마법이 갇힌 스크롤입니다. 사용하는 것으로 빙상 활주을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "glide_ice", "no_fail": true, "level": 10 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base",
+    "price": "80 USD",
+    "price_postapoc": "80 USD"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_cone_cold_talisman_1",
+    "name": "냉기의 원뿔의 두루마리(초급)[MWMI]",
+    "description": "냉기의 원뿔의 마법이 갇힌 스크롤입니다. 사용하는 것으로 냉기의 원뿔을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "cone_cold", "no_fail": true, "level": 5 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_cone_cold_talisman_2",
+    "name": "냉기의 원뿔의 두루마리(중급)[MWMI]",
+    "description": "냉기의 원뿔의 마법이 갇힌 스크롤입니다. 사용하는 것으로 냉기의 원뿔을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "cone_cold", "no_fail": true, "level": 7 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base",
+    "price": "60 USD",
+    "price_postapoc": "60 USD"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_cone_cold_talisman_3",
+    "name": "냉기의 원뿔의 두루마리(상급)[MWMI]",
+    "description": "냉기의 원뿔의 마법이 갇힌 스크롤입니다. 사용하는 것으로 냉기의 원뿔을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "cone_cold", "no_fail": true, "level": 10 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base",
+    "price": "80 USD",
+    "price_postapoc": "80 USD"
+  }
+]

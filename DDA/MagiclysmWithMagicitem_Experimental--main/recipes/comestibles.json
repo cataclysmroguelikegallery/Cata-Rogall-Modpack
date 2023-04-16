@@ -1,0 +1,34 @@
+[
+  {
+    "type": "recipe",
+    "activity_level": "fake",
+    "result": "PSY_magi_magic_fruit",
+    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
+    "time": "10 m",
+    "skill_used": "spellcraft",
+    "difficulty": 2,
+    "proficiencies": [ { "proficiency": "prof_alchemy" } ],
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_FOOD",
+    "autolearn": true,
+    "components": [ 
+      [ [ "crystallized_mana", 10 ] ],
+      [ [ "sweet_fruit", 1, "LIST" ] ] 
+    ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "meat_dragon_cooked",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_MEAT",
+    "skill_used": "cooking",
+    "time": "15 m",
+    "autolearn": true,
+    "batch_time_factors": [ 67, 5 ],
+    "qualities": [ { "id": "COOK", "level": 1 } ],
+    "tools": [ [ [ "surface_heat", 7, "LIST" ] ] ],
+    "proficiencies": [ { "proficiency": "prof_food_prep" } ],
+    "components": [ [ [ "meat_dragon", 1 ] ] ]
+  }
+]

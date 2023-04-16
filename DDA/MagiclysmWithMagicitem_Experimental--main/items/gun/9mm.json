@@ -1,0 +1,41 @@
+  {
+    "id": "PSY_magi_magic_revolver_ver3",
+    "copy-from": "pistol_revolver",
+    "looks_like": "sw_619",
+    "type": "GUN",
+    "name": "마나 카트리지 전용 권총 트리아[MWMI]",
+    "extend": { "flags": [ "MAGIC_FOCUS" ] },
+    "description": "마법사를 위해 설계된 마나 카트리지 탄 전용 권총 트리아입니다. 이것을 능숙하게 사용할 수 있게 되면 당신도 제 몫을 할 수 있는 마법사입니다.",
+    "weight": "935 g",
+    "volume": "500 ml",
+    "price": 30000,
+    "to_hit": -2,
+    "bashing": 8,
+    "material": [ "steel", "wood","copper" ],
+    "symbol": "(",
+    "color": "dark_gray",
+    "ammo": "PSY_magi_9x19_magic",
+    "range": 1,
+    "dispersion": 340,
+    "durability": 9,
+    "clip_size": 6,
+    "pocket_data": [ 
+      { "pocket_type": "MAGAZINE",
+        "holster": true, 
+        "rigid": true, 
+        "ammo_restriction": { "PSY_magi_9x19_magic": 6 },
+        "allowed_speedloaders": [ "PSY_magi_9mm_magic_speedloader6" ]
+      }
+    ],
+    "valid_mod_locations": [
+      [ "accessories", 2 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ]
+  }

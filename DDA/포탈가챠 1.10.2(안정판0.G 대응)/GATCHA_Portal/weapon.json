@@ -1,0 +1,13 @@
+[
+	{
+		"id":"ncard_r3_weapon_bat",
+		"type":"GENERIC",
+		"copy-from":"bwirebat",
+		"name":"구슬 지팡이",
+		"description":"none",
+		"flags":[ "UNBREAKABLE_MELEE", "SHEATH_SWORD","TRADER_AVOID" ],
+		"relic_data":{"passive_effects": [{"has": "WIELD","condition": "ALWAYS","hit_you_effect": [ { "id": "spell_ncard_diavo_g", "message": "시간이 멈췄다." } ]}]}
+	}
+
+
+]

@@ -1,0 +1,120 @@
+[
+	{
+		"id":"ef_ncard_ev1_holy_cocktail",
+		"type":"effect_type",
+		"name":[ "성스러운 샴페인" ],
+		"desc":[ "당신은 성스러운 알코올의 영향을 받고 있습니다!" ],
+		"apply_message":"당신은 성스러운 알코올의 영향을 받고 있습니다!",
+		"rating":"bad",
+		"max_duration":"15 s",
+		"max_intensity":1,
+		"base_mods":{ "speed_mod": [ -15 ], "dodge_mod": [ -2 ], "bash_mod": [ -2 ],"hurt_min": [ 10 ], "hurt_chance": [ 0 ] },
+		"show_in_info":true
+	}
+,
+	{
+		"id":"ef_ncard_ev2_dashslash",
+		"type":"effect_type",
+		"name":[ "대출혈" ],
+		"desc":[ "당신은 참격의 영향을 받고 있습니다!" ],
+		"apply_message":"당신은 참격의 영향을 받고 있습니다!",
+		"rating":"bad",
+		"max_duration":"10 s",
+		"max_intensity":1,
+		"base_mods":{ "speed_mod": [ -30 ], "dodge_mod": [ -5 ], "bash_mod": [ -5 ],"hurt_min": [ 5 ], "hurt_chance": [ 0 ] },
+		"show_in_info":true
+	}
+,
+	{
+		"id":"ef_ncard_ev3_sanoubu",
+		"type":"effect_type",
+		"name":[ "대열상" ],
+		"desc":[ "당신은 열상의 영향을 받고 있습니다!" ],
+		"apply_message":"당신은 열상의 영향을 받고 있습니다!",
+		"rating":"bad",
+		"max_duration":"15 s",
+		"max_intensity":1,
+		"base_mods":{ "speed_mod": [ -10 ], "dodge_mod": [ -2 ], "bash_mod": [ -2 ],"hurt_min": [ 10 ], "hurt_chance": [ 0 ] },
+		"show_in_info":true
+	}
+,
+	{
+		"id":"ef_ncard_ev3_issen",
+		"type":"effect_type",
+		"name":[ "열상" ],
+		"desc":[ "당신은 열상의 영향을 받고 있습니다!" ],
+		"apply_message":"당신은 열상의 영향을 받고 있습니다!",
+		"rating":"bad",
+		"max_duration":"10 s",
+		"max_intensity":1,
+		"base_mods":{ "speed_mod": [ -10 ], "dodge_mod": [ -5 ], "bash_mod": [ -5 ],"hurt_min": [ 5 ], "hurt_chance": [ 0 ] },
+		"show_in_info":true
+	}
+,
+	{
+		"id":"ef_ncard_ev4_potion",
+		"type":"effect_type",
+		"name":[ "포션" ],
+		"desc":[ "당신은 포션의 영향을 받고 있습니다!" ],
+		"apply_message":"당신은 포션의 영향을 받고 있습니다!",
+		"rating":"bad",
+		"max_duration":"15 s",
+		"max_intensity":1,
+		"base_mods":{ "speed_mod": [ -15 ], "dodge_mod": [ -2 ], "bash_mod": [ -2 ],"hurt_min": [ 10 ], "hurt_chance": [ 0 ] },
+		"show_in_info":true
+	}
+,
+	{
+		"id":"ef_ncard_ev5_somno",
+		"type":"effect_type",
+		"name":[ "졸음" ],
+		"desc":[ "당신은 졸음의 영향을 받고 있습니다!" ],
+		"apply_message":"당신은 졸음의 영향을 받고 있습니다!",
+		"rating":"bad",
+		"max_duration":"40 s",
+		"max_intensity":1,
+		"base_mods":{ "speed_mod": [ -4000 ], "dodge_mod": [ -2 ], "bash_mod": [ -2 ] },
+		"show_in_info":true
+	}
+,
+	{
+		"id":"ef_ncard_ev5_ex",
+		"type":"effect_type",
+		"name":[ "유혹" ],
+		"desc":[ "당신은 유혹의 영향을 받고 있습니다!" ],
+		"apply_message":"당신은 졸음의 영향을 받고 있습니다!",
+		"rating":"bad",
+		"max_duration":"30 s",
+		"max_intensity":1,
+		"base_mods":{ "speed_mod": [ -50 ], "dodge_mod": [ -2 ], "bash_mod": [ -2 ] },
+		"show_in_info":true
+	}
+,
+	{
+		"id":"ef_ncard_ev5_somno2",
+		"type":"effect_type",
+		"name":[ "졸음" ],
+		"desc":[ "당신은 졸음의 영향을 받고 있습니다!" ],
+		"apply_message":"당신은 졸음의 영향을 받고 있습니다!",
+		"rating":"bad",
+		"max_duration":"15 s",
+		"max_intensity":1,
+		"base_mods":{ "speed_mod": [ -100 ], "dodge_mod": [ -2 ], "bash_mod": [ -2 ] },
+		"show_in_info":true
+	}
+,
+	{
+		"id":"ef_ncard_ev6_springheel",
+		"type":"effect_type",
+		"name":[ "타박" ],
+		"desc":[ "당신은 타박상의 영향을 받고 있습니다!" ],
+		"apply_message":"당신은 타박상의 영향을 받고 있습니다!",
+		"rating":"bad",
+		"max_duration":"1 s",
+		"max_intensity":1,
+		"base_mods":{ "speed_mod": [ -15 ], "dodge_mod": [ -2 ], "bash_mod": [ -2 ],"hurt_min": [ 180 ], "hurt_chance": [ 0 ] },
+		"show_in_info":true
+	}
+
+
+]

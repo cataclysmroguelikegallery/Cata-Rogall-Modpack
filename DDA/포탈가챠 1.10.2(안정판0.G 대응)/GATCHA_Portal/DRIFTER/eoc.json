@@ -1,0 +1,63 @@
+[
+	{
+		"id":"eoc_mon_ncard_ev4_r3_no_base_dr",
+		"type":"effect_on_condition",
+		"effect":[{ "u_cast_spell": { "id": "spell_mon_ncard_ev4_r3_no_base_dr","hit_self": true } } , { "u_message": "고용이 해제되었습니다.", "type": "bad" }  ]
+	}
+,
+	{
+		"id":"eoc_mon_ncard_ev4_r3_no_01_dr",
+		"type":"effect_on_condition",
+		"effect":[{ "u_cast_spell": { "id": "spell_mon_ncard_ev4_r3_no_01_dr","hit_self": true } } , { "u_message": "고용이 해제되었습니다.", "type": "bad" }  ]
+	}
+,
+	{
+		"id":"eoc_mon_ncard_ev4_r3_no_02_dr",
+		"type":"effect_on_condition",
+		"effect":[{ "u_cast_spell": { "id": "spell_mon_ncard_ev4_r3_no_02_dr","hit_self": true } } , { "u_message": "고용이 해제되었습니다.", "type": "bad" }  ]
+	}
+,
+	{
+		"id":"eoc_mon_ncard_ev4_r3_no_03_dr",
+		"type":"effect_on_condition",
+		"effect":[{ "u_cast_spell": { "id": "spell_mon_ncard_ev4_r3_no_03_dr","hit_self": true } } , { "u_message": "고용이 해제되었습니다.", "type": "bad" }  ]
+	}
+,
+	{
+		"id":"eoc_mon_ncard_ev4_r3_no_04_dr",
+		"type":"effect_on_condition",
+		"effect":[{ "u_cast_spell": { "id": "spell_mon_ncard_ev4_r3_no_04_dr","hit_self": true } } , { "u_message": "고용이 해제되었습니다.", "type": "bad" }  ]
+	}
+,
+	{
+		"id":"eoc_mon_ncard_ev4_r3_no_05_dr",
+		"type":"effect_on_condition",
+		"effect":[{ "u_cast_spell": { "id": "spell_mon_ncard_ev4_r3_no_05_dr","hit_self": true } } , { "u_message": "고용이 해제되었습니다.", "type": "bad" }  ]
+	}
+,
+	{
+		"id":"eoc_mon_ncard_ev4_r3_no_06_dr",
+		"type":"effect_on_condition",
+		"effect":[{ "u_cast_spell": { "id": "spell_mon_ncard_ev4_r3_no_06_dr","hit_self": true } } , { "u_message": "고용이 해제되었습니다.", "type": "bad" }  ]
+	}
+,
+	{
+		"id":"eoc_mon_ncard_ev4_r3_no_base_dr_em",
+		"type":"effect_on_condition",
+		"effect":[{ "u_cast_spell": { "id": "spell_mon_ncard_ev4_r3_no_base_dr_em","hit_self": true } } , { "u_message": "고용이 해제되었습니다.", "type": "bad" }  ]
+	}
+,
+	{
+		"id":"eoc_mon_ncard_ev4_r3_no_01_dr_em",
+		"type":"effect_on_condition",
+		"effect":[{ "u_cast_spell": { "id": "spell_mon_ncard_ev4_r3_no_01_dr_em","hit_self": true } } , { "u_message": "고용이 해제되었습니다.", "type": "bad" }  ]
+	}
+,
+	{
+		"id":"eoc_mon_ncard_ev4_r3_no_02_dr_em",
+		"type":"effect_on_condition",
+		"effect":[{ "u_cast_spell": { "id": "spell_mon_ncard_ev4_r3_no_02_dr_em","hit_self": true } } , { "u_message": "고용이 해제되었습니다.", "type": "bad" }  ]
+	}
+
+
+]

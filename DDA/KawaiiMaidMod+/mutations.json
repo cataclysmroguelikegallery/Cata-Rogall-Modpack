@@ -1,0 +1,18 @@
+[
+  {
+    "type": "mutation",
+    "id": "eternal_maid",
+    "name": "eternal_maid",
+    "points": 0,
+    "description": "",
+    "starting_trait": false,
+    "vanity": false,
+    "valid": false,
+    "player_display": false,
+    "types": [ "HEALING" ],
+    "scent_intensity": 0,
+    "healing_resting": -1.0,
+    "mending_modifier": 0,
+    "flags": [ "NO_MINIMAL_HEALING" ]
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "meat_dragon_cooked",
+    "copy-from": "meat_cooked",
+    "weight": "296 g",
+    "volume": "250 ml",
+    "spoils_in": "2 day",
+    "type": "COMESTIBLE",
+    "name": { "str": "드래곤 고기(조리됨)" },
+    "calories": 402,
+    "vitamins": [ [ "calcium", 2 ], [ "iron", 12 ] ],
+    "flags": [ "EATEN_HOT", "NUTRIENT_OVERRIDE" ]
+  }
+]

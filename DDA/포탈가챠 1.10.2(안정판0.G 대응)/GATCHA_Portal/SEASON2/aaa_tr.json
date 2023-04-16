@@ -1,0 +1,120 @@
+[
+	{
+		"id":"t_ncard_s2_wall",
+		"type":"terrain",
+		"alias":[ "t_ncard_s2_wall_h", "t_ncard_s2_wall_v" ],
+		"name":"격벽",
+		"looks_like":"t_concrete",
+		"description":"none",
+		"symbol":"LINE_OXOX",
+		"color":"cyan",
+		"move_cost":0,
+		"coverage":100,
+		"roof":"t_ncard_s2_roof",
+		"bash":{"str_min": 70,"str_max": 300,"sound": "whump!","sound_fail": "whump!","ter_set": "t_ncard_s2_wall"},
+		"flags":[ "FIRE_CONTAINER","NOITEM", "SUPPORTS_ROOF", "WALL", "NO_SCENT", "AUTO_WALL_SYMBOL", "BLOCK_WIND" ]
+	}
+,
+	{
+		"id":"t_ncard_s2_glass",
+		"type":"terrain",
+		"alias":[ "t_ncard_s2_glass_h", "t_ncard_s2_glass_v" ],
+		"name":"미지의 유리",
+		"looks_like":"t_reinforced_glass",
+		"description":"none",
+		"symbol":"LINE_OXOX",
+		"color":"white",
+		"move_cost":0,
+		"coverage":100,
+		"roof":"t_ncard_s2_roof",
+		"bash":{"str_min": 70,"str_max": 300,"sound": "whump!","sound_fail": "whump!","bash_below": true,"ter_set": "t_ncard_s2_glass"},
+		"flags":[ "FIRE_CONTAINER","NOITEM", "SUPPORTS_ROOF", "WALL", "NO_SCENT", "AUTO_WALL_SYMBOL", "BLOCK_WIND" ]
+	}
+,
+	{
+		"id":"t_ncard_s2_roof",
+		"type":"terrain",
+		"name":"격벽(천장)",
+		"looks_like":"t_concrete",
+		"description":"none",
+		"symbol":".",
+		"color":"cyan",
+		"move_cost":2,
+		"coverage":100,
+		"roof":"t_ncard_s2_roof",
+		"bash":{"str_min": 70,"str_max": 300,"sound": "whump!","sound_fail": "whump!","bash_below": true,"ter_set": "t_ncard_s2_roof"},
+		"flags":[ "FIRE_CONTAINER","TRANSPARENT", "FLAT" ]
+	}
+,
+	{
+		"id":"t_ncard_s2_floor",
+		"type":"terrain",
+		"name":"미지의 바닥",
+		"description":"none",
+		"connects_to":"CONCRETE",
+		"symbol":"_",
+		"color":"light_cyan",
+		"move_cost":2,
+		"roof":"t_ncard_s2_roof",
+		"bash":{"str_min": 70,"str_max": 300,"sound": "whump!","sound_fail": "whump!","bash_below": true,"ter_set": "t_ncard_s2_floor"},
+		"flags":[ "PLACE_ITEM","FIRE_CONTAINER","TRANSPARENT", "SUPPORTS_ROOF",  "INDOORS", "FLAT", "ROAD" ]
+	}
+,
+	{
+		"id":"t_ncard_s2_floor2",
+		"type":"terrain",
+		"name":"미지의 바닥",
+		"description":"none",
+		"connects_to":"CONCRETE",
+		"symbol":"_",
+		"color":"light_cyan",
+		"move_cost":2,
+		"roof":"t_ncard_s2_roof",
+		"bash":{"str_min": 70,"str_max": 300,"sound": "whump!","sound_fail": "whump!","bash_below": true,"ter_set": "t_ncard_s2_floor2"},
+		"flags":[ "PLACE_ITEM","FIRE_CONTAINER","TRANSPARENT", "SUPPORTS_ROOF",  "INDOORS", "FLAT", "ROAD" ]
+	}
+,
+	{
+		"id":"t_ncard_s2_switch",
+		"type":"terrain",
+		"name":"격벽기동 장치",
+		"description":"注意を引くように明滅を繰り返していますが、相当の覚悟がなければ触らないほうがよさそうです。",
+		"connects_to":"CONCRETE",
+		"symbol":"s",
+		"color":"red",
+		"move_cost":2,
+		"roof":"t_ncard_s2_roof",
+		"bash":{"str_min": 70,"str_max": 300,"sound": "whump!","sound_fail": "whump!","bash_below": true,"ter_set": "t_ncard_s2_switch"},
+		"flags":[ "FIRE_CONTAINER","TRANSPARENT", "SUPPORTS_ROOF",  "INDOORS", "FLAT", "ROAD" ]
+	}
+,
+	{
+		"id":"t_ncard_s2_switch2",
+		"type":"terrain",
+		"name":"격벽기동 장치(기동후)",
+		"description":"中の危険な存在が放たれました。",
+		"connects_to":"CONCRETE",
+		"symbol":"s",
+		"color":"white",
+		"move_cost":2,
+		"roof":"t_ncard_s2_roof",
+		"bash":{"str_min": 70,"str_max": 300,"sound": "whump!","sound_fail": "whump!","bash_below": true,"ter_set": "t_ncard_s2_switch2"},
+		"flags":[ "FIRE_CONTAINER","TRANSPARENT", "SUPPORTS_ROOF",  "INDOORS", "FLAT", "ROAD" ]
+	}
+,
+	{
+		"id":"t_ncard_s2_danger",
+		"type":"terrain",
+		"name":"미지의 바닥",
+		"description":"none",
+		"connects_to":"CONCRETE",
+		"symbol":"_",
+		"color":"red",
+		"move_cost":2,
+		"roof":"t_ncard_s2_roof",
+		"bash":{"str_min": 70,"str_max": 300,"sound": "whump!","sound_fail": "whump!","bash_below": true,"ter_set": "t_ncard_s2_danger"},
+		"flags":[ "FIRE_CONTAINER","TRANSPARENT", "SUPPORTS_ROOF",  "INDOORS", "FLAT", "ROAD" ]
+	}
+
+
+]

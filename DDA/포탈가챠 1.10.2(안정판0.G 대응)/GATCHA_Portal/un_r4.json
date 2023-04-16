@@ -1,0 +1,31 @@
+[
+	{
+		"result":"ncard_r4_no_01",
+		"type":"uncraft",
+		"tools":[ [ [ "ncard_misc_dimension_hammer", -1 ] ] ],
+		"components":[ [ [ "ncard_misc_powder_rainbow", 10 ] ] ]
+	}
+,
+	{
+		"result":"ncard_r4_no_02",
+		"type":"uncraft",
+		"tools":[ [ [ "ncard_misc_dimension_hammer", -1 ] ] ],
+		"components":[ [ [ "ncard_misc_powder_rainbow", 10 ] ] ]
+	}
+,
+	{
+		"result":"ncard_r4_no_03",
+		"type":"uncraft",
+		"tools":[ [ [ "ncard_misc_dimension_hammer", -1 ] ] ],
+		"components":[ [ [ "ncard_misc_powder_rainbow", 10 ] ] ]
+	}
+,
+	{
+		"result":"ncard_r4_no_04",
+		"type":"uncraft",
+		"tools":[ [ [ "ncard_misc_dimension_hammer", -1 ] ] ],
+		"components":[ [ [ "ncard_misc_powder_rainbow", 10 ] ] ]
+	}
+
+
+]

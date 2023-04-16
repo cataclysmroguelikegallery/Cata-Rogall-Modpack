@@ -1,0 +1,39 @@
+[
+		
+		
+		{
+		"type": "mod_tileset","compatibility": [
+		"Custom Tileset",
+		"MshockXottoplus",
+		"MSX++DEAD_PEOPLE",
+		"UNDEAD_PEOPLE",
+		"ChestHole32",
+		"UNDEAD_PEOPLE_BASE",
+		"UltimateCataclysm",
+		"UltimateCataclysmDemo",
+		"Chibi_Ultica",
+		"MshockXottoplus",
+		"Alternative Ultica",
+		"MshockXottoplus"
+		],
+		"tiles-new": [
+		{
+		"file": "SEASON2/tile_config_GATCHA_s2_88x88.png",
+		"tiles": [
+		{ "id": "mon_ncard_s2_r4_no_01", "fg":0, "rotates": false },
+		{ "id": "mon_en_ncard_s2_r4_no_01", "fg":1, "rotates": false },
+		{ "id": "explosion_spell_ncard_s2_clean", "fg":20, "rotates": false },
+		{ "id": "explosion_spell_ncard_s2_clean_ally", "fg":20, "rotates": false }
+		
+		],
+		"sprite_width": 88,
+		"sprite_height": 88,
+		"sprite_offset_x": -23,
+		"sprite_offset_y": -56
+		      }
+		
+		    ]
+		  }
+
+
+]

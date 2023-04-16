@@ -1,0 +1,333 @@
+[
+	{
+		"id":"ncard_ev1_r3_no_01_C",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r3",
+		"name":{"str": "금 카드(소환/No.25 순록 소녀)(회복중)","str_pl":"금 카드(소환/No.25 순록 소녀)(회복중)"},
+		"description":"<color_yellow>반짝이는 카드입니다. 포털 건너편에서 유니크한 존재를 불러옵니다.  소멸되면 카드가 재출현되어 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"yellow",
+		"flags":[ "UNBREAKABLE_MELEE","TRADER_AVOID","NO_UNLOAD" ],
+		"use_action":{"target": "ncard_ev1_r3_no_01","msg": "카드가 사용 가능하게 되었습니다.","need_charges": 70,"need_charges_msg": "카드에 힘이 쌓이지 않았습니다.","menu_text":"부활시킨다","type": "transform"},
+		"relic_data":{ "charge_info": { "recharge_type": "periodic", "time": "4 h 48 m", "regenerate_ammo": true } },
+		"pocket_data":[ { "pocket_type": "MAGAZINE", "ammo_restriction": { "ncard_misc_powder_a": 70 } } ],
+		"price":1
+	}
+,
+	{
+		"id":"ncard_ev1_r3_no_02_C",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r3",
+		"name":{"str": "금 카드(소환/No.26 순록 소녀)(회복중)","str_pl":"금 카드(소환/No.26 순록 소녀)(회복중)"},
+		"description":"<color_yellow>반짝이는 카드입니다. 포털 건너편에서 유니크한 존재를 불러옵니다.  소멸되면 카드가 재출현되어 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"yellow",
+		"flags":[ "UNBREAKABLE_MELEE","TRADER_AVOID","NO_UNLOAD" ],
+		"use_action":{"target": "ncard_ev1_r3_no_02","msg": "카드가 사용 가능하게 되었습니다.","need_charges": 70,"need_charges_msg": "카드에 힘이 쌓이지 않았습니다.","menu_text":"부활시킨다","type": "transform"},
+		"relic_data":{ "charge_info": { "recharge_type": "periodic", "time": "4 h 48 m", "regenerate_ammo": true } },
+		"pocket_data":[ { "pocket_type": "MAGAZINE", "ammo_restriction": { "ncard_misc_powder_a": 70 } } ],
+		"price":1
+	}
+,
+	{
+		"id":"ncard_ev1_r3_no_03_C",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r3",
+		"name":{"str": "금 카드(소환/No.27 순록 소녀)(회복중)","str_pl":"금 카드(소환/No.27 순록 소녀)(회복중)"},
+		"description":"<color_yellow>반짝이는 카드입니다. 포털 건너편에서 유니크한 존재를 불러옵니다.  소멸되면 카드가 재출현되어 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"yellow",
+		"flags":[ "UNBREAKABLE_MELEE","TRADER_AVOID","NO_UNLOAD" ],
+		"use_action":{"target": "ncard_ev1_r3_no_03","msg": "카드가 사용 가능하게 되었습니다.","need_charges": 70,"need_charges_msg": "카드에 힘이 쌓이지 않았습니다.","menu_text":"부활시킨다","type": "transform"},
+		"relic_data":{ "charge_info": { "recharge_type": "periodic", "time": "4 h 48 m", "regenerate_ammo": true } },
+		"pocket_data":[ { "pocket_type": "MAGAZINE", "ammo_restriction": { "ncard_misc_powder_a": 70 } } ],
+		"price":1
+	}
+,
+	{
+		"id":"ncard_ev1_r3_no_04_C",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r3",
+		"name":{"str": "금 카드(소환/No.28 순록 소녀)(회복중)","str_pl":"금 카드(소환/No.28 순록 소녀)(회복중)"},
+		"description":"<color_yellow>반짝이는 카드입니다. 포털 건너편에서 유니크한 존재를 불러옵니다.  소멸되면 카드가 재출현되어 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"yellow",
+		"flags":[ "UNBREAKABLE_MELEE","TRADER_AVOID","NO_UNLOAD" ],
+		"use_action":{"target": "ncard_ev1_r3_no_04","msg": "카드가 사용 가능하게 되었습니다.","need_charges": 70,"need_charges_msg": "카드에 힘이 쌓이지 않았습니다.","menu_text":"부활시킨다","type": "transform"},
+		"relic_data":{ "charge_info": { "recharge_type": "periodic", "time": "4 h 48 m", "regenerate_ammo": true } },
+		"pocket_data":[ { "pocket_type": "MAGAZINE", "ammo_restriction": { "ncard_misc_powder_a": 70 } } ],
+		"price":1
+	}
+,
+	{
+		"id":"ncard_ev2_r3_no_01_C",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r3",
+		"name":{"str": "금 카드(소환/No.31 소녀)(회복중)","str_pl":"금 카드(소환/No.31 소녀)(회복중)"},
+		"description":"<color_yellow>반짝이는 카드입니다. 포털 건너편에서 유니크한 존재를 불러옵니다.  소멸되면 카드가 재출현되어 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"yellow",
+		"flags":[ "UNBREAKABLE_MELEE","TRADER_AVOID","NO_UNLOAD" ],
+		"use_action":{"target": "ncard_ev2_r3_no_01","msg": "카드가 사용 가능하게 되었습니다.","need_charges": 70,"need_charges_msg": "카드에 힘이 쌓이지 않았습니다.","menu_text":"부활시킨다","type": "transform"},
+		"relic_data":{ "charge_info": { "recharge_type": "periodic", "time": "4 h 48 m", "regenerate_ammo": true } },
+		"pocket_data":[ { "pocket_type": "MAGAZINE", "ammo_restriction": { "ncard_misc_powder_a": 70 } } ],
+		"price":1
+	}
+,
+	{
+		"id":"ncard_ev2_r3_no_02_C",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r3",
+		"name":{"str": "금 카드(소환/No.32 소녀)(회복중)","str_pl":"금 카드(소환/No.32 소녀)(회복중)"},
+		"description":"<color_yellow>반짝이는 카드입니다. 포털 건너편에서 유니크한 존재를 불러옵니다.  소멸되면 카드가 재출현되어 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"yellow",
+		"flags":[ "UNBREAKABLE_MELEE","TRADER_AVOID","NO_UNLOAD" ],
+		"use_action":{"target": "ncard_ev2_r3_no_02","msg": "카드가 사용 가능하게 되었습니다.","need_charges": 70,"need_charges_msg": "카드에 힘이 쌓이지 않았습니다.","menu_text":"부활시킨다","type": "transform"},
+		"relic_data":{ "charge_info": { "recharge_type": "periodic", "time": "4 h 48 m", "regenerate_ammo": true } },
+		"pocket_data":[ { "pocket_type": "MAGAZINE", "ammo_restriction": { "ncard_misc_powder_a": 70 } } ],
+		"price":1
+	}
+,
+	{
+		"id":"ncard_ev2_r3_no_03_C",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r3",
+		"name":{"str": "금 카드(소환/No.33 소여자)(회복중)","str_pl":"금 카드(소환/No.33 소여자)(회복중)"},
+		"description":"<color_yellow>반짝이는 카드입니다. 포털 건너편에서 유니크한 존재를 불러옵니다.  소멸되면 카드가 재출현되어 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"yellow",
+		"flags":[ "UNBREAKABLE_MELEE","TRADER_AVOID","NO_UNLOAD" ],
+		"use_action":{"target": "ncard_ev2_r3_no_03","msg": "카드가 사용 가능하게 되었습니다.","need_charges": 70,"need_charges_msg": "카드에 힘이 쌓이지 않았습니다.","menu_text":"부활시킨다","type": "transform"},
+		"relic_data":{ "charge_info": { "recharge_type": "periodic", "time": "4 h 48 m", "regenerate_ammo": true } },
+		"pocket_data":[ { "pocket_type": "MAGAZINE", "ammo_restriction": { "ncard_misc_powder_a": 70 } } ],
+		"price":1
+	}
+,
+	{
+		"id":"ncard_ev2_r3_no_04_C",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r3",
+		"name":{"str": "금 카드(소환/No.34 소여자)(회복중)","str_pl":"금 카드(소환/No.34 소여자)(회복중)"},
+		"description":"<color_yellow>반짝이는 카드입니다. 포털 건너편에서 유니크한 존재를 불러옵니다.  소멸되면 카드가 재출현되어 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"yellow",
+		"flags":[ "UNBREAKABLE_MELEE","TRADER_AVOID","NO_UNLOAD" ],
+		"use_action":{"target": "ncard_ev2_r3_no_04","msg": "카드가 사용 가능하게 되었습니다.","need_charges": 70,"need_charges_msg": "카드에 힘이 쌓이지 않았습니다.","menu_text":"부활시킨다","type": "transform"},
+		"relic_data":{ "charge_info": { "recharge_type": "periodic", "time": "4 h 48 m", "regenerate_ammo": true } },
+		"pocket_data":[ { "pocket_type": "MAGAZINE", "ammo_restriction": { "ncard_misc_powder_a": 70 } } ],
+		"price":1
+	}
+,
+	{
+		"id":"ncard_ev3_r3_no_01_C",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r3",
+		"name":{"str": "금 카드(소환/No.37 여우귀 용병)(회복중)","str_pl":"금 카드(소환/No.37 여우귀 용병)(회복중)"},
+		"description":"<color_yellow>반짝이는 카드입니다. 포털 건너편에서 유니크한 존재를 불러옵니다.  소멸되면 카드가 재출현되어 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"yellow",
+		"flags":[ "UNBREAKABLE_MELEE","TRADER_AVOID","NO_UNLOAD" ],
+		"use_action":{"target": "ncard_ev3_r3_no_01","msg": "카드가 사용 가능하게 되었습니다.","need_charges": 70,"need_charges_msg": "카드에 힘이 쌓이지 않았습니다.","menu_text":"부활시킨다","type": "transform"},
+		"relic_data":{ "charge_info": { "recharge_type": "periodic", "time": "4 h 48 m", "regenerate_ammo": true } },
+		"pocket_data":[ { "pocket_type": "MAGAZINE", "ammo_restriction": { "ncard_misc_powder_a": 70 } } ],
+		"price":1
+	}
+,
+	{
+		"id":"ncard_ev3_r3_no_02_C",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r3",
+		"name":{"str": "금 카드(소환/No.38 여우귀 용병)(회복중)","str_pl":"금 카드(소환/No.38 여우귀 용병)(회복중)"},
+		"description":"<color_yellow>반짝이는 카드입니다. 포털 건너편에서 유니크한 존재를 불러옵니다.  소멸되면 카드가 재출현되어 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"yellow",
+		"flags":[ "UNBREAKABLE_MELEE","TRADER_AVOID","NO_UNLOAD" ],
+		"use_action":{"target": "ncard_ev3_r3_no_02","msg": "카드가 사용 가능하게 되었습니다.","need_charges": 70,"need_charges_msg": "카드에 힘이 쌓이지 않았습니다.","menu_text":"부활시킨다","type": "transform"},
+		"relic_data":{ "charge_info": { "recharge_type": "periodic", "time": "4 h 48 m", "regenerate_ammo": true } },
+		"pocket_data":[ { "pocket_type": "MAGAZINE", "ammo_restriction": { "ncard_misc_powder_a": 70 } } ],
+		"price":1
+	}
+,
+	{
+		"id":"ncard_ev3_r3_no_03_C",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r3",
+		"name":{"str": "금 카드(소환/No.39 여우귀 검사)(회복중)","str_pl":"금 카드(소환/No.39 여우귀 검사)(회복중)"},
+		"description":"<color_yellow>반짝이는 카드입니다. 포털 건너편에서 유니크한 존재를 불러옵니다.  소멸되면 카드가 재출현되어 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"yellow",
+		"flags":[ "UNBREAKABLE_MELEE","TRADER_AVOID","NO_UNLOAD" ],
+		"use_action":{"target": "ncard_ev3_r3_no_03","msg": "카드가 사용 가능하게 되었습니다.","need_charges": 70,"need_charges_msg": "카드에 힘이 쌓이지 않았습니다.","menu_text":"부활시킨다","type": "transform"},
+		"relic_data":{ "charge_info": { "recharge_type": "periodic", "time": "4 h 48 m", "regenerate_ammo": true } },
+		"pocket_data":[ { "pocket_type": "MAGAZINE", "ammo_restriction": { "ncard_misc_powder_a": 70 } } ],
+		"price":1
+	}
+,
+	{
+		"id":"ncard_ev3_r3_no_04_C",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r3",
+		"name":{"str": "금 카드(소환/No.40 여우귀 검사)(회복중)","str_pl":"금 카드(소환/No.40 여우귀 검사)(회복중)"},
+		"description":"<color_yellow>반짝이는 카드입니다. 포털 건너편에서 유니크한 존재를 불러옵니다.  소멸되면 카드가 재출현되어 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"yellow",
+		"flags":[ "UNBREAKABLE_MELEE","TRADER_AVOID","NO_UNLOAD" ],
+		"use_action":{"target": "ncard_ev3_r3_no_04","msg": "카드가 사용 가능하게 되었습니다.","need_charges": 70,"need_charges_msg": "카드에 힘이 쌓이지 않았습니다.","menu_text":"부활시킨다","type": "transform"},
+		"relic_data":{ "charge_info": { "recharge_type": "periodic", "time": "4 h 48 m", "regenerate_ammo": true } },
+		"pocket_data":[ { "pocket_type": "MAGAZINE", "ammo_restriction": { "ncard_misc_powder_a": 70 } } ],
+		"price":1
+	}
+,
+	{
+		"id":"ncard_ev4_r3_no_01_C",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r3",
+		"name":{"str": "금 카드(소환/No.43 검사)(회복중)","str_pl":"금 카드(소환/No.43 검사)(회복중)"},
+		"description":"<color_yellow>반짝이는 카드입니다. 포털 건너편에서 유니크한 존재를 불러옵니다.  소멸되면 카드가 재출현되어 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"yellow",
+		"flags":[ "UNBREAKABLE_MELEE","TRADER_AVOID","NO_UNLOAD" ],
+		"use_action":{"target": "ncard_ev4_r3_no_01","msg": "카드가 사용 가능하게 되었습니다.","need_charges": 70,"need_charges_msg": "카드에 힘이 쌓이지 않았습니다.","menu_text":"부활시킨다","type": "transform"},
+		"relic_data":{ "charge_info": { "recharge_type": "periodic", "time": "4 h 48 m", "regenerate_ammo": true } },
+		"pocket_data":[ { "pocket_type": "MAGAZINE", "ammo_restriction": { "ncard_misc_powder_a": 70 } } ],
+		"price":1
+	}
+,
+	{
+		"id":"ncard_ev4_r3_no_02_C",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r3",
+		"name":{"str": "금 카드(소환/No.44 검사)(회복중)","str_pl":"금 카드(소환/No.44 검사)(회복중)"},
+		"description":"<color_yellow>반짝이는 카드입니다. 포털 건너편에서 유니크한 존재를 불러옵니다.  소멸되면 카드가 재출현되어 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"yellow",
+		"flags":[ "UNBREAKABLE_MELEE","TRADER_AVOID","NO_UNLOAD" ],
+		"use_action":{"target": "ncard_ev4_r3_no_02","msg": "카드가 사용 가능하게 되었습니다.","need_charges": 70,"need_charges_msg": "카드에 힘이 쌓이지 않았습니다.","menu_text":"부활시킨다","type": "transform"},
+		"relic_data":{ "charge_info": { "recharge_type": "periodic", "time": "4 h 48 m", "regenerate_ammo": true } },
+		"pocket_data":[ { "pocket_type": "MAGAZINE", "ammo_restriction": { "ncard_misc_powder_a": 70 } } ],
+		"price":1
+	}
+,
+	{
+		"id":"ncard_ev4_r3_no_03_C",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r3",
+		"name":{"str": "금 카드(소환/No.45 탐험가)(회복중)","str_pl":"금 카드(소환/No.45 탐험가)(회복중)"},
+		"description":"<color_yellow>반짝이는 카드입니다. 포털 건너편에서 유니크한 존재를 불러옵니다.  소멸되면 카드가 재출현되어 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"yellow",
+		"flags":[ "UNBREAKABLE_MELEE","TRADER_AVOID","NO_UNLOAD" ],
+		"use_action":{"target": "ncard_ev4_r3_no_03","msg": "카드가 사용 가능하게 되었습니다.","need_charges": 70,"need_charges_msg": "카드에 힘이 쌓이지 않았습니다.","menu_text":"부활시킨다","type": "transform"},
+		"relic_data":{ "charge_info": { "recharge_type": "periodic", "time": "4 h 48 m", "regenerate_ammo": true } },
+		"pocket_data":[ { "pocket_type": "MAGAZINE", "ammo_restriction": { "ncard_misc_powder_a": 70 } } ],
+		"price":1
+	}
+,
+	{
+		"id":"ncard_ev4_r3_no_04_C",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r3",
+		"name":{"str": "금 카드(소환/No.46 탐험가)(회복중)","str_pl":"금 카드(소환/No.46 탐험가)(회복중)"},
+		"description":"<color_yellow>반짝이는 카드입니다. 포털 건너편에서 유니크한 존재를 불러옵니다.  소멸되면 카드가 재출현되어 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"yellow",
+		"flags":[ "UNBREAKABLE_MELEE","TRADER_AVOID","NO_UNLOAD" ],
+		"use_action":{"target": "ncard_ev4_r3_no_04","msg": "카드가 사용 가능하게 되었습니다.","need_charges": 70,"need_charges_msg": "카드에 힘이 쌓이지 않았습니다.","menu_text":"부활시킨다","type": "transform"},
+		"relic_data":{ "charge_info": { "recharge_type": "periodic", "time": "4 h 48 m", "regenerate_ammo": true } },
+		"pocket_data":[ { "pocket_type": "MAGAZINE", "ammo_restriction": { "ncard_misc_powder_a": 70 } } ],
+		"price":1
+	}
+,
+	{
+		"id":"ncard_ev4_r3_no_05_C",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r3",
+		"name":{"str": "금 카드(소환/No.47 여행자)(회복중)","str_pl":"금 카드(소환/No.47 여행자)(회복중)"},
+		"description":"<color_yellow>반짝이는 카드입니다. 포털 건너편에서 유니크한 존재를 불러옵니다.  소멸되면 카드가 재출현되어 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"yellow",
+		"flags":[ "UNBREAKABLE_MELEE","TRADER_AVOID","NO_UNLOAD" ],
+		"use_action":{"target": "ncard_ev4_r3_no_05","msg": "카드가 사용 가능하게 되었습니다.","need_charges": 70,"need_charges_msg": "카드에 힘이 쌓이지 않았습니다.","menu_text":"부활시킨다","type": "transform"},
+		"relic_data":{ "charge_info": { "recharge_type": "periodic", "time": "4 h 48 m", "regenerate_ammo": true } },
+		"pocket_data":[ { "pocket_type": "MAGAZINE", "ammo_restriction": { "ncard_misc_powder_a": 70 } } ],
+		"price":1
+	}
+,
+	{
+		"id":"ncard_ev4_r3_no_06_C",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r3",
+		"name":{"str": "금 카드(소환/No.48 여행자)(회복중)","str_pl":"금 카드(소환/No.48 여행자)(회복중)"},
+		"description":"<color_yellow>반짝이는 카드입니다. 포털 건너편에서 유니크한 존재를 불러옵니다.  소멸되면 카드가 재출현되어 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"yellow",
+		"flags":[ "UNBREAKABLE_MELEE","TRADER_AVOID","NO_UNLOAD" ],
+		"use_action":{"target": "ncard_ev4_r3_no_06","msg": "카드가 사용 가능하게 되었습니다.","need_charges": 70,"need_charges_msg": "카드에 힘이 쌓이지 않았습니다.","menu_text":"부활시킨다","type": "transform"},
+		"relic_data":{ "charge_info": { "recharge_type": "periodic", "time": "4 h 48 m", "regenerate_ammo": true } },
+		"pocket_data":[ { "pocket_type": "MAGAZINE", "ammo_restriction": { "ncard_misc_powder_a": 70 } } ],
+		"price":1
+	}
+,
+	{
+		"id":"ncard_ev5_r3_no_01_C",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r3",
+		"name":{"str": "금 카드(소환/No.51 몽마)(회복중)","str_pl":"금 카드(소환/No.51 몽마)(회복중)"},
+		"description":"<color_yellow>반짝이는 카드입니다. 포털 건너편에서 유니크한 존재를 불러옵니다.  소멸되면 카드가 재출현되어 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"yellow",
+		"flags":[ "UNBREAKABLE_MELEE","TRADER_AVOID","NO_UNLOAD" ],
+		"use_action":{"target": "ncard_ev5_r3_no_01","msg": "카드가 사용 가능하게 되었습니다.","need_charges": 70,"need_charges_msg": "카드에 힘이 쌓이지 않았습니다.","menu_text":"부활시킨다","type": "transform"},
+		"relic_data":{ "charge_info": { "recharge_type": "periodic", "time": "4 h 48 m", "regenerate_ammo": true } },
+		"pocket_data":[ { "pocket_type": "MAGAZINE", "ammo_restriction": { "ncard_misc_powder_a": 70 } } ],
+		"price":1
+	}
+,
+	{
+		"id":"ncard_ev5_r3_no_02_C",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r3",
+		"name":{"str": "금 카드(소환/No.52 몽마)(회복중)","str_pl":"금 카드(소환/No.52 몽마)(회복중)"},
+		"description":"<color_yellow>반짝이는 카드입니다. 포털 건너편에서 유니크한 존재를 불러옵니다.  소멸되면 카드가 재출현되어 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"yellow",
+		"flags":[ "UNBREAKABLE_MELEE","TRADER_AVOID","NO_UNLOAD" ],
+		"use_action":{"target": "ncard_ev5_r3_no_02","msg": "카드가 사용 가능하게 되었습니다.","need_charges": 70,"need_charges_msg": "카드에 힘이 쌓이지 않았습니다.","menu_text":"부활시킨다","type": "transform"},
+		"relic_data":{ "charge_info": { "recharge_type": "periodic", "time": "4 h 48 m", "regenerate_ammo": true } },
+		"pocket_data":[ { "pocket_type": "MAGAZINE", "ammo_restriction": { "ncard_misc_powder_a": 70 } } ],
+		"price":1
+	}
+,
+	{
+		"id":"ncard_ev5_r3_no_03_C",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r3",
+		"name":{"str": "금 카드(소환/No.53 몽마)(회복중)","str_pl":"금 카드(소환/No.53 몽마)(회복중)"},
+		"description":"<color_yellow>반짝이는 카드입니다. 포털 건너편에서 유니크한 존재를 불러옵니다.  소멸되면 카드가 재출현되어 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"yellow",
+		"flags":[ "UNBREAKABLE_MELEE","TRADER_AVOID","NO_UNLOAD" ],
+		"use_action":{"target": "ncard_ev5_r3_no_03","msg": "카드가 사용 가능하게 되었습니다.","need_charges": 70,"need_charges_msg": "카드에 힘이 쌓이지 않았습니다.","menu_text":"부활시킨다","type": "transform"},
+		"relic_data":{ "charge_info": { "recharge_type": "periodic", "time": "4 h 48 m", "regenerate_ammo": true } },
+		"pocket_data":[ { "pocket_type": "MAGAZINE", "ammo_restriction": { "ncard_misc_powder_a": 70 } } ],
+		"price":1
+	}
+,
+	{
+		"id":"ncard_ev5_r3_no_04_C",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r3",
+		"name":{"str": "금 카드(소환/No.54 몽마)(회복중)","str_pl":"금 카드(소환/No.54 몽마)(회복중)"},
+		"description":"<color_yellow>반짝이는 카드입니다. 포털 건너편에서 유니크한 존재를 불러옵니다.  소멸되면 카드가 재출현되어 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"yellow",
+		"flags":[ "UNBREAKABLE_MELEE","TRADER_AVOID","NO_UNLOAD" ],
+		"use_action":{"target": "ncard_ev5_r3_no_04","msg": "카드가 사용 가능하게 되었습니다.","need_charges": 70,"need_charges_msg": "카드에 힘이 쌓이지 않았습니다.","menu_text":"부활시킨다","type": "transform"},
+		"relic_data":{ "charge_info": { "recharge_type": "periodic", "time": "4 h 48 m", "regenerate_ammo": true } },
+		"pocket_data":[ { "pocket_type": "MAGAZINE", "ammo_restriction": { "ncard_misc_powder_a": 70 } } ],
+		"price":1
+	}
+
+
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "//1": "インパクトスリングの前提の材料(アイテム)を削除する(難易度低下)",
+    "id": "magus_summon_impact_sling",
+    "type": "SPELL",
+    "name": { "str": "Impact Sling" },
+    "copy-from": "magus_summon_impact_sling",
+    "components": ""
+  },
+  {
+    "//1": "インパクトスリング+の前提の材料(アイテム)を削除する(難易度低下)",
+    "id": "magus_summon_impact_sling_plus",
+    "type": "SPELL",
+    "name": { "str": "Enhanced Impact Sling" },
+    "copy-from": "magus_summon_impact_sling_plus",
+    "components": ""
+  }
+]

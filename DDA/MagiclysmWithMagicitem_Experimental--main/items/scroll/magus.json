@@ -1,0 +1,78 @@
+[
+  {
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_magic_missile_talisman_1",
+    "name": "매직 미사일의 두루마리(초급)[MWMI]",
+    "description": "매직 미사일의 마법이 갇힌 두루마리입니다. 사용하는 것으로 매직 미사일을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "magic_missile", "no_fail": true, "level": 5 },
+    "copy-from": "PSY_magi_base"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_magic_missile_talisman_2",
+    "name": "매직 미사일의 두루마리(중급)[MWMI]",
+    "description": "매직 미사일의 마법이 갇힌 두루마리입니다. 사용하는 것으로 매직 미사일을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "magic_missile", "no_fail": true, "level": 7 },
+    "copy-from": "PSY_magi_base",
+    "price": "60 USD",
+    "price_postapoc": "60 USD"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_magic_missile_talisman_3",
+    "name": "매직 미사일의 두루마리(상급)[MWMI]",
+    "description": "매직 미사일의 마법이 갇힌 두루마리입니다. 사용하는 것으로 매직 미사일을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "magic_missile", "no_fail": true, "level": 10 },
+    "copy-from": "PSY_magi_base"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_phase_door_talisman_1",
+    "name": "위상 관문의 두루마리(초급)[MWMI]",
+    "description": "위상 관문의 마법이 갇힌 두루마리입니다. 사용하는 것으로 위상 관문을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "phase_door", "no_fail": true, "level": 4 },
+    "copy-from": "PSY_magi_base",
+    "price": "60 USD",
+    "price_postapoc": "60 USD"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_phase_door_talisman_2",
+    "name": "위상 관문의 두루마리(중급)[MWMI]",
+    "description": "위상 관문의 마법이 갇힌 두루마리입니다. 사용하는 것으로 위상 관문을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "phase_door", "no_fail": true, "level": 6 },
+    "copy-from": "PSY_magi_base",
+    "price": "60 USD",
+    "price_postapoc": "60 USD"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_phase_door_talisman_3",
+    "name": "위상 관문의 두루마리(상급)[MWMI]",
+    "description": "위상 관문의 마법이 갇힌 두루마리입니다. 사용하는 것으로 위상 관문을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "phase_door", "no_fail": true, "level": 8 },
+    "copy-from": "PSY_magi_base",
+    "price": "80 USD",
+    "price_postapoc": "80 USD"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_shadow_field_talisman_1",
+    "name": "그림자 영역의 두루마리(초급)[MWMI]",
+    "description": "그림자 영역의 마법이 갇힌 두루마리입니다. 사용하는 것으로 그림자 영역을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "shadow_field", "no_fail": true, "level": 5 },
+    "copy-from": "PSY_magi_base"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_shadow_field_talisman_2",
+    "name": "그림자 영역의 두루마리(중급)[MWMI]",
+    "description": "그림자 영역의 마법이 갇힌 두루마리입니다. 사용하는 것으로 그림자 영역을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "shadow_field", "no_fail": true, "level": 7 },
+    "copy-from": "PSY_magi_base",
+    "price": "60 USD",
+    "price_postapoc": "60 USD"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_shadow_field_talisman_3",
+    "name": "그림자 영역의 두루마리(상급)[MWMI]",
+    "description": "그림자 영역의 마법이 갇힌 두루마리입니다. 사용하는 것으로 그림자 영역을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "shadow_field", "no_fail": true, "level": 10 },
+    "copy-from": "PSY_magi_base",
+    "price": "80 USD",
+    "price_postapoc": "80 USD"
+  }
+]

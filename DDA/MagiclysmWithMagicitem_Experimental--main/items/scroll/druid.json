@@ -1,0 +1,95 @@
+[
+  {
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_druid_rootstrike_talisman_1",
+    "name": "뿌리 타격의 두루마리(초급)[MWMI]",
+    "description": "뿌리 타격의 마법이 갇힌 스크롤입니다. 사용하는 것으로 뿌리 타격을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "druid_rootstrike", "no_fail": true, "level": 5 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base"
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_druid_rootstrike_talisman_2",
+    "name": "뿌리 타격의 두루마리(중급)[MWMI]",
+    "description": "뿌리 타격의 마법이 갇힌 스크롤입니다. 사용하는 것으로 뿌리 타격을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "druid_rootstrike", "no_fail": true, "level": 7 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base",
+    "price": "60 USD",
+    "price_postapoc": "60 USD"
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_druid_rootstrike_talisman_3",
+    "name": "뿌리 타격의 두루마리(상급)[MWMI]",
+    "description": "뿌리 타격의 마법이 갇힌 스크롤입니다. 사용하는 것으로 뿌리 타격을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "druid_rootstrike", "no_fail": true, "level": 10 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base",
+    "price": "80 USD",
+    "price_postapoc": "80 USD"
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_recover_fatigue_talisman_1",
+    "name": "자연의 황홀경의 두루마리(초급)[MWMI]",
+    "description": "자연의 황홀경의 마법이 갇힌 스크롤입니다. 사용하는 것으로 자연의 황홀경을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "recover_fatigue", "no_fail": true, "level": 5 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base"
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_recover_fatigue_talisman_2",
+    "name": "자연의 황홀경의 두루마리(중급)[MWMI]",
+    "description": "자연의 황홀경의 마법이 갇힌 스크롤입니다. 사용하는 것으로 자연의 황홀경을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "recover_fatigue", "no_fail": true, "level": 7 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base",
+    "price": "60 USD",
+    "price_postapoc": "60 USD"
+   },
+   {
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_recover_fatigue_talisman_3",
+    "name": "자연의 황홀경의 두루마리(상급)[MWMI]",
+    "description": "자연의 황홀경의 마법이 갇힌 스크롤입니다. 사용하는 것으로 자연의 황홀경을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "recover_fatigue", "no_fail": true, "level": 10 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base",
+    "price": "80 USD",
+    "price_postapoc": "80 USD"
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_fungicide_talisman_1",
+    "name": "진균 죽이기의 두루마리(초급)[MWMI]",
+    "description": "진균 죽이기의 마법이 갇힌 스크롤입니다. 사용하는 것으로 진균 죽이기을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "fungicide", "no_fail": true, "level": 5 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base"
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_fungicide_talisman_2",
+    "name": "진균 죽이기의 두루마리(중급)[MWMI]",
+    "description": "진균 죽이기의 마법이 갇힌 스크롤입니다. 사용하는 것으로 진균 죽이기을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "fungicide", "no_fail": true, "level": 7 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base",
+    "price": "60 USD",
+    "price_postapoc": "60 USD"
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_fungicide_talisman_3",
+    "name": "진균 죽이기의 두루마리(상급)[MWMI]",
+    "description": "진균 죽이기의 마법이 갇힌 스크롤입니다. 사용하는 것으로 진균 죽이기을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "fungicide", "no_fail": true, "level": 10 },
+    "material": [ "wood" ],
+    "copy-from": "PSY_magi_base",
+    "price": "80 USD",
+    "price_postapoc": "80 USD"
+  }
+]

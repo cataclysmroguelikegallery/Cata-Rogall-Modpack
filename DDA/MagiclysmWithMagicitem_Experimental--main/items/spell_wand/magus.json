@@ -1,0 +1,92 @@
+[
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_phase_door_1",
+    "name": { "str": "하급 지팡이(위상 관문)[MWMI]", "str_pl": "하급 지팡이(위상 관문)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "마나 크리스탈을 끼우는 소켓이 달린 길쭉한 나무 지팡이입니다. 위상 관문을 영창하는 기능을 가지고 있습니다.",
+    "price": "200 USD",
+    "price_postapoc": "200 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "phase_door", "no_fail": true, "level": 4, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_phase_door_2",
+    "name": { "str": "중급 지팡이(위상 관문)[MWMI]", "str_pl": "중급 지팡이(위상 관문)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "마나 크리스탈을 끼우는 소켓이 달린 길쭉한 나무 지팡이입니다. 위상 관문을 영창하는 기능을 가지고 있습니다.",
+    "price": "400 USD",
+    "price_postapoc": "400 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "phase_door", "no_fail": true, "level": 6, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_phase_door_3",
+    "name": { "str": "상급 지팡이(위상 관문)[MWMI]", "str_pl": "상급 지팡이(위상 관문)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "마나 크리스탈을 끼우는 소켓이 달린 길쭉한 나무 지팡이입니다. 위상 관문을 영창하는 기능을 가지고 있습니다.",
+    "price": "600 USD",
+    "price_postapoc": "600 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "phase_door", "no_fail": true, "level": 8, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_gravity_well_1",
+    "name": { "str": "하급 지팡이(중력의 샘)[MWMI]", "str_pl": "하급 지팡이(중력의 샘)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "마나 크리스탈을 끼우는 소켓이 달린 길쭉한 나무 지팡이입니다. 중력의 샘을 영창하는 기능을 가지고 있습니다.",
+    "price": "200 USD",
+    "price_postapoc": "200 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "gravity_well", "no_fail": true, "level": 4, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_gravity_well_2",
+    "name": { "str": "중급 지팡이(중력의 샘)[MWMI]", "str_pl": "중급 지팡이(중력의 샘)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "마나 크리스탈을 끼우는 소켓이 달린 길쭉한 나무 지팡이입니다. 중력의 샘을 영창하는 기능을 가지고 있습니다.",
+    "price": "400 USD",
+    "price_postapoc": "400 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "gravity_well", "no_fail": true, "level": 8, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_gravity_well_3",
+    "name": { "str": "상급 지팡이(중력의 샘)[MWMI]", "str_pl": "상급 지팡이(중력의 샘)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "마나 크리스탈을 끼우는 소켓이 달린 길쭉한 나무 지팡이입니다. 중력의 샘을 영창하는 기능을 가지고 있습니다.",
+    "price": "600 USD",
+    "price_postapoc": "600 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "gravity_well", "no_fail": true, "level": 12, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_magus_mana_bolt_1",
+    "name": { "str": "하급 지팡이(마나 볼트)[MWMI]", "str_pl": "하급 지팡이(마나 볼트)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "마나 크리스탈을 끼우는 소켓이 달린 길쭉한 나무 지팡이입니다. 마나 볼트을 영창하는 기능을 가지고 있습니다.",
+    "price": "200 USD",
+    "price_postapoc": "200 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "magus_mana_bolt", "no_fail": true, "level": 4, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_magus_mana_bolt_2",
+    "name": { "str": "중급 지팡이(마나 볼트)[MWMI]", "str_pl": "중급 지팡이(마나 볼트)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "마나 크리스탈을 끼우는 소켓이 달린 길쭉한 나무 지팡이입니다. 마나 볼트을 영창하는 기능을 가지고 있습니다.",
+    "price": "400 USD",
+    "price_postapoc": "400 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "magus_mana_bolt", "no_fail": true, "level": 8, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_magus_mana_bolt_3",
+    "name": { "str": "상급 지팡이(마나 볼트)[MWMI]", "str_pl": "상급 지팡이(마나 볼트)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "마나 크리스탈을 끼우는 소켓이 달린 길쭉한 나무 지팡이입니다. 마나 볼트을 영창하는 기능을 가지고 있습니다.",
+    "price": "600 USD",
+    "price_postapoc": "600 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "magus_mana_bolt", "no_fail": true, "level": 12, "need_wielding": true }
+  }
+]

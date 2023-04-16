@@ -1,0 +1,174 @@
+[
+	{
+		"id":"kz_ncard_r3_base",
+		"type":"TOOL_ARMOR",
+		"looks_like":"gold_ring",
+		"copy-from":"ncard_misc_yukari",
+		"name":{"str": "<color_light_green>맹세의 반지(No.r3_base)</color>","str_pl":"<color_light_green>맹세의 반지(No.r3_base)</color>"},
+		"description":"<color_light_green>애정의 힘이 담긴 반지입니다.사용함으로써 맹세를 맺은 상대의 힘을 빌릴 수 있습니다.시간 경과에 따라 다시 사용할 수 있습니다.</color>",
+		"material":[ "ncard_material_dimensionsteel" ],
+		"color":"yellow",
+		"flags":[ "SUPER_FANCY","AURA","ONLY_ONE","TRADER_AVOID","UNBREAKABLE_MELEE","NO_RELOAD","NO_UNLOAD","POWERARMOR_COMPATIBLE" ],
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_holy", "no_fail": true, "level": 0 },
+		"relic_data":{ "charge_info": { "recharge_type": "periodic", "time": "4 h 48 m", "regenerate_ammo": true } },
+		"pocket_data":[ { "pocket_type": "MAGAZINE", "ammo_restriction": { "ncard_misc_powder_a": 20 } } ],
+		"price":1,
+		"charges_per_use":20,
+		"symbol":"o"
+	}
+,
+	{
+		"id":"kz_ncard_r3_no_01",
+		"type":"TOOL_ARMOR",
+		"copy-from":"kz_ncard_r3_base",
+		"name":{"str": "<color_light_green>맹세의 반지(No.5 천사)</color>","str_pl":"<color_light_green>맹세의 반지(No.5 천사)</color>"},
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_holy", "no_fail": true, "level": 0 },
+		"symbol":"o"
+	}
+,
+	{
+		"id":"kz_ncard_r3_no_02",
+		"type":"TOOL_ARMOR",
+		"copy-from":"kz_ncard_r3_base",
+		"name":{"str": "<color_light_green>맹세의 반지(No.6 천사)</color>","str_pl":"<color_light_green>맹세의 반지(No.6 천사)</color>"},
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_holy", "no_fail": true, "level": 0 },
+		"symbol":"o"
+	}
+,
+	{
+		"id":"kz_ncard_r3_no_03",
+		"type":"TOOL_ARMOR",
+		"copy-from":"kz_ncard_r3_base",
+		"name":{"str": "<color_light_green>맹세의 반지(No.7 천사)</color>","str_pl":"<color_light_green>맹세의 반지(No.7 천사)</color>"},
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_holy", "no_fail": true, "level": 0 },
+		"symbol":"o"
+	}
+,
+	{
+		"id":"kz_ncard_r3_no_04",
+		"type":"TOOL_ARMOR",
+		"copy-from":"kz_ncard_r3_base",
+		"name":{"str": "<color_light_green>맹세의 반지(No.8 메이드씨)</color>","str_pl":"<color_light_green>맹세의 반지(No.8 메이드씨)</color>"},
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_knife", "no_fail": true, "level": 0 },
+		"symbol":"o"
+	}
+,
+	{
+		"id":"kz_ncard_r3_no_05",
+		"type":"TOOL_ARMOR",
+		"copy-from":"kz_ncard_r3_base",
+		"name":{"str": "<color_light_green>맹세의 반지(No.9 메이드씨)</color>","str_pl":"<color_light_green>맹세의 반지(No.9 메이드씨)</color>"},
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_knife", "no_fail": true, "level": 0 },
+		"symbol":"o"
+	}
+,
+	{
+		"id":"kz_ncard_r3_no_06",
+		"type":"TOOL_ARMOR",
+		"copy-from":"kz_ncard_r3_base",
+		"name":{"str": "<color_light_green>맹세의 반지(No.10 좀비소녀)</color>","str_pl":"<color_light_green>맹세의 반지(No.10 좀비소녀)</color>"},
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_revive_aoe", "no_fail": true, "level": 0 },
+		"symbol":"o"
+	}
+,
+	{
+		"id":"kz_ncard_r3_no_07",
+		"type":"TOOL_ARMOR",
+		"copy-from":"kz_ncard_r3_base",
+		"name":{"str": "<color_light_green>맹세의 반지(No.11 여우귀 무녀)</color>","str_pl":"<color_light_green>맹세의 반지(No.11 여우귀 무녀)</color>"},
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_kitunebi", "no_fail": true, "level": 0 },
+		"symbol":"o"
+	}
+,
+	{
+		"id":"kz_ncard_r3_no_08",
+		"type":"TOOL_ARMOR",
+		"copy-from":"kz_ncard_r3_base",
+		"name":{"str": "<color_light_green>맹세의 반지(No.12 불의 정령)</color>","str_pl":"<color_light_green>맹세의 반지(No.12 불의 정령)</color>"},
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_r3_fire", "no_fail": true, "level": 0 },
+		"symbol":"o"
+	}
+,
+	{
+		"id":"kz_ncard_r3_no_09",
+		"type":"TOOL_ARMOR",
+		"copy-from":"kz_ncard_r3_base",
+		"name":{"str": "<color_light_green>맹세의 반지(No.13 불의 정령)</color>","str_pl":"<color_light_green>맹세의 반지(No.13 불의 정령)</color>"},
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_r3_fire", "no_fail": true, "level": 0 },
+		"symbol":"o"
+	}
+,
+	{
+		"id":"kz_ncard_r3_no_10",
+		"type":"TOOL_ARMOR",
+		"copy-from":"kz_ncard_r3_base",
+		"name":{"str": "<color_light_green>맹세의 반지(No.14 마법소녀)</color>","str_pl":"<color_light_green>맹세의 반지(No.14 마법소녀)</color>"},
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_heartcharge", "no_fail": true, "level": 0 },
+		"symbol":"o"
+	}
+,
+	{
+		"id":"kz_ncard_r3_no_11",
+		"type":"TOOL_ARMOR",
+		"copy-from":"kz_ncard_r3_base",
+		"name":{"str": "<color_light_green>맹세의 반지(No.15 악마)</color>","str_pl":"<color_light_green>맹세의 반지(No.15 악마)</color>"},
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_charm", "no_fail": true, "level": 0 },
+		"symbol":"o"
+	}
+,
+	{
+		"id":"kz_ncard_r4_base",
+		"type":"TOOL_ARMOR",
+		"looks_like":"gold_ring",
+		"copy-from":"ncard_misc_yukari",
+		"name":{"str": "<color_light_green>맹세의 반지(No.r4_base)</color>","str_pl":"<color_light_green>맹세의 반지(No.r4_base)</color>"},
+		"description":"<color_light_green>애정의 힘이 담긴 반지입니다.사용함으로써 맹세를 맺은 상대의 힘을 빌릴 수 있습니다.시간 경과에 따라 다시 사용할 수 있습니다.</color>",
+		"material":[ "ncard_material_dimensionsteel" ],
+		"color":"light_cyan",
+		"flags":[ "SUPER_FANCY","AURA","ONLY_ONE","TRADER_AVOID","UNBREAKABLE_MELEE","NO_RELOAD","NO_UNLOAD","POWERARMOR_COMPATIBLE" ],
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_deathcross", "no_fail": true, "level": 0 },
+		"relic_data":{ "charge_info": { "recharge_type": "periodic", "time": "4 h 48 m", "regenerate_ammo": true } },
+		"pocket_data":[ { "pocket_type": "MAGAZINE", "ammo_restriction": { "ncard_misc_powder_a": 70 } } ],
+		"price":1,
+		"charges_per_use":70,
+		"symbol":"o"
+	}
+,
+	{
+		"id":"kz_ncard_r4_no_01",
+		"type":"TOOL_ARMOR",
+		"copy-from":"kz_ncard_r4_base",
+		"name":{"str": "<color_light_green>맹세의 반지(No.1 타천사)</color>","str_pl":"<color_light_green>맹세의 반지(No.1 타천사)</color>"},
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_deathcross", "no_fail": true, "level": 0 },
+		"symbol":"o"
+	}
+,
+	{
+		"id":"kz_ncard_r4_no_02",
+		"type":"TOOL_ARMOR",
+		"copy-from":"kz_ncard_r4_base",
+		"name":{"str": "<color_light_green>맹세의 반지(No.2 대천사)</color>","str_pl":"<color_light_green>맹세의 반지(No.2 대천사)</color>"},
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_holysword", "no_fail": true, "level": 0 },
+		"symbol":"o"
+	}
+,
+	{
+		"id":"kz_ncard_r4_no_03",
+		"type":"TOOL_ARMOR",
+		"copy-from":"kz_ncard_r4_base",
+		"name":{"str": "<color_light_green>맹세의 반지(No.3 토목작업기계)</color>","str_pl":"<color_light_green>맹세의 반지(No.3 토목작업기계)</color>"},
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_pilebunker", "no_fail": true, "level": 0 },
+		"symbol":"o"
+	}
+,
+	{
+		"id":"kz_ncard_r4_no_04",
+		"type":"TOOL_ARMOR",
+		"copy-from":"kz_ncard_r4_base",
+		"name":{"str": "<color_light_green>맹세의 반지(No.4 격투가 뿔소녀)</color>","str_pl":"<color_light_green>맹세의 반지(No.4 격투가 뿔소녀)</color>"},
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_risingstorm", "no_fail": true, "level": 0 },
+		"symbol":"o"
+	}
+
+
+]

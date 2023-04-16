@@ -1,0 +1,19 @@
+[
+  {
+    "type": "recipe_category",
+    "id": "CC_PSY_MWMI",
+    "recipe_subcategories": [
+      "CSC_ALL",
+      "CSC_PSY_MWMI_WEAPONS",
+      "CSC_PSY_MWMI_마법지팡이(초급)",
+      "CSC_PSY_MWMI_마법지팡이(중급)",
+      "CSC_PSY_MWMI_마법지팡이(상급)",
+      "CSC_PSY_MWMI_스크롤(초급)",
+      "CSC_PSY_MWMI_스크롤(중급)",
+      "CSC_PSY_MWMI_스크롤(상급)",
+      "CSC_PSY_MWMI_FOOD",
+      "CSC_PSY_MWMI_AMMO",
+      "CSC_PSY_MWMI_OTHER"
+    ]
+  }
+]

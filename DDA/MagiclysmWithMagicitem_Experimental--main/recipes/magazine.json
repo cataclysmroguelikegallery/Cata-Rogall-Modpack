@@ -1,0 +1,114 @@
+[
+  {
+    "type": "recipe",
+    "result": "PSY_magi_22_magic_speedloader8",
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_OTHER",
+    "skill_used": "fabrication",
+    "skills_required": [ "spellcraft", 1 ],
+    "difficulty": 1,
+    "time": "30 m",
+    "autolearn": true,
+    "using": [ [ "forging_standard", 1 ], [ "steel_standard", 1 ] ],
+    "qualities": [
+      { "id": "HAMMER", "level": 3 },
+      { "id": "CHISEL", "level": 3 }
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_38_magic_speedloader6",
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_OTHER",
+    "skill_used": "fabrication",
+    "skills_required": [ "spellcraft", 1 ],
+    "difficulty": 1,
+    "time": "30 m",
+    "autolearn": true,
+    "using": [ [ "forging_standard", 1 ], [ "steel_standard", 1 ] ],
+    "qualities": [
+      { "id": "HAMMER", "level": 3 },
+      { "id": "CHISEL", "level": 3 }
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_9mm_magic_speedloader6",
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_OTHER",
+    "skill_used": "fabrication",
+    "skills_required": [ "spellcraft", 1 ],
+    "difficulty": 1,
+    "time": "30 m",
+    "autolearn": true,
+    "using": [ [ "forging_standard", 1 ], [ "steel_standard", 1 ] ],
+    "qualities": [
+      { "id": "HAMMER", "level": 3 },
+      { "id": "CHISEL", "level": 3 }
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_40_magic_speedloader6",
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_OTHER",
+    "skill_used": "fabrication",
+    "skills_required": [ "spellcraft", 1 ],
+    "difficulty": 1,
+    "time": "30 m",
+    "autolearn": true,
+    "using": [ [ "forging_standard", 1 ], [ "steel_standard", 1 ] ],
+    "qualities": [
+      { "id": "HAMMER", "level": 3 },
+      { "id": "CHISEL", "level": 3 }
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_45_magic_speedloader6",
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_OTHER",
+    "skill_used": "fabrication",
+    "skills_required": [ "spellcraft", 1 ],
+    "difficulty": 1,
+    "time": "30 m",
+    "autolearn": true,
+    "using": [ [ "forging_standard", 1 ], [ "steel_standard", 1 ] ],
+    "qualities": [
+      { "id": "HAMMER", "level": 3 },
+      { "id": "CHISEL", "level": 3 }
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_44_magic_speedloader6",
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_OTHER",
+    "skill_used": "fabrication",
+    "skills_required": [ "spellcraft", 1 ],
+    "difficulty": 1,
+    "time": "30 m",
+    "autolearn": true,
+    "using": [ [ "forging_standard", 1 ], [ "steel_standard", 1 ] ],
+    "qualities": [
+      { "id": "HAMMER", "level": 3 },
+      { "id": "CHISEL", "level": 3 }
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "PSY_magi_454_magic_speedloader5",
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_OTHER",
+    "skill_used": "fabrication",
+    "skills_required": [ "spellcraft", 1 ],
+    "difficulty": 1,
+    "time": "30 m",
+    "autolearn": true,
+    "using": [ [ "forging_standard", 1 ], [ "steel_standard", 1 ] ],
+    "qualities": [
+      { "id": "HAMMER", "level": 3 },
+      { "id": "CHISEL", "level": 3 }
+    ]
+  }
+]

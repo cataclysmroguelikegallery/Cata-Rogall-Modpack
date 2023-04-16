@@ -1,0 +1,26 @@
+[
+	{
+		"id":"ncard_material_dimensionsteel",
+		"//":"ペットアーマー用",
+		"type":"material",
+		"name":"칠색강",
+		"density":10000,
+		"specific_heat_liquid":0.82,
+		"specific_heat_solid":0.45,
+		"latent_heat":9999,
+		"bash_resist":10,
+		"cut_resist":10,
+		"bullet_resist":10,
+		"acid_resist":10,
+		"fire_resist":10,
+		"elec_resist":10,
+		"chip_resist":100000,
+		"repaired_with":"scrap",
+		"dmg_adj":[ "marked", "dented", "smashed", "shattered" ],
+		"bash_dmg_verb":"dented",
+		"cut_dmg_verb":"scratched",
+		"burn_products":[ [ "scrap", 1 ] ]
+	}
+
+
+]

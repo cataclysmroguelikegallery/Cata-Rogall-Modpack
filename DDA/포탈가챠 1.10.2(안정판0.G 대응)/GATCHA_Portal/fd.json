@@ -1,0 +1,50 @@
+[
+	{
+		"id":"fd_ncard_buff",
+		"type":"field_type",
+		"intensity_levels":[{ "name": "축복", "color": "yellow", "sym": "9","effects": [{ "effect_id": "ef_fd_ncard_buff", "intensity": 1, "min_duration": "1 s", "immune_in_vehicle": false, "is_environmental": false }] }],
+		"description_affix":"illuminated_by",
+		"priority":4,
+		"half_life":"10 s",
+		"dirty_transparency_cache":true,
+		"phase":"plasma",
+		"display_items":false,
+		"display_field":true,
+		"immune_mtypes":[ "mon_ncard_r4_no_01" ],
+		"looks_like":"fd_laser"
+	}
+,
+	{
+		"id":"fd_ncard_deathcross2",
+		"type":"field_type",
+		"intensity_levels":[{ "name": "파괴의 여파", "color": "red", "sym": "9","effects": [{ "effect_id": "ef_fd_ncard_deathcross2", "intensity": 1, "min_duration": "3 s", "immune_in_vehicle": false, "is_environmental": false }] }],
+		"description_affix":"illuminated_by",
+		"priority":4,
+		"half_life":"7 s",
+		"dirty_transparency_cache":true,
+		"phase":"plasma",
+		"display_items":false,
+		"display_field":true,
+		"immunity_data":{ "flags": [ "mutate_ncard_bin_prism" ] },
+		"immune_mtypes":[ "mon_ncard_r4_no_01" ],
+		"looks_like":"fd_laser"
+	}
+,
+	{
+		"id":"fd_ncard_smoke",
+		"type":"field_type",
+		"intensity_levels":[{ "name": "분진","transparent": true,   "color": "white", "sym": "9","effects": [{ "effect_id": "ef_fd_ncard_smoke", "intensity": 1, "min_duration": "2 s", "immune_in_vehicle": false, "is_environmental": false }] }],
+		"description_affix":"illuminated_by",
+		"priority":4,
+		"half_life":"2 s",
+		"dirty_transparency_cache":true,
+		"phase":"plasma",
+		"display_items":false,
+		"display_field":true,
+		"immunity_data":{ "flags": [ "mutate_ncard_bin_prism" ] },
+		"immune_mtypes":[ "mon_ncard_r4_no_03" ],
+		"looks_like":"fd_smoke"
+	}
+
+
+]

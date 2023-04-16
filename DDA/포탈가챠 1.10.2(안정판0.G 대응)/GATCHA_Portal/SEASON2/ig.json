@@ -1,0 +1,65 @@
+[
+	{
+		"id":"item_group_chest_s2_r1",
+		"copy-from":"item_group_chest_s2_r1",
+		"subtype":"distribution",
+		"extend":{"entries":[{"group": "item_group_ncard_r1","charges-min": 1,"prob":20},
+{"group": "item_group_misc_card","charges-min": 3,"prob":3},
+{"group": "item_group_misc","prob":26}]},
+		"type":"item_group"
+	}
+,
+	{
+		"id":"item_group_chest_s2_r2",
+		"copy-from":"item_group_chest_s2_r2",
+		"subtype":"distribution",
+		"extend":{"entries":[{"group": "item_group_ncard_r2","charges-min": 1,"prob":6},
+{"group": "item_group_misc_2","prob":2}
+]},
+		"type":"item_group"
+	}
+,
+	{
+		"id":"item_group_chest_s2_r3",
+		"copy-from":"item_group_chest_s2_r3",
+		"subtype":"collection",
+		"extend":{"entries":[{"item": "ncard_misc_crate_flash_r4","prob":100},
+{"group": "item_group_chest_s2_misc_r3","prob":100}
+]},
+		"type":"item_group"
+	}
+,
+	{
+		"id":"item_group_chest_s2_misc_r3",
+		"copy-from":"item_group_chest_s2_misc_r3",
+		"subtype":"distribution",
+		"extend":{"entries":[{"group": "item_group_ncard_r3","prob":30},
+{"group": "item_group_ncard_s2_r3","prob":20},
+{"group": "microlab_artifacts","prob":0}
+]},
+		"type":"item_group"
+	}
+,
+	{
+		"id":"item_group_chest_s2_r4",
+		"copy-from":"item_group_chest_s2_r4",
+		"subtype":"collection",
+		"extend":{"entries":[{"item": "ncard_misc_crate_flash_r4","prob":100},
+{"group": "item_group_chest_s2_misc_r4","prob":100}
+]},
+		"type":"item_group"
+	}
+,
+	{
+		"id":"item_group_chest_s2_misc_r4",
+		"copy-from":"item_group_chest_s2_misc_r4",
+		"subtype":"distribution",
+		"extend":{"entries":[{"group": "item_group_ncard_r4","prob":40},
+{"group": "item_group_ncard_s2_r4","prob":20},
+{"group": "microlab_artifacts","prob":0}
+]},
+		"type":"item_group"
+	}
+
+
+]

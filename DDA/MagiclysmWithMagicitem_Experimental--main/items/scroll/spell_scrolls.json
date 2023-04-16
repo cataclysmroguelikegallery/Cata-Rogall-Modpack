@@ -1,0 +1,11 @@
+[
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "spell_scroll_summon_horse",
+    "//": "Classless spell",
+    "name": { "str": "주문서(말 소환)", "str_pl": "주문서(말 소환)" },
+    "description": "황량한 대지를 떠올리며 말을 소환합니다.",
+    "use_action": { "type": "learn_spell", "spells": [ "summon_horse" ] }
+  }
+]

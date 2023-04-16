@@ -1,0 +1,28 @@
+[
+  {
+    "id": "summon_golem_clay",
+    "type": "SPELL",
+    "spell_class": "GOLEMANCER",
+    "name": "Summon Clay Golem",
+    "description": "Use a golem core as a focus to shape clay into a roughly humanoid shape and animate it for some time.",
+    "valid_targets": [ "ground" ],
+    "effect": "summon",
+    "effect_str": "mon_claygolem",
+    "shape": "blast",
+    "base_casting_time": 3500,
+    "casting_time_increment": -100,
+    "final_casting_time": 2000,
+    "base_energy_cost": 500,
+    "energy_source": "MANA",
+    "difficulty": 6,
+    "max_level": 35,
+    "min_damage": 1,
+    "max_damage": 1,
+    "min_duration": 30000,
+    "max_duration": 90000,
+    "duration_increment": 1715,
+    "min_range": 3,
+    "max_range": 3,
+    "flags": [ "SOMATIC", "VERBAL", "CONCENTRATE" ]
+  }
+]

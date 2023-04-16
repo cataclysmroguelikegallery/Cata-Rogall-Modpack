@@ -1,0 +1,75 @@
+[
+		
+		
+		{
+		"type": "mod_tileset","compatibility": [
+		"Custom Tileset",
+		"MshockXottoplus",
+		"MSX++DEAD_PEOPLE",
+		"UNDEAD_PEOPLE",
+		"ChestHole32",
+		"UNDEAD_PEOPLE_BASE",
+		"UltimateCataclysm",
+		"UltimateCataclysmDemo",
+		"Chibi_Ultica",
+		"MshockXottoplus",
+		"Alternative Ultica",
+		"MshockXottoplus"
+		],
+		"tiles-new": [
+		{
+		"file": "tile_config_GATCHA_160x128.png",
+		"tiles": [
+		{ "id": "f_lootcrate_rare3", "rotates": false,"animated": true,"fg":[{"weight": 0, "sprite":0},
+		{"weight": 7, "sprite":1},
+		{"weight": 7, "sprite":2},
+		{"weight": 0, "sprite":3},
+		{"weight": 7, "sprite":4},
+		{"weight": 7, "sprite":5},
+		{"weight": 7, "sprite":6},
+		{"weight": 0, "sprite":7},
+		{"weight": 7, "sprite":8},
+		{"weight": 7, "sprite":9},
+		{"weight": 7, "sprite":10},
+		{"weight": 70, "sprite":0}
+		]
+		},
+		
+		
+		
+		
+		
+		{ "id": "f_lootcrate_rare4", "rotates": false,"animated": true,"fg":[{"weight": 7, "sprite":20},
+		{"weight": 7, "sprite":21},
+		{"weight": 7, "sprite":22},
+		{"weight": 7, "sprite":23},
+		{"weight": 7, "sprite":24},
+		{"weight": 7, "sprite":25},
+		{"weight": 7, "sprite":26},
+		{"weight": 7, "sprite":27},
+		{"weight": 7, "sprite":28},
+		{"weight": 7, "sprite":29},
+		{"weight": 7, "sprite":30},
+		{"weight": 7, "sprite":31},
+		{"weight": 7, "sprite":32},
+		{"weight": 7, "sprite":33},
+		{"weight": 7, "sprite":34},
+		{"weight": 7, "sprite":35},
+		{"weight": 7, "sprite":36},
+		{"weight": 7, "sprite":37}
+		]
+		}
+		
+		
+		],
+		"sprite_width": 160,
+		"sprite_height": 128,
+		"sprite_offset_x": -64,
+		"sprite_offset_y": -96
+		      }
+		
+		    ]
+		  }
+
+
+]

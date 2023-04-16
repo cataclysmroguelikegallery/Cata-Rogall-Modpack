@@ -1,0 +1,400 @@
+[
+	{
+		"id":"bed",
+		"copy-from":"bed",
+		"//":"바닐라에 이벤트박스 추가",
+		"subtype":"distribution",
+		"extend":{"entries":[
+{ "item": "ncard_misc_ev5_event_box", "prob": 1 },
+{ "item": "ncard_misc_ev6_event_box", "prob": 1 }
+    ]},
+		"type":"item_group"
+	}
+,
+	{
+		"id":"religious_books",
+		"copy-from":"religious_books",
+		"//":"바닐라에 레시피 추가",
+		"subtype":"distribution",
+		"extend":{"entries":[
+{"group": "item_group_ncard_ev_keystone_drop","prob":2}
+    ]},
+		"type":"item_group"
+	}
+,
+	{
+		"id":"item_group_ncard_ev_keystone_drop",
+		"copy-from":"item_group_ncard_ev_keystone_drop",
+		"//":"레시피 내역",
+		"subtype":"distribution",
+		"extend":{"entries":[
+{ "item": "ncard_misc_ev1_keystone", "prob": 1 },
+{ "item": "ncard_misc_ev2_keystone", "prob": 1 },
+{ "item": "ncard_misc_ev3_keystone", "prob": 1 },
+{ "item": "ncard_misc_ev5_event_box", "prob": 1 },
+{ "item": "ncard_misc_ev6_event_box", "prob": 1 }
+    ]},
+		"type":"item_group"
+	}
+,
+	{
+		"id":"default_zombie_death_drops",
+		"copy-from":"default_zombie_death_drops",
+		"//":"통상 좀비 드롭",
+		"subtype":"collection",
+		"extend":{"entries":[
+{"group": "item_group_ncard_ev_ticket_drop","prob":100}
+    ]},
+		"type":"item_group"
+	}
+,
+	{
+		"id":"item_group_ncard_ev_ticket_drop",
+		"copy-from":"item_group_ncard_ev_ticket_drop",
+		"//":"좀비 드롭 내역",
+		"subtype":"collection",
+		"extend":{"entries":[
+{ "item": "ncard_misc_ev5_event_box", "prob": 1 },
+{ "item": "ncard_misc_ev6_event_box", "prob": 1 }
+    ]},
+		"type":"item_group"
+	}
+,
+	{
+		"id":"mon_zombie_hulk_death_drops",
+		"copy-from":"mon_zombie_hulk_death_drops",
+		"//":"거구 좀비 드롭",
+		"subtype":"collection",
+		"extend":{"entries":[
+{ "group": "item_group_ncard_ev_ticket_drop_hulk","prob":100 }
+    ]},
+		"type":"item_group"
+	}
+,
+	{
+		"id":"item_group_ncard_ev_ticket_drop_hulk",
+		"copy-from":"item_group_ncard_ev_ticket_drop_hulk",
+		"//":"거체계 드롭 내역",
+		"subtype":"collection",
+		"extend":{"entries":[
+{ "item": "ncard_misc_ev5_event_box", "prob": 10 },
+{ "item": "ncard_misc_ev6_event_box", "prob": 10 }
+    ]},
+		"type":"item_group"
+	}
+,
+	{
+		"id":"item_group_chest_ev1_r3",
+		"copy-from":"item_group_chest_ev1_r3",
+		"subtype":"collection",
+		"extend":{"entries":[{"item": "ncard_misc_crate_flash_r4","prob":100},
+{"group": "item_group_chest_ev1_misc_r3","prob":100}]},
+		"type":"item_group"
+	}
+,
+	{
+		"id":"item_group_chest_ev1_misc_r3",
+		"copy-from":"item_group_chest_ev1_misc_r3",
+		"//":"ev1_r3内訳",
+		"subtype":"distribution",
+		"extend":{"entries":[{"group": "item_group_ncard_r3","prob":20},
+{"group": "item_group_ncard_ev1_r3","prob":20}]},
+		"type":"item_group"
+	}
+,
+	{
+		"id":"item_group_chest_ev1_r4",
+		"copy-from":"item_group_chest_ev1_r4",
+		"subtype":"collection",
+		"extend":{"entries":[{"item": "ncard_misc_crate_flash_r4","prob":100},
+{"group": "item_group_chest_ev1_misc_r4","prob":100}]},
+		"type":"item_group"
+	}
+,
+	{
+		"id":"item_group_chest_ev1_misc_r4",
+		"copy-from":"item_group_chest_ev1_misc_r4",
+		"//":"ev1_r4内訳",
+		"subtype":"distribution",
+		"extend":{"entries":[{"group": "item_group_ncard_r4","prob":20},
+{"group": "item_group_ncard_ev1_r4","prob":20}]},
+		"type":"item_group"
+	}
+,
+	{
+		"id":"item_group_chest_ev1_event_box",
+		"copy-from":"item_group_chest_ev1_event_box",
+		"//":"통상 박스 드롭",
+		"subtype":"collection",
+		"extend":{"entries":[{"item": "card_call_crate_ev1_1","prob":100, "ammo-item": "ncard_misc_ticket", "charges": 1},
+{ "item": "cash_card", "prob": 100, "charges-min": 0, "charges-max": 50000 },
+{ "group": "ammo_shotgun_common", "prob": 20, "count-min": 1, "count-max": 5 },
+{"group": "candy_chocolate","prob":100},
+{ "item": "ncard_misc_ev1_keystone", "prob": 70 },
+{"item": "ncard_cm_ev1_cocktail","prob":10},
+{"group": "alcohol_bottled_canned","prob":40},
+{"group": "microlab_artifacts","prob":1}
+]},
+		"type":"item_group"
+	}
+,
+	{
+		"id":"item_group_chest_ev1_event_box2",
+		"copy-from":"item_group_chest_ev1_event_box2",
+		"//":"호화로운 박스 드롭",
+		"subtype":"collection",
+		"extend":{"entries":[{"item": "card_call_crate_ev1_1","prob":100, "ammo-item": "ncard_misc_ticket", "charges": 1},
+{"item": "ncard_cm_ev1_cocktail","prob":100,"sealed": true},
+{"group": "alcohol_bottled_canned","prob":100},
+{"group": "candy_chocolate","prob":100},
+{ "group": "ammo_shotgun_common", "prob": 20, "count-min": 5, "count-max": 10 },
+{"group": "pasta","prob":30},
+{"group": "big_canned_food","prob":100},
+{ "item": "cash_card", "prob": 100, "charges-min": 0, "charges-max": 50000 },
+{"item": "card_call_crate_ev1_2","prob":3, "ammo-item": "ncard_misc_ticket", "charges": 10},
+{"group": "microlab_artifacts","prob":1}
+]},
+		"type":"item_group"
+	}
+,
+	{
+		"id":"item_group_chest_ev2_r3",
+		"copy-from":"item_group_chest_ev2_r3",
+		"subtype":"collection",
+		"extend":{"entries":[{"item": "ncard_misc_crate_flash_r4","prob":100},
+{"group": "item_group_chest_ev2_misc_r3","prob":100}]},
+		"type":"item_group"
+	}
+,
+	{
+		"id":"item_group_chest_ev2_misc_r3",
+		"copy-from":"item_group_chest_ev2_misc_r3",
+		"subtype":"distribution",
+		"extend":{"entries":[{"group": "item_group_ncard_r3","prob":20},
+{"group": "item_group_ncard_ev2_r3","prob":20}]},
+		"type":"item_group"
+	}
+,
+	{
+		"id":"item_group_chest_ev2_r4",
+		"copy-from":"item_group_chest_ev2_r4",
+		"subtype":"collection",
+		"extend":{"entries":[{"item": "ncard_misc_crate_flash_r4","prob":100},
+{"group": "item_group_chest_ev2_misc_r4","prob":100}]},
+		"type":"item_group"
+	}
+,
+	{
+		"id":"item_group_chest_ev2_misc_r4",
+		"copy-from":"item_group_chest_ev2_misc_r4",
+		"subtype":"distribution",
+		"extend":{"entries":[{"group": "item_group_ncard_r4","prob":20},
+{"group": "item_group_ncard_ev2_r4","prob":20}]},
+		"type":"item_group"
+	}
+,
+	{
+		"id":"item_group_chest_ev2_event_box",
+		"copy-from":"item_group_chest_ev2_event_box",
+		"//":"통상 박스 드롭",
+		"subtype":"collection",
+		"extend":{"entries":[{"item": "card_call_crate_ev2_1","prob":100, "ammo-item": "ncard_misc_ticket", "charges": 1},
+{ "item": "cash_card", "prob": 100, "charges-min": 0, "charges-max": 50000 },
+{ "group": "ammo_rifle_common", "prob": 20, "count-min": 1, "count-max": 5 },
+{ "item": "ncard_misc_ev2_keystone", "prob": 20 },
+{"item": "ncard_cm_ev2_omochi","prob":350},
+{"group": "alcohol_bottled_canned","prob":10},
+{"item": "ncard_armor_ev2_omamori1","prob":2},
+{"item": "ncard_armor_ev2_omamori2","prob":2},
+{"item": "ncard_armor_ev2_omamori3","prob":2},
+{"item": "ncard_armor_ev2_omamori4","prob":2},
+{"group": "dry_goods","prob":40},
+{"group": "foodintincan","prob":30},
+{"group": "microlab_artifacts","prob":1}
+]},
+		"type":"item_group"
+	}
+,
+	{
+		"id":"item_group_chest_ev3_r3",
+		"copy-from":"item_group_chest_ev3_r3",
+		"subtype":"collection",
+		"extend":{"entries":[{"item": "ncard_misc_crate_flash_r4","prob":100},
+{"group": "item_group_chest_ev3_misc_r3","prob":100}]},
+		"type":"item_group"
+	}
+,
+	{
+		"id":"item_group_chest_ev3_misc_r3",
+		"copy-from":"item_group_chest_ev3_misc_r3",
+		"subtype":"distribution",
+		"extend":{"entries":[{"group": "item_group_ncard_r3","prob":20},
+{"group": "item_group_ncard_ev3_r3","prob":17}]},
+		"type":"item_group"
+	}
+,
+	{
+		"id":"item_group_chest_ev3_r4",
+		"copy-from":"item_group_chest_ev3_r4",
+		"subtype":"collection",
+		"extend":{"entries":[{"item": "ncard_misc_crate_flash_r4","prob":100},
+{"group": "item_group_chest_ev3_misc_r4","prob":100}]},
+		"type":"item_group"
+	}
+,
+	{
+		"id":"item_group_chest_ev3_misc_r4",
+		"copy-from":"item_group_chest_ev3_misc_r4",
+		"subtype":"distribution",
+		"extend":{"entries":[{"group": "item_group_ncard_r4","prob":20},
+{"group": "item_group_ncard_ev3_r4","prob":20}]},
+		"type":"item_group"
+	}
+,
+	{
+		"id":"item_group_chest_ev3_event_box",
+		"copy-from":"item_group_chest_ev3_event_box",
+		"//":"통상 박스 드롭",
+		"subtype":"collection",
+		"extend":{"entries":[{"item": "card_call_crate_ev3_1","prob":100, "ammo-item": "ncard_misc_ticket", "charges": 1},
+{ "item": "cash_card", "prob": 100, "charges-min": 0, "charges-max": 50000 },
+{ "group": "ammo_rifle_common", "prob": 20, "count-min": 1, "count-max": 5 },
+{ "item": "ncard_misc_ev3_keystone", "prob": 20 },
+{"item": "ncard_cm_ev3_omochi","prob":350},
+{"group": "alcohol_bottled_canned","prob":10},
+{"group": "dry_goods","prob":40},
+{"group": "foodintincan","prob":30},
+{"group": "microlab_artifacts","prob":1}
+]},
+		"type":"item_group"
+	}
+,
+	{
+		"id":"item_group_chest_ev5_r3",
+		"copy-from":"item_group_chest_ev5_r3",
+		"subtype":"collection",
+		"extend":{"entries":[{"item": "ncard_misc_crate_flash_r4","prob":100},
+{"group": "item_group_chest_ev5_misc_r3","prob":100}]},
+		"type":"item_group"
+	}
+,
+	{
+		"id":"item_group_chest_ev5_misc_r3",
+		"copy-from":"item_group_chest_ev5_misc_r3",
+		"subtype":"distribution",
+		"extend":{"entries":[{"group": "item_group_ncard_r3","prob":20},
+{"group": "item_group_ncard_ev5_r3","prob":17}]},
+		"type":"item_group"
+	}
+,
+	{
+		"id":"item_group_chest_ev5_r4",
+		"copy-from":"item_group_chest_ev5_r4",
+		"subtype":"collection",
+		"extend":{"entries":[{"item": "ncard_misc_crate_flash_r4","prob":100},
+{"group": "item_group_chest_ev5_misc_r4","prob":100}]},
+		"type":"item_group"
+	}
+,
+	{
+		"id":"item_group_chest_ev5_misc_r4",
+		"copy-from":"item_group_chest_ev5_misc_r4",
+		"subtype":"distribution",
+		"extend":{"entries":[{"group": "item_group_ncard_r4","prob":20},
+{"group": "item_group_ncard_ev5_r4","prob":20}]},
+		"type":"item_group"
+	}
+,
+	{
+		"id":"item_group_chest_ev5_event_box",
+		"copy-from":"item_group_chest_ev5_event_box",
+		"//":"통상 박스 드롭",
+		"subtype":"collection",
+		"extend":{"entries":[{"item": "card_call_crate_ev5_1","prob":100, "ammo-item": "ncard_misc_ticket", "charges": 1},
+{ "item": "cash_card", "prob": 100, "charges-min": 0, "charges-max": 50000 },
+{ "group": "ammo_rifle_common", "prob": 20, "count-min": 1, "count-max": 5 },
+{ "item": "ncard_misc_ev5_keystone", "prob": 20 },
+{"group": "item_group_chest_ev5_misc_singu","prob": 8 },
+{"group": "alcohol_bottled_canned","prob":10},
+{"group": "dry_goods","prob":40},
+{"group": "foodintincan","prob":30},
+{"group": "microlab_artifacts","prob":1}
+]},
+		"type":"item_group"
+	}
+,
+	{
+		"id":"item_group_chest_ev5_misc_singu",
+		"copy-from":"item_group_chest_ev5_misc_singu",
+		"subtype":"distribution",
+		"extend":{"entries":[{ "item": "ncard_misc_ev5_cushion", "prob": 6 },
+{ "item": "ncard_misc_ev5_cushion2", "prob": 1 },
+{ "item": "ncard_misc_ev5_cushion3", "prob": 1 },
+{ "item": "ncard_misc_ev5_cushion4", "prob": 1 },
+{ "item": "ncard_misc_ev5_cushion5", "prob": 1 },
+{ "item": "ncard_misc_ev5_cushion6", "prob": 1 },
+{ "item": "ncard_misc_ev5_cushion7", "prob": 1 }
+]},
+		"type":"item_group"
+	}
+,
+	{
+		"id":"item_group_chest_ev6_r3",
+		"copy-from":"item_group_chest_ev6_r3",
+		"subtype":"collection",
+		"extend":{"entries":[{"item": "ncard_misc_crate_flash_r4","prob":100},
+{"group": "item_group_chest_ev6_misc_r3","prob":100}]},
+		"type":"item_group"
+	}
+,
+	{
+		"id":"item_group_chest_ev6_misc_r3",
+		"copy-from":"item_group_chest_ev6_misc_r3",
+		"subtype":"distribution",
+		"extend":{"entries":[{"group": "item_group_ncard_r3","prob":20},
+{"group": "item_group_ncard_ev2_r3","prob":17}]},
+		"type":"item_group"
+	}
+,
+	{
+		"id":"item_group_chest_ev6_r4",
+		"copy-from":"item_group_chest_ev6_r4",
+		"subtype":"collection",
+		"extend":{"entries":[{"item": "ncard_misc_crate_flash_r4","prob":100},
+{"group": "item_group_chest_ev6_misc_r4","prob":100}]},
+		"type":"item_group"
+	}
+,
+	{
+		"id":"item_group_chest_ev6_misc_r4",
+		"copy-from":"item_group_chest_ev6_misc_r4",
+		"subtype":"distribution",
+		"extend":{"entries":[{"group": "item_group_ncard_r4","prob":20},
+{"group": "item_group_ncard_ev6_r4","prob":20}]},
+		"type":"item_group"
+	}
+,
+	{
+		"id":"item_group_chest_ev6_event_box",
+		"copy-from":"item_group_chest_ev6_event_box",
+		"//":"통상 박스 드롭",
+		"subtype":"collection",
+		"extend":{"entries":[{"item": "card_call_crate_ev6_1","prob":100, "ammo-item": "ncard_misc_ticket", "charges": 1},
+{ "item": "cash_card", "prob": 100, "charges-min": 0, "charges-max": 50000 },
+{ "group": "ammo_rifle_common", "prob": 20, "count-min": 1, "count-max": 5 },
+{ "item": "ncard_misc_ev6_keystone", "prob": 20 },
+{"item": "ncard_cm_ev2_omochi","prob":350},
+{"group": "alcohol_bottled_canned","prob":10},
+{"item": "ncard_armor_ev2_omamori1","prob":2},
+{"item": "ncard_armor_ev2_omamori2","prob":2},
+{"item": "ncard_armor_ev2_omamori3","prob":2},
+{"item": "ncard_armor_ev2_omamori4","prob":2},
+{"group": "dry_goods","prob":40},
+{"group": "foodintincan","prob":30},
+{"group": "microlab_artifacts","prob":1}
+]},
+		"type":"item_group"
+	}
+
+
+]

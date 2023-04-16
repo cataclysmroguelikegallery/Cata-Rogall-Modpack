@@ -1,0 +1,21 @@
+[
+  {
+    "id": "PSY_magi_base",
+    "name": "두루마리(초급)[MWMI]",
+    "description": "더미아이템",
+    "use_action": { "type": "cast_spell", "spell_id": "druid_rootstrike", "no_fail": true, "level": 5 },
+    "type": "COMESTIBLE",
+    "looks_like": "spell_scroll_ice_shield",
+    "comestible_type": "MED",
+    "category": "tools",
+    "weight": "10 g",
+    "volume": "10 ml",
+    "symbol": ",",
+    "color": "light_red",
+    "stack_size": 10,
+    "material": [ "paper" ],
+    "flags": [ "NO_SALVAGE", "NO_INGEST", "NUTRIENT_OVERRIDE" ],
+    "price": "40 USD",
+    "price_postapoc": "40 USD"
+  }
+]

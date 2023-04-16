@@ -1,0 +1,40 @@
+  {
+    "id": "PSY_magi_magic_revolver_ver7",
+    "copy-from": "pistol_revolver",
+    "looks_like": "sw_619",
+    "type": "GUN",
+    "name": "마나 카트리지 전용 권총 셉템[MWMI]",
+    "extend": { "flags": [ "MAGIC_FOCUS" ] },
+    "description": "마법사를 위해 설계된 마나 카트리지 탄 전용 권총 셉템입니다. 이 총을 좀비들이 보면 분명 맨발로 도망칠 겁니다.",
+    "weight": "1790 g",
+    "volume": "750 ml",
+    "price": 74100,
+    "to_hit": -2,
+    "bashing": 12,
+    "material": [ "steel", "wood","copper","silver","gold","black_dragon_hide" ],
+    "symbol": "(",
+    "color": "light_gray",
+    "ammo": [ "PSY_magi_454_magic" ],
+    "dispersion": 280,
+    "durability": 8,
+    "clip_size": 5,
+    "pocket_data": [ 
+      { "pocket_type": "MAGAZINE",
+        "holster": true, 
+        "rigid": true, 
+        "ammo_restriction": { "PSY_magi_454_magic": 5 },
+        "allowed_speedloaders": [ "PSY_magi_454_magic_speedloader5" ]
+      }
+    ],
+    "valid_mod_locations": [
+      [ "accessories", 2 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ]
+  }

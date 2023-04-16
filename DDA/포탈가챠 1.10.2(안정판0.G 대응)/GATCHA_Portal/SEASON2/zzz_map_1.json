@@ -1,0 +1,202 @@
+[
+		
+		
+		{
+		"type": "mapgen",
+		"method": "json",
+		"om_terrain": [ "map_ncard_s2_base" ],
+		"weight": 100,
+		"//":"01234567891011121314151617181920212223",
+		"object": {
+		"rows": [
+		"ggdgsgsgssssss@@ggdggsdg",
+		"sdgssgsssGBBBBGssdsssssg",
+		"sssgssssGB_.._BG@@dsgsgd",
+		"sdsd@@@GB__..__BG@@sdsss",
+		"gssss@GB___..___BG@sgsdg",
+		"dss@@GBG___..____BGs@gss",
+		"ss@@GB_G___.._____BG@@ss",
+		"ss@GB__G___..___GGGBGssg",
+		"s@GB_______.._______BG@@",
+		"sGB________..________BG@",
+		"sB________GBBG________Bs",
+		"sB........B__B........Bs",
+		"sB........B__B........Bs",
+		"sB________G.BG________Bs",
+		"sGB________..________BGs",
+		"g@GB_______.._______BGss",
+		"g@sGBGGG___..___G__BG@@d",
+		"sss@GB_____..___G_BG@@dg",
+		"@@@@@GB____..___GBG@ssdg",
+		"@GBG@sGB___..___BG@@dsgd",
+		"@BSB@s@GB__..__BG@sssssg",
+		"@GCG@dssGB_.._BG@@dsdsds",
+		"ibbbiss@@GBBBBGs@sgdssss",
+		"GiGiGss@ssssss@sgsdgsdgg"],
+		"//2":"01234567891011121314151617181920212223",
+		
+		
+		"palettes": [ "map_ncard_s2_palette" ],
+		"place_traps": [ { "trap": "tr_ncard_s2_magic_door", "x": 2, "y": 20 } ],
+		"place_item": [
+		{ "item": "television", "x": 3, "y": 6, "chance": 0 },
+		{ "item": "television", "x": 3, "y": 6, "chance": 0 }
+		],
+		"place_loot": [
+		{ "item": "candle", "x": 3, "y": 6, "chance": 0 },
+		{ "item": "candle", "x": 3, "y": 6, "chance": 0 }
+		],
+		
+		"terrain": {
+		"0": "t_thconc_floor",
+		"9": "t_thconc_floor"
+		},
+		
+		"furniture": {
+		"8": "f_bookcase",
+		"i": "f_sign",
+		"7": "f_bookcase"
+		},
+		
+		
+		"place_graffiti": [ 
+		{ "text": "<color_red>DANGER DANGER DANGER DANGER DANGER DANGER DANGER DANGER DANGER DANGER DANGER DANGER DANGER DANGER DANGER DANGER DANGER DANGER DANGER DANGER DANGER DANGER DANGER DANGER DANGER DANGER DANGER DANGER DANGER DANGER DANGER DANGER DANGER DANGER DANGER DANGER DANGER DANGER DANGER </color>", "x":2, "y": 21 }, 
+		{ "text": "<color_red>DANGER</color>", "x":1, "y": 22 }, 
+		{ "text": "<color_red>DANGER</color>", "x":2, "y": 22 }, 
+		{ "text": "<color_red>DANGER</color>", "x":3, "y": 22 }
+		],
+		
+		
+		
+		
+		"items": {
+		"1": [ { "item": "novels", "chance": 40 }, { "item": "novels", "chance": 60 } ],
+		"2": [ { "item": "novels", "chance": 30 }, { "item": "homebooks", "chance": 10 } ]
+		}
+		
+		}
+		},
+		
+		
+		
+		
+		
+		
+		
+		
+		{
+		"type": "mapgen",
+		"update_mapgen_id": "ncard_s2_magic_door_appear_1",
+		"method": "json",
+		"object": {
+		"place_terrain": [ { "ter": "t_ncard_s2_floor2", "x": 11, "y": 1 },
+		{ "ter": "t_ncard_s2_floor2", "x": 12, "y": 1 },
+		{ "ter": "t_ncard_s2_floor2", "x": 11, "y": 22 },
+		{ "ter": "t_ncard_s2_floor2", "x": 12, "y": 22 },
+		{ "ter": "t_ncard_s2_floor2", "x": 1, "y": 11 },
+		{ "ter": "t_ncard_s2_floor2", "x": 1, "y": 12 },
+		{ "ter": "t_ncard_s2_floor2", "x": 22, "y": 11 },
+		{ "ter": "t_ncard_s2_floor2", "x": 22, "y": 12 },
+		{ "ter": "t_ncard_s2_switch2", "x": 2, "y": 20 }],
+		
+		
+		
+		"place_item": [
+		{ "item": "ncard_misc_s2_keystone_1", "x": 12, "y": 11, "chance": 100 },
+		{ "item": "scrap", "x": 3, "y": 6, "chance": 0 }],
+		
+		"place_monsters": [ { "monster": "GROUP_NCARD_S2", "x": [  4 , 18  ], "y": [ 8,9 ], "repeat": [ 1 , 4 ] },
+		{ "monster": "GROUP_NCARD_S2", "x": [ 6 ], "y": [ 15 ], "repeat": [ 1 , 4 ] },
+		{ "monster": "GROUP_NCARD_S2", "x": [ 6 ], "y": [ 15 ], "repeat": [ 1 , 4 ] }],
+		
+		"place_monster": [ 
+		{ "monster": "mon_en_ncard_s2_r4_no_01", "x": 11, "y": 13 },
+		{ "monster": "mon_blank", "x": 4, "y": 5 },
+		{ "monster": "mon_blank", "x": 20, "y": 18 },
+		{ "monster": "mon_en_ncard_s2_r3_no_01", "x": 4, "y": 8 },
+		{ "monster": "mon_en_ncard_s2_r3_no_02", "x": 8, "y": 8 },
+		{ "monster": "mon_en_ncard_s2_r3_no_03", "x": 12, "y": 8 },
+		{ "monster": "mon_en_ncard_s2_r3_no_01", "x": 16, "y": 8 },
+		{ "monster": "mon_en_ncard_s2_r3_no_01", "x": 4, "y": 15 },
+		{ "monster": "mon_en_ncard_s2_r3_no_02", "x": 8, "y": 15 },
+		{ "monster": "mon_en_ncard_s2_r3_no_03", "x": 12, "y": 15 },
+		{ "monster": "mon_en_ncard_s2_r3_no_01", "x": 16, "y": 15 },
+		{ "monster": "mon_en_ncard_s2_r3_no_04", "x": 4, "y": 4 },
+		{ "monster": "mon_en_ncard_s2_r3_no_04", "x": 19, "y": 19 },
+		{ "monster": "mon_en_ncard_s2_r3_no_04", "x": 6, "y": 6 },
+		{ "monster": "mon_en_ncard_s2_r3_no_04", "x": 17, "y": 6 },
+		{ "monster": "mon_en_ncard_s2_r3_no_04", "x": 6, "y": 17 },
+		{ "monster": "mon_en_ncard_s2_r3_no_04", "x": 17, "y": 17 }]
+		}
+		},
+		
+		{
+		"type": "trap",
+		"id": "tr_ncard_s2_magic_door",
+		"name": "隔壁解除装置",
+		"color": "red",
+		"symbol": "+",
+		"visibility": 99,
+		"avoidance": 99,
+		"difficulty": 99,
+		"action": "map_regen",
+		"map_regen": "ncard_s2_magic_door_appear_1",
+		"benign": false
+		},
+		
+		  {
+		    "type": "palette",
+		
+		    "id": "map_ncard_s2_palette",
+		
+		    "furniture": {
+		"n": "f_null",
+		"R": "f_ncard_s2_rift",
+		"@": "f_wreckage",
+		"b": "f_bookcase",
+		"^": "f_rubble",
+		"i": "f_sign",
+		"r": "f_rubble_rock"
+		    },
+		
+		    "terrain": {
+		"B": "t_ncard_s2_wall",
+		"G": "t_ncard_s2_glass",
+		"f": "t_ncard_s2_roof",
+		"_": "t_ncard_s2_floor",
+		".": "t_ncard_s2_floor2",
+		"S": "t_ncard_s2_switch",
+		"D": "t_ncard_s2_danger",
+		"1": "t_ncard_s2_floor",
+		"2": "t_ncard_s2_floor",
+		"3": "t_ncard_s2_floor",
+		"4": "t_ncard_s2_floor",
+		"C": "t_concrete_wall",
+		"d": "t_dirt",
+		"g": "t_grass",
+		"i": "t_sand",
+		"b": "t_sand",
+		"@": "t_sand",
+		"s": "t_sand"
+		    },
+		"signs": { "i": { "snippet": "ncard_s2_graffiti" }
+		    }
+		
+		
+		
+		  },
+		
+		  {
+		"type": "snippet",
+		"category": "ncard_s2_graffiti",
+		"text": [ "DANGER","KEEP OUT","DON’T TOUCH","DANGER" ]
+		
+		
+		
+		
+		
+		
+		  }
+
+
+]

@@ -1,0 +1,121 @@
+[
+  {
+    "type": "profession",
+    "ident": "kawaii_catmaid",
+    "copy-from": "kawaii_maid",
+    "name": "고양이 메이드",
+    "points": 2,
+    "traits": [ "FELINE_EARS", "TAIL_LONG" ]
+  },
+  {
+    "type": "profession",
+    "ident": "kawaii_wolfmaid",
+    "copy-from": "kawaii_maid",
+    "name": "늑대 메이드",
+    "points": 5,
+    "traits": [ "LUPINE_EARS", "TAIL_FLUFFY" ]
+  },
+  {
+    "type": "profession",
+    "ident": "kawaii_bunnymaid",
+    "copy-from": "kawaii_maid",
+    "name": "바니 메이드",
+    "points": 2,
+    "traits": [ "RABBIT_EARS", "TAIL_RABBIT" ]
+  },
+  {
+    "type": "profession",
+    "ident": "kawaii_catmaid_lab",
+    "copy-from": "kawaii_catmaid",
+    "description": "대저택에서 일하는 평범한 메이드였지만, 고양이 메이드가 되기 위해 연구소의 실험 대상에 지원했습니다. 무사히 새로운 몸을 얻었으니 이제 돌아가야겠습니다. 물론 돌아갈 곳이 남아있다면 말입니다.",
+    "points": 1,
+    "flags": [ "SCEN_ONLY" ]
+  },
+  {
+    "type": "profession",
+    "ident": "kawaii_wolfmaid_lab",
+    "copy-from": "kawaii_wolfmaid",
+    "description": "대저택에서 일하는 평범한 메이드였지만, 늑대 메이드가 되기 위해 연구소의 실험 대상에 지원했습니다. 무사히 새로운 몸을 얻었으니 이제 돌아가야겠습니다. 물론 돌아갈 곳이 남아있다면 말입니다.",
+    "points": 3,
+    "flags": [ "SCEN_ONLY" ]
+  },
+  {
+    "type": "profession",
+    "ident": "kawaii_bunnymaid_lab",
+    "copy-from": "kawaii_bunnymaid",
+    "description": "대저택에서 일하는 평범한 메이드였지만, 바니 메이드가 되기 위해 연구소의 실험 대상에 지원했습니다. 무사히 새로운 몸을 얻었으니 이제 돌아가야죠. 물론 돌아갈 곳이 남아있다면 말입니다.",
+    "points": 1,
+    "flags": [ "SCEN_ONLY" ]
+  },
+  {
+    "type": "profession",
+    "ident": "kawaii_catmaid2",
+    "copy-from": "kawaii_catmaid_lab",
+    "name": "고양이 메이드？",
+    "description": "대저택에서 일하는 평범한 메이드였지만, 고양이 메이드가 되기 위해 연구소의 실험대상에 지원했습니다. ...... 왠지 생각했던 것과는 다른 것 같습니다.",
+    "points": 0,
+    "traits": [ "THRESH_FELINE", "FELINE_EARS", "TAIL_LONG", "FEL_EYE", "FEL_NV", "FANGS", "PAWS", "CLAWS_RETRACT", "PADDED_FEET", "FELINE_FUR", "CARNIVORE", "SMELLY", "ANIMALDISCORD", "SLEEPY2", "FELINE_LEAP"]
+  },
+  {
+    "type": "profession",
+    "ident": "kawaii_wolfmaid2",
+    "copy-from": "kawaii_wolfmaid_lab",
+    "name": "늑대 메이드？",
+    "description": "대저택에서 일하는 평범한 메이드였지만, 늑대 메이드가 되기 위해 연구소의 실험 대상에 지원했습니다. ...... 왠지 생각했던 것과는 다른 것 같습니다.",
+    "points": 0,
+    "traits": [ "THRESH_LUPINE", "LUPINE_EARS", "TAIL_FLUFFY", "MUZZLE", "FANGS", "PAWS", "PADDED_FEET", "LUPINE_FUR", "CARNIVORE", "SMELLY", "ANIMALDISCORD", "NIGHTVISION2", "HEAVYSLEEPER"]
+  },
+  {
+    "type": "profession",
+    "ident": "kawaii_bunnymaid2",
+    "copy-from": "kawaii_bunnymaid_lab",
+    "name": "바니 메이드？",
+    "description": "대저택에서 일하는 평범한 메이드였지만, 바니 메이드가 되기 위해 연구소의 실험 대상에 지원했습니다. ...... 왠지 생각했던 것과는 다른 것 같습니다.",
+    "points": 0,
+    "traits": [ "THRESH_RABBIT", "RABBIT_EARS", "TAIL_RABBIT", "RABBIT_FEET", "RABBIT_NOSE", "PAWS_LITTLE", "RABBIT_FUR", "PADDED_FEET", "STRONG_LEGS", "LEAPING_LEGS", "GOODHEARING", "GOODCARDIO2", "LIGHT_BONES", "SMALL", "FLIMSY", "ANIMALDISCORD2", "MET_RAT" ]
+  },
+  {
+    "type": "profession",
+    "ident": "kawaii_bionic_maid",
+    "copy-from": "kawaii_maid",
+    "name": "사이보그 메이드",
+    "description": "대저택에서 일하는 평범한 메이드였지만, 사이보그 메이드가 되기 위해 연구소의 실험 대상자로 지원했습니다.",
+    "points": 6,
+    "CBMs": [
+      "bio_tools",
+      "bio_sunglasses",
+      "bio_ups",
+      "bio_purifier",
+      "bio_carbon",
+      "bio_climate",
+      "bio_metabolics",
+      "bio_power_storage"
+    ]
+  },
+  {
+    "type": "profession_item_substitutions",
+    "item": "kawaii_gloves_light",
+    "sub": [
+      { "present": [ "PAWS" ], "new": [ "kawaii_gloves_xl_light" ] }
+    ]
+  },
+  {
+    "type": "profession",
+    "ident": "c_maid",
+    "name": "영원한 메이드",
+    "description": "인터넷에서 판매되고 있는 조금 수상한 코스프레 세트를 충동구매하고, 도착한 것을 다 입어본 후 대혼란이 일어났습니다. 코스프레를 하고 있을 때가 아니네요. 빨리 벗어야 합니다.",
+    "points": 2,
+    "items": {
+      "both": [
+        "pocketwatch",
+        "kawaii_maid_panties",
+        "kawaii_maid_bra",
+        "kawaii_maid_niso_thin",
+        "kawaii_maid_dress_c",
+        "kawaii_maid_hat_c",
+        "kawaii_gloves_light",
+        "kawaii_boots"
+      ]
+    }
+  }
+]

@@ -1,0 +1,33 @@
+[
+	{
+		"id":"fd_ncard_s2_rift",
+		"type":"field_type",
+		"intensity_levels":[{ "name": "뒤틀림","transparent": true,   "color": "white", "sym": "9","effects": [{ "effect_id": "ef_fd_ncard_s2_rift", "intensity": 1, "min_duration": "1 s", "immune_in_vehicle": false, "is_environmental": false  }],"monster_spawn_chance": 1, "monster_spawn_count": 1, "monster_spawn_radius": 1, "monster_spawn_group": "GROUP_NCARD_S2", "light_emitted": 160 }],
+		"description_affix":"illuminated_by",
+		"priority":4,
+		"half_life":"1 s",
+		"dirty_transparency_cache":true,
+		"phase":"plasma",
+		"display_items":false,
+		"display_field":true,
+		"immune_mtypes":[ "mon_ncard_r4_no_03" ],
+		"looks_like":"fd_smoke"
+	}
+,
+	{
+		"id":"fd_ncard_s2_rift2",
+		"type":"field_type",
+		"intensity_levels":[{ "name": "뒤틀림","transparent": true,   "color": "white", "sym": "9","effects": [{ "effect_id": "ef_fd_ncard_s2_rift2", "intensity": 1, "min_duration": "1 s", "immune_in_vehicle": false, "is_environmental": false  }], "light_emitted": 160 }],
+		"description_affix":"illuminated_by",
+		"priority":4,
+		"half_life":"40 s",
+		"dirty_transparency_cache":true,
+		"phase":"plasma",
+		"display_items":false,
+		"display_field":true,
+		"immune_mtypes":[ "mon_ncard_r4_no_03" ],
+		"looks_like":"fd_smoke"
+	}
+
+
+]

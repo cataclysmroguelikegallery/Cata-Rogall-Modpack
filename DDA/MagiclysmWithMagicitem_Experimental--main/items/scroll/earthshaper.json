@@ -1,0 +1,95 @@
+[
+  {
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_stonefist_talisman_1",
+    "name": "돌주먹의 석판(초급)[MWMI]",
+    "description": "돌주먹 의 마법이 갇힌 석판입니다. 사용하는 것으로 돌주먹을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "stonefist", "no_fail": true, "level": 5 },
+    "material": [ "stone" ],
+    "copy-from": "PSY_magi_base"
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_stonefist_talisman_2",
+    "name": "돌주먹의 석판(중급)[MWMI]",
+    "description": "돌주먹 의 마법이 갇힌 석판입니다. 사용하는 것으로 돌주먹을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "stonefist", "no_fail": true, "level": 7 },
+    "material": [ "stone" ],
+    "copy-from": "PSY_magi_base",
+    "price": "60 USD",
+    "price_postapoc": "60 USD"
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_stonefist_talisman_3",
+    "name": "돌주먹의 석판(상급)[MWMI]",
+    "description": "돌주먹 의 마법이 갇힌 석판입니다. 사용하는 것으로 돌주먹을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "stonefist", "no_fail": true, "level": 10 },
+    "material": [ "stone" ],
+    "copy-from": "PSY_magi_base",
+    "price": "80 USD",
+    "price_postapoc": "80 USD"
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_eshaper_piercing_bolt_talisman_1",
+    "name": "관통하는 화살의 석판(초급)[MWMI]",
+    "description": "관통하는 화살 의 마법이 갇힌 석판입니다. 사용하는 것으로 관통하는 화살을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "eshaper_piercing_bolt", "no_fail": true, "level": 5 },
+    "material": [ "stone" ],
+    "copy-from": "PSY_magi_base"
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_eshaper_piercing_bolt_talisman_2",
+    "name": "관통하는 화살의 석판(중급)[MWMI]",
+    "description": "관통하는 화살 의 마법이 갇힌 석판입니다. 사용하는 것으로 관통하는 화살을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "eshaper_piercing_bolt", "no_fail": true, "level": 7 },
+    "material": [ "stone" ],
+    "copy-from": "PSY_magi_base",
+    "price": "60 USD",
+    "price_postapoc": "60 USD"
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_eshaper_piercing_bolt_talisman_3",
+    "name": "관통하는 화살의 석판(상급)[MWMI]",
+    "description": "관통하는 화살 의 마법이 갇힌 석판입니다. 사용하는 것으로 관통하는 화살을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "eshaper_piercing_bolt", "no_fail": true, "level": 10 },
+    "material": [ "stone" ],
+    "copy-from": "PSY_magi_base",
+    "price": "80 USD",
+    "price_postapoc": "80 USD"
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_earthshaper_stoneskin_talisman_1",
+    "name": "돌의 피부의 석판(초급)[MWMI]",
+    "description": "돌의 피부 의 마법이 갇힌 석판입니다. 사용하는 것으로 돌의 피부을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "earthshaper_stoneskin", "no_fail": true, "level": 5 },
+    "material": [ "stone" ],
+    "copy-from": "PSY_magi_base"
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_earthshaper_stoneskin_talisman_2",
+    "name": "돌의 피부의 석판(중급)[MWMI]",
+    "description": "돌의 피부 의 마법이 갇힌 석판입니다. 사용하는 것으로 돌의 피부을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "earthshaper_stoneskin", "no_fail": true, "level": 7 },
+    "material": [ "stone" ],
+    "copy-from": "PSY_magi_base",
+    "price": "60 USD",
+    "price_postapoc": "60 USD"
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_earthshaper_stoneskin_talisman_3",
+    "name": "돌의 피부의 석판(상급)[MWMI]",
+    "description": "돌의 피부 의 마법이 갇힌 석판입니다. 사용하는 것으로 돌의 피부을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "earthshaper_stoneskin", "no_fail": true, "level": 10 },
+    "material": [ "stone" ],
+    "copy-from": "PSY_magi_base",
+    "price": "80 USD",
+    "price_postapoc": "80 USD"
+  }
+]

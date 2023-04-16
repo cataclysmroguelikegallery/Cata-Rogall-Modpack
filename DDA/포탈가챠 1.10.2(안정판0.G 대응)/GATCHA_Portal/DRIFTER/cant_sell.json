@@ -1,0 +1,24 @@
+[
+	{
+		"id":"emit_fd_ncard_nosell",
+		"type":"emit",
+		"field":"fd_ncard_nosell",
+		"intensity":1,
+		"qty":9
+	},
+	{
+		"id":"fd_ncard_nosell",
+		"type":"field_type",
+		"intensity_levels":[{ "name": "甘い空気","transparent": true,   "color": "white", "sym": "9" }],
+		"description_affix":"illuminated_by",
+		"priority":4,
+		"decay_amount_factor": 10000, 
+		"outdoor_age_speedup": "100 minutes", 
+		"half_life":"1 turns",
+		"phase":"gas",
+		"display_items":true,
+		"display_field":false,
+		"looks_like":"fd_ncard_deathcross2"
+	}
+
+]

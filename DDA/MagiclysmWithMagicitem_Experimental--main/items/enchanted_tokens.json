@@ -1,0 +1,345 @@
+[
+  {
+    "//1": "既存の魔法硬貨(ロングソード)のtransform先を独自の武器に変更させておく",
+    "type": "GENERIC",
+    "id": "mtoken_longsword",
+    "name": "longsword token",
+    "copy-from": "mtoken_longsword",
+    "use_action": {
+      "type": "transform",
+      "menu_text": "Whisper command",
+      "target": "longsword_mtoken",
+      "active": false,
+      "moves": 200,
+      "msg": "You say the command word engraved on the token, and it rapidly grows and morphs into a shiny pristine longsword!"
+    }
+  },
+  {
+    "//1": "魔法硬貨(ロングソード)のtransform先の独自のロングソード(性能は同じで再度硬貨に戻せるようにしてあります)",
+    "id": "longsword_mtoken",
+    "type": "TOOL",
+    "name": { "str": "longsword" },
+    "copy-from": "longsword",
+    "use_action": {
+      "type": "transform",
+      "menu_text": "Whisper command",
+      "target": "mtoken_longsword",
+      "active": false,
+      "moves": 200,
+      "msg": "뒷면에 새겨진 주문을 외우자 동전은 빠르게 변화하여 새로운 마법 동전이 되었습니다！"
+    }
+  },
+  {
+    "//1": "既存の魔法硬貨(アーミングソード)のtransform先を独自の武器に変更させておく",
+    "type": "GENERIC",
+    "id": "mtoken_arming_sword",
+    "name": { "str": "arming sword token" },
+    "copy-from": "mtoken_arming_sword",
+    "use_action": {
+      "type": "transform",
+      "menu_text": "Whisper command",
+      "target": "arming_sword_mtoken",
+      "active": false,
+      "moves": 200,
+      "msg": "You say the command word engraved on the token, and it rapidly grows and morphs into a shiny pristine arming sword!"
+    }
+  },
+  {
+    "//1": "魔法硬貨(アーミングソード)のtransform先の独自のアーミングソード(性能は同じで再度硬貨に戻せるようにしてあります)",
+    "id": "arming_sword_mtoken",
+    "type": "TOOL",
+    "name": { "str": "arming sword" },
+    "copy-from": "arming_sword",
+    "use_action": {
+      "type": "transform",
+      "menu_text": "Whisper command",
+      "target": "mtoken_arming_sword",
+      "active": false,
+      "moves": 200,
+      "msg": "뒷면에 새겨진 주문을 외우자 아밍소드는 빠르게 변화하여 새로운 마법 동전이 되었습니다！"
+    }
+  },
+  {
+    "//1": "既存の魔法硬貨(ブロードソード)のtransform先を独自の武器に変更させておく",
+    "type": "GENERIC",
+    "id": "mtoken_broadsword",
+    "name": { "str": "broadsword token" },
+    "copy-from": "mtoken_broadsword",
+    "use_action": {
+      "type": "transform",
+      "menu_text": "Whisper command",
+      "target": "broadsword_mtoken",
+      "active": false,
+      "moves": 200,
+      "msg": "You say the command word engraved on the token, and it rapidly grows and morphs into a shiny pristine broadsword!"
+    }
+  },
+  {
+    "//1": "魔法硬貨(ブロードソード)のtransform先の独自のブロードソード(性能は同じで再度硬貨に戻せるようにしてあります)",
+    "id": "broadsword_mtoken",
+    "type": "TOOL",
+    "name": { "str": "broadsword" },
+    "copy-from": "broadsword",
+    "use_action": {
+      "type": "transform",
+      "menu_text": "Whisper command",
+      "target": "mtoken_broadsword",
+      "active": false,
+      "moves": 200,
+      "msg": "뒷면에 새겨진 주문을 외우자 브로드소드는 빠르게 변화하여 새로운 마법 동전이 되었습니다！"
+    }
+  },
+  {
+    "//1": "既存の魔法硬貨(バトルアックス)のtransform先を独自の武器に変更させておく",
+    "type": "GENERIC",
+    "id": "mtoken_battleaxe",
+    "name": { "str": "battleaxe token" },
+    "copy-from": "mtoken_battleaxe",
+    "use_action": {
+      "type": "transform",
+      "menu_text": "Whisper command",
+      "target": "battleaxe_mtoken",
+      "active": false,
+      "moves": 200,
+      "msg": "You say the command word engraved on the token, and it rapidly grows and morphs into a shiny pristine battle axe!"
+    }
+  },
+  {
+    "//1": "魔法硬貨(バトルアックス)のtransform先の独自のバトルアックス(性能は同じで再度硬貨に戻せるようにしてあります)",
+    "id": "battleaxe_mtoken",
+    "type": "TOOL",
+    "name": { "str": "battle axe" },
+    "copy-from": "battleaxe",
+    "use_action": {
+      "type": "transform",
+      "menu_text": "Whisper command",
+      "target": "mtoken_battleaxe",
+      "active": false,
+      "moves": 200,
+      "msg": "뒷면에 새겨진 주문을 외우자 배틀액스는 빠르게 변화하여 새로운 마법 동전이 되었습니다！"
+    }
+  },
+  {
+    "//1": "既存の魔法硬貨(パイク)のtransform先を独自の武器に変更させておく",
+    "type": "GENERIC",
+    "id": "mtoken_pike",
+    "name": "pike token",
+    "copy-from": "mtoken_pike",
+    "use_action": {
+      "type": "transform",
+      "menu_text": "Whisper command",
+      "target": "pike_mtoken",
+      "active": false,
+      "moves": 200,
+      "msg": "You say the command word engraved on the token, and it rapidly grows and morphs into a shiny pristine pike!"
+    }
+  },
+  {
+    "//1": "魔法硬貨(パイク)のtransform先の独自のパイク(性能は同じで再度硬貨に戻せるようにしてあります)",
+    "id": "pike_mtoken",
+    "type": "GENERIC",
+    "name": { "ctxt": "weapon", "str": "pike" },
+    "copy-from": "pike",
+    "use_action": {
+      "type": "transform",
+      "menu_text": "Whisper command",
+      "target": "mtoken_pike",
+      "active": false,
+      "moves": 200,
+      "msg": "뒷면에 새겨진 주문을 외우자 파이크는 빠르게 변화하여 새로운 마법 동전이 되었습니다！"
+    }
+  },
+  {
+    "//1": "既存の魔法硬貨(メイス)のtransform先を独自の武器に変更させておく",
+    "type": "GENERIC",
+    "id": "mtoken_mace",
+    "name": "mace token",
+    "copy-from": "mtoken_mace",
+    "use_action": {
+      "type": "transform",
+      "menu_text": "Whisper command",
+      "target": "mace_mtoken",
+      "active": false,
+      "moves": 200,
+      "msg": "You say the command word engraved on the token, and it rapidly grows and morphs into a shiny pristine mace!"
+    }
+  },
+  {
+    "//1": "魔法硬貨(メイス)のtransform先の独自のメイス(性能は同じで再度硬貨に戻せるようにしてあります)",
+    "type": "GENERIC",
+    "id": "mace_mtoken",
+    "name": { "str": "mace" },
+    "copy-from": "mace",
+    "use_action": {
+      "type": "transform",
+      "menu_text": "Whisper command",
+      "target": "mtoken_mace",
+      "active": false,
+      "moves": 200,
+      "msg": "뒷면에 새겨진 주문을 외우자 메이스는 빠르게 변화하여 새로운 마법 동전이 되었습니다！"
+    }
+  },
+  {
+    "//1": "既存の魔法硬貨(クォータースタッフ)のtransform先を独自の武器に変更させておく",
+    "type": "GENERIC",
+    "id": "mtoken_q_staff",
+    "name": "quarterstaff token",
+    "copy-from": "mtoken_q_staff",
+    "use_action": {
+      "type": "transform",
+      "menu_text": "Whisper command",
+      "target": "q_staff_mtoken",
+      "active": false,
+      "moves": 200,
+      "msg": "You say the command word engraved on the token, and it rapidly grows and morphs into a pristine quarterstaff!"
+    }
+  },
+  {
+    "//1": "魔法硬貨(クォータースタッフ)のtransform先の独自のクォータースタッフ(性能は同じで再度硬貨に戻せるようにしてあります)",
+    "type": "GENERIC",
+    "id": "q_staff_mtoken",
+    "name": { "str": "quarterstaff", "str_pl": "quarterstaves" },
+    "copy-from": "q_staff",
+    "use_action": {
+      "type": "transform",
+      "menu_text": "Whisper command",
+      "target": "mtoken_q_staff",
+      "active": false,
+      "moves": 200,
+      "msg": "뒷면에 새겨진 주문을 외우자 육척봉은 빠르게 변하여 새로운 마법 동전이 되었습니다！"
+    }
+  },
+  {
+    "//1": "既存の魔法硬貨(ハンマー)のtransform先を独自の武器に変更させておく",
+    "type": "GENERIC",
+    "id": "mtoken_hammer",
+    "name": "hammer token",
+    "copy-from": "mtoken_hammer",
+    "use_action": {
+      "type": "transform",
+      "menu_text": "Whisper command",
+      "target": "hammer_mtoken",
+      "active": false,
+      "moves": 200,
+      "msg": "You say the command word engraved on the token, and it rapidly grows and morphs into a shiny pristine hammer!"
+    }
+  },
+  {
+    "//1": "魔法硬貨(ハンマー)のtransform先の独自のハンマー(性能は同じで再度硬貨に戻せるようにしてあります)",
+    "id": "hammer_mtoken",
+    "type": "GENERIC",
+    "name": { "str": "hammer" },
+    "copy-from": "hammer",
+    "use_action": [ 
+      "CROWBAR",
+      {
+          "type": "transform",
+          "menu_text": "詠唱する",
+          "target": "mtoken_hammer",
+          "active": false,
+          "moves": 100,
+          "msg": "뒷면에 새겨진 주문을 외우자 망치는 빠르게 변하여 새로운 마법 동전이 되었습니다！"
+      }
+    ]
+  },
+  {
+    "//1": "既存の魔法硬貨(ドライバーセット)のtransform先を独自の武器に変更させておく",
+    "type": "GENERIC",
+    "id": "mtoken_screwdriver_set",
+    "name": "screwdriver set token",
+    "copy-from": "mtoken_screwdriver_set",
+    "use_action": {
+      "type": "transform",
+      "menu_text": "Whisper command",
+      "target": "screwdriver_set_mtoken",
+      "active": false,
+      "moves": 200,
+      "msg": "You say the command word engraved on the token, and it rapidly grows and morphs into a shiny pristine screwdriver set!"
+    }
+  },
+  {
+    "//1": "魔法硬貨(ドライバーセット)のtransform先の独自のドライバーセット(性能は同じで再度硬貨に戻せるようにしてあります)",
+    "id": "screwdriver_set_mtoken",
+    "type": "GENERIC",
+    "category": "tools",
+    "name": { "str": "screwdriver set" },
+    "copy-from": "screwdriver_set",
+    "use_action": [ 
+      {
+        "type": "transform",
+        "menu_text": "詠唱する",
+        "target": "mtoken_screwdriver_set",
+        "active": false,
+        "moves": 100,
+        "msg": "뒷면에 새겨진 주문을 외우자 드라이버 세트는 빠르게 변화하여 새로운 마법 동전이 되었습니다!"
+      }
+    ]
+  },
+  {
+    "//1": "既存の魔法硬貨(バール)のtransform先を独自の武器に変更させておく",
+    "type": "GENERIC",
+    "id": "mtoken_crowbar",
+    "name": "crowbar token",
+    "copy-from": "mtoken_crowbar",
+    "use_action": {
+      "type": "transform",
+      "menu_text": "Whisper command",
+      "target": "crowbar_mtoken",
+      "active": false,
+      "moves": 200,
+      "msg": "You say the command word engraved on the token, and it rapidly grows and morphs into a shiny pristine crowbar!"
+    }
+  },
+  {
+    "//1": "魔法硬貨(バール)のtransform先の独自のバール(性能は同じで再度硬貨に戻せるようにしてあります)",
+    "id": "crowbar_mtoken",
+    "type": "GENERIC",
+    "name": { "str": "crowbar" },
+    "copy-from": "crowbar",
+    "use_action": [ 
+      "CROWBAR",
+      {
+        "type": "transform",
+        "menu_text": "詠唱する",
+        "target": "mtoken_crowbar",
+        "active": false,
+        "moves": 100,
+        "msg": "뒷면에 새겨진 주문을 외우자 쇠지레는 빠르게 변화하여 새로운 마법 동전이 되었습니다!"
+      }
+    ]
+  },
+  {
+    "//1": "既存の魔法硬貨(ハリガンバール)のtransform先を独自の武器に変更させておく",
+    "type": "GENERIC",
+    "id": "mtoken_halligan",
+    "name": { "str": "魔法硬貨(ハリガンバール)" },
+    "description": "裏面に刻まれた呪文を読み上げると表面に描かれた物に変化する、大きな銀貨です。この硬貨にはハリガンバールが描かれています。",
+    "copy-from": "mtoken_crowbar",
+    "use_action": {
+      "type": "transform",
+      "menu_text": "Whisper command",
+      "target": "halligan_mtoken",
+      "active": false,
+      "moves": 200,
+      "msg": "뒷면에 새겨진 주문을 외우자 마법 동전은 빠르게 변화하여 새로운 할리건바가 되었습니다！"
+    }
+  },
+  {
+    "//1": "魔法硬貨(ハリガンバール)のtransform先の独自のハリガンバール(性能は同じで再度硬貨に戻せるようにしてあります)",
+    "id": "halligan_mtoken",
+    "type": "GENERIC",
+    "name": { "str": "Halligan bar" },
+    "copy-from": "halligan",
+    "use_action": [ 
+      "CROWBAR",
+      {
+        "type": "transform",
+        "menu_text": "詠唱する",
+        "target": "mtoken_halligan",
+        "active": false,
+        "moves": 200,
+      "msg": "뒷면에 새겨진 주문을 외우자 할리건바는 빠르게 변화하여 새로운 마법 동전이 되었습니다!"
+      }
+    ]
+  }
+]

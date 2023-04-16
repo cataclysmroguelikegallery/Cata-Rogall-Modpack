@@ -1,0 +1,19 @@
+[
+	{
+		"id":"fd_ncard_ev1_xmas_box2",
+		"type":"field_type",
+		"intensity_levels":[{ "name": "특별한 선물상자","transparent": true,   "color": "yellow", "sym": "n","light_emitted": 10}],
+		"description_affix":"illuminated_by",
+		"priority":4,
+		"half_life":"10 d",
+		"dirty_transparency_cache":true,
+		"phase":"plasma",
+		"display_items":false,
+		"display_field":true,
+		"bash":{"str_min":0,"str_max":0,"sound_vol":2,"sound":"*キラッ*","sound_fail":"*ガキン*","items":[{"group":"item_group_chest_ev1_event_box2"}]},
+		"immune_mtypes":[ "mon_ncard_r4_no_03" ],
+		"looks_like":"f_lootcrate_ev1_xmas_box2"
+	}
+
+
+]

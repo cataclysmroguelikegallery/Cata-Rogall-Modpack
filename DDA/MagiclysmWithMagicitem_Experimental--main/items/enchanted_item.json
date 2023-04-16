@@ -1,0 +1,600 @@
+[
+  {
+    "id": "PSY_magi_mnecklace_wizardry_minor",
+    "type": "ARMOR",
+    "name": { "str": "마력의 목걸이Lv1[MWMI]" },
+    "description": "봉인된 두루마리 그림이 새겨진 구리 목걸이입니다. 마나 용량이 조금 증가됩니다.",
+    "copy-from": "copper_necklace",
+    "price_postapoc": "3000 USD",
+    "flags": [ "FANCY" ],
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MAX_MANA", "add": 200 } ] } ] }
+  },
+  {
+    "id": "PSY_magi_mnecklace_wizardry_lesser",
+    "type": "ARMOR",
+    "name": { "str": "마력의 목걸이Lv2[MWMI]" },
+    "description": "봉인된 두루마리 그림이 새겨진 구리 목걸이입니다.마나 용량이 다소 증가합니다.",
+    "copy-from": "PSY_magi_mnecklace_wizardry_minor",
+    "price_postapoc": "5000 USD",
+    "material": [ "silver" ],
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MAX_MANA", "add": 400 } ] } ] }
+  },
+    {
+    "id": "PSY_magi_mnecklace_wizardry_moderate",
+    "type": "ARMOR",
+    "name": { "str": "마력의 목걸이Lv3[MWMI]" },
+    "description": "봉인된 두루마리 그림이 새겨진 금목걸이입니다.마나 용량이 증가합니다.",
+    "copy-from": "PSY_magi_mnecklace_wizardry_minor",
+    "price_postapoc": "7000 USD",
+    "material": [ "gold" ],
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MAX_MANA", "add": 600 } ] } ] }
+  },
+    {
+    "id": "PSY_magi_mnecklace_wizardry_greater",
+    "type": "ARMOR",
+    "name": { "str": "마력의 목걸이Lv4[MWMI]" },
+    "description": "봉인된 두루마리 그림이 새겨진 플래티넘 목걸이입니다.마나 용량이 대폭 증가합니다.",
+    "copy-from": "PSY_magi_mnecklace_wizardry_minor",
+    "price_postapoc": "9000 USD",
+    "material": [ "platinum" ],
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MAX_MANA", "add": 1200 } ] } ] }
+  },
+  {
+    "id": "PSY_magi_mnecklace_dodge_bonus",
+    "type": "ARMOR",
+    "name": { "str": "장어의 목걸이[MWMI]" },
+    "description": "두루마리를 휘감는 장어를 형상화한 은목걸이입니다.착용 시 1턴으로 회피할 수 있는 공격 횟수가 1 증가합니다.",
+    "copy-from": "silver_necklace",
+    "price_postapoc": "7000 USD",
+    "flags": [ "FANCY" ],
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "BONUS_DODGE", "add": 1 } ] } ] }
+  },
+  {
+    "id": "PSY_magi_mnecklace_dodge_bonus_2",
+    "type": "ARMOR",
+    "name": { "str": "쌍두장어의 목걸이[MWMI]" },
+    "description": "두루마리를 휘감는 장어를 본뜬 금목걸이입니다. 착용 시 1턴으로 회피할 수 있는 공격 횟수가 2 증가합니다.",
+    "copy-from": "PSY_magi_mnecklace_dodge_bonus",
+    "price_postapoc": "8000 USD",
+    "material": [ "gold" ],
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "BONUS_DODGE", "add": 2 } ] } ] }
+  },
+
+  {
+    "type": "TOOL_ARMOR",
+    "id": "PSY_magi_mnecklace_strength_1",
+    "name": { "str": "근력의 목걸이+1[MWMI]" },
+    "description": "착용시 조금 강해질수 있는 구리목걸이 입니다.",
+    "copy-from": "copper_necklace",
+    "price_postapoc": "3000 USD",
+    "flags": [ "FANCY" ],
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "STRENGTH", "add": 1 } ] } ] }
+  },
+  {
+    "type": "TOOL_ARMOR",
+    "id": "PSY_magi_mnecklace_strength_2",
+    "name": { "str": "근력의 목걸이+2[MWMI]" },
+    "description": "착용시 다소 강해질 수 있는 은목걸이 입니다.",
+    "copy-from": "silver_necklace",
+    "price_postapoc": "5000 USD",
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "STRENGTH", "add": 2 } ] } ] }
+  },
+  {
+    "type": "TOOL_ARMOR",
+    "id": "PSY_magi_mnecklace_strength_3",
+    "name": { "str": "근력의 목걸이+3[MWMI]" },
+    "description": "착용시 상당히 강해질 수 있는 금목걸이입니다.",
+    "copy-from": "PSY_magi_mnecklace_strength_1",
+    "price_postapoc": "7000 USD",
+    "material": [ "gold" ],
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "STRENGTH", "add": 3 } ] } ] }
+  },
+  {
+    "type": "TOOL_ARMOR",
+    "id": "PSY_magi_mnecklace_strength_4",
+    "name": { "str": "근력의 목걸이+4[MWMI]" },
+    "description": "착용시 놀라울 정도로 강해질 수 있는 플래티넘 목걸이입니다.",
+    "copy-from": "PSY_magi_mnecklace_strength_1",
+    "price_postapoc": "9000 USD",
+    "material": [ "platinum" ],
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "STRENGTH", "add": 4 } ] } ] }
+  },
+  {
+    "type": "TOOL_ARMOR",
+    "id": "PSY_magi_mnecklace_dexterity_1",
+    "name": { "str": "기용의 목걸이+1[MWMI]" },
+    "description": "착용시 조금 기민해지는 구리 목걸이입니다.",
+    "copy-from": "copper_necklace",
+    "price_postapoc": "3000 USD",
+    "flags": [ "FANCY" ],
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "DEXTERITY", "add": 1 } ] } ] }
+  },
+  {
+    "type": "TOOL_ARMOR",
+    "id": "PSY_magi_mnecklace_dexterity_2",
+    "name": { "str": "기용의 목걸이+2[MWMI]" },
+    "description": "착용시 그럭저럭 기민해질 수 있는 은목걸이입니다.",
+    "copy-from": "PSY_magi_mnecklace_dexterity_1",
+    "price_postapoc": "5000 USD",
+    "material": [ "silver" ],
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "DEXTERITY", "add": 2 } ] } ] }
+  },
+  {
+    "type": "TOOL_ARMOR",
+    "id": "PSY_magi_mnecklace_dexterity_3",
+    "name": { "str": "기용의 목걸이+3[MWMI]" },
+    "description": "착용시 상당히 기민해질 수 있는 금목걸이입니다.",
+    "copy-from": "PSY_magi_mnecklace_dexterity_1",
+    "price_postapoc": "7000 USD",
+    "material": [ "gold" ],
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "DEXTERITY", "add": 3 } ] } ] }
+  },
+  {
+    "type": "TOOL_ARMOR",
+    "id": "PSY_magi_mnecklace_dexterity_4",
+    "name": { "str": "기용의 목걸이+4[MWMI]" },
+    "description": "착용시 놀라울 정도로 민첩해질 수 있는 플래티넘 목걸이입니다.",
+    "copy-from": "PSY_magi_mnecklace_dexterity_1",
+    "price_postapoc": "9000 USD",
+    "material": [ "platinum" ],
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "DEXTERITY", "add": 4 } ] } ] }
+  },
+  {
+    "type": "TOOL_ARMOR",
+    "id": "PSY_magi_mnecklace_intelligence_1",
+    "name": { "str": "지성의 목걸이+1[MWMI]" },
+    "description": "착용시 조금 똑똑해질 수 있는 구리목걸이 입니다.",
+    "copy-from": "copper_necklace",
+    "price_postapoc": "3000 USD",
+    "flags": [ "FANCY" ],
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "INTELLIGENCE", "add": 1 } ] } ] }
+  },
+  {
+    "type": "TOOL_ARMOR",
+    "id": "PSY_magi_mnecklace_intelligence_2",
+    "name": { "str": "지성의 목걸이+2[MWMI]" },
+    "description": "착용시 그럭저럭 영리해질 수 있는 은목걸이입니다.",
+    "copy-from": "PSY_magi_mnecklace_intelligence_1",
+    "price_postapoc": "5000 USD",
+    "material": [ "silver" ],
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "INTELLIGENCE", "add": 2 } ] } ] }
+  },
+  {
+    "type": "TOOL_ARMOR",
+    "id": "PSY_magi_mnecklace_intelligence_3",
+    "name": { "str": "지성의 목걸이+3[MWMI]" },
+    "description": "착용시 상당히 영리해질 수 있는 금목걸이입니다.",
+    "copy-from": "PSY_magi_mnecklace_intelligence_1",
+    "price_postapoc": "7000 USD",
+    "material": [ "gold" ],
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "INTELLIGENCE", "add": 3 } ] } ] }
+  },
+  {
+    "type": "TOOL_ARMOR",
+    "id": "PSY_magi_mnecklace_intelligence_4",
+    "name": { "str": "지성의 목걸이+4[MWMI]" },
+    "description": "착용시 놀라울 정도로 영리해지는 플래티넘 목걸이입니다.",
+    "copy-from": "PSY_magi_mnecklace_intelligence_1",
+    "price_postapoc": "9000 USD",
+    "material": [ "platinum" ],
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "INTELLIGENCE", "add": 4 } ] } ] }
+  },
+  {
+    "type": "TOOL_ARMOR",
+    "id": "PSY_magi_mnecklace_perception_1",
+    "name": { "str": "감각의 목걸이+1[MWMI]" },
+    "description": "착용시 감각이 조금 날카로워지는 구리목걸이 입니다.。",
+    "copy-from": "copper_necklace",
+    "price_postapoc": "3000 USD",
+    "flags": [ "FANCY" ],
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "PERCEPTION", "add": 1 } ] } ] }
+  },
+  {
+    "type": "TOOL_ARMOR",
+    "id": "PSY_magi_mnecklace_perception_2",
+    "name": { "str": "감각의 목걸이+2[MWMI]" },
+    "description": "착용시 감각이 그럭저럭 날카로워지는 은목걸이 입니다.",
+    "copy-from": "PSY_magi_mnecklace_perception_1",
+    "price_postapoc": "5000 USD",
+    "material": [ "silver" ],
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "PERCEPTION", "add": 2 } ] } ] }
+  },
+  {
+    "type": "TOOL_ARMOR",
+    "id": "PSY_magi_mnecklace_perception_3",
+    "name": { "str": "감각의 목걸이+3[MWMI]" },
+    "description": "착용시 감각이 상당히 날카로워 질 수 있는 금목걸이입니다.",
+    "copy-from": "PSY_magi_mnecklace_perception_1",
+    "price_postapoc": "7000 USD",
+    "material": [ "gold" ],
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "PERCEPTION", "add": 3 } ] } ] }
+  },
+  {
+    "type": "TOOL_ARMOR",
+    "id": "PSY_magi_mnecklace_perception_4",
+    "name": { "str": "감각의 목걸이+4[MWMI]" },
+    "description": "착용시 감각이 놀라울 정도로 날카로워지는 플래티넘 목걸이입니다.",
+    "copy-from": "PSY_magi_mnecklace_perception_1",
+    "price_postapoc": "9000 USD",
+    "material": [ "platinum" ],
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "PERCEPTION", "add": 4 } ] } ] }
+  },
+  {
+    "type": "TOOL_ARMOR",
+    "id": "PSY_magi_mnecklace_speed_3",
+    "name": { "str": "속도의 목걸이+3[MWMI]" },
+    "description": "착용시 조금 더 빨라질 수 있는 구리목걸이 입니다.",
+    "copy-from": "copper_necklace",
+    "price_postapoc": "3000 USD",
+    "flags": [ "FANCY" ],
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "SPEED", "add": 3 } ] } ] }
+  },
+  {
+    "type": "TOOL_ARMOR",
+    "id": "PSY_magi_mnecklace_speed_5",
+    "name": { "str": "속도의 목걸이+5[MWMI]" },
+    "description": "착용시 그럭저럭 빨라질 수 있는 은목걸이 입니다.",
+    "copy-from": "PSY_magi_mnecklace_speed_3",
+    "price_postapoc": "5000 USD",
+    "material": [ "silver" ],
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "SPEED", "add": 5 } ] } ] }
+  },
+  {
+    "type": "TOOL_ARMOR",
+    "id": "PSY_magi_mnecklace_speed_7",
+    "name": { "str": "속도의 목걸이+7[MWMI]" },
+    "description": "착용시 상당히 빨라질 수 있는 금목걸이 입니다.",
+    "copy-from": "PSY_magi_mnecklace_speed_3",
+    "price_postapoc": "7000 USD",
+    "material": [ "gold" ],
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "SPEED", "add": 7 } ] } ] }
+  },
+  {
+    "type": "TOOL_ARMOR",
+    "id": "PSY_magi_mnecklace_speed_10",
+    "name": { "str": "속도의 목걸이+10[MWMI]" },
+    "description": "착용시 놀라울 정도로 빨라지는 플래티넘 목걸이입니다.",
+    "copy-from": "PSY_magi_mnecklace_speed_3",
+    "price_postapoc": "9000 USD",
+    "material": [ "platinum" ],
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "SPEED", "add": 10 } ] } ] }
+  },
+    {
+    "type": "TOOL_ARMOR",
+    "id": "PSY_magi_mnecklace_protection_2",
+    "name": { "str": "방어 목걸이+2[MWMI]" },
+    "description": "착용시 손상을 조금 줄여주는 구리 목걸이 입니다.",
+    "copy-from": "copper_necklace",
+    "price_postapoc": "3000 USD",
+    "material": [ "copper" ],
+    "flags": [ "FANCY" ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "ARMOR_CUT", "add": -2 },
+            { "value": "ARMOR_BASH", "add": -2 },
+            { "value": "ARMOR_STAB", "add": -2 },
+            { "value": "ARMOR_BULLET", "add": -1 }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "type": "TOOL_ARMOR",
+    "id": "PSY_magi_mnecklace_protection_4",
+    "name": { "str": "방어 목걸이+4[MWMI]" },
+    "description": "착용시 손상을 적당히 줄여주는 은목걸이 입니다.",
+    "copy-from": "PSY_magi_mnecklace_protection_2",
+    "price_postapoc": "5000 USD",
+    "material": [ "silver" ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "ARMOR_CUT", "add": -4 },
+            { "value": "ARMOR_BASH", "add": -4 },
+            { "value": "ARMOR_STAB", "add": -4 },
+            { "value": "ARMOR_BULLET", "add": -2 }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "type": "TOOL_ARMOR",
+    "id": "PSY_magi_mnecklace_protection_6",
+    "name": { "str": "방어 목걸이+6[MWMI]" },
+    "description": "착용시 손상을 상당히 줄여주는 금목걸이 입니다.",
+    "copy-from": "PSY_magi_mnecklace_protection_2",
+    "price_postapoc": "7000 USD",
+    "material": [ "gold" ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "ARMOR_CUT", "add": -6 },
+            { "value": "ARMOR_BASH", "add": -6 },
+            { "value": "ARMOR_STAB", "add": -6 },
+            { "value": "ARMOR_BULLET", "add": -3 }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "type": "TOOL_ARMOR",
+    "id": "PSY_magi_mnecklace_protection_8",
+    "name": { "str": "방어 목걸이+8[MWMI]" },
+    "description": "착용시 손상을 놀라울 정도로 줄여주는 플래티넘 목걸이입니다.",
+    "copy-from": "PSY_magi_mnecklace_protection_2",
+    "price_postapoc": "9000 USD",
+    "material": [ "platinum" ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "ARMOR_CUT", "add": -8 },
+            { "value": "ARMOR_BASH", "add": -8 },
+            { "value": "ARMOR_STAB", "add": -8 },
+            { "value": "ARMOR_BULLET", "add": -4 }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "PSY_magi_mnecklace_stamina_minor",
+    "type": "ARMOR",
+    "name": { "str": "리카온 목걸이+1[MWMI]" },
+    "description": "늠름한 리카온을 본뜬 구리 목걸이입니다.스태미너가 약간 증가해요.",
+    "copy-from": "copper_necklace",
+    "price_postapoc": "3000 USD",
+    "flags": [ "FANCY" ],
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MAX_STAMINA", "add": 1000 } ] } ] }
+  },
+  {
+    "id": "PSY_magi_mnecklace_stamina_lesser",
+    "type": "ARMOR",
+    "name": { "str": "리카온 목걸이+2[MWMI]" },
+    "description": "늠름한 리카온을 본뜬 은제 목걸이입니다.스태미너가 다소 증가합니다.",
+    "copy-from": "PSY_magi_mnecklace_stamina_minor",
+    "price_postapoc": "5000 USD",
+    "material": [ "silver" ],
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MAX_STAMINA", "add": 2000 } ] } ] }
+  },
+    {
+    "id": "PSY_magi_mnecklace_stamina_moderate",
+    "type": "ARMOR",
+    "name": { "str": "리카온 목걸이+3[MWMI]" },
+    "description": "늠름한 리카온을 본뜬 금목걸이입니다.스태미너가증가합니다.",
+    "copy-from": "PSY_magi_mnecklace_stamina_minor",
+    "price_postapoc": "7000 USD",
+    "material": [ "gold" ],
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MAX_STAMINA", "add": 3000 } ] } ] }
+  },
+    {
+    "id": "PSY_magi_mnecklace_stamina_greater",
+    "type": "ARMOR",
+    "name": { "str": "리카온 목걸이+4[MWMI]" },
+    "description": "늠름한 리카온을 형상화한 플래티넘 목걸이입니다.스태미너가 대폭 증가합니다.",
+    "copy-from": "PSY_magi_mnecklace_stamina_minor",
+    "price_postapoc": "9000 USD",
+    "material": [ "platinum" ],
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MAX_STAMINA", "add": 4000 } ] } ] }
+  },
+  {
+    "id": "PSY_magi_mring_eye",
+    "type": "TOOL_ARMOR",
+    "name": "기묘한 눈의 반지[MWMI]",
+    "description": "기묘한 눈알이 새겨진 반지입니다.계속 보고 있으면 기분이 이상해져요…",
+    "copy-from": "gold_ring",
+    "price_postapoc": "6000 USD",
+    "material": [ "gold" ],
+    "flags": [ "WATER_FRIENDLY", "ALLOWS_NATURAL_ATTACKS", "FANCY", "ONLY_ONE", "SKINTIGHT","DIMENSIONAL_ANCHOR" ]
+  },
+  {
+    "id": "PSY_magi_mnecklace_eye",
+    "type": "ARMOR",
+    "name": { "str": "기묘한 눈의 목걸이[MWMI]" },
+    "description": "기묘한 눈알이 새겨진 목걸이입니다.계속 보고 있으면 기분이 이상해져요…",
+    "copy-from": "gold_necklace",
+    "price_postapoc": "6000 USD",
+    "material": [ "gold" ],
+    "flags": [ "FANCY", "DIMENSIONAL_ANCHOR" ]
+  },
+  {
+    "id": "PSY_magi_mnecklace_safe_1",
+    "type": "ARMOR",
+    "name": { "str": "방호 목걸이[MWMI]" },
+    "description": "세이프 마크가 새겨진 목걸이입니다. 장비로 효과를 발휘합니다.",
+    "copy-from": "gold_necklace",
+    "price_postapoc": "1000 USD",
+    "environmental_protection": 2,
+    "armor": [ { "coverage": 0, "covers": [ "leg_l", "leg_r", "torso", "arm_l", "arm_r", "hand_l", "hand_r", "head", "foot_l", "foot_r", "mouth", "eyes" ] } ],
+    "flags": [ "AURA", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "TRADER_AVOID", "NONCONDUCTIVE" ]
+  },
+  {
+    "id": "PSY_magi_mnecklace_safe_2",
+    "type": "ARMOR",
+    "name": { "str": "방호의 목걸이+1[MWMI]" },
+    "description": "세이프 마크가 새겨진 목걸이입니다. 장비로 효과를 발휘합니다.",
+    "copy-from": "PSY_magi_mnecklace_safe_1",
+    "price_postapoc": "2000 USD",
+    "material": [ "gold" ],
+    "environmental_protection": 4,
+    "armor": [ { "coverage": 0, "covers": [ "leg_l", "leg_r", "torso", "arm_l", "arm_r", "hand_l", "hand_r", "head", "foot_l", "foot_r", "mouth", "eyes" ] } ],
+    "flags": [ "AURA", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "TRADER_AVOID",  "NONCONDUCTIVE" ]
+  },
+  {
+    "id": "PSY_magi_mnecklace_safe_3",
+    "type": "ARMOR",
+    "name": { "str": "방호의 목걸이+2[MWMI]" },
+    "description": "세이프 마크가 새겨진 목걸이입니다. 장비로 효과를 발휘합니다.",
+    "copy-from": "PSY_magi_mnecklace_safe_1",
+    "price_postapoc": "4000 USD",
+    "material": [ "gold" ],
+    "environmental_protection": 6,
+    "armor": [ { "coverage": 0, "covers": [ "leg_l", "leg_r", "torso", "arm_l", "arm_r", "hand_l", "hand_r", "head", "foot_l", "foot_r", "mouth", "eyes" ] } ],
+    "flags": [ "AURA", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "TRADER_AVOID",  "NONCONDUCTIVE" ]
+  },
+  {
+    "id": "PSY_magi_mnecklace_safe_4",
+    "type": "ARMOR",
+    "name": { "str": "방호의 목걸이+3[MWMI]" },
+    "description": "세이프 마크가 새겨진 목걸이입니다. 장비로 효과를 발휘합니다.",
+    "copy-from": "PSY_magi_mnecklace_safe_1",
+    "price_postapoc": "6000 USD",
+    "material": [ "gold" ],
+    "environmental_protection": 8,
+    "armor": [ { "coverage": 0, "covers": [ "leg_l", "leg_r", "torso", "arm_l", "arm_r", "hand_l", "hand_r", "head", "foot_l", "foot_r", "mouth", "eyes" ] } ],
+    "flags": [ "AURA", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "TRADER_AVOID", "NONCONDUCTIVE" ]
+  },
+  {
+    "id": "PSY_magi_mnecklace_safe_5",
+    "type": "ARMOR",
+    "name": { "str": "방호의 목걸이+4[MWMI]" },
+    "description": "세이프 마크가 새겨진 목걸이입니다. 장비로 효과를 발휘합니다.",
+    "copy-from": "PSY_magi_mnecklace_safe_1",
+    "price_postapoc": "8000 USD",
+    "material": [ "gold" ],
+    "environmental_protection": 10,
+    "armor": [ { "coverage": 0, "covers": [ "leg_l", "leg_r", "torso", "arm_l", "arm_r", "hand_l", "hand_r", "head", "foot_l", "foot_r", "mouth", "eyes" ] } ],
+    "flags": [ "AURA", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "TRADER_AVOID", "NONCONDUCTIVE" ]
+  },
+  {
+    "id": "PSY_magi_mnecklace_angel_wing",
+    "type": "ARMOR",
+    "name": { "str": "천사 날개 목걸이[MWMI]" },
+    "description": "천사를 본뜬 날개목걸이입니다.이를 착용하면 마력에 의한 날개가 발생하여 높은 곳에서 낙하하는 데미지를 무효화합니다.",
+    "copy-from": "gold_necklace",
+    "price_postapoc": "4000 USD",
+    "relic_data": { "passive_effects": [ { "id": "PSY_magi_ench_angel_wing" } ] }
+  },
+  {
+    "id": "PSY_magi_bracelet_reaction_buffer_minor",
+    "type": "ARMOR",
+    "name": { "str": "마도식 분산 완충기+1[MWMI]" },
+    "description": "처음 보는 문자가 새겨진 구리 팔찌입니다. 이 팔찌를 착용하면 사격 무기의 분산을 낮출 수 있습니다.",
+    "copy-from": "copper_bracelet",
+    "price_postapoc": "3000 USD",
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "WEAPON_DISPERSION", "multiply": -0.10 } ] } ] }
+  },
+  {
+    "id": "PSY_magi_bracelet_reaction_buffer_lesser",
+    "type": "ARMOR",
+    "name": { "str": "마도식 분산 완충기+2[MWMI]" },
+    "description": "처음 보는 문자가 새겨진 은제 팔찌입니다. 이 팔찌를 착용하면 사격 무기의 분산을 낮출 수 있습니다.",
+    "copy-from": "silver_bracelet",
+    "price_postapoc": "5000 USD",
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "WEAPON_DISPERSION", "multiply": -0.15 } ] } ] }
+  },
+  {
+    "id": "PSY_magi_bracelet_reaction_buffer_moderate",
+    "type": "ARMOR",
+    "name": { "str": "마도식 분산 완충기+3[MWMI]" },
+    "description": "처음 보는 문자가 새겨진 금 팔찌입니다. 이 팔찌를 착용하면 사격 무기의 분산을 낮출 수 있습니다.",
+    "copy-from": "gold_bracelet",
+    "price_postapoc": "7000 USD",
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "WEAPON_DISPERSION", "multiply": -0.20 } ] } ] }
+  },
+  {
+    "id": "PSY_magi_bracelet_reaction_buffer_greater",
+    "type": "ARMOR",
+    "name": { "str": "마도식 분산 완충기+4[MWMI]" },
+    "description": "처음 보는 문자가 새겨진 플레티넘 팔찌입니다. 이 팔찌를 착용하면 사격 무기의 분산을 낮출 수 있습니다.",
+    "copy-from": "platinum_bracelet",
+    "price_postapoc": "9000 USD",
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "WEAPON_DISPERSION", "multiply": -0.25 } ] } ] }
+  },
+  {
+    "id": "PSY_magi_mnecklace_fire_safe_1",
+    "type": "ARMOR",
+    "name": { "str": "화염의 아뮬렛+1[MWMI]" },
+    "description": "마나 크리스탈에 불꽃이 새겨진 부적입니다. 장착하면 열 데미지를 줄여줍니다.",
+    "copy-from": "PSY_magi_mnecklace_safe_1",
+    "price_postapoc": "2000 USD",
+    "material": [ "gold" ],
+    "environmental_protection": 4,
+    "armor": [ { "coverage": 0, "covers": [ "leg_l", "leg_r", "torso", "arm_l", "arm_r", "hand_l", "hand_r", "head", "foot_l", "foot_r", "mouth", "eyes" ] } ],
+    "flags": [ "AURA", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "TRADER_AVOID",  "NONCONDUCTIVE" ],
+    "relic_data": {
+      "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_HEAT" , "multiply": -0.20} ] } ]
+    }
+  },
+  {
+    "id": "PSY_magi_mnecklace_electric_safe_1",
+    "type": "ARMOR",
+    "name": { "str": "번개의 아뮬렛+1[MWMI]" },
+    "description": "마나 크리스탈에 번개가 새겨진 부적입니다. 장착하면 번개 피해를 줄여줍니다.",
+    "copy-from": "PSY_magi_mnecklace_safe_1",
+    "price_postapoc": "4000 USD",
+    "material": [ "gold" ],
+    "environmental_protection": 6,
+    "armor": [ { "coverage": 0, "covers": [ "leg_l", "leg_r", "torso", "arm_l", "arm_r", "hand_l", "hand_r", "head", "foot_l", "foot_r", "mouth", "eyes" ] } ],
+    "flags": [ "AURA", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "TRADER_AVOID",  "NONCONDUCTIVE" ],
+    "relic_data": {
+      "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_ELEC" , "multiply": -0.20} ] } ]
+    }
+  },
+  {
+    "id": "PSY_magi_mnecklace_acid_safe_1",
+    "type": "ARMOR",
+    "name": { "str": "산성의 아뮬렛+1[MWMI]" },
+    "description": "마나 크리스탈에 산으로 무늬가 새겨진 부적입니다. 장착하면 산성 피해를 감소시킵니다.",
+    "copy-from": "PSY_magi_mnecklace_safe_1",
+    "price_postapoc": "6000 USD",
+    "material": [ "gold" ],
+    "environmental_protection": 8,
+    "armor": [ { "coverage": 0, "covers": [ "leg_l", "leg_r", "torso", "arm_l", "arm_r", "hand_l", "hand_r", "head", "foot_l", "foot_r", "mouth", "eyes" ] } ],
+    "flags": [ "AURA", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "TRADER_AVOID", "NONCONDUCTIVE" ],
+    "relic_data": {
+      "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_ACID" , "multiply": -0.20} ] } ]
+    }
+  },
+  {
+    "id": "PSY_magi_bracelet_attack_cost_minor",
+    "type": "ARMOR",
+    "name": { "str": "순격의 팔찌+1[MWMI]" },
+    "description": "본 적 없는 문자가 새겨진 구리 팔찌입니다. 이것을 착용하면 근접 공격 코스트를 낮추는 효과가 발동합니다.",
+    "copy-from": "copper_bracelet",
+    "price_postapoc": "3000 USD",
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ATTACK_COST", "multiply": -0.10 } ] } ] }
+  },
+  {
+    "id": "PSY_magi_bracelet_attack_cost_lesser",
+    "type": "ARMOR",
+    "name": { "str": "순격의 팔찌+2[MWMI]" },
+    "description": "본 적 없는 문자가 새겨진 은 팔찌입니다. 이것을 착용하면 근접 공격 코스트를 낮추는 효과가 발동합니다.",
+    "copy-from": "silver_bracelet",
+    "price_postapoc": "5000 USD",
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ATTACK_COST", "multiply": -0.15 } ] } ] }
+  },
+  {
+    "id": "PSY_magi_bracelet_attack_cost_moderate",
+    "type": "ARMOR",
+    "name": { "str": "순격의 팔찌+3[MWMI]" },
+    "description": "본 적 없는 문자가 새겨진 금 팔찌입니다. 이것을 착용하면 근접 공격 코스트를 낮추는 효과가 발동합니다.",
+    "copy-from": "gold_bracelet",
+    "price_postapoc": "7000 USD",
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ATTACK_COST", "multiply": -0.20 } ] } ] }
+  },
+  {
+    "id": "PSY_magi_bracelet_attack_cost_greater",
+    "type": "ARMOR",
+    "name": { "str": "순격의 팔찌+4[MWMI]" },
+    "description": "본 적 없는 문자가 새겨진 플레티넘 팔찌입니다. 이것을 착용하면 근접 공격 코스트를 낮추는 효과가 발동합니다.",
+    "copy-from": "platinum_bracelet",
+    "price_postapoc": "9000 USD",
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ATTACK_COST", "multiply": -0.25 } ] } ] }
+  }
+]

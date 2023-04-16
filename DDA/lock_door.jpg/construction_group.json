@@ -1,0 +1,22 @@
+[
+  {
+    "type": "construction_group",
+    "id": "lock_door",
+    "name": "금속 문에 자물쇠를 채운다[LD]"
+  },
+  {
+    "type": "construction_group",
+    "id": "lock_door_2",
+    "name": "스윙 도어에 잠금장치 설치[LD]"
+  },
+  {
+    "type": "construction_group",
+    "id": "lock_door_3",
+    "name": "나무 문에 자물쇠를 채운다[LD]"
+  },
+  {
+    "type": "construction_group",
+    "id": "lock_door_4",
+    "name": "ドアスコープ付きの開いた木製ドアに鍵をかける[LD]"
+  }
+]

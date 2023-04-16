@@ -1,0 +1,10 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "KawaiiMaidMod+",
+    "name": "KawaiiMaidMod<color_light_red>+</color>",
+    "authors": "Crimm",
+    "description": "KawaiiMaidMod용 아이템, 직업 등을 추가합니다.",
+    "dependencies": [ "KawaiiMaidMod" ]
+  }
+]

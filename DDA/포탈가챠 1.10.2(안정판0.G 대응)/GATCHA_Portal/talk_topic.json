@@ -1,0 +1,30 @@
+[
+    { 
+    "type": "talk_topic", 
+    "id": "TALK_chocolate", 
+    "dynamic_line": "？",
+    "responses": [ 
+      { "text": "<color_light_red>（초코바를 준다）</color>", "topic": "TALK_chocolate1" }, 
+     { "text": "아무것도 아니야", "topic": "TALK_DONE" } 
+    ] 
+  },
+      { 
+    "type": "talk_topic", 
+    "id": "TALK_chocolate1", 
+    "dynamic_line": "…",
+    "responses": [ 
+      { "text": "<color_light_red>（초코바를 내민다）</color>", "topic": "TALK_chocolate2","condition":  { "u_has_items": { "item": "chocolate", "count": 1 } }, "switch": false, "default": true }, 
+     { "text": "（역시 그만둔다）", "topic": "TALK_DONE" } 
+    ] 
+  },
+    { 
+    "type": "talk_topic", 
+    "id": "TALK_chocolate2", 
+    "dynamic_line": "♪",
+    "responses": [ 
+      { "text": "（먹게 해준다）", "topic": "TALK_DONE","effect": [ {"u_message": "초코바를 맛있게 먹었다.","type": "good","popup": true },{ "npc_add_effect": "ef_fd_ncard_regen" , "duration":1814400  },{ "npc_cast_spell": { "id": "spell_ncard_heal" }, "targeted": true },{ "u_consume_item": "chocolate", "count": 1  } ] }
+    ] 
+  }
+  
+ 
+]

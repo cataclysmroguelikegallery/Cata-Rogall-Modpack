@@ -1,0 +1,39 @@
+  {
+    "id": "PSY_magi_magic_revolver_ver1",
+    "copy-from": "pistol_revolver",
+    "looks_like": "sw_619",
+    "type": "GUN",
+    "name": "마나 카트리지 전용 권총 우눔[MWMI]",
+    "extend": { "flags": [ "MAGIC_FOCUS" ] },
+    "description": "마법사를 위해 설계된 마나 카트리지 탄 전용 권총 우눔 입니다. 이것을 호신용으로 하는 것은 조금 걱정스럽지만 우수한 마법사인 당신이라면 분명 이것을 잘 다룰 수 있을 것입니다.",
+    "weight": "386 g",
+    "volume": "250 ml",
+    "price": 10000,
+    "to_hit": -2,
+    "bashing": 10,
+    "material": [ "steel", "wood" ],
+    "symbol": "(",
+    "color": "dark_gray",
+    "ammo": "PSY_magi_22_magic",
+    "dispersion": 280,
+    "durability": 8,
+    "clip_size": 8,
+    "pocket_data": [ 
+      { "pocket_type": "MAGAZINE",
+        "holster": true, 
+        "rigid": true, 
+        "ammo_restriction": { "PSY_magi_22_magic": 8 },
+        "allowed_speedloaders": [ "PSY_magi_22_magic_speedloader8" ]
+      }
+    ],
+    "valid_mod_locations": [
+      [ "accessories", 2 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]    ]
+  }

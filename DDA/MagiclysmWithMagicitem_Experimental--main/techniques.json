@@ -1,0 +1,39 @@
+[
+  {
+    "type": "technique",
+    "id": "MWMI_SPIN",
+    "name": "회전공격(상시)",
+    "melee_allowed": true,
+    "skill_requirements": [ { "name": "melee", "level": 0 } ],
+    "crit_tec": false,
+    "messages": [ "You swing through %s and everyone nearby", "<npcname> swings through %s and everyone nearby" ],
+    "aoe": "spin",
+    "description": "주변 8칸의 인접한 적을 공격합니다.(상시발동)",
+    "attack_vectors": [ "WEAPON" ]
+  },
+  {
+    "type": "technique",
+    "id": "MWMI_WIDE",
+    "name": "일소공격(상시)",
+    "melee_allowed": true,
+    "skill_requirements": [ { "name": "melee", "level": 0 } ],
+    "crit_tec": false,
+    "weighting": 2,
+    "messages": [ "You swing in a wide arc through %s", "<npcname> swings in a wide arc through %s" ],
+    "aoe": "wide",
+    "description": "부채꼴 모양으로 베기 공격을 합니다.(상시발동)",
+    "attack_vectors": [ "WEAPON" ]
+  },
+  {
+    "type": "technique",
+    "id": "MWMI_IMPALE",
+    "name": "꼬챙이 공격(상시)",
+    "melee_allowed": true,
+    "skill_requirements": [ { "name": "melee", "level": 0 } ],
+    "crit_tec": false,
+    "messages": [ "You pierce straight through %s", "<npcname> pierces through %s" ],
+    "aoe": "impale",
+    "description": "대상과 그 뒤에 있는 적을 공격합니다.(상시발동)",
+    "attack_vectors": [ "WEAPON" ]
+  }
+]

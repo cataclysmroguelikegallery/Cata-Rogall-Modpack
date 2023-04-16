@@ -1,0 +1,56 @@
+[
+	{
+		"id":"ef_ncard_deathcross",
+		"type":"effect_type",
+		"name":[ "파괴의 창" ],
+		"desc":[ "당신은 파괴 되었습니다!" ],
+		"apply_message":"당신은 파괴 되었습니다!",
+		"rating":"bad",
+		"max_duration":"1 s",
+		"max_intensity":1,
+		"int_dur_factor":"1 s",
+		"base_mods":{ "speed_mod": [ -1000 ], "dodge_mod": [ -3 ], "bash_mod": [ -1 ],"hurt_min": [ 350 ], "hurt_chance": [ 0 ] },
+		"show_in_info":true,
+		"flags":[ "EFFECT_IMPEDING" ]
+	}
+,
+	{
+		"id":"ef_ncard_holy",
+		"type":"effect_type",
+		"name":[ "천사의 벌" ],
+		"desc":[ "당신은 축복받았습니다。" ],
+		"apply_message":"당신은 축복받았습니다。",
+		"rating":"bad",
+		"max_duration":"1 m",
+		"max_intensity":1,
+		"base_mods":{ "speed_mod": [ -10 ], "dodge_mod": [ -1 ], "bash_mod": [ -1 ],"hurt_min": [ 2 ], "hurt_chance": [ 0 ] },
+		"show_in_info":true
+	}
+,
+	{
+		"id":"ef_ncard_holy2",
+		"type":"effect_type",
+		"name":[ "천사의 벌" ],
+		"desc":[ "당신은 축복받았습니다。" ],
+		"apply_message":"당신은 축복받았습니다。",
+		"rating":"bad",
+		"max_duration":"1 m",
+		"max_intensity":1,
+		"base_mods":{ "speed_mod": [ -10 ], "dodge_mod": [ -1 ], "bash_mod": [ -1 ],"hurt_min": [ 2 ], "hurt_chance": [ 0 ] },
+		"show_in_info":true
+	}
+,
+	{
+		"id":"ef_ncard_holysword",
+		"type":"effect_type",
+		"name":[ "징벌의 검" ],
+		"rating":"bad",
+		"max_duration":"1 m",
+		"max_intensity":8,
+		"base_mods":{ "speed_mod": [ -50 ], "dodge_mod": [ -3 ], "bash_mod": [ -1 ],"hurt_min": [ 5 ], "hurt_chance": [ 0 ] },
+		"scaling_mods":{ "speed_mod": [ -10 ], "dodge_mod": [ 0 ], "bash_mod": [ 0 ],"hurt_min": [ 5 ], "hurt_chance": [ 0 ] },
+		"show_in_info":true
+	}
+
+
+]

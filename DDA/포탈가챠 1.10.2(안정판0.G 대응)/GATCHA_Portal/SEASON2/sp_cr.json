@@ -1,0 +1,40 @@
+[
+	{
+		"id":"call_crate_s2_",
+		"type":"SPELL",
+		"name":"복권",
+		"description":"무슨 일이 생길지도 몰라요.",
+		"flags":["SILENT", "IGNORE_WALLS" ],
+		"valid_targets":[ "self"],
+		"effect":"effect_on_condition",
+		"effect_str":"EOC_se_ticket",
+		"shape":"blast",
+		"extra_effects":[{"id": "call_crate_s2_1"}],
+		"energy_source":"HP",
+		"base_energy_cost":2,
+		"final_energy_cost":2,
+		"base_casting_time":100,
+		"message":"행운이 찾아온 것 같았다."
+	}
+,
+	{
+		"id":"call_crate_s2_1",
+		"type":"SPELL",
+		"name":"복권",
+		"description":"무슨 일이 생길지도 몰라요.",
+		"flags":["SILENT", "IGNORE_WALLS" ],
+		"valid_targets":[ "ground" ],
+		"effect":"ter_transform",
+		"effect_str":"place_crate_s2_rare0",
+		"shape":"blast",
+		"energy_source":"HP",
+		"base_energy_cost":2,
+		"final_energy_cost":2,
+		"base_casting_time":0,
+		"min_aoe":3,
+		"max_aoe":3,
+		"message":"행운이 찾아온 것 같았다."
+	}
+
+
+]

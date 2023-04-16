@@ -1,0 +1,147 @@
+[
+	{
+		"id":"ncard_ev1_r4_no_01",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r4",
+		"name":{"str": "<color_light_cyan>무지개 카드(소환/No.23 산타 클로스)</color>","str_pl":"<color_light_cyan>무지개 카드(소환/No.23 산타 클로스)</color>"},
+		"description":"<color_light_cyan>신성하게 반짝이는 카드입니다. 포털 건너편에서 고위 존재를 불러옵니다. 소멸되면 카드가 재출현하여 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"light_cyan",
+		"use_action":[{ "type": "place_monster", "monster_id": "mon_ncard_ev1_r4_no_01", "difficulty": 0, "moves": 0,"friendly_msg": "이계의 존재가 소환 되었습니다. ","place_randomly": true,"skills": [ "fabrication" ],"is_pet": true }],
+		"price":1
+	}
+,
+	{
+		"id":"ncard_ev1_r4_no_02",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r4",
+		"name":{"str": "<color_light_cyan>무지개 카드(소환/No.24 산타 클로스)</color>","str_pl":"<color_light_cyan>무지개 카드(소환/No.24 산타 클로스)</color>"},
+		"description":"<color_light_cyan>신성하게 반짝이는 카드입니다. 포털 건너편에서 고위 존재를 불러옵니다. 소멸되면 카드가 재출현하여 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"light_cyan",
+		"use_action":[{ "type": "place_monster", "monster_id": "mon_ncard_ev1_r4_no_02", "difficulty": 0, "moves": 0,"friendly_msg": "이계의 존재가 소환 되었습니다. ","place_randomly": true,"skills": [ "fabrication" ],"is_pet": true }],
+		"price":1
+	}
+,
+	{
+		"id":"ncard_ev2_r4_no_01",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r4",
+		"name":{"str": "<color_light_cyan>무지개 카드(소환/No.29 호랑이 소녀)</color>","str_pl":"<color_light_cyan>무지개 카드(소환/No.29 호랑이 소녀)</color>"},
+		"description":"<color_light_cyan>신성하게 반짝이는 카드입니다. 포털 건너편에서 고위 존재를 불러옵니다. 소멸되면 카드가 재출현하여 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"light_cyan",
+		"use_action":[{ "type": "place_monster", "monster_id": "mon_ncard_ev2_r4_no_01", "difficulty": 0, "moves": 0,"friendly_msg": "이계의 존재가 소환 되었습니다. ","place_randomly": true,"skills": [ "fabrication" ],"is_pet": true }],
+		"price":1
+	}
+,
+	{
+		"id":"ncard_ev2_r4_no_02",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r4",
+		"name":{"str": "<color_light_cyan>무지개 카드(소환/No.30 호랑이 소녀)</color>","str_pl":"<color_light_cyan>무지개 카드(소환/No.30 호랑이 소녀)</color>"},
+		"description":"<color_light_cyan>신성하게 반짝이는 카드입니다. 포털 건너편에서 고위 존재를 불러옵니다. 소멸되면 카드가 재출현하여 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"light_cyan",
+		"use_action":[{ "type": "place_monster", "monster_id": "mon_ncard_ev2_r4_no_02", "difficulty": 0, "moves": 0,"friendly_msg": "이계의 존재가 소환 되었습니다. ","place_randomly": true,"skills": [ "fabrication" ],"is_pet": true }],
+		"price":1
+	}
+,
+	{
+		"id":"ncard_ev3_r4_no_01",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r4",
+		"name":{"str": "<color_light_cyan>무지개 카드(소환/No.35 검성)</color>","str_pl":"<color_light_cyan>무지개 카드(소환/No.35 검성)</color>"},
+		"description":"<color_light_cyan>신성하게 반짝이는 카드입니다. 포털 건너편에서 고위 존재를 불러옵니다. 소멸되면 카드가 재출현하여 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"light_cyan",
+		"use_action":[{ "type": "place_monster", "monster_id": "mon_ncard_ev3_r4_no_01", "difficulty": 0, "moves": 0,"friendly_msg": "이계의 존재가 소환 되었습니다. ","place_randomly": true,"skills": [ "fabrication" ],"is_pet": true }],
+		"price":1
+	}
+,
+	{
+		"id":"ncard_ev3_r4_no_02",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r4",
+		"name":{"str": "<color_light_cyan>무지개 카드(소환/No.36 검성)</color>","str_pl":"<color_light_cyan>무지개 카드(소환/No.36 검성)</color>"},
+		"description":"<color_light_cyan>신성하게 반짝이는 카드입니다. 포털 건너편에서 고위 존재를 불러옵니다. 소멸되면 카드가 재출현하여 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"light_cyan",
+		"use_action":[{ "type": "place_monster", "monster_id": "mon_ncard_ev3_r4_no_02", "difficulty": 0, "moves": 0,"friendly_msg": "이계의 존재가 소환 되었습니다. ","place_randomly": true,"skills": [ "fabrication" ],"is_pet": true }],
+		"price":1
+	}
+,
+	{
+		"id":"ncard_ev4_r4_no_01",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r4",
+		"name":{"str": "<color_light_cyan>무지개 카드(소환/No.41 행상인)</color>","str_pl":"<color_light_cyan>무지개 카드(소환/No.41 행상인)</color>"},
+		"description":"<color_light_cyan>신성하게 반짝이는 카드입니다. 포털 건너편에서 고위 존재를 불러옵니다. 소멸되면 카드가 재출현하여 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"light_cyan",
+		"use_action":[{ "type": "place_monster", "monster_id": "mon_ncard_ev4_r4_no_01", "difficulty": 0, "moves": 0,"friendly_msg": "이계의 존재가 소환 되었습니다. ","place_randomly": true,"skills": [ "fabrication" ],"is_pet": true }],
+		"price":1
+	}
+,
+	{
+		"id":"ncard_ev4_r4_no_02",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r4",
+		"name":{"str": "<color_light_cyan>무지개 카드(소환/No.42 행상인)</color>","str_pl":"<color_light_cyan>무지개 카드(소환/No.42 행상인)</color>"},
+		"description":"<color_light_cyan>신성하게 반짝이는 카드입니다. 포털 건너편에서 고위 존재를 불러옵니다. 소멸되면 카드가 재출현하여 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"light_cyan",
+		"use_action":[{ "type": "place_monster", "monster_id": "mon_ncard_ev4_r4_no_02", "difficulty": 0, "moves": 0,"friendly_msg": "이계의 존재가 소환 되었습니다. ","place_randomly": true,"skills": [ "fabrication" ],"is_pet": true }],
+		"price":1
+	}
+,
+	{
+		"id":"ncard_ev5_r4_no_01",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r4",
+		"name":{"str": "<color_light_cyan>무지개 카드(소환/No.49 상급 몽마)</color>","str_pl":"<color_light_cyan>무지개 카드(소환/No.49 상급 몽마)</color>"},
+		"description":"<color_light_cyan>신성하게 반짝이는 카드입니다. 포털 건너편에서 고위 존재를 불러옵니다. 소멸되면 카드가 재출현하여 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"light_cyan",
+		"use_action":[{ "type": "place_monster", "monster_id": "mon_ncard_ev5_r4_no_01", "difficulty": 0, "moves": 0,"friendly_msg": "이계의 존재가 소환 되었습니다. ","place_randomly": true,"skills": [ "fabrication" ],"is_pet": true }],
+		"price":1
+	}
+,
+	{
+		"id":"ncard_ev5_r4_no_02",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r4",
+		"name":{"str": "<color_light_cyan>무지개 카드(소환/No.50 상급 몽마)</color>","str_pl":"<color_light_cyan>무지개 카드(소환/No.50 상급 몽마)</color>"},
+		"description":"<color_light_cyan>신성하게 반짝이는 카드입니다. 포털 건너편에서 고위 존재를 불러옵니다. 소멸되면 카드가 재출현하여 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"light_cyan",
+		"use_action":[{ "type": "place_monster", "monster_id": "mon_ncard_ev5_r4_no_02", "difficulty": 0, "moves": 0,"friendly_msg": "이계의 존재가 소환 되었습니다. ","place_randomly": true,"skills": [ "fabrication" ],"is_pet": true }],
+		"price":1
+	}
+,
+	{
+		"id":"ncard_ev6_r4_no_01",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r4",
+		"name":{"str": "<color_light_cyan>무지개 카드(소환/No.55 토끼 소녀)</color>","str_pl":"<color_light_cyan>무지개 카드(소환/No.55 토끼 소녀)</color>"},
+		"description":"<color_light_cyan>신성하게 반짝이는 카드입니다. 포털 건너편에서 고위 존재를 불러옵니다. 소멸되면 카드가 재출현하여 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"light_cyan",
+		"use_action":[{ "type": "place_monster", "monster_id": "mon_ncard_ev6_r4_no_01", "difficulty": 0, "moves": 0,"friendly_msg": "이계의 존재가 소환 되었습니다. ","place_randomly": true,"skills": [ "fabrication" ],"is_pet": true }],
+		"price":1
+	}
+,
+	{
+		"id":"ncard_ev6_r4_no_02",
+		"type":"GENERIC",
+		"copy-from":"ncard_base_r4",
+		"name":{"str": "<color_light_cyan>무지개 카드(소환/No.56 토끼 소녀)</color>","str_pl":"<color_light_cyan>무지개 카드(소환/No.56 토끼 소녀)</color>"},
+		"description":"<color_light_cyan>신성하게 반짝이는 카드입니다. 포털 건너편에서 고위 존재를 불러옵니다. 소멸되면 카드가 재출현하여 시간 경과 또는 활력 충전을 통해 다시 사용할 수 있습니다. </color>",
+		"symbol":"i",
+		"color":"light_cyan",
+		"use_action":[{ "type": "place_monster", "monster_id": "mon_ncard_ev6_r4_no_02", "difficulty": 0, "moves": 0,"friendly_msg": "이계의 존재가 소환 되었습니다. ","place_randomly": true,"skills": [ "fabrication" ],"is_pet": true }],
+		"price":1
+	}
+
+
+]

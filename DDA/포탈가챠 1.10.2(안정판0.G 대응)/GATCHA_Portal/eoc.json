@@ -1,0 +1,41 @@
+[
+	{
+		"id":"eoc_ncard_bin_prism",
+		"type":"effect_on_condition",
+		"recurrence":[ "144 minutes", "144 minutes" ],
+		"global":true,
+		"condition":{ "u_has_any_trait": [ "mutate_ncard_bin_prism" ] },
+		"effect":[{ "u_spawn_item": "ncard_misc_powder_dimension","count": 1 }]
+	}
+,
+	{
+		"id":"eoc_ncard_regen",
+		"type":"effect_on_condition",
+		"recurrence":[ "1 minutes", "1 minutes" ],
+		"run_for_npcs":false,
+		"condition":{ "u_has_effect": "ef_fd_ncard_regen" },
+		"effect":[{ "u_mod_healthy": 100,"cap": 300 }]
+	}
+,
+	{
+		"id":"morale_ncard",
+		"type":"morale_type",
+		"text":"친밀한 접촉을 했다"
+	}
+,
+	{
+		"id":"morale_ncard_k",
+		"type":"morale_type",
+		"text":"맹세를 주고받았다"
+	}
+,
+	{
+		"id":"eic_ncard_bin_prism_equip",
+		"type":"effect_on_condition",
+		"global":true,
+		"condition":{ "u_has_item": "ncard_misc_bin_prism_2" },
+		"effect":[{ "u_add_trait": "mutate_ncard_bin_prism" }]
+	}
+
+
+]

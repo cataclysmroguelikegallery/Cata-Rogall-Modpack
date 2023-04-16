@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "Magiclysm_With_Magicitem",
+    "name": "추가 - Magiclysm_With_Magicitem",
+    "authors": [ "YasuYasu" ],
+    "description": "Magiclysm의 애드온, 마법의 총이나 마법 액세서리 등 마법사를 지원하는 아이템을 추가합니다. 이 mod의 아이템은 아이템명 끝에 [MWA]라고 붙습니다.",
+    "category": "content",
+    "dependencies": [ "dda","magiclysm" ]
+  }
+]

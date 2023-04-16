@@ -1,0 +1,17 @@
+[
+  {
+    "id": "mon_claygolem_weak",
+    "type": "MONSTER",
+    "name": "불완전한 점토 골렘",
+    "copy-from": "mon_claygolem",
+    "description": "점토로 만든 인간형 골렘입니다. 하지만 불완전해서인지 어딘지 모르게 불안정해 보입니다.",
+    "proportional": { 
+      "hp": 0.6,
+      "speed": 0.8,
+      "armor_bash": 0.8,
+      "armor_cut": 0.8,
+      "armor_bullet": 0.8
+
+    }
+  }
+]

@@ -1,0 +1,163 @@
+[
+	{
+		"id":"spell_mon_ncard_ev4_r3_no_base_dr",
+		"type":"SPELL",
+		"name":{ "str": "해고" },
+		"description":"해고합니다",
+		"valid_targets":[ "self","ally" ],
+		"effect":"targeted_polymorph",
+		"min_damage":2000,
+		"max_damage":2000,
+		"min_range":70,
+		"flags":[ "NO_FAIL","SILENT","NO_PROJECTILE" ],
+		"shape":"blast",
+		"effect_str":"mon_ncard_ev4_r3_no_base_dr",
+		"targeted_monster_ids":"mon_ncard_ev4_r3_no_base_dr_em"
+	}
+,
+	{
+		"id":"spell_mon_ncard_ev4_r3_no_01_dr",
+		"type":"SPELL",
+		"name":{ "str": "해고" },
+		"description":"해고합니다",
+		"valid_targets":[ "self","ally" ],
+		"effect":"targeted_polymorph",
+		"min_damage":2000,
+		"max_damage":2000,
+		"min_range":70,
+		"flags":[ "NO_FAIL","SILENT","NO_PROJECTILE" ],
+		"shape":"blast",
+		"effect_str":"mon_ncard_ev4_r3_no_01_dr",
+		"targeted_monster_ids":"mon_ncard_ev4_r3_no_01_dr_em"
+	}
+,
+	{
+		"id":"spell_mon_ncard_ev4_r3_no_02_dr",
+		"type":"SPELL",
+		"name":{ "str": "해고" },
+		"description":"해고합니다",
+		"valid_targets":[ "self","ally" ],
+		"effect":"targeted_polymorph",
+		"min_damage":2000,
+		"max_damage":2000,
+		"min_range":70,
+		"flags":[ "NO_FAIL","SILENT","NO_PROJECTILE" ],
+		"shape":"blast",
+		"effect_str":"mon_ncard_ev4_r3_no_02_dr",
+		"targeted_monster_ids":"mon_ncard_ev4_r3_no_02_dr_em"
+	}
+,
+	{
+		"id":"spell_mon_ncard_ev4_r3_no_03_dr",
+		"type":"SPELL",
+		"name":{ "str": "해고" },
+		"description":"해고합니다",
+		"valid_targets":[ "self","ally" ],
+		"effect":"targeted_polymorph",
+		"min_damage":2000,
+		"max_damage":2000,
+		"min_range":70,
+		"flags":[ "NO_FAIL","SILENT","NO_PROJECTILE" ],
+		"shape":"blast",
+		"effect_str":"mon_ncard_ev4_r3_no_03_dr",
+		"targeted_monster_ids":"mon_ncard_ev4_r3_no_03_dr_em"
+	}
+,
+	{
+		"id":"spell_mon_ncard_ev4_r3_no_04_dr",
+		"type":"SPELL",
+		"name":{ "str": "해고" },
+		"description":"해고합니다",
+		"valid_targets":[ "self","ally" ],
+		"effect":"targeted_polymorph",
+		"min_damage":2000,
+		"max_damage":2000,
+		"min_range":70,
+		"flags":[ "NO_FAIL","SILENT","NO_PROJECTILE" ],
+		"shape":"blast",
+		"effect_str":"mon_ncard_ev4_r3_no_04_dr",
+		"targeted_monster_ids":"mon_ncard_ev4_r3_no_04_dr_em"
+	}
+,
+	{
+		"id":"spell_mon_ncard_ev4_r3_no_05_dr",
+		"type":"SPELL",
+		"name":{ "str": "해고" },
+		"description":"해고합니다",
+		"valid_targets":[ "self","ally" ],
+		"effect":"targeted_polymorph",
+		"min_damage":2000,
+		"max_damage":2000,
+		"min_range":70,
+		"flags":[ "NO_FAIL","SILENT","NO_PROJECTILE" ],
+		"shape":"blast",
+		"effect_str":"mon_ncard_ev4_r3_no_05_dr",
+		"targeted_monster_ids":"mon_ncard_ev4_r3_no_05_dr_em"
+	}
+,
+	{
+		"id":"spell_mon_ncard_ev4_r3_no_06_dr",
+		"type":"SPELL",
+		"name":{ "str": "해고" },
+		"description":"해고합니다",
+		"valid_targets":[ "self","ally" ],
+		"effect":"targeted_polymorph",
+		"min_damage":2000,
+		"max_damage":2000,
+		"min_range":70,
+		"flags":[ "NO_FAIL","SILENT","NO_PROJECTILE" ],
+		"shape":"blast",
+		"effect_str":"mon_ncard_ev4_r3_no_06_dr",
+		"targeted_monster_ids":"mon_ncard_ev4_r3_no_06_dr_em"
+	}
+,
+	{
+		"id":"spell_mon_ncard_ev4_r4_no_base_dr",
+		"type":"SPELL",
+		"name":{ "str": "해고" },
+		"description":"해고합니다",
+		"valid_targets":[ "self","ally" ],
+		"effect":"targeted_polymorph",
+		"min_damage":2000,
+		"max_damage":2000,
+		"min_range":70,
+		"flags":[ "NO_FAIL","SILENT","NO_PROJECTILE" ],
+		"shape":"blast",
+		"effect_str":"mon_ncard_ev4_r4_no_base_dr",
+		"targeted_monster_ids":"mon_ncard_ev4_r4_no_base_dr_em"
+	}
+,
+	{
+		"id":"spell_mon_ncard_ev4_r4_no_01_dr",
+		"type":"SPELL",
+		"name":{ "str": "해고" },
+		"description":"해고합니다",
+		"valid_targets":[ "self","ally" ],
+		"effect":"targeted_polymorph",
+		"min_damage":2000,
+		"max_damage":2000,
+		"min_range":70,
+		"flags":[ "NO_FAIL","SILENT","NO_PROJECTILE" ],
+		"shape":"blast",
+		"effect_str":"mon_ncard_ev4_r4_no_01_dr",
+		"targeted_monster_ids":"mon_ncard_ev4_r4_no_01_dr_em"
+	}
+,
+	{
+		"id":"spell_mon_ncard_ev4_r4_no_02_dr",
+		"type":"SPELL",
+		"name":{ "str": "해고" },
+		"description":"해고합니다",
+		"valid_targets":[ "self","ally" ],
+		"effect":"targeted_polymorph",
+		"min_damage":2000,
+		"max_damage":2000,
+		"min_range":70,
+		"flags":[ "NO_FAIL","SILENT","NO_PROJECTILE" ],
+		"shape":"blast",
+		"effect_str":"mon_ncard_ev4_r4_no_02_dr",
+		"targeted_monster_ids":"mon_ncard_ev4_r4_no_02_dr_em"
+	}
+
+
+]

@@ -1,0 +1,27 @@
+[
+	{
+		"name":"GROUP_NCARD_S2",
+		"type":"monstergroup",
+		"default":"mon_blank",
+		"monsters":[{ "monster": "mon_blank", "freq": 1, "cost_multiplier": 100 },
+{ "monster": "mon_en_ncard_s2_r3_no_01", "freq": 100, "cost_multiplier": 100 },
+{ "monster": "mon_en_ncard_s2_r3_no_02", "freq": 50, "cost_multiplier": 100 },
+{ "monster": "mon_en_ncard_s2_r3_no_03", "freq": 100, "cost_multiplier": 100 }]
+	}
+,
+	{
+		"name":"GROUP_FOREST",
+		"type":"monstergroup",
+		"monsters":[ { "group": "GROUP_FOREST_pd", "weight": 1 } ]
+	}
+,
+	{
+		"name":"GROUP_FOREST_pd",
+		"type":"monstergroup",
+		"monsters":[{ "monster": "mon_null", "weight": 988 },
+  { "monster": "mon_en_ncard_s2_r3_no_03_f", "weight": 10, "cost_multiplier": 10 },
+{ "monster": "mon_en_ncard_s2_r3_no_02_f", "weight": 0, "cost_multiplier": 3 }]
+	}
+
+
+]

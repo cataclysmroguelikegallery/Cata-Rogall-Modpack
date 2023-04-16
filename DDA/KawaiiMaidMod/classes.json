@@ -1,0 +1,67 @@
+[
+  {
+    "type": "profession",
+    "ident": "kawaii_maid",
+    "name": "メイド(kawaii)",
+    "description": "大きなお屋敷で働いていましたが、大変動の日の後、雇い主一家は自分だけを除け者にして、どことも知れぬ場所へ長期旅行に出かけてしまいました。ただ、神は彼女を見捨ててはいなかった様です。眼前に広がるのは汚れた家屋、散らかった街。仕事を始めましょう。",
+    "points": 1,
+    "skills": [ { "level": 2, "name": "cooking" }, { "level": 1, "name": "driving" }, { "level": 2, "name": "tailor" } ],
+    "items": {
+      "both": [ "pocketwatch", "knife_steak" ],
+      "male": [
+        "briefs",
+        "kawaii_maid_niso_thick",
+        "kawaii_maid_dress",
+        "kawaii_maid_hat",
+        "kawaii_gloves_light",
+        "kawaii_dress_shoes"
+      ],
+      "female": [
+        "kawaii_maid_panties",
+        "kawaii_maid_bra",
+        "kawaii_maid_niso_thick",
+        "kawaii_maid_dress",
+        "kawaii_maid_hat",
+        "kawaii_gloves_light",
+        "kawaii_dress_shoes"
+      ]
+    }
+  },
+  {
+    "type": "profession",
+    "ident": "kawaii_priest",
+    "name": "시스터(kawaii)",
+    "description": "지하 깊은 교회 시설에서 몇 달 동안 주님께 기도하고 있을 때, 세상은 완전히 변해 있었습니다. 하지만 비관할 필요는 없습니다, 주님을 잃을 일은 없으니까요. ...자, 우선 기도부터 할까요?",
+    "points": 0,
+    "skills": [ { "level": 3, "name": "speech" } ],
+    "items": {
+      "both": [ "kawaii_sister_veil", "socks", "dress_shoes", "kawaii_sister_dress", "holy_symbol" ],
+      "male": [ "briefs" ],
+      "female": [ "kawaii_maid_panties", "kawaii_maid_bra" ]
+    }
+  },
+  {
+    "type": "profession",
+    "ident": "kawaii_student",
+    "name": "학생(kawaii)",
+    "description": "대공황 이전에는 학교가 매일 쉬었으면 좋겠다고 생각했는데, 이제야 실현된 것 같습니다.",
+    "points": 0,
+    "skills": [ { "level": 3, "name": "speech" } ],
+    "items": {
+      "both": [
+        "kawaii_maid_megane_02",
+        "kawaii_socks_white",
+        "kawaii_sailor_fuku",
+        "kawaii_loafer",
+        "ZSG",
+        "backpack",
+        "textbook_speech",
+        "story_book",
+        "howto_computer",
+        "novel_coa"
+      ],
+      "male": [ "boxer_shorts" ],
+      "female": [ "kawaii_maid_simapan_pink", "kawaii_maid_simabura_pink" ]
+    }
+  }
+]

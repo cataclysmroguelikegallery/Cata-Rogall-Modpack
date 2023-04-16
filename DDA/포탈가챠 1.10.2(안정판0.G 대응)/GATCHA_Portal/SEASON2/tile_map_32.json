@@ -1,0 +1,70 @@
+[
+		
+		
+		{
+		"type": "mod_tileset","compatibility": [
+		"Custom Tileset",
+		"MshockXottoplus",
+		"MSX++DEAD_PEOPLE",
+		"UNDEAD_PEOPLE",
+		"ChestHole32",
+		"UNDEAD_PEOPLE_BASE",
+		"UltimateCataclysm",
+		"UltimateCataclysmDemo",
+		"Chibi_Ultica",
+		"MshockXottoplus",
+		"Alternative Ultica",
+		"MshockXottoplus"
+		],
+		"tiles-new": [
+		{
+		"file": "SEASON2/tile_config_GATCHA_s2_32x32.png",
+		"tiles": [
+		{ "id": "map_ncard_s2_base", "fg":33, "rotates": false },
+		
+		{ "id": "t_ncard_s2_wall", "fg":23, "multitile": true,"additional_tiles":  [  {  "id": "center",  "fg": 23},
+		{ "id": "corner", "fg": [ 23,23,23,23] },
+		{ "id": "t_connection", "fg": [ 23,23,23,23] },
+		{ "id": "edge", "fg": [23,23] },
+		{ "id": "end_piece", "fg": [ 23,23,23,23] },
+		{ "id": "unconnected", "fg": [23,23] } ] },
+		
+		{ "id": "t_ncard_s2_glass", "fg":22, "multitile": true,"additional_tiles":  [  {  "id": "center",  "fg": 22},
+		{ "id": "corner", "fg": [ 22,22,22,22] },
+		{ "id": "t_connection", "fg": [ 22,22,22,22] },
+		{ "id": "edge", "fg": [22,22] },
+		{ "id": "end_piece", "fg": [ 22,22,22,22] },
+		{ "id": "unconnected", "fg": [22,22] } ] },
+		
+		{ "id": "t_ncard_s2_roof", "fg":22, "rotates": false },
+		
+		{ "id": "t_ncard_s2_floor", "fg":21, "rotates": false },
+		
+		{ "id": "t_ncard_s2_floor2", "fg":32, "rotates": false },
+		
+		{ "id": "t_ncard_s2_switch", "fg":29, "rotates": false },
+		{ "id": "t_ncard_s2_switch2", "fg":30, "rotates": false },
+		{ "id": "t_ncard_s2_danger", "fg":31, "rotates": false },
+		
+		{ "id": "ncard_misc_s2_keystone", "fg":9, "rotates": false },
+		{ "id": "ncard_misc_s2_keystone_1", "fg":10, "rotates": false },
+		{ "id": "ncard_misc_s2_keystone_2", "fg":11, "rotates": false },
+		
+		{ "id": "mon_ncard_s2_r3_bit", "fg":12, "rotates": false },
+		
+		{ "id": "explosion_spell_ncard_s2_shot", "fg":8, "rotates": false },
+		{ "id": "explosion_spell_ncard_s2_shot2", "fg":8, "rotates": false },
+		{ "id": "explosion_spell_ncard_s2_bit", "fg":0, "rotates": false }
+		
+		],
+		"sprite_width": 32,
+		"sprite_height": 32,
+		"sprite_offset_x": 0,
+		"sprite_offset_y": 0
+		      }
+		
+		    ]
+		  }
+
+
+]

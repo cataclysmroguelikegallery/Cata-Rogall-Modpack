@@ -1,0 +1,418 @@
+[
+  {
+    "//1": "魔力の指輪LV2の合成レシピ(力の指輪LV1を2つを使う)",
+    "type": "recipe",
+    "activity_level": "fake",
+    "result": "mring_wizardry_lesser",
+    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
+    "time": "30 m",
+    "skill_used": "spellcraft",
+    "difficulty": 2,
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_OTHER",
+    "autolearn": true,
+    "components": [ 
+      [ [ "mring_wizardry_minor", 2 ] ]
+    ]
+  },
+  {
+    "//1": "魔力の指輪LV3の合成レシピ(力の指輪LV2を2つを使う)",
+    "type": "recipe",
+    "activity_level": "fake",
+    "result": "mring_wizardry_moderate",
+    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
+    "time": "30 m",
+    "skill_used": "spellcraft",
+    "difficulty": 4,
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_OTHER",
+    "autolearn": true,
+    "components": [ 
+      [ [ "mring_wizardry_lesser", 2 ] ]
+    ]
+  },
+  {
+    "//1": "魔力の指輪LV4の合成レシピ(力の指輪LV3を2つを使う)",
+    "type": "recipe",
+    "activity_level": "fake",
+    "result": "mring_wizardry_greater",
+    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
+    "time": "30 m",
+    "skill_used": "spellcraft",
+    "difficulty": 6,
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_OTHER",
+    "autolearn": true,
+    "components": [ 
+      [ [ "mring_wizardry_moderate", 2 ] ]
+    ]
+  },
+  {
+    "//1": "双頭ウナギの合成レシピ(ウナギの指輪を2つを使う)",
+    "type": "recipe",
+    "activity_level": "fake",
+    "result": "mring_dodge_bonus_2",
+    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
+    "time": "30 m",
+    "skill_used": "spellcraft",
+    "difficulty": 4,
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_OTHER",
+    "autolearn": true,
+    "components": [ 
+      [ [ "mring_dodge_bonus_1", 2 ] ]
+    ]
+  },
+  {
+    "//1": "筋力の指輪+2の合成レシピ(筋力の指輪+1を2つを使う)",
+    "type": "recipe",
+    "activity_level": "fake",
+    "result": "mring_strength_2",
+    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
+    "time": "30 m",
+    "skill_used": "spellcraft",
+    "difficulty": 2,
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_OTHER",
+    "autolearn": true,
+    "components": [ 
+      [ [ "mring_strength_1", 2 ] ]
+    ]
+  },
+  {
+    "//1": "筋力の指輪+3の合成レシピ(筋力の指輪+2を2つを使う)",
+    "type": "recipe",
+    "activity_level": "fake",
+    "result": "mring_strength_3",
+    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
+    "time": "30 m",
+    "skill_used": "spellcraft",
+    "difficulty": 4,
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_OTHER",
+    "autolearn": true,
+    "components": [ 
+      [ [ "mring_strength_2", 2 ] ]
+    ]
+  },
+  {
+    "//1": "筋力の指輪+4の合成レシピ(筋力の指輪+3を2つを使う)",
+    "type": "recipe",
+    "activity_level": "fake",
+    "result": "mring_strength_4",
+    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
+    "time": "30 m",
+    "skill_used": "spellcraft",
+    "difficulty": 6,
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_OTHER",
+    "autolearn": true,
+    "components": [ 
+      [ [ "mring_strength_3", 2 ] ]
+    ]
+  },
+  {
+    "//1": "器用の指輪+2の合成レシピ(器用の指輪+1を2つを使う)",
+    "type": "recipe",
+    "activity_level": "fake",
+    "result": "mring_dexterity_2",
+    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
+    "time": "30 m",
+    "skill_used": "spellcraft",
+    "difficulty": 2,
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_OTHER",
+    "autolearn": true,
+    "components": [ 
+      [ [ "mring_dexterity_1", 2 ] ]
+    ]
+  },
+  {
+    "//1": "器用の指輪+3の合成レシピ(器用の指輪+2を2つを使う)",
+    "type": "recipe",
+    "activity_level": "fake",
+    "result": "mring_dexterity_3",
+    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
+    "time": "30 m",
+    "skill_used": "spellcraft",
+    "difficulty": 4,
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_OTHER",
+    "autolearn": true,
+    "components": [ 
+      [ [ "mring_dexterity_2", 2 ] ]
+    ]
+  },
+  {
+    "//1": "器用の指輪+4の合成レシピ(器用の指輪+3を2つを使う)",
+    "type": "recipe",
+    "activity_level": "fake",
+    "result": "mring_dexterity_4",
+    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
+    "time": "30 m",
+    "skill_used": "spellcraft",
+    "difficulty": 6,
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_OTHER",
+    "autolearn": true,
+    "components": [ 
+      [ [ "mring_dexterity_3", 2 ] ]
+    ]
+  },
+  {
+    "//1": "知性の指輪+2の合成レシピ(知性の指輪+1を2つを使う)",
+    "type": "recipe",
+    "activity_level": "fake",
+    "result": "mring_intelligence_2",
+    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
+    "time": "30 m",
+    "skill_used": "spellcraft",
+    "difficulty": 2,
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_OTHER",
+    "autolearn": true,
+    "components": [ 
+      [ [ "mring_intelligence_1", 2 ] ]
+    ]
+  },
+  {
+    "//1": "知性の指輪+3の合成レシピ(器用の指輪+2を2つを使う)",
+    "type": "recipe",
+    "activity_level": "fake",
+    "result": "mring_intelligence_3",
+    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
+    "time": "30 m",
+    "skill_used": "spellcraft",
+    "difficulty": 4,
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_OTHER",
+    "autolearn": true,
+    "components": [ 
+      [ [ "mring_intelligence_2", 2 ] ]
+    ]
+  },
+  {
+    "//1": "知性の指輪+4の合成レシピ(器用の指輪+3を2つを使う)",
+    "type": "recipe",
+    "activity_level": "fake",
+    "result": "mring_intelligence_4",
+    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
+    "time": "30 m",
+    "skill_used": "spellcraft",
+    "difficulty": 6,
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_OTHER",
+    "autolearn": true,
+    "components": [ 
+      [ [ "mring_intelligence_3", 2 ] ]
+    ]
+  },
+  {
+    "//1": "知性の指輪+2の合成レシピ(知性の指輪+1を2つを使う)",
+    "type": "recipe",
+    "activity_level": "fake",
+    "result": "mring_intelligence_2",
+    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
+    "time": "30 m",
+    "skill_used": "spellcraft",
+    "difficulty": 2,
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_OTHER",
+    "autolearn": true,
+    "components": [ 
+      [ [ "mring_intelligence_1", 2 ] ]
+    ]
+  },
+  {
+    "//1": "知性の指輪+3の合成レシピ(器用の指輪+2を2つを使う)",
+    "type": "recipe",
+    "activity_level": "fake",
+    "result": "mring_intelligence_3",
+    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
+    "time": "30 m",
+    "skill_used": "spellcraft",
+    "difficulty": 4,
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_OTHER",
+    "autolearn": true,
+    "components": [ 
+      [ [ "mring_intelligence_2", 2 ] ]
+    ]
+  },
+  {
+    "//1": "知性の指輪+4の合成レシピ(器用の指輪+3を2つを使う)",
+    "type": "recipe",
+    "activity_level": "fake",
+    "result": "mring_intelligence_4",
+    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
+    "time": "30 m",
+    "skill_used": "spellcraft",
+    "difficulty": 6,
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_OTHER",
+    "autolearn": true,
+    "components": [ 
+      [ [ "mring_dexterity_3", 2 ] ]
+    ]
+  },
+  {
+    "//1": "感覚の指輪+2の合成レシピ(感覚の指輪+1を2つを使う)",
+    "type": "recipe",
+    "activity_level": "fake",
+    "result": "mring_perception_2",
+    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
+    "time": "30 m",
+    "skill_used": "spellcraft",
+    "difficulty": 2,
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_OTHER",
+    "autolearn": true,
+    "components": [ 
+      [ [ "mring_perception_1", 2 ] ]
+    ]
+  },
+  {
+    "//1": "感覚の指輪+3の合成レシピ(感覚の指輪+2を2つを使う)",
+    "type": "recipe",
+    "activity_level": "fake",
+    "result": "mring_perception_3",
+    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
+    "time": "30 m",
+    "skill_used": "spellcraft",
+    "difficulty": 4,
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_OTHER",
+    "autolearn": true,
+    "components": [ 
+      [ [ "mring_perception_2", 2 ] ]
+    ]
+  },
+  {
+    "//1": "感覚の指輪+4の合成レシピ(感覚の指輪+3を2つを使う)",
+    "type": "recipe",
+    "activity_level": "fake",
+    "result": "mring_perception_4",
+    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
+    "time": "30 m",
+    "skill_used": "spellcraft",
+    "difficulty": 6,
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_OTHER",
+    "autolearn": true,
+    "components": [ 
+      [ [ "mring_perception_3", 2 ] ]
+    ]
+  },
+  {
+    "//1": "速度の指輪+5の合成レシピ(速度の指輪+3を2つを使う)",
+    "type": "recipe",
+    "activity_level": "fake",
+    "result": "mring_speed_5",
+    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
+    "time": "30 m",
+    "skill_used": "spellcraft",
+    "difficulty": 2,
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_OTHER",
+    "autolearn": true,
+    "components": [ 
+      [ [ "mring_speed_3", 2 ] ]
+    ]
+  },
+  {
+    "//1": "速度の指輪+7の合成レシピ(速度の指輪+5を2つを使う)",
+    "type": "recipe",
+    "activity_level": "fake",
+    "result": "mring_speed_7",
+    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
+    "time": "30 m",
+    "skill_used": "spellcraft",
+    "difficulty": 4,
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_OTHER",
+    "autolearn": true,
+    "components": [ 
+      [ [ "mring_speed_5", 2 ] ]
+    ]
+  },
+  {
+    "//1": "速度の指輪+10の合成レシピ(速度の指輪+7を2つを使う)",
+    "type": "recipe",
+    "activity_level": "fake",
+    "result": "mring_speed_10",
+    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
+    "time": "30 m",
+    "skill_used": "spellcraft",
+    "difficulty": 6,
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_OTHER",
+    "autolearn": true,
+    "components": [ 
+      [ [ "mring_speed_7", 2 ] ]
+    ]
+  },
+  {
+    "//1": "防御の指輪+4の合成レシピ(防御の指輪+2を2つを使う)",
+    "type": "recipe",
+    "activity_level": "fake",
+    "result": "mring_protection_4",
+    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
+    "time": "30 m",
+    "skill_used": "spellcraft",
+    "difficulty": 2,
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_OTHER",
+    "autolearn": true,
+    "components": [ 
+      [ [ "mring_protection_2", 2 ] ]
+    ]
+  },
+  {
+    "//1": "防御の指輪+6の合成レシピ(防御の指輪+4を2つを使う)",
+    "type": "recipe",
+    "activity_level": "fake",
+    "result": "mring_protection_6",
+    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
+    "time": "30 m",
+    "skill_used": "spellcraft",
+    "difficulty": 4,
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_OTHER",
+    "autolearn": true,
+    "components": [ 
+      [ [ "mring_protection_4", 2 ] ]
+    ]
+  },
+  {
+    "//1": "防御の指輪+8の合成レシピ(防御の指輪+6を2つを使う)",
+    "type": "recipe",
+    "activity_level": "fake",
+    "result": "mring_protection_8",
+    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
+    "time": "30 m",
+    "skill_used": "spellcraft",
+    "difficulty": 6,
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_OTHER",
+    "autolearn": true,
+    "components": [ 
+      [ [ "mring_protection_6", 2 ] ]
+    ]
+  },
+  {
+    "//1": "上級ストレージリングの合成レシピ(下級ストレージリングを2つを使う)",
+    "type": "recipe",
+    "activity_level": "fake",
+    "result": "storage_ring_greater",
+    "qualities": [ { "id": "MANA_INFUSE", "level": 1 }, { "id": "MANA_FOCUS", "level": 1 } ],
+    "time": "30 m",
+    "skill_used": "spellcraft",
+    "difficulty": 4,
+    "category": "CC_PSY_MWMI",
+    "subcategory": "CSC_PSY_MWMI_OTHER",
+    "autolearn": true,
+    "components": [ 
+      [ [ "storage_ring_lesser", 2 ] ]
+    ]
+  }
+]

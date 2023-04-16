@@ -1,0 +1,20 @@
+[
+	{
+		"type":"furniture",
+		"id":"f_ncard_s2_rift",
+		"name":"포탈",
+		"description":"none",
+		"symbol":"o",
+		"color":"magenta",
+		"emissions":[ "emit_fd_ncard_s2_rift" ],
+		"light_emitted":120,
+		"move_cost_mod":2,
+		"required_str":99,
+		"coverage":90,
+		"flags":["BLOCKSDOOR"],
+		"bash":{"str_min":3,"str_max":6,"sound_vol":2,"sound":"*ガキン*","sound_fail":"*ガキン*"},
+		"shoot":{ "reduce_damage": [ 5, 20 ], "reduce_damage_laser": [ 5, 20 ], "destroy_damage": [ 15, 45 ] }
+	}
+
+
+]

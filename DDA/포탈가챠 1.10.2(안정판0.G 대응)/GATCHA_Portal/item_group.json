@@ -1,0 +1,176 @@
+[
+	{
+		"id":"item_group_chest_r1",
+		"copy-from":"item_group_chest_r1",
+		"subtype":"distribution",
+		"extend":{"entries":[{"group": "item_group_ncard_r1","charges-min": 1,"prob":20},
+{"group": "item_group_misc_card","charges-min": 3,"prob":1},
+{"group": "item_group_misc","prob":26}]},
+		"type":"item_group"
+	}
+,
+	{
+		"id":"item_group_chest_r2",
+		"copy-from":"item_group_chest_r2",
+		"subtype":"distribution",
+		"extend":{"entries":[{"group": "item_group_ncard_r2","charges-min": 1,"prob":75},
+{"group": "item_group_misc_2","prob":24},
+{"item": "ncard_cm_ev1_cocktail","prob":1}
+]},
+		"type":"item_group"
+	}
+,
+	{
+		"id":"item_group_chest_r3",
+		"copy-from":"item_group_chest_r3",
+		"subtype":"collection",
+		"extend":{"entries":[{"item": "ncard_misc_crate_flash_r4","prob":100},
+{"group": "item_group_ncard_r3","charges-min": 1000,"prob":100}
+]},
+		"type":"item_group"
+	}
+,
+	{
+		"id":"item_group_chest_r4",
+		"copy-from":"item_group_chest_r4",
+		"subtype":"collection",
+		"extend":{"entries":[{"item": "ncard_misc_crate_flash_r4","prob":100},
+{"group": "item_group_ncard_r4","charges-min": 1000,"prob":100}
+]},
+		"type":"item_group"
+	}
+,
+	{
+		"id":"item_group_misc",
+		"copy-from":"item_group_misc",
+		"subtype":"distribution",
+		"extend":{"entries":[{"group": "antique","prob":10},
+{"item": "ncard_misc_card_holder","prob":10},
+{"group": "guns_pistol_common","charges-min": 20,"prob":0},
+{"group": "antique_guns_with_ammo","prob":1},
+{"group": "gathering_faction_base_camp_3","prob":13},
+{"group": "candy_chocolate","prob":3},
+{"group": "bar_food","prob":6},
+{"group": "restaur_sink","prob":19},
+{"group": "ammo_pistol_common","prob":14},
+{"group": "religious_books","prob":1}
+]},
+		"type":"item_group"
+	}
+,
+	{
+		"id":"item_group_misc_2",
+		"copy-from":"item_group_misc_2",
+		"subtype":"distribution",
+		"extend":{"entries":[{"group": "antique","prob":5},
+{"group": "mechanics","prob":10},
+{"item": "ncard_book_sinki","prob":4},
+{"group": "item_group_ncard_ev_keystone_drop","prob":1},
+{ "item": "ncard_misc_powder_angel", "prob": 1, "count-min": 10, "count-max": 10 },
+{"group":"guns_shotgun_common","prob":1},
+{ "group": "ammo_shotgun_common", "prob": 1, "count-min": 1, "count-max": 5 },
+{"group": "religious_books","prob":1}]},
+		"type":"item_group"
+	}
+,
+	{
+		"id":"item_group_misc_3",
+		"copy-from":"item_group_misc_3",
+		"subtype":"distribution",
+		"extend":{"entries":[{"group": "antique","prob":1},
+{"group": "mechanics","prob":10},
+{"group": "religious_books","prob":1}]},
+		"type":"item_group"
+	}
+,
+	{
+		"id":"item_group_misc_card",
+		"copy-from":"item_group_misc_card",
+		"subtype":"distribution",
+		"extend":{"entries":[
+{"item": "ncard_spell_card_pull_ally","prob":1},
+{"item": "ncard_spell_card_pull_ally2","prob":1}
+]},
+		"type":"item_group"
+	}
+,
+	{
+		"id":"bed",
+		"copy-from":"bed",
+		"//":"バニラのアイテムグループにチケットのドロップを追加",
+		"subtype":"distribution",
+		"extend":{"entries":[
+{ "item": "card_call_crate_1", "prob": 1, "ammo-item": "ncard_misc_ticket", "charges": 1 }
+    ]},
+		"type":"item_group"
+	}
+,
+	{
+		"id":"mon_zombie_hulk_death_drops",
+		"copy-from":"mon_zombie_hulk_death_drops",
+		"//":"バニラのアイテムグループにチケットのドロップを追加",
+		"subtype":"collection",
+		"extend":{"entries":[
+{ "group": "item_group_ncard_ticket_drop_hulk","prob":1 }
+    ]},
+		"type":"item_group"
+	}
+,
+	{
+		"id":"religious_books",
+		"copy-from":"religious_books",
+		"//":"バニラのアイテムグループにチケットのドロップを追加",
+		"subtype":"distribution",
+		"extend":{"entries":[
+{ "item": "card_call_crate_1", "prob": 1, "ammo-item": "ncard_misc_ticket", "charges": 1 }
+    ]},
+		"type":"item_group"
+	}
+,
+	{
+		"id":"default_zombie_death_drops",
+		"copy-from":"default_zombie_death_drops",
+		"//":"通常ゾンビドロップ",
+		"subtype":"collection",
+		"extend":{"entries":[
+{"group": "item_group_ncard_ticket_drop","prob":100}
+    ]},
+		"type":"item_group"
+	}
+,
+	{
+		"id":"item_group_ncard_ticket_drop",
+		"copy-from":"item_group_ncard_ticket_drop",
+		"//":"ゾンビドロップ内訳",
+		"subtype":"collection",
+		"extend":{"entries":[
+{ "item": "card_call_crate_1", "prob": 1, "ammo-item": "ncard_misc_ticket", "charges": 1 }
+    ]},
+		"type":"item_group"
+	}
+,
+	{
+		"id":"item_group_ncard_ticket_drop_hulk",
+		"copy-from":"item_group_ncard_ticket_drop_hulk",
+		"//":"バニラのアイテムグループにチケットのドロップを追加",
+		"subtype":"distribution",
+		"extend":{"entries":[
+{"group": "restaur_sink","prob":1},
+{ "item": "card_call_crate_1", "prob": 3, "ammo-item": "ncard_misc_ticket", "charges": 1 }
+    ]},
+		"type":"item_group"
+	}
+,
+	{
+		"id":"religious_books",
+		"copy-from":"religious_books",
+		"//":"バニラのアイテムグループに本のドロップを追加",
+		"subtype":"distribution",
+		"extend":{"entries":[
+{ "item": "ncard_book_sinki", "prob": 1}
+    ]},
+		"type":"item_group"
+	}
+
+
+]

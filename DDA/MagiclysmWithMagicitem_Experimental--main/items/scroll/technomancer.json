@@ -1,0 +1,87 @@
+[
+  {
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_mirror_image_talisman_1",
+    "name": "거울의 형상의 카드(초급)[MWMI]",
+    "description": "거울의 형상의 마법이 갇힌 카드입니다. 사용하는 것으로 거울의 형상을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "mirror_image", "no_fail": true, "level": 5 },
+    "material": [ "copper","plastic" ],
+    "copy-from": "PSY_magi_base"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_mirror_image_talisman_2",
+    "name": "거울의 형상의 카드(중급)[MWMI]",
+    "description": "거울의 형상의 마법이 갇힌 카드입니다. 사용하는 것으로 거울의 형상을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "mirror_image", "no_fail": true, "level": 7 },
+    "material": [ "copper","plastic" ],
+    "copy-from": "PSY_magi_base",
+    "price": "60 USD",
+    "price_postapoc": "60 USD"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_mirror_image_talisman_3",
+    "name": "거울의 형상의 카드(상급)[MWMI]",
+    "description": "거울의 형상의 마법이 갇힌 카드입니다. 사용하는 것으로 거울의 형상을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "mirror_image", "no_fail": true, "level": 10 },
+    "material": [ "copper","plastic" ],
+    "copy-from": "PSY_magi_base",
+    "price": "80 USD",
+    "price_postapoc": "80 USD"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_summon_magic_motorcycle_talisman_1",
+    "name": "오토바이 소환의 카드(초급)[MWMI]",
+    "description": "오토바이 소환의 마법이 갇힌 카드입니다. 사용하는 것으로 오토바이 소환을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "summon_magic_motorcycle", "no_fail": true, "level": 5 },
+    "material": [ "copper","plastic" ],
+    "copy-from": "PSY_magi_base"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_summon_magic_motorcycle_talisman_2",
+    "name": "오토바이 소환의 카드(중급)[MWMI]",
+    "description": "오토바이 소환의 마법이 갇힌 카드입니다. 사용하는 것으로 오토바이 소환을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "summon_magic_motorcycle", "no_fail": true, "level": 7 },
+    "material": [ "copper","plastic" ],
+    "copy-from": "PSY_magi_base",
+    "price": "60 USD",
+    "price_postapoc": "60 USD"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_summon_magic_motorcycle_talisman_3",
+    "name": "오토바이 소환의 카드(상급)[MWMI]",
+    "description": "오토바이 소환의 마법이 갇힌 카드입니다. 사용하는 것으로 오토바이 소환을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "summon_magic_motorcycle", "no_fail": true, "level": 10 },
+    "material": [ "copper","plastic" ],
+    "copy-from": "PSY_magi_base",
+    "price": "80 USD",
+    "price_postapoc": "80 USD"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_summon_floating_disk_talisman_1",
+    "name": "떠다니는 원반 소환의 카드(초급)[MWMI]",
+    "description": "떠다니는 원반 소환의 마법이 갇힌 카드입니다. 사용하는 것으로 떠다니는 원반 소환을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "summon_floating_disk", "no_fail": true, "level": 5 },
+    "material": [ "copper","plastic" ],
+    "copy-from": "PSY_magi_base"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_summon_floating_disk_talisman_2",
+    "name": "떠다니는 원반 소환의 카드(중급)[MWMI]",
+    "description": "떠다니는 원반 소환의 마법이 갇힌 카드입니다. 사용하는 것으로 떠다니는 원반 소환을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "summon_floating_disk", "no_fail": true, "level": 7 },
+    "material": [ "copper","plastic" ],
+    "copy-from": "PSY_magi_base",
+    "price": "60 USD",
+    "price_postapoc": "60 USD"
+  },{
+    "type": "COMESTIBLE",
+    "id": "PSY_magi_summon_floating_disk_talisman_3",
+    "name": "떠다니는 원반 소환의 카드(상급)[MWMI]",
+    "description": "떠다니는 원반 소환의 마법이 갇힌 카드입니다. 사용하는 것으로 떠다니는 원반 소환을 영창합니다.",
+    "use_action": { "type": "cast_spell", "spell_id": "summon_floating_disk", "no_fail": true, "level": 10 },
+    "material": [ "copper","plastic" ],
+    "copy-from": "PSY_magi_base",
+    "price": "80 USD",
+    "price_postapoc": "80 USD"
+  }
+]

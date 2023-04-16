@@ -1,0 +1,297 @@
+[
+	{
+		"id":"ncard_r1_bear",
+		"type":"TOOL",
+		"copy-from":"ncard_base_r1",
+		"name":"구리 카드(소환/곰)",
+		"description":"수수께끼의 힘으로 포털 건너편에서 뭔가를 불러오는 일회용 카드입니다.소환된 존재는 일정 시간 내에 소멸됩니다.",
+		"material":[ "bronze" ],
+		"symbol":"i",
+		"color":"brown",
+		"flags":[ "SINGLE_USE","TRADER_AVOID","NO_UNLOAD", "NO_RELOAD" ],
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_r1_bear", "no_fail": true, "level": 0 },
+		"price":0
+	}
+,
+	{
+		"id":"ncard_r1_zombie",
+		"type":"TOOL",
+		"copy-from":"ncard_base_r1",
+		"name":"구리 카드(소환/좀비)",
+		"description":"수수께끼의 힘으로 포털 건너편에서 뭔가를 불러오는 일회용 카드입니다.소환된 존재는 일정 시간 내에 소멸됩니다.",
+		"material":[ "bronze" ],
+		"symbol":"i",
+		"color":"brown",
+		"flags":[ "SINGLE_USE","TRADER_AVOID","NO_UNLOAD", "NO_RELOAD" ],
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_r1_zombie", "no_fail": true, "level": 0 },
+		"price":0
+	}
+,
+	{
+		"id":"ncard_r1_mi_go",
+		"type":"TOOL",
+		"copy-from":"ncard_base_r1",
+		"name":"구리 카드(소환/미-고)",
+		"description":"수수께끼의 힘으로 포털 건너편에서 뭔가를 불러오는 일회용 카드입니다.소환된 존재는 일정 시간 내에 소멸됩니다.",
+		"material":[ "bronze" ],
+		"symbol":"i",
+		"color":"brown",
+		"flags":[ "SINGLE_USE","TRADER_AVOID","NO_UNLOAD", "NO_RELOAD" ],
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_r1_mi_go", "no_fail": true, "level": 0 },
+		"price":0
+	}
+,
+	{
+		"id":"ncard_r1_bee",
+		"type":"TOOL",
+		"copy-from":"ncard_base_r1",
+		"name":"구리 카드(소환/벌)",
+		"description":"수수께끼의 힘으로 포털 건너편에서 뭔가를 불러오는 일회용 카드입니다.소환된 존재는 일정 시간 내에 소멸됩니다.",
+		"material":[ "bronze" ],
+		"symbol":"i",
+		"color":"brown",
+		"flags":[ "SINGLE_USE","TRADER_AVOID","NO_UNLOAD", "NO_RELOAD" ],
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_r1_bee", "no_fail": true, "level": 0 },
+		"price":0
+	}
+,
+	{
+		"id":"ncard_r1_zombie_fireman",
+		"type":"TOOL",
+		"copy-from":"ncard_base_r1",
+		"name":"구리 카드(소환/소방관 좀비)",
+		"description":"수수께끼의 힘으로 포털 건너편에서 뭔가를 불러오는 일회용 카드입니다.소환된 존재는 일정 시간 내에 소멸됩니다.",
+		"material":[ "bronze" ],
+		"symbol":"i",
+		"color":"brown",
+		"flags":[ "SINGLE_USE","TRADER_AVOID","NO_UNLOAD", "NO_RELOAD" ],
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_r1_zombie_fireman", "no_fail": true, "level": 0 },
+		"price":0
+	}
+,
+	{
+		"id":"ncard_r1_vinebeast",
+		"type":"TOOL",
+		"copy-from":"ncard_base_r1",
+		"name":"구리 카드(소환/덩굴 짐승)",
+		"description":"수수께끼의 힘으로 포털 건너편에서 뭔가를 불러오는 일회용 카드입니다.소환된 존재는 일정 시간 내에 소멸됩니다.",
+		"material":[ "bronze" ],
+		"symbol":"i",
+		"color":"brown",
+		"flags":[ "SINGLE_USE","TRADER_AVOID","NO_UNLOAD", "NO_RELOAD" ],
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_r1_vinebeast", "no_fail": true, "level": 0 },
+		"price":0
+	}
+,
+	{
+		"id":"ncard_r1_frog_giant",
+		"type":"TOOL",
+		"copy-from":"ncard_base_r1",
+		"name":"구리 카드(소환/거대 개구리)",
+		"description":"수수께끼의 힘으로 포털 건너편에서 뭔가를 불러오는 일회용 카드입니다.소환된 존재는 일정 시간 내에 소멸됩니다.",
+		"material":[ "bronze" ],
+		"symbol":"i",
+		"color":"brown",
+		"flags":[ "SINGLE_USE","TRADER_AVOID","NO_UNLOAD", "NO_RELOAD" ],
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_r1_frog_giant", "no_fail": true, "level": 0 },
+		"price":0
+	}
+,
+	{
+		"id":"ncard_r1_rabbit",
+		"type":"TOOL",
+		"copy-from":"ncard_base_r1",
+		"name":"구리 카드(소환/토끼)",
+		"description":"수수께끼의 힘으로 포털 건너편에서 뭔가를 불러오는 일회용 카드입니다.소환된 존재는 일정 시간 내에 소멸됩니다.",
+		"material":[ "bronze" ],
+		"symbol":"i",
+		"color":"brown",
+		"flags":[ "SINGLE_USE","TRADER_AVOID","NO_UNLOAD", "NO_RELOAD" ],
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_r1_rabbit", "no_fail": true, "level": 0 },
+		"price":0
+	}
+,
+	{
+		"id":"ncard_r1_cat_siamese",
+		"type":"TOOL",
+		"copy-from":"ncard_base_r1",
+		"name":"구리 카드(소환/샴고양이)",
+		"description":"수수께끼의 힘으로 포털 건너편에서 뭔가를 불러오는 일회용 카드입니다.소환된 존재는 일정 시간 내에 소멸됩니다.",
+		"material":[ "bronze" ],
+		"symbol":"i",
+		"color":"brown",
+		"flags":[ "SINGLE_USE","TRADER_AVOID","NO_UNLOAD", "NO_RELOAD" ],
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_r1_cat_siamese", "no_fail": true, "level": 0 },
+		"price":0
+	}
+,
+	{
+		"id":"ncard_r1_chicken",
+		"type":"TOOL",
+		"copy-from":"ncard_base_r1",
+		"name":"구리 카드(소환/닭)",
+		"description":"수수께끼의 힘으로 포털 건너편에서 뭔가를 불러오는 일회용 카드입니다.소환된 존재는 일정 시간 내에 소멸됩니다.",
+		"material":[ "bronze" ],
+		"symbol":"i",
+		"color":"brown",
+		"flags":[ "SINGLE_USE","TRADER_AVOID","NO_UNLOAD", "NO_RELOAD" ],
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_r1_chicken", "no_fail": true, "level": 0 },
+		"price":0
+	}
+,
+	{
+		"id":"ncard_r1_dog_bull",
+		"type":"TOOL",
+		"copy-from":"ncard_base_r1",
+		"name":"구리 카드(소환/불독)",
+		"description":"수수께끼의 힘으로 포털 건너편에서 뭔가를 불러오는 일회용 카드입니다.소환된 존재는 일정 시간 내에 소멸됩니다.",
+		"material":[ "bronze" ],
+		"symbol":"i",
+		"color":"brown",
+		"flags":[ "SINGLE_USE","TRADER_AVOID","NO_UNLOAD", "NO_RELOAD" ],
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_r1_dog_bull", "no_fail": true, "level": 0 },
+		"price":0
+	}
+,
+	{
+		"id":"ncard_r1_wolf",
+		"type":"TOOL",
+		"copy-from":"ncard_base_r1",
+		"name":"구리 카드(소환/늑대)",
+		"description":"수수께끼의 힘으로 포털 건너편에서 뭔가를 불러오는 일회용 카드입니다.소환된 존재는 일정 시간 내에 소멸됩니다.",
+		"material":[ "bronze" ],
+		"symbol":"i",
+		"color":"brown",
+		"flags":[ "SINGLE_USE","TRADER_AVOID","NO_UNLOAD", "NO_RELOAD" ],
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_r1_wolf", "no_fail": true, "level": 0 },
+		"price":0
+	}
+,
+	{
+		"id":"ncard_r1_zombie_runner",
+		"type":"TOOL",
+		"copy-from":"ncard_base_r1",
+		"name":"구리 카드(소환/런너 좀비)",
+		"description":"수수께끼의 힘으로 포털 건너편에서 뭔가를 불러오는 일회용 카드입니다.소환된 존재는 일정 시간 내에 소멸됩니다.",
+		"material":[ "bronze" ],
+		"symbol":"i",
+		"color":"brown",
+		"flags":[ "SINGLE_USE","TRADER_AVOID","NO_UNLOAD", "NO_RELOAD" ],
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_r1_zombie_runner", "no_fail": true, "level": 0 },
+		"price":0
+	}
+,
+	{
+		"id":"ncard_r1_pig",
+		"type":"TOOL",
+		"copy-from":"ncard_base_r1",
+		"name":"구리 카드(소환/돼지)",
+		"description":"수수께끼의 힘으로 포털 건너편에서 뭔가를 불러오는 일회용 카드입니다.소환된 존재는 일정 시간 내에 소멸됩니다.",
+		"material":[ "bronze" ],
+		"symbol":"i",
+		"color":"brown",
+		"flags":[ "SINGLE_USE","TRADER_AVOID","NO_UNLOAD", "NO_RELOAD" ],
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_r1_pig", "no_fail": true, "level": 0 },
+		"price":0
+	}
+,
+	{
+		"id":"ncard_r1_cougar",
+		"type":"TOOL",
+		"copy-from":"ncard_base_r1",
+		"name":"구리 카드(소환/퓨마)",
+		"description":"수수께끼의 힘으로 포털 건너편에서 뭔가를 불러오는 일회용 카드입니다.소환된 존재는 일정 시간 내에 소멸됩니다.",
+		"material":[ "bronze" ],
+		"symbol":"i",
+		"color":"brown",
+		"flags":[ "SINGLE_USE","TRADER_AVOID","NO_UNLOAD", "NO_RELOAD" ],
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_r1_cougar", "no_fail": true, "level": 0 },
+		"price":0
+	}
+,
+	{
+		"id":"ncard_r1_turkey",
+		"type":"TOOL",
+		"copy-from":"ncard_base_r1",
+		"name":"구리 카드(소환/칠면조)",
+		"description":"수수께끼의 힘으로 포털 건너편에서 뭔가를 불러오는 일회용 카드입니다.소환된 존재는 일정 시간 내에 소멸됩니다.",
+		"material":[ "bronze" ],
+		"symbol":"i",
+		"color":"brown",
+		"flags":[ "SINGLE_USE","TRADER_AVOID","NO_UNLOAD", "NO_RELOAD" ],
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_r1_turkey", "no_fail": true, "level": 0 },
+		"price":0
+	}
+,
+	{
+		"id":"ncard_r1_pigeon",
+		"type":"TOOL",
+		"copy-from":"ncard_base_r1",
+		"name":"구리 카드(소환/비둘기)",
+		"description":"수수께끼의 힘으로 포털 건너편에서 뭔가를 불러오는 일회용 카드입니다.소환된 존재는 일정 시간 내에 소멸됩니다.",
+		"material":[ "bronze" ],
+		"symbol":"i",
+		"color":"brown",
+		"flags":[ "SINGLE_USE","TRADER_AVOID","NO_UNLOAD", "NO_RELOAD" ],
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_r1_pigeon", "no_fail": true, "level": 0 },
+		"price":0
+	}
+,
+	{
+		"id":"ncard_r1_deer",
+		"type":"TOOL",
+		"copy-from":"ncard_base_r1",
+		"name":"구리 카드(소환/사슴)",
+		"description":"수수께끼의 힘으로 포털 건너편에서 뭔가를 불러오는 일회용 카드입니다.소환된 존재는 일정 시간 내에 소멸됩니다.",
+		"material":[ "bronze" ],
+		"symbol":"i",
+		"color":"brown",
+		"flags":[ "SINGLE_USE","TRADER_AVOID","NO_UNLOAD", "NO_RELOAD" ],
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_r1_deer", "no_fail": true, "level": 0 },
+		"price":0
+	}
+,
+	{
+		"id":"ncard_r1_broken_cyborg",
+		"type":"TOOL",
+		"copy-from":"ncard_base_r1",
+		"name":"구리 카드(소환/망가진 사이보그)",
+		"description":"수수께끼의 힘으로 포털 건너편에서 뭔가를 불러오는 일회용 카드입니다.소환된 존재는 일정 시간 내에 소멸됩니다.",
+		"material":[ "bronze" ],
+		"symbol":"i",
+		"color":"brown",
+		"flags":[ "SINGLE_USE","TRADER_AVOID","NO_UNLOAD", "NO_RELOAD" ],
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_r1_broken_cyborg", "no_fail": true, "level": 0 },
+		"price":0
+	}
+,
+	{
+		"id":"ncard_r1_squirrel",
+		"type":"TOOL",
+		"copy-from":"ncard_base_r1",
+		"name":"구리 카드(소환/다람쥐)",
+		"description":"수수께끼의 힘으로 포털 건너편에서 뭔가를 불러오는 일회용 카드입니다.소환된 존재는 일정 시간 내에 소멸됩니다.",
+		"material":[ "bronze" ],
+		"symbol":"i",
+		"color":"brown",
+		"flags":[ "SINGLE_USE","TRADER_AVOID","NO_UNLOAD", "NO_RELOAD" ],
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_r1_squirrel", "no_fail": true, "level": 0 },
+		"price":0
+	}
+,
+	{
+		"id":"ncard_r1_razorclaw",
+		"type":"TOOL",
+		"copy-from":"ncard_base_r1",
+		"name":"구리 카드(소환/레이저 클로)",
+		"description":"수수께끼의 힘으로 포털 건너편에서 뭔가를 불러오는 일회용 카드입니다.소환된 존재는 일정 시간 내에 소멸됩니다.",
+		"material":[ "bronze" ],
+		"symbol":"i",
+		"color":"brown",
+		"flags":[ "SINGLE_USE","TRADER_AVOID","NO_UNLOAD", "NO_RELOAD" ],
+		"use_action":{ "type": "cast_spell", "spell_id": "spell_ncard_r1_razorclaw", "no_fail": true, "level": 0 },
+		"price":0
+	}
+
+
+]

@@ -1,0 +1,51 @@
+[
+		
+		
+		{
+		"type": "mod_tileset","compatibility": [
+		"Custom Tileset",
+		"MshockXottoplus",
+		"MSX++DEAD_PEOPLE",
+		"UNDEAD_PEOPLE",
+		"ChestHole32",
+		"UNDEAD_PEOPLE_BASE",
+		"UltimateCataclysm",
+		"UltimateCataclysmDemo",
+		"Chibi_Ultica",
+		"MshockXottoplus",
+		"Alternative Ultica",
+		"MshockXottoplus"
+		],
+		"tiles-new": [
+		{
+		"file": "SEASON2/tile_config_GATCHA_s2_.png",
+		"tiles": [
+		
+		{ "id": "card_call_crate_s2_1", "fg":2, "rotates": false },
+		{ "id": "f_lootcrate_s2_rare1", "fg":14, "rotates": false },
+		{ "id": "f_lootcrate_s2_rare2", "fg":15, "rotates": false },
+		
+		{ "id": "mon_ncard_s2_r3_no_01", "fg":20, "rotates": false },
+		{ "id": "mon_ncard_s2_r3_no_02", "fg":21, "rotates": false },
+		{ "id": "mon_ncard_s2_r3_no_03", "fg":22, "rotates": false },
+		
+		
+		{ "id": "mon_en_ncard_s2_r3_no_01", "fg":23, "rotates": false },
+		{ "id": "mon_en_ncard_s2_r3_no_02", "fg":24, "rotates": false },
+		{ "id": "mon_en_ncard_s2_r3_no_03", "fg":25, "rotates": false },
+		{ "id": "mon_en_ncard_s2_r3_no_02_f", "fg":24, "rotates": false },
+		{ "id": "mon_en_ncard_s2_r3_no_03_f", "fg":25, "rotates": false }
+		
+		
+		],
+		"sprite_width": 42,
+		"sprite_height": 54,
+		"sprite_offset_x": -5,
+		"sprite_offset_y": -22
+		      }
+		
+		    ]
+		  }
+
+
+]

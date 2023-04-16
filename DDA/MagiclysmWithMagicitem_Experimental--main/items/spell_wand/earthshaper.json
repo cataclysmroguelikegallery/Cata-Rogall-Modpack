@@ -1,0 +1,92 @@
+[
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_eshaper_shardspray_1",
+    "name": { "str": "하급 지팡이(그림자 분사)[MWMI]", "str_pl": "하급 지팡이(그림자 분사)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "마나 크리스탈을 끼우는 소켓이 달린 길쭉한 나무 지팡이입니다. 그림자 분사을 영창하는 기능을 가지고 있습니다.",
+    "price": "200 USD",
+    "price_postapoc": "200 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "eshaper_shardspray", "no_fail": true, "level": 4, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_eshaper_shardspray_2",
+    "name": { "str": "중급 지팡이(그림자 분사)[MWMI]", "str_pl": "중급 지팡이(그림자 분사)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "마나 크리스탈을 끼우는 소켓이 달린 길쭉한 나무 지팡이입니다. 그림자 분사을 영창하는 기능을 가지고 있습니다.",
+    "price": "400 USD",
+    "price_postapoc": "400 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "eshaper_shardspray", "no_fail": true, "level": 8, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_eshaper_shardspray_3",
+    "name": { "str": "상급 지팡이(그림자 분사)[MWMI]", "str_pl": "상급 지팡이(그림자 분사)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "마나 크리스탈을 끼우는 소켓이 달린 길쭉한 나무 지팡이입니다. 그림자 분사을 영창하는 기능을 가지고 있습니다.",
+    "price": "600 USD",
+    "price_postapoc": "600 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "eshaper_shardspray", "no_fail": true, "level": 12, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_eshaper_piercing_bolt_1",
+    "name": { "str": "하급 지팡이(관통하는 화살)[MWMI]", "str_pl": "하급 지팡이(관통하는 화살)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "마나 크리스탈을 끼우는 소켓이 달린 길쭉한 나무 지팡이입니다. 관통하는 화살을 영창하는 기능을 가지고 있습니다.",
+    "price": "200 USD",
+    "price_postapoc": "200 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "eshaper_piercing_bolt", "no_fail": true, "level": 4, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_eshaper_piercing_bolt_2",
+    "name": { "str": "중급 지팡이(관통하는 화살)[MWMI]", "str_pl": "중급 지팡이(관통하는 화살)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "마나 크리스탈을 끼우는 소켓이 달린 길쭉한 나무 지팡이입니다. 관통하는 화살을 영창하는 기능을 가지고 있습니다.",
+    "price": "400 USD",
+    "price_postapoc": "400 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "eshaper_piercing_bolt", "no_fail": true, "level": 8, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_eshaper_piercing_bolt_3",
+    "name": { "str": "상급 지팡이(관통하는 화살)[MWMI]", "str_pl": "상급 지팡이(관통하는 화살)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "마나 크리스탈을 끼우는 소켓이 달린 길쭉한 나무 지팡이입니다. 관통하는 화살을 영창하는 기능을 가지고 있습니다.",
+    "price": "600 USD",
+    "price_postapoc": "600 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "eshaper_piercing_bolt", "no_fail": true, "level": 12, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_eshaper_shardstorm_1",
+    "name": { "str": "하급 지팡이(그림자 폭풍)[MWMI]", "str_pl": "하급 지팡이(그림자 폭풍)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "마나 크리스탈을 끼우는 소켓이 달린 길쭉한 나무 지팡이입니다. 그림자 폭풍을 영창하는 기능을 가지고 있습니다.",
+    "price": "200 USD",
+    "price_postapoc": "200 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "eshaper_shardstorm", "no_fail": true, "level": 4, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_eshaper_shardstorm_2",
+    "name": { "str": "중급 지팡이(그림자 폭풍)[MWMI]", "str_pl": "중급 지팡이(그림자 폭풍)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "마나 크리스탈을 끼우는 소켓이 달린 길쭉한 나무 지팡이입니다. 그림자 폭풍을 영창하는 기능을 가지고 있습니다.",
+    "price": "400 USD",
+    "price_postapoc": "400 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "eshaper_shardstorm", "no_fail": true, "level": 8, "need_wielding": true }
+  },
+  {
+    "type": "TOOL",
+    "id": "PSY_magi_stave_magic_eshaper_shardstorm_3",
+    "name": { "str": "상급 지팡이(그림자 폭풍)[MWMI]", "str_pl": "상급 지팡이(그림자 폭풍)[MWMI]" },
+    "copy-from": "staff_magic",
+    "description": "마나 크리스탈을 끼우는 소켓이 달린 길쭉한 나무 지팡이입니다. 그림자 폭풍을 영창하는 기능을 가지고 있습니다.",
+    "price": "600 USD",
+    "price_postapoc": "600 USD",
+    "use_action": { "type": "cast_spell", "spell_id": "eshaper_shardstorm", "no_fail": true, "level": 12, "need_wielding": true }
+  }
+]
