@@ -145,6 +145,7 @@
       "GAS_PROOF",
       "SWIM_GOGGLES",
       "SUN_GLASSES",
+      "PSYSHIELD_PARTIAL",
       "CLIMATE_CONTROL",
 	  "ZOOM",
 	  "ELECTRIC_IMMUNE",
@@ -182,7 +183,7 @@
 	"relic_data": {
       "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "DEBUG_NOTEMP" ], "values": [ { "value": "INTELLIGENCE", "multiply": 1.0 }, { "value": "PERCEPTION", "add": 4 } ] } ]
 	},
-	"artifact_data": { "effects_worn": [ "AEP_CLAIRVOYANCE", "AEP_PSYSHIELD" ] },
+	"artifact_data": { "effects_worn": [ "AEP_CLAIRVOYANCE_PLUS", "AEP_PSYSHIELD" ] },
 	"encumbrance": 17,
     "flags": [
       "VARSIZE",
