@@ -123,7 +123,11 @@
     },
     "covers": [ "head", "mouth", "eyes", "torso", "arms", "hands", "legs", "feet" ],
     "warmth": 10,
-    "environmental_protection": 20,
+    "environmental_protection": 30,
+	"relic_data": {
+      "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "INTELLIGENCE", "multiply": 1.0 }, { "value": "PERCEPTION", "add": 4 } ] } ]
+	},
+	"artifact_data": { "effects_worn": [ "AEP_CLAIRVOYANCE" ] },
     "coverage": 100,
     "material_thickness": 7,
     "encumbrance": 25,
@@ -135,10 +139,13 @@
       "STURDY",
       "WATERPROOF",
 	  "WATER_FRIENDLY",
+      "HYGROMETER",
       "THERMOMETER",
       "RAINPROOF",
+      "GAS_PROOF",
       "SWIM_GOGGLES",
       "SUN_GLASSES",
+      "CLIMATE_CONTROL",
 	  "ZOOM",
 	  "ELECTRIC_IMMUNE",
       "USE_UPS",
@@ -147,6 +154,16 @@
 	  "HELMET_COMPAT"
     ],
     "qualities": [ [ "GLARE", 3 ] ]
+  },
+  {
+    "type": "mutation",
+    "id": "DEBUG_NOTEMP",
+    "name": { "str": "Debug HVAC" },
+    "points": 99,
+    "valid": false,
+    "description": "Temperature and weather won't bug you.",
+    "debug": false,
+	"player_display": false
   },
   {
     "id": "sq_advanced_fsurvivor_suit_on",
@@ -163,8 +180,9 @@
     "warmth": 0,
     "environmental_protection": 70,
 	"relic_data": {
-      "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "ench_effects": [ { "effect": "debug_clairvoyance", "intensity": 1 } ] } ]
+      "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "DEBUG_NOTEMP" ], "values": [ { "value": "INTELLIGENCE", "multiply": 1.0 }, { "value": "PERCEPTION", "add": 4 } ] } ]
 	},
+	"artifact_data": { "effects_worn": [ "AEP_CLAIRVOYANCE", "AEP_PSYSHIELD" ] },
 	"encumbrance": 17,
     "flags": [
       "VARSIZE",
@@ -175,6 +193,7 @@
       "STURDY",
       "WATERPROOF",
 	  "WATER_FRIENDLY",
+      "HYGROMETER",
       "THERMOMETER",
       "RAINPROOF",
       "SWIM_GOGGLES",
@@ -185,6 +204,8 @@
       "TRADER_AVOID",
       "PSYSHIELD_PARTIAL",
       "CLIMATE_CONTROL",
+	  "HEAT_IMMUNE",
+	  "COLD_IMMUNE",
 	  "IR_EFFECT",
 	  "ZOOM",
       "DIMENSIONAL_ANCHOR",
