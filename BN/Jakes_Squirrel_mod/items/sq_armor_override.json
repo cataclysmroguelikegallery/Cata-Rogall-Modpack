@@ -456,84 +456,84 @@
     "id": "power_armor_basic",
     "type": "ARMOR",
 	"copy-from": "power_armor_basic",
-    "name": { "str": "combat exoskeleton" },
+    "name": { "str": "power armor", "str_pl": "suits of power armor" },
     "extend": { "flags": [ "OVERSIZE" ] }
   },
   {
     "id": "power_armor_basic_on",
     "type": "ARMOR",
 	"copy-from": "power_armor_basic_on",
-    "name": { "str": "combat exoskeleton (active)", "str_pl": "combat exoskeletons (active)" },
+    "name": { "str": "power armor (active)", "str_pl": "suits of power armor (active)" },
     "extend": { "flags": [ "OVERSIZE", "CLIMATE_CONTROL", "TRADER_AVOID" ] }
   },
   {
     "id": "power_armor_heavy",
     "type": "ARMOR",
 	"copy-from": "power_armor_heavy",
-    "name": { "str": "heavy combat exoskeleton" },
+    "name": { "str": "heavy power armor", "str_pl": "suits of heavy power armor" },
     "extend": { "flags": [ "OVERSIZE" ] }
   },
   {
     "id": "power_armor_heavy_on",
     "type": "ARMOR",
 	"copy-from": "power_armor_heavy_on",
-    "name": { "str": "heavy combat exoskeleton (active)", "str_pl": "heavy combat exoskeletons (active)" },
+    "name": { "str": "heavy power armor (active)", "str_pl": "suits of heavy power armor (active)" },
     "extend": { "flags": [ "OVERSIZE", "CLIMATE_CONTROL", "TRADER_AVOID" ] }
   },
   {
     "id": "power_armor_light",
     "type": "ARMOR",
 	"copy-from": "power_armor_light",
-    "name": { "str": "field combat exoskeleton" },
+    "name": { "str": "light power armor", "str_pl": "suits of light power armor" },
     "extend": { "flags": [ "OVERSIZE" ] }
   },
   {
     "id": "power_armor_light_on",
     "type": "ARMOR",
 	"copy-from": "power_armor_light_on",
-    "name": { "str": "field combat exoskeleton (active)", "str_pl": "field combat exoskeletons (active)" },
+    "name": { "str": "light power armor (active)", "str_pl": "suits of light power armor (active)" },
     "extend": { "flags": [ "OVERSIZE", "CLIMATE_CONTROL", "TRADER_AVOID" ] }
   },
   {
     "id": "power_armor_helmet_basic",
     "type": "ARMOR",
 	"copy-from": "power_armor_helmet_basic",
-    "name": { "str": "environmental combat helmet" },
+    "name": { "str": "power armor helmet" },
     "extend": { "flags": [ "OVERSIZE" ] }
   },
   {
     "id": "power_armor_helmet_basic_on",
     "type": "ARMOR",
 	"copy-from": "power_armor_helmet_basic_on",
-    "name": { "str": "environmental combat helmet (active)", "str_pl": "environmental combat helmets (active)" },
+    "name": { "str": "power armor helmet (active)", "str_pl": "power armor helmets (active)" },
     "extend": { "flags": [ "OVERSIZE", "WATCH", "THERMOMETER", "CLIMATE_CONTROL", "TRADER_AVOID" ] }
   },
   {
     "id": "power_armor_helmet_heavy",
     "type": "ARMOR",
 	"copy-from": "power_armor_helmet_heavy",
-    "name": { "str": "heavy environmental combat helmet" },
+    "name": { "str": "heavy power armor helmet" },
     "extend": { "flags": [ "OVERSIZE" ] }
   },
   {
     "id": "power_armor_helmet_heavy_on",
     "type": "ARMOR",
 	"copy-from": "power_armor_helmet_heavy_on",
-    "name": { "str": "heavy environmental combat helmet (active)", "str_pl": "heavy environmental combat helmets (active)" },
+    "name": { "str": "heavy power armor helmet (active)", "str_pl": "heavy power armor helmets (active)" },
     "extend": { "flags": [ "OVERSIZE", "WATCH", "THERMOMETER", "CLIMATE_CONTROL", "TRADER_AVOID" ] }
   },
   {
     "id": "power_armor_helmet_light",
     "type": "ARMOR",
 	"copy-from": "power_armor_helmet_light",
-    "name": { "str": "light environmental combat helmet" },
+    "name": { "str": "light power armor helmet" },
     "extend": { "flags": [ "OVERSIZE" ] }
   },
   {
     "id": "power_armor_helmet_light_on",
     "type": "ARMOR",
 	"copy-from": "power_armor_helmet_light_on",
-    "name": { "str": "light environmental combat helmet (active)", "str_pl": "light environmental combat helmets (active)" },
+    "name": { "str": "light power armor helmet (active)", "str_pl": "light power armor helmets (active)" },
     "extend": { "flags": [ "OVERSIZE", "WATCH", "THERMOMETER", "CLIMATE_CONTROL", "TRADER_AVOID" ] }
   }
  ]

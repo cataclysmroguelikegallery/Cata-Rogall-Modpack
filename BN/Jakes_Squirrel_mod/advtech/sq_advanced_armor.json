@@ -207,6 +207,7 @@
       "CLIMATE_CONTROL",
 	  "HEAT_IMMUNE",
 	  "COLD_IMMUNE",
+      "GNV_EFFECT",
 	  "IR_EFFECT",
 	  "ZOOM",
       "DIMENSIONAL_ANCHOR",
