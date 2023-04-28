@@ -1,0 +1,10 @@
+[
+  {
+    "id": "manual_nec_kung_fu",
+    "copy-from": "book_martial",
+    "type": "GENERIC",
+    "name": { "str": "책(무술/기초부터 배우는 쿵푸 강좌)" },
+    "description": "쿵푸에 대한 모든 것이 적힌 가이드북입니다.",
+    "looks_like": "manual_aikido"
+  }
+]

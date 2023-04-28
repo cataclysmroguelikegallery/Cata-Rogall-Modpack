@@ -1,0 +1,164 @@
+[
+  {
+    "type": "speech",
+    "speaker": "mon_nec_ZQ_sama",
+        "sound" : "\"자, 오래된 후일담을 시작해보죠.\"",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_nec_ZQ_sama",
+        "sound" : "\"모형 정원 속의 이야기에 어서 와요.\"",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_nec_ZQ_sama",
+       "sound" : "\"왜곡의 무도를 즐겨주세요.\"",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_nec_ZQ_sama",
+        "sound" : "\"잃어버린 기억은 돌아왔나요?\"",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_nec_ZQ_sama",
+        "sound" : "\"다과회를 한 번 더, 시작해볼까요.\"",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_nec_ZQ_sama",
+        "sound" : "\"그 종 소리는 두 번 다시... 아니, 그만두죠.\"",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_nec_ZQ_sama",
+        "sound" : "\"당신을 인형으로 만들어볼까요.\"",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_nec_ZQ_sama",
+        "sound" : "\"실패 따위는 대수롭지 않아요. 결국에는 사자가 되실테니까요.\"",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_nec_ZQ_sama",
+        "sound" : "\"인형은 사랑스러워요.\"",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_nec_ZQ_sama",
+        "sound" : "\"사자들의 춤사위에 막을 올립시다.\"",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_nec_ZQ_sama",
+        "sound" : "\"...쿠후후훗...\"",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_nec_ZQ_sama",
+        "sound" : "\"아름다운 악몽에 어서 와요.\"",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_nec_ZQ_sama",
+        "sound" : "\"부디 편하신대로 서로를 망가뜨리고 모욕해주시길.\"",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_nec_ZQ_sama",
+        "sound" : "\"10면체 주사위 하나를 준비해주세요\"",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_nec_ZQ_chang",
+        "sound" : "\"제 실력을 보여드릴 때가 왔군욧\"",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_nec_ZQ_chang",
+      "sound" : "\"저는 완벽깜찍하게 아름다워요!\"",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_nec_ZQ_chang",
+        "sound" : "\"읏, 여자 끼리 야한 짓하는 게 시, 싫은 사람도 있는 거랍니다!\"",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_nec_ZQ_chang",
+        "sound" : "\"완벽소쇄한 제게 불가능은 없어요!\"",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_nec_ZQ_chang",
+        "sound" : "\"지고하고 고고한 네크로멘서! 그게 바로 저랍니다!\"",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_nec_ZQ_chang",
+        "sound" : "\"팔푼이? 누굴 말하시는 건지 모르겠네욧!\"",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_nec_ZQ_chang",
+        "sound" : "\"저도 남못지않은 네크로멘서에요! 진심을 내겠습니다!\"",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_nec_ZQ_chang",
+        "sound" : "\"아으으으으...\"",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_nec_ZQ_chang",
+        "sound" : "\"쨩이라고 부르지 마세요!\"",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_nec_ZQ_chang",
+        "sound" : "\"히야아아아아아앗\"",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_nec_ZQ_chang",
+        "sound" : "\"룰루루~♪\"",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": "mon_nec_ZQ_chang",
+        "sound" : "\"헤에, 100면체네요...\"",
+    "volume": 30
+  },
+   {
+        "type" : "speech",
+        "speaker" : "mon_nec_ZQ_chang",
+        "sound" : "\"당신, 자기가 운이 좋다고 생각하시나요?\"",
+        "volume" : 30
+    }
+]

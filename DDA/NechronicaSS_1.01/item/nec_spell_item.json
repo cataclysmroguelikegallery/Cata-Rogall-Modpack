@@ -1,0 +1,36 @@
+[
+  {
+    "id": "nec_armor_WtR",
+    "type": "ARMOR",
+    "name": { "str": "거절의 의지" },
+    "description": "모든 것을 튕겨내는 결계입니다.",
+    "weight": "0 g",
+    "volume": "0 L",
+    "material": [ "nec_esp_WtR" ],
+    "symbol": "[",
+    "color": "light_gray",
+    "warmth": 0,
+    "material_thickness": 2,
+    "environmental_protection": 2,
+    "flags": [
+      "SEMITANGIBLE",
+      "ONLY_ONE",
+      "OVERSIZE",
+      "TRADER_AVOID",
+      "PERSONAL",
+      "STURDY",
+      "NO_TAKEOFF",
+      "NONCONDUCTIVE",
+      "PADDED"
+    ],
+    "armor": [
+      {
+        "encumbrance": 0,
+        "coverage": 100,
+        "covers": [ "head", "mouth", "eyes", "torso", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r" ]
+      }
+    ]
+  }
+
+  
+]

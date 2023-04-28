@@ -1,0 +1,27 @@
+[
+  {
+    "type": "construction_group",
+    "id": "build_dimension_anchor",
+    "name": "차원 좌표 수신기 건축"
+  },  {
+    "type": "construction_group",
+    "id": "portable_dimension_anchor",
+    "name": "차원 좌표 수신기 건축"
+  },{
+    "type": "construction_group",
+    "id": "install_quantum_solar_panel",
+    "name": "양자 태양 전지판 설치"
+  },{
+    "type": "construction_group",
+    "id": "install_array_solar_panel",
+    "name": " 태양 전지판 묶음 설치"
+  },{
+    "type": "construction_group",
+    "id": "install_array_advsolar_panel",
+    "name": "개량된 태양 전지판 묶음 설치"
+  },{
+    "type": "construction_group",
+    "id": "install_array_quantum_solar_panel",
+    "name": "양자 태양 전지판 묶음 설치"
+  }
+]

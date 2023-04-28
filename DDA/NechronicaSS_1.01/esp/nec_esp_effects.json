@@ -1,0 +1,25 @@
+[
+  {
+    "type": "effect_type",
+    "id": "nec_voidthrone",
+    "name": [ "허공의 왕좌" ],
+    "desc": [ "중력에 얽매이지 않는 몸놀림을 익히고 있습니다. 하늘을 날기 전까지는 불가능하지만요." ],
+    "apply_message": "왕좌의 힘을 얻었습니다",
+    "remove_message": "왕좌의 힘을 잃었습니다",
+    "rating": "good",
+    "base_mods": { "per_mod": [ 1,5 ], "dex_mod": [ 1,5 ],  "speed_mod": [ 5,20 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "NEC_pieces_on_the_board",
+    "name": [ "반상 위의 말" ],
+    "desc": [ "춤을 추는 말들입니다." ],
+    "max_intensity": 4,
+    "int_add_val": 1,
+    "apply_message": "힘의 돌풍에 춤추게 되었다.",
+    "remove_message": "힘이 빠지고 있습니다.",
+    "base_mods": { "speed_mod": [ -70 ] },
+    "scaling_mods": { "speed_mod": [ -10 ] }
+  }
+
+]

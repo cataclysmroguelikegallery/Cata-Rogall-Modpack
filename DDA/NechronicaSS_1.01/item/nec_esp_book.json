@@ -1,0 +1,23 @@
+[
+
+  {
+    "id": "NEC_ESP_spellbook",
+    "type": "BOOK",
+    "category": "manuals",
+    "name": { "str": "주문서(/PE107 \"ESP\"실험기록)", "str_pl": "주문서(/PE107 \"ESP\"실험기록)" },
+    "//": "ESP 呪文所",
+    "description": "이 논문 묶음에는 대격변이 시작되기 8일 전의 날짜가 적혀 있다. 복잡한 수식과 함께 인간의 몸으로 정상의 힘을 다루는 방법이 제시되어 있다.",
+    "weight": "483 g",
+    "volume": "825 ml",
+    "price": 5000,
+    "material": [ "paper" ],
+    "looks_like": "cookbook",
+    "symbol": "?",
+    "color": "brown",
+    "use_action": {
+      "type": "learn_spell",
+      "spells": [ "NEC_forces_of_distortion", "NEC_distortion_of_destiny", "NEC_will_to_refuse", "NEC_voidthrone", "NEC_sharing_of_loss", "NEC_pieces_on_the_board","NEC_destructive_vortex" ]
+    }
+  }
+  
+]

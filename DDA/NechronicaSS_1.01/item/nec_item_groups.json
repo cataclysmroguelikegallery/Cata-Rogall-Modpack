@@ -1,0 +1,383 @@
+[
+  {
+    "type": "item_group",
+    "id": "child_items",
+    "copy-from": "child_items",
+    "subtype": "distribution",
+    "extend": {"entries" :[{"item": "nec_ribbon","prob":5},{"item": "nec_teddy","prob":5} ]}
+  },
+  {
+    "type": "item_group",
+    "id": "livingroom",
+    "copy-from": "livingroom",
+    "subtype": "distribution",
+    "extend": {"entries" :[{"item": "nec_alloy_trunk","prob":1} ]}
+  },
+  {
+    "type": "item_group",
+    "id": "bedroom",
+    "copy-from": "bedroom",
+    "subtype": "distribution",
+    "extend": {"entries" : [{"item":"nec_alloy_trunk","prob":5 }, {"item":"nec_teddy","prob":30 } ]}
+  },
+  {
+    "type": "item_group",
+    "id": "trash",
+    "copy-from": "trash",
+    "subtype": "distribution",
+    "extend": {"entries" : [ { "item":"nec_teddy", "prob":30 } ]}
+  },
+  {
+    "type": "item_group",
+    "id": "bags",
+    "copy-from": "bags",
+    "subtype": "distribution",
+    "extend": {"entries" : [ { "item":"nec_alloy_trunk", "prob":10 } ]}
+  },
+  {
+    "type": "item_group",
+    "id": "office",
+    "copy-from": "office",
+    "subtype": "distribution",
+    "extend": {"entries" : [ { "item":"nec_alloy_trunk", "prob":10 } ]}
+  },
+  {
+    "type": "item_group",
+    "id": "cubical_office",
+    "copy-from": "cubical_office",
+    "subtype": "distribution",
+    "extend": {"entries" : [ { "item":"nec_alloy_trunk", "prob":20 } ]}
+  },
+  {
+    "type": "item_group",
+    "id": "pawn",
+    "copy-from": "pawn",
+    "subtype": "distribution",
+    "extend": {"entries" : [
+                            { "item":"nec_alloy_trunk", "prob":5 },
+                            { "item":"nec_ball_chain", "prob":3 },
+                            { "item":"nec_scissors", "prob":3 },
+                            { "item":"nec_assasin_blade", "prob":2 },
+                            { "item":"nec_coffin", "prob":3 },
+                            { "item":"nec_gothic_headdress", "prob":2 },
+                            { "item":"nec_African_throwing_knife", "prob":15 },
+                            { "item":"nec_fine_katana", "prob":1 }
+                          ]
+                }
+  },
+  {
+    "type": "item_group",
+    "id": "chem_lab",
+    "copy-from": "chem_lab",
+    "subtype": "distribution",
+    "extend": {"entries" : [ { "item":"nec_alloy_trunk", "prob":10 } ]}
+  },
+  {
+    "type": "item_group",
+    "id": "lab_dorm",
+    "copy-from": "lab_dorm",
+    "subtype": "distribution",
+    "extend": {"entries" : [{"item":"nec_alloy_trunk","prob":5 }, {"item":"nec_teddy","prob":30 }, {"item":"nec_alloy_trunk","prob":5 } ]}
+  },
+  {
+    "type": "item_group",
+    "id": "arcade_prizes",
+    "copy-from": "arcade_prizes",
+    "subtype": "distribution",
+    "extend": {"entries" : [{"item":"nec_alloy_trunk","prob":5 }, {"item":"nec_teddy","prob":30 } ]}
+  },
+  {
+    "type": "item_group",
+    "id": "helicopter",
+    "copy-from": "helicopter",
+    "subtype": "distribution",
+    "extend": {"entries" : [ { "item":"nec_alloy_trunk", "prob":10 } ]}
+  },
+  {
+    "type": "item_group",
+    "id": "bionics",
+    "copy-from": "bionics",
+    "subtype": "distribution",
+    "extend": {"entries" : [
+                            { "item":"bio_remote_attack", "prob":10 },
+                            { "item":"bio_pile", "prob":10 },
+                            { "item":"bio_drill", "prob":10 },
+                            { "item":"bio_lightsaber", "prob":10 }
+                          ]
+                }
+  },
+  {
+    "type": "item_group",
+    "id": "bionics_mil",
+    "copy-from": "bionics_mil",
+    "subtype": "distribution",
+    "extend": {"entries" : [
+                            { "item":"bio_remote_attack", "prob":2 },
+                            { "item":"bio_pile", "prob":2 },
+                            { "item":"bio_drill", "prob":2 },
+                            { "item":"bio_lightsaber", "prob":2 }
+                          ]
+                }
+  },
+  {
+    "type": "item_group",
+    "id": "bionics_op",
+    "subtype": "distribution",
+    "//": "What the commandos get.",
+    "copy-from": "bionics_op",
+    "extend": {"entries" : [
+                            { "item":"bio_power_storage_mkII", "prob":10 },
+                            { "item":"bio_batteries", "prob":10 },
+                            { "item":"bio_metabolics", "prob":20 },
+                            { "item":"bio_torsionratchet", "prob":20 },
+                            { "item":"bio_ups", "prob":10 },
+                            { "item":"bio_ears", "prob":10 },
+                            { "item":"bio_sunglasses", "prob":10 },
+                            { "item":"bio_eye_optic", "prob":10 },
+                            { "item":"bio_eye_enhancer", "prob":10 },
+                            { "item":"bio_dex_enhancer", "prob":10 },
+                            { "item":"bio_str_enhancer", "prob":10 },
+                            { "item":"bio_night_vision", "prob":15 },
+                            { "item":"bio_infrared", "prob":15 },
+                            { "item":"bio_recycler", "prob":20 },
+                            { "item":"bio_digestion", "prob":15 },
+                            { "item":"bio_evap", "prob":15 },
+                            { "item":"bio_water_extractor", "prob":10 },
+                            { "item":"bio_armor_head", "prob":10 },
+                            { "item":"bio_armor_torso", "prob":10 },
+                            { "item":"bio_armor_arms", "prob":10 },
+                            { "item":"bio_armor_legs", "prob":10 },
+                            { "item":"bio_armor_eyes", "prob":10 },
+                            { "item":"bio_targeting", "prob":20 },
+                            { "item":"bio_ground_sonar", "prob":10 },
+                            { "item":"bio_face_mask", "prob":10 },
+                            { "item":"bio_scent_mask", "prob":10 },
+                            { "item":"bio_cloak", "prob":20 },
+                            { "item":"bio_fingerhack", "prob":15 },
+                            { "item":"bio_lockpick", "prob":20 },
+                            { "item":"bio_night", "prob":5 },
+                            { "item":"bio_nanobots", "prob":20 },
+                            { "item":"bio_blood_anal", "prob":10 },
+                            { "item":"bio_geiger", "prob":10 },
+                            { "item":"bio_radscrubber", "prob":15 },
+                            { "item":"bio_ads", "prob":10 },
+                            { "item":"bio_ods", "prob":10 },
+                            { "item":"bio_uncanny_dodge", "prob":10 },
+                            { "item":"bio_laser", "prob":15 },
+                            { "item":"bio_emp", "prob":10 },
+                            { "item":"bio_emp_armgun", "prob":10 },
+                            { "item":"bio_railgun", "prob":10 },
+                            { "item":"bio_flashbang", "prob":15 },
+                            { "item":"bio_chain_lightning", "prob":10 },
+                            { "item":"bio_time_freeze", "prob":5 },
+                            { "item":"bio_teleport", "prob":5 },
+                            { "item":"bio_probability_travel", "prob":5 },
+                            { "item":"bio_power_armor_interface", "prob":10 },
+                            { "item":"bio_cqb", "prob":5 },
+                            { "item":"bio_blade", "prob":5 },
+                            { "item":"bio_speed", "prob":5 },
+                            { "item":"bio_adrenaline", "prob":15 },
+                            { "item":"bio_watch", "prob":10 },
+                            { "item":"bio_power_armor_interface_mkII", "prob":5 },
+                            { "item":"bio_meteorologist", "prob":10 },
+                            { "item":"bio_cable", "prob":10 },
+                            { "item":"bio_jointservo", "prob":20 },
+                            { "item":"bio_shotgun", "prob":10 },
+                            { "item":"bio_remote_attack", "prob":5 },
+                            { "item":"bio_pile", "prob":5 },
+                            { "item":"bio_drill", "prob":5 },
+                            { "item":"bio_lightsaber", "prob":5 }
+                          ]
+                }
+  },
+  {
+    "type": "item_group",
+    "id": "art",
+    "copy-from": "art",
+    "subtype": "distribution",
+    "extend": {"entries" : [
+                            { "item":"nec_fine_katana", "prob":5 }
+                          ]
+                }
+  },
+  {
+    "type": "item_group",
+    "id": "weapons",
+    "copy-from": "weapons",
+    "subtype": "distribution",
+    "extend": {"entries" : [
+                            { "item":"nec_fine_katana", "prob":1 },
+                            { "item":"nec_ball_chain", "prob":3 },
+                            { "item":"nec_scissors", "prob":3 },
+                            { "item":"nec_assasin_blade", "prob":2 },
+                            { "item":"nec_fiber", "prob":1 },
+                            { "item":"nec_African_throwing_knife", "prob":10 }
+                          ]
+                }
+  },
+  {
+    "type": "item_group",
+    "id": "antique_rare",
+    "copy-from": "antique_rare",
+    "subtype": "distribution",
+    "extend": {"entries" : [
+                            { "item":"nec_fine_katana", "prob":2 },
+                            { "item":"nec_coffin", "prob":3 },
+                            { "item":"nec_assasin_blade", "prob":3 },
+                            { "item":"nec_gothic_headdress", "prob":2 }
+                          ]
+                }
+  },
+  {
+    "type": "item_group",
+    "id": "museum_melee",
+    "copy-from": "museum_melee",
+    "subtype": "distribution",
+    "extend": {"entries" : [
+                            { "item":"nec_fine_katana", "prob":1 },
+                            { "item":"nec_ball_chain", "prob":3 },
+                            { "item":"nec_scissors", "prob":3 },
+                            { "item":"nec_coffin", "prob":3 },
+                            { "item":"nec_African_throwing_knife", "prob":10 },
+                            { "item":"nec_assasin_blade", "prob":2 }
+                          ]
+                }
+  },
+  {
+    "type": "item_group",
+    "id": "medieval",
+    "copy-from": "medieval",
+    "subtype": "distribution",
+    "extend": {"entries" : [
+                            { "item":"nec_ball_chain", "prob":10 },
+                            { "item":"nec_scissors", "prob":10 },
+                            { "item":"nec_assasin_blade", "prob":2 }
+                          ]
+                }
+  },
+  {
+    "type": "item_group",
+    "id": "survivorzed_extra",
+    "copy-from":"survivorzed_extra",
+    "subtype": "distribution",
+    "extend":{ "entries" : [
+                           {"item": "nec_jogiri", "prob": 10}
+                           ]
+             }
+  },
+  {
+    "type": "item_group",
+    "id": "prison_weapons",
+    "copy-from":"prison_weapons",
+    "subtype": "distribution",
+    "extend":{ "entries" : [
+                           {"item": "nec_ball_chain", "prob": 10}
+                           ]
+             }
+  },
+  {
+    "type": "item_group",
+    "id": "dresser",
+    "copy-from":"dresser",
+    "subtype": "distribution",
+    "extend":{ "entries" : [
+                           {"item": "nec_ribbon", "prob": 20},
+                           {"item": "nec_gothic_headdress", "prob": 2}
+                           ]
+             }
+  },
+  {
+    "type": "item_group",
+    "id": "hatstore_accessories",
+    "copy-from":"hatstore_accessories",
+    "subtype": "distribution",
+    "extend":{ "entries" : [
+                           {"item": "nec_ribbon", "prob": 10}
+                           ]
+             }
+  },
+  {
+    "type": "item_group",
+    "id": "mut_lab",
+    "copy-from":"mut_lab",
+    "subtype": "distribution",
+    "extend":{ "entries" : [
+                           {"item": "iv_mutagen_necromancy", "prob": 2},
+                           {"item": "NEC_recipe_necromancy", "prob": 3},
+                           {"item": "NEC_ESP_spellbook", "prob": 3}
+                           ]
+             }
+  },
+  {
+    "type": "item_group",
+    "id": "hospital_lab",
+    "copy-from":"hospital_lab",
+    "subtype": "distribution",
+    "extend":{ "entries" : [
+                           {"item": "NEC_recipe_necromancy", "prob": 3},
+                           {"item": "NEC_ESP_spellbook", "prob": 3}
+                           ]
+             }
+  },
+  {
+    "type": "item_group",
+    "id": "goo",
+    "copy-from":"goo",
+    "subtype": "distribution",
+    "extend":{ "entries" : [
+                           {"item": "NEC_recipe_necromancy", "prob": 3},
+                           {"item": "NEC_ESP_spellbook", "prob": 3}
+                           ]
+             }
+  },
+  {
+    "type": "item_group",
+    "id": "allclothes",
+    "copy-from":"allclothes",
+    "subtype": "distribution",
+    "extend":{ "entries" : [
+                           {"item": "nec_gothic_headdress", "prob": 2},
+                           {"item": "nec_gothic_dress", "prob": 3},
+                           {"item": "nec_ribbon", "prob": 5},
+                           {"item": "nec_panier", "prob": 3}
+                           ]
+             }
+  },
+  {
+    "id": "dojo_manuals",
+    "type": "item_group",
+    "copy-from":"dojo_manuals",
+    "subtype": "distribution",
+    "extend":{ "entries" : [
+                           {"item": "manual_karate", "prob": 15},
+                           {"item": "manual_judo", "prob": 15},
+                           {"item": "manual_aikido", "prob": 15},
+                           {"item": "manual_taekwondo", "prob": 15},
+                           {"item": "manual_tai_chi", "prob": 15},
+                           {"item": "manual_nec_kung_fu", "prob": 15},
+                           {"item": "mag_melee", "prob": 20},
+                           {"item": "manual_melee", "prob": 10},
+                           {"item": "mag_unarmed", "prob": 20},
+                           {"item": "manual_brawl", "prob": 10},
+                           {"item": "mag_cutting", "prob": 5},
+                           {"item": "manual_niten", "prob": 1},
+                           {"item": "textbook_weapeast", "prob": 1}
+                           ]
+             }
+  },
+  {
+    "type": "item_group",
+    "id": "home_display_case",
+    "copy-from": "home_display_case",
+    "subtype": "distribution",
+    "extend": {"entries" : [
+                            { "item":"nec_fine_katana", "prob":1 },
+                            { "item":"nec_ball_chain", "prob":3 },
+                            { "item":"nec_scissors", "prob":3 },
+                            { "item":"nec_assasin_blade", "prob":2 },
+                            { "item":"nec_fiber", "prob":1 },
+                            { "item":"nec_African_throwing_knife", "prob":10 }
+                          ]
+                }
+  }
+]

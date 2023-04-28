@@ -1,0 +1,22 @@
+[
+  {
+    "id": "NEC_recipe_necromancy",
+    "type": "BOOK",
+    "name": { "str": "PE105 \"네크로메틱\": 관찰기록", "str_pl": "PE105 \"네크로메틱\": 관찰기록" },
+    "description": "이 서류에는 모든 것들이 시작되기 10일 전에 만들어졌던 복잡한 화학 공식들과 인간의 몸에 점균 덩어리 같은 무엇인가를 박아넣기 위한 도표를 묘사하고 있습니다.",
+    "weight": "50 g",
+    "volume": "500 ml",
+    "price": "1250 USD",
+    "material": [ "paper" ],
+    "symbol": "?",
+    "color": "light_green",
+    "skill": "cooking",
+    "required_level": 8,
+    "max_level": 9,
+    "intelligence": 12,
+    "time": 35,
+    "fun": -2,
+    "looks_like": "recipe_raptor"
+  }
+  
+]

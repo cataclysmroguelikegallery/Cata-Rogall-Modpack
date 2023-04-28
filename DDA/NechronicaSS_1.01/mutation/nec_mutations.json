@@ -1,0 +1,571 @@
+[
+  {
+    "//": "男の子。どういう意味かは個々人の解釈次第",
+    "type": "mutation",
+    "id": "NEC_OTOKONOKO",
+    "name": { "str": "오토코노코" },
+    "points": 0,
+    "description": "당신의 몸은 소녀의 모습을 하고 있지만 소년의 특징 또한 가지고 있다. 귀중하긴 하지만 지금 당장 유용하지는 않을 것이다.",
+    "starting_trait": true,
+    "valid": false
+  },
+  {
+    "//": "女の子。どういう意味かは個々人の解釈次第。昨今のLGBTに対応",
+    "type": "mutation",
+    "id": "NEC_ONNANOKO",
+    "name": { "str": "온나노코" },
+    "points": 0,
+    "description": "당신의 몸은 남성적이지만 여성의 특징도 가지고 있습니다. 귀중하긴 하지만 지금 당장 유용하지는 않을 것이다.",
+    "starting_trait": true,
+    "valid": false
+  },
+  {
+    "//": "生い立ちがキャラ生成後に残らないので黄特質としてポジションを用意しておく",
+    "type": "mutation",
+    "id": "nec_Alice_MT",
+    "name": "앨리스",
+    "description": "모든 것이 변해버린 세상에 있으면서도 변하지 않은 자신. 과연 그것은 고요함일까, 아니면 도피일까.",
+    "points": 0,
+    "starting_trait": true,
+    "purifiable": false,
+    "valid": false
+  },
+  {
+    "//": "生い立ちがキャラ生成後に残らないので黄特質としてポジションを用意しておく",
+    "type": "mutation",
+    "id": "nec_Holic_MT",
+    "name": "홀릭",
+    "description": "모든 것이 변해버린 세상에서 욕망대로 움직이는 자신. 과연 그것은 간절함일까, 아니면 광기일까.",
+    "points": 0,
+    "starting_trait": true,
+    "purifiable": false,
+    "valid": false
+  },
+  {
+    "//": "生い立ちがキャラ生成後に残らないので黄特質としてポジションを用意しておく",
+    "type": "mutation",
+    "id": "nec_Automaton_MT",
+    "name": "오토마톤",
+    "description": "모든 것이 변해버린 세상에서 마음을 죽인 자신. 과연 그것은 적응일까, 아니면 체념일까.",
+    "points": 0,
+    "starting_trait": true,
+    "purifiable": false,
+    "valid": false
+  },
+  {
+    "//": "生い立ちがキャラ生成後に残らないので黄特質としてポジションを用意しておく",
+    "type": "mutation",
+    "id": "nec_Junk_MT",
+    "name": "정크",
+    "description": "모든 것이 변해버린 세상에서 발만 동동 구르는 나 자신. 과연 그것은 불굴의 의지인가, 아니면 무위도식인가.",
+    "points": 0,
+    "starting_trait": true,
+    "purifiable": false,
+    "valid": false
+  },
+  {
+    "//": "生い立ちがキャラ生成後に残らないので黄特質としてポジションを用意しておく",
+    "type": "mutation",
+    "id": "nec_Court_MT",
+    "name": "코트",
+    "description": "모든 것이 변해버린 세상에서 생각을 계속하는 나 자신. 과연 그것은 냉철한 것일까, 아니면 공론일까.",
+    "points": 0,
+    "starting_trait": true,
+    "purifiable": false,
+    "valid": false
+  },
+  {
+    "//": "生い立ちがキャラ生成後に残らないので黄特質としてポジションを用意しておく",
+    "type": "mutation",
+    "id": "nec_Sorority_MT",
+    "name": "솔로리티",
+    "description": "모든 것이 변해버린 세상에서 누군가를 위해 존재했던 자신. 과연 그것은 선도일까, 아니면 독선일까.",
+    "points": 0,
+    "starting_trait": true,
+    "purifiable": false,
+    "valid": false
+  },
+  {
+    "//": "アンデット閾変異",
+    "type": "mutation",
+    "id": "THRESH_NECROMANTIC",
+    "name": { "str": "언데드" },
+    "points": 1,
+    "description": "망가진 몸뚱이를 누더기처럼 기워서 유지하고 있다. 부숴지더라도 새로운 부품으로 대체하면 된다.",
+    "valid": false,
+    "purifiable": false,
+    "threshold": true
+  },
+
+  {
+    "//": "----------------既存変異の追加変更----------------",
+    "type": "mutation",
+    "id": "CANNIBAL",
+    "copy-from": "CANNIBAL",
+    "extend": { "category": [ "NECROMANTIC" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "SLIMY",
+    "copy-from": "SLIMY",
+    "extend": { "category": [ "NECROMANTIC" ] }
+  },
+
+  {
+    "type": "mutation",
+    "id": "WINGS_STUB",
+    "copy-from": "WINGS_STUB",
+    "extend": { 
+      "category": [ "NECROMANTIC" ] ,
+      "changes_to": [ "NEC_WINGS" ]
+    }
+  },
+
+  {
+    "type": "mutation",
+    "id": "HEADBUMPS",
+    "copy-from": "HEADBUMPS",
+    "extend": { 
+      "category": [ "NECROMANTIC" ] ,
+      "changes_to": [ "NEC_HORNS" ]
+    }
+  },
+
+  {
+    "type": "mutation",
+    "id": "NAILS",
+    "copy-from": "NAILS",
+    "extend": { 
+      "category": [ "NECROMANTIC" ] ,
+      "changes_to": [ "NEC_HORNS" ]
+    }
+  },
+
+  {
+    "type": "mutation",
+    "id": "HUNGER",
+    "copy-from": "HUNGER",
+    "extend": { 
+      "category": [ "NECROMANTIC" ] 
+    }
+  },
+
+  {
+    "type": "mutation",
+    "id": "HUNGER2",
+    "copy-from": "HUNGER2",
+    "extend": { 
+      "category": [ "NECROMANTIC" ] 
+    }
+  },
+
+  {
+    "type": "mutation",
+    "id": "HUNGER3",
+    "copy-from": "HUNGER3",
+    "extend": { 
+      "category": [ "NECROMANTIC" ] 
+    }
+  },
+
+  {
+    "type": "mutation",
+    "id": "WEAKSTOMACH",
+    "copy-from": "WEAKSTOMACH",
+    "extend": { 
+      "category": [ "NECROMANTIC" ] 
+    }
+  },
+
+  {
+    "type": "mutation",
+    "id": "NAUSEA",
+    "copy-from": "NAUSEA",
+    "extend": { 
+      "category": [ "NECROMANTIC" ] 
+    }
+  },
+
+  {
+    "type": "mutation",
+    "id": "VOMITOUS",
+    "copy-from": "VOMITOUS",
+    "extend": { 
+      "category": [ "NECROMANTIC" ] 
+    }
+  },
+
+  {
+    "type": "mutation",
+    "id": "TAIL_STUB",
+    "copy-from": "TAIL_STUB",
+    "extend": { 
+      "category": [ "NECROMANTIC" ] 
+    }
+  },
+
+  {
+    "type": "mutation",
+    "id": "TAIL_THICK",
+    "copy-from": "TAIL_THICK",
+    "extend": { 
+      "category": [ "NECROMANTIC" ] 
+    }
+  },
+
+  {
+    "type": "mutation",
+    "id": "ANIMALDISCORD",
+    "copy-from": "ANIMALDISCORD",
+    "extend": { 
+      "category": [ "NECROMANTIC" ] 
+    }
+  },
+
+  {
+    "type": "mutation",
+    "id": "SMELLY",
+    "copy-from": "SMELLY",
+    "extend": { 
+      "category": [ "NECROMANTIC" ] 
+    }
+  },
+
+  {
+    "type": "mutation",
+    "id": "SMELLY2",
+    "copy-from": "SMELLY2",
+    "extend": { 
+      "category": [ "NECROMANTIC" ] 
+    }
+  },
+
+  {
+    "type": "mutation",
+    "id": "INSOMNIA",
+    "copy-from": "INSOMNIA",
+    "extend": { 
+      "category": [ "NECROMANTIC" ] 
+    }
+  },
+
+  {
+    "type": "mutation",
+    "id": "PAINRESIST",
+    "copy-from": "PAINRESIST",
+    "extend": { 
+      "category": [ "NECROMANTIC" ] 
+    }
+  },
+
+  {
+    "type": "mutation",
+    "id": "SAPROVORE",
+    "copy-from": "SAPROVORE",
+    "extend": { 
+      "category": [ "NECROMANTIC" ] 
+    }
+  },
+
+  {
+    "//": "----------------アンデッド専用変異----------------",
+    "type": "mutation",
+    "id": "NEC_ADD_EYE",
+    "name": { "str": "여분의 눈" },
+    "points": 1,
+    "visibility": 2,
+    "ugliness": 7,
+    "description": "당신의 몸에는 새로운 눈이 생겨났다. 시야가 넓어지지만 겉모습은 징그러워졌다. 지각력이 꽤 뛰어나졌다. 지각력 +2",
+    "category": [ "NECROMANTIC" ],
+    "valid": false,
+    "passive_mods": { "per_mod": 2 }
+  },
+  {
+    "type": "mutation",
+    "id": "NEC_ADD_ARM",
+    "name": { "str": "여분의 팔" },
+    "points": 3,
+    "visibility": 8,
+    "ugliness": 5,
+    "description": "당신의 팔은 두 개로 끝나지 않는다. 어깨에 팔이 더 돋아나있다. 원래 쓰던 팔이 아니라서 쓰긴 불편하지만 전술의 폭은 넓어졌다. 민첩성 +2",
+    "category": [ "NECROMANTIC" ],
+    "valid": false,
+    "passive_mods": { "dex_mod": 2 },
+    "attacks":[
+     {
+      "attack_text_u": "당신은 다른 또 하나의 팔로 %s를 때렸습니다.",
+      "attack_text_npc": "1$s가 다른 또 하나의 팔로 %2$s를 때렸다.",
+      "chance": 20,
+      "base_damage": { "damage_type": "bash", "amount": 6 },
+      "strength_damage": { "damage_type": "bash", "amount": 0.5 }
+     }
+    ]
+  },
+  {
+    "type": "mutation",
+    "id": "NEC_ADD_LEG",
+    "name": { "str": "여분의 다리" },
+    "points": 3,
+    "visibility": 4,
+    "ugliness": 5,
+    "description": "당신의 다리는 두 개가 아닙니다. 또 다른 한 쌍의 다리가 허리에서 자라고 있습니다. 익숙해지면 더 빨리 움직일 수 있습니다. 손재주 +2, 속도 보너스.",
+    "category": [ "NECROMANTIC" ],
+    "passive_mods": { "dex_mod": 2 },
+    "enchantments": [ { "condition": "ALWAYS", "values": [ { "value": "SPEED", "multiply": 0.05 } ] } ],
+    "valid": false
+  },
+  {
+    "type": "mutation",
+    "id": "NEC_OOANA",
+    "name": { "str": "큰 구멍" },
+    "points": 0,
+    "visibility": 3,
+    "ugliness": 2,
+    "description": "당신의 몸에는 큰 결손이 있다. 전투에 지장은 없지만, 사람들이 구멍을 보고 살짝 놀랄만큼 크다.",
+    "category": [ "NECROMANTIC" ],
+    "valid": false
+  },
+  {
+    "type": "mutation",
+    "id": "NEC_HORNS",
+    "name": { "str": "큰 뿔" },
+    "points": -2,
+    "visibility": 5,
+    "ugliness": 3,
+    "mixed_effect": true,
+    "description": "근거리에서 찌르거나 다리를 걸기 충분한 길이의 큰 돌기가 나있다.",
+    "prereqs": [ "HEADBUMPS", "NAILS" ],
+    "category": [ "NECROMANTIC" ],
+    "attacks": {
+      "attack_text_u": "당신은 %s를 큰 뿔로 꿰뚫었다.",
+      "attack_text_npc": "1$s가 %2$s를 큰 뿔로 꿰뚫었다.",
+      "chance": 20,
+      "base_damage": { "damage_type": "stab", "amount": 8 },
+      "strength_damage": { "damage_type": "bash", "amount": 0.5 }
+    }
+  },
+  {
+    "type": "mutation",
+    "id": "NEC_BONESPEAR",
+    "name": { "str": "뼈 창" },
+    "points": 2,
+    "visibility": 4,
+    "ugliness": 4,
+    "description": "뼈가 신체로 부터 창처럼 크게 튀어나왔습니다. 이대로라면 찌르는 무기로도 쓸 수 있을 것 같습니다.",
+    "prereqs": [ "NEC_HORNS" ],
+    "category": [ "NECROMANTIC" ],
+    "attacks": {
+      "attack_text_u": "%s를 날카로운 뼈로 꿰뚫었다",
+      "attack_text_npc": "%1$s기%2$s를 날카로운 뼈로 꿰뚫었다",
+      "body_part": "mouth",
+      "chance": 10,
+      "base_damage": { "damage_type": "stab", "amount": 15 },
+      "strength_damage": { "damage_type": "bash", "amount": 0.5 }
+    }
+  },
+  {
+    "type": "mutation",
+    "id": "NEC_TONGUE",
+    "name": { "str": "긴 혀" },
+    "points": 0,
+    "visibility": 1,
+    "ugliness": 1,
+    "changes_to": [ "NEC_TONGUE2" ],
+    "description": "당신의 혀는 긴 대롱처럼 늘어났다. 별 효과는 없다.",
+    "category": [ "NECROMANTIC" ]
+  },
+  {
+    "type": "mutation",
+    "id": "NEC_TONGUE2",
+    "name": { "str": "주르륵주르륵" },
+    "points": 2,
+    "visibility": 4,
+    "ugliness": 4,
+    "prereqs": [ "NEC_TONGUE" ],
+    "cancels": [ "BEAK", "BEAK_HUM", "BEAK_PECK", "PROBOSCIS", "MANDIBLES", "MUZZLE_LONG", "MUZZLE", "MINOTAUR" ],
+    "description": "혀가 질질 거리며 침을 흘리고 있다. 입에는 아무것도 착용할 수 없지만 혀로 기습 공격을 할 수 있다.",
+    "category": [ "NECROMANTIC" ],
+    "restricts_gear": [ "mouth" ],
+    "attacks": {
+      "attack_text_u": "%s를 긴 혀로 휘둘러 쳤다",
+      "attack_text_npc": "%1$s가 %2$s를 긴 혀로 휘둘러 쳤다",
+      "body_part": "mouth",
+      "chance": 20,
+      "base_damage": { "damage_type": "stab", "amount": 15 },
+      "strength_damage": { "damage_type": "stab", "amount": 0.5 }
+    }
+  },
+  {
+    "type": "mutation",
+    "id": "NEC_FAILED",
+    "name": { "str": "실패작" },
+    "points": -2,
+    "visibility": 4,
+    "ugliness": 4,
+    "changes_to": [ "NEC_RUPTURE" ],
+    "description": "여기저기 몸을 기워보고 만져봤지만 실수가 많았다. 전신에 방해도가 늘어나고 방어력이 감소한다.",
+    "category": [ "NECROMANTIC" ],
+    "encumbrance_always": [
+      [ "torso", 3 ],
+      [ "head", 3 ],
+      [ "arm_l", 3 ],
+      [ "arm_r", 3 ],
+      [ "hand_l", 3 ],
+      [ "hand_r", 3 ],
+      [ "leg_l", 3 ],
+      [ "leg_r", 3 ],
+      [ "foot_l", 3 ],
+      [ "foot_r", 3 ]
+    ],
+    "armor": [
+      {
+        "parts": [ "torso", "head", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r", "mouth", "eyes" ],
+        "bash": -3,
+        "cut": -3
+      }
+    ],
+    "valid": false
+  },
+  {
+    "//": "----------------アンデッド閾変異----------------",
+    "type": "mutation",
+    "id": "NEC_WINGS",
+    "name": { "str": "찢어진 피막" },
+    "points": 5,
+    "visibility": 12,
+    "ugliness": 6,
+    "threshreq": [ "THRESH_NECROMANTIC" ],
+    "description": "시체의 살로 된 피막, 시체 천사의 날개. 하늘을 날 수는 없지만 당신의 몸을 감싸서 보호할 수는 있다. 당신을 향하는 대부분의 공격을 받아넘겨준다.",
+    "prereqs": [ "WINGS_STUB" ],
+    "cancels": [ "WINGS_BIRD", "WINGS_INSECT", "WINGS_BUTTERFLY" ],
+    "category": [ "NECROMANTIC" ],
+    "wet_protection": [
+      { "part": "arm_l", "neutral": 5, "good": 10 },
+      { "part": "arm_r", "neutral": 5, "good": 10 },
+      { "part": "torso", "neutral": 10, "good": 20 }
+    ],
+    "encumbrance_always": [ [ "torso", 10 ] ],
+    "armor": [ { "parts": [ "torso", "arm_l", "arm_r" ], "bash": 14, "cut": 8 } ]
+  },
+  {
+    "type": "mutation",
+    "id": "NEC_ADD_HEAD",
+    "name": { "str": "여분의 머리" },
+    "points": 7,
+    "visibility": 15,
+    "ugliness": 10,
+    "threshreq": [ "THRESH_NECROMANTIC" ],
+    "category": [ "NECROMANTIC" ],
+    "description": "어깨에 새로운 머리가 있다. 머리의 역활을 해주는 사람은 어떻게든 잘 해주고 있다. 얼굴의 반대편은 직접 볼 수는 없지만 저 쪽이 보고 느낀 것을 왠지 모르게 알게 된다. 지능 +5 지각력 +3",
+    "encumbrance_always": [ [ "head", 5 ] ],
+    "passive_mods": { "int_mod": 5, "per_mod": 3 }
+  },
+  {
+    "type": "mutation",
+    "id": "NEC_RUPTURE",
+    "name": { "str": "반파" },
+    "points": -5,
+    "visibility": 6,
+    "ugliness": 8,
+    "threshreq": [ "THRESH_NECROMANTIC" ],
+    "description": "엉망진찬으로 기우고 만진 탓에 몸이 반쯤 무너졌다. 전신 방해도는 더 증가하고 방어력은 더 감소한다.",
+    "changes_to": [ "NEC_PATCH" ],
+    "prereqs": [ "NEC_FAILED" ],
+    "category": [ "NECROMANTIC" ],
+    "encumbrance_always": [
+      [ "torso", 9 ],
+      [ "head", 5 ],
+      [ "arm_l", 5 ],
+      [ "arm_r", 7 ],
+      [ "hand_l", 8 ],
+      [ "hand_r", 5 ],
+      [ "leg_l", 5 ],
+      [ "leg_r", 6 ],
+      [ "foot_l", 5 ],
+      [ "foot_r", 5 ]
+    ],
+    "armor": [
+      {
+        "parts": [ "torso", "head", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r", "mouth", "eyes" ],
+        "bash": -6,
+        "cut": -6
+      }
+    ],
+    "valid": false
+  },
+  {
+    "type": "mutation",
+    "id": "NEC_PATCH",
+    "name": { "str": "누덕누덕" },
+    "points": 7,
+    "visibility": 8,
+    "ugliness": 5,
+    "description": "당신은 몸을 딱 좋게 기워서 개조할 수 있었다. 공격에는 조금 약해지지만 전신 방해도가 크게 감소된다.",
+    "category": [ "NECROMANTIC" ],
+    "threshreq": [ "THRESH_NECROMANTIC" ],
+    "prereqs": [ "NEC_RUPTURE" ],
+    "encumbrance_always": [
+      [ "torso", -10 ],
+      [ "head", -10 ],
+      [ "arm_l", -10 ],
+      [ "arm_r", -10 ],
+      [ "hand_l", -10 ],
+      [ "hand_r", -10 ],
+      [ "leg_l", -10 ],
+      [ "leg_r", -10 ],
+      [ "foot_l", -10 ],
+      [ "foot_r", -10 ]
+    ],
+    "armor": [
+      {
+        "parts": [ "torso", "head", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r", "mouth", "eyes" ],
+        "bash": -2,
+        "cut": -4
+      }
+    ],
+    "valid": false
+  },
+  {
+    "type": "mutation",
+    "id": "NEC_Tentacle",
+    "name": { "str": "고기 촉수" },
+    "points": 2,
+    "visibility": 4,
+    "ugliness": 4,
+    "description": "몸에서 긴 촉수가 자랐습니다. 채찍처럼 휘두르면 공격에 사용할 수 있을 것 같습니다.",
+    "prereqs": [ "NEC_BONESPEAR" ],
+    "category": [ "NECROMANTIC" ],
+    "threshreq": [ "THRESH_NECROMANTIC" ],
+    "attacks": {
+      "attack_text_u": "%s를 촉수로 후려쳤다",
+      "attack_text_npc": "%1$s가 %2$s를 촉수로 후려쳤다",
+      "chance": 20,
+      "base_damage": { "damage_type": "bash", "amount": 15 },
+      "strength_damage": { "damage_type": "bash", "amount": 1 }
+    }
+  },
+    {
+    "type": "mutation",
+    "id": "NEC_LIQUIDROT",
+    "name": { "str": "냄새나는 체액" },
+    "points": 1,
+    "visibility": 1,
+    "ugliness": 1,
+    "description": "몸에 독이 섞인 체액이 흐르고 있습니다. 공격을 받으면 튀어나와 상대에게 상처를 입힙니다.",
+    "enchantments": [
+      {
+        "hit_me_effect": [
+          {
+            "id": "NEC_liquidrot_spray_1",
+            "once_in": 2,
+            "message": "몸에서 독이 섞인 체액이 튀어나왔다!",
+            "npc_message": "%1$s의 몸에서 독이 섞인 체액이 튀어나왔다!"
+          }
+        ]
+      }
+    ],
+    "category": [ "NECROMANTIC" ],
+    "threshreq": [ "THRESH_NECROMANTIC" ]
+  }
+
+]
