@@ -2,8 +2,8 @@
   {
     "type": "MOD_INFO",
     "id": "dogmeat_mod",
-    "name": "편리한 가방+@",
-    "description": "편리한 가방+@",
+    "name": "도그밋의 인벤토리",
+    "description": "도그밋의 인벤토리",
     "dependencies": [ "bn" ]
   }
 ]

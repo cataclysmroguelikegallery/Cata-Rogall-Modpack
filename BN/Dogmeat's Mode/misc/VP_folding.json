@@ -206,6 +206,7 @@
     "//": "700W average assuming relatively small target-actual difference",
     "epower": -700,
     "bonus": 10,
+    "folded_volume": 60,
     "requirements": {
       "install": { "skills": [ [ "mechanics", 1 ], [ "electronics", 1 ] ], "time": "2 m", "using": [ [ "vehicle_screw", 1 ] ] },
       "removal": { "skills": [ [ "mechanics", 1 ] ], "time": "1 m", "using": [ [ "vehicle_screw", 1 ] ] },
@@ -228,6 +229,7 @@
     "durability": 400,
     "epower": -120,
     "bonus": 10,
+    "folded_volume": 60,
     "requirements": {
       "install": { "skills": [ [ "mechanics", 1 ], [ "electronics", 1 ] ], "time": "2 m", "using": [ [ "vehicle_screw", 1 ] ] },
       "removal": { "skills": [ [ "mechanics", 1 ] ], "time": "1 m", "using": [ [ "vehicle_screw", 1 ] ] },

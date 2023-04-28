@@ -28,8 +28,8 @@
 	"onmove_buffs": [
       {
         "id": "buff_taekwondo_onmove",
-        "name": "도움닫기",
-        "description": "짧은 돌진을 통해 발차기에 체중을 싣습니다. 민첩의 25%만큼 타격 데미지가 증가합니다.",
+        "name": "Charging Dash",
+        "description": "With a short dash, you can add your body weight on your kigks. Additional bash damage from dex.",
         "skill_requirements": [ { "name": "unarmed", "level": 2 } ],
         "unarmed_allowed": true,
 	    "flat_bonuses": [ { "stat": "damage", "type": "bash", "scaling-stat": "dex", "scale": 0.25 } ],
@@ -39,8 +39,8 @@
     "ondodge_buffs": [
       {
         "id": "buff_taekwondo_ondodge",
-        "name": "외발자세",
-        "description": "다리를 들어올려 공격을 회피하면서 다음 발차기를 준비합니다.",
+        "name": "Flamingo Step",
+        "description": "Prepare next kick after dodge.",
         "unarmed_allowed": true,
         "skill_requirements": [ { "name": "unarmed", "level": 3 } ],
         "mult_bonuses": [ { "stat": "movecost", "scale": 0.8 } ],
@@ -59,7 +59,6 @@
 	  "tec_taekwondo_axe"
 	]
   },
-
   {
     "type": "technique",
     "id": "tec_taekwondo_disarm",
@@ -82,7 +81,7 @@
     "skill_requirements": [ { "name": "unarmed", "level": 5 } ],
     "unarmed_allowed": true,
     "crit_tec": true,
-    "stun_dur": 2,
+    "stun_dur": 1,
     "knockback_dist": 2,
     "mult_bonuses": [ { "stat": "movecost", "scale": 1.2 }, { "stat": "damage", "type": "bash", "scale": 1.5 } ]
   },
@@ -128,12 +127,12 @@
     "type": "technique",
     "id": "tec_taekwondo_flying",
     "name": "Flying Kick",
-    "messages": [ "당신은 빠르게 돌진해서 %s에게 강력한 날아차기를 먹입니다.", "<npcname>은/는 빠르게 돌진해서 %s에게 강력한 날아차기를 먹입니다." ],
+    "messages": [ "You quickly dash and fly-kick %s", "<npcname> quickly dashes and fly-kicks %s" ],
     "req_buffs": [ "buff_taekwondo_onmove" ],
     "skill_requirements": [ { "name": "unarmed", "level": 5 } ],
     "unarmed_allowed": true,
 	"crit_tec": true,
-    "knockback_dist": 2,
+    "knockback_dist": 3,
     "stun_dur": 2,
     "mult_bonuses": [ { "stat": "movecost", "scale": 1.2 }, { "stat": "damage", "type": "bash", "scale": 1.8 } ]
   },
@@ -142,8 +141,8 @@
     "id": "tec_taekwondo_axe",
     "name": "Axe Kick",
     "messages": [
-      "당신은 높이 차올린 다리를 %s에게 내리찍습니다.",
-      "<npcname>은/는 높이 차올린 다리를 %s에게 내리찍습니다."
+      "You kick up your leg and drop down axe-kick %s",
+      "<npcname> kicks up the leg and drops down axe-kick %s"
     ],
     "skill_requirements": [ { "name": "unarmed", "level": 3 } ],
     "unarmed_allowed": true,
