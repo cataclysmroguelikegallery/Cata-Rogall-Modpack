@@ -1,0 +1,409 @@
+[
+  {
+    "id": "nec_alloy_trunk",
+    "type": "ARMOR",
+    "name": { "str": "합금 트렁크" },
+    "description": "금속 트렁크입니다. 수납 기능은 물론이고 튼튼한 덕에 방패로도 쓸 수 있습니다. 무게를 살려서 무기로 휘둘러도 쓸만합니다.",
+    "weight": "2000 g",
+    "volume": "8000 ml",
+    "price": 21000,
+    "price_postapoc": 500,
+    "to_hit": -1,
+    "bashing": 28,
+    "material": [ "steel" ],
+    "symbol": "[",
+    "looks_like": "suitcase_m",
+    "color": "red",
+    "sided": true,
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "rigid": true,
+        "max_contains_volume": "50 L",
+        "max_contains_weight": "50 kg",
+        "max_item_length": "90 cm",
+        "moves": 300
+      }
+    ],
+    "warmth": 5,
+    "material_thickness": 3,
+    "techniques": [ "WBLOCK_1" ],
+    "flags": [ "WATER_FRIENDLY", "STURDY", "OVERSIZE", "BELTED", "RESTRICT_HANDS", "DURABLE_MELEE", "TARDIS" ],
+    "armor": [
+      {
+        "encumbrance": 30,
+        "coverage": 50,
+        "covers": [ "arm_l", "arm_r", "hand_l", "hand_r" ]
+      }
+    ]
+  },
+  {
+    "id": "nec_coffin",
+    "type": "ARMOR",
+    "name": { "str": "관" },
+    "description": "긴 사슬이 연결된 관입니다. 무겁지만 수납량이 많고 등에 매면 공격을 막아줍니다.",
+    "weight": "8 kg",
+    "volume": "12500 ml",
+    "price": "800 USD",
+    "to_hit": -2,
+    "bashing": 40,
+    "material": [ "steel", "wood" ],
+    "symbol": "[",
+    "color": "black",
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "rigid": true,
+        "max_contains_volume": "150 L",
+        "max_contains_weight": "100 kg",
+        "max_item_length": "130 cm",
+        "moves": 500
+      }
+    ],
+    "warmth": 5,
+    "material_thickness": 3,
+    "techniques": [ "WBLOCK_1" ],
+    "flags": [ "WATER_FRIENDLY", "STURDY", "BELTED", "OVERSIZE", "DURABLE_MELEE", "TARDIS" ],
+    "armor": [
+      { "encumbrance": 35, "coverage": 90, "covers": [ "torso" ], "specifically_covers": [ "torso_hanging_back" ] }
+    ]
+  },
+  {
+    "id": "nec_ribbon",
+    "type": "ARMOR",
+    "name": { "str": "리본", "str_pl": "리본들" },
+    "description": "천으로 만들어진 작고 귀여운 리본입니다. 방어력은 없지만 황폐해진 세계에서 일말의 위안이 되어줄 겁니다.",
+    "weight": "50 g",
+    "volume": "0 ml",
+    "price": 100,
+    "material": [ "cotton" ],
+    "symbol": "[",
+    "color": "white",
+    "flags": [ "FANCY", "ZERO_WEIGHT" ]
+  },
+  {
+    "id": "nec_teddy",
+    "type": "ARMOR",
+    "name": { "str": "인형" },
+    "description": "귀여운 인형입니다. 몸을 지켜주진 못하지만 긴 여행에 지친 마음을 지켜줍니다.",
+    "weight": "50 g",
+    "volume": "250 ml",
+    "price": "10 USD",
+    "material": [ "cotton" ],
+    "symbol": "[",
+    "color": "brown",
+    "flags": [ "BELTED" ],
+    "armor": [ { "encumbrance": 0, "coverage": 5, "covers": [ "torso" ] } ]
+  },
+  {
+    "id": "nec_gothic_dress",
+    "type": "ARMOR",
+    "name": { "str": "고딕 드레스" },
+    "description": "많은 레이스와 프릴, 리본으로 장식된 검은 색의 긴 드레스입니다. 화려하지만 움직이기 불편합니다.",
+    "weight": "700 g",
+    "volume": "5 L",
+    "price": "400 USD",
+    "to_hit": -5,
+    "material": [ "cotton" ],
+    "symbol": "[",
+    "color": "dark_gray",
+    "warmth": 20,
+        "material_thickness": 3,
+    "flags": [ "VARSIZE", "SUPER_FANCY" ],
+    "armor": [
+      {
+        "encumbrance": 20,
+        "coverage": 90,
+        "covers": [ "leg_l", "leg_r", "torso", "arm_l", "arm_r" ]
+      }
+    ]
+  },
+  {
+    "id": "nec_gothic_headdress",
+    "type": "ARMOR",
+    "name": { "str": "고딕 헤드 드레스" },
+    "description": "프릴로 장식된 검은 머리 장식입니다. 보는 사람을 끌어들이는 매력이 있습니다.",
+    "weight": "200 g",
+    "volume": "1 L",
+    "price": "100 USD",
+    "material": [ "cotton" ],
+    "symbol": "[",
+    "color": "dark_gray",
+    "warmth": 5,
+    "material_thickness": 1,
+    "flags": [ "FANCY" ],
+    "armor": [ { "encumbrance": 5, "coverage": 20, "covers": [ "head" ] } ]
+  },
+  {
+    "id": "nec_sgothic_dress",
+    "type": "ARMOR",
+    "category": "armor",
+    "name": { "str": "생존용 고딕 드레스" },
+    "description": "겉으로 보이는 프릴이나 레이스는 그대로 두고 안 쪽을 지금 상황에 요구되는 서바이벌 사양에 맞춰 개조한 고딕 드레스입니다. 곳곳에 주머니가 있고 케블라로 보강해 뛰어난 방어 능력을 지니게 되었으며 거대한 스커트 안에는 어느 정도 되는 크기의 무기를 수납할만한 공간이 있습니다. 아, 사람에 따라선 가슴이 작게 느껴질 수도 있단 단점이 있습니다.",
+    "weight": "5500 g",
+    "volume": "8500 ml",
+    "price": "1000 USD",
+    "material": [ "kevlar", "cotton" ],
+    "environmental_protection": 1,
+    "symbol": "[",
+    "color": "dark_gray",
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "1000 ml",
+        "max_contains_weight": "2 kg",
+        "max_item_length": "75 cm",
+        "moves": 100,
+        "description": "고딕 롱 파우치"
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "1000 ml",
+        "max_contains_weight": "2 kg",
+        "max_item_length": "75 cm",
+        "moves": 100,
+        "description": "고딕 롱 파우치"
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "500 ml",
+        "max_contains_weight": "2 kg",
+        "max_item_length": "30 cm",
+        "moves": 80,
+        "description": "고딕 포켓"
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "500 ml",
+        "max_contains_weight": "2 kg",
+        "max_item_length": "30 cm",
+        "moves": 80,
+        "description": "고딕 포켓"
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "250 ml",
+        "max_contains_weight": "1 kg",
+        "max_item_length": "15 cm",
+        "moves": 50,
+        "description": "고딕 미니 포켓"
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "250 ml",
+        "max_contains_weight": "1 kg",
+        "max_item_length": "15 cm",
+        "moves": 50,
+        "description": "고딕 미니 포켓"
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "250 ml",
+        "max_contains_weight": "1 kg",
+        "max_item_length": "15 cm",
+        "moves": 50,
+        "description": "고딕 미니 포켓"
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "250 ml",
+        "max_contains_weight": "1 kg",
+        "max_item_length": "15 cm",
+        "moves": 50,
+        "description": "고딕 미니 포켓"
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "750 ml",
+        "max_contains_weight": "500 g",
+        "max_item_length": "5 cm",
+        "moves": 25,
+        "description": "프릴이 달린 의료용 파우치"
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "750 ml",
+        "max_contains_weight": "1 kg",
+        "max_item_length": "30 cm",
+        "moves": 200,
+        "description": "프릴이 달린 미니 물병 홀더"
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_contains_volume": "500 ml",
+        "max_contains_weight": "300 g",
+        "max_item_length": "6 cm",
+        "moves": 100,
+        "description": "바느질 도구 보관함"
+      },
+      {
+        "//": "carabiner pocket",
+        "pocket_type": "CONTAINER",
+        "holster": true,
+        "max_contains_volume": "1500 ml",
+        "max_contains_weight": "6 kg",
+        "max_item_length": "60 cm",
+        "min_item_length": "5 cm",
+        "moves": 150,
+        "extra_encumbrance": 2,
+        "ripoff": 2,
+        "description": "리본이 달린 카라비너 스트랩",
+        "activity_noise": { "volume": 8, "chance": 10 }
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "holster": true,
+        "max_contains_volume": "500 ml",
+        "max_contains_weight": "1 kg",
+        "max_item_length": "30 cm",
+        "moves": 50,
+        "description": "리본이 달린 소형 칼집"
+      },
+      {
+        "magazine_well": "350 ml",
+        "pocket_type": "CONTAINER",
+        "holster": true,
+        "min_item_volume": "250 ml",
+        "max_contains_volume": "900 ml",
+        "max_contains_weight": "2 kg",
+        "max_item_length": "30 cm",
+        "description": "고딕 홀스터",
+        "moves": 50
+      },
+      {
+        "magazine_well": "200 ml",
+        "pocket_type": "CONTAINER",
+        "holster": true,
+        "min_item_volume": "100 ml",
+        "max_contains_volume": "400 ml",
+        "max_contains_weight": "1 kg",
+        "max_item_length": "20 cm",
+        "description": "고딕 미니 홀스터",
+        "moves": 50
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "holster": true,
+        "min_item_volume": "1500 ml",
+        "max_contains_volume": "9 L",
+        "max_contains_weight": "10 kg",
+        "max_item_length": "133 cm",
+        "description": "고딕 스커트 홀스터",
+        "moves": 150
+      }
+    ],
+    "warmth": 20,
+    "use_action": { "type": "holster" },
+    "flags": [ "VARSIZE", "SUPER_FANCY", "OVERSIZE", "WATERPROOF", "RAINPROOF", "STURDY", "POCKETS" ],
+    "armor": [
+      {
+        "//": "stats of a bullet proof vest",
+        "material": [
+          { "type": "cotton", "covered_by_mat": 100, "thickness": 1.0 },
+          { "type": "kevlar_layered", "covered_by_mat": 95, "thickness": 4.4 }
+        ],
+        "volume_encumber_modifier": 0.3,
+        "encumbrance": 6,
+        "coverage": 100,
+        "cover_vitals": 100,
+        "covers": [ "torso" ]
+      },
+      {
+        "material": [
+          { "type": "cotton", "covered_by_mat": 100, "thickness": 1.0 },
+          { "type": "kevlar_layered", "covered_by_mat": 95, "thickness": 4.4 }
+        ],
+        "encumbrance": 9,
+        "volume_encumber_modifier": 0,
+        "coverage": 100,
+        "cover_vitals": 90,
+        "covers": [ "arm_l", "arm_r","leg_l", "leg_r"  ]
+      }
+    ]
+ },
+  {
+    "id": "nec_panier",
+    "type": "ARMOR",
+    "category": "clothing",
+    "name": { "str": "파니에" },
+    "weight": "200 g",
+    "color": "white",
+    "symbol": "[",
+    "description": "드레스의 레이스 부분에 불륨감을 주기 위해서 치마 안에 입는 일종의 속옷입니다. 와이어가 들어가 있어서 어지간 해선 무너지는 일이 없습니다",
+    "price": 500,
+    "material": [ "cotton" ],
+    "warmth": 5,
+    "material_thickness": 1,
+    "volume": "250 ml",
+    "flags": [ "OVERSIZE" ],
+    "armor": [ { "encumbrance": 5, "covers": [ "leg_l", "leg_r" ] } ]
+  },
+    {
+    "id": "nec_mgothic_dress",
+    "type": "ARMOR",
+    "category": "armor",
+    "name": { "str": "밀리터리 고딕 드레스" },
+    "description": "겉으로 보이는 프릴과 레이스의 멋스러움은 그대로 살리고, 플레이트 포켓과 몰레 웨빙을 곳곳에 장착한 대수선 고딕 드레스입니다. 높은 확장성뿐만 아니라 케블라 보강으로 인한 뛰어난 방어력도 매력적이다. 단점을 꼽자면, 방탄판을 넣으면 역시 가슴이 답답하다는 것이다.",
+    "looks_like": "nec_gothic_dress",
+    "weight": "4000 g",
+    "volume": "8500 ml",
+    "price": "1000 USD",
+    "material": [ "kevlar", "cotton" ],
+    "environmental_protection": 1,
+    "symbol": "[",
+    "color": "dark_gray",
+    "warmth": 15,
+    "use_action": [ { "type": "attach_molle", "size": 14 }, { "type": "detach_molle" } ],
+    "flags": [ "VARSIZE", "SUPER_FANCY", "OVERSIZE", "WATERPROOF", "RAINPROOF", "STURDY", "POCKETS" ],
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "ablative": true,
+        "volume_encumber_modifier": 0,
+        "max_contains_volume": "2000 ml",
+        "max_contains_weight": "5 kg",
+        "max_item_length": "33 cm",
+        "moves": 1000,
+        "description": "가슴 플레이트 포켓",
+        "flag_restriction": [ "ABLATIVE_LARGE" ]
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "ablative": true,
+        "volume_encumber_modifier": 0,
+        "max_contains_volume": "2000 ml",
+        "max_contains_weight": "5 kg",
+        "max_item_length": "33 cm",
+        "moves": 1000,
+        "description": "복부 플레이트 포켓",
+        "flag_restriction": [ "ABLATIVE_MEDIUM" ]
+      }
+    ],
+     "armor": [
+      {
+        "//": "stats of a bullet proof vest",
+        "material": [
+          { "type": "cotton", "covered_by_mat": 100, "thickness": 1.0 },
+          { "type": "kevlar_layered", "covered_by_mat": 95, "thickness": 4.4 }
+        ],
+        "volume_encumber_modifier": 0.3,
+        "encumbrance": 6,
+        "coverage": 100,
+        "cover_vitals": 100,
+        "covers": [ "torso" ]
+      },
+      {
+        "material": [
+          { "type": "cotton", "covered_by_mat": 100, "thickness": 1.0 },
+          { "type": "kevlar_layered", "covered_by_mat": 95, "thickness": 4.4 }
+        ],
+        "encumbrance": 9,
+        "volume_encumber_modifier": 0,
+        "coverage": 100,
+        "cover_vitals": 90,
+        "covers": [ "arm_l", "arm_r","leg_l", "leg_r"  ]
+      }
+    ]
+  }
+  
+]

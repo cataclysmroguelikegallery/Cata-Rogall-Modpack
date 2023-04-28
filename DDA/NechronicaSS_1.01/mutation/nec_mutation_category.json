@@ -1,0 +1,11 @@
+[
+  {
+    "type": "mutation_category",
+    "id": "NECROMANTIC",
+    "name": "アンデッド",
+    "threshold_mut": "THRESH_NECROMANTIC",
+    "mutagen_message": "심장의 움직임이 순간적으로 느려졌다.",
+    "memorial_message": "자신의 힘을 발휘하지 못했다.",
+    "vitamin": "mutagen_necromancy"
+  }
+]

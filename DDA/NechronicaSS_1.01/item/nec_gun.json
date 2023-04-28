@@ -1,0 +1,13 @@
+[
+  {
+    "id": "nec_undeadgun",
+    "copy-from": "pipe_shotgun",
+    "type": "GUN",
+    "name": { "str": "샷건(언데드건)" },
+    "description": "더블 배럴 샷건을 4개 연결했습니다. 단순히 그것만으로도 파괴력은 네 배로 증가했습니다.",
+    "clip_size": 8,
+    "modes": [ [ "DEFAULT", "single", 1 ], [ "DOUBLE", "double", 2 ], [ "AUTO", "auto", 4 ] ],
+    "relative": { "weight": "8000 g", "volume": "7500 ml", "price": "250 USD", "dispersion": 100, "to_hit": -1, "bashing": 4 },
+    "extend": { "flags": [ "RELOAD_ONE" ] }
+  }
+]

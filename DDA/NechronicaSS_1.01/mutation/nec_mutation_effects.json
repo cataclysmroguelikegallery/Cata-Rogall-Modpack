@@ -1,0 +1,30 @@
+[
+  {
+    "type": "effect_type",
+    "id": "mutagen_necromancy",
+    "name": [ "변화(屍人)", "변이(屍人)", "급변(屍人)" ],
+    "desc": [
+      "시체 돌연변이원 물질을 섭취했습니다." ,
+      "심장의 움직임이 점점 느려지는 것을 느낍니다." , "심장의 움직임이 느려지는 것을 느낍니다." ,
+      "심연이 손짓하는 것 같은 느낌이 듭니다."
+    ],
+    "max_intensity": 3,
+    "resist_traits": [ "THRESH_DRAGON_BLACK" ],
+    "base_mods": {
+      "hunger_min": [ 1 ],
+      "hunger_max": [ 3 ],
+      "hunger_tick": [ 300 ],
+      "hurt_min": [ 1 ],
+      "hurt_max": [ 2 ],
+      "hurt_chance": [ -22 ],
+      "hurt_tick": [ 75 ],
+      "pain_min": [ 1 ],
+      "pain_max": [ 2 ],
+      "pain_chance": [ 100 ],
+      "pain_tick": [ 75 ]
+    },
+    "scaling_mods": { "hunger_tick": [ -200 ], "hurt_chance": [ 21, 0 ], "pain_chance": [ -30 ] },
+    "rating": "bad",
+    "blood_analysis_description": "Necromancy Mutagen Contamination"
+  }
+]

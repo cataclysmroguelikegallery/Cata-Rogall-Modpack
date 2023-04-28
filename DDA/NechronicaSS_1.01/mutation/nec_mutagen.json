@@ -1,0 +1,28 @@
+[
+  {
+    "id": "iv_mutagen_necromancy",
+    "copy-from": "iv_mutagen_flavor",
+    "type": "COMESTIBLE",
+    "name": { "str": "돌연변이원 프라이머(언데드)" },
+    "description": "농축된 돌연변이원 물질입니다. 검고 끈적끈적하고 끈적끈적합니다. 사용하려면 주사기가 필요합니다.........",
+    "color": "dark_gray",
+    "use_action": {
+      "type": "consume_drug",
+      "activation_message": "돌연변이원 프라이머(시체)를 주입했습니다.",
+      "tools_needed": { "syringe": -1 },
+      "vitamins": [ [ "mutagen_necromancy", 450, 550 ] ]
+    }
+
+  },
+  {
+    "id": "mutagen_necromancy",
+    "copy-from": "mutagen_flavor",
+    "type": "COMESTIBLE",
+    "name": { "str": "변이원물질(언데드)" },
+    "use_action": {
+      "type": "consume_drug",
+      "activation_message": "언데드 돌연변이원 물질을 섭취했습니다.",
+      "vitamins": [ [ "mutagen_necromancy", 175 ], [ "mutagen", 125 ] ]
+    }
+  }
+]

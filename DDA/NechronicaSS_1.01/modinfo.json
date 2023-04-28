@@ -1,0 +1,18 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "Nechronica_SS",
+    "name": "영원한 후일담의 네크로니카 Second Session",
+    "authors": [ "Yunde" ],
+    "description": "영원한 후일담의 네크로니카를 모티브로 한 모드입니다.",
+    "category": "content",
+    "dependencies": [ "dda" ]
+  },
+  {
+    "type": "skill",
+    "id": "spellcraft",
+    "name": "spellcraft",
+    "display_category": "display_ranged",
+    "description": "Your skill in the arcane.  Represents magic theory and all that entails.  A higher skill increases how quickly you can learn spells, and decreases their spell failure chance.  You learn this skill by studying books or spells."
+  }  
+]

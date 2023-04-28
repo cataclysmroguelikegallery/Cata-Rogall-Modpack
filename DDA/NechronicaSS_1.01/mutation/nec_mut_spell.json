@@ -1,0 +1,30 @@
+[
+  {
+    "id": "NEC_liquidrot_spray_1",
+    "type": "SPELL",
+    "name": { "str": "냄새나는 침" },
+    "description": "독성 체액입니다.",
+    "effect": "attack",
+    "shape": "blast",
+    "valid_targets": [ "hostile" ],
+    "min_damage": 5,
+    "max_damage": 10,
+    "min_range": 1,
+    "max_range": 2,
+    "min_duration": 100,
+    "max_duration": 300,
+    "spell_class": "NONE",
+    "difficulty": -20,
+    "flags": [
+      "SILENT",
+      "NO_LEGS",
+      "NO_HANDS",
+      "RANDOM_DAMAGE",
+      "RANDOM_DURATION",
+      "NO_PROJECTILE",
+      "NO_EXPLOSION_SFX"
+    ],
+    "energy_source": "NONE",
+    "damage_type": "biological"
+  }
+]

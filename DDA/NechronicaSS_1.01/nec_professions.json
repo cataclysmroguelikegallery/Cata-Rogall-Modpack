@@ -1,0 +1,156 @@
+[
+  {
+    "type": "profession",
+    "id": "nec_doll_stacy",
+    "name": "스테이시",
+    "description": "넌 네크로맨시로 부활한 인형이다. 스테이시는 기본형 인형이지만 내구성이 매우 뛰어나다.",
+    "points": 2,
+    "traits": [ "PAINREC1" ],
+    "skills": [
+      { "level": 2, "name": "fabrication" },
+      { "level": 1, "name": "tailor" },
+      { "level": 1, "name": "mechanics" },
+      { "level": 1, "name": "melee" },
+      { "level": 1, "name": "bashing" }
+    ],
+    "items": {
+      "both": [ "socks", "sneakers", "tool_belt", "leather_pouch", "backpack", "wrench" ],
+      "male": [ "jeans", "longshirt", "briefs" ],
+      "female": [ "panties", "bra", "dress" ]
+    }
+  },
+  {
+    "type": "profession",
+    "id": "nec_doll_requiem",
+    "name": "레퀴엠",
+    "description": "당신은 네크로맨시로 되살아난 인형이다. 레퀴엠은 총기 운용에 능숙한 능력을 가지고 있다.",
+    "points": 2,
+    "traits": [  ],
+    "skills": [
+      { "level": 2, "name": "gun" },
+      { "level": 2, "name": "pistol" },
+      { "level": 1, "name": "melee" },
+      { "level": 1, "name": "stabbing" }
+    ],
+    "items": {
+      "both": {
+        "items": [ "dress_shirt", "boots", "leather_pouch", "gold_ring" ],
+        "entries": [
+          { "item": "glock_19", "ammo-item": "9mm", "container-item": "holster", "charges": 15 },
+          { "item": "9mm", "charges": 45 },
+          { "item": "knife_combat", "container-item": "sheath" }
+        ]
+      },
+      "male": [ "pants", "briefs", "socks" ],
+      "female": [ "skirt", "stockings", "bra", "panties" ]
+    }
+  },
+  {
+    "type": "profession",
+    "id": "nec_doll_thanatos",
+    "name": "타나토스",
+    "description": "너는 네크로맨시로 부활한 인형이다. 근접 전투 능력에서 타나토스를 능가하는 인형은 없다.",
+    "points": 2,
+    "traits": [ "TOUGH" ],
+    "skills": [
+      { "level": 2, "name": "melee" },
+      { "level": 1, "name": "bashing" },
+      { "level": 2, "name": "cutting" },
+      { "level": 1, "name": "stabbing" }
+    ],
+    "items": {
+      "both": { "entries": [ { "item": "fire_ax", "container-item": "fireman_belt" } ] },
+      "male": [ "boxer_shorts", "longshirt", "jeans", "socks", "dress_shoes" ],
+      "female": [ "panties", "bra", "nec_panier", "stockings", "dress_shoes", "nec_gothic_dress", "nec_gothic_headdress" ]
+    }
+  },
+  {
+    "type": "profession",
+    "id": "nec_doll_romanesque",
+    "name": "로마네스크",
+    "description": "넌 네크로맨시로 되살아난 인형이다. 로마네스크 춤은 보는 이를 끌어당기고, 다시 시체로 돌려보낸다.",
+    "points": 2,
+    "CBMs": [ "bio_carbon" ],
+    "skills": [ { "level": 2, "name": "melee" }, { "level": 2, "name": "unarmed" }, { "level": 2, "name": "dodge" } ],
+    "items": {
+      "both": [ "dance_shoes", "knit_scarf" ],
+      "male": [ "briefs", "tux", "socks" ],
+      "female": [ "bra", "panties", "gown", "stockings" ]
+    }
+  },
+  {
+    "type": "profession",
+    "id": "nec_doll_baroque",
+    "name": "바로크",
+    "description": "당신은 네크로맨시로 부활한 인형이다. 바로크의 이형 육체, 너는 잘 다룰 수 있을까?",
+    "points": 2,
+    "traits": [ "ROBUST", "CHAOTIC" ],
+    "items": {
+      "both": [ "tank_top", "shorts", "socks", "sneakers", "nec_teddy" ],
+      "male": [ "briefs" ],
+      "female": [ "bra", "panties" ]
+    }
+  },
+  {
+    "type": "profession",
+    "id": "nec_doll_gothic",
+    "name": "고딕",
+    "description": "넌 네크로맨시로 되살아난 인형이다. 모든 것을 탐하는 인형, 그것이 고딕이다.",
+    "points": 2,
+    "traits": [ "EATDEAD", "CANNIBAL", "FLIMSY", "FASTHEALER", "HUNGER3" ],
+    "skills": [ { "level": 2, "name": "melee" }, { "level": 2, "name": "unarmed" }, { "level": 2, "name": "dodge" } ],
+    "items": {
+      "both": [ "tank_top", "shorts", "socks", "sneakers" ],
+      "male": [ "briefs" ],
+      "female": [ "bra", "panties" ]
+    }
+  },
+    {
+    "type": "profession",
+    "id": "nec_doll_psychedelic",
+    "name": "사이키델릭",
+    "description": "당신은 네크로맨시로 되살아난 인형이다. 사이키델릭은 인형으로서의 기본 능력과 함께 초능력을 다룰 수 있는 희귀한 인형이다.",
+    "points": 2,
+    "skills": [ { "level": 2, "name": "spellcraft" } ],
+    "items": {
+      "both": {
+        "items": [ "socks", "sneakers", "dress", "tshirt" ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "panties", "bra" ]
+    },
+    "spells": [
+               { "id": "NEC_forces_of_distortion", "level": 5 },
+               { "id": "NEC_distortion_of_destiny", "level": 5 },
+               { "id": "NEC_will_to_refuse", "level": 2 },
+               { "id": "NEC_voidthrone", "level": 3 }
+    ],
+    "traits": [ "ESP" ]
+  },
+    {
+    "type": "profession",
+    "id": "nec_doll_psychedelic2",
+    "name": "사이키델릭(강화)",
+    "description": "당신은 네크로맨시로 되살아난 인형이다. 사이키델릭은 인형으로서의 기본 능력과 함께 초능력을 다룰 수 있는 희귀한 인형이다. 이 인형은 평소보다 더 강화되어 있다.",
+    "points": 4,
+    "skills": [ { "level": 5, "name": "spellcraft" } ],
+    "items": {
+      "both": {
+        "items": [ "socks", "sneakers", "dress", "tshirt" ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "panties", "bra" ]
+    },
+    "spells": [
+               { "id": "NEC_forces_of_distortion", "level": 10 },
+               { "id": "NEC_distortion_of_destiny", "level": 10 },
+               { "id": "NEC_will_to_refuse", "level": 5 },
+               { "id": "NEC_voidthrone", "level": 10 },
+               { "id": "NEC_sharing_of_loss", "level": 10 },
+               { "id": "NEC_pieces_on_the_board", "level": 5 },
+               { "id": "NEC_destructive_vortex", "level": 5 }
+    ],
+    "traits": [ "ESP" ]
+  }
+
+]

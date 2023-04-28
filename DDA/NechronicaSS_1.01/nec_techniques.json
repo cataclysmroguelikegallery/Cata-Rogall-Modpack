@@ -1,0 +1,51 @@
+[
+  {
+    "//": "",
+    "type": "technique",
+    "id": "tec_nec_hakkei",
+    "name": "발경",
+    "skill_requirements": [ { "name": "unarmed", "level": 2 } ],
+    "unarmed_allowed": true,
+    "crit_tec": true,
+    "knockback_dist": 2,
+    "messages": ["강력한 발경으로 %s를 날려버렸다.",
+            "<npcname>의 발경은 %s를 날려버렸다."
+            ],
+    "mult_bonuses": [ { "stat": "damage", "type": "bash", "scale": 1.2 } ],
+    "attack_vectors": [ "HAND" ]
+  },
+  {
+    "type": "technique",
+    "id": "tec_nec_senpukyaku",
+    "name": "선풍각",
+    "skill_requirements": [ { "name": "unarmed", "level": 3 } ],
+    "dodge_counter": true,
+    "unarmed_allowed": true,
+    "required_buffs_all": [ "nec_kung_fu_dodge" ],
+    "knockback_dist": 2,
+    "messages" : [
+        "돌발차기로 %s를 날려버렸다.",
+        "<npcname>의 돌발차기가 %s를 날려버렸다."
+    ],
+    "aoe": "spin",
+    "mult_bonuses": [ { "stat": "damage", "type": "bash", "scale": 3 } ],
+    "attack_vectors": [ "FOOT" ]
+  },
+  {
+    "type": "technique",
+    "id": "tec_nec_tetsuzanko",
+    "name": "철산고",
+    "skill_requirements": [ { "name": "unarmed", "level": 4 } ],
+    "unarmed_allowed": true,
+    "required_buffs_all": [ "nec_kung_fu_dodge" ],
+    "crit_tec": true,
+    "down_dur": 2,
+    "knockback_dist": 3,
+    "messages" : [
+        "철산고가 %s를 날려 버렸다.",
+        "<npcname>의 철산고가 %s를 날려버렸다."
+    ],
+    "mult_bonuses": [ { "stat": "damage", "type": "bash", "scale": 2.0 } ],
+    "attack_vectors": [ "HAND" ]
+  }
+]

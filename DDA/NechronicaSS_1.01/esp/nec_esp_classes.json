@@ -1,0 +1,12 @@
+[
+  {
+    "type": "mutation",
+    "id": "ESP",
+    "name": "ESP",
+    "points": 0,
+    "description": "ESP(Extra-Sensory perception)ESP는 이른바 '초능력'으로 자아를 통해 육체에서 얻을 수 없는 감각을 넘어선 초자연적인 감각을 말하며, ESP를 다루는 사람은 물리법칙에 얽매이지 않는 이형이라고 할 수 있는 힘을 발휘한다.",
+    "starting_trait": false,
+    "purifiable": false,
+    "valid": false
+  }
+]
