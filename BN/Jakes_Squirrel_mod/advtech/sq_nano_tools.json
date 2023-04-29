@@ -63,8 +63,7 @@
       [ [ "hard_plate", 8 ] ],
       [ [ "cable", 80 ] ],
       [ [ "processor", 8 ] ],
-      [ [ "betavoltaic", 20 ] ],
-      [ [ "plut_cell", 4 ] ],
+      [ [ "plut_cell", 24 ] ],
       [ [ "medium_storage_battery", 2 ] ]
     ]
   },
