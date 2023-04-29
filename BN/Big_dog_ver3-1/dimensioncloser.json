@@ -382,7 +382,7 @@
     "flags": [ "TRANSPARENT" ],
     "deconstruct": {
       "items": [
-        { "item": "array_solar_panel_v4", "count": 1 }
+        { "item": "solar_array_v4", "count": 1 }
       ]
     },
     "bash": {
@@ -414,7 +414,7 @@
     "flags": [ "TRANSPARENT" ],
     "deconstruct": {
       "items": [
-        { "item": "array_solar_panel_v1", "count": 1 }
+        { "item": "solar_array", "count": 1 }
       ]
     },
     "bash": {
@@ -447,7 +447,7 @@
     "flags": [ "TRANSPARENT" ],
     "deconstruct": {
       "items": [
-        { "item": "array_solar_panel_v2", "count": 1 }
+        { "item": "solar_array_v2", "count": 1 }
       ]
     },
     "bash": {

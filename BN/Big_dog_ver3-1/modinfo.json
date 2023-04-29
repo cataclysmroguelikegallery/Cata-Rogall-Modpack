@@ -3,7 +3,7 @@
     "type": "MOD_INFO",
     "id": "Big_Dogbot",
     "category": "content",
-    "name": "빅-댕댕봇","version": "2.0",
+    "name": "빅-댕댕봇","version": "3.1",
 "description": "탑승 가능한 빅-댕댕봇을 추가해주는 모드입니다. 전력으로 작동하는 포탈도 추가되었습니다.",
 "dependencies": [ "bn" ]
   }
