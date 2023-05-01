@@ -141,7 +141,7 @@
     "warmth": 10,
     "environmental_protection": 30,
 	"relic_data": {
-      "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "INTELLIGENCE", "multiply": 0.5 }, { "value": "PERCEPTION", "add": 4 } ] } ]
+      "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "SQ_TRANSMISSIVE_SCANNER_SYSTEM" ], "values": [ { "value": "INTELLIGENCE", "multiply": 0.5 }, { "value": "PERCEPTION", "add": 4 } ] } ]
 	},
 	"artifact_data": { "effects_worn": [ "AEP_CLAIRVOYANCE" ] },
     "coverage": 100,
@@ -186,6 +186,16 @@
 	"player_display": false
   },
   {
+    "type": "mutation",
+    "id": "SQ_TRANSMISSIVE_SCANNER_SYSTEM",
+    "name": { "str": "투과성 스캐너 시스템" },
+    "points": 0,
+    "description": "컴뱃 아머의 스캐너와 고성능 프로세서가 주변 지형을 분석하고 이미지화하여 당신에게 보여줍니다. 야간 시야의 범위가 비약적으로 상승하며 벽을 넘어서 볼 수 있습니다.",
+    "valid": false,
+	"purifiable": false,
+    "night_vision_range": 20.0
+  },
+  {
     "id": "sq_advanced_fsurvivor_suit_on",
     "copy-from": "sq_advanced_fsurvivor_suit",
     "repairs_like": "fsurvivor_suit",
@@ -200,7 +210,7 @@
     "warmth": 0,
     "environmental_protection": 70,
 	"relic_data": {
-      "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "DEBUG_NOTEMP" ], "values": [ { "value": "INTELLIGENCE", "add": 4 }, { "value": "PERCEPTION", "add": 8 } ] } ]
+      "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "DEBUG_NOTEMP", "SQ_TRANSMISSIVE_SCANNER_SYSTEM" ], "values": [ { "value": "INTELLIGENCE", "add": 4 }, { "value": "PERCEPTION", "add": 8 } ] } ]
 	},
 	"artifact_data": { "effects_worn": [ "AEP_CLAIRVOYANCE_PLUS", "AEP_PSYSHIELD" ] },
 	"encumbrance": 17,
@@ -227,13 +237,13 @@
       "CLIMATE_CONTROL",
 	  "HEAT_IMMUNE",
 	  "COLD_IMMUNE",
-      "GNV_EFFECT",
 	  "IR_EFFECT",
 	  "ZOOM",
       "DIMENSIONAL_ANCHOR",
       "USE_UPS",
       "NO_UNLOAD",
       "NO_RELOAD",
+      "NO_TAKEOFF",
 	  "HELMET_COMPAT",
 	  "SLOWS_THIRST"
     ],
