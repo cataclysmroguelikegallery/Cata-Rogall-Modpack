@@ -1,5 +1,16 @@
 [
   {
+    "type": "mutation",
+    "id": "SQ_CIRCULATORY_SYSTEM_MANAGER",
+    "name": { "str": "순환계 관리 시스템" },
+    "points": 0,
+    "description": "컴뱃 아머가 당신의 순환계와 호흡계를 모니터링하고, 인공근섬유를 통해 산소를 당신의 피부로 직접 흡수시킵니다. 지구력의 최대치가 증가하며, 지구력 재생 속도가 비약적으로 상승합니다.",
+    "valid": false,
+	"purifiable": false,
+    "stamina_regen_modifier": 1.5,
+    "max_stamina_modifier": 1.2
+  },
+  {
     "id": "sq_advanced_hsurvivor_suit",
     "type": "TOOL_ARMOR",
     "category": "clothing",
@@ -30,12 +41,13 @@
     "warmth": 30,
     "environmental_protection": 20,
 	"relic_data": {
-      "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "STRENGTH", "multiply": 1.0 } ] } ]
+      "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "SQ_CIRCULATORY_SYSTEM_MANAGER" ], "values": [ { "value": "STRENGTH", "multiply": 0.5 } ] } ]
 	},
     "coverage": 100,
     "material_thickness": 5,
     "encumbrance": 30,
     "flags": [
+      "NONCONDUCTIVE",
       "VARSIZE",
 	  "WATCH",
 	  "ALARMCLOCK",
@@ -67,9 +79,13 @@
     "use_action": { "type": "transform", "menu_text": "Turn off", "msg": "Suit shutting down.", "target": "sq_advanced_hsurvivor_suit" },
     "covers": [ "head", "mouth", "eyes", "torso", "arms", "hands", "legs", "feet" ],
     "environmental_protection": 40,
+	"relic_data": {
+      "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "SQ_CIRCULATORY_SYSTEM_MANAGER" ], "values": [ { "value": "STRENGTH", "add": 4 } ] } ]
+	},
     "material_thickness": 8,
 	"encumbrance": 20,
     "flags": [
+      "NONCONDUCTIVE",
       "VARSIZE",
 	  "BLOCK_WHILE_WORN",
 	  "WATCH",
@@ -102,7 +118,7 @@
     "color": "yellow",
     "name": { "str": "'파이어니어' 환경 피갑복" },
     "looks_like": "rm13_armor",
-    "description": "UPS로 돌아가는 맞춤형 비경질 파워아머입니다. 최악의 환경에서도 생존할 수 있도록 제작되었으며, 정신공격과 텔레포트 멀미를 포함한 모든 종류의 위험으로부터 몸을 지켜줍니다. 사용하면 전원을 켭니다.",
+    "description": "UPS로 돌아가는 맞춤형 비경질 파워아머입니다. 최악의 환경에서도 생존할 수 있도록 제작되었으며, 정신공격과 텔레포트 멀미를 포함한 모든 종류의 위험으로부터 몸을 지켜줍니다. 탐사를 위한 좁은 X-레이 시야를 제공하여 지형지물을 꿰뚫어 볼 수 있습니다. 사용하면 전원을 켭니다.",
     "price": 1500000,
     "price_postapoc": 15000,
     "material": [ "carbide", "superalloy", "nomex" ],
@@ -125,13 +141,14 @@
     "warmth": 10,
     "environmental_protection": 30,
 	"relic_data": {
-      "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "INTELLIGENCE", "multiply": 1.0 }, { "value": "PERCEPTION", "add": 4 } ] } ]
+      "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "INTELLIGENCE", "multiply": 0.5 }, { "value": "PERCEPTION", "add": 4 } ] } ]
 	},
 	"artifact_data": { "effects_worn": [ "AEP_CLAIRVOYANCE" ] },
     "coverage": 100,
     "material_thickness": 7,
     "encumbrance": 25,
     "flags": [
+      "NONCONDUCTIVE",
       "VARSIZE",
 	  "WATCH",
 	  "ALARMCLOCK",
@@ -149,10 +166,12 @@
       "CLIMATE_CONTROL",
 	  "ZOOM",
 	  "ELECTRIC_IMMUNE",
+      "PARTIAL_DEAF",
       "USE_UPS",
       "NO_UNLOAD",
       "NO_RELOAD",
-	  "HELMET_COMPAT"
+	  "HELMET_COMPAT",
+	  "SLOWS_THIRST"
     ],
     "qualities": [ [ "GLARE", 3 ] ]
   },
@@ -173,7 +192,7 @@
     "type": "TOOL_ARMOR",
     "name": { "str": "'파이어니어' 환경 피갑복 (켜짐)" },
     "looks_like": "rm13_armor",
-    "description": "UPS로 돌아가는 맞춤형 비경질 파워아머입니다. 최악의 환경에서도 생존할 수 있도록 제작되었으며, 정신공격과 텔레포트 멀미를 포함한 모든 종류의 위험으로부터 몸을 지켜줍니다. 현재 작동 중이며, 지속적으로 전력을 소모하고 있습니다. 사용하여 작동을 멈춥니다.",
+    "description": "UPS로 돌아가는 맞춤형 비경질 파워아머입니다. 최악의 환경에서도 생존할 수 있도록 제작되었으며, 정신공격과 텔레포트 멀미를 포함한 모든 종류의 위험으로부터 몸을 지켜줍니다. 탐사를 위한 넓은 X-레이 시야를 제공하여 지형지물을 꿰뚫어 볼 수 있습니다. 현재 작동 중이며, 지속적으로 전력을 소모하고 있습니다. 사용하여 작동을 멈춥니다.",
     "turns_per_charge": 40,
     "revert_to": "sq_advanced_fsurvivor_suit",
     "use_action": { "type": "transform", "menu_text": "Turn off", "msg": "Suit shutting down.", "target": "sq_advanced_fsurvivor_suit" },
@@ -181,11 +200,12 @@
     "warmth": 0,
     "environmental_protection": 70,
 	"relic_data": {
-      "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "DEBUG_NOTEMP" ], "values": [ { "value": "INTELLIGENCE", "multiply": 1.0 }, { "value": "PERCEPTION", "add": 4 } ] } ]
+      "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "DEBUG_NOTEMP" ], "values": [ { "value": "INTELLIGENCE", "add": 4 }, { "value": "PERCEPTION", "add": 8 } ] } ]
 	},
 	"artifact_data": { "effects_worn": [ "AEP_CLAIRVOYANCE_PLUS", "AEP_PSYSHIELD" ] },
 	"encumbrance": 17,
     "flags": [
+      "NONCONDUCTIVE",
       "VARSIZE",
 	  "WATCH",
 	  "ALARMCLOCK",
@@ -214,9 +234,21 @@
       "USE_UPS",
       "NO_UNLOAD",
       "NO_RELOAD",
-	  "HELMET_COMPAT"
+	  "HELMET_COMPAT",
+	  "SLOWS_THIRST"
     ],
     "qualities": [ [ "GLARE", 3 ] ]
+  },
+  {
+    "type": "mutation",
+    "id": "SQ_SYNAPTIC_AUGMENTED_REFLEXES",
+    "name": { "str": "시냅스 증강 반사신경" },
+    "points": 0,
+    "description": "컴뱃 아머의 제어장치가 당신의 신경망에 접속하여 운동신경과 반사신경을 상승시킵니다. 회피가 더욱 쉬워지며, 이제 당신을 가로막는 난간이나 가판대 등에서 평지처럼 이동할 수 있습니다.",
+    "valid": false,
+	"purifiable": false,
+    "movecost_obstacle_modifier": 0.5,
+    "dodge_modifier": 2
   },
   {
     "id": "sq_advanced_lsurvivor_suit",
@@ -241,13 +273,14 @@
     "covers": [ "head", "mouth", "eyes", "torso", "arms", "hands", "legs", "feet" ],
     "warmth": 10,
 	"relic_data": {
-      "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "SPEED", "multiply": 0.3, "add": 5 }, { "value": "DEXTERITY", "add": 3 }, { "value": "PERCEPTION", "add": 3 } ] } ]
+      "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "SQ_SYNAPTIC_AUGMENTED_REFLEXES" ], "values": [ { "value": "SPEED", "multiply": 0.3, "add": 5 }, { "value": "DEXTERITY", "add": 4 }, { "value": "PERCEPTION", "add": 4 } ] } ]
 	},
     "environmental_protection": 20,
     "coverage": 100,
     "material_thickness": 4,
     "encumbrance": 20,
     "flags": [
+      "NONCONDUCTIVE",
       "VARSIZE",
 	  "WATCH",
 	  "ALARMCLOCK",
@@ -420,11 +453,11 @@
     "using": [ [ "welding_standard", 42 ] ],
     "components": [
 	  [ [ "plasma", 25 ] ],
-	  [ [ "ai_module_advanced", 1 ] ],
+	  [ [ "ai_module_advanced", 1 ], [ "ai_module", 2 ] ],
 	  [ [ "sensor_module", 1 ] ],
 	  [ [ "self_monitoring_module", 1 ] ],
       [ [ "graphene", 20 ] ],
-	  [ [ "nanomaterial", 200 ] ],
+	  [ [ "nanomaterial", 100 ] ],
 	  [ [ "plut_cell", 4 ] ],
       [ [ "sq_advanced_survivor_suit", 1 ] ],
       [ [ "power_supply", 3 ] ],
@@ -454,7 +487,7 @@
 	  [ [ "identification_module", 1 ] ],
 	  [ [ "targeting_module", 1 ] ],
       [ [ "graphene", 20 ] ],
-	  [ [ "nanomaterial", 400 ] ],
+	  [ [ "nanomaterial", 200 ] ],
 	  [ [ "plut_cell", 4 ] ],
       [ [ "sq_advanced_survivor_suit", 1 ] ],
       [ [ "power_supply", 3 ] ],
