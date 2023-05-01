@@ -334,20 +334,6 @@
     "flags": [ "BLIND_EASY" ]
   },
   {
-    "result": "kevlar",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_TORSO",
-    "skill_used": "tailor",
-    "difficulty": 6,
-    "time": "40 m",
-    "reversible": true,
-    "decomp_learn": 6,
-    "autolearn": true,
-    "using": [ [ "sewing_standard", 54 ] ],
-    "components": [ [ [ "kevlar_plate", 24 ] ] ]
-  },
-  {
     "result": "sq_rope_loop",
     "type": "recipe",
     "category": "CC_ARMOR",
