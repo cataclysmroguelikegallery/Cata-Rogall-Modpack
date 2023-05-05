@@ -8,8 +8,8 @@
 
 ### BN
 
-- https://github.com/NappingOcean/Wield_Wild_Weapons 짐승의 자세에서 비롯된 새로운 무기술을 추가합니다. 이 무기술은 특정한 석상을 찾아서 그 비급을 얻을 수 있습니다.
-- https://github.com/NappingOcean/HOPE-Of-Perished-Era/tree/main 멸망한 시대의 HOPE 에 얽힌 비밀을 찾아보세요. 카타클리즘의 세계에 조금은 감성적인 수집 아이템을 추가한 모드입니다.
+- [Wield_Wild_Weapons](https://github.com/NappingOcean/Wield_Wild_Weapons): 짐승의 자세에서 비롯된 새로운 무기술을 추가합니다. 이 무기술은 특정한 석상을 찾아서 그 비급을 얻을 수 있습니다.
+- [HOPE-Of-Perished-Era](https://github.com/NappingOcean/HOPE-Of-Perished-Era/tree/main): 멸망한 시대의 HOPE 에 얽힌 비밀을 찾아보세요. 카타클리즘의 세계에 조금은 감성적인 수집 아이템을 추가한 모드입니다.
 - [AZFs_Mod](./BN/AZFs_Mod): 파워피스트 및 파워아머의 스탯 증가 효과 추가 모드
 - [Dogmeat's Mod](./BN/Dogmeat's%20Mod): 가방 편의성 증가 모드
 - [Jakes_Squirrel_mod](./BN/Jakes_Squirrel_mod): 파밍을 위한 다양한 컨텐츠 및 확장된 나노기술 활용 컨텐츠 추가 모드.
