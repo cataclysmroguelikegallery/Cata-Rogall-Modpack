@@ -135,7 +135,7 @@
     "using": [ [ "welding_standard", 100000 ], [ "soldering_standard", 15 ] ],
     "qualities": [ { "id": "HAMMER", "level": 2 } ],
     "components": [
-      [ [ "petrified_eye", 1 ] ],[[ "holy_symbol", 1 ]],[["creepy_doll",1]],[["RTG_coffee",1]],[["mutagen_chimera",1]]
+      [ [ "petrified_eye", 1 ] ],[[ "holy_symbol", 1 ]],[["etched_skull",1]],[["small_relic",1]],[["mutagen_chimera",1]]
     ]
   },
   {

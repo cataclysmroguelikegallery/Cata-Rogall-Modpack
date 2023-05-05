@@ -4,14 +4,15 @@
     "compatibility": [ "UNDEAD_PEOPLE_BASE", "UNDEAD_PEOPLE", "MshockRealXotto", "MSX++DEAD_PEOPLE" ],
     "tiles-new":[
 				{
-				"file": "overhaul48_PA.png",
+				"file": "sh2.png",
 				"sprite_width":48,
 				"sprite_height":48,
 				"sprite_offset_x":-8,
 				"sprite_offset_y":-16,
 				"tiles": 
 				[
-				{ "id": "overlay_worn_power_armor_helmet_heavy", "fg": 0, "rotates": false }
+				{ "id": "overlay_worn_power_armor_shield", "fg": 0, "rotates": false },
+				{ "id": "overlay_wielded_power_armor_shield", "fg": 0, "rotates": false }
 				]
 				},
 				{
@@ -69,88 +70,7 @@
 				],"rotates": false,
 				"animated" : true }
 				]
-				},{
-		"file": "light_filter.png",
-		"tiles":
-		[
-		{
-          "id": "night_filter",
-          "fg": 17
-        },
-        {
-          "id": "day_filter",
-          "fg": 18
-        },
-        {
-          "id": "dusk_filter",
-          "fg": 19
-        },
-        {
-          "id": "nv_over_filter",
-          "fg": 20
-        },
-        {
-          "id": "nv_filter",
-          "fg": 21
-        },
-        {
-          "id": "shadow_filter",
-          "fg": 22
-        },
-		{
-          "id": "day_filter1",
-          "fg": 23
-        },
-		{
-          "id": "day_filter2",
-          "fg": 24
-        },
-		{
-          "id": "day_filter3",
-          "fg": 25
-        },
-		{
-          "id": "day_filter4",
-          "fg": 26
-        },
-		{
-          "id": "dusk_filter1",
-          "fg": 27
-        },
-		{
-          "id": "dusk_filter2",
-          "fg": 28
-        },
-		{
-          "id": "dusk_filter3",
-          "fg": 29
-        },
-		{
-          "id": "dusk_filter4",
-          "fg": 30
-        },
-		{
-          "id": "night_filter1",
-          "fg": 31
-        },
-		{
-          "id": "night_filter2",
-          "fg": 32
-        },
-		{
-          "id": "night_filter3",
-          "fg": 33
-        },
-		{
-          "id": "night_filter4",
-          "fg": 34
-        },		
-		{
-          "id": "blood_filter",
-          "fg": 35
-        }	
-		]
-		}
+				}
 	]
   }
 ]

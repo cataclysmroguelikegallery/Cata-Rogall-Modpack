@@ -140,18 +140,35 @@
     "flags": [ "IS_PET_ARMOR" ]
   }, {
     "type": "PET_ARMOR",
-    "id": "kevalr_robot_armor",
+    "id": "superalloy_robot_armor",
     "copy-from": "robot_armor",
     "color": "yellow",
-    "name": { "str": "실험용갑옷" },
-    "description": "빅-댕댕이용 실험용 디버그 갑옷",
+    "name": { "str": "초합금-빅댕댕이 외장 합금 피부" },
+    "description": "빅-댕댕이용 전투용 갑옷 입니다 어지간한 공격은 전부 무시 할 법 하네요",
     "price": 50000,
-    "price_postapoc": 5000,
-    "material": [ "cotton", "leather", "kevlar" ],
+    "price_postapoc": 10000,
+    "material": [ "superalloy","kevlar" ],
     "weight": "30 kg",
-    "volume": "150 L",
+    "volume": "50 L",
     "material_thickness": 12,
-    "environmental_protection": 3
+    "environmental_protection": 3,
+    "storage": "50 L"
+  }, {
+    "result": "superalloy_robot_armor",
+    "type": "recipe", "skill_used":"mechanics",
+    "difficulty": 6,
+    "autolearn": true,
+    "category": "CC_ANIMALS",
+    "subcategory": "CSC_ANIMALS_EQUINE ARMOR",
+    "time": "364 m", 
+"using": [ [ "soldering_standard", 15 ], [ "welding_standard", 50 ], [ "surface_heat", 100 ] ],
+    "qualities": [
+      { "id": "SCREW", "level": 1 },
+      { "id": "SCREW_FINE", "level": 1 },
+      { "id": "WRENCH", "level": 2 },
+      { "id": "WRENCH_FINE", "level": 1 }
+    ],
+    "components": [ [ [ "alloy_plate",5 ] ], [ [ "alloy_sheet", 5 ] ], [ [ "wire", 7 ] ], [ [ "kevlar_plate", 42 ] ] ]
   },
 {
     "result": "broken_Bighaulerbot",
