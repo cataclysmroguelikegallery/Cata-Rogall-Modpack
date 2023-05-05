@@ -1,0 +1,27 @@
+[
+  {
+    "type": "construction",
+    "id": "constr_dimension_anchor",
+    "group": "portable_dimension_anchor",
+    "category": "FURN",
+    "required_skills": [ ["fabrication", 0 ]],
+    "time": "0 m",
+    "components": [
+      [ [ "dimension_anchor", 1 ] ]
+    ],
+    "post_furniture": "f_dimension_anchor",
+	  "pre_flags" : " EASY_DECONSTRUCT " ,
+    "dark_craftable" : true 
+  },{
+    "type": "construction",
+    "id": "constr_dimension_anchor_m",
+    "group": "build_dimension_anchor",
+    "category": "FURN",
+    "required_skills": [ ["fabrication", 6 ]],
+    "time": "10000 m",
+    "components": [
+      [ ["teleporter",5]]
+    ],
+    "post_furniture": "f_dimension_anchor_m"
+  }
+]
