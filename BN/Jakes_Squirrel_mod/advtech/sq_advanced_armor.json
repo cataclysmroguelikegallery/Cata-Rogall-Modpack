@@ -6,7 +6,7 @@
     "points": 0,
     "description": "컴뱃 아머가 당신의 순환계와 호흡계를 모니터링하고, 인공근섬유를 통해 산소를 당신의 피부로 직접 흡수시킵니다. 지구력의 최대치가 증가하며, 지구력 재생 속도가 비약적으로 상승합니다.",
     "valid": false,
-	"purifiable": false,
+    "purifiable": false,
     "stamina_regen_modifier": 1.5,
     "max_stamina_modifier": 1.2
   },
@@ -40,27 +40,34 @@
     "covers": [ "head", "mouth", "eyes", "torso", "arms", "hands", "legs", "feet" ],
     "warmth": 30,
     "environmental_protection": 20,
-	"relic_data": {
-      "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "SQ_CIRCULATORY_SYSTEM_MANAGER" ], "values": [ { "value": "STRENGTH", "multiply": 0.75 } ] } ]
-	},
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "mutations": [ "SQ_CIRCULATORY_SYSTEM_MANAGER" ],
+          "values": [ { "value": "STRENGTH", "multiply": 0.75 } ]
+        }
+      ]
+    },
     "coverage": 100,
     "material_thickness": 5,
     "encumbrance": 30,
     "flags": [
       "NONCONDUCTIVE",
       "VARSIZE",
-	  "WATCH",
-	  "ALARMCLOCK",
-	  "RAD_RESIST",
+      "WATCH",
+      "ALARMCLOCK",
+      "RAD_RESIST",
       "STURDY",
       "WATERPROOF",
-	  "WATER_FRIENDLY",
+      "WATER_FRIENDLY",
       "RAINPROOF",
       "SUN_GLASSES",
       "USE_UPS",
       "NO_UNLOAD",
       "NO_RELOAD",
-	  "HELMET_COMPAT"
+      "HELMET_COMPAT"
     ]
   },
   {
@@ -79,27 +86,34 @@
     "use_action": { "type": "transform", "menu_text": "Turn off", "msg": "Suit shutting down.", "target": "sq_advanced_hsurvivor_suit" },
     "covers": [ "head", "mouth", "eyes", "torso", "arms", "hands", "legs", "feet" ],
     "environmental_protection": 40,
-	"relic_data": {
-      "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "SQ_CIRCULATORY_SYSTEM_MANAGER" ], "values": [ { "value": "STRENGTH", "add": 4 } ] } ]
-	},
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "mutations": [ "SQ_CIRCULATORY_SYSTEM_MANAGER" ],
+          "values": [ { "value": "STRENGTH", "add": 4 } ]
+        }
+      ]
+    },
     "material_thickness": 8,
-	"encumbrance": 20,
+    "encumbrance": 20,
     "flags": [
       "NONCONDUCTIVE",
       "VARSIZE",
-	  "BLOCK_WHILE_WORN",
-	  "WATCH",
-	  "ALARMCLOCK",
+      "BLOCK_WHILE_WORN",
+      "WATCH",
+      "ALARMCLOCK",
       "UNARMED_WEAPON",
       "UNBREAKABLE_MELEE",
       "STURDY",
       "WATERPROOF",
-	  "WATER_FRIENDLY",
+      "WATER_FRIENDLY",
       "RAINPROOF",
-	  "CLIMATE_CONTROL",
+      "CLIMATE_CONTROL",
       "SUN_GLASSES",
-	  "RAD_PROOF",
-	  "THERMOMETER",
+      "RAD_PROOF",
+      "THERMOMETER",
       "ELECTRIC_IMMUNE",
       "PARTIAL_DEAF",
       "TRADER_AVOID",
@@ -107,7 +121,7 @@
       "NO_UNLOAD",
       "NO_RELOAD",
       "NO_TAKEOFF",
-	  "HELMET_COMPAT"
+      "HELMET_COMPAT"
     ]
   },
   {
@@ -122,7 +136,7 @@
     "price": 1500000,
     "price_postapoc": 15000,
     "material": [ "carbide", "superalloy", "nomex" ],
-    "weight": "1250 g",
+    "weight": "2250 g",
     "volume": "4500 ml",
     "storage": "12 L",
     "ammo": "battery",
@@ -140,22 +154,29 @@
     "covers": [ "head", "mouth", "eyes", "torso", "arms", "hands", "legs", "feet" ],
     "warmth": 10,
     "environmental_protection": 30,
-	"relic_data": {
-      "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "SQ_TRANSMISSIVE_SCANNER_SYSTEM" ], "values": [ { "value": "INTELLIGENCE", "multiply": 0.5 }, { "value": "PERCEPTION", "add": 4 } ] } ]
-	},
-	"artifact_data": { "effects_worn": [ "AEP_CLAIRVOYANCE" ] },
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "mutations": [ "SQ_TRANSMISSIVE_SCANNER_SYSTEM" ],
+          "values": [ { "value": "INTELLIGENCE", "multiply": 0.5 }, { "value": "PERCEPTION", "add": 4 } ]
+        }
+      ]
+    },
+    "artifact_data": { "effects_worn": [ "AEP_CLAIRVOYANCE" ] },
     "coverage": 100,
     "material_thickness": 7,
     "encumbrance": 25,
     "flags": [
       "NONCONDUCTIVE",
       "VARSIZE",
-	  "WATCH",
-	  "ALARMCLOCK",
+      "WATCH",
+      "ALARMCLOCK",
       "RAD_PROOF",
       "STURDY",
       "WATERPROOF",
-	  "WATER_FRIENDLY",
+      "WATER_FRIENDLY",
       "HYGROMETER",
       "THERMOMETER",
       "RAINPROOF",
@@ -164,14 +185,14 @@
       "SUN_GLASSES",
       "PSYSHIELD_PARTIAL",
       "CLIMATE_CONTROL",
-	  "ZOOM",
-	  "ELECTRIC_IMMUNE",
+      "ZOOM",
+      "ELECTRIC_IMMUNE",
       "PARTIAL_DEAF",
       "USE_UPS",
       "NO_UNLOAD",
       "NO_RELOAD",
-	  "HELMET_COMPAT",
-	  "SLOWS_THIRST"
+      "HELMET_COMPAT",
+      "SLOWS_THIRST"
     ],
     "qualities": [ [ "GLARE", 3 ] ]
   },
@@ -183,7 +204,7 @@
     "valid": false,
     "description": "Temperature and weather won't bug you.",
     "debug": false,
-	"player_display": false
+    "player_display": false
   },
   {
     "type": "mutation",
@@ -192,7 +213,7 @@
     "points": 0,
     "description": "컴뱃 아머의 스캐너와 고성능 프로세서가 주변 지형을 분석하고 이미지화하여 당신에게 보여줍니다. 야간 시야의 범위가 비약적으로 상승하며 벽을 넘어서 볼 수 있습니다.",
     "valid": false,
-	"purifiable": false,
+    "purifiable": false,
     "night_vision_range": 20.0
   },
   {
@@ -209,21 +230,28 @@
     "covers": [ "head", "mouth", "eyes", "torso", "arms", "hands", "legs", "feet" ],
     "warmth": 0,
     "environmental_protection": 70,
-	"relic_data": {
-      "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "DEBUG_NOTEMP", "SQ_TRANSMISSIVE_SCANNER_SYSTEM" ], "values": [ { "value": "INTELLIGENCE", "add": 4 }, { "value": "PERCEPTION", "add": 8 } ] } ]
-	},
-	"artifact_data": { "effects_worn": [ "AEP_CLAIRVOYANCE_PLUS", "AEP_PSYSHIELD" ] },
-	"encumbrance": 17,
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "mutations": [ "DEBUG_NOTEMP", "SQ_TRANSMISSIVE_SCANNER_SYSTEM" ],
+          "values": [ { "value": "INTELLIGENCE", "add": 4 }, { "value": "PERCEPTION", "add": 8 } ]
+        }
+      ]
+    },
+    "artifact_data": { "effects_worn": [ "AEP_CLAIRVOYANCE_PLUS", "AEP_PSYSHIELD" ] },
+    "encumbrance": 17,
     "flags": [
       "NONCONDUCTIVE",
       "VARSIZE",
-	  "WATCH",
-	  "ALARMCLOCK",
+      "WATCH",
+      "ALARMCLOCK",
       "RAD_PROOF",
-	  "REBREATHER",
+      "REBREATHER",
       "STURDY",
       "WATERPROOF",
-	  "WATER_FRIENDLY",
+      "WATER_FRIENDLY",
       "HYGROMETER",
       "THERMOMETER",
       "RAINPROOF",
@@ -235,17 +263,17 @@
       "TRADER_AVOID",
       "PSYSHIELD_PARTIAL",
       "CLIMATE_CONTROL",
-	  "HEAT_IMMUNE",
-	  "COLD_IMMUNE",
-	  "IR_EFFECT",
-	  "ZOOM",
+      "HEAT_IMMUNE",
+      "COLD_IMMUNE",
+      "IR_EFFECT",
+      "ZOOM",
       "DIMENSIONAL_ANCHOR",
       "USE_UPS",
       "NO_UNLOAD",
       "NO_RELOAD",
       "NO_TAKEOFF",
-	  "HELMET_COMPAT",
-	  "SLOWS_THIRST"
+      "HELMET_COMPAT",
+      "SLOWS_THIRST"
     ],
     "qualities": [ [ "GLARE", 3 ] ]
   },
@@ -256,7 +284,7 @@
     "points": 0,
     "description": "컴뱃 아머의 제어장치가 당신의 신경망에 접속하여 운동신경과 반사신경을 상승시킵니다. 회피가 더욱 쉬워지며, 이제 당신을 가로막는 난간이나 가판대 등에서 평지처럼 이동할 수 있습니다.",
     "valid": false,
-	"purifiable": false,
+    "purifiable": false,
     "stamina_regen_modifier": 0.3,
     "movecost_obstacle_modifier": 0.5,
     "dodge_modifier": 2
@@ -273,19 +301,33 @@
     "price": 1500000,
     "price_postapoc": 15000,
     "material": [ "carbide", "superalloy" ],
-    "weight": "1250 g",
+    "weight": "3250 g",
     "volume": "4500 ml",
     "storage": "12 L",
     "ammo": "battery",
     "max_charges": 3000,
     "initial_charges": 0,
-	"charges_per_use": 500,
-    "use_action": [ { "type": "cast_spell", "spell_id": "sq_advanced_lsurvivor_suit_spell", "no_fail": true, "level": 1, "need_worn": true } ],
+    "charges_per_use": 500,
+    "use_action": [
+      { "type": "cast_spell", "spell_id": "sq_advanced_lsurvivor_suit_spell", "no_fail": true, "level": 1, "need_worn": true }
+    ],
     "covers": [ "head", "mouth", "eyes", "torso", "arms", "hands", "legs", "feet" ],
     "warmth": 10,
-	"relic_data": {
-      "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "SQ_SYNAPTIC_AUGMENTED_REFLEXES" ], "values": [ { "value": "SPEED", "multiply": 0.3, "add": 5 }, { "value": "DEXTERITY", "add": 4 }, { "value": "PERCEPTION", "add": 4 } ] } ]
-	},
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "mutations": [ "SQ_SYNAPTIC_AUGMENTED_REFLEXES" ],
+          "values": [
+            { "value": "SPEED", "multiply": 0.3, "add": 5 },
+            { "value": "DEXTERITY", "add": 4 },
+            { "value": "PERCEPTION", "add": 4 },
+            { "value": "BONUS_DODGE", "add": 2 }
+          ]
+        }
+      ]
+    },
     "environmental_protection": 20,
     "coverage": 100,
     "material_thickness": 4,
@@ -293,19 +335,19 @@
     "flags": [
       "NONCONDUCTIVE",
       "VARSIZE",
-	  "WATCH",
-	  "ALARMCLOCK",
+      "WATCH",
+      "ALARMCLOCK",
       "STURDY",
       "WATERPROOF",
-	  "WATER_FRIENDLY",
+      "WATER_FRIENDLY",
       "RAINPROOF",
-	  "THERMOMETER",
+      "THERMOMETER",
       "SUN_GLASSES",
       "PARTIAL_DEAF",
       "USE_UPS",
       "NO_UNLOAD",
       "NO_RELOAD",
-	  "HELMET_COMPAT"
+      "HELMET_COMPAT"
     ]
   },
   {
@@ -326,7 +368,7 @@
     "ammo": "battery",
     "max_charges": 500,
     "initial_charges": 0,
-	"charges_per_use": 0,
+    "charges_per_use": 0,
     "use_action": {
       "type": "transform",
       "msg": "Initiating\nRunning suit integrity diagnostics…\nAll systems operational.",
@@ -335,7 +377,7 @@
       "need_worn": true,
       "need_charges": 1,
       "need_charges_msg": "Warning: Operating on minimal power.  Protection compromised."
-	},
+    },
     "covers": [ "head", "mouth", "eyes", "torso", "arms", "hands", "legs", "feet" ],
     "warmth": 10,
     "environmental_protection": 15,
@@ -354,7 +396,7 @@
       "USE_UPS",
       "NO_UNLOAD",
       "NO_RELOAD",
-	  "HELMET_COMPAT"
+      "HELMET_COMPAT"
     ]
   },
   {
@@ -386,7 +428,278 @@
       "USE_UPS",
       "NO_UNLOAD",
       "NO_RELOAD",
-	  "HELMET_COMPAT"
+      "HELMET_COMPAT"
+    ]
+  },
+  {
+    "id": "sq_advanced_soldier_suit",
+    "type": "TOOL_ARMOR",
+    "category": "clothing",
+    "symbol": "[",
+    "color": "green",
+    "name": { "str": "'테네브리스' 돌격 작전복" },
+    "looks_like": "rm13_armor",
+    "description": "UPS로 돌아가는 맞춤형 비경질 파워아머입니다. 기동성과 내구성, 그리고 치명성이 삼박자를 이루고 있습니다. 조준을 돕는 전술 조준경, 수류탄과 탄창을 도합 10개까지 수납할 수 있는 컨테이너, 확장 무기슬롯을 포함한 테네브리스는 차세대 슈퍼 솔저를 위한 컴뱃 아머입니다. 사용하면 기동성과 방어력이 증가하며, 내장된 전술 조준경의 감도가 높아져 적을 적극적으로 추적합니다.",
+    "price": 1500000,
+    "price_postapoc": 15000,
+    "material": [ "carbide", "superalloy" ],
+    "weight": "6250 g",
+    "volume": "6500 ml",
+    "storage": "15 L",
+    "ammo": "battery",
+    "max_charges": 500,
+    "initial_charges": 0,
+    "use_action": [
+      {
+        "type": "transform",
+        "msg": "Initiating\nRunning suit integrity diagnostics…\nAll systems operational.",
+        "target": "sq_advanced_soldier_suit_on",
+        "active": true,
+        "need_worn": true,
+        "need_charges": 1,
+        "need_charges_msg": "Warning: Operating on minimal power.  Protection compromised."
+      },
+      {
+        "type": "holster",
+        "holster_prompt": "Holster item",
+        "holster_msg": "You holster your %s",
+        "max_volume": "3500 ml",
+        "min_volume": "350 ml",
+        "multi": 3,
+        "draw_cost": 10,
+        "skills": [ "pistol", "smg", "shotgun", "rifle", "launcher" ],
+        "flags": [ "SHEATH_KNIFE", "SHEATH_SWORD" ]
+      },
+	  {
+      "type": "holster",
+      "holster_prompt": "탄약 확장 컨테이너",
+      "holster_msg": "You stash your %s.",
+      "multi": 10,
+      "max_volume": "750 ml",
+      "draw_cost": 10,
+      "flags": [ "GRENADE", "MAG_COMPACT", "MAG_BULKY", "SPEEDLOADER" ]
+      }
+    ],
+    "covers": [ "head", "mouth", "eyes", "torso", "arms", "hands", "legs", "feet" ],
+    "warmth": 10,
+    "environmental_protection": 20,
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "mutations": [ "SQ_PHANTOM_TACTICAL_VISOR1" ],
+          "values": [
+            { "value": "STRENGTH", "multiply": 0.3 },
+            { "value": "DEXTERITY", "multiply": 1.0 },
+            { "value": "PERCEPTION", "multiply": 1.0 }
+          ]
+        }
+      ]
+    },
+    "coverage": 100,
+    "material_thickness": 5,
+    "encumbrance": 25,
+    "flags": [
+      "NONCONDUCTIVE",
+      "VARSIZE",
+      "WATCH",
+      "ALARMCLOCK",
+      "RAD_RESIST",
+      "STURDY",
+      "WATERPROOF",
+      "WATER_FRIENDLY",
+      "THERMOMETER",
+      "RAINPROOF",
+      "GAS_PROOF",
+      "SWIM_GOGGLES",
+      "SUN_GLASSES",
+      "CLIMATE_CONTROL",
+      "ZOOM",
+      "ELECTRIC_IMMUNE",
+      "PARTIAL_DEAF",
+      "USE_UPS",
+      "NO_UNLOAD",
+      "NO_RELOAD",
+      "HELMET_COMPAT"
+    ],
+    "qualities": [ [ "GLARE", 3 ] ]
+  },
+  {
+    "type": "mutation",
+    "id": "SQ_PHANTOM_TACTICAL_VISOR",
+    "name": { "str": "팬텀 전술 조준경 (켜짐)" },
+    "points": 0,
+    "description": "컴뱃 아머의 스캐너와 고성능 프로세서가 주변 지형을 분석하고 이미지화하여 당신에게 보여줍니다. 투척 및 총기 스킬 레벨이 20 증가합니다.",
+    "valid": false,
+    "purifiable": false,
+    "craft_skill_bonus": [ [ "throw", 80 ], [ "pistol", 80 ], [ "smg", 80 ], [ "shotgun", 80 ], [ "rifle", 80 ], [ "launcher", 80 ] ],
+    "night_vision_range": 20.0,
+    "stamina_regen_modifier": 0.5,
+    "healing_awake": 2.0,
+    "healing_resting": 1.5,
+    "mending_modifier": 16.0,
+    "speed_modifier": 1.2,
+    "pain_recovery": 10.0
+  },
+  {
+    "id": "sq_advanced_soldier_suit_on",
+    "copy-from": "sq_advanced_soldier_suit",
+    "type": "TOOL_ARMOR",
+    "name": { "str": "'테네브리스' 돌격 작전복 (켜짐)" },
+    "looks_like": "rm13_armor",
+    "description": "UPS로 돌아가는 맞춤형 비경질 파워아머입니다. 기동성과 내구성, 그리고 치명성이 삼박자를 이루고 있습니다. 조준을 돕는 전술 조준경, 수류탄과 탄창을 도합 10개까지 수납할 수 있는 컨테이너, 확장 무기슬롯을 포함한 테네브리스는 차세대 슈퍼 솔저를 위한 컴뱃 아머입니다. 현재 작동 중이며, 지속적으로 전력을 소모하고 있습니다. 사용하여 작동을 멈춥니다.",
+    "turns_per_charge": 15,
+    "revert_to": "sq_advanced_soldier_suit",
+    "use_action": [ { "type": "transform", "menu_text": "Turn off", "msg": "Suit shutting down.", "target": "sq_advanced_soldier_suit" } ],
+    "covers": [ "head", "mouth", "eyes", "torso", "arms", "hands", "legs", "feet" ],
+    "warmth": 0,
+    "environmental_protection": 40,
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "mutations": [ "SQ_PHANTOM_TACTICAL_VISOR2" ],
+          "values": [ { "value": "INTELLIGENCE", "add": 4 }, { "value": "PERCEPTION", "add": 8 } ]
+        }
+      ]
+    },
+    "material_thickness": 7,
+    "encumbrance": 17,
+    "flags": [
+      "ACTIVE_CLOAKING",
+      "NONCONDUCTIVE",
+      "VARSIZE",
+      "WATCH",
+      "ALARMCLOCK",
+      "RAD_PROOF",
+      "REBREATHER",
+      "STURDY",
+      "WATERPROOF",
+      "WATER_FRIENDLY",
+      "THERMOMETER",
+      "RAINPROOF",
+      "SWIM_GOGGLES",
+      "SUN_GLASSES",
+      "ELECTRIC_IMMUNE",
+      "PARTIAL_DEAF",
+      "GAS_PROOF",
+      "TRADER_AVOID",
+      "CLIMATE_CONTROL",
+      "HEAT_IMMUNE",
+      "IR_EFFECT",
+      "ZOOM",
+      "USE_UPS",
+      "NO_UNLOAD",
+      "NO_RELOAD",
+      "NO_TAKEOFF",
+      "HELMET_COMPAT"
+    ],
+    "qualities": [ [ "GLARE", 3 ] ]
+  },
+  {
+    "result": "sq_advanced_hsurvivor_suit",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "fabrication",
+    "difficulty": 10,
+    "skills_required": [ [ "mechanics", 10 ], [ "electronics", 10 ], [ "computer", 10 ] ],
+    "time": "3 h 30 m",
+    "autolearn": true,
+    "tools": [
+      [ [ "sq_atomic_forge", -1 ] ],
+      [ [ "sq_nanocomp", 84 ] ],
+      [ [ "sq_nanoprint", 42 ] ],
+      [ [ "sq_cvdmachine", -1 ] ],
+      [ [ "sq_nanofab", -1 ] ]
+    ],
+    "using": [ [ "welding_standard", 42 ] ],
+    "components": [
+      [ [ "plasma", 25 ] ],
+      [ [ "ai_module", 1 ] ],
+      [ [ "graphene", 20 ] ],
+      [ [ "nanomaterial", 100 ] ],
+      [ [ "plut_cell", 4 ] ],
+      [ [ "sq_advanced_survivor_suit", 1 ] ],
+      [ [ "power_supply", 3 ] ],
+      [ [ "motor_tiny", 36 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "cable", 50 ] ],
+      [ [ "carbide_plate", 48 ] ],
+      [ [ "alloy_plate", 48 ] ]
+    ]
+  },
+  {
+    "result": "sq_advanced_fsurvivor_suit",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "fabrication",
+    "difficulty": 10,
+    "skills_required": [ [ "mechanics", 10 ], [ "electronics", 10 ], [ "computer", 10 ] ],
+    "time": "3 h 30 m",
+    "autolearn": true,
+    "tools": [
+      [ [ "sq_atomic_forge", -1 ] ],
+      [ [ "sq_nanocomp", 84 ] ],
+      [ [ "sq_nanoprint", 42 ] ],
+      [ [ "sq_cvdmachine", -1 ] ],
+      [ [ "sq_nanofab", -1 ] ]
+    ],
+    "using": [ [ "welding_standard", 42 ] ],
+    "components": [
+      [ [ "plasma", 25 ] ],
+      [ [ "ai_module_advanced", 1 ], [ "ai_module", 2 ] ],
+      [ [ "sensor_module", 1 ] ],
+      [ [ "self_monitoring_module", 1 ] ],
+      [ [ "graphene", 20 ] ],
+      [ [ "nanomaterial", 100 ] ],
+      [ [ "plut_cell", 4 ] ],
+      [ [ "sq_advanced_survivor_suit", 1 ] ],
+      [ [ "power_supply", 3 ] ],
+      [ [ "motor_tiny", 36 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "small_lcd_screen", 1 ] ],
+      [ [ "cable", 50 ] ],
+      [ [ "carbide_plate", 24 ] ],
+      [ [ "alloy_plate", 24 ] ]
+    ]
+  },
+  {
+    "result": "sq_advanced_lsurvivor_suit",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "fabrication",
+    "difficulty": 10,
+    "skills_required": [ [ "mechanics", 10 ], [ "electronics", 10 ], [ "computer", 10 ] ],
+    "time": "3 h 30 m",
+    "autolearn": true,
+    "tools": [
+      [ [ "sq_atomic_forge", -1 ] ],
+      [ [ "sq_nanocomp", 84 ] ],
+      [ [ "sq_nanoprint", 42 ] ],
+      [ [ "sq_cvdmachine", -1 ] ],
+      [ [ "sq_nanofab", -1 ] ]
+    ],
+    "using": [ [ "welding_standard", 42 ] ],
+    "components": [
+      [ [ "plasma", 25 ] ],
+      [ [ "ai_module", 1 ] ],
+      [ [ "identification_module", 1 ] ],
+      [ [ "targeting_module", 1 ] ],
+      [ [ "graphene", 20 ] ],
+      [ [ "nanomaterial", 200 ] ],
+      [ [ "plut_cell", 4 ] ],
+      [ [ "sq_advanced_survivor_suit", 1 ] ],
+      [ [ "power_supply", 3 ] ],
+      [ [ "motor_tiny", 36 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "cable", 50 ] ],
+      [ [ "carbide_plate", 12 ] ],
+      [ [ "alloy_plate", 12 ] ]
     ]
   },
   {
@@ -396,16 +709,16 @@
     "subcategory": "CSC_ARMOR_SUIT",
     "skill_used": "fabrication",
     "difficulty": 8,
-	"skills_required": [ "mechanics", 7 ],
-	"book_learn": [ [ "recipe_caseless", 6 ] ],
+    "skills_required": [ "mechanics", 7 ],
+    "book_learn": [ [ "recipe_caseless", 6 ] ],
     "time": "3 h 30 m",
     "autolearn": false,
     "using": [ [ "soldering_standard", 42 ], [ "welding_standard", 21 ] ],
     "components": [
       [ [ "graphene", 20 ] ],
       [ [ "coat_rain", 1 ], [ "jacket_windbreaker", 1 ], [ "jacket_evac", 1 ], [ "coat_gut", 1 ] ],
-	  [ [ "small_storage_battery", 1 ] ],
-	  [ [ "plut_cell", 3 ] ],
+      [ [ "small_storage_battery", 1 ] ],
+      [ [ "plut_cell", 3 ] ],
       [
         [ "tacvest", 1 ],
         [ "legrig", 1 ],
@@ -418,95 +731,9 @@
         [ "fanny", 2 ]
       ],
       [ [ "power_supply", 3 ] ],
-	  [ [ "processor", 1 ] ],
-	  [ [ "cable", 50 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "cable", 50 ] ],
       [ [ "kevlar_plate", 24 ] ]
-    ]
-  },
-  {
-    "result": "sq_advanced_hsurvivor_suit",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_SUIT",
-    "skill_used": "fabrication",
-    "difficulty": 10,
-	"skills_required": [ [ "mechanics", 10 ], [ "electronics", 10 ], [ "computer", 10 ] ],
-    "time": "3 h 30 m",
-    "autolearn": true,
-    "tools": [ [ [ "sq_atomic_forge", -1 ] ], [ [ "sq_nanocomp", 84 ] ], [ [ "sq_nanoprint", 42 ] ], [ [ "sq_cvdmachine", -1 ] ], [ [ "sq_nanofab", -1 ] ] ],
-    "using": [ [ "welding_standard", 42 ] ],
-    "components": [
-	  [ [ "plasma", 25 ] ],
-	  [ [ "ai_module", 1 ] ],
-      [ [ "graphene", 20 ] ],
-	  [ [ "nanomaterial", 100 ] ],
-	  [ [ "plut_cell", 4 ] ],
-      [ [ "sq_advanced_survivor_suit", 1 ] ],
-      [ [ "power_supply", 3 ] ],
-      [ [ "motor_tiny", 36 ] ],
-	  [ [ "processor", 1 ] ],
-	  [ [ "cable", 50 ] ],
-      [ [ "carbide_plate", 48 ] ],
-      [ [ "alloy_plate", 48 ] ]
-    ]
-  },
-  {
-    "result": "sq_advanced_fsurvivor_suit",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_SUIT",
-    "skill_used": "fabrication",
-    "difficulty": 10,
-	"skills_required": [ [ "mechanics", 10 ], [ "electronics", 10 ], [ "computer", 10 ] ],
-    "time": "3 h 30 m",
-    "autolearn": true,
-    "tools": [ [ [ "sq_atomic_forge", -1 ] ], [ [ "sq_nanocomp", 84 ] ], [ [ "sq_nanoprint", 42 ] ], [ [ "sq_cvdmachine", -1 ] ], [ [ "sq_nanofab", -1 ] ] ],
-    "using": [ [ "welding_standard", 42 ] ],
-    "components": [
-	  [ [ "plasma", 25 ] ],
-	  [ [ "ai_module_advanced", 1 ], [ "ai_module", 2 ] ],
-	  [ [ "sensor_module", 1 ] ],
-	  [ [ "self_monitoring_module", 1 ] ],
-      [ [ "graphene", 20 ] ],
-	  [ [ "nanomaterial", 100 ] ],
-	  [ [ "plut_cell", 4 ] ],
-      [ [ "sq_advanced_survivor_suit", 1 ] ],
-      [ [ "power_supply", 3 ] ],
-      [ [ "motor_tiny", 36 ] ],
-	  [ [ "processor", 1 ] ],
-	  [ [ "small_lcd_screen", 1 ] ],
-	  [ [ "cable", 50 ] ],
-      [ [ "carbide_plate", 24 ] ],
-      [ [ "alloy_plate", 24 ] ]
-    ]
-  },
-  {
-    "result": "sq_advanced_lsurvivor_suit",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_SUIT",
-    "skill_used": "fabrication",
-    "difficulty": 10,
-	"skills_required": [ [ "mechanics", 10 ], [ "electronics", 10 ], [ "computer", 10 ] ],
-    "time": "3 h 30 m",
-    "autolearn": true,
-    "tools": [ [ [ "sq_atomic_forge", -1 ] ], [ [ "sq_nanocomp", 84 ] ], [ [ "sq_nanoprint", 42 ] ], [ [ "sq_cvdmachine", -1 ] ], [ [ "sq_nanofab", -1 ] ] ],
-    "using": [ [ "welding_standard", 42 ] ],
-    "components": [
-	  [ [ "plasma", 25 ] ],
-	  [ [ "ai_module", 1 ] ],
-	  [ [ "identification_module", 1 ] ],
-	  [ [ "targeting_module", 1 ] ],
-      [ [ "graphene", 20 ] ],
-	  [ [ "nanomaterial", 200 ] ],
-	  [ [ "plut_cell", 4 ] ],
-      [ [ "sq_advanced_survivor_suit", 1 ] ],
-      [ [ "power_supply", 3 ] ],
-      [ [ "motor_tiny", 36 ] ],
-	  [ [ "processor", 1 ] ],
-	  [ [ "cable", 50 ] ],
-      [ [ "carbide_plate", 12 ] ],
-      [ [ "alloy_plate", 12 ] ]
     ]
   }
 ]

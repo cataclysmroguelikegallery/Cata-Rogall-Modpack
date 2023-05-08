@@ -10,13 +10,19 @@
     "price": 600,
     "price_postapoc": 200,
     "material": "cotton",
-	"looks_like": "holo_cloak",
+    "looks_like": "holo_cloak",
     "symbol": "!",
     "color": "cyan",
     "charges": 3,
     "stack_size": 9,
     "healthy": 25,
-    "use_action": { "type": "heal", "bandages_power": 6, "bleed": 1.0, "move_cost": 100, "effects": [ { "id": "sq_nanobandages_effect", "duration": 1 } ] }
+    "use_action": {
+      "type": "heal",
+      "bandages_power": 6,
+      "bleed": 1.0,
+      "move_cost": 100,
+      "effects": [ { "id": "sq_nanobandages_effect", "duration": 1 } ]
+    }
   },
   {
     "result": "sq_nanobandages",
@@ -615,16 +621,19 @@
     "ammo": "battery",
     "charges_per_use": 5,
     "techniques": [ "WBLOCK_2" ],
-    "use_action": [ {
-      "type": "transform",
-      "target": "sq_heat_blade_on",
-      "active": true,
-      "need_charges": 1,
-	  "msg": "히트 블레이드를 달굽니다."
-    }, "HOTPLATE" ],
+    "use_action": [
+      {
+        "type": "transform",
+        "target": "sq_heat_blade_on",
+        "active": true,
+        "need_charges": 1,
+        "msg": "히트 블레이드를 달굽니다."
+      },
+      "HOTPLATE"
+    ],
     "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 11 ] ],
     "flags": [ "DURABLE_MELEE", "SHEATH_SWORD" ],
-   "magazines": [
+    "magazines": [
       [
         "battery",
         [ "medium_battery_cell", "medium_plus_battery_cell", "medium_atomic_battery_cell", "medium_disposable_cell" ]
@@ -634,7 +643,7 @@
   },
   {
     "id": "sq_heat_blade_on",
-	"copy-from": "sq_heat_blade_off",
+    "copy-from": "sq_heat_blade_off",
     "type": "TOOL",
     "category": "weapons",
     "weapon_category": [ "SHORT_SWORDS", "1H_SWORDS" ],
@@ -647,7 +656,12 @@
     "color": "red",
     "power_draw": 20000,
     "techniques": [ "WBLOCK_2" ],
-    "use_action": { "type": "transform", "menu_text": "Turn off", "target": "sq_heat_blade_off", "msg": "히트 블레이드를 껐습니다." },
+    "use_action": {
+      "type": "transform",
+      "menu_text": "Turn off",
+      "target": "sq_heat_blade_off",
+      "msg": "히트 블레이드를 껐습니다."
+    },
     "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 11 ] ],
     "flags": [ "DURABLE_MELEE", "FLAMING", "TRADER_AVOID", "SHEATH_SWORD" ]
   },
@@ -660,9 +674,15 @@
     "skills_required": [ [ "electronics", 3 ] ],
     "difficulty": 7,
     "time": "4 h",
-	"using": [ [ "blacksmithing_standard", 12 ], [ "steel_standard", 3 ] ],
+    "using": [ [ "blacksmithing_standard", 12 ], [ "steel_standard", 3 ] ],
     "tools": [ [ [ "swage", -1 ] ] ],
-    "components": [ [ [ "small_storage_battery", 1 ] ], [ [ "cable", 24 ] ], [ [ "element", 4 ] ], [ [ "amplifier", 2 ] ], [ [ "plastic_chunk", 2 ] ] ]
+    "components": [
+      [ [ "small_storage_battery", 1 ] ],
+      [ [ "cable", 24 ] ],
+      [ [ "element", 4 ] ],
+      [ [ "amplifier", 2 ] ],
+      [ [ "plastic_chunk", 2 ] ]
+    ]
   },
   {
     "id": "sq_hardlight_blade_off",
@@ -676,7 +696,12 @@
     "symbol": "/",
     "material": [ "superalloy" ],
     "flags": [ "LEAK_DAM", "RADIOACTIVE", "DURABLE_MELEE", "BELT_CLIP", "NO_SALVAGE", "NONCONDUCTIVE" ],
-    "use_action": { "menu_text": "Expand", "type": "transform", "target": "sq_hardlight_blade_on", "msg": "하드라이트 블레이드를 켰습니다." },
+    "use_action": {
+      "menu_text": "Expand",
+      "type": "transform",
+      "target": "sq_hardlight_blade_on",
+      "msg": "하드라이트 블레이드를 켰습니다."
+    },
     "volume": "250 ml",
     "bashing": 5,
     "price": 17500
@@ -685,53 +710,99 @@
     "id": "sq_hardlight_blade_on",
     "type": "GENERIC",
     "copy-from": "sq_hardlight_blade_off",
-    "weapon_category": [ "BATONS", "SHORT_SWORDS", "1H_SWORDS" ],
-    "name": { "str": "실험용 하드라이트 블레이드 (켜짐)", "str_pl": "실험용 하드라이트 블레이드 (켜짐)" },
+    "weapon_category": [ "BATONS", "DUELING_SWORDS", "SHORT_SWORDS", "1H_SWORDS", "ENERGY_WEAPONS" ],
+    "name": {
+      "str": "실험용 하드라이트 블레이드 (켜짐)",
+      "str_pl": "실험용 하드라이트 블레이드 (켜짐)"
+    },
     "description": "리브텍 RMX-01 실험용 하드라이트 블레이드는 레이저 기술을 이용한 강력한 무기로, 제다이 전사들의 영원한 상징이자, 뉴턴의 불타는 검증 도구이며, 오타쿠 과학의 정점입니다.  사용하여 끌 수 있습니다.",
     "to_hit": 2,
     "techniques": [ "WBLOCK_1", "WIDE" ],
-    "flags": [ "LIGHT_5", "LEAK_DAM", "RADIOACTIVE", "NO_UNWIELD", "UNBREAKABLE_MELEE", "TRADER_AVOID", "NO_SALVAGE", "NONCONDUCTIVE" ],
-    "use_action": { "menu_text": "Collapse", "type": "transform", "target": "sq_hardlight_blade_off", "msg": "하드라이트 블레이드를 껐습니다." },
+    "flags": [
+      "LIGHT_5",
+      "LEAK_DAM",
+      "RADIOACTIVE",
+      "NO_UNWIELD",
+      "UNBREAKABLE_MELEE",
+      "TRADER_AVOID",
+      "NO_SALVAGE",
+      "NONCONDUCTIVE"
+    ],
+    "use_action": {
+      "menu_text": "Collapse",
+      "type": "transform",
+      "target": "sq_hardlight_blade_off",
+      "msg": "하드라이트 블레이드를 껐습니다."
+    },
     "qualities": [ [ "CUT", 1 ], [ "BUTCHER", -1 ] ],
-    "volume": "250 ml",
+    "volume": "1000 ml",
     "bashing": 5,
-	"cutting": 47
+    "cutting": 47
   },
   {
-	"type": "recipe",
-	"result": "sq_hardlight_blade_off",
-	"category": "CC_WEAPON",
-	"subcategory": "CSC_WEAPON_CUTTING",
-	"skill_used": "fabrication",
-	"skills_required": [ "electronics", 10 ],
-	"difficulty": 10,
-	"time": 400000,
-	"book_learn": [ [ "recipe_caseless", 8 ], [ "recipe_lab_elec", 9 ] ],
+    "type": "recipe",
+    "result": "sq_hardlight_blade_off",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_CUTTING",
+    "skill_used": "fabrication",
+    "skills_required": [ "electronics", 10 ],
+    "difficulty": 10,
+    "time": 400000,
+    "book_learn": [ [ "recipe_caseless", 8 ], [ "recipe_lab_elec", 9 ] ],
     "autolearn": false,
-	"qualities" : [
-		{ "id" : "SCREW", "level" : 1 },
-		{ "id" : "GLARE", "level" : 2 },
-		{ "id" : "SAW_M_FINE", "level": 1 },
-		{ "id" : "WRENCH_FINE", "level": 1 },
-		{ "id" : "HAMMER", "level": 2 }
-	],
-	"tools" : [
-		[ [ "welder", 200 ], [ "oxy_torch", 40 ], [ "welder_crude", 300 ], [ "toolset", 300 ] ],
-		[[ "soldering_iron", 50 ], [ "toolset", 50 ] ]
-	],
-	"components": [
+    "qualities": [
+      { "id": "SCREW", "level": 1 },
+      { "id": "GLARE", "level": 2 },
+      { "id": "SAW_M_FINE", "level": 1 },
+      { "id": "WRENCH_FINE", "level": 1 },
+      { "id": "HAMMER", "level": 2 }
+    ],
+    "tools": [
+      [ [ "welder", 200 ], [ "oxy_torch", 40 ], [ "welder_crude", 300 ], [ "toolset", 300 ] ],
+      [ [ "soldering_iron", 50 ], [ "toolset", 50 ] ]
+    ],
+    "components": [
       [ [ "alloy_sheet", 1 ] ],
       [ [ "e_scrap", 6 ] ],
-	  [ [ "amplifier", 4 ] ],
-	  [ [ "power_supply", 1 ] ],
-	  [ [ "plut_cell", 5 ] ],
-	  [ [ "diamond", 1 ] ],
-	  [ [ "copper", 100 ], [ "scrap_copper", 1 ] ],
+      [ [ "amplifier", 4 ] ],
+      [ [ "power_supply", 1 ] ],
+      [ [ "plut_cell", 5 ] ],
+      [ [ "diamond", 1 ] ],
+      [ [ "copper", 100 ], [ "scrap_copper", 1 ] ],
       [ [ "steel_lump", 2 ], [ "steel_chunk", 8 ], [ "scrap", 24 ] ],
-	  [ [ "plastic_chunk", 4 ] ],
-	  [ [ "high_density_capacitor", 1 ] ],
-	  [ [ "focusing_lens", 1 ] ],
-	  [ [ "effective_emitter", 1 ] ]
+      [ [ "plastic_chunk", 4 ] ],
+      [ [ "high_density_capacitor", 1 ] ],
+      [ [ "focusing_lens", 1 ] ],
+      [ [ "effective_emitter", 1 ] ]
     ]
-  }
+  },
+  {
+    "id": "sq_hardlight_longbow",
+    "type": "GUN",
+    "weapon_category": [ "BOWS", "ENERGY_WEAPONS" ],
+    "symbol": "(",
+    "looks_like": "longbow",
+    "color": "light_blue",
+    "name": { "str": "하드라이트 롱보우" },
+    "description": "A sleek, stringless white metal longbow constructed of ultralight, atomic-age materials.  Rather than using ammunition, each shot uses high-tech projectors to create a string and arrow out of hard light on the spot, which provide excellent accuracy and armor penetration.  Being a bow, it's still not as powerful as conventional ballistic weapons.  It runs off of UPS power, and rather efficiently so.",
+    "price": 1000000,
+    "price_postapoc": 20000,
+    "material": [ "titanium", "plastic" ],
+    "flags": [ "FIRE_TWOHAND", "STR_DRAW", "PRIMITIVE_RANGED_WEAPON", "BELTED", "NO_UNLOAD" ],
+    "skill": "archery",
+    "min_strength": 4,
+    "weight": "1173 g",
+    "volume": "1500 ml",
+    "bashing": 8,
+    "armor_data": { "covers": [ "torso" ], "coverage": 5, "material_thickness": 1, "encumbrance": 7 },
+    "reload_noise_volume": 0,
+    "loudness": 0,
+    "ranged_damage": { "damage_type": "heat", "amount": 55, "armor_penetration": 15 },
+    "range": 35,
+    "dispersion": 80,
+    "durability": 6,
+    "reload": 50,
+    "ups_charges": 20,
+    "valid_mod_locations": [ [ "underbarrel", 1 ], [ "sights", 1 ], [ "accessories", 2 ], [ "stabilizer", 1 ] ]
+  },
 ]

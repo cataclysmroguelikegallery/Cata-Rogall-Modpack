@@ -74,5 +74,33 @@
     "base_energy_cost": 0,
     "max_level": 1,
     "energy_source": "STAMINA"
+  },
+  {
+    "id": "sq_advanced_soldier_suit_spell",
+    "type": "SPELL",
+    "name": "TX-01 플라즈마 유탄 발사기",
+    "description": "A beam of focused magical power that damages any foes in its path.",
+    "valid_targets": [ "hostile", "ground" ],
+    "flags": [ "SILENT" ],
+    "effect": "explosion",
+    "affected_body_parts": [ "head", "torso", "arms", "legs" ],
+    "base_casting_time": 50,
+    "max_level": 1,
+    "min_damage": 150,
+    "max_damage": 150,
+    "damage_type": "stab",
+    "min_aoe": 8,
+    "max_aoe": 8,
+    "min_range": 60,
+    "max_range": 60,
+	"field_id": "fd_plasma",
+	"field_chance": 100,
+	"min_field_intensity": 100,
+	"max_field_intensity": 100,
+	"sound_type": "combat",
+	"sound_description": "You hear %s",
+	"sound_ambient": true,
+	"sound_id": "misc",
+	"sound_variant": "shockwave"
   }
 ]

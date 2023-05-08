@@ -50,12 +50,13 @@
           { "id": "sq_atomic_forge", "fg": 18, "rotates": false },
           { "id": "overlay_wielded_sq_adv_workbench", "fg": 19, "rotates": false },
           { "id": "sq_adv_workbench", "fg": 19, "rotates": false },
-          { "id": "vp_sq_adv_workbench",
-		    "fg": 19,
-		    "rotates": false,
-		    "multitile": true,
-		    "additional_tiles": [ { "id": "broken", "fg": 20 } ]
-		  },
+          {
+            "id": "vp_sq_adv_workbench",
+            "fg": 19,
+            "rotates": false,
+            "multitile": true,
+            "additional_tiles": [ { "id": "broken", "fg": 20 } ]
+          },
           { "id": "overlay_wielded_sq_cvdmachine", "fg": 21, "rotates": false },
           { "id": "sq_cvdmachine", "fg": 21, "rotates": false },
           { "id": "sq_f_cvdmachine", "fg": 21, "rotates": false },
@@ -67,12 +68,13 @@
           { "id": "overlay_male_worn_sq_carbon_suit", "fg": 25, "rotates": false },
           { "id": "overlay_wielded_sq_space_anomaly", "fg": 26 },
           { "id": "sq_space_anomaly", "fg": 26 },
-          { "id": "vp_sq_space_anomaly",
-		    "fg": 26,
-			"rotates": true,
-			"multitile": true,
-			"additional_tiles": [ { "id": "broken", "fg": 27 } ]
-		  },
+          {
+            "id": "vp_sq_space_anomaly",
+            "fg": 26,
+            "rotates": true,
+            "multitile": true,
+            "additional_tiles": [ { "id": "broken", "fg": 27 } ]
+          },
           { "id": "sq_heat_blade_off", "fg": 28, "rotates": false },
           { "id": "sq_heat_blade_on", "fg": 29, "rotates": false },
           { "id": "overlay_wielded_sq_heat_blade_off", "fg": 30, "rotates": false },
@@ -122,7 +124,11 @@
           { "id": "overlay_worn_sq_swat_shield_1", "fg": 55, "rotates": false },
           { "id": "overlay_wielded_sq_swat_shield_1_act", "fg": 56, "rotates": false },
           { "id": "sq_swat_shield_1_act", "fg": 56, "rotates": false },
-          { "id": "overlay_worn_sq_swat_shield_1_act", "fg": 57, "rotates": false }
+          { "id": "overlay_worn_sq_swat_shield_1_act", "fg": 57, "rotates": false },
+          { "id": "overlay_wielded_sq_advanced_soldier_suit", "fg": 89, "rotates": false },
+          { "id": "sq_advanced_soldier_suit", "fg": 89, "rotates": false },
+          { "id": "overlay_worn_sq_advanced_soldier_suit", "fg": 89, "rotates": false },
+          { "id": "overlay_worn_sq_advanced_soldier_suit_on", "fg": 91, "rotates": false }
         ],
         "//": "range 1 to 8",
         "sprite_width": 32,
@@ -130,6 +136,6 @@
         "sprite_offset_x": 0,
         "sprite_offset_y": 0
       }
-	  ]
+    ]
   }
 ]
