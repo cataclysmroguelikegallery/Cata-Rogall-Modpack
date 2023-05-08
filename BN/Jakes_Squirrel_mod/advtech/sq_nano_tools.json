@@ -8,17 +8,14 @@
     "skills_required": [ [ "fabrication", 3 ] ],
     "difficulty": 4,
     "time": "25 m",
-	"autolearn": true,
+    "autolearn": true,
     "reversible": true,
     "decomp_learn": 7,
     "book_learn": [ [ "textbook_fabrication", 3 ], [ "textbook_carpentry", 3 ], [ "adv_chemistry", 4 ], [ "textbook_chemistry", 3 ] ],
     "tools": [ [ [ "surface_heat", 5, "LIST" ] ] ],
     "using": [ [ "soldering_standard", 10 ] ],
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SCREW", "level": 1 } ],
-    "components": [
-      [ [ "scrap", 1 ] ],
-      [ [ "plastic_chunk", 1 ] ]
-    ]
+    "components": [ [ [ "scrap", 1 ] ], [ [ "plastic_chunk", 1 ] ] ]
   },
   {
     "id": "sq_atomic_forge",
@@ -34,7 +31,7 @@
     "bashing": 8,
     "material": [ "steel", "aluminum" ],
     "symbol": ";",
-	"looks_like": "minireactor",
+    "looks_like": "minireactor",
     "color": "light_green",
     "flags": [ "LIGHT_1", "LEAK_DAM", "RADIOACTIVE", "ALLOWS_REMOTE_USE" ]
   },
@@ -51,9 +48,18 @@
     "reversible": true,
     "autolearn": true,
     "using": [ [ "welding_standard", 20 ] ],
-    "qualities": [ { "id": "GLARE", "level": 2 }, { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 2 }, { "id": "SCREW", "level": 1 }, { "id": "WRENCH", "level": 2 }, { "id": "CHISEL", "level": 3 }, { "id": "DRILL", "level": 3 }, { "id": "GRIND", "level": 2 } ],
+    "qualities": [
+      { "id": "GLARE", "level": 2 },
+      { "id": "HAMMER", "level": 2 },
+      { "id": "SAW_M", "level": 2 },
+      { "id": "SCREW", "level": 1 },
+      { "id": "WRENCH", "level": 2 },
+      { "id": "CHISEL", "level": 3 },
+      { "id": "DRILL", "level": 3 },
+      { "id": "GRIND", "level": 2 }
+    ],
     "components": [
-	  [ [ "metal_tank", 1 ] ],
+      [ [ "metal_tank", 1 ] ],
       [ [ "ai_module_advanced", 1 ] ],
       [ [ "self_monitoring_module", 1 ] ],
       [ [ "small_lcd_screen", 1 ] ],
@@ -73,7 +79,7 @@
     "name": { "str": "머니퓰레이터 작업대", "str_pl": "머니퓰레이터 작업대" },
     "description": "이 아크 용접기가 달린 로봇 팔과 대형 터치스크린이 포함된 커다란 작업대는 당신이 필요한 모든 것을 갖추고 있습니다.",
     "weight": "23000 g",
-	"color": "cyan",
+    "color": "cyan",
     "material": [ "steel" ],
     "bashing": 8,
     "price": 4000000,
@@ -93,7 +99,16 @@
     "book_learn": [ [ "recipe_lab_elec", 9 ], [ "textbook_robots", 10 ] ],
     "tools": [ [ [ "sq_atomic_forge", -1 ] ] ],
     "using": [ [ "soldering_standard", 40 ], [ "welding_standard", 20 ] ],
-    "qualities": [ { "id": "GLARE", "level": 2 }, { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 2 }, { "id": "SCREW", "level": 1 }, { "id": "WRENCH", "level": 2 }, { "id": "CHISEL", "level": 3 }, { "id": "DRILL", "level": 3 }, { "id": "GRIND", "level": 2 } ],
+    "qualities": [
+      { "id": "GLARE", "level": 2 },
+      { "id": "HAMMER", "level": 2 },
+      { "id": "SAW_M", "level": 2 },
+      { "id": "SCREW", "level": 1 },
+      { "id": "WRENCH", "level": 2 },
+      { "id": "CHISEL", "level": 3 },
+      { "id": "DRILL", "level": 3 },
+      { "id": "GRIND", "level": 2 }
+    ],
     "components": [
       [ [ "ai_module_advanced", 1 ] ],
       [ [ "self_monitoring_module", 1 ] ],
@@ -269,9 +284,7 @@
       "str_max": 2,
       "sound": "crunch!",
       "sound_fail": "whack!",
-      "items": [
-        { "item": "sq_cvdmachine", "prob": 100 }
-      ]
+      "items": [ { "item": "sq_cvdmachine", "prob": 100 } ]
     }
   },
   {
@@ -312,7 +325,7 @@
   },
   {
     "id": "sq_nanofab",
-	"copy-from": "sq_nanoprint",
+    "copy-from": "sq_nanoprint",
     "type": "GENERIC",
     "category": "tools",
     "name": { "str": "나노 프린터" },
@@ -344,7 +357,7 @@
       { "id": "WRENCH", "level": 2 }
     ],
     "components": [
-	  [ [ "nanomaterial", 5 ] ],
+      [ [ "nanomaterial", 5 ] ],
       [ [ "alloy_plate", 10 ] ],
       [ [ "motor_tiny", 1 ] ],
       [ [ "processor", 2 ] ],

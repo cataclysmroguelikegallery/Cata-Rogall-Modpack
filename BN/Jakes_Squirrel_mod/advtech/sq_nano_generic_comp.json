@@ -11,7 +11,7 @@
     "price_postapoc": 100,
     "material": "carbide",
     "symbol": ",",
-	"looks_like": "adobe_pallet_done",
+    "looks_like": "adobe_pallet_done",
     "color": "dark_gray",
     "flags": [ "NO_SALVAGE" ]
   },
@@ -27,7 +27,7 @@
     "price_postapoc": 500,
     "material": "carbide",
     "symbol": ",",
-	"looks_like": "polycarbonate_sheet",
+    "looks_like": "polycarbonate_sheet",
     "color": "dark_gray",
     "flags": [ "NO_SALVAGE" ]
   },
@@ -43,7 +43,7 @@
     "price_postapoc": 5000,
     "material": "carbide",
     "symbol": ",",
-	"looks_like": "carbide_plate",
+    "looks_like": "carbide_plate",
     "color": "dark_gray",
     "use_action": "DISASSEMBLE",
     "flags": [ "NO_REPAIR", "NO_SALVAGE" ]
@@ -90,7 +90,7 @@
   },
   {
     "result": "graphene",
-	"id_suffix": "alternative1",
+    "id_suffix": "alternative1",
     "type": "recipe",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
@@ -105,7 +105,7 @@
   },
   {
     "result": "graphene",
-	"id_suffix": "alternative2",
+    "id_suffix": "alternative2",
     "type": "recipe",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
@@ -131,8 +131,7 @@
     "book_learn": [ [ "recipe_lab_cvd", 7 ] ],
     "autolearn": false,
     "tools": [ [ [ "sq_atomic_forge", -1 ] ] ],
-    "components": [ [ [ "resin_chunk", 5 ] ],
-	[ [ "graphene", 5 ] ] ]
+    "components": [ [ [ "resin_chunk", 5 ] ], [ [ "graphene", 5 ] ] ]
   },
   {
     "result": "hydrogen_tank",
@@ -144,11 +143,15 @@
     "time": "30 m",
     "batch_time_factors": [ 80, 5 ],
     "book_learn": [ [ "textbook_chemistry", 6 ], [ "adv_chemistry", 6 ], [ "recipe_labchem", 7 ] ],
-    "qualities": [ { "id": "CHEM", "level": 3 }, { "id": "FINE_DISTILL", "level": 1 }, { "id": "CONCENTRATE", "level": 1 }, { "id": "SEPARATE", "level": 1 } ],
+    "qualities": [
+      { "id": "CHEM", "level": 3 },
+      { "id": "FINE_DISTILL", "level": 1 },
+      { "id": "CONCENTRATE", "level": 1 },
+      { "id": "SEPARATE", "level": 1 }
+    ],
     "tools": [ [ [ "surface_heat", 20, "LIST" ] ] ],
     "autolearn": false,
-    "components": [ [ [ "ammonia", 5 ] ],
-	[ [ "metal_tank_little", 1 ] ] ]
+    "components": [ [ [ "ammonia", 5 ] ], [ [ "metal_tank_little", 1 ] ] ]
   },
   {
     "result": "plasma",
@@ -180,7 +183,12 @@
     "qualities": [ { "id": "CHEM", "level": 3 } ],
     "tools": [ [ [ "sq_nanocomp", 100 ] ] ],
     "autolearn": false,
-    "components": [ [ [ "ash", 2000 ], [ "charcoal", 100 ] ], [ [ "scrap", 100 ] ], [ [ "copper", 100 ] ], [ [ "chem_aluminium_powder", 100 ] ] ]
+    "components": [
+      [ [ "ash", 2000 ], [ "charcoal", 100 ] ],
+      [ [ "scrap", 100 ] ],
+      [ [ "copper", 100 ] ],
+      [ [ "chem_aluminium_powder", 100 ] ]
+    ]
   },
   {
     "result": "alloy_plate",
@@ -195,8 +203,7 @@
     "autolearn": true,
     "tools": [ [ [ "sq_atomic_forge", -1 ] ], [ [ "sq_nanocomp", 20 ] ] ],
     "qualities": [ { "id": "FINE_DISTILL", "level": 1 }, { "id": "CONCENTRATE", "level": 1 }, { "id": "SEPARATE", "level": 1 } ],
-    "components": [ [ [ "nanomaterial", 5 ] ], [ [ "graphene", 5 ] ],
-	[ [ "steel_lump", 1 ] ] ]
+    "components": [ [ [ "nanomaterial", 5 ] ], [ [ "graphene", 5 ] ], [ [ "steel_lump", 1 ] ] ]
   },
   {
     "result": "alloy_plate",
@@ -274,7 +281,7 @@
   {
     "result": "cable",
     "type": "recipe",
-	"id_suffix": "on nanoprinter",
+    "id_suffix": "on nanoprinter",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
     "skill_used": "fabrication",
