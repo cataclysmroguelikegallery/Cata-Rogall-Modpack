@@ -787,7 +787,7 @@
     "description": "A sleek, stringless white metal longbow constructed of ultralight, atomic-age materials.  Rather than using ammunition, each shot uses high-tech projectors to create a string and arrow out of hard light on the spot, which provide excellent accuracy and armor penetration.  Being a bow, it's still not as powerful as conventional ballistic weapons.  It runs off of UPS power, and rather efficiently so.",
     "price": 1000000,
     "price_postapoc": 20000,
-    "material": [ "titanium", "plastic" ],
+    "material": [ "superalloy" ],
     "flags": [ "FIRE_TWOHAND", "STR_DRAW", "PRIMITIVE_RANGED_WEAPON", "BELTED", "NO_UNLOAD" ],
     "skill": "archery",
     "min_strength": 4,
@@ -804,5 +804,5 @@
     "reload": 50,
     "ups_charges": 20,
     "valid_mod_locations": [ [ "underbarrel", 1 ], [ "sights", 1 ], [ "accessories", 2 ], [ "stabilizer", 1 ] ]
-  },
+  }
 ]

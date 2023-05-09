@@ -488,7 +488,7 @@
         {
           "has": "WORN",
           "condition": "ALWAYS",
-          "mutations": [ "SQ_PHANTOM_TACTICAL_VISOR1" ],
+          "mutations": [ "SQ_PHANTOM_TACTICAL_VISOR" ],
           "values": [
             { "value": "STRENGTH", "multiply": 0.3 },
             { "value": "DEXTERITY", "multiply": 1.0 },
@@ -551,7 +551,7 @@
     "description": "UPS로 돌아가는 맞춤형 비경질 파워아머입니다. 기동성과 내구성, 그리고 치명성이 삼박자를 이루고 있습니다. 조준을 돕는 전술 조준경, 수류탄과 탄창을 도합 10개까지 수납할 수 있는 컨테이너, 확장 무기슬롯을 포함한 테네브리스는 차세대 슈퍼 솔저를 위한 컴뱃 아머입니다. 현재 작동 중이며, 지속적으로 전력을 소모하고 있습니다. 사용하여 작동을 멈춥니다.",
     "turns_per_charge": 15,
     "revert_to": "sq_advanced_soldier_suit",
-    "use_action": [ { "type": "transform", "menu_text": "Turn off", "msg": "Suit shutting down.", "target": "sq_advanced_soldier_suit" } ],
+    "use_action": [ { "type": "transform", "menu_text": "Turn off", "msg": "Suit shutting down.", "active": false, "target": "sq_advanced_soldier_suit" }, { "type": "cast_spell", "spell_id": "sq_advanced_soldier_suit_spell", "no_fail": true, "level": 1, "need_worn": true } ],
     "covers": [ "head", "mouth", "eyes", "torso", "arms", "hands", "legs", "feet" ],
     "warmth": 0,
     "environmental_protection": 40,
@@ -560,7 +560,7 @@
         {
           "has": "WORN",
           "condition": "ALWAYS",
-          "mutations": [ "SQ_PHANTOM_TACTICAL_VISOR2" ],
+          "mutations": [ "SQ_PHANTOM_TACTICAL_VISOR" ],
           "values": [ { "value": "INTELLIGENCE", "add": 4 }, { "value": "PERCEPTION", "add": 8 } ]
         }
       ]
