@@ -1,0 +1,99 @@
+[
+  {
+    "type": "recipe",
+    "result": "cooking_oil",
+    "id_suffix": "from_machine",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_OTHER",
+    "skill_used": "cooking",
+    "difficulty": 2,
+    "charges": 8,
+    "time": "5 m",
+    "byproducts": [ [ "cattlefodder", 1 ] ],
+    "tools": [ [ [ "oil_press", 50 ] ] ],
+    "autolearn": true,
+    "batch_time_factors": [ 80, 5 ],
+    "qualities": [ { "id": "CONTAIN", "level": 1 }, { "id": "BOIL", "level": 1 } ],
+    "components": [
+      [
+        [ "almond", 10 ],
+        [ "peanut", 10 ],
+        [ "walnut", 10 ],
+        [ "pecan", 10 ],
+        [ "hazelnut", 10 ],
+        [ "pistachio", 10 ],
+        [ "hickory_nut", 10 ],
+        [ "acorns", 10 ],
+        [ "cashews", 10 ],
+        [ "soybean", 10 ],
+        [ "seed_cotton_boll", 1 ],
+        [ "seed_pumpkin", 4 ],
+        [ "seed_sunflower", 2 ],
+        [ "seed_canola", 4 ],
+        [ "seed_grapes", 6 ],
+        [ "seed_weed", 40 ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "thread",
+    "id_suffix": "from_spinning_wheel",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "tailor",
+    "difficulty": 1,
+    "skills_required": [ "fabrication", 1 ],
+    "time": "30 s",
+    "batch_time_factors": [ 70, 1 ],
+    "autolearn": true,
+    "tools": [ [ [ "spinning_wheel", -1 ] ] ],
+    "components": [ [ [ "cotton_ball", 3 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "oil_press",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": "15 m",
+    "qualities": [ { "id": "HAMMER", "level": 2 } ],
+    "reversible": true,
+    "book_learn": [ [ "manual_fabrication", 2 ], [ "textbook_fabrication", 2 ] ],
+    "autolearn": true,
+    "components": [
+      [
+        [ "funnel", 1 ],
+        [ "metal_funnel", 1 ],
+        [ "makeshift_funnel", 1 ],
+        [ "birchbark_funnel", 1 ],
+        [ "leather_funnel", 1 ]
+      ],
+      [ [ "hotplate", 1 ] ],
+      [ [ "wire_mesh", 1 ] ],
+      [ [ "pipe", 1 ] ],
+      [ [ "foot_crank", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "spinning_wheel",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "fabrication",
+    "skills_required": [ "mechanics", 2 ],
+    "difficulty": 3,
+    "time": "2 h",
+    "reversible": true,
+    "decomp_learn": 2,
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "HAMMER", "level": 2 }, { "id": "SAW_W", "level": 2 } ],
+    "components": [
+      [ [ "2x4", 6 ] ],
+      [ [ "nail", 20 ] ],
+      [ [ "leather", 6 ] ],
+      [ [ "rope_6", 6 ], [ "vine_6", 6 ], [ "rope_makeshift_6", 6 ] ]
+    ]
+  }
+]
