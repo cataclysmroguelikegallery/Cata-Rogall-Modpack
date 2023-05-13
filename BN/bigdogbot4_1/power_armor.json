@@ -411,7 +411,7 @@
 	  "skills": [ "archery" ]
     },
     "encumbrance": 5,
-    "storage": "40 L",
+    "storage": "40 L","weight_capacity_modifier": 1.3,
     "material_thickness": 10,
     "flags": [ "POWERARMOR_MOD", "COMPACT", "WATERPROOF", "STURDY", "BELTED", "ONLY_ONE" ]
   },{
@@ -430,7 +430,7 @@
     "looks_like": "backpack_tactical_large",
     "color": "light_gray",
     "encumbrance": 0,
-    "storage": "40 L",
+    "storage": "40 L","weight_capacity_modifier": 1.4,
     "material_thickness": 10,
     "flags": [ "POWERARMOR_MOD", "COMPACT", "WATERPROOF", "STURDY", "BELTED", "ONLY_ONE" ]
   },
@@ -648,7 +648,7 @@
 	"use_action": { 
 	"type": "set_transformed",
 	"dependencies": "POWERARMOR_EXO",
-	"msg": "열고환 차단 모듈 오프라인.",
+	"msg": "열교환 차단 모듈 오프라인.",
 	"target": "power_armor_antitemp"
 	},
 "relic_data": { "passive_effects": [ { "has": "WORN", 
@@ -747,7 +747,7 @@
     "name": [ "완벽한-정신방어" ],
     "desc": [ "거의 모든 종류의 정신에 영향을 주는 공격을 막아냅니다" ],
     "apply_message": "당신의 정신은 이 세상과 단절되었다",
-    "remove_message": "당신의 정신은 이 세상과 다시 연결되었다.","blocks_effects": ["stunned","dazed"],"removes_effects":["stunned"],
+    "remove_message": "당신의 정신은 이 세상과 다시 연결되었다.","blocks_effects": ["stunned","dazed","Ratting"],"removes_effects":["stunned","Ratting"],
     "rating": "good"
   },{
     "type": "effect_type",

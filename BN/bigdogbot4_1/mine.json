@@ -1,0 +1,19 @@
+[
+  {
+    "type": "mod_tileset",
+    "compatibility": [ "UNDEAD_PEOPLE_BASE", "UNDEAD_PEOPLE", "MshockRealXotto", "MSX++DEAD_PEOPLE" ],
+    "tiles-new":[
+				{
+				"file": "overhaul48_PA.png",
+				"sprite_width":48,
+				"sprite_height":48,
+				"sprite_offset_x":-8,
+				"sprite_offset_y":-16,
+				"tiles": 
+				[
+				{ "id": "overlay_worn_power_armor_helmet_heavy", "fg": 0, "rotates": false }
+				]
+				}
+	]
+  }
+]

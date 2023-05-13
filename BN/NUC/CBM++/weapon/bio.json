@@ -1,0 +1,86 @@
+[
+  {
+    "id": "bio_whip_weapon",
+    "type": "GENERIC",
+    "category": "weapons",
+    "weapon_category": [ "BIONIC_WEAPONRY","WHIPS" ],
+    "name": { "str": "초전도 단분자 와이어" },
+    "description": "초전도체로 만들어진 단분자 와이어 입니다.",
+    "weight": "100 g",
+    "to_hit": 3,
+    "color": "dark_gray",
+    "symbol": "{",
+    "material": [ "steel" ],
+    "techniques": ["SPIN","IMPALE","WIDE"],
+    "volume": "1000 ml",
+"relic_data": { "passive_effects": [ { "has": "WIELD", 
+"condition": "ALWAYS",
+"hit_you_effect": [ { "id": "nanocut","hit_self": false}]
+ } ] },
+    "cutting": 51,
+    "flags": [ "NO_DROP", "NO_UNWIELD", "UNBREAKABLE_MELEE", "TRADER_AVOID","REACH_ATTACK" , "REACH3" , "WHIP"],
+    "qualities": [ [ "CUT", 1 ]]
+  },{
+    "id": "bio_whip",
+    "copy-from": "bionic_general_npc_usable",
+    "type": "BIONIC_ITEM",
+    "name": { "str": "CBM : 모노와이어" },
+    "looks_like": "bio_int_enhancer",
+    "description": "이 cbm은 아주 유명한 해커가 사용했었습니다",
+    "price": 8000,
+    "weight": "0 g",
+    "difficulty": 8
+  },
+  {
+    "id": "bio_time_freeze",
+    "type": "bionic",
+    "name": { "str": "Time Dilation" },
+    "description": "At the cost of all stored bionic power, you may increase your body speed and reactions dramatically, essentially freezing time.  You are still delicate, however, and violent or rapid movements may damage you due to friction.",
+    "occupied_bodyparts": [
+      [ "head", 3 ]
+    ],
+    "act_cost": 50,"included_bionics": [ "bio_time_space" ]
+  },{
+    "id": "bio_time_space",
+    "type": "bionic",
+    "name": { "str": "산데비스탄" },"learned_spells": [ [ "SweetDreams", 1] ],
+    "description": "정말 기초적인 임플란트입니다.",
+    "included": true
+  },{
+    "id": "bio_whip",
+    "type": "bionic",
+    "name": { "str": "모노와이어" },
+    "description": "한때 아주 유명한 해커가 사용했던 cbm입니다.사용시 모노와이어를 뽑아내 전투준비를 합니다.",
+    "occupied_bodyparts": [ [ "arm_r", 5 ], [ "hand_r", 2 ] ],
+    "act_cost": "20 J",
+    "fake_item": "bio_whip_weapon",
+    "flags": [ "BIONIC_TOGGLED", "BIONIC_WEAPON", "BIONIC_NPC_USABLE" ]
+  },{
+    "id": "SweetDreams",
+    "type": "SPELL",
+    "name": "산데비스탄",
+    "description": "Grants you an extra turn.",
+    "valid_targets": [ "self" ],"base_energy_cost": 5400,"energy_source": "BIONIC",
+    "flags": [ "SILENT","NO_HANDS","NO_LEGS","NO_FAIL"],
+    "effect": "mod_moves","effect_str": "BIONIC","extra_effects": [ { "id": "Sandevistan_spell", "hit_self": true, "max_level": 1 } ],
+    "min_damage": 1800,
+    "max_damage": 1800,
+    "base_casting_time": 1
+  },{
+    "type": "item_group",
+    "id": "bionics",
+    "items": [
+      [ "bio_whip", 8 ]
+	  ]
+	},{"type": "item_group",
+    "id": "bionics_op","items": [
+      [ "bio_whip", 15 ]
+	  ]
+	  },{
+    "type": "item_group",
+    "id": "bionics_op2_off",
+    "subtype": "distribution","items": [
+      [ "bio_whip", 15 ]
+	  ]
+	 }
+]
