@@ -1,0 +1,30 @@
+[
+  {
+    "type": "mod_tileset",
+    "compatibility": [ "UNDEAD_PEOPLE_BASE", "UNDEAD_PEOPLE", "MshockRealXotto", "MSX++DEAD_PEOPLE" ],
+    "tiles-new":[
+				{
+				"file": "sh.png",
+				"sprite_width":48,
+				"sprite_height":48,
+				"sprite_offset_x":-8,
+				"sprite_offset_y":-16,
+				"tiles": 
+				[
+				{ "id": "power_armor_shield", "fg": 0, "rotates": false }
+				]
+				},{
+				"file": "shex.png",
+				"sprite_width":48,
+				"sprite_height":48,
+				"sprite_offset_x":-8,
+				"sprite_offset_y":-16,
+				"tiles": 
+				[
+				{ "id": "overlay_worn_power_armor_shield_on", "fg": 1, "rotates": false },
+				{ "id": "overlay_wielded_power_armor_shield_on", "fg": 1, "rotates": false }
+				]
+				}
+	]
+  }
+]
