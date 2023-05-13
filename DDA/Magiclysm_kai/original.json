@@ -1,0 +1,27 @@
+[
+  {
+    "id": "t_werewolf",
+    "type": "SPELL",
+    "name": "Lupercalian Release",
+    "description": "This spell transforms you into a werewolf.  There may be some cons to this.",
+    "valid_targets": [ "self" ],
+    "flags": [ "SILENT", "NO_LEGS", "NO_HANDS" ],
+    "effect": "spawn_item",
+    "effect_str": "aura_werewolf",
+    "shape": "blast",
+    "energy_source": "STAMINA",
+    "max_level": 30,
+    "min_damage": 1,
+    "max_damage": 1,
+    "damage_increment": 0,
+    "damage_type": "biological",
+    "difficulty": 0,
+    "spell_class": "NONE",
+    "base_casting_time": 50000,
+    "final_casting_time": 300,
+    "base_energy_cost": 8000,
+    "final_energy_cost": 1000,
+    "min_duration": 360000,
+    "max_duration": 4320000
+  }
+]

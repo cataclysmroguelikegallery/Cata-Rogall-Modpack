@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "Magiclysm_kai",
+    "name": "매지클리즘 편의성 증가 모드",
+    "authors": [ "desu" ],
+    "maintainers": [ "desu" ],
+    "description": "매지클리즘 모드의 여러 불편한 부분들을 고치고, 몇가지 타일과 추가 요소가 더해졌습니다.",
+    "category": "rebalance",
+    "dependencies": [ "magiclysm" ]
+  }
+]

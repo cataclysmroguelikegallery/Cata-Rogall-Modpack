@@ -48,20 +48,6 @@
     "extend": { "flags": [ "REACH_ATTACK" ] }
   },
   {
-    "id": "helsing",
-    "type": "GUN",
-    "name": { "str": "pneumatic bolt driver" },
-    "copy-from": "helsing",
-    "extend": { "flags": [ "RELOAD_ONE" ] }
-  },
-  {
-    "id": "tihar",
-    "type": "GUN",
-    "name": { "str": "pneumatic assault rifle" },
-    "copy-from": "tihar",
-    "extend": { "flags": [ "RELOAD_ONE" ] }
-  },
-  {
     "type": "recipe",
     "result": "heavy_rail_rifle",
     "category": "CC_WEAPON",
