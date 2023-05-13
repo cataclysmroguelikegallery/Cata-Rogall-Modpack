@@ -116,31 +116,6 @@
     "damage_reduction": { "all": 14 }
   },
   {
-    "abstract": "turret",
-    "type": "vehicle_part",
-    "symbol": "t",
-    "durability": 400,
-    "damage_modifier": 80,
-    "location": "on_roof",
-    "requirements": { "install": { "time": "100 s" }, "removal": { "time": "50 s" } },
-    "folded_volume": "2500 ml",
-    "flags": [ "FOLDABLE", "TURRET" ]
-  },
-  {
-    "id": "mounted_emp_gun",
-    "copy-from": "turret",
-    "type": "vehicle_part",
-    "name": { "str": "mounted XM34 EMP projector" },
-    "item": "emp_gun",
-    "color": "magenta",
-    "broken_color": "magenta",
-    "breaks_into": [ { "item": "scrap", "count": 9 }, { "item": "steel_chunk", "count": 4 }, { "item": "steel_lump", "count": 1 } ],
-    "requirements": {
-      "install": { "skills": [ [ "mechanics", 5 ], [ "electronics", 5 ] ] },
-      "removal": { "skills": [ [ "mechanics", 3 ] ] }
-    }
-  },
-  {
     "type": "vehicle_part",
     "abstract": "folding_seat_abstract",
     "name": { "str": "foldable seat" },

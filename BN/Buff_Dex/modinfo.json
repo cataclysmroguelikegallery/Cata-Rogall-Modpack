@@ -1,0 +1,30 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "dexbuff",
+    "name": "더 좋은 민첩스탯",
+    "authors": [ "Vulpecula" ],
+    "description": "기존의 스피디 덱스의 수치를 조정하고 이동시 스테미너 소모를 조절했습니다. 민첩1당 5씩 오름,걷기 스테미너 소모 기존대비 3분의1수준",
+    "category": "rebalance",
+    "dependencies": [ "bn" ]
+  },
+  {
+    "type": "EXTERNAL_OPTION",
+    "name": "SPEEDYDEX_MIN_DEX",
+    "stype": "int",
+    "value": 12
+  },
+  {
+    "type": "EXTERNAL_OPTION",
+    "name": "SPEEDYDEX_DEX_SPEED",
+    "stype": "int",
+    "value": 5
+  },
+  {
+    "type": "EXTERNAL_OPTION",
+    "name": "PLAYER_BASE_STAMINA_BURN_RATE",
+    "info": "Sets base stamina burn per 100 moves of the walking player.",
+    "stype": "int",
+    "value": 7
+  }
+]

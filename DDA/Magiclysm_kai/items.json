@@ -1,0 +1,21 @@
+[
+   {
+    "id": "i_magiclysm_translocator_gate",
+    "type": "GENERIC",
+    "category": "tools",
+    "name": { "str": "분리한 전송 관문" },
+    "description": "바닥에서 떼어낸 전송 관문입니다. A키로 사용하여 원하는 장소에 배치할 수 있습니다만, 매우 크고 무겁습니다.",
+    "volume": "75 L",
+    "weight": "7500 g",
+    "price": 5000,
+    "price_postapoc": 45000,
+    "looks_like": "f_magiclysm_translocator_gate",
+    "symbol": "g",
+    "color": "light_blue",
+    "use_action": { "type": "deploy_furn", "furn_type": "f_magiclysm_translocator_gate" },
+    "to_hit": -2,
+    "bashing": 5,
+    "material": [ "wood", "magical_material" ],
+    "flags": [ "LEAK_DAM", "DURABLE_MELEE" ]
+  }
+]
