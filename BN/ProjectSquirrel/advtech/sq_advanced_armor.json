@@ -67,7 +67,7 @@
     "description": "컴뱃 아머에 장착된 강력한 유압 피스톤이 당신의 주먹질을 실용적인 수준으로 끌어올려줍니다. 비무장 공격의 타격 대미지가 크게 상승합니다.",
     "valid": false,
     "purifiable": false,
-    "bash_dmg_bonus": 25
+    "bash_dmg_bonus": 14
   },
   {
     "id": "sq_warden_suit",
@@ -108,7 +108,7 @@
         {
           "has": "WORN",
           "condition": "ALWAYS",
-          "values": [ { "value": "STRENGTH", "add": 2 }, { "value": "ATTACK_COST", "add": -40 } ]
+          "values": [ { "value": "STRENGTH", "add": 2 }, { "value": "ATTACK_COST", "add": -20 } ]
         }
       ]
     }
@@ -129,7 +129,7 @@
           "has": "WORN",
           "condition": "ALWAYS",
 		  "mutations": [ "SQ_POWER_ACTUATOR" ],
-          "values": [ { "value": "STRENGTH", "add": 4 }, { "value": "ATTACK_COST", "add": -40 } ]
+          "values": [ { "value": "STRENGTH", "add": 2 }, { "value": "ATTACK_COST", "add": -40 } ]
         }
       ]
     }
@@ -743,7 +743,7 @@
     "noise_modifier": 0.0,
 	"scent_intensity": 0,
     "stealth_modifier": 40,
-    "cut_dmg_bonus": 18
+    "cut_dmg_bonus": 12
   },
   {
     "id": "sq_advanced_assassin_suit",
