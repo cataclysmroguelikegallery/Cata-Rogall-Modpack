@@ -36,7 +36,25 @@
     "initial_charges": 0,
     "max_charges": 100,
     "charges_per_use": 1,
-    "use_action": [ "RADGLOVE", "DIRECTIONAL_ANTENNA", "EINKTABLETPC", "NOTE_BIONICS", "PORTABLE_GAME", "WEATHER_TOOL" ]
+    "use_action": [ {
+      "type": "transform",
+      "msg": "타입-보이의 손전등 모드를 켰다.",
+      "target": "sq_typeboy_on",
+      "active": true,
+      "need_charges": 1,
+      "need_charges_msg": "타입-보이의 배터리가 방전되었다."
+    },
+    "RADGLOVE", "DIRECTIONAL_ANTENNA", "EINKTABLETPC", "NOTE_BIONICS", "PORTABLE_GAME", "WEATHER_TOOL" ]
+  },
+  {
+    "id": "sq_typeboy_on",
+    "copy-from": "sq_typeboy",
+    "type": "TOOL_ARMOR",
+    "name": { "str": "타입-보이 (손전등)", "str_pl": "타입-보이 (손전등)" },
+    "power_draw": 10000,
+    "revert_to": "sq_typeboy",
+    "use_action": { "menu_text": "Turn off", "type": "transform", "msg": "타입-보이를 껐다.", "target": "sq_typeboy" },
+    "flags": [ "LIGHT_300", "TRADER_AVOID" ]
   },
   {
     "type": "recipe",
