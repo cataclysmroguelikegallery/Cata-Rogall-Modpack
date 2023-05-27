@@ -1,0 +1,48 @@
+[
+  {
+    "type": "mod_tileset",
+    "compatibility": [ "UNDEAD_PEOPLE_BASE", "UNDEAD_PEOPLE", "MshockRealXotto", "MSX++DEAD_PEOPLE" ],
+    "tiles-new": [
+      {
+        "file": "mod_tileset/sq_mech_large.png",
+        "tiles": [
+		  { "id": "mon_sq_mech_balance", "fg": 0, "rotates": false },
+		  { "id": "mon_sq_mech_balance_2", "fg": 0, "rotates": false },
+		  { "id": "mon_sq_mech_heavy", "fg": 1, "rotates": false },
+		  { "id": "mon_sq_mech_heavy_2", "fg": 1, "rotates": false },
+		  { "id": "mon_sq_mech_light", "fg": 2, "rotates": false },
+		  { "id": "mon_sq_mech_light_2", "fg": 2, "rotates": false },
+		  { "id": "bot_sq_mech_balance", "fg": 3, "rotates": false },
+		  { "id": "bot_sq_mech_balance_2", "fg": 3, "rotates": false },
+		  { "id": "broken_sq_mech_balance", "fg": 3, "rotates": false },
+		  { "id": "broken_sq_mech_balance_2", "fg": 3, "rotates": false },
+		  { "id": "overlay_wielded_bot_sq_mech_balance", "fg": 3, "rotates": false },
+		  { "id": "overlay_wielded_bot_sq_mech_balance_2", "fg": 3, "rotates": false },
+		  { "id": "overlay_wielded_broken_sq_mech_balance", "fg": 3, "rotates": false },
+		  { "id": "overlay_wielded_broken_sq_mech_balance_2", "fg": 3, "rotates": false },
+		  { "id": "bot_sq_mech_heavy", "fg": 4, "rotates": false },
+		  { "id": "bot_sq_mech_heavy_2", "fg": 4, "rotates": false },
+		  { "id": "broken_sq_mech_heavy", "fg": 4, "rotates": false },
+		  { "id": "broken_sq_mech_heavy_2", "fg": 4, "rotates": false },
+		  { "id": "overlay_wielded_bot_sq_mech_heavy", "fg": 4, "rotates": false },
+		  { "id": "overlay_wielded_bot_sq_mech_heavy_2", "fg": 4, "rotates": false },
+		  { "id": "overlay_wielded_broken_sq_mech_heavy", "fg": 4, "rotates": false },
+		  { "id": "overlay_wielded_broken_sq_mech_heavy_2", "fg": 4, "rotates": false },
+		  { "id": "bot_sq_mech_light", "fg": 5, "rotates": false },
+		  { "id": "bot_sq_mech_light_2", "fg": 5, "rotates": false },
+		  { "id": "broken_sq_mech_light", "fg": 5, "rotates": false },
+		  { "id": "broken_sq_mech_light_2", "fg": 5, "rotates": false },
+		  { "id": "overlay_wielded_bot_sq_mech_light", "fg": 5, "rotates": false },
+		  { "id": "overlay_wielded_bot_sq_mech_light_2", "fg": 5, "rotates": false },
+		  { "id": "overlay_wielded_broken_sq_mech_light", "fg": 5, "rotates": false },
+		  { "id": "overlay_wielded_broken_sq_mech_light_2", "fg": 5, "rotates": false }
+        ],
+        "//": "range 1 to 8",
+        "sprite_width": 64,
+        "sprite_height": 80,
+        "sprite_offset_x": -16,
+        "sprite_offset_y": -48
+      }
+	  ]
+  }
+]
