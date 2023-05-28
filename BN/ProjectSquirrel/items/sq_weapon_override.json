@@ -85,5 +85,26 @@
     "type": "GENERIC",
     "name": { "str": "zweihaender replica" },
     "flags": [ "SHEATH_SWORD", "REACH_ATTACK", "ALWAYS_TWOHAND" ]
+  },
+  {
+    "id": "nodachi",
+    "type": "GENERIC",
+    "copy-from": "nodachi",
+    "name": { "str_sp": "nodachi" },
+    "flags": [ "REACH_ATTACK", "DURABLE_MELEE", "SHEATH_SWORD", "ALWAYS_TWOHAND", "NONCONDUCTIVE" ]
+  },
+  {
+    "id": "nodachi_inferior",
+    "type": "GENERIC",
+    "copy-from": "nodachi_inferior",
+    "name": { "str": "nodachi replica" },
+    "flags": [ "REACH_ATTACK", "SHEATH_SWORD", "ALWAYS_TWOHAND" ]
+  },
+  {
+    "id": "nodachi_fake",
+    "type": "GENERIC",
+    "copy-from": "nodachi_fake",
+    "name": { "str": "nodachi fake" },
+    "flags": [ "REACH_ATTACK", "SHEATH_SWORD", "ALWAYS_TWOHAND", "FRAGILE_MELEE" ]
   }
 ]
