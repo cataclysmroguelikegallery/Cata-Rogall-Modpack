@@ -46,7 +46,7 @@
     "name": { "str": "생존용 원자력 방화 헤드램프" },
     "description": "케블라로 튼튼하게 보강되고, 노멕스 방화 직물로 만들어진, 핵에너지의 신비한 힘으로 돌아가는 개조된 강화 헤드램프입니다. 더 유용한 빛을 내는데 초점을 맞췄습니다. 머리에 쓰거나 헬멧에 달 수 있도록 조절할 수 있는 끈이 달려있습니다. 사용하면 커버를 열어 빛을 드러냅니다.",
     "material": [ "kevlar", "nomex" ],
-    "looks_like": "survivor_light",
+    "looks_like": "wearable_atomic_light",
     "environmental_protection": 10,
     "use_action": {
       "type": "transform",
@@ -58,12 +58,12 @@
   },
   {
     "id": "sq_fwearable_atomic_light_off",
-	"copy-from": "wearable_atomic_light",
+	"copy-from": "wearable_atomic_light_off",
     "type": "TOOL_ARMOR",
     "name": { "str": "생존용 원자력 방화 헤드램프 (덮임)" },
     "description": "케블라로 튼튼하게 보강되고, 노멕스 방화 직물로 만들어진, 핵에너지의 신비한 힘으로 돌아가는 개조된 강화 헤드램프입니다. 더 유용한 빛을 내는데 초점을 맞췄습니다. 머리에 쓰거나 헬멧에 달 수 있도록 조절할 수 있는 끈이 달려있습니다. 사용하면 커버를 열어 빛을 드러냅니다.",
     "material": [ "kevlar", "nomex" ],
-    "looks_like": "survivor_light",
+    "looks_like": "wearable_atomic_light_off",
     "environmental_protection": 10,
     "use_action": {
       "type": "transform",
