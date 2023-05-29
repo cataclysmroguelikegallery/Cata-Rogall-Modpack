@@ -145,6 +145,8 @@
     "valid_targets": [ "self" ],
     "min_damage": 1,
     "max_damage": 1,
+    "base_energy_cost": 100,
+    "energy_source": "BIONIC",
     "effect": "spawn_item",
     "effect_str": "sq_plasma_knife",
     "base_casting_time": 0,
@@ -175,9 +177,9 @@
     "drop_action": { "type": "emit_actor", "emits": [ "emit_shock_burst" ], "scale_qty": true },
     "countdown_action": { "type": "explosion", "explosion": { "damage": 4, "radius": 3 } },
     "explosion": {
-    "damage": 120,
+    "damage": 90,
     "radius": 4,
-    "fragment": { "impact": { "damage_type": "electric", "amount": 120, "armor_multiplier": 1 }, "range": 6 }
+    "fragment": { "impact": { "damage_type": "electric", "amount": 150, "armor_multiplier": 1 }, "range": 6 }
       },
     "flags": [ "UNBREAKABLE_MELEE", "TRADER_AVOID", "STAB", "ACT_ON_RANGED_HIT", "CUSTOM_EXPLOSION" ]
   }

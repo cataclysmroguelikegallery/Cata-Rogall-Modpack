@@ -626,7 +626,7 @@
     "color": "light_green",
     "name": { "str": "'리전' 파워드 슈트" },
     "looks_like": "rm13_armor",
-    "description": "UPS로 돌아가는 맞춤형 군용 비경질 파워아머입니다. 기동성과 내구성, 그리고 치명성이 삼박자를 이루고 있습니다. 내장형 에너지 무기 생성 체계, 수류탄과 탄창을 도합 8개까지 수납할 수 있는 컨테이너, 3개의 확장 무기슬롯을 포함한 ST-301 '리전'은 차세대 슈퍼 솔저를 위한 컴뱃 아머입니다. 사용하면 컴뱃 나이프 형태의 플라즈마 충격 수류탄을 생성합니다.",
+    "description": "UPS로 돌아가는 맞춤형 군용 비경질 파워아머입니다. 기동성과 내구성, 그리고 치명성이 삼박자를 이루고 있습니다. 내장형 에너지 무기 생성 체계, 4개의 확장 무기슬롯을 포함한 ST-301 '리전'은 차세대 슈퍼 솔저를 위한 컴뱃 아머입니다. 사용하면 컴뱃 나이프 형태의 플라즈마 충격 수류탄을 생성합니다.",
     "price": 4300000,
     "price_postapoc": 22000,
     "material": [ "carbide", "superalloy" ],
@@ -635,18 +635,18 @@
     "storage": "15 L",
     "weight_capacity_modifier": 1.7,
     "ammo": "battery",
-    "max_charges": 1200,
-    "initial_charges": 0,
-    "charges_per_use": 100,
+	"max_charges": 1200,
+	"initial_charges": 0,
+	"charges_per_use": 100,
     "use_action": [
       { "type": "cast_spell", "spell_id": "sq_advanced_soldier_suit_spell_x", "no_fail": true, "level": 1, "need_worn": true },
       {
         "type": "holster",
-        "holster_prompt": "Holster item",
+        "holster_prompt": "통합 무장 수납 컨테이너",
         "holster_msg": "You holster your %s",
-        "max_volume": "3500 ml",
-        "min_volume": "350 ml",
-        "multi": 3,
+        "max_volume": "7500 ml",
+        "min_volume": "100 ml",
+        "multi": 4,
         "draw_cost": 10,
         "skills": [
           "pistol",
@@ -664,21 +664,12 @@
           "gun",
           "unarmed"
         ],
-        "flags": [ "SHEATH_KNIFE", "SHEATH_SWORD", "BELT_CLIP", "SHEATH_SPEAR" ]
-      },
-      {
-        "type": "holster",
-        "holster_prompt": "탄약 확장 컨테이너",
-        "holster_msg": "You stash your %s.",
-        "multi": 8,
-        "max_volume": "1500 ml",
-        "draw_cost": 10,
-        "flags": [ "GRENADE", "BOMB", "MAG_COMPACT", "MAG_BULKY", "SPEEDLOADER" ]
+        "flags": [ "SHEATH_KNIFE", "SHEATH_SWORD", "BELT_CLIP", "SHEATH_SPEAR", "GRENADE", "BOMB", "SPEEDLOADER", "IS_UPS" ]
       }
     ],
     "covers": [ "head", "mouth", "eyes", "torso", "arms", "hands", "legs", "feet" ],
     "warmth": 5,
-    "environmental_protection": 20,
+    "environmental_protection": 30,
     "relic_data": {
       "passive_effects": [
         {
