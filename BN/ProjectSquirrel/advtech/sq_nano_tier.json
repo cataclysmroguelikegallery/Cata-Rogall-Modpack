@@ -44,6 +44,12 @@
       "need_charges": 1,
       "need_charges_msg": "타입-보이의 배터리가 방전되었다."
     },
+	{
+	"type": "reveal_map",
+	"radius": 90,
+	"terrain": ["hiway", "road"],
+	"message": "You add roads and tourist attractions to your map."
+	},
     "RADGLOVE", "DIRECTIONAL_ANTENNA", "EINKTABLETPC", "NOTE_BIONICS", "PORTABLE_GAME", "WEATHER_TOOL" ]
   },
   {
