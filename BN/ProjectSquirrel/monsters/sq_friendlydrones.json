@@ -21,6 +21,7 @@
     "armor_bullet": 18,
     "armor_fire": 100,
     "vision_day": 50,
+    "path_settings": { "max_dist": 40 },
     "revert_to_itype": "bot_sq_drone_companion",
     "death_function": [ "BROKEN" ],
     "flags": [ "SEES", "HEARS", "ELECTRONIC", "FLIES", "COLDPROOF", "HARDTOSHOOT", "NO_BREATHE", "GUILT", "PATH_AVOID_DANGER_2", "PACIFIST", "PET_HARNESSABLE", "PET_MOUNTABLE", "CLIMBS", "CANPLAY" ]
@@ -67,8 +68,8 @@
   {
     "type": "recipe",
     "result": "bot_sq_drone_companion",
-    "category": "CC_ELECTRONIC",
-    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "category": "CC_첨단기술",
+    "subcategory": "CSC_첨단기술_드론",
     "skill_used": "electronics",
     "skills_required": [ [ "computer", 4 ] ],
     "difficulty": 4,
@@ -117,7 +118,7 @@
     "armor_fire": 100,
     "vision_day": 50,
     "vision_night": 12,
-    "path_settings": { "max_dist": 10 },
+    "path_settings": { "max_dist": 40 },
     "special_attacks": [
 	  [ "BIO_OP_BIOJUTSU", 6 ],
       {
@@ -179,8 +180,8 @@
   {
     "type": "recipe",
     "result": "bot_sq_drone_pilot",
-    "category": "CC_ELECTRONIC",
-    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "category": "CC_첨단기술",
+    "subcategory": "CSC_첨단기술_드론",
     "skill_used": "electronics",
     "skills_required": [ [ "mechanics", 5 ], [ "computer", 5 ] ],
     "difficulty": 7,
@@ -233,7 +234,7 @@
     "armor_fire": 100,
     "vision_day": 50,
     "vision_night": 12,
-    "path_settings": { "max_dist": 20 },
+    "path_settings": { "max_dist": 40 },
     "special_attacks": [
 	  [ "SMASH", 8 ], [ "BIO_OP_BIOJUTSU", 4 ],
       {
@@ -295,8 +296,8 @@
   {
     "type": "recipe",
     "result": "bot_sq_drone_power",
-    "category": "CC_ELECTRONIC",
-    "subcategory": "CSC_ELECTRONIC_OTHER",
+    "category": "CC_첨단기술",
+    "subcategory": "CSC_첨단기술_드론",
     "skill_used": "electronics",
     "skills_required": [ [ "mechanics", 8 ], [ "computer", 6 ] ],
     "difficulty": 9,
