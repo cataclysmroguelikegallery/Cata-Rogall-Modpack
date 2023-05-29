@@ -626,7 +626,7 @@
     "color": "light_green",
     "name": { "str": "'리전' 파워드 슈트" },
     "looks_like": "rm13_armor",
-    "description": "UPS로 돌아가는 맞춤형 군용 비경질 파워아머입니다. 기동성과 내구성, 그리고 치명성이 삼박자를 이루고 있습니다. 내장형 에너지 무기 생성 체계, 4개의 확장 무기슬롯을 포함한 ST-301 '리전'은 차세대 슈퍼 솔저를 위한 컴뱃 아머입니다. 사용하면 컴뱃 나이프 형태의 플라즈마 충격 수류탄을 생성합니다.",
+    "description": "UPS로 돌아가는 맞춤형 군용 비경질 파워아머입니다. 기동성과 내구성, 그리고 치명성이 삼박자를 이루고 있습니다. 내장형 에너지 무기 생성 체계, 6개의 확장 무기슬롯을 포함한 ST-301 '리전'은 차세대 슈퍼 솔저를 위한 컴뱃 아머입니다. 사용하면 컴뱃 나이프 형태의 플라즈마 충격 수류탄을 생성합니다.",
     "price": 4300000,
     "price_postapoc": 22000,
     "material": [ "carbide", "superalloy" ],
@@ -646,7 +646,7 @@
         "holster_msg": "You holster your %s",
         "max_volume": "7500 ml",
         "min_volume": "100 ml",
-        "multi": 4,
+        "multi": 6,
         "draw_cost": 10,
         "skills": [
           "pistol",
@@ -664,7 +664,7 @@
           "gun",
           "unarmed"
         ],
-        "flags": [ "SHEATH_KNIFE", "SHEATH_SWORD", "BELT_CLIP", "SHEATH_SPEAR", "GRENADE", "BOMB", "SPEEDLOADER", "IS_UPS" ]
+        "flags": [ "SHEATH_KNIFE", "SHEATH_SWORD", "BELT_CLIP", "SHEATH_SPEAR", "GRENADE", "BOMB", "IS_UPS" ]
       }
     ],
     "covers": [ "head", "mouth", "eyes", "torso", "arms", "hands", "legs", "feet" ],
