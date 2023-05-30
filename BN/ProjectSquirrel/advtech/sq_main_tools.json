@@ -399,9 +399,10 @@
   },
   {
     "id": "sq_uranium_forge_done",
-    "type": "TOOL",
+    "type": "GENERIC",
     "category": "tools",
     "name": { "str": "우라늄 증식 용광로 (증식 완료)" },
+	"looks_like": "sq_uranium_forge",
     "description": "우라늄 증식 용광로가 농축 우라늄 생산 절차를 마쳤습니다. 분해하여 회수하십시오.",
     "weight": "23500 g",
     "volume": "12 L",
@@ -417,12 +418,17 @@
   {
     "result": "sq_uranium_forge_done",
     "type": "uncraft",
+    "skill_used": "electronics",
+    "difficulty": 7,
     "time": "180 s",
-    "components": [ [ [ "sq_uranium_forge", 1 ] ], [ [ "sq_uranium_condensed", 1 ] ] ]
+    "components": [
+	[ [ "sq_uranium_condensed", 1 ] ],
+	[ [ "sq_uranium_forge", 1 ] ]
+	]
   },
   {
     "id": "sq_uranium_forge",
-    "type": "TOOL",
+    "type": "GENERIC",
     "category": "tools",
     "name": { "str": "우라늄 증식 용광로" },
     "description": "우라늄-235의 핵융합을 기반으로 한 용광로는 플루토늄 연료전지를 대체하고, 지속적으로 농축 우라늄을 생성할 수 있는 혁신적인 에너지 시스템입니다. 방사능과 전자파가 우려된다면서 발전소를 반대하는 사람들도 있었죠. 그 사람들이 이걸 보면 뭐라고 생각할까요?",
@@ -456,7 +462,6 @@
     "skills_required": [ [ "mechanics", 7 ], [ "electronics", 7 ], [ "computer", 7 ], [ "cooking", 7 ] ],
     "difficulty": 9,
     "time": "5 h",
-    "reversible": true,
     "autolearn": true,
     "using": [ [ "welding_standard", 20 ] ],
     "qualities": [
