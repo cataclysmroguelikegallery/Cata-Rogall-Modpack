@@ -255,10 +255,10 @@
     "material": [ "powder", "steel" ],
     "symbol": "=",
 	"ammo_type": "components",
-    "count": 1,
+	"count": 1,
     "looks_like": "plutonium_cell",
     "color": "yellow",
-    "flags": [ "TRADER_AVOID", "UNRECOVERABLE" ]
+    "flags": [ "TRADER_AVOID" ]
   },
   {
     "result": "sq_uranium_condensed",
