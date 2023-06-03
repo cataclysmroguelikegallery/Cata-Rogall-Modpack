@@ -1,0 +1,102 @@
+[
+  {
+    "//": "Support zed that immobilizes targets from far ranges with precise accuracy.",
+    "id": "mon_zombie_bootlegsmoker",
+    "type": "MONSTER",
+    "name": { "str": "스내처 좀비" },
+    "description": "이 몸부림치는 시체는 놀라울 정도로 교활하고 조심스러운 본성을 지니고 있습니다. 위협적으로 검은 눈동자가 탐욕스럽게 산 자를 노리며 튀어나온 네 개의 송곳니를 드러냅니다. 이 비인간적인 이빨은 가만히 있을 때 미친 듯이 반복적으로 딱 하는 소리를 내며 맹렬히 갈아댑니다.",
+    "default_faction": "zombie",
+    "species": [ "ZOMBIE", "SECROZED_2" ],
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "harvest": "zombie",
+    "weakpoint_sets": [ "wps_humanoid_body" ],
+    "families": [ "prof_intro_biology", "prof_wp_zombie" ],
+    "hp": 100,
+    "speed": 70,
+    "material": [ "flesh" ],
+    "symbol": "✑",
+    "color": "light_red",
+    "aggression": 100,
+    "morale": 100,
+    "melee_skill": 6,
+    "melee_dice": 6,
+    "melee_dice_sides": 6,
+    "melee_damage": [ { "damage_type": "cut", "amount": 4 } ],
+    "dodge": 2,
+    "vision_day": 35,
+    "vision_night": 10,
+    "path_settings": { "max_dist": 8 },
+    "tracking_distance": 10,
+    "special_attacks": [
+      [ "SHRIEK_ALERT", 10 ],
+      {
+        "type": "gun",
+        "cooldown": 150,
+        "move_cost": 2000,
+        "gun_type": "snatcher_mouth",
+        "fake_skills": [ [ "gun", 10 ], [ "rifle", 10 ] ],
+        "ranges": [ [ 0, 25, "DEFAULT" ] ],
+        "require_targeting_player": false,
+        "require_targeting_npc": false,
+        "require_targeting_monster": false,
+        "description": "The snatcher zombie sends off its tongue!"
+      },
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_zombie_bootlegsmoker_snatch_check" },
+        "cooldown": 70,
+        "monster_message": "<color_yellow>The snatcher zombie launches its tongue at %3$s!</color>"
+      }
+    ],
+    "upgrades": { "half_life": 14, "into": "mon_zombie_bootlegsmoker_mode" },
+    "death_drops": "default_zombie_clothes",
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "WARM",
+      "BASHES",
+      "GROUP_BASH",
+      "FILTHY",
+      "POISON",
+      "NO_BREATHE",
+      "REVIVES",
+      "PATH_AVOID_DANGER_2",
+      "KEEP_DISTANCE",
+      "RANGED_ATTACKER"
+    ]
+  },
+  {
+    "id": "mon_zombie_bootlegsmoker_mode",
+    "copy-from": "mon_zombie_bootlegsmoker",
+    "type": "MONSTER",
+    "name": { "str": "스내처 좀비" },
+    "description": "이 몸부림치는 시체는 놀라울 정도로 교활하고 조심스러운 본성을 지니고 있습니다. 위협적으로 검은 눈동자가 탐욕스럽게 산 자를 노리며 튀어나온 네 개의 송곳니를 드러냅니다. 이 비인간적인 이빨은 가만히 있을 때 미친 듯이 반복적으로 딱 하는 소리를 내며 맹렬히 갈아댑니다.",
+    "hp": 125,
+    "speed": 75,
+    "color": "red",
+    "special_attacks": [
+      [ "SHRIEK_ALERT", 10 ],
+      {
+        "type": "gun",
+        "cooldown": 110,
+        "move_cost": 2000,
+        "gun_type": "snatcher_mouth",
+        "fake_skills": [ [ "gun", 10 ], [ "rifle", 10 ] ],
+        "ranges": [ [ 0, 25, "DEFAULT" ] ],
+        "require_targeting_player": false,
+        "require_targeting_npc": false,
+        "require_targeting_monster": false,
+        "description": "The snatcher zombie sends off its tongue!"
+      },
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_zombie_bootlegsmoker_snatch_check" },
+        "cooldown": 66,
+        "monster_message": "<color_yellow>스내처 좀비가 혀를 %3$s에게 발사합니다.</color>"
+      }
+    ],
+    "upgrades": {  }
+  }
+]

@@ -310,7 +310,7 @@
     "material_thickness": 4,
     "encumbrance": 10,
     "weight_capacity_bonus": "60440 g",
-    "flags": [ "STURDY", "WATER_FRIENDLY", "USE_UPS", "NO_UNLOAD", "NO_RELOAD", "OUTER" ]
+    "flags": [ "ONLY_ONE", "STURDY", "WATER_FRIENDLY", "USE_UPS", "NO_UNLOAD", "NO_RELOAD", "OUTER" ]
   },
   {
     "id": "sq_vanguard_skeleton_on",
@@ -330,7 +330,7 @@
     "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "STRENGTH", "add": 6 } ] } ] },
     "encumbrance": 5,
     "weight_capacity_bonus": "60440 g",
-    "flags": [ "STURDY", "WATER_FRIENDLY", "USE_UPS", "NO_UNLOAD", "NO_RELOAD", "OUTER" ]
+    "flags": [ "ONLY_ONE", "STURDY", "WATER_FRIENDLY", "USE_UPS", "NO_UNLOAD", "NO_RELOAD", "OUTER" ]
   },
   {
     "id": "sq_sprinter_skeleton",
@@ -365,8 +365,8 @@
     "coverage": 40,
     "material_thickness": 3,
     "encumbrance": 5,
-    "weight_capacity_bonus": "47830 g",
-    "flags": [ "STURDY", "WATER_FRIENDLY", "USE_UPS", "NO_UNLOAD", "NO_RELOAD", "OUTER" ]
+    "weight_capacity_bonus": "37830 g",
+    "flags": [ "ONLY_ONE", "STURDY", "WATER_FRIENDLY", "USE_UPS", "NO_UNLOAD", "NO_RELOAD", "OUTER" ]
   },
   {
     "id": "sq_sprinter_skeleton_on",
@@ -389,7 +389,7 @@
     "covers": [ "torso", "legs" ],
     "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MOVE_COST", "add": -30 } ] } ] },
     "encumbrance": 0,
-    "weight_capacity_bonus": "47830 g",
+    "weight_capacity_bonus": "37830 g",
     "flags": [ "STURDY", "WATER_FRIENDLY", "USE_UPS", "NO_UNLOAD", "NO_RELOAD", "OUTER" ]
   },
   {

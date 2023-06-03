@@ -1,0 +1,154 @@
+[
+  {
+    "//": "Support-type zed that manipulates the stats of targeted creatures.",
+    "id": "mon_zombie_revenant",
+    "type": "MONSTER",
+    "name": "레버넌트",
+    "description": "기괴한 악취로 뒤덮인 이 심하게 희석된 시체는 사악한 언데드들의 감독자가 되었습니다.",
+    "default_faction": "zombie_revenant",
+    "species": [ "ZOMBIE", "SECROZED_2", "HUMAN" ],
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "harvest": "zombie",
+    "weakpoint_sets": [ "wps_humanoid_body" ],
+    "families": [ "prof_intro_biology", "prof_wp_zombie" ],
+    "hp": 65,
+    "diff": 1,
+    "speed": 60,
+    "material": [ "flesh" ],
+    "symbol": "♀",
+    "color": "magenta",
+    "aggression": 50,
+    "morale": 50,
+    "emit_fields": [ "emit_revenant_trigger_immunity" ],
+    "melee_skill": 0,
+    "melee_dice": 0,
+    "melee_dice_sides": 0,
+    "tracking_distance": 8,
+    "special_attacks": [
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_zombie_revenant_target" },
+        "cooldown": 12,
+        "monster_message": "<color_magenta>%1$s가 울부짖는다!</color>"
+      }
+    ],
+    "upgrades": { "half_life": 12, "into_group": "GROUP_REVENANT_UPGRADE" },
+    "death_drops": "default_zombie_death_drops",
+    "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "POISON", "NO_BREATHE", "REVIVES", "FILTHY", "KEEP_DISTANCE" ]
+  },
+  {
+    "id": "mon_zombie_revenant_idle",
+    "copy-from": "mon_zombie_revenant",
+    "type": "MONSTER",
+    "name": "레버넌트",
+    "description": "기괴한 악취로 뒤덮인 이 심하게 희석된 시체는 사악한 언데드들의 감독자가 되었습니다.",
+    "default_faction": "zombie",
+    "special_attacks": [
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_zombie_revenant_idle_target" },
+        "cooldown": 1,
+        "monster_message": "<color_dark_gray>%1$s가 노려봅니다...</color>"
+      }
+    ]
+  },
+  {
+    "id": "mon_zombie_revenant_forsaken",
+    "type": "MONSTER",
+    "name": "버림받은 레버넌트",
+    "description": "공포와 증오로 가득 찬 우울한 기운이 시체의 연약한 몸을 감싸고 있으며, 시체의 눈은 허공을 사악하게 응시하고 있습니다.",
+    "default_faction": "zombie",
+    "species": [ "ZOMBIE", "SECROZED_2", "HUMAN" ],
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "harvest": "zombie",
+    "weakpoint_sets": [ "wps_humanoid_body" ],
+    "families": [ "prof_intro_biology", "prof_wp_zombie" ],
+    "diff": 15,
+    "hp": 75,
+    "speed": 45,
+    "material": [ "flesh" ],
+    "symbol": "♁",
+    "color": "dark_gray",
+    "aggression": 50,
+    "morale": 50,
+    "melee_skill": 0,
+    "melee_dice": 0,
+    "melee_dice_sides": 0,
+    "tracking_distance": 8,
+    "special_attacks": [
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_zombie_revenant_forsaken_target" },
+        "cooldown": 12,
+        "monster_message": "<color_yellow>%1$s가 %3$s를 노려봅니다...</color>"
+      }
+    ],
+    "death_drops": "default_zombie_death_drops",
+    "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "POISON", "NO_BREATHE", "REVIVES", "FILTHY", "KEEP_DISTANCE" ]
+  },
+  {
+    "id": "mon_zombie_revenant_allure",
+    "type": "MONSTER",
+    "name": "매혹적인 레버넌트",
+    "description": "짙고 으스스한 안개 속에 숨어 있는 날씬한 인간형 형상이 굳건히 서 있습니다. 발톱에 검은 끈적끈적한 점액이 흘러내리는 사악한 모습입니다.",
+    "default_faction": "zombie_revenant",
+    "species": [ "ZOMBIE", "SECROZED_2", "HUMAN" ],
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "harvest": "zombie",
+    "weakpoint_sets": [ "wps_humanoid_body" ],
+    "families": [ "prof_intro_biology", "prof_wp_zombie" ],
+    "hp": 70,
+    "diff": 15,
+    "speed": 50,
+    "material": [ "flesh" ],
+    "symbol": "♂",
+    "color": "red",
+    "emit_fields": [ "emit_revenant_allure_induce_immunity" ],
+    "aggression": 50,
+    "morale": 50,
+    "melee_skill": 0,
+    "melee_dice": 0,
+    "melee_dice_sides": 0,
+    "tracking_distance": 8,
+    "special_attacks": [
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_zombie_revenant_allure_target" },
+        "cooldown": 12,
+        "monster_message": "<color_magenta>%1$s가 %3$s에게 점액을 퍼뜨립니다!</color>"
+      }
+    ],
+    "death_drops": "default_zombie_death_drops",
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "WARM",
+      "POISON",
+      "NO_BREATHE",
+      "REVIVES",
+      "FILTHY",
+      "HARDTOSHOOT",
+      "KEEP_DISTANCE"
+    ]
+  },
+  {
+    "id": "mon_zombie_revenant_allure_idle",
+    "copy-from": "mon_zombie_revenant_allure",
+    "type": "MONSTER",
+    "name": "매혹적인 레버넌트",
+    "description": "짙고 으스스한 안개 속에 숨어 있는 날씬한 인간형 형상이 굳건히 서 있습니다. 발톱에 검은색 끈적끈적한 점액이 흘러내리는 사악한 모습입니다..",
+    "default_faction": "zombie",
+    "special_attacks": [
+      {
+        "type": "spell",
+        "spell_data": { "id": "mon_zombie_revenant_allure_idle_target" },
+        "cooldown": 1,
+        "monster_message": "<color_dark_gray>%1$s가 응시한다...</color>"
+      }
+    ]
+  }
+]

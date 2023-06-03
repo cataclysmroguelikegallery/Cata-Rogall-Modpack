@@ -1,0 +1,114 @@
+[
+  {
+    "id": "REVERSIBLE",
+    "type": "json_flag"
+  },
+  {
+    "id": "TOOL_NONE",
+    "type": "json_flag"
+  },
+  {
+    "id": "TOOL_SCREWDRIVER",
+    "type": "json_flag"
+  },
+  {
+    "id": "TOOL_WRENCH",
+    "type": "json_flag"
+  },
+  {
+    "id": "NAILABLE",
+    "type": "json_flag"
+  },
+  {
+    "id": "storage_battery_removable",
+    "copy-from": "storage_battery",
+    "type": "vehicle_part",
+    "name": { "str": "swappable storage battery" },
+    "item": "storage_battery",
+    "requirements": { "install": { "time": 1000 } },
+    "location": "on_battery_mount",
+    "extend": { "flags": [ "TOOL_NONE", "NEEDS_BATTERY_MOUNT", "REVERSIBLE" ] }
+  },
+  {
+    "id": "aisle_lights",
+    "type": "vehicle_part",
+    "name": { "str": "aisle lights" },
+    "item": "flashlight",
+    "location": "on_ceiling",
+    "symbol": "*",
+    "broken_symbol": "*",
+    "color": "white",
+    "durability": 20,
+    "epower": -40,
+    "bonus": 30,
+    "breaks_into": [ { "item": "scrap", "count": [ 0, 2 ] } ],
+    "flags": [ "TOOL_SCREWDRIVER", "AISLE_LIGHT", "REVERSIBLE", "ENABLED_DRAINS_EPOWER" ]
+  },
+  {
+    "id": "shockcannon_mounted",
+    "type": "vehicle_part",
+    "name": { "str": "mounted shockcannon" },
+    "item": "shockcannon_ups",
+    "location": "on_roof",
+    "symbol": "t",
+    "looks_like": "mounted_coilgun",
+    "broken_symbol": "#",
+    "color": "yellow",
+    "broken_color": "dark_gray",
+    "durability": 250,
+    "damage_modifier": 80,
+    "breaks_into": [ { "item": "shockcannon_ups", "prob": 25 } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 6 ] ], "time": "60 m", "using": [ [ "vehicle_wrench_2", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 4 ] ], "time": "45 m", "using": [ [ "vehicle_wrench_2", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 5 ] ], "time": "25 m", "using": [ [ "welding_standard", 5 ] ] }
+    },
+    "flags": [ "TURRET" ]
+  },
+  {
+    "type": "vehicle_part",
+    "id": "bfg_mounted",
+    "copy-from": "turret",
+    "name": { "str": "mounted bfg" },
+    "item": "BFG",
+    "looks_like": "mounted_plasma_gun",
+    "broken_symbol": "#",
+    "color": "light_green",
+    "broken_color": "dark_gray",
+    "durability": 350,
+    "breaks_into": [ { "item": "BFG", "prob": 65 } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 7 ], [ "electronics", 7 ] ], "time": 10000 },
+      "removal": { "skills": [ [ "mechanics", 5 ] ] }
+    }
+  },
+  {
+    "type": "vehicle_part",
+    "id": "fridge_cargo",
+    "name": { "str": "ice box" },
+    "symbol": "Q",
+    "looks_like": "minifridge",
+    "color": "light_blue",
+    "broken_symbol": "#",
+    "broken_color": "light_blue",
+    "damage_modifier": 80,
+    "durability": 300,
+    "epower": -75,
+    "size": 750,
+    "item": "fridge_cargo",
+    "location": "center",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 4 ] ], "time": "60 m", "using": [ [ "vehicle_wrench_2", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "45 m", "using": [ [ "vehicle_wrench_2", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 3 ] ], "time": "25 m", "using": [ [ "welding_standard", 5 ] ] }
+    },
+    "flags": [ "CARGO", "OBSTACLE", "FREEZER", "COVERED", "ENABLED_DRAINS_EPOWER" ],
+    "breaks_into": [
+      { "item": "steel_lump", "count": [ 10, 15 ] },
+      { "item": "steel_chunk", "count": [ 12, 18 ] },
+      { "item": "scrap", "count": [ 15, 24 ] },
+      { "item": "hose", "prob": 50, "count": [ 1, 2 ] },
+      { "item": "hose", "prob": 50, "count": [ 1, 2 ] }
+    ]
+  }
+]

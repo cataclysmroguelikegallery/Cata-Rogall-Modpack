@@ -1,0 +1,29 @@
+[
+  {
+    "type": "mod_tileset",
+    "compatibility": ["MX+(Overhaul)", "MSX++DEAD_PEOPLE", "UNDEAD_PEOPLE", "UNDEAD_PEOPLE_BASE" ],
+    "tiles-new": [
+	  {
+      "file": "whip.png",
+		"sprite_width":32,
+		"sprite_height":32,
+		"sprite_offset_x":0,
+		"sprite_offset_y":0,
+      "tiles": [
+          { "id": "effect_monowire", "fg": 
+				[
+				{"weight": 1,"sprite":0},
+				{"weight": 1,"sprite":1},
+				{"weight": 1,"sprite":2},
+				{"weight": 1,"sprite":3}
+				],
+				"rotates": false,
+				"animated" :true }
+				]
+		}
+      ]
+    }
+	
+    ]
+  }
+]
