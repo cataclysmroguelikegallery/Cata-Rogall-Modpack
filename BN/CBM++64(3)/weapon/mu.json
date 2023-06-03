@@ -1,0 +1,94 @@
+[
+  {
+    "type": "mutation_type",
+    "id": "BIO_CLAWS"
+  },{
+    "type": "mutation_type",
+    "id": "BIO_RAZOR"
+  },{
+    "type": "mutation_type",
+    "id": "BIO_CLIMATESYSTEM"
+  },{
+    "type": "mutation",
+    "id": "CLAWS_BIO",
+    "name": { "str": "BIO Claws" },
+    "points": 0,
+    "visibility": 0,
+    "ugliness": 0,
+    "cut_dmg_bonus": 3,"player_display": false,
+    "flags": [ "UNARMED_BONUS" ],
+    "description": "바이오닉 생체공학손톱.",
+    "types": [ "BIO_RAZOR" ]
+  },
+ {
+    "type": "mutation",
+    "id": "bionic_claws",
+    "name": { "str": "기회 포착" },
+    "points": 0,
+    "visibility": 0,
+    "ugliness": 0,
+    "mixed_effect": true,
+    "player_display": false,
+    "description": "클로로 최대 2번 더 긁을 수 있습니다",
+    "types": [ "BIO_CLAWS" ],
+    "attacks": [
+      {
+        "attack_text_u": "당신은 %s을(를) 후려쳤다",
+        "attack_text_npc": "%$s slaps %2$s with their claws",
+        "chance": 60,"body_part": "hand_r",
+	"base_damage": { "damage_type": "bash", "amount": 10, "armor_penetration": 4,"damage_multiplier": 1.1 },
+        "strength_damage": { "damage_type": "bash", "amount": 2 }
+      },
+      {
+        "attack_text_u": "당신은 %s을(를) 클로로 긁었다",
+        "attack_text_npc": "%$s rakes %2$s with their clasw",
+        "chance": 30,"body_part": "hand_l",
+		"base_damage": { "damage_type": "cut", "amount": 10, "armor_penetration": 4,"damage_multiplier": 2 },
+        "strength_damage": { "damage_type": "cut", "amount": 1 }
+      }
+    ]
+  },{
+    "type": "mutation",
+    "id": "climate_EX",
+    "name": { "str": "극한 기후 적응 시스템" },
+    "points": 0,
+    "visibility": 0,
+    "ugliness": 0,
+    "bodytemp_modifiers" : [-31000, 10000],
+    "description": "극한적인 대기온도 적응 시스템 작동중. 수분과 전력을 급격하게 소모시키니 유의하십시오.",
+    "types": [ "BIO_CLIMATESYSTEM" ]
+  },{
+    "type": "mutation",
+    "id": "bio_acid_protec",
+    "name": { "str": "산성방어CBM" },
+    "points": 0,
+    "visibility": 0,
+    "ugliness": 0,
+    "description": "이걸 보고 있다면 버그입니다.",
+    "wet_protection": [
+      { "part": "head", "neutral": 3 },
+      { "part": "leg_l", "neutral": 3 },
+      { "part": "leg_r", "neutral": 3},
+      { "part": "foot_l", "neutral": 3 },
+      { "part": "foot_r", "neutral": 3 },
+      { "part": "arm_l", "neutral": 3},
+      { "part": "arm_r", "neutral": 3 },
+      { "part": "hand_l", "neutral": 3 },
+      { "part": "hand_r", "neutral": 3 },
+      { "part": "torso", "neutral": 3 }
+    ],
+    "armor": [ { "parts": "ALL", "acid": 3 } ]
+  },{
+    "type": "mutation",
+    "id": "bio_acid_protec_foot",
+    "name": { "str": "산성방어CBM_발" },
+    "points": 0,
+    "visibility": 0,
+    "ugliness": 0,
+    "description": "이걸 보고 있다면 버그입니다.",
+    "wet_protection": [
+      { "part": "foot_l", "neutral": 2 },
+      { "part": "foot_r", "neutral": 2 }
+    ]
+  }
+]

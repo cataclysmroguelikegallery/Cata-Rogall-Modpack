@@ -1,0 +1,190 @@
+[
+ {
+    "type": "furniture",
+    "id": "f_asf_metal_rig",
+    "looks_like": "afs_metal_rig",
+    "name": "망 연결된 메탈마스터 용광로 친구",
+    "symbol": "&",
+    "description": "망으로 연결된 메탈마스터 용광로 친구입니다.",
+    "color": "blue",
+    "move_cost_mod": -1,
+    "coverage": 80,
+    "required_str": -1,
+    "crafting_pseudo_item": [ "fake_gridkiln", "fake_griddsolderingiron", "fake_gridforge", "fake_gridwelder" ],
+    "flags": [ "BLOCKSDOOR", "MINEABLE", "EASY_DECONSTRUCT" ],
+	 "examine_action": "use_furn_fake_item",
+    "deconstruct": { "items": [ { "item": "afs_metal_rig", "count": 1 }, { "item": "cable", "charges": 5 } ] },
+    "bash": {
+      "str_min": 18,
+      "str_max": 50,
+      "sound": "metal screeching!",
+      "sound_fail": "clang!",
+      "items": [
+        { "count": [ 4, 7 ], "item": "steel_lump" },
+        { "count": [ 4, 7 ], "item": "steel_chunk" },
+        { "count": [ 4, 7 ], "item": "scrap" },
+        { "charges": 0, "item": "afs_metal_rig", "prob": 50 }
+      ]
+    }
+  },{
+    "type": "furniture",
+    "id": "f_drop_hammer",
+    "looks_like": "f_drophammer",
+    "name": "망으로 연결된 단조 장치",
+    "symbol": "&",
+    "description": "망으로 연결된 단조용 드롭해머 입니다.",
+    "color": "blue",
+    "move_cost_mod": -1,
+    "coverage": 80,
+    "required_str": -1,
+    "crafting_pseudo_item": ["tongs","fake_hammer_drop","chisel","swage","mold_plastic","puller","press_dowel","press"],
+    "flags": [ "BLOCKSDOOR", "MINEABLE", "EASY_DECONSTRUCT" ],
+    "deconstruct": { "items": [ { "item": "tongs", "count": 1 },
+{ "item": "chisel", "count": 1 },
+{ "item": "swage", "count": 1 },
+{ "item": "mold_plastic", "count": 1 },
+{ "item": "puller", "count": 1 },
+{ "item": "press_dowel", "count": 1 },
+{ "item": "press", "count": 1 },
+{ "item": "cable", "charges": 5 } ] }
+  },{
+    "type": "furniture",
+    "id": "f_grinder",
+    "looks_like": "f_mitresaw",
+    "name": "망으로 연결된 연마기",
+    "symbol": "&",
+    "description": "망으로 연결된 그라인더 입니다.",
+    "color": "blue",
+    "move_cost_mod": -1,
+    "coverage": 80,
+    "required_str": -1,
+    "crafting_pseudo_item": "fake_saw_grinding",
+    "flags": [ "BLOCKSDOOR", "MINEABLE", "EASY_DECONSTRUCT" ],
+    "deconstruct": { "items": [ { "item": "circsaw_off", "count": 1 },
+{ "item": "angle_grinder", "count": 1 },
+ { "item": "cable", "charges": 5 } ] }
+   
+  },{
+    "type": "furniture",
+    "id": "f_saw",
+    "looks_like": "f_tablesaw",
+    "name": "망으로 연결된 목재 절단기",
+    "symbol": "&",
+    "description": "망으로 연결된 톱입니다.",
+    "color": "blue",
+    "move_cost_mod": -1,
+    "coverage": 80,
+    "required_str": -1,
+    "crafting_pseudo_item": "fake_saw",
+    "flags": [ "BLOCKSDOOR", "MINEABLE", "EASY_DECONSTRUCT" ],
+	 "examine_action": "use_furn_fake_item",
+    "deconstruct": { "items": [ { "item": "motor", "count": 1 },
+{ "item": "circsaw_blade","count": 2 },
+ { "item": "cable", "charges": 5 } ] }
+  },{
+    "type": "furniture",
+    "id": "f_Mobile_Cover",
+    "name": "휴대용 거치대",
+    "symbol": "#",
+    "bgcolor": "brown",
+    "description": "이곳에 개틀링건을 거치하고 마음껏 쏘아보세요.","looks_like": "f_tourist_table",
+    "coverage": 15,
+    "move_cost_mod": 0,
+    "deployed_item": "Mobile_Cover",
+    "required_str": 4,  "examine_action": "deployed_furniture", 
+    "flags": [
+      "TRANSPARENT",
+      "NOITEM",
+      "MOUNTABLE","INDOORS",
+      "ROAD"
+    ],
+    "deconstruct": { "items": [ { "item": "Mobile_Cover", "count": 1 } ] }
+  },{
+    "type": "furniture",
+    "id": "f_CARDBORD_BOX_SNAKE",
+    "name": "기이한 골판지 상자",
+    "symbol": "#",
+    "bgcolor": "brown",
+    "coverage": 30,
+    "looks_like": "f_cardboard_box",
+    "description": "이거 이상하네요.이곳에 왠 상자람?...",
+    "move_cost_mod": 0,
+    "deployed_item": "CARDBORD_BOX_SNAKE",
+    "required_str": 4,   "examine_action": "deployed_furniture", 
+    "flags": [
+      "TRANSPARENT",
+      "EASY_DECONSTRUCT",
+      "THIN_OBSTACLE",
+      "HIDE_PLACE",
+	"BUTCHER_EQ",
+	"CAN_SIT",
+	"NO_SCENT",
+	"SMALL_PASSAGE",
+      "BLOCK_WIND",
+      "ROAD"
+    ],
+    "deconstruct": { "items": [ { "item": "CARDBORD_BOX_SNAKE", "count": 1 } ] }
+  },
+  {
+    "id": "Mobile_Cover",
+    "type": "GENERIC",
+    "category": "tools",
+    "name": { "str": "휴대용 거치대" },
+    "description": "사용시 휴대용 거치대를 펼칩니다.","looks_like": "tourist_table",
+    "weight": "150 g",
+    "volume": "85 ml",
+    "price": 5000000,
+    "price_postapoc": 1000,
+    "to_hit": -4,
+    "bashing": 7,
+    "material": [ "steel" ],
+    "symbol": ";",
+    "color": "light_gray",
+    "use_action": { "type": "deploy_furn", "furn_type": "f_Mobile_Cover" }
+  },{
+    "id": "CARDBORD_BOX_SNAKE",
+    "type": "GENERIC",
+    "category": "tools",
+"looks_like": "box_large",
+    "name": { "str": "접힌 기이한 골판지 상자" },
+    "description": "왠지 이 상자를 설치하면 그 누구도 나를 못찾을 꺼 같습니다.",
+    "weight": "15 g",
+    "volume": "50 ml",
+    "price": 5000000,
+    "price_postapoc": 1000,
+    "to_hit": -4,
+    "bashing": 7,
+    "material": [ "steel" ],
+    "symbol": ";",
+    "color": "light_gray",
+    "use_action": { "type": "deploy_furn", "furn_type": "f_CARDBORD_BOX_SNAKE" }
+  },{
+    "type": "recipe",
+    "result": "Mobile_Cover",
+    "category": "CC_fabrication",
+    "subcategory": "CSC_fabrication_OTHER",
+    "skill_used": "fabrication",
+    "reversible": true,
+    "decomp_learn": 4,
+    "autolearn": true,
+    "difficulty": 4,
+    "time": "10 m",
+    "using": [ [ "soldering_standard", 15 ], [ "welding_standard", 5 ], [ "surface_heat", 10 ] ],
+    "qualities": [
+      { "id": "SCREW", "level": 1 },
+      { "id": "SCREW_FINE", "level": 1 },
+      { "id": "WRENCH", "level": 2 },
+      { "id": "WRENCH_FINE", "level": 1 }
+    ],
+    "components": [
+[["sheet_metal",1]],[["pipe",6]]
+
+    ]
+  },{
+
+"type": "item_group",
+    "id": "rare",
+ "items": [ ["CARDBORD_BOX_SNAKE",50] ]
+
+  }
+]

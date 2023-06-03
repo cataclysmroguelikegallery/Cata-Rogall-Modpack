@@ -1,0 +1,8 @@
+[
+  {
+    "id": "mon_frog_mother",
+    "type": "MONSTER",
+    "copy-from": "mon_frog_mother",
+    "regenerates": 10
+  }
+]

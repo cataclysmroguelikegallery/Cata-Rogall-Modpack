@@ -1,0 +1,104 @@
+[
+  {
+    "method": "json",
+    "object": {
+      "rotation": [ 0, 3 ],
+      "mapgensize": [ 24, 24 ],
+      "rows": [
+        "........................",
+        "........................",
+        "........................",
+        "..............p.........",
+        ".............pop........",
+        ".............pop........",
+        "............pop.........",
+        "....p......pop..........",
+        "...popp....popp.........",
+        "....poopp.pppllp........",
+        ".....ppooplllllp....p...",
+        ".......pplllllp....pop..",
+        ".......pllllllpppppop...",
+        "........plllpllpooop....",
+        "........plpp.ppoppp.....",
+        "......ppop....pop.......",
+        ".....poopp.....pop......",
+        "....popp.......pop......",
+        "...pop.........pop......",
+        "..pop...........pop.....",
+        "..pop............p......",
+        "...p....................",
+        "........................",
+        "........................"
+      ],
+      "terrain": {
+        "l": "t_secro_flesh_wall",
+        "o": "t_secro_flesh",
+        "p": [
+          [ "t_secro_dirt_flesh", 250 ],
+          [ "t_secro_grass_flesh", 150 ],
+          [ "t_secro_grass_long_flesh", 75 ],
+          [ "t_secro_grass_tall_flesh", 25 ],
+          [ "t_secro_shrub_flesh", 10 ],
+          [ "t_secro_tree_young_flesh", 5 ],
+          [ "t_secro_flesh", 250 ]
+        ]
+      }
+    },
+    "nested_mapgen_id": "mx_flesh_biome_extra_nested",
+    "type": "mapgen"
+  },
+  {
+    "method": "json",
+    "object": {
+      "rotation": [ 0, 3 ],
+      "mapgensize": [ 24, 24 ],
+      "rows": [
+        ".......p................",
+        "......pop...............",
+        "....pppop...............",
+        "...plllp..............p.",
+        "....pllp........pp...pop",
+        "..ppopp........poop.pop.",
+        ".poop.........popplppop.",
+        "..pp...........p.plllp..",
+        "..................plp...",
+        "...................p....",
+        "........................",
+        "........................",
+        "............p...........",
+        "....p.....ppop..........",
+        "...pop...poop...........",
+        "...pop.pplpp............",
+        "....popllllp............",
+        ".....plllpp.............",
+        "......pppop.............",
+        "........pop.............",
+        ".......pop..............",
+        "........p...............",
+        "........................",
+        "........................"
+      ],
+      "terrain": {
+        "l": "t_secro_flesh_wall",
+        "o": "t_secro_flesh",
+        "p": [
+          [ "t_secro_dirt_flesh", 250 ],
+          [ "t_secro_grass_flesh", 150 ],
+          [ "t_secro_grass_long_flesh", 75 ],
+          [ "t_secro_grass_tall_flesh", 25 ],
+          [ "t_secro_shrub_flesh", 10 ],
+          [ "t_secro_tree_young_flesh", 5 ],
+          [ "t_secro_flesh", 250 ]
+        ]
+      }
+    },
+    "nested_mapgen_id": "mx_flesh_biome_extra_nested",
+    "type": "mapgen"
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "update_mapgen_id": "mx_flesh_biome_extra",
+    "object": { "place_nested": [ { "chunks": [ "mx_flesh_biome_extra_nested" ], "x": 0, "y": 0 } ] }
+  }
+]

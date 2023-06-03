@@ -1,0 +1,72 @@
+[
+ {
+    "type": "monstergroup",
+    "name": "GROUP_SPIDER_TRAP",
+    "freq_total": 1001,
+    "monsters": [
+      { "monster": "mon_null", "weight": 1000, "cost_multiplier": 0, "conditions": [ "WINTER" ] },
+      { "monster": "mon_null", "weight": 200, "cost_multiplier": 0 },
+      { "monster": "mon_trapdoor_egg", "weight": 125, "cost_multiplier": 1, "starts": 5 },
+      { "monster": "mon_trapdoor_queen", "weight": 25, "cost_multiplier": 3 },
+      {
+        "monster": "mon_spider_trapdoor_giant_s",
+        "weight": 200,
+        "cost_multiplier": 3,
+        "pack_size": [ 3, 8 ],
+        "conditions": [ "DAWN", "DUSK", "SPRING", "SUMMER", "AUTUMN" ]
+      },
+      { "monster": "mon_spider_trapdoor_giant", "weight": 100, "cost_multiplier": 1, "pack_size": [ 1, 3 ] },
+      { "monster": "mon_spider_trapdoor_giant_guardian", "weight": 100, "cost_multiplier": 0, "starts": 75 },
+      {
+        "monster": "mon_spider_trapdoor_giant_pk",
+        "weight": 150,
+        "cost_multiplier": 0,
+        "pack_size": [ 1, 2 ],
+        "starts": 50
+      },
+      { "monster": "mon_spider_trapdoor_giant", "weight": 900 }
+    ]
+  },
+ {
+    "type": "monstergroup",
+    "name": "GROUP_PEST_FLYING",
+    "freq_total": 1001,
+    "monsters": [
+      {
+        "monster": "mon_bat",
+        "weight": 200,
+        "cost_multiplier": 1,
+        "pack_size": [ 6, 12 ],
+        "conditions": [ "DAWN", "DUSK", "NIGHT", "SPRING", "SUMMER", "AUTUMN" ]
+      },
+      {
+        "monster": "mon_bat_vampire",
+        "weight": 200,
+        "cost_multiplier": 1,
+        "pack_size": [ 6, 12 ],
+        "conditions": [ "DAWN", "DUSK", "NIGHT", "SPRING", "SUMMER", "AUTUMN" ],
+        "starts": 25
+      },
+      { "monster": "mon_wasp", "weight": 50, "cost_multiplier": 3, "pack_size": [ 4, 8 ] },
+      { "monster": "mon_bee", "weight": 50, "cost_multiplier": 3, "pack_size": [ 4, 8 ] },
+      { "monster": "mon_crow", "weight": 200, "cost_multiplier": 1, "pack_size": [ 6, 12 ] }
+    ]
+  },
+   {
+    "type": "monstergroup",
+    "name": "GROUP_HORROR",
+    "freq_total": 1001,
+    "monsters": [
+      { "monster": "mon_horror_dusk", "weight": 250, "cost_multiplier": 0, "conditions": [ "NIGHT", "DUSK" ] },
+      {
+        "monster": "mon_horror_dusk",
+        "weight": 250,
+        "cost_multiplier": 1,
+        "pack_size": [ 2, 4 ],
+        "conditions": [ "NIGHT", "DUSK" ]
+      },
+      { "monster": "mon_horror_dusk_queen", "weight": 0, "cost_multiplier": 0 },
+      { "monster": "mon_null", "weight": 500 }
+    ]
+  }
+]

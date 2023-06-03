@@ -1,0 +1,17 @@
+[
+  {
+    "abstract": "mod_ammo",
+    "type": "GUNMOD",
+    "name": { "str": "ammo mod" },
+    "weight": "0 g",
+    "volume": "25 ml",
+    "material": [ "superalloy" ],
+    "symbol": ";",
+    "color": "dark_gray"
+  },{
+	"type": "enchantment",
+    "id": "ENCH_SH_effect",
+	"condition": "ACTIVE",
+ 	"hit_you_effect": [ { "id": "melee_shock","hit_self": false}]
+	}
+]

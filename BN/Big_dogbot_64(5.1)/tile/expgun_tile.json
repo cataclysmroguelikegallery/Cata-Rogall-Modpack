@@ -1,0 +1,95 @@
+[
+  {
+    "type": "mod_tileset",
+    "compatibility": [ "64PIXEL_UNDEAD_PEOPLE_VULPECULA" ],
+    "tiles-new": [
+	  {
+		"file": "64_adv_sn.png",
+		"sprite_width":128,
+		"sprite_height":32,
+		"sprite_offset_x":-32,
+		"sprite_offset_y":18,
+		"tiles": 
+		[
+		{
+		 "id": "overlay_wielded_adv_energy_rifle",
+		"fg": 0,
+		"rotates": false
+		},
+		{
+		 "id": "adv_energy_rifle",
+		"fg": 0,
+		"rotates": false
+		}
+		]
+    },{
+		"file": "64_adv_gattling.png",
+		"sprite_width":128,
+		"sprite_height":32,
+		"sprite_offset_x":-32,
+		"sprite_offset_y":22,
+		"tiles": 
+		[
+		{
+		 "id": "overlay_wielded_adv_laser_gatling",
+		"fg": 1,
+		"rotates": false
+		},
+		{
+		 "id": "adv_laser_gatling",
+		"fg": 1,
+		"rotates": false
+		}
+		]
+    },{
+		"file": "64_adv_pistol.png",
+		"sprite_width":64,
+		"sprite_height":64,
+		"sprite_offset_x":0,
+		"sprite_offset_y":0,
+		"tiles": 
+		[
+		{
+		 "id": "overlay_wielded_adv_laser_pistol",
+		"fg": 2,
+		"rotates": false
+		}
+		]
+    },{
+		"file": "64_adv_smg.png",
+		"sprite_width":76,
+		"sprite_height":32,
+		"sprite_offset_x":-6,
+		"sprite_offset_y":24,
+		"tiles": 
+		[
+		{
+		 "id": "overlay_wielded_adv_laser_carbine",
+		"fg": 3,
+		"rotates": false
+		},
+		{
+		 "id": "adv_laser_carbine",
+		"fg": 3,
+		"rotates": false
+		}
+		]
+    },{
+		"file": "64_pistol.png",
+		"sprite_width":64,
+		"sprite_height":64,
+		"sprite_offset_x":0,
+		"sprite_offset_y":0,
+		"tiles": 
+		[
+		{
+		 "id": "adv_laser_pistol",
+		"fg": 4,
+		"rotates": false
+		}
+		]
+    }
+	
+    ]
+  }
+]

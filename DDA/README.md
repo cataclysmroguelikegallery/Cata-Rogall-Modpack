@@ -26,8 +26,15 @@
 ## 포탈가챠 1.10.2(안정판0.G 대응)
 ### GATCHA_Portal
 > 신기한 티켓을 작성하고 포털 건너편에서 여성형 몬스터 등을 소환할 수 있습니다.
+
 ### GATCHA_Portal_Talk
 > 포탈 가챠MOD의 유니크 몬스터가 여러가지 이야기를 하는MOD입니다. 이야기를 하는중에는 소리가 발생하니 주의해 주세요.
 
 ## NechronicaSS_1.01
 > 영원한 후일담의 네크로니카를 모티브로 한 모드입니다. https://gall.dcinside.com/rlike/438596
+
+## PKs_Rebalancing_light
+> https://gall.dcinside.com/rlike/441176
+
+## secronom(0.G)
+> https://gall.dcinside.com/rlike/441174

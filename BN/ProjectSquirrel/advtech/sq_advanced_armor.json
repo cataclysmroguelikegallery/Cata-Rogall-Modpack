@@ -1,5 +1,12 @@
 [
   {
+    "id": "coat_fur",
+    "type": "ARMOR",
+    "copy-from": "coat_fur",
+    "name": { "str": "fur coat" },
+    "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pockets" ]
+  },
+  {
     "id": "sq_ranger_suit",
     "type": "TOOL_ARMOR",
     "category": "clothing",
@@ -7,7 +14,7 @@
     "color": "dark_gray",
     "name": { "str": "정찰꾼 경량형 컴뱃 아머" },
     "description": "맞춤형 비동력 경량 전투복입니다. 뛰어난 방어력과 기동성을 갖춘 보호장비로, 위험한 임무를 수행할 때 사용하기 좋습니다. 특색있는 분위기와 디자인으로, 생존자들에게 있어선 비동력 컴뱃 아머의 존엄이라고 할 수 있습니다.",
-    "flags": [ "VARSIZE", "STURDY", "WATERPROOF", "RAINPROOF", "SWIM_GOGGLES", "SUN_GLASSES", "RAD_RESIST", "SLEEP_IGNORE" ],
+    "flags": [ "OVERSIZE", "VARSIZE", "STURDY", "WATERPROOF", "RAINPROOF", "SWIM_GOGGLES", "SUN_GLASSES", "RAD_RESIST", "SLEEP_IGNORE" ],
     "price": 500000,
     "price_postapoc": 7500,
     "material": [ "leather", "kevlar" ],
@@ -77,7 +84,7 @@
     "color": "dark_gray",
     "name": { "str": "'워든' 중량 컴뱃 아머" },
     "description": "맞춤형 동력 중량 전투복입니다. 더블테크사의 파워아머를 생존자의 스타일로 어레인지하고 축소하여 만들었습니다. 진짜 파워아머에 비하면 제한적인 방호력을 가지고 있지만, 이 철갑덩어리를 입고 전진하는 생존자는 아무도 막지 못합니다. 사용하면 팔의 강력한 모터를 가동시킵니다.",
-    "flags": [ "STURDY", "WATERPROOF", "RAINPROOF", "SWIM_GOGGLES", "SUN_GLASSES", "ELECTRIC_IMMUNE", "RAD_RESIST", "ALLOWS_NATURAL_ATTACKS", "UNARMED_WEAPON" ],
+    "flags": [ "OVERSIZE", "STURDY", "WATERPROOF", "RAINPROOF", "SWIM_GOGGLES", "SUN_GLASSES", "ELECTRIC_IMMUNE", "RAD_RESIST", "ALLOWS_NATURAL_ATTACKS", "UNARMED_WEAPON" ],
     "price": 500000,
     "price_postapoc": 9500,
     "material": [ "superalloy", "kevlar" ],
@@ -120,7 +127,7 @@
     "category": "clothing",
     "name": { "str": "'워든' 중량 컴뱃 아머 (켜짐)" },
     "description": "맞춤형 동력 중량 전투복입니다. 더블테크사의 파워아머를 생존자의 스타일로 어레인지하고 축소하여 만들었습니다. 진짜 파워아머에 비하면 제한적인 방호력을 가지고 있지만, 이 철갑덩어리를 입고 전진하는 생존자는 아무도 막지 못합니다. 사용하여 작동을 멈춥니다.",
-    "flags": [ "STURDY", "WATERPROOF", "RAINPROOF", "SWIM_GOGGLES", "SUN_GLASSES", "ELECTRIC_IMMUNE", "RAD_PROOF", "UNARMED_WEAPON", "ALLOWS_NATURAL_ATTACKS", "CLIMATE_CONTROL", "NO_UNLOAD", "NO_RELOAD", "NO_TAKEOFF" ],
+    "flags": [ "OVERSIZE", "STURDY", "WATERPROOF", "RAINPROOF", "SWIM_GOGGLES", "SUN_GLASSES", "ELECTRIC_IMMUNE", "RAD_PROOF", "UNARMED_WEAPON", "ALLOWS_NATURAL_ATTACKS", "CLIMATE_CONTROL", "NO_UNLOAD", "NO_RELOAD", "NO_TAKEOFF" ],
     "turns_per_charge": 15,
     "use_action": { "type": "transform", "menu_text": "Turn off", "msg": "Suit shutting down.", "target": "sq_warden_suit" },
     "relic_data": {
@@ -216,6 +223,7 @@
     "material_thickness": 5,
     "encumbrance": 30,
     "flags": [
+	  "OVERSIZE",
       "NONCONDUCTIVE",
       "VARSIZE",
       "WATCH",
@@ -261,6 +269,7 @@
     "material_thickness": 8,
     "encumbrance": 20,
     "flags": [
+	  "OVERSIZE",
       "NONCONDUCTIVE",
       "VARSIZE",
       "BLOCK_WHILE_WORN",
@@ -331,6 +340,7 @@
     "material_thickness": 7,
     "encumbrance": 25,
     "flags": [
+	  "OVERSIZE",
       "NONCONDUCTIVE",
       "VARSIZE",
       "WATCH",
@@ -364,6 +374,7 @@
     "name": { "str": "Debug HVAC" },
     "points": 99,
     "valid": false,
+	"purifiable": false,
     "description": "Temperature and weather won't bug you.",
     "debug": false,
     "player_display": false
@@ -405,6 +416,7 @@
     "artifact_data": { "effects_worn": [ "AEP_CLAIRVOYANCE_PLUS", "AEP_PSYSHIELD" ] },
     "encumbrance": 17,
     "flags": [
+	  "OVERSIZE",
       "NONCONDUCTIVE",
       "VARSIZE",
       "WATCH",
@@ -495,6 +507,7 @@
     "material_thickness": 4,
     "encumbrance": 20,
     "flags": [
+	  "OVERSIZE",
       "NONCONDUCTIVE",
       "VARSIZE",
       "WATCH",
@@ -548,6 +561,7 @@
     "material_thickness": 4,
     "encumbrance": 33,
     "flags": [
+	  "OVERSIZE",
       "VARSIZE",
       "STURDY",
       "WATERPROOF",
@@ -576,6 +590,7 @@
     "environmental_protection": 30,
     "encumbrance": 13,
     "flags": [
+	  "OVERSIZE",
       "VARSIZE",
       "STURDY",
       "WATERPROOF",
@@ -688,6 +703,7 @@
     "material_thickness": 8,
     "encumbrance": 15,
     "flags": [
+	  "OVERSIZE",
       "NONCONDUCTIVE",
       "VARSIZE",
       "WATCH",
@@ -780,6 +796,7 @@
     "material_thickness": 3,
     "encumbrance": 20,
     "flags": [
+	  "OVERSIZE",
       "NONCONDUCTIVE",
       "VARSIZE",
       "WATCH",
@@ -825,6 +842,7 @@
     "material_thickness": 4,
     "encumbrance": 10,
     "flags": [
+	  "OVERSIZE",
       "NONCONDUCTIVE",
       "VARSIZE",
       "ACTIVE_CLOAKING",

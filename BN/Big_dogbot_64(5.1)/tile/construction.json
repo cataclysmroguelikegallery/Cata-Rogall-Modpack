@@ -1,0 +1,170 @@
+[
+  {
+    "type": "construction",
+    "id": "constr_dimension_anchor",
+    "group": "portable_dimension_anchor",
+    "category": "FURN",
+    "required_skills": [ ["fabrication", 0 ]],
+    "time": "0 m",
+    "components": [
+      [ [ "dimension_anchor", 1 ] ]
+    ],
+    "post_furniture": "f_dimension_anchor",
+	  "pre_flags" : " EASY_DECONSTRUCT " ,
+    "dark_craftable" : true 
+  },{
+    "type": "construction",
+    "id": "constr_dimension_anchor_m",
+    "group": "build_dimension_anchor",
+    "category": "FURN",
+    "required_skills": [ ["fabrication", 6 ]],
+    "time": "24 h",
+    "components": [
+      [ ["teleporter",5]]
+    ],
+    "post_furniture": "f_dimension_anchor_m"
+  },{
+    "type": "construction",
+    "id": "constr_afs_metal_rig",
+    "group": "build_afs_metal_rig",
+    "category": "WORKSHOP",
+    "required_skills": [ ["fabrication", 5 ]],
+    "time": "10 m",
+    "components": [
+      [ [ "afs_metal_rig", 1 ] ]
+    ],
+    "post_furniture": "f_asf_metal_rig"
+  },{
+    "type": "construction",
+    "id": "constr_drop_hammer",
+    "group": "build_drop_hammer",
+    "category": "WORKSHOP",
+    "required_skills": [ ["fabrication", 5 ]],
+    "time": "10 m",
+    "components": [
+ [ [ "steel_chunk", 10 ],[ "steel_lump", 2 ],[ "scrap", 40 ] ],
+      [ [ "chisel", 1 ] ],
+      [ [ "mold_plastic", 1] ],
+      [ [ "swage", 1 ] ],
+      [ [ "cable", 10 ] ],
+      [ [ "puller", 1 ] ],
+      [ [ "circuit", 1 ] ],
+      [ [ "press_dowel", 1 ] ],
+      [ [ "press", 1 ] ]
+    ],
+    "post_furniture": "f_drop_hammer"
+  },{
+    "type": "construction",
+    "id": "constr_grinder",
+    "group": "build_grinder",
+    "category": "WORKSHOP",
+    "required_skills": [ ["fabrication", 4 ]],
+    "time": "10 m",
+    "components": [
+	[ [ "steel_chunk", 10 ],[ "steel_lump", 2 ],[ "scrap", 40 ] ],
+      [ ["angle_grinder",1]],
+      [ ["circsaw_off",1]]
+    ],
+    "post_furniture": "f_grinder"
+  },{
+    "type": "construction",
+    "id": "constr_saw",
+    "group": "build_saw",
+    "category": "WORKSHOP",
+	"qualities": [
+      { "id": "HAMMER", "level": 2 },
+      { "id": "SAW_M", "level": 2 },
+      { "id": "SCREW", "level": 1 },
+      { "id": "WRENCH", "level": 1 }
+    ],
+    "required_skills": [ ["fabrication", 4 ]],
+    "time": "10 m",
+    "components": [
+	[ [ "steel_chunk", 10 ],[ "steel_lump", 2 ],[ "scrap", 40 ] ],
+      [ ["circsaw_blade",2]],
+      [ ["motor",2]],
+      [ ["cable",5]]
+    ],
+    "post_furniture": "f_saw"
+  },{
+    "type": "construction",
+    "id": "constr_nanoexit",
+    "group": "build_nanoexit",
+    "category": "WORKSHOP",
+	"qualities": [
+      { "id": "HAMMER", "level": 2 },
+      { "id": "SAW_M", "level": 2 },
+      { "id": "SCREW", "level": 1 },
+      { "id": "WRENCH", "level": 1 }
+    ],
+    "required_skills": [ ["fabrication", 9 ]],
+    "time": "100 m",
+    "components": [
+ [ [ "nanomaterial", 5 ] ],
+      [ [ "alloy_plate", 10 ] ],
+      [ [ "processor", 2 ] ],
+      [ [ "RAM", 1 ] ],
+      [ [ "cable", 10 ] ],
+      [ [ "small_lcd_screen", 1 ] ],
+      [ [ "circuit", 4 ] ],
+      [ [ "power_supply", 2 ] ],
+      [ [ "amplifier", 4 ] ],
+      [ [ "plastic_chunk", 10 ] ],
+      [ [ "small_storage_battery", 1 ] ]
+    ],
+    "post_terrain": "t_nanofab_body"
+  },{
+    "type": "construction",
+    "id": "constr_nanoconsol",
+    "group": "build_nanoconsol",
+	"qualities": [
+      { "id": "HAMMER", "level": 2 },
+      { "id": "SAW_M", "level": 2 },
+      { "id": "SCREW", "level": 1 },
+      { "id": "WRENCH", "level": 1 }
+    ],
+    "category": "WORKSHOP",
+    "required_skills": [ ["fabrication", 9 ]],
+    "time": "100 m",
+    "components": [
+ [ [ "nanomaterial", 5 ] ],
+      [ [ "alloy_plate", 10 ] ],
+      [ [ "motor_tiny", 4 ] ],
+      [ [ "processor", 4 ] ],
+      [ [ "RAM", 5 ] ],
+      [ [ "cable", 1 ] ],
+      [ [ "circuit", 4 ] ],
+      [ [ "power_supply", 2 ] ],
+      [ [ "small_lcd_screen", 1 ] ],
+      [ [ "amplifier", 4 ] ],
+      [ [ "plastic_chunk", 20 ] ],
+      [ [ "small_storage_battery", 1 ] ]
+    ],
+    "post_terrain": "t_nanofab"
+  },{
+    "type": "construction",
+    "id": "constr_recycler",
+    "group": "build_recycler",
+	"qualities": [
+      { "id": "HAMMER", "level": 2 },
+      { "id": "SAW_M", "level": 2 },
+      { "id": "SCREW", "level": 1 },
+      { "id": "WRENCH", "level": 1 }
+    ],
+    "category": "WORKSHOP",
+    "required_skills": [ ["fabrication", 4 ]],
+    "time": "100 m",
+    "components": [
+      [ [ "steel_plate", 10 ] ],
+      [ [ "element", 30 ] ],
+      [ [ "processor", 4 ] ],
+      [ [ "RAM", 5 ] ],
+      [ [ "cable", 1 ] ],
+      [ [ "circuit", 4 ] ],
+      [ [ "power_supply", 2 ] ],
+      [ [ "small_lcd_screen", 1 ] ],
+      [ [ "plastic_chunk", 20 ] ]
+    ],
+    "post_terrain": "t_recycler"
+  }
+]

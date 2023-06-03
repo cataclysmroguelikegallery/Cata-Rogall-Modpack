@@ -1,0 +1,55 @@
+[
+  {
+    "type": "construction_group",
+    "id": "build_dimension_anchor",
+    "name": "차원 좌표 수신기 건축"
+  },{
+    "type": "construction_group",
+    "id": "portable_dimension_anchor",
+    "name": "차원 좌표 수신기 건축"
+  },{
+    "type": "construction_group",
+    "id": "install_quantum_solar_panel",
+    "name": "양자 태양 전지판 설치"
+  },{
+    "type": "construction_group",
+    "id": "install_array_solar_panel",
+    "name": " 태양 전지판 묶음 설치"
+  },{
+    "type": "construction_group",
+    "id": "install_array_advsolar_panel",
+    "name": "개량된 태양 전지판 묶음 설치"
+  },{
+    "type": "construction_group",
+    "id": "install_array_quantum_solar_panel",
+    "name": "양자 태양 전지판 묶음 설치"
+  },{
+    "type": "construction_group",
+    "id": "build_afs_metal_rig",
+    "name": "메탈 마스터 용광로 친구 설치"
+  },{
+    "type": "construction_group",
+    "id": "build_drop_hammer",
+    "name": "단조 망치 설치"
+  },{
+    "type": "construction_group",
+    "id": "build_grinder",
+    "name": "연마기 설치"
+  },{
+    "type": "construction_group",
+    "id": "build_saw",
+    "name": "톱 설치"
+  },{
+    "type": "construction_group",
+    "id": "build_nanoconsol",
+    "name": "나노프린터 설치"
+  },{
+    "type": "construction_group",
+    "id": "build_nanoexit",
+    "name": "나노프린터 조작기 설치"
+  },{
+    "type": "construction_group",
+    "id": "build_recycler",
+    "name": "금속 압축기 설치"
+  }
+]

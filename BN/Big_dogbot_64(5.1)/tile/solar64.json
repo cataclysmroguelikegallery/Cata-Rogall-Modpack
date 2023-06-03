@@ -1,0 +1,22 @@
+[
+  {
+    "type": "mod_tileset",
+    "compatibility": [ "64PIXEL_UNDEAD_PEOPLE_VULPECULA" ],
+    "tiles-new":[{
+				"file": "Solar64.png",
+				"sprite_width":64,
+				"sprite_height":64,
+				"sprite_offset_x":0,
+				"sprite_offset_y":0,
+				"tiles": 
+				[
+				{ "id": "f_solar_unit_v2", "fg": 0, "rotates": false },
+				{ "id": "f_solar_unit_v4", "fg": 2, "rotates": false },
+				{ "id": "f_array_solar_unit_v1", "fg": 4, "rotates": false },
+				{ "id": "f_array_solar_unit_v2", "fg": 6, "rotates": false },
+				{ "id": "f_array_solar_unit_v4", "fg": 8, "rotates": false }
+				]
+				}
+				]
+   }
+]
