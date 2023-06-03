@@ -1,12 +1,5 @@
 [
   {
-    "id": "coat_fur",
-    "type": "ARMOR",
-    "copy-from": "coat_fur",
-    "name": { "str": "fur coat" },
-    "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pockets" ]
-  },
-  {
     "id": "sq_ranger_suit",
     "type": "TOOL_ARMOR",
     "category": "clothing",
