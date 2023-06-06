@@ -34,7 +34,6 @@
 	  [ "sq_recipe_lab_hardlight", 2 ],
 	  [ "sq_recipe_lab_fusion", 2 ],
 	  [ "sq_dimension_pack", 1 ],
-	  [ "sq_dimension_pack_black", 1 ],
 	  [ "nanomaterial", 10 ]
     ]
   },
@@ -55,8 +54,7 @@
 	  [ "sq_vanguard_skeleton", 10 ],
 	  [ "sq_swat_shield", 10 ],
 	  [ "sq_hardlight_blade_off", 10 ],
-	  [ "sq_dimension_pack", 10 ],
-	  [ "sq_dimension_pack_black", 10 ]
+	  [ "sq_dimension_pack", 10 ]
     ]
   },
   {
@@ -77,8 +75,7 @@
 	  [ "sq_sprinter_skeleton", 5 ],
 	  [ "sq_vanguard_skeleton", 5 ],
 	  [ "sq_swat_shield", 10 ],
-	  [ "sq_dimension_pack", 1 ],
-	  [ "sq_dimension_pack_black", 1 ]
+	  [ "sq_dimension_pack", 1 ]
     ]
   },
   {
@@ -91,8 +88,7 @@
 	  [ "sq_swat_shield", 10 ],
 	  [ "sq_hardlight_blade_off", 10 ],
 	  [ "sq_atomic_forge", 10 ],
-	  [ "sq_dimension_pack", 10 ],
-	  [ "sq_dimension_pack_black", 10 ]
+	  [ "sq_dimension_pack", 10 ]
     ]
   },
   {

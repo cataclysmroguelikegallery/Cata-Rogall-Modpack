@@ -7,7 +7,7 @@
     "color": "dark_gray",
     "name": { "str": "정찰꾼 경량형 컴뱃 아머" },
     "description": "맞춤형 비동력 경량 전투복입니다. 뛰어난 방어력과 기동성을 갖춘 보호장비로, 위험한 임무를 수행할 때 사용하기 좋습니다. 특색있는 분위기와 디자인으로, 생존자들에게 있어선 비동력 컴뱃 아머의 존엄이라고 할 수 있습니다.",
-    "flags": [ "OVERSIZE", "VARSIZE", "STURDY", "WATERPROOF", "RAINPROOF", "SWIM_GOGGLES", "SUN_GLASSES", "RAD_RESIST", "SLEEP_IGNORE" ],
+    "flags": [ "FANCY", "OVERSIZE", "VARSIZE", "STURDY", "WATERPROOF", "RAINPROOF", "SWIM_GOGGLES", "SUN_GLASSES", "RAD_RESIST", "SLEEP_IGNORE" ],
     "price": 500000,
     "price_postapoc": 7500,
     "material": [ "leather", "kevlar" ],
@@ -15,7 +15,7 @@
     "volume": "9 L",
     "to_hit": -3,
     "max_charges": 200,
-    "storage": "25 L",
+    "storage": "10 L",
     "ammo": "gasfilter_m",
     "use_action": "GASMASK",
     "warmth": 0,
@@ -49,7 +49,7 @@
     "using": [ [ "welding_standard", 21 ] ],
     "components": [
 	  [ [ "backpack", 1 ] ],
-      [ [ "trenchcoat_survivor", 1 ] ],
+      [ [ "trenchcoat_survivor", 1 ], [ "duster_survivor", 1 ] ],
       [ [ "lsurvivor_suit", 1 ], [ "survivor_suit", 1 ] ],
       [ [ "helmet_survivor", 1 ], [ "helmet_army", 1 ], [ "tac_helmet", 1 ], [ "tac_fullhelmet", 1 ] ],
       [ [ "mask_lsurvivor", 1 ], [ "mask_survivor", 1 ], [ "mask_bunker", 1 ], [ "mask_gas", 1 ] ],
@@ -108,7 +108,7 @@
         {
           "has": "WORN",
           "condition": "ALWAYS",
-          "values": [ { "value": "STRENGTH", "add": 2 }, { "value": "ATTACK_COST", "add": -20 } ]
+          "values": [ { "value": "STRENGTH", "add": 2 }, { "value": "ATTACK_COST", "add": -15 } ]
         }
       ]
     }
@@ -129,7 +129,7 @@
           "has": "WORN",
           "condition": "ALWAYS",
 		  "mutations": [ "SQ_POWER_ACTUATOR" ],
-          "values": [ { "value": "STRENGTH", "add": 2 }, { "value": "ATTACK_COST", "add": -40 } ]
+          "values": [ { "value": "STRENGTH", "add": 2 }, { "value": "ATTACK_COST", "add": -30 } ]
         }
       ]
     }
@@ -216,6 +216,7 @@
     "material_thickness": 5,
     "encumbrance": 30,
     "flags": [
+      "SUPER_FANCY",
 	  "OVERSIZE",
       "NONCONDUCTIVE",
       "VARSIZE",
@@ -262,6 +263,7 @@
     "material_thickness": 8,
     "encumbrance": 20,
     "flags": [
+      "SUPER_FANCY",
 	  "OVERSIZE",
       "NONCONDUCTIVE",
       "VARSIZE",
@@ -333,6 +335,7 @@
     "material_thickness": 7,
     "encumbrance": 25,
     "flags": [
+      "SUPER_FANCY",
 	  "OVERSIZE",
       "NONCONDUCTIVE",
       "VARSIZE",
@@ -357,7 +360,8 @@
       "NO_UNLOAD",
       "NO_RELOAD",
       "HELMET_COMPAT",
-      "SLOWS_THIRST"
+      "SLOWS_THIRST",
+      "FLASH_PROTECTION"
     ],
     "qualities": [ [ "GLARE", 3 ] ]
   },
@@ -409,6 +413,7 @@
     "artifact_data": { "effects_worn": [ "AEP_CLAIRVOYANCE_PLUS", "AEP_PSYSHIELD" ] },
     "encumbrance": 17,
     "flags": [
+      "SUPER_FANCY",
 	  "OVERSIZE",
       "NONCONDUCTIVE",
       "VARSIZE",
@@ -440,7 +445,8 @@
       "NO_RELOAD",
       "NO_TAKEOFF",
       "HELMET_COMPAT",
-      "SLOWS_THIRST"
+      "SLOWS_THIRST",
+      "FLASH_PROTECTION"
     ],
     "qualities": [ [ "GLARE", 3 ] ]
   },
@@ -500,6 +506,7 @@
     "material_thickness": 4,
     "encumbrance": 20,
     "flags": [
+      "SUPER_FANCY",
 	  "OVERSIZE",
       "NONCONDUCTIVE",
       "VARSIZE",
@@ -696,6 +703,7 @@
     "material_thickness": 8,
     "encumbrance": 15,
     "flags": [
+      "SUPER_FANCY",
 	  "OVERSIZE",
       "NONCONDUCTIVE",
       "VARSIZE",
@@ -789,6 +797,7 @@
     "material_thickness": 3,
     "encumbrance": 20,
     "flags": [
+      "SUPER_FANCY",
 	  "OVERSIZE",
       "NONCONDUCTIVE",
       "VARSIZE",
@@ -835,6 +844,7 @@
     "material_thickness": 4,
     "encumbrance": 10,
     "flags": [
+      "SUPER_FANCY",
 	  "OVERSIZE",
       "NONCONDUCTIVE",
       "VARSIZE",
