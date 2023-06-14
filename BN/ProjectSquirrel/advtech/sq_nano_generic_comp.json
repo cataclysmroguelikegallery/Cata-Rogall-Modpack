@@ -414,7 +414,7 @@
     "skills_required": [ "fabrication", 7 ],
     "time": "9 m",
     "autolearn": true,
-    "tools": [ [ [ "sq_nanoprint", -1 ] ] ],
+    "tools": [ [ [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
     "components": [ [ [ "nanomaterial", 50 ] ] ]
   },
   {

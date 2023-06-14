@@ -209,7 +209,7 @@
     "armor_cut": 20,
     "armor_bullet": 30,
     "armor_fire": 200,
-    "vision_day": 50,
+    "vision_day": 40,
     "vision_night": 12,
     "luminance": 0,
     "path_settings": { "max_dist": 5 },
@@ -229,7 +229,7 @@
       }
     ],
     "death_function": [ "BROKEN" ],
-    "flags": [ "SEES", "HEARS", "ELECTRONIC", "ELECTRIC", "COLDPROOF", "NO_BREATHE", "PRIORITIZE_TARGETS", "HIT_AND_RUN" ]
+    "flags": [ "SEES", "HEARS", "ELECTRONIC", "ELECTRIC", "COLDPROOF", "NO_BREATHE", "PRIORITIZE_TARGETS", "HIT_AND_RUN", "PET_HARNESSABLE" ]
   },
   {
     "id": "bot_sq_gun_walker",
@@ -248,7 +248,8 @@
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_sq_gun_walker",
-	  "place_randomly": true
+	  "place_randomly": false,
+	  "is_pet": true
     }
   },
   {
@@ -267,7 +268,7 @@
     "bashing": 4,
     "cutting": 4,
     "to_hit": -3,
-    "flags": [ "TRADER_AVOID", "NO_REPAIR" ]
+    "flags": [ "TRADER_AVOID" ]
   },
   {
     "type": "recipe",
@@ -328,7 +329,7 @@
     "armor_cut": 20,
     "armor_bullet": 30,
     "armor_fire": 200,
-    "vision_day": 60,
+    "vision_day": 50,
     "vision_night": 12,
     "luminance": 0,
     "path_settings": { "max_dist": 25 },
@@ -349,7 +350,7 @@
     ],
     "death_drops": { "groups": [ [ "robots", 4 ], [ "manhack", 1 ] ] },
     "death_function": [ "BROKEN" ],
-    "flags": [ "SEES", "HEARS", "ELECTRONIC", "ELECTRIC", "COLDPROOF", "NO_BREATHE", "PRIORITIZE_TARGETS", "HIT_AND_RUN" ]
+    "flags": [ "SEES", "HEARS", "ELECTRONIC", "ELECTRIC", "COLDPROOF", "NO_BREATHE", "PRIORITIZE_TARGETS", "HIT_AND_RUN", "PET_HARNESSABLE" ]
   },
   {
     "id": "bot_sq_gun_walker_2",
@@ -368,7 +369,8 @@
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_sq_gun_walker_2",
-	  "place_randomly": true
+	  "place_randomly": false,
+	  "is_pet": true
     }
   },
   {
@@ -387,7 +389,7 @@
     "bashing": 4,
     "cutting": 4,
     "to_hit": -3,
-    "flags": [ "TRADER_AVOID", "NO_REPAIR" ]
+    "flags": [ "TRADER_AVOID" ]
   },
   {
     "type": "recipe",
@@ -431,7 +433,7 @@
     "species": [ "ROBOT" ],
     "diff": 38,
     "hp": 100,
-    "speed": 90,
+    "speed": 100,
     "material": [ "steel" ],
     "symbol": "d",
     "color": "dark_gray",
@@ -447,14 +449,14 @@
     "armor_bullet": 30,
     "armor_fire": 200,
     "vision_day": 60,
-    "vision_night": 12,
+    "vision_night": 30,
     "luminance": 0,
     "path_settings": { "max_dist": 25 },
     "revert_to_itype": "bot_sq_gun_walker_3",
     "special_attacks": [
       {
         "type": "gun",
-        "cooldown": 6,
+        "cooldown": 5,
         "gun_type": "sq_walkergun3",
         "fake_skills": [ [ "gun", 10 ], [ "rifle", 10 ] ],
         "fake_dex": 12,
@@ -467,7 +469,7 @@
     ],
     "death_drops": { "groups": [ [ "robots", 4 ], [ "manhack", 1 ] ] },
     "death_function": [ "BROKEN" ],
-    "flags": [ "SEES", "HEARS", "ELECTRONIC", "ELECTRIC", "COLDPROOF", "NO_BREATHE", "PRIORITIZE_TARGETS", "HIT_AND_RUN" ]
+    "flags": [ "SEES", "HEARS", "ELECTRONIC", "ELECTRIC", "COLDPROOF", "NO_BREATHE", "PRIORITIZE_TARGETS", "HIT_AND_RUN", "PET_HARNESSABLE" ]
   },
   {
     "id": "bot_sq_gun_walker_3",
@@ -486,7 +488,8 @@
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_sq_gun_walker_3",
-	  "place_randomly": true
+	  "place_randomly": false,
+	  "is_pet": true
     }
   },
   {
@@ -505,7 +508,7 @@
     "bashing": 4,
     "cutting": 4,
     "to_hit": -3,
-    "flags": [ "TRADER_AVOID", "NO_REPAIR" ]
+    "flags": [ "TRADER_AVOID" ]
   },
   {
     "type": "recipe",
@@ -551,7 +554,7 @@
     "species": [ "ROBOT" ],
     "diff": 38,
     "hp": 100,
-    "speed": 60,
+    "speed": 90,
     "material": [ "steel" ],
     "symbol": "D",
     "color": "dark_gray",
@@ -567,14 +570,14 @@
     "armor_bullet": 30,
     "armor_fire": 200,
     "vision_day": 60,
-    "vision_night": 12,
+    "vision_night": 30,
     "luminance": 0,
     "path_settings": { "max_dist": 25 },
     "revert_to_itype": "bot_sq_gun_walker_4",
     "special_attacks": [
       {
         "type": "gun",
-        "cooldown": 8,
+        "cooldown": 7,
         "gun_type": "sq_walkergun4",
         "fake_skills": [ [ "gun", 10 ], [ "rifle", 10 ] ],
         "fake_dex": 12,
@@ -587,7 +590,7 @@
     ],
     "death_drops": { "groups": [ [ "robots", 4 ], [ "manhack", 1 ] ] },
     "death_function": [ "BROKEN" ],
-    "flags": [ "SEES", "HEARS", "ELECTRONIC", "ELECTRIC", "COLDPROOF", "NO_BREATHE", "PRIORITIZE_TARGETS", "HIT_AND_RUN" ]
+    "flags": [ "SEES", "HEARS", "ELECTRONIC", "ELECTRIC", "COLDPROOF", "NO_BREATHE", "PRIORITIZE_TARGETS", "HIT_AND_RUN", "PET_HARNESSABLE" ]
   },
   {
     "id": "bot_sq_gun_walker_4",
@@ -606,7 +609,8 @@
     "use_action": {
       "type": "place_monster",
       "monster_id": "mon_sq_gun_walker_4",
-	  "place_randomly": true
+	  "place_randomly": false,
+	  "is_pet": true
     }
   },
   {
@@ -625,7 +629,7 @@
     "bashing": 4,
     "cutting": 4,
     "to_hit": -3,
-    "flags": [ "TRADER_AVOID", "NO_REPAIR" ]
+    "flags": [ "TRADER_AVOID" ]
   },
   {
     "type": "recipe",

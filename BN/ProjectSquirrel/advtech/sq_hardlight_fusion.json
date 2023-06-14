@@ -735,6 +735,7 @@
 	"min_cycle_recoil": 3100,
     "clip_size": 5,
     "reload": 60,
+    "ups_charges": 25,
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "emitter", 1 ],
@@ -800,7 +801,8 @@
 	"recoil": 2200,
 	"min_cycle_recoil": 800,
     "clip_size": 6,
-    "reload": 400,
+    "reload": 200,
+    "ups_charges": 30,
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "emitter", 1 ],
@@ -868,6 +870,7 @@
 	"min_cycle_recoil": 1100,
     "clip_size": 20,
     "reload": 100,
+    "ups_charges": 30,
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "emitter", 1 ],
@@ -933,6 +936,7 @@
 	"recoil": 2400,
     "clip_size": 4,
     "reload": 100,
+    "ups_charges": 50,
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "emitter", 1 ],
@@ -977,7 +981,7 @@
     "type": "GUN",
     "weapon_category": [ "RIFLES", "MAGNETIC" ],
     "reload_noise_volume": 10,
-    "name": { "str": "가우스 돌격포" },
+    "name": { "str": "가우스 어설트 캐논" },
     "description": "매우 육중하고 아름다운 가우스 중화기. 연사력을 위하여 퓨전 코어를 하나 더 장착했습니다. 두 개의 심장으로 작동하는 이 훌륭한 대화수단은 가열된 금속 파편을 끝없이 쏟아냅니다.",
     "weight": "14500 g",
     "volume": "6700 ml",
@@ -999,6 +1003,7 @@
 	"min_cycle_recoil": 2100,
     "clip_size": 50,
     "reload": 400,
+    "ups_charges": 40,
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "emitter", 1 ],
