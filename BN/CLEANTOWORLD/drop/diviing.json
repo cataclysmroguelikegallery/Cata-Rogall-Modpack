@@ -1,0 +1,124 @@
+[{
+    "id": "swim_fins",
+    "type": "ARMOR",
+    "name": { "str": "pair of swim fins", "str_pl": "pairs of swim fins" },
+    "description": "A pair of rubber flippers worn on the feet, which improve swimming speed while greatly impeding the wearer's ability to walk.",
+    "weight": "680 g",
+    "volume": "1250 ml",
+    "price": 2000,
+    "price_postapoc": 250,
+    "material": [ "rubber" ],
+    "symbol": "[",
+    "looks_like": "clownshoes",
+    "color": "dark_gray",
+    "warmth": 5,
+    "material_thickness": 2,
+    "flags": [ "VARSIZE", "WATER_FRIENDLY", "FIN" ],
+     "covers": [ "foot_l", "foot_r" ]
+  },
+{
+    "type": "item_group",
+    "id": "diving_head",
+    "//": "Only diving appropriate headgear, not including masks or glasses.",
+    "items": [ [ "wetsuit_hood", 45 ] ]
+  },
+  {
+    "type": "item_group",
+    "id": "diving_masks",
+    "//": "Only diving appropriate masks, it needs to let the user breath underwater.",
+    "items": [ { "item": "rebreather", "prob": 100, "charges": [ 0, 60 ] } ]
+  },
+  {
+    "type": "item_group",
+    "id": "diving_glasses",
+    "//": "Only diving appropriate glasses, it needs to let the user see underwater.",
+    "items": [ [ "goggles_swim", 100 ] ]
+  },
+  {
+    "type": "item_group",
+    "id": "diving_suits",
+    "//": "Only diving appropriate (even if not optimal) suits of torso + pants.",
+    "items": [
+      { "group": "diving_wetsuit", "prob": 95 },
+      { "distribution": [ { "group": "diving_torso" }, { "group": "diving_pants" } ], "prob": 5 }
+    ]
+  },{
+    "type": "item_group",
+    "id": "diving_wetsuit",
+    "//": "Only diving appropriate suits.",
+    "items": [
+      [ "wetsuit", 50 ],
+      [ "trunks", 5 ],
+      [ "wetsuit_spring", 5 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "diving_torso",
+    "//": "Only diving appropriate torso clothing.",
+    "items": [
+      [ "wetsuit", 40 ],
+      [ "bikini_top", 5 ],
+      [ "bikini_top_leather", 1 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "diving_pants",
+    "//": "Only diving appropriate legs clothing.  To be expanded later with rash guards.",
+    "items": [
+      [ "bikini_bottom", 5 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "diving_gloves",
+    "//": "Only diving appropriate gloves.",
+    "items": [ [ "wetsuit_gloves", 50 ]]
+  },
+  {
+    "type": "item_group",
+    "id": "diving_shoes",
+    "//": "Only diving appropriate footgear.",
+    "items": [ [ "swim_fins", 50 ], [ "wetsuit_booties", 50 ] ]
+  },
+  {
+    "id": "prepared_teas",
+    "type": "item_group",
+    "subtype": "distribution",
+    "items": [
+      { "item": "tea", "prob": 60 },
+      {
+        "item": "dandelionburdock_tea",
+        "prob": 20,
+        "charges-max": 2,
+        "container-item": "bottle_plastic"
+      },
+      { "item": "dandelion_tea", "prob": 10, "charges-max": 2, "container-item": "bottle_plastic" },
+      { "item": "pine_tea", "prob": 10, "charges-max": 2, "container-item": "bottle_plastic" },
+      { "item": "herbal_tea", "prob": 50 },
+      { "item": "chamomile_tea", "prob": 40 },
+      { "item": "lotus_tea", "prob": 30 },
+      { "item": "spurge_tea", "prob": 20 },
+      { "item": "milk_tea", "prob": 20 },
+      { "item": "chai_tea", "prob": 30 }
+    ]
+  },{
+    "type": "item_group",
+    "id": "diving_accessories",
+    "//": "Only diving appropriate accesories.",
+    "items": [ [ "dive_bag", 25 ], [ "diving_watch", 25 ], [ "small_scuba_tank", 25 ], [ "scuba_tank", 25 ] ]
+  },
+  {
+    "id": "SUS_scuba_gear",
+    "type": "item_group",
+    "subtype": "collection",
+      "entries": [
+{ "item": "shark_suit", "prob": 70 },
+        { "item": "shark_suit_faraday", "prob": 20 },
+        { "item": "h20survivor_suit", "prob": 10 },
+        { "item": "spear_forked", "prob": 70 }
+      ]
+    }
+  
+]

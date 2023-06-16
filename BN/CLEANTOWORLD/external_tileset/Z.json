@@ -1,0 +1,211 @@
+[
+  {
+    "type": "mod_tileset",
+    "compatibility": [ "64PIXEL_UNDEAD_PEOPLE_VULPECULA" ],
+    "tiles-new": [
+      {
+        "file": "external_tileset/Z64.png",
+        "tiles": [
+        { "id": "corpse_mon_zombear", "fg": 1 },
+        { "id": "mon_zombear", "fg": 2 },
+        { "id": "corpse_mon_zombie_brainless", "fg": 3 },
+        { "id": "mon_zombie_brainless", "fg": 4 },
+	{ "id": [ "corpse_mon_zombie_crawler_pupa", "corpse_mon_zombie_crawler_pupa_decoy" ],
+          "fg": 5,
+          "rotates": false
+        },
+	{ "id": [ "mon_zombie_crawler_pupa", "mon_zombie_crawler_pupa_decoy" ], "fg": 6, "rotates": false },
+        { "id": "corpse_mon_zombie_creepy", "fg": 7 },
+        { "id": "mon_zombie_creepy", "fg": 8 },
+        { "id": "corpse_mon_zombie_dog", "fg": 9 },
+        { "id": "mon_zombie_dog", "fg": 10 },
+        { "id": "corpse_mon_zombie_dog_acidic", "fg": 11 },
+        { "id": "mon_zombie_dog_acidic", "fg": 12 },
+        { "id": "corpse_mon_zombie_dog_brute_acidic", "fg": 13 },
+        { "id": "mon_zombie_dog_brute_acidic", "fg": 14 },
+        { "id": "corpse_mon_zombie_flamer", "fg": 15 },
+        { "id": "mon_zombie_flamer", "fg": 16  },
+	{ "id": "mon_zombie_giant_heart",
+          "animated": true,
+          "fg": [
+            { "weight": 15, "sprite": 17 },
+            { "weight": 15, "sprite": 18 },
+            { "weight": 15, "sprite": 19 },
+            { "weight": 15, "sprite": 18 }
+          ],
+          "rotates": false,
+          "bg": 1
+        },
+	{ "id": "mon_zombie_hazmat",
+          "fg": [ { "weight": 1, "sprite": 20 }, { "weight": 1, "sprite": 21 }, { "weight": 1, "sprite": 22 } ],
+          "rotates": false
+        },
+        { "id": "corpse_mon_zombie_necro_boomer", "fg": 23 },
+        { "id": "mon_zombie_necro_boomer", "fg": 24 },
+        { "id": "mon_zombie_phase_skulker", "fg": 25 },
+        { "id": "mon_zombie_pig_gas", "fg": 26 },
+        { "id": "corpse_mon_zombie_prisoner_fat", "fg": 27 },
+        { "id": "mon_zombie_prisoner_fat", "fg": 28 },
+        { "id": "corpse_mon_zombie_prisoner_tough", "fg": 29 },
+        { "id": "mon_zombie_prisoner_tough", "fg": 30 },
+        { "id": [ "corpse_mon_zombie_pupa", "corpse_mon_zombie_pupa_decoy" ], "fg": 31, "rotates": false },
+        { "id": [ "mon_zombie_pupa", "mon_zombie_pupa_decoy" ], "fg": 32, "rotates": false },
+        { "id": [ "corpse_mon_zombie_pupa_shady", "corpse_mon_zombie_pupa_decoy_shady" ], "fg": 33},
+        { "id": [ "mon_zombie_pupa_shady", "mon_zombie_pupa_decoy_shady" ], "fg": 34 },
+        { "id": "corpse_mon_zombie_regenerating", "fg": 35 },              
+        { "id": "mon_zombie_regenerating", "fg": 36 },
+        { "id": "corpse_mon_zombie_swimmer_base", "fg": 37 },
+        { "id": "mon_zombie_swimmer_base", "fg": 38 },
+        { "id": "corpse_mon_zombie_winged", "fg": 39 },
+        { "id": "mon_zombie_winged", "fg": 40 },
+        { "id": "corpse_mon_zombie_rust", "fg": 41 },
+        { "id": "corpse_mon_zombie_shell", "fg": 42 },
+        { "id": "corpse_mon_zombie_urchin", "fg": 43 },
+        { "id": "mon_zombie_rust", "fg": 44 },
+        { "id": "mon_zombie_shell", "fg": 45 },
+        { "id": "mon_zombie_urchin", "fg": 46 },
+        { "id": "corpse_mon_zombie_thorny", "fg": 47 },
+        { "id": "mon_zombie_thorny", "fg": 48 },
+        { "id": "corpse_mon_triffid_flower", "fg": 49 },
+        { "id": "mon_triffid_flower", "fg": 50 },
+	{
+          "id": "mon_twisted_body",
+          "fg": [ { "weight": 1, "sprite": 51 }, { "weight": 1, "sprite": 52 }, { "weight": 1, "sprite": 53 } ],
+          "bg": 0,
+          "rotates": false
+        },{
+          "id": "mon_zombie",
+          "fg": [
+            { "weight": 1, "sprite": 54 },
+            { "weight": 1, "sprite": 55 },
+            { "weight": 1, "sprite": 56 },
+            { "weight": 1, "sprite": 57 },
+            { "weight": 1, "sprite": 58 },
+            { "weight": 1, "sprite": 59 },
+            { "weight": 1, "sprite": 60 },
+            { "weight": 1, "sprite": 61 },
+            { "weight": 1, "sprite": 62 },
+            { "weight": 1, "sprite": 63 },
+            { "weight": 1, "sprite": 64 },
+            { "weight": 1, "sprite": 65 }
+          ],
+          "bg": 0,
+          "rotates": false
+        },{
+          "id": "mon_zombie_child",
+          "fg": [
+            { "weight": 3, "sprite": 66 },
+            { "weight": 3, "sprite": 67 },
+            { "weight": 3, "sprite": 68 },
+            { "weight": 3, "sprite": 69 },
+            { "weight": 3, "sprite": 70 },
+            { "weight": 3, "sprite": 71 },
+            { "weight": 1, "sprite": 72 },
+            { "weight": 3, "sprite": 73 }
+          ],
+          "bg": 0,
+          "rotates": false
+        },{
+          "id": "mon_zombie_fat",
+          "fg": [
+            { "weight": 1, "sprite": 74 },
+            { "weight": 1, "sprite": 75 },
+            { "weight": 1, "sprite": 76 },
+            { "weight": 1, "sprite": 77 },
+            { "weight": 1, "sprite": 78 },
+            { "weight": 1, "sprite": 79 },
+            { "weight": 1, "sprite": 80 },
+            { "weight": 1, "sprite": 81 }
+          ],
+          "bg": 0,
+          "rotates": false
+        },
+        {
+          "id": "mon_zombie_labsecurity",
+          "fg": [
+            { "weight": 1, "sprite": 82 },
+            { "weight": 1, "sprite": 83 },
+            { "weight": 1, "sprite": 84 },
+            { "weight": 1, "sprite": 85 },
+            { "weight": 1, "sprite": 86 },
+            { "weight": 1, "sprite": 87 }
+          ],
+          "bg": 0,
+          "rotates": false
+        },
+        {
+          "id": "mon_zombie_prisoner",
+          "fg": [
+            { "weight": 1, "sprite": 88 },
+            { "weight": 1, "sprite": 89 },
+            { "weight": 1, "sprite": 90 },
+            { "weight": 1, "sprite": 91 },
+            { "weight": 1, "sprite": 92 },
+            { "weight": 1, "sprite": 93 }
+          ],
+          "bg": 0,
+          "rotates": false
+        },
+        {
+          "id": "mon_zombie_scientist",
+          "fg": [
+            { "weight": 1, "sprite": 94 },
+            { "weight": 1, "sprite": 95 },
+            { "weight": 1, "sprite": 96 },
+            { "weight": 1, "sprite": 97 },
+            { "weight": 1, "sprite": 98 },
+            { "weight": 1, "sprite": 99 },
+            { "weight": 1, "sprite": 100 },
+            { "weight": 1, "sprite": 101 },
+            { "weight": 1, "sprite": 102 },
+            { "weight": 1, "sprite": 103 },
+            { "weight": 1, "sprite": 104 }
+          ],
+          "bg": 0,
+          "rotates": false
+        },
+        {
+          "id": "mon_zombie_survivor",
+          "fg": [ { "weight": 1, "sprite": 105 }, { "weight": 1, "sprite": 106 } ],
+          "bg": 0,
+          "rotates": false
+        },
+        {
+          "id": "mon_zombie_survivor_elite",
+          "fg": [ { "weight": 1, "sprite": 107 }, { "weight": 1, "sprite": 108 }, { "weight": 1, "sprite": 109 } ],
+          "bg": 0,
+          "rotates": false
+        },
+        {
+          "id": "mon_zombie_technician",
+          "fg": [
+            { "weight": 1, "sprite": 110 },
+            { "weight": 1, "sprite": 111 },
+            { "weight": 1, "sprite": 112 },
+            { "weight": 1, "sprite": 113 }
+          ],
+          "bg": 0,
+          "rotates": false
+        },
+        {
+          "id": "mon_zombie_tough",
+          "fg": [
+            { "weight": 1, "sprite": 114 },
+            { "weight": 1, "sprite": 115 },
+            { "weight": 1, "sprite": 116 },
+            { "weight": 1, "sprite": 117 },
+            { "weight": 1, "sprite": 118 },
+            { "weight": 1, "sprite": 119 },
+            { "weight": 1, "sprite": 120 },
+            { "weight": 1, "sprite": 121 }
+          ],
+          "bg": 0,
+          "rotates": false
+        }
+        ],
+        "sprite_width": 64,
+        "sprite_height": 64
+      }
+    ]
+  }
+]

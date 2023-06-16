@@ -1,0 +1,19 @@
+[
+ {
+    "id": "hospital_bed",
+    "type": "vehicle",
+    "name": "hospital bed",
+    "blueprint": [
+      [ "x" ],
+      [ "o" ]
+    ],
+    "parts": [
+      { "x": 0, "y": 0, "parts": [ "xlframe_vertical_2", "wheel_10", "bed" ] },
+      { "x": -1, "y": 0, "parts": [ "xlframe_vertical_2", "wheel_10", "bed" ] }
+    ],
+    "items": [
+      { "x": 0, "y": 0, "chance": 70, "item_groups": [ "hospital_bed" ] },
+      { "x": -1, "y": 0, "chance": 70, "item_groups": [ "hospital_bed" ] }
+    ]
+  }
+]

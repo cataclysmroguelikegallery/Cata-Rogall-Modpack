@@ -1,0 +1,52 @@
+[
+ {
+    "name": "GROUP_AIRCRAFT_CARRIER",
+    "type": "monstergroup",
+    "default": "mon_zombie_technician",
+    "monsters": [
+      { "monster": "mon_zombie_technician", "freq": 15, "cost_multiplier": 1 },
+      { "monster": "mon_feral_sailor_lug_wrench", "freq": 15, "cost_multiplier": 1 },
+      { "monster": "mon_zombie_officer", "freq": 6, "cost_multiplier": 1 },
+      { "monster": "mon_zombie_sailor", "freq": 10, "cost_multiplier": 1 },
+      { "monster": "mon_zombie_fireman", "freq": 6, "cost_multiplier": 1 },
+      { "monster": "mon_zombie_medical", "freq": 6, "cost_multiplier": 1 },
+      { "monster": "mon_zombie_fat", "freq": 6, "cost_multiplier": 1 },
+      { "monster": "mon_zombie_marine", "freq": 6, "cost_multiplier": 1 },
+      { "monster": "mon_zombie_crawler", "freq": 6, "cost_multiplier": 1 },
+      { "monster": "mon_zombie_brainless", "freq": 6, "cost_multiplier": 1 },
+      { "monster": "mon_zombie_sailor", "freq": 18, "cost_multiplier": 1 },
+      { "monster": "mon_zombie_military_pilot", "freq": 18, "cost_multiplier": 1 },
+      { "monster": "mon_zombie_sailor", "freq": 6, "cost_multiplier": 1 },
+      { "monster": "mon_zombie_military_pilot", "freq": 6, "cost_multiplier": 1 },
+      { "monster": "mon_zombie_marine", "freq": 15, "cost_multiplier": 5, "pack_size": [ 2, 4 ] },
+      { "monster": "mon_zombie_marine_upgrade", "freq": 2, "cost_multiplier": 10 },
+      { "monster": "mon_feral_officer", "freq": 2, "cost_multiplier": 10, "starts": 360 },
+      { "monster": "mon_feral_sailor_wrench", "freq": 6, "cost_multiplier": 1 },
+      { "monster": "mon_feral_sailor_mop", "freq": 6, "cost_multiplier": 1 },
+      { "monster": "mon_feral_sailor_axe", "freq": 6, "cost_multiplier": 1 },
+      { "monster": "mon_feral_marine_bayonet", "freq": 6, "cost_multiplier": 1 },
+      { "monster": "mon_feral_sailor_wrench", "freq": 6, "cost_multiplier": 1 },
+      { "monster": "mon_feral_marine_bayonet", "freq": 6, "cost_multiplier": 1 }
+    ]
+  },
+  {
+    "name": "GROUP_AIRCRAFT_CARRIER_TECHNICIANS",
+    "type": "monstergroup",
+    "default": "mon_zombie_technician",
+    "monsters": [
+      { "monster": "mon_zombie_technician", "freq": 6, "cost_multiplier": 17 },
+      { "monster": "mon_feral_sailor_lug_wrench", "freq": 6, "cost_multiplier": 17 },
+      { "monster": "mon_zombie_sailor", "freq": 12, "cost_multiplier": 1 },
+      { "monster": "mon_zombie_fireman", "freq": 6, "cost_multiplier": 1 },
+      { "monster": "mon_zombie_officer", "freq": 6, "cost_multiplier": 1 },
+      { "monster": "mon_zombie_medical", "freq": 6, "cost_multiplier": 1 },
+      { "monster": "mon_zombie_fat", "freq": 6, "cost_multiplier": 1 },
+      { "monster": "mon_feral_sailor_wrench", "freq": 6, "cost_multiplier": 1 },
+      { "monster": "mon_feral_sailor_mop", "freq": 6, "cost_multiplier": 1 },
+      { "monster": "mon_feral_sailor_axe", "freq": 6, "cost_multiplier": 1 },
+      { "monster": "mon_feral_marine_bayonet", "freq": 6, "cost_multiplier": 1 },
+      { "monster": "mon_feral_sailor_wrench", "freq": 6, "cost_multiplier": 1 },
+      { "monster": "mon_feral_officer", "freq": 3, "cost_multiplier": 1 }
+    ]
+  }
+]

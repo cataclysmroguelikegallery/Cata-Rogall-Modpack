@@ -1,0 +1,366 @@
+[
+ {
+    "type": "monstergroup",
+    "name": "GROUP_BRUTE_PUPA",
+    "default": "mon_hulk_pupa",
+    "monsters": [ { "monster": "mon_hulk_pupa", "freq": 500 , "cost_multiplier": 1}, { "monster": "mon_hulk_pupa_decoy", "freq": 500, "cost_multiplier": 1 } ]
+  },{
+    "type": "monstergroup",
+    "name": "GROUP_ZOMBIE_RAPTOR_UPGRADES",
+    "default": "mon_spawn_raptor",
+    "monsters": [
+      { "monster": "mon_spawn_raptor_shady", "freq": 333, "cost_multiplier": 1 },
+      { "monster": "mon_spawn_raptor_electric", "freq": 333, "cost_multiplier": 1 },
+      { "monster": "mon_spawn_raptor_unstable", "freq": 333 , "cost_multiplier": 1}
+    ]
+  },
+ {
+    "type": "monstergroup",
+    "name": "GROUP_ZOMBIE_GAS",
+    "default": "mon_zombie",
+    "monsters": [
+      { "monster": "mon_gas_zombie", "freq": 70, "cost_multiplier": 10 }
+    ]
+  },{
+    "type": "monstergroup",
+    "name": "GROUP_ZOMBIE_FAT",
+    "default": "mon_zombie_fat",
+    "//": "fat zombie upgrades",
+    "monsters": [
+      { "monster": "mon_zombie_gasbag", "freq": 20, "cost_multiplier": 1 },
+      { "monster": "mon_boomer", "freq": 480,"cost_multiplier": 1  },
+      { "monster": "mon_zombie_pupa", "freq": 150,"cost_multiplier": 1 },
+      { "monster": "mon_zombie_pupa_decoy", "freq": 150,"cost_multiplier": 1 }
+    ]
+  },  {
+    "type": "monstergroup",
+    "name": "GROUP_ZOMBIE_BRUTE",
+    "default": "mon_zombie_brute",
+    "//": "Brute upgrades",
+    "monsters": [
+      { "monster": "mon_zombie_brute_grappler", "freq": 231, "cost_multiplier": 10 },
+      { "monster": "mon_zombie_brute_ninja", "freq": 112, "cost_multiplier": 10 },
+      { "monster": "mon_zombie_hulk", "freq": 100, "cost_multiplier": 50 }
+    ]
+  },{
+    "type": "monstergroup",
+    "name": "GROUP_ZOMBIE_BRUTE_mod",
+    "default": "mon_zombie_brute",
+    "//": "Brute upgrades",
+    "monsters": [
+      { "monster": "mon_zombie_brute_grappler", "freq": 231, "cost_multiplier": 10 },
+      { "monster": "mon_zombie_brute_ninja", "freq": 112, "cost_multiplier": 10 },
+      { "monster": "mon_zombie_hulk", "freq": 100, "cost_multiplier": 50 },
+      { "monster": "mon_brute_pupa", "freq": 100 , "cost_multiplier": 10},
+      { "monster": "mon_brute_pupa_decoy", "freq": 100 , "cost_multiplier": 10}
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_ZOMBIE_UPGRADE",
+    "default": "mon_zombie_tough",
+    "//": "Masters pick from here when upgrading; no dogs, bionics, or profession-types",
+    "monsters": [
+      { "monster": "mon_zombie_grabber", "freq": 15, "cost_multiplier": 5 },
+      { "monster": "mon_zombie_grappler", "freq": 45, "cost_multiplier": 7 },
+      { "monster": "mon_zombie_hunter", "freq": 30, "cost_multiplier": 5 },
+      { "monster": "mon_skeleton", "freq": 45, "cost_multiplier": 5 },
+      { "monster": "mon_zombie_smoker", "freq": 15, "cost_multiplier": 5 },
+      { "monster": "mon_zombie_shady", "freq": 15, "cost_multiplier": 5 },
+      { "monster": "mon_zombie_gasbag", "freq": 15, "cost_multiplier": 5 },
+      { "monster": "mon_zombie_biter", "freq": 15, "cost_multiplier": 5 },
+      { "monster": "mon_zombie_shrieker", "freq": 45, "cost_multiplier": 5 },
+      { "monster": "mon_zombie_acidic", "freq": 45, "cost_multiplier": 2 },
+      { "monster": "mon_zombie_necro", "freq": 8, "cost_multiplier": 25 },
+      { "monster": "mon_boomer", "freq": 45, "cost_multiplier": 5 },
+      { "monster": "mon_zombie_brute", "freq": 23, "cost_multiplier": 15 },
+      { "monster": "mon_zombie_master", "freq": 2, "cost_multiplier": 30 },
+      { "monster": "mon_zombie_hollow", "freq": 3, "cost_multiplier": 10 },
+      { "monster": "mon_zombie_thorny", "freq": 13, "cost_multiplier": 5 },
+      { "monster": "mon_zombie_nurse", "freq": 10, "cost_multiplier": 3 },
+      { "monster": "mon_zombie_winged", "freq": 20,"cost_multiplier": 1 },
+      { "monster": "mon_zombie_regenerating", "freq": 10,"cost_multiplier": 1 },
+      { "monster": "mon_zombie_pupa", "freq": 10,"cost_multiplier": 1 },
+      { "monster": "mon_zombie_pupa_decoy", "freq": 10,"cost_multiplier": 1 }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_CHILD_ZOMBIE_UPGRADE",
+    "default": "mon_zombie_shriekling",
+    "//": "this is a sub-group of mutated zombie types that can only evolve from zombified human children",
+    "monsters": [
+      { "monster": "mon_zombie_anklebiter", "freq": 50, "cost_multiplier": 10 },
+      { "monster": "mon_zombie_sproglodyte", "freq": 100, "cost_multiplier": 5 },
+      { "monster": "mon_zombie_shriekling", "freq": 300, "cost_multiplier": 7 },
+      { "monster": "mon_zombie_creepy", "freq": 50, "cost_multiplier": 7 },
+      { "monster": "mon_zombie_snotgobbler", "freq": 300, "cost_multiplier": 5 },
+      { "monster": "mon_zombie_waif", "freq": 200, "cost_multiplier": 7 }
+    ]
+  },{
+    "type": "monstergroup",
+    "name": "GROUP_ZOMBIE_CRAWLER_UPGRADE",
+    "default": "mon_zombie_crawler",
+    "//": "crawling zombie upgrades",
+    "monsters": [
+      { "monster": "mon_zombie_crawler_pupa", "freq": 500,"cost_multiplier": 1 },
+      { "monster": "mon_zombie_crawler_pupa_decoy", "freq": 500,"cost_multiplier": 1 }
+    ]
+  },{
+    "type": "monstergroup",
+    "name": "GROUP_ZOMBIE_BRAINLESS_UPGRADE",
+        "default": "mon_zombie_brainless",
+    "monsters": [
+      { "monster": "mon_zombie_brainless", "freq": 715,"cost_multiplier": 1 },
+      { "monster": "mon_zombie_ears", "freq": 245,"cost_multiplier": 1 },
+      { "monster": "mon_afs_headless_horror", "freq": 40,"cost_multiplier": 3 }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_ZOMBIE_ELECTRIC_UPGRADE",
+    "default": "mon_null",
+    "monsters": [
+      { "monster": "mon_zombie_nullfield", "freq": 550, "cost_multiplier": 0 },
+      { "monster": "mon_zombie_brute_shocker", "freq": 300, "cost_multiplier": 2 },
+      { "monster": "mon_skeleton_electric", "freq": 300, "cost_multiplier": 2 }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_SOLDIER_UPGRADE",
+    "default": "mon_zombie_kevlar_1",
+    "//": "Masters pick from here when upgrading.",
+    "monsters": [
+      { "monster": "mon_zombie_soldier_blackops_1", "freq": 350, "cost_multiplier": 2 },
+      { "monster": "mon_zombie_soldier_acid_1", "freq": 100, "cost_multiplier": 2 },
+      { "monster": "mon_zombie_soldier_acid_2", "freq": 150, "cost_multiplier": 2 }
+    ]
+  },{
+    "name": "GROUP_ZOMBIE_MINER_UPGRADE",
+    "type": "monstergroup",
+"default": "mon_zombie_miner",
+    "monsters": [
+      { "monster": "mon_zombie_shady", "freq": 150,"cost_multiplier": 1 },
+      { "monster": "mon_zombie_rust", "freq": 110,"cost_multiplier": 1 },
+      { "monster": "mon_zombie_tough", "freq": 60 ,"cost_multiplier": 1}
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_ZOMBIE_BURNER_UPGRADE",
+    "default": "mon_zombie_kevlar_1",
+    "monsters": [
+      { "monster": "mon_zombie_soldier_blackops_1", "freq": 200, "cost_multiplier": 2 },
+      { "monster": "mon_zombie_soldier_acid_1", "freq": 100, "cost_multiplier": 2 },
+      { "monster": "mon_zombie_soldier_acid_2", "freq": 150, "cost_multiplier": 2 },
+      { "monster": "mon_zombie_smoker", "freq": 100, "cost_multiplier": 5 },
+      { "monster": "mon_zombie_fiend", "freq": 50, "cost_multiplier": 10 }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_ZOMBIE_DOG_UPGRADE",
+    "default": "mon_dog_skeleton",
+    "monsters": [ { "monster": "mon_dog_zombie_rot", "freq": 100, "cost_multiplier": 2 } ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_ZOMBIE_SWAT_UPGRADE",
+    "default": "mon_zombie_kevlar_1",
+    "monsters": [
+      { "monster": "mon_zombie_tough", "freq": 250, "cost_multiplier": 2 },
+      { "monster": "mon_zombie_hunter", "freq": 100, "cost_multiplier": 2 }
+    ]
+  },{
+    "id": "mon_boomer",
+    "type": "MONSTER",
+    "name": { "str": "boomer" },
+    "description": "A rotund human body, bloated beyond belief and layered in rolls of fat.  It emits a horrible odor, and a putrid pink sludge dribbles from its mouth.",
+    "default_faction": "zombie",
+    "bodytype": "human",
+    "species": [ "ZOMBIE", "HUMAN" ],
+    "diff": 5,
+    "volume": "92500 ml",
+    "weight": "120 kg",
+    "hp": 40,
+    "speed": 55,
+    "material": [ "flesh" ],
+    "symbol": "Z",
+    "color": "pink",
+    "aggression": 100,
+    "morale": 100,
+    "melee_skill": 3,
+    "melee_dice": 2,
+    "melee_dice_sides": 4,
+    "melee_cut": 0,
+    "vision_night": 3,
+    "harvest": "exempt",
+    "special_attacks": [ [ "BOOMER", 20 ], [ "scratch", 20 ] ],
+    "death_drops": "default_zombie_items",
+    "death_function": [ "BOOMER" ],
+    "fungalize_into": "mon_boomer_fungus",
+    "upgrades": { "half_life": 14, "into_group": "GROUP_BOOMER_UPGRADE_mod" },
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "STUMBLES",
+      "WARM",
+      "BASHES",
+      "GROUP_BASH",
+      "POISON",
+      "NO_BREATHE",
+      "REVIVES",
+      "BILE_BLOOD",
+      "PUSH_MON",
+      "PATH_AVOID_DANGER_1",
+      "FILTHY"
+    ]
+  },{
+    "id": "mon_zombie_brute",
+    "type": "MONSTER",
+    "name": { "str": "zombie brute" },
+    "description": "Its entire body bulges with distended muscles and swollen, festering wounds.",
+    "default_faction": "zombie",
+    "bodytype": "human",
+    "species": [ "ZOMBIE", "HUMAN" ],
+    "diff": 2,
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 120,
+    "speed": 105,
+    "material": [ "flesh" ],
+    "symbol": "Z",
+    "color": "red",
+    "aggression": 100,
+    "morale": 100,
+    "melee_skill": 4,
+    "melee_dice": 3,
+    "melee_dice_sides": 8,
+    "melee_cut": 2,
+    "armor_bash": 4,
+    "armor_cut": 6,
+    "armor_bullet": 5,
+    "vision_night": 4,
+    "harvest": "zombie",
+    "special_attacks": [ [ "SMASH", 30 ], [ "GRAB", 7 ] ],
+    "death_drops": "default_zombie_death_drops",
+    "death_function": [ "NORMAL" ],
+    "burn_into": "mon_zombie_fiend",
+    "fungalize_into": "mon_zombie_fungus",
+    "upgrades": { "half_life": 21, "into_group": "GROUP_ZOMBIE_BRUTE_mod" },
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "STUMBLES",
+      "WARM",
+      "BASHES",
+      "GROUP_BASH",
+      "POISON",
+      "NO_BREATHE",
+      "REVIVES",
+      "PUSH_MON",
+      "PUSH_VEH",
+      "FILTHY"
+    ]
+  },{
+    "type": "monstergroup",
+    "name": "GROUP_ZOMBIE_BURNER_UPGRADE_mod",
+    "default": "mon_zombie_kevlar_1",
+    "monsters": [
+      { "monster": "mon_zombie_soldier_blackops_1", "freq": 100, "cost_multiplier": 2 },
+      { "monster": "mon_zombie_soldier_acid_1", "freq": 100, "cost_multiplier": 2 },
+      { "monster": "mon_zombie_soldier_acid_2", "freq": 150, "cost_multiplier": 2 },
+      { "monster": "mon_zombie_smoker", "freq": 100, "cost_multiplier": 5 },
+      { "monster": "mon_zombie_fiend", "freq": 50, "cost_multiplier": 10 }
+    ]
+  },
+  {
+    "id": "mon_zombie_flamer",
+    "type": "MONSTER",
+    "name": { "str": "zombie burner" },
+    "description": "When bullets weren't enough to stop the end of the world, the military tried fire instead.  Their failure is made manifest in this gas-masked husk, its black suit torn and ripped.  Its flamethrower, dangling limply at its side, is attached to a tank of napalm strapped onto its back, which trickles its contents onto the ground.",
+    "default_faction": "zombie",
+    "bodytype": "human",
+    "species": [ "ZOMBIE", "HUMAN" ],
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 100,
+    "speed": 70,
+    "material": [ "flesh" ],
+    "symbol": "Z",
+    "color": "white_red",
+    "aggression": 100,
+    "morale": 100,
+    "melee_skill": 5,
+    "melee_dice": 2,
+    "melee_dice_sides": 6,
+    "melee_cut": 0,
+    "dodge": 1,
+    "armor_bash": 12,
+    "armor_cut": 25,
+    "armor_bullet": 35,
+    "vision_day": 30,
+    "vision_night": 3,
+    "luminance": 8,
+    "harvest": "zombie",
+    "starting_ammo": { "pressurized_tank": 1000 },
+    "death_drops": { "subtype": "collection", "groups": [ [ "mon_zombie_soldier_death_drops", 100 ], [ "mon_zombie_flamer", 100 ] ] },
+    "death_function": [ "FIREBALL" ],
+    "upgrades": { "half_life": 28, "into_group": "GROUP_ZOMBIE_BURNER_UPGRADE_mod" },
+    "burn_into": "mon_zombie_scorched",
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "STUMBLES",
+      "WARM",
+      "BASHES",
+      "GROUP_BASH",
+      "POISON",
+      "NO_BREATHE",
+      "REVIVES",
+      "BLEED",
+      "PUSH_MON",
+      "DRIPS_NAPALM",
+      "FILTHY"
+    ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "o_gas_spc",
+    "overmaps": [
+      { "point": [ 0, 0, 0 ], "overmap": "s_gas_g0_south" },
+      { "point": [ 0, 1, 0 ], "overmap": "s_gas_g1_south" },
+      { "point": [ 0, 1, -1 ], "overmap": "s_gas_b11_south" },
+      { "point": [ 0, 0, -2 ], "overmap": "s_gas_b20_south" },
+      { "point": [ 0, 1, -2 ], "overmap": "s_gas_b21_south" }
+    ],
+    "connections": [ { "point": [ 0, -1, 0 ], "connection": "local_road", "existing": true } ],
+    "locations": [ "land", "swamp" ],
+    "city_distance": [ 0, -1 ],
+    "city_sizes": [ 1, 12 ],
+    "occurrences": [ 1, 1 ],"rotate": true,
+    "flags": [ "CLASSIC" ]
+  },{
+    "type": "monstergroup",
+    "name": "GROUP_BUNKER",
+    "default": "mon_irradiated_wanderer_1",
+    "monsters": [
+      { "monster": "mon_irradiated_wanderer_1", "freq": 240, "cost_multiplier": 0 },
+      { "monster": "mon_irradiated_wanderer_2", "freq": 100, "cost_multiplier": 0, "pack_size": [ 1, 5 ] },
+      { "monster": "mon_irradiated_wanderer_3", "freq": 10, "cost_multiplier": 5, "pack_size": [ 1, 3 ] },
+      { "monster": "mon_irradiated_wanderer_4", "freq": 40, "cost_multiplier": 2, "pack_size": [ 1, 2 ] },
+      { "monster": "mon_zombie_armored", "freq": 25, "cost_multiplier": 20, "pack_size": [ 2, 6 ] },
+      { "monster": "mon_zombie_bio_op", "freq": 50, "cost_multiplier": 10 },
+      { "monster": "mon_zombie_soldier", "freq": 200, "cost_multiplier": 3 }
+    ]
+  },{
+    "type": "monstergroup",
+    "name": "GROUP_SCI",
+    "default": "mon_zombie_scientist",
+    "monsters": [ { "monster": "mon_zombie_scientist", "freq": 240, "cost_multiplier": 0 } ]
+  }
+]

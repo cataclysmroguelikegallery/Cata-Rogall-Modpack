@@ -1,0 +1,1272 @@
+[
+ {
+    "type": "furniture",
+    "id": "f_displaycase_l",
+    "name": "display case",
+    "looks_like": "f_rack",
+    "description": "A secure wooden case at about waist-height, with glass panelling on top.  Useful for storing valuable things while still showing them off.  Not actually as secure as it looks, as the display windows are easily broken.",
+    "symbol": "#",
+    "color": "light_cyan",
+    "move_cost_mod": 2,
+    "coverage": 80,
+    "required_str": 9,
+    "flags": [ "TRANSPARENT", "SEALED", "PLACE_ITEM", "PICKABLE" ],
+    "examine_action": "locked_object_pickable",
+    "bash": {
+      "str_min": 6,
+      "str_max": 20,
+      "sound": "glass breaking",
+      "sound_fail": "whack!",
+      "sound_vol": 16,
+      "sound_fail_vol": 12,
+      "furn_set": "f_displaycase_b",
+      "items": [ { "item": "glass_shard", "count": [ 25, 50 ] } ]
+    }
+  },
+  {
+    "type": "furniture",
+    "id": "f_displaycase_o",
+    "name": "open display case",
+    "looks_like": "f_rack",
+    "description": "A secure wooden case at about waist-height, with glass panelling on top.  Useful for storing valuable things while still showing them off.  Not actually as secure as it looks, as the display windows are easily broken.  This one has had its lock picked and is open.",
+    "symbol": "#",
+    "color": "light_cyan",
+    "move_cost_mod": 2,
+    "coverage": 80,
+    "required_str": 9,
+    "flags": [ "TRANSPARENT", "PLACE_ITEM" ],
+    "bash": {
+      "str_min": 6,
+      "str_max": 20,
+      "sound": "glass breaking",
+      "sound_fail": "whack!",
+      "sound_vol": 16,
+      "sound_fail_vol": 12,
+      "furn_set": "f_displaycase_b",
+      "items": [ { "item": "glass_shard", "count": [ 25, 50 ] } ]
+    }
+  },
+  {
+    "type": "furniture",
+    "id": "f_displaycase_b",
+    "name": "broken display case",
+    "looks_like": "f_rack",
+    "description": "A secure wooden case at about waist-height, with glass panelling on top.  Would be useful for storing valuable things while still showing them off, if the glass hadn't been shattered.  Careful not to cut yourself when looting.",
+    "symbol": "#",
+    "color": "light_gray",
+    "move_cost_mod": 2,
+    "coverage": 80,
+    "required_str": 9,
+    "flags": [ "TRANSPARENT", "PLACE_ITEM" ],
+    "bash": {
+      "str_min": 8,
+      "str_max": 30,
+      "sound": "crunch!",
+      "sound_fail": "whump.",
+      "items": [ { "item": "2x4", "count": [ 3, 6 ] }, { "item": "splinter", "count": [ 2, 4 ] } ]
+    }
+  },
+ {
+    "type": "furniture",
+    "id": "f_fireman_cabinet_l",
+    "name": "fireman's cabinet",
+    "looks_like": "f_displaycase",
+    "description": "A metallic cabinet painted to stand out, visibly holding tools behind a thin panel of tempered glass.",
+    "symbol": "#",
+    "color": "light_red",
+    "move_cost_mod": -1,
+    "coverage": 80,
+    "required_str": -1,
+    "flags": [ "TRANSPARENT", "SEALED", "PLACE_ITEM", "PICKABLE" ],
+    "examine_action": "locked_object_pickable",
+    "bash": {
+      "str_min": 6,
+      "str_max": 20,
+      "sound": "glass breaking",
+      "sound_fail": "whack!",
+      "sound_vol": 16,
+      "sound_fail_vol": 12,
+      "furn_set": "f_fireman_cabinet_b",
+      "items": [ { "item": "glass_shard", "count": [ 25, 50 ] } ]
+    }
+  },
+  {
+    "type": "furniture",
+    "id": "f_fireman_cabinet_o",
+    "name": "unlocked fireman's cabinet",
+    "looks_like": "f_displaycase",
+    "description": "A metallic cabinet painted to stand out.  Its glass panel door was left unlocked and slightly ajar.",
+    "symbol": "#",
+    "color": "light_red",
+    "move_cost_mod": -1,
+    "coverage": 80,
+    "required_str": -1,
+    "flags": [ "TRANSPARENT", "PLACE_ITEM" ],
+    "bash": {
+      "str_min": 6,
+      "str_max": 20,
+      "sound": "glass breaking",
+      "sound_fail": "whack!",
+      "sound_vol": 16,
+      "sound_fail_vol": 12,
+      "furn_set": "f_fireman_cabinet_b",
+      "items": [ { "item": "glass_shard", "count": [ 25, 50 ] } ]
+    }
+  },
+  {
+    "type": "furniture",
+    "id": "f_fireman_cabinet_b",
+    "name": "open fireman's cabinet",
+    "looks_like": "f_displaycase_b",
+    "description": "A metallic cabinet painted to stand out.  Its protective glass panel lies broken from some past emergency or looting attempt.",
+    "symbol": "#",
+    "color": "light_red",
+    "move_cost_mod": -1,
+    "coverage": 80,
+    "required_str": -1,
+    "flags": [ "TRANSPARENT", "PLACE_ITEM" ],
+    "bash": {
+      "str_min": 10,
+      "str_max": 20,
+      "sound": "metal screeching!",
+      "sound_fail": "clang!",
+      "items": [
+        { "item": "scrap", "count": [ 2, 8 ] },
+        { "item": "pipe", "count": [ 1, 3 ] },
+        { "item": "water_faucet", "prob": 50 }
+      ]
+    }
+  },{
+    "type": "furniture",
+    "id": "f_rack_l",
+    "looks_like": "f_rack",
+    "name": "locked display rack",
+    "description": "수납면이 각진 판금 선반 유닛으로, 보관된 물품이 잘 보이도록 각도를 조절할 수 있습니다.  자물쇠가 달린 금속 패스너가 물품을 랙에 단단히 고정합니다..",
+    "symbol": "{",
+    "color": "light_gray",
+    "move_cost_mod": -1,
+    "coverage": 70,
+    "required_str": 8,
+    "flags": [ "TRANSPARENT", "FLAMMABLE_HARD", "PLACE_ITEM", "BLOCKSDOOR", "MOUNTABLE", "SEALED", "PICKABLE" ],
+
+    "examine_action": "locked_object_pickable",
+    "deconstruct": {
+      "items": [
+        { "item": "pipe", "count": [ 6, 12 ] },
+        { "item": "sheet_metal", "count": [ 1, 2 ] },
+        { "item": "sheet_metal_small", "count": [ 0, 4 ] }
+      ]
+    },
+    "max_volume": "1750 L",
+    "bash": {
+      "str_min": 10,
+      "str_max": 30,
+      "sound": "metal screeching!",
+      "sound_fail": "clang!",
+      "items": [
+        { "item": "scrap", "count": [ 2, 8 ] },
+        { "item": "steel_chunk", "count": [ 2, 4 ] },
+        { "item": "sheet_metal_small", "count": [ 6, 10 ] },
+        { "item": "pipe", "count": 1 }
+      ]
+    }
+  },
+ {
+    "type": "furniture",
+    "id": "f_metal_crate_c",
+    "name": "봉인된 금속 상자",
+    "looks_like": "t_crate_c",
+    "description": "용접하고 리벳을 박은 판금으로 만든 거대하고 단단히 밀봉된 보관 상자입니다. 밀봉 메커니즘이 너무 빡빡해서 맨손으로 열 수 없으며 해제하려면 지랫대가 필요합니다.",
+    "symbol": "X",
+    "color": "light_gray",
+    "move_cost_mod": 5,
+    "coverage": 80,
+    "required_str": 12,
+    "max_volume": "1000 L",
+    "examine_action": "locked_object",
+    "flags": [ "CONTAINER", "SEALED", "BLOCKSDOOR", "MOUNTABLE", "FLAT_SURF" ],
+    "pry": {
+      "success_message": "You pop open the crate.",
+      "fail_message": "You pry, but cannot pop open the crate.",
+      "pry_quality": 3,
+      "noise": 12,
+      "difficulty": 9,
+      "new_furn_type": "f_metal_crate_o"
+    },
+    "bash": {
+      "str_min": 30,
+      "str_max": 150,
+      "sound_fail": "clang!",
+      "items": [
+        { "item": "scrap", "count": [ 8, 12 ] },
+        { "item": "pipe", "count": [ 0, 3 ] },
+        { "item": "sheet_metal", "count": [ 0, 3 ] },
+        { "item": "sheet_metal_small", "count": [ 2, 10 ] }
+      ]
+    }
+  },
+  {
+    "type": "furniture",
+    "id": "f_metal_crate_o",
+    "name": "열린 금속 상자",
+    "looks_like": "f_metal_crate_c",
+    "description": "이 대형 금속 상자의 뚜껑은 봉인되지 않았으며 경첩이 쉽게 열리면 내부에 여러 개의 보관 선반이 드러납니다. 일단 열리면 측면 패널도 쉽게 접근할 수 있도록 더 넓어집니다.",
+    "symbol": "X",
+    "color": "light_gray",
+    "move_cost_mod": 5,
+    "coverage": 80,
+    "required_str": 12,
+    "max_volume": "1000 L",
+    "flags": [ "CONTAINER", "PLACE_ITEM", "NO_SIGHT", "HIDE_PLACE", "BLOCKSDOOR", "MOUNTABLE" ],
+    "bash": {
+      "str_min": 30,
+      "str_max": 150,
+      "sound_fail": "clang!",
+      "items": [
+        { "item": "scrap", "count": [ 8, 12 ] },
+        { "item": "pipe", "count": [ 0, 3 ] },
+        { "item": "sheet_metal", "count": [ 0, 3 ] },
+        { "item": "sheet_metal_small", "count": [ 2, 10 ] }
+      ]
+    }
+  },
+{
+    "type": "furniture",
+    "id": "f_foot_locker",
+    "name": "metal foot locker",
+    "description": "많은 물건을 담을 수 있는 금속 보관함. 뚜껑에는 작은 자물쇠가 있습니다.",
+    "symbol": "O",
+    "color": "white",
+    "move_cost_mod": -1,
+    "coverage": 60,
+    "required_str": 10,
+    "looks_like": "f_crate_c",
+    "flags": [ "TRANSPARENT", "CONTAINER", "PLACE_ITEM", "ORGANIC", "MOUNTABLE", "SHORT" ],
+    "deconstruct": {
+      "items": [ { "item": "sheet_metal_small", "count": 6 }, { "item": "lock", "count": 1 }, { "item": "hinge", "charges": 2 } ]
+    },
+    "bash": {
+      "str_min": 12,
+      "str_max": 40,
+      "sound": "smash!",
+      "sound_fail": "wham!",
+      "items": [
+        { "item": "sheet_metal_small", "count": [ 2, 4 ] },
+        { "item": "lock", "count": [ 0, 1 ] },
+        { "item": "scrap", "count": [ 2, 6 ] },
+        { "item": "hinge", "charges": 2 }
+      ]
+    }
+  },{
+    "type": "furniture",
+    "id": "f_machinery_electronic",
+    "name": "electronic machinery",
+    "looks_like": "t_machinery_electronic",
+    "description": "다양한 전자 기계. 분해하여 부품을 얻을 수 있습니다.",
+    "symbol": "$",
+    "color": "yellow",
+    "move_cost_mod": 8,
+    "coverage": 55,
+    "required_str": -1,
+    "flags": [ "TRANSPARENT", "CONTAINER", "SEALED", "FLAMMABLE", "PLACE_ITEM" ],
+    "deconstruct": {
+      "items": [
+        { "item": "wire", "count": [ 1, 3 ] },
+        { "item": "pipe", "count": [ 1, 2 ] },
+        { "item": "steel_chunk", "count": [ 1, 4 ] },
+        { "item": "bearing", "charges": [ 2, 6 ] },
+        { "item": "motor_small", "prob": 40 },
+        { "item": "processor", "count": 1 },
+        { "item": "RAM", "count": [ 1, 4 ] },
+        { "item": "cable", "charges": [ 1, 4 ] },
+        { "item": "small_lcd_screen", "count": 1 },
+        { "item": "e_scrap", "count": [ 5, 10 ] },
+        { "item": "circuit", "count": [ 3, 8 ] },
+        { "item": "power_supply", "count": [ 1, 3 ] },
+        { "item": "amplifier", "count": [ 1, 3 ] },
+        { "item": "plastic_chunk", "count": [ 2, 8 ] },
+        { "item": "scrap", "count": [ 1, 5 ] }
+      ]
+    },
+    "bash": {
+      "str_min": 10,
+      "str_max": 80,
+      "sound": "clang!",
+      "sound_fail": "ting.",
+      "items": [
+        { "item": "wire", "prob": 40 },
+        { "item": "pipe", "prob": 40 },
+        { "item": "steel_chunk", "prob": 40 },
+        { "item": "bearing", "charges": [ 2, 4 ] },
+        { "item": "motor_small", "prob": 10 },
+        { "item": "processor", "prob": 40 },
+        { "item": "RAM", "count": [ 1, 2 ] },
+        { "item": "cable", "charges": [ 1, 2 ] },
+        { "item": "small_lcd_screen", "prob": 40 },
+        { "item": "e_scrap", "count": [ 3, 8 ] },
+        { "item": "circuit", "count": [ 1, 3 ] },
+        { "item": "power_supply", "prob": 40 },
+        { "item": "amplifier", "prob": 40 },
+        { "item": "plastic_chunk", "count": [ 2, 8 ] },
+        { "item": "scrap", "count": [ 3, 8 ] }
+      ]
+    }
+  },{
+    "type": "furniture",
+    "id": "f_control_station",
+    "name": "control station",
+    "description": "Assorted electronic interfaces and screens.  You could scavenge it for parts.",
+    "symbol": "$",
+    "color": "yellow",
+    "looks_like": "t_machinery_electronic",
+    "move_cost_mod": 8,
+    "coverage": 55,
+    "required_str": -1,
+    "flags": [ "TRANSPARENT", "FLAMMABLE", "PLACE_ITEM" ],
+    "deconstruct": {
+      "items": [
+        { "item": "wire", "count": [ 1, 3 ] },
+        { "item": "pipe", "count": [ 1, 2 ] },
+        { "item": "steel_chunk", "count": [ 1, 4 ] },
+        { "item": "processor", "count": 1 },
+        { "item": "RAM", "count": [ 1, 4 ] },
+        { "item": "cable", "charges": [ 1, 4 ] },
+        { "item": "small_lcd_screen", "count": 1 },
+        { "item": "e_scrap", "count": [ 5, 10 ] },
+        { "item": "circuit", "count": [ 3, 8 ] },
+        { "item": "power_supply", "count": [ 1, 3 ] },
+        { "item": "amplifier", "count": [ 1, 3 ] },
+        { "item": "plastic_chunk", "count": [ 2, 8 ] },
+        { "item": "scrap", "count": [ 1, 5 ] }
+      ]
+    },
+    "bash": {
+      "str_min": 10,
+      "str_max": 80,
+      "sound": "clang!",
+      "sound_fail": "ting.",
+      "items": [
+        { "item": "wire", "prob": 40 },
+        { "item": "pipe", "prob": 40 },
+        { "item": "steel_chunk", "prob": 40 },
+        { "item": "processor", "prob": 40 },
+        { "item": "RAM", "count": [ 1, 2 ] },
+        { "item": "cable", "charges": [ 1, 2 ] },
+        { "item": "small_lcd_screen", "prob": 40 },
+        { "item": "e_scrap", "count": [ 3, 8 ] },
+        { "item": "circuit", "count": [ 1, 3 ] },
+        { "item": "power_supply", "prob": 40 },
+        { "item": "amplifier", "prob": 40 },
+        { "item": "plastic_chunk", "count": [ 2, 8 ] },
+        { "item": "scrap", "count": [ 3, 8 ] }
+      ]
+    }
+  },{
+    "id": "f_cleat",
+    "type": "furniture",
+    "name": "클리트",
+    "description": "갑판 또는 스파의 축과 평행하게 뻗은 두 개의뿔이 있는 작은 뿔 클리트로, 작은 모루처럼 생겼습니다.계류줄, 로프 등을 고정하는 데 사용됩니다.",
+    "symbol": "B",
+    "color": "light_gray",
+    "looks_like": "f_bitts",
+    "move_cost_mod": 2,
+    "coverage": 30,
+    "required_str": 0,
+    "bash": {
+      "str_min": 80,
+      "str_max": 200,
+      "sound": "metal screeching!",
+      "sound_fail": "clang!",
+      "items": [ { "item": "steel_chunk", "count": [ 1, 3 ] } ]
+    },
+    "flags": [ "TRANSPARENT", "SHORT" ]
+  },
+{
+    "type": "terrain",
+    "id": "t_ladder_up",
+    "name": "ladder",
+    "description": "A ladder leading up.",
+    "symbol": "<",
+    "looks_like": "t_ladder_up_down",
+    "color": "dark_gray",
+    "move_cost": 2,
+    "flags": [ "TRANSPARENT", "GOES_UP", "PLACE_ITEM", "DIFFICULT_Z" ],
+    "bash": {
+      "str_min": 20,
+      "str_max": 150,
+      "sound": "metal screeching!",
+      "sound_fail": "clang!",
+      "ter_set": "t_floor",
+      "items": [ { "item": "steel_chunk", "count": [ 1, 6 ] }, { "item": "scrap", "count": [ 3, 12 ] } ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_ladder_down",
+    "name": "ladder",
+    "description": "A ladder leading down.",
+    "symbol": ">",
+    "looks_like": "t_ladder_up_down",
+    "color": "dark_gray",
+    "move_cost": 2,
+    "flags": [ "TRANSPARENT", "GOES_DOWN", "PLACE_ITEM", "DIFFICULT_Z" ],
+    "bash": {
+      "str_min": 20,
+      "str_max": 150,
+      "sound": "metal screeching!",
+      "sound_fail": "clang!",
+      "ter_set": "t_open_air_rooved",
+      "items": [ { "item": "steel_chunk", "count": [ 1, 6 ] }, { "item": "scrap", "count": [ 3, 12 ] } ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_ladder_up_down",
+    "name": "ladder",
+    "description": "A ladder leading up and down.",
+    "symbol": "H",
+    "color": "dark_gray",
+    "move_cost": 2,
+    "flags": [ "TRANSPARENT", "GOES_UP", "GOES_DOWN", "PLACE_ITEM", "DIFFICULT_Z" ],
+    "bash": {
+      "str_min": 20,
+      "str_max": 150,
+      "sound": "metal screeching!",
+      "sound_fail": "clang!",
+      "ter_set": "t_ladder_down",
+      "items": [ { "item": "steel_chunk", "count": [ 1, 6 ] }, { "item": "scrap", "count": [ 3, 12 ] } ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_wall_bulkhead",
+    "name": "bulkhead",
+    "description": "An industrially fabricated thick sheet carefully positioned, this wall is capable of resisting extreme elements as well as hostile forces.",
+    "symbol": "LINE_OXOX",
+    "color": "light_gray",
+    "move_cost": 0,
+    "coverage": 100,
+    "looks_like": "t_wall_metal",
+    "roof": "t_metal_flat_roof",
+    "flags": [ "NOITEM", "SUPPORTS_ROOF", "WALL", "NO_SCENT", "AUTO_WALL_SYMBOL", "MINEABLE", "BLOCK_WIND" ],
+    "bash": {
+      "str_min": 200,
+      "str_max": 600,
+      "sound": "metal screeching!",
+      "sound_fail": "clang!",
+      "ter_set": "t_null",
+      "items": [
+        { "item": "steel_lump", "count": [ 1, 4 ] },
+        { "item": "steel_chunk", "count": [ 3, 12 ] },
+        { "item": "scrap", "count": [ 9, 36 ] }
+      ]
+    }
+  },{
+    "type": "terrain",
+    "id": "t_porthole",
+    "name": "porthole",
+    "description": "A thick, round window surrounded with a strong metal frame.  It's sealed closed.",
+    "looks_like": "t_laminated_glass",
+    "symbol": "o",
+    "color": "light_gray",
+    "move_cost": 0,
+    "roof": "t_metal_flat_roof",
+    "flags": [
+      "TRANSPARENT",
+      "NOITEM",
+      "CONNECT_WITH_WALL",
+      "THIN_OBSTACLE",
+      "BLOCK_WIND",
+      "REDUCE_SCENT",
+      "WINDOW",
+      "SUPPORTS_ROOF"
+    ],
+    "bash": {
+      "str_min": 50,
+      "str_max": 75,
+      "sound": "metal screeching!",
+      "sound_fail": "clang!",
+      "ter_set": "t_metal_floor",
+      "items": [
+        { "item": "steel_lump", "prob": 55 },
+        { "item": "steel_chunk", "count": [ 1, 4 ] },
+        { "item": "scrap", "count": [ 1, 5 ] },
+        { "item": "glass_shard", "count": [ 20, 50 ] }
+      ]
+    }
+  },{
+    "type": "terrain",
+    "id": "t_door_metal_bulkhead_c",
+    "name": "closed bulkhead door",
+    "description": "An extremely resilient door made of cast metal, it is watertight and opened using the fly wheel.",
+    "symbol": "+",
+    "looks_like": "t_door_metal_c",
+    "color": "light_gray",
+    "move_cost": 0,
+    "coverage": 95,
+    "roof": "t_metal_flat_roof",
+    "flags": [ "NOITEM", "DOOR", "CONNECT_WITH_WALL", "BLOCK_WIND", "SUPPORTS_ROOF" ],
+    "open": "t_door_metal_bulkhead_o",
+    "bash": {
+      "str_min": 80,
+      "str_max": 250,
+      "sound": "metal screeching!",
+      "sound_fail": "clang!",
+      "ter_set": "t_mdoor_frame",
+      "items": [ { "item": "scrap", "count": [ 12, 24 ] }, { "item": "steel_plate", "prob": 75 } ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_door_metal_bulkhead_o",
+    "name": "open bulkhead door",
+    "description": "An extremely resilient door made of cast metal, it is watertight, or would be if it was closed.",
+    "symbol": "+",
+    "looks_like": "t_door_metal_o",
+    "color": "light_gray",
+    "move_cost": 2,
+    "coverage": 95,
+    "roof": "t_metal_flat_roof",
+    "flags": [ "CONNECT_WITH_WALL", "FLAT", "ROAD", "SUPPORTS_ROOF" ],
+    "close": "t_door_metal_bulkhead_c",
+    "bash": {
+      "str_min": 80,
+      "str_max": 250,
+      "sound": "metal screeching!",
+      "sound_fail": "clang!",
+      "ter_set": "t_mdoor_frame",
+      "items": [ { "item": "scrap", "count": [ 12, 24 ] }, { "item": "steel_plate", "prob": 75 } ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_bridge",
+    "name": "walkway",
+    "description": "A metallic bridge commonly used in industrial settings to meet specified safety standards.",
+    "symbol": "#",
+    "looks_like": "t_pavement",
+    "color": "yellow",
+    "move_cost": 2,
+    "flags": [ "TRANSPARENT", "FLAT" ]
+  },
+  {
+    "type": "terrain",
+    "id": "t_dock",
+    "name": "dock",
+    "description": "A wooden platform held by a support made of logs dug into the ground.",
+    "symbol": "8",
+    "looks_like": "t_floor",
+    "color": "brown",
+    "move_cost": 2,
+    "flags": [ "TRANSPARENT", "FLAT" ],
+    "deconstruct": { "ter_set": "t_water_sh", "items": [ { "item": "nail", "charges": [ 6, 12 ] }, { "item": "2x4", "count": 8 } ] },
+    "bash": {
+      "str_min": 8,
+      "str_max": 80,
+      "sound": "smash!",
+      "sound_fail": "whump!",
+      "ter_set": "t_water_moving_sh",
+      "items": [ { "item": "2x4", "count": 2, "prob": 25 }, { "item": "splinter", "count": [ 2, 4 ] } ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_dock_deep_pile",
+    "name": "deep dock pile",
+    "description": "A sturdy pile made of wood extending all the way to the riverbed.  A frame will be required to support a surface.",
+    "symbol": "|",
+    "color": "brown",
+    "move_cost": 8,
+    "flags": [ "TRANSPARENT", "LIQUID", "SWIMMABLE", "DEEP_WATER", "FISHABLE" ],
+    "examine_action": "water_source",
+    "deconstruct": { "ter_set": "t_water_moving_dp", "items": [ { "item": "spike", "count": 4 }, { "item": "wood_beam", "count": 1 } ] },
+    "looks_like": "t_column",
+    "bash": {
+      "str_min": 20,
+      "str_max": 120,
+      "sound": "smash!",
+      "sound_fail": "whump!",
+      "ter_set": "t_water_moving_dp",
+      "items": [ { "item": "splinter", "count": [ 12, 24 ] } ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_dock_deep_frame",
+    "name": "deep dock frame",
+    "description": "A log frame secured atop a wooden pile.  Adding a wood surface will make this into a proper dock section.",
+    "symbol": "#",
+    "color": "brown",
+    "move_cost": 6,
+    "flags": [ "TRANSPARENT", "NOITEM", "THIN_OBSTACLE", "MOUNTABLE", "TINY", "AUTO_WALL_SYMBOL", "UNSTABLE" ],
+    "deconstruct": { "ter_set": "t_dock_deep_pile", "items": [ { "item": "spike", "count": 8 }, { "item": "log", "count": 4 } ] },
+    "looks_like": "t_wall_log_half",
+    "bash": {
+      "str_min": 12,
+      "str_max": 100,
+      "sound": "smash!",
+      "sound_fail": "whump!",
+      "ter_set": "t_dock_deep_pile",
+      "items": [ { "item": "log", "count": 2, "prob": 25 }, { "item": "splinter", "count": [ 4, 8 ] } ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_dock_deep",
+    "name": "deep dock",
+    "description": "A wooden platform held by a tall wooden pile that extend to the riverbed.  Very sturdy, and likely to outlast you.",
+    "symbol": "8",
+    "color": "brown",
+    "move_cost": 2,
+    "flags": [ "TRANSPARENT", "FLAT" ],
+    "deconstruct": {
+      "ter_set": "t_dock_deep_frame",
+      "items": [ { "item": "nail", "charges": [ 12, 24 ] }, { "item": "2x4", "count": 16 } ]
+    },
+    "looks_like": "t_riverbridge_dp",
+    "bash": {
+      "str_min": 12,
+      "str_max": 100,
+      "sound": "smash!",
+      "sound_fail": "whump!",
+      "ter_set": "t_dock_deep_pile",
+      "items": [ { "item": "2x4", "count": 8, "prob": 25 }, { "item": "splinter", "count": [ 8, 24 ] } ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_sh_bridge",
+    "name": "shallow bridge",
+    "description": "A wooden platform held by a support made of logs dug into the ground.",
+    "looks_like": "t_dock",
+    "symbol": "8",
+    "color": "brown",
+    "move_cost": 2,
+    "flags": [ "TRANSPARENT", "FLAT" ],
+    "deconstruct": { "ter_set": "t_water_sh", "items": [ { "item": "nail", "charges": [ 6, 12 ] }, { "item": "2x4", "count": 8 } ] },
+    "bash": {
+      "str_min": 8,
+      "str_max": 80,
+      "sound": "smash!",
+      "sound_fail": "whump!",
+      "ter_set": "t_water_sh",
+      "items": [ { "item": "2x4", "count": 2, "prob": 25 }, { "item": "splinter", "count": [ 2, 4 ] } ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_pontoon_dp",
+    "name": "pontoon bridge",
+    "description": "A floating temporary bridge over still water, like the ones armies used to make to cross lakes.",
+    "looks_like": "t_pontoon",
+    "symbol": "8",
+    "color": "brown",
+    "move_cost": 2,
+    "flags": [ "TRANSPARENT", "FLAT" ],
+    "deconstruct": {
+      "ter_set": "t_water_dp",
+      "items": [ { "item": "rope_makeshift_6", "count": [ 3, 4 ] }, { "item": "2x4", "count": 8 } ]
+    },
+    "bash": {
+      "str_min": 8,
+      "str_max": 80,
+      "sound": "smash!",
+      "sound_fail": "whump!",
+      "ter_set": "t_water_dp",
+      "items": [ { "item": "2x4", "count": 2, "prob": 25 }, { "item": "splinter", "count": [ 2, 4 ] } ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_riverbridge_dp",
+    "name": "river bridge",
+    "description": "A floating temporary bridge over flowing water, like the ones armies used to make to cross rivers.",
+    "looks_like": "t_pontoon",
+    "symbol": "8",
+    "color": "brown",
+    "move_cost": 2,
+    "flags": [ "TRANSPARENT", "FLAT" ],
+    "deconstruct": {
+      "ter_set": "t_water_moving_dp",
+      "items": [ { "item": "rope_makeshift_6", "count": [ 3, 4 ] }, { "item": "2x4", "count": 8 } ]
+    },
+    "bash": {
+      "str_min": 8,
+      "str_max": 80,
+      "sound": "smash!",
+      "sound_fail": "whump!",
+      "ter_set": "t_water_moving_dp",
+      "items": [ { "item": "2x4", "count": 2, "prob": 25 }, { "item": "splinter", "count": [ 2, 4 ] } ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_pavement_bg_dp",
+    "name": "bridge pavement",
+    "description": "A bridge section made out of concrete and metal.",
+    "looks_like": "t_pavement",
+    "symbol": ".",
+    "color": "dark_gray",
+    "move_cost": 2,
+    "flags": [ "TRANSPARENT", "FLAT", "ROAD", "MINEABLE" ],
+
+    "connects_to": "PAVEMENT",
+    "bash": {
+      "str_min": 70,
+      "str_max": 300,
+      "sound": "concrete cracking and metal screeching!",
+      "sound_fail": "whump!",
+      "ter_set": "t_water_dp",
+      "items": [ { "item": "rock", "count": [ 4, 20 ] }, { "item": "rebar", "count": [ 10, 20 ] } ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_pavement_y_bg_dp",
+    "name": "bridge yellow pavement",
+    "description": "A bridge section made out of concrete and metal.  It's painted yellow.",
+    "looks_like": "t_pavement_y",
+    "symbol": ".",
+    "color": "yellow",
+    "move_cost": 2,
+    "flags": [ "TRANSPARENT", "FLAT", "ROAD", "MINEABLE" ],
+
+    "connects_to": "PAVEMENT",
+    "bash": {
+      "str_min": 70,
+      "str_max": 300,
+      "sound": "concrete cracking and metal screeching!",
+      "sound_fail": "whump!",
+      "ter_set": "t_water_dp",
+      "items": [ { "item": "rock", "count": [ 4, 20 ] }, { "item": "rebar", "count": [ 10, 20 ] } ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_sidewalk_bg_dp",
+    "name": "bridge sidewalk",
+    "description": "The sidewalk section of a concrete bridge.",
+    "looks_like": "t_sidewalk",
+    "symbol": ".",
+    "color": "light_gray",
+    "move_cost": 2,
+    "flags": [ "TRANSPARENT", "FLAT", "ROAD", "MINEABLE" ],
+    "bash": {
+      "str_min": 70,
+      "str_max": 300,
+      "sound": "concrete cracking and metal screeching!",
+      "sound_fail": "whump!",
+      "ter_set": "t_water_dp",
+      "items": [ { "item": "rock", "count": [ 4, 20 ] }, { "item": "rebar", "count": [ 10, 20 ] } ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_metal_dock",
+    "name": "dock",
+    "description": "A metal platform held by a support made of concrete set into the ground.",
+    "symbol": "8",
+    "looks_like": "t_metal_floor",
+    "color": "light_gray",
+    "move_cost": 2,
+    "flags": [ "TRANSPARENT", "FLAT" ],
+    "deconstruct": {
+      "ter_set": "t_water_sh",
+      "items": [ { "item": "scrap", "charges": [ 3, 6 ] }, { "item": "sheet_metal", "count": 2 } ]
+    },
+    "bash": {
+      "str_min": 20,
+      "str_max": 80,
+      "sound": "smash!",
+      "sound_fail": "whump!",
+      "ter_set": "t_water_moving_sh",
+      "items": [ { "item": "sheet_metal", "count": 2, "prob": 35 }, { "item": "scrap", "count": [ 2, 4 ] } ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_concrete_dock_deep_pile",
+    "name": "deep dock pile",
+    "description": "A sturdy pile made of poured concrete extending all the way to the riverbed.  A metal frame will be required to support a surface.",
+    "looks_like": "t_concrete_wall",
+    "symbol": "|",
+    "color": "light_gray",
+    "move_cost": 8,
+    "flags": [ "TRANSPARENT", "LIQUID", "SWIMMABLE", "DEEP_WATER", "FISHABLE" ],
+    "deconstruct": {
+      "ter_set": "t_water_moving_dp",
+      "items": [ { "item": "rebar", "count": [ 4, 6 ] }, { "item": "rock", "count": [ 6, 10 ] } ]
+    },
+    "bash": {
+      "str_min": 50,
+      "str_max": 120,
+      "sound": "smash!",
+      "sound_fail": "whump!",
+      "ter_set": "t_water_moving_dp",
+      "items": [
+        { "item": "rock", "count": [ 6, 10 ] },
+        { "item": "rebar", "count": [ 2, 4 ] },
+        { "item": "scrap", "count": [ 2, 4 ] }
+      ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_metal_dock_deep_frame",
+    "name": "deep dock frame",
+    "description": "A metal frame secured atop a concrete pile.  Adding a metal surface will make this into a proper dock section.",
+    "symbol": "#",
+    "color": "light_gray",
+    "move_cost": 6,
+    "flags": [ "TRANSPARENT", "NOITEM", "THIN_OBSTACLE", "MOUNTABLE", "TINY", "AUTO_WALL_SYMBOL", "UNSTABLE" ],
+    "deconstruct": { "ter_set": "t_concrete_dock_deep_pile", "items": [ { "item": "spike", "count": 8 }, { "item": "pipe", "count": 4 } ] },
+    "looks_like": "t_sconc_wall_halfway",
+    "bash": {
+      "str_min": 12,
+      "str_max": 100,
+      "sound": "clang!",
+      "sound_fail": "smash!",
+      "ter_set": "t_concrete_dock_deep_pile",
+      "items": [ { "item": "pipe", "count": 4, "prob": 25 }, { "item": "scrap", "count": [ 4, 8 ] } ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_metal_dock_deep",
+    "name": "deep dock",
+    "description": "A metal platform held by a tall metal pile that extends to the riverbed.  Very sturdy, and likely to outlast you.",
+    "symbol": "8",
+    "color": "light_gray",
+    "move_cost": 2,
+    "flags": [ "TRANSPARENT", "FLAT" ],
+    "deconstruct": {
+      "ter_set": "t_metal_dock_deep_frame",
+      "items": [ { "item": "nail", "charges": [ 12, 24 ] }, { "item": "sheet_metal", "count": 4 } ]
+    },
+    "looks_like": "t_grate",
+    "bash": {
+      "str_min": 20,
+      "str_max": 100,
+      "sound": "clang!",
+      "sound_fail": "clang!",
+      "ter_set": "t_concrete_dock_deep_pile",
+      "items": [ { "item": "sheet_metal", "count": 4, "prob": 25 }, { "item": "scrap", "count": [ 8, 16 ] } ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_metal_pontoon_dp",
+    "name": "metal floating dock",
+    "description": "A floating temporary dock, anchored to keep it from drifting away.",
+    "looks_like": "t_grate",
+    "symbol": "8",
+    "color": "light_gray",
+    "move_cost": 2,
+    "flags": [ "TRANSPARENT", "FLAT" ],
+    "deconstruct": { "ter_set": "t_water_dp", "items": [ { "item": "sheet_metal", "count": [ 2, 4 ] }, { "item": "scrap", "count": 8 } ] },
+    "bash": {
+      "str_min": 20,
+      "str_max": 80,
+      "sound": "clang!",
+      "sound_fail": "clang!",
+      "ter_set": "t_water_dp",
+      "items": [ { "item": "sheet_metal", "count": 2, "prob": 25 }, { "item": "scrap", "count": [ 2, 4 ] } ]
+    }
+  }
+,
+  {
+    "type": "terrain",
+    "id": "t_swater_sh",
+    "name": "shallow water",
+    "description": "The water isn't too deep here.  With a watertight container, you could gather salt water from here.",
+    "symbol": "~",
+    "looks_like": "t_water_sh",
+    "color": "light_blue",
+    "move_cost": 5,
+    "flags": [ "TRANSPARENT", "LIQUID", "NO_SCENT", "SWIMMABLE", "SALT_WATER", "FISHABLE", "SHALLOW_WATER" ],
+
+    "connects_to": "WATER",
+    "examine_action": "water_source"
+  },
+  {
+    "type": "terrain",
+    "id": "t_swater_sh_underground",
+    "name": "shallow water",
+    "description": "The water isn't too deep here.  With a watertight container, you could gather salt water from here.",
+    "//": "for caverns and other natural underground formations.",
+    "symbol": "~",
+    "color": "light_blue",
+    "looks_like": "t_swater_sh",
+    "move_cost": 5,
+    "roof": "t_rock_roof",
+    "flags": [ "TRANSPARENT", "LIQUID", "NO_SCENT", "SWIMMABLE", "SALT_WATER", "FISHABLE", "INDOORS", "SHALLOW_WATER" ],
+
+    "connects_to": "WATER",
+    "examine_action": "water_source"
+  },
+  {
+    "type": "terrain",
+    "id": "t_swater_dp",
+    "name": "deep water",
+    "description": "You're having trouble seeing the bottom through the deep water here.  With a watertight container, you could gather salt water from here.",
+    "symbol": "~",
+    "looks_like": "t_water_dp",
+    "color": "blue",
+    "move_cost": 8,
+    "flags": [ "TRANSPARENT", "LIQUID", "NO_SCENT", "SWIMMABLE", "SALT_WATER", "DEEP_WATER", "FISHABLE" ],
+
+    "connects_to": "WATER",
+    "examine_action": "water_source"
+  },
+  {
+    "type": "terrain",
+    "id": "t_swater_dp_underground",
+    "name": "deep water",
+    "//": "for caverns and other natural underground formations.",
+    "description": "You're having trouble seeing the bottom through the deep water here.  With a watertight container, you could gather salt water from here.",
+    "symbol": "~",
+    "color": "blue",
+    "looks_like": "t_swater_dp",
+    "move_cost": 8,
+    "roof": "t_rock_roof",
+    "flags": [ "TRANSPARENT", "LIQUID", "NO_SCENT", "SWIMMABLE", "SALT_WATER", "DEEP_WATER", "FISHABLE", "INDOORS" ],
+
+    "connects_to": "WATER",
+    "examine_action": "water_source"
+  },
+  {
+    "type": "terrain",
+    "id": "t_water_pool",
+    "name": "pool water",
+    "description": "A deep pool full of water.  Never swim without a lifeguard present.  Even though monsters probably ate them.",
+    "symbol": "~",
+    "looks_like": "t_water_dp",
+    "color": "light_blue",
+    "move_cost": 5,
+    "flags": [ "TRANSPARENT", "LIQUID", "NO_SCENT", "SWIMMABLE", "INDOORS", "DEEP_WATER" ],
+    "examine_action": "water_source"
+  },
+  {
+    "type": "terrain",
+    "id": "t_water_pool_shallow",
+    "name": "shallow pool water",
+    "description": "A shallow pool of water.",
+    "symbol": "~",
+    "looks_like": "t_water_pool",
+    "color": "light_blue",
+    "move_cost": 5,
+    "flags": [ "TRANSPARENT", "LIQUID", "NO_SCENT", "SWIMMABLE", "INDOORS", "SHALLOW_WATER" ],
+    "examine_action": "water_source"
+  },
+  {
+    "type": "terrain",
+    "id": "t_water_pool_outdoors",
+    "name": "pool water",
+    "description": "A deep pool full of water.  Never swim without a lifeguard present.  Even though monsters probably ate them.",
+    "symbol": "~",
+    "looks_like": "t_water_pool",
+    "color": "light_blue",
+    "move_cost": 5,
+    "flags": [ "TRANSPARENT", "LIQUID", "NO_SCENT", "SWIMMABLE", "DEEP_WATER" ],
+    "examine_action": "water_source"
+  },
+  {
+    "type": "terrain",
+    "id": "t_water_pool_shallow_outdoors",
+    "name": "shallow pool water",
+    "description": "A shallow pool of water.",
+    "symbol": "~",
+    "looks_like": "t_water_pool",
+    "color": "light_blue",
+    "move_cost": 5,
+    "flags": [ "TRANSPARENT", "LIQUID", "NO_SCENT", "SWIMMABLE", "SHALLOW_WATER" ],
+    "examine_action": "water_source"
+  },
+  {
+    "type": "terrain",
+    "id": "t_sewage",
+    "name": "sewage",
+    "description": "Gross.  Sewage water flows through here.  As if it needed saying, this isn't safe to drink.",
+    "symbol": "~",
+    "looks_like": "t_water_murky",
+    "color": "light_green",
+    "move_cost": 6,
+    "flags": [ "TRANSPARENT", "SWIMMABLE", "SHALLOW_WATER" ],
+    "examine_action": "water_source"
+  },
+  {
+    "type": "terrain",
+    "id": "t_lava",
+    "name": "lava",
+    "description": "An extremely hot, glowing liquid, composed of molten rock and/or metal.  In some places, lava-grilled steak is a delicacy.",
+    "symbol": "~",
+    "color": "red",
+    "move_cost": 4,
+    "light_emitted": 50,
+    "heat_radiation": 3,
+    "trap": "tr_lava",
+    "flags": [ "TRANSPARENT", "LIQUID", "NO_SCENT", "DESTROY_ITEM", "USABLE_FIRE" ],
+    "//": "lava-seared moose meat? yes, please"
+  },
+  {
+    "type": "terrain",
+    "id": "t_water_cube",
+    "//": "for eventual use with water z levels.  Currently non-functional.",
+    "name": "submersed water",
+    "description": "You are submerged below the surface of the water, your feet can't touch the ground.  With a watertight container, you could gather fresh water from here.  Not safe to drink as is.",
+    "symbol": "~",
+    "color": "blue",
+    "move_cost": 8,
+    "flags": [ "TRANSPARENT", "LIQUID", "NO_SCENT", "SWIMMABLE", "DEEP_WATER", "WATER_CUBE", "GOES_DOWN", "GOES_UP" ],
+
+    "connects_to": "WATER",
+    "examine_action": "water_source"
+  },
+  {
+    "type": "terrain",
+    "id": "t_lake_bed",
+    "//": "for eventual use with water z levels.  Currently non-functional.",
+    "name": "lake bed",
+    "description": "You are standing at the bottom of a body of fresh water.  With a watertight container, you could gather fresh water from here.  Not safe to drink as is.",
+    "symbol": "~",
+    "looks_like": "t_sand",
+    "color": "blue",
+    "move_cost": 8,
+    "flags": [ "TRANSPARENT", "LIQUID", "NO_SCENT", "SWIMMABLE", "DEEP_WATER", "WATER_CUBE", "GOES_UP" ],
+    "connects_to": "WATER",
+    "examine_action": "water_source"
+  },
+  {
+    "type": "terrain",
+    "id": "t_ocean_bed",
+    "//": "for eventual use with water z levels.  Currently non-functional.",
+    "name": "ocean bed",
+    "description": "You are standing at the bottom of a body of salt water.  With a watertight container, you could gather salt water from here.  Not safe to drink as is.",
+    "symbol": "~",
+    "looks_like": "t_sand",
+    "color": "blue",
+    "move_cost": 8,
+    "flags": [ "TRANSPARENT", "LIQUID", "NO_SCENT", "SWIMMABLE", "DEEP_WATER", "GOES_UP" ],
+    "connects_to": "WATER",
+    "examine_action": "water_source"
+  },
+  {
+    "type": "terrain",
+    "id": "t_bulkhead_roof",
+    "looks_like": "t_metal_flat_roof",
+    "name": "bulkhead",
+    "description": "The top of a submerged structure.  With a watertight container, you could gather fresh water from here.  Not safe to drink as is.",
+    "symbol": "#",
+    "color": "light_gray",
+    "move_cost": 8,
+    "flags": [ "TRANSPARENT", "LIQUID", "NO_SCENT", "SWIMMABLE", "DEEP_WATER", "GOES_UP", "MINEABLE" ],
+    "connects_to": "WATER",
+    "examine_action": "water_source"
+  },
+  {
+    "type": "terrain",
+    "id": "t_bulkhead_floor",
+    "//": "for eventual use with water z levels.  Currently non-functional.  Roof for submerged structures.",
+    "name": "bulkhead",
+    "description": "The bottom of a submerged structure.",
+    "symbol": "#",
+    "looks_like": "t_metal_floor",
+    "color": "light_gray",
+    "move_cost": 3,
+    "flags": [ "TRANSPARENT", "SUPPORTS_ROOF", "INDOORS", "FLAT", "ROAD", "MINEABLE" ],
+    "bash": {
+      "sound": "thump",
+      "ter_set": "t_null",
+      "str_min": 200,
+      "str_max": 500,
+      "str_min_supported": 200,
+      "items": [
+        { "item": "steel_lump", "count": [ 1, 4 ] },
+        { "item": "steel_chunk", "count": [ 3, 12 ] },
+        { "item": "scrap", "count": [ 9, 36 ] }
+      ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_lake_bed_concrete",
+    "//": "for eventual use with water z levels.  Currently non-functional.  Cement on the lake floor.",
+    "name": "submerged concrete",
+    "description": "You are standing at the bottom of a body of fresh water on a pad of concrete.  With a watertight container, you could gather fresh water from here.  Not safe to drink as is.",
+    "symbol": "~",
+    "looks_like": "t_concrete",
+    "color": "white",
+    "move_cost": 8,
+    "flags": [ "TRANSPARENT", "LIQUID", "NO_SCENT", "SWIMMABLE", "DEEP_WATER", "GOES_UP", "MINEABLE" ],
+    "bash": {
+      "ter_set": "t_lake_bed",
+      "str_min": 50,
+      "str_max": 400,
+      "str_min_supported": 100,
+      "items": [ { "item": "rock", "count": [ 2, 10 ] } ]
+    },
+
+    "connects_to": "WATER",
+    "examine_action": "water_source"
+  },
+  {
+    "type": "terrain",
+    "id": "t_lake_bed_concrete_yellow",
+    "//": "for eventual use with water z levels.  Currently non-functional.  Cement on the lake floor.",
+    "name": "submerged concrete",
+    "description": "You are standing at the bottom of a body of fresh water on a pad of yellow-painted concrete.  With a watertight container, you could gather fresh water from here.  Not safe to drink as is.",
+    "symbol": "#",
+    "looks_like": "t_pavement_y",
+    "color": "yellow",
+    "move_cost": 8,
+    "flags": [ "TRANSPARENT", "LIQUID", "NO_SCENT", "SWIMMABLE", "DEEP_WATER", "GOES_UP", "MINEABLE" ],
+    "bash": {
+      "ter_set": "t_lake_bed",
+      "str_min": 50,
+      "str_max": 400,
+      "str_min_supported": 100,
+      "items": [ { "item": "rock", "count": [ 2, 10 ] } ]
+    },
+    "connects_to": "WATER",
+    "examine_action": "water_source"
+  },
+  {
+    "type": "terrain",
+    "id": "t_water_hot",
+    "name": "hot spring water",
+    "description": "Scalding hot water, not particularly safe for swimming.  With a watertight container, you could gather fresh water from here.  Not safe to drink as is.",
+    "symbol": "~",
+    "color": "light_blue",
+    "move_cost": 5,
+    "heat_radiation": 1,
+    "flags": [ "TRANSPARENT", "LIQUID", "NO_SCENT", "SWIMMABLE", "SHALLOW_WATER" ],
+
+    "connects_to": "WATER",
+    "examine_action": "water_source"
+  },
+  {
+    "type": "terrain",
+    "id": "t_puddle",
+    "name": "recess",
+    "description": "A shallow pit in the ground.",
+    "looks_like": "t_dirt",
+    "symbol": "~",
+    "color": "light_blue",
+    "move_cost": 3,
+    "flags": [ "TRANSPARENT", "LIQUIDCONT", "SPAWN_WITH_LIQUID", "FRESH_WATER", "MURKY" ],
+    "examine_action": "water_source"
+  },
+  {
+    "type": "terrain",
+    "id": "t_puddle_underground",
+    "name": "recess",
+    "description": "A shallow pit in the ground.",
+    "looks_like": "t_rock_floor",
+    "symbol": "~",
+    "color": "light_blue",
+    "move_cost": 3,
+    "flags": [ "TRANSPARENT", "LIQUIDCONT", "SPAWN_WITH_LIQUID", "FRESH_WATER", "MURKY", "INDOORS" ],
+    "examine_action": "water_source"
+  },
+  {
+    "type": "palette",
+    "id": "underwater_structure",
+    "terrain": {
+      "~": "t_water_moving_dp",
+      "-": "t_water_cube",
+      "*": "t_water_pool",
+      " ": "t_bulkhead_floor",
+      ".": "t_metal_floor",
+      "A": "t_metal_floor",
+      "#": "t_metal_pontoon_dp",
+      "≷": "t_ladder_up_down",
+      ">": "t_ladder_down",
+      "<": "t_ladder_up",
+      "|": "t_wall_bulkhead",
+      "+": "t_door_metal_bulkhead_c",
+      "o": "t_porthole",
+      "P": "t_concrete_dock_deep_pile",
+      "`": "t_bulkhead_roof",
+      "^": "t_lake_bed_concrete",
+      "y": "t_lake_bed_concrete_yellow",
+      ";": "t_lake_bed"
+    },
+    "furniture": {
+      "1": "f_control_station",
+      "2": "f_machinery_electronic",
+      "A": "f_air_compressor",
+      "B": "f_sample_freezer",
+      "C": "f_workbench",
+      "E": "f_shaker",
+      "G": "f_stool",
+      "H": "f_counter",
+      "I": "f_IV_pole",
+      "J": "f_curtain",
+      "K": "f_fridge",
+      "S": "f_sink",
+      "Q": "f_rack",
+      "U": "f_shower",
+      "W": "f_water_purifier",
+      "b": "f_bench",
+      "c": "f_cupboard",
+      "f": "f_tourist_table",
+      "h": "f_camp_chair",
+      "l": "f_foot_locker",
+      "@": "f_bed",
+      "&": "f_cleat"
+    },
+    "toilets": { "t": {  } },
+    "gaspumps": { "!": {  } },
+    "vendingmachines": { "D": { "item_group": "vending_drink" }, "F": { "item_group": "vending_food" } }
+  },{
+    "type": "palette",
+    "id": "lab_loot_research",
+    "mapping": {
+      "l": {
+        "items": [
+          { "item": "science", "chance": 10 },
+          { "item": "dresser", "chance": 3 },
+          { "item": "lab_torso", "chance": 3 },
+          { "item": "lab_pants", "chance": 3 }
+        ]
+      }
+    }
+  },
+  {
+    "type": "palette",
+    "id": "underwater_structure_roof",
+    "terrain": {
+      " ": "t_open_air",
+      "_": "t_metal_flat_roof",
+      ".": "t_flat_roof",
+      "#": "t_grate",
+      "≷": "t_ladder_up_down",
+      ">": "t_ladder_down",
+      "<": "t_ladder_up",
+      "|": "t_wall_bulkhead",
+      "+": "t_door_metal_bulkhead_c",
+      "o": "t_porthole",
+      "F": "t_chainfence",
+      "G": "t_chaingate_c",
+      "L": "t_chaingate_l",
+      "1": "t_gutter_north",
+      "2": "t_gutter_east",
+      "3": "t_gutter_south",
+      "4": "t_gutter_west",
+      "5": "t_gutter_downspout",
+      "6": "t_gutter_drop"
+    },
+    "furniture": {
+      "&": "f_roof_turbine_vent",
+      "N": "f_TV_antenna",
+      ":": "f_cellphone_booster",
+      "X": "f_small_satelitte_dish",
+      "=": "f_vent_pipe"
+    },
+    "toilets": { "t": {  } },
+    "gaspumps": { "!": {  } },
+    "vendingmachines": { "D": { "item_group": "vending_drink" }, "F": { "item_group": "vending_food" } }
+  }
+
+
+]

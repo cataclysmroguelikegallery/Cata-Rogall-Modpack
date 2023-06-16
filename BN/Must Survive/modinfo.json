@@ -1,0 +1,23 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "Dontstarve",
+	"authors": [ "Vulpecula"],
+    "category": "rebalance",
+    "name": "가혹한 세상",
+"description": "정말 먹고 살기 팍팍하게 게임을 바꿔줍니다",
+"dependencies": [ "bn" ] 
+  },{
+    "type": "EXTERNAL_OPTION",
+    "name": "MAX_HARVEST_COUNT",
+    "info": "The maximum amount of produce that can be harvested from a plant.",
+    "stype": "int",
+    "value": 1
+  },{
+    "type": "EXTERNAL_OPTION",
+    "name": "PLAYER_HUNGER_RATE",
+    "info": "Set base hunger rate per 5 minutes. Default: 1.0",
+    "stype": "float",
+    "value": 3
+  }
+]

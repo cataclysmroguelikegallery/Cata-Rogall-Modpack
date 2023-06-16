@@ -1,0 +1,158 @@
+[
+  {
+    "type": "mod_tileset",
+    "compatibility": [ "64PIXEL_UNDEAD_PEOPLE_VULPECULA" ],
+    "tiles-new": [
+      {
+        "file": "external_tileset/96.png",
+        "tiles": [
+          {
+            "id": "mon_feral_human_tool",
+            "fg": [
+              {
+                "weight": 1,
+                "sprite": 0
+              },
+              {
+                "weight": 1,
+                "sprite": 1
+              }
+            ]
+          },
+          {
+            "id": "mon_feral_soldier",
+            "fg": [
+              {
+                "weight": 1,
+                "sprite": 2
+              },
+              {
+                "weight": 1,
+                "sprite": 3
+              }
+            ]
+          },
+          {
+            "id": "mon_feral_sailor_wrench",
+            "fg": [
+              {
+                "weight": 1,
+                "sprite": 4
+              },
+              {
+                "weight": 1,
+                "sprite": 5
+              }
+            ]
+          },
+          {
+            "id": "mon_feral_sailor_axe",
+            "fg": [
+              {
+                "weight": 1,
+                "sprite": 4
+              },
+              {
+                "weight": 1,
+                "sprite": 5
+              }
+            ]
+          },
+          {
+            "id": "mon_feral_sailor_mop",
+            "fg": [
+              {
+                "weight": 1,
+                "sprite": 4
+              },
+              {
+                "weight": 1,
+                "sprite": 5
+              }
+            ]
+          },
+          {
+            "id": "mon_feral_sailor_lug_wrench",
+            "fg": [
+              {
+                "weight": 1,
+                "sprite": 4
+              },
+              {
+                "weight": 1,
+                "sprite": 5
+              }
+            ]
+          },
+          {
+            "id": "mon_feral_officer",
+            "fg": [
+              {
+                "weight": 1,
+                "sprite": 6
+              },
+              {
+                "weight": 1,
+                "sprite": 7
+              }
+            ]
+          },
+          {
+            "id": "mon_feral_marine_bayonet",
+            "fg": [
+              {
+                "weight": 1,
+                "sprite": 8
+              },
+              {
+                "weight": 1,
+                "sprite": 9
+              }
+            ]
+          },
+          {
+            "id": "mon_crows_m240",
+            "fg": 10
+          },
+          {
+            "id": "mon_turret",
+            "fg": 11
+          },
+          {
+            "id": "mon_turret_rifle",
+            "fg": 12
+          },
+          {
+            "id": "broken_turret_speaker",
+            "fg": 13
+          },
+          {
+            "id": "mon_turret_speaker",
+            "fg": 14
+          },{
+            "id": "mon_laserturret_xray",
+            "fg": 15
+          },
+          {
+            "id": [ "mon_nursebot", "mon_nursebot_defective" ],
+            "fg": [
+              {
+                "weight": 1,
+                "sprite": 16
+              }
+            ],
+            "rotates": false
+          },
+          {
+            "id": "mon_zombie_tear_gasbag",
+            "fg": 17
+          }
+        ],
+        "sprite_width": 64,
+        "sprite_height": 96,
+        "sprite_offset_x": 0,
+        "sprite_offset_y": -32
+      }
+    ]
+  }
+]

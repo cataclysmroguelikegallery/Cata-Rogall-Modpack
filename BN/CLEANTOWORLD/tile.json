@@ -1,0 +1,23 @@
+
+      
+[
+ {
+    "type": "mod_tileset",
+    "compatibility": [ "64PIXEL_UNDEAD_PEOPLE_VULPECULA" ],
+    "tiles-new": [
+	  {
+      "file": "Temporary64.png",
+		"sprite_width":64,
+		"sprite_height":64,
+		"sprite_offset_x":0,
+		"sprite_offset_y":0,
+      "tiles": [
+	{"id": "gasbomb_cat", "fg": 0, "rotates": false},
+	{"id": "gasbomb_relax", "fg": 0, "rotates": false},
+	{"id": "gasbomb6", "fg": 0, "rotates": false},
+	{"id": "gasbomb7", "fg": 0, "rotates": false}
+	]		
+      }
+    ]
+  }
+]

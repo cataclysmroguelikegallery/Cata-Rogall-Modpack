@@ -1,0 +1,24 @@
+[
+ {
+    "name": "GROUP_FERROUS_UPGRADE",
+    "type": "monstergroup",
+    "default": "mon_zombie_rust",
+    "monsters": [
+      { "monster": "mon_zombie_rust", "freq": 600, "cost_multiplier": 1 },
+      { "monster": "mon_zombie_shell", "freq": 175, "cost_multiplier":1 },
+      { "monster": "mon_zombie_plated", "freq": 75, "cost_multiplier": 2 },
+      { "monster": "mon_zombie_urchin", "freq": 75, "cost_multiplier": 2 },
+      { "monster": "mon_zombie_hammer_hands", "freq": 75, "cost_multiplier": 2 }
+    ]
+  },{
+    "type": "monstergroup",
+    "name": "GROUP_ZOMBIE_SHADY_UPGRADES",
+    "default": "mon_zombie_shady",
+    "monsters": [
+      { "monster": "mon_zombie_brute_ninja", "freq": 500, "cost_multiplier": 1 },
+      { "monster": "mon_zombie_pupa_decoy_shady", "freq": 250, "cost_multiplier": 1 },
+      { "monster": "mon_zombie_pupa_shady", "freq": 250, "cost_multiplier": 1 },
+      { "monster": "mon_zombie_grue", "freq": 250, "cost_multiplier": 1 }
+    ]
+  }
+]
