@@ -1,0 +1,24 @@
+[
+  {
+    "type": "mod_tileset",
+    "compatibility": [ "64PIXEL_UNDEAD_PEOPLE_VULPECULA" ],
+    "tiles-new":[{
+				"file": "shot64.png",
+				"sprite_width":64,
+				"sprite_height":64,
+				"sprite_offset_x":0,
+				"sprite_offset_y":0,
+				"tiles": 
+			[
+	 {
+        	  "id": "fd_shot_test",
+          	  "fg": 0,
+          	"rotates": true
+	}
+          
+
+			]
+		}
+	]
+   }
+]

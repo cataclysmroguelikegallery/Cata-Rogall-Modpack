@@ -1,0 +1,18 @@
+[
+{
+    "id": "garter_belt",
+    "type": "ARMOR",
+    "name": { "str": "garter belt" },
+    "description": "A black, decorated undergarment commonly used in combination with stockings.  They don't cover much, but they do help you feel sexy.",
+    "weight": "80 g",
+    "volume": "200 ml",
+    "looks_like": "panties",
+    "price": 500,
+    "price_postapoc": 250,
+    "material": [ "cotton" ],
+    "symbol": "[",
+    "color": "dark_gray",
+    "material_thickness": 1,
+    "flags": [ "SKINTIGHT", "VARSIZE" ]
+  }
+]

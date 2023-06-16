@@ -1,0 +1,375 @@
+[
+ {
+    "type": "furniture",
+    "id": "f_water_purifier",
+    "looks_like": "f_water_purifier",
+    "name": "망 연결된 정수기",
+    "symbol": "&",
+    "description": "전력으로 작동하는 설치된 정수기.",
+    "color": "blue",
+    "move_cost_mod": -1,
+    "coverage": 80,
+    "required_str": -1,
+    "crafting_pseudo_item": [ "fake_gridwater_purifier" ],
+    "flags": [ "BLOCKSDOOR", "MINEABLE", "EASY_DECONSTRUCT" ],
+    "examine_action": "use_furn_fake_item",
+    "deconstruct": { "items": [ { "item": "water_purifier", "count": 1 }, { "item": "cable", "charges": 5 } ] },
+    "bash": {
+      "str_min": 18,
+      "str_max": 50,
+      "sound": "metal screeching!",
+      "sound_fail": "clang!",
+      "items": [
+        { "count": [ 4, 7 ], "item": "steel_lump" },
+        { "count": [ 4, 7 ], "item": "steel_chunk" },
+        { "count": [ 4, 7 ], "item": "scrap" },
+        { "charges": 0, "item": "water_purifier", "prob": 50 }
+      ]
+    }
+  },
+  {
+    "type": "furniture",
+    "id": "f_craftrig",
+    "looks_like": "vp_craft_rig",
+    "name": "grid FOODCO kitchen buddy",
+    "symbol": "&",
+    "description": "A multi-function crafting station, with a water purifier, food processor, food dehydrator, vacuum sealer, and hand press for making ammo.  Draws power from the electrical grid.  If you attempt to craft an item that needs one of the kitchen buddy's functions, it will automatically be selected as a tool.",
+    "color": "blue",
+    "move_cost_mod": -1,
+    "coverage": 80,
+    "required_str": -1,
+    "crafting_pseudo_item": [ "fake_gridfood_processor", "fake_griddehydrator", "fake_gridvac_sealer", "fake_gridwater_purifier", "press" ],
+    "flags": [ "BLOCKSDOOR", "MINEABLE", "EASY_DECONSTRUCT" ],
+    "deconstruct": { "items": [ { "item": "craftrig", "count": 1 }, { "item": "cable", "charges": 5 } ] },
+    "bash": {
+      "str_min": 18,
+      "str_max": 50,
+      "sound": "metal screeching!",
+      "sound_fail": "clang!",
+      "items": [
+        { "count": [ 4, 7 ], "item": "steel_lump" },
+        { "count": [ 4, 7 ], "item": "steel_chunk" },
+        { "count": [ 4, 7 ], "item": "scrap" },
+        { "charges": 0, "item": "water_purifier", "prob": 50 },
+        { "charges": 0, "item": "vac_sealer", "prob": 50 },
+        { "charges": 0, "item": "dehydrator", "prob": 50 },
+        { "charges": 0, "item": "food_processor", "prob": 50 },
+        { "charges": 0, "item": "press", "prob": 50 }
+      ]
+    }
+  },
+ {
+    "type": "furniture",
+    "id": "f_asf_metal_rig",
+    "looks_like": "afs_metal_rig",
+    "name": "망 연결된 메탈마스터 용광로 친구",
+    "symbol": "&",
+    "description": "망으로 연결된 메탈마스터 용광로 친구입니다.",
+    "color": "blue",
+    "move_cost_mod": -1,
+    "coverage": 80,
+    "required_str": -1,
+    "crafting_pseudo_item": [ "fake_gridkiln", "fake_griddsolderingiron", "fake_gridforge", "fake_gridwelder" ],
+    "flags": [ "BLOCKSDOOR", "MINEABLE", "EASY_DECONSTRUCT" ],
+    "examine_action": "use_furn_fake_item",
+    "deconstruct": { "items": [ { "item": "afs_metal_rig", "count": 1 }, { "item": "cable", "charges": 5 } ] },
+    "bash": {
+      "str_min": 18,
+      "str_max": 50,
+      "sound": "metal screeching!",
+      "sound_fail": "clang!",
+      "items": [
+        { "count": [ 4, 7 ], "item": "steel_lump" },
+        { "count": [ 4, 7 ], "item": "steel_chunk" },
+        { "count": [ 4, 7 ], "item": "scrap" },
+        { "charges": 0, "item": "afs_metal_rig", "prob": 50 }
+      ]
+    }
+  },{
+    "type": "furniture",
+    "id": "f_drop_hammer",
+    "looks_like": "f_drophammer",
+    "name": "망으로 연결된 단조 장치",
+    "symbol": "&",
+    "description": "망으로 연결된 단조용 드롭해머 입니다.",
+    "color": "blue",
+    "move_cost_mod": -1,
+    "coverage": 80,
+    "required_str": -1,
+    "crafting_pseudo_item": ["tongs","fake_hammer_drop","chisel","swage","mold_plastic","puller","press_dowel","press"],
+    "flags": [ "BLOCKSDOOR", "MINEABLE", "EASY_DECONSTRUCT" ],
+    "deconstruct": { "items": [ { "item": "tongs", "count": 1 },
+{ "item": "chisel", "count": 1 },
+{ "item": "swage", "count": 1 },
+{ "item": "mold_plastic", "count": 1 },
+{ "item": "puller", "count": 1 },
+{ "item": "press_dowel", "count": 1 },
+{ "item": "press", "count": 1 },
+{ "item": "cable", "charges": 5 } ] }
+  },{
+    "type": "furniture",
+    "id": "f_grinder",
+    "looks_like": "f_mitresaw",
+    "name": "망으로 연결된 연마기",
+    "symbol": "&",
+    "description": "망으로 연결된 그라인더 입니다.",
+    "color": "blue",
+    "move_cost_mod": -1,
+    "coverage": 0,
+    "required_str": -1,
+    "crafting_pseudo_item": "fake_saw_grinding",
+    "flags": [ "BLOCKSDOOR",
+      "TRANSPARENT", "MINEABLE", "EASY_DECONSTRUCT" ],
+    "deconstruct": { "items": [ { "item": "circsaw_off", "count": 1 },
+{ "item": "angle_grinder", "count": 1 },
+ { "item": "cable", "charges": 5 } ] }
+  },{
+    "type": "furniture",
+    "id": "f_saw",
+    "looks_like": "f_tablesaw",
+    "name": "망으로 연결된 목재 절단기",
+    "symbol": "&",
+    "description": "망으로 연결된 톱입니다.",
+    "color": "blue",
+    "move_cost_mod": -1,
+    "coverage": 0,
+    "required_str": -1,
+    "crafting_pseudo_item": "fake_saw",
+    "flags": [ "BLOCKSDOOR", "MINEABLE", "EASY_DECONSTRUCT", "TRANSPARENT" ],
+    "examine_action": "use_furn_fake_item",
+    "deconstruct": { "items": [ { "item": "motor", "count": 1 },
+{ "item": "circsaw_blade","count": 2 },
+ { "item": "cable", "charges": 5 } ] }
+  },{
+    "type": "furniture",
+    "id": "f_Mobile_Cover",
+    "name": "휴대용 거치대",
+    "symbol": "#",
+    "bgcolor": "brown",
+    "description": "이곳에 개틀링건을 거치하고 마음껏 쏘아보세요.","looks_like": "f_tourist_table",
+    "coverage": 15,
+    "move_cost_mod": 0,
+    "deployed_item": "Mobile_Cover",
+    "required_str": 4,  "examine_action": "deployed_furniture", 
+    "flags": [
+      "TRANSPARENT",
+      "NOITEM",
+      "MOUNTABLE",
+      "INDOORS",
+      "ROAD"
+    ],
+    "deconstruct": { "items": [ { "item": "Mobile_Cover", "count": 1 } ] }
+  },{
+    "type": "furniture",
+    "id": "f_CARDBORD_BOX_SNAKE",
+    "name": "기이한 골판지 상자",
+    "symbol": "#",
+    "bgcolor": "brown",
+    "coverage": 30,
+    "looks_like": "f_cardboard_box",
+    "description": "이거 이상하네요.이곳에 왠 상자람?...",
+    "move_cost_mod": 0,
+    "deployed_item": "CARDBORD_BOX_SNAKE",
+    "required_str": 4,   "examine_action": "deployed_furniture", 
+    "flags": [
+      "TRANSPARENT",
+      "EASY_DECONSTRUCT",
+      "THIN_OBSTACLE",
+      "HIDE_PLACE",
+	"BUTCHER_EQ",
+	"CAN_SIT",
+	"NO_SCENT",
+	"SMALL_PASSAGE",
+      "BLOCK_WIND",
+      "ROAD"
+    ],
+    "deconstruct": { "items": [ { "item": "CARDBORD_BOX_SNAKE", "count": 1 } ] }
+  },
+  {
+    "id": "Mobile_Cover",
+    "type": "GENERIC",
+    "category": "tools",
+    "name": { "str": "휴대용 거치대" },
+    "description": "사용시 휴대용 거치대를 펼칩니다.","looks_like": "tourist_table",
+    "weight": "150 g",
+    "volume": "85 ml",
+    "price": 5000000,
+    "price_postapoc": 1000,
+    "to_hit": -4,
+    "bashing": 7,
+    "material": [ "steel" ],
+    "symbol": ";",
+    "color": "light_gray",
+    "use_action": { "type": "deploy_furn", "furn_type": "f_Mobile_Cover" }
+  },{
+    "id": "CARDBORD_BOX_SNAKE",
+    "type": "GENERIC",
+    "category": "tools",
+"looks_like": "box_large",
+    "name": { "str": "접힌 기이한 골판지 상자" },
+    "description": "왠지 이 상자를 설치하면 그 누구도 나를 못찾을 꺼 같습니다.",
+    "weight": "15 g",
+    "volume": "50 ml",
+    "price": 5000000,
+    "price_postapoc": 1000,
+    "to_hit": -4,
+    "bashing": 7,
+    "material": [ "steel" ],
+    "symbol": ";",
+    "color": "light_gray",
+    "use_action": { "type": "deploy_furn", "furn_type": "f_CARDBORD_BOX_SNAKE" }
+  },{
+    "type": "recipe",
+    "result": "Mobile_Cover",
+    "category": "CC_fabrication",
+    "subcategory": "CSC_fabrication_OTHER",
+    "skill_used": "fabrication",
+    "reversible": true,
+    "decomp_learn": 4,
+    "autolearn": true,
+    "difficulty": 4,
+    "time": "10 m",
+    "using": [ [ "soldering_standard", 15 ], [ "welding_standard", 5 ], [ "surface_heat", 10 ] ],
+    "qualities": [
+      { "id": "SCREW", "level": 1 },
+      { "id": "SCREW_FINE", "level": 1 },
+      { "id": "WRENCH", "level": 2 },
+      { "id": "WRENCH_FINE", "level": 1 }
+    ],
+    "components": [
+[["sheet_metal",1]],[["pipe",6]]
+
+    ]
+  },{
+
+"type": "item_group",
+    "id": "rare",
+ "items": [ ["CARDBORD_BOX_SNAKE",50] ]
+
+  },{
+    "type": "furniture",
+    "abstract": "f_space_cooler_base",
+    "looks_like": "f_air_conditioner",
+    "symbol": ";",
+    "color": "light_gray",
+    "name": "abstract space cooler",
+    "description": "Abstract furniture.  If you see this, something went wrong.",
+    "move_cost_mod": -1,
+    "required_str": -1,
+    "flags": [ "TRANSPARENT", "EASY_DECONSTRUCT" ],
+    "deconstruct": {
+      "items": [
+        { "item": "mountable_cooler", "count": 1 },
+        { "item": "cable", "charges": 5 },
+        { "item": "power_supply", "count": 1 }
+      ]
+    },
+    "bash": {
+      "str_min": 8,
+      "str_max": 30,
+      "sound": "metal screeching!",
+      "sound_fail": "clang!",
+      "items": [
+        { "item": "power_supply", "count": [ 1, 4 ] },
+        { "item": "scrap", "count": [ 0, 2 ] },
+        { "item": "cable", "charges": [ 1, 4 ] },
+        { "item": "element", "count": [ 2, 6 ] }
+      ]
+    }
+  },
+  {
+    "type": "furniture",
+    "id": "f_space_cooler",
+    "copy-from": "f_space_cooler_base",
+    "looks_like": "f_air_conditioner",
+    "symbol": ";",
+    "color": "light_gray",
+    "name": "실내용 에어컨 (no power)",
+    "description": "벽에 달린 콘센트에 연결된 가정용 에어컨 입니다. 현재 전원이 들어와 있지 않습니다.",
+    "examine_action": "transform",
+    "transforms_into": "f_space_cooler_off",
+    "message": "You turn the cooler off.",
+    "active": [
+      "charge_watcher",
+      { "min_power": 5, "transform": { "id": "f_space_cooler_on", "msg": "에어컨이 주위 온도를 낮춰주기 시작합니다." } }
+    ]
+  },
+  {
+    "type": "furniture",
+    "id": "f_space_cooler_off",
+    "copy-from": "f_space_cooler_base",
+    "looks_like": "f_air_conditioner",
+    "symbol": ";",
+    "color": "light_gray",
+    "name": "실내용 에어컨 (off)",
+    "description": "벽에 달린 콘센트에 연결된 가정용 에어컨 입니다. 현재 전원이 꺼져있습니다.",
+    "examine_action": "transform",
+    "transforms_into": "f_space_cooler",
+    "message": "You turn the cooler on."
+  },
+  {
+    "type": "furniture",
+    "id": "f_space_cooler_on",
+    "copy-from": "f_space_cooler_base",
+    "looks_like": "f_air_conditioner",
+    "symbol": ";",
+    "color": "light_gray",
+    "name": "실내용 에어컨 (작동중)",
+    "description": "벽에 달린 콘센트에 연결된 가정용 에어컨 입니다. 현재 전원이 켜져있으며, 냉기를 뿜어내고 있습니다",
+    "examine_action": "transform",
+    "transforms_into": "f_space_cooler_off",
+    "message": "You turn the cooler off.",
+    "active": [
+      "steady_consumer",
+      {
+        "power": 1,
+        "consume_every": "2 s",
+        "transform": { "id": "f_space_cooler", "msg": "The cooler runs out of power and cools off." }
+      }
+    ],
+    "flags": [ "TRANSPARENT", "EASY_DECONSTRUCT", "EMITTER" ],
+    "emissions": [ "emit_cold_air2_stream" ]
+  },
+{
+    "type": "furniture",
+    "abstract": "f_vibrator_base",
+    "looks_like": "f_seat_airplane",
+    "symbol": ";",
+    "color": "light_gray",
+    "bonus_fire_warmth_feet": 1000,
+    "name": "abstract vibrator cooler",
+    "description": "Abstract furniture.  If you see this, something went wrong.",
+    "move_cost_mod": 2,
+    "required_str": 1,
+    "flags": [ "TRANSPARENT", "EASY_DECONSTRUCT","CAN_SIT","MOUNTABLE","ORGANIC" ],
+    "deconstruct": {
+      "items": [
+        { "item": "vibrator", "count": 5 },
+        { "item": "cable", "charges": 5 },
+        { "item": "power_supply", "count": 1 }
+      ]
+    },
+    "bash": {
+      "str_min": 8,
+      "str_max": 30,
+      "sound": "metal screeching!",
+      "sound_fail": "clang!",
+      "items": [
+        { "item": "power_supply", "count": [ 1, 4 ] },
+        { "item": "scrap", "count": [ 0, 2 ] },
+        { "item": "cable", "charges": [ 1, 4 ] },
+        { "item": "vibrator", "count": [ 1, 5 ] }
+      ]
+    }
+  },{
+    "type": "furniture",
+    "id": "f_vibrator",
+    "copy-from": "f_vibrator_base",
+    "symbol": ";",
+    "color": "light_gray",
+    "name": "안마의자 ",
+    "crafting_pseudo_item": "vibrator",
+    "description": "안마 의자."
+    
+  }
+]

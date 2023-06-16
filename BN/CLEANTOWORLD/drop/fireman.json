@@ -1,0 +1,65 @@
+[
+{
+    "id": "used_ifak",
+    "type": "item_group",
+    "subtype": "collection",
+    "items": [
+      { "item": "medical_tape", "charges": [ 0, 20 ] },
+      { "item": "quikclot", "charges": [ 0, 5 ] },
+      { "item": "bandages", "count": [ 0, 9 ] },
+      { "item": "medical_gauze", "count": [ 0, 3 ] },
+      { "item": "pur_tablets", "container-item": "bottle_plastic_small", "charges": [ 0, 3 ] },
+      { "item": "gloves_medical", "prob": 50 }
+    ]
+  },{
+    "id": "used_1st_aid",
+    "type": "item_group",
+    "subtype": "collection",
+    "items": [
+      { "item": "medical_tape", "charges": [ 0, 20 ] },
+      { "item": "aspirin", "charges": [ 0, 10 ] },
+      { "item": "disinfectant", "charges": [ 0, 5 ] },
+      { "item": "saline", "prob": 60 },
+      { "item": "bandages", "count": [ 0, 3 ] },
+      { "item": "medical_gauze", "count": [ 0, 6 ] },
+      { "item": "booklet_firstaid", "prob": 50 }
+    ]
+  },{
+    "id": "fireman_cabinet",
+    "type": "item_group",
+    "subtype": "distribution",
+    "ammo": 100,
+    "items": [
+      { "item": "extinguisher", "prob": 35 },
+      { "item": "sm_extinguisher", "prob": 35 },
+      {
+        "collection": [
+          { "item": "hose" },
+          { "item": "sm_extinguisher" },
+          { "item": "fire_ax", "prob": 50 },
+          { "item": "crash_axe", "prob": 80 },
+          { "item": "throw_extinguisher", "prob": 30, "count": [ 3, 5 ] }
+        ],
+        "prob": 30
+      }
+    ]
+  },{
+    "type": "item_group",
+    "id": "entertainment_center_loot",
+    "//": "something you can find in entertainment center, except the tv",
+    "subtype": "distribution",
+    "entries": [
+      { "group": "magazines", "prob": 40, "count-min": 0, "count-max": 6 },
+      { "group": "newspaper", "prob": 40, "count-min": 1, "count-max": 2 },
+      { "group": "homebooks", "prob": 40, "count-min": 0, "count-max": 4 },
+      { "group": "novels", "prob": 40, "count-min": 0, "count-max": 8 },
+      { "group": "religious_books", "prob": 40, "count-min": 0, "count-max": 8 },
+      { "item": "stereo", "prob": 30 },
+      { "item": "portable_game", "prob": 30 },
+      { "item": "battery_charger", "prob": 40 },
+      { "item": "microphone_xlr_generic", "prob": 20 },
+      { "item": "cable_xlr", "prob": 40 },
+      { "item": "headphones_circumaural", "prob": 10 }
+    ]
+  }
+]

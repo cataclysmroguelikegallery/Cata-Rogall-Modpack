@@ -1,0 +1,31 @@
+[
+  
+  {
+    "id": "dimension_leap_self",
+    "type": "SPELL",
+    "name": "차원도약",
+    "description": "차원도약.",
+    "valid_targets": [ "self" ],
+    "effect": "translocate",
+    "difficulty": 1,
+    "max_level": 1,
+    "base_casting_time": 60000,
+    "base_energy_cost": 675,
+    "energy_source": "NONE",
+    "spell_class": "NONE"
+  },{
+	"id": "shotguntest",
+   	"type": "SPELL",
+ 	"name": "샷건-범위",
+    	"description": "샷건-범위.",
+	"effect" : "cone_attack",
+	"valid_targets" : [ "hostile", "ground", "self", "ally" ], 
+	"damage_type": "bullet",
+	"min_damage": 10, 
+ 	"max_damage": 20, 
+        "max_level": 1,
+ 	"min_range": 1,
+   	"max_range": 10,
+   	"range_increment": 0.5
+     }
+]

@@ -1,0 +1,20 @@
+[
+ {
+"type": "region_overlay",
+     "regions": [ "all" ],
+    "river_scale": 1.5,
+"overmap_lake_settings": {
+      "noise_threshold_lake": 0.3,
+      "lake_size_min": 5,
+      "lake_depth": -5,
+      "shore_extendable_overmap_terrain": [ "forest", "forest_thick", "forest_water", "river_center", "field","river_south","river_west","river_east","river_north","river_ne", "river_nw", "river_se", "river_sw","river_c_not_ne", "river_c_not_nw", "river_c_not_se", "river_c_not_sw"],
+      "shore_extendable_overmap_terrain_aliases": [
+        { "om_terrain": "island_forest", "om_terrain_match_type": "TYPE", "alias": "forest" },
+        { "om_terrain": "island_forest_thick", "om_terrain_match_type": "TYPE", "alias": "forest_thick" },
+        { "om_terrain": "island_forest_water", "om_terrain_match_type": "TYPE", "alias": "forest_water" },
+        { "om_terrain": "island_field", "om_terrain_match_type": "TYPE", "alias": "field" }
+      ]
+    }
+}
+
+]

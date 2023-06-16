@@ -1,0 +1,49 @@
+[
+ {
+    "type": "monstergroup",
+    "name": "GROUP_ZOMBIE_CRAWLER_UPGRADE",
+    "default": "mon_zombie_crawler",
+    "//": "crawling zombie upgrades",
+    "monsters": [
+      { "monster": "mon_zombie_crawler_pupa", "freq": 500 ,"cost_multiplier": 1},
+      { "monster": "mon_zombie_crawler_pupa_decoy", "freq": 500,"cost_multiplier": 1 }
+    ]
+  },
+{
+    "type": "monstergroup",
+    "name": "GROUP_BOOMER_UPGRADE_mod",
+    "default": "mon_boomer_huge",
+	"monsters": [
+      { "monster": "mon_boomer_glutton", "freq": 245 , "cost_multiplier": 1},
+      { "monster": "mon_boomer_huge", "freq": 310, "cost_multiplier": 1 },
+      { "monster": "mon_zombie_gasbag", "freq": 310, "cost_multiplier": 1 },
+      { "monster": "mon_boomer_claymore", "freq": 50, "cost_multiplier": 1 },
+      { "monster": "mon_zombie_tear_gasbag", "freq": 50 , "cost_multiplier": 1},
+      { "monster": "mon_zombie_relax_gasbag", "freq": 50 , "cost_multiplier": 1}
+    ]
+  },{
+    "type": "monstergroup",
+    "name": "GROUP_MEDICAL_UPGRADE",
+    "default": "mon_skeleton_medical",
+    "//": "Masters pick from here when upgrading.  Note that 'freq' units are tenth of a percent, with default filling in the gap.",
+    "monsters": [
+      { "monster": "mon_zombie_medical_brute", "freq": 200 , "cost_multiplier": 1},
+      { "monster": "mon_zombie_medical_regenerating", "freq": 300 , "cost_multiplier": 1},
+      { "monster": "mon_boomer", "freq": 50 , "cost_multiplier": 1},
+      { "monster": "mon_zombie_hollow", "freq": 50 , "cost_multiplier": 1},
+      { "monster": "mon_skeleton_medical", "freq": 200 , "cost_multiplier": 1},
+      { "monster": "mon_zombie_medical_acidic", "freq": 100 , "cost_multiplier": 1},
+      { "monster": "mon_zombie_medical_pupa", "freq": 50 , "cost_multiplier": 1},
+      { "monster": "mon_zombie_pupa_medical_decoy", "freq": 50, "cost_multiplier": 1 }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_MEDICAL_CRAWLER_UPGRADE",
+    "default": "mon_zombie_medical_pupa",
+    "monsters": [
+      { "monster": "mon_zombie_medical_pupa", "freq": 500 , "cost_multiplier": 1},
+      { "monster": "mon_zombie_pupa_medical_decoy", "freq": 500, "cost_multiplier": 1 }
+    ]
+  }
+]

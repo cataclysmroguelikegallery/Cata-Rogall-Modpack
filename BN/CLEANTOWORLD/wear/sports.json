@@ -1,0 +1,17 @@
+[
+ {
+    "type": "GENERIC",
+    "id": "swimming_kickboard",
+    "name": { "str": "swimming kickboard" },
+    "description": "A swimming kickboard, would be a great training aid for the beach or the pool, if only they weren't full of zombies and mutant fish.",
+    "volume": "3450 ml",
+    "weight": "200 g",
+    "price": "12 USD",
+    "price_postapoc": 5,
+    "to_hit": -1,
+    "color": "blue",
+    "symbol": "/",
+    "material": [ "plastic" ],
+    "flags": [ "NONCONDUCTIVE", "FLOTATION" ]
+  }
+]
