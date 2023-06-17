@@ -3,6 +3,48 @@
         "type": "sound_effect",
         "id" : "fire_gun",
         "volume" : 75,
+        "variant" : "sq_powershot",
+        "files" : [
+            "guns/eweapons/heavy_rail_rifle_1.ogg",
+			"guns/eweapons/heavy_rail_rifle_2.ogg",
+			"guns/eweapons/heavy_rail_rifle_3.ogg"
+        ]
+    },
+	{
+        "type": "sound_effect",
+        "id" : "fire_gun_distant",
+        "volume" : 40,
+        "variant" : "sq_powershot",
+        "files" : [
+            "guns/eweapons/heavy_rail_rifle_1.ogg",
+			"guns/eweapons/heavy_rail_rifle_2.ogg",
+			"guns/eweapons/heavy_rail_rifle_3.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun",
+        "volume" : 75,
+        "variant" : "sq_fusion_hammer",
+        "files" : [
+            "guns/flammable/flammable_1.ogg",
+			"guns/flammable/flammable_2.ogg"
+        ]
+    },
+	{
+        "type": "sound_effect",
+        "id" : "fire_gun_distant",
+        "volume" : 40,
+        "variant" : "sq_fusion_hammer",
+        "files" : [
+            "guns/flammable/flammable_1.ogg",
+			"guns/flammable/flammable_2.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun",
+        "volume" : 75,
         "variant" : "sq_walkergun",
         "files" : [
             "guns/223/223_1.ogg",
