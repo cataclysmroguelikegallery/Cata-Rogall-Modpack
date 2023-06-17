@@ -249,6 +249,7 @@
   },
   {
     "type": "recipe",
+    "id_suffix": "alternative",
     "result": "bot_sq_mech_balance",
     "category": "CC_첨단기술",
     "subcategory": "CSC_첨단기술_드론",
@@ -510,6 +511,7 @@
   },
   {
     "type": "recipe",
+    "id_suffix": "alternative",
     "result": "bot_sq_mech_heavy",
     "category": "CC_첨단기술",
     "subcategory": "CSC_첨단기술_드론",
@@ -782,6 +784,7 @@
   },
   {
     "type": "recipe",
+    "id_suffix": "alternative",
     "result": "bot_sq_mech_light",
     "category": "CC_첨단기술",
     "subcategory": "CSC_첨단기술_드론",
