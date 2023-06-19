@@ -1,0 +1,17 @@
+[
+  {
+    "id": "wheel_mount_wood_light",
+    "type": "GENERIC",
+    "category": "veh_parts",
+    "name": { "str": "경량형 나무 바퀴 마운트" },
+	"looks_like": "water_wheel",
+    "description": "자전거 바퀴나 오토바이 바퀴를 달 수 있도록 구멍이 뚫려있는 나무 조각.",
+    "weight": "100 g",
+    "volume": "250 ml",
+    "price": 10,
+    "price_postapoc": 10,
+    "material": [ "wood" ],
+    "symbol": ";",
+    "color": "dark_gray"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "type": "scenario",
+    "id": "field",
+    "name": "Middle of Nowhere",
+    "points": 0,
+    "description": "Somehow, you found yourself in a forest.",
+    "allowed_locs": [ "primal_field" ],
+    "start_name": "Field",
+    "flags": [ "LONE_START" ]
+  },
+  {
+    "type": "scenario",
+    "id": "cave",
+    "name": "In a Cave",
+    "points": 0,
+    "description": "Somehow, you found yourself in a cave.",
+    "allowed_locs": [ "primal_cave" ],
+    "start_name": "Field",
+    "flags": [ "LONE_START" ]
+  }
+]

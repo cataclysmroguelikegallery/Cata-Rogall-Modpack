@@ -1,0 +1,51 @@
+[
+  {
+    "type": "recipe",
+    "result": "scrap",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": "5 m",
+    "autolearn": true,
+    "using": [ [ "earthenware_firing", 1 ] ],
+    "tools": [ [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ] ],
+    "components": [ [ [ "material_iron", 2 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "copper",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "fabrication",
+    "difficulty": 2,
+    "time": "5 m",
+    "autolearn": true,
+    "using": [ [ "earthenware_firing", 1 ] ],
+    "tools": [ [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ] ],
+    "components": [ [ [ "material_copper", 10 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "kiln_full_clay",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "time": "1 m",
+    "autolearn": true,
+    "components": [
+      [
+        [ "splinter", 40 ],
+        [ "2x4", 6 ],
+        [ "stick", 8 ],
+        [ "bone", 40 ],
+        [ "bone_human", 40 ],
+        [ "bone_tainted", 40 ],
+        [ "pine_bough", 20 ],
+        [ "log", 1 ]
+      ],
+      [ [ "char_kiln_clay", 1 ] ]
+    ]
+  }
+]

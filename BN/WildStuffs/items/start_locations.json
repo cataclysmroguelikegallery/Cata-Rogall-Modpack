@@ -1,0 +1,17 @@
+[
+  {
+    "type": "start_location",
+    "id": "primal_cave",
+    "name": "Field",
+    "terrain": [ "cave_underground_innawood" ],
+    "flags": [ "ALLOW_OUTSIDE" ]
+  },
+  {
+    "type": "start_location",
+    "id": "primal_field",
+    "name": "Field",
+    "terrain": [ "field" ],
+    "flags": [ "ALLOW_OUTSIDE" ]
+  }
+]  
+  

@@ -1,0 +1,14 @@
+[
+  {
+    "type": "recipe",
+    "result": "wheel_mount_wood_light",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_VEHICLE",
+    "skill_used": "mechanics",
+    "difficulty": 1,
+    "time": "10 m",
+    "autolearn": true,
+    "qualities": [ { "id": "SAW_W", "level": 1 } ],
+    "components": [ [ [ "2x4", 2 ] ] ]
+  }
+]

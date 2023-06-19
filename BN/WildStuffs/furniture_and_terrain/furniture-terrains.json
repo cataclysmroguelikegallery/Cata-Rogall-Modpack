@@ -1,0 +1,75 @@
+[
+  {
+    "type": "furniture",
+    "id": "f_boulder_small",
+    "name": "small boulder",
+    "description": "Blocking your path.  Should be easy to move.  It can be used as a primitive anvil.",
+    "symbol": "o",
+    "color": "dark_gray",
+    "move_cost_mod": 3,
+    "coverage": 30,
+    "required_str": 10,
+    "crafting_pseudo_item": "boulder_anvil",
+    "flags": [ "TRANSPARENT", "MINEABLE", "UNSTABLE", "MOUNTABLE", "TINY" ],
+    "bash": {
+      "str_min": 16,
+      "str_max": 40,
+      "sound": "smash!",
+      "sound_fail": "thump.",
+      "items": [ { "item": "rock", "count": [ 1, 6 ] }, { "item": "sharp_rock", "count": [ 0, 2 ] } ]
+    }
+  },
+  {
+    "type": "furniture",
+    "id": "f_boulder_medium",
+    "name": "medium boulder",
+    "description": "Blocking your path.  It'll be a struggle to move.  It can be used as a primitive anvil.",
+    "symbol": "0",
+    "color": "dark_gray",
+    "move_cost_mod": 6,
+    "coverage": 45,
+    "required_str": 16,
+    "crafting_pseudo_item": "boulder_anvil",
+    "flags": [ "NOITEM", "TRANSPARENT", "MINEABLE", "UNSTABLE", "MOUNTABLE", "SHORT", "BASHABLE" ],
+    "bash": {
+      "str_min": 32,
+      "str_max": 80,
+      "sound": "smash!",
+      "sound_fail": "thump.",
+      "items": [ 
+	    { "item": "rock", "count": [ 5, 11 ] }, 
+		{ "item": "sharp_rock", "count": [ 1, 4 ]}, 
+		{ "item": "material_iron", "count": [ 0, 2 ] },
+		{ "item": "material_copper", "count": [ 0, 6 ] }
+	  ]
+    }
+  },
+  {
+    "type": "furniture",
+    "id": "f_boulder_large",
+    "name": "large boulder",
+    "description": "Now how are you going to move this?",
+    "symbol": "O",
+    "color": "dark_gray",
+    "move_cost_mod": -1,
+    "coverage": 65,
+    "required_str": 32,
+    "flags": [ "NOITEM", "MINEABLE", "BASHABLE", "BLOCK_WIND" ],
+    "bash": {
+      "str_min": 64,
+      "str_max": 160,
+      "sound": "smash!",
+      "sound_fail": "thump.",
+      "items": [
+        { "item": "rock", "count": [ 10, 22 ] },
+        { "item": "sharp_rock", "count": [ 3, 7 ] },
+        { "item": "material_limestone", "charges": [ 2, 5 ], "prob": 30 },
+        { "item": "material_rocksalt", "count": [ 0, 1 ], "prob": 10 },
+        { "item": "material_rhodonite", "count": [ 0, 1 ], "prob": 1 },
+        { "item": "material_zincite", "count": [ 0, 5 ], "prob": 2 },
+		{ "item": "material_iron", "count": [ 0, 3 ] },
+		{ "item": "material_copper", "count": [ 0, 8 ] }
+      ]
+    }
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "id": "straw_cloak",
+    "type": "ARMOR",
+    "name": { "str": "짚 망토" },
+    "description": "지푸라기로 만든 간단한 망토.",
+    "weight": "2050 g",
+    "volume": "2 L",
+    "price": 50,
+    "price_postapoc": 5,
+    "to_hit": -1,
+    "material": [ "paper" ],
+    "symbol": "[",
+    "looks_like": "coat_straw",
+    "color": "light_gray",
+    "covers": [ "torso", "arms", "legs" ],
+    "coverage": 60,
+    "encumbrance": 50,
+    "warmth": 10,
+    "material_thickness": 1,
+    "environmental_protection": 1,
+    "flags": [ "VARSIZE", "WATER_FRIENDLY", "ALLOWS_NATURAL_ATTACKS" ]
+  }
+]

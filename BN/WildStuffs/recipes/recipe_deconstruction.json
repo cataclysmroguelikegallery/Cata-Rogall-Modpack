@@ -1,0 +1,10 @@
+[
+  {
+    "result": "kiln_done_clay",
+    "type": "uncraft",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "time": "1 m",
+    "components": [ [ [ "charcoal", 200 ] ], [ [ "char_kiln_clay", 1 ] ] ]
+  }
+]
