@@ -1,0 +1,22 @@
+[
+  {
+    "type": "scenario",
+    "id": "field",
+    "name": "Middle of Nowhere",
+    "points": 0,
+    "description": "어쩌다보니 숲속에서 깨어나게 되었습니다.",
+    "allowed_locs": [ "primal_field" ],
+    "start_name": "Field",
+    "flags": [ "LONE_START" ]
+  },
+  {
+    "type": "scenario",
+    "id": "cave",
+    "name": "동굴에서",
+    "points": 0,
+    "description": "어쩌다보니 동굴에서 깨어나게 되었습니다.",
+    "allowed_locs": [ "primal_cave" ],
+    "start_name": "Field",
+    "flags": [ "LONE_START" ]
+  }
+]

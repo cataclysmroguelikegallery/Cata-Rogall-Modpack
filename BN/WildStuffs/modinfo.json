@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "Wild_stuffs_addon",
+    "name": "야생 애드온",
+    "authors": [ "NakedJake" ],
+    "description": "타 모드와 자연스럽게 섞일 수 있는 호환성 중시의 순한맛 야생을 표방하고 있습니다.",
+    "category": "content",
+    "dependencies": [ "bn" ]
+  }
+]

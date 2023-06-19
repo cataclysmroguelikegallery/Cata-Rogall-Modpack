@@ -1,0 +1,79 @@
+[
+  {
+    "result": "pickaxe_copper",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "time": "3 h",
+    "autolearn": true,
+    "using": [ [ "earthenware_firing", 2 ], ["copper_scrap_equivalent", 30] ],
+    "qualities": [ { "id": "ANVIL", "level": 1 }, { "id": "HAMMER", "level": 2 } ],
+    "tools": [ [ [ "tongs", -1 ] ], [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ] ],
+    "components": [ [ [ "2x4", 2 ], [ "stick", 4 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "tongs",	
+    "id_suffix": "using_copper",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": "30 m",
+    "autolearn": true,
+    "using": [ [ "earthenware_firing", 2 ], ["copper_scrap_equivalent", 10] ],
+    "qualities": [ { "id": "ANVIL", "level": 1 }, { "id": "HAMMER", "level": 2 } ]
+  },
+  {
+    "type": "recipe",
+    "result": "tongs",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": "30 m",
+    "autolearn": true,
+    "qualities": [ { "id": "ANVIL", "level": 3 }, { "id": "HAMMER", "level": 2 } ],
+    "tools": [ [ [ "forge", 150 ], [ "oxy_torch", 30 ] ] ],
+    "components": [ [ [ "steel_lump", 1 ], [ "steel_chunk", 4 ], [ "scrap", 12 ], [ "pipe", 3 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "char_forge_clay",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": "2 h",	
+    "autolearn": true,
+    "using": [ [ "earthenware_firing", 90 ] ],
+    "components": [ [ [ "water", 10 ], [ "water_clean", 10 ] ], [ [ "clay_lump", 30 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "char_kiln_clay",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": "2 h",	
+    "autolearn": true,
+    "using": [ [ "earthenware_firing", 90 ] ],
+    "components": [ [ [ "water", 10 ], [ "water_clean", 10 ] ], [ [ "clay_lump", 30 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "anvil_iron",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": "2 h",
+    "autolearn": true,
+    "qualities": [ { "id": "HAMMER", "level": 2 } ],
+    "tools": [ [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ], [ [ "forge", 150 ], [ "oxy_torch", 30 ] ] ],
+    "components": [ [ [ "scrap", 160 ] ] ]
+  }
+]

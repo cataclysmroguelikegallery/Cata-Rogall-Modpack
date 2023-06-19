@@ -1,0 +1,25 @@
+[
+  {
+    "id": "backpack_straw",
+    "type": "ARMOR",
+    "name": { "str": "허리 바구니" },
+    "description": "허리에 매는 작은 바구니.",
+    "weight": "818 g",
+    "volume": "2 L",
+    "price": 11900,
+    "price_postapoc": 500,
+    "material": [ "paper" ],
+    "symbol": "[",
+    "looks_like": "ragpouch",
+    "color": "brown",
+    "covers": [ "torso" ],
+    "coverage": 30,
+    "rigid": false,
+    "encumbrance": 10,
+    "max_encumbrance": 15,
+    "storage": "8 L",
+    "warmth": 1,
+    "material_thickness": 1,
+    "flags": [ "BELTED", "WATER_FRIENDLY" ]
+  }
+]

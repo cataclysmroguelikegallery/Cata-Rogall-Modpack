@@ -1,0 +1,14 @@
+[
+  {
+    "result": "straw_cloak",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "tailor",
+    "difficulty": 1,
+    "time": "28 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "straw_pile", 30 ], [ "birchbark", 30 ] ] ]
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "type": "furniture",
+    "id": "f_forge_clay",
+    "name": "forge",
+    "description": "Metalworking station typically used in combination with an anvil.",
+    "symbol": "^",
+    "color": "light_red",
+    "move_cost_mod": -1,
+    "coverage": 40,
+    "required_str": -1,
+    "crafting_pseudo_item": "char_forge_clay",
+    "flags": [ "TRANSPARENT", "SEALED", "CONTAINER", "NOITEM", "EASY_DECONSTRUCT" ],
+    "deconstruct": { "items": [ { "item": "char_forge_clay", "count": 1 } ] },
+    "examine_action": "reload_furniture",
+    "bash": {
+      "str_min": 4,
+      "str_max": 8,
+      "sound": "crunch!",
+      "sound_fail": "whump.",
+      "items": [ { "item": "char_forge_clay", "count": 1 } ]
+    }
+  }
+]

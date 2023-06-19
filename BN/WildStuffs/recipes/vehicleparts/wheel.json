@@ -1,0 +1,48 @@
+[
+  {
+    "type": "vehicle_part",
+    "id": "wheel_mount_wood_light",
+    "name": { "str": "light wooden wheel mount" },
+    "symbol": "-",
+    "color": "light_gray",
+    "location": "axle",
+    "broken_symbol": "X",
+    "broken_color": "light_gray",
+    "damage_modifier": 80,
+    "folded_volume": 1,
+    "durability": 120,
+    "description": "A piece of wood with holes.",
+    "item": "wheel_mount_wood_light",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 2 ] ], "time": "10 m", "using": [ ] },
+      "removal": { "skills": [ [ "mechanics", 1 ] ], "time": "10 m", "using": [ ] },
+      "repair": { "skills": [ [ "mechanics", 1 ] ], "time": "10 m", "using": [ ] }
+    },
+    "flags": [ "WHEEL_MOUNT_LIGHT", "NEEDS_JACKING", "FOLDABLE" ],
+    "breaks_into": [ { "item": "scrap", "count": [ 0, 1 ] } ],
+    "damage_reduction": { "all": 10 }
+  },
+  {
+    "type": "vehicle_part",
+    "id": "wheel_mount_wood_steerable",
+    "name": { "str": "light wooden wheel mount (steerable)" },
+    "symbol": "-",
+    "color": "light_gray",
+    "location": "axle",
+    "broken_symbol": "X",
+    "broken_color": "light_gray",
+    "damage_modifier": 80,
+    "folded_volume": 1,
+    "durability": 120,
+    "description": "A piece of wood with holes.",
+    "item": "wheel_mount_wood_light",
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 2 ] ], "time": "10 m", "using": [ ] },
+      "removal": { "skills": [ [ "mechanics", 1 ] ], "time": "10 m", "using": [ ] },
+      "repair": { "skills": [ [ "mechanics", 1 ] ], "time": "10 m", "using": [ ] }
+    },
+    "flags": [ "WHEEL_MOUNT_LIGHT", "NEEDS_JACKING", "FOLDABLE", "STEERABLE" ],
+    "breaks_into": [ { "item": "scrap", "count": [ 0, 1 ] } ],
+    "damage_reduction": { "all": 10 }
+  }
+]

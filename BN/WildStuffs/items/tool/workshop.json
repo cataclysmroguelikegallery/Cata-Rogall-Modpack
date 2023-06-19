@@ -1,0 +1,23 @@
+[
+  {
+    "id": "pickaxe_copper",
+    "type": "GENERIC",
+    "category": "tools",
+    "name": { "str": "구리 곡괭이" },
+    "description": "큰 구리 곡괭이, 단단한 것을 부수거나 적절한 기술이 있다면 단단한 적을 부수는데 적합합니다. 땅을 내려치세요!",
+	"looks_like": "pickaxe",
+    "weight": "5535 g",
+    "volume": "3 L",
+    "price": 16000,
+    "price_postapoc": 1250,
+    "to_hit": -3,
+    "bashing": 18,
+    "cutting": 10,
+    "material": [ "wood", "copper" ],
+    "symbol": "/",
+    "color": "pink",
+    "use_action": "PICKAXE",
+    "techniques": [ "WBLOCK_1" ],
+    "flags": [ "SPEAR", "DURABLE_MELEE", "NONCONDUCTIVE", "DIG_TOOL", "SHEATH_AXE" ]
+  }
+]
