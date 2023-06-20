@@ -142,6 +142,29 @@
   },
   {
     "type": "vehicle_part",
+    "id": "nonail_boat_board",
+    "name": { "str": "wooden boat hull" },
+    "description": "A wooden board that keeps the water out of your boat.",
+    "symbol": "o",
+    "looks_like": "t_wall_log",
+    "color": "brown",
+    "broken_symbol": "x",
+    "broken_color": "light_gray",
+    "damage_modifier": 50,
+    "durability": 40,
+    "item": "boat_board",
+    "location": "under",
+    "requirements": {
+      "install": { "skills": [ [ "survival", 2 ] ], "time": "30 m" },
+      "removal": { "skills": [ [ "survival", 2 ] ], "time": "15 m" },
+      "repair": { "skills": [ [ "survival", 3 ] ], "time": "30 m", "using": [ [ "adhesive", 2 ] ] }
+    },
+    "flags": [ "FLOATS" ],
+    "breaks_into": [ { "item": "splinter", "count": [ 10, 20 ] } ],
+    "damage_reduction": { "all": 10 }
+  },
+  {
+    "type": "vehicle_part",
     "id": "nonail_wood_box",
     "name": { "str": "wood box" },
     "symbol": "o",
