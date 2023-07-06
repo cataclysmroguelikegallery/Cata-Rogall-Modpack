@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "Big_Dogbot",
+    "category": "content",
+    "name": "Vulpecula의 빅-댕댕봇",
+"version": "7.2",
+"description": "차량공포증 유저를 위한 각종 컨텐츠팩.",
+"dependencies": [ "bn" ]
+  }
+]

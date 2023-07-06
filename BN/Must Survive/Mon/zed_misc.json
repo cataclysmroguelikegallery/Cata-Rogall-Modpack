@@ -1,0 +1,136 @@
+[
+  {
+    "id": "mon_zombie_biter",
+    "type": "MONSTER",
+    "name": { "str": "slavering biter" },
+    "copy-from": "mon_zombie_biter",
+    "death_drops": "default_zombie_death_drops_starve"
+  },
+  {
+    "id": "mon_zombie_brainless",
+    "type": "MONSTER",
+    "name": { "str": "brainless zombie" },
+    "copy-from": "mon_zombie_brainless",
+    "death_drops": "default_zombie_death_drops_starve"
+   
+  },
+  {
+    "id": "mon_zombie_brute",
+    "type": "MONSTER",
+    "name": { "str": "zombie brute" },
+    "copy-from": "mon_zombie_brute",
+    "death_drops": "default_zombie_death_drops_starve"
+  },
+  {
+    "id": "mon_zombie_brute_grappler",
+    "type": "MONSTER",
+    "name": { "str": "zombie wrestler" },
+    "copy-from": "mon_zombie_brute_grappler",
+    "death_drops": "default_zombie_death_drops_starve"
+  },
+  {
+    "id": "mon_zombie_brute_ninja",
+    "type": "MONSTER",
+    "name": { "str": "zombie nightstalker" },
+    "copy-from": "mon_zombie_brute_ninja",
+    "death_drops": "default_zombie_death_drops_starve"
+  },
+  {
+    "id": "mon_zombie_ears",
+    "type": "MONSTER",
+    "name": { "str": "listener zombie" },
+    "copy-from": "mon_zombie_ears",
+    "death_drops": "default_zombie_death_drops_starve"
+  },
+  {
+    "id": "mon_zombie_grabber",
+    "type": "MONSTER",
+    "name": { "str": "grabber zombie" },
+    "copy-from": "mon_zombie_grabber",
+    "death_drops": "default_zombie_death_drops_starve"
+  },
+  {
+    "id": "mon_zombie_grappler",
+    "type": "MONSTER",
+    "name": { "str": "grappler zombie" },
+    "copy-from": "mon_zombie_grappler",
+    "death_drops": "default_zombie_death_drops_starve"
+  },
+  {
+    "id": "mon_zombie_hulk",
+    "type": "MONSTER",
+    "name": { "str": "zombie hulk" },
+    "copy-from": "mon_zombie_hulk",
+    "death_drops": "mon_zombie_hulk_death_drops_starve"
+  },
+  {
+    "id": "mon_zombie_hunter",
+    "type": "MONSTER",
+    "name": { "str": "zombie hunter" },
+    "copy-from": "mon_zombie_hunter",
+    "death_drops": "default_zombie_death_drops_starve"
+  },
+  {
+    "id": "mon_zombie_master",
+    "type": "MONSTER",
+    "name": { "str": "zombie master" },
+    "copy-from": "mon_zombie_master",
+    "death_drops": "default_zombie_death_drops_starve"
+  },
+  {
+    "id": "mon_zombie_necro",
+    "type": "MONSTER",
+    "name": { "str": "zombie necromancer" },
+    "copy-from": "mon_zombie_necro",
+    "death_drops": "default_zombie_death_drops_starve"
+  },
+  {
+    "id": "mon_zombie_runner",
+    "type": "MONSTER",
+    "name": { "str": "zombie runner" },
+    "copy-from": "mon_zombie_runner",
+    "death_drops": "default_zombie_death_drops_starve"
+  },
+  {
+    "id": "mon_zombie_predator",
+    "type": "MONSTER",
+    "name": { "str": "zombie predator" },
+    "copy-from": "mon_zombie_predator",
+    "death_drops": "default_zombie_death_drops_starve"
+  },
+  {
+    "id": "mon_zombie_screecher",
+    "type": "MONSTER",
+    "name": { "str": "screecher zombie" },
+    "copy-from": "mon_zombie_screecher",
+    "death_drops": "default_zombie_death_drops_starve"
+  },
+  {
+    "id": "mon_zombie_shady",
+    "type": "MONSTER",
+    "name": { "str": "shady zombie" },
+    "copy-from": "mon_zombie_shady",
+    "death_drops": "default_zombie_death_drops_starve"
+  },
+  {
+    "id": "mon_zombie_shrieker",
+    "type": "MONSTER",
+    "name": { "str": "shrieker zombie" },
+    "copy-from": "mon_zombie_shrieker",
+    "death_drops": "default_zombie_death_drops_starve"
+  },
+  {
+    "id": "mon_zombie_skull",
+    "type": "MONSTER",
+    "name": { "str": "skull zombie" },
+    "copy-from": "mon_zombie_skull",
+    "death_drops": "default_zombie_death_drops_starve"
+  },
+  {
+    "id": "mon_zombie_thorny",
+    "type": "MONSTER",
+    "name": { "str": "thorny shambler" },
+    "copy-from": "mon_zombie_thorny",
+    "death_drops": "mon_zombie_thorny_death_drops_starve"
+  }
+]

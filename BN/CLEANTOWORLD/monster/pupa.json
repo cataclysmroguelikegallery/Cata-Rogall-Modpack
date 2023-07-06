@@ -1,5 +1,21 @@
 [
   {
+    "id": "fd_sludge",
+    "type": "field_type",
+    "legacy_enum_id": 9,
+    "intensity_levels": [
+      { "name": "thin sludge trail", "sym": "5", "color": "light_gray", "dangerous": true },
+      { "name": "sludge trail", "color": "dark_gray" },
+      { "name": "thick sludge trail" }
+    ],
+    "description_affix": "covered_in",
+    "is_splattering": true,
+    "priority": 2,
+    "half_life": "30 s",
+    "phase": "liquid",
+    "display_field": true,
+    "looks_like": "fd_sap"
+  },{
     "id": "mon_afs_headless_horror",
     "type": "MONSTER",
     "name": { "str": "headless horror" },

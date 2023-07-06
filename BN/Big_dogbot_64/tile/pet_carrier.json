@@ -1,0 +1,91 @@
+[
+ {
+    "id": "pet_carrier_HUGE",
+    "type": "GENERIC",
+    "category": "tools",
+    "looks_like": "pet_carrier",
+    "name": { "str": "공간수축 애완동물 이동장" },
+    "description": "A plastic container meant to hold pets for transport.  Use it on a suitable animal to capture, use it on an empty tile to release.",
+    "weight": "1000 g",
+    "volume": "5 L",
+    "price": 1000,
+    "price_postapoc": 100,
+    "bashing": 1,
+    "cutting": 1,
+    "material": [ "steel", "plastic" ],
+    "symbol": "#",
+    "color": "light_gray",
+    "properties": [ [ "monster_size_capacity", "HUGE" ] ],
+    "use_action": "CAPTURE_MONSTER_ACT",
+    "flags": [ "TRADER_AVOID" ]
+  },{
+    "type": "item_group",
+    "id": "nanofab_recipes",
+    "magazine": 100,
+    "subtype": "distribution",
+    "entries": [
+      { "item": "pet_carrier_HUGE", "prob": 10 },
+      { "item": "solar_array_v4", "prob": 10 }
+    ]
+  },{
+    "id": "fd_tactical_smoke",
+    "type": "field_type",
+    "intensity_levels": [
+      {
+        "name": "약한 전술 연막",
+        "sym": "8",
+	"light_override": 3.7,
+        "dangerous": false,
+        "translucency": 0
+      },
+      {
+        "name": "전술 연막",
+        "color": "light_gray",
+        "transparent": false,
+	"light_override": 3.7,
+        "translucency": 0,
+        "scent_neutralization": 1
+      },
+      {
+        "name": "짙은 전술 연막",
+        "color": "dark_gray",
+	"light_override": 3.7,
+        "translucency": 0,
+        "scent_neutralization": 5
+      }
+    ],
+    "decay_amount_factor": 5,
+    "gas_absorption_factor": 12,
+    "dirty_transparency_cache": true,
+    "percent_spread": 10,
+    "outdoor_age_speedup": "0 turns",
+    "priority": 8,
+    "half_life": "3 minutes",
+    "phase": "gas",
+    "accelerated_decay": true,
+    "display_items": true,
+    "display_field": true,
+    "looks_like": "fd_fog"
+  },{
+    "id": "SMOKE",
+    "type": "ammo_effect",
+    "aoe": { "field_type": "fd_tactical_smoke", "intensity_min": 3, "intensity_max": 3 }
+  },{
+    "id": "smokebomb_act",
+    "copy-from": "smokebomb",
+    "type": "GENERIC",
+    "name": { "str": "armed smoke bomb" },
+    "description": "This smoke bomb has had its pin removed and is expelling thick smoke.",
+    "emits": [ "emit_tactical_smoke_stream" ],
+    "countdown_interval": 100,
+    "countdown_action": { "type": "transform", "target": "canister_empty" },
+    "flags": [ "TRADER_AVOID" ]
+  },{
+    "id": "emit_tactical_smoke_stream",
+    "type": "emit",
+    "//": "Steady stream of thick smoke (example: smoke bomb)",
+    "field": "fd_tactical_smoke",
+    "intensity": 3,
+    "qty": 24
+  }
+]

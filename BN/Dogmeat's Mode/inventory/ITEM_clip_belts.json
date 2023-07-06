@@ -15,18 +15,10 @@
     "id": "belt_clip",
     "type": "GUNMOD",
     "name": { "str": "belt clip" },
-    "description": "This is a belt clip that attaches to the grip or slide of a pistol so as to facilitate 'Mexican carry', the practice of carrying without a holster.  It does not offer any protection for the trigger, so users are strongly advised to carry with the chamber empty or select a firearm with a very heavy trigger pull.",
-    "weight": "40 g",
-    "volume": "250 ml",
-    "integral_volume": "0 ml",
-    "price": 2000,
-    "price_postapoc": 50,
-    "material": "steel",
-    "symbol": ":",
-    "color": "light_gray",
-    "location": "accessories",
-    "mod_targets": [ "pistol" ],
-    "flags": [ "BELT_CLIP", "IS_ARMOR", "SKINTIGHT", "WATER_FRIENDLY" ]
+    "copy-from": "belt_clip",
+    "mod_target_category": [ [ "PISTOLS" ], [ "REVOLVERS" ], [ "SUBMACHINE_GUNS" ] ],
+    "extend": { "flags": [ "BELT_CLIP" ] },
+    "delete": { "mod_targets": [ "rugerlcp", "kp32", "kp3at", "kpf9", "cop_38", "moss_brownie" ] }
   },
   {
     "id": "fireman_belt",

@@ -23,7 +23,7 @@
     "material": [ "plastic", "powder" ],
     "symbol": "=",
     "color": "pink",
-    "count": 8,
+    "count": 40,
     "stack_size": 40,
     "ammo_type": "8x40mm",
     "range": 42,
@@ -54,7 +54,7 @@
     "description": "8x40mm caseless rounds, saboted high-velocity penetrator type.  Advanced military grade, armor-piercing ammunition that fires a single depleted uranium flechette.  Being caseless rounds, these cannot be disassembled or reloaded.",
     "price": 2500,
     "price_postapoc": 50000,
-    "count": 4,
+    "count": 20,
     "//": "Balanced as AP, with 25% higher damage and 50% higher arpen",
     "relative": { "damage": { "damage_type": "bullet", "amount": 4, "armor_penetration": 34 } },
     "proportional": { "dispersion": 1.5, "recoil": 1.5 }
@@ -65,7 +65,7 @@
     "type": "AMMO",
     "name": { "str": "8x40mm tracer" },
     "description": "8x40mm caseless rounds with tracers to help keep the weapon they are fired from on target at the risk of igniting flammable substances.  Military grade ammunition for Rivtech firearms.  Being caseless rounds, these cannot be disassembled or reloaded.",
-    "count": 2,
+    "count": 20,
     "proportional": { "dispersion": 0.8 },
     "extend": { "effects": [ "INCENDIARY" ] }
   },

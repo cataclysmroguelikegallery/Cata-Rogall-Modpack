@@ -1,0 +1,44 @@
+[
+  {
+    "type": "mod_tileset",
+    "compatibility": [ "64PIXEL_UNDEAD_PEOPLE_VULPECULA" ],
+    "tiles-new": [
+      {
+        "file": "external_tileset/floor.png",
+        "sprite_width": 64,
+        "sprite_height": 64,
+      "sprite_offset_x": 0,
+      "sprite_offset_y": 0,
+      "tiles": [
+        {
+          "id": "t_thconc_floor",
+          "fg": [
+            { "weight": 1, "sprite": 0 },
+            { "weight": 1, "sprite": 1 },
+            { "weight": 1, "sprite": 2 },
+            { "weight": 1, "sprite": 3 }
+          ]
+        },
+        {
+          "id": "t_thconc_r",
+          "fg": [
+            { "weight": 1, "sprite": 4 },
+            { "weight": 1, "sprite": 5 },
+            { "weight": 1, "sprite": 6 },
+            { "weight": 1, "sprite": 7 }
+          ]
+        },
+        {
+          "id": "t_thconc_y",
+          "fg": [
+            { "weight": 1, "sprite": 8 },
+            { "weight": 1, "sprite": 9 },
+            { "weight": 1, "sprite": 10 },
+            { "weight": 1, "sprite": 11 }
+          ]
+        }]
+
+      }
+    ]
+  }
+]
