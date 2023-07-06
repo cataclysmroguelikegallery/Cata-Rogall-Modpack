@@ -20,7 +20,18 @@
     "ups_charges": 0,
     "built_in_mods": [ "sq_powershot" ],
     "ammo_effects": [ "LASER", "INCENDIARY", "SHOT", "WIDE", "BOUNCE" ],
-    "flags": [  "NO_UNLOAD", "NEVER_JAMS", "NO_UNWIELD", "NO_SALVAGE", "NO_REPAIR", "NON_FOULING", "NEEDS_NO_LUBE", "USE_UPS", "REACH_ATTACK", "UNBREAKABLE_MELEE" ]
+    "flags": [
+      "NO_UNLOAD",
+      "NEVER_JAMS",
+      "NO_UNWIELD",
+      "NO_SALVAGE",
+      "NO_REPAIR",
+      "NON_FOULING",
+      "NEEDS_NO_LUBE",
+      "USE_UPS",
+      "REACH_ATTACK",
+      "UNBREAKABLE_MELEE"
+    ]
   },
   {
     "id": "sq_powershot",
@@ -35,7 +46,7 @@
     "symbol": ":",
     "color": "light_red",
     "location": "underbarrel",
-    "mod_targets": [ "rifle" ],
+    "mod_target_category": [ [ "ENERGY_WEAPONS", "RIFLES" ] ],
     "gun_data": {
       "recoil": 900,
       "range": 60,
@@ -62,8 +73,8 @@
     "price_postapoc": 0,
     "material": [ "ceramic", "superalloy" ],
     "color": "red",
-	"recoil": 40,
-	"min_cycle_recoil": 60,
+    "recoil": 40,
+    "min_cycle_recoil": 60,
     "range": 110,
     "ranged_damage": { "damage_type": "stab", "amount": 100, "armor_penetration": 44 },
     "dispersion": 120,
@@ -72,7 +83,17 @@
     "ups_charges": 0,
     "built_in_mods": [ "sq_grenadeshot" ],
     "ammo_effects": [ "SHOT", "WIDE" ],
-    "flags": [ "NO_UNLOAD", "NEVER_JAMS", "NO_UNWIELD", "NO_SALVAGE", "NO_REPAIR", "NON_FOULING", "NEEDS_NO_LUBE", "USE_UPS", "UNBREAKABLE_MELEE" ]
+    "flags": [
+      "NO_UNLOAD",
+      "NEVER_JAMS",
+      "NO_UNWIELD",
+      "NO_SALVAGE",
+      "NO_REPAIR",
+      "NON_FOULING",
+      "NEEDS_NO_LUBE",
+      "USE_UPS",
+      "UNBREAKABLE_MELEE"
+    ]
   },
   {
     "id": "sq_grenadeshot",
@@ -87,7 +108,7 @@
     "symbol": ":",
     "color": "light_red",
     "location": "underbarrel",
-    "mod_targets": [ "rifle" ],
+    "mod_target_category": [ [ "RIFLES" ] ],
     "gun_data": {
       "recoil": 900,
       "range": 60,
@@ -105,7 +126,7 @@
     "id": "sq_walkergun7",
     "type": "TOOL",
     "category": "weapons",
-	"copy-from": "zweihander",
+    "copy-from": "zweihander",
     "weapon_category": [ "BIONIC_WEAPONRY", "BIONIC_SWORDS", "2H_SWORDS", "SHORT_SWORDS", "WHIPS", "SPEARS" ],
     "name": "통합 근접 무장 체계",
     "description": "세라믹 발톱, 사복검, 나노합금 코팅 송곳니, 플라즈마 투사기를 포함한 근접 무장 체계입니다.",
@@ -131,6 +152,18 @@
     },
     "techniques": [ "WBLOCK_2", "BRUTAL", "SWEEP" ],
     "qualities": [ [ "HAMMER", 1 ] ],
-    "flags": [ "NO_UNLOAD", "NEVER_JAMS", "NO_UNWIELD", "NO_SALVAGE", "NO_REPAIR", "NON_FOULING", "NEEDS_NO_LUBE", "USE_UPS", "REACH_ATTACK", "REACH3", "UNBREAKABLE_MELEE" ]
+    "flags": [
+      "NO_UNLOAD",
+      "NEVER_JAMS",
+      "NO_UNWIELD",
+      "NO_SALVAGE",
+      "NO_REPAIR",
+      "NON_FOULING",
+      "NEEDS_NO_LUBE",
+      "USE_UPS",
+      "REACH_ATTACK",
+      "REACH3",
+      "UNBREAKABLE_MELEE"
+    ]
   }
 ]

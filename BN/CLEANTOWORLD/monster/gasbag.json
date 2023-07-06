@@ -197,7 +197,6 @@
     "melee_skill": 4,
     "vision_night": 5,
     "harvest": "zombie_meatslug",
-    "emit_fields": [ { "emit_id": "emit_sludge_puddle", "delay": "1 s" } ],
     "grab_strength": 30,
     "special_attacks": [
       {

@@ -2,8 +2,8 @@
   {
     "id": "mon_zombie_winged",
     "type": "MONSTER",
-    "name": { "str": "batwing zombie" },
-    "description": "This zombie's arms have stretched far beyond human limits, the skin lengthened into a gruesome, fleshy membrane.  The mutation does not suit it well: it moves clumsily, even compared to other zombies, but can occasionally leap a significant distance.",
+    "name": { "str": "박쥐 좀비" },
+    "description": "이 좀비의 팔은 인간의 한계를 훨씬 뛰어넘어 뻗어 있고 피부는 끔찍한 살점막으로 변했습니다.  돌연변이가 잘 어울리지 않아 다른 좀비들과 비교해도 서투르게 움직이지만, 때때로 상당한 거리를 뛰어넘을 수 있습니다.",
     "default_faction": "zombie",
     "bodytype": "human",
     "species": [ "ZOMBIE", "HUMAN" ],
@@ -26,7 +26,8 @@
       [ "GRAB",20 ],
 { "type": "bite", "cooldown": 5 },
  { "id": "scratch", "damage_max_instance":
- [ { "damage_type": "cut", "amount": 8, "armor_multiplier": 0.8 } ]}
+ [ { "damage_type": "cut", "amount": 8, "armor_multiplier": 0.8 } ]},
+      { "type": "leap", "cooldown": 30, "max_range": 8 }
     ],
     "death_drops": "default_zombie_death_drops",
     "burn_into": "mon_zombie_scorched",
@@ -50,8 +51,8 @@
   {
     "id": "mon_zombie_brute_winged",
     "type": "MONSTER",
-    "name": { "str": "garghoul" },
-    "description": "This zombie's arms have stretched far beyond human limits, the skin lengthened into a gruesome, fleshy membrane.  The rest has become emaciated, with thin, rope-like muscles ripping through taut flesh.  While it doesn't appear to be able to fly, it uses its mutated arms to make shockingly fast leaps through the air.",
+    "name": { "str": "가고일" },
+    "description": "이 좀비의 팔은 인간의 한계를 훨씬 뛰어넘어 뻗어 있고, 피부는 끔찍한 살점막으로 변했습니다.  나머지 부분은 쇠약해져 가느다란 밧줄 같은 근육이 팽팽한 살을 찢어내고 있습니다.  날 수 없는 것처럼 보이지만, 돌연변이 팔을 이용해 놀라울 정도로 빠른 속도로 공중을 뛰어넘습니다.",
     "species": [ "ZOMBIE", "HUMAN" ],
     "default_faction": "zombie",
     "diff": 2,
@@ -62,13 +63,11 @@
     "material": [ "flesh" ],
     "symbol": "Z",
     "color": "white",
-
     "aggression": 100,
     "morale": 100,
     "melee_skill": 4,
     "melee_dice": 3,
     "melee_dice_sides": 6,
-
     "vision_night": 7,
     "harvest": "zombie",
     "grab_strength": 30,
@@ -101,8 +100,8 @@
   },{
     "id": "mon_spawn_raptor",
     "type": "MONSTER",
-    "name": { "str": "flesh-raptor" },
-    "description": "This small, winged predator darts through the air on three thinly-haired wings that look like stretched human hands.  A sheer, jagged spike juts out from the point where the wings meet.  It looks like nothing you've seen on Earth, and yet strangely like it is made of human parts.",
+    "name": { "str": "살점-포식자" },
+    "description": "이 작은 날개를 가진 포식자는 사람의 손을 쭉 뻗은 것처럼 보이는 세 개의 얇은 날개로 공중을 날아다닙니다.날개가 만나는 지점에는 뾰족한 가시가 뾰족하게 튀어나와 있습니다.  지구상에서 본 적 없는 모습이지만 이상하게도 사람의 일부로 만들어진 것 같습니다.",
     "species": [ "ZOMBIE", "HUMAN" ],
     "default_faction": "zombie",
     "diff": 1,
@@ -144,10 +143,10 @@
   {
     "type": "MONSTER",
     "id": "mon_spawn_raptor_shady",
-    "name": { "str": "shadow raptor" },
+    "name": { "str": "그림자 포식자" },
     "copy-from": "mon_spawn_raptor",
     "color": "light_gray",
-    "description": "An uncanny shadow envelops this creature.  You can make out the outline of three flapping wings connected to a jagged, pointed object.",
+    "description": "기괴한 그림자가 이 생물을 감싸고 있습니다.  뾰족하고 뾰족한 물체에 연결된 세 개의 날개가 윤곽을 드러내고 있습니다.",
     "upgrades": {  },
     "extend": { "flags": [ "NIGHT_INVISIBILITY" ] },
     "vision_day": 10,
@@ -156,11 +155,11 @@
   {
     "type": "MONSTER",
     "id": "mon_spawn_raptor_unstable",
-    "name": { "str_sp": "unstable flesh-raptor" },
+    "name": { "str_sp": "불안정한 살점 포식자" },
     "copy-from": "mon_spawn_raptor",
     "speed": 100,
     "color": "red",
-    "description": "This small, winged predator darts through the air on three thinly-haired wings that look like stretched human hands.  A jagged spike juts out from the point where the wings meet, and a bloated, fleshy belly hangs beneath.  A sharp smell of rotten eggs hangs around it.",
+    "description": "이 작은 날개를 가진 포식자는 사람의 손을 쭉 뻗은 것처럼 보이는 세 개의 얇은 날개로 공중을 날아다닙니다.  날개가 만나는 지점에는 뾰족한 가시가 튀어나와 있고, 그 아래에는 부푼 살덩어리 배가 매달려 있습니다.  날카로운 썩은 달걀 냄새가 그 주위에 감돈다.",
     "special_attacks": [
       [ "SUICIDE", 20 ],
       { "id": "impale", "damage_max_instance": [ { "damage_type": "stab", "amount": 15, "armor_multiplier": 0.6 } ] }
@@ -171,11 +170,11 @@
   {
     "type": "MONSTER",
     "id": "mon_spawn_raptor_electric",
-    "name": { "str": "zaptor" },
+    "name": { "str": "충격포식자" },
     "copy-from": "mon_spawn_raptor",
     "color": "light_cyan",
     "diff": 10,
-    "description": "This small, winged predator darts through the air on three thinly-haired wings that look like stretched human hands.  A jagged spike with a pulsing electrical glow juts out from the point where the wings meet.",
+    "description": "이 작고 날개 달린 포식자는 사람의 손을 뻗은 것처럼 보이는 얇은 털의 세 개의 날개를 타고 공중을 질주합니다. 날개가 만나는 지점에서 전류가 방전되는 뾰족한 가시가 돌출되어 있습니다.",
     "melee_damage": [ { "damage_type": "electric", "amount": 8 } ],
     "luminance": 8,
     "special_attacks": [

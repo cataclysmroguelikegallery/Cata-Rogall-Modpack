@@ -8,15 +8,28 @@
       { "monster": "mon_zombie_crawler_pupa", "freq": 500 ,"cost_multiplier": 1},
       { "monster": "mon_zombie_crawler_pupa_decoy", "freq": 500,"cost_multiplier": 1 }
     ]
-  },
-{
+  },{
+    "type": "monstergroup",
+    "name": "GROUP_gasbag",
+    "default": "mon_zombie_relax_gasbag",
+	"monsters": [
+      { "monster": "mon_zombie_tear_gasbag", "freq": 50 , "cost_multiplier": 1},
+      { "monster": "mon_zombie_relax_gasbag", "freq": 50 , "cost_multiplier": 1}
+    ]
+  },{
     "type": "monstergroup",
     "name": "GROUP_BOOMER_UPGRADE_mod",
     "default": "mon_boomer_huge",
 	"monsters": [
       { "monster": "mon_boomer_glutton", "freq": 245 , "cost_multiplier": 1},
       { "monster": "mon_boomer_huge", "freq": 310, "cost_multiplier": 1 },
-      { "monster": "mon_zombie_gasbag", "freq": 310, "cost_multiplier": 1 },
+      { "monster": "mon_zombie_gasbag", "freq": 310, "cost_multiplier": 1 }
+    ]
+  },{
+    "type": "monstergroup",
+    "name": "GROUP_BOOMER_UPGRADED_OB",
+    "default": "mon_boomer_huge",
+	"monsters": [
       { "monster": "mon_boomer_claymore", "freq": 50, "cost_multiplier": 1 },
       { "monster": "mon_zombie_tear_gasbag", "freq": 50 , "cost_multiplier": 1},
       { "monster": "mon_zombie_relax_gasbag", "freq": 50 , "cost_multiplier": 1}

@@ -1,0 +1,79 @@
+[
+  {
+    "type": "mod_tileset",
+    "compatibility": [ "UNDEAD_PEOPLE_BASE", "UNDEAD_PEOPLE", "MshockRealXotto", "MSX++DEAD_PEOPLE" ],
+    "tiles-new":[{
+				"file": "armor32.png",
+				"sprite_width":32,
+				"sprite_height":32,
+				"sprite_offset_x":0,
+				"sprite_offset_y":0,
+				"tiles": 
+			[
+			{
+        			  "id": "liquid_metal_gloves_hsurvivor",
+      			    	  "fg": 0,
+      			    	"rotates": false
+			},{
+        			  "id": "overlay_worn_liquid_metal_gloves_hsurvivor",
+      			    	  "fg": 0,
+      			    	"rotates": false
+			},{
+        			  "id": "overlay_wielded_liquid_metal_gloves_hsurvivor",
+      			    	  "fg": 0,
+      			    	"rotates": false
+			},{
+        			  "id": "liquid_metal_mask_lsurvivor",
+      			    	  "fg": 1,
+      			    	"rotates": false
+			},{
+        			  "id": "overlay_worn_liquid_metal_mask_lsurvivor",
+      			    	  "fg": 1,
+      			    	"rotates": false
+			},{
+        			  "id": "overlay_wielded_liquid_metal_mask_lsurvivor",
+      			    	  "fg": 1,
+      			    	"rotates": false
+			},{
+        			  "id": "liquid_metal_mask_survivor",
+      			    	  "fg": 2,
+      			    	"rotates": false
+			},{
+        			  "id": "overlay_worn_liquid_metal_mask_survivor",
+      			    	  "fg": 2,
+      			    	"rotates": false
+			},{
+        			  "id": "overlay_wielded_liquid_metal_mask_survivor",
+      			    	  "fg": 2,
+      			    	"rotates": false
+			},{
+        			  "id": "thigh_quiver",
+      			    	  "fg": 3,
+      			    	"rotates": false
+			},{
+        			  "id": "overlay_worn_thigh_quiver",
+      			    	  "fg": 3,
+      			    	"rotates": false
+			},{
+        			  "id": "overlay_wielded_thigh_quiver",
+      			    	  "fg": 3,
+      			    	"rotates": false
+			},{
+        			  "id": "medium_quiver",
+      			    	  "fg": 4,
+      			    	"rotates": false
+			},{
+        			  "id": "overlay_worn_medium_quiver",
+      			    	  "fg": 5,
+      			    	"rotates": false
+			},{
+        			  "id": "overlay_wielded_medium_quiver",
+      			    	  "fg": 4,
+      			    	"rotates": false
+			}
+
+			]
+		}
+	]
+   }
+]

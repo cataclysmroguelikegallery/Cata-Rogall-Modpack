@@ -47,31 +47,16 @@
     "abstract": "shot_abstract",
     "type": "AMMO",
     "name": { "str": "00 shot" },
-    "description": "A shell filled with metal pellets.  Extremely damaging, plus the spread makes it very accurate at short range.  Favored by SWAT forces.",
-    "weight": "32 g",
-    "volume": "250 ml",
-    "price": 500,
-    "price_postapoc": 800,
-    "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
-    "material": [ "plastic", "powder" ],
-    "symbol": "=",
-    "color": "red",
-    "count": 20,
-    "stack_size": 20,
-    "ammo_type": "shot",
-    "casing": "shot_hull",
-    "range": 12,
-    "damage": { "damage_type": "bullet", "amount": 50 },
-    "recoil": 2500,
-    "loudness": 160,
-    "effects": [ "COOKOFF", "SHOT" ]
+    "copy-from": "shot_abstract",
+    "count": 5
   },
   {
     "id": "shot_00",
-    "copy-from": "shot_abstract",
+    "copy-from": "shot_00",
     "type": "AMMO",
     "name": { "str": "00 shot" },
-    "description": "A shell filled with metal pellets.  Extremely damaging, plus the spread makes it very accurate at short range.  Favored by SWAT forces."
+    "description": "A shell filled with metal pellets.  Extremely damaging, plus the spread makes it very accurate at short range.  Favored by SWAT forces.",
+    "count": 5
   },
   {
     "id": "shot_beanbag",
@@ -119,16 +104,10 @@
   },
   {
     "id": "shot_flechette",
-    "copy-from": "shot_00",
+    "copy-from": "shot_flechette",
     "type": "AMMO",
     "name": { "str": "flechette shell" },
-    "description": "A shotgun shell filled with tiny steel darts.  Extremely damaging, plus the spread makes it very accurate at short range.  Slices through most forms of armor with ease.",
-    "price": 2000,
-    "price_postapoc": 800,
-    "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
-    "count": 10,
-    "//": "Balanced as standard AP.",
-    "relative": { "damage": { "damage_type": "bullet", "amount": -15, "armor_penetration": 30 } }
+    "count": 2
   },
   {
     "id": "shot_he",
@@ -165,17 +144,9 @@
   },
   {
     "id": "shot_slug",
-    "copy-from": "shot_abstract",
+    "copy-from": "shot_slug",
     "type": "AMMO",
     "name": { "str": "shotgun slug" },
-    "description": "A heavy metal slug used with shotguns to give them the range capabilities of a rifle.  Extremely damaging but rather inaccurate.",
-    "price": 400,
-    "price_postapoc": 400,
-    "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
-    "dispersion": 100,
-    "//": "Balanced as FMJ",
-    "relative": { "range": 12, "damage": { "damage_type": "bullet", "amount": -10, "armor_penetration": 18 } },
-    "proportional": { "recoil": 1.4 },
-    "delete": { "effects": [ "SHOT" ] }
+    "count": 5
   }
 ]

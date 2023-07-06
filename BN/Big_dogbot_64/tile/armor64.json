@@ -1,0 +1,78 @@
+[
+  {
+    "type": "mod_tileset",
+    "compatibility": [ "64PIXEL_UNDEAD_PEOPLE_VULPECULA" ],
+    "tiles-new":[{
+				"file": "armor64.png",
+				"sprite_width":64,
+				"sprite_height":64,
+				"sprite_offset_x":0,
+				"sprite_offset_y":0,
+				"tiles": 
+			[
+			{
+        			  "id": "liquid_metal_gloves_hsurvivor",
+      			    	  "fg": 0,
+      			    	"rotates": false
+			},{
+        			  "id": "overlay_worn_liquid_metal_gloves_hsurvivor",
+      			    	  "fg": 0,
+      			    	"rotates": false
+			},{
+        			  "id": "overlay_wielded_liquid_metal_gloves_hsurvivor",
+      			    	  "fg": 0,
+      			    	"rotates": false
+			},{
+        			  "id": "liquid_metal_mask_lsurvivor",
+      			    	  "fg": 1,
+      			    	"rotates": false
+			},{
+        			  "id": "overlay_worn_liquid_metal_mask_lsurvivor",
+      			    	  "fg": 1,
+      			    	"rotates": false
+			},{
+        			  "id": "overlay_wielded_liquid_metal_mask_lsurvivor",
+      			    	  "fg": 1,
+      			    	"rotates": false
+			},{
+        			  "id": "liquid_metal_mask_survivor",
+      			    	  "fg": 2,
+      			    	"rotates": false
+			},{
+        			  "id": "overlay_worn_liquid_metal_mask_survivor",
+      			    	  "fg": 2,
+      			    	"rotates": false
+			},{
+        			  "id": "overlay_wielded_liquid_metal_mask_survivor",
+      			    	  "fg": 2,
+      			    	"rotates": false
+			},{
+        			  "id": "thigh_quiver",
+      			    	  "fg": 3,
+      			    	"rotates": false
+			},{
+        			  "id": "overlay_worn_thigh_quiver",
+      			    	  "fg": 3,
+      			    	"rotates": false
+			},{
+        			  "id": "overlay_wielded_thigh_quiver",
+      			    	  "fg": 3,
+      			    	"rotates": false
+			},{
+        			  "id": "quiver_medium",
+      			    	  "fg": 4,
+      			    	"rotates": false
+			},{
+        			  "id": "overlay_worn_quiver_medium",
+      			    	  "fg": 5,
+      			    	"rotates": false
+			},{
+        			  "id": "overlay_wielded_quiver_medium",
+      			    	  "fg": 4,
+      			    	"rotates": false
+			}
+			]
+		}
+	]
+   }
+]

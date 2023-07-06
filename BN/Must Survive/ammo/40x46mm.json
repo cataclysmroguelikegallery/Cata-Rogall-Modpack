@@ -42,19 +42,6 @@
     "extend": { "effects": [ "FRAG" ] }
   },
   {
-    "id": "40x46mm_m576",
-    "copy-from": "40x46mm_grenade",
-    "type": "AMMO",
-    "name": { "str": "40x46mm M576 buckshot" },
-    "description": "A 40x46mm buckshot load, designed for use in thick vegetation or room clearing.",
-    "weight": "120 g",
-    "range": 12,
-    "damage": { "damage_type": "bullet", "amount": 120 },
-    "recoil": 1000,
-    "casing": "40x46mm_m199_casing",
-    "extend": { "effects": [ "SHOT" ] }
-  },
-  {
     "id": "40x46mm_m651",
     "copy-from": "40x46mm_grenade",
     "type": "AMMO",
@@ -65,19 +52,6 @@
     "drop": "gasbomb_act",
     "casing": "40x46mm_m195_casing",
     "extend": { "effects": [ "NO_EMBED" ] }
-  },
-  {
-    "id": "40x46mm_buckshot_m118",
-    "copy-from": "40x46mm_grenade",
-    "type": "AMMO",
-    "name": { "str": "improvised 40x46mm buckshot" },
-    "description": "An improvised 40x46mm buckshot load somewhat resembling M576.  Aside from using the M118 casing normally used by HEDP shells, it performs as well as buckshot loads using the intended M199 casing.",
-    "weight": "120 g",
-    "range": 10,
-    "damage": { "damage_type": "bullet", "amount": 120 },
-    "recoil": 1000,
-    "casing": "40x46mm_m118_casing",
-    "extend": { "effects": [ "SHOT" ] }
   },
   {
     "id": "40x46mm_slug_m118",
@@ -106,29 +80,55 @@
     "casing": "40x46mm_m199_casing"
   },
   {
+    "id": "40x46mm_m576",
+    "copy-from": "40x46mm_grenade",
+    "type": "AMMO",
+    "name": { "str": "40x46mm M576 buckshot" },
+    "description": "A 40x46mm buckshot load, designed for use in thick vegetation or room clearing.",
+    "weight": "120 g",
+    "range": 0,
+    "shape": [ "cone", { "half_angle": 15, "length": 15 } ],
+    "damage": [{ "damage_type": "bullet", "amount": 12 },{ "damage_type": "bullet", "amount": 12 },{ "damage_type": "bullet", "amount": 12 },{ "damage_type": "bullet", "amount": 12 },{ "damage_type": "bullet", "amount": 12 },{ "damage_type": "bullet", "amount": 12 },{ "damage_type": "bullet", "amount": 12 },{ "damage_type": "bullet", "amount": 12 },{ "damage_type": "bullet", "amount": 12 }],
+    "recoil": 1000,
+    "casing": "40x46mm_m199_casing",
+    "extend": { "effects": [ "SHOT" ] }
+  },{
+    "id": "40x46mm_buckshot_m118",
+    "copy-from": "40x46mm_grenade",
+    "type": "AMMO",
+    "name": { "str": "improvised 40x46mm buckshot" },
+    "description": "An improvised 40x46mm buckshot load somewhat resembling M576.  Aside from using the M118 casing normally used by HEDP shells, it performs as well as buckshot loads using the intended M199 casing.",
+    "weight": "120 g",
+    "range": 0,
+    "shape": [ "cone", { "half_angle": 15, "length": 15 } ],
+    "damage": { "damage_type": "bullet", "amount": 120 },
+    "recoil": 1000,
+    "casing": "40x46mm_m118_casing"
+  },{
     "id": "40x46mm_flechette_m118",
     "copy-from": "40x46mm_grenade",
     "type": "AMMO",
     "name": { "str": "improvised 40x46mm flechette" },
     "description": "An improvised 40x46mm flechette load containing 70 steel darts.  Aside from using the M118 casing normally used by HEDP shells, it performs as well as flechette shells using the M199 casing.",
     "weight": "120 g",
-    "range": 10,
+    "range": 0,
+    "shape": [ "cone", { "half_angle": 15, "length": 15 } ],
     "//": "Balanced as AP.",
-    "damage": { "damage_type": "bullet", "amount": 84, "armor_penetration": 72 },
+    "damage": [{ "damage_type": "bullet", "amount": 8, "armor_penetration": 72 },{ "damage_type": "bullet", "amount": 8, "armor_penetration": 72 },{ "damage_type": "bullet", "amount": 8, "armor_penetration": 72 },{ "damage_type": "bullet", "amount": 8, "armor_penetration": 72 },{ "damage_type": "bullet", "amount": 8, "armor_penetration": 72 },{ "damage_type": "bullet", "amount": 8, "armor_penetration": 72 },{ "damage_type": "bullet", "amount": 8, "armor_penetration": 72 },{ "damage_type": "bullet", "amount": 8, "armor_penetration": 72 },{ "damage_type": "bullet", "amount": 8, "armor_penetration": 72 },{ "damage_type": "bullet", "amount": 8, "armor_penetration": 72 }],
     "recoil": 1000,
     "casing": "40x46mm_m118_casing",
     "extend": { "effects": [ "SHOT" ] }
-  },
-  {
+  }, {
     "id": "40x46mm_flechette_m199",
     "copy-from": "40x46mm_grenade",
     "type": "AMMO",
     "name": { "str": "improvised 40x46mm flechette" },
     "description": "An improvised 40x46mm flechette load containing 70 steel darts, loaded into the M199 casing used by M576 buckshot shells.",
     "weight": "120 g",
-    "range": 10,
+    "range": 0,
+    "shape": [ "cone", { "half_angle": 15, "length": 15 } ],
     "//": "Balanced as AP.",
-    "damage": { "damage_type": "bullet", "amount": 84, "armor_penetration": 72 },
+    "damage": [{ "damage_type": "bullet", "amount": 8, "armor_penetration": 72 },{ "damage_type": "bullet", "amount": 8, "armor_penetration": 72 },{ "damage_type": "bullet", "amount": 8, "armor_penetration": 72 },{ "damage_type": "bullet", "amount": 8, "armor_penetration": 72 },{ "damage_type": "bullet", "amount": 8, "armor_penetration": 72 },{ "damage_type": "bullet", "amount": 8, "armor_penetration": 72 },{ "damage_type": "bullet", "amount": 8, "armor_penetration": 72 },{ "damage_type": "bullet", "amount": 8, "armor_penetration": 72 },{ "damage_type": "bullet", "amount": 8, "armor_penetration": 72 },{ "damage_type": "bullet", "amount": 8, "armor_penetration": 72 }],
     "recoil": 1000,
     "casing": "40x46mm_m199_casing",
     "extend": { "effects": [ "SHOT" ] }

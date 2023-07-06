@@ -16,7 +16,8 @@
       ]
     ],
     "magazine_well": "525 ml",
-    "encumbrance": 20
+    "encumbrance": 20,
+	"max_charges": 0
   },
   {
     "id": "rm13_armor_on",
@@ -47,7 +48,8 @@
     "environmental_protection": 40,
     "encumbrance": 0,
     "qualities": [ [ "GLARE", 2 ] ],
-    "material_thickness": 5
+    "material_thickness": 5,
+	"max_charges": 0
   },
   {
     "id": "shark_suit_faraday",

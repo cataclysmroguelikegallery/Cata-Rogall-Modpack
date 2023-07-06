@@ -12,7 +12,14 @@
     "symbol": ":",
     "color": "light_gray",
     "location": "lens",
-    "mod_targets": [ "pistol", "smg", "shotgun", "rifle" ],
+    "mod_target_category": [
+      [ "ENERGY_WEAPONS", "PISTOLS" ],
+      [ "ENERGY_WEAPONS", "SUBMACHINE_GUNS" ],
+      [ "ENERGY_WEAPONS", "MACHINE_GUNS" ],
+      [ "ENERGY_WEAPONS", "GATLING_GUNS" ],
+      [ "ENERGY_WEAPONS", "SHOTGUNS" ],
+      [ "ENERGY_WEAPONS", "RIFLES" ]
+    ],
     "range_modifier": -25,
     "damage_modifier": { "damage_type": "heat", "amount": 10 },
     "ammo_effects": [ "SHOT" ]
@@ -30,7 +37,14 @@
     "symbol": ":",
     "color": "light_gray",
     "location": "lens",
-    "mod_targets": [ "pistol", "smg", "shotgun", "rifle" ],
+    "mod_target_category": [
+      [ "ENERGY_WEAPONS", "PISTOLS" ],
+      [ "ENERGY_WEAPONS", "SUBMACHINE_GUNS" ],
+      [ "ENERGY_WEAPONS", "MACHINE_GUNS" ],
+      [ "ENERGY_WEAPONS", "GATLING_GUNS" ],
+      [ "ENERGY_WEAPONS", "SHOTGUNS" ],
+      [ "ENERGY_WEAPONS", "RIFLES" ]
+    ],
     "range_modifier": 15,
     "damage_modifier": { "damage_type": "heat", "amount": 5 },
     "dispersion_modifier": 15
@@ -48,7 +62,14 @@
     "symbol": ":",
     "color": "light_gray",
     "location": "lens",
-    "mod_targets": [ "pistol", "smg", "shotgun", "rifle" ],
+    "mod_target_category": [
+      [ "ENERGY_WEAPONS", "PISTOLS" ],
+      [ "ENERGY_WEAPONS", "SUBMACHINE_GUNS" ],
+      [ "ENERGY_WEAPONS", "MACHINE_GUNS" ],
+      [ "ENERGY_WEAPONS", "GATLING_GUNS" ],
+      [ "ENERGY_WEAPONS", "SHOTGUNS" ],
+      [ "ENERGY_WEAPONS", "RIFLES" ]
+    ],
     "range_modifier": -25,
     "damage_modifier": { "damage_type": "heat", "amount": -8 },
     "ups_charges_multiplier": 1.2,
@@ -68,7 +89,14 @@
     "symbol": ":",
     "color": "light_gray",
     "location": "emitter",
-    "mod_targets": [ "pistol", "smg", "shotgun", "rifle" ],
+    "mod_target_category": [
+      [ "ENERGY_WEAPONS", "PISTOLS" ],
+      [ "ENERGY_WEAPONS", "SUBMACHINE_GUNS" ],
+      [ "ENERGY_WEAPONS", "MACHINE_GUNS" ],
+      [ "ENERGY_WEAPONS", "GATLING_GUNS" ],
+      [ "ENERGY_WEAPONS", "SHOTGUNS" ],
+      [ "ENERGY_WEAPONS", "RIFLES" ]
+    ],
     "ups_charges_multiplier": 0.9
   },
   {
@@ -85,7 +113,14 @@
     "symbol": ":",
     "color": "light_gray",
     "location": "emitter",
-    "mod_targets": [ "pistol", "smg", "shotgun", "rifle" ],
+    "mod_target_category": [
+      [ "ENERGY_WEAPONS", "PISTOLS" ],
+      [ "ENERGY_WEAPONS", "SUBMACHINE_GUNS" ],
+      [ "ENERGY_WEAPONS", "MACHINE_GUNS" ],
+      [ "ENERGY_WEAPONS", "GATLING_GUNS" ],
+      [ "ENERGY_WEAPONS", "SHOTGUNS" ],
+      [ "ENERGY_WEAPONS", "RIFLES" ]
+    ],
     "range_modifier": 5,
     "damage_modifier": { "damage_type": "heat", "amount": 10 },
     "ups_charges_multiplier": 2.0
@@ -99,19 +134,12 @@
     "category": "spare_parts",
     "description": "광자를 포집하고 저장하는 광선 고체화 기술은, 광자를 입자로 취급하여 다양한 응용 분야에서 활용됩니다. 이 작은 프로젝터는 광자가 일반적인 물질과 상호작용하여 광자를 잡아내고, 저장할 수 있는 기능을 제공합니다.",
     "price": "8140000 USD",
-	"looks_like": "standard_template_construct",
+    "looks_like": "standard_template_construct",
     "material": [ "superalloy" ],
     "weight": "225 g",
     "volume": "125 ml",
     "to_hit": -5,
-    "flags": [
-      "LIGHT_5",
-      "LEAK_DAM",
-      "RADIOACTIVE",
-      "TRADER_AVOID",
-      "NO_SALVAGE",
-      "NONCONDUCTIVE"
-    ]
+    "flags": [ "LIGHT_5", "LEAK_DAM", "RADIOACTIVE", "TRADER_AVOID", "NO_SALVAGE", "NONCONDUCTIVE" ]
   },
   {
     "type": "recipe",
@@ -133,7 +161,7 @@
       [ [ "plut_cell", 4 ] ],
       [ [ "cable", 30 ] ],
       [ [ "amplifier", 2 ] ],
-	  [ [ "teleporter", 1 ] ],
+      [ [ "teleporter", 1 ] ],
       [ [ "portal", 1 ] ],
       [ [ "ceramic_shard", 1 ] ],
       [ [ "oxy_powder", 100 ] ],
@@ -149,19 +177,12 @@
     "category": "spare_parts",
     "description": "가장 작은 별을 벼리는 기계 심장. 우라늄의 힘으로 가속시킨 수소의 핵융합으로 발생한 에너지를 안정적으로 공급하는 동력로입니다. 광학식 관성 가둠과 포탈 기술을 응용한 시간 지연으로 에너지 방출을 안정화하는데 성공화했습니다.",
     "price": "8140000 USD",
-	"looks_like": "fusion_pack",
+    "looks_like": "fusion_pack",
     "material": [ "superalloy" ],
     "weight": "1225 g",
     "volume": "125 ml",
     "to_hit": -5,
-    "flags": [
-      "LIGHT_5",
-      "LEAK_DAM",
-      "RADIOACTIVE",
-      "TRADER_AVOID",
-      "NO_SALVAGE",
-      "NONCONDUCTIVE"
-    ]
+    "flags": [ "LIGHT_5", "LEAK_DAM", "RADIOACTIVE", "TRADER_AVOID", "NO_SALVAGE", "NONCONDUCTIVE" ]
   },
   {
     "type": "recipe",
@@ -181,7 +202,7 @@
       [ [ "sq_depleted_uranium", 40 ] ],
       [ [ "sq_uranium_cell", 4 ] ],
       [ [ "amplifier", 2 ] ],
-	  [ [ "teleporter", 1 ] ],
+      [ [ "teleporter", 1 ] ],
       [ [ "portal", 1 ] ],
       [ [ "oxy_powder", 100 ] ],
       [ [ "platinum_small", 1 ] ]
@@ -200,7 +221,7 @@
     "symbol": "?",
     "color": "light_green",
     "skill": "electronics",
-	"looks_like": "recipe_lab_elec",
+    "looks_like": "recipe_lab_elec",
     "required_level": 9,
     "max_level": 10,
     "intelligence": 12,
@@ -220,7 +241,7 @@
     "symbol": "?",
     "color": "light_green",
     "skill": "electronics",
-	"looks_like": "recipe_lab_elec",
+    "looks_like": "recipe_lab_elec",
     "required_level": 9,
     "max_level": 10,
     "intelligence": 12,
@@ -292,7 +313,7 @@
       [ [ "smrifle_primer", 1 ] ],
       [ [ "gunpowder", 6 ] ],
       [ [ "copper", 1 ] ],
-	  [ [ "sq_depleted_uranium", 1 ] ],
+      [ [ "sq_depleted_uranium", 1 ] ],
       [ [ "incendiary", 1 ] ]
     ]
   },
@@ -362,9 +383,7 @@
     "using": [ [ "blacksmithing_standard", 16 ], [ "steel_standard", 4 ] ],
     "qualities": [ { "id": "CHISEL", "level": 3 } ],
     "tools": [ [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ] ],
-    "components": [
-      [ [ "sq_depleted_uranium", 10 ] ]
-    ]
+    "components": [ [ [ "sq_depleted_uranium", 10 ] ] ]
   },
   {
     "result": "50_mk211",
@@ -384,14 +403,14 @@
       [ [ "lgrifle_primer", 1 ] ],
       [ [ "gunpowder", 30 ] ],
       [ [ "chem_rdx", 30 ] ],
-	  [ [ "scrap", 1 ] ],
+      [ [ "scrap", 1 ] ],
       [ [ "sq_depleted_uranium", 6 ] ],
       [ [ "incendiary", 20 ] ]
     ]
   },
   {
     "id": "scrap",
-	"copy-from": "scrap",
+    "copy-from": "scrap",
     "type": "AMMO",
     "category": "spare_parts",
     "name": { "str": "scrap metal" },
@@ -613,8 +632,8 @@
     "range": 50,
     "ranged_damage": { "damage_type": "heat", "amount": 50, "armor_penetration": 32 },
     "dispersion": 0,
-	"recoil": 900,
-	"min_cycle_recoil": 2600,
+    "recoil": 900,
+    "min_cycle_recoil": 2600,
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "AUTO", "auto", 2 ] ],
     "loudness": 36,
     "ups_charges": 60,
@@ -673,7 +692,7 @@
     "ranged_damage": { "damage_type": "heat", "amount": 50, "armor_penetration": 36 },
     "range": 35,
     "dispersion": 80,
-	"recoil": 1000,
+    "recoil": 1000,
     "durability": 8,
     "reload": 50,
     "ups_charges": 30,
@@ -719,7 +738,18 @@
     "price_postapoc": 22500,
     "symbol": "/",
     "material": [ "superalloy" ],
-    "flags": [ "LEAK_DAM", "RADIOACTIVE", "NO_SALVAGE", "NONCONDUCTIVE", "DURABLE_MELEE", "REACH_ATTACK", "NONCONDUCTIVE", "POLEARM", "SHEATH_SPEAR", "ALWAYS_TWOHAND" ],
+    "flags": [
+      "LEAK_DAM",
+      "RADIOACTIVE",
+      "NO_SALVAGE",
+      "NONCONDUCTIVE",
+      "DURABLE_MELEE",
+      "REACH_ATTACK",
+      "NONCONDUCTIVE",
+      "POLEARM",
+      "SHEATH_SPEAR",
+      "ALWAYS_TWOHAND"
+    ],
     "use_action": {
       "menu_text": "Expand",
       "type": "transform",
@@ -749,9 +779,9 @@
       "TRADER_AVOID",
       "NO_SALVAGE",
       "NONCONDUCTIVE",
-	  "POLEARM",
-	  "SHEATH_SPEAR",
-	  "ALWAYS_TWOHAND"
+      "POLEARM",
+      "SHEATH_SPEAR",
+      "ALWAYS_TWOHAND"
     ],
     "use_action": {
       "menu_text": "Collapse",
@@ -825,8 +855,8 @@
     "modes": [ [ "DEFAULT", "단발", 1 ], [ "BURST", "패닝", 5 ] ],
     "dispersion": 190,
     "durability": 8,
-	"recoil": 1800,
-	"min_cycle_recoil": 3100,
+    "recoil": 1800,
+    "min_cycle_recoil": 3100,
     "clip_size": 5,
     "reload": 60,
     "ups_charges": 25,
@@ -892,8 +922,8 @@
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 2 ] ],
     "dispersion": 230,
     "durability": 8,
-	"recoil": 2500,
-	"min_cycle_recoil": 800,
+    "recoil": 2500,
+    "min_cycle_recoil": 800,
     "clip_size": 6,
     "reload": 200,
     "ups_charges": 30,
@@ -928,7 +958,7 @@
       [ [ "cable", 100 ] ],
       [ [ "sq_fusion_core", 1 ] ],
       [ [ "nanomaterial", 50 ] ],
-	  [ [ "condensor_coil", 2 ] ],
+      [ [ "condensor_coil", 2 ] ],
       [ [ "sq_uranium_cell", 2 ] ],
       [ [ "e_scrap", 10 ] ],
       [ [ "high_density_capacitor", 2 ] ],
@@ -960,8 +990,8 @@
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "AUTO", "auto", 2 ] ],
     "dispersion": 100,
     "durability": 8,
-	"recoil": 1500,
-	"min_cycle_recoil": 1500,
+    "recoil": 1500,
+    "min_cycle_recoil": 1500,
     "clip_size": 20,
     "reload": 100,
     "ups_charges": 30,
@@ -1027,7 +1057,7 @@
     "modes": [ [ "DEFAULT", "semi", 1 ] ],
     "dispersion": 30,
     "durability": 8,
-	"recoil": 3000,
+    "recoil": 3000,
     "clip_size": 4,
     "reload": 100,
     "ups_charges": 50,
@@ -1093,8 +1123,8 @@
     "modes": [ [ "DEFAULT", "burst", 2 ], [ "AUTO", "고속 자동", 5 ] ],
     "dispersion": 100,
     "durability": 8,
-	"recoil": 2100,
-	"min_cycle_recoil": 1500,
+    "recoil": 2100,
+    "min_cycle_recoil": 1500,
     "clip_size": 50,
     "reload": 400,
     "ups_charges": 40,
@@ -1147,7 +1177,21 @@
     "color": "magenta",
     "symbol": "/",
     "material": [ "depleted_uranium", "superalloy" ],
-    "flags": [ "REACH_ATTACK", "SPEAR", "ALWAYS_TWOHAND", "UNBREAKABLE_MELEE", "POLEARM", "SHEATH_SPEAR", "NEVER_JAMS", "NON-FOULING", "FIRESTARTER", "PYROMANIAC_WEAPON", "USE_UPS", "NO_UNLOAD", "NO_RELOAD" ],
+    "flags": [
+      "REACH_ATTACK",
+      "SPEAR",
+      "ALWAYS_TWOHAND",
+      "UNBREAKABLE_MELEE",
+      "POLEARM",
+      "SHEATH_SPEAR",
+      "NEVER_JAMS",
+      "NON-FOULING",
+      "FIRESTARTER",
+      "PYROMANIAC_WEAPON",
+      "USE_UPS",
+      "NO_UNLOAD",
+      "NO_RELOAD"
+    ],
     "techniques": [ "WBLOCK_1", "BRUTAL", "WIDE", "SPIN", "SWEEP" ],
     "volume": "4850 ml",
     "bashing": 120,
@@ -1156,17 +1200,17 @@
     "price": 2112000,
     "price_postapoc": 15000,
     "gun_data": {
-		"skill": "launcher",
-		"ups_charges": 50,
-		"range": 30,
-		"loudness": 120,
-		"dispersion": 0,
-		"durability": 10,
-		"sight_dispersion": 0,
-		"ammo": "battery",
-		"ranged_damage": { "damage_type": "heat","amount": 60 },
-		"modes": [ [ "DEFAULT", "화염 강타", 1 ] ],
-       "ammo_effects": [ "STREAM_BIG", "FLAME", "SHOT", "WIDE" ]
+      "skill": "launcher",
+      "ups_charges": 50,
+      "range": 30,
+      "loudness": 120,
+      "dispersion": 0,
+      "durability": 10,
+      "sight_dispersion": 0,
+      "ammo": "battery",
+      "ranged_damage": { "damage_type": "heat", "amount": 60 },
+      "modes": [ [ "DEFAULT", "화염 강타", 1 ] ],
+      "ammo_effects": [ "STREAM_BIG", "FLAME", "SHOT", "WIDE" ]
     },
     "use_action": { "type": "firestarter", "moves": 200 },
     "qualities": [ [ "HAMMER", 1 ] ]

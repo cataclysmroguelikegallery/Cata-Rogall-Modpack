@@ -1,0 +1,250 @@
+[
+  {
+    "type": "mod_tileset",
+    "compatibility": [ "64PIXEL_UNDEAD_PEOPLE_VULPECULA" ],
+    "tiles-new": [
+      {
+        "file": "external_tileset/acidpool.png",
+        "tiles": [{
+          "id": "fd_acid",
+          "fg": 15,
+          "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "center",
+              "animated": true,
+              "fg": [
+                {
+                  "weight": 8,
+                  "sprite": 0
+                },
+                {
+                  "weight": 8,
+                  "sprite": 16
+                },
+                {
+                  "weight": 8,
+                  "sprite": 32
+                },
+                {
+                  "weight": 8,
+                  "sprite": 48
+                },
+                {
+                  "weight": 8,
+                  "sprite": 64
+                },
+                {
+                  "weight": 8,
+                  "sprite": 80
+                },
+                {
+                  "weight": 8,
+                  "sprite": 96
+                },
+                {
+                  "weight": 8,
+                  "sprite": 112
+                }
+              ]
+            },
+            {
+              "id": "corner",
+              "animated": true,
+              "fg": [
+                {
+                  "weight": 8,
+                  "sprite": [ 1, 2, 3, 4 ]
+                },
+                {
+                  "weight": 8,
+                  "sprite": [ 17, 18, 19, 20 ]
+                },
+                {
+                  "weight": 8,
+                  "sprite": [ 33, 34, 35, 36 ]
+                },
+                {
+                  "weight": 8,
+                  "sprite": [ 49, 50, 51, 52 ]
+                },
+                {
+                  "weight": 8,
+                  "sprite": [ 65, 66, 67, 68 ]
+                },
+                {
+                  "weight": 8,
+                  "sprite": [ 81, 82, 83, 84 ]
+                },
+                {
+                  "weight": 8,
+                  "sprite": [ 97, 98, 99, 100 ]
+                },
+                {
+                  "weight": 8,
+                  "sprite": [ 113, 114, 115, 116 ]
+                }
+              ]
+            },
+            {
+              "id": "end_piece",
+              "animated": true,
+              "fg": [
+                {
+                  "weight": 8,
+                  "sprite": [ 5, 6, 7, 8 ]
+                },
+                {
+                  "weight": 8,
+                  "sprite": [ 21, 22, 23, 24 ]
+                },
+                {
+                  "weight": 8,
+                  "sprite": [ 37, 38, 39, 40 ]
+                },
+                {
+                  "weight": 8,
+                  "sprite": [ 53, 54, 55, 56 ]
+                },
+                {
+                  "weight": 8,
+                  "sprite": [ 69, 70, 71, 72 ]
+                },
+                {
+                  "weight": 8,
+                  "sprite": [ 85, 86, 87, 88 ]
+                },
+                {
+                  "weight": 8,
+                  "sprite": [ 101, 102, 103, 104 ]
+                },
+                {
+                  "weight": 8,
+                  "sprite": [ 117, 118, 119, 120 ]
+                }
+              ]
+            },
+            {
+              "id": "edge",
+              "animated": true,
+              "fg": [
+                {
+                  "weight": 8,
+                  "sprite": [ 9, 10 ]
+                },
+                {
+                  "weight": 8,
+                  "sprite": [ 25, 26 ]
+                },
+                {
+                  "weight": 8,
+                  "sprite": [ 41, 42 ]
+                },
+                {
+                  "weight": 8,
+                  "sprite": [ 57, 58 ]
+                },
+                {
+                  "weight": 8,
+                  "sprite": [ 73, 74 ]
+                },
+                {
+                  "weight": 8,
+                  "sprite": [ 89, 90 ]
+                },
+                {
+                  "weight": 8,
+                  "sprite": [ 105, 106 ]
+                },
+                {
+                  "weight": 8,
+                  "sprite": [ 121, 122 ]
+                }
+
+              ]
+            },
+            {
+              "id": "t_connection",
+              "animated": true,
+              "fg": [
+                {
+                  "weight": 8,
+                  "sprite": [ 11, 12, 13, 14 ]
+                },
+                {
+                  "weight": 8,
+                  "sprite": [ 27, 28, 29, 30 ]
+                },
+                {
+                  "weight": 8,
+                  "sprite": [ 43, 44, 45, 46 ]
+                },
+                {
+                  "weight": 8,
+                  "sprite": [ 59, 60, 61, 62 ]
+                },
+                {
+                  "weight": 8,
+                  "sprite": [ 75, 76, 77, 78 ]
+                },
+                {
+                  "weight": 8,
+                  "sprite": [ 91, 92, 93, 94 ]
+                },
+                {
+                  "weight": 8,
+                  "sprite": [ 107, 108, 109, 110 ]
+                },
+                {
+                  "weight": 8,
+                  "sprite": [ 123, 124, 125, 126 ]
+                }
+              ]
+            },
+            {
+              "id": "unconnected",
+              "animated": true,
+              "fg": [
+                {
+                  "weight": 8,
+                  "sprite": [ 15, 15 ]
+                },
+                {
+                  "weight": 8,
+                  "sprite": [ 31, 31 ]
+                },
+                {
+                  "weight": 8,
+                  "sprite": [ 47, 47 ]
+                },
+                {
+                  "weight": 8,
+                  "sprite": [ 63, 63 ]
+                },
+                {
+                  "weight": 8,
+                  "sprite": [ 79, 79 ]
+                },
+                {
+                  "weight": 8,
+                  "sprite": [ 95, 95 ]
+                },
+                {
+                  "weight": 8,
+                  "sprite": [ 111, 111 ]
+                },
+                {
+                  "weight": 8,
+                  "sprite": [ 127, 127 ]
+                }
+              ]
+            }
+          ]
+        }
+ ],
+        "sprite_width": 64,
+        "sprite_height": 64
+      }
+    ]
+  }
+]

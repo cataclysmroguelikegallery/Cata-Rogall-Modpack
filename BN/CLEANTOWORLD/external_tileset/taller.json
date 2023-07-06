@@ -1,0 +1,24 @@
+[
+  {
+    "type": "mod_tileset",
+    "compatibility": [ "64PIXEL_UNDEAD_PEOPLE_VULPECULA" ],
+    "tiles-new": [
+      {
+        "file": "external_tileset/taller.png",
+        "sprite_width": 64,
+        "sprite_height": 128,
+      "sprite_offset_x": 0,
+      "sprite_offset_y": -64,
+      "tiles": [
+        { "id": "f_dancing_pole", "fg": 0 },
+        { "id": "t_floor_olight", "fg": 1 },
+        { "id": "t_metal_floor_olight", "fg": 2 },
+        { "id": "t_thconc_floor_olight", "fg": 3 }
+      ]
+    }
+ ]
+
+      }
+    ]
+  }
+]
