@@ -7,7 +7,7 @@
     "description": "케블라로 튼튼하게 보강되고, 노멕스 방화 직물로 만들어진, 1.5L까지 담을 수 있는 밀리터리 스타일 수통. 주로 허리에 착용합니다.",
     "material": [ "kevlar", "nomex" ],
 	"looks_like": "canteen",
-    "armor_data": { "covers": [ "leg_either" ], "coverage": 5, "encumbrance": 2, "material_thickness": 2, "environmental_protection": 10 }
+    "armor_data": { "covers": [ "leg_either" ], "coverage": 5, "encumbrance": 2, "material_thickness": 3, "environmental_protection": 10 }
   },
   {
     "id": "sq_fsurvivor_vest",
@@ -17,6 +17,7 @@
     "description": "케블라로 튼튼하게 보강되고, 노멕스 방화 직물로 만들어진, 주머니가 주렁주렁 달린 경량 수제 하네스. 소형 소총 혹은 유사한 무기를 고정할 수 있는 줄이 달려 있습니다. 견고하며, 착용하기 편안하도록 제작되었습니다. [사용]해서 무기를 넣거나 꺼낼 수 있습니다.",
     "material": [ "kevlar", "nomex" ],
     "looks_like": "survivor_vest",
+    "material_thickness": 5,
     "environmental_protection": 10
   },
   {
@@ -27,6 +28,7 @@
     "description": "케블라로 튼튼하게 보강되고, 노멕스 방화 직물로 만들어진 다용도벨트. 줄과 작은 칼을 넣을 수 있는 주머니가 달려 있습니다. 견고하고 착용시 편안하도록 만들어져 있습니다. 사용하면 무기를 넣거나 뺍니다.",
     "material": [ "kevlar", "nomex" ],
     "looks_like": "survivor_belt",
+    "material_thickness": 6,
     "environmental_protection": 10
   },
   {
@@ -37,7 +39,7 @@
     "description": "케블라로 튼튼하게 보강되고, 노멕스 방화 직물로 만들어진, 더 오래 가도록 크고 효율적인 배터리팩을 설치한 개조된 LED 헤드램프입니다. 머리에 쓰거나 헬멧에 달 수 있도록 조절할 수 있는 끈이 달려있습니다. 사용하면 전원을 켭니다.",
     "material": [ "kevlar", "nomex", "aluminum" ],
     "looks_like": "survivor_light",
-    "material_thickness": 2,
+    "material_thickness": 3,
     "environmental_protection": 10,
     "use_action": {
       "type": "transform",
@@ -56,7 +58,7 @@
     "description": "케블라로 튼튼하게 보강되고, 노멕스 방화 직물로 만들어진, 더 오래 가도록 크고 효율적인 배터리팩을 설치한 개조된 LED 헤드램프입니다. 머리에 쓰거나 헬멧에 달 수 있도록 조절할 수 있는 끈이 달려있습니다. 현재 켜져있으며 지속적으로 배터리를 소모하고 있습니다. 사용하면 전원을 끕니다.",
     "material": [ "kevlar", "nomex", "aluminum" ],
     "looks_like": "survivor_light_on",
-    "material_thickness": 2,
+    "material_thickness": 3,
     "environmental_protection": 10,
     "revert_to": "sq_fsurvivor_light",
     "use_action": { "type": "transform", "menu_text": "Turn off", "msg": "The %s flicks off.", "target": "sq_fsurvivor_light" }
@@ -69,7 +71,7 @@
     "description": "케블라로 튼튼하게 보강되고, 노멕스 방화 직물로 만들어진, 핵에너지의 신비한 힘으로 돌아가는 개조된 강화 헤드램프입니다. 더 유용한 빛을 내는데 초점을 맞췄습니다. 머리에 쓰거나 헬멧에 달 수 있도록 조절할 수 있는 끈이 달려있습니다. 사용하면 커버를 덮어 빛을 숨깁니다.",
     "material": [ "kevlar", "nomex", "steel" ],
     "looks_like": "wearable_atomic_light",
-    "material_thickness": 2,
+    "material_thickness": 3,
     "environmental_protection": 10,
     "use_action": {
       "type": "transform",
@@ -87,7 +89,7 @@
     "description": "케블라로 튼튼하게 보강되고, 노멕스 방화 직물로 만들어진, 핵에너지의 신비한 힘으로 돌아가는 개조된 강화 헤드램프입니다. 더 유용한 빛을 내는데 초점을 맞췄습니다. 머리에 쓰거나 헬멧에 달 수 있도록 조절할 수 있는 끈이 달려있습니다. 사용하면 커버를 열어 빛을 드러냅니다.",
     "material": [ "kevlar", "nomex", "steel" ],
     "looks_like": "wearable_atomic_light_off",
-    "material_thickness": 2,
+    "material_thickness": 3,
     "environmental_protection": 10,
     "use_action": {
       "type": "transform",
@@ -104,6 +106,7 @@
     "description": "케블라로 튼튼하게 보강되고, 노멕스 방화 직물로 만들어진, 검처럼 큰 날붙이를 넣어둘 수 있는 큰 조정식 검집. 사용하면 무기를 집어넣거나 뽑아들 수 있습니다.",
     "material": [ "kevlar", "nomex" ],
 	"looks_like": "scabbard",
+    "material_thickness": 3,
     "environmental_protection": 10
   },
   {
@@ -114,6 +117,7 @@
     "description": "케블라로 튼튼하게 보강되고, 노멕스 방화 직물로 만들어진, 나이프나 작은 칼을 넣을 수 있는 칼집. 연습 없이도 꽤 사용하기 쉽습니다. 사용하면 무기를 집어넣거나 뽑아 들 수 있습니다.",
     "material": [ "kevlar", "nomex" ],
 	"looks_like": "sheath",
+    "material_thickness": 3,
     "environmental_protection": 10
   },
   {
@@ -124,6 +128,7 @@
     "description": "케블라로 튼튼하게 보강되고, 노멕스 방화 직물로 만들어진, 발목에 착용하는 은닉용 소형 칼집. 연습 없이는 사용하기 불편합니다. 사용하면 무기를 집어넣거나 뽑아들 수 있습니다.",
     "material": [ "kevlar", "nomex" ],
 	"looks_like": "bootsheath",
+    "material_thickness": 3,
     "environmental_protection": 10
   },
   {
@@ -134,6 +139,7 @@
     "description": "케블라로 튼튼하게 보강되고, 노멕스 방화 직물로 만들어진, 롱소드 정도의 칼이나 더 큰 것도 넣을 수 있는 검집. 허리에 착용하고, 어깨 끈으로 고정하도록 되어 있습니다. 사용하면 검을 넣거나 뽑습니다.",
     "material": [ "kevlar", "nomex" ],
 	"looks_like": "baldric",
+    "material_thickness": 3,
     "environmental_protection": 10
   },
   {
@@ -144,6 +150,7 @@
     "description": "케블라로 튼튼하게 보강되고, 노멕스 방화 직물로 만들어진, 권총 크기의 총을 넣어둘 수 있도록 옆구리에 매는 끈. 사용하면 총을 집어넣거나 뽑아들 수 있습니다.",
     "material": [ "kevlar", "nomex" ],
 	"looks_like": "holster",
+    "material_thickness": 3,
     "environmental_protection": 10
   },
   {
@@ -154,6 +161,7 @@
     "description": "케블라로 튼튼하게 보강되고, 노멕스 방화 직물로 만들어진, 활을 보호하고 쉽게 꺼내기 위해 만든 활 걸이. 작동시켜 활을 넣거나 꺼냅니다.",
     "material": [ "kevlar", "nomex" ],
 	"looks_like": "bow_sling",
+    "material_thickness": 3,
     "environmental_protection": 10
   },
   {
@@ -164,6 +172,7 @@
     "description": "케블라로 튼튼하게 보강되고, 노멕스 방화 직물로 만들어진 도끼 링 홀스터. 허리에 도끼를 매달고 다닐 수 있습니다.",
     "material": [ "kevlar", "nomex" ],
 	"looks_like": "axe_ring",
+    "material_thickness": 3,
     "environmental_protection": 10
   },
   {
@@ -174,6 +183,7 @@
     "description": "케블라로 튼튼하게 보강되고, 노멕스 방화 직물로 만들어진, 창걸이 끈. 창을 착용한 상태로는 문을 지나갈때 숙여야합니다. 사용해서 무기를 넣거나 빼듭니다.",
     "material": [ "kevlar", "nomex" ],
 	"looks_like": "spearsling",
+    "material_thickness": 3,
     "environmental_protection": 10
   },
   {
@@ -184,6 +194,7 @@
     "description": "케블라로 튼튼하게 보강되고, 노멕스 방화 직물로 만들어진 맞춤형 배낭. 최대한 많은 물건을 집어넣을 수 있도록 튼튼하고 세심하게 만들어졌습니다.",
     "material": [ "kevlar", "nomex" ],
 	"looks_like": "survivor_pack",
+    "material_thickness": 4,
     "environmental_protection": 10
   },
   {
@@ -194,6 +205,7 @@
     "description": "케블라로 튼튼하게 보강되고, 노멕스 방화 직물로 만들어진 큼직한 맞춤형 배낭. 최대한 많은 물건을 집어넣을 수 있도록 튼튼하고 세심하게 만들어졌습니다.",
     "material": [ "kevlar", "nomex" ],
 	"looks_like": "survivor_rucksack",
+    "material_thickness": 4,
     "environmental_protection": 10
   },
   {
@@ -204,6 +216,7 @@
     "description": "케블라로 튼튼하게 보강되고, 노멕스 방화 직물로 만들어진 큼직한 맞춤형 더플백. 최대한 많은 물건을 집어넣을 수 있도록 튼튼하고 세심하게 만들어졌습니다.",
     "material": [ "kevlar", "nomex" ],
 	"looks_like": "survivor_duffel_bag",
+    "material_thickness": 4,
     "environmental_protection": 10
   },
   {
@@ -214,6 +227,7 @@
     "description": "케블라로 튼튼하게 보강되고, 노멕스 방화 직물로 만들어진 맞춤형 경량 러너팩. 최대한 많은 물건을 집어넣을 수 있도록 튼튼하고 세심하게 만들어졌습니다.",
     "material": [ "kevlar", "nomex" ],
 	"looks_like": "survivor_runner_pack",
+    "material_thickness": 4,
     "environmental_protection": 10
   },
   {
@@ -224,6 +238,7 @@
     "description": "케블라로 튼튼하게 보강되고, 노멕스 방화 직물로 만들어진 아웃도어 활동에 적당한 수제 배낭으로, 최대한 많은 물건을 집어넣을 수 있도록 튼튼하고 세심하게 만들어졌습니다.",
     "material": [ "kevlar", "nomex" ],
 	"looks_like": "survivor_hiking_backpack",
+    "material_thickness": 4,
     "environmental_protection": 10
   },
   {
@@ -234,6 +249,7 @@
     "description": "케블라로 튼튼하게 보강되고, 노멕스 방화 직물로 만들어진, 무릎 보호용 패드 한 쌍.",
     "material": [ "kevlar", "nomex" ],
 	"looks_like": "knee_pads",
+    "material_thickness": 7,
     "environmental_protection": 10
   },
   {
@@ -244,6 +260,7 @@
     "description": "케블라로 튼튼하게 보강되고, 노멕스 방화 직물로 만들어진, 팔꿈치 보호용 패드.",
     "material": [ "kevlar", "nomex" ],
 	"looks_like": "elbow_pads",
+    "material_thickness": 7,
     "environmental_protection": 10
   },
   {
@@ -298,6 +315,7 @@
     "description": "케블라로 튼튼하게 보강되고, 노멕스 방화 직물로 만들어진 탄약 주머니. 탄창이나 스피드로더 하나를 쉽게 꺼낼 수 있게 담아서 가슴팍에 매달아둘 수 있습니다.",
     "material": [ "kevlar", "nomex" ],
 	"looks_like": "chestpouch",
+    "material_thickness": 3,
     "environmental_protection": 10
   },
   {
@@ -308,6 +326,7 @@
     "description": "케블라로 튼튼하게 보강되고, 노멕스 방화 직물로 만들어진 탄약 주머니. 다리에 고정시키며, 한 손 크기의 탄창 2개를 수납할 수 있습니다.",
     "material": [ "kevlar", "nomex" ],
 	"looks_like": "legpouch_large",
+    "material_thickness": 3,
     "environmental_protection": 10
   },
   {
@@ -318,6 +337,7 @@
     "description": "케블라로 튼튼하게 보강되고, 노멕스 방화 직물로 만들어진 탄약 주머니. 탄창이나 스피드로더 하나를 쉽게 꺼낼 수 있게 담아서 발목에 매달아둘 수 있습니다.",
     "material": [ "kevlar", "nomex" ],
 	"looks_like": "legpouch",
+    "material_thickness": 3,
     "environmental_protection": 10
   },
   {
@@ -328,6 +348,7 @@
     "description": "케블라로 튼튼하게 보강되고, 노멕스 방화 직물로 만들어진 개인화기 탄약 주머니. 로켓탄은 들어가지 않습니다. 사용해서 탄약을 넣습니다.",
     "material": [ "kevlar", "nomex" ],
 	"looks_like": "ammo_pouch",
+    "material_thickness": 3,
     "environmental_protection": 10
   },
   {
@@ -338,6 +359,7 @@
     "description": "노멕스 방화 직물로 만들어진, 다양한 종류의 유탄을 4개까지 담을 수 있는 주머니.",
     "material": [ "nomex" ],
 	"looks_like": "grenadebandolier",
+    "material_thickness": 3,
     "environmental_protection": 10
   },
   {
@@ -348,6 +370,7 @@
     "description": "노멕스 방화 직물로 만들어진, 유탄을 보관할 수 있는 주머니. 스트랩이 있어서 벨트나 다른 띠에 부착할 수 있습니다.",
     "material": [ "nomex" ],
 	"looks_like": "grenade_pouch",
+    "material_thickness": 3,
     "environmental_protection": 10
   },
   {
@@ -358,6 +381,7 @@
     "description": "노멕스 방화 직물로 만들어진, 대형 화기의 보관을 위해 고리와 스트랩으로 만들어진 벨트 형태의 총집. 총집을 다리에 고정시키는 스트랩 때문에 일반 총집보다 거추장스럽습니다. 사용하면 총을 집어넣거나 뽑을 수 있습니다.",
     "material": [ "nomex" ],
     "looks_like": "XL_holster",
+    "material_thickness": 3,
     "environmental_protection": 10
   },
   {
@@ -368,6 +392,7 @@
     "description": "노멕스 방화 직물로 만들어진, 소총 같은 커다란 총이 들어갈 만큼 큰 총집. 등에 매도록 만들어졌습니다. 처음 사용하면 불편하지만 연습하면 더 쉽게 사용할 수 있으며, 사용하면 총을 집어넣거나 뽑아들 수 있습니다.",
     "material": [ "nomex" ],
     "looks_like": "XL_holster",
+    "material_thickness": 3,
     "environmental_protection": 10
   },
   {
