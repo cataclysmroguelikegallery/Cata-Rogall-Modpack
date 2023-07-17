@@ -40,6 +40,7 @@
     "covers": [ "arm_either", "hand_either" ],
     "coverage": 80,
     "encumbrance": 20,
+    "environmental_protection": 3,
     "material_thickness": 2,
     "techniques": [ "WBLOCK_2" ],
     "flags": [ "OVERSIZE", "BELTED", "RESTRICT_HANDS", "BLOCK_WHILE_WORN" ]
@@ -61,6 +62,7 @@
     "covers": [ "arm_either", "hand_either" ],
     "coverage": 70,
     "encumbrance": 9,
+    "environmental_protection": 3,
     "material_thickness": 7,
     "techniques": [ "WBLOCK_2" ],
     "flags": [ "OVERSIZE", "OUTER", "RESTRICT_HANDS", "BLOCK_WHILE_WORN" ]
@@ -83,6 +85,7 @@
     "covers": [ "arm_either", "hand_either" ],
     "coverage": 100,
     "encumbrance": 18,
+    "environmental_protection": 3,
     "material_thickness": 9,
     "techniques": [ "WBLOCK_3", "BRUTAL" ],
     "flags": [ "STURDY", "OVERSIZE", "OUTER", "RESTRICT_HANDS", "BLOCK_WHILE_WORN" ],
@@ -103,6 +106,7 @@
     "to_hit": -1,
     "bashing": 8,
     "encumbrance": 18,
+    "environmental_protection": 3,
     "symbol": "[",
     "flags": [ "STURDY", "OVERSIZE", "OUTER", "RESTRICT_HANDS", "ALLOWS_NATURAL_ATTACKS", "BLOCK_WHILE_WORN" ],
     "techniques": [ "WBLOCK_3", "BRUTAL" ],
@@ -126,8 +130,9 @@
     "symbol": "[",
     "color": "yellow",
     "covers": [ "arm_either", "hand_either" ],
-    "coverage": 95,
-    "encumbrance": 14,
+    "coverage": 100,
+    "encumbrance": 12,
+    "environmental_protection": 5,
     "material_thickness": 7,
     "use_action": {
       "type": "holster",
@@ -157,12 +162,13 @@
     "volume": "4500 ml",
     "to_hit": -1,
     "encumbrance": 20,
+    "environmental_protection": 10,
     "bashing": 8,
     "symbol": "[",
     "flags": [ "STURDY", "OVERSIZE", "OUTER", "RESTRICT_HANDS", "ALLOWS_NATURAL_ATTACKS", "BLOCK_WHILE_WORN", "FLASH_PROTECTION" ],
     "techniques": [ "WBLOCK_3", "BRUTAL" ],
     "coverage": 100,
-    "material_thickness": 5,
+    "material_thickness": 6,
     "use_action": { "type": "transform", "msg": "전술 방패를 전개하여 방어태세에 돌입합니다!", "target": "sq_swat_shield_act" }
   },
   {
@@ -179,11 +185,12 @@
     "volume": "8500 ml",
     "to_hit": -1,
     "encumbrance": 25,
+    "environmental_protection": 10,
     "symbol": "[",
     "flags": [ "STURDY", "OVERSIZE", "OUTER", "RESTRICT_HANDS", "ALLOWS_NATURAL_ATTACKS", "BLOCK_WHILE_WORN", "FLASH_PROTECTION" ],
     "techniques": [ "WBLOCK_3", "BRUTAL" ],
     "coverage": 100,
-    "material_thickness": 5,
+    "material_thickness": 7,
     "use_action": { "type": "transform", "msg": "전술 방패를 내립니다.", "target": "sq_swat_shield" }
   },
   {
@@ -201,12 +208,13 @@
     "volume": "3500 ml",
     "to_hit": -1,
     "encumbrance": 17,
+    "environmental_protection": 5,
     "bashing": 8,
     "symbol": "[",
     "flags": [ "STURDY", "OVERSIZE", "OUTER", "ALLOWS_NATURAL_ATTACKS", "BLOCK_WHILE_WORN" ],
     "techniques": [ "WBLOCK_3", "BRUTAL" ],
     "coverage": 90,
-    "material_thickness": 4,
+    "material_thickness": 7,
     "use_action": { "type": "transform", "msg": "전술 방패를 전개하여 돌격태세에 돌입합니다!", "target": "sq_swat_shield_1_act" }
   },
   {
@@ -223,11 +231,12 @@
     "volume": "8500 ml",
     "to_hit": -1,
     "encumbrance": 22,
+    "environmental_protection": 5,
     "symbol": "[",
     "flags": [ "STURDY", "OVERSIZE", "OUTER", "ALLOWS_NATURAL_ATTACKS", "BLOCK_WHILE_WORN" ],
     "techniques": [ "WBLOCK_3", "BRUTAL" ],
     "coverage": 90,
-    "material_thickness": 4,
+    "material_thickness": 5,
     "use_action": { "type": "transform", "msg": "전술 방패를 내립니다.", "target": "sq_swat_shield_1" }
   },
   {
