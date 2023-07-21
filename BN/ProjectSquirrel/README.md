@@ -42,7 +42,7 @@ Manupulator workbench (workbench that allows you to work at twice the speed)
 
 Tier 2: Matter Synthesizer: Nanocompressor (hydrogen container, nanofabricated materials, superalloys)
 
-*Superalloys can be disassembled with a hacksaw to get thin superalloys.
+*Superalloys can be disassembled with a metal saw to get thin superalloys.
 
 Isotope Centrifuge Forge: Enriched Uranium (raw material is toxic waste, maybe a g), Degraded Uranium, Uranium Fuel Cells, Plutonium Slurry, Plutonium Fuel Cells)
 
