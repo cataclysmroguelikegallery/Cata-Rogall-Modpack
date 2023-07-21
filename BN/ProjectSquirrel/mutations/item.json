@@ -1946,7 +1946,7 @@
     "id": "target_iv_mutagen_peralpha",
     "copy-from": "iv_mutagen_flavor",
     "type": "COMESTIBLE",
-    "name": "초인적 지각력 혈청",
+    "name": "최고의 지각력 혈청",
     "description": "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 물론 알파는 가장 작은 세부 사항까지 인식할 수 있지.",
     "color": "light_gray",
     "use_action": { "type": "mutagen_iv", "mutation_category": "PER_ALPHA" }

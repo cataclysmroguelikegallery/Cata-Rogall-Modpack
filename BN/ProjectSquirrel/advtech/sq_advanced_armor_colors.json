@@ -58,7 +58,7 @@
 	"copy-from": "sq_advanced_lsurvivor_suit_color_camo",
     "type": "ARMOR",
     "name": { "str": "파이어니어 도색: 시가전" },
-    "description": "파이어니어 환경 피갑복의 검은색 도색."
+    "description": "파이어니어 환경 피갑복의 시가전 도색."
   },
   {
     "id": "sq_advanced_hsurvivor_suit_color_urban",
@@ -203,7 +203,7 @@
 	"copy-from": "sq_advanced_lsurvivor_suit_visor_red",
     "type": "ARMOR",
     "name": { "str": "콜세어 바이저: 화이트" },
-    "description": "콜세어 기동 타격복의 퍼플 바이저."
+    "description": "콜세어 기동 타격복의 화이트 바이저."
   },
   {
     "id": "sq_advanced_fsurvivor_suit_visor_white",
