@@ -344,7 +344,7 @@
     "id": "sq_fammo_pouch",
 	"copy-from": "ammo_pouch",
     "type": "ARMOR",
-    "name": { "str": "생존용 방화 발목 탄약 주머니" },
+    "name": { "str": "생존용 방화 탄약 주머니" },
     "description": "케블라로 튼튼하게 보강되고, 노멕스 방화 직물로 만들어진 개인화기 탄약 주머니. 로켓탄은 들어가지 않습니다. 사용해서 탄약을 넣습니다.",
     "material": [ "kevlar", "nomex" ],
 	"looks_like": "ammo_pouch",

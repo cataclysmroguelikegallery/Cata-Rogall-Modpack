@@ -1,347 +1,354 @@
-1. 실전 압축 보관 아이템 추가
+# Project: Pack Rat requires rolling with the latest version of BN to enjoy the content.
+
+## 1. Add practical compression storage items
+
+Bundles of Rags 1L>0.5L
+Bundles of Leathers 1L>0.5L
+Bundles of Kevlar plates
+Bundles of Nomex
+Bundles of Plastic chunks
+Bundles of Chitins
+Bundles of Biosilicified Chitins
+Bundles of Planks
+Bundles of Splintered Wood
+Bundle of Glass Shards
+Bundle of Wires
+Bundle of pipes
+Bundle of scrap metal
+Bundles of layered carbides
+
+## 2. Build a nanomaterial container, add a portable CVD machine
+
+Requires at least Lab Report-Gustav to build these.
+In PPR 1.1, main tools will all be unified as 'Matter Synthesizer: Lorem Ipsum', and you will be able to evolve your own main tools to increase your skills, so you can make them in one tool instead of having to make multiple tools.
+
+- Tier 1: Atomic Forge (Graphene, Layered Carbide)
+Manupulator workbench (workbench that allows you to work at twice the speed)
+┏━━━━━━━━━━━━━━━━┛ 
+- Tier 2: Matter Synthesizer: Nanocompressor (hydrogen container, nanofabricated materials, superalloys) *Superalloys can be disassembled with a hacksaw to get thin superalloys.
+Isotope Centrifuge Forge: Enriched Uranium (raw material is toxic waste, maybe a g), Degraded Uranium, Uranium Fuel Cells, Plutonium Slurry, Plutonium Fuel Cells
+┏━━━━━━━━━━━━━━━━┛ 
+- Tier 3: Matter Synthesizer: Nano-precision sewing machines (electronics debris, RAM, wiring circuits, copper wire, solar cells, CBMs, AI cores, hardlight matrices, fusion cores)
+Uranium forge: Use A to continuously create enriched uranium, degraded uranium bullets,
+┏━━━━━━━━━━━━━━━━┛ 
+- Tier 4: Matter Synthesizer: Nanoprinter (all RM weapon series and RM13 Combat Armor, all Combat Armors, Hardlight weapons, Gauss weapons)
+
+- Portable CVD Machine: Set up, examine, and use as is. To retrieve it, smash it with S.
+
+## 3. Other items added
+
+- Advanced Nomad Suit/Nomad Harness: from DDA. Recipe from the book Surviving a Nuclear War.
+- Type-Boy: Smartwatch + bionic scanner + binocular function + two-way radio + radiation biomonitor. You know the motif.
+- Ranger Lightweight Combat Armor: Non-powered combat suit. A combination of various survival sets. A parody of the NCR Ranger combat armor from Fallout series.
+- Carbon Jumpsuit (a mass-produced, high-performance survival suit that can be made cheaply).
+- Nanopack bandages (bandages that instantly restore 20 health upon application)
+- Monomolecular wire: memorization made from monomolecular fibers. Extremely small in volume and capable of 3-square attacks. Has a -2 hit modifier instead.
+- Bionic Splint: A splint that attaches limbs 4x faster and is less intrusive.
+- Craftable hydrogen tanks and hydrogen canisters (needed for diamond coating).
+- Binary Sword: Used by Jesus in Madness Combat. Reborn in the Cataclysm.
+- Heat Blade: A shish kebab, a battery-consuming sharp-edged hot plate. Can set enemies on fire, of course.
+- Fire weapons are back. (from Nohope mod)
+- Bone armor can be crafted. (from No Hope mod)
+- Low to Mid tier bionics also can be crafted.
+- Hardlight weapons: Highly advanced optical weapons that feed on the Hardlight Matrix. They disrupt the wavelengths of light and fire what they solidify, making it possible to recreate lightsabers and blasters from the original movies with solidified light. These weapons are characterized by high hit rate, short range, and anti-personnel. Ammo uses UPS power.
+- Gaussian weapons: High mass weapons that feed on fusion cores, or fusion cores. These are the arc reactors from the movie What's up? You can't use fusion cores directly, but you can build Gauss weapons, which are personalized railguns. You can also create mechs, which I'll talk about later. Features include Barrett-like damage, low rate of fire, large and heavy, and the ability to break through walls and zombie skulls. Ammunition is steel rails, degraded uranium rails, and scrap metal (!).
+- Fireproof Gears:
+┏━━━━━━━━━━━━━━━━┛
+┣━ Survival fireproof canteen
+┣━ Survival fireproof harness
+┣━ Survival multi-purpose fire belt
+┣━ Survival fireproof headlamp
+┣━ Survival atomic fireproof headlamp
+┣━ Survival fireproof sheath
+┣━ Survival fireproof lantern sheath
+┣━ Survival fireproof handbag
+┣━ Survival fireproof small sheath
+┣━ Survival fireproof ankle sheath
+┣━ Survival fireproof pistol holster
+┣━ Survival fireproof bow sheath
+┣━ Survival fireproof axe ring holster
+┣━ Survival fireproof spear lanyard
+┣━ Survival Fireproof Backpack
+┣━ Survival fireproof rucksack (large backpack)
+┣━ Survival fireproof duffel bag
+┣━ Survival fireproof runner pack
+┣━ Survival fireproof mountain backpack
+┣━ Survival fireproof knee pads
+┣━ Survival fireproof elbow pads
+┣━ Survival Fireproof Arm Guard
+┣━ Survival Fireproof Leg Guards
+┣━ Survival Fireproof Breastplate
+┣━ Survival Fireproof Armor
+┣━ Survival Fireproof Chest Ammo Pouch
+┣━ Survival Fireproof Leg Ammo Pouches
+┣━ Survival Fireproof Ankle Ammo Pouch
+┣━ Survival Large Fireproof Grenade Pouch
+┣━ Survival Fireproof Grenade Pouch
+┣━ Survival fireproof oversized gun holster
+┣━ Survival fireproof back holster
+┣━ Survival Fireproof Duster Coat
+┗━ Survival Fireproof Trench Coat
+
+## 4. Make Your Own Combat Armor
+
+With the final content, you can create combat armor with different capabilities to suit your needs and preferences.
+Open to all common crafting 10 Computers 10 Electrical Engineering 10 Mechanical Engineering 10
+
+Survival Combat Armor (requires a Rivtech design binders)
+- A survivalist version of the Rivtech RM13 Combat Armor, with the design hastened by the setting. It is a sub-compatible version of the RM13 Combat Armor, with no armor increase when activated and a higher level of encumberance. Used as a material for the following three armors.
+
+"Rampart" Assault Armor
+
+- Semi-rigid combat armor made to resemble a walking tank. Increases strength by 2x when worn.
+- When used by a Survivor who fully understands the design of the Rivtech Combat Armor, it increases armor and grants additional parrying abilities, making it even more invulnerable in melee.
+- The Combat Armor's built-in circulatory management system provides a constant supply of oxygen, dramatically increasing stamina regeneration.
 
-천 묶음 1L>0.5L
-가죽 묶음 1L>0.5L
-케블라 장갑판 묶음
-노멕스 묶음
-플라스틱 묶음
-키틴질 묶음
-유기규소 키틴질 묶음
-널빤지 묶음
-쪼개진 나무 묶음
-유리 조각 묶음
-철사 묶음
-파이프 묶음
-고철 묶음
-겹층 탄화물 묶음
+"Corsair" Blitz Strike Suit
 
+- Non-rigid combat armor with the exact opposite characteristics of the Rampart.
+- It has low armor, but when worn, it increases your movement speed by 30% and increases your agility and perception by 3.
+- A versatile suit that can also be used as a work suit during the day thanks to its high Action Speed passive.
+- Its special ability allows you to stop time for 10 turns for 500 Power.
+- Combat Armor's built-in Synaptic Accelerator allows you to automatically parkour on tables, ledges, etc. without losing any Action Points.
 
+"Pioneer" Environmental Carapace
 
+- Non-rigid combat armor with defenses between Rampart and Corsair.
+- It has particularly high environmental protection and provides built-in gas, electricity, climate control system, and radiation immunity.
+- The special ability grants full protection from mind control and climate conditions, and prevents teleportation sickness.
+- In addition, the Combat Armor's built-in penetrating scanner provides moderate range vision, making it the GOAT in terms of convenience.
 
+Plus, they come in four different paint schemes: Military, Black, Urban, and Desert.
+Think of it as a skin concept, and if you don't like the look of your existing suit, it's very easy to slap on a paint job for a different suit. In short, it's a looker.
+And the visor skins, including the existing suit, come in the following colors: red orange (yellow) green sky blue purple white.
 
+"Warden" Heavy Combat Armor
 
-2. 나노물질용기 제작, 휴대용 CVD 머신 추가
+- Clunky combat armor that's cheap and can mimic Rampart at relatively low tiers. Think of it as a survivor's version of a power armor.
+- The arms are equipped with hydraulic muscles that, when activated, allow you to smash zombie heads like melting butter while unarmed.
+- It's a great value for the price.
 
-최소한 실험보고서-구스타프가 있어야 이것들을 만들 수 있음.
+"Legion" Powered Suit
 
-티어 1: 원자력 용광로(그래핀, 겹층탄화물)
+- A actual military suit. Holds 4 weapons of any type, 1.7x weight limit, increased healing speed, 2x perception, and more for the next generation of supersoldiers.
+- The best part is that it's always on, even when it's not.
+- It costs 100 power to use and instantly creates a blade-shaped plasma impact grenade, with the performance of this melee weapon and grenade depending on how strategically you use it.
+- Obtained from blueprint Drops.
 
-머니퓰레이터 작업대(2배 속도로 작업을 가능하게 해주는 작업대)
+"Revenant" Assassination Infiltration Suit
 
-티어 2: 고분자 압축기(수소용기, 나노제작물질, 초합금판)
+- An actual military suit #2. In the setting, this fearsome armor has a history of being used in small batches to assassinate enemy nationals during the Chinese-American War.
+- The suit's fluid upper construction of liquefied smart metal provides noise cancellation and body odor concealment.
+- Defense is below Corsair, but the special ability Stealth makes up for it.
+- The extra liquefied metal in hands can be used to transform them into blades, giving it enough killing power even when unarmed.
+- Obtained from blueprint drops.
 
-*초합금판은 쇠톱으로 분해시 얇은 초합금판을 얻을 수 있음.
+## 5. Add more items
 
-티어 3: 나노 정밀 재봉틀(전자기기잔해, 램, 배선회로, 구리선)
+Loop of Rope: from DDA.
 
-나노 프린터(모든 RM무기 시리즈 및 RM13 컴뱃아머)
+Shields
 
-*유감스럽게도 나노제작기를 휴대용으로 만드는건 불가능했음.
+- Plank Shield: A bundle of planks that can be crafted in crafting level 1.
+- Scrap Metal Shield: a metal plate with a handle.
+- Small Riot Shield: A buckler-shaped polearm.
+- Riot Shield: The plastic shield we all know. A very large plastic shield. When used, the shield can be raised into a defensive stance.
+- Tactical shield: Commando: Holds 2 magazines. Relatively lightweight. Begins to have legitimate bulletproof properties.
+- Tactical Shield: Bastion: A 12-kilogram bulletproof shield. R6S Montagne's specialty, of course. Provides full-body protection.
+- Tactical Shield: Frontline: A lighter version of the above shield, The Division 2 themed. Allows two-handed weapons. Can be used to shield all but the legs.
 
-휴대용 CVD 머신: 설치한다음 조사해서 그대로 사용하면 됨. 회수는 s키로 부숴서.
+Pack Frames (weight bonus equipment worn like a backpack).
 
+- Crude Pack Frame
+- Wooden Pack Frame
+- Pipe A-frame Pack
+- Steel Carrier Frame
+- Frame Backpack: Bag + Pipe A-frame. Drop Only.
+- Industrial Exoskeleton: Reinforced exoskeleton with large weight gain. Droptemplate.
+- Vanguard Exoskeleton: A reinforced exoskeleton with a weapon slot and a Strength stat bonus when worn. Drops as.
+- Sprinter Exoskeleton: Drops as a droplet. A reinforced exoskeleton that provides a bonus to movement speed when worn. Dropped item.
+- Rat-Pack: A backpack that is fireproof, provides 1.7x its weight, holds a medium-sized pet, holds 3 random weapons, and provides 120L.
+- Dimensional Stabilizer: Lab drop backpack that provides 300L. Also available in black.
 
+## 6. Balance Patches
 
+Fixed weird cat mutation sprites.
 
+Added barometer recipe.
 
+Added Monomolecular Blade and Bionic Claws to Escrima-applied weapons.
 
+Changed the attack type of the Monomolecular Blade to Piercing.
 
-3. 기타 아이템들 추가
+Added 40x46 Rivtech shell-less grenades.
 
-고급 노마드 슈트/유목민 하네스: DDA에서 생긴 그것. 핵전쟁에서 살아남기인지 뭐시기 책에서 레시피 나옴.
+Added a 2-square distance attack to the Zweihander
 
-카본 점프슈트(저렴하게 만들어 입을 수 있는 양산형 고성능 생존용 내복)
+Reduced the weight of the RM103A Automagnum by 200 grams and the RM2000 Submachine Gun by 300 grams.
 
-나노포장 붕대(적용시 즉시 체력 20을 회복시켜주는 붕대)
+Added a 2-point burst fire mode to the RM103A Magnum.
 
-제작이 가능한 수소탱크 및 수소용기(다이아몬드 코팅시 필요한 그것)
+Added 50- and 100-round magazines to the range of compatible magazines to address the RM2000 submachine gun's ambiguous status as a smg in terms of portability with small 25-round magazine capacity, and it was backward compatibility with the RM51 assault rifle with folding buttstock.
+* I've also modified it to spawn with a 50-round magazine inserted, giving it a lighter, smaller mini-assault rifle vibes.
 
-바이너리 소드: 매드니스 컴뱃의 예수가 사용하던 그것. 카타클에서 다시 태어남.
+Added a recipe for 8x40 ammo shells. The path to obtaining the recipe is the same as for the crafted 8x40 JHP.
 
+Increased the Hardtacks' batch production(b) speed bonuses from 50% to 83%. Biscuits can now be used as a valuable late-game preserve.
 
+UPS and Advanced UPS can now be equipped.
 
+Tankbots, Tri-Pods, and Chicken Walkers can now be disassembled and crafted.
 
+Removed equipment restrictions for all variants. (e.g., the Fluffy Tail mutation used to prevent you from wearing Combat Armor or Power Armor.)
 
+Power Armor is now tagged with the OVERSIZE tag, meaning that characters with the Giant Mutation can now wear Power Armor.
 
+- Become a Power Armor Super Mutant and enjoy the apocalypse!
+* Pointed horns, Antlers and Antennae traits are hardcoded to not wear normal-sized helmets!
 
-4. 직접 만드는 컴뱃아머
+Bank Vault: Increased drop chance of certain books to 1.5x.
 
-최종 컨텐츠로는 용도와 취향에 맞게 각기 다른 성능의 컴뱃아머를 제작 가능
+- Rivtech design binders
+- Lab Journal - Gustav
+* Most of the core items in the current mode come from these two books.
 
-모두 공통적으로 제작10 컴퓨터10 전기공학10 기계공학10에 열림
+Added weapon categories with corresponding martial arts.
 
+- Eskrima: Sword
+- Barbaran Montante: one-handed hammer, two-handed hammer, one-handed axe, flail, mace
+- Fencing: Sword
+- Silat: Sword
+- Ninjutsu: Sword
+* Weirdly, when the game updated the weapon categories, some of the weapons that used to have a sword type were lost, so I fixed that.
 
+## 7. Sprite patches
 
-생존용 컴뱃아머(리브텍 설계서류철 필요): 설정상 리브텍 RM13 컴뱃아머의 설계를 긴빠이쳐서 생존자스럽게 만든 물건. 성능은 RM13 컴뱃아머의 하위호환답게 작동시 방어도 증가가 없고 방해도가 좀 더 높음. 아래 세 아머들의 재료가 됨.
+I changed the dots on the ones I didn't like.
 
-"램파트" 강습 장갑복: 걸어다니는 탱크 느낌으로 만든 반경질 컴뱃아머. 착용시 힘이 2배 +5만큼 증가함. 생존자가 리브텍 컴뱃아머의 설계를 완전히 이해했는지 사용시 방어력이 증가하고 추가로 막기 능력이 생겨 근접에서 더더욱 무적이 됨
+- Gambeson: re-colored to look more like an item sprite.
+- Heavy Survival Boots, Heavy Survival Suit: Reshot to look more like Master Chief or Doom guy armor.
+- RM120C shotgun: Apex Mastiff
+- RM228 PDW: Apex Mozambique shotgun
+- RM216 SPIW: Apex Fraulein PDW
+- RM232 IDW: Apex Alternator SMG
+- RM103A Automagnum: Apex RE-45 Automatic
+- RM11B Scout Rifle: Apex Longbow DMR
+- RM2000 Submachine Gun: Apex R-99 SMG
+- RM51 Assault Rifle: Apex R-301 Carbine
+- RM614 LMG: Apex Devotion LMG
+- RM88 Combat Rifle: Apex G7 Scout
+- A7 Laser Rifle: Apex Havoc Rifle
+- Kukri: Retaken because the dots were messed up
 
-"콜세어" 기동 타격복": 램파트와 정반대의 특성을 가진 비경질 컴뱃아머. 방어력은 낮지만 착용시 행동속도가 30% 증가하고 민첩과 지각이 3씩 증가함. 높은 행동속도 패시브 덕분에 평상시에도 작업복으로 이용이 가능한 만능 슈트임. 사용시 특수능력으로 50 전력을 소모하여 10턴동안 시간을 멈추게 만들 수 있음.
+## 8. Add Clothing Modifications
 
-"파이어니어" 환경 피갑복": 램파트와 콜세어 사이의 방어력을 가진 비경질 컴뱃아머. 환경보호력이 특히 높으며, 가스, 전류, 방사능면역을 기본적으로 제공함. 뿐만 아니라 사용시 특수능력으로 정신지배에서 보호를 받으며 텔레포트 멀미(조까튼 눈깔 디버프)를 막을 수 있음.
+Add Nomex: It can't still prevent your gear from burning, but It'll give you some beneficial flame protection.
 
+Lighten up: Shedding some of the lining to make the gear less obstructive and less warmer. At the expense of armor. Good for gear with a high degree of warmth that has good specs and you want to wear.
 
+Create Pouch: Literally attaches a leather pouch to your clothing to increase storage. The trade-off is a slight increase in hindrance.
 
-더군다나 각각 국방색, 검은색, 시가전색, 사막색 이렇게 도색이 있음
+## 9. Drones
 
-스킨 개념으로 생각하고 기존 슈트 디자인이 마음에 들지 않는다면 다른 슈트용 도색 껴입어줘도 매우 좋음
+### Introduction
 
-한마디로 룩딸용임
+Added a whole new bunch of robots to the game, instead of the usual manhacks, security bots, whatbots, and mechs.
+In addition, this content allows players to progress from pets and carriers to humanoid combatants and eventually to walking weaponry.
+Built-in ammo will be infinite for convenience. I don't want you to be stuck managing your minions' bullets.
+Drones will progress from Companion > Pilot > Juggernaut or Mechs (Explorer/Predator/Stronghold).
+You can move up and down in tiers freely by crafting or B, ) disassembling.
 
-그리고 바이저 스킨도 기존 슈트까지 합해서 빨강 주황(노랑) 초록 하늘 파랑 보라 흰색 이렇게 있음
+#### Drones
 
+Simply Flying bugs.
+Highly maneuverable, but not very durable except for Drones: Electro Cannon, so handle with care.
 
+Drones: Striker
 
+- Just like the drone companion, but with a laser pistol.
+- Don't judge by the size. It's a great kiting machine against mobs.
+- If you have two of them, you can even melt Kevlar Hulks with a combination of kiting and aggro distractions.
 
+Drones: Striker MK II
 
+- These guys have gotten bigger and are equipped with A7 laser rifles.
 
+Drone: E-Cannon
 
-5. 다양한 아이템들 추가
+- Big, fat EMP bombardment drones. Slightly sluggish.
 
+#### Walkers
 
+Slower than drones.
+But have the advantage of being much stronger and bulkier.
 
-밧줄고리: DDA의 그것
+Walkers: Attackers
 
+- Less maneuverable than a drone, but has the advantage of being much more durable.
+- This one fires 5.56mm rounds every 3 turns.
 
+Walker: Bombardier
 
-널빤지 방패: 제작 1렙에 만들 수 있는 널빤지 뭉태기.
+- Slower, but fires small grenades at long range every 6 turns.
+- They won't shoot if enemy gets within 6 squares of them due to their safety distance, so you'll need to have other Walkers to escort them.
 
-고철 방패: 금속판에 손잡이 단 것
+Walker: Sniper
 
-소형 진압 방패: 버클러 형태의 플방
+- A quadrupedal robot that fires a 7.62mm DMR every 5 turns at very long range.
 
-진압 방패: 우리가 흔히 아는 플방. 매우 큰 플라스틱 방패. 사용하면 방패를 들어올려 방어태세로 전환할 수 있음.
+Walker: Sniper MK II
+- A monstrosity that fires a .50-caliber objective sniper rifle every 7 turns at very long range.
 
-탄도 방패: 제작 불가. 탄창 2개 수납 가능. 본격적으로 방탄 성능 가지기 시작. 드랍템임.
+#### Companions
 
-전술 방패: 12킬로그램짜리 방탄 방패. 몽타뉴의 특능 그것. 사용하면 전신 방호 가능.
+Tier 1
 
+Drones: Companions
 
+- Think drone from Nier: Automata, or the Recovery Drone from Apex Lifeline.
+- These drones are the basis for TechTrees to macro them, and since they are cores, you can build them directly from their parts as long as you can salvage an eyebot.
+- It's very comfortable to think of it as an eyebot-on-a-good-side. It has the ability to be a porter, play with you to raise your mood.
+- It also has a high speed of 250, and when riding a low-altitude-flying drone, the player is treated as if they were riding a horse.
 
-지게(배낭처럼 매는 무게 보너스 부여 장비)
+Tier 2
 
-조잡한 지게
+Drones: Pilot
 
-나무 지게
+- Drone: A Companion with android limbs, chassis, and survival combat armor.
+- It temporarily loses its ability to fly. Equipped with an A7 laser rifle and the melee abilities of a prototype robot to escort survivors.
+- Can give the impression of an NPC when playing without any NPCs.
 
-파이프 A-프레임
+Tier 3
 
-강철 지게
+Drone: Juggernaut
 
-프레임 배낭: 가방+파이프 A-프레임. 드랍템임.
+- Drone: Power armor on the pilot. Slowed down to 100 speed, but immune to all attacks by Juggernauts.
+- It can also throw enemies. To evolve to macro, take the Tech from the `Drone: Pilot`, not this one.
 
-산업용 외골격: 무게 증가량이 큰 강화 외골격. 드랍템임.
+Tier 4
 
-뱅가드 스켈레톤 외골격: 무기 슬롯 하나 있고, 끼고다니면 힘 스탯 보너스를 제공해주는 강화 외골격. 드랍템임.
+Mechs: Explorer/Predator/Stronghold
 
-스프린터 스켈레톤 외골격: 드랍템. 평소 끼고다녀도 이동속도 보너스를 제공해주는 강화 외골격. 드랍템임.
+- Fusion core consumption for crafting. They don't directly use nanofabricators, but are more advanced than combat armor.
+- Be very careful when using them, as they can literally smash through walls and terrain when in standalone mode.
+- Can be converted between standalone and mounted mode by crafting. In fact, systematically, the only way to itemize in mounted mode (mech mode) is to kill it > repair the body > disassemble it > extract the materials > remake it. I'm really sorry, but mechs are hardcoded and this is the only way to do it.
 
+The Explorer Mech
 
+- Carries an wave energy rifle and a long-range laser sniper pod.
+- A humanoid mech with moderate armor, moderate mobility, moderate melee, a wave rifle that bounces off enemies, and a long-range sniper with a power shot that can explode.
+- Excellent at taking out multiple enemies at medium to long range, and his powershot in mounted mode makes him an excellent companion and interpersonal macro.
 
+The Predator mech
 
+- Features a huge serrated blade on his tail and a plasma shotgun.
+- A wolf-type Mech with low armor, top-notch mobility, and excellent melee abilities.
+- It has a plasma shot that burns and EMPs enemies, and melee abilities based on movement that humanoids can't perform.
+- In its standalone form, it has the ability to leap, and in its mounted form, its built-in melee database allows it to use specific martial arts, such as Eskrima and Fior de Battaglia, to further amplify its destructive power.
 
+The Stronghold Mech
 
-
-6. 밸런스 패치
-
-에스크리마 적용 무기에 단분자 칼날과 바이오닉 손톱 추가
-
-단분자 칼날의 공격유형을 관통으로 변경
-
-츠바이핸더에 2칸 거리 공격 추가
-
-RM103A 오토매그넘의 무게 200g 감소, RM2000 기관단총의 무게 300g 감소.
-
-RM103A 오토매그넘에 2점사 사격모드 추가.
-
-*기존의 RM2000 기관단총은 휴대성은 권총에 밀리고 연사하기엔 탄창이 25발로 작으며 접이식 개머리판을 장착한 RM51 돌격소총의 하위호환 신세나 다름없었던 애매한 입지를 보완하고자 호환되는 탄창의 종류에 50발, 100발 박스탄창을 추가함. 그리고 50발 박스탄창이 끼워진 채로 스폰이 되게 수정함으로 가볍고 작은 미니-돌격소총 느낌으로 운용할 수 있도록 하는 방향으로 개선함.
-
-8x40 무탄피탄의 레시피를 추가함. 레시피를 취득하는 경로는 기존의 수제 8x40 JHP와 동일함.
-
-케블라 조끼를 이제 제작이 가능함.
-
-건빵의 대량 제작(b) 속도 뽀나스를 50%에서 83%로 증가시킴. 이제 건빵도 후반을 도모할 수 있는 가성비 좋은 보존식품으로 활약이 가능하게 됨.
-
-
-
-
-
-
-
-7. 타일셋 패치
-
-갬버슨: 아이템 타일처럼 흰색계열로 다시 찍음
-
-중량형 생존용 부츠, 중량형 생존용 슈트: 마스터치프나 둠가이의 갑옷같은 뭐시기 느낌으로 다시 찍음
-
-RM120C 산탄총: 에이펙스 마스티프
-
-RM228 PDW: 에이펙스 모잠비크 샷건
-
-RM216 SPIW: 에이펙스 프라울러 점사 PDW
-
-RM232 IDW: 에이펙스 얼터네이터 SMG
-
-RM103A 오토매그넘: 에이펙스 RE-45 자동
-
-RM11B 정찰소총: 에이펙스 롱보우 DMR
-
-RM2000 기관단총: 에이펙스 R-99 SMG
-
-RM51 돌격소총: 에이펙스 R-301 카빈
-
-RM614 LMG: 에이펙스 디보션 LMG
-
-RM88 전투소총: 에이펙스 G7 스카우트
-
-A7 레이저라이플: 에이펙스 하복 라이플
-
-쿠크리: 도트가 엉망이라 다시 찍음
-
-
-
-
-
-
-8. 의류 개조 품목 추가
-노멕스 덧대기: 장비가 불에 타는 건 막아줄 수 없지만 유익한화염방호력을대신드리겠습니다
-경량화하기: 안감을 좀 덜어내 장비의 방해도와 보온도를 깎아줌. 대신 방어력도 깎여나감. 스펙이 좋아 입고싶은데 보온도가 좀 높은 장비같은데에 적용시키면 좋음
-주머니 만들기: 말 그대로 가죽 주머니를 옷에 달아주어 저장공간을 늘려줌. 대신 방해도가 쬐끔 올라감.
-
-
-*모드 만든 이유: RM총기나 나노물질 마음껏 써보고싶은데 거기다 개연성을 넣고 싶어서
-
-*이름이 왜 다람쥐 모드냐?: 솔직히 이름 떠오른 것도 없었고 나노물질을 위해서 모든 템을 수집하는 것도 다람쥐의 영역에 속하니까? 모르겠다
-
-
-
-
-
-
-20230320 업데이트
-
-샷건의 대미지를 80으로 떡상시킨 대신 방어력 배율을 2배로 설정하여 일반좀비는 한 방에 찢는데 군인좀비한테 박으면 30뎀정도 뜨게됨
-
-플래그 날아가버린 의류개조 복귀시킴
-그리고 ANBC슈트도 경량화 개조 가능하게 태그 추가함
-
-산업용 외골격의 드랍 확률 증가
-
-방패 무게와 방해도가 거슬린다는 의견이 있어 이들을 약 20%이상 낮춤
-컴뱃아머의 기본 환경보호력을 20으로 설정하여 독가스 면역을 가짐
-블레이즈 모드에서 차원저장고 돚거해옴
-
-차원 저장고와 차량용 머니퓰레이터 작업대의 타일이 적용이 죽어도 안되는 문제가 발생함
-아직 해결방안은 못찾았으니 양해 부탁함
-
-+전술방패 보호율 95% > 90%로 너프
-+타일셋 문제 해결 완료
-
-
-
-
-
-
-20230324 업데이트
-
-조가튼 고양이 변이 타일 뜯어고침
-
-히트 블레이드 추가. 시시케밥(또는 쉬쉬케밥)의 상위호환으로 빳데리를 먹는 핫플레이트겸 무기임. 물론 적을 불태울 수 있음.
-
-잘려나갔던 화염무기들 복귀(노호프 모드에서 가져옴)
-
-뼈 갑옷 제작 가능(노호프 모드에서 가져옴)
-
-RM시리즈의 카테고리 버그난거 수정
-
-ANBC 슈트의 이름이 특대 중량형 생존용 슈트였던 버그를 수정
-
-
-
-
-
-
-20230405 업데이트
-
-기압계 레시피 추가.
-
-
-
-
-
-
-20230405 업데이트
-
-램파트: 미작동시 방사능 저항 기능 추가, 작동시 방사능 면역 및 내장온도조절기 기능 추가.
-
-파이어니어: 온도계 기능 추가, 가동시 방해도가 (치수 맞음) 기준으로 7로 감소. 방어력의 증가는 없음.
-
-콜세어: 특수능력(가속) 사용시 큰 소음이 발생하던 버그 수정.
-
-
-
-
-
-
-20230411 업데이트
-
-나노제작물질: 고철 요구량을 50에서 100으로 증가시킴. 재료에 구리 100과 알루미늄 분말 100을 추가함.
-
-램파트: 힘x2+5를 간결하게 힘x2로 수정.
-
-콜세어: 최대 전력을 3000으로 증가.
-특능(가속) 사용시 전력 500 소모.
-*가방에 UPS 여러개 도배하고 "히야~ 내가 2000초나 시간을 멈출 수 있다~" 하는 행위 방지 차원임.
-방어력이 24/24/34 로 버프됨.
-*기존의 허약한 스펙을 버프하여 아머 자체로도 좀 쓸만하게 만듦.
-
-
-
-
-
-
-20230414 업데이트
-
-나노 정밀 재봉틀로 만들 수 있는 재료 추가.
-+ 태양 전지
-*이제 불쌍한 로봇들을 굳이 도축해체음미할 필요가 없게 되었습니다.
-
-나노 프린터로 만들 수 있는 에너지 무기 모드 추가.
-+ 광선 분산기
-+ 집중 렌즈
-+ 일렉트로레이저 전환도구
-+ 고효율 방출기
-+ 고밀도 축전지
-*나노제작기탬플릿의 에너지 무기의 모드들을 편입해왔습니다.
-*하지만 나노 프린터로 만들 수 있는 RM시리즈 장비 및 무기들은 나노제작기탬플릿 레시피에 집어넣지 않았습니다. 기존의 드랍테이블에 너무 많은 것들이 섞여들어가 원하는 레어템이 나올 확률을 줄일 수 있으니까요.
-
-그리고 위의 부품들을 이용해 만드는 근접무기 추가.
-+ 실험용 하드라이트 블레이드
-
-은행 금고: 특정 책의 드랍 확률을 1.5배로 올림.
-+ 리브텍 설계 서류철
-+ 실험 보고서-구스타프
-*현 모드의 핵심 아이템들이 대부분 이 두 책들에서 나옵니다.
-
-바이너리 소드: 재료를 초합금에서 초합금, 강철로 수정.
-*다이아몬드 코팅을 가능케 함으로 더욱 강해질 수 있게 만드는 것이 좋을 것 같다고 판단했습니다.
-
-무술에 각각 대응되는 무기 카테고리 추가.
-+ 에스크리마: 소검
-+ 바르바란 몬탄테: 한손망치, 양손망치, 한손도끼, 철퇴, 메이스
-+ 펜싱: 소검
-+ 실랏: 소검
-+ 인술: 소검
-*이상하게도 무기 카테고리 업데이트를 하면서 기존에 소검류가 적용되던 무기들이 없어져버림. 그래서 고쳤습니다.
-
-
-
-
-
-
-20230414 업데이트
-
-모든 변이의 장비 제한을 싹 다 쳐냄. (e.g. 솜털 꼬리 변이가 생기면 컴뱃아머나 파워아머를 못입는 불상사 등)
-파워아머에 OVERSIZE 태그를 붙여서 이제 기형적으로 커짐, 거대함 변이를 가진 캐릭터도 파워아머를 착용할 수 있게 됨.
-*파워아머 슈퍼 뮤턴트가 되어 대재앙을 즐기십시오!
-
+- Equipped with a 12.7mm heavy machine gun and grenade launcher.
+- A giant-sized Mech with top-tier armor, low mobility, and insane ranged abilities.
+- No ammo limits thanks to a built-in nanofabricator that provides an instant supply of bullets.
+- Everyone's favorite one-shot, one-kill grenade launcher is available in mounted mode. An excellent defensive/siege mech that is optimized for the point defense.
