@@ -35,17 +35,21 @@ Bundles of layered carbides
 Requires at least Lab Report-Gustav to build these.
 In PPR 1.1, main tools will all be unified as 'Matter Synthesizer: Lorem Ipsum', and you will be able to evolve your own main tools to increase your skills, so you can make them in one tool instead of having to make multiple tools.
 
-- Tier 1: Atomic Forge (Graphene, Layered Carbide)
+Tier 1: Atomic Forge (Graphene, Layered Carbide)
 Manupulator workbench (workbench that allows you to work at twice the speed)
 
 ┏━━━━━━━━━━━━━━━━┛ 
 
-- Tier 2: Matter Synthesizer: Nanocompressor (hydrogen container, nanofabricated materials, superalloys) *Superalloys can be disassembled with a hacksaw to get thin superalloys.
+Tier 2: Matter Synthesizer: Nanocompressor (hydrogen container, nanofabricated materials, superalloys)
+
+*Superalloys can be disassembled with a hacksaw to get thin superalloys.
+
 Isotope Centrifuge Forge: Enriched Uranium (raw material is toxic waste, maybe a g), Degraded Uranium, Uranium Fuel Cells, Plutonium Slurry, Plutonium Fuel Cells)
 
 ┏━━━━━━━━━━━━━━━━┛ 
 
-- Tier 3: Matter Synthesizer: Nano-precision sewing machines (electronics debris, RAM, wiring circuits, copper wire, solar cells, CBMs, AI cores, hardlight matrices, fusion cores)
+Tier 3: Matter Synthesizer: Nano-precision sewing machines (e-scraps, RAM, circuits, copper wire, solar cells, CBMs, AI cores, hardlight matrices, fusion cores)
+
 Uranium forge: Use A to continuously create enriched uranium, degraded uranium bullets,
 
 ┏━━━━━━━━━━━━━━━━┛ 
