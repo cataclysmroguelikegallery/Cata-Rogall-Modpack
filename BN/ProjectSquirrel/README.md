@@ -1,4 +1,4 @@
-# Project: Pack Rat requires rolling with the latest version of BN to enjoy the content.
+# Project: Pack Rat requires playing with the latest version of BN to enjoy the content.
 
 ## 1. Add practical compression storage items
 
