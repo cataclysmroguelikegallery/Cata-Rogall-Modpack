@@ -4,98 +4,23 @@
     "type": "GENERIC",
     "category": "veh_parts",
     "name": { "str": "heavy-duty military rotors", "str_pl": "sets of heavy-duty military rotors" },
-    "description": "A set of four rotor blades from a military attack helicopter.",
-    "price": 23400,
-    "price_postapoc": 500,
-    "weight": "25200 g",
-    "volume": "252000 ml",
-    "looks_like": "xl_wind_turbine",
-    "material": "steel",
-    "symbol": "X",
-    "color": "dark_gray"
+    "copy-from": "heavy_duty_military_rotor",
+    "weight": "45200 g"
   },
   {
     "id": "small_helicopter_rotor",
     "type": "GENERIC",
     "category": "veh_parts",
     "name": { "str": "small civilian helicopter rotors", "str_pl": "sets of small civilian helicopter rotors" },
-    "description": "A set of four rotor blades from a civilian light helicopter.",
-    "price": 1200,
-    "price_postapoc": 250,
-    "weight": "15100 g",
-    "volume": "151000 ml",
-    "looks_like": "xl_wind_turbine",
-    "material": "steel",
-    "symbol": "X",
-    "color": "blue"
+    "copy-from": "small_helicopter_rotor",
+    "weight": "25100 g"
   },
   {
-    "abstract": "helicopter_rotors",
-    "type": "vehicle_part",
-    "location": "on_roof",
-    "symbol": "X",
-    "color": "light_blue",
-    "broken_symbol": "O",
-    "broken_color": "light_gray",
-    "flags": [ "ROTOR" ],
-    "description": "A set of aerofoil helicopter rotors, when spun at high speed, they generate thrust via lift."
-  },
-  {
-    "id": "heavy_duty_military_rotor",
-    "copy-from": "helicopter_rotors",
-    "type": "vehicle_part",
-    "name": "heavy-duty military rotors",
-    "item": "heavy_duty_military_rotor",
-    "//": "rotor diameter is in meters",
-    "rotor_diameter": 30,
-    "requirements": {
-      "install": { "skills": [ [ "mechanics", 7 ] ], "time": "2 h", "using": [ [ "welding_standard", 20 ] ] },
-      "removal": { "skills": [ [ "mechanics", 7 ] ], "time": "2 h", "using": [ [ "vehicle_weld_removal", 4 ] ] },
-      "repair": { "skills": [ [ "mechanics", 8 ] ], "time": "2 h", "using": [ [ "welding_standard", 20 ] ] }
-    },
-    "durability": 450,
-    "description": "A set of four military-grade helicopter rotor blades, used to provide lift by rotation.",
-    "damage_modifier": 80,
-    "breaks_into": [ { "item": "scrap", "count": [ 15, 30 ] }, { "item": "steel_chunk", "count": [ 8, 16 ] } ],
-    "damage_reduction": { "all": 66 }
-  },
-  {
-    "id": "small_civilian_rotors",
-    "copy-from": "helicopter_rotors",
-    "type": "vehicle_part",
-    "name": "small helicopter rotors",
-    "item": "small_helicopter_rotor",
-    "//": "rotor diameter is in meters",
-    "rotor_diameter": 10,
-    "requirements": {
-      "install": { "skills": [ [ "mechanics", 7 ] ], "time": "2 h", "using": [ [ "welding_standard", 20 ] ] },
-      "removal": { "skills": [ [ "mechanics", 7 ] ], "time": "2 h", "using": [ [ "vehicle_weld_removal", 4 ] ] },
-      "repair": { "skills": [ [ "mechanics", 8 ] ], "time": "2 h", "using": [ [ "welding_standard", 20 ] ] }
-    },
-    "durability": 100,
-    "description": "A set of four military-grade helicopter rotor blades, used to provide lift by rotation.",
-    "damage_modifier": 80,
-    "breaks_into": [ { "item": "scrap", "count": [ 8, 15 ] }, { "item": "steel_chunk", "count": [ 2, 8 ] } ],
-    "damage_reduction": { "all": 22 }
-  },
-  {
-    "id": "heavy_duty_military_blackhawk_rotors",
-    "copy-from": "heavy_duty_military_rotor",
-    "type": "vehicle_part",
-    "name": "heavy-duty military Blackhawk rotors",
-    "item": "heavy_duty_military_rotor",
-    "//": "rotor diameter is in meters",
-    "description": "A set of four military-grade helicopter rotor blades, used to provide lift by rotation.",
-    "rotor_diameter": 40
-  },
-  {
-    "id": "heavy_duty_military_osprey_rotors",
-    "copy-from": "heavy_duty_military_rotor",
-    "type": "vehicle_part",
-    "name": "heavy-duty military Osprey rotors",
-    "item": "heavy_duty_military_rotor",
-    "//": "rotor diameter is in meters",
-    "description": "A set of three military-grade helicopter rotor blades, used to provide lift by rotation.",
-    "rotor_diameter": 20
+    "id": "homebuilt_gyrocopter_rotor",
+    "type": "GENERIC",
+    "category": "veh_parts",
+    "name": { "str": "homebuilt gyrocopter rotors", "str_pl": "sets of homebuilt gyrocopter rotors" },
+    "copy-from": "homebuilt_gyrocopter_rotor",
+    "weight": "12 kg"
   }
 ]

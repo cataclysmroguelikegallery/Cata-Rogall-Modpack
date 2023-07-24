@@ -24,29 +24,6 @@
     "damage_reduction": { "all": 10 }
   },
   {
-    "id": "crane_medium",
-    "type": "vehicle_part",
-    "name": { "str": "boom crane" },
-    "item": "cantilever_medium",
-    "location": "structure",
-    "symbol": "=",
-    "broken_symbol": "*",
-    "color": "light_gray",
-    "broken_color": "light_blue",
-    "durability": 200,
-    "description": "A rigid steel boom crane.  If it is in your line of sight and within two tiles of another vehicle, you will automatically use it when you want jack up the other vehicle to change the its wheels.  To use it to lift a heavy component like an engine that you are installing or removing, the crane must have line of sight to where it is going and it must be within four tiles of it.",
-    "breaks_into": [ { "item": "pipe", "count": [ 8, 32 ] }, { "item": "scrap", "count": [ 8, 24 ] } ],
-    "qualities": [ [ "LIFT", 40 ], [ "JACK", 40 ] ],
-    "requirements": {
-      "install": { "skills": [ [ "mechanics", 5 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
-      "removal": { "skills": [ [ "mechanics", 3 ] ], "time": "30 m", "using": [ [ "vehicle_bolt", 1 ] ] },
-      "repair": { "skills": [ [ "mechanics", 6 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] }
-    },
-    "folded_volume": 60,
-    "flags": [ "PROTRUSION", "FOLDABLE" ],
-    "damage_reduction": { "all": 48 }
-  },
-  {
     "type": "vehicle_part",
     "id": "plastic_boat_hull",
     "name": { "str": "plastic boat hull" },
@@ -148,71 +125,40 @@
     "id": "tearer",
     "type": "vehicle_part",
     "name": { "str": "shredder" },
-    "item": "tearer",
-    "location": "structure",
-    "symbol": "*",
-    "broken_symbol": "x",
-    "color": "dark_gray",
-    "broken_color": "dark_gray",
-    "durability": 450,
-    "power": -1750,
-    "damage_modifier": 500,
+    "copy-from": "tearer",
     "folded_volume": 60,
-    "breaks_into": [  ],
-    "description": "A circular blade, powered by the vehicle's engine.  It will dramatically increase the damage the vehicle delivers in collisions.  Mount on the edges of the vehicle, preferably the front.",
-    "requirements": {
-      "install": { "skills": [ [ "mechanics", 5 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] },
-      "removal": { "skills": [ [ "mechanics", 3 ] ], "time": "30 m", "using": [ [ "vehicle_weld_removal", 1 ] ] },
-      "repair": { "skills": [ [ "mechanics", 6 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] }
-    },
-    "flags": [ "UNMOUNT_ON_DAMAGE", "SHARP", "PROTRUSION", "FOLDABLE" ],
-    "damage_reduction": { "all": 82 }
+    "extend": { "flags": [ "FOLDABLE" ] }
   },
   {
     "id": "mountable_heater",
     "type": "vehicle_part",
     "name": { "str": "vehicle-mounted heater" },
-    "item": "mountable_heater",
-    "location": "on_ceiling",
-    "symbol": ";",
-    "broken_symbol": ":",
-    "color": "red",
-    "durability": 400,
-    "//": "700W average assuming relatively small target-actual difference",
-    "epower": -700,
-    "bonus": 10,
+    "copy-from": "mountable_heater",
     "folded_volume": 60,
-    "requirements": {
-      "install": { "skills": [ [ "mechanics", 1 ], [ "electronics", 1 ] ], "time": "2 m", "using": [ [ "vehicle_screw", 1 ] ] },
-      "removal": { "skills": [ [ "mechanics", 1 ] ], "time": "1 m", "using": [ [ "vehicle_screw", 1 ] ] },
-      "repair": { "skills": [ [ "mechanics", 1 ] ], "time": "30 s", "using": [ [ "adhesive", 1 ] ] }
-    },
-    "flags": [ "CTRL_ELECTRONIC", "ENABLED_DRAINS_EPOWER", "SPACE_HEATER", "EMITTER", "FOLDABLE" ],
-    "emissions": [ "emit_heater_vehicle" ],
-    "breaks_into": [ { "item": "steel_lump" }, { "item": "steel_chunk", "count": [ 1, 3 ] }, { "item": "scrap", "count": [ 1, 3 ] } ],
-    "damage_reduction": { "all": 15 }
+    "extend": { "flags": [ "FOLDABLE" ] }
   },
   {
     "id": "mountable_cooler",
     "type": "vehicle_part",
     "name": { "str": "vehicle-mounted cooler" },
-    "item": "mountable_cooler",
-    "location": "on_roof",
-    "symbol": "C",
-    "broken_symbol": ":",
-    "color": "light_cyan",
-    "durability": 400,
-    "epower": -120,
-    "bonus": 10,
+    "copy-from": "mountable_cooler",
     "folded_volume": 60,
-    "requirements": {
-      "install": { "skills": [ [ "mechanics", 1 ], [ "electronics", 1 ] ], "time": "2 m", "using": [ [ "vehicle_screw", 1 ] ] },
-      "removal": { "skills": [ [ "mechanics", 1 ] ], "time": "1 m", "using": [ [ "vehicle_screw", 1 ] ] },
-      "repair": { "skills": [ [ "mechanics", 1 ] ], "time": "30 s", "using": [ [ "adhesive", 1 ] ] }
-    },
-    "flags": [ "CTRL_ELECTRONIC", "ENABLED_DRAINS_EPOWER", "COOLER", "EMITTER", "FOLDABLE" ],
-    "emissions": [ "emit_cooler_vehicle" ],
-    "breaks_into": [ { "item": "steel_lump" }, { "item": "steel_chunk", "count": [ 1, 3 ] }, { "item": "scrap", "count": [ 1, 3 ] } ],
-    "damage_reduction": { "all": 15 }
+    "extend": { "flags": [ "FOLDABLE" ] }
+  },
+  {
+    "type": "vehicle_part",
+    "id": "aisle_curtain",
+    "name": { "str": "aisle curtain" },
+    "copy-from": "aisle_curtain",
+    "folded_volume": 60,
+    "extend": { "flags": [ "FOLDABLE" ] }
+  },
+  {
+    "id": "crane_medium",
+    "type": "vehicle_part",
+    "name": { "str": "boom crane" },
+    "copy-from": "crane_medium",
+    "folded_volume": 60,
+    "extend": { "flags": [ "FOLDABLE" ] }
   }
 ]

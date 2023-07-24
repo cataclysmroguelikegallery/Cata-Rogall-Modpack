@@ -32,7 +32,8 @@
         "description": "With a short dash, you can add your body weight on your kigks. Additional bash damage from dex.",
         "skill_requirements": [ { "name": "unarmed", "level": 2 } ],
         "unarmed_allowed": true,
-	    "flat_bonuses": [ { "stat": "damage", "type": "bash", "scaling-stat": "dex", "scale": 0.25 } ],
+	    "flat_bonuses": [ { "stat": "damage", "type": "bash", "scale": 2.0 },
+						  { "stat": "damage", "type": "bash", "scaling-stat": "dex", "scale": 0.1 } ],
         "buff_duration": 1
       }
     ],
