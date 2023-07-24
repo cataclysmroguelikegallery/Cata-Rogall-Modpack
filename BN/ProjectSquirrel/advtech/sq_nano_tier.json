@@ -371,7 +371,7 @@
   {
     "id": "sq_advanced_arm_splint",
     "type": "ARMOR",
-    "name": { "str": "arm splint" },
+    "name": { "str": "생체공학 팔 부목" },
     "description": "진보된 부목. 사지가 움직이지는데 덜 방해되며, 빠르게 부러진 뼈를 고정시킵니다.",
     "weight": "600 g",
     "volume": "1 L",
@@ -405,7 +405,7 @@
   {
     "id": "sq_advanced_leg_splint",
     "type": "ARMOR",
-    "name": { "str": "leg splint" },
+    "name": { "str": "생체공학 다리 부목" },
     "description": "진보된 부목. 사지가 움직이지는데 덜 방해되며, 빠르게 부러진 뼈를 고정시킵니다.",
     "weight": "900 g",
     "volume": "1 L",

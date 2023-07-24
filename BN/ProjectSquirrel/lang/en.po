@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Jake's_Squirrel_mod\n"
-"POT-Creation-Date: 2023-07-22 01:40+0900\n"
+"POT-Creation-Date: 2023-07-24 07:58+0900\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -2222,13 +2222,13 @@ msgstr ""
 "faster."
 
 #: .\advtech\sq_nano_tier.json
-msgid "arm splint"
-msgid_plural "arm splints"
-msgstr[0] ""
-msgstr[1] ""
+msgid "생체공학 팔 부목"
+msgid_plural "생체공학 팔 부목s"
+msgstr[0] "bionic arm splints"
+msgstr[1] "bionic arm splints"
 
-#. ~ Description for {'str': 'arm splint'}
-#. ~ Description for {'str': 'leg splint'}
+#. ~ Description for {'str': '생체공학 팔 부목'}
+#. ~ Description for {'str': '생체공학 다리 부목'}
 #: .\advtech\sq_nano_tier.json
 msgid ""
 "진보된 부목. 사지가 움직이지는데 덜 방해되며, 빠르게 부러진 뼈를 고정시킵니"
@@ -2238,10 +2238,10 @@ msgstr ""
 "broken bones."
 
 #: .\advtech\sq_nano_tier.json
-msgid "leg splint"
-msgid_plural "leg splints"
-msgstr[0] ""
-msgstr[1] ""
+msgid "생체공학 다리 부목"
+msgid_plural "생체공학 다리 부목s"
+msgstr[0] "bionic leg splints"
+msgstr[1] "bionic leg splints"
 
 #: .\advtech\sq_nano_tier.json
 msgid "바이너리 소드"
