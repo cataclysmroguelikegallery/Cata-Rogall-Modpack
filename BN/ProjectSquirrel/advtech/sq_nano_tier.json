@@ -1146,6 +1146,7 @@
     "subcategory": "CSC_WEAPON_CUTTING",
     "skill_used": "fabrication",
     "skills_required": [ [ "electronics", 3 ] ],
+	"autolearn": true,
     "difficulty": 7,
     "time": "4 h",
     "using": [ [ "blacksmithing_standard", 12 ], [ "steel_standard", 3 ] ],
@@ -1199,7 +1200,7 @@
       "target": "sq_hardlight_blade_off",
       "msg": "하드라이트 블레이드를 껐습니다."
     },
-    "qualities": [ [ "CUT", 1 ], [ "BUTCHER", -1 ] ],
+    "qualities": [ [ "BUTCHER", -1 ] ],
     "volume": "1000 ml",
     "bashing": 5,
     "cutting": 47
