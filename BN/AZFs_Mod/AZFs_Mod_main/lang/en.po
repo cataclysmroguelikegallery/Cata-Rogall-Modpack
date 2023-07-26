@@ -1,0 +1,383 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Unknown Mod\n"
+"POT-Creation-Date: 2023-07-26 07:20+0900\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.3.2\n"
+
+#: .\modinfo.json
+msgid "AZF의 모드"
+msgstr "AZF's Mod"
+
+#. ~ Description for AZF의 모드
+#: .\modinfo.json
+msgid "AZF가 제작한 모드입니다."
+msgstr ""
+"This mod was created by AZF. Adds various fist-type weapons and "
+"their modifications, including the Power Fist. Adds the ability to "
+"overclock Power Armors, and stat bonuses to Power Armors and RM13 "
+"Combat Armor when equipped."
+
+#: .\Armor\EnhancedPowerArmor_1.json .\Armor\EnhancedPowerArmor_2.json
+msgid "power armor (active)"
+msgid_plural "suits of power armor (active)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\Armor\EnhancedPowerArmor_1.json .\Armor\EnhancedPowerArmor_2.json
+msgid "heavy power armor (active)"
+msgid_plural "suits of heavy power armor (active)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\Armor\EnhancedPowerArmor_1.json .\Armor\EnhancedPowerArmor_2.json
+msgid "light power armor (active)"
+msgid_plural "suits of light power armor (active)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\Armor\EnhancedPowerArmor_1.json .\Armor\EnhancedPowerArmor_2.json
+msgid "power armor helmet (active)"
+msgid_plural "power armor helmets (active)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\Armor\EnhancedPowerArmor_1.json .\Armor\EnhancedPowerArmor_2.json
+msgid "heavy power armor helmet (active)"
+msgid_plural "heavy power armor helmets (active)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\Armor\EnhancedPowerArmor_1.json .\Armor\EnhancedPowerArmor_2.json
+msgid "light power armor helmet (active)"
+msgid_plural "light power armor helmets (active)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\Armor\EnhancedPowerArmor_1.json .\Armor\EnhancedPowerArmor_2.json
+msgid "RM13 combat armor (on)"
+msgid_plural "RM13 combat armors (on)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\Armor\EnhancedPowerArmor_2.json
+msgid "power armor"
+msgid_plural "suits of power armor"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Use action msg for {'str': 'power armor', 'str_pl': 'suits of power
+#. armor'}.
+#: .\Armor\EnhancedPowerArmor_2.json
+msgid "보조 유압 서보 모터: 오프라인"
+msgstr "Auxiliary hydraulic servo motors: offline"
+
+#. ~ Use action menu_text for {'str': 'power armor (active)', 'str_pl': 'suits
+#. of power armor (active)'}.
+#. ~ Use action menu_text for {'str': 'heavy power armor (active)', 'str_pl':
+#. 'suits of heavy power armor (active)'}.
+#. ~ Use action menu_text for {'str': 'light power armor (active)', 'str_pl':
+#. 'suits of light power armor (active)'}.
+#: .\Armor\EnhancedPowerArmor_2.json
+msgid "Turn off"
+msgstr ""
+
+#. ~ Use action msg for {'str': 'power armor (active)', 'str_pl': 'suits of
+#. power armor (active)'}.
+#. ~ Use action msg for {'str': 'heavy power armor (active)', 'str_pl': 'suits
+#. of heavy power armor (active)'}.
+#. ~ Use action msg for {'str': 'light power armor (active)', 'str_pl': 'suits
+#. of light power armor (active)'}.
+#: .\Armor\EnhancedPowerArmor_2.json
+msgid "The %s disengages."
+msgstr ""
+
+#. ~ Use action msg for {'str': 'power armor (active)', 'str_pl': 'suits of
+#. power armor (active)'}.
+#: .\Armor\EnhancedPowerArmor_2.json
+msgid "보조 유압 서보 모터: 온라인"
+msgstr "Auxiliary hydraulic servo motor: online"
+
+#: .\Armor\EnhancedPowerArmor_2.json
+msgid "heavy power armor"
+msgid_plural "suits of heavy power armor"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Use action msg for {'str': 'heavy power armor', 'str_pl': 'suits of heavy
+#. power armor'}.
+#: .\Armor\EnhancedPowerArmor_2.json
+msgid ""
+"강화 유압 서보 모터: 오프라인\n"
+"자세 보정 장치: 오프라인\n"
+"프레임 잠금 장치: 오프라인"
+msgstr ""
+"Reinforced hydraulic servo motors: offline\n"
+"Posture compensator: offline\n"
+"Frame lock: offline"
+
+#. ~ Use action msg for {'str': 'heavy power armor (active)', 'str_pl': 'suits
+#. of heavy power armor (active)'}.
+#: .\Armor\EnhancedPowerArmor_2.json
+msgid ""
+"강화 유압 서보 모터: 온라인\n"
+"자세 보정 장치: 온라인\n"
+"프레임 잠금 장치: 온라인"
+msgstr ""
+"Reinforced hydraulic servo motors: online\n"
+"Posture compensator: online\n"
+"Frame lock: online"
+
+#: .\Armor\EnhancedPowerArmor_2.json
+msgid "light power armor"
+msgid_plural "suits of light power armor"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Use action msg for {'str': 'light power armor', 'str_pl': 'suits of light
+#. power armor'}.
+#: .\Armor\EnhancedPowerArmor_2.json
+msgid ""
+"동작 반응 장치: 오프라인\n"
+"기동 보조 모터: 오프라인"
+msgstr ""
+"Motion response device: offline\n"
+"Maneuvering assist motors: offline"
+
+#. ~ Use action msg for {'str': 'light power armor (active)', 'str_pl': 'suits
+#. of light power armor (active)'}.
+#: .\Armor\EnhancedPowerArmor_2.json
+msgid ""
+"동작 반응 장치: 온라인\n"
+"기동 보조 모터: 온라인"
+msgstr ""
+"Motion response device: online\n"
+"Maneuvering assist motors: online"
+
+#: .\Weapon\PowerFist.json
+msgid "ML17 공압식 피스트"
+msgid_plural "ML17 공압식 피스트s"
+msgstr[0] "ML17 pneumatic fist"
+msgstr[1] "ML17 pneumatic fists"
+
+#. ~ Description for ML17 공압식 피스트
+#: .\Weapon\PowerFist.json
+msgid ""
+"실린더 끝에 달린 머리로 못을 타격하는 타정기. 본래 공사 현장에서 사"
+"용하기 위해 개발되었으나 특유의 생김새 때문에 뒷골목 싸움꾼들에게 널"
+"리 쓰이게 되었다. 장갑 위에 깍지끼듯 착용하는 장비이며 제한적인 방어"
+"가 가능하다. 전력 없이 주먹을 날려 공격할 수도 있지만 UPS를 사용하"
+"여 공압 피스톤을 작동시킬 수 있다."
+msgstr ""
+"A pneumatic piston hammer for driving nails. Originally developed "
+"for use on construction sites, its distinctive shape made it "
+"popular with back alley brawlers. It is worn over gloves and offers "
+"limited defense. You can also punch it without power, but you can "
+"use a UPS to power the pneumatic piston."
+
+#: .\Weapon\PowerFist.json
+msgid "ML172 유압식 피스트"
+msgid_plural "ML172 유압식 피스트s"
+msgstr[0] "ML172 hydraulic fist"
+msgstr[1] "ML172 hydraulic fists"
+
+#. ~ Description for ML172 유압식 피스트
+#: .\Weapon\PowerFist.json
+msgid ""
+"공압식 피스톤에서 강력한 유압 피스톤으로 교체된 타정기. 리벳 전용으"
+"로 개발되었다고 하나 전작과 같이 뒷골목에서 더 널리 쓰이게 되었다. "
+"전력 없이 주먹을 날려 공격할 수도 있지만 UPS를 사용하여 강력한 유압 "
+"피스톤을 작동시킬 수 있다."
+msgstr ""
+"A pneumatic piston replaced by a powerful hydraulic piston. It was "
+"developed exclusively for rivets, but like its predecessor, it has "
+"become more widely used in back alleys. You can still punch it "
+"without power, but you can use a UPS to power the powerful "
+"hydraulic piston."
+
+#: .\Weapon\PowerFist.json
+msgid "ML18 파워 피스트"
+msgid_plural "ML18 파워 피스트s"
+msgstr[0] "ML18 power fist"
+msgstr[1] "ML18 power fists"
+
+#. ~ Description for ML18 파워 피스트
+#: .\Weapon\PowerFist.json
+msgid ""
+"3000RPM의 서보모터를 사용하는 피스트. 피스트 시리즈가 전투용으로 개"
+"발된 장비이며 끝부분의 충격은 그 어떤 갑옷을 입고 있더라도 무시할 "
+"수 없다. 전력 없이 주먹을 날려 공격할 수도 있지만 UPS를 사용하여 서"
+"보모터를 작동시킬 수 있다. 파워 피스트의 끝부분에 어댑터가 장착되어 "
+"있어 전용 제작된 개조부품을 장착할 수 있다."
+msgstr ""
+"Fist with a 3000 RPM servomotor. It was developed for combat, and "
+"the impact of its tip is not to be ignored by any armor. You can "
+"punch without power, but you can use a UPS to run the servo motor. "
+"The end of the power fist is equipped with a mount that allows you "
+"to attach specially designed modifications."
+
+#: .\Weapon\PowerFist.json
+msgid "산탄 피스트"
+msgid_plural "산탄 피스트s"
+msgstr[0] "shotgun fist"
+msgstr[1] "shotgun fists"
+
+#. ~ Description for 산탄 피스트
+#: .\Weapon\PowerFist.json
+msgid ""
+"공압 피스트에 영감을 받아 만들어진듯한 산탄을 사용하는 피스트. 작동"
+"부에 무언가가 닿으면 산탄이 발사된다. 당연하게도 총열이 매우 짧기 때"
+"문에 피해량과 정숙함은 기대할 수 없지만 손 끝에서 발사되기 때문에 백"
+"발백중이라고 볼 수 있다."
+msgstr ""
+"A pneumatic-fist-inspired shotgun. The shot is fired when something "
+"touches the operating part. Naturally, it has a very short barrel, "
+"so you can't expect much damage or silence, but it's a great weapon "
+"to have at your fingertips."
+
+#: .\Weapon\PowerFist.json
+msgid "피스트 못 개조"
+msgid_plural "피스트 못 개조s"
+msgstr[0] "nails fist mod"
+msgstr[1] "nails fist mods"
+
+#: .\Weapon\PowerFist.json
+msgid ""
+"못을 박아 넣은 나무 조각과 끈. 유압식/공압식 피스트에 장착하여 베기 "
+"피해를 추가시킨다.(일반 공격 3, 피스톤 공격 6)"
+msgstr ""
+"A piece of nailed wood and string. Mounted on a hydraulic/pneumatic "
+"fists to add cut damage (normal attack 3, piston attack 6)."
+
+#: .\Weapon\PowerFist.json
+msgid "피스트 끝부분"
+msgstr "fist extremity"
+
+#: .\Weapon\PowerFist.json
+msgid "피스트 스파이크 개조"
+msgid_plural "피스트 스파이크 개조s"
+msgstr[0] "spikes fist mod"
+msgstr[1] "spikes fist mods"
+
+#: .\Weapon\PowerFist.json
+msgid ""
+"철판에 스파이크를 용접한 개조부품. 유압식/공압식 피스트에 장착하여 "
+"베기 피해를 추가시킨다.(일반 공격 6, 피스톤 공격 12)"
+msgstr ""
+"A spike welded to an iron plate. Mounted on a hydraulic/pneumatic "
+"fists to add cut damage (normal attack 6, piston attack 12)."
+
+#: .\Weapon\PowerFist.json
+msgid "피스트 불주먹 개조"
+msgid_plural "피스트 불주먹 개조s"
+msgstr[0] "flaming fist mod"
+msgstr[1] "flaming fist mods"
+
+#: .\Weapon\PowerFist.json
+msgid ""
+"철판과 발열부를 접합한 개조부품. 작동에 전력이 추가로 필요하며 유압"
+"식/공압식 피스트에 장착하여 화염 피해를 추가시킨다.(전력 +1/피스톤 "
+"공격 15)"
+msgstr ""
+"A modification that combines an iron plate with a heating element. "
+"Requires additional power to operate and can be mounted on "
+"hydraulic/pneumatic fists to add heat damage (+1 power comsumption/"
+"piston attack 15)."
+
+#: .\Weapon\PowerFist.json
+msgid "피스트 과충전 개조"
+msgid_plural "피스트 과충전 개조s"
+msgstr[0] "fist overclocking mod"
+msgstr[1] "fist overclocking mods"
+
+#: .\Weapon\PowerFist.json
+msgid ""
+"피스트의 출력량을 증가시키는 개조부품. 피해량이 증가하는 대신 작동 "
+"전력과 소음이 증가한다.(피스톤 공격 +5/전력 +25%/소음 +10)"
+msgstr ""
+"A modification that increases the output of the fist. At the "
+"expense of increased damage, it increases power consumption and "
+"noise (+5 piston attack / +25% power consumption / +10 noise)."
+
+#: .\Weapon\PowerFist.json
+msgid "피스트 작동방식"
+msgstr "fist mechanism"
+
+#: .\Weapon\PowerFist.json
+msgid "피스트 완자동 개조"
+msgid_plural "피스트 완자동 개조s"
+msgstr[0] "automatic fist mod"
+msgstr[1] "automatic fist mods"
+
+#: .\Weapon\PowerFist.json
+msgid ""
+"피스트 왕복 운동 완자동 개조부품. 피스트 완자동 타격이 추가된 대신 "
+"작동 전력과 소음이 증가한다.(완자동 타격 추가, 전력 +25%/소음 +10)"
+msgstr ""
+"The fist reciprocating fully-automatic modification. Adds a fist "
+"auto-strike mode at the cost of increased power consumption and "
+"noise (adds auto-strike mode / +25% power consumption / +10 noise)."
+
+#: .\Weapon\PowerFist.json
+msgid "완자동 타격"
+msgstr "auto-strike"
+
+#: .\Weapon\PowerFist.json
+msgid "ML181 파워 피스트 스파이크 개조"
+msgid_plural "ML181 파워 피스트 스파이크 개조s"
+msgstr[0] "ML181 power fist spikes mod"
+msgstr[1] "ML181 power fist spikes mods"
+
+#: .\Weapon\PowerFist.json
+msgid ""
+"ML18 파워 피스트 전용으로 제작된 스파이크 개조부품. 장착하여 베기 피"
+"해를 추가시킨다.(일반 공격 10, 피스톤 공격 20)"
+msgstr ""
+"Spikes modification, made exclusively for the ML18 power fist. "
+"Equip to add cut damage (10 normal attack, 20 piston attack)."
+
+#: .\Weapon\PowerFist.json
+msgid "파워 피스트 끝부분"
+msgstr "power fist extremity"
+
+#: .\Weapon\PowerFist.json
+msgid "ML182 파워 피스트 충격 개조"
+msgid_plural "ML182 파워 피스트 충격 개조s"
+msgstr[0] "ML182 power fist shocker mod"
+msgstr[1] "ML182 power fist shocker mods"
+
+#: .\Weapon\PowerFist.json
+msgid ""
+"ML18 파워 피스트 전용으로 제작된 충격 개조부품. 타점에 강력한 전기 "
+"충격을 가해 다수의 적들을 기절시킬 수 있다. 중요한 점으로는 다수에 "
+"사용자까지 포함된다는 것이다."
+msgstr ""
+"A shocker modification, made exclusively for the ML18 power fist. "
+"It can deliver a powerful electric shock on impact, stunning many "
+"enemies. Caution, many of them include YOU (10 normal attack, 20 "
+"piston attack)."
+
+#: .\Weapon\PowerFist.json
+msgid "ML183 파워 피스트 아크 개조"
+msgid_plural "ML183 파워 피스트 아크 개조s"
+msgstr[0] "ML182 power fist arc-blast mod"
+msgstr[1] "ML182 power fist arc-blast mods"
+
+#: .\Weapon\PowerFist.json
+msgid ""
+"ML18 파워 피스트 전용으로 제작된 아크 개조부품. 타격 시 매우 격렬한 "
+"아크 폭발이 발생하도록 제작되었다. 당연하게도 손 끝에서 폭발이 일어"
+"나는 것으로 제대로된 방호장비 없이 사용하면 매우 위험할 수 있다."
+msgstr ""
+"An arc-blast modification made exclusively for the ML18 power fist. "
+"It is designed to produce a very intense arc blast upon impact. Not "
+"surprisingly, the explosion occurs at your fingertips and can be "
+"very dangerous if used without proper protective gear."

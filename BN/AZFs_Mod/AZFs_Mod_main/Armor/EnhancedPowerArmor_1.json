@@ -3,21 +3,21 @@
     "id": "power_armor_basic_on",
     "copy-from": "power_armor_basic_on",
     "type": "TOOL_ARMOR",
-    "name": { "str": "combat exoskeleton (active)", "str_pl": "combat exoskeletons (active)" },
+    "name": { "str": "power armor (active)", "str_pl": "suits of power armor (active)" },
     "artifact_data": { "effects_worn": [ "AEP_STR_UP" ] }
   },
   {
     "id": "power_armor_heavy_on",
     "copy-from": "power_armor_heavy_on",
     "type": "TOOL_ARMOR",
-    "name": { "str": "heavy combat exoskeleton (active)", "str_pl": "heavy combat exoskeletons (active)" },
+    "name": { "str": "heavy power armor (active)", "str_pl": "suits of heavy power armor (active)" },
     "artifact_data": { "effects_worn": [ "AEP_STR_UP", "AEP_STR_UP", "AEP_DEX_DOWN" ] }
   },
   {
     "id": "power_armor_light_on",
     "copy-from": "power_armor_light_on",
     "type": "TOOL_ARMOR",
-    "name": { "str": "field combat exoskeleton (active)", "str_pl": "field combat exoskeletons (active)" },
+    "name": { "str": "light power armor (active)", "str_pl": "suits of light power armor (active)" },
     "artifact_data": { "effects_worn": [ "AEP_DEX_UP", "AEP_SPEED_UP" ] }
   },
   {
@@ -25,7 +25,7 @@
     "copy-from": "power_armor_helmet_basic_on",
     "type": "TOOL_ARMOR",
     "looks_like": "power_armor_helmet_basic",
-    "name": { "str": "environmental combat helmet (active)", "str_pl": "environmental combat helmets (active)" },
+    "name": { "str": "power armor helmet (active)", "str_pl": "power armor helmets (active)" },
     "artifact_data": { "effects_worn": [ "AEP_PER_UP" ] }
   },
   {
@@ -33,7 +33,7 @@
     "copy-from": "power_armor_helmet_heavy_on",
     "type": "TOOL_ARMOR",
     "looks_like": "power_armor_helmet_heavy",
-    "name": { "str": "heavy environmental combat helmet (active)", "str_pl": "heavy environmental combat helmets (active)" },
+    "name": { "str": "heavy power armor helmet (active)", "str_pl": "heavy power armor helmets (active)" },
     "artifact_data": { "effects_worn": [ "AEP_PER_UP" ] }
   },
   {
@@ -41,7 +41,7 @@
     "copy-from": "power_armor_helmet_light_on",
     "type": "TOOL_ARMOR",
     "looks_like": "power_armor_helmet_light",
-    "name": { "str": "light environmental combat helmet (active)", "str_pl": "light environmental combat helmets (active)" },
+    "name": { "str": "light power armor helmet (active)", "str_pl": "light power armor helmets (active)" },
     "artifact_data": { "effects_worn": [ "AEP_PER_UP" ] }
   },
   {

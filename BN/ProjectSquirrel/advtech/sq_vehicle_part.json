@@ -48,7 +48,7 @@
       "removal": { "skills": [ [ "mechanics", 6 ] ], "time": "45 m", "using": [ [ "vehicle_weld_removal", 1 ] ] },
       "repair": { "skills": [ [ "mechanics", 9 ] ], "time": "25 m", "using": [ [ "welding_standard", 5 ] ] }
     },
-    "flags": [ "CARGO", "COVERED", "UNMOUNT_ON_DAMAGE" ]
+    "flags": [ "CARGO", "COVERED", "UNMOUNT_ON_DAMAGE", "BOARDABLE", "LOCKABLE_CARGO" ]
   },
   {
     "type": "vehicle_part",
