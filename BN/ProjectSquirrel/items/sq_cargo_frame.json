@@ -303,7 +303,7 @@
       { "type": "holster" }
     ],
     "covers": [ "torso", "arms", "legs" ],
-    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "STRENGTH", "add": 1 } ] } ] },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "STRENGTH", "add": 2 } ] } ] },
     "warmth": 5,
     "environmental_protection": 3,
     "coverage": 80,
@@ -360,7 +360,7 @@
     "covers": [ "torso", "legs" ],
     "warmth": 5,
     "environmental_protection": 3,
-    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MOVE_COST", "add": -10 } ] } ] },
+    "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MOVE_COST", "add": -15 } ] } ] },
     "coverage": 40,
     "material_thickness": 3,
     "encumbrance": 10,
