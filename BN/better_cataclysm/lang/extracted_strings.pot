@@ -1,0 +1,1723 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: better_cataclysm\n"
+"POT-Creation-Date: 2023-07-27 16:11+0900\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: .\modinfo.json
+msgid "better cataclysm"
+msgstr ""
+
+#. ~ Description for better cataclysm
+#: .\modinfo.json
+msgid "카타클의 불합리하고 불공평한 부분을 수정합니다. 자세한건 readme 파일 참조"
+msgstr ""
+
+#. ~ Computer name
+#: .\lab_more_reward\lab_floorplans_finale1level.json
+msgid "Operating Theater Access Control"
+msgstr ""
+
+#. ~ Computer option
+#: .\lab_more_reward\lab_floorplans_finale1level.json
+msgid "EMERGENCY EVAC - OPEN ALL DOORS"
+msgstr ""
+
+#. ~ Computer option
+#: .\lab_more_reward\lab_floorplans_finale1level.json
+msgid "UNLOCK AUTODOC DOOR"
+msgstr ""
+
+#. ~ Computer name
+#: .\lab_more_reward\lab_floorplans_finale1level.json
+msgid "PE012 Storage"
+msgstr ""
+
+#. ~ Computer option
+#: .\lab_more_reward\lab_floorplans_finale1level.json
+msgid "UNLOCK STORAGE"
+msgstr ""
+
+#. ~ Computer access denied warning
+#: .\lab_more_reward\lab_floorplans_finale1level.json
+msgid ""
+"ERROR!  Access denied!  Unauthorized access will be met with lethal force!"
+msgstr ""
+
+#. ~ Computer name
+#: .\lab_more_reward\lab_floorplans_finale1level.json
+msgid "Prototype DARPA-713 AUTHORIZED PILOTS ONLY"
+msgstr ""
+
+#. ~ Computer name
+#: .\lab_more_reward\lab_floorplans_finale1level.json
+msgid "PE019 \"Sculptor\" Secure Storage"
+msgstr ""
+
+#. ~ Computer name
+#: .\lab_more_reward\lab_floorplans_finale1level.json
+msgid "PE050 \"Alpha\" Secure Storage"
+msgstr ""
+
+#. ~ Computer name
+#: .\lab_more_reward\lab_floorplans_finale1level.json
+msgid "PE065 \"Chimera\" Secure Storage"
+msgstr ""
+
+#. ~ Computer name
+#: .\lab_more_reward\lab_floorplans_finale1level.json
+msgid "PE070 \"Raptor\" Secure Storage"
+msgstr ""
+
+#. ~ Computer name
+#: .\lab_more_reward\lab_floorplans_finale1level.json
+msgid "PE023 \"Medical\" Secure Storage"
+msgstr ""
+
+#: .\magiclysm_rebalance\animist.json
+msgid "Smite"
+msgstr ""
+
+#. ~ Description for Smite
+#: .\magiclysm_rebalance\animist.json
+msgid ""
+"Evil has become pervasive throughout the world.  Let your power be the light"
+" that shines in the darkness!"
+msgstr ""
+
+#: .\magiclysm_rebalance\animist.json
+msgid "Life Conversion"
+msgstr ""
+
+#. ~ Description for Life Conversion
+#: .\magiclysm_rebalance\animist.json
+msgid ""
+"You channel your life force itself into your spiritual energy.  You spend hp"
+" to regain mana."
+msgstr ""
+
+#: .\magiclysm_rebalance\animist.json
+msgid "Mind over Pain"
+msgstr ""
+
+#. ~ Description for Mind over Pain
+#: .\magiclysm_rebalance\animist.json
+msgid ""
+"With an intense ritual that resembles crossfit, you manage to put some of "
+"your pain at bay."
+msgstr ""
+
+#: .\magiclysm_rebalance\animist.json
+msgid "Summon Zombie"
+msgstr ""
+
+#. ~ Description for Summon Zombie
+#: .\magiclysm_rebalance\animist.json
+msgid ""
+"An ethereal-looking zombie rises from the depths of the earth to fight for "
+"you.  You may be able to summon more with a higher level in this spell."
+msgstr ""
+
+#: .\magiclysm_rebalance\animist.json
+msgid "Summon Skeleton"
+msgstr ""
+
+#. ~ Description for Summon Skeleton
+#: .\magiclysm_rebalance\animist.json
+msgid ""
+"A ghostly skeleton rises from the depths of the earth to fight for you.  You"
+" may be able to summon more with a higher level in this spell."
+msgstr ""
+
+#: .\magiclysm_rebalance\animist.json
+msgid "Summon Decayed Pouncer"
+msgstr ""
+
+#. ~ Description for Summon Decayed Pouncer
+#: .\magiclysm_rebalance\animist.json
+msgid ""
+"A decrepit looking large cat rises from the depths of the earth to fight for"
+" you.  You may be able to summon more with a higher level in this spell."
+msgstr ""
+
+#: .\magiclysm_rebalance\animist.json
+msgid "Necrotic Gaze"
+msgstr ""
+
+#. ~ Description for Necrotic Gaze
+#: .\magiclysm_rebalance\animist.json
+msgid ""
+"You use the power of your own blood to imbue necrotic energy into your gaze,"
+" damaging the target you look at."
+msgstr ""
+
+#: .\magiclysm_rebalance\animist.json
+msgid "Animist Rune"
+msgstr ""
+
+#. ~ Description for {'str': 'Animist Rune'}
+#: .\magiclysm_rebalance\animist.json
+msgid ""
+"This ritual creates a small pebble attuned to Animists.  You can use the "
+"rune as a catalyst for recipes."
+msgstr ""
+
+#: .\magiclysm_rebalance\animist.json
+msgid "Ignus Fatuus"
+msgstr ""
+
+#. ~ Description for Ignus Fatuus
+#: .\magiclysm_rebalance\animist.json
+msgid ""
+"Summons ghostly foxfire worked from living marsh vapor, to lead your enemies"
+" astray.  With more experience, this spell can conjure multiple ghost "
+"lights."
+msgstr ""
+
+#: .\magiclysm_rebalance\biomancer.json
+msgid "Cure Light Wounds"
+msgstr ""
+
+#. ~ Description for Cure Light Wounds
+#: .\magiclysm_rebalance\biomancer.json
+msgid "Heals a little bit of damage on the target."
+msgstr ""
+
+#: .\magiclysm_rebalance\biomancer.json
+msgid "Pain Split"
+msgstr ""
+
+#. ~ Description for Pain Split
+#: .\magiclysm_rebalance\biomancer.json
+msgid "Evens out damage among your limbs."
+msgstr ""
+
+#: .\magiclysm_rebalance\biomancer.json
+msgid "Vicious Tentacle"
+msgstr ""
+
+#. ~ Description for Vicious Tentacle
+#: .\magiclysm_rebalance\biomancer.json
+msgid ""
+"This spell extrudes a long nasty whiplike tentacle of sharp bones and oozing"
+" acid from your body, it has a long reach attack and vicious damage."
+msgstr ""
+
+#: .\magiclysm_rebalance\biomancer.json
+msgid "Grotesque Enhancement"
+msgstr ""
+
+#. ~ Description for Grotesque Enhancement
+#: .\magiclysm_rebalance\biomancer.json
+msgid ""
+"A spell that warps your body in alien ways to increase your physical "
+"abilities and strength."
+msgstr ""
+
+#: .\magiclysm_rebalance\biomancer.json
+msgid "Acidic Spray"
+msgstr ""
+
+#. ~ Description for {'str': 'Acidic Spray'}
+#: .\magiclysm_rebalance\biomancer.json
+msgid ""
+"When cast, the mage opens his mouth and sprays acid in a wide cone to "
+"dissolve his foes into goo.  Just imagine what he'll do with the goo."
+msgstr ""
+
+#: .\magiclysm_rebalance\biomancer.json
+msgid "Flesh Pouch"
+msgstr ""
+
+#. ~ Description for Flesh Pouch
+#: .\magiclysm_rebalance\biomancer.json
+msgid ""
+"This spell grows a large pouch out of your skin on your back, allowing you "
+"to store your gear in it."
+msgstr ""
+
+#: .\magiclysm_rebalance\biomancer.json
+msgid "Conjure Bonespear"
+msgstr ""
+
+#. ~ Description for Conjure Bonespear
+#: .\magiclysm_rebalance\biomancer.json
+msgid ""
+"This spell creates a long shaft of bone with a wicked point and blades along"
+" its length."
+msgstr ""
+
+#: .\magiclysm_rebalance\biomancer.json
+msgid "Biomancer Rune"
+msgstr ""
+
+#. ~ Description for {'str': 'Biomancer Rune'}
+#: .\magiclysm_rebalance\biomancer.json
+msgid ""
+"This ritual creates a small pebble attuned to Biomancers.  You can use the "
+"rune as a catalyst for recipes."
+msgstr ""
+
+#: .\magiclysm_rebalance\biomancer.json
+msgid "Paralytic Dart"
+msgstr ""
+
+#. ~ Description for Paralytic Dart
+#: .\magiclysm_rebalance\biomancer.json
+msgid ""
+"Spits a warped needle of sinew and bone, carrying with it a sting that slows"
+" your victim."
+msgstr ""
+
+#: .\magiclysm_rebalance\biomancer.json
+msgid "Visceral Projection"
+msgstr ""
+
+#. ~ Description for Visceral Projection
+#: .\magiclysm_rebalance\biomancer.json
+msgid ""
+"Projects a spray of acrid blood and gore all around you, growing to ensnare "
+"your prey in in a field of twitching poisonous tendrils."
+msgstr ""
+
+#: .\magiclysm_rebalance\biomancer.json
+msgid "Visceral Paralysis"
+msgstr ""
+
+#. ~ Description for Visceral Paralysis
+#: .\magiclysm_rebalance\biomancer.json
+msgid "Paralytic side effect of Projection."
+msgstr ""
+
+#: .\magiclysm_rebalance\biomancer.json
+msgid "Visceral Backlash"
+msgstr ""
+
+#. ~ Description for Visceral Backlash
+#: .\magiclysm_rebalance\biomancer.json
+msgid "Hits the user with side effects too."
+msgstr ""
+
+#: .\magiclysm_rebalance\biomancer.json
+msgid "Coagulant Weave"
+msgstr ""
+
+#. ~ Description for Coagulant Weave
+#: .\magiclysm_rebalance\biomancer.json
+msgid ""
+"Turns your biological mastery inwards, medically enhancing your flesh.  "
+"Rather than strength of healing, it staves off blood loss and purges wounds "
+"before they can turn septic, at the cost of increased hunger and thirst."
+msgstr ""
+
+#: .\magiclysm_rebalance\classless.json .\magiclysm_rebalance\manatouched.json
+msgid "Crystallize Mana"
+msgstr ""
+
+#. ~ Description for Crystallize Mana
+#: .\magiclysm_rebalance\classless.json
+msgid "Crystallizes mana into solid form"
+msgstr ""
+
+#: .\magiclysm_rebalance\classless.json
+msgid "Mana Fatigue"
+msgstr ""
+
+#. ~ Description for Mana Fatigue
+#: .\magiclysm_rebalance\classless.json
+msgid "Secondary effect of Crystallize Mana"
+msgstr ""
+
+#: .\magiclysm_rebalance\classless.json
+msgid "Dark Sight"
+msgstr ""
+
+#. ~ Description for Dark Sight
+#: .\magiclysm_rebalance\classless.json
+msgid "Gives you the power to see in the dark"
+msgstr ""
+
+#. ~ Message for SPELL 'Dark Sight'
+#: .\magiclysm_rebalance\classless.json
+msgid ""
+"Your eyes glow green for a moment.  Now your sight can pierce the darkest "
+"shadows."
+msgstr ""
+
+#: .\magiclysm_rebalance\classless.json
+msgid "Megablast"
+msgstr ""
+
+#. ~ Description for Megablast
+#: .\magiclysm_rebalance\classless.json
+msgid ""
+"You always wanted to fire energy beams like in the animes you watched as a "
+"kid.  Now you can!"
+msgstr ""
+
+#: .\magiclysm_rebalance\classless.json
+msgid "Magical Light"
+msgstr ""
+
+#. ~ Description for Magical Light
+#: .\magiclysm_rebalance\classless.json
+msgid "Creates a magical light."
+msgstr ""
+
+#: .\magiclysm_rebalance\classless.json
+msgid "Blinding Flash"
+msgstr ""
+
+#. ~ Description for {'str': 'Blinding Flash'}
+#: .\magiclysm_rebalance\classless.json
+msgid ""
+"Blind enemies for a short time with a sudden, dazzling light.  Higher levels"
+" deal slightly higher damage."
+msgstr ""
+
+#: .\magiclysm_rebalance\classless.json
+msgid "Ethereal Grasp"
+msgstr ""
+
+#. ~ Description for Ethereal Grasp
+#: .\magiclysm_rebalance\classless.json
+msgid ""
+"A mass of spectral hands emerge from the ground, slowing everything in "
+"range.  Higher levels allow a bigger AoE, and longer effect."
+msgstr ""
+
+#: .\magiclysm_rebalance\classless.json
+msgid "Obfuscated Body"
+msgstr ""
+
+#. ~ Description for Obfuscated Body
+#: .\magiclysm_rebalance\classless.json
+msgid ""
+"A magical aura distorts light around your body, increasing the amount of "
+"attacks you might dodge in a given turn."
+msgstr ""
+
+#: .\magiclysm_rebalance\classless.json
+msgid "Aura of Protection"
+msgstr ""
+
+#. ~ Description for {'str': 'Aura of Protection'}
+#: .\magiclysm_rebalance\classless.json
+msgid ""
+"Encases your whole body in a magical aura that protects you from the "
+"environment."
+msgstr ""
+
+#: .\magiclysm_rebalance\classless.json
+msgid "Translocate Self"
+msgstr ""
+
+#. ~ Description for Translocate Self
+#: .\magiclysm_rebalance\classless.json
+msgid "Translocates the user to an attuned gate."
+msgstr ""
+
+#: .\magiclysm_rebalance\classless.json
+msgid "Acid Resistance"
+msgstr ""
+
+#. ~ Description for {'str': 'Acid Resistance'}
+#. ~ Description for Greater Acid Resistance
+#: .\magiclysm_rebalance\classless.json
+msgid "Protects the user from acid."
+msgstr ""
+
+#: .\magiclysm_rebalance\classless.json
+msgid "Greater Acid Resistance"
+msgstr ""
+
+#: .\magiclysm_rebalance\debug.json
+msgid "Template Spell"
+msgstr ""
+
+#. ~ Description for Template Spell
+#: .\magiclysm_rebalance\debug.json
+msgid "This is a template to show off all the available values"
+msgstr ""
+
+#. ~ Message for SPELL 'Template Spell'
+#: .\magiclysm_rebalance\debug.json
+#, c-format
+msgid "As you cast %s, your ears pops!"
+msgstr ""
+
+#: .\magiclysm_rebalance\debug.json
+msgid "Spawn Debug Monsters"
+msgstr ""
+
+#. ~ Description for Spawn Debug Monsters
+#: .\magiclysm_rebalance\debug.json
+msgid "Set level to number of monsters spawned."
+msgstr ""
+
+#. ~ Message for SPELL 'Spawn Debug Monsters'
+#. ~ Message for SPELL 'Debug Fatigue Spell'
+#. ~ Message for SPELL 'Debug HP Spell'
+#. ~ Message for SPELL 'Debug Bionic Spell'
+#. ~ Message for SPELL 'Debug effect spell'
+#. ~ Message for SPELL 'Test Area Pull'
+#. ~ Message for SPELL 'Test Area Pull (Field)'
+#. ~ Message for SPELL 'Test Area Push'
+#: .\magiclysm_rebalance\debug.json
+#, c-format
+msgid "Debug spell %s cast."
+msgstr ""
+
+#: .\magiclysm_rebalance\debug.json
+msgid "Debug Stamina Spell"
+msgstr ""
+
+#. ~ Description for Debug Stamina Spell
+#: .\magiclysm_rebalance\debug.json
+msgid "Uses a little stamina"
+msgstr ""
+
+#. ~ Message for SPELL 'Debug Stamina Spell'
+#: .\magiclysm_rebalance\debug.json
+#, c-format
+msgid "Debug spell [ %s ] has no effect.  Debug warning is expected."
+msgstr ""
+
+#: .\magiclysm_rebalance\debug.json
+msgid "Debug Fatigue Spell"
+msgstr ""
+
+#. ~ Description for Debug Fatigue Spell
+#: .\magiclysm_rebalance\debug.json
+msgid "Uses a little fatigue"
+msgstr ""
+
+#: .\magiclysm_rebalance\debug.json
+msgid "Debug HP Spell"
+msgstr ""
+
+#. ~ Description for Debug HP Spell
+#: .\magiclysm_rebalance\debug.json
+msgid "Uses a little HP"
+msgstr ""
+
+#: .\magiclysm_rebalance\debug.json
+msgid "Debug Bionic Spell"
+msgstr ""
+
+#. ~ Description for Debug Bionic Spell
+#: .\magiclysm_rebalance\debug.json
+msgid "Uses a little Bionic Power"
+msgstr ""
+
+#: .\magiclysm_rebalance\debug.json
+msgid "Debug effect spell"
+msgstr ""
+
+#. ~ Description for Debug effect spell
+#: .\magiclysm_rebalance\debug.json
+msgid "Adds an effect to the target"
+msgstr ""
+
+#: .\magiclysm_rebalance\debug.json
+msgid "Test Area Pull"
+msgstr ""
+
+#. ~ Description for Test Area Pull
+#: .\magiclysm_rebalance\debug.json
+msgid "Pulls all objects inside."
+msgstr ""
+
+#: .\magiclysm_rebalance\debug.json
+msgid "Test Area Pull (Field)"
+msgstr ""
+
+#. ~ Description for Test Area Pull (Field)
+#: .\magiclysm_rebalance\debug.json
+msgid "Pulls field contents tiles inside."
+msgstr ""
+
+#: .\magiclysm_rebalance\debug.json
+msgid "Test Area Push"
+msgstr ""
+
+#. ~ Description for Test Area Push
+#: .\magiclysm_rebalance\debug.json
+msgid "Pushes all objects outside."
+msgstr ""
+
+#: .\magiclysm_rebalance\debug.json
+msgid "Debug Full Protection"
+msgstr ""
+
+#. ~ Description for Debug Full Protection
+#: .\magiclysm_rebalance\debug.json
+msgid "You can not be harmed by anything."
+msgstr ""
+
+#. ~ Message for SPELL 'Debug Full Protection'
+#: .\magiclysm_rebalance\debug.json
+msgid "You are invulnerable, nothing can harm you!"
+msgstr ""
+
+#: .\magiclysm_rebalance\debug.json
+msgid "Debug Feather Falling"
+msgstr ""
+
+#. ~ Description for Debug Feather Falling
+#: .\magiclysm_rebalance\debug.json
+msgid "You  are light as a feather and fall like."
+msgstr ""
+
+#. ~ Message for SPELL 'Debug Feather Falling'
+#: .\magiclysm_rebalance\debug.json
+msgid "You eat a feather!"
+msgstr ""
+
+#: .\magiclysm_rebalance\dragonbreath.json
+msgid "Black Dragons' Breath"
+msgstr ""
+
+#. ~ Description for {'str': "Black Dragons' Breath"}
+#: .\magiclysm_rebalance\dragonbreath.json
+msgid "Spews a line of acid from your mouth."
+msgstr ""
+
+#: .\magiclysm_rebalance\druid.json
+msgid "Vegetative Grasp"
+msgstr ""
+
+#. ~ Description for Vegetative Grasp
+#: .\magiclysm_rebalance\druid.json
+msgid ""
+"This spell causes roots and vines to burst forth from the ground and grab "
+"your foes, slowing them and doing a small amount of damage as they dig in."
+msgstr ""
+
+#: .\magiclysm_rebalance\druid.json
+msgid "Root Strike"
+msgstr ""
+
+#. ~ Description for Root Strike
+#: .\magiclysm_rebalance\druid.json
+msgid ""
+"This spell causes roots to spear out the ground and stab into your foes in "
+"an arc, impaling them."
+msgstr ""
+
+#: .\magiclysm_rebalance\druid.json
+msgid "Wooden Shaft"
+msgstr ""
+
+#. ~ Description for Wooden Shaft
+#: .\magiclysm_rebalance\druid.json
+msgid ""
+"This spell creates a projectile of hardwood that shoots forth from the "
+"caster's hand at high speed to stab into an enemy."
+msgstr ""
+
+#: .\magiclysm_rebalance\druid.json
+msgid "Nature's Bow"
+msgstr ""
+
+#. ~ Description for Nature's Bow
+#: .\magiclysm_rebalance\druid.json
+msgid ""
+"This spell conjures a magical wooden recurve bow that fires endless arrows "
+"for as long as it lasts."
+msgstr ""
+
+#: .\magiclysm_rebalance\druid.json
+msgid "Nature's Trance"
+msgstr ""
+
+#. ~ Description for Nature's Trance
+#: .\magiclysm_rebalance\druid.json
+msgid ""
+"Your connection to living things allows you to go into a magical trance.  "
+"This allows you to recover fatige quickly in exchange for mana."
+msgstr ""
+
+#: .\magiclysm_rebalance\druid.json
+msgid "Bag of Cats"
+msgstr ""
+
+#. ~ Description for {'str': 'Bag of Cats'}
+#: .\magiclysm_rebalance\druid.json
+msgid "Are you the crazy cat lady?"
+msgstr ""
+
+#: .\magiclysm_rebalance\druid.json
+msgid "Cause Bear"
+msgstr ""
+
+#. ~ Description for Cause Bear
+#: .\magiclysm_rebalance\druid.json
+msgid ""
+"This spell appears to be very smudged.  You're fairly sure the name should "
+"be Cause Fear, but you're also fairly sure it won't have the desired effect "
+"because the instructions are hardly legible.  No time like the Cataclysm to "
+"find out, though!"
+msgstr ""
+
+#: .\magiclysm_rebalance\druid.json
+msgid "Kill Fungus"
+msgstr ""
+
+#. ~ Description for Kill Fungus
+#: .\magiclysm_rebalance\druid.json
+msgid "Kills fungus affected areas"
+msgstr ""
+
+#: .\magiclysm_rebalance\druid.json
+msgid "Druid Rune"
+msgstr ""
+
+#. ~ Description for Druid Rune
+#: .\magiclysm_rebalance\druid.json
+msgid ""
+"This ritual creates a small pebble attuned to Druids.  You can use the rune "
+"as a catalyst for recipes."
+msgstr ""
+
+#: .\magiclysm_rebalance\druid.json
+msgid "Purification Seed"
+msgstr ""
+
+#. ~ Description for Purification Seed
+#: .\magiclysm_rebalance\druid.json
+msgid ""
+"You summon a gift of the earth which will purify water.  Rapidly degrades if"
+" not utilized."
+msgstr ""
+
+#: .\magiclysm_rebalance\druid.json
+msgid "Sacrificial Regrowth"
+msgstr ""
+
+#. ~ Description for Sacrificial Regrowth
+#: .\magiclysm_rebalance\druid.json
+msgid ""
+"Through giving of one's own life force, you restore withered and barren "
+"plant life nearby.  What remains will need time to regrow its full strength."
+msgstr ""
+
+#: .\magiclysm_rebalance\druid.json
+msgid "Sacrificial Healing"
+msgstr ""
+
+#. ~ Description for Sacrificial Healing
+#: .\magiclysm_rebalance\druid.json
+msgid ""
+"Channels some of the user's own life force into healing energy, for the sake"
+" of ones allies."
+msgstr ""
+
+#: .\magiclysm_rebalance\earthshaper.json
+msgid "Stonefist"
+msgstr ""
+
+#. ~ Description for Stonefist
+#: .\magiclysm_rebalance\earthshaper.json
+msgid ""
+"Encases your arms and hands in a sheath of magical stone, you can punch and "
+"defend yourself with it in melee combat."
+msgstr ""
+
+#: .\magiclysm_rebalance\earthshaper.json
+msgid "Seismic Stomp"
+msgstr ""
+
+#. ~ Description for Seismic Stomp
+#: .\magiclysm_rebalance\earthshaper.json
+msgid ""
+"Focusing mana into your leg, you stomp your foot and send out a shockwave, "
+"knocking enemies around you onto the ground."
+msgstr ""
+
+#: .\magiclysm_rebalance\earthshaper.json
+msgid "Stone's Endurance"
+msgstr ""
+
+#. ~ Description for Stone's Endurance
+#: .\magiclysm_rebalance\earthshaper.json
+msgid ""
+"You focus on the stones beneath you and draw from their agelessness.  Your "
+"mana is converted to stamina."
+msgstr ""
+
+#: .\magiclysm_rebalance\earthshaper.json
+msgid "Shardspray"
+msgstr ""
+
+#. ~ Description for Shardspray
+#: .\magiclysm_rebalance\earthshaper.json
+msgid ""
+"This spell projects a wide spray of sharp metal shards, cutting into your "
+"foes and friends alike."
+msgstr ""
+
+#: .\magiclysm_rebalance\earthshaper.json
+msgid "Piercing Bolt"
+msgstr ""
+
+#. ~ Description for Piercing Bolt
+#: .\magiclysm_rebalance\earthshaper.json
+msgid ""
+"This spell projects a piercing rod of conjured iron at those that dare "
+"oppose you."
+msgstr ""
+
+#: .\magiclysm_rebalance\earthshaper.json
+msgid "Shardstorm"
+msgstr ""
+
+#. ~ Description for Shardstorm
+#: .\magiclysm_rebalance\earthshaper.json
+msgid ""
+"Creates an omnidirectional spray of razor sharp metal shards all around you."
+msgstr ""
+
+#: .\magiclysm_rebalance\earthshaper.json
+msgid "Rockbolt"
+msgstr ""
+
+#. ~ Description for Rockbolt
+#: .\magiclysm_rebalance\earthshaper.json
+msgid "Fires a conjured stone projectile at high velocity."
+msgstr ""
+
+#: .\magiclysm_rebalance\earthshaper.json
+msgid "Move Earth"
+msgstr ""
+
+#. ~ Description for Move Earth
+#: .\magiclysm_rebalance\earthshaper.json
+msgid "Your essense flows around you, and the earth follows."
+msgstr ""
+
+#: .\magiclysm_rebalance\earthshaper.json
+msgid "Earthshaper Rune"
+msgstr ""
+
+#. ~ Description for Earthshaper Rune
+#: .\magiclysm_rebalance\earthshaper.json
+msgid ""
+"This ritual creates a small pebble attuned to Earthshapers.  You can use the"
+" rune as a catalyst for recipes."
+msgstr ""
+
+#: .\magiclysm_rebalance\earthshaper.json
+msgid "Lava Bomb Shrapnel"
+msgstr ""
+
+#. ~ Description for Lava Bomb Shrapnel
+#. ~ Description for Lava Bomb Heat
+#. ~ Description for Lava Bomb Terrain
+#: .\magiclysm_rebalance\earthshaper.json
+msgid "This is a sub spell for the Lava Bomb spell."
+msgstr ""
+
+#: .\magiclysm_rebalance\earthshaper.json
+msgid "Lava Bomb Heat"
+msgstr ""
+
+#: .\magiclysm_rebalance\earthshaper.json
+msgid "Lava Bomb Terrain"
+msgstr ""
+
+#: .\magiclysm_rebalance\earthshaper.json
+msgid "Lava Bomb"
+msgstr ""
+
+#. ~ Description for Lava Bomb
+#: .\magiclysm_rebalance\earthshaper.json
+msgid ""
+"You tear up the ground beneath you to fire a lava bomb: a globe of lava "
+"surrounded by hot, solid rock.  It shatters upon impact, spraying shards of "
+"rock and lava everywhere."
+msgstr ""
+
+#: .\magiclysm_rebalance\earthshaper.json
+msgid "Stoneskin"
+msgstr ""
+
+#. ~ Description for Stoneskin
+#: .\magiclysm_rebalance\earthshaper.json
+msgid ""
+"Envelops your entire body in armor formed from living rock, encumbering yet "
+"protective."
+msgstr ""
+
+#: .\magiclysm_rebalance\earthshaper.json
+msgid "Pillar of Stone"
+msgstr ""
+
+#. ~ Description for Pillar of Stone
+#: .\magiclysm_rebalance\earthshaper.json
+msgid ""
+"Drawing upon the surrounding earth, you form a pillar of solid rock.  "
+"Experience will make the task easier, and less disruptive to the surrounding"
+" area."
+msgstr ""
+
+#: .\magiclysm_rebalance\earthshaper.json
+msgid "Pillar Side Effect"
+msgstr ""
+
+#. ~ Description for Pillar Side Effect
+#: .\magiclysm_rebalance\earthshaper.json
+msgid "Bash effect that follows, levels reduce damage and AoE."
+msgstr ""
+
+#: .\magiclysm_rebalance\item_only.json
+msgid "Twisted Restoration"
+msgstr ""
+
+#. ~ Description for Twisted Restoration
+#: .\magiclysm_rebalance\item_only.json
+msgid ""
+"This spell overclocks your heart, generating new flesh and muscle.  It is "
+"unwise to use this in immediate danger, and may be fatal if done in critical"
+" condition."
+msgstr ""
+
+#: .\magiclysm_rebalance\item_only.json
+msgid "Improved Twisted Restoration"
+msgstr ""
+
+#. ~ Description for Improved Twisted Restoration
+#: .\magiclysm_rebalance\item_only.json
+msgid ""
+"This spell overclocks your heart, generating new flesh and muscle.  It is "
+"unwise to use this in immediate danger, and may be fatal if done in critical"
+" condition.  Improved brewing mitigates the strain of the spell."
+msgstr ""
+
+#: .\magiclysm_rebalance\item_only.json
+msgid "Conjure Throwing Blade I"
+msgstr ""
+
+#. ~ Description for Conjure Throwing Blade I
+#: .\magiclysm_rebalance\item_only.json
+msgid "conjures 3 throwing knives"
+msgstr ""
+
+#. ~ Message for SPELL 'Conjure Throwing Blade I'
+#: .\magiclysm_rebalance\item_only.json
+msgid ""
+"You activate your ring and three throwing knives appear, ready to throw!"
+msgstr ""
+
+#: .\magiclysm_rebalance\item_only.json
+msgid "Recover Mana"
+msgstr ""
+
+#. ~ Description for Recover Mana
+#: .\magiclysm_rebalance\item_only.json
+msgid "You regain mana."
+msgstr ""
+
+#. ~ Message for SPELL 'Recover Mana'
+#: .\magiclysm_rebalance\item_only.json
+msgid "You start regenerating mana!"
+msgstr ""
+
+#: .\magiclysm_rebalance\item_only.json
+msgid "Pain"
+msgstr ""
+
+#. ~ Description for {'str': 'Pain'}
+#: .\magiclysm_rebalance\item_only.json
+msgid "Increases pain"
+msgstr ""
+
+#. ~ Message for SPELL '{'str': 'Pain'}'
+#: .\magiclysm_rebalance\item_only.json
+msgid ""
+"Your veins feel like they are on fire!\n"
+"You start regenerating mana!"
+msgstr ""
+
+#: .\magiclysm_rebalance\kelvinist.json
+msgid "Point Flare"
+msgstr ""
+
+#. ~ Description for Point Flare
+#: .\magiclysm_rebalance\kelvinist.json
+msgid "Causes an intense heat at the location, damaging the target."
+msgstr ""
+
+#: .\magiclysm_rebalance\kelvinist.json
+msgid "Finger Firelighter"
+msgstr ""
+
+#. ~ Description for Finger Firelighter
+#: .\magiclysm_rebalance\kelvinist.json
+msgid ""
+"Summons a small flame that does not burn you, but you can use it to light "
+"things on fire.  It seems to need you to have some intent to light things on"
+" fire, because you are able to put it in your pocket with no issue."
+msgstr ""
+
+#: .\magiclysm_rebalance\kelvinist.json
+msgid "Ice Spike"
+msgstr ""
+
+#. ~ Description for Ice Spike
+#: .\magiclysm_rebalance\kelvinist.json
+msgid ""
+"Causes jagged icicles to form in the air above the target, falling and "
+"damaging it."
+msgstr ""
+
+#: .\magiclysm_rebalance\kelvinist.json
+msgid "Fireball"
+msgstr ""
+
+#. ~ Description for Fireball
+#: .\magiclysm_rebalance\kelvinist.json
+msgid ""
+"You hurl a pea-sized glowing orb that when reaches its target or an obstacle"
+" produces a pressure-less blast of searing heat."
+msgstr ""
+
+#: .\magiclysm_rebalance\kelvinist.json
+msgid "Cone of Cold"
+msgstr ""
+
+#. ~ Description for Cone of Cold
+#: .\magiclysm_rebalance\kelvinist.json
+msgid "You blast a cone of frigid air toward the target."
+msgstr ""
+
+#: .\magiclysm_rebalance\kelvinist.json
+msgid "Burning Hands"
+msgstr ""
+
+#. ~ Description for {'str': 'Burning Hands'}
+#: .\magiclysm_rebalance\kelvinist.json
+msgid ""
+"You're pretty sure you saw this in a game somewhere.  You fire a short-range"
+" cone of fire."
+msgstr ""
+
+#: .\magiclysm_rebalance\kelvinist.json
+msgid "Frost Spray"
+msgstr ""
+
+#. ~ Description for Frost Spray
+#: .\magiclysm_rebalance\kelvinist.json
+msgid ""
+"You're pretty sure you saw this in a game somewhere.  You fire a short-range"
+" cone of ice and cold."
+msgstr ""
+
+#: .\magiclysm_rebalance\kelvinist.json
+msgid "Chilling Touch"
+msgstr ""
+
+#. ~ Description for Chilling Touch
+#: .\magiclysm_rebalance\kelvinist.json
+msgid "Freezes the touched target with intense cold."
+msgstr ""
+
+#: .\magiclysm_rebalance\kelvinist.json
+msgid "Glide on Ice"
+msgstr ""
+
+#. ~ Description for Glide on Ice
+#: .\magiclysm_rebalance\kelvinist.json
+msgid ""
+"Encases your feet in a magical coating of ice, allowing you to glide along "
+"smooth surfaces faster."
+msgstr ""
+
+#: .\magiclysm_rebalance\kelvinist.json
+msgid "Hoary Blast"
+msgstr ""
+
+#. ~ Description for Hoary Blast
+#: .\magiclysm_rebalance\kelvinist.json
+msgid ""
+"You project a glowing white crystal of ice and it explodes on impact into a "
+"blossom of shattering cold."
+msgstr ""
+
+#: .\magiclysm_rebalance\kelvinist.json
+msgid "Ice Shield"
+msgstr ""
+
+#. ~ Description for Ice Shield
+#: .\magiclysm_rebalance\kelvinist.json
+msgid ""
+"Creates a magical shield of ice on your arm, you can defend yourself with it"
+" in melee combat and use it to bash."
+msgstr ""
+
+#: .\magiclysm_rebalance\kelvinist.json
+msgid "Frost Armor"
+msgstr ""
+
+#. ~ Description for Frost Armor
+#: .\magiclysm_rebalance\kelvinist.json
+msgid "Covers you in a thin layer of magical ice to protect you from harm."
+msgstr ""
+
+#: .\magiclysm_rebalance\kelvinist.json
+msgid "Kelvinist Rune"
+msgstr ""
+
+#. ~ Description for Kelvinist Rune
+#: .\magiclysm_rebalance\kelvinist.json
+msgid ""
+"This ritual creates a small pebble attuned to Kelvinists.  You can use the "
+"rune as a catalyst for recipes."
+msgstr ""
+
+#: .\magiclysm_rebalance\lizardfolk_shaman.json
+msgid "Summon Crocodile"
+msgstr ""
+
+#. ~ Description for Summon Crocodile
+#: .\magiclysm_rebalance\lizardfolk_shaman.json
+msgid "Summons a permanent crocodile."
+msgstr ""
+
+#. ~ Message for SPELL 'Summon Crocodile'
+#: .\magiclysm_rebalance\lizardfolk_shaman.json
+msgid "The shaman summons a crocodile!"
+msgstr ""
+
+#: .\magiclysm_rebalance\lizardfolk_shaman.json
+msgid "an ancient reptilian spell"
+msgstr ""
+
+#. ~ Description for an ancient reptilian spell
+#: .\magiclysm_rebalance\lizardfolk_shaman.json
+msgid "Causes one of the shaman spells to be cast."
+msgstr ""
+
+#: .\magiclysm_rebalance\magus.json
+msgid "Magic Missile"
+msgstr ""
+
+#. ~ Description for Magic Missile
+#: .\magiclysm_rebalance\magus.json
+msgid "I cast Magic Missile at the darkness!"
+msgstr ""
+
+#: .\magiclysm_rebalance\magus.json
+msgid "Phase Door"
+msgstr ""
+
+#. ~ Description for Phase Door
+#: .\magiclysm_rebalance\magus.json
+msgid "Teleports you in a random direction a short distance."
+msgstr ""
+
+#: .\magiclysm_rebalance\magus.json
+msgid "Gravity Well"
+msgstr ""
+
+#. ~ Description for Gravity Well
+#: .\magiclysm_rebalance\magus.json
+msgid ""
+"Summons a well of gravity with the epicenter at the location.  Deals bashing"
+" damage to all creatures in the affected area."
+msgstr ""
+
+#: .\magiclysm_rebalance\magus.json
+msgid "Mana Blast"
+msgstr ""
+
+#. ~ Description for Mana Blast
+#: .\magiclysm_rebalance\magus.json
+msgid "A blast of concentrated magical power that obliterates a large area."
+msgstr ""
+
+#: .\magiclysm_rebalance\magus.json
+msgid "Mana Bolt"
+msgstr ""
+
+#. ~ Description for Mana Bolt
+#: .\magiclysm_rebalance\magus.json
+msgid "A bolt of magical power that only damages your foes."
+msgstr ""
+
+#: .\magiclysm_rebalance\magus.json
+msgid "Haste"
+msgstr ""
+
+#. ~ Description for Haste
+#: .\magiclysm_rebalance\magus.json
+msgid ""
+"This spell gives you an enormous boost of speed lasting a short period of "
+"time."
+msgstr ""
+
+#: .\magiclysm_rebalance\magus.json
+msgid "Mana Beam"
+msgstr ""
+
+#. ~ Description for Mana Beam
+#: .\magiclysm_rebalance\magus.json
+msgid "A beam of focused magical power that damages any foes in its path."
+msgstr ""
+
+#: .\magiclysm_rebalance\magus.json
+msgid "Escape"
+msgstr ""
+
+#. ~ Description for Escape
+#: .\magiclysm_rebalance\magus.json
+msgid ""
+"Teleports you in a random direction a medium distance, to help escape your "
+"foes in dangerous situations."
+msgstr ""
+
+#: .\magiclysm_rebalance\magus.json
+msgid "Magus Rune"
+msgstr ""
+
+#. ~ Description for Magus Rune
+#: .\magiclysm_rebalance\magus.json
+msgid ""
+"This ritual creates a small pebble attuned to Magi.  You can use the rune as"
+" a catalyst for recipes."
+msgstr ""
+
+#: .\magiclysm_rebalance\magus.json
+msgid "Cat's Grace"
+msgstr ""
+
+#. ~ Description for Cat's Grace
+#: .\magiclysm_rebalance\magus.json
+msgid "You become more graceful, agile, and coordinated."
+msgstr ""
+
+#: .\magiclysm_rebalance\magus.json
+msgid "Eagle's Sight"
+msgstr ""
+
+#. ~ Description for Eagle's Sight
+#: .\magiclysm_rebalance\magus.json
+msgid "You gain the perception of an eagle."
+msgstr ""
+
+#: .\magiclysm_rebalance\magus.json
+msgid "Ogre's Strength"
+msgstr ""
+
+#. ~ Description for Ogre's Strength
+#: .\magiclysm_rebalance\magus.json
+msgid "You gain the strength of an ogre."
+msgstr ""
+
+#: .\magiclysm_rebalance\magus.json
+msgid "Fox's Cunning"
+msgstr ""
+
+#. ~ Description for Fox's Cunning
+#: .\magiclysm_rebalance\magus.json
+msgid "You become wily like a fox."
+msgstr ""
+
+#. ~ Description for Crystallize Mana
+#: .\magiclysm_rebalance\manatouched.json
+msgid ""
+"Crystallizes mana into solid form.  Your physiological changes have made "
+"this spell much more efficient and easier to cast."
+msgstr ""
+
+#: .\magiclysm_rebalance\manatouched.json
+msgid "Seeker Bolts"
+msgstr ""
+
+#. ~ Description for Seeker Bolts
+#: .\magiclysm_rebalance\manatouched.json
+msgid ""
+"Fires bolts of mana from your fingertips that home in on randomly selected "
+"targets in range."
+msgstr ""
+
+#. ~ Description for the sound of spell 'Seeker Bolts'
+#: .\magiclysm_rebalance\manatouched.json
+msgid "a zing"
+msgstr ""
+
+#: .\magiclysm_rebalance\monsterspells.json
+msgid "Blood Suck"
+msgstr ""
+
+#. ~ Description for {'str': 'Blood Suck'}
+#: .\magiclysm_rebalance\monsterspells.json
+msgid "Sucks blood from one foe."
+msgstr ""
+
+#: .\magiclysm_rebalance\monsterspells.json
+msgid "Bear Trap"
+msgstr ""
+
+#. ~ Description for Bear Trap
+#: .\magiclysm_rebalance\monsterspells.json
+msgid "A trap that summons bears!  Not what you were expecting, is it?"
+msgstr ""
+
+#. ~ Description for the sound of spell 'Bear Trap'
+#: .\magiclysm_rebalance\monsterspells.json
+msgid "\"It's a trap!\""
+msgstr ""
+
+#: .\magiclysm_rebalance\monsterspells.json
+msgid "Rocket Punch"
+msgstr ""
+
+#. ~ Description for Rocket Punch
+#: .\magiclysm_rebalance\monsterspells.json
+msgid "Ejects giant fist from arm."
+msgstr ""
+
+#: .\magiclysm_rebalance\monsterspells.json
+msgid "Gas Attack"
+msgstr ""
+
+#. ~ Description for Gas Attack
+#: .\magiclysm_rebalance\monsterspells.json
+msgid "Spreads toxic gas around itself."
+msgstr ""
+
+#: .\magiclysm_rebalance\monsterspells.json
+msgid "Demon Fireball"
+msgstr ""
+
+#. ~ Description for Demon Fireball
+#: .\magiclysm_rebalance\monsterspells.json
+msgid "This is a monster only spell."
+msgstr ""
+
+#: .\magiclysm_rebalance\monsterspells.json
+msgid "Summon Demon Spiderlings"
+msgstr ""
+
+#. ~ Description for Summon Demon Spiderlings
+#: .\magiclysm_rebalance\monsterspells.json
+msgid "Summons 4 permanent demon spiderlings."
+msgstr ""
+
+#: .\magiclysm_rebalance\newmagic.json
+msgid "직사의 마안"
+msgstr ""
+
+#. ~ Description for 직사의 마안
+#: .\magiclysm_rebalance\newmagic.json
+msgid ""
+"극한까지 마법을 연마한 애니미스트들은 동전뒤집듯 삶과 죽음을 뒤집을 수 있습니다. 이 마법은 죽음의 시선의 일종의 극단적인 버전으로, "
+"바라보는 것만으로도 상대를 죽음에 이르게 만들 수 있습니다. 그러나 이 강력한 마법은 사용 시 마찬가지로 강력한 반동에 의해 사용 시 "
+"신체 일부가 괴사하여 큰 피해를 입게 됩니다."
+msgstr ""
+
+#: .\magiclysm_rebalance\newmagic.json
+msgid "눈빛만으로 사람을 죽이는 법"
+msgid_plural "눈빛만으로 사람을 죽이는 법의 복사본"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': '눈빛만으로 사람을 죽이는 법', 'str_pl': '눈빛만으로 사람을 죽이는 법의
+#. 복사본'}
+#: .\magiclysm_rebalance\newmagic.json
+msgid ""
+"이 책에는 말그대로 눈빛만으로 사람을 죽이는 방법에 대해 서술하고 있습니다. 중2병에 걸린 잼민이가 쓴건가 싶었으나, 자세히 읽으니 "
+"복잡한 마법술식이 쓰여있는 것으로 보아 저자는 아마 진심인 것 같습니다."
+msgstr ""
+
+#: .\magiclysm_rebalance\stormshaper.json
+msgid "Jolt"
+msgstr ""
+
+#. ~ Description for Jolt
+#: .\magiclysm_rebalance\stormshaper.json
+msgid "A short-ranged fan of electricity shoots from your fingers."
+msgstr ""
+
+#. ~ Description for the sound of spell 'Jolt'
+#. ~ Description for the sound of spell 'Lightning Bolt'
+#. ~ Description for the sound of spell 'Lightning Blast'
+#: .\magiclysm_rebalance\stormshaper.json
+msgid "a crackle"
+msgstr ""
+
+#: .\magiclysm_rebalance\stormshaper.json
+msgid "Lightning Bolt"
+msgstr ""
+
+#. ~ Description for Lightning Bolt
+#: .\magiclysm_rebalance\stormshaper.json
+msgid ""
+"The goto spell for many Stormshapers, this iconic spell does just what you "
+"expect: you shoot lightning from your fingertips.  However, this lightning "
+"is more directed than most lightning, and travels in a line through most "
+"non-solid targets."
+msgstr ""
+
+#: .\magiclysm_rebalance\stormshaper.json
+msgid "Windstrike"
+msgstr ""
+
+#. ~ Description for Windstrike
+#: .\magiclysm_rebalance\stormshaper.json
+msgid ""
+"A powerful blast of wind slams into anything in front of your outstretched "
+"hand."
+msgstr ""
+
+#. ~ Description for the sound of spell 'Windstrike'
+#: .\magiclysm_rebalance\stormshaper.json
+msgid "a whoosh"
+msgstr ""
+
+#: .\magiclysm_rebalance\stormshaper.json
+msgid "Windrunning"
+msgstr ""
+
+#. ~ Description for Windrunning
+#: .\magiclysm_rebalance\stormshaper.json
+msgid ""
+"A magical wind pushes you forward as you move, easing your movements and "
+"increasing speed."
+msgstr ""
+
+#: .\magiclysm_rebalance\stormshaper.json
+msgid "Call Stormhammer"
+msgstr ""
+
+#. ~ Description for Call Stormhammer
+#: .\magiclysm_rebalance\stormshaper.json
+msgid ""
+"Creates a crackling magical warhammer full of lightning to smite your foes "
+"with, and of course, smash things to bits!"
+msgstr ""
+
+#: .\magiclysm_rebalance\stormshaper.json
+msgid "Stormshaper Rune"
+msgstr ""
+
+#. ~ Description for Stormshaper Rune
+#: .\magiclysm_rebalance\stormshaper.json
+msgid ""
+"This ritual creates a small pebble attuned to Stormshapers.  You can use the"
+" rune as a catalyst for recipes."
+msgstr ""
+
+#: .\magiclysm_rebalance\stormshaper.json
+msgid "Lightning Blast"
+msgstr ""
+
+#. ~ Description for Lightning Blast
+#: .\magiclysm_rebalance\stormshaper.json
+msgid ""
+"You fire a small concentrated ball of lightning at the target.  The "
+"electricity diffuses quickly, so it doesn't do much damage, but you're able "
+"to fire off several quick ones in a row."
+msgstr ""
+
+#: .\magiclysm_rebalance\stormshaper.json
+msgid "Lightning Storm"
+msgstr ""
+
+#. ~ Description for Lightning Storm
+#: .\magiclysm_rebalance\stormshaper.json
+msgid ""
+"You call the power of the sky to strike the earth.  Several lightning blasts"
+" fire from your finger tips to strike the target."
+msgstr ""
+
+#: .\magiclysm_rebalance\stormshaper.json
+msgid "Ionization"
+msgstr ""
+
+#. ~ Description for Ionization
+#: .\magiclysm_rebalance\stormshaper.json
+msgid ""
+"By manipulating the charge in the air, you can conjure a sharp snap of "
+"lightning over a wide area.  While its destructive potential is a far cry "
+"from natural lightning, the light and thunderclap produced will leave your "
+"foes reeling."
+msgstr ""
+
+#: .\magiclysm_rebalance\stormshaper.json
+msgid "Ionization Thunderclap"
+msgstr ""
+
+#. ~ Description for Ionization Thunderclap
+#: .\magiclysm_rebalance\stormshaper.json
+msgid "Adds the actual flashbang effect."
+msgstr ""
+
+#: .\magiclysm_rebalance\stormshaper.json
+msgid "Wall of Fog"
+msgstr ""
+
+#. ~ Description for Wall of Fog
+#: .\magiclysm_rebalance\stormshaper.json
+msgid ""
+"Draws forth a broad wall of thick fog.  While the sudden force of air "
+"pressure will floor any enemies caught in it, the conjuration is otherwise "
+"harmless."
+msgstr ""
+
+#: .\magiclysm_rebalance\summoned_vehicles.json
+msgid "Floating disk"
+msgstr ""
+
+#: .\magiclysm_rebalance\summoned_vehicles.json
+msgid "mana wheel"
+msgid_plural "mana wheels"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for mana wheel
+#: .\magiclysm_rebalance\summoned_vehicles.json
+msgid "A column of mana energy that enables a floating disk to move."
+msgstr ""
+
+#: .\magiclysm_rebalance\summoned_vehicles.json
+msgid "mana frame"
+msgstr ""
+
+#. ~ Description for mana frame
+#: .\magiclysm_rebalance\summoned_vehicles.json
+msgid "A shape of pure mana that can float and carry items."
+msgstr ""
+
+#: .\magiclysm_rebalance\summoned_vehicles.json
+msgid "mana energy"
+msgstr ""
+
+#: .\magiclysm_rebalance\summoned_vehicles.json
+msgid "mana core power"
+msgid_plural "mana core powers"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for mana core power
+#: .\magiclysm_rebalance\summoned_vehicles.json
+msgid "Seeing this is a bug."
+msgstr ""
+
+#: .\magiclysm_rebalance\technomancer.json
+msgid "Bless"
+msgstr ""
+
+#. ~ Description for {'str': 'Bless'}
+#: .\magiclysm_rebalance\technomancer.json
+msgid "A spell of blessing that gives you energy and boosts your abilities."
+msgstr ""
+
+#: .\magiclysm_rebalance\technomancer.json
+msgid "Invisibility"
+msgstr ""
+
+#. ~ Description for Invisibility
+#: .\magiclysm_rebalance\technomancer.json
+msgid ""
+"Creates a magical field that hides your visual presence to others.  "
+"Colloquially known as invisibility, but without all the science mumbo jumbo."
+msgstr ""
+
+#. ~ Message for SPELL 'Invisibility'
+#: .\magiclysm_rebalance\technomancer.json
+msgid "To the outside world, your body fades away and you cease to exist!"
+msgstr ""
+
+#: .\magiclysm_rebalance\technomancer.json
+msgid "Holy Blade"
+msgstr ""
+
+#. ~ Description for Holy Blade
+#: .\magiclysm_rebalance\technomancer.json
+msgid "This blade of light will cut through any evil it makes contact with!"
+msgstr ""
+
+#: .\magiclysm_rebalance\technomancer.json
+msgid "Spiritual Armor"
+msgstr ""
+
+#. ~ Description for Spiritual Armor
+#: .\magiclysm_rebalance\technomancer.json
+msgid ""
+"Evil will not make it through your defenses if your faith is strong enough!"
+msgstr ""
+
+#: .\magiclysm_rebalance\technomancer.json
+msgid "Lamp"
+msgstr ""
+
+#. ~ Description for Lamp
+#: .\magiclysm_rebalance\technomancer.json
+msgid "Creates a magical lamp."
+msgstr ""
+
+#: .\magiclysm_rebalance\technomancer.json
+msgid "Manatricity"
+msgstr ""
+
+#. ~ Description for Manatricity
+#: .\magiclysm_rebalance\technomancer.json
+msgid ""
+"You have found a way to convert your spiritual energy into power you can use"
+" for your bionics."
+msgstr ""
+
+#: .\magiclysm_rebalance\technomancer.json
+msgid "Technomancer Rune"
+msgstr ""
+
+#. ~ Description for Technomancer Rune
+#: .\magiclysm_rebalance\technomancer.json
+msgid ""
+"This ritual creates a small pebble attuned to Technomancers.  You can use "
+"the rune as a catalyst for recipes."
+msgstr ""
+
+#: .\magiclysm_rebalance\technomancer.json
+msgid "Taze"
+msgstr ""
+
+#. ~ Description for Taze
+#: .\magiclysm_rebalance\technomancer.json
+msgid ""
+"This spell creates a very short range bolt of electricity to shock your "
+"foes."
+msgstr ""
+
+#: .\magiclysm_rebalance\technomancer.json
+msgid "Lesser Quantum Tunnel"
+msgstr ""
+
+#. ~ Description for Lesser Quantum Tunnel
+#: .\magiclysm_rebalance\technomancer.json
+msgid ""
+"This spell manipulates some quantum something or other to tunnel you through"
+" a short distance of space, and even matter, unfortunately there's that "
+"whole uncertainty thing as to where you come out.  It leaves you a little "
+"dazed on the other side as you reorient yourself."
+msgstr ""
+
+#: .\magiclysm_rebalance\technomancer.json
+msgid "Synaptic Stimulation"
+msgstr ""
+
+#. ~ Description for Synaptic Stimulation
+#: .\magiclysm_rebalance\technomancer.json
+msgid ""
+"This spell stimulates the synapses in your brain beyond normal processing "
+"speeds, giving you a large boost in mental processing capability, including "
+"enhancing your reflexes, speed, and raw intellectual power.  Use "
+"responsibly!"
+msgstr ""
+
+#: .\magiclysm_rebalance\technomancer.json
+msgid "Laze"
+msgstr ""
+
+#. ~ Description for Laze
+#: .\magiclysm_rebalance\technomancer.json
+msgid ""
+"You concentrate and release a focused beam of photons at a target, also "
+"known as a laser."
+msgstr ""
+
+#: .\magiclysm_rebalance\technomancer.json
+msgid "Animated Blade"
+msgstr ""
+
+#. ~ Description for {'str': 'Animated Blade'}
+#: .\magiclysm_rebalance\technomancer.json
+msgid ""
+"This spell conjures flying animated blades that will cut your enemies down "
+"to size.  Into small pieces that is."
+msgstr ""
+
+#: .\magiclysm_rebalance\technomancer.json
+msgid "Mirror Image"
+msgstr ""
+
+#. ~ Description for Mirror Image
+#: .\magiclysm_rebalance\technomancer.json
+msgid ""
+"This spell manipulates light into barely tangible duplicates of a living "
+"being, a magical hologram in short."
+msgstr ""
+
+#: .\magiclysm_rebalance\technomancer.json
+msgid "Holographic Transposition"
+msgstr ""
+
+#. ~ Description for Holographic Transposition
+#: .\magiclysm_rebalance\technomancer.json
+msgid ""
+"Allows you to swap places with a previously existing holographic image of "
+"yourself.  If the universe itself can't tell you apart, who could?"
+msgstr ""
+
+#: .\magiclysm_rebalance\technomancer.json
+msgid "Summon floating disk"
+msgstr ""
+
+#. ~ Description for Summon floating disk
+#: .\magiclysm_rebalance\technomancer.json
+msgid "Summons a floating disk that is sworn to carry your burdens."
+msgstr ""
+
+#: .\magiclysm_rebalance\technomancer.json
+msgid "Overcharge Burn"
+msgstr ""
+
+#. ~ Description for Overcharge Burn
+#: .\magiclysm_rebalance\technomancer.json
+msgid "The side effects of casting the overcharge spell."
+msgstr ""
+
+#: .\magiclysm_rebalance\technomancer.json
+msgid "Optical Sneeze Beam"
+msgstr ""
+
+#. ~ Description for Optical Sneeze Beam
+#: .\magiclysm_rebalance\technomancer.json
+msgid ""
+"You overcharge your internal batteries to send a semi-directed beam from "
+"your face.  The inventor of this spell must have had some weird sense of "
+"humor."
+msgstr ""
+
+#. ~ Description for the sound of spell 'Optical Sneeze Beam'
+#: .\magiclysm_rebalance\technomancer.json
+msgid "bzzzzzzt!"
+msgstr ""
+
+#. ~ Message for SPELL 'Optical Sneeze Beam'
+#: .\magiclysm_rebalance\technomancer.json
+msgid ""
+"You overcharge your bionic energy through what ley lines you have left, and "
+"channel it through the center of your face."
+msgstr ""
+
+#. ~ Computer name
+#: .\martialarts_room\lab_floorplans_1side.json
+msgid "이계체 대응 전통 무술 효용성 확인 실험공간"
+msgstr ""
+
+#. ~ Computer option
+#: .\martialarts_room\lab_floorplans_1side.json
+msgid "UNLOCK ENTRANCE"
+msgstr ""
+
+#. ~ Computer name
+#: .\martialarts_room\lab_floorplans_1side.json
+msgid "경기장 입구"
+msgstr ""

@@ -1,38 +1,34 @@
-1. 내장연소기와 내부저장고가 정상적으로 드랍되게 함
+1. made CBM: Internal Furnace and CBM: Internal Storage drop normally
 
-2. 연구소 보상을 강화함
-오토닥 있고 안에 쇼커브루트 갇혀있는 경우에 이제 66퍼 확률로 오토닥 근처 서랍에 일반 바이오닉이 아니라 바이오닉 특수부대원 해부하면 주는 고오급 바이오닉들이 들어있음.
-나노템플릿이랑 나노물질 나오는 경우에 이제 66퍼 확률로 나노템플릿이 3배 많이 나오고 나노물질은 5배 많이 나옴.
-중앙에 랩터 혈청이나 키메라 혈청이나 스마트정화제 같은거 1개 들어있는 경우에 이제 66퍼 확률로 1개가 아니라 10개가 나옴 
-틴달로스의 사냥개 나오는 경우에 이제 66퍼 확률로 5포인트 앵커 어쩌구하는 거 들어있는 사물함에 추가로 L-스틱이랑 RX-12 주사기랑 RX-12앰플이 들어있음.
+2. increased lab rewards
+When an Autodoc is present and a Shocker Brute is trapped inside, there is now a 66% chance that a drawer near the Autodoc will contain a high-level Bionic that drops when you dissect zombie bio-operators, instead of a regular Bionic.
+Nanotemplates and Nanomaterials now have a 66% chance to drop 3x more Nanotemplates and 5x more Nanomaterials.
+Centers containing a single Raptor Serum, Chimera Serum, or Smart Purifier now have a 66% chance of yielding 10 instead of 1. 
+Hounds of Tyndallos now have a 66% chance to drop a locker containing a 5-point anchor or something, plus an L-stick, RX-12 syringe, and RX-12 ampoule.
 
-3. 무술책을 드랍하는 연구소 외곽맵을 추가함
+3. added a map outside the lab that drops martial arts books
 
 
 
-2021.10.01
+October 1, 2021
 
-무술책 드랍하는 연구소 외곽맵 스폰율 조정.
-이제 책장에서 무술책 2개가 고정으로 스폰되는대신 책장에서 추가로 스폰될확률이 5퍼에서 1퍼가 되고 소파에서 나올 확률은 삭제됨
-대신 이제 소파에서 팝콘이 나온다
+Adjusted the spawn rate of the Research Center Outer Map that drops Martial Arts Books.
+Instead of a fixed spawn rate of 2 martial arts books from the bookshelf, the chance of an additional spawn from the bookshelf has been reduced from 5% to 1%, and the chance of a spawn from the couch has been removed.
+Instead, popcorn now spawns from the couch
 
-2021.10.19
+October 19, 2021.
 
-모드들이 폴더단위로 분리됨. 마법 리밸런싱.
-대부분의 공격스킬, 대부분의 소환수 소환 스킬, 체력을 사용하는 스킬은 자원 소모량이 10분의1로 줄어들었고
-무기 소환 스킬, 버프형 스킬 같은건 지속시간이 10배 증가함.
-예외는 라이터 대용을 추가하는 핑거 라이터랑 죽음의 시선인데 핑거라이터는 지속시간 10배 해봤자 쓸모가없어서 자원 소모량을 10분의1 했고
-죽음의 시선은 자기 체력을 소모해서 공격하는 스킬인데 오히려 체력을 20배 소모하는 대신 데미지도 20배 상향했다.
-체력을 40 소모하고 200~3200 데미지를 주는 그야말로 죽음의 시선 이름에 걸맞는 스킬로 바꿈.
+Separated mods into folders. Magic rebalancing.
+Most offensive spells, most summon spells, and spells that use stamina have been reduced by one-tenth in resource consumption.
+Weapon spells and buffs have had their duration increased by a factor of 10.
+The exceptions are Finger Lighter and Death Stare, which add a lighter substitute, but Finger Lighter is useless even with 10x the duration, so it costs one-tenth the resources.
+Necrotic Gaze is a skill that uses your own health to attack, but instead of costing you 20x health, it deals 20x more damage.
+Changed to a skill that lives up to its name, Necrotic Gaze, which costs 40 health and deals 200-3200 damage.
 
-2021.10.20
+October 20, 2021
 
-죽음의시선을 쓰는 몹이 플레이어를 즉사시키는 문제가 생겨서 죽음의 시선을 롤백하고 직사의 마안이라는 마법을 새로 만듬. 만든김에 책도 만듬.
+Mobs using Necrotic Gaze were instantly killing players, so I rolled back Necrotic Gaze and created a new magic called Demon Eyes of Direct Death. While I were at it, I also created a book.
 
-2021.10.22
+October 22, 2021
 
-헬리패드에 50퍼확률로 로터가 드랍되게 함
-
-2021.10.28
-
-미고 캠프에 있는 죄수들이 미고 관련 변이들을 가지게 함
+Made helipads have a 50% chance to drop rotors.
