@@ -1,0 +1,2389 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Big_Dogbot\n"
+"POT-Creation-Date: 2023-07-27 17:06+0900\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.3.2\n"
+
+#: .\modinfo.json
+msgid "Vulpecula의 빅-댕댕봇"
+msgstr "Vulpecula's Big-Dogbot"
+
+#. ~ Description for Vulpecula의 빅-댕댕봇
+#: .\modinfo.json
+msgid "차량공포증 유저를 위한 각종 컨텐츠팩."
+msgstr "Various content packs for wayfarers."
+
+#: .\tile\Big_haulerbot.json
+msgid "커다란 운반로봇"
+msgid_plural "커다란 운반로봇s"
+msgstr[0] "big hauler bot"
+msgstr[1] "big hauler bots"
+
+#. ~ Description for {'str': '커다란 운반로봇'}
+#: .\tile\Big_haulerbot.json
+msgid "무려 1톤까지 옮길 수 있는 커다란 운반 로봇입니다. 다만 조금 느리네요"
+msgstr ""
+"It's a giant hauler robot that can move up to a ton. But it's a little "
+"sluggish."
+
+#: .\tile\Big_haulerbot.json
+msgid "커다란 운반로봇 mk2"
+msgid_plural "커다란 운반로봇 mk2s"
+msgstr[0] "big hauler bot MK2"
+msgstr[1] "big hauler bots MK2"
+
+#. ~ Description for {'str': '커다란 운반로봇 mk2'}
+#: .\tile\Big_haulerbot.json
+msgid "기동력과 운반 질량을 바꾼 버전입니다. 그래도 400kg까진 거뜬합니다"
+msgstr ""
+"Here's a version that equivalently trades maneuverability for carrying mass, "
+"but it still gets up to 400 kg."
+
+#: .\tile\Big_haulerbot.json
+msgid "비활성화된 커다란 운반로봇"
+msgid_plural "비활성화된 커다란 운반로봇s"
+msgstr[0] "inactive big hauler bot"
+msgstr[1] "inactive big hauler bots"
+
+#. ~ Use action menu_text for {'str': '비활성화된 커다란 운반로봇'}.
+#: .\tile\Big_haulerbot.json
+msgid "기동 상태 전환 : mod2"
+msgstr "Maneuver state transition: mod2"
+
+#. ~ Use action msg for {'str': '비활성화된 커다란 운반로봇'}.
+#. ~ Use action msg for {'str': '비활성화된 커다란 운반로봇_mod2'}.
+#: .\tile\Big_haulerbot.json
+msgid "기어 변경."
+msgstr "Shifting gears."
+
+#. ~ Description for {'str': '비활성화된 커다란 운반로봇'}
+#: .\tile\Big_haulerbot.json
+msgid ""
+"군사용으로 개발된 운반로봇입니다. 무려 10톤까지 짊어지고 다닐 수 있으며 심지"
+"어 파워아머를 입은 사람도 탈 수 있습니다.재프로그래밍 및 재설치를 마쳤다면 커"
+"다란 운반로봇이 명령에 응답해, 충실한 중량 로봇 짐꾼으로 작동할 것입니다."
+msgstr ""
+"This hauler robot was designed for military use. It can carry up to 10 tons "
+"and can even be ridden by a person in power armor. Using this item involves "
+"placing it on the ground and turning it on. If reprogrammed and rewired "
+"successfully the hauler bot will respond to future commands, serving as a "
+"heavyweight robotic packmule."
+
+#: .\tile\Big_haulerbot.json
+msgid "비활성화된 커다란 운반로봇_mod2"
+msgid_plural "비활성화된 커다란 운반로봇_mod2s"
+msgstr[0] "inactive big hauler bot_mod2"
+msgstr[1] "inactive big hauler bots_mod2"
+
+#. ~ Use action menu_text for {'str': '비활성화된 커다란 운반로봇_mod2'}.
+#: .\tile\Big_haulerbot.json
+msgid "기동 상태 전환 : mod1"
+msgstr "Maneuver state transition: mod1"
+
+#. ~ Description for {'str': '비활성화된 커다란 운반로봇_mod2'}
+#: .\tile\Big_haulerbot.json
+msgid ""
+"기동력과 운반 질량을 바꾼 버전입니다. 그래도 400kg까진 거뜬합니다.재프로그래"
+"밍 및 재설치를 마쳤다면 커다란 운반로봇이 명령에 응답해, 충실한 중량 로봇 짐"
+"꾼으로 작동할 것입니다."
+msgstr ""
+"Here's a version that equivalently trades maneuverability for carrying mass, "
+"but it still gets up to 400 kg. Using this item involves placing it on the "
+"ground and turning it on. If reprogrammed and rewired successfully the "
+"hauler bot will respond to future commands, serving as a lightweight robotic "
+"packmule"
+
+#: .\tile\Big_haulerbot.json
+msgid "고장난 커다란 운반로봇"
+msgid_plural "고장난 커다란 운반로봇s"
+msgstr[0] "broken big hauler bot"
+msgstr[1] "broken big hauler bots"
+
+#. ~ Description for {'str': '고장난 커다란 운반로봇'}
+#: .\tile\Big_haulerbot.json
+msgid ""
+"A broken hauler bot, now just a mass of limp mechanical limbs and busted "
+"chassis.  Only useful for debug-testing the monster and related items."
+msgstr ""
+
+#: .\tile\Big_haulerbot.json
+msgid "robot_armor"
+msgid_plural "robot_armors"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\tile\Big_haulerbot.json
+msgid "초합금-빅댕댕이 외장 합금 피부"
+msgid_plural "초합금-빅댕댕이 외장 합금 피부s"
+msgstr[0] "superalloy big-dogbot exterior protective skin"
+msgstr[1] "superalloy big-dogbot exterior protective skins"
+
+#. ~ Description for {'str': '초합금-빅댕댕이 외장 합금 피부'}
+#: .\tile\Big_haulerbot.json
+msgid "빅-댕댕이용 전투용 갑옷 입니다 어지간한 공격은 전부 무시 할 법 하네요"
+msgstr "It's combat armour for the big boys. It'll shrug off most attacks."
+
+#: .\tile\Spell.json
+msgid "차원도약"
+msgstr "Dimensional leap"
+
+#. ~ Description for 차원도약
+#: .\tile\Spell.json
+msgid "차원도약."
+msgstr "Dimensional leap."
+
+#: .\tile\Spell.json
+msgid "샷건-범위"
+msgstr "Shotgun-range"
+
+#. ~ Description for 샷건-범위
+#: .\tile\Spell.json
+msgid "샷건-범위."
+msgstr "Shotgun-range."
+
+#: .\tile\Vehicle.json
+msgid "foldable door"
+msgstr ""
+
+#: .\tile\Vehicle.json
+msgid "superalloy coating"
+msgstr ""
+
+#: .\tile\Vehicle.json
+msgid "swappable storage battery case"
+msgstr ""
+
+#: .\tile\Vehicle.json
+msgid "solar panel"
+msgstr ""
+
+#: .\tile\Vehicle.json
+msgid "reinforced solar panel"
+msgstr ""
+
+#: .\tile\Vehicle.json
+msgid "upgraded solar panel"
+msgstr ""
+
+#: .\tile\Vehicle.json
+msgid "upgraded reinforced solar panel"
+msgstr ""
+
+#: .\tile\Vehicle.json .\tile\dimensioncloser.json .\tile\part_items.json
+msgid "quantum solar panel"
+msgid_plural "quantum solar panels"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\tile\Vehicle.json
+msgid "stereo system"
+msgstr ""
+
+#: .\tile\Vehicle.json
+msgid "drive by wire controls"
+msgstr ""
+
+#: .\tile\Vehicle.json
+msgid "camera control system"
+msgstr ""
+
+#: .\tile\Vehicle.json
+msgid "security camera"
+msgstr ""
+
+#: .\tile\Vehicle.json
+msgid "programmable autopilot"
+msgid_plural "programmable autopilots"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'programmable autopilot'}
+#: .\tile\Vehicle.json
+msgid ""
+"A computer system hooked up to the steering and engine of a vehicle to allow "
+"it to follow simple paths."
+msgstr ""
+
+#. ~ Description for {'str': 'programmable autopilot'}
+#: .\tile\Vehicle.json
+msgid ""
+"A computer system hooked up to the steering and engine of the vehicle to "
+"allow it to follow simple paths."
+msgstr ""
+
+#: .\tile\Vehicle.json
+msgid "turret control unit"
+msgstr ""
+
+#. ~ Description for {'str': 'turret control unit'}
+#: .\tile\Vehicle.json
+msgid ""
+"A set of motor, camera, and an AI unit which allows for tracking targets, "
+"friend-or-foe identification, and firing the connected turret in full "
+"automatic mode.  When installed over the turret, it will enable auto "
+"targeting mode for said turret."
+msgstr ""
+
+#: .\tile\Vehicle.json
+msgid "mounted makeshift chemical thrower"
+msgstr ""
+
+#: .\tile\Vehicle.json
+msgid "mounted huge crossbow"
+msgstr ""
+
+#: .\tile\Vehicle.json
+msgid "mounted repeating crossbow"
+msgstr ""
+
+#: .\tile\Vehicle.json
+msgid "mounted XM34 EMP projector"
+msgstr ""
+
+#: .\tile\Vehicle.json
+msgid "mounted H&K G80 Railgun"
+msgstr ""
+
+#: .\tile\Vehicle.json
+msgid "mounted flamethrower"
+msgstr ""
+
+#: .\tile\Vehicle.json
+msgid "mounted RM451 flamethrower"
+msgstr ""
+
+#: .\tile\Vehicle.json
+msgid "mounted PPA-5 plasma gun"
+msgstr ""
+
+#: .\tile\Vehicle.json
+msgid "mounted A7 laser rifle"
+msgstr ""
+
+#: .\tile\Vehicle.json
+msgid "mounted Cerberus laser cannon"
+msgstr ""
+
+#: .\tile\Vehicle.json
+msgid "mounted M249"
+msgstr ""
+
+#: .\tile\Vehicle.json
+msgid "mounted gatling shotgun"
+msgstr ""
+
+#: .\tile\Vehicle.json
+msgid "mounted pneumatic bolt driver"
+msgstr ""
+
+#: .\tile\Vehicle.json
+msgid "mounted pneumatic assault rifle"
+msgstr ""
+
+#: .\tile\Vehicle.json
+msgid "mounted M2 Browning"
+msgstr ""
+
+#: .\tile\Vehicle.json
+msgid "mounted .50 caliber rifle"
+msgstr ""
+
+#: .\tile\Vehicle.json
+msgid "mounted M134D-H Minigun"
+msgstr ""
+
+#: .\tile\Vehicle.json
+msgid "mounted Browning Automatic Rifle"
+msgstr ""
+
+#: .\tile\Vehicle.json
+msgid "mounted M240"
+msgstr ""
+
+#: .\tile\Vehicle.json
+msgid "mounted M60"
+msgstr ""
+
+#: .\tile\Vehicle.json
+msgid "mounted Mark 19 grenade launcher"
+msgstr ""
+
+#: .\tile\Vehicle.json
+msgid "mounted BGM-71F TOW"
+msgstr ""
+
+#: .\tile\Vehicle.json
+msgid "mounted M202A1 FLASH"
+msgstr ""
+
+#: .\tile\Vehicle.json
+msgid "mounted crude rocket launcher"
+msgstr ""
+
+#: .\tile\Vehicle.json
+msgid "mounted RM298 HMG"
+msgstr ""
+
+#: .\tile\Vehicle.json
+msgid "mounted RM614 LMG"
+msgstr ""
+
+#: .\tile\Vehicle.json
+msgid "mounted Boeing XM-P plasma rifle"
+msgstr ""
+
+#: .\tile\Vehicle.json
+msgid "water cannon"
+msgstr ""
+
+#: .\tile\Vehicle.json
+msgid "mounted Paintball gun"
+msgstr ""
+
+#: .\tile\Vehicle.json
+msgid "mounted heavy rail rifle"
+msgstr ""
+
+#: .\tile\Vehicle.json
+msgid "mounted ferromagnetic rail rifle"
+msgstr ""
+
+#: .\tile\armor_glove.json
+msgid "형상 기억 합금 생존용 방화 장갑"
+msgid_plural "형상 기억 합금 생존용 방화 장갑s"
+msgstr[0] "shape-memory alloy survivor fireglove"
+msgstr[1] "shape-memory alloy survivor firegloves"
+
+#. ~ Description for {'str': '형상 기억 합금 생존용 방화 장갑', 'str_pl': '형상 기억 합금 생존용 방화
+#. 장갑s'}
+#: .\tile\armor_glove.json
+msgid ""
+"케블라,백금과 초합금 그리고 액체 금속으로 주조한 형상 기억 합금으로 만들어진 "
+"이 장갑은, 실험실산 괴물들의 변이된 육체 활용을 최대화 시키면서도 끔찍한 환경"
+"에서 전투지속력을 보장하기위해 만들어졌습니다."
+msgstr ""
+"Made from Kevlar, platinum and superalloys, and shape-memory alloys cast "
+"from liquid metal, these gloves are designed to maximise the use of the "
+"mutated bodies of lab-grown monsters while ensuring combat endurance in "
+"horrific environments."
+
+#: .\tile\armor_glove.json
+msgid "형상 기억 합금 생존용 장갑"
+msgid_plural "형상 기억 합금 생존용 장갑s"
+msgstr[0] "shape-memory alloy survivor glove"
+msgstr[1] "shape-memory alloy survivor gloves"
+
+#. ~ Description for {'str': '형상 기억 합금 생존용 장갑', 'str_pl': '형상 기억 합금 생존용 장갑s'}
+#: .\tile\armor_glove.json
+msgid ""
+"케블라,백금과 초합금 그리고 액체 금속으로 주조한 형상 기억 합금으로 만들어진 "
+"이 장갑은, 실험실산 괴물들의 변이된 육체 활용을 최대화 시키기 위해 만들어졌습"
+"니다."
+msgstr ""
+"Made from Kevlar, platinum and superalloys, and shape-memory alloys cast "
+"from liquid metal, these gloves are designed to maximise the use of the "
+"mutated bodies of lab-grown monsters."
+
+#: .\tile\armor_mask.json
+msgid "경량형 형상 기억 합금 생존용 마스크"
+msgid_plural "경량형 형상 기억 합금 생존용 마스크s"
+msgstr[0] "shape-memory alloy light survivor mask"
+msgstr[1] "shape-memory alloy light survivor masks"
+
+#. ~ Description for {'str': '경량형 형상 기억 합금 생존용 마스크'}
+#: .\tile\armor_mask.json
+msgid ""
+"케블라,백금과 초합금 그리고 액체 금속으로 주조한 형상 기억 합금으로 만들어진 "
+"이 고글이 제외된 마스크는, 실험실산 괴물들의 변이된 육체 활용을 최대화 시키"
+"기 위해 만들어졌습니다. 사용하기 전에 미리 필터를 준비해야 합니다."
+msgstr ""
+"Made from Kevlar, platinum and superalloys, and a shape-memory alloy cast "
+"from liquid metal, this goggle-free mask is designed to maximise the use of "
+"the mutated bodies of lab-grown monsters. It must be prepared before use."
+
+#: .\tile\armor_mask.json
+msgid "형상 기억 합금 생존용 마스크"
+msgid_plural "형상 기억 합금 생존용 마스크s"
+msgstr[0] "shape-memory alloy survivor mask"
+msgstr[1] "shape-memory alloy survivor masks"
+
+#. ~ Description for {'str': '형상 기억 합금 생존용 마스크'}
+#. ~ Description for {'str': '겨울형 형상 기억 합금 생존용 마스크'}
+#: .\tile\armor_mask.json
+msgid ""
+"케블라,백금과 초합금 그리고 액체 금속으로 주조한 형상 기억 합금으로 만들어진 "
+"마스크는, 실험실산 괴물들의 변이된 육체 활용을 최대화 시키기 위해 만들어졌습"
+"니다. 사용하기 전에 미리 필터를 준비해야 합니다."
+msgstr ""
+"Made from Kevlar, platinum and superalloys, and a shape-memory alloy cast "
+"from liquid metal, this mask is designed to maximise the use of the mutated "
+"bodies of lab-grown monsters. It must be prepared before use."
+
+#: .\tile\armor_mask.json
+msgid "형상 기억 합금 생존용 마스크 XL"
+msgid_plural "형상 기억 합금 생존용 마스크 XLs"
+msgstr[0] "XL shape-memory alloy survivor mask"
+msgstr[1] "XL shape-memory alloy survivor masks"
+
+#. ~ Description for {'str': '형상 기억 합금 생존용 마스크 XL'}
+#. ~ Description for {'str': '겨울형 형상 기억 합금 생존용 마스크 XL'}
+#: .\tile\armor_mask.json
+msgid ""
+"케블라,백금과 초합금 그리고 액체 금속으로 주조한 형상 기억 합금으로 만들어진 "
+"마스크는,인간의 크기를 벗어난 실험실산 괴물들의 변이된 육체 활용을 최대화 시"
+"키기 위해 만들어졌습니다. 사용하기 전에 미리 필터를 준비해야 합니다."
+msgstr ""
+"Made of Kevlar, a shape-memory alloy cast from platinum, superalloys, and "
+"liquid metal, the masks are designed to maximise the use of the mutated "
+"bodies of lab-grown monsters that have outgrown human size. It must be "
+"prepared before use."
+
+#: .\tile\armor_mask.json
+msgid "겨울형 형상 기억 합금 생존용 마스크"
+msgid_plural "겨울형 형상 기억 합금 생존용 마스크s"
+msgstr[0] "shape-memory alloy winter survivor mask"
+msgstr[1] "shape-memory alloy winter survivor masks"
+
+#: .\tile\armor_mask.json
+msgid "겨울형 형상 기억 합금 생존용 마스크 XL"
+msgid_plural "겨울형 형상 기억 합금 생존용 마스크 XLs"
+msgstr[0] "XL shape-memory alloy winter survivor mask"
+msgstr[1] "XL shape-memory alloy winter survivor masks"
+
+#: .\tile\arrow.json
+msgid "완성형 공간 도약 화살 - 기본형"
+msgid_plural "완성형 공간 도약 화살 - 기본형s"
+msgstr[0] "completed spacial leap arrow - Basic"
+msgstr[1] "completed spacial leap arrows - Basic"
+
+#. ~ Description for 완성형 공간 도약 화살 - 기본형
+#: .\tile\arrow.json
+msgid ""
+"실험적 초광속 도약 기술 도입으로 초소형 점프 드라이브를 탑제한 화살입니다. 발"
+"사 후 실험적 초광속 도약으로 발사 위치에 다시 나타납니다. 주의 사항. 탄피 수"
+"납기능을 가진 부품과 같이 쓰지 마십시오."
+msgstr ""
+"An arrow with an experimental hyperspacial leap, topped off with a "
+"miniaturised jump drive. After firing, it will reappear at the firing "
+"position with an experimental hyperspacial leap. Caution. Cannot be used in "
+"conjunction with parts that have casing catchers."
+
+#: .\tile\arrow.json
+msgid "완성형 공간 도약 화살 - 할로우포인트"
+msgid_plural "완성형 공간 도약 화살 - 할로우포인트s"
+msgstr[0] "completed spacial leap arrow - Shredder"
+msgstr[1] "completed spacial leap arrows - Shredder"
+
+#. ~ Description for 완성형 공간 도약 화살 - 할로우포인트
+#: .\tile\arrow.json
+msgid ""
+"공간 도약 화살의 변종,피격 후 6갈래로 찢어지는 화살촉을 탑제한 이 화살은 방어"
+"구가 없는 적을 한방에 갈기갈기 찢여버리기 위해 개발되었습니다. 주의 사항. 탄"
+"피 수납기능을 가진 부품과 같이 쓰지 마십시오."
+msgstr ""
+"A variant of the spatial leap arrow, this arrow features a six-pronged shaft "
+"that splits after impact, designed to shred unarmoured enemies in a single "
+"shot. Caution. Cannot be used in conjunction with parts that have casing "
+"catchers."
+
+#: .\tile\arrow.json
+msgid "완성형 공간 도약 화살 - 관통"
+msgid_plural "완성형 공간 도약 화살 - 관통s"
+msgstr[0] "completed spacial leap arrow - Penetrator"
+msgstr[1] "completed spacial leap arrows - Penetrator"
+
+#. ~ Description for 완성형 공간 도약 화살 - 관통
+#: .\tile\arrow.json
+msgid ""
+"공간 도약 화살의 변종, 일자 통로에서 직선으로 날아가며 모든 적을 갈아버리기위"
+"해 개발되었습니다.주의 사항. 탄피 수납기능을 가진 부품과 같이 쓰지 마십시오."
+msgstr ""
+"A variant of the spatial leap arrow, developed to fly in a straight line in "
+"a straight path and pierce all enemies. Caution. Cannot be used in "
+"conjunction with parts that have casing catchers."
+
+#: .\tile\arrow.json
+msgid "완성형 공간 도약 화살 - emp"
+msgid_plural "완성형 공간 도약 화살 - emps"
+msgstr[0] "completed spacial leap arrow - EMP"
+msgstr[1] "completed spacial leap arrows - EMP"
+
+#. ~ Description for 완성형 공간 도약 화살 - emp
+#: .\tile\arrow.json
+msgid ""
+"주의 사항. 탄피 수납기능을 가진 부품과 같이 쓰지 마십시오. 모든 종류의 기계류"
+"에게 효과적인 화살입니다"
+msgstr ""
+"A variant of the spatial leap arrow, an effective version for all kinds of "
+"machinery. Caution. Cannot be used in conjunction with parts that have "
+"casing catchers."
+
+#: .\tile\arrow.json
+msgid "완성형 공간 도약 화살 - 진탕"
+msgid_plural "완성형 공간 도약 화살 - 진탕s"
+msgstr[0] "completed spacial leap arrow - Concussive"
+msgstr[1] "completed spacial leap arrows - Concussive"
+
+#. ~ Description for 완성형 공간 도약 화살 - 진탕
+#: .\tile\arrow.json
+msgid ""
+"주의 사항. 탄피 수납기능을 가진 부품과 같이 쓰지 마십시오. 적중한 대상에게 기"
+"절효과와 밀치는 효과가 있습니다"
+msgstr ""
+"A variant of the spatial leap arrow, stuns and knocks back targets hit. "
+"Caution. Cannot be used in conjunction with parts that have casing catchers."
+
+#: .\tile\arrow.json
+msgid "40x46mm M576 buckshot"
+msgid_plural "40x46mm M576 buckshots"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': '40x46mm M576 buckshot'}
+#: .\tile\arrow.json
+msgid ""
+"A 40x46mm buckshot load, designed for use in thick vegetation or room "
+"clearing."
+msgstr ""
+
+#: .\tile\arrow.json
+msgid "improvised 40x46mm buckshot"
+msgid_plural "improvised 40x46mm buckshots"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'improvised 40x46mm buckshot'}
+#: .\tile\arrow.json
+msgid ""
+"An improvised 40x46mm buckshot load somewhat resembling M576.  Aside from "
+"using the M118 casing normally used by HEDP shells, it performs as well as "
+"buckshot loads using the intended M199 casing."
+msgstr ""
+
+#: .\tile\arrow.json
+msgid "improvised 40x46mm flechette"
+msgid_plural "improvised 40x46mm flechettes"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'improvised 40x46mm flechette'}
+#: .\tile\arrow.json
+msgid ""
+"An improvised 40x46mm flechette load containing 70 steel darts.  Aside from "
+"using the M118 casing normally used by HEDP shells, it performs as well as "
+"flechette shells using the M199 casing."
+msgstr ""
+
+#. ~ Description for {'str': 'improvised 40x46mm flechette'}
+#: .\tile\arrow.json
+msgid ""
+"An improvised 40x46mm flechette load containing 70 steel darts, loaded into "
+"the M199 casing used by M576 buckshot shells."
+msgstr ""
+
+#: .\tile\arrow.json
+msgid "40x53mm M1001 flechette"
+msgid_plural "40x53mm M1001 flechettes"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': '40x53mm M1001 flechette'}
+#: .\tile\arrow.json
+msgid "40x53mm canister shot loaded with 17 grain flechettes."
+msgstr ""
+
+#: .\tile\arrow.json
+msgid "improvised 40x53mm buckshot"
+msgid_plural "improvised 40x53mm buckshots"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'improvised 40x53mm buckshot'}
+#: .\tile\arrow.json
+msgid "An improvised 40x53mm buckshot load somewhat resembling M576."
+msgstr ""
+
+#: .\tile\arrow.json
+msgid "improvised 40x46mm slug"
+msgid_plural "improvised 40x46mm slugs"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'improvised 40x46mm slug'}
+#: .\tile\arrow.json
+msgid ""
+"An improvised 40x46mm load resembling an oversized shotgun slug.  Aside from "
+"using the M118 casing normally used by HEDP shells, it performs as well as "
+"slugs using the M199 casing."
+msgstr ""
+
+#. ~ Description for {'str': 'improvised 40x46mm slug'}
+#: .\tile\arrow.json
+msgid ""
+"An improvised 40x46mm load resembling an oversized shotgun slug, loaded into "
+"the M199 casing used by M576 buckshot shells."
+msgstr ""
+
+#: .\tile\arrow.json
+msgid "improvised 40x53mm slug"
+msgid_plural "improvised 40x53mm slugs"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'improvised 40x53mm slug'}
+#: .\tile\arrow.json
+msgid "An improvised 40x53mm load resembling an oversized shotgun slug."
+msgstr ""
+
+#: .\tile\arrow.json
+msgid "허벅지 볼트 홀더"
+msgid_plural "허벅지 볼트 홀더s"
+msgstr[0] "thigh bolt holder"
+msgstr[1] "thigh bolt holders"
+
+#. ~ Description for {'str': '허벅지 볼트 홀더'}
+#: .\tile\arrow.json
+msgid "허벅지 겉면에 5발의 볼트를 수납 할 수 있는 홀더."
+msgstr "Holder for 5 bolts on the outside of the thigh."
+
+#: .\tile\arrow.json
+msgid "조약돌 주머니"
+msgid_plural "조약돌 주머니들"
+msgstr[0] "pebble pouch"
+msgstr[1] "pebble pouches"
+
+#. ~ Description for {'str': '조약돌 주머니', 'str_pl': '조약돌 주머니들'}
+#: .\tile\arrow.json
+msgid ""
+"조약돌 사이즈의 탄환을 담아두는대 쓰이는 주머니 허리에서 바로 탄환을 꺼내서 "
+"사용 가능합니다."
+msgstr ""
+"A small-sized pouch for storing pebbles, with straps for attaching it to "
+"your belt or other webbing."
+
+#: .\tile\arrow.json
+msgid "생존용 중형 허리 튜브 화살통"
+msgid_plural "생존용 중형 허리 튜브 화살통s"
+msgstr[0] "survivor medium waist tube quiver"
+msgstr[1] "survivor medium waist tube quivers"
+
+#. ~ Description for {'str': '생존용 중형 허리 튜브 화살통'}
+#: .\tile\arrow.json
+msgid ""
+"허리에 매는 튜브가 끼워진 화살통. 사용키를 눌러 최대 40발의 화살을 담을 수 있"
+"다."
+msgstr ""
+"A quiver with a tube that is worn around the waist. Holds up to 40 arrows at "
+"the press of (a) key."
+
+#: .\tile\arrow.json
+msgid "볼트 기관총"
+msgid_plural "볼트 기관총s"
+msgstr[0] "bolt machinegun"
+msgstr[1] "bolt machineguns"
+
+#: .\tile\arrow.json
+msgid ""
+"고압 펌프를 사용해 만든 전기로 작동하는 쇠뇌입니다. 이 비교적 경량화된 중화기"
+"는 한번에 2발씩 볼트를 발사 할 수 있으며 박스탄창을 채용하였습니다"
+msgstr ""
+"An electrically powered pneumatic crossbow made using a high-pressure pump. "
+"This relatively lightweight heavy weapon can fire two bolts at a time and "
+"features a bakstani spear."
+
+#: .\tile\arrow.json
+msgid "단발"
+msgstr "semi"
+
+#: .\tile\arrow.json .\tile\expgun.json
+msgid "점사"
+msgstr "burst"
+
+#: .\tile\arrow.json
+msgid "볼트 미니건"
+msgid_plural "볼트 미니건s"
+msgstr[0] "bolt gatling gun"
+msgstr[1] "bolt gatling guns"
+
+#: .\tile\arrow.json
+msgid ""
+"고압 펌프를 사용해 만든 기계공학과 전자공학의 합작품입니다. 이 고화력 중화기"
+"는 한번에 4발씩 볼트를 발사 할 수 있으며 벨트식 탄창을 채용하였습니다"
+msgstr ""
+"This high-firepowered pneumatic heavy weapon is capable of firing four bolts "
+"at a time and has a belt-fed magazine."
+
+#: .\tile\arrow.json
+msgid "고속연사"
+msgstr "high auto"
+
+#: .\tile\arrow.json
+msgid "볼트 벨트"
+msgid_plural "볼트 벨트s"
+msgstr[0] "bolt ammo belt"
+msgstr[1] "bolt ammo belts"
+
+#: .\tile\arrow.json
+msgid "소형 볼트 탄창"
+msgid_plural "소형 볼트 탄창s"
+msgstr[0] "small bolt magazine"
+msgstr[1] "small bolt magazines"
+
+#. ~ Description for {'str': '소형 볼트 탄창'}
+#: .\tile\arrow.json
+msgid "10발들이 수제 볼트탄창입니다."
+msgstr "This is a handmade bolt magazine with 10 rounds."
+
+#: .\tile\arrow.json
+msgid "중형 볼트 탄창"
+msgid_plural "중형 볼트 탄창s"
+msgstr[0] "medium bolt magazine"
+msgstr[1] "medium bolt magazines"
+
+#. ~ Description for {'str': '중형 볼트 탄창'}
+#: .\tile\arrow.json
+msgid "20발들이 수제 볼트탄창입니다."
+msgstr "This is a handmade bolt magazine with 20 rounds."
+
+#: .\tile\arrow.json
+msgid "대형 볼트 탄창"
+msgid_plural "대형 볼트 탄창s"
+msgstr[0] "large bolt magazine"
+msgstr[1] "large bolt magazines"
+
+#. ~ Description for {'str': '대형 볼트 탄창'}
+#: .\tile\arrow.json
+msgid "40발들이 수제 볼트탄창입니다."
+msgstr "This is a handmade bolt magazine with 40 rounds."
+
+#: .\tile\arrow.json
+msgid "볼트 벨트 링크"
+msgid_plural "볼트 벨트 링크s"
+msgstr[0] "bolt ammo belt linkage"
+msgstr[1] "bolt ammo belt linkages"
+
+#: .\tile\boom.json
+msgid "mininuke"
+msgid_plural "mininukes"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Use action no_deactivate_msg for {'str': 'mininuke'}.
+#: .\tile\boom.json
+msgid "You've already set the %s's timer, you might want to get away from it."
+msgstr ""
+
+#. ~ Use action sound_msg for {'str': 'mininuke'}.
+#: .\tile\boom.json
+msgid "Tick."
+msgstr ""
+
+#. ~ Description for {'str': 'mininuke'}
+#: .\tile\boom.json
+msgid ""
+"This miniature nuclear bomb has a light blinking on the side, showing that "
+"it will soon explode.  You should probably get far, far away from it."
+msgstr ""
+
+#: .\tile\construction_group.json
+msgid "차원 좌표 수신기 건축"
+msgstr "Construct Dimensional Coordinate Receiver"
+
+#: .\tile\construction_group.json
+msgid "양자 태양 전지판 설치"
+msgstr "Install Quantum Solar Panel"
+
+#: .\tile\construction_group.json
+msgid " 태양 전지판 묶음 설치"
+msgstr "Install Solar Array"
+
+#: .\tile\construction_group.json
+msgid "개량된 태양 전지판 묶음 설치"
+msgstr "Install Upgraded Solar Array"
+
+#: .\tile\construction_group.json
+msgid "양자 태양 전지판 묶음 설치"
+msgstr "Install Quantum Solar Array"
+
+#: .\tile\construction_group.json
+msgid "메탈 마스터 용광로 친구 설치"
+msgstr "Place MetalMaster Forge Buddies"
+
+#: .\tile\construction_group.json
+msgid "단조 망치 설치"
+msgstr "Build a drop hammer"
+
+#: .\tile\construction_group.json
+msgid "연마기 설치"
+msgstr "Build grinder"
+
+#: .\tile\construction_group.json
+msgid "톱 설치"
+msgstr "Build table saw"
+
+#: .\tile\construction_group.json
+msgid "나노프린터 설치"
+msgstr "Install Nanoprinter"
+
+#: .\tile\construction_group.json
+msgid "나노프린터 조작기 설치"
+msgstr "Install Nanoprinter Console"
+
+#: .\tile\construction_group.json
+msgid "금속 압축기 설치"
+msgstr "Build metal compactor"
+
+#: .\tile\construction_group.json
+msgid "망 연결된 정수기 설치"
+msgstr "Install grid water purifier"
+
+#: .\tile\construction_group.json
+msgid "안마의자 설치"
+msgstr "Place massage chair"
+
+#: .\tile\construction_group.json
+msgid "실내용 대형 냉방기 설치"
+msgstr "Build Large Space Cooler"
+
+#: .\tile\dimension.json
+msgid "차원좌표 송신기"
+msgid_plural "차원좌표 송신기s"
+msgstr[0] "dimensionional coordinate transmitter"
+msgstr[1] "dimensionional coordinate transmitters"
+
+#. ~ Description for 차원좌표 송신기
+#: .\tile\dimension.json
+msgid ""
+"다차원 미아가 되어버린 한 여행자가 만들어낸 걸작 사용시 차원좌표 수신기로 이"
+"동한다."
+msgstr ""
+"A multidimensional lost traveller's masterpiece. Navigates to the "
+"dimensional coordinate receiver when used."
+
+#: .\tile\dimension.json
+msgid "휴대용 차원좌표 수신기"
+msgid_plural "휴대용 차원좌표 수신기s"
+msgstr[0] "portable dimensional coordinate reciever"
+msgstr[1] "portable dimensional coordinate recievers"
+
+#. ~ Description for {'str': '휴대용 차원좌표 수신기'}
+#: .\tile\dimension.json
+msgid ""
+"공간이동에 대한 끔찍한 실험끝에 만들어진 휴대용 차원좌표 수신기입니다. 사용하"
+"면 차원 좌표 수신기를 설치 할 수 있습니다. 다시 회수하려면 가구 분해 기능 사"
+"용. "
+msgstr ""
+"A portable dimensional coordinate receiver created after a terrible "
+"experiment in spatial movement. When used, the dimensional coordinate "
+"receiver can be installed. To retrieve it again, use the Disassemble "
+"Furniture function."
+
+#: .\tile\dimension.json
+msgid "꺼진 망으로 연결된 차원좌표 수신기"
+msgstr "mounted grid dimensional coordinate reciever (off)"
+
+#. ~ Description for 꺼진 망으로 연결된 차원좌표 수신기
+#: .\tile\dimension.json
+msgid "설치된 차원좌표 수신기입니다.사용하여 번경합니다"
+msgstr "The installed dimensional coordinate reciever. Use to change it."
+
+#: .\tile\dimension.json
+msgid "가짜 차원좌표 수신기"
+msgstr "fake dimensional coordinate reciever"
+
+#. ~ Description for 가짜 차원좌표 수신기
+#: .\tile\dimension.json
+msgid "설치된 차원좌표 수신기입니다."
+msgstr "Mounted dimensional coordinate reciever."
+
+#: .\tile\dimension.json
+msgid "설치된 휴대용 차원좌표 수신기"
+msgstr "mounted portable dimensional coordinate reciever"
+
+#. ~ Description for 설치된 휴대용 차원좌표 수신기
+#: .\tile\dimension.json
+msgid "설치된 휴대용 차원좌표 수신기입니다."
+msgstr "Mounted portable dimensional coordinate reciever."
+
+#: .\tile\dimension.json
+msgid "망으로 연결된 켜진 차원좌표 수신기"
+msgstr "mounted grid dimensional coordinate reciever (on)"
+
+#. ~ Description for 망으로 연결된 켜진 차원좌표 수신기
+#: .\tile\dimension.json
+msgid "전력으로 작동하는 설치된 차원좌표 수신기입니다."
+msgstr "An installed, powered dimensional coordinate receiver."
+
+#: .\tile\dimensioncloser.json
+msgid "파딱"
+msgid_plural "파딱s"
+msgstr[0] "power tripper"
+msgstr[1] "power trippers"
+
+#. ~ Description for 파딱
+#: .\tile\dimensioncloser.json
+msgid "거의 모든 불과,연기종류제거와 포탈,균열을 닫을 수 있습니다"
+msgstr ""
+"Almost all types of fire and smoke can be eliminated and portals, tears in "
+"reality can be closed"
+
+#. ~ Relic recharge message for TOOL '파딱'
+#: .\tile\dimensioncloser.json
+msgid "The portal collapses!"
+msgstr ""
+
+#: .\tile\dimensioncloser.json
+msgid "solar array"
+msgid_plural "solar arrays"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'solar array'}
+#: .\tile\dimensioncloser.json
+msgid ""
+"A vertical array of three solar panels set on a chassis rising above one "
+"another on a metal pole with rudimentary tracking and motors.  Due to the "
+"flimsy nature of the hydraulics and high surface area profile to maximize "
+"sunlight, they can't really be installed onto an existing vehicle.  Requires "
+"a jumper cable or similar to pull power from."
+msgstr ""
+
+#: .\tile\dimensioncloser.json
+msgid "개량된 태양전지판 묶음"
+msgid_plural "개량된 태양전지판 묶음s"
+msgstr[0] "upgraded solar array"
+msgstr[1] "upgraded solar arrays"
+
+#. ~ Description for {'str': '개량된 태양전지판 묶음'}
+#. ~ Description for {'str': '양자 태양 전지판 묶음'}
+#: .\tile\dimensioncloser.json
+msgid ""
+"A vertical array of three upgraded solar panels set on a chassis rising "
+"above one another on a metal pole with rudimentary tracking and motors.  Due "
+"to the flimsy nature of the hydraulics and high surface area profile to "
+"maximize sunlight, they can't really be installed onto an existing vehicle.  "
+"Requires a jumper cable or similar to pull power from."
+msgstr ""
+
+#: .\tile\dimensioncloser.json
+msgid "양자 태양 전지판 묶음"
+msgid_plural "양자 태양 전지판 묶음s"
+msgstr[0] "quantum solar array"
+msgstr[1] "quantum solar arrays"
+
+#: .\tile\dimensioncloser.json
+msgid "quantum solar backpack (folded)"
+msgid_plural "quantum solar backpacks (folded)"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'quantum solar backpack (folded)', 'str_pl':
+#. 'quantum solar backpacks (folded)'}
+#: .\tile\dimensioncloser.json
+msgid ""
+"Personal portable charging system consisting of an array of quantum solar "
+"panels neatly folded in a form of a large backpack.  It can be worn as one, "
+"and has an integrated cable to plug it into a cable charger system.  Cutting "
+"edge technology."
+msgstr ""
+
+#: .\tile\dimensioncloser.json
+msgid "quantum solar backpack (unfolded)"
+msgid_plural "quantum solar backpacks (unfolded)"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'quantum solar backpack (unfolded)', 'str_pl':
+#. 'quantum solar backpacks (unfolded)'}
+#: .\tile\dimensioncloser.json
+msgid ""
+"Unfolded array of portable quantum solar panels ready to push some power "
+"into an active cable charger system."
+msgstr ""
+
+#: .\tile\dimensioncloser.json
+msgid ""
+"Will only work if constructed in/on a building that has an electric grid "
+"with a mounted battery."
+msgstr ""
+
+#. ~ Description for quantum solar panel
+#: .\tile\dimensioncloser.json .\tile\part_items.json
+msgid ""
+"This solar panel is obviously cutting-edge technology and given where you "
+"found it, should probably provide a LOT of power.  It's covered in strange-"
+"looking material, but the covering looks rather fragile; it doesn't look "
+"like it could support a reinforcing sheet, either."
+msgstr ""
+
+#. ~ Description for quantum solar panel
+#: .\tile\dimensioncloser.json
+msgid ""
+"An extremely high performance solar panel.  Will recharge the vehicle's "
+"electrical power when exposed to the sun.  Clouds will slow the recharge "
+"speed.  Extremely fragile and cannot be armored."
+msgstr ""
+
+#: .\tile\dimensioncloser.json
+msgid "설치된 양자태양 전력판"
+msgstr "mounted quantum solar panel"
+
+#. ~ Description for 설치된 양자태양 전력판
+#: .\tile\dimensioncloser.json
+msgid ""
+"건물에 양자태양 전력판을 설치했습니다. 이제 굉장히 많은 전력을 생성할 수 있습"
+"니다"
+msgstr ""
+"You've installed quantum solar panels on your building, and now you can "
+"generate a lot of power."
+
+#: .\tile\dimensioncloser.json
+msgid "whack!"
+msgstr ""
+
+#: .\tile\dimensioncloser.json .\tile\furmiture.json
+msgid "clang!"
+msgstr ""
+
+#: .\tile\dimensioncloser.json
+msgid "설치된 양자태양 전지판 묶음"
+msgstr "mounted quantum solar array"
+
+#. ~ Description for 설치된 양자태양 전지판 묶음
+#: .\tile\dimensioncloser.json
+msgid ""
+"이 수직으로 정렬된 양자태양 전지판 뭉치는 태양을 자동으로 추적해 전력을 충전"
+"합니다."
+msgstr ""
+"This vertically aligned cluster of quantum solar panels automatically tracks "
+"the sun to charge power."
+
+#: .\tile\dimensioncloser.json
+msgid "설치된 태양 전지판 묶음"
+msgstr "mounted solar array"
+
+#. ~ Description for 설치된 태양 전지판 묶음
+#: .\tile\dimensioncloser.json
+msgid ""
+"건물에 태양 전력판묶음을 설치했습니다. 이제 굉장히 많은 전력을 생성할 수 있습"
+"니다"
+msgstr ""
+"You've installed a bunch of solar panels on your building, and now you can "
+"generate a lot of power"
+
+#: .\tile\dimensioncloser.json
+msgid "설치된 개량형 태양 전력판 묶음"
+msgstr "mounted upgraded solar array"
+
+#. ~ Description for 설치된 개량형 태양 전력판 묶음
+#: .\tile\dimensioncloser.json
+msgid ""
+"건물에 개량된 태양 전력판묶음을 설치했습니다. 이제 많은 전력을 생성할 수 있습"
+"니다"
+msgstr ""
+"You've installed a set of improved solar panels on your building, and now "
+"you can generate a lot of power"
+
+#: .\tile\expgun.json
+msgid "점사 레이저 권총"
+msgid_plural "점사 레이저 권총s"
+msgstr[0] "burst laser pistol"
+msgstr[1] "burst laser pistols"
+
+#: .\tile\expgun.json
+msgid "빠른 사격. 오직 그 하나만을 위해 만들어진 무기입니다."
+msgstr "Rapid fire. A weapon made for one thing and one thing only."
+
+#: .\tile\expgun.json
+msgid "double"
+msgstr ""
+
+#: .\tile\expgun.json
+msgctxt "gun_type_type"
+msgid "pistol"
+msgstr ""
+
+#: .\tile\expgun.json
+msgid "레이저 개틀링건"
+msgid_plural "레이저 개틀링건s"
+msgstr[0] "laser gatling gun"
+msgstr[1] "laser gatling guns"
+
+#: .\tile\expgun.json
+msgid "람보가 된 기분을 느껴보십시오."
+msgstr "Feel like Rambo."
+
+#: .\tile\expgun.json
+msgid "연사"
+msgstr "auto"
+
+#: .\tile\expgun.json
+msgctxt "gun_type_type"
+msgid "launcher"
+msgstr ""
+
+#: .\tile\expgun.json
+msgid "레이저 SMG"
+msgid_plural "레이저 SMGs"
+msgstr[0] "laser submachinegun"
+msgstr[1] "laser submachineguns"
+
+#: .\tile\expgun.json
+msgid ""
+"짧은 총렬을 가진 레이저 기관단총입니다.권총의 아쉬운 파괴력과 소총의 긴 총열"
+"의 단점을 모두 해결한 무기입니다."
+msgstr ""
+"A laser submachine gun with a short barrel, this weapon solves the "
+"shortcomings of both the pistol's lack of destructive power and the rifle's "
+"long barrel."
+
+#: .\tile\expgun.json
+msgid "semi-auto"
+msgstr ""
+
+#: .\tile\expgun.json
+msgctxt "gun_type_type"
+msgid "smg"
+msgstr ""
+
+#: .\tile\expgun.json
+msgid "에너지 저격총"
+msgid_plural "에너지 저격총s"
+msgstr[0] "energy sniper rifle"
+msgstr[1] "energy sniper rifles"
+
+#: .\tile\expgun.json
+msgid ""
+"A heavy energy gun developed by C.R.I.T. R&D.  Mainly developed to test out "
+"a new breakthrough in hybrid weaponry."
+msgstr ""
+"A heavy energy gun. Mainly developed to test out a new breakthrough in "
+"hybrid weaponry."
+
+#: .\tile\expgun.json
+msgctxt "gun_type_type"
+msgid "rifle"
+msgstr ""
+
+#: .\tile\fake_item.json
+msgid "grid water purifier"
+msgid_plural "grid water purifiers"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\tile\fake_item.json
+msgid "가짜 드롭 해머"
+msgid_plural "가짜 드롭 해머s"
+msgstr[0] "fake drop hammer"
+msgstr[1] "fake drop hammers"
+
+#. ~ Description for {'str': '가짜 드롭 해머'}
+#: .\tile\fake_item.json
+msgid "가짜 아이템 입니다. 해머 5단계 구성을 추가하기 위해 만들어졌습니다"
+msgstr ""
+"This is a fake item. It was created to add a hammer five-step configuration"
+
+#: .\tile\fake_item.json
+msgid "가짜 그라인더"
+msgid_plural "가짜 그라인더s"
+msgstr[0] "fake grinder"
+msgstr[1] "fake grinders"
+
+#. ~ Description for {'str': '가짜 그라인더'}
+#: .\tile\fake_item.json
+msgid "가짜 아이템 입니다. 연마,등등의 기능을 위해 만들어졌습니다"
+msgstr "This is a fake item. It is made for functions such as grinding"
+
+#: .\tile\fake_item.json
+msgid "가짜 "
+msgid_plural "가짜 s"
+msgstr[0] "fake"
+msgstr[1] "fake"
+
+#. ~ Description for {'str': '가짜 '}
+#: .\tile\fake_item.json
+msgid "가짜 아이템 입니다. 총기수리를 위해 만들어졌습니다"
+msgstr "This is a fake item. Designed to repair firearms"
+
+#: .\tile\fake_item.json
+msgid "거치된 목재 절단기"
+msgid_plural "거치된 목재 절단기s"
+msgstr[0] "mounted wood cutter"
+msgstr[1] "mounted wood cutters"
+
+#. ~ Description for {'str': '거치된 목재 절단기'}
+#: .\tile\fake_item.json
+msgid ""
+"가짜 아이템 입니다. 금속 절단,목재 절단,등등의 기능을 위해 만들어졌습니다"
+msgstr ""
+"This is a fake item. It is made for the function of metal cutting, wood "
+"cutting, etc."
+
+#: .\tile\fieldtype.json
+msgid "총탄 이펙트"
+msgstr "bullet effect"
+
+#: .\tile\fieldtype.json
+msgid "관통 화살"
+msgstr "penetrator arrow"
+
+#: .\tile\fieldtype.json
+msgid "hot air 1"
+msgstr ""
+
+#: .\tile\fieldtype.json
+msgid "hot air 2"
+msgstr ""
+
+#: .\tile\fieldtype.json
+msgid "hot air 3"
+msgstr ""
+
+#: .\tile\fieldtype.json
+msgid "hot air 4"
+msgstr ""
+
+#: .\tile\fieldtype.json
+msgid "cold air 1"
+msgstr ""
+
+#: .\tile\fieldtype.json
+msgid "cold air 2"
+msgstr ""
+
+#: .\tile\fieldtype.json
+msgid "cold air 3"
+msgstr ""
+
+#: .\tile\fieldtype.json
+msgid "cold air 4"
+msgstr ""
+
+#: .\tile\fieldtype.json
+msgid "shock vent"
+msgstr ""
+
+#: .\tile\fieldtype.json
+msgid "acid vent"
+msgstr ""
+
+#: .\tile\fieldtype.json
+msgid "gas vent"
+msgstr ""
+
+#: .\tile\fieldtype.json
+msgid "smoke vent"
+msgstr ""
+
+#: .\tile\fieldtype.json
+msgid "fire vent"
+msgstr ""
+
+#: .\tile\furmiture.json
+msgid "망 연결된 정수기"
+msgstr "grid water purifiers"
+
+#. ~ Description for 망 연결된 정수기
+#: .\tile\furmiture.json
+msgid "전력으로 작동하는 설치된 정수기."
+msgstr "Installed water purifier that run on electricity."
+
+#: .\tile\furmiture.json
+msgid "metal screeching!"
+msgstr ""
+
+#: .\tile\furmiture.json
+msgid "grid FOODCO kitchen buddy"
+msgstr ""
+
+#. ~ Description for grid FOODCO kitchen buddy
+#: .\tile\furmiture.json
+msgid ""
+"A multi-function crafting station, with a water purifier, food processor, "
+"food dehydrator, vacuum sealer, and hand press for making ammo.  Draws power "
+"from the electrical grid.  If you attempt to craft an item that needs one of "
+"the kitchen buddy's functions, it will automatically be selected as a tool."
+msgstr ""
+
+#: .\tile\furmiture.json
+msgid "망 연결된 메탈마스터 용광로 친구"
+msgstr "grid MetalMaster forge buddy"
+
+#. ~ Description for 망 연결된 메탈마스터 용광로 친구
+#: .\tile\furmiture.json
+msgid "망으로 연결된 메탈마스터 용광로 친구입니다."
+msgstr "It's grid MetalMaster forge buddy."
+
+#: .\tile\furmiture.json
+msgid "망으로 연결된 단조 장치"
+msgstr "grid forge"
+
+#. ~ Description for 망으로 연결된 단조 장치
+#: .\tile\furmiture.json
+msgid "망으로 연결된 단조용 드롭해머 입니다."
+msgstr "It's grid forge."
+
+#: .\tile\furmiture.json
+msgid "망으로 연결된 연마기"
+msgstr ""
+
+#. ~ Description for 망으로 연결된 연마기
+#: .\tile\furmiture.json
+msgid "망으로 연결된 그라인더 입니다."
+msgstr ""
+
+#: .\tile\furmiture.json
+msgid "망으로 연결된 목재 절단기"
+msgstr ""
+
+#. ~ Description for 망으로 연결된 목재 절단기
+#: .\tile\furmiture.json
+msgid "망으로 연결된 톱입니다."
+msgstr ""
+
+#: .\tile\furmiture.json
+msgid "휴대용 거치대"
+msgid_plural "휴대용 거치대s"
+msgstr[0] "portable stand"
+msgstr[1] "portable stands"
+
+#. ~ Description for 휴대용 거치대
+#: .\tile\furmiture.json
+msgid "이곳에 개틀링건을 거치하고 마음껏 쏘아보세요."
+msgstr "Mount your gatling gun here and shoot to your heart's content."
+
+#: .\tile\furmiture.json
+msgid "기이한 골판지 상자"
+msgstr "strange cardboard box"
+
+#. ~ Description for 기이한 골판지 상자
+#: .\tile\furmiture.json
+msgid "이거 이상하네요.이곳에 왠 상자람?..."
+msgstr "This is weird, what kind of box is this...?"
+
+#. ~ Description for {'str': '휴대용 거치대'}
+#: .\tile\furmiture.json
+msgid "사용시 휴대용 거치대를 펼칩니다."
+msgstr "Unfold the portable stand when in use."
+
+#: .\tile\furmiture.json
+msgid "접힌 기이한 골판지 상자"
+msgid_plural "접힌 기이한 골판지 상자s"
+msgstr[0] "folded strange cardboard box"
+msgstr[1] "folded strange cardboard boxes"
+
+#. ~ Description for {'str': '접힌 기이한 골판지 상자'}
+#: .\tile\furmiture.json
+msgid "왠지 이 상자를 설치하면 그 누구도 나를 못찾을 꺼 같습니다."
+msgstr ""
+"For some reason, I feel like if I fit inside this box, no one will ever find "
+"me."
+
+#: .\tile\furmiture.json
+msgid "abstract space cooler"
+msgstr ""
+
+#. ~ Description for abstract space cooler
+#. ~ Description for abstract vibrator cooler
+#: .\tile\furmiture.json
+msgid "Abstract furniture.  If you see this, something went wrong."
+msgstr ""
+
+#: .\tile\furmiture.json
+msgid "실내용 에어컨 (no power)"
+msgstr "space cooler (no power)"
+
+#. ~ Description for 실내용 에어컨 (no power)
+#: .\tile\furmiture.json
+msgid ""
+"벽에 달린 콘센트에 연결된 가정용 에어컨 입니다. 현재 전원이 들어와 있지 않습"
+"니다."
+msgstr ""
+"This is a home air conditioner plugged into a wall outlet. It is not "
+"currently powered."
+
+#. ~ Message for furniture '실내용 에어컨 (no power)'
+#. ~ Message for furniture '실내용 에어컨 (작동중)'
+#: .\tile\furmiture.json
+msgid "You turn the cooler off."
+msgstr ""
+
+#: .\tile\furmiture.json
+msgid "실내용 에어컨 (off)"
+msgstr "space cooler (off)"
+
+#. ~ Description for 실내용 에어컨 (off)
+#: .\tile\furmiture.json
+msgid ""
+"벽에 달린 콘센트에 연결된 가정용 에어컨 입니다. 현재 전원이 꺼져있습니다."
+msgstr ""
+"This is a home air conditioner plugged into a wall outlet. It is currently "
+"switched off."
+
+#. ~ Message for furniture '실내용 에어컨 (off)'
+#: .\tile\furmiture.json
+msgid "You turn the cooler on."
+msgstr ""
+
+#: .\tile\furmiture.json
+msgid "실내용 에어컨 (작동중)"
+msgstr "space cooler (on)"
+
+#. ~ Description for 실내용 에어컨 (작동중)
+#: .\tile\furmiture.json
+msgid ""
+"벽에 달린 콘센트에 연결된 가정용 에어컨 입니다. 현재 전원이 켜져있으며, 냉기"
+"를 뿜어내고 있습니다"
+msgstr ""
+"This is a home air conditioner plugged into a wall socket. It is currently "
+"switched on and blowing cold air."
+
+#: .\tile\furmiture.json
+msgid "abstract vibrator cooler"
+msgstr ""
+
+#: .\tile\furmiture.json
+msgid "안마의자 "
+msgstr "massage chair"
+
+#. ~ Description for 안마의자
+#: .\tile\furmiture.json
+msgid "안마 의자."
+msgstr "massage chair."
+
+#. ~ Computer name
+#: .\tile\lab_floorplans_finale1level.json
+msgid "Sub-prime Contact Console"
+msgstr ""
+
+#. ~ Computer option
+#: .\tile\lab_floorplans_finale1level.json
+msgid "Toggle Portal"
+msgstr ""
+
+#. ~ Computer option
+#: .\tile\lab_floorplans_finale1level.json
+msgid "Activate Resonance Cascade"
+msgstr ""
+
+#. ~ Computer access denied warning
+#: .\tile\lab_floorplans_finale1level.json
+msgid ""
+"ERROR!  Access denied!  Unauthorized access will be met with lethal force!"
+msgstr ""
+
+#: .\tile\part_items.json
+msgid "MetalMaster forge buddy"
+msgid_plural "MetalMaster forge buddies"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'MetalMaster forge buddy', 'str_pl': 'MetalMaster
+#. forge buddies'}
+#: .\tile\part_items.json
+msgid ""
+"From the makers of the best-selling* FOODCO kitchen buddy comes the "
+"MetalMaster forge buddy, for all your metalworking, firing, and welding "
+"needs!  It's just as clunky and awkward as the thing it's spinning off, and "
+"still requires a vehicle battery to function."
+msgstr ""
+
+#: .\tile\part_items.json
+msgid "KitchenMaster cooking buddy"
+msgid_plural "KitchenMaster cooking buddies"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'KitchenMaster cooking buddy', 'str_pl':
+#. 'KitchenMaster cooking buddies'}
+#: .\tile\part_items.json
+msgid ""
+"Because it *clearly* needed one, this large all-in-one station provides the "
+"functions of FOODCO's kitchen buddy, now with complementary fume hoods and "
+"chemistry materials.  Why a chef would need a chemical rig is anyone's "
+"guess, but you can mount it on a vehicle to make use of it."
+msgstr ""
+
+#: .\tile\part_items.json
+msgid "cooking rig"
+msgid_plural "cooking rigs"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'cooking rig'}
+#: .\tile\part_items.json
+msgid ""
+"Skillet, pot, hotplate, and chemistry set; everything you need to cook food "
+"and chemicals.  Includes proper fume vents and a separator, so you don't "
+"contaminate your food with toxic chemicals."
+msgstr ""
+
+#: .\tile\part_items.json
+msgid "control station"
+msgid_plural "control stations"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'control station'}
+#: .\tile\part_items.json
+msgid ""
+"A large and complex piloting station from a military vehicle, including a "
+"camera station, steering tools, and electronics controls."
+msgstr ""
+
+#: .\tile\pet_carrier.json
+msgid "공간수축 애완동물 이동장"
+msgid_plural "공간수축 애완동물 이동장s"
+msgstr[0] "spacial-collapse pet carrier"
+msgstr[1] "spacial-collapse pet carriers"
+
+#. ~ Description for {'str': '공간수축 애완동물 이동장'}
+#: .\tile\pet_carrier.json
+msgid ""
+"A plastic container meant to hold pets for transport.  Use it on a suitable "
+"animal to capture, use it on an empty tile to release."
+msgstr ""
+"A dimensional container meant to hold pets for transport.  Use it on a "
+"suitable animal to capture, use it on an empty tile to release."
+
+#: .\tile\pet_carrier.json
+msgid "약한 전술 연막"
+msgstr "thin tactical smoke"
+
+#: .\tile\pet_carrier.json
+msgid "전술 연막"
+msgstr "tactical smoke"
+
+#: .\tile\pet_carrier.json
+msgid "짙은 전술 연막"
+msgstr "thick tactical smoke"
+
+#: .\tile\pet_carrier.json
+msgid "armed smoke bomb"
+msgid_plural "armed smoke bombs"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'armed smoke bomb'}
+#: .\tile\pet_carrier.json
+msgid "This smoke bomb has had its pin removed and is expelling thick smoke."
+msgstr ""
+
+#: .\tile\power_armor.json
+msgid "salvaged power armor"
+msgid_plural "salvaged power armors"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'salvaged power armor'}
+#: .\tile\power_armor.json
+msgid ""
+"The DoubleTech Power Armor, Mk. I: A heavy suit of basic power armor, "
+"offering very good protection against attacks, but hard to move in.  This "
+"suit has had its servos and cooling system stripped out, meaning it no "
+"longer requires power, but also encumbers you greatly and doesn't provide "
+"internal thermal regulation."
+msgstr ""
+
+#: .\tile\power_armor.json
+msgid "salvaged power armor helmet"
+msgid_plural "salvaged power armor helmets"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'salvaged power armor helmet'}
+#: .\tile\power_armor.json
+msgid ""
+"A basic helmet, designed for use with the DoubleTech Power Armor, Mk. I.  "
+"Offers excellent protection from both attacks and environmental hazards.  "
+"This suit has had its internal computer and cooling system stripped out, "
+"meaning it no longer requires power, but it has no internal chronometer and "
+"doesn't provide internal thermal regulation."
+msgstr ""
+
+#: .\tile\power_armor.json
+msgid "basic power armor"
+msgid_plural "basic power armors"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Use action msg for {'str': 'basic power armor'}.
+#. ~ Use action msg for {'str': 'heavy power armor'}.
+#. ~ Use action msg for {'str': 'light power armor'}.
+#: .\tile\power_armor.json
+msgid "The %s engages."
+msgstr ""
+
+#. ~ Description for {'str': 'basic power armor'}
+#: .\tile\power_armor.json
+msgid ""
+"The DoubleTech Power Armor, Mk. I: A heavy suit of basic power armor, "
+"offering very good protection against attacks, but hard to move in.  The UPS "
+"compartment can store other things if you don't mind powering the suit "
+"yourself.  Like all DoubleTech power armor, the control and climate-"
+"regulation systems require direct skin contact."
+msgstr ""
+
+#: .\tile\power_armor.json
+msgid "basic power armor (on)"
+msgid_plural "basic power armors (on)"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Use action menu_text for {'str': 'basic power armor (on)', 'str_pl':
+#. 'basic power armors (on)'}.
+#. ~ Use action menu_text for {'str': 'heavy power armor (on)', 'str_pl':
+#. 'heavy power armors (on)'}.
+#. ~ Use action menu_text for {'str': 'basic power armor helmet (on)',
+#. 'str_pl': 'basic power armor helmets (on)'}.
+#. ~ Use action menu_text for {'str': 'heavy power armor helmet (on)',
+#. 'str_pl': 'heavy power armor helmets (on)'}.
+#. ~ Use action menu_text for {'str': 'light power armor helmet (on)',
+#. 'str_pl': 'light power armor helmets (on)'}.
+#. ~ Use action menu_text for {'str': 'field combat exoskeleton (on)',
+#. 'str_pl': 'field combat exoskeletons (on)'}.
+#: .\tile\power_armor.json
+msgid "Turn off"
+msgstr ""
+
+#. ~ Use action msg for {'str': 'basic power armor (on)', 'str_pl': 'basic
+#. power armors (on)'}.
+#. ~ Use action msg for {'str': 'heavy power armor (on)', 'str_pl': 'heavy
+#. power armors (on)'}.
+#. ~ Use action msg for {'str': 'field combat exoskeleton (on)', 'str_pl':
+#. 'field combat exoskeletons (on)'}.
+#: .\tile\power_armor.json
+msgid "The %s disengages."
+msgstr ""
+
+#. ~ Description for {'str': 'basic power armor (on)', 'str_pl': 'basic power
+#. armors (on)'}
+#: .\tile\power_armor.json
+msgid ""
+"The DoubleTech Power Armor, Mk. I: A heavy suit of basic power armor, "
+"offering very good protection against attacks, but hard to move in.  The UPS "
+"compartment can store other things if you don't mind powering the suit "
+"yourself.  Like all DoubleTech power armor, the control and climate-"
+"regulation systems require direct skin contact.  It is turned on and "
+"continually drawing power.  Use it to turn it off."
+msgstr ""
+
+#: .\tile\power_armor.json
+msgid "heavy power armor"
+msgid_plural "heavy power armors"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'heavy power armor'}
+#: .\tile\power_armor.json
+msgid ""
+"A suit of DoubleTech Power Armor, Mk. II-H.  This model offers several "
+"improvements over the Mk. I, most notably the improved environmental "
+"protection.  Like all DoubleTech power armor, the control and climate-"
+"regulation systems require direct skin contact."
+msgstr ""
+
+#: .\tile\power_armor.json
+msgid "heavy power armor (on)"
+msgid_plural "heavy power armors (on)"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'heavy power armor (on)', 'str_pl': 'heavy power
+#. armors (on)'}
+#: .\tile\power_armor.json
+msgid ""
+"A suit of DoubleTech Power Armor, Mk. II-H.  This model offers several "
+"improvements over the Mk. I, most notably the improved environmental "
+"protection.  Like all DoubleTech power armor, the control and climate-"
+"regulation systems require direct skin contact.  It is turned on and "
+"continually drawing power.  Use it to turn it off."
+msgstr ""
+
+#: .\tile\power_armor.json
+msgid "basic power armor helmet"
+msgid_plural "basic power armor helmets"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Use action msg for {'str': 'basic power armor helmet'}.
+#. ~ Use action msg for {'str': 'heavy power armor helmet'}.
+#. ~ Use action msg for {'str': 'light power armor helmet'}.
+#: .\tile\power_armor.json
+msgid "The %s seals shut and beeps once."
+msgstr ""
+
+#. ~ Description for {'str': 'basic power armor helmet'}
+#: .\tile\power_armor.json
+msgid ""
+"A basic helmet, designed for use with the DoubleTech Power Armor, Mk. I.  "
+"Offers excellent protection from both attacks and environmental hazards.  "
+"Like all DoubleTech power armor, the control and climate-regulation systems "
+"require direct skin contact."
+msgstr ""
+
+#: .\tile\power_armor.json
+msgid "basic power armor helmet (on)"
+msgid_plural "basic power armor helmets (on)"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Use action msg for {'str': 'basic power armor helmet (on)', 'str_pl':
+#. 'basic power armor helmets (on)'}.
+#. ~ Use action msg for {'str': 'heavy power armor helmet (on)', 'str_pl':
+#. 'heavy power armor helmets (on)'}.
+#. ~ Use action msg for {'str': 'light power armor helmet (on)', 'str_pl':
+#. 'light power armor helmets (on)'}.
+#: .\tile\power_armor.json
+msgid "The %s powers down."
+msgstr ""
+
+#. ~ Description for {'str': 'basic power armor helmet (on)', 'str_pl': 'basic
+#. power armor helmets (on)'}
+#: .\tile\power_armor.json
+msgid ""
+"A basic helmet, designed for use with the DoubleTech Power Armor, Mk. I.  "
+"Offers excellent protection from both attacks and environmental hazards.  "
+"Like all DoubleTech power armor, the control and climate-regulation systems "
+"require direct skin contact.  It is turned on and continually drawing power."
+msgstr ""
+
+#: .\tile\power_armor.json
+msgid "heavy power armor helmet"
+msgid_plural "heavy power armor helmets"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'heavy power armor helmet'}
+#: .\tile\power_armor.json
+msgid ""
+"A power armor helmet designed for use with the DoubleTech Power Armor, Mk. "
+"II-H.  This improved design is heavier than the Mk. I helmet, but cooler, "
+"and offers better environmental protection.  Like all DoubleTech power "
+"armor, the control and climate-regulation systems require direct skin "
+"contact."
+msgstr ""
+
+#: .\tile\power_armor.json
+msgid "heavy power armor helmet (on)"
+msgid_plural "heavy power armor helmets (on)"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'heavy power armor helmet (on)', 'str_pl': 'heavy
+#. power armor helmets (on)'}
+#: .\tile\power_armor.json
+msgid ""
+"A power armor helmet designed for use with the DoubleTech Power Armor, Mk. "
+"II-H.  This improved design is heavier than the Mk. I helmet, but cooler, "
+"and offers better environmental protection.  Like all DoubleTech power "
+"armor, the control and climate-regulation systems require direct skin "
+"contact.  It is turned on and continually drawing power."
+msgstr ""
+
+#: .\tile\power_armor.json
+msgid "light power armor helmet"
+msgid_plural "light power armor helmets"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'light power armor helmet'}
+#: .\tile\power_armor.json
+msgid ""
+"A power armor helmet designed for use with the DoubleTech Power Armor, Mk. "
+"II-L.  This improved design is lighter and cooler than the Mk. I helmet.  "
+"Like all DoubleTech power armor, the control and climate-regulation systems "
+"require direct skin contact."
+msgstr ""
+
+#: .\tile\power_armor.json
+msgid "light power armor helmet (on)"
+msgid_plural "light power armor helmets (on)"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'light power armor helmet (on)', 'str_pl': 'light
+#. power armor helmets (on)'}
+#: .\tile\power_armor.json
+msgid ""
+"A power armor helmet designed for use with the DoubleTech Power Armor, Mk. "
+"II-L.  This improved design is lighter and cooler than the Mk. I helmet.  "
+"Like all DoubleTech power armor, the control and climate-regulation systems "
+"require direct skin contact.  It is turned on and continually drawing power."
+msgstr ""
+
+#: .\tile\power_armor.json
+msgid "light power armor"
+msgid_plural "light power armors"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'light power armor'}
+#: .\tile\power_armor.json
+msgid ""
+"A suit of DoubleTech Power Armor, Mk. II-L.  This model offers several "
+"improvements over the Mk. I, most notably the reduced weight.  Like all "
+"DoubleTech power armor, the control and climate-regulation systems require "
+"direct skin contact."
+msgstr ""
+
+#: .\tile\power_armor.json
+msgid "field combat exoskeleton (on)"
+msgid_plural "field combat exoskeletons (on)"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'field combat exoskeleton (on)', 'str_pl': 'field
+#. combat exoskeletons (on)'}
+#: .\tile\power_armor.json
+msgid ""
+"A suit of DoubleTech Power Armor, Mk. II-L.  This model offers several "
+"improvements over the Mk. I, most notably the reduced weight.  Like all "
+"DoubleTech power armor, the control and climate-regulation systems require "
+"direct skin contact.  It is turned on and continually drawing power.  Use it "
+"to turn it off."
+msgstr ""
+
+#: .\tile\power_armor.json
+msgid "power armor hauling frame"
+msgid_plural "power armor hauling frames"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Use action holster_msg for {'str': 'power armor hauling frame'}.
+#: .\tile\power_armor.json
+msgid "You attach your %s to your %s."
+msgstr ""
+
+#. ~ Use action holster_prompt for {'str': 'power armor hauling frame'}.
+#: .\tile\power_armor.json
+msgid "Attach what to holder?"
+msgstr ""
+
+#. ~ Description for {'str': 'power armor hauling frame'}
+#: .\tile\power_armor.json
+msgid ""
+"A heavy duty hauling frame designed to interface with military exoskeletons."
+msgstr ""
+
+#: .\tile\power_armor.json
+msgid "파워아머 화물 프레임 확장 공간"
+msgid_plural "파워아머 화물 프레임 확장 공간s"
+msgstr[0] "power armor hauling frame expansion space module"
+msgstr[1] "power armor hauling frame expansion space modules"
+
+#. ~ Description for {'str': '파워아머 화물 프레임 확장 공간'}
+#: .\tile\power_armor.json
+msgid ""
+"이 파워아머 화물 프레임 확장 공간 모듈은 공간 확장 기술이 적용되어 추가로 40L"
+"분량의 공간을 제공합니다 "
+msgstr ""
+"This power armor hauling frame expansion space module features space "
+"expansion technology to provide an additional 40 litres of space."
+
+#: .\tile\power_armor.json
+msgid "power armor back holster"
+msgid_plural "power armor back holsters"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'power armor back holster'}
+#: .\tile\power_armor.json
+msgid ""
+"A heavy duty holster using a combination of clamps and rail interfaces to "
+"comfortably hold rifles, shotguns, smgs and even launchers of various "
+"sizes.  Designed to interface with a military exoskeleton.  Activate to "
+"holster/draw a gun."
+msgstr ""
+
+#: .\tile\power_armor.json
+msgid "power armor holster"
+msgid_plural "power armor holsters"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'power armor holster'}
+#: .\tile\power_armor.json
+msgid ""
+"A heavy duty holster that uses a combination of seals and rail interfaces to "
+"comfortably hold various sizes of pistol or similar guns.  Designed to "
+"interface with a military exoskeleton.  Activate to holster/draw a small "
+"pistol."
+msgstr ""
+
+#: .\tile\power_armor.json
+msgid "power armor chest rig"
+msgid_plural "power armor chest rigs"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Use action holster_msg for {'str': 'power armor chest rig'}.
+#: .\tile\power_armor.json
+msgid "You stash your %s."
+msgstr ""
+
+#. ~ Use action holster_prompt for {'str': 'power armor chest rig'}.
+#: .\tile\power_armor.json
+msgid "Stash ammo"
+msgstr ""
+
+#. ~ Description for {'str': 'power armor chest rig'}
+#: .\tile\power_armor.json
+msgid ""
+"A set of compartments capable of carrying three magazines close at hand.  "
+"Designed to interface with a military exoskeleton.  Activate to store/"
+"retrieve your magazines."
+msgstr ""
+
+#: .\tile\power_armor.json
+msgid "power armor back scabbard"
+msgid_plural "power armor back scabbards"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Use action holster_msg for {'str': 'power armor back scabbard'}.
+#. ~ Use action holster_msg for {'str': 'power armor scabbard'}.
+#. ~ Use action holster_msg for {'str': 'power armor sheath'}.
+#: .\tile\power_armor.json
+msgid "You sheath your %s"
+msgstr ""
+
+#. ~ Use action holster_prompt for {'str': 'power armor back scabbard'}.
+#. ~ Use action holster_prompt for {'str': 'power armor scabbard'}.
+#: .\tile\power_armor.json
+msgid "Sheath sword"
+msgstr ""
+
+#. ~ Description for {'str': 'power armor back scabbard'}
+#: .\tile\power_armor.json
+msgid ""
+"A set of clamps and fittings designed to accommodate a variety of large "
+"bladed weaponry.  Designed to interface with a military exoskeleton.  "
+"Activate to sheath/draw a sword/axe."
+msgstr ""
+
+#: .\tile\power_armor.json
+msgid "power armor scabbard"
+msgid_plural "power armor scabbards"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'power armor scabbard'}
+#: .\tile\power_armor.json
+msgid ""
+"A set of clamps and fittings to accommodate a variety of swords and similar "
+"weaponry.  Designed to interface with a military exoskeleton.  Activate to "
+"sheathe/draw a sword."
+msgstr ""
+
+#: .\tile\power_armor.json
+msgid "power armor sheath"
+msgid_plural "power armor sheaths"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Use action holster_prompt for {'str': 'power armor sheath'}.
+#: .\tile\power_armor.json
+msgid "Sheath knife"
+msgstr ""
+
+#. ~ Description for {'str': 'power armor sheath'}
+#: .\tile\power_armor.json
+msgid ""
+"A set of clamps and fittings to accommodate a variety of knives and similar "
+"blades.  Designed to interface with a military exoskeleton.  Activate to "
+"sheathe/draw a weapon."
+msgstr ""
+
+#: .\tile\power_armor.json
+msgid "파워아머 정신방어 모듈"
+msgid_plural "파워아머 정신방어 모듈s"
+msgstr[0] "power armor psyshield module"
+msgstr[1] "power armor psyshield modules"
+
+#. ~ Use action msg for {'str': '파워아머 정신방어 모듈'}.
+#: .\tile\power_armor.json
+msgid "사이오닉 배리어 활성화."
+msgstr "Psionic barrier activatied."
+
+#. ~ Description for {'str': '파워아머 정신방어 모듈'}
+#: .\tile\power_armor.json
+msgid "당신의 정신을 지켜주는 파워아머 추가 모듈입니다"
+msgstr "Power armor add-on modules to protect your sanity."
+
+#: .\tile\power_armor.json
+msgid "파워아머 정신방어 모듈(활성화됨)"
+msgid_plural "파워아머 정신방어 모듈(활성화됨)s"
+msgstr[0] "power armor psyshield module (active)"
+msgstr[1] "power armor psyshield modules (active)"
+
+#. ~ Use action msg for {'str': '파워아머 정신방어 모듈(활성화됨)'}.
+#: .\tile\power_armor.json
+msgid "사이오닉 베리어 비활성화."
+msgstr "Psionic barrier deactivated."
+
+#: .\tile\power_armor.json
+msgid "파워아머 열/냉기 차단 모듈"
+msgid_plural "파워아머 열/냉기 차단 모듈s"
+msgstr[0] "power armor thermal conduction isolation module"
+msgstr[1] "power armor thermal insulation modules"
+
+#. ~ Use action msg for {'str': '파워아머 열/냉기 차단 모듈'}.
+#: .\tile\power_armor.json
+msgid "열교환 차단모듈 온라인."
+msgstr "Thermal conduction barrier module online."
+
+#. ~ Description for {'str': '파워아머 열/냉기 차단 모듈'}
+#: .\tile\power_armor.json
+msgid ""
+"절대영도의 환경과 용암속에서도 생존이 가능하게 해주는 파워아머 추가 모듈입니"
+"다"
+msgstr ""
+"Power armor add-on modules that allow you to survive in sub-zero "
+"environments and lava."
+
+#: .\tile\power_armor.json
+msgid "파워아머 파워아머 열/냉기 차단 모듈(활성화됨)"
+msgid_plural "파워아머 파워아머 열/냉기 차단 모듈(활성화됨)s"
+msgstr[0] "power armor thermal conduction isolation module (active)"
+msgstr[1] "power armor thermal conduction isolation modules (active)"
+
+#. ~ Use action msg for {'str': '파워아머 파워아머 열/냉기 차단 모듈(활성화됨)'}.
+#: .\tile\power_armor.json
+msgid "열교환 차단 모듈 오프라인."
+msgstr "Thermal conduction barrier module offline."
+
+#: .\tile\power_armor.json
+msgid "파워아머 레이저 방어 모듈"
+msgid_plural "파워아머 레이저 방어 모듈s"
+msgstr[0] "power armor laser shield module"
+msgstr[1] "power armor laser shield modules"
+
+#. ~ Use action msg for {'str': '파워아머 레이저 방어 모듈'}.
+#: .\tile\power_armor.json
+msgid "애너지 배리어 활성화."
+msgstr "Energy barrier active."
+
+#. ~ Description for {'str': '파워아머 레이저 방어 모듈'}
+#: .\tile\power_armor.json
+msgid ""
+"파워아머에 에너지 장막을 형성해 레이저 공격을 모두 흘려낼 수 있게 해주는 파워"
+"아머 추가 모듈입니다."
+msgstr ""
+"A power armor add-on module that creates an energy shield around your power "
+"armor, allowing it to deflect all laser attacks."
+
+#: .\tile\power_armor.json
+msgid "파워아머 레이저 방어 모듈(활성화됨)"
+msgid_plural "파워아머 레이저 방어 모듈(활성화됨)s"
+msgstr[0] "power armor laser shield module (active)"
+msgstr[1] "power armor laser shield modules (active)"
+
+#. ~ Use action msg for {'str': '파워아머 레이저 방어 모듈(활성화됨)'}.
+#: .\tile\power_armor.json
+msgid "애너지 베리어 비활성화."
+msgstr "Energy barrier inactive."
+
+#: .\tile\power_armor.json
+msgid "파워아머 동작 보조 모듈"
+msgid_plural "파워아머 동작 보조 모듈s"
+msgstr[0] "power armor motion assist module"
+msgstr[1] "power armor motion assist modules"
+
+#. ~ Use action msg for {'str': '파워아머 동작 보조 모듈'}.
+#: .\tile\power_armor.json
+msgid "동작 보정 모드 활성화."
+msgstr "Motion assist module engages."
+
+#. ~ Description for {'str': '파워아머 동작 보조 모듈'}
+#: .\tile\power_armor.json
+msgid ""
+"모든 종류의 무기술에 대응하는 인공근육 보정장치입니다. 사용시 약 30%정도 빠르"
+"게 휘두를 수 있게 되었습니다 "
+msgstr ""
+"An power armor artificial muscle compensator for all types of martial arts. "
+"You can now swing about 30% faster when using it."
+
+#: .\tile\power_armor.json
+msgid "파워아머 동작 보조 모듈(활성화됨)"
+msgid_plural "파워아머 동작 보조 모듈(활성화됨)s"
+msgstr[0] "power armor motion assist module (active)"
+msgstr[1] "power armor motion assist modules (active)"
+
+#. ~ Use action msg for {'str': '파워아머 동작 보조 모듈(활성화됨)'}.
+#: .\tile\power_armor.json
+msgid "동작 보정 모드 비활성화."
+msgstr "Motion assist module disengages."
+
+#. ~ Description for {'str': '파워아머 동작 보조 모듈(활성화됨)'}
+#: .\tile\power_armor.json
+msgid ""
+"모든 종류의 무기술에 대응하는 인공근육 보정장치입니다. 약 30%정도 빠르게 휘두"
+"를 수 있게 되었습니다 "
+msgstr ""
+"An power armor artificial muscle compensator for all types of martial arts. "
+"You can now swing about 30% faster."
+
+#: .\tile\power_armor.json
+msgid "완벽한-정신방어"
+msgstr "Perfect Psyshield"
+
+#. ~ Description of effect '완벽한-정신방어'.
+#: .\tile\power_armor.json
+msgid "거의 모든 종류의 정신에 영향을 주는 공격을 막아냅니다"
+msgstr "Defend against almost any kind of mind-affecting attack"
+
+#. ~ Apply message for effect(s) '완벽한-정신방어'.
+#: .\tile\power_armor.json
+msgid "당신의 정신은 이 세상과 단절되었다"
+msgstr "Your mind is disconnected from this world."
+
+#. ~ Remove message for effect(s) '완벽한-정신방어'.
+#: .\tile\power_armor.json
+msgid "당신의 정신은 이 세상과 다시 연결되었다."
+msgstr "Your mind has reconnected with the world."
+
+#: .\tile\power_armor.json
+msgid "온도 저항"
+msgstr "Temp Resistance"
+
+#. ~ Description of effect '온도 저항'.
+#: .\tile\power_armor.json
+msgid "그 어떤 추위와 더위도 당신에게 영향을 주지 못할것 입니다."
+msgstr "No amount of cold or heat will affect you."
+
+#. ~ Apply message for effect(s) '온도 저항'.
+#: .\tile\power_armor.json
+msgid "더위/추위면역!"
+msgstr "Heat/Cold Immunity!"
+
+#. ~ Remove message for effect(s) '온도 저항'.
+#: .\tile\power_armor.json
+msgid "세상의 온도를 다시 느낀다."
+msgstr "Feel the temperature of the world again."
+
+#: .\tile\power_armor.json
+msgid "레이저 저항"
+msgstr "Laser Immunity"
+
+#. ~ Description of effect '레이저 저항'.
+#: .\tile\power_armor.json
+msgid "모든 종류의 광학병기를 막아냅니다."
+msgstr "Defends against all types of optical weapons."
+
+#. ~ Apply message for effect(s) '레이저 저항'.
+#: .\tile\power_armor.json
+msgid "이제 빔병기가 두렵지 않다!"
+msgstr "You're not afraid of beam weapons anymore!"
+
+#. ~ Remove message for effect(s) '레이저 저항'.
+#: .\tile\power_armor.json
+msgid "다시 빔병기를 조심해야한다."
+msgstr "Again, you have to watch out for beam weapons."
+
+#: .\tile\power_armor.json
+msgid "공격 보조 장치"
+msgstr "Melee Assist"
+
+#. ~ Description of effect '공격 보조 장치'.
+#: .\tile\power_armor.json
+msgid "근접 공격 딜레이 감소."
+msgstr "Melee attack delay reduction."
+
+#. ~ Apply message for effect(s) '공격 보조 장치'.
+#: .\tile\power_armor.json
+msgid "관절 서브 모터 오버드라이브"
+msgstr "Articulated submotor overdrive."
+
+#. ~ Remove message for effect(s) '공격 보조 장치'.
+#: .\tile\power_armor.json
+msgid "관절 서브 모터 오프라인"
+msgstr "Articulated submotor offline."
+
+#: .\tile\power_armor.json
+msgid "Debug HVAC"
+msgstr ""
+
+#. ~ Description for {'str': 'Debug HVAC'}
+#: .\tile\power_armor.json
+msgid "Temperature and weather won't bug you."
+msgstr ""
+
+#: .\tile\power_armor.json
+msgid "파워아머 전술 방패"
+msgid_plural "파워아머 전술 방패s"
+msgstr[0] "power armor tactical shield"
+msgstr[1] "power armor tactical shields"
+
+#. ~ Use action msg for {'str': '파워아머 전술 방패'}.
+#: .\tile\power_armor.json
+msgid "방어모드 활성화."
+msgstr "Defense mod activated."
+
+#. ~ Use action need_charges_msg for {'str': '파워아머 전술 방패'}.
+#: .\tile\power_armor.json
+msgid "Warning: Operating on minimal power.  Protection compromised."
+msgstr ""
+
+#. ~ Description for {'str': '파워아머 전술 방패'}
+#: .\tile\power_armor.json
+msgid ""
+"더블테크 파워아머용 전술 방패 입니다.이 파워아머용 전술 방패는 작게는 전차의 "
+"포격 크게는 핵폭발에도 생존 할 수 있는 사양으로 제작되었습니다. 에너지와 물"
+"질 사이를 자유롭게 오가는 새로운 물질을 재질로 사용해 양손을 자유롭게 사용 가"
+"능합니다. 사용중일경우 막대한 양의 전력을 소모하여 방어력을 강화하며 전신을 "
+"보호해줍니다"
+msgstr ""
+"This Double-tech tactical shield for power armor is built to survive small "
+"arms fire from tanks and nuclear explosions. It is made of a new material "
+"that can switch freely between energy and matter, allowing both hands to be "
+"used freely. When in use, it consumes massive amounts of power to boost "
+"defences and protect the entire body"
+
+#: .\tile\power_armor.json
+msgid "파워아머 전술 방패(완벽 방어 모드)"
+msgid_plural "파워아머 전술 방패(완벽 방어 모드)s"
+msgstr[0] "power armor tactical shield (perfect def)"
+msgstr[1] "power armor tactical shields (perfect def)"
+
+#. ~ Use action menu_text for {'str': '파워아머 전술 방패(완벽 방어 모드)'}.
+#: .\tile\power_armor.json
+msgid " 전원공급 중단  "
+msgstr "Interrupt power supply"
+
+#. ~ Use action msg for {'str': '파워아머 전술 방패(완벽 방어 모드)'}.
+#: .\tile\power_armor.json
+msgid "방어모드 비활성화."
+msgstr "Defense mod deactivated."
+
+#. ~ Description for {'str': '파워아머 전술 방패(완벽 방어 모드)'}
+#: .\tile\power_armor.json
+msgid ""
+"이 파워아머용 전술 방패는 작게는 전차의 포격 크게는 핵폭발에도 생존 할 수 있"
+"는 사양으로 제작되었습니다. 현재 고강도 전면 보호막을 작동중 이며 사용자의 움"
+"직임을 방해하고 있습니다."
+msgstr ""
+"This tactical shield for power armor is built to survive small arms fire "
+"from tanks and nuclear explosions. It is currently activating a high-"
+"strength frontal shield and impeding your movement."
+
+#: .\tile\power_armor.json
+msgid "mi-go slaver beam"
+msgstr ""
+
+#. ~ Description for {'str': 'mi-go slaver beam'}
+#: .\tile\power_armor.json
+msgid ""
+"Mi-go slaver beams cause pain, lower stamina, and give a short-lasting daze "
+"effect.  Starts very short range, increases rapidly with level."
+msgstr ""
+
+#: .\tile\shot.json
+msgid "20x66mm flechette"
+msgid_plural "20x66mm flechettes"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': '20x66mm flechette'}
+#: .\tile\shot.json
+msgid ""
+"20x66mm caseless shotgun rounds, flechette type.  Proprietary ammunition for "
+"Rivtech shotguns.  Being caseless rounds, these cannot be disassembled or "
+"reloaded."
+msgstr ""
+
+#: .\tile\shot.json
+msgid "20x66mm 드래곤 브레스"
+msgid_plural "20x66mm 드래곤 브레스s"
+msgstr[0] "20x66mm dragon's breath shell"
+msgstr[1] "20x66mm dragon's breath shells"
+
+#. ~ Description for {'str': '20x66mm 드래곤 브레스', 'str_pl': '20x66mm 드래곤 브레스s'}
+#: .\tile\shot.json
+msgid ""
+"20x66mm caseless shotgun rounds, incendiary type.  Proprietary ammunition "
+"for Rivtech shotguns.  Being caseless rounds, these cannot be disassembled "
+"or reloaded."
+msgstr ""
+
+#: .\tile\shot.json
+msgid "20x66mm buckshot"
+msgid_plural "20x66mm buckshots"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': '20x66mm buckshot'}
+#: .\tile\shot.json
+msgid ""
+"20x66mm caseless shotgun rounds, buckshot type.  Proprietary ammunition for "
+"Rivtech shotguns.  Being caseless rounds, these cannot be disassembled or "
+"reloaded."
+msgstr ""
+
+#: .\tile\shot.json
+msgid "20x66mm slug"
+msgid_plural "20x66mm slugs"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': '20x66mm slug'}
+#. ~ Description for {'str': 'shotgun slug'}
+#: .\tile\shot.json
+msgid ""
+"20x66mm caseless shotgun rounds, solid projectile type.  Proprietary "
+"ammunition for Rivtech shotguns.  Being caseless rounds, these cannot be "
+"disassembled or reloaded."
+msgstr ""
+
+#: .\tile\shot.json
+msgid "00 shot"
+msgid_plural "00 shots"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': '00 shot'}
+#: .\tile\shot.json
+msgid ""
+"A shell filled with metal pellets.  Extremely damaging, plus the spread "
+"makes it very accurate at short range.  Favored by SWAT forces."
+msgstr ""
+
+#: .\tile\shot.json
+msgid "flechette shell"
+msgid_plural "flechette shells"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'flechette shell'}
+#: .\tile\shot.json
+msgid ""
+"A shotgun shell filled with tiny steel darts.  Extremely damaging, plus the "
+"spread makes it very accurate at short range.  Slices through most forms of "
+"armor with ease."
+msgstr ""
+
+#: .\tile\shot.json
+msgid "shotgun slug"
+msgid_plural "shotgun slugs"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\tile\shot.json
+msgid ".410 000 shot"
+msgid_plural ".410 000 shots"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': '.410 000 shot'}
+#: .\tile\shot.json
+msgid "A .410 shell with 5 000 pellets.  Good for a hunting or combat load."
+msgstr ""

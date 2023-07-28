@@ -12,7 +12,9 @@
           { "id": "overlay_female_mutation_LUPINE_EARS", "fg": 0, "rotates": false },
           { "id": "overlay_male_mutation_LUPINE_EARS", "fg": 0, "rotates": false },
           { "id": "overlay_female_mutation_FELINE_EARS",  "fg": 1, "rotates": false },
-          { "id": "overlay_male_mutation_FELINE_EARS",  "fg": 1, "rotates": false }
+          { "id": "overlay_male_mutation_FELINE_EARS",  "fg": 1, "rotates": false },
+          { "id": "overlay_female_mutation_MOUSE_EARS",  "fg": 2, "rotates": false },
+          { "id": "overlay_male_mutation_MOUSE_EARS",  "fg": 2, "rotates": false }
         ]
       }
     ]
