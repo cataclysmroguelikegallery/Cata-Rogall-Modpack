@@ -1,0 +1,90 @@
+New Items - All Purpose Cardboard Box 
+
+Unobstructed All-Purpose Cardboard Box
+Portable Cradle - Rough Travel Table Ultra Lightweight Position
+
+Added crafting recipes
+
+Added Metal Compressor construction menu
+Added new recipe for Portable Dimensional Coordinate Receiver - 50 Teleportation Pads instead of 5-point anchor
+
+
+Crafting difficulty and recipe book nerf for the Big dog Bot
+
+5.3 ver
+
+Added constructible water purifier
+
+Changed menu text when using the Dangbot
+
+6 ver
+
+Added new item / Space Leap Arrow
+
+Rare, probably only drops in banks
+
+Buckshot and Flechette grenade remakes: now have a stacking effect instead of giving back the AoE that they used to have High defence means that mobs with high defence will be almost unstoppable....
+
+Slug Grenade Remake - increased damage significantly and changed damage type to Bash, which should be more useful now (it's pretty much a cannon at close range).
+
+Made various field effects visible 
+
+hot-air and cold-air and damn vents
+
+6.1 ver
+Bugfix list
+
+Fixed a bug where only one Dimensional Coordinate Receiver recipe was visible
+
+Fixed a bug where dismantling the Dimensional Coordinate Receiver would result in a portable Dimensional Coordinate Receiver instead of 5 telepods.
+
+Fixed Power Armour module drop rate being applied more than 5x
+
+Fixed missing Power Armour Shield module tileset
+
+6.2 ver
+
+Fixed spatial leap arrows being infinitely multiplied for now
+
+Fixed portable dimensional coordinate receiver blocking view
+
+Added cabin air conditioner, material is car air conditioner
+
+7.0 ver
+
+Made previously non-foldable parts foldable
+
+ex ) Car autopilot
+
+Added nano template recipe
+{Quantum Solar Panel, Dimensional Shrinkage Pet Crate}
+
+Added recipes for types of masks and gloves that don't interfere with attacks using mutated flesh
+
+Added Turret Disassembly recipe 
+
+Added Bolt Storage Strips, mounted on both legs, holds up to 5 rounds
+Added Waist Tube Quiver A waist-mounted quiver that holds 40 arrows.
+Added Pebble Pouch Added 40-round pouch that holds only pebbles
+Increased the carrying capacity of the DangdangBot Mode 1 to 1 tonne
+
+Increased Grenade Buckshot Flechette range and angle to 20 each 
+Increased armour modifier to 6. Tougher kids won't get their teeth knocked out.
+
+Shotgun Rework 
+Instead of doubling the damage of the shot, we're giving it a 6x armour multiplier, which means you're going to see a lot of bouncing around unless you're wearing skinny armour.
+Flechette has 6x armour penetration and 6x armour multiplier, meaning it's still a bystander.
+Slugshot has been changed to bash damage and buffed slightly.
+
+Smoke Bomb Rework
+Smoke bombs now have a blinding effect and an outright darkness effect, but the smoke effect has been removed.
+
+7.1 ver
+Shotgun Scale Adjustments
+Adjusted armour factor to 2
+
+7.2 ver
+Added Bolt Machine Gun
+Added Bolt Minigun
+Added magazines for bolt machine guns
+Added sounds for various guns
