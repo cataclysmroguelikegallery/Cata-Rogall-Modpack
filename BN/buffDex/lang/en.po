@@ -1,0 +1,50 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: dexbuff\n"
+"POT-Creation-Date: 2023-07-30 18:13+0900\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.3.2\n"
+
+#: .\modinfo.json
+msgid "더 좋은 민첩스탯"
+msgstr "Better Dexterity"
+
+#. ~ Description for 더 좋은 민첩스탯
+#: .\modinfo.json
+msgid ""
+"기존의 스피디 덱스의 수치를 조정하고 이동시 스테미너 소모를 조절했습니다. 민"
+"첩1당 5씩 오름,걷기 스테미너 소모 기존대비 3분의1수준"
+msgstr ""
+"Adjusted the existing Speedydex and the stamina consumption when moving. "
+"Speed increased by 5 per 1 dex, and walking stamina consumption is one-third "
+"of the previous level."
+
+#: .\modinfo.json
+msgid "throwing"
+msgstr ""
+
+#. ~ Description for {'str': 'throwing'}
+#: .\modinfo.json
+msgid ""
+"Your skill in throwing objects over a distance.  Skill increases accuracy, "
+"and at higher levels, the range of a throw."
+msgstr ""
+
+#: .\modinfo.json
+msgid "submachine guns"
+msgstr ""
+
+#. ~ Description for {'str': 'submachine guns'}
+#: .\modinfo.json
+msgid ""
+"Comprised of an automatic rifle carbine designed to fire a pistol cartridge, "
+"submachine guns can reload and fire quickly, sometimes in bursts, but they "
+"are relatively inaccurate and may be prone to mechanical failures."
+msgstr ""
