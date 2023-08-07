@@ -49,12 +49,29 @@
     "id": "rare",
     "type": "item_group",
     "items": [
+	  [ "a_spear_knife", 2 ],
+	  [ "a_broadsword", 2 ],
+	  [ "a_zweihander", 2 ],
+	  [ "a_bwirebat", 2 ],
+	  [ "a_nodachi", 2 ],
+	  [ "a_katana", 2 ],
+      [ "sq_hardlight_longbow", 2 ],
+	  [ "sq_hardlight_rifle", 2 ],
+	  [ "sq_hardlight_pistol", 2 ],
+	  [ "sq_hardlight_smg", 2 ],
+	  [ "sq_hardlight_shotgun", 2 ],
+	  [ "sq_hardlight_sniper", 2 ],
+	  [ "sq_fusion_rifle", 2 ],
+	  [ "sq_fusion_pistol", 2 ],
+	  [ "sq_fusion_hmg", 2 ],
+	  [ "sq_fusion_shotgun", 2 ],
+	  [ "sq_fusion_sniper", 2 ]
       [ "sq_industrial_skeleton", 10 ],
 	  [ "sq_sprinter_skeleton", 10 ],
 	  [ "sq_vanguard_skeleton", 10 ],
 	  [ "sq_swat_shield", 10 ],
 	  [ "sq_hardlight_blade_off", 10 ],
-	  [ "sq_dimension_pack", 10 ]
+	  [ "sq_dimension_pack", 5 ]
     ]
   },
   {
@@ -71,6 +88,12 @@
     "id": "vault",
     "type": "item_group",
     "items": [
+	  [ "a_spear_knife", 2 ],
+	  [ "a_broadsword", 2 ],
+	  [ "a_zweihander", 2 ],
+	  [ "a_bwirebat", 2 ],
+	  [ "a_nodachi", 2 ],
+	  [ "a_katana", 2 ],
       [ "sq_industrial_skeleton", 5 ],
 	  [ "sq_sprinter_skeleton", 5 ],
 	  [ "sq_vanguard_skeleton", 5 ],
@@ -230,6 +253,12 @@
     "type": "item_group",
     "id": "pawn",
     "items": [
+	  [ "a_spear_knife", 2 ],
+	  [ "a_broadsword", 2 ],
+	  [ "a_zweihander", 2 ],
+	  [ "a_bwirebat", 2 ],
+	  [ "a_nodachi", 2 ],
+	  [ "a_katana", 2 ],
 	  [ "sq_shield_scrap", 5 ],
 	  [ "sq_shield_ballistic", 5 ],
 	  [ "sq_shield_riot_small", 5 ],
@@ -307,12 +336,18 @@
   {
     "type": "item_group",
     "id": "fireman_gear",
-    "items": [ 	  [ "sq_shield_ballistic", 5 ], [ "sq_swat_shield", 2 ] ]
+    "items": [ [ "sq_shield_ballistic", 5 ], [ "sq_swat_shield", 2 ] ]
   },
   {
     "type": "item_group",
     "id": "survivorzed_extra",
     "items": [
+	  [ "a_spear_knife", 2 ],
+	  [ "a_broadsword", 2 ],
+	  [ "a_zweihander", 2 ],
+	  [ "a_bwirebat", 2 ],
+	  [ "a_nodachi", 2 ],
+	  [ "a_katana", 2 ],
 	  [ "sq_shield_ballistic", 5 ],
 	  [ "sq_shield_riot_small", 5 ],
 	  [ "sq_shield_riot", 5 ],

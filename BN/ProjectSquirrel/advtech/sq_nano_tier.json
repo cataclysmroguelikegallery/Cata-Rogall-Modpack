@@ -328,7 +328,7 @@
       "bandages_power": 6,
       "bleed": 1.0,
       "move_cost": 100,
-      "effects": [ { "id": "sq_nanobandages_effect", "duration": 1 } ]
+      "effects": [ { "id": "sq_nanobandages_effect" } ]
     }
   },
   {
@@ -355,7 +355,7 @@
     "desc": [ "나노포장 붕대를 적용했습니다. 상처가 빠른 속도로 치유됩니다." ],
     "apply_message": "상처가 빠른 속도로 아뭅니다. 조금 아프네요.",
     "rating": "good",
-    "base_mods": { "hurt_min": [ -20 ] },
+    "base_mods": { "hurt_amount": [ -20 ] },
     "blood_analysis_description": "나노 치유"
   },
   {
