@@ -460,7 +460,19 @@
     "purifiable": false,
     "stamina_regen_modifier": 0.3,
     "movecost_obstacle_modifier": 0.5,
-    "dodge_modifier": 2
+    "dodge_modifier": 2,
+    "encumbrance_always": [
+      [ "torso", -5 ],
+      [ "head", -5 ],
+      [ "arm_l", -5 ],
+      [ "arm_r", -5 ],
+      [ "hand_l", -5 ],
+      [ "hand_r", -5 ],
+      [ "leg_l", -5 ],
+      [ "leg_r", -5 ],
+      [ "foot_l", -5 ],
+      [ "foot_r", -5 ]
+    ]
   },
   {
     "id": "sq_advanced_lsurvivor_suit",
@@ -504,7 +516,7 @@
     "environmental_protection": 20,
     "coverage": 100,
     "material_thickness": 4,
-    "encumbrance": 20,
+    "encumbrance": 0,
     "flags": [
       "SUPER_FANCY",
 	  "OVERSIZE",
@@ -534,7 +546,7 @@
     "color": "light_gray",
     "name": { "str": "생존용 컴뱃 아머" },
     "looks_like": "rm13_armor",
-    "description": "UPS로 돌아가게끔 만든, 방탄조끼와 회로가 삽입된 점프슈트를 사용해서 만든 수제 방어구. 리브텍 RM13 컴뱃아머의 설계를 참고해 만들었습니다. 해석하기 어려운 기술력과 양산성을 고려하여 일부 기능이 생략되었지만, 여전히 각종 피해로부터 몸을 보호해줍니다. 사용하면 전원을 켭니다.",
+    "description": "UPS로 돌아가게끔 만든, 방탄조끼와 회로가 삽입된 점프슈트를 사용해서 만든 수제 방어구. 재료의 한계와 양산성을 고려하여 일부 기능이 생략되었지만, 여전히 각종 피해로부터 몸을 보호해주는 기본적인 기능이 탑재된 '싼데 비슷한' 방어구입니다. 누군가는 RM13 컴뱃 아머의 디자인을 베꼈다고 할 테지만 아무도 뭐라 할 사람은 없습니다. 사용하면 전원을 켭니다.",
     "price": 150000,
     "price_postapoc": 15000,
     "material": [ "carbide", "kevlar" ],
@@ -582,7 +594,7 @@
     "type": "TOOL_ARMOR",
     "name": { "str": "생존용 컴뱃 아머 (켜짐)" },
     "looks_like": "rm13_armor",
-    "description": "UPS로 돌아가게끔 만든, 방탄조끼와 회로가 삽입된 점프슈트를 사용해서 만든 수제 방어구. 리브텍 RM13 컴뱃아머의 설계를 참고해 만들었습니다. 해석하기 어려운 기술력과 양산성을 고려하여 일부 기능이 생략되었지만, 여전히 각종 피해로부터 몸을 보호해줍니다. 현재 작동 중이며, 지속적으로 전력을 소모하고 있습니다. 사용하여 작동을 멈춥니다.",
+    "description": "UPS로 돌아가게끔 만든, 방탄조끼와 회로가 삽입된 점프슈트를 사용해서 만든 수제 방어구. 재료의 한계와 양산성을 고려하여 일부 기능이 생략되었지만, 여전히 각종 피해로부터 몸을 보호해주는 기본적인 기능이 탑재된 '싼데 비슷한' 방어구입니다. 누군가는 RM13 컴뱃 아머의 디자인을 베꼈다고 할 테지만 아무도 뭐라 할 사람은 없습니다. 현재 작동 중이며, 지속적으로 전력을 소모하고 있습니다. 사용하여 작동을 멈춥니다.",
     "turns_per_charge": 15,
     "revert_to": "sq_advanced_fsurvivor_suit",
     "use_action": { "type": "transform", "menu_text": "Turn off", "msg": "Suit shutting down.", "target": "sq_advanced_survivor_suit" },
@@ -965,10 +977,10 @@
     "subcategory": "CSC_첨단기술_ARMOR",
     "skill_used": "fabrication",
     "difficulty": 8,
-    "skills_required": [ "mechanics", 7 ],
+    "skills_required": [ "mechanics", 5 ],
     "book_learn": [ [ "recipe_caseless", 6 ] ],
     "time": "3 h 30 m",
-    "autolearn": false,
+    "autolearn": true,
     "using": [ [ "soldering_standard", 42 ], [ "welding_standard", 21 ] ],
     "components": [
       [ [ "graphene", 20 ] ],

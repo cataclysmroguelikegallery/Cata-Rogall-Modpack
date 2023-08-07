@@ -422,7 +422,7 @@
     "environmental_protection": 3,
     "coverage": 40,
     "material_thickness": 3,
-    "encumbrance": 20,
+    "encumbrance": 15,
     "weight_capacity_bonus": "31830 g",
     "flags": [ "ONLY_ONE", "STURDY", "WATER_FRIENDLY", "USE_UPS", "NO_UNLOAD", "NO_RELOAD", "OUTER", "ALLOWS_NATURAL_ATTACKS" ]
   },
@@ -445,7 +445,7 @@
       "target": "sq_industrial_skeleton"
     },
     "covers": [ "arms", "torso", "legs" ],
-    "encumbrance": 20,
+    "encumbrance": 15,
     "weight_capacity_bonus": "111830 g",
     "flags": [ "ONLY_ONE", "STURDY", "WATER_FRIENDLY", "USE_UPS", "NO_UNLOAD", "NO_RELOAD", "OUTER", "ALLOWS_NATURAL_ATTACKS" ]
   }

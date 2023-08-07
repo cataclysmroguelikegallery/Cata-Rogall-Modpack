@@ -91,13 +91,12 @@
     "subcategory": "CSC_OTHER_MATERIALS",
     "skill_used": "fabrication",
     "skills_required": [ "cooking", 5 ],
-    "difficulty": 6,
-    "time": "30 m",
-    "book_learn": [ [ "recipe_lab_cvd", 7 ] ],
-    "autolearn": false,
+    "difficulty": 7,
+    "time": "20 m",
+    "book_learn": [ [ "textbook_chemistry", 6 ], [ "adv_chemistry", 6 ], [ "recipe_labchem", 7 ], [ "recipe_lab_cvd", 7 ] ],
+    "autolearn": true,
     "using": [ [ "welding_standard", 12 ] ],
-    "qualities": [ { "id": "FINE_DISTILL", "level": 1 }, { "id": "CONCENTRATE", "level": 1 }, { "id": "SEPARATE", "level": 1 } ],
-    "components": [ [ [ "ash", 400 ], [ "charcoal", 20 ] ] ]
+    "components": [ [ [ "ash", 300 ], [ "charcoal", 15 ] ] ]
   },
   {
     "result": "graphene",
@@ -108,11 +107,12 @@
     "skill_used": "fabrication",
     "skills_required": [ "cooking", 6 ],
     "difficulty": 7,
-    "time": "15 m",
-    "book_learn": [ [ "recipe_lab_cvd", 8 ] ],
+    "time": "10 m",
+    "batch_time_factors": [ 50, 5 ],
+    "book_learn": [ [ "recipe_lab_cvd", 8 ], [ "textbook_chemistry", 6 ], [ "adv_chemistry", 6 ], [ "recipe_labchem", 7 ] ],
     "autolearn": false,
     "tools": [ [ [ "sq_atomic_forge", -1 ], [ "sq_rtg_forge", -1 ], [ "sq_uranium_forge", -1 ] ] ],
-    "components": [ [ [ "ash", 300 ], [ "charcoal", 15 ] ] ]
+    "components": [ [ [ "ash", 200 ], [ "charcoal", 10 ] ] ]
   },
   {
     "result": "graphene",
@@ -125,10 +125,10 @@
     "difficulty": 8,
     "time": "8 m",
     "batch_time_factors": [ 80, 5 ],
-    "book_learn": [ [ "recipe_lab_cvd", 9 ] ],
+    "book_learn": [ [ "recipe_lab_cvd", 9 ], [ "textbook_chemistry", 6 ], [ "adv_chemistry", 6 ], [ "recipe_labchem", 7 ] ],
     "autolearn": false,
     "tools": [ [ [ "sq_nanoprint", 50 ], [ "sq_nanofab", 50 ] ] ],
-    "components": [ [ [ "ash", 200 ], [ "charcoal", 10 ] ] ]
+    "components": [ [ [ "ash", 100 ], [ "charcoal", 7 ] ] ]
   },
   {
     "result": "carbide_plate",
@@ -139,10 +139,11 @@
     "skills_required": [ "cooking", 8 ],
     "difficulty": 8,
     "time": "15 m",
+    "batch_time_factors": [ 50, 5 ],
     "book_learn": [ [ "recipe_lab_cvd", 7 ] ],
     "autolearn": false,
     "tools": [ [ [ "sq_atomic_forge", -1 ], [ "sq_rtg_forge", -1 ], [ "sq_uranium_forge", -1 ] ] ],
-    "components": [ [ [ "resin_chunk", 5 ] ], [ [ "graphene", 5 ] ] ]
+    "components": [ [ [ "resin_chunk", 1 ], [ "alien_pod_resin", 1 ] ], [ [ "graphene", 3 ] ] ]
   },
   {
     "result": "hydrogen_tank",
@@ -190,7 +191,7 @@
     "difficulty": 9,
     "time": "30 m",
     "batch_time_factors": [ 80, 5 ],
-    "book_learn": [ [ "recipe_labchem", 8 ] ],
+    "book_learn": [ [ "recipe_labchem", 8 ], [ "textbook_atomic_lab", 7 ] ],
     "qualities": [ { "id": "CHEM", "level": 3 } ],
     "tools": [ [ [ "sq_nanocomp", 100 ], [ "sq_nanoprint", 100 ], [ "sq_nanofab", 100 ] ] ],
     "autolearn": false,
@@ -210,14 +211,14 @@
     "skills_required": [ "cooking", 7 ],
     "difficulty": 7,
     "time": "30 m",
+    "batch_time_factors": [ 50, 5 ],
     "book_learn": [ [ "recipe_labchem", 8 ], [ "textbook_atomic_lab", 7 ] ],
     "autolearn": true,
     "tools": [
       [ [ "sq_atomic_forge", -1 ], [ "sq_rtg_forge", -1 ], [ "sq_uranium_forge", -1 ] ],
       [ [ "sq_nanocomp", 20 ], [ "sq_nanoprint", 20 ], [ "sq_nanofab", 20 ] ]
     ],
-    "qualities": [ { "id": "FINE_DISTILL", "level": 1 }, { "id": "CONCENTRATE", "level": 1 }, { "id": "SEPARATE", "level": 1 } ],
-    "components": [ [ [ "nanomaterial", 5 ] ], [ [ "graphene", 5 ] ], [ [ "steel_lump", 1 ] ] ]
+    "components": [ [ [ "nanomaterial", 5 ] ], [ [ "graphene", 2 ] ], [ [ "steel_lump", 1 ] ] ]
   },
   {
     "result": "alloy_plate",
@@ -277,7 +278,7 @@
       [ [ "sq_nanocomp", 20 ], [ "sq_nanoprint", 20 ], [ "sq_nanofab", 20 ] ]
     ],
     "qualities": [ { "id": "FINE_DISTILL", "level": 1 }, { "id": "CONCENTRATE", "level": 1 }, { "id": "SEPARATE", "level": 1 } ],
-    "components": [ [ [ "chem_nitric_acid", 5 ] ], [ [ "nuclear_waste", 5 ], [ "rock", 200 ] ] ]
+    "components": [ [ [ "chem_nitric_acid", 1 ] ], [ [ "nuclear_waste", 5 ], [ "rock", 200 ] ] ]
   },
   {
     "result": "sq_uranium_condensed",
@@ -415,7 +416,7 @@
     "time": "9 m",
     "autolearn": true,
     "tools": [ [ [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
-    "components": [ [ [ "nanomaterial", 50 ] ] ]
+    "components": [ [ [ "nanomaterial", 25 ] ] ]
   },
   {
     "result": "e_scrap",
