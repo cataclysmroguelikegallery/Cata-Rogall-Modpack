@@ -41,7 +41,7 @@
     "type": "TOOL",
     "category": "tools",
     "name": { "str": "원자력 용광로" },
-    "description": "핵붕괴로 작동하는, 무시무시하면서도 아름다운 창백한 푸른 빛을 발하는 원자력 용광로입니다.  일종의 정제소 역할도 겸하며 다양한 첨단 부품과 원료 생산의 기초가 됩니다.",
+    "description": "핵붕괴로 작동하는, 무시무시하면서도 아름다운 창백한 푸른 빛을 발하는 원자력 용광로입니다. 그래핀 시트의 빠른 제작 및 겹층 탄화물을 만들 수 있습니다. 일종의 정제소 역할도 겸하며 다양한 첨단 부품과 원료 생산의 기초가 됩니다.",
     "weight": "17500 g",
     "volume": "8 L",
     "price": 4000000,
@@ -64,7 +64,7 @@
     "book_learn": [ [ "recipe_lab_elec", 9 ], [ "textbook_atomic_lab", 7 ] ],
     "difficulty": 7,
     "time": "5 h",
-    "reversible": true,
+    "reversible": false,
     "autolearn": true,
     "using": [ [ "welding_standard", 20 ] ],
     "qualities": [
@@ -80,18 +80,15 @@
     "components": [
       [ [ "lead", 100 ] ],
       [ [ "metal_tank", 1 ] ],
-      [ [ "ai_module", 2 ] ],
+      [ [ "ai_module", 1 ] ],
       [ [ "self_monitoring_module", 1 ] ],
       [ [ "forge", 1 ] ],
       [ [ "small_lcd_screen", 1 ] ],
-      [ [ "element", 18 ] ],
-      [ [ "amplifier", 4 ] ],
+      [ [ "element", 8 ] ],
       [ [ "power_supply", 5 ] ],
-      [ [ "hard_plate", 4 ] ],
-      [ [ "cable", 80 ] ],
-      [ [ "processor", 8 ] ],
-      [ [ "plut_cell", 8 ] ],
-      [ [ "medium_storage_battery", 2 ] ]
+      [ [ "hard_plate", 2 ] ],
+      [ [ "processor", 1 ] ],
+      [ [ "plut_cell", 8 ] ]
     ]
   },
   {
@@ -151,7 +148,7 @@
     "type": "TOOL",
     "category": "tools",
     "name": { "str": "물질 합성기: 고분자 압축기" },
-    "description": "원료를 압축하고 나노제작물질을 합성하는 복잡한 장치입니다.  기체와 연료를 압축하기 위한 급속냉각장치와 단열재인 겹층 탄화물이 포함됩니다.",
+    "description": "원료를 압축하고 나노제작물질을 합성하는 복잡한 장치입니다. 수소 용기, 나노제작물질, 초합금판 등을 만드는 데에 필요하며, 기체와 연료를 압축하기 위한 급속냉각장치와 단열재인 겹층 탄화물이 포함됩니다.",
     "weight": "8023 g",
     "volume": "4 L",
     "price": 400000,
@@ -178,8 +175,8 @@
     "skills_required": [ [ "electronics", 7 ], [ "computer", 6 ] ],
     "difficulty": 8,
     "time": "380 m",
-    "reversible": true,
-    "autolearn": false,
+    "reversible": false,
+    "autolearn": true,
     "book_learn": [ [ "textbook_mechanics", 6 ], [ "recipe_lab_cvd", 9 ], [ "recipe_lab_elec", 9 ], [ "textbook_atomic_lab", 7 ] ],
     "tools": [ [ [ "sq_atomic_forge", -1 ], [ "sq_rtg_forge", -1 ], [ "sq_uranium_forge", -1 ] ] ],
     "using": [ [ "welding_standard", 15 ] ],
@@ -192,19 +189,13 @@
     ],
     "components": [
       [ [ "barometer", 1 ] ],
-      [ [ "sheet_metal", 10 ] ],
-      [ [ "condensor_coil", 1 ] ],
-      [ [ "evaporator_coil", 1 ] ],
-      [ [ "thermostat", 1 ] ],
-      [ [ "motor_tiny", 1 ] ],
-      [ [ "refrigerant_tank", 1 ] ],
+      [ [ "sheet_metal", 6 ] ],
       [ [ "processor", 2 ] ],
       [ [ "RAM", 1 ] ],
-      [ [ "cable", 1 ] ],
       [ [ "carbide_plate", 2 ] ],
-      [ [ "circuit", 4 ] ],
-      [ [ "amplifier", 4 ] ],
-      [ [ "plastic_chunk", 10 ] ],
+      [ [ "circuit", 2 ] ],
+      [ [ "amplifier", 2 ] ],
+      [ [ "plastic_chunk", 6 ] ],
       [ [ "small_storage_battery", 1 ] ]
     ]
   },
@@ -213,7 +204,7 @@
     "type": "TOOL",
     "category": "tools",
     "name": { "str": "동위원소 원심분리 용광로" },
-    "description": "원자력 용광로 겸 회전 원심분리기. 액체납으로 차폐한 이중관과 이중용기로 이루어진 전기먹는 하마입니다. 본격적인 핵연료의 이용과 추출이 가능해집니다.",
+    "description": "원자력 용광로 겸 회전 원심분리기. 액체납으로 차폐한 이중관과 이중용기로 이루어진 전기먹는 하마입니다. 유해 폐기물 석관이나 유독성 물질 폐기장의 핵폐기물을 재활용하여 본격적인 핵연료의 이용과 추출이 가능해집니다. \n다음 업그레이드: 우라늄 증식 용광로\n",
     "weight": "23500 g",
     "volume": "8 L",
     "price": 4000000,
@@ -252,12 +243,11 @@
     ],
     "components": [
       [ [ "lead", 100 ] ],
-      [ [ "metal_tank", 2 ] ],
       [ [ "sq_atomic_forge", 1 ] ],
       [ [ "nanomaterial", 50 ] ],
-      [ [ "microcentrifuge", 1 ] ],
+      [ [ "motor_small", 1 ] ],
       [ [ "power_supply", 5 ] ],
-      [ [ "alloy_plate", 4 ] ],
+      [ [ "alloy_plate", 2 ] ],
       [ [ "plasma", 10 ] ],
       [ [ "plut_cell", 4 ] ],
       [ [ "analytical_set_basic", 1 ] ]
@@ -268,7 +258,7 @@
     "type": "TOOL",
     "category": "tools",
     "name": { "str": "물질 합성기: 나노 정밀 재봉틀" },
-    "description": "기판에 회로를 새기는데 쓰는, 나노 단위의 공정이 가능한 휴대용 소형 3D 프린터입니다. 나노물질이나 그래핀을 실처럼 가늘게 뽑아 일종의 ''재봉틀''처럼 사용이 가능하기도 합니다.  게다가 기기에 데이터를 입력하여 각종 초정밀 부품의 출력이 가능하다는 점으로 미루어 보아 어쩌면 CBM까지 만들어 낼 수 있을 것 같네요. 이전 단계의 모든 것들 또한 제작 가능합니다.",
+    "description": "기판에 회로를 새기는데 쓰는, 나노 단위의 공정이 가능한 휴대용 소형 3D 프린터입니다. 나노물질을 실처럼 가늘게 뽑아 일종의 ''재봉틀''처럼 사용이 가능하기도 합니다.  게다가 기기에 데이터를 입력하여 각종 초정밀 부품의 출력이 가능하다는 점으로 미루어 보아 어쩌면 CBM까지 만들어 낼 수 있을 것 같네요. 이전 단계의 모든 것들 또한 제작 가능합니다.",
     "weight": "3300 g",
     "volume": "1200 ml",
     "price": 400000,
@@ -298,7 +288,7 @@
     "reversible": true,
     "autolearn": false,
     "book_learn": [ [ "textbook_atomic_lab", 8 ], [ "recipe_lab_cvd", 9 ], [ "recipe_lab_elec", 9 ] ],
-    "tools": [ [ [ "sq_rtg_forge", -1 ], [ "sq_uranium_forge", -1 ] ] ],
+    "tools": [ [ [ "sq_atomic_forge", -1 ], [ "sq_rtg_forge", -1 ], [ "sq_uranium_forge", -1 ] ] ],
     "using": [ [ "welding_standard", 20 ] ],
     "qualities": [
       { "id": "HAMMER", "level": 2 },
@@ -308,11 +298,9 @@
       { "id": "WRENCH", "level": 2 }
     ],
     "components": [
-      [ [ "alloy_plate", 3 ] ],
+      [ [ "alloy_plate", 2 ] ],
       [ [ "sq_nanocomp", 1 ] ],
       [ [ "motor_tiny", 1 ] ],
-      [ [ "processor", 2 ] ],
-      [ [ "RAM", 1 ] ],
       [ [ "cable", 1 ] ],
       [ [ "circuit", 4 ] ],
       [ [ "amplifier", 4 ] ],
@@ -372,7 +360,7 @@
     "reversible": true,
     "autolearn": false,
     "book_learn": [ [ "recipe_lab_elec", 6 ], [ "recipe_lab_cvd", 8 ] ],
-    "tools": [ [ [ "sq_rtg_forge", -1 ], [ "sq_uranium_forge", -1 ] ], [ [ "sq_nanoprint", 100 ], [ "sq_nanofab", 100 ] ] ],
+    "tools": [ [ [ "sq_atomic_forge", -1 ], [ "sq_rtg_forge", -1 ], [ "sq_uranium_forge", -1 ] ], [ [ "sq_nanoprint", 100 ], [ "sq_nanofab", 100 ] ] ],
     "using": [ [ "welding_standard", 20 ] ],
     "qualities": [
       { "id": "HAMMER", "level": 2 },
@@ -430,7 +418,7 @@
     "type": "GENERIC",
     "category": "tools",
     "name": { "str": "우라늄 증식 용광로" },
-    "description": "우라늄-235의 핵융합을 기반으로 한 용광로는 플루토늄 연료전지를 대체하고, 지속적으로 농축 우라늄을 생성할 수 있는 혁신적인 에너지 시스템입니다. 방사능과 전자파가 우려된다면서 발전소를 반대하는 사람들도 있었죠. 그 사람들이 이걸 보면 뭐라고 생각할까요?",
+    "description": "우라늄-235의 핵융합을 기반으로 한 용광로는 플루토늄 연료전지를 대체하고, 사용(a)로 지속적으로 농축 우라늄을 생성할 수 있는 혁신적인 에너지 시스템입니다. 방사능과 전자파가 우려된다면서 발전소를 반대하는 사람들도 있었죠. 그 사람들이 이걸 보면 뭐라고 생각할까요?",
     "weight": "23500 g",
     "volume": "12 L",
     "price": 4000000,
@@ -479,9 +467,8 @@
       [ [ "sq_rtg_forge", 1 ] ],
       [ [ "nanomaterial", 50 ] ],
       [ [ "power_supply", 5 ] ],
-      [ [ "alloy_plate", 4 ] ],
-      [ [ "sq_uranium_cell", 2 ] ],
-      [ [ "medium_storage_battery", 2 ] ]
+      [ [ "alloy_plate", 2 ] ],
+      [ [ "sq_uranium_cell", 2 ] ]
     ]
   },
   {
@@ -521,17 +508,11 @@
       [ [ "nanomaterial", 5 ] ],
       [ [ "sq_nanoprint", 1 ] ],
       [ [ "sq_uranium_cell", 2 ] ],
-      [ [ "alloy_plate", 2 ] ],
-      [ [ "motor_tiny", 1 ] ],
-      [ [ "processor", 2 ] ],
-      [ [ "RAM", 1 ] ],
       [ [ "bearing", 50 ] ],
       [ [ "motor", 4 ] ],
-      [ [ "cable", 50 ] ],
       [ [ "circuit", 4 ] ],
       [ [ "power_supply", 2 ] ],
-      [ [ "plastic_chunk", 10 ] ],
-      [ [ "small_storage_battery", 1 ] ]
+      [ [ "plastic_chunk", 6 ] ]
     ]
   },
   {
