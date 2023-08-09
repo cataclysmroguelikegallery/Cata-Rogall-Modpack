@@ -215,7 +215,7 @@
     "symbol": ";",
     "looks_like": "minireactor",
     "color": "red",
-    "qualities": [ [ "FINE_DISTILL", 1 ], [ "CONCENTRATE", 1 ], [ "SEPARATE", 1 ] ],
+    "qualities": [ [ "FINE_DISTILL", 1 ], [ "CONCENTRATE", 1 ], [ "SEPARATE", 1 ], [ "ANALYSIS", 1 ] ],
     "flags": [ "LIGHT_1", "LEAK_DAM", "RADIOACTIVE", "ALLOWS_REMOTE_USE" ]
   },
   {
@@ -286,7 +286,7 @@
     "difficulty": 9,
     "time": "240 m",
     "reversible": true,
-    "autolearn": false,
+    "autolearn": true,
     "book_learn": [ [ "textbook_atomic_lab", 8 ], [ "recipe_lab_cvd", 9 ], [ "recipe_lab_elec", 9 ] ],
     "tools": [ [ [ "sq_atomic_forge", -1 ], [ "sq_rtg_forge", -1 ], [ "sq_uranium_forge", -1 ] ] ],
     "using": [ [ "welding_standard", 20 ] ],
@@ -437,7 +437,7 @@
       "transform_age": 3600,
       "not_ready_msg": "용광로의 우라늄이 아직 증식하는 중이다."
     },
-    "qualities": [ [ "FINE_DISTILL", 1 ], [ "CONCENTRATE", 1 ], [ "SEPARATE", 1 ] ],
+    "qualities": [ [ "FINE_DISTILL", 1 ], [ "CONCENTRATE", 1 ], [ "SEPARATE", 1 ], [ "ANALYSIS", 1 ] ],
     "flags": [ "LIGHT_1", "LEAK_DAM", "RADIOACTIVE", "ALLOWS_REMOTE_USE" ]
   },
   {
@@ -493,7 +493,7 @@
     "difficulty": 9,
     "time": "260 m",
     "reversible": true,
-    "autolearn": false,
+    "autolearn": true,
     "book_learn": [ [ "textbook_mechanics", 6 ], [ "recipe_lab_cvd", 9 ] ],
     "tools": [ [ [ "sq_uranium_forge", -1 ] ] ],
     "using": [ [ "welding_standard", 20 ] ],

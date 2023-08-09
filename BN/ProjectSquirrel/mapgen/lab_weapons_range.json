@@ -4,7 +4,7 @@
     "type": "mapgen",
     "method": "json",
     "om_terrain": [ "lab_1side" ],
-    "weight": 100,
+    "weight": 150,
     "object": {
       "fill_ter": "t_thconc_floor",
       "rows": [
@@ -46,7 +46,7 @@
             { "item": "military", "chance": 60 },
             { "item": "ammo_milspec", "chance": 10 },
             { "item": "guns_milspec", "chance": 10 },
-            { "item": "sq_weapons_rare", "chance": 5 }
+            { "item": "sq_weapons_rare", "chance": 20 }
           ]
         },
         "*": { "items": [ { "item": "casings", "chance": 10 } ] }
