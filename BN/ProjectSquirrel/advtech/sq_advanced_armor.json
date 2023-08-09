@@ -985,7 +985,7 @@
     "components": [
       [ [ "graphene", 20 ] ],
       [ [ "coat_rain", 1 ], [ "jacket_windbreaker", 1 ], [ "jacket_evac", 1 ], [ "coat_gut", 1 ] ],
-      [ [ "small_storage_battery", 1 ] ],
+      [ [ "small_storage_battery", 1 ], [ "medium_battery_cell", 1 ], [ "light_battery_cell", 5 ] ],
       [ [ "plut_cell", 3 ] ],
       [
         [ "tacvest", 1 ],

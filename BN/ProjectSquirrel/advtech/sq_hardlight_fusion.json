@@ -1,5 +1,82 @@
 [
   {
+    "id": "sq_tesla_cannon",
+    "copy-from": "rifle_energy",
+    "type": "GUN",
+    "weapon_category": [ "SHOTGUNS", "ENERGY_WEAPONS" ],
+    "name": { "str": "하드라이트 확산총" },
+    "description": "근거리에서의 압도적인 군중 제압력과 화력을 모두 갖추도록 만든 하드라이트 에너지 샷건입니다. 샷건이지만 사실 특수화기에 가깝습니다. 날카로운 단면을 지닌 광자 파편은 산산이 흩어져 주변 희생자들을 향해 굴절합니다.",
+    "weight": "4950 g",
+    "volume": "3500 ml",
+    "skill": "shotgun",
+    "price": 3300000,
+    "price_postapoc": 12000,
+    "material": [ "superalloy", "ceramic" ],
+    "color": "light_blue",
+    "range": 20,
+    "ranged_damage": { "damage_type": "heat", "amount": 40, "armor_penetration": 16 },
+    "dispersion": 0,
+    "modes": [ [ "DEFAULT", "semi", 1 ] ],
+    "loudness": 36,
+    "ups_charges": 80,
+    "ammo_effects": [ "LASER", "INCENDIARY", "DRAW_AS_LINE", "WIDE", "BOUNCE" ]
+  },
+  {
+    "id": "sq_tesla_cannon",
+	"looks_like": "plasma_rifle",
+    "copy-from": "rifle_energy",
+    "type": "GUN",
+    "name": { "str": "테슬라 캐논" },
+    "description": "테슬라 캐논은 전자기 파동으로써 적들의 장비를 마비시키고 전장을 혼돈으로 뒤섞는, 생존자의 걸작입니다. 방출된 전자기파는 4타일 이내에 있는 다른 적에게 옮겨갑니다.",
+    "weight": "3450 g",
+    "volume": "3 L",
+    "skill": "shotgun",
+    "price": 2350000,
+    "price_postapoc": 9200,
+    "material": [ "steel", "superalloy" ],
+    "color": "cyan",
+    "range": 25,
+    "ranged_damage": { "damage_type": "electric", "amount": 45, "armor_penetration": 20 },
+    "dispersion": 10,
+    "durability": 10,
+    "modes": [ [ "DEFAULT", "semi", 1 ], [ "AUTO", "auto", 3 ] ],
+    "loudness": 35,
+    "ups_charges": 80,
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "emitter", 1 ],
+      [ "grip", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "sling", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "ammo_effects": [ "WIDE", "BOUNCE", "LIGHTNING", "EMP" ]
+  },
+  {
+    "result": "sq_tesla_cannon",
+    "type": "recipe",
+    "category": "CC_첨단기술",
+    "subcategory": "CSC_첨단기술_RANGED",
+    "skill_used": "electronics",
+    "difficulty": 9,
+    "time": 300000,
+    "autolearn": true,
+    "qualities": [ { "id": "WRENCH_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
+    "tools": [ [ [ "small_repairkit", 50 ], [ "large_repairkit", 25 ] ] ],
+    "using": [ [ "welding_standard", 20 ] ],
+    "components": [
+      [ [ "emp_gun", 1 ] ],
+      [ [ "amplifier", 4 ] ],
+      [ [ "power_supply", 2 ] ],
+      [ [ "plut_cell", 5 ] ],
+      [ [ "lens", 2 ] ],
+      [ [ "plastic_chunk", 4 ] ],
+      [ [ "alloy_sheet", 4 ] ]
+    ]
+  },
+  {
     "id": "5x50dart",
     "type": "AMMO",
     "name": { "str": "RA110 5x50mm flechette" },
@@ -206,7 +283,7 @@
     "autolearn": true,
     "book_learn": [ [ "sq_recipe_lab_hardlight", 9 ] ],
     "qualities": [ [ { "id": "SCREW_FINE", "level": 1 } ], [ { "id": "SAW_M_FINE", "level": 1 } ] ],
-    "tools": [ [ [ "sq_nanoprint", 100 ], [ "sq_nanofab", 100 ] ] ],
+    "tools": [ [ [ "sq_nanocomp", 100 ], [ "sq_nanoprint", 100 ], [ "sq_nanofab", 100 ] ] ],
     "components": [
       [ [ "nanomaterial", 100 ] ],
       [ [ "lens", 2 ] ],
@@ -249,7 +326,7 @@
     "autolearn": true,
     "book_learn": [ [ "sq_recipe_lab_fusion", 9 ] ],
     "qualities": [ [ { "id": "SCREW_FINE", "level": 1 } ], [ { "id": "SAW_M_FINE", "level": 1 } ] ],
-    "tools": [ [ [ "sq_nanoprint", 100 ], [ "sq_nanofab", 100 ] ] ],
+    "tools": [ [ [ "sq_nanocomp", 100 ], [ "sq_nanoprint", 100 ], [ "sq_nanofab", 100 ] ] ],
     "components": [
       [ [ "nanomaterial", 100 ] ],
       [ [ "sq_depleted_uranium", 40 ] ],
@@ -503,7 +580,7 @@
     "autolearn": false,
     "book_learn": [ [ "sq_recipe_lab_hardlight", 10 ] ],
     "qualities": [ { "id": "SCREW_FINE", "level": 1 } ],
-    "tools": [ [ [ "sq_uranium_forge", -1 ] ], [ [ "sq_nanofab", 84 ] ] ],
+    "tools": [ [ [ "sq_rtg_forge", -1 ], [ "sq_uranium_forge", -1 ] ], [ [ "sq_nanoprint", 84 ], [ "sq_nanofab", 84 ] ] ],
     "using": [ [ "welding_standard", 20 ] ],
     "components": [
       [ [ "amplifier", 2 ] ],
@@ -551,7 +628,7 @@
     "autolearn": false,
     "book_learn": [ [ "sq_recipe_lab_hardlight", 10 ] ],
     "qualities": [ { "id": "SCREW_FINE", "level": 1 } ],
-    "tools": [ [ [ "sq_uranium_forge", -1 ] ], [ [ "sq_nanofab", 84 ] ] ],
+    "tools": [ [ [ "sq_rtg_forge", -1 ], [ "sq_uranium_forge", -1 ] ], [ [ "sq_nanoprint", 84 ], [ "sq_nanofab", 84 ] ] ],
     "using": [ [ "welding_standard", 20 ] ],
     "components": [
       [ [ "amplifier", 4 ] ],
@@ -601,7 +678,7 @@
     "autolearn": false,
     "book_learn": [ [ "sq_recipe_lab_hardlight", 10 ] ],
     "qualities": [ { "id": "SCREW_FINE", "level": 1 } ],
-    "tools": [ [ [ "sq_uranium_forge", -1 ] ], [ [ "sq_nanofab", 84 ] ] ],
+    "tools": [ [ [ "sq_rtg_forge", -1 ], [ "sq_uranium_forge", -1 ] ], [ [ "sq_nanoprint", 84 ], [ "sq_nanofab", 84 ] ] ],
     "using": [ [ "welding_standard", 20 ] ],
     "components": [
       [ [ "amplifier", 3 ] ],
@@ -651,7 +728,7 @@
     "autolearn": false,
     "book_learn": [ [ "sq_recipe_lab_hardlight", 10 ] ],
     "qualities": [ { "id": "SCREW_FINE", "level": 1 } ],
-    "tools": [ [ [ "sq_uranium_forge", -1 ] ], [ [ "sq_nanofab", 84 ] ] ],
+    "tools": [ [ [ "sq_rtg_forge", -1 ], [ "sq_uranium_forge", -1 ] ], [ [ "sq_nanoprint", 84 ], [ "sq_nanofab", 84 ] ] ],
     "using": [ [ "welding_standard", 20 ] ],
     "components": [
       [ [ "amplifier", 4 ] ],
@@ -703,7 +780,7 @@
     "autolearn": false,
     "book_learn": [ [ "sq_recipe_lab_hardlight", 10 ] ],
     "qualities": [ { "id": "SCREW_FINE", "level": 1 } ],
-    "tools": [ [ [ "sq_uranium_forge", -1 ] ], [ [ "sq_nanofab", 84 ] ] ],
+    "tools": [ [ [ "sq_rtg_forge", -1 ], [ "sq_uranium_forge", -1 ] ], [ [ "sq_nanoprint", 84 ], [ "sq_nanofab", 84 ] ] ],
     "using": [ [ "welding_standard", 20 ] ],
     "components": [
       [ [ "amplifier", 6 ] ],
@@ -763,7 +840,7 @@
     "autolearn": false,
     "book_learn": [ [ "sq_recipe_lab_hardlight", 10 ] ],
     "qualities": [ { "id": "SCREW_FINE", "level": 1 } ],
-    "tools": [ [ [ "sq_uranium_forge", -1 ] ], [ [ "sq_nanofab", 84 ] ] ],
+    "tools": [ [ [ "sq_rtg_forge", -1 ], [ "sq_uranium_forge", -1 ] ], [ [ "sq_nanoprint", 84 ], [ "sq_nanofab", 84 ] ] ],
     "using": [ [ "welding_standard", 20 ] ],
     "components": [
       [ [ "amplifier", 2 ] ],
@@ -937,7 +1014,7 @@
     "autolearn": false,
     "book_learn": [ [ "sq_recipe_lab_fusion", 10 ] ],
     "qualities": [ { "id": "SCREW_FINE", "level": 1 } ],
-    "tools": [ [ [ "sq_uranium_forge", -1 ] ], [ [ "sq_nanofab", 84 ] ] ],
+    "tools": [ [ [ "sq_rtg_forge", -1 ], [ "sq_uranium_forge", -1 ] ], [ [ "sq_nanoprint", 84 ], [ "sq_nanofab", 84 ] ] ],
     "using": [ [ "welding_standard", 20 ] ],
     "components": [
       [ [ "amplifier", 2 ] ],
@@ -1004,7 +1081,7 @@
     "autolearn": false,
     "book_learn": [ [ "sq_recipe_lab_fusion", 10 ] ],
     "qualities": [ { "id": "SCREW_FINE", "level": 1 } ],
-    "tools": [ [ [ "sq_uranium_forge", -1 ] ], [ [ "sq_nanofab", 84 ] ] ],
+    "tools": [ [ [ "sq_rtg_forge", -1 ], [ "sq_uranium_forge", -1 ] ], [ [ "sq_nanoprint", 84 ], [ "sq_nanofab", 84 ] ] ],
     "using": [ [ "welding_standard", 20 ] ],
     "components": [
       [ [ "amplifier", 2 ] ],
@@ -1072,7 +1149,7 @@
     "autolearn": false,
     "book_learn": [ [ "sq_recipe_lab_fusion", 10 ] ],
     "qualities": [ { "id": "SCREW_FINE", "level": 1 } ],
-    "tools": [ [ [ "sq_uranium_forge", -1 ] ], [ [ "sq_nanofab", 84 ] ] ],
+    "tools": [ [ [ "sq_rtg_forge", -1 ], [ "sq_uranium_forge", -1 ] ], [ [ "sq_nanoprint", 84 ], [ "sq_nanofab", 84 ] ] ],
     "using": [ [ "welding_standard", 20 ] ],
     "components": [
       [ [ "amplifier", 2 ] ],
@@ -1138,7 +1215,7 @@
     "autolearn": false,
     "book_learn": [ [ "sq_recipe_lab_fusion", 10 ] ],
     "qualities": [ { "id": "SCREW_FINE", "level": 1 } ],
-    "tools": [ [ [ "sq_uranium_forge", -1 ] ], [ [ "sq_nanofab", 84 ] ] ],
+    "tools": [ [ [ "sq_rtg_forge", -1 ], [ "sq_uranium_forge", -1 ] ], [ [ "sq_nanoprint", 84 ], [ "sq_nanofab", 84 ] ] ],
     "using": [ [ "welding_standard", 20 ] ],
     "components": [
       [ [ "amplifier", 4 ] ],
@@ -1205,7 +1282,7 @@
     "autolearn": false,
     "book_learn": [ [ "sq_recipe_lab_fusion", 10 ] ],
     "qualities": [ { "id": "SCREW_FINE", "level": 1 } ],
-    "tools": [ [ [ "sq_uranium_forge", -1 ] ], [ [ "sq_nanofab", 84 ] ] ],
+    "tools": [ [ [ "sq_rtg_forge", -1 ], [ "sq_uranium_forge", -1 ] ], [ [ "sq_nanoprint", 84 ], [ "sq_nanofab", 84 ] ] ],
     "using": [ [ "welding_standard", 20 ] ],
     "components": [
       [ [ "amplifier", 4 ] ],
@@ -1280,7 +1357,7 @@
     "autolearn": false,
     "book_learn": [ [ "sq_recipe_lab_fusion", 10 ] ],
     "qualities": [ { "id": "SCREW_FINE", "level": 1 } ],
-    "tools": [ [ [ "sq_uranium_forge", -1 ] ], [ [ "sq_nanofab", 84 ] ] ],
+    "tools": [ [ [ "sq_rtg_forge", -1 ], [ "sq_uranium_forge", -1 ] ], [ [ "sq_nanoprint", 84 ], [ "sq_nanofab", 84 ] ] ],
     "using": [ [ "welding_standard", 20 ] ],
     "components": [
       [ [ "amplifier", 2 ] ],
