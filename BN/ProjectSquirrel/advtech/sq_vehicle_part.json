@@ -217,7 +217,7 @@
     "color": "light_blue",
     "broken_symbol": "#",
     "broken_color": "blue",
-    "looks_like": "minifridge",
+    "looks_like": "minifreezer",
     "damage_modifier": 80,
     "durability": 100,
     "epower": -70,
@@ -243,6 +243,7 @@
     "type": "GENERIC",
     "id": "sq_supercharge_station",
     "name": { "str": "초고속 충전소" },
+	"looks_like": "recharge_station",
     "description": "차량 전력으로 작동하는 최첨단 충전소입니다. 작동 중에 내부 저장공간에 삽입된 모든 충전 가능한 배터리 (셀식 배터리, 납-산 배터리 등) 를 초고속 충전 기술로 배터리 충전소보다 훨씬 빨리 충전시킬 것입니다. 이 장치는 사전에 설치된 저장공간이 있어야 설치할 수 있으며, 대시보드나 전자기기 제어장치에서 끄고 켤 수 있습니다.",
     "weight": "13500 g",
     "to_hit": 1,
@@ -277,6 +278,7 @@
     "id": "sq_supercharge_station",
     "name": { "str": "초고속 충전소" },
     "symbol": "o",
+	"looks_like": "recharge_station",
     "color": "light_blue",
     "broken_symbol": "#",
     "broken_color": "blue",
@@ -306,6 +308,7 @@
     "name": { "str": "원자력 엔진" },
     "description": "방사능 붕괴를 통해 열을 생성하여 차량에 지속적이고 안정적인 전력을 얻는 원자력 엔진입니다. 첨단 설계 덕분에 한 차량에 여러 개를 설치해도 출력 낭비가 일어나지 않습니다.",
 	"color": "light_green",
+	"looks_like": "minireactor",
     "weight": "300 kg",
     "material": [ "superalloy" ],
     "volume": "25 L",
@@ -343,6 +346,7 @@
     "type": "vehicle_part",
     "name": { "str": "원자력 엔진" },
     "item": "sq_engine_atomic",
+	"looks_like": "minireactor",
     "description": "방사능 붕괴를 통해 열을 생성하여 차량에 지속적이고 안정적인 전력을 얻는 원자력 엔진입니다. 첨단 설계 덕분에 한 차량에 여러 개를 설치해도 출력 낭비가 일어나지 않습니다.",
     "durability": 200,
     "power": 193600,
@@ -376,6 +380,7 @@
     "broken_color": "light_blue",
     "breaks_into": [ { "item": "sq_hardlight_pistol", "prob": 50 } ],
     "extend": { "flags": [ "FOLDABLE" ] },
+    "folded_volume": "750 ml",
     "requirements": {
       "install": { "skills": [ [ "mechanics", 6 ], [ "electronics", 6 ] ] },
       "removal": { "skills": [ [ "mechanics", 4 ] ] }
@@ -392,6 +397,7 @@
     "broken_color": "light_blue",
     "breaks_into": [ { "item": "sq_hardlight_shotgun", "prob": 50 } ],
     "extend": { "flags": [ "FOLDABLE" ] },
+    "folded_volume": "3500 ml",
     "requirements": {
       "install": { "skills": [ [ "mechanics", 6 ], [ "electronics", 6 ] ] },
       "removal": { "skills": [ [ "mechanics", 4 ] ] }
@@ -408,6 +414,7 @@
     "broken_color": "light_blue",
     "breaks_into": [ { "item": "sq_hardlight_smg", "prob": 50 } ],
     "extend": { "flags": [ "FOLDABLE" ] },
+    "folded_volume": "1250 ml",
     "requirements": {
       "install": { "skills": [ [ "mechanics", 6 ], [ "electronics", 6 ] ] },
       "removal": { "skills": [ [ "mechanics", 4 ] ] }
@@ -424,6 +431,7 @@
     "broken_color": "light_blue",
     "breaks_into": [ { "item": "sq_hardlight_rifle", "prob": 50 } ],
     "extend": { "flags": [ "FOLDABLE" ] },
+    "folded_volume": "2250 ml",
     "requirements": {
       "install": { "skills": [ [ "mechanics", 6 ], [ "electronics", 6 ] ] },
       "removal": { "skills": [ [ "mechanics", 4 ] ] }
@@ -440,6 +448,7 @@
     "broken_color": "light_blue",
     "breaks_into": [ { "item": "sq_hardlight_sniper", "prob": 50 } ],
     "extend": { "flags": [ "FOLDABLE" ] },
+    "folded_volume": "2500 ml",
     "requirements": {
       "install": { "skills": [ [ "mechanics", 6 ], [ "electronics", 6 ] ] },
       "removal": { "skills": [ [ "mechanics", 4 ] ] }
@@ -456,6 +465,7 @@
     "broken_color": "cyan",
     "breaks_into": [ { "item": "sq_tesla_cannon", "prob": 50 } ],
     "extend": { "flags": [ "FOLDABLE" ] },
+    "folded_volume": "3000 ml",
     "requirements": {
       "install": { "skills": [ [ "mechanics", 6 ], [ "electronics", 6 ] ] },
       "removal": { "skills": [ [ "mechanics", 4 ] ] }
