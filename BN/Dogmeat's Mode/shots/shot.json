@@ -1,0 +1,90 @@
+[
+  {
+    "id": "bp_shot_bird",
+    "type": "AMMO",
+    "name": { "str": "birdshot, black powder" },
+    "copy-from": "bp_shot_bird",
+    "range": 0,
+    "shape": [ "cone", { "half_angle": 15, "length": 8 } ]
+  },
+  {
+    "id": "bp_shot_dragon",
+    "type": "AMMO",
+    "name": { "str": "dragon's breath shell, black powder" },
+    "copy-from": "bp_shot_dragon",
+    "range": 0,
+    "shape": [ "cone", { "half_angle": 15, "length": 8 } ]
+  },
+  {
+    "id": "bp_shot_00",
+    "type": "AMMO",
+    "name": { "str": "00 shot, black powder" },
+    "copy-from": "bp_shot_00",
+    "range": 0,
+    "shape": [ "cone", { "half_angle": 10, "length": 12 } ]
+  },
+  {
+    "id": "bp_shot_flechette",
+    "type": "AMMO",
+    "name": { "str": "flechette shell, black powder" },
+    "copy-from": "bp_shot_flechette",
+    "range": 0,
+    "shape": [ "cone", { "half_angle": 10, "length": 12 } ]
+  },
+  {
+    "id": "shot_00",
+    "type": "AMMO",
+    "name": { "str": "00 shot" },
+    "copy-from": "shot_00",
+    "range": 0,
+    "shape": [ "cone", { "half_angle": 10, "length": 12 } ]
+  },
+  {
+    "id": "shot_beanbag",
+    "type": "AMMO",
+    "name": { "str": "shotgun beanbag" },
+    "copy-from": "shot_beanbag",
+    "range": 0,
+    "shape": [ "cone", { "half_angle": 10, "length": 12 } ]
+  },
+  {
+    "id": "shot_bird",
+    "type": "AMMO",
+    "name": { "str": "birdshot" },
+    "copy-from": "shot_bird",
+    "range": 0,
+    "shape": [ "cone", { "half_angle": 15, "length": 8 } ]
+  },
+  {
+    "id": "shot_dragon",
+    "type": "AMMO",
+    "name": { "str": "dragon's breath shell" },
+    "copy-from": "shot_dragon",
+    "range": 0,
+    "shape": [ "cone", { "half_angle": 15, "length": 8 } ]
+  },
+  {
+    "id": "shot_flechette",
+    "type": "AMMO",
+    "name": { "str": "flechette shell" },
+    "copy-from": "shot_flechette",
+    "range": 0,
+    "shape": [ "cone", { "half_angle": 10, "length": 12 } ]
+  },
+  {
+    "id": "shot_scrap",
+    "type": "AMMO",
+    "name": { "str": "00 shot, scrap loaded" },
+    "copy-from": "shot_scrap",
+    "range": 0,
+    "shape": [ "cone", { "half_angle": 10, "length": 12 } ]
+  },
+  {
+    "id": "bp_shot_scrap",
+    "type": "AMMO",
+    "name": { "str": "00 shot, black powder, scrap loaded" },
+    "copy-from": "bp_shot_scrap",
+    "range": 0,
+    "shape": [ "cone", { "half_angle": 10, "length": 12 } ]
+  }
+]

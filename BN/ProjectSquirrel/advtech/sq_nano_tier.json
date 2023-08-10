@@ -1046,11 +1046,12 @@
     "category": "CC_첨단기술",
     "subcategory": "CSC_첨단기술_MODS",
     "skill_used": "mechanics",
-    "skills_required": [ "gun", 5 ],
+    "skills_required": [ "gun", 3 ],
     "difficulty": 8,
     "time": "1 h",
+	"autolearn": true,
     "book_learn": [ [ "recipe_lab_elec", 8 ] ],
-    "tools": [ [ [ "sq_nanofab", -1 ] ] ],
+    "tools": [ [ [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
     "components": [ [ [ "nanomaterial", 5 ] ] ]
   },
   {
@@ -1059,11 +1060,12 @@
     "category": "CC_첨단기술",
     "subcategory": "CSC_첨단기술_MODS",
     "skill_used": "mechanics",
-    "skills_required": [ "gun", 5 ],
+    "skills_required": [ "gun", 3 ],
     "difficulty": 8,
     "time": "1 h",
+	"autolearn": true,
     "book_learn": [ [ "recipe_lab_elec", 8 ] ],
-    "tools": [ [ [ "sq_nanofab", -1 ] ] ],
+    "tools": [ [ [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
     "components": [ [ [ "nanomaterial", 5 ] ] ]
   },
   {
@@ -1072,11 +1074,12 @@
     "category": "CC_첨단기술",
     "subcategory": "CSC_첨단기술_MODS",
     "skill_used": "mechanics",
-    "skills_required": [ "gun", 5 ],
+    "skills_required": [ "gun", 3 ],
     "difficulty": 8,
     "time": "1 h",
+	"autolearn": true,
     "book_learn": [ [ "recipe_lab_elec", 8 ] ],
-    "tools": [ [ [ "sq_nanofab", -1 ] ] ],
+    "tools": [ [ [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
     "components": [ [ [ "nanomaterial", 20 ] ] ]
   },
   {
@@ -1085,11 +1088,12 @@
     "category": "CC_첨단기술",
     "subcategory": "CSC_첨단기술_MODS",
     "skill_used": "mechanics",
-    "skills_required": [ "gun", 5 ],
+    "skills_required": [ "gun", 3 ],
     "difficulty": 8,
     "time": "1 h",
+	"autolearn": true,
     "book_learn": [ [ "recipe_lab_elec", 8 ] ],
-    "tools": [ [ [ "sq_nanofab", -1 ] ] ],
+    "tools": [ [ [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
     "components": [ [ [ "nanomaterial", 5 ] ] ]
   },
   {
@@ -1098,11 +1102,12 @@
     "category": "CC_첨단기술",
     "subcategory": "CSC_첨단기술_MODS",
     "skill_used": "mechanics",
-    "skills_required": [ "gun", 5 ],
+    "skills_required": [ "gun", 3 ],
     "difficulty": 8,
     "time": "1 h",
+	"autolearn": true,
     "book_learn": [ [ "recipe_lab_elec", 8 ] ],
-    "tools": [ [ [ "sq_nanofab", -1 ] ] ],
+    "tools": [ [ [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
     "components": [ [ [ "nanomaterial", 5 ] ] ]
   },
   {
@@ -1115,7 +1120,7 @@
     "difficulty": 8,
     "time": "1 h",
     "book_learn": [ [ "recipe_caseless", 8 ] ],
-    "tools": [ [ [ "sq_nanofab", -1 ] ] ],
+    "tools": [ [ [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
     "components": [ [ [ "nanomaterial", 15 ] ] ]
   },
   {
@@ -1128,7 +1133,7 @@
     "difficulty": 8,
     "time": "1 h",
     "book_learn": [ [ "recipe_caseless", 8 ] ],
-    "tools": [ [ [ "sq_nanofab", -1 ] ] ],
+    "tools": [ [ [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
     "components": [ [ [ "nanomaterial", 60 ] ] ]
   },
   {
@@ -1141,7 +1146,7 @@
     "difficulty": 8,
     "time": "1 h",
     "book_learn": [ [ "recipe_caseless", 8 ] ],
-    "tools": [ [ [ "sq_nanofab", -1 ] ] ],
+    "tools": [ [ [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
     "components": [ [ [ "nanomaterial", 60 ] ] ]
   },
   {

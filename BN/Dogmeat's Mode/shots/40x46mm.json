@@ -1,0 +1,34 @@
+[
+  {
+    "id": "40x46mm_m576",
+    "type": "AMMO",
+    "name": { "str": "40x46mm M576 buckshot" },
+    "copy-from": "40x46mm_m576",
+    "range": 0,
+    "shape": [ "cone", { "half_angle": 15, "length": 12 } ]
+  },
+  {
+    "id": "40x46mm_buckshot_m118",
+    "type": "AMMO",
+    "name": { "str": "improvised 40x46mm buckshot" },
+    "copy-from": "40x46mm_buckshot_m118",
+    "range": 0,
+    "shape": [ "cone", { "half_angle": 15, "length": 12 } ]
+  },
+  {
+    "id": "40x46mm_flechette_m118",
+    "type": "AMMO",
+    "name": { "str": "improvised 40x46mm flechette" },
+    "copy-from": "40x46mm_flechette_m118",
+    "range": 0,
+    "shape": [ "cone", { "half_angle": 15, "length": 12 } ]
+  },
+  {
+    "id": "40x46mm_flechette_m199",
+    "type": "AMMO",
+    "name": { "str": "improvised 40x46mm flechette" },
+    "copy-from": "40x46mm_flechette_m199",
+    "range": 0,
+    "shape": [ "cone", { "half_angle": 15, "length": 12 } ]
+  }
+]

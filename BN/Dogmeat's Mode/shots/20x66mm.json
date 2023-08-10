@@ -1,0 +1,50 @@
+[
+  {
+    "id": "20x66_beanbag",
+    "type": "AMMO",
+    "name": { "str": "20x66mm beanbag" },
+    "copy-from": "20x66_beanbag",
+    "range": 0,
+    "shape": [ "cone", { "half_angle": 15, "length": 12 } ]
+  },
+  {
+    "id": "20x66_bootleg_flechette",
+    "type": "AMMO",
+    "name": { "str": "20x66mm flechette, handmade", "str_pl": "20x66mm flechettes, handmade" },
+    "copy-from": "20x66_bootleg_flechette",
+    "range": 0,
+    "shape": [ "cone", { "half_angle": 15, "length": 12 } ]
+  },
+  {
+    "id": "20x66_bootleg_shot",
+    "type": "AMMO",
+    "name": { "str": "20x66mm buckshot, handmade" },
+    "copy-from": "20x66_bootleg_shot",
+    "range": 0,
+    "shape": [ "cone", { "half_angle": 15, "length": 12 } ]
+  },
+  {
+    "id": "20x66_flechette",
+    "type": "AMMO",
+    "name": { "str": "20x66mm flechette" },
+    "copy-from": "20x66_flechette",
+    "range": 0,
+    "shape": [ "cone", { "half_angle": 15, "length": 12 } ]
+  },
+  {
+    "id": "20x66_inc",
+    "type": "AMMO",
+    "name": { "str": "20x66mm incendiary", "str_pl": "20x66mm incendiaries" },
+    "copy-from": "20x66_inc",
+    "range": 0,
+    "shape": [ "cone", { "half_angle": 15, "length": 12 } ]
+  },
+  {
+    "id": "20x66_shot",
+    "type": "AMMO",
+    "name": { "str": "20x66mm buckshot" },
+    "copy-from": "20x66_shot",
+    "range": 0,
+    "shape": [ "cone", { "half_angle": 15, "length": 12 } ]
+  }
+]
