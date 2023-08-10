@@ -159,12 +159,7 @@
     "symbol": ";",
     "looks_like": "f_electron_microscope",
     "color": "light_gray",
-    "ammo": "battery",
-    "flags": [ "ALLOWS_REMOTE_USE" ],
-    "magazines": [
-      [ "battery", [ "heavy_battery_cell", "heavy_plus_battery_cell", "heavy_atomic_battery_cell", "heavy_disposable_cell" ] ]
-    ],
-    "magazine_well": "1000 ml"
+    "flags": [ "ALLOWS_REMOTE_USE" ]
   },
   {
     "result": "sq_nanocomp",
@@ -204,7 +199,7 @@
     "type": "TOOL",
     "category": "tools",
     "name": { "str": "동위원소 원심분리 용광로" },
-    "description": "원자력 용광로 겸 회전 원심분리기. 액체납으로 차폐한 이중관과 이중용기로 이루어진 전기먹는 하마입니다. 유해 폐기물 석관이나 유독성 물질 폐기장의 핵폐기물을 재활용하여 본격적인 핵연료의 이용과 추출이 가능해집니다. \n다음 업그레이드: 우라늄 증식 용광로\n",
+    "description": "원자력 용광로 겸 회전 원심분리기. 액체납으로 차폐한 이중관과 이중용기로 이루어진 전기먹는 하마입니다. 유해 폐기물 석관이나 유독성 물질 폐기장의 핵폐기물을 재활용하여 농축 우라늄 용기 및 우라늄 연료전지의 제작이 가능하며, 본격적인 핵연료의 이용과 추출이 가능해집니다. \n다음 업그레이드: 우라늄 증식 용광로\n",
     "weight": "23500 g",
     "volume": "8 L",
     "price": 4000000,
@@ -229,7 +224,7 @@
     "time": "5 h",
     "reversible": true,
     "autolearn": true,
-    "tools": [ [ [ "sq_nanocomp", 20 ], [ "sq_nanoprint", 20 ], [ "sq_nanofab", 20 ] ] ],
+    "tools": [ [ [ "sq_nanocomp", -1 ], [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
     "using": [ [ "welding_standard", 20 ] ],
     "qualities": [
       { "id": "GLARE", "level": 2 },
@@ -258,7 +253,7 @@
     "type": "TOOL",
     "category": "tools",
     "name": { "str": "물질 합성기: 나노 정밀 재봉틀" },
-    "description": "기판에 회로를 새기는데 쓰는, 나노 단위의 공정이 가능한 휴대용 소형 3D 프린터입니다. 나노물질을 실처럼 가늘게 뽑아 일종의 ''재봉틀''처럼 사용이 가능하기도 합니다.  게다가 기기에 데이터를 입력하여 각종 초정밀 부품의 출력이 가능하다는 점으로 미루어 보아 어쩌면 CBM까지 만들어 낼 수 있을 것 같네요. 이전 단계의 모든 것들 또한 제작 가능합니다.",
+    "description": "기판에 회로를 새기는데 쓰는, 나노 단위의 공정이 가능한 휴대용 소형 3D 프린터입니다. 나노물질을 실처럼 가늘게 뽑아 일종의 ''재봉틀''처럼 사용이 가능하기도 하여 직물 뿐만 아니라 겹층 탄화물까지 모두 수리가 가능합니다.  게다가 기기에 데이터를 입력하여 각종 초정밀 부품의 출력이 가능하다는 점으로 미루어 보아 어쩌면 CBM까지 만들어 낼 수 있을 것 같네요. 이전 단계의 모든 것들 또한 제작 가능합니다.",
     "weight": "3300 g",
     "volume": "1200 ml",
     "price": 400000,
@@ -269,12 +264,45 @@
     "symbol": ";",
     "looks_like": "f_NMR",
     "color": "light_gray",
-    "ammo": "battery",
-    "flags": [ "ALLOWS_REMOTE_USE" ],
-    "magazines": [
-      [ "battery", [ "heavy_battery_cell", "heavy_plus_battery_cell", "heavy_atomic_battery_cell", "heavy_disposable_cell" ] ]
+    "ammo": "thread",
+    "sub": "sewing_kit",
+    "initial_charges": 0,
+    "max_charges": 2000,
+    "charges_per_use": 1,
+    "qualities": [ [ "SEW", 5 ], [ "SEW_CURVED", 1 ], [ "KNIT", 1 ], [ "LEATHER_AWL", 2 ], [ "CUT", 1 ] ],
+    "use_action": [
+      {
+        "type": "repair_item",
+        "item_action_type": "repair_fabric",
+        "materials": [ "cotton", "leather", "nylon", "wool", "fur", "faux_fur", "nomex", "kevlar", "neoprene", "gutskin", "graphene_sheet", "carbide" ],
+        "skill": "tailor",
+        "tool_quality": 2,
+        "cost_scaling": 0.1,
+        "move_cost": 800
+      },
+      {
+        "type": "sew_advanced",
+        "materials": [
+          "cotton",
+          "leather",
+          "nylon",
+          "wool",
+          "fur",
+          "faux_fur",
+          "nomex",
+          "kevlar",
+          "neoprene",
+          "gutskin",
+          "plastic",
+          "kevlar_rigid",
+		  "graphene_sheet",
+          "carbide"
+        ],
+        "skill": "tailor",
+        "clothing_mods": [ "leather_padded", "steel_padded", "alloy_padded", "kevlar_padded", "nomex_padded", "furred", "wooled", "lightened", "pockets", "graphene_padded" ]
+      }
     ],
-    "magazine_well": "1000 ml"
+    "flags": [ "ALLOWS_REMOTE_USE" ]
   },
   {
     "result": "sq_nanoprint",
@@ -360,7 +388,7 @@
     "reversible": true,
     "autolearn": false,
     "book_learn": [ [ "recipe_lab_elec", 6 ], [ "recipe_lab_cvd", 8 ] ],
-    "tools": [ [ [ "sq_atomic_forge", -1 ], [ "sq_rtg_forge", -1 ], [ "sq_uranium_forge", -1 ] ], [ [ "sq_nanoprint", 100 ], [ "sq_nanofab", 100 ] ] ],
+    "tools": [ [ [ "sq_atomic_forge", -1 ], [ "sq_rtg_forge", -1 ], [ "sq_uranium_forge", -1 ] ], [ [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
     "using": [ [ "welding_standard", 20 ] ],
     "qualities": [
       { "id": "HAMMER", "level": 2 },
@@ -474,14 +502,53 @@
   {
     "id": "sq_nanofab",
     "copy-from": "sq_nanoprint",
-    "type": "GENERIC",
+    "type": "TOOL",
     "category": "tools",
     "name": { "str": "물질 합성기: 나노 프린터" },
     "description": "나노 제작기의 소형 카피판. 템플릿 대신 설계를 직접 입력하거나 LCD패널 밑의 작은 구멍에 투입하고 결과물을 출력할 수 있습니다. 이 소형 공장 안에는 3D 프린터 여러 개와 로봇식 조립기가 있어 거의 모든 비유기체 물체를 제조할 수 있습니다. 물론 이전 단계의 모든 것들 또한 제작 가능합니다.",
     "weight": "5000 g",
     "volume": "5500 ml",
     "price": 5000000,
-    "price_postapoc": 10000
+    "price_postapoc": 10000,
+    "initial_charges": 0,
+    "max_charges": 2000,
+    "charges_per_use": 1,
+	"ammo": "thread",
+    "sub": "sewing_kit",
+    "qualities": [ [ "SEW", 5 ], [ "SEW_CURVED", 1 ], [ "KNIT", 1 ], [ "LEATHER_AWL", 2 ], [ "CUT", 1 ] ],
+    "use_action": [
+      {
+        "type": "repair_item",
+        "item_action_type": "repair_fabric",
+        "materials": [ "cotton", "leather", "nylon", "wool", "fur", "faux_fur", "nomex", "kevlar", "neoprene", "gutskin", "graphene_sheet", "carbide" ],
+        "skill": "tailor",
+        "tool_quality": 3,
+        "cost_scaling": 0.1,
+        "move_cost": 800
+      },
+      {
+        "type": "sew_advanced",
+        "materials": [
+          "cotton",
+          "leather",
+          "nylon",
+          "wool",
+          "fur",
+          "faux_fur",
+          "nomex",
+          "kevlar",
+          "neoprene",
+          "gutskin",
+          "plastic",
+          "kevlar_rigid",
+		  "graphene_sheet",
+		  "carbide"
+        ],
+        "skill": "tailor",
+        "clothing_mods": [ "leather_padded", "steel_padded", "alloy_padded", "kevlar_padded", "nomex_padded", "furred", "wooled", "lightened", "pockets", "graphene_padded" ]
+      }
+    ],
+    "flags": [ "ALLOWS_REMOTE_USE" ]
   },
   {
     "result": "sq_nanofab",

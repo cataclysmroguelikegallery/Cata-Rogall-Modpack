@@ -1,5 +1,18 @@
 [
   {
+    "type": "item_group",
+    "id": "sq_unrand_all",
+    "subtype": "distribution",
+    "items": [
+	  [ "a_spear_knife", 2 ],
+	  [ "a_broadsword", 2 ],
+	  [ "a_zweihander", 2 ],
+	  [ "a_bwirebat", 2 ],
+	  [ "a_nodachi", 2 ],
+	  [ "a_katana", 2 ]
+    ]
+  },
+  {
     "id": "sq_weapons_rare",
     "type": "item_group",
     "items": [

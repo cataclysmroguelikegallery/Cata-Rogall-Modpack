@@ -282,7 +282,7 @@
     "time": "240 m",
 	"reversible": false,
 	"autolearn": true,
-    "qualities": [ { "id": "GLARE", "level": 2 }, { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 2 }, { "id": "SCREW", "level": 1 }, { "id": "WRENCH", "level": 2 }, { "id": "CHISEL", "level": 3 }, { "id": "DRILL", "level": 3 }, { "id": "GRIND", "level": 2 } ],
+    "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 2 }, { "id": "SCREW", "level": 1 }, { "id": "DRILL", "level": 3 }, { "id": "GRIND", "level": 2 } ],
     "using": [ [ "welding_standard", 30 ] ],
 	"components": [ [ [ "sq_dimension_pack", 1 ] ], [ [ "power_armor_frame", 1 ] ], [ [ "wire", 12 ] ] ]
   },

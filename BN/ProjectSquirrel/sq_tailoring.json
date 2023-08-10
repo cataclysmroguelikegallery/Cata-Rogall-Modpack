@@ -204,7 +204,7 @@
       {
         "type": "repair_item",
         "item_action_type": "repair_fabric",
-        "materials": [ "cotton", "leather", "lycra", "nylon", "wool", "fur", "faux_fur", "nomex", "kevlar", "neoprene", "gutskin" ],
+        "materials": [ "cotton", "leather", "lycra", "nylon", "wool", "fur", "faux_fur", "nomex", "kevlar", "neoprene", "gutskin", "graphene_sheet" ],
         "skill": "tailor",
         "tool_quality": 1,
         "cost_scaling": 0.1,
@@ -225,7 +225,8 @@
           "neoprene",
           "gutskin",
           "plastic",
-          "kevlar_rigid"
+          "kevlar_rigid",
+		  "graphene_sheet"
         ],
         "skill": "tailor",
         "clothing_mods": [ "leather_padded", "steel_padded", "alloy_padded", "kevlar_padded", "nomex_padded", "furred", "wooled", "lightened", "pockets" ]
