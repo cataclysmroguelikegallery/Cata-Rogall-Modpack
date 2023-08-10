@@ -291,10 +291,7 @@
       [ [ "plut_cell", 4 ] ],
       [ [ "cable", 30 ] ],
       [ [ "amplifier", 2 ] ],
-      [ [ "teleporter", 1 ] ],
       [ [ "portal", 1 ] ],
-      [ [ "ceramic_shard", 1 ] ],
-      [ [ "oxy_powder", 100 ] ],
       [ [ "platinum_small", 1 ] ]
     ]
   },
@@ -330,11 +327,9 @@
     "components": [
       [ [ "nanomaterial", 100 ] ],
       [ [ "sq_depleted_uranium", 40 ] ],
-      [ [ "sq_uranium_cell", 4 ] ],
+      [ [ "sq_uranium_cell", 3 ] ],
       [ [ "amplifier", 2 ] ],
-      [ [ "teleporter", 1 ] ],
       [ [ "portal", 1 ] ],
-      [ [ "oxy_powder", 100 ] ],
       [ [ "platinum_small", 1 ] ]
     ]
   },
@@ -585,13 +580,11 @@
     "components": [
       [ [ "amplifier", 2 ] ],
       [ [ "power_supply", 2 ] ],
-      [ [ "cable", 100 ] ],
       [ [ "sq_hardlight_matrix", 1 ] ],
       [ [ "nanomaterial", 50 ] ],
       [ [ "plut_cell", 2 ] ],
       [ [ "e_scrap", 10 ] ],
       [ [ "lens", 2 ] ],
-      [ [ "plastic_chunk", 3 ] ],
       [ [ "alloy_sheet", 3 ] ]
     ]
   },
@@ -633,15 +626,12 @@
     "components": [
       [ [ "amplifier", 4 ] ],
       [ [ "power_supply", 2 ] ],
-      [ [ "cable", 100 ] ],
       [ [ "sq_hardlight_matrix", 1 ] ],
       [ [ "beam_scatterer", 1 ] ],
       [ [ "nanomaterial", 50 ] ],
       [ [ "plut_cell", 5 ] ],
       [ [ "e_scrap", 10 ] ],
       [ [ "lens", 2 ] ],
-      [ [ "pipe", 1 ] ],
-      [ [ "plastic_chunk", 6 ] ],
       [ [ "alloy_sheet", 6 ] ]
     ]
   },
@@ -683,15 +673,12 @@
     "components": [
       [ [ "amplifier", 3 ] ],
       [ [ "power_supply", 2 ] ],
-      [ [ "cable", 70 ] ],
       [ [ "sq_hardlight_matrix", 1 ] ],
       [ [ "focusing_lens", 1 ] ],
       [ [ "nanomaterial", 50 ] ],
       [ [ "plut_cell", 4 ] ],
       [ [ "e_scrap", 7 ] ],
       [ [ "lens", 2 ] ],
-      [ [ "pipe", 1 ] ],
-      [ [ "plastic_chunk", 4 ] ],
       [ [ "alloy_sheet", 4 ] ]
     ]
   },
@@ -733,15 +720,12 @@
     "components": [
       [ [ "amplifier", 4 ] ],
       [ [ "power_supply", 2 ] ],
-      [ [ "cable", 100 ] ],
       [ [ "sq_hardlight_matrix", 1 ] ],
       [ [ "focusing_lens", 1 ] ],
       [ [ "nanomaterial", 50 ] ],
       [ [ "plut_cell", 4 ] ],
       [ [ "e_scrap", 10 ] ],
       [ [ "lens", 2 ] ],
-      [ [ "pipe", 1 ] ],
-      [ [ "plastic_chunk", 6 ] ],
       [ [ "alloy_sheet", 6 ] ]
     ]
   },
@@ -785,7 +769,6 @@
     "components": [
       [ [ "amplifier", 6 ] ],
       [ [ "power_supply", 2 ] ],
-      [ [ "cable", 100 ] ],
       [ [ "sq_hardlight_matrix", 1 ] ],
       [ [ "focusing_lens", 2 ] ],
       [ [ "high_density_capacitor", 1 ] ],
@@ -793,8 +776,6 @@
       [ [ "plut_cell", 6 ] ],
       [ [ "e_scrap", 12 ] ],
       [ [ "lens", 2 ] ],
-      [ [ "pipe", 1 ] ],
-      [ [ "plastic_chunk", 8 ] ],
       [ [ "alloy_sheet", 8 ] ]
     ]
   },
@@ -845,16 +826,14 @@
     "components": [
       [ [ "amplifier", 2 ] ],
       [ [ "power_supply", 2 ] ],
-      [ [ "cable", 70 ] ],
       [ [ "sq_hardlight_matrix", 1 ] ],
       [ [ "focusing_lens", 1 ] ],
       [ [ "nanomaterial", 50 ] ],
       [ [ "plut_cell", 4 ] ],
       [ [ "e_scrap", 4 ] ],
       [ [ "lens", 2 ] ],
-      [ [ "pipe", 2 ] ],
-      [ [ "plastic_chunk", 12 ] ],
-      [ [ "alloy_sheet", 12 ] ]
+      [ [ "sq_monofilament", 600 ], [ "sq_monowire", 2 ] ],
+      [ [ "alloy_sheet", 6 ] ]
     ]
   },
   {
@@ -957,7 +936,6 @@
       [ [ "plut_cell", 6 ] ],
       [ [ "diamond", 1 ] ],
       [ [ "pipe", 3 ] ],
-      [ [ "copper", 100 ], [ "scrap_copper", 1 ] ],
       [ [ "steel_lump", 4 ], [ "steel_chunk", 16 ], [ "scrap", 48 ] ],
       [ [ "plastic_chunk", 8 ] ]
     ]
@@ -983,12 +961,12 @@
     "skill": "pistol",
     "range": 0,
     "ranged_damage": { "damage_type": "bash", "amount": 15, "armor_penetration": 20 },
-    "modes": [ [ "DEFAULT", "단발", 1 ], [ "BURST", "패닝", 6 ] ],
+    "modes": [ [ "DEFAULT", "단발", 1 ], [ "BURST", "패닝", 8 ] ],
     "dispersion": 55,
     "durability": 8,
     "recoil": 1200,
     "min_cycle_recoil": 3100,
-    "clip_size": 6,
+    "clip_size": 8,
     "reload": 60,
     "ups_charges": 25,
     "valid_mod_locations": [
@@ -1019,12 +997,10 @@
     "components": [
       [ [ "amplifier", 2 ] ],
       [ [ "power_supply", 2 ] ],
-      [ [ "cable", 100 ] ],
       [ [ "sq_fusion_core", 1 ] ],
       [ [ "nanomaterial", 50 ] ],
-      [ [ "sq_uranium_cell", 2 ] ],
+      [ [ "sq_uranium_cell", 1 ] ],
       [ [ "e_scrap", 10 ] ],
-      [ [ "high_density_capacitor", 1 ] ],
       [ [ "sq_depleted_uranium", 30 ] ],
       [ [ "alloy_sheet", 3 ] ]
     ]
@@ -1086,13 +1062,11 @@
     "components": [
       [ [ "amplifier", 2 ] ],
       [ [ "power_supply", 2 ] ],
-      [ [ "cable", 100 ] ],
       [ [ "sq_fusion_core", 1 ] ],
       [ [ "nanomaterial", 50 ] ],
-      [ [ "condensor_coil", 2 ] ],
-      [ [ "sq_uranium_cell", 2 ] ],
+      [ [ "sq_uranium_cell", 1 ] ],
       [ [ "e_scrap", 10 ] ],
-      [ [ "high_density_capacitor", 2 ] ],
+      [ [ "high_density_capacitor", 1 ] ],
       [ [ "sq_depleted_uranium", 60 ] ],
       [ [ "alloy_sheet", 6 ] ]
     ]
@@ -1154,12 +1128,11 @@
     "components": [
       [ [ "amplifier", 2 ] ],
       [ [ "power_supply", 2 ] ],
-      [ [ "cable", 100 ] ],
       [ [ "sq_fusion_core", 1 ] ],
       [ [ "nanomaterial", 50 ] ],
-      [ [ "sq_uranium_cell", 2 ] ],
+      [ [ "sq_uranium_cell", 1 ] ],
       [ [ "e_scrap", 10 ] ],
-      [ [ "high_density_capacitor", 2 ] ],
+      [ [ "high_density_capacitor", 1 ] ],
       [ [ "sq_depleted_uranium", 60 ] ],
       [ [ "alloy_sheet", 6 ] ]
     ]
@@ -1220,10 +1193,9 @@
     "components": [
       [ [ "amplifier", 4 ] ],
       [ [ "power_supply", 4 ] ],
-      [ [ "cable", 200 ] ],
       [ [ "sq_fusion_core", 1 ] ],
       [ [ "nanomaterial", 100 ] ],
-      [ [ "sq_uranium_cell", 3 ] ],
+      [ [ "sq_uranium_cell", 2 ] ],
       [ [ "e_scrap", 15 ] ],
       [ [ "high_density_capacitor", 1 ] ],
       [ [ "sq_depleted_uranium", 90 ] ],
@@ -1287,12 +1259,11 @@
     "components": [
       [ [ "amplifier", 4 ] ],
       [ [ "power_supply", 6 ] ],
-      [ [ "cable", 300 ] ],
       [ [ "sq_fusion_core", 2 ] ],
       [ [ "nanomaterial", 250 ] ],
-      [ [ "sq_uranium_cell", 4 ] ],
+      [ [ "sq_uranium_cell", 3 ] ],
       [ [ "e_scrap", 20 ] ],
-      [ [ "high_density_capacitor", 3 ] ],
+      [ [ "high_density_capacitor", 2 ] ],
       [ [ "sq_depleted_uranium", 180 ] ],
       [ [ "alloy_sheet", 12 ] ]
     ]
@@ -1362,14 +1333,13 @@
     "components": [
       [ [ "amplifier", 2 ] ],
       [ [ "power_supply", 2 ] ],
-      [ [ "cable", 100 ] ],
       [ [ "sq_fusion_core", 1 ] ],
       [ [ "nanomaterial", 100 ] ],
-      [ [ "sq_uranium_cell", 2 ] ],
+      [ [ "sq_uranium_cell", 1 ] ],
       [ [ "e_scrap", 4 ] ],
       [ [ "high_density_capacitor", 1 ] ],
-      [ [ "sq_depleted_uranium", 400 ] ],
-      [ [ "alloy_sheet", 24 ] ]
+      [ [ "sq_depleted_uranium", 300 ] ],
+      [ [ "alloy_sheet", 16 ] ]
     ]
   }
 ]
