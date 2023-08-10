@@ -349,8 +349,9 @@
 	"looks_like": "minireactor",
     "description": "방사능 붕괴를 통해 열을 생성하여 차량에 지속적이고 안정적인 전력을 얻는 원자력 엔진입니다. 첨단 설계 덕분에 한 차량에 여러 개를 설치해도 출력 낭비가 일어나지 않습니다.",
     "durability": 200,
+    "epower": 12500,
     "power": 193600,
-    "energy_consumption": -12500,
+    "energy_consumption": 0,
     "damage_modifier": 80,
     "requirements": {
       "install": { "skills": [ [ "mechanics", 6 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
