@@ -268,7 +268,7 @@
     "decomp_learn": 7,
 	"autolearn": true,
     "book_learn": [ [ "textbook_mechanics", 7 ], [ "textbook_electronics", 6 ], [ "advanced_electronics", 6 ], [ "textbook_robots", 5 ] ],
-    "tools": [ [ [ "sq_atomic_forge", -1 ], [ "sq_rtg_forge", -1 ], [ "sq_uranium_forge", -1 ] ] ],
+    "tools": [ [ [ "sq_atomic_forge", -1 ] ] ],
     "using": [ [ "soldering_standard", 50 ] ],
     "qualities": [ { "id": "SCREW", "level": 1 } ],
     "components": [ [ [ "recharge_station", 1 ] ], [ [ "power_supply", 2 ] ], [ [ "processor", 2 ] ], [ [ "scrap", 5 ] ], [ [ "cable", 8 ] ] ]
@@ -500,7 +500,7 @@
     "batch_time_factors": [ 50, 5 ],
     "book_learn": [ [ "recipe_lab_cvd", 7 ] ],
     "autolearn": false,
-    "tools": [ [ [ "sq_atomic_forge", -1 ], [ "sq_rtg_forge", -1 ], [ "sq_uranium_forge", -1 ] ] ],
+    "tools": [ [ [ "sq_atomic_forge", -1 ] ] ],
     "components": [ [ [ "carbide_plate", 12 ] ] ]
   },
   {

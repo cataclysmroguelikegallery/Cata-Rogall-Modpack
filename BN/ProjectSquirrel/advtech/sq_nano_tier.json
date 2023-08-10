@@ -332,6 +332,18 @@
     }
   },
   {
+    "type": "effect_type",
+    "id": "sq_nanobandages_effect",
+    "name": [ "나노붕대 치유" ],
+    "desc": [ "나노포장 붕대를 적용했습니다. 상처가 빠른 속도로 치유됩니다." ],
+    "apply_message": "상처가 빠른 속도로 아뭅니다. 조금 아프네요.",
+    "rating": "good",
+	"main_parts_only": true,
+    "base_mods": { "hurt_amount": [ -20 ] },
+    "show_in_info": true,
+    "blood_analysis_description": "나노 치유"
+  },
+  {
     "result": "sq_nanobandages",
     "type": "recipe",
     "category": "CC_첨단기술",
@@ -347,16 +359,6 @@
       [ [ "duct_tape", 20 ], [ "medical_tape", 5 ] ],
       [ [ "disinfectant", 5 ], [ "thyme_oil", 1 ], [ "chem_ethanol", 250 ], [ "denat_alcohol", 250 ] ]
     ]
-  },
-  {
-    "type": "effect_type",
-    "id": "sq_nanobandages_effect",
-    "name": [ "나노붕대 치유" ],
-    "desc": [ "나노포장 붕대를 적용했습니다. 상처가 빠른 속도로 치유됩니다." ],
-    "apply_message": "상처가 빠른 속도로 아뭅니다. 조금 아프네요.",
-    "rating": "good",
-    "base_mods": { "hurt_amount": [ -20 ] },
-    "blood_analysis_description": "나노 치유"
   },
   {
     "type": "mutation",
@@ -482,7 +484,7 @@
     "time": "4 h",
     "book_learn": [ [ "textbook_weapwest", 10 ], [ "scots_cookbook", 10 ] ],
     "tools": [
-      [ [ "sq_atomic_forge", -1 ], [ "sq_rtg_forge", -1 ], [ "sq_uranium_forge", -1 ] ],
+      [ [ "sq_atomic_forge", -1 ] ],
       [ [ "sq_nanocomp", -1 ], [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ]
     ],
     "components": [ [ [ "nanomaterial", 40 ] ], [ [ "alloy_sheet", 15 ] ] ]

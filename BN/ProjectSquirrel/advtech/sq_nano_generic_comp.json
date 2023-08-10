@@ -114,7 +114,7 @@
     "batch_time_factors": [ 50, 5 ],
     "book_learn": [ [ "recipe_lab_cvd", 8 ], [ "textbook_chemistry", 6 ], [ "adv_chemistry", 6 ], [ "recipe_labchem", 7 ] ],
     "autolearn": false,
-    "tools": [ [ [ "sq_atomic_forge", -1 ], [ "sq_rtg_forge", -1 ], [ "sq_uranium_forge", -1 ] ] ],
+    "tools": [ [ [ "sq_atomic_forge", -1 ] ] ],
     "components": [ [ [ "ash", 200 ], [ "charcoal", 10 ] ] ]
   },
   {
@@ -146,7 +146,7 @@
     "book_learn": [ [ "recipe_lab_cvd", 7 ] ],
     "autolearn": false,
 	"charges": 2,
-    "tools": [ [ [ "sq_atomic_forge", -1 ], [ "sq_rtg_forge", -1 ], [ "sq_uranium_forge", -1 ] ] ],
+    "tools": [ [ [ "sq_atomic_forge", -1 ] ] ],
     "components": [ [ [ "resin_chunk", 1 ] ], [ [ "graphene", 30 ] ] ]
   },
   {
@@ -163,7 +163,7 @@
     "book_learn": [ [ "recipe_lab_cvd", 7 ] ],
     "autolearn": false,
 	"charges": 10,
-    "tools": [ [ [ "sq_atomic_forge", -1 ], [ "sq_rtg_forge", -1 ], [ "sq_uranium_forge", -1 ] ] ],
+    "tools": [ [ [ "sq_atomic_forge", -1 ] ] ],
     "components": [ [ [ "alien_pod_resin", 1 ] ], [ [ "graphene", 3 ] ] ]
   },
   {
@@ -233,7 +233,7 @@
     "book_learn": [ [ "recipe_labchem", 8 ], [ "textbook_atomic_lab", 7 ] ],
     "autolearn": true,
     "tools": [
-      [ [ "sq_atomic_forge", -1 ], [ "sq_rtg_forge", -1 ], [ "sq_uranium_forge", -1 ] ],
+      [ [ "sq_atomic_forge", -1 ] ],
       [ [ "sq_nanocomp", -1 ], [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ]
     ],
     "components": [ [ [ "nanomaterial", 5 ] ], [ [ "graphene", 2 ] ], [ [ "steel_lump", 1 ] ] ]
@@ -292,7 +292,7 @@
     "book_learn": [ [ "recipe_labchem", 8 ], [ "recipe_atomic_battery", 7 ] ],
     "autolearn": true,
     "tools": [
-      [ [ "sq_rtg_forge", -1 ], [ "sq_uranium_forge", -1 ] ],
+      [  [ "sq_atomic_forge", -1 ] ],
       [ [ "sq_nanocomp", -1 ], [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ]
     ],
     "qualities": [ { "id": "FINE_DISTILL", "level": 1 }, { "id": "CONCENTRATE", "level": 1 }, { "id": "SEPARATE", "level": 1 } ],
@@ -311,7 +311,7 @@
     "time": "60 m",
     "book_learn": [ [ "recipe_labchem", 8 ], [ "recipe_atomic_battery", 7 ] ],
     "autolearn": true,
-    "tools": [ [ [ "sq_uranium_forge", -1 ] ], [ [ "sq_nanocomp", -1 ], [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
+    "tools": [ [ [ "sq_atomic_forge", -1 ] ], [ [ "sq_nanocomp", -1 ], [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
     "qualities": [ { "id": "FINE_DISTILL", "level": 1 }, { "id": "CONCENTRATE", "level": 1 }, { "id": "SEPARATE", "level": 1 } ],
     "components": [ [ [ "sq_uranium_condensed", 1 ] ] ]
   },
@@ -380,7 +380,7 @@
     "time": 30000,
     "book_learn": [ [ "recipe_atomic_battery", 7 ] ],
     "autolearn": true,
-    "tools": [ [ [ "sq_rtg_forge", -1 ], [ "sq_uranium_forge", -1 ] ] ],
+    "tools": [ [  [ "sq_atomic_forge", -1 ] ] ],
     "qualities": [ { "id": "SCREW", "level": 1 }, { "id": "WRENCH", "level": 1 } ],
     "components": [
       [ [ "canister_empty", 1 ] ],
@@ -400,7 +400,7 @@
     "time": 30000,
     "book_learn": [ [ "recipe_atomic_battery", 5 ] ],
     "autolearn": true,
-    "tools": [ [ [ "sq_rtg_forge", -1 ], [ "sq_uranium_forge", -1 ] ] ],
+    "tools": [ [  [ "sq_atomic_forge", -1 ] ] ],
     "qualities": [ { "id": "SCREW", "level": 1 }, { "id": "WRENCH", "level": 1 } ],
     "components": [
       [ [ "canister_empty", 1 ] ],
@@ -422,7 +422,7 @@
     "time": 30000,
     "book_learn": [ [ "recipe_atomic_battery", 5 ] ],
     "autolearn": true,
-    "tools": [ [ [ "sq_rtg_forge", -1 ], [ "sq_uranium_forge", -1 ] ] ],
+    "tools": [ [  [ "sq_atomic_forge", -1 ] ] ],
     "qualities": [ { "id": "SCREW", "level": 1 }, { "id": "WRENCH", "level": 1 } ],
     "components": [
       [ [ "sq_uranium_cell", 1 ] ],
