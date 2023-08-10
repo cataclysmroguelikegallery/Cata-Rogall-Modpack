@@ -29,11 +29,11 @@
       {
         "id": "buff_taekwondo_onmove",
         "name": "Charging Dash",
-        "description": "With a short dash, you can add your body weight on your kigks. Additional bash damage from dex.",
+        "description": "With a short dash, you can add your body weight on your kigks. Powerful kicks penetrate enemy's defenses.",
         "skill_requirements": [ { "name": "unarmed", "level": 2 } ],
         "unarmed_allowed": true,
-	    "flat_bonuses": [ { "stat": "damage", "type": "bash", "scale": 2.0 },
-						  { "stat": "damage", "type": "bash", "scaling-stat": "dex", "scale": 0.1 } ],
+	    "flat_bonuses": [ { "stat": "damage", "type": "bash", "scale": 1.0 },
+						  { "stat": "arpen", "type": "bash", "scaling-stat": "dex", "scale": 1.0 } ],
         "buff_duration": 1
       }
     ],
@@ -84,7 +84,7 @@
     "crit_tec": true,
     "stun_dur": 1,
     "knockback_dist": 2,
-    "mult_bonuses": [ { "stat": "movecost", "scale": 1.2 }, { "stat": "damage", "type": "bash", "scale": 1.5 } ]
+    "mult_bonuses": [ { "stat": "movecost", "scale": 1.3 }, { "stat": "damage", "type": "bash", "scale": 1.5 } ]
   },
   {
     "type": "technique",
@@ -133,9 +133,9 @@
     "skill_requirements": [ { "name": "unarmed", "level": 5 } ],
     "unarmed_allowed": true,
 	"crit_tec": true,
-    "knockback_dist": 3,
+    "knockback_dist": 2,
     "stun_dur": 2,
-    "mult_bonuses": [ { "stat": "movecost", "scale": 1.2 }, { "stat": "damage", "type": "bash", "scale": 1.8 } ]
+    "mult_bonuses": [ { "stat": "movecost", "scale": 1.3 }, { "stat": "damage", "type": "bash", "scale": 1.8 } ]
   },
   {
     "type": "technique",
@@ -148,8 +148,7 @@
     "skill_requirements": [ { "name": "unarmed", "level": 3 } ],
     "unarmed_allowed": true,
     "downed_target": true,
-    "crit_ok": true,
 	"stun_dur": 2,
-    "mult_bonuses": [ { "stat": "movecost", "scale": 1.3 }, { "stat": "damage", "type": "bash", "scale": 1.5 } ]
+    "mult_bonuses": [ { "stat": "movecost", "scale": 1.4 }, { "stat": "damage", "type": "bash", "scale": 1.5 } ]
   }
 ]

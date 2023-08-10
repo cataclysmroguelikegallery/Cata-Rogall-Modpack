@@ -1,0 +1,18 @@
+[
+  {
+    "id": "40x53mm_m1001",
+    "type": "AMMO",
+    "name": { "str": "40x53mm M1001 flechette" },
+    "copy-from": "40x53mm_m1001",
+    "range": 0,
+    "shape": [ "cone", { "half_angle": 15, "length": 10 } ]
+  },
+  {
+    "id": "40x53mm_buckshot_m169",
+    "type": "AMMO",
+    "name": { "str": "improvised 40x53mm buckshot" },
+    "copy-from": "40x53mm_buckshot_m169",
+    "range": 0,
+    "shape": [ "cone", { "half_angle": 15, "length": 10 } ]
+  }
+]

@@ -24,19 +24,7 @@
     "id": "fireman_belt",
     "type": "ARMOR",
     "name": { "str": "firefighter belt" },
-    "description": "A stout firefighter's belt.  Useful for keeping your bunker gear up, it also doubles as an equipment belt with a reinforced loop for holding a large tool.",
-    "weight": "210 g",
-    "volume": "500 ml",
-    "price": 9000,
-    "price_postapoc": 750,
-    "bashing": 5,
-    "material": [ "leather", "steel" ],
-    "symbol": "[",
-    "looks_like": "holster",
-    "color": "yellow",
-    "covers": [ "torso" ],
-    "encumbrance": 4,
-    "storage": "1 L",
+    "copy-from": "fireman_belt",
     "use_action": {
       "type": "holster",
       "holster_prompt": "Attach what to belt loop?",
@@ -46,25 +34,13 @@
       "max_weight": 3600,
       "draw_cost": 50,
       "flags": [ "BELT_CLIP" ]
-    },
-    "flags": [ "FANCY", "WAIST", "NO_QUICKDRAW", "WATER_FRIENDLY" ]
+    }
   },
   {
     "id": "leather_belt",
     "type": "ARMOR",
     "name": { "str": "leather belt" },
-    "description": "A leather belt.  Useful for making your pair of pants fit.",
-    "weight": "102 g",
-    "volume": "250 ml",
-    "price": 9000,
-    "price_postapoc": 250,
-    "bashing": 5,
-    "material": [ "leather" ],
-    "symbol": "[",
-    "color": "brown",
-    "covers": [ "torso" ],
-    "coverage": 5,
-    "material_thickness": 1,
+    "copy-from": "leather_belt",
     "use_action": {
       "type": "holster",
       "holster_prompt": "Stick what into your belt",
@@ -74,26 +50,13 @@
       "max_weight": 400,
       "draw_cost": 60,
       "flags": [ "BELT_CLIP" ]
-    },
-    "flags": [ "WAIST", "WATER_FRIENDLY" ]
+    }
   },
   {
     "id": "police_belt",
     "type": "ARMOR",
     "name": { "str": "police duty belt" },
-    "description": "Black leather belt used by police officers.  It has several pouches and a holder for a baton.",
-    "weight": "250 g",
-    "volume": "2 L",
-    "price": 10000,
-    "price_postapoc": 750,
-    "bashing": 5,
-    "material": [ "leather", "steel" ],
-    "symbol": "[",
-    "looks_like": "fireman_belt",
-    "color": "brown",
-    "covers": [ "torso" ],
-    "encumbrance": 6,
-    "storage": "2 L",
+    "copy-from": "police_belt",
     "use_action": {
       "type": "holster",
       "holster_prompt": "Attach what to holder?",
@@ -103,27 +66,13 @@
       "max_weight": 3600,
       "draw_cost": 50,
       "flags": [ "BELT_CLIP" ]
-    },
-    "flags": [ "WAIST", "WATER_FRIENDLY" ]
+    }
   },
   {
     "id": "survivor_belt_notools",
     "type": "ARMOR",
     "name": { "str": "survivor belt" },
-    "description": "A custom-built leather utility belt covered with straps and pouches with a sheath to carry a smaller blade.  Durable and carefully crafted to be comfortable to wear.  Activate to sheathe/draw a weapon.",
-    "weight": "1249 g",
-    "volume": "2250 ml",
-    "price": 15000,
-    "price_postapoc": 2500,
-    "material": [ "leather" ],
-    "symbol": "[",
-    "looks_like": "holster",
-    "color": "brown",
-    "covers": [ "torso" ],
-    "coverage": 15,
-    "encumbrance": 0,
-    "storage": "3 L",
-    "material_thickness": 2,
+    "copy-from": "survivor_belt_notools",
     "use_action": {
         "type": "holster",
         "holster_prompt": "Attach what to holder?",
@@ -131,29 +80,15 @@
         "multi": 8,
         "draw_cost": 3,
         "min_volume": "1 ml",
-        "max_volume": "1500 ml",
+        "max_volume": "2000 ml",
         "flags": [ "BELT_CLIP", "SHEATH_KNIFE", "SHEATH_SWORD", "SHEATH_AXE", "SHEATH_SPEAR" ]
-      },
-    "flags": [ "VARSIZE", "WATER_FRIENDLY", "STURDY", "WAIST", "OVERSIZE" ]
+      }
   },
   {
-    "type": "ARMOR",
     "id": "survivor_belt",
+    "type": "ARMOR",
     "name": { "str": "survivor utility belt" },
-    "weight": "3390 g",
-    "color": "brown",
-    "covers": [ "torso" ],
-    "storage": "500 ml",
-    "symbol": "[",
-    "description": "A custom-built leather utility belt covered with straps and pouches containing many useful hand tools and a sheath to carry a smaller blade.  Durable and carefully crafted to be comfortable to wear.  Activate to sheathe/draw a weapon.",
-    "price": 50000,
-    "price_postapoc": 1000,
-    "material": [ "leather", "iron" ],
-    "volume": "4 L",
-    "flags": [ "VARSIZE", "WATER_FRIENDLY", "STURDY", "WAIST", "OVERSIZE" ],
-    "coverage": 15,
-    "encumbrance": 4,
-    "material_thickness": 2,
+    "copy-from": "survivor_belt",
     "use_action": [
       {
         "type": "holster",
@@ -162,46 +97,18 @@
         "multi": 6,
         "draw_cost": 3,
         "min_volume": "1 ml",
-        "max_volume": "1500 ml",
+        "max_volume": "2000 ml",
         "flags": [ "BELT_CLIP", "SHEATH_KNIFE", "SHEATH_SWORD", "SHEATH_AXE", "SHEATH_SPEAR" ]
       },
       "CROWBAR",
       "HAMMER"
-    ],
-    "qualities": [
-      [ "HAMMER", 3 ],
-      [ "PRY", 1 ],
-      [ "SAW_M", 2 ],
-      [ "SAW_W", 2 ],
-      [ "WRENCH", 2 ],
-      [ "AXE", 1 ],
-      [ "SCREW", 1 ],
-      [ "HAMMER_FINE", 1 ],
-      [ "SAW_M_FINE", 1 ],
-      [ "WRENCH_FINE", 1 ],
-      [ "SCREW_FINE", 1 ]
     ]
   },
   {
     "id": "tool_belt",
     "type": "ARMOR",
     "name": { "str": "tool belt" },
-    "description": "A common belt with pockets, loops and sheaths to store up to six tools or blades.  Widely used by handymen and electricians.",
-    "weight": "2000 g",
-    "rigid": true,
-    "volume": "2250 ml",
-    "price": 4500,
-    "price_postapoc": 1500,
-    "bashing": 5,
-    "material": [ "leather" ],
-    "symbol": "[",
-    "looks_like": "holster",
-    "color": "brown",
-    "covers": [ "torso" ],
-    "coverage": 20,
-    "storage": "1 L",
-    "encumbrance": 6,
-    "material_thickness": 2,
+    "copy-from": "tool_belt",
     "use_action": {
       "type": "holster",
       "holster_prompt": "Store tool or blade",
@@ -212,24 +119,13 @@
       "max_weight": "1500 g",
       "draw_cost": 50,
       "flags": [ "BELT_CLIP", "SHEATH_KNIFE", "SHEATH_AXE" ]
-    },
-    "flags": [ "WAIST", "NO_QUICKDRAW", "WATER_FRIENDLY" ]
+    }
   },
   {
     "id": "webbing_belt",
     "type": "ARMOR",
     "name": { "str": "webbing belt" },
-    "description": "A 2-inch nylon webbing belt commonly used by military forces.",
-    "weight": "210 g",
-    "volume": "500 ml",
-    "price": 1000,
-    "price_postapoc": 50,
-    "material": [ "nylon", "steel" ],
-    "symbol": "[",
-    "looks_like": "leather_belt",
-    "color": "yellow",
-    "covers": [ "torso" ],
-    "encumbrance": 1,
+    "copy-from": "webbing_belt",
     "use_action": {
       "type": "holster",
       "holster_prompt": "Stick what into your belt",
@@ -240,7 +136,6 @@
       "min_volume": "1 ml",
       "draw_cost": 60,
       "flags": [ "BELT_CLIP" ]
-    },
-    "flags": [ "WAIST", "WATER_FRIENDLY" ]
+    }
   }
 ]
