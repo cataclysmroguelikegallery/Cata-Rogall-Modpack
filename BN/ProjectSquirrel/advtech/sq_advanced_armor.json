@@ -144,7 +144,7 @@
     "skills_required": [ [ "fabrication", 10 ], [ "electronics", 5 ], [ "mechanics", 6 ] ],
     "time": "2 h 30 m",
     "autolearn": true,
-    "tools": [ [ [ "sq_atomic_forge", -1 ], [ "sq_rtg_forge", -1 ], [ "sq_uranium_forge", -1 ] ] ],
+    "tools": [ [ [ "sq_atomic_forge", -1 ] ] ],
     "using": [ [ "welding_standard", 21 ] ],
     "components": [
       [ [ "small_storage_battery", 1 ] ],
@@ -894,7 +894,7 @@
     "skills_required": [ [ "mechanics", 10 ], [ "electronics", 10 ], [ "computer", 10 ] ],
     "time": "3 h 30 m",
     "autolearn": true,
-    "tools": [ [ [ "sq_uranium_forge", -1 ] ], [ [ "sq_cvdmachine", -1 ] ], [ [ "sq_nanofab", -1 ] ] ],
+    "tools": [ [ [ "sq_atomic_forge", -1 ] ], [ [ "sq_cvdmachine", -1 ] ], [ [ "sq_nanofab", -1 ] ] ],
     "using": [ [ "welding_standard", 42 ] ],
     "components": [
       [ [ "plasma", 25 ] ],
@@ -921,7 +921,7 @@
     "skills_required": [ [ "mechanics", 10 ], [ "electronics", 10 ], [ "computer", 10 ] ],
     "time": "3 h 30 m",
     "autolearn": true,
-    "tools": [ [ [ "sq_uranium_forge", -1 ] ], [ [ "sq_cvdmachine", -1 ] ], [ [ "sq_nanofab", -1 ] ] ],
+    "tools": [ [ [ "sq_atomic_forge", -1 ] ], [ [ "sq_cvdmachine", -1 ] ], [ [ "sq_nanofab", -1 ] ] ],
     "using": [ [ "welding_standard", 42 ] ],
     "components": [
       [ [ "plasma", 25 ] ],
@@ -951,7 +951,7 @@
     "skills_required": [ [ "mechanics", 10 ], [ "electronics", 10 ], [ "computer", 10 ] ],
     "time": "3 h 30 m",
     "autolearn": true,
-    "tools": [ [ [ "sq_uranium_forge", -1 ] ], [ [ "sq_cvdmachine", -1 ] ], [ [ "sq_nanofab", -1 ] ] ],
+    "tools": [ [ [ "sq_atomic_forge", -1 ] ], [ [ "sq_cvdmachine", -1 ] ], [ [ "sq_nanofab", -1 ] ] ],
     "using": [ [ "welding_standard", 42 ] ],
     "components": [
       [ [ "plasma", 25 ] ],

@@ -1,0 +1,17 @@
+[
+  {
+    "id": "sq_rtg_forge",
+    "type": "MIGRATION",
+    "replace": "sq_atomic_forge"
+  },
+  {
+    "id": "sq_uranium_forge",
+    "type": "MIGRATION",
+    "replace": "sq_atomic_forge"
+  },
+  {
+    "id": "sq_uranium_forge_done",
+    "type": "MIGRATION",
+    "replace": "sq_atomic_forge"
+  }
+]
