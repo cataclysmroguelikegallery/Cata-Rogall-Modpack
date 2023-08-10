@@ -16,5 +16,11 @@
     "type": "json_flag",
     "context": [ "ARMOR", "TOOL_ARMOR" ],
     "info": "이 장비는 주머니를 부착하여 <good>저장 공간이 늘었</good>지만 <bad>방해도가 조금 증가</bad>되었습니다"
+  },
+ {
+    "id": "graphene_padded",
+    "type": "json_flag",
+    "context": [ "ARMOR", "TOOL_ARMOR" ],
+    "info": "이 장비는 그래핀을 안감에 덧대어 <good>종합적인 방호력이 조금 향상</good>되었습니다"
   }
 ]

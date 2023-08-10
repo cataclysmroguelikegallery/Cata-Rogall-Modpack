@@ -124,5 +124,21 @@
       { "type": "encumbrance", "value": 1, "round_up" : true, "proportion": [ "thickness" ] },
       { "type": "storage", "value": 3, "round_up": true, "proportion": [ "thickness", "coverage" ] }
     ]
-  }  
+  },
+  {
+    "type": "clothing_mod",
+    "id": "graphene_padded",
+    "flag": "graphene_padded",
+    "item": "graphene",
+    "implement_prompt": "그래핀 시트 덧대기",
+    "destroy_prompt": "덧댄 그래핀 제거",
+    "mod_value": [
+      { "type": "bash", "value": 1, "proportion": [ "thickness" ] },
+      { "type": "cut", "value": 1, "proportion": [ "thickness" ] },
+      { "type": "bullet", "value": 2, "proportion": [ "thickness" ] },
+      { "type": "acid", "value": 3, "round_up": true, "proportion": [ "thickness", "coverage" ] },
+      { "type": "fire", "value": 3, "round_up": true, "proportion": [ "thickness", "coverage" ] },
+	  { "type": "encumbrance", "value": 0.5, "round_up": true, "proportion": [ "thickness", "coverage" ] }
+    ]
+  }
 ]

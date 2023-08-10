@@ -28,7 +28,7 @@
   },
   {
     "id": "carbide_plate",
-    "type": "GENERIC",
+    "type": "AMMO",
     "category": "spare_parts",
     "name": { "str": "겹층 탄화물", "str_pl": "겹층 탄화물" },
     "description": "강화된 겹층 탄화물 장갑판. 겹층 탄화물로 만들어진 최첨단 장비를 제작하거나 수리할 때 사용할 수 있습니다.",
@@ -40,6 +40,9 @@
     "symbol": ",",
     "looks_like": "polycarbonate_sheet",
     "color": "dark_gray",
+    "count": 2,
+    "stack_size": 200,
+	"ammo_type": "components",
     "flags": [ "NO_SALVAGE" ]
   },
   {
@@ -127,7 +130,7 @@
     "batch_time_factors": [ 80, 5 ],
     "book_learn": [ [ "recipe_lab_cvd", 9 ], [ "textbook_chemistry", 6 ], [ "adv_chemistry", 6 ], [ "recipe_labchem", 7 ] ],
     "autolearn": false,
-    "tools": [ [ [ "sq_nanoprint", 50 ], [ "sq_nanofab", 50 ] ] ],
+    "tools": [ [ [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
     "components": [ [ [ "ash", 100 ], [ "charcoal", 7 ] ] ]
   },
   {
@@ -142,8 +145,26 @@
     "batch_time_factors": [ 50, 5 ],
     "book_learn": [ [ "recipe_lab_cvd", 7 ] ],
     "autolearn": false,
+	"charges": 2,
     "tools": [ [ [ "sq_atomic_forge", -1 ], [ "sq_rtg_forge", -1 ], [ "sq_uranium_forge", -1 ] ] ],
-    "components": [ [ [ "resin_chunk", 1 ], [ "alien_pod_resin", 1 ] ], [ [ "graphene", 3 ] ] ]
+    "components": [ [ [ "resin_chunk", 1 ] ], [ [ "graphene", 30 ] ] ]
+  },
+  {
+    "result": "carbide_plate",
+    "id_suffix": "resin pod",
+    "type": "recipe",
+    "category": "CC_첨단기술",
+    "subcategory": "CSC_첨단기술_MATERIALS",
+    "skill_used": "fabrication",
+    "skills_required": [ "cooking", 8 ],
+    "difficulty": 8,
+    "time": "150 m",
+    "batch_time_factors": [ 50, 5 ],
+    "book_learn": [ [ "recipe_lab_cvd", 7 ] ],
+    "autolearn": false,
+	"charges": 10,
+    "tools": [ [ [ "sq_atomic_forge", -1 ], [ "sq_rtg_forge", -1 ], [ "sq_uranium_forge", -1 ] ] ],
+    "components": [ [ [ "alien_pod_resin", 1 ] ], [ [ "graphene", 3 ] ] ]
   },
   {
     "result": "hydrogen_tank",
@@ -174,7 +195,7 @@
     "batch_time_factors": [ 80, 5 ],
     "book_learn": [ [ "textbook_chemistry", 7 ], [ "adv_chemistry", 7 ], [ "recipe_labchem", 9 ] ],
     "qualities": [ { "id": "CHEM", "level": 3 } ],
-    "tools": [ [ [ "sq_nanocomp", 50 ], [ "sq_nanoprint", 50 ], [ "sq_nanofab", 50 ] ] ],
+    "tools": [ [ [ "sq_nanocomp", -1 ], [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
     "autolearn": false,
     "components": [ [ [ "hydrogen_tank", 2 ] ] ]
   },
@@ -190,7 +211,7 @@
     "batch_time_factors": [ 80, 5 ],
     "book_learn": [ [ "recipe_labchem", 8 ], [ "textbook_atomic_lab", 7 ] ],
     "qualities": [ { "id": "CHEM", "level": 3 } ],
-    "tools": [ [ [ "sq_nanocomp", 100 ], [ "sq_nanoprint", 100 ], [ "sq_nanofab", 100 ] ] ],
+    "tools": [ [ [ "sq_nanocomp", -1 ], [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
     "autolearn": false,
     "components": [
       [ [ "ash", 2000 ], [ "charcoal", 100 ] ],
@@ -213,7 +234,7 @@
     "autolearn": true,
     "tools": [
       [ [ "sq_atomic_forge", -1 ], [ "sq_rtg_forge", -1 ], [ "sq_uranium_forge", -1 ] ],
-      [ [ "sq_nanocomp", 20 ], [ "sq_nanoprint", 20 ], [ "sq_nanofab", 20 ] ]
+      [ [ "sq_nanocomp", -1 ], [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ]
     ],
     "components": [ [ [ "nanomaterial", 5 ] ], [ [ "graphene", 2 ] ], [ [ "steel_lump", 1 ] ] ]
   },
@@ -272,10 +293,10 @@
     "autolearn": true,
     "tools": [
       [ [ "sq_rtg_forge", -1 ], [ "sq_uranium_forge", -1 ] ],
-      [ [ "sq_nanocomp", 20 ], [ "sq_nanoprint", 20 ], [ "sq_nanofab", 20 ] ]
+      [ [ "sq_nanocomp", -1 ], [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ]
     ],
     "qualities": [ { "id": "FINE_DISTILL", "level": 1 }, { "id": "CONCENTRATE", "level": 1 }, { "id": "SEPARATE", "level": 1 } ],
-    "components": [ [ [ "chem_nitric_acid", 1 ] ], [ [ "nuclear_waste", 5 ], [ "rock", 200 ] ] ]
+    "components": [ [ [ "chem_nitric_acid", 1 ] ], [ [ "nuclear_waste", 5 ], [ "rock", 50 ] ] ]
   },
   {
     "result": "sq_uranium_condensed",
@@ -290,7 +311,7 @@
     "time": "60 m",
     "book_learn": [ [ "recipe_labchem", 8 ], [ "recipe_atomic_battery", 7 ] ],
     "autolearn": true,
-    "tools": [ [ [ "sq_uranium_forge", -1 ] ], [ [ "sq_nanocomp", 20 ], [ "sq_nanoprint", 20 ], [ "sq_nanofab", 20 ] ] ],
+    "tools": [ [ [ "sq_uranium_forge", -1 ] ], [ [ "sq_nanocomp", -1 ], [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
     "qualities": [ { "id": "FINE_DISTILL", "level": 1 }, { "id": "CONCENTRATE", "level": 1 }, { "id": "SEPARATE", "level": 1 } ],
     "components": [ [ [ "sq_uranium_condensed", 1 ] ] ]
   },
@@ -389,14 +410,38 @@
     ]
   },
   {
+    "result": "plut_cell",
+    "type": "recipe",
+    "id_suffix": "alternative1",
+    "category": "CC_첨단기술",
+    "subcategory": "CSC_첨단기술_MATERIALS",
+    "skill_used": "mechanics",
+    "skills_required": [ "electronics", 4 ],
+    "difficulty": 8,
+	"charges": 10,
+    "time": 30000,
+    "book_learn": [ [ "recipe_atomic_battery", 5 ] ],
+    "autolearn": true,
+    "tools": [ [ [ "sq_rtg_forge", -1 ], [ "sq_uranium_forge", -1 ] ] ],
+    "qualities": [ { "id": "SCREW", "level": 1 }, { "id": "WRENCH", "level": 1 } ],
+    "components": [
+      [ [ "sq_uranium_cell", 1 ] ],
+      [ [ "power_supply", 2 ] ],
+      [ [ "nanomaterial", 5 ] ]
+    ]
+  },
+  {
     "id": "sq_monofilament",
 	"copy-from": "thread",
-    "type": "GENERIC",
+    "type": "AMMO",
     "category": "spare_parts",
     "name": { "str": "단분자 섬유", "str_pl": "단분자 섬유" },
     "description": "매우 얇은 탄소 동소체로 이루어진 실가닥으로, 초전도체이며, 실질적으로는 눈에 거의 보이지 않습니다. 베이지 않도록 취급에 주의하세요!",
     "price": 15000,
-    "price_postapoc": 50,
+    "price_postapoc": 350,
+    "ammo_type": "thread",
+    "count": 50,
+    "stack_size": 200,
     "material": "carbide",
     "looks_like": "thread",
     "color": "cyan",
@@ -412,6 +457,7 @@
     "skills_required": [ "fabrication", 7 ],
     "time": "9 m",
     "autolearn": true,
+    "charges": 300,
     "tools": [ [ [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
     "components": [ [ [ "nanomaterial", 25 ] ] ]
   },
@@ -427,7 +473,7 @@
     "batch_time_factors": [ 80, 5 ],
     "book_learn": [ [ "recipe_lab_elec", 7 ] ],
     "qualities": [ { "id": "CHEM", "level": 3 } ],
-    "tools": [ [ [ "sq_nanoprint", 10 ], [ "sq_nanofab", 10 ] ] ],
+    "tools": [ [ [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
     "autolearn": false,
     "components": [ [ [ "plastic_chunk", 1 ] ], [ [ "solder_wire", 1 ] ] ]
   },
@@ -443,7 +489,7 @@
     "batch_time_factors": [ 80, 5 ],
     "book_learn": [ [ "recipe_lab_elec", 7 ] ],
     "qualities": [ { "id": "CHEM", "level": 3 } ],
-    "tools": [ [ [ "sq_nanoprint", 10 ], [ "sq_nanofab", 10 ] ] ],
+    "tools": [ [ [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
     "autolearn": false,
     "components": [ [ [ "charcoal", 1 ] ], [ [ "plastic_chunk", 1 ] ], [ [ "solder_wire", 1 ] ] ]
   },
@@ -459,7 +505,7 @@
     "batch_time_factors": [ 80, 5 ],
     "book_learn": [ [ "recipe_lab_elec", 7 ] ],
     "qualities": [ { "id": "CHEM", "level": 3 } ],
-    "tools": [ [ [ "sq_nanoprint", 15 ], [ "sq_nanofab", 15 ] ] ],
+    "tools": [ [ [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
     "autolearn": false,
     "components": [ [ [ "nanomaterial", 1 ] ], [ [ "charcoal", 1 ] ], [ [ "plastic_chunk", 1 ] ], [ [ "solder_wire", 5 ] ] ]
   },
@@ -475,7 +521,7 @@
     "batch_time_factors": [ 80, 5 ],
     "book_learn": [ [ "recipe_lab_elec", 7 ] ],
     "qualities": [ { "id": "CHEM", "level": 3 } ],
-    "tools": [ [ [ "sq_nanoprint", 15 ], [ "sq_nanofab", 15 ] ] ],
+    "tools": [ [ [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
     "autolearn": false,
     "components": [ [ [ "nanomaterial", 1 ] ], [ [ "charcoal", 1 ] ], [ [ "plastic_chunk", 1 ] ], [ [ "solder_wire", 5 ] ] ]
   },
@@ -491,7 +537,7 @@
     "batch_time_factors": [ 80, 5 ],
     "book_learn": [ [ "recipe_lab_elec", 7 ] ],
     "qualities": [ { "id": "CHEM", "level": 3 } ],
-    "tools": [ [ [ "sq_nanoprint", 15 ], [ "sq_nanofab", 15 ] ] ],
+    "tools": [ [ [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
     "autolearn": false,
     "components": [ [ [ "nanomaterial", 3 ] ], [ [ "graphene", 1 ] ], [ [ "glass_shard", 1 ] ], [ [ "solder_wire", 5 ] ] ]
   },
@@ -507,7 +553,7 @@
     "time": "2 m",
     "batch_time_factors": [ 80, 5 ],
     "book_learn": [ [ "recipe_lab_elec", 7 ] ],
-    "tools": [ [ [ "sq_nanoprint", 10 ], [ "sq_nanofab", 10 ] ] ],
+    "tools": [ [ [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
     "autolearn": false,
     "charges": 5,
     "components": [ [ [ "plastic_chunk", 1 ] ], [ [ "copper", 1 ] ] ]
@@ -524,7 +570,7 @@
     "time": "2 m",
     "batch_time_factors": [ 80, 5 ],
     "book_learn": [ [ "recipe_lab_elec", 7 ] ],
-    "tools": [ [ [ "sq_nanoprint", 10 ], [ "sq_nanofab", 10 ] ] ],
+    "tools": [ [ [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
     "autolearn": false,
     "charges": 5,
     "components": [ [ [ "plastic_chunk", 1 ] ], [ [ "copper", 1 ] ] ]
@@ -540,7 +586,7 @@
     "time": "60 m",
     "book_learn": [ [ "recipe_lab_elec", 7 ] ],
     "qualities": [ { "id": "CHEM", "level": 3 } ],
-    "tools": [ [ [ "sq_nanoprint", 10 ], [ "sq_nanofab", 10 ] ] ],
+    "tools": [ [ [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
     "autolearn": false,
     "components": [ [ [ "processor", 5 ] ], [ [ "RAM", 1 ] ], [ [ "cable", 2 ] ], [ [ "e_scrap", 3 ] ], [ [ "solder_wire", 21 ] ] ]
   },
@@ -555,7 +601,7 @@
     "time": "120 m",
     "book_learn": [ [ "recipe_lab_elec", 7 ] ],
     "qualities": [ { "id": "CHEM", "level": 3 } ],
-    "tools": [ [ [ "sq_nanoprint", 10 ], [ "sq_nanofab", 10 ] ] ],
+    "tools": [ [ [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
     "autolearn": false,
     "components": [
       [ [ "processor", 10 ] ],
@@ -577,7 +623,7 @@
     "time": "180 m",
     "book_learn": [ [ "recipe_lab_elec", 7 ] ],
     "qualities": [ { "id": "CHEM", "level": 3 } ],
-    "tools": [ [ [ "sq_nanoprint", 10 ], [ "sq_nanofab", 10 ] ] ],
+    "tools": [ [ [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
     "autolearn": false,
     "components": [
       [ [ "processor", 15 ] ],
@@ -599,7 +645,7 @@
     "time": "180 m",
     "book_learn": [ [ "recipe_lab_elec", 7 ] ],
     "qualities": [ { "id": "CHEM", "level": 3 } ],
-    "tools": [ [ [ "sq_nanoprint", 10 ], [ "sq_nanofab", 10 ] ] ],
+    "tools": [ [ [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
     "autolearn": false,
     "components": [
       [ [ "processor", 15 ] ],

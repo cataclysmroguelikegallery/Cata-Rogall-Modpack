@@ -1,6 +1,28 @@
 [
   {
     "type": "technique",
+    "id": "WIDE2",
+    "name": "Wide Strike",
+    "unarmed_allowed": true,
+    "melee_allowed": true,
+    "weighting": 50,
+    "messages": [ "You swing in a wide arc through %s", "<npcname> swings in a wide arc through %s" ],
+    "aoe": "wide",
+    "description": "Attack in a wide arc, hitting multiple targets"
+  },
+  {
+    "type": "technique",
+    "id": "SPIN2",
+    "name": "회전 베기",
+    "unarmed_allowed": true,
+    "melee_allowed": true,
+    "weighting": 50,
+    "messages": [ "You swing through %s and everyone nearby", "<npcname> swings through %s and everyone nearby" ],
+    "aoe": "spin",
+    "description": "Attack adjacent enemies"
+  },
+  {
+    "type": "technique",
     "id": "BRUTAL2",
     "name": "Brutal Strike",
     "unarmed_allowed": true,
@@ -11,7 +33,7 @@
     "description": "기절 1턴, 치명타시"
   },
   {
-    "//": "루시",
+    "//": "루실",
     "type": "technique",
     "id": "SQ_EXECUTION",
     "name": "처형",
