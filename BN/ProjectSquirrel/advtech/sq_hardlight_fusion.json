@@ -1,28 +1,6 @@
 [
   {
     "id": "sq_tesla_cannon",
-    "copy-from": "rifle_energy",
-    "type": "GUN",
-    "weapon_category": [ "SHOTGUNS", "ENERGY_WEAPONS" ],
-    "name": { "str": "하드라이트 확산총" },
-    "description": "근거리에서의 압도적인 군중 제압력과 화력을 모두 갖추도록 만든 하드라이트 에너지 샷건입니다. 샷건이지만 사실 특수화기에 가깝습니다. 날카로운 단면을 지닌 광자 파편은 산산이 흩어져 주변 희생자들을 향해 굴절합니다.",
-    "weight": "4950 g",
-    "volume": "3500 ml",
-    "skill": "shotgun",
-    "price": 3300000,
-    "price_postapoc": 12000,
-    "material": [ "superalloy", "ceramic" ],
-    "color": "light_blue",
-    "range": 20,
-    "ranged_damage": { "damage_type": "heat", "amount": 40, "armor_penetration": 16 },
-    "dispersion": 0,
-    "modes": [ [ "DEFAULT", "semi", 1 ] ],
-    "loudness": 36,
-    "ups_charges": 80,
-    "ammo_effects": [ "LASER", "INCENDIARY", "DRAW_AS_LINE", "WIDE", "BOUNCE" ]
-  },
-  {
-    "id": "sq_tesla_cannon",
 	"looks_like": "plasma_rifle",
     "copy-from": "rifle_energy",
     "type": "GUN",

@@ -228,27 +228,6 @@
     "flags": [ "ONLY_ONE", "WATER_FRIENDLY", "STURDY", "BELTED", "OVERSIZE" ]
   },
   {
-    "id": "sq_dimension_pack",
-    "type": "ARMOR",
-    "name": { "str": "차원 안정기" },
-    "description": "아공간과 연결된 실험용 수납 장치. 평행하게 배치된 두 개의 코일 사이에서 포탈이 일렁이며 공명하고 있습니다.",
-    "storage": "300 L",
-    "weight": "7500 g",
-    "volume": "11 L",
-    "price": 1225000,
-    "price_postapoc": 15000,
-    "material": [ "superalloy" ],
-    "symbol": "[",
-    "color": "magenta",
-    "covers": [ "torso" ],
-    "coverage": 15,
-    "rigid": true,
-    "encumbrance": 5,
-    "material_thickness": 6,
-	"environmental_protection": 10,
-    "flags": [ "ONLY_ONE", "WATER_FRIENDLY", "STURDY", "BELTED", "OVERSIZE" ]
-  },
-  {
     "id": "sq_power_armor_dimension_pack",
     "type": "TOOL_ARMOR",
     "name": { "str": "파워 아머 차원 안정기" },
