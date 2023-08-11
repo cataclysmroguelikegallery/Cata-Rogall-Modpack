@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Jake's_Squirrel_mod\n"
-"POT-Creation-Date: 2023-07-24 07:58+0900\n"
+"POT-Creation-Date: 2023-08-11 23:23+0900\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -94,6 +94,14 @@ msgstr "Add pockets"
 msgid "주머니 떼기"
 msgstr "Add pockets"
 
+#: .\sq_clothing_mods.json
+msgid "그래핀 시트 덧대기"
+msgstr "Pad with graphene sheet lining"
+
+#: .\sq_clothing_mods.json
+msgid "덧댄 그래핀 제거"
+msgstr "Destroy graphene sheet lining"
+
 #. ~ Please leave anything in <angle brackets> unchanged.
 #: .\sq_flags.json
 msgid "이 장비는 노멕스를 덧대어 <good>화염 방호력이 향상</good>되었습니다"
@@ -114,6 +122,15 @@ msgid ""
 "이 장비는 주머니를 부착하여 <good>저장 공간이 늘었</good>지만 <bad>방해도가 "
 "조금 증가</bad>되었습니다"
 msgstr "Add pockets"
+
+#. ~ Please leave anything in <angle brackets> unchanged.
+#: .\sq_flags.json
+msgid ""
+"이 장비는 그래핀을 안감에 덧대어 <good>종합적인 방호력이 조금 향상</good>되었"
+"습니다"
+msgstr ""
+"This gear is lined with graphene sheets for <good>little extra overall "
+"protection</good>"
 
 #: .\sq_tailoring.json
 msgid "bone sewing awl"
@@ -333,9 +350,10 @@ msgstr[1] "'Warden' heavy combat armors (on)"
 #. ~ Use action menu_text for {'str': '산업용 외골격 (켜짐)'}.
 #. ~ Use action menu_text for {'str': '생존용 방화 헤드램프 (켜짐)'}.
 #. ~ Use action menu_text for {'str': '고급 유목민 외투 (켜짐)'}.
+#. ~ Use action menu_text for {'str_sp': '류이치몬지'}.
 #: .\advtech\sq_advanced_armor.json .\advtech\sq_nano_tier.json
 #: .\items\sq_armor_override.json .\items\sq_cargo_frame.json
-#: .\items\sq_nomex_survivor.json .\items\sq_suit.json
+#: .\items\sq_nomex_survivor.json .\items\sq_suit.json .\items\sq_unrand.json
 msgid "Turn off"
 msgstr ""
 
@@ -532,16 +550,17 @@ msgstr[1] "survivor combat armors"
 #: .\advtech\sq_advanced_armor.json
 msgid ""
 "UPS로 돌아가게끔 만든, 방탄조끼와 회로가 삽입된 점프슈트를 사용해서 만든 수"
-"제 방어구. 리브텍 RM13 컴뱃아머의 설계를 참고해 만들었습니다. 해석하기 어려"
-"운 기술력과 양산성을 고려하여 일부 기능이 생략되었지만, 여전히 각종 피해로부"
-"터 몸을 보호해줍니다. 사용하면 전원을 켭니다."
+"제 방어구. 재료의 한계와 양산성을 고려하여 일부 기능이 생략되었지만, 여전히 "
+"각종 피해로부터 몸을 보호해주는 기본적인 기능이 탑재된 '싼데 비슷한' 방어구입"
+"니다. 누군가는 RM13 컴뱃 아머의 디자인을 베꼈다고 할 테지만 아무도 뭐라 할 사"
+"람은 없습니다. 사용하면 전원을 켭니다."
 msgstr ""
 "A custom-built armor made from a bulletproof vest and a jumpsuit with "
 "circuitry inserted into it, designed to internally powered by UPS. Based on "
 "the design of the Rivtech RM13 Combat Armor. Some features have been omitted "
 "due to difficulty of interpreting technology and for productivity, but it "
-"still protects you from the elements as well as from harm. Use it to turn it "
-"on."
+"still protects you from the elements as well as from harm. It is turned on, "
+"and continually draining power.  Use it to turn it off."
 
 #: .\advtech\sq_advanced_armor.json
 msgid "생존용 컴뱃 아머 (켜짐)"
@@ -553,10 +572,11 @@ msgstr[1] "survivor combat armors (on)"
 #: .\advtech\sq_advanced_armor.json
 msgid ""
 "UPS로 돌아가게끔 만든, 방탄조끼와 회로가 삽입된 점프슈트를 사용해서 만든 수"
-"제 방어구. 리브텍 RM13 컴뱃아머의 설계를 참고해 만들었습니다. 해석하기 어려"
-"운 기술력과 양산성을 고려하여 일부 기능이 생략되었지만, 여전히 각종 피해로부"
-"터 몸을 보호해줍니다. 현재 작동 중이며, 지속적으로 전력을 소모하고 있습니다. "
-"사용하여 작동을 멈춥니다."
+"제 방어구. 재료의 한계와 양산성을 고려하여 일부 기능이 생략되었지만, 여전히 "
+"각종 피해로부터 몸을 보호해주는 기본적인 기능이 탑재된 '싼데 비슷한' 방어구입"
+"니다. 누군가는 RM13 컴뱃 아머의 디자인을 베꼈다고 할 테지만 아무도 뭐라 할 사"
+"람은 없습니다. 현재 작동 중이며, 지속적으로 전력을 소모하고 있습니다. 사용하"
+"여 작동을 멈춥니다."
 msgstr ""
 "A custom-built armor made from a bulletproof vest and a jumpsuit with "
 "circuitry inserted into it, designed to internally powered by UPS. Based on "
@@ -1139,6 +1159,64 @@ msgstr[0] "plasma impact knife"
 msgstr[1] "plasma impact knives"
 
 #: .\advtech\sq_hardlight_fusion.json
+msgid "테슬라 캐논"
+msgid_plural "테슬라 캐논s"
+msgstr[0] "tesla cannon"
+msgstr[1] "tesla cannons"
+
+#: .\advtech\sq_hardlight_fusion.json
+msgid ""
+"테슬라 캐논은 전자기 파동으로써 적들의 장비를 마비시키고 전장을 혼돈으로 뒤섞"
+"는, 생존자의 걸작입니다. 방출된 전자기파는 4타일 이내에 있는 다른 적에게 옮겨"
+"갑니다."
+msgstr ""
+"The tesla cannon is a survivor's masterpiece that uses electromagnetic waves "
+"to disable enemy equipment and turn the battlefield into chaos. The emitted "
+"electromagnetic wave is transferred to other enemies within 4 tiles."
+
+#: .\advtech\sq_hardlight_fusion.json .\items\sq_weapon_override.json
+#: .\monsters\sq_mech_weapons.json .\monsters\sq_walkers.json
+msgid "semi"
+msgstr ""
+
+#: .\advtech\sq_hardlight_fusion.json .\items\sq_weapon_override.json
+#: .\monsters\sq_mech_weapons.json .\monsters\sq_walkers.json
+msgid "auto"
+msgstr ""
+
+#: .\advtech\sq_hardlight_fusion.json
+msgctxt "gun_type_type"
+msgid "shotgun"
+msgstr ""
+
+#: .\advtech\sq_hardlight_fusion.json
+msgid "RA110 5x50mm flechette"
+msgid_plural "RA110 5x50mm flechettes"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'RA110 5x50mm flechette'}
+#: .\advtech\sq_hardlight_fusion.json
+msgid ""
+"Designed to defeat modern body armor, the Rivtech 5x50mm flechette round "
+"features a biodegradable sabot and a single, fin-stabilized penetrator."
+msgstr ""
+
+#: .\advtech\sq_hardlight_fusion.json
+msgid "RA119 5x50mm penetrator"
+msgid_plural "RA119 5x50mm penetrators"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'RA119 5x50mm penetrator'}
+#: .\advtech\sq_hardlight_fusion.json
+msgid ""
+"Designed to defeat modern body armor, the Rivtech 5x50mm RA119 penetrator "
+"round features a biodegradable sabot and a single, fin-stabilized tungsten "
+"alloy projectile."
+msgstr ""
+
+#: .\advtech\sq_hardlight_fusion.json
 msgid "beam scatterer"
 msgid_plural "beam scatterers"
 msgstr[0] ""
@@ -1399,16 +1477,6 @@ msgstr ""
 "specializer: photon shards with a sharp cross-section scatter and refract "
 "towards nearby victims."
 
-#: .\advtech\sq_hardlight_fusion.json .\items\sq_weapon_override.json
-#: .\monsters\sq_mech_weapons.json .\monsters\sq_walkers.json
-msgid "semi"
-msgstr ""
-
-#: .\advtech\sq_hardlight_fusion.json
-msgctxt "gun_type_type"
-msgid "shotgun"
-msgstr ""
-
 #: .\advtech\sq_hardlight_fusion.json
 msgid "하드라이트 카빈"
 msgid_plural "하드라이트 카빈s"
@@ -1426,8 +1494,7 @@ msgstr ""
 "able to surprise enemies around corners."
 
 #: .\advtech\sq_hardlight_fusion.json .\items\sq_weapon_override.json
-#: .\monsters\sq_mech_weapons.json .\monsters\sq_walkers.json
-msgid "auto"
+msgid "burst"
 msgstr ""
 
 #: .\advtech\sq_hardlight_fusion.json
@@ -1503,7 +1570,9 @@ msgstr[1] "hardlight glaives (off)"
 
 #. ~ Use action menu_text for {'str': '하드라이트 글레이브 (꺼짐)'}.
 #. ~ Use action menu_text for {'str': '실험용 하드라이트 블레이드 (꺼짐)'}.
+#. ~ Use action menu_text for {'str': '제로 세이버', 'str_pl': '제로 세이버'}.
 #: .\advtech\sq_hardlight_fusion.json .\advtech\sq_nano_tier.json
+#: .\items\sq_unrand.json
 msgid "Expand"
 msgstr ""
 
@@ -1535,7 +1604,9 @@ msgstr[1] "hardlight glaives (on)"
 #. (켜짐)'}.
 #. ~ Use action menu_text for {'str': '실험용 하드라이트 블레이드 (켜짐)', 'str_pl': '실험용
 #. 하드라이트 블레이드 (켜짐)'}.
+#. ~ Use action menu_text for {'str': '제로 세이버', 'str_pl': '제로 세이버'}.
 #: .\advtech\sq_hardlight_fusion.json .\advtech\sq_nano_tier.json
+#: .\items\sq_unrand.json
 msgid "Collapse"
 msgstr ""
 
@@ -1603,10 +1674,6 @@ msgstr ""
 "Gauss flak gun powered by a small fusion core. Great for taking out densely "
 "packed enemies, its supercooled metal rail rounds unleash a storm of "
 "shrapnel on impact, devastating the surrounding area."
-
-#: .\advtech\sq_hardlight_fusion.json .\items\sq_weapon_override.json
-msgid "burst"
-msgstr ""
 
 #: .\advtech\sq_hardlight_fusion.json
 msgid "가우스 라이플"
@@ -1699,13 +1766,14 @@ msgstr[1] "atomic forges"
 #: .\advtech\sq_main_tools.json
 msgid ""
 "핵붕괴로 작동하는, 무시무시하면서도 아름다운 창백한 푸른 빛을 발하는 원자력 "
-"용광로입니다.  일종의 정제소 역할도 겸하며 다양한 첨단 부품과 원료 생산의 기"
-"초가 됩니다."
+"용광로입니다. 그래핀 시트의 빠른 제작 및 겹층 탄화물을 만들 수 있습니다. 일종"
+"의 정제소 역할도 겸하며 다양한 첨단 부품과 원료 생산의 기초가 됩니다."
 msgstr ""
 "It is an atomic forge, powered by radioactive decay, that emits a pale blue "
-"glow that is both terrifying and beautiful.  It doubles as a refinery of "
-"sorts, and is the basis for the production of a variety of high-tech "
-"components and raw materials."
+"glow that is both terrifying and beautiful. It allows for the rapid "
+"fabrication of graphene sheets and layered carbides. It doubles as a "
+"refinery of sorts, and is the basis for the production of a variety of high-"
+"tech components and raw materials."
 
 #: .\advtech\sq_main_tools.json
 msgid "머니퓰레이터 작업대"
@@ -1732,28 +1800,14 @@ msgstr[1] "matter synthesizer: nanocompressors"
 #. ~ Description for {'str': '물질 합성기: 고분자 압축기'}
 #: .\advtech\sq_main_tools.json
 msgid ""
-"원료를 압축하고 나노제작물질을 합성하는 복잡한 장치입니다.  기체와 연료를 압"
-"축하기 위한 급속냉각장치와 단열재인 겹층 탄화물이 포함됩니다."
+"원료를 압축하고 나노제작물질을 합성하는 복잡한 장치입니다. 수소 용기, 나노제"
+"작물질, 초합금판 등을 만드는 데에 필요하며, 기체와 연료를 압축하기 위한 급속"
+"냉각장치와 단열재인 겹층 탄화물이 포함됩니다."
 msgstr ""
-"A complex device for compressing raw materials and synthesizing "
-"nanomaterials.  It includes a rapid cooler to compress gases and fuels, and "
-"layered carbons as insulation."
-
-#: .\advtech\sq_main_tools.json
-msgid "동위원소 원심분리 용광로"
-msgid_plural "동위원소 원심분리 용광로s"
-msgstr[0] "isotope centrifuge forge"
-msgstr[1] "isotope centrifuge forges"
-
-#. ~ Description for {'str': '동위원소 원심분리 용광로'}
-#: .\advtech\sq_main_tools.json
-msgid ""
-"원자력 용광로 겸 회전 원심분리기. 액체납으로 차폐한 이중관과 이중용기로 이루"
-"어진 전기먹는 하마입니다. 본격적인 핵연료의 이용과 추출이 가능해집니다."
-msgstr ""
-"Atomic forge and rotary centrifuge. An electricity-eating hippopotamus "
-"consisting of a double tube and a double vessel shielded with liquid lead. "
-"Enables full-scale utilization and extraction of nuclear fuel."
+"A complex device for compressing raw materials and synthesising "
+"nanomaterials. It is needed to make hydrogen containers, nanomaterials, "
+"superalloys, and more, and includes a rapid cooler to compress gases and "
+"fuels, and layered hydrocarbons for insulation."
 
 #: .\advtech\sq_main_tools.json
 msgid "물질 합성기: 나노 정밀 재봉틀"
@@ -1765,17 +1819,19 @@ msgstr[1] "matter synthesizer: nano-precision sewing machines"
 #: .\advtech\sq_main_tools.json
 msgid ""
 "기판에 회로를 새기는데 쓰는, 나노 단위의 공정이 가능한 휴대용 소형 3D 프린터"
-"입니다. 나노물질이나 그래핀을 실처럼 가늘게 뽑아 일종의 ''재봉틀''처럼 사용"
-"이 가능하기도 합니다.  게다가 기기에 데이터를 입력하여 각종 초정밀 부품의 출"
-"력이 가능하다는 점으로 미루어 보아 어쩌면 CBM까지 만들어 낼 수 있을 것 같네"
-"요. 이전 단계의 모든 것들 또한 제작 가능합니다."
+"입니다. 나노물질을 실처럼 가늘게 뽑아 일종의 ''재봉틀''처럼 사용이 가능하기"
+"도 하여 직물 뿐만 아니라 겹층 탄화물까지 모두 수리가 가능합니다.  게다가 기기"
+"에 데이터를 입력하여 각종 초정밀 부품의 출력이 가능하다는 점으로 미루어 보아 "
+"어쩌면 CBM까지 만들어 낼 수 있을 것 같네요. 이전 단계의 모든 것들 또한 제작 "
+"가능합니다."
 msgstr ""
 "A small, portable 3D printer capable of nanoscale processing, used to "
 "engrave circuits on substrates. It can also be used as a kind of ''sewing "
-"machine'' by drawing nanomaterials or graphene as thin as thread.  And given "
-"that you can input data into the machine and get all sorts of ultra-precise "
-"parts out of it, I think you could probably make a CBM out of it. Everything "
-"in the previous steps can be made as well."
+"machine'' by drawing nanomaterials as thin as thread, so it can repair not "
+"only fabrics but also layered carbides.  Furthermore, the fact that you can "
+"input data into the machine and output all sorts of ultra-precise parts "
+"suggests that you can probably even make CBMs. All of the previous steps are "
+"also possible."
 
 #: .\advtech\sq_main_tools.json
 msgid "휴대용 CVD 장치"
@@ -1817,51 +1873,6 @@ msgstr ""
 #: .\advtech\sq_main_tools.json
 msgid "whack!"
 msgstr ""
-
-#: .\advtech\sq_main_tools.json
-msgid "우라늄 증식 용광로 (증식 완료)"
-msgid_plural "우라늄 증식 용광로 (증식 완료)s"
-msgstr[0] "uranium enrichment forge (completed)"
-msgstr[1] "uranium enrichment forges (completed)"
-
-#. ~ Description for {'str': '우라늄 증식 용광로 (증식 완료)'}
-#: .\advtech\sq_main_tools.json
-msgid ""
-"우라늄 증식 용광로가 농축 우라늄 생산 절차를 마쳤습니다. 분해하여 회수하십시"
-"오."
-msgstr ""
-"The uranium enrichment forge has completed the process of producing enriched "
-"uranium. Disassemble and recover it."
-
-#: .\advtech\sq_main_tools.json
-msgid "우라늄 증식 용광로"
-msgid_plural "우라늄 증식 용광로s"
-msgstr[0] "uranium enrichment forge"
-msgstr[1] "uranium enrichment forges"
-
-#. ~ Use action msg for {'str': '우라늄 증식 용광로'}.
-#: .\advtech\sq_main_tools.json
-msgid "용광로의 우라늄이 가득 찼다. 이제 꺼내야 할 시간이다."
-msgstr "The forge is full of uranium, and it's time to get it out."
-
-#. ~ Use action not_ready_msg for {'str': '우라늄 증식 용광로'}.
-#: .\advtech\sq_main_tools.json
-msgid "용광로의 우라늄이 아직 증식하는 중이다."
-msgstr "The uranium in the forge is still multiplying."
-
-#. ~ Description for {'str': '우라늄 증식 용광로'}
-#: .\advtech\sq_main_tools.json
-msgid ""
-"우라늄-235의 핵융합을 기반으로 한 용광로는 플루토늄 연료전지를 대체하고, 지속"
-"적으로 농축 우라늄을 생성할 수 있는 혁신적인 에너지 시스템입니다. 방사능과 전"
-"자파가 우려된다면서 발전소를 반대하는 사람들도 있었죠. 그 사람들이 이걸 보면 "
-"뭐라고 생각할까요?"
-msgstr ""
-"A forge based on the nuclear fusion of uranium-235 is a revolutionary energy "
-"system that can replace plutonium fuel cells and produce continuously "
-"enriched uranium. There were some people who opposed the plant because they "
-"were concerned about radiation and electromagnetic waves. What would they "
-"think if they saw this?"
 
 #: .\advtech\sq_main_tools.json
 msgid "물질 합성기: 나노 프린터"
@@ -1989,23 +2000,23 @@ msgid_plural "열화 우라늄"
 msgstr[0] "depleted uranium"
 msgstr[1] "depleted uranium"
 
-#: .\advtech\sq_nano_generic_comp.json
+#: .\advtech\sq_nano_generic_comp.json .\requirements\sq_requirements.json
 msgid "dented"
 msgstr ""
 
-#: .\advtech\sq_nano_generic_comp.json
+#: .\advtech\sq_nano_generic_comp.json .\requirements\sq_requirements.json
 msgid "scratched"
 msgstr ""
 
-#: .\advtech\sq_nano_generic_comp.json
+#: .\advtech\sq_nano_generic_comp.json .\requirements\sq_requirements.json
 msgid "marked"
 msgstr ""
 
-#: .\advtech\sq_nano_generic_comp.json
+#: .\advtech\sq_nano_generic_comp.json .\requirements\sq_requirements.json
 msgid "smashed"
 msgstr ""
 
-#: .\advtech\sq_nano_generic_comp.json
+#: .\advtech\sq_nano_generic_comp.json .\requirements\sq_requirements.json
 msgid "shattered"
 msgstr ""
 
@@ -2293,6 +2304,42 @@ msgstr ""
 "essential pieces of gear for seasoned adventurers."
 
 #: .\advtech\sq_nano_tier.json
+msgid "카본 단열슈트"
+msgid_plural "카본 단열슈트s"
+msgstr[0] "carbon insulation suit"
+msgstr[1] "carbon insulation suits"
+
+#. ~ Description for {'str': '카본 단열슈트'}
+#: .\advtech\sq_nano_tier.json
+msgid ""
+"그래핀 시트를 겹쳐서 만든 얇은 전신 내복으로 가벼우면서도 내구성이 뛰어나며, "
+"자유로운 움직임을 제공합니다. 극한 지역을 탐험하는 노련한 모험가들에게 필수적"
+"인 장비 중 하나입니다."
+msgstr ""
+"A thin, full-body garment made from overlapping sheets of graphene that is "
+"lightweight, durable, and provides freedom of movement. It is one of the "
+"essential pieces of equipment for seasoned adventurers exploring extreme "
+"regions."
+
+#: .\advtech\sq_nano_tier.json
+msgid "카본 전신슈트"
+msgid_plural "카본 전신슈트s"
+msgstr[0] "carbon full-body suit"
+msgstr[1] "carbon full-body suits"
+
+#. ~ Description for {'str': '카본 전신슈트'}
+#: .\advtech\sq_nano_tier.json
+msgid ""
+"그래핀 시트를 겹쳐서 만든 얇은 전신 내복으로 가벼우면서도 내구성이 뛰어나며, "
+"자유로운 움직임을 제공합니다. 스스로 정체를 밝히고 싶지 않아하는 노련한 모험"
+"가들에게 필수적인 장비 중 하나입니다."
+msgstr ""
+"A thin, full-body garment made from layers of graphene sheets, it's "
+"lightweight, durable, and provides freedom of movement. It's one of the "
+"essential pieces of gear for seasoned adventurers who don't want to give "
+"away their identity."
+
+#: .\advtech\sq_nano_tier.json
 msgid "히트 블레이드"
 msgid_plural "히트 블레이드s"
 msgstr[0] "heat blade"
@@ -2459,6 +2506,145 @@ msgid ""
 "and chemicals.  Includes proper fume vents and a separator, so you don't "
 "contaminate your food with toxic chemicals."
 msgstr ""
+
+#: .\advtech\sq_vehicle_part.json
+msgid "화물 냉동고"
+msgid_plural "화물 냉동고"
+msgstr[0] "cargo freezer"
+msgstr[1] "cargo freezers"
+
+#. ~ Description for {'str': '화물 냉동고', 'str_pl': '화물 냉동고'}
+#. ~ Description for {'str': '화물 냉동고'}
+#: .\advtech\sq_vehicle_part.json
+msgid ""
+"식품을 냉동 보관할 수 있는 이동식 솔루션으로 설계된 대형 버전의 300L의 대용"
+"량 냉동고입니다. 외부 요소로부터 단열 기능을 제공합니다."
+msgstr ""
+"A large version of the 300 litre capacity freezer designed as a mobile "
+"solution for freezing food. It provides insulation from external elements."
+
+#: .\advtech\sq_vehicle_part.json
+msgid "초고속 충전소"
+msgid_plural "초고속 충전소s"
+msgstr[0] "superfast recharging station"
+msgstr[1] "superfast recharging stations"
+
+#. ~ Description for {'str': '초고속 충전소'}
+#: .\advtech\sq_vehicle_part.json
+msgid ""
+"차량 전력으로 작동하는 최첨단 충전소입니다. 작동 중에 내부 저장공간에 삽입된 "
+"모든 충전 가능한 배터리 (셀식 배터리, 납-산 배터리 등) 를 초고속 충전 기술로 "
+"배터리 충전소보다 훨씬 빨리 충전시킬 것입니다. 이 장치는 사전에 설치된 저장공"
+"간이 있어야 설치할 수 있으며, 대시보드나 전자기기 제어장치에서 끄고 켤 수 있"
+"습니다."
+msgstr ""
+"This is a state-of-the-art charging station that runs on vehicle power. "
+"During operation, it will charge any rechargeable battery (cellular, lead-"
+"acid, etc.) inserted into the internal storage compartment with ultra-fast "
+"charging technology, much faster than a battery charging station. The unit "
+"requires a pre-installed storage compartment to install, and can be switched "
+"on and off from the dashboard or electronics controls."
+
+#: .\advtech\sq_vehicle_part.json
+msgid "원자력 엔진"
+msgid_plural "원자력 엔진s"
+msgstr[0] "atomic engine"
+msgstr[1] "atomic engines"
+
+#. ~ Description for {'str': '원자력 엔진'}
+#: .\advtech\sq_vehicle_part.json
+msgid ""
+"방사능 붕괴를 통해 열을 생성하여 차량에 지속적이고 안정적인 전력을 얻는 원자"
+"력 엔진입니다. 첨단 설계 덕분에 한 차량에 여러 개를 설치해도 출력 낭비가 일어"
+"나지 않습니다."
+msgstr ""
+"A nuclear engine that generates electricity through radioactive decay to "
+"provide continuous, reliable power for a vehicle. Thanks to its advanced "
+"design, there is no wasted power when multiple are installed in a vehicle."
+
+#: .\advtech\sq_vehicle_part.json
+msgid "차량용 하드라이트 부무장"
+msgstr "mounted hardlight sidearm"
+
+#: .\advtech\sq_vehicle_part.json
+msgid "차량용 하드라이트 확산총"
+msgstr "mounted hardlight scatter gun"
+
+#: .\advtech\sq_vehicle_part.json
+msgid "차량용 하드라이트 카빈"
+msgstr "mounted hardlight carbine"
+
+#: .\advtech\sq_vehicle_part.json
+msgid "차량용 하드라이트 소총"
+msgstr "mounted hardlight rifle"
+
+#: .\advtech\sq_vehicle_part.json
+msgid "차량용 하드라이트 정밀소총"
+msgstr "mounted harlight precision rifle"
+
+#: .\advtech\sq_vehicle_part.json
+msgid "차량용 테슬라 캐논"
+msgstr "mounted tesla cannon"
+
+#: .\advtech\sq_vehicle_part.json
+msgid "겹층 탄화물 장갑판"
+msgid_plural "겹층 탄화물 장갑판"
+msgstr[0] "layered carbide plate"
+msgstr[1] "layered carbide plates"
+
+#. ~ Description for {'str': '겹층 탄화물 장갑판', 'str_pl': '겹층 탄화물 장갑판'}
+#: .\advtech\sq_vehicle_part.json
+msgid ""
+"강화된 겹층 탄화물 플레이트로, 가벼우면서도 튼튼한, 차량에 부착할 수 있는 최"
+"고의 총알 방지 장치입니다."
+msgstr ""
+"A reinforced, layered carbide plate that's lightweight yet strong; the best "
+"bullet-stopper you can stick on a vehicle."
+
+#: .\advtech\sq_vehicle_part.json
+msgid "탄소섬유 프레임"
+msgid_plural "탄소섬유 프레임s"
+msgstr[0] "carbon fibre frame"
+msgstr[1] "carbon fibre frames"
+
+#. ~ Description for {'str': '탄소섬유 프레임'}
+#: .\advtech\sq_vehicle_part.json
+msgid "겹층 탄화물로 만든 큰 프레임이다. 제작에 쓰인다."
+msgstr "A large frame made of layered carbide."
+
+#. ~ Description for {'str': '탄소섬유 프레임'}
+#: .\advtech\sq_vehicle_part.json
+msgid ""
+"탄소섬유 프레임입니다. 프레임 위에 다른 차량 부품들을 장착할 수 있고, 또 다"
+"른 프레임을 붙여서 차량 크기를 늘릴 수 있습니다. "
+msgstr ""
+"A carbon fibre frame. Other vehicle components can be mounted on it, and it "
+"can be attached to other frames to increase the vehicle's size. "
+
+#: .\advtech\sq_vehicle_part.json
+msgid "고강도 탄소섬유 프레임"
+msgid_plural "고강도 탄소섬유 프레임s"
+msgstr[0] "heavy-duty carbon fibre frame"
+msgstr[1] "heavy-duty carbon fibre frames"
+
+#. ~ Description for {'str': '고강도 탄소섬유 프레임'}
+#: .\advtech\sq_vehicle_part.json
+msgid "경량 군용 차량 건조에 사용되는 대형 강화 겹층 탄화물 프레임입니다."
+msgstr ""
+"A large reinforced layered carbide frame used in the construction of "
+"lightweight military vehicles."
+
+#. ~ Description for {'str': '고강도 탄소섬유 프레임'}
+#: .\advtech\sq_vehicle_part.json
+msgid ""
+"상대적으로 무거운 탄소섬유 프레임입니다. 프레임 위에 다른 차량 부품들을 장착"
+"할 수 있고, 또 다른 프레임을 붙여서 차량 크기를 늘릴 수 있습니다. 질량이 클수"
+"록 충돌로 인한 피해량을 더 적게 받습니다."
+msgstr ""
+"A relatively heavy carbon fibre frame. Other vehicle components can be "
+"mounted on it, and it can be attached to other frames to increase the "
+"vehicle's size.  Increased mass makes it more resistant to damage in "
+"collisions."
 
 #: .\items\sq_armor_override.json
 msgid "fur coat"
@@ -3065,6 +3251,21 @@ msgstr ""
 "between two parallel coils."
 
 #: .\items\sq_cargo_frame.json
+msgid "파워 아머 차원 안정기"
+msgid_plural "파워 아머 차원 안정기s"
+msgstr[0] "power armor dimension stabilizer"
+msgstr[1] "power armor dimension stabilizers"
+
+#. ~ Description for {'str': '파워 아머 차원 안정기'}
+#: .\items\sq_cargo_frame.json
+msgid ""
+"파워 아머 화물 프레임에 차원 안정기를 결합했습니다. 아, 정말로 완벽한 발상이"
+"예요."
+msgstr ""
+"Combined a power armor hauling frame with a dimensional stabilizer. Ah, what "
+"a perfect idea."
+
+#: .\items\sq_cargo_frame.json
 msgid "뱅가드 스켈레톤"
 msgid_plural "뱅가드 스켈레톤s"
 msgstr[0] "vanguard exoskeleton"
@@ -3402,6 +3603,34 @@ msgid ""
 "저장을 위해 꽉 묶어둔 철사입니다. 사용하거나 분해하여 내용물을 꺼낼 수 있습니"
 "다."
 msgstr "Wires, bundled tightly together for storage.  Disassemble to unpack."
+
+#: .\items\sq_generic.json
+msgid "전자기기 잔해 묶음"
+msgid_plural "전자기기 잔해 묶음"
+msgstr[0] "bundle of electronic scraps"
+msgstr[1] "bundles of electronic scraps"
+
+#. ~ Description for {'str': '전자기기 잔해 묶음', 'str_pl': '전자기기 잔해 묶음'}
+#: .\items\sq_generic.json
+msgid ""
+"저장을 위해 꽉 묶어둔 전자기기 잔해입니다. 사용하거나 분해하여 내용물을 꺼낼 "
+"수 있습니다."
+msgstr ""
+"Electronic scraps, bundled tightly together for storage.  Disassemble to "
+"unpack."
+
+#: .\items\sq_generic.json
+msgid "8x40mm caseless"
+msgid_plural "8x40mm caseless"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': '8x40mm caseless'}
+#: .\items\sq_generic.json
+msgid ""
+"8x40mm caseless rounds.  Proprietary ammunition for Rivtech firearms.  Being "
+"caseless rounds, these cannot be disassembled or reloaded."
+msgstr ""
 
 #: .\items\sq_generic.json
 msgid "40x46mm 무탄피 유탄"
@@ -4499,6 +4728,317 @@ msgstr ""
 "support, helping you to carry more equipment. The internal cooling tubes are "
 "active and humming."
 
+#: .\items\sq_unrand.json
+msgid "맥가이버 창"
+msgid_plural "맥가이버 창s"
+msgstr[0] "MacGyver's spear"
+msgstr[1] "MacGyver's spears"
+
+#. ~ Description for {'str': '맥가이버 창'}
+#: .\items\sq_unrand.json
+msgid ""
+"커다란 멀티툴에서 나무로 만든 긴 막대기가 뻗어나왔습니다. 아니면, 나무 막대"
+"기 끝에 커다란 멀티툴이 달린 것일까요?"
+msgstr ""
+"A long wooden stick extends from a large multitool. Or is it just a big "
+"multitool on the end of a wooden stick?"
+
+#: .\items\sq_unrand.json
+msgid "루실"
+msgid_plural "루실"
+msgstr[0] "Lucile"
+msgstr[1] "Lucile"
+
+#. ~ Description for {'str_sp': '루실'}
+#: .\items\sq_unrand.json
+msgid ""
+"어떤. 놈을. 족칠. 까요. 알아. 맞춰. 보세. 요. \n"
+"가시철사가 빙빙 감겨진 나무방망이로, 피칠갑 되어있으며 군데군데 녹이 슬었지"
+"만, 이 무기에서 알 수 없는 힘이 느껴집니다."
+msgstr ""
+"Eenie, meenie, miney, moe. \n"
+"A wooden bat with barbed wire coiled around it, it's blood-coated and rusted "
+"in places, but you sense an unknown power in this weapon."
+
+#: .\items\sq_unrand.json
+msgid "치노아라시"
+msgid_plural "치노아라시"
+msgstr[0] "Chi no Arashi"
+msgstr[1] "Chi no Arashi"
+
+#. ~ Description for {'str_sp': '치노아라시'}
+#: .\items\sq_unrand.json
+msgid ""
+"휘두른 칼날\n"
+"폭풍 속 내달리며\n"
+"피 흩날리네."
+msgstr ""
+"Wielded Blade\n"
+"Rushing through the storm\n"
+"blood spattered."
+
+#: .\items\sq_unrand.json
+msgid "히노아라시"
+msgid_plural "히노아라시"
+msgstr[0] "Hi no Arashi"
+msgstr[1] "Hi no Arashi"
+
+#. ~ Use action lacks_fuel_message for {'str_sp': '히노아라시'}.
+#: .\items\sq_unrand.json
+msgid "Time stands still."
+msgstr ""
+
+#. ~ Use action success_message for {'str_sp': '히노아라시'}.
+#: .\items\sq_unrand.json
+msgid "The Sun rises."
+msgstr ""
+
+#. ~ Description for {'str_sp': '히노아라시'}
+#: .\items\sq_unrand.json
+msgid ""
+"불과 칼 함께\n"
+"가스불 번쩍이며\n"
+"적을 사르네"
+msgstr ""
+"Fire and Sword\n"
+"With gas flames rushing\n"
+"to burn the enemy"
+
+#. ~ Use action charges_extinguish_message for {'str_sp': '히노아라시'}.
+#: .\items\sq_unrand.json
+msgid "The Light Fades."
+msgstr ""
+
+#. ~ Use action noise_message for {'str_sp': '히노아라시'}.
+#: .\items\sq_unrand.json
+msgid "The Sun shines brightly."
+msgstr ""
+
+#. ~ Use action voluntary_extinguish_message for {'str_sp': '히노아라시'}.
+#: .\items\sq_unrand.json
+msgid "The Sun sets."
+msgstr ""
+
+#. ~ Use action water_extinguish_message for {'str_sp': '히노아라시'}.
+#: .\items\sq_unrand.json
+msgid "Your sword hisses in the water and goes out."
+msgstr ""
+
+#. ~ Description for {'str_sp': '히노아라시'}
+#: .\items\sq_unrand.json
+msgid ""
+"태양의 분노\n"
+"사용키를 누르면\n"
+"가스 잠그네"
+msgstr ""
+"Wrath of the Sun\n"
+"When you press the (a)\n"
+"Gas Lock"
+
+#: .\items\sq_unrand.json
+msgid "류이치몬지"
+msgid_plural "류이치몬지"
+msgstr[0] "Ryu Ichimonji"
+msgstr[1] "Ryu Ichimonji"
+
+#. ~ Use action msg for {'str_sp': '류이치몬지'}.
+#: .\items\sq_unrand.json
+msgid "용신의 검을 받아라!"
+msgstr "The dragon becomes me!"
+
+#. ~ Use action need_charges_msg for {'str_sp': '류이치몬지'}.
+#: .\items\sq_unrand.json
+msgid "검의 목소리가 들려온다. \"궁극기 충전 중이다.\""
+msgstr "You hear the voice of the sword. \"I'm charging the ultimate.\""
+
+#. ~ Description for {'str_sp': '류이치몬지'}
+#: .\items\sq_unrand.json
+msgid ""
+"일본의 거대한 곡선형 양손도. 녹색 북풍의 용의 형상이 칼날에 깃들어 있습니다. "
+"당신은 언제든지 적들에게 치명적인 참격을 날릴 준비가 되어 있습니다."
+msgstr ""
+"A massive curved two-handed sword from Japan. The green dragon of the north "
+"wind is emblazoned on the blade. You are ready to strike a deadly blow "
+"against your enemies at any moment."
+
+#. ~ Use action msg for {'str_sp': '류이치몬지'}.
+#: .\items\sq_unrand.json
+msgid "용은 재충전이 필요하다."
+msgstr "The dragon needs recharging."
+
+#: .\items\sq_unrand.json
+msgid "하이랜더"
+msgid_plural "하이랜더"
+msgstr[0] "highlander"
+msgstr[1] "highlanders"
+
+#. ~ Description for {'str_sp': '하이랜더'}
+#: .\items\sq_unrand.json
+msgid ""
+"적을 죽일 때는 먼 거리에서 소총, 화살, 로켓, 아니면 다른 원거리 쓰레기로 청소"
+"하는 것이 아닙니다. 보이는 것 중에 가장 크고 피비린내 나는 칼을 들고, 그의 가"
+"까이까지 뛰어가서 그 멍청한 녀석의 목을 썰어냄으로써 죽이는 것입니다."
+msgstr ""
+"When you kill an enemy, you're not mopping up with rifles, arrows, rockets, "
+"or other ranged junk from a distance; you're grabbing the biggest, bloodiest "
+"knife you can see, running up to him, and slitting their stupid throat."
+
+#: .\items\sq_unrand.json
+msgid "흡혈"
+msgstr "Leech Life"
+
+#. ~ Description for {'str': '흡혈'}
+#: .\items\sq_unrand.json
+msgid "때리면 흡혈."
+msgstr "leeching life on hit."
+
+#: .\items\sq_unrand.json
+msgid "흡혈 효과"
+msgstr "Leech Life Effect"
+
+#. ~ Description for {'str': '흡혈 효과'}
+#: .\items\sq_unrand.json
+msgid "흡혈 네."
+msgstr "yes, leech life."
+
+#: .\items\sq_unrand.json
+msgid "달인의 검"
+msgid_plural "달인의 검s"
+msgstr[0] "master's sword"
+msgstr[1] "master's swords"
+
+#. ~ Description for {'str': '달인의 검'}
+#: .\items\sq_unrand.json
+msgid ""
+"오래 전부터 걸쳐 전승되오던 브로드소드. 마스터 소드, 퇴마의 검, 신성모독, 배"
+"교자의 검 등 갖가지 이름으로 불려왔지만, 검신이 푸른 빛으로 빛나고 있다는 사"
+"실 하나는 분명합니다."
+msgstr ""
+"The broadsword that has been passed down through the ages. It has been "
+"called the Master Sword, the Sword of Exorcism, the Blasphemy, the "
+"Apostate's Sword, and many other names, but one thing is certain: the hilt "
+"glows blue."
+
+#: .\items\sq_unrand.json
+msgid "제로 세이버"
+msgid_plural "제로 세이버"
+msgstr[0] "zero saber"
+msgstr[1] "zero sabers"
+
+#. ~ Use action msg for {'str': '제로 세이버', 'str_pl': '제로 세이버'}.
+#: .\items\sq_unrand.json
+msgid "제로 세이버를 켰습니다."
+msgstr "You turn on zero saber."
+
+#. ~ Description for {'str': '제로 세이버', 'str_pl': '제로 세이버'}
+#: .\items\sq_unrand.json
+msgid "삼각형 모양의 검신을 가진 입자 검. 광역 공격과 회전베기가 특징입니다."
+msgstr ""
+"A particle sword with a triangular hilt. Features an wide attack and a "
+"spinning slash."
+
+#. ~ Use action msg for {'str': '제로 세이버', 'str_pl': '제로 세이버'}.
+#: .\items\sq_unrand.json
+msgid "제로 세이버를 껐습니다."
+msgstr "You turned off the zero saber."
+
+#. ~ Description for {'str': '제로 세이버', 'str_pl': '제로 세이버'}
+#: .\items\sq_unrand.json
+msgid ""
+"삼각형 모양의 검신을 가진 입자 검. 광역 공격과 회전베기가 특징입니다. 사용하"
+"여 끌 수 있습니다."
+msgstr ""
+"A particle sword with a triangular hilt. Features an wide attack and a "
+"spinning slash. Use to turn off."
+
+#: .\items\sq_unrand.json
+msgid "부러진 정화의 검"
+msgid_plural "부러진 정화의 검s"
+msgstr[0] "broken sword of purification"
+msgstr[1] "broken sword of purifications"
+
+#. ~ Use action msg for {'str': '부러진 정화의 검'}.
+#: .\items\sq_unrand.json
+msgid "검이 빛에 휘감기더니 본래의 형상을 되찾았습니다!"
+msgstr "The sword is enveloped in light and regains its original shape!"
+
+#. ~ Use action need_charges_msg for {'str': '부러진 정화의 검'}.
+#. ~ Use action need_charges_msg for {'str': '정화의 검'}.
+#: .\items\sq_unrand.json
+msgid "아직은 아무런 반응이 없다."
+msgstr "There's no response yet."
+
+#. ~ Description for {'str': '부러진 정화의 검'}
+#: .\items\sq_unrand.json
+msgid ""
+"신성한 힘이 담긴 검. 악한 기운을 정화시켜 양분으로 삼는 능력이 있습니다."
+msgstr ""
+"A sword imbued with divine power. It has the ability to purify evil energy "
+"and turn it into nourishment."
+
+#: .\items\sq_unrand.json
+msgid "정화의 검"
+msgid_plural "정화의 검s"
+msgstr[0] "sword of purification"
+msgstr[1] "sword of purifications"
+
+#. ~ Use action msg for {'str': '정화의 검'}.
+#: .\items\sq_unrand.json
+msgid "검이 빛에 휘감기더니 감춰왔던 형상을 드러냅니다!"
+msgstr "The sword is engulfed in light, revealing its hidden form!"
+
+#. ~ Description for {'str': '정화의 검'}
+#: .\items\sq_unrand.json
+msgid ""
+"본래의 모습을 되찾은 정화의 검. 하지만 아직 숨겨진 힘이 해방되지 않았습니다. "
+"어쩌면 찢겨진 현실의 구멍을 원래대로 되돌릴 수 있을 지도?"
+msgstr ""
+"The sword of purification has been restored to its original form. But its "
+"hidden power has yet to be unleashed. Perhaps it can repair the tear in "
+"reality?"
+
+#. ~ Relic recharge message for TOOL '{'str': '정화의 검'}'
+#: .\items\sq_unrand.json
+msgid "The portal collapses!"
+msgstr ""
+
+#. ~ Description for {'str': '정화의 검'}
+#: .\items\sq_unrand.json
+msgid ""
+"숨겨진 힘을 온전히 해방한 성검. 주문을 사용하여 하나의 대상에게 엄청난 대미지"
+"를 줄 수 있습니다."
+msgstr ""
+"A holy sword that has fully unleashed its hidden power. Spells can be cast "
+"to deal massive damage to a single target."
+
+#: .\items\sq_unrand.json
+msgid "재활"
+msgstr "Rehabilitation"
+
+#. ~ Description for {'str': '재활'}
+#: .\items\sq_unrand.json
+msgid "대량의 스태미나를 회복하고 적 하나를 쪼개버립니다."
+msgstr "Restores a large amount of stamina and splits an enemy."
+
+#. ~ Message for SPELL '{'str': '재활'}'
+#: .\items\sq_unrand.json
+msgid "A pulse of pure dimensional energy lances from your blade!"
+msgstr ""
+
+#: .\items\sq_unrand.json
+msgid "천상의 분노"
+msgstr "Divine Wrath"
+
+#. ~ Description for {'str': '천상의 분노'}
+#: .\items\sq_unrand.json
+msgid "적 하나를 갈라버립니다."
+msgstr "Splits an enemy."
+
+#. ~ Description for the sound of spell '{'str': '천상의 분노'}'
+#: .\items\sq_unrand.json
+msgid "메아리치는 번개"
+msgstr "echoing lightning!"
+
 #: .\items\sq_weapon_override.json
 msgid "Eskrima"
 msgstr ""
@@ -4626,6 +5166,27 @@ msgstr ""
 #. ~ Computer option
 #: .\mapgen\hazardous_waste_sarcophagus.json
 msgid "COMMAND: SEAL SRCF [4423]"
+msgstr ""
+
+#. ~ Computer name
+#: .\mapgen\lab_floorplans_finale1level.json
+msgid "Sub-prime Contact Console"
+msgstr ""
+
+#. ~ Computer option
+#: .\mapgen\lab_floorplans_finale1level.json
+msgid "Toggle Portal"
+msgstr ""
+
+#. ~ Computer option
+#: .\mapgen\lab_floorplans_finale1level.json
+msgid "Activate Resonance Cascade"
+msgstr ""
+
+#. ~ Computer access denied warning
+#: .\mapgen\lab_floorplans_finale1level.json
+msgid ""
+"ERROR!  Access denied!  Unauthorized access will be met with lethal force!"
 msgstr ""
 
 #. ~ Computer name
@@ -4786,12 +5347,12 @@ msgstr[1] "drones: companion"
 #: .\monsters\sq_friendlydrones.json
 msgid ""
 "아포칼립스 세계에서는 충실한 짐꾼과 친구가 필요합니다. 드론: 컴패니언은 중형 "
-"동물 갑옷을 입힐 수 있고, 90kg까지의 무게를 들 수 있으며, 귀여운 애완 동물처"
+"동물 갑옷을 입힐 수 있고, 180kg까지의 무게를 들 수 있으며, 귀여운 애완 동물처"
 "럼 행동할 수 있습니다. 수틀릴 경우에도 드론에 탑승하여 낮게 떠서 날아갈 수 있"
 "습니다."
 msgstr ""
 "In an apocalyptic world, you need faithful pack animals and friends. Drones: "
-"companion can be equipped with medium animal armor, can lift up to 90 kg, "
+"companion can be equipped with medium animal armor, can lift up to 180 kg, "
 "and can act like a cute pet. They can also be mounted on a drone and fly "
 "low, even when they're mauled."
 
@@ -4805,13 +5366,13 @@ msgstr[1] "inactive drones: companion"
 #: .\monsters\sq_friendlydrones.json
 msgid ""
 "아포칼립스 세계에서는 충실한 짐꾼과 친구가 필요합니다. 드론: 컴패니언은 중형 "
-"동물 갑옷을 입힐 수 있고, 90kg까지의 무게를 들 수 있으며, 귀여운 애완 동물처"
+"동물 갑옷을 입힐 수 있고, 180kg까지의 무게를 들 수 있으며, 귀여운 애완 동물처"
 "럼 행동할 수 있습니다. 수틀릴 경우에도 드론에 탑승하여 낮게 떠서 날아갈 수 있"
 "습니다. 재프로그래밍 및 재설치를 마쳤다면 애완로봇이 명령에 응답해, 충실한 경"
 "량 로봇 짐꾼이자 친구로 작동할 것입니다."
 msgstr ""
 "In an apocalyptic world, you need faithful pack animals and friends. Drones: "
-"companion can be equipped with medium animal armor, can lift up to 90 kg, "
+"companion can be equipped with medium animal armor, can lift up to 180 kg, "
 "and can act like a cute pet. They can also be mounted on a drone and fly "
 "low, even when they're mauled. Once reprogrammed and reinstalled, your pet "
 "robot will respond to your commands and act as a faithful lightweight "
@@ -12535,6 +13096,257 @@ msgstr "DRONES"
 #: .\recipe\recipes.json
 msgid "OTHER"
 msgstr ""
+
+#: .\requirements\sq_requirements.json
+msgid "그래핀"
+msgstr "graphene"
+
+#: .\requirements\sq_requirements.json
+msgid "ripped"
+msgstr ""
+
+#: .\requirements\sq_requirements.json
+msgid "cut"
+msgstr ""
+
+#: .\requirements\sq_requirements.json
+msgid "torn"
+msgstr ""
+
+#: .\requirements\sq_requirements.json
+msgid "shredded"
+msgstr ""
+
+#: .\requirements\sq_requirements.json
+msgid "tattered"
+msgstr ""
+
+#: .\requirements\sq_requirements.json
+msgid "layered carbide"
+msgstr ""
+
+#: .\techniques\sq_unrand_techniques.json
+msgid "Wide Strike"
+msgstr ""
+
+#: .\techniques\sq_unrand_techniques.json
+msgid "Attack in a wide arc, hitting multiple targets"
+msgstr ""
+
+#: .\techniques\sq_unrand_techniques.json
+#, c-format
+msgid "You swing in a wide arc through %s"
+msgstr ""
+
+#: .\techniques\sq_unrand_techniques.json
+#, c-format
+msgid "<npcname> swings in a wide arc through %s"
+msgstr ""
+
+#: .\techniques\sq_unrand_techniques.json
+msgid "회전 베기"
+msgstr "Spin Slash"
+
+#: .\techniques\sq_unrand_techniques.json
+msgid "Attack adjacent enemies"
+msgstr ""
+
+#: .\techniques\sq_unrand_techniques.json
+#, c-format
+msgid "You swing through %s and everyone nearby"
+msgstr ""
+
+#: .\techniques\sq_unrand_techniques.json
+#, c-format
+msgid "<npcname> swings through %s and everyone nearby"
+msgstr ""
+
+#: .\techniques\sq_unrand_techniques.json
+msgid "Brutal Strike"
+msgstr ""
+
+#: .\techniques\sq_unrand_techniques.json
+msgid "기절 1턴, 치명타시"
+msgstr "Stun for 1 turn, on critical hit"
+
+#: .\techniques\sq_unrand_techniques.json
+#, c-format
+msgid "You send %s reeling"
+msgstr ""
+
+#: .\techniques\sq_unrand_techniques.json
+#, c-format
+msgid "<npcname> sends %s reeling"
+msgstr ""
+
+#: .\techniques\sq_unrand_techniques.json
+msgid "처형"
+msgstr "Execution"
+
+#: .\techniques\sq_unrand_techniques.json
+msgid "이동력 소모 150%, 기절한 대상에게 200% 피해"
+msgstr "150% movement cost, 200% damage to stunned targets"
+
+#: .\techniques\sq_unrand_techniques.json
+#, c-format
+msgid "%s을(를) 내려찍어 마무리 일격을 가합니다"
+msgstr "You strike %s down for the finishing blow"
+
+#: .\techniques\sq_unrand_techniques.json
+#, c-format
+msgid "<npcname> %s을(를) 내려찍습니다"
+msgstr "<npcname> strike %s down for the finishing blow"
+
+#: .\techniques\sq_unrand_techniques.json
+msgid "Flowing Water Cut"
+msgstr ""
+
+#: .\techniques\sq_unrand_techniques.json
+msgid "이동력 소모 175%, 200% 피해"
+msgstr "175% movement cost, 200% damage"
+
+#: .\techniques\sq_unrand_techniques.json
+#, c-format
+msgid "You strike %s with the slow power of flowing water"
+msgstr ""
+
+#: .\techniques\sq_unrand_techniques.json
+#, c-format
+msgid "<npcname> strikes %s with the slow power of flowing water"
+msgstr ""
+
+#: .\techniques\sq_unrand_techniques.json
+msgid "Red Leaf's Cut"
+msgstr ""
+
+#: .\techniques\sq_unrand_techniques.json
+msgid "기절 1턴"
+msgstr "Stun for 1 turn"
+
+#: .\techniques\sq_unrand_techniques.json
+#, c-format
+msgid "Your strike knocks %s off balance"
+msgstr ""
+
+#: .\techniques\sq_unrand_techniques.json
+#, c-format
+msgid "<npcname>'s strike knocks %s off balance"
+msgstr ""
+
+#: .\techniques\sq_unrand_techniques.json
+msgid "Fire and Stone's Cut"
+msgstr ""
+
+#: .\techniques\sq_unrand_techniques.json
+msgid "기절 1턴, 150% 피해, 치명타시"
+msgstr "Stun for 1 turn, 150% damage, on critical hit"
+
+#: .\techniques\sq_unrand_techniques.json
+#, c-format
+msgid "You stun %s with the force of your cut"
+msgstr ""
+
+#: .\techniques\sq_unrand_techniques.json
+#, c-format
+msgid "<npcname> stuns %s with the force of their cut"
+msgstr ""
+
+#: .\techniques\sq_unrand_techniques.json
+msgid "In-One Timing"
+msgstr ""
+
+#: .\techniques\sq_unrand_techniques.json
+msgid "이동력 소모 50%, 기절 1턴, 150% 피해"
+msgstr "50% movement cost, stun for 1 turn, 150% damage"
+
+#: .\techniques\sq_unrand_techniques.json
+#, c-format
+msgid "You strike at %s's weaknesses"
+msgstr ""
+
+#: .\techniques\sq_unrand_techniques.json
+#, c-format
+msgid "<npcname> strikes %s's weaknesses"
+msgstr ""
+
+#: .\techniques\sq_unrand_techniques.json
+msgid "Feint"
+msgstr ""
+
+#: .\techniques\sq_unrand_techniques.json
+msgid "빗나갈시 이동력 소모 80%"
+msgstr "80% movement cost on miss"
+
+#: .\techniques\sq_unrand_techniques.json
+#, c-format
+msgid "You feint at %s"
+msgstr ""
+
+#: .\techniques\sq_unrand_techniques.json
+#, c-format
+msgid "<npcname> feints at %s"
+msgstr ""
+
+#~ msgid ""
+#~ "UPS로 돌아가게끔 만든, 방탄조끼와 회로가 삽입된 점프슈트를 사용해서 만든 "
+#~ "수제 방어구. 리브텍 RM13 컴뱃아머의 설계를 참고해 만들었습니다. 해석하기 "
+#~ "어려운 기술력과 양산성을 고려하여 일부 기능이 생략되었지만, 여전히 각종 피"
+#~ "해로부터 몸을 보호해줍니다. 사용하면 전원을 켭니다."
+#~ msgstr ""
+#~ "A custom-built armor made from a bulletproof vest and a jumpsuit with "
+#~ "circuitry inserted into it, designed to internally powered by UPS. Based "
+#~ "on the design of the Rivtech RM13 Combat Armor. Some features have been "
+#~ "omitted due to difficulty of interpreting technology and for "
+#~ "productivity, but it still protects you from the elements as well as from "
+#~ "harm. Use it to turn it on."
+
+#~ msgid "동위원소 원심분리 용광로"
+#~ msgid_plural "동위원소 원심분리 용광로s"
+#~ msgstr[0] "isotope centrifuge forge"
+#~ msgstr[1] "isotope centrifuge forges"
+
+#~ msgid ""
+#~ "원자력 용광로 겸 회전 원심분리기. 액체납으로 차폐한 이중관과 이중용기로 이"
+#~ "루어진 전기먹는 하마입니다. 본격적인 핵연료의 이용과 추출이 가능해집니다."
+#~ msgstr ""
+#~ "Atomic forge and rotary centrifuge. An electricity-eating hippopotamus "
+#~ "consisting of a double tube and a double vessel shielded with liquid "
+#~ "lead. Enables full-scale utilization and extraction of nuclear fuel."
+
+#~ msgid "우라늄 증식 용광로 (증식 완료)"
+#~ msgid_plural "우라늄 증식 용광로 (증식 완료)s"
+#~ msgstr[0] "uranium enrichment forge (completed)"
+#~ msgstr[1] "uranium enrichment forges (completed)"
+
+#~ msgid ""
+#~ "우라늄 증식 용광로가 농축 우라늄 생산 절차를 마쳤습니다. 분해하여 회수하십"
+#~ "시오."
+#~ msgstr ""
+#~ "The uranium enrichment forge has completed the process of producing "
+#~ "enriched uranium. Disassemble and recover it."
+
+#~ msgid "우라늄 증식 용광로"
+#~ msgid_plural "우라늄 증식 용광로s"
+#~ msgstr[0] "uranium enrichment forge"
+#~ msgstr[1] "uranium enrichment forges"
+
+#~ msgid "용광로의 우라늄이 가득 찼다. 이제 꺼내야 할 시간이다."
+#~ msgstr "The forge is full of uranium, and it's time to get it out."
+
+#~ msgid "용광로의 우라늄이 아직 증식하는 중이다."
+#~ msgstr "The uranium in the forge is still multiplying."
+
+#~ msgid ""
+#~ "우라늄-235의 핵융합을 기반으로 한 용광로는 플루토늄 연료전지를 대체하고, "
+#~ "지속적으로 농축 우라늄을 생성할 수 있는 혁신적인 에너지 시스템입니다. 방사"
+#~ "능과 전자파가 우려된다면서 발전소를 반대하는 사람들도 있었죠. 그 사람들이 "
+#~ "이걸 보면 뭐라고 생각할까요?"
+#~ msgstr ""
+#~ "A forge based on the nuclear fusion of uranium-235 is a revolutionary "
+#~ "energy system that can replace plutonium fuel cells and produce "
+#~ "continuously enriched uranium. There were some people who opposed the "
+#~ "plant because they were concerned about radiation and electromagnetic "
+#~ "waves. What would they think if they saw this?"
 
 #~ msgid ""
 #~ "5.56x45mm ammunition with a 62gr FMJ bullet containing a steel "
