@@ -270,7 +270,7 @@
     "type": "GENERIC",
     "copy-from": "sq_hardlight_blade_off",
     "category": "artifacts",
-    "name": { "str": "제로 세이버" },
+    "name": { "str": "제로 세이버", "str_pl": "제로 세이버" },
     "description": "삼각형 모양의 검신을 가진 입자 검. 광역 공격과 회전베기가 특징입니다.",
     "weight": "925 g",
     "color": "light_green",
