@@ -523,6 +523,12 @@
     "damage": { "damage_type": "stab", "amount": 30, "armor_penetration": 5 }
   },
   {
+    "id": "HARDLIGHT_SHRED",
+    "type": "ammo_effect",
+    "aoe": { "field_type": "fd_dazzling", "intensity_min": 1, "intensity_max": 1, "radius": 1, "chance": 15 },
+    "explosion": { "fragment": { "impact": { "damage_type": "true", "amount": 10 }, "range": 1 } }
+  },
+  {
     "id": "sq_hardlight_pistol",
     "copy-from": "pistol_energy",
     "type": "GUN",
@@ -536,11 +542,11 @@
     "material": [ "superalloy", "ceramic" ],
     "color": "light_blue",
     "range": 26,
-    "ranged_damage": { "damage_type": "heat", "amount": 25, "armor_penetration": 34 },
+    "ranged_damage": { "damage_type": "heat", "amount": 25, "armor_penetration": 54 },
     "dispersion": 140,
     "loudness": 7,
     "ups_charges": 20,
-    "ammo_effects": [ "LASER", "INCENDIARY", "FRAG" ]
+    "ammo_effects": [ "LASER", "INCENDIARY" ]
   },
   {
     "result": "sq_hardlight_pistol",
@@ -581,7 +587,7 @@
     "material": [ "superalloy", "ceramic" ],
     "color": "light_blue",
     "range": 20,
-    "ranged_damage": { "damage_type": "heat", "amount": 40, "armor_penetration": 16 },
+    "ranged_damage": { "damage_type": "heat", "amount": 40, "armor_penetration": 36 },
     "dispersion": 0,
     "modes": [ [ "DEFAULT", "semi", 1 ] ],
     "loudness": 36,
@@ -628,12 +634,12 @@
     "material": [ "superalloy", "ceramic" ],
     "color": "light_blue",
     "range": 28,
-    "ranged_damage": { "damage_type": "heat", "amount": 35, "armor_penetration": 34 },
+    "ranged_damage": { "damage_type": "heat", "amount": 35, "armor_penetration": 54 },
     "dispersion": 100,
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 3 ], [ "AUTO", "auto", 6 ] ],
     "loudness": 24,
     "ups_charges": 40,
-    "ammo_effects": [ "LASER", "INCENDIARY", "FRAG" ]
+    "ammo_effects": [ "LASER", "INCENDIARY" ]
   },
   {
     "result": "sq_hardlight_smg",
@@ -675,12 +681,12 @@
     "material": [ "superalloy", "ceramic" ],
     "color": "light_blue",
     "range": 32,
-    "ranged_damage": { "damage_type": "heat", "amount": 40, "armor_penetration": 38 },
+    "ranged_damage": { "damage_type": "heat", "amount": 40, "armor_penetration": 58 },
     "dispersion": 10,
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "AUTO", "auto", 4 ] ],
     "loudness": 24,
     "ups_charges": 50,
-    "ammo_effects": [ "LASER", "INCENDIARY", "FRAG" ]
+    "ammo_effects": [ "LASER", "INCENDIARY" ]
   },
   {
     "result": "sq_hardlight_rifle",
@@ -722,14 +728,14 @@
     "material": [ "superalloy", "ceramic" ],
     "color": "light_blue",
     "range": 50,
-    "ranged_damage": { "damage_type": "heat", "amount": 50, "armor_penetration": 52 },
+    "ranged_damage": { "damage_type": "heat", "amount": 50, "armor_penetration": 82 },
     "dispersion": 0,
     "recoil": 300,
     "min_cycle_recoil": 900,
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "AUTO", "auto", 2 ] ],
     "loudness": 36,
     "ups_charges": 60,
-    "ammo_effects": [ "LASER", "INCENDIARY", "FRAG" ]
+    "ammo_effects": [ "LASER", "INCENDIARY" ]
   },
   {
     "result": "sq_hardlight_sniper",
@@ -778,7 +784,7 @@
     "armor_data": { "covers": [ "torso" ], "coverage": 5, "material_thickness": 1, "encumbrance": 7 },
     "reload_noise_volume": 0,
     "loudness": 0,
-    "ranged_damage": { "damage_type": "heat", "amount": 60, "armor_penetration": 46 },
+    "ranged_damage": { "damage_type": "heat", "amount": 60, "armor_penetration": 56 },
     "range": 35,
     "dispersion": 80,
     "recoil": 1000,
@@ -786,7 +792,7 @@
     "reload": 50,
     "ups_charges": 30,
     "valid_mod_locations": [ [ "underbarrel", 1 ], [ "sights", 1 ], [ "accessories", 2 ], [ "stabilizer", 1 ] ],
-    "ammo_effects": [ "LASER", "INCENDIARY", "FRAG" ]
+    "ammo_effects": [ "LASER", "INCENDIARY" ]
   },
   {
     "result": "sq_hardlight_longbow",
@@ -957,7 +963,7 @@
       [ "stock", 1 ],
       [ "underbarrel", 1 ]
     ],
-    "ammo_effects": [ "INCENDIARY", "PLASMA_BUBBLE" ]
+    "ammo_effects": [ "INCENDIARY", "AMMO_RAILGUN" ]
   },
   {
     "result": "sq_fusion_pistol",
@@ -1022,7 +1028,7 @@
       [ "stock", 1 ],
       [ "underbarrel", 1 ]
     ],
-    "ammo_effects": [ "INCENDIARY", "PLASMA_BUBBLE", "DRAW_AS_LINE", "SHOT", "WIDE", "EXPLOSIVE_BIG" ]
+    "ammo_effects": [ "INCENDIARY", "AMMO_RAILGUN", "DRAW_AS_LINE", "SHOT", "WIDE", "EXPLOSIVE_BIG" ]
   },
   {
     "result": "sq_fusion_shotgun",
@@ -1088,7 +1094,7 @@
       [ "stock", 1 ],
       [ "underbarrel", 1 ]
     ],
-    "ammo_effects": [ "INCENDIARY", "PLASMA_BUBBLE" ]
+    "ammo_effects": [ "INCENDIARY", "AMMO_RAILGUN" ]
   },
   {
     "result": "sq_fusion_rifle",
@@ -1153,7 +1159,7 @@
       [ "stock", 1 ],
       [ "underbarrel", 1 ]
     ],
-    "ammo_effects": [ "INCENDIARY", "PLASMA_BUBBLE" ]
+    "ammo_effects": [ "INCENDIARY", "AMMO_RAILGUN" ]
   },
   {
     "result": "sq_fusion_sniper",
@@ -1188,7 +1194,7 @@
     "reload_noise_volume": 10,
     "name": { "str": "가우스 어설트 캐논" },
     "description": "매우 육중하고 아름다운 가우스 중화기. 연사력을 위하여 퓨전 코어를 하나 더 장착했습니다. 두 개의 심장으로 작동하는 이 훌륭한 대화수단은 가열된 금속 파편을 끝없이 쏟아냅니다.",
-    "weight": "11500 g",
+    "weight": "7500 g",
     "volume": "6700 ml",
     "price": 900000,
     "price_postapoc": 9000,
@@ -1219,7 +1225,7 @@
       [ "stock", 1 ],
       [ "underbarrel", 1 ]
     ],
-    "ammo_effects": [ "INCENDIARY", "PLASMA_BUBBLE", "EXPLOSIVE" ]
+    "ammo_effects": [ "INCENDIARY", "AMMO_RAILGUN", "EXPLOSIVE" ]
   },
   {
     "result": "sq_fusion_hmg",
@@ -1247,13 +1253,56 @@
     ]
   },
   {
+    "id": "AMMO_RAILGUN",
+    "type": "ammo_effect",
+    "trail": { "field_type": "fd_plasma", "intensity_min": 1, "intensity_max": 1, "chance": 75 },
+    "aoe": {
+      "field_type": "fd_plasma",
+      "intensity_min": 1,
+      "intensity_max": 3,
+      "chance": 50,
+      "radius": 1,
+      "size": 1,
+      "check_passable": true,
+      "check_sees": true,
+      "check_sees_radius": 3
+    },
+    "do_emp_blast": true
+  },
+  {
+    "id": "AMMO_PLASMA",
+    "type": "ammo_effect",
+    "trail": { "field_type": "fd_plasma", "intensity_min": 1, "intensity_max": 3, "chance": 75 },
+    "aoe": { "field_type": "fd_plasma", "intensity_min": 1, "intensity_max": 1, "size": 1, "radius": 2, "chance": 50 },
+    "explosion": { "fragment": { "impact": { "damage_type": "heat", "amount": 60 }, "range": 1 } }
+  },
+  {
+    "type": "technique",
+    "id": "SQ_HAMMERBLOW",
+    "name": "해머 블로",
+    "description": "강력한 넉백 공격",
+    "unarmed_allowed": true,
+    "melee_allowed": true,
+    "crit_tec": true,
+    "stun_dur": 3,
+    "knockback_dist": 1,
+    "weighting": -1,
+    "messages": [ "%s을(를) 내려찍습니다.", "<npcname>이(가) %s을(를) 내려찍습니다." ],
+    "mult_bonuses": [ 
+		{ "stat": "movecost", "scale": 1.5 },
+		{ "stat": "damage", "type": "bash", "scale": 1.66 },
+		{ "stat": "damage", "type": "cut", "scale": 0.75 },
+		{ "stat": "damage", "type": "stab", "scale": 1.33 }
+		]
+  },
+  {
     "id": "sq_fusion_hammer",
     "type": "TOOL",
     "category": "weapons",
     "weapon_category": [ "2H_HAMMERS", "PIKES", "FLAMETHROWERS" ],
     "name": { "str": "퓨전 로켓 해머" },
     "description": "퓨전 코어를 동력원으로 사용하는 거대한 로켓 추진 공성 해머. 망치질 뿐만 아니라 원자력에서 나오는 초고온의 불꽃을 투사하여 멀리 떨어진 적에게 불지옥을 선사할 수 있습니다. 진홍빛으로 강조된 몸체, 열화 우라늄 코팅의 망치머리는 무차별적인 파괴력을 발휘합니다. 가장 강인한 이들만 이 무기를 다룰 수 있으니 제왕의 무기라고 부를만합니다. 휘두를 때 조심하십시오. 사랑하는 이들도 함께 대지와 융합시키고 싶지 않다면.",
-    "weight": "8250 g",
+    "weight": "3650 g",
     "color": "magenta",
     "symbol": "/",
     "material": [ "depleted_uranium", "superalloy" ],
@@ -1269,13 +1318,14 @@
       "FIRESTARTER",
       "PYROMANIAC_WEAPON",
       "USE_UPS",
+	  "NAT_UPS",
       "NO_UNLOAD",
       "NO_RELOAD"
     ],
-    "techniques": [ "WBLOCK_1", "BRUTAL", "WIDE", "SPIN", "SWEEP" ],
-    "volume": "4850 ml",
-    "bashing": 120,
-    "cutting": 80,
+    "techniques": [ "WBLOCK_1", "BRUTAL", "WIDE", "SPIN", "SWEEP", "SQ_HAMMERBLOW" ],
+    "volume": "3850 ml",
+    "bashing": 100,
+    "cutting": 100,
     "to_hit": 5,
     "price": 2112000,
     "price_postapoc": 15000,
@@ -1288,12 +1338,21 @@
       "durability": 10,
       "sight_dispersion": 0,
       "ammo": "battery",
-      "ranged_damage": { "damage_type": "heat", "amount": 60 },
+      "ranged_damage": { "damage_type": "heat", "amount": 40 },
       "modes": [ [ "DEFAULT", "화염 강타", 1 ] ],
-      "ammo_effects": [ "STREAM_BIG", "FLAME", "SHOT", "WIDE" ]
+      "ammo_effects": [ "AMMO_PLASMA", "SHOT", "WIDE" ]
     },
     "use_action": { "type": "firestarter", "moves": 200 },
-    "qualities": [ [ "HAMMER", 1 ] ]
+    "qualities": [ [ "HAMMER", 1 ] ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [ { "value": "ATTACK_COST", "add": -60 } ]
+        }
+      ]
+    }
   },
   {
     "result": "sq_fusion_hammer",
