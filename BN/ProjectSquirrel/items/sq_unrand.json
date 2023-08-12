@@ -151,7 +151,7 @@
     },
     "relic_data": {
 	  "charges_per_activation": 1,
-	  "recharge_scheme": [ { "type": "time", "req": "none", "interval": "30 seconds", "rate": 1 } ]
+	  "recharge_scheme": [ { "type": "time", "req": "none", "interval": "1 m", "rate": 1 } ]
     }
   },
   {
@@ -177,11 +177,7 @@
     "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 10 ] ],
     "turns_per_charge": 1,
     "revert_to": "a_nodachi",
-    "use_action": { "type": "transform", "menu_text": "Turn off", "msg": "용은 재충전이 필요하다.", "target": "a_nodachi" },
-    "relic_data": {
-	  "charges_per_activation": 1,
-	  "recharge_scheme": [ { "type": "time", "req": "none", "interval": "30 seconds", "rate": 1 } ]
-    }
+    "use_action": { "type": "transform", "menu_text": "Turn off", "msg": "용은 재충전이 필요하다.", "target": "a_nodachi" }
   },
   {
     "id": "a_zweihander",
