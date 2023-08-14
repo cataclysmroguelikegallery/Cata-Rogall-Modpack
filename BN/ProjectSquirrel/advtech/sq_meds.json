@@ -66,7 +66,6 @@
     "charges": 2,
     "stack_size": 9,
     "healthy": 10,
-    "flags": [ "NO_INGEST" ],
     "use_action": {
       "type": "heal",
       "bleed": 1.0,
@@ -104,7 +103,6 @@
     ],
     "qualities": [ { "id": "CHEM", "level": 3 } ],
     "components": [
-	  [ [ "syringe", 1 ] ],
       [ [ "charcoal", 5 ] ],
 	  [ [ "mutagen", 2 ], [ "iv_mutagen", 1 ] ],
 	  [ [ "sq_antidote_posion", 1 ] ],
@@ -142,7 +140,7 @@
       "type": "consume_drug",
       "effects": [ { "id": "sq_stamina_regen", "duration": 300 } ]
     },
-    "flags": [ "NO_RELOAD", "NO_UNLOAD", "NPC_SAFE" ]
+    "flags": [ "NPC_SAFE" ]
   },
   {
     "type": "effect_type",
@@ -190,7 +188,7 @@
       "type": "consume_drug",
       "effects": [ { "id": "sq_stamina_regen2", "duration": 3 }, { "id": "sq_stamina_regen", "duration": 50 } ]
     },
-    "flags": [ "NO_RELOAD", "NO_UNLOAD", "NPC_SAFE" ]
+    "flags": [ "NPC_SAFE" ]
   },
   {
     "type": "effect_type",
@@ -236,21 +234,22 @@
   {
     "id": "sq_stimpack",
     "type": "COMESTIBLE",
+    "comestible_type": "MED",
     "name": { "str": "전투 자극제" },
     "description": "강력한 합성 아드레날린과 엔돌핀을 신경 증폭 물질과 혼합한 야전용 주사 약물인 전투 자극제입니다. 바늘을 사용하지 않고 피부를 통해 회복이 빠른 고급 화학 물질을 주입하는 데 사용되는 권총 모양의 소형 장치에 내장되어 있습니다. 자극제를 사용하면 신체의 신진대사 속도를 극한으로 끌어올려 반사 작용과 행동 속도가 빨라져 격렬한 전투를 수행하는데에 도움을 얻을 수 있습니다.",
     "weight": "12 g",
     "volume": "10 ml",
     "price": 11400,
-    "price_postapoc": 5000,
-    "material": "powder",
+    "price_postapoc": 7000,
     "symbol": "!",
     "stim": 20,
 	"fun": 40,
     "color": "yellow",
     "looks_like": "adrenaline_injector",
-    "flags": [ "NO_INGEST", "IRREPLACEABLE_CONSUMABLE" ],
     "addiction_potential": 7,
     "addiction_type": "mutagen",
+    "stack_size": 30,
+	"flags": [ "IRREPLACEABLE_CONSUMABLE" ],
     "use_action": {
       "type": "consume_drug",
       "effects": [ { "id": "panacea", "duration": 10 }, { "id": "sq_stamina_regen2", "duration": 3 }, { "id": "sq_stimpackeffect", "duration": "8 h" } ]
