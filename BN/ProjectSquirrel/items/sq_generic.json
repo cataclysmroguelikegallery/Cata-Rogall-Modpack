@@ -1,5 +1,166 @@
 [
   {
+    "type": "recipe",
+    "result": "cheek_pad",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "gun", 3 ] ],
+    "difficulty": 6,
+    "time": "30 m",
+    "autolearn": true,
+    "book_learn": [
+      [ "textbook_mechanics", 3 ],
+      [ "manual_pistol", 4 ],
+      [ "manual_shotgun", 4 ],
+      [ "manual_smg", 4 ],
+      [ "manual_rifle", 4 ]
+    ],
+    "using": [ [ "soldering_standard", 10 ] ],
+    "qualities": [ { "id": "HAMMER_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
+    "tools": [ [ [ "small_repairkit", 10 ], [ "large_repairkit", 10 ] ] ],
+    "components": [ [ [ "plastic_chunk", 2 ] ], [ [ "scrap", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "suppressor_compact",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "mechanics",
+    "skills_required": [ "gun", 1 ],
+    "difficulty": 8,
+    "time": "20 m",
+    "autolearn": true,
+    "tools": [ [ [ "large_repairkit", 100 ] ] ],
+    "components": [ [ [ "suppressor", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "light_grip",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "gun", 3 ] ],
+    "difficulty": 6,
+    "time": "15 m",
+    "autolearn": true,
+    "book_learn": [
+      [ "textbook_mechanics", 3 ],
+      [ "manual_pistol", 4 ],
+      [ "manual_shotgun", 4 ],
+      [ "manual_smg", 4 ],
+      [ "manual_rifle", 4 ]
+    ],
+    "using": [ [ "soldering_standard", 10 ] ],
+    "qualities": [ { "id": "HAMMER_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
+    "tools": [ [ [ "small_repairkit", 10 ], [ "large_repairkit", 10 ] ] ],
+    "components": [ [ [ "scrap", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "fur",
+    "result_mult": 2,
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "survival",
+    "difficulty": 3,
+    "time": "12 m",
+    "batch_time_factors": [ 20, 10 ],
+    "autolearn": true,
+    "qualities": [
+      { "id": "CUT", "level": 1 },
+      { "id": "COOK", "level": 2 },
+      { "id": "BOIL", "level": 1 },
+      { "id": "CONTAIN", "level": 1 }
+    ],
+    "tools": [ [ [ "surface_heat", 4, "LIST" ] ] ],
+    "components": [
+      [ [ "water_clean", 1 ], [ "water", 1 ] ],
+      [ [ "tanbark", 1 ], [ "acorns", 1 ], [ "hops", 1 ], [ "pine_bough", 1 ], [ "brain", 1 ] ],
+      [ [ "salt_water", 1 ], [ "saline", 2 ], [ "salt", 2 ] ],
+      [ [ "edible_tallow_lard", 1, "LIST" ], [ "tallow_tainted", 1 ] ],
+      [ [ "cured_pelt", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "fur",
+    "result_mult": 2,
+    "id_suffix": "modern",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "survival",
+    "difficulty": 3,
+    "time": "5 m",
+    "batch_time_factors": [ 50, 5 ],
+    "autolearn": true,
+    "book_learn": [ [ "textbook_survival", 2 ], [ "modern_tanner", 2 ] ],
+    "qualities": [
+      { "id": "CHEM", "level": 1 },
+      { "id": "COOK", "level": 3 },
+      { "id": "BOIL", "level": 2 },
+      { "id": "CONTAIN", "level": 1 }
+    ],
+    "tools": [ [ [ "surface_heat", 1, "LIST" ] ] ],
+    "components": [
+      [ [ "water_clean", 1 ], [ "water", 1 ] ],
+      [ [ "lye_powder", 2 ], [ "aspirin", 2 ], [ "chem_phenol", 20 ] ],
+      [ [ "cured_pelt", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "leather",
+    "result_mult": 2,
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "survival",
+    "difficulty": 3,
+    "time": "12 m",
+    "batch_time_factors": [ 20, 10 ],
+    "autolearn": true,
+    "qualities": [
+      { "id": "CUT", "level": 1 },
+      { "id": "COOK", "level": 2 },
+      { "id": "BOIL", "level": 1 },
+      { "id": "CONTAIN", "level": 1 }
+    ],
+    "tools": [ [ [ "surface_heat", 4, "LIST" ] ] ],
+    "components": [
+      [ [ "water_clean", 1 ], [ "water", 1 ] ],
+      [ [ "tanbark", 1 ], [ "acorns", 1 ], [ "hops", 1 ], [ "pine_bough", 1 ], [ "brain", 1 ] ],
+      [ [ "salt_water", 1 ], [ "saline", 2 ], [ "salt", 2 ] ],
+      [ [ "edible_tallow_lard", 1, "LIST" ], [ "tallow_tainted", 1 ] ],
+      [ [ "cured_hide", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "leather",
+    "result_mult": 2,
+    "id_suffix": "modern",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "survival",
+    "difficulty": 3,
+    "time": "5 m",
+    "batch_time_factors": [ 50, 5 ],
+    "autolearn": true,
+    "book_learn": [ [ "textbook_survival", 2 ], [ "modern_tanner", 2 ] ],
+    "qualities": [
+      { "id": "CHEM", "level": 1 },
+      { "id": "COOK", "level": 3 },
+      { "id": "BOIL", "level": 2 },
+      { "id": "CONTAIN", "level": 1 }
+    ],
+    "tools": [ [ [ "surface_heat", 2, "LIST" ] ] ],
+    "components": [
+      [ [ "water_clean", 1 ], [ "water", 1 ] ],
+      [ [ "lye_powder", 2 ], [ "aspirin", 2 ], [ "chem_phenol", 20 ] ],
+      [ [ "cured_hide", 1 ] ]
+    ]
+  },
+  {
     "id": "bundle_rag",
     "type": "GENERIC",
     "category": "spare_parts",
