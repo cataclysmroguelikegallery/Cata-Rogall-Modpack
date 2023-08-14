@@ -706,7 +706,7 @@
     "qualities": [ { "id": "COOK", "level": 3 }, { "id": "BOIL", "level": 2 }, { "id": "CHEM", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 21, "LIST" ] ] ],
     "components": [
-      [ [ "sq_fighter_sting_juice", 2 ] ],
+      [ [ "sq_antidote_posion", 2 ] ],
       [ [ "disinfectant", 3 ], [ "chem_hydrogen_peroxide_conc", 1 ], [ "chem_hydrogen_peroxide", 3 ] ],
       [ [ "water_acid", 2 ], [ "water_acid_weak", 2 ] ]
     ]
