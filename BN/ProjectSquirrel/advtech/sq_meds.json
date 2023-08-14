@@ -290,7 +290,7 @@
       "speed_mod": [ -20 ],
       "str_mod": [ -4 ],
       "dex_mod": [ -4 ],
-      "int_mod": [ -2],
+      "int_mod": [ -2 ],
       "per_mod": [ -4 ],
 	  "fatigue_min": [ 10 ],
       "fatigue_chance": [ 20 ],
@@ -305,7 +305,7 @@
 	  "pkill_tick": [ 1 ],
 	  "pkill_min": [ 5 ]
     },
-    "scaling_mods": { "speed_mod": [ 20 ], "str_mod": [ 6 ], "dex_mod": [ 4 ], "int_mod": [ -1 ], "per_mod": [ 3 ], "stamina_min": [ 75 ], "fatigue_min": [ -20 ] },
+    "scaling_mods": { "speed_mod": [ 20 ], "str_mod": [ 5 ], "dex_mod": [ 4 ], "int_mod": [ -1 ], "per_mod": [ 3 ], "stamina_min": [ 75 ], "fatigue_min": [ -20 ] },
     "blood_analysis_description": "전투 자극제"
   },
   {
@@ -335,7 +335,7 @@
       [ [ "charcoal", 5 ] ],
 	  [ [ "mutagen", 2 ], [ "iv_mutagen", 1 ] ],
 	  [ [ "adrenaline_injector", 1 ] ],
-	  [ [ "meat_frond", 2 ], ["leech_flower", 1 ] ],
+	  [ [ "meat_frond", 6 ], ["leech_flower", 2 ] ],
       [ [ "sq_stamina_elixr", 1 ] ],
       [ [ "salt_water", 1 ], [ "saline", 5 ] ],
       [ [ "bleach", 1 ], [ "oxy_powder", 100 ] ],
@@ -751,7 +751,7 @@
     "id": "sq_nanomite_elec",
     "type": "COMESTIBLE",
     "comestible_type": "MED",
-    "name": { "str_sp": "나노마이트 캡슐: 산성 보호" },
+    "name": { "str_sp": "나노마이트 캡슐: 전기 보호" },
     "description": "나노머신 군집체가 포함된 캡슐입니다. 신체에 적용되었을 때 군집체가 피부층에 정배열되어 2시간동안 전기피해에 대한 면역을 부여합니다.",
 	"looks_like": "5x50_hull",
     "weight": "10 g",
