@@ -542,7 +542,7 @@
     "material": [ "superalloy", "ceramic" ],
     "color": "light_blue",
     "range": 26,
-    "ranged_damage": { "damage_type": "heat", "amount": 25, "armor_penetration": 54 },
+    "ranged_damage": { "damage_type": "true", "amount": 25, "armor_penetration": 54 },
     "dispersion": 140,
     "loudness": 7,
     "ups_charges": 20,

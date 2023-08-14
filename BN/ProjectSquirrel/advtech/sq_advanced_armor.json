@@ -394,7 +394,7 @@
     "name": { "str": "'파이어니어' 환경 피갑복 (켜짐)" },
     "looks_like": "rm13_armor",
     "description": "UPS로 돌아가는 맞춤형 비경질 파워아머입니다. 초저온과 초고온 지역을 포함한 최악의 환경에서도 생존할 수 있도록 제작되었으며, 정신공격과 텔레포트 멀미를 포함한 모든 종류의 위험으로부터 몸을 지켜줍니다. 탐사를 위한 X-레이 시야를 제공하여 지형지물을 꿰뚫어 볼 수 있습니다. 현재 작동 중이며, 지속적으로 전력을 소모하고 있습니다. 사용하여 작동을 멈춥니다.",
-    "turns_per_charge": 40,
+    "turns_per_charge": 25,
     "revert_to": "sq_advanced_fsurvivor_suit",
     "use_action": { "type": "transform", "menu_text": "Turn off", "msg": "Suit shutting down.", "target": "sq_advanced_fsurvivor_suit" },
     "covers": [ "head", "mouth", "eyes", "torso", "arms", "hands", "legs", "feet" ],

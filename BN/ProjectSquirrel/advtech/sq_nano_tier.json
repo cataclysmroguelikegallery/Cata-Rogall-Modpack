@@ -307,61 +307,6 @@
     ]
   },
   {
-    "id": "sq_nanobandages",
-    "type": "COMESTIBLE",
-    "comestible_type": "MED",
-    "name": { "str": "나노포장 붕대" },
-    "description": "탄소섬유로 만든, 상처를 빠르게 엮어주는 기능을 가진 고급 붕대입니다.  이 붕대 속에는 최첨단 나노기술이 적용되어 있어, 상처 치료에 필요한 적정한 압력과 습도를 유지하면서 상처를 신속하게 회복시키는 능력을 가지고 있습니다.  또한, 이 붕대는 회복력을 즉시 증가시켜 20의 체력을 즉시 회복시키는 효과도 가지고 있습니다.",
-    "weight": "60 g",
-    "volume": "180 ml",
-    "price": 4600,
-    "price_postapoc": 3200,
-    "material": "cotton",
-    "looks_like": "holo_cloak",
-    "symbol": "!",
-    "color": "cyan",
-    "charges": 3,
-    "stack_size": 9,
-    "healthy": 25,
-    "flags": [ "NO_INGEST" ],
-    "use_action": {
-      "type": "heal",
-      "bandages_power": 6,
-      "bleed": 1.0,
-      "disinfectant_power": 6,
-	  "bite": 1.0,
-      "move_cost": 100,
-      "effects": [ { "id": "sq_nanobandages_effect" } ]
-    }
-  },
-  {
-    "type": "effect_type",
-    "id": "sq_nanobandages_effect",
-    "name": [ "나노붕대 치유" ],
-    "desc": [ "%s에 나노포장 붕대를 적용했습니다. 상처가 빠른 속도로 치유됩니다." ],
-    "main_parts_only": true,
-    "rating": "good",
-    "part_descs": true,
-    "base_mods": { "hurt_min": [ -20 ] }
-  },
-  {
-    "result": "sq_nanobandages",
-    "type": "recipe",
-    "category": "CC_첨단기술",
-    "subcategory": "CSC_첨단기술_MEDICAL",
-    "skill_used": "firstaid",
-    "skills_required": [ [ "cooking", 4 ] ],
-    "difficulty": 6,
-    "time": "120 s",
-    "autolearn": true,
-    "tools": [ [ [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
-    "components": [
-      [ [ "graphene", 3 ], [ "sq_monofilament", 50 ] ],
-      [ [ "duct_tape", 20 ], [ "medical_tape", 5 ] ],
-      [ [ "disinfectant", 5 ], [ "thyme_oil", 1 ], [ "chem_ethanol", 250 ], [ "denat_alcohol", 250 ] ]
-    ]
-  },
-  {
     "type": "mutation",
     "id": "SQ_BIO_SPLINT",
     "name": { "str": "생체공학 부목" },

@@ -213,9 +213,9 @@
         "volume" : 65,
         "variant" : "sq_hardlight_pistol",
         "files" : [
-            "guns/eweapons/bio_laser_gun_1.ogg",
-			"guns/eweapons/bio_laser_gun_2.ogg",
-			"guns/eweapons/bio_laser_gun_3.ogg"
+            "guns/eweapons/v29_1.ogg",
+			"guns/eweapons/v29_2.ogg",
+			"guns/eweapons/v29_3.ogg"
         ]
     },
 	{
@@ -224,9 +224,9 @@
         "volume" : 40,
         "variant" : "sq_hardlight_pistol",
         "files" : [
-            "guns/eweapons/bio_laser_gun_1.ogg",
-			"guns/eweapons/bio_laser_gun_2.ogg",
-			"guns/eweapons/bio_laser_gun_3.ogg"
+            "guns/eweapons/v29_1.ogg",
+			"guns/eweapons/v29_2.ogg",
+			"guns/eweapons/v29_3.ogg"
         ]
     },
     {
@@ -234,6 +234,26 @@
         "id" : "fire_gun",
         "volume" : 65,
         "variant" : "sq_hardlight_smg",
+        "files" : [
+			"guns/eweapons/recon_mech_laser_2.ogg",
+			"guns/eweapons/recon_mech_laser_3.ogg"
+        ]
+    },
+	{
+        "type": "sound_effect",
+        "id" : "fire_gun_distant",
+        "volume" : 40,
+        "variant" : "sq_hardlight_smg",
+        "files" : [
+			"guns/eweapons/recon_mech_laser_2.ogg",
+			"guns/eweapons/recon_mech_laser_3.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun",
+        "volume" : 65,
+        "variant" : "sq_hardlight_shotgun",
         "files" : [
             "guns/eweapons/bio_laser_gun_1.ogg",
 			"guns/eweapons/bio_laser_gun_2.ogg",
@@ -244,7 +264,7 @@
         "type": "sound_effect",
         "id" : "fire_gun_distant",
         "volume" : 40,
-        "variant" : "sq_hardlight_smg",
+        "variant" : "sq_hardlight_shotgun",
         "files" : [
             "guns/eweapons/bio_laser_gun_1.ogg",
 			"guns/eweapons/bio_laser_gun_2.ogg",
@@ -305,8 +325,7 @@
         "volume" : 75,
         "variant" : "sq_fusion_pistol",
         "files" : [
-            "guns/eweapons/bio_blaster_gun_1.ogg",
-			"guns/eweapons/bio_blaster_gun_2.ogg"
+            "guns/eweapons/ftk93.ogg"
         ]
     },
 	{
@@ -315,8 +334,7 @@
         "volume" : 40,
         "variant" : "sq_fusion_pistol",
         "files" : [
-            "guns/eweapons/bio_blaster_gun_1.ogg",
-			"guns/eweapons/bio_blaster_gun_2.ogg"
+            "guns/eweapons/ftk93.ogg"
         ]
     },
     {
@@ -325,8 +343,7 @@
         "volume" : 75,
         "variant" : "sq_fusion_shotgun",
         "files" : [
-            "guns/eweapons/bio_blaster_gun_1.ogg",
-			"guns/eweapons/bio_blaster_gun_2.ogg"
+            "guns/eweapons/ftk93.ogg"
         ]
     },
 	{
@@ -335,8 +352,7 @@
         "volume" : 40,
         "variant" : "sq_fusion_shotgun",
         "files" : [
-            "guns/eweapons/bio_blaster_gun_1.ogg",
-			"guns/eweapons/bio_blaster_gun_2.ogg"
+            "guns/eweapons/ftk93.ogg"
         ]
     },
     {
@@ -345,8 +361,11 @@
         "volume" : 75,
         "variant" : "sq_fusion_rifle",
         "files" : [
-            "guns/eweapons/bio_blaster_gun_1.ogg",
-			"guns/eweapons/bio_blaster_gun_2.ogg"
+            "guns/others/Rocket_1.ogg",
+            "guns/others/Rocket_2.ogg",
+            "guns/others/Rocket_3.ogg",
+            "guns/others/Rocket_4.ogg",
+            "guns/others/Rocket_5.ogg"
         ]
     },
 	{
@@ -355,8 +374,11 @@
         "volume" : 40,
         "variant" : "sq_fusion_rifle",
         "files" : [
-            "guns/eweapons/bio_blaster_gun_1.ogg",
-			"guns/eweapons/bio_blaster_gun_2.ogg"
+            "guns/others/Rocket_1.ogg",
+            "guns/others/Rocket_2.ogg",
+            "guns/others/Rocket_3.ogg",
+            "guns/others/Rocket_4.ogg",
+            "guns/others/Rocket_5.ogg"
         ]
     },
     {
@@ -365,8 +387,11 @@
         "volume" : 75,
         "variant" : "sq_fusion_sniper",
         "files" : [
-            "guns/eweapons/bio_blaster_gun_1.ogg",
-			"guns/eweapons/bio_blaster_gun_2.ogg"
+            "guns/others/120mm_1.ogg",
+            "guns/others/120mm_2.ogg",
+            "guns/others/120mm_3.ogg",
+            "guns/others/120mm_4.ogg",
+            "guns/others/120mm_5.ogg"
         ]
     },
 	{
@@ -375,8 +400,11 @@
         "volume" : 40,
         "variant" : "sq_fusion_sniper",
         "files" : [
-            "guns/eweapons/bio_blaster_gun_1.ogg",
-			"guns/eweapons/bio_blaster_gun_2.ogg"
+            "guns/others/120mm_1.ogg",
+            "guns/others/120mm_2.ogg",
+            "guns/others/120mm_3.ogg",
+            "guns/others/120mm_4.ogg",
+            "guns/others/120mm_5.ogg"
         ]
     },
     {
@@ -385,8 +413,11 @@
         "volume" : 75,
         "variant" : "sq_fusion_hmg",
         "files" : [
-            "guns/eweapons/bio_blaster_gun_1.ogg",
-			"guns/eweapons/bio_blaster_gun_2.ogg"
+            "guns/others/Rocket_1.ogg",
+            "guns/others/Rocket_2.ogg",
+            "guns/others/Rocket_3.ogg",
+            "guns/others/Rocket_4.ogg",
+            "guns/others/Rocket_5.ogg"
         ]
     },
 	{
@@ -395,8 +426,11 @@
         "volume" : 40,
         "variant" : "sq_fusion_hmg",
         "files" : [
-            "guns/eweapons/bio_blaster_gun_1.ogg",
-			"guns/eweapons/bio_blaster_gun_2.ogg"
+            "guns/others/Rocket_1.ogg",
+            "guns/others/Rocket_2.ogg",
+            "guns/others/Rocket_3.ogg",
+            "guns/others/Rocket_4.ogg",
+            "guns/others/Rocket_5.ogg"
         ]
     }
 ]

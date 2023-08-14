@@ -1,6 +1,61 @@
 [
   {
     "type": "item_group",
+    "id": "npc_misc",
+    "items": [
+      [ "sq_stamina_juice", 8 ],
+      [ "pepto", 25 ],
+      [ "bearing", 3 ],
+      [ "sq_homebrew_antiseptic", 10 ],
+      [ "medical_gauze", 25 ],
+      [ "vortex_stone", 4 ]
+    ]
+  },
+  {
+    "id": "drugs_soldier",
+    "type": "item_group",
+    "subtype": "distribution",
+    "//": "Healing items appropriate for soldiers and other paramilitary forces",
+    "entries": [
+      { "item": "sq_stamina_elixr", "prob": 15 },
+      { "item": "sq_stamina_juice", "prob": 25 },
+      { "item": "sq_stimpack", "prob": 4 },
+      { "item": "chloroform_rag", "prob": 10 },
+      { "item": "sq_antidote_posion", "prob": 10 },
+      { "item": "iodine", "prob": 15 },
+      { "item": "prussian_blue", "prob": 15 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "harddrugs",
+    "items": [
+      [ "sq_stamina_juice", 12 ],
+	  [ "sq_stamina_elixr", 12 ],
+	  [ "sq_healingfactor", 4 ],
+	  [ "sq_stimpack", 4 ],
+      [ "sq_antidote_posion", 10 ],
+      [ "sq_antidote_badpoison", 6 ],
+      [ "mutagen", 5 ],
+      [ "purifier", 2 ],
+      [ "mutagen_medical", 1 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "softdrugs",
+    "items": [
+      [ "sq_stamina_juice", 15 ],
+      [ "1st_aid", 15 ],
+      [ "weak_antibiotic", 10 ],
+      [ "sq_antidote_posion", 15 ],
+      [ "sq_antidote_badpoison", 5 ],
+      [ "pepto", 80 ],
+      [ "medical_gauze", 10 ]
+    ]
+  },
+  {
+    "type": "item_group",
     "id": "sq_unrand_all",
     "subtype": "distribution",
     "items": [
@@ -21,8 +76,8 @@
       [ "v29", 7 ],
       [ "sq_recipe_lab_fusion", 100 ],
       [ "sq_recipe_lab_hardlight", 100 ],
-      [ "sq_hardlight_blade_off", 6 ],
-      [ "sq_hardlight_glaive_off", 4 ],
+      [ "sq_hardlight_blade_off", 2 ],
+      [ "sq_hardlight_glaive_off", 2 ],
       [ "ftk93", 5 ],
 	  [ "sq_dimension_pack", 2 ],
       [ "sq_hardlight_longbow", 5 ],
@@ -31,11 +86,12 @@
 	  [ "sq_hardlight_smg", 5 ],
 	  [ "sq_hardlight_shotgun", 5 ],
 	  [ "sq_hardlight_sniper", 5 ],
-	  [ "sq_fusion_rifle", 5 ],
-	  [ "sq_fusion_pistol", 5 ],
-	  [ "sq_fusion_hmg", 5 ],
-	  [ "sq_fusion_shotgun", 5 ],
-	  [ "sq_fusion_sniper", 5 ]
+	  [ "sq_fusion_rifle", 6 ],
+	  [ "sq_fusion_pistol", 6 ],
+	  [ "sq_fusion_hmg", 6 ],
+	  [ "sq_fusion_shotgun", 6 ],
+	  [ "sq_fusion_sniper", 6 ],
+	  [ "sq_fusion_hammer", 6 ]
     ]
   },
   {
@@ -44,10 +100,19 @@
     "ammo": 50,
     "magazine": 100,
     "items": [
+	  [ "sq_healingfactor", 4 ],
 	  [ "sq_recipe_lab_hardlight", 2 ],
 	  [ "sq_recipe_lab_fusion", 2 ],
 	  [ "sq_dimension_pack", 1 ],
-	  [ "nanomaterial", 10 ]
+	  [ "nanomaterial", 10 ],
+      [ "sq_homebrew_antiseptic", 4 ],
+      [ "sq_antidote_posion", 10 ],
+      [ "iodine", 8 ],
+      [ "prussian_blue", 8 ],
+      [ "sq_stamina_juice", 8 ],
+      [ "sq_royal_jelly_sap", 5 ],
+      [ "sq_stamina_elixr", 4 ],
+      [ "sq_stimpack", 2 ]
     ]
   },
   {
@@ -87,12 +152,14 @@
 	  [ "sq_fusion_hmg", 2 ],
 	  [ "sq_fusion_shotgun", 2 ],
 	  [ "sq_fusion_sniper", 2 ],
+	  [ "sq_fusion_hammer", 2 ],
       [ "sq_industrial_skeleton", 10 ],
 	  [ "sq_sprinter_skeleton", 10 ],
 	  [ "sq_vanguard_skeleton", 10 ],
 	  [ "sq_swat_shield", 10 ],
-	  [ "sq_hardlight_blade_off", 10 ],
-	  [ "sq_dimension_pack", 5 ]
+	  [ "sq_hardlight_blade_off", 2 ],
+	  [ "sq_dimension_pack", 3 ],
+	  [ "sq_healingfactor", 5 ]
     ]
   },
   {
@@ -119,13 +186,15 @@
 	  [ "sq_sprinter_skeleton", 5 ],
 	  [ "sq_vanguard_skeleton", 5 ],
 	  [ "sq_swat_shield", 10 ],
-	  [ "sq_dimension_pack", 1 ]
+	  [ "sq_dimension_pack", 1 ],
+	  [ "sq_healingfactor", 4 ]
     ]
   },
   {
     "id": "nanofab_recipes",
     "type": "item_group",
     "items": [
+	  [ "sq_healingfactor", 10 ],
       [ "sq_industrial_skeleton", 10 ],
 	  [ "sq_sprinter_skeleton", 10 ],
 	  [ "sq_vanguard_skeleton", 10 ],
@@ -304,6 +373,9 @@
     "type": "item_group",
     "id": "mil_hw",
     "items": [
+      { "item": "sq_stamina_elixr", "prob": 15 },
+      { "item": "sq_stamina_juice", "prob": 10 },
+      { "item": "sq_stimpack", "prob": 5 },
 	  [ "sq_shield_ballistic", 10 ],
       [ "sq_swat_shield", 5 ],
       [ "sq_sprinter_skeleton", 5 ],
@@ -357,12 +429,13 @@
   {
     "type": "item_group",
     "id": "fireman_gear",
-    "items": [ [ "sq_shield_ballistic", 5 ], [ "sq_swat_shield", 2 ] ]
+    "items": [ [ "sq_stamina_juice", 15 ], [ "sq_shield_ballistic", 5 ], [ "sq_swat_shield", 2 ] ]
   },
   {
     "type": "item_group",
     "id": "survivorzed_extra",
     "items": [
+	  [ "sq_stamina_juice", 10 ],
 	  [ "a_spear_knife", 2 ],
 	  [ "a_broadsword", 2 ],
 	  [ "a_zweihander", 2 ],

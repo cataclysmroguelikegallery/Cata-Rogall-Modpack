@@ -1,5 +1,26 @@
 [
   {
+    "id": "sugar_standard",
+    "type": "requirement",
+    "//": "One unit provides ~260kcal; chosen to match one unit of molasses",
+    "components": [
+      [
+        [ "sugar", 14 ],
+        [ "syrup", 5 ],
+        [ "beet_syrup", 6 ],
+        [ "molasses", 1 ],
+        [ "honey_bottled", 4 ],
+        [ "honey_glassed", 2 ],
+        [ "sq_insect_jelly", 2 ]
+      ]
+    ]
+  },
+  {
+    "id": "beverage_sweetener",
+    "type": "requirement",
+    "components": [ [ [ "sugar", 3 ], [ "honey_bottled", 1 ], [ "honey_glassed", 1 ], [ "syrup", 1 ], [ "beet_syrup", 2 ], [ "sq_insect_jelly", 2 ] ] ]
+  },
+  {
     "id": "filament",
     "type": "requirement",
     "//": "Materials for use when sewing items",
