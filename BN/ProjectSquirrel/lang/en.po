@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Jake's_Squirrel_mod\n"
-"POT-Creation-Date: 2023-08-11 23:23+0900\n"
+"POT-Creation-Date: 2023-08-17 21:05+0900\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -13,11 +13,26 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.3.2\n"
 
-#: .\modinfo.json
-msgid "<color_light_red>프로젝트: 다람쥐</color>"
-msgstr "<color_light_red>Project: Pack Rat</color>"
+#: .\harvest.json
+msgid "giant cockroach"
+msgid_plural "giant cockroaches"
+msgstr[0] ""
+msgstr[1] ""
 
-#. ~ Description for <color_light_red>프로젝트: 다람쥐</color>
+#. ~ Description for {'str': 'giant cockroach', 'str_pl': 'giant cockroaches'}
+#: .\harvest.json
+msgid "A mutant cockroach the size of a small dog."
+msgstr ""
+
+#: .\harvest.json
+msgid "You laboriously dissect the colossal insect."
+msgstr ""
+
+#: .\modinfo.json
+msgid "<color_yellow>프로젝트: 다람쥐</color>"
+msgstr "<color_yellow>Project: Pack Rat</color>"
+
+#. ~ Description for <color_yellow>프로젝트: 다람쥐</color>
 #: .\modinfo.json
 msgid "하이테크 모드."
 msgstr "Very High Tech Mode. More infos in README.MD."
@@ -1733,6 +1748,26 @@ msgid "고속 자동"
 msgstr "high auto"
 
 #: .\advtech\sq_hardlight_fusion.json
+msgid "해머 블로"
+msgstr ""
+
+#: .\advtech\sq_hardlight_fusion.json
+msgid "강력한 넉백 공격"
+msgstr ""
+
+#: .\advtech\sq_hardlight_fusion.json
+#, fuzzy, c-format
+#| msgid "<npcname> %s을(를) 내려찍습니다"
+msgid "%s을(를) 내려찍습니다."
+msgstr "<npcname> strike %s down for the finishing blow"
+
+#: .\advtech\sq_hardlight_fusion.json
+#, fuzzy, c-format
+#| msgid "<npcname> %s을(를) 내려찍습니다"
+msgid "<npcname>이(가) %s을(를) 내려찍습니다."
+msgstr "<npcname> strike %s down for the finishing blow"
+
+#: .\advtech\sq_hardlight_fusion.json
 msgid "퓨전 로켓 해머"
 msgid_plural "퓨전 로켓 해머s"
 msgstr[0] "fusion rocket hammer"
@@ -1910,6 +1945,466 @@ msgstr ""
 "As you gaze into the seemingly infinite depths of this portable hole in "
 "reality, a phrase from a time forever gone echoes in your mind.  \\\"There "
 "are two things that are infinite: the universe and human kleptomania.\\\""
+
+#: .\advtech\sq_meds.json
+msgid "나노포장 붕대"
+msgid_plural "나노포장 붕대s"
+msgstr[0] "nanopackaged bandage"
+msgstr[1] "nanopackaged bandages"
+
+#. ~ Description for {'str': '나노포장 붕대'}
+#: .\advtech\sq_meds.json
+msgid ""
+"탄소섬유로 만든, 상처를 빠르게 엮어주는 기능을 가진 고급 붕대입니다.  이 붕"
+"대 속에는 최첨단 나노기술이 적용되어 있어, 상처 치료에 필요한 적정한 압력과 "
+"습도를 유지하면서 상처를 신속하게 회복시키는 능력을 가지고 있습니다.  또한, "
+"이 붕대는 회복력을 즉시 증가시켜 체력의 일부를 즉시 회복시키는 효과도 가지고 "
+"있습니다."
+msgstr ""
+"An advanced bandage made of carbon fiber that has the ability to quickly "
+"close wounds. The advanced nanotechnology inside this bandage has the "
+"ability to quickly heal wounds while maintaining the proper pressure and "
+"humidity needed for wound healing. This bandage also has the ability to "
+"instantly increase your resilience, instantly restoring some health."
+
+#: .\advtech\sq_meds.json
+msgid "치유 인자 주사기"
+msgid_plural "치유 인자 주사기s"
+msgstr[0] "healing factor injector"
+msgstr[1] "healing factor injectors"
+
+#. ~ Description for {'str': '치유 인자 주사기'}
+#: .\advtech\sq_meds.json
+msgid ""
+"혈액과 매우 흡사한 고농축 치유 인자 물질. 바늘을 사용하지 않고 피부를 통해 회"
+"복이 빠른 고급 화학 물질을 주입하는 데 사용되는 권총 모양의 소형 장치에 내장"
+"되어 있습니다. 사용시 치유 능력을 대폭 끌어올려 체력의 일정량을 즉시 회복시킵"
+"니다. 위급상황에서 사용하세요."
+msgstr ""
+"A highly concentrated healing factor substance that closely resembles blood. "
+"Embedded in a small pistol-shaped device used to inject advanced fast-"
+"healing chemicals through the skin without using a needle. When used, it "
+"greatly boosts healing abilities, instantly restoring a certain amount of "
+"health. Use in a crisis."
+
+#: .\advtech\sq_meds.json
+msgid "스태미나 주스"
+msgid_plural "스태미나 주스s"
+msgstr[0] "stamina juice"
+msgstr[1] "stamina juice"
+
+#. ~ Description for {'str': '스태미나 주스'}
+#: .\advtech\sq_meds.json
+msgid ""
+"일명 스태미나 주스. 전해질을 포함하는 유기 화학 물질이 다량 함유된 이 3중 혼"
+"합물은 쉽게 마실 수 있으면서, 운동선수와 고된 군인 모두에게 눈에 띄는 지구력 "
+"향상 효과를 제공합니다."
+msgstr ""
+"Stamina juice. This triple blend of organic chemicals, including "
+"electrolytes, is easy to drink and provides a noticeable endurance boost for "
+"athletes and hard-working soldiers alike."
+
+#: .\advtech\sq_meds.json
+msgid "스태미나 재생"
+msgstr "Stamina Regeneration"
+
+#: .\advtech\sq_meds.json
+msgid "스태미나 엘릭서"
+msgid_plural "스태미나 엘릭서s"
+msgstr[0] "stamina elixir"
+msgstr[1] "stamina elixir"
+
+#. ~ Description for {'str': '스태미나 엘릭서'}
+#: .\advtech\sq_meds.json
+msgid ""
+"임의로 혼합한 농축된 스태미나 주스. 급한 상황에서 에너지를 얻기 위해 사용할 "
+"수 있으며, 사용자에게 폭발적인 스태미나 회복력을 얻습니다. 아무래도 이건, 유"
+"사 스팀팩이라고 부르는 것이 맞을 것 같습니다."
+msgstr ""
+"Concentrated, randomly blended stamina juice. Can be used for energy in a "
+"pinch, giving the user a burst of stamina recovery. I guess you could call "
+"this a pseudo-stimpack."
+
+#: .\advtech\sq_meds.json
+msgid "스태미나 폭풍"
+msgstr "Stamina Cascade"
+
+#. ~ Description of effect '스태미나 폭풍'.
+#: .\advtech\sq_meds.json
+msgid "순간적으로 지구력을 크게 회복시킵니다."
+msgstr "Instantly restores your endurance significantly."
+
+#. ~ Apply message for effect(s) '스태미나 폭풍'.
+#: .\advtech\sq_meds.json
+msgid "몸 안쪽에서부터 에너지가 솟구칩니다!"
+msgstr "You'll feel energized from the inside out!"
+
+#: .\advtech\sq_meds.json
+msgid "전투 자극제"
+msgid_plural "전투 자극제s"
+msgstr[0] "combat stimulants"
+msgstr[1] "combat stimulants"
+
+#. ~ Description for {'str': '전투 자극제'}
+#: .\advtech\sq_meds.json
+msgid ""
+"강력한 합성 아드레날린과 엔돌핀을 신경 증폭 물질과 혼합한 야전용 주사 약물인 "
+"전투 자극제입니다. 바늘을 사용하지 않고 피부를 통해 회복이 빠른 고급 화학 물"
+"질을 주입하는 데 사용되는 권총 모양의 소형 장치에 내장되어 있습니다. 자극제"
+"를 사용하면 신체의 신진대사 속도를 극한으로 끌어올려 반사 작용과 행동 속도가 "
+"빨라져 격렬한 전투를 수행하는데에 도움을 얻을 수 있습니다."
+msgstr ""
+"A combat stimulant, a field injectable drug that mixes powerful synthetic "
+"adrenaline and endorphins with neuro-amplifying substances. It is contained "
+"in a small, pistol-shaped device that is used to inject the advanced, fast-"
+"recovery chemicals through the skin without the use of a needle. The use of "
+"stimulants pushes the body's metabolic rate to an extreme, resulting in "
+"faster reflexes and actions, which can help in intense combat."
+
+#: .\advtech\sq_meds.json
+msgid "전투 자극제 부작용"
+msgstr "Combat Stimulant Side Effects"
+
+#. ~ Description of effect '전투 자극제 부작용'.
+#: .\advtech\sq_meds.json
+msgid "You feel completely drained."
+msgstr ""
+
+#: .\advtech\sq_meds.json
+msgid "전투 자극제 [1]"
+msgstr "Stimpack [1]"
+
+#. ~ Description of effect '전투 자극제 [1]'.
+#. ~ Description of effect '전투 자극제 [2]'.
+#. ~ Description of effect '전투 자극제 [3]'.
+#: .\advtech\sq_meds.json
+msgid "전투 자극제가 혈관을 타고 흐르는 것이 느껴집니다!"
+msgstr "You can feel the battle stimulants coursing through the vein!"
+
+#: .\advtech\sq_meds.json
+msgid "전투 자극제 [2]"
+msgstr "Stimpack [2]"
+
+#: .\advtech\sq_meds.json
+msgid "전투 자극제 [3]"
+msgstr "Stimpack [3]"
+
+#. ~ Apply message for effect(s) '전투 자극제 부작용, 전투 자극제 [1], 전투 자극제 [2], 전투 자극제
+#. [3]'.
+#: .\advtech\sq_meds.json
+msgid "약물이 당신의 혈관을 타고 흐릅니다. 찢고 죽여라!"
+msgstr "The drug is coursing through your veins. Rip and Tear!"
+
+#. ~ Miss message for effect(s) '전투 자극제 부작용, 전투 자극제 [1], 전투 자극제 [2], 전투 자극제
+#. [3]'.
+#: .\advtech\sq_meds.json
+msgid "우울한 기분이 듭니다."
+msgstr "You're feeling depressed."
+
+#. ~ Decay message for effect(s) '전투 자극제 부작용, 전투 자극제 [1], 전투 자극제 [2], 전투 자극제
+#. [3]'.
+#: .\advtech\sq_meds.json
+msgid "자극제의 강도가 약해지면서 몸에 무리가 가기 시작하는 것을 느낍니다."
+msgstr ""
+"As the intensity of the stimulant wanes, you feel your body begin to strain."
+
+#. ~ Decay message for effect(s) '전투 자극제 부작용, 전투 자극제 [1], 전투 자극제 [2], 전투 자극제
+#. [3]'.
+#: .\advtech\sq_meds.json
+msgid "이전만큼 힘세고 강한 느낌은 아닙니다."
+msgstr "It doesn't feel as strong and powerful as it used to."
+
+#. ~ Decay message for effect(s) '전투 자극제 부작용, 전투 자극제 [1], 전투 자극제 [2], 전투 자극제
+#. [3]'.
+#: .\advtech\sq_meds.json
+msgid "오우, 예아."
+msgstr "Ohhh, yeah."
+
+#: .\advtech\sq_meds.json
+msgid "수제 소독제"
+msgid_plural "수제 소독제s"
+msgstr[0] "simple sanitiser"
+msgstr[1] "simple sanitiser"
+
+#. ~ Description for {'str': '수제 소독제'}
+#: .\advtech\sq_meds.json
+msgid ""
+"상처를 치료하고 감염을 멈추거나 예방하기 위해 야생에서 발견한 재료들을 절박하"
+"게 조합한 것입니다.  의심스러울 수도 있지만 치유력이 있을 수도 있습니다.  따"
+"끔거릴수록 더 좋겠죠."
+msgstr ""
+"It's a desperate concoction of ingredients found in the wild to heal wounds "
+"and stop or prevent infection. It may be suspect, but it may have healing "
+"properties."
+
+#: .\advtech\sq_meds.json
+msgid "따가움"
+msgstr "Tingling"
+
+#. ~ Description of effect '따가움'.
+#: .\advtech\sq_meds.json
+msgid "따갑습니다."
+msgstr "It's stinging."
+
+#: .\advtech\sq_meds.json
+msgid "곤충 젤리"
+msgid_plural "곤충 젤리"
+msgstr[0] "insect jelly"
+msgstr[1] "insect jellies"
+
+#. ~ Description for {'str_sp': '곤충 젤리'}
+#: .\advtech\sq_meds.json
+msgid ""
+"곤충이 생산하는 영양가 높은 덩어리. 꿀처럼 달콤하고 부드러운 맛과 젤리 같이 "
+"탱글한 식감이 특징입니다."
+msgstr ""
+"A nutritious mass produced by insects. It has a sweet, mild flavor like "
+"honey and a jelly-like texture."
+
+#: .\advtech\sq_meds.json
+msgid "royal jelly"
+msgid_plural "royal jellies"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Use action activation_message for {'str': 'royal jelly', 'str_pl': 'royal
+#. jellies'}.
+#: .\advtech\sq_meds.json
+msgid "You feel warm inside after eating the royal jelly."
+msgstr ""
+
+#. ~ Description for {'str': 'royal jelly', 'str_pl': 'royal jellies'}
+#: .\advtech\sq_meds.json
+msgid ""
+"짙은 우윳빛 젤리가 채워진 반투명한 육각형 왁스 덩어리입니다. 대재앙 이래로 벌"
+"집이 만들어낼 수 있는 가장 이로운 물질로 가득한 덕분에, 여러 증상을 치료하고 "
+"항독제로도 작용합니다."
+msgstr ""
+"It's a translucent, hexagonal lump of wax filled with a thick milky jelly. "
+"It's filled with some of the most beneficial substances a hive can produce "
+"since the apocalypse, treating many conditions and acting as an antidote."
+
+#: .\advtech\sq_meds.json
+msgid "로얄 젤리 혼합물"
+msgid_plural "로얄 젤리 혼합물"
+msgstr[0] "royal jelly mixture"
+msgstr[1] "royal jelly mixture"
+
+#. ~ Use action activation_message for {'str': '로얄 젤리 혼합물', 'str_pl': '로얄 젤리
+#. 혼합물'}.
+#: .\advtech\sq_meds.json
+msgid "..."
+msgstr ""
+
+#. ~ Description for {'str': '로얄 젤리 혼합물', 'str_pl': '로얄 젤리 혼합물'}
+#: .\advtech\sq_meds.json
+msgid ""
+"유백색에 달콤한 냄새가 나는 젤리로, 약간의 트리피드 추출물을 섞어 젤리의 연금"
+"술적 특성을 강화시킵니다.  모든 질병을 치료합니다."
+msgstr ""
+"A milky, sweet-smelling jelly that is mixed with a little triffid extract to "
+"enhance the jelly's alchemical properties.  Cures all diseases."
+
+#: .\advtech\sq_meds.json
+msgid "트리피드 추출물"
+msgid_plural "트리피드 추출물s"
+msgstr[0] "triffid extract"
+msgstr[1] "triffid extract"
+
+#. ~ Description for 트리피드 추출물
+#: .\advtech\sq_meds.json
+msgid "트리피드 식물에서 추출한 진균 가시 추출물."
+msgstr "An extract of fungal stings from a trifid plant."
+
+#: .\advtech\sq_meds.json
+msgid "트리피드 중화제"
+msgid_plural "트리피드 중화제s"
+msgstr[0] "triffid neutralizer"
+msgstr[1] "triffid neutralizer"
+
+#. ~ Description for {'str': '트리피드 중화제'}
+#: .\advtech\sq_meds.json
+msgid ""
+"기본적으로 유해한 효과를 막아주는 수제 약품입니다.  알려진 다양한 독에 효과"
+"가 있지만, 더 독한 독에는 효과가 없을 수 있습니다.  생물학적 독을 치료하고 예"
+"방합니다."
+msgstr ""
+"These are basically homemade potions that counteract harmful effects.  They "
+"are effective against many known poisons, but may not be effective against "
+"stronger poisons.  Treat and prevent biological poisons."
+
+#: .\advtech\sq_meds.json
+msgid "가려움증을 느낍니다."
+msgstr "You feel an itch."
+
+#: .\advtech\sq_meds.json
+msgid "독소 제거 효과가 사라집니다."
+msgstr "The toxin-removing effect is lost."
+
+#: .\advtech\sq_meds.json
+msgid "가려움증이 사라집니다."
+msgstr "The itching goes away."
+
+#: .\advtech\sq_meds.json
+msgid "트리피드 해독제"
+msgid_plural "트리피드 해독제s"
+msgstr[0] "triffid antidote"
+msgstr[1] "triffid antidote"
+
+#. ~ Description for {'str': '트리피드 해독제'}
+#: .\advtech\sq_meds.json
+msgid ""
+"대부분의 알려진 독소를 해독시켜 몸 밖으로 배출하는 농축 의료용 혼합물입니"
+"다.  대부분의 유해한 상태이상을 치료하고 일정 시간 동안 예방합니다."
+msgstr ""
+"A concentrated medical blend that detoxifies most known toxins and flushes "
+"them out of the body.  It treats most harmful conditions and prevents them "
+"for a period of time."
+
+#: .\advtech\sq_meds.json
+msgid "혈청의 독소 제거 효과가 사라집니다."
+msgstr "The toxin-removing effects of serum are lost."
+
+#: .\advtech\sq_meds.json
+msgid "가려움증이 줄어듭니다."
+msgstr "The itching goes away."
+
+#: .\advtech\sq_meds.json
+msgid "나노마이트 캡슐: 화염 보호"
+msgid_plural "나노마이트 캡슐: 화염 보호"
+msgstr[0] "nanomite capsule: flame protection"
+msgstr[1] "nanomite capsules: flame protection"
+
+#. ~ Use action activation_message for {'str_sp': '나노마이트 캡슐: 화염 보호'}.
+#. ~ Use action activation_message for {'str_sp': '나노마이트 캡슐: 산성 보호'}.
+#. ~ Use action activation_message for {'str_sp': '나노마이트 캡슐: 전기 보호'}.
+#. ~ Use action activation_message for {'str_sp': '나노마이트 캡슐: 빙결 보호'}.
+#: .\advtech\sq_meds.json
+msgid "나노마이트가 캡슐에서 방출되어 외부에 배열됩니다."
+msgstr "Nanomites are released from the capsule and arranged on the outside."
+
+#. ~ Description for {'str_sp': '나노마이트 캡슐: 화염 보호'}
+#: .\advtech\sq_meds.json
+msgid ""
+"나노머신 군집체가 포함된 캡슐입니다. 신체에 적용되었을 때 군집체가 피부층에 "
+"정배열되어 30분동안 단열 및 방염 효과를 부여합니다."
+msgstr ""
+"A capsule containing a colony of nanomachines. When applied to the body, the "
+"colonies align themselves in the skin layer, providing insulation and flame "
+"protection for 30 minutes."
+
+#: .\advtech\sq_meds.json
+msgid "나노마이트 캡슐: 산성 보호"
+msgid_plural "나노마이트 캡슐: 산성 보호"
+msgstr[0] "nanomite capsule: acid protection"
+msgstr[1] "nanomite capsules: acid protection"
+
+#. ~ Description for {'str_sp': '나노마이트 캡슐: 산성 보호'}
+#: .\advtech\sq_meds.json
+msgid ""
+"나노머신 군집체가 포함된 캡슐입니다. 신체에 적용되었을 때 군집체가 피부층에 "
+"정배열되어 2시간동안 산성피해와 부식에 대한 면역을 부여합니다."
+msgstr ""
+"A capsule containing a colony of nanomachines. When applied to the body, the "
+"colonies align themselves in the skin layer, providing corrosion and acid "
+"protection for 30 minutes."
+
+#: .\advtech\sq_meds.json
+msgid "나노마이트 캡슐: 전기 보호"
+msgid_plural "나노마이트 캡슐: 전기 보호"
+msgstr[0] "nanomite capsule: electrical protection"
+msgstr[1] "nanomite capsules: electrical protection"
+
+#. ~ Description for {'str_sp': '나노마이트 캡슐: 전기 보호'}
+#: .\advtech\sq_meds.json
+msgid ""
+"나노머신 군집체가 포함된 캡슐입니다. 신체에 적용되었을 때 군집체가 피부층에 "
+"정배열되어 30분동안 전기피해에 대한 면역을 부여합니다."
+msgstr ""
+"A capsule containing a colony of nanomachines. When applied to the body, the "
+"colonies align themselves in the skin layer, providing electrical protection "
+"for 30 minutes."
+
+#: .\advtech\sq_meds.json
+msgid "나노마이트 캡슐: 빙결 보호"
+msgid_plural "나노마이트 캡슐: 빙결 보호"
+msgstr[0] "nanomite capsule: cold protection"
+msgstr[1] "nanomite capsules: cold protection"
+
+#. ~ Description for {'str_sp': '나노마이트 캡슐: 빙결 보호'}
+#: .\advtech\sq_meds.json
+msgid ""
+"나노머신 군집체가 포함된 캡슐입니다. 신체에 적용되었을 때 군집체가 피부층에 "
+"정배열되어 30분동안 추위와 빙결에 대한 면역을 부여합니다."
+msgstr ""
+"A capsule containing a colony of nanomachines. When applied to the body, the "
+"colonies align themselves in the skin layer, providing freezing and cold "
+"protection for 30 minutes."
+
+#: .\advtech\sq_meds.json
+msgid "나노 화염 보호"
+msgstr "Nano Flame Protection"
+
+#. ~ Description of effect '나노 화염 보호'.
+#: .\advtech\sq_meds.json
+msgid ""
+"화염, 열기에 의한 피해와 부수적인 피해에 대한 완전한 면역을 제공받습니다."
+msgstr "Full immunity to fire, heat damage, and collateral damage."
+
+#. ~ Remove message for effect(s) '나노 화염 보호'.
+#. ~ Remove message for effect(s) '나노 산성 보호'.
+#. ~ Remove message for effect(s) '나노 전기 보호'.
+#. ~ Remove message for effect(s) '나노 추위 보호'.
+#: .\advtech\sq_meds.json
+msgid "나노마이트 배열이 분해되었습니다."
+msgstr "The nanite array has disintegrated."
+
+#. ~ Decay message for effect(s) '나노 화염 보호'.
+#: .\advtech\sq_meds.json
+msgid "나노머신에 의한 화염 보호가 약해지고 있습니다."
+msgstr "Flame protection by nanomachines is being weakened."
+
+#: .\advtech\sq_meds.json
+msgid "나노 산성 보호"
+msgstr "Nano Acid Protection"
+
+#. ~ Description of effect '나노 산성 보호'.
+#: .\advtech\sq_meds.json
+msgid "산성에 의한 피해와 부수적인 피해에 대한 완전한 면역을 제공받습니다."
+msgstr "Full immunity to corrosion, acid damage, and collateral damage."
+
+#. ~ Decay message for effect(s) '나노 산성 보호'.
+#: .\advtech\sq_meds.json
+msgid "나노머신에 의한 산성 보호가 약해지고 있습니다."
+msgstr "Acid protection by nanomachines is being weakened."
+
+#: .\advtech\sq_meds.json
+msgid "나노 전기 보호"
+msgstr "Nano Electrical Protection"
+
+#. ~ Description of effect '나노 전기 보호'.
+#: .\advtech\sq_meds.json
+msgid "전기 피해에 대한 완전한 면역을 제공받습니다."
+msgstr "Full immunity to electrical damage."
+
+#. ~ Decay message for effect(s) '나노 전기 보호'.
+#: .\advtech\sq_meds.json
+msgid "나노머신에 의한 전기 보호가 약해지고 있습니다."
+msgstr "Electrical protection by nanomachines is being weakened."
+
+#: .\advtech\sq_meds.json
+msgid "나노 추위 보호"
+msgstr "Nano Cold Protection"
+
+#. ~ Description of effect '나노 추위 보호'.
+#: .\advtech\sq_meds.json
+msgid "추위와 부수적인 피해에 대한 완전한 면역을 제공받습니다."
+msgstr "Full immunity to freezing, cold damage, and collateral damage."
+
+#. ~ Decay message for effect(s) '나노 추위 보호'.
+#: .\advtech\sq_meds.json
+msgid "나노머신에 의한 추위 보호가 약해지고 있습니다."
+msgstr "Cold protection by nanomachines is being weakened."
 
 #: .\advtech\sq_nano_generic_comp.json
 msgid "hazardous waste drum"
@@ -2183,41 +2678,6 @@ msgid ""
 "slimmer and lighter to wear.  Sadly, its plutonium reactor can't be charged "
 "in UPS charging station."
 msgstr ""
-
-#: .\advtech\sq_nano_tier.json
-msgid "나노포장 붕대"
-msgid_plural "나노포장 붕대s"
-msgstr[0] "nanopackaged bandage"
-msgstr[1] "nanopackaged bandages"
-
-#. ~ Description for {'str': '나노포장 붕대'}
-#: .\advtech\sq_nano_tier.json
-msgid ""
-"탄소섬유로 만든, 상처를 빠르게 엮어주는 기능을 가진 고급 붕대입니다.  이 붕"
-"대 속에는 최첨단 나노기술이 적용되어 있어, 상처 치료에 필요한 적정한 압력과 "
-"습도를 유지하면서 상처를 신속하게 회복시키는 능력을 가지고 있습니다.  또한, "
-"이 붕대는 회복력을 즉시 증가시켜 20의 체력을 즉시 회복시키는 효과도 가지고 있"
-"습니다."
-msgstr ""
-"An advanced bandage made of carbon fiber that has the ability to quickly "
-"close wounds. The advanced nanotechnology inside this bandage has the "
-"ability to quickly heal wounds while maintaining the proper pressure and "
-"humidity needed for wound healing. This bandage also has the ability to "
-"instantly increase your resilience, instantly restoring 20 health."
-
-#: .\advtech\sq_nano_tier.json
-msgid "나노붕대 치유"
-msgstr "nanobandage healing"
-
-#. ~ Description of effect '나노붕대 치유'.
-#: .\advtech\sq_nano_tier.json
-msgid "나노포장 붕대를 적용했습니다. 상처가 빠른 속도로 치유됩니다."
-msgstr "You applied a nanopackaging bandage and the wound healed quickly."
-
-#. ~ Apply message for effect(s) '나노붕대 치유'.
-#: .\advtech\sq_nano_tier.json
-msgid "상처가 빠른 속도로 아뭅니다. 조금 아프네요."
-msgstr "The wound is healing quickly. It hurts a little."
 
 #: .\advtech\sq_nano_tier.json
 msgid "생체공학 부목"
@@ -13286,6 +13746,15 @@ msgstr ""
 #, c-format
 msgid "<npcname> feints at %s"
 msgstr ""
+
+#~ msgid "나노붕대 치유"
+#~ msgstr "nanobandage healing"
+
+#~ msgid "나노포장 붕대를 적용했습니다. 상처가 빠른 속도로 치유됩니다."
+#~ msgstr "You applied a nanopackaging bandage and the wound healed quickly."
+
+#~ msgid "상처가 빠른 속도로 아뭅니다. 조금 아프네요."
+#~ msgstr "The wound is healing quickly. It hurts a little."
 
 #~ msgid ""
 #~ "UPS로 돌아가게끔 만든, 방탄조끼와 회로가 삽입된 점프슈트를 사용해서 만든 "
