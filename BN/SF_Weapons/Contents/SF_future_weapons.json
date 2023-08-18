@@ -311,7 +311,7 @@
     "valid_mod_locations": [
       [ "sights", 1 ]
     ],
-    "ammo_effects": [ "LASER", "PLASMA", "NEVER_MISFIRES", "NO_DAMAGE_SCALING" ],
+    "ammo_effects": [ "LASER", "PLASMA", "NEVER_MISFIRES", "NO_DAMAGE_SCALING", "WIDE" ],
     "flags" : [ "NEVER_JAMS", "NON-FOULING", "NEEDS_NO_LUBE", "NONCONDUCTIVE", "WATERPROOF_GUN" ],
     "faults": [  ]
   },
@@ -323,7 +323,7 @@
     "skill_used": "fabrication",
     "difficulty": 10,
 	"skills_required": [ [ "mechanics", 10 ], [ "electronics", 10 ], [ "computer", 10 ] ],
-    "time": "3 h",
+    "time": "6 h",
     "autolearn": false,
     "book_learn": [ [ "SF_Recipe_Dominator", 10 ] ],
     "qualities": [
@@ -336,7 +336,7 @@
     "tools": [ [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ], [ [ "swage", -1 ] ] ],
     "components": [
       [ [ "SF_Sibyl_System", 247 ] ],
-      [ [ "alloy_plate", 2 ] ],
+      [ [ "alloy_plate", 1 ] ],
       [ [ "silver", 200 ] ],
       [ [ "ai_module_advanced", 1 ] ],
       [ [ "motor_tiny", 1 ] ],
@@ -455,5 +455,102 @@
       [ [ "plasma", 10 ] ],
       [ [ "alloy_sheet", 1 ] ] 
     ]
+  },
+  {
+    "id": "SF_Plasma_Annihilator",
+    "type": "GUN",
+    "skill": "rifle",
+    "weapon_category": [ "MACHINE_GUNS", "ENERGY_WEAPONS" ],
+    "reload_noise_volume": 0,
+    "name": { "str": "플라즈마 어나힐레이터" },
+    "symbol": "]",
+    "looks_like": "laser_rifle",
+    "description": "강력한 전자기장을 통해 가속된 플라즈마를 투사하는 병기입니다. 고온의 플라즈마가 적의 장갑을 관통할 뿐만 아니라, 과전류를 확산시켜 대규모의 적을 제압할 수 있습니다. 본래 차량이나 항공기에 장착할 것을 전제로 한 대량 화력투사용 장비이지만, 플라즈마가 포탄에 비해 반동이 비교적 적어, 강력한 체력을 가진 병사는 단독으로 사용할 수도 있습니다. UPS를 이용해 작동합니다.",
+    "ammo" : [ "plasma" ],
+    "clip_size": 100,
+    "durability": 10,
+    "bashing": 15,
+    "to_hit": 0,
+    "weight": "30 kg",
+    "volume": "10 L",
+    "price": 50000000,
+    "price_postapoc": 500000,
+    "material": [ "superalloy" ],
+    "color": "cyan",
+    "range": 60,
+    "ranged_damage": { "damage_type": "heat", "amount": 15, "armor_penetration": 8 },
+    "sight_dispersion": 0,
+    "recoil": 1000, 
+    "dispersion": 0,
+    "ups_charges": 50,
+    "reload": 10,
+    "handling": 0,
+    "loudness": 70,
+    "built_in_mods": [ "riv_scope" ],
+    "modes": [ [ "DEFAULT", "semi", 1 ], [ "AUTO", "auto", 5 ] ],
+    "valid_mod_locations": [
+      [ "emitter", 1 ],
+      [ "barrel", 1 ],
+      [ "muzzle", 1 ],
+      [ "grip", 1 ],
+      [ "stock", 1 ],
+      [ "sling", 1 ],
+      [ "mechanism", 4 ],
+      [ "sights", 1 ],
+      [ "rail", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "ammo_effects": [ "PLASMA", "LARGE_BEANBAG", "NEVER_MISFIRES", "INCENDIARY", "PLASMA_BLAST" ],
+    "flags" : [ "NEVER_JAMS", "NON-FOULING", "NEEDS_NO_LUBE", "NONCONDUCTIVE", "WATERPROOF_GUN", "DURABLE_MELEE" ],
+    "faults": [  ]
+  },
+  {
+    "id": "PLASMA_BLAST",
+    "type": "ammo_effect",
+    "explosion": { "damage": 0, "fragment": { "impact": { "damage_type": "electric", "amount": 50, "armor_multiplier": 0.1 }, "range": 3 }, "radius": 0 },
+    "do_emp_blast": true
+  },
+  {
+    "type": "recipe",
+    "result": "SF_Plasma_Annihilator",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "fabrication",
+    "difficulty": 8,
+	"skills_required": [ [ "mechanics", 8 ], [ "electronics", 8 ], [ "computer", 8 ] ],
+    "time": "6 h",
+    "autolearn": true,
+    "qualities": [
+      { "id": "SAW_M", "level": 1 },
+      { "id": "SAW_M_FINE", "level": 1 },
+      { "id": "SCREW_FINE", "level": 1 },
+      { "id": "WRENCH_FINE", "level": 1 },
+      { "id": "CHISEL", "level": 3 }
+    ],
+    "tools": [ [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ], [ [ "swage", -1 ] ] ],
+    "components": [
+      [ [ "ai_module_advanced", 1 ] ],
+      [ [ "alloy_plate", 3 ] ],
+      [ [ "amplifier", 20 ] ],
+      [ [ "power_supply", 20 ] ],
+      [ [ "processor", 4 ] ],
+      [ [ "RAM", 8 ] ]
+    ]
+  },
+  {
+    "id": "SF_mounted_Plasma_Annihilator",
+    "copy-from": "turret",
+    "type": "vehicle_part",
+    "name": { "str": "차량용 플라즈마 어나힐레이터" },
+    "item": "SF_Plasma_Annihilator",
+    "looks_like": "emp_gun",
+    "color": "cyan",
+    "broken_color": "cyan",
+    "durability": 2000,
+    "breaks_into": [ { "item": "SF_Plasma_Annihilator", "count": 1 } ],
+    "requirements": { 
+      "install": { "skills": [ [ "mechanics", 8 ], [ "electronics", 8 ] ] }, 
+      "removal": { "skills": [ [ "mechanics", 8 ], [ "electronics", 8 ] ] } 
+    }
   }
 ]
