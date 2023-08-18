@@ -7,7 +7,8 @@
     "description": "케블라로 튼튼하게 보강되고, 노멕스 방화 직물로 만들어진, 1.5L까지 담을 수 있는 밀리터리 스타일 수통. 주로 허리에 착용합니다.",
     "material": [ "kevlar", "nomex" ],
 	"looks_like": "canteen",
-    "armor_data": { "covers": [ "leg_either" ], "coverage": 5, "encumbrance": 2, "material_thickness": 3, "environmental_protection": 10 }
+    "armor_data": { "covers": [ "leg_either" ], "coverage": 5, "encumbrance": 2, "material_thickness": 3, "environmental_protection": 10 },
+    "extend": { "flags": [ "STURDY" ] }
   },
   {
     "id": "sq_fsurvivor_vest",
@@ -18,7 +19,8 @@
     "material": [ "kevlar", "nomex" ],
     "looks_like": "survivor_vest",
     "material_thickness": 5,
-    "environmental_protection": 10
+    "environmental_protection": 10,
+    "extend": { "flags": [ "STURDY" ] }
   },
   {
     "id": "sq_fsurvivor_belt",
@@ -29,7 +31,8 @@
     "material": [ "kevlar", "nomex" ],
     "looks_like": "survivor_belt",
     "material_thickness": 6,
-    "environmental_protection": 10
+    "environmental_protection": 10,
+    "extend": { "flags": [ "STURDY" ] }
   },
   {
     "id": "sq_fsurvivor_light",
@@ -48,7 +51,8 @@
       "active": true,
       "need_charges": 1,
       "need_charges_msg": "The survivor headlamp batteries are dead."
-    }
+    },
+    "extend": { "flags": [ "STURDY" ] }
   },
   {
     "id": "sq_fsurvivor_light_on",
@@ -61,7 +65,8 @@
     "material_thickness": 3,
     "environmental_protection": 10,
     "revert_to": "sq_fsurvivor_light",
-    "use_action": { "type": "transform", "menu_text": "Turn off", "msg": "The %s flicks off.", "target": "sq_fsurvivor_light" }
+    "use_action": { "type": "transform", "menu_text": "Turn off", "msg": "The %s flicks off.", "target": "sq_fsurvivor_light" },
+    "extend": { "flags": [ "STURDY" ] }
   },
   {
     "id": "sq_fwearable_atomic_light",
@@ -79,7 +84,8 @@
       "menu_text": "Close cover",
       "target": "sq_fwearable_atomic_light_off",
       "active": true
-    }
+    },
+    "extend": { "flags": [ "STURDY" ] }
   },
   {
     "id": "sq_fwearable_atomic_light_off",
@@ -96,7 +102,8 @@
       "msg": "You open the headlamp's cover.",
       "menu_text": "Open cover",
       "target": "sq_fwearable_atomic_light"
-    }
+    },
+    "extend": { "flags": [ "STURDY" ] }
   },
   {
     "id": "sq_fscabbard",
@@ -107,7 +114,8 @@
     "material": [ "kevlar", "nomex" ],
 	"looks_like": "scabbard",
     "material_thickness": 3,
-    "environmental_protection": 10
+    "environmental_protection": 10,
+    "extend": { "flags": [ "STURDY" ] }
   },
   {
     "id": "sq_fsheath",
@@ -118,7 +126,8 @@
     "material": [ "kevlar", "nomex" ],
 	"looks_like": "sheath",
     "material_thickness": 3,
-    "environmental_protection": 10
+    "environmental_protection": 10,
+    "extend": { "flags": [ "STURDY" ] }
   },
   {
     "id": "sq_fbootsheath",
@@ -129,7 +138,8 @@
     "material": [ "kevlar", "nomex" ],
 	"looks_like": "bootsheath",
     "material_thickness": 3,
-    "environmental_protection": 10
+    "environmental_protection": 10,
+    "extend": { "flags": [ "STURDY" ] }
   },
   {
     "id": "sq_fbaldric",
@@ -140,7 +150,8 @@
     "material": [ "kevlar", "nomex" ],
 	"looks_like": "baldric",
     "material_thickness": 3,
-    "environmental_protection": 10
+    "environmental_protection": 10,
+    "extend": { "flags": [ "STURDY" ] }
   },
   {
     "id": "sq_fholster",
@@ -151,7 +162,8 @@
     "material": [ "kevlar", "nomex" ],
 	"looks_like": "holster",
     "material_thickness": 3,
-    "environmental_protection": 10
+    "environmental_protection": 10,
+    "extend": { "flags": [ "STURDY" ] }
   },
   {
     "id": "sq_fbow_sling",
@@ -162,7 +174,8 @@
     "material": [ "kevlar", "nomex" ],
 	"looks_like": "bow_sling",
     "material_thickness": 3,
-    "environmental_protection": 10
+    "environmental_protection": 10,
+    "extend": { "flags": [ "STURDY" ] }
   },
   {
     "id": "sq_faxe_ring",
@@ -173,7 +186,8 @@
     "material": [ "kevlar", "nomex" ],
 	"looks_like": "axe_ring",
     "material_thickness": 3,
-    "environmental_protection": 10
+    "environmental_protection": 10,
+    "extend": { "flags": [ "STURDY" ] }
   },
   {
     "id": "sq_fspearsling",
@@ -184,7 +198,8 @@
     "material": [ "kevlar", "nomex" ],
 	"looks_like": "spearsling",
     "material_thickness": 3,
-    "environmental_protection": 10
+    "environmental_protection": 10,
+    "extend": { "flags": [ "STURDY" ] }
   },
   {
     "id": "sq_fsurvivor_pack",
@@ -195,7 +210,8 @@
     "material": [ "kevlar", "nomex" ],
 	"looks_like": "survivor_pack",
     "material_thickness": 4,
-    "environmental_protection": 10
+    "environmental_protection": 10,
+    "extend": { "flags": [ "STURDY" ] }
   },
   {
     "id": "sq_fsurvivor_rucksack",
@@ -206,7 +222,8 @@
     "material": [ "kevlar", "nomex" ],
 	"looks_like": "survivor_rucksack",
     "material_thickness": 4,
-    "environmental_protection": 10
+    "environmental_protection": 10,
+    "extend": { "flags": [ "STURDY" ] }
   },
   {
     "id": "sq_fsurvivor_duffel_bag",
@@ -217,7 +234,8 @@
     "material": [ "kevlar", "nomex" ],
 	"looks_like": "survivor_duffel_bag",
     "material_thickness": 4,
-    "environmental_protection": 10
+    "environmental_protection": 10,
+    "extend": { "flags": [ "STURDY" ] }
   },
   {
     "id": "sq_fsurvivor_runner_pack",
@@ -228,7 +246,8 @@
     "material": [ "kevlar", "nomex" ],
 	"looks_like": "survivor_runner_pack",
     "material_thickness": 4,
-    "environmental_protection": 10
+    "environmental_protection": 10,
+	"extend": { "flags": [ "STURDY" ] }
   },
   {
     "id": "sq_fsurvivor_hiking_backpack",
@@ -239,7 +258,8 @@
     "material": [ "kevlar", "nomex" ],
 	"looks_like": "survivor_hiking_backpack",
     "material_thickness": 4,
-    "environmental_protection": 10
+    "environmental_protection": 10,
+	"extend": { "flags": [ "STURDY" ] }
   },
   {
     "id": "sq_fknee_pads",
@@ -250,7 +270,8 @@
     "material": [ "kevlar", "nomex" ],
 	"looks_like": "knee_pads",
     "material_thickness": 7,
-    "environmental_protection": 10
+    "environmental_protection": 10,
+	"extend": { "flags": [ "STURDY" ] }
   },
   {
     "id": "sq_felbow_pads",
@@ -261,7 +282,8 @@
     "material": [ "kevlar", "nomex" ],
 	"looks_like": "elbow_pads",
     "material_thickness": 7,
-    "environmental_protection": 10
+    "environmental_protection": 10,
+	"extend": { "flags": [ "STURDY" ] }
   },
   {
     "id": "sq_farmguard_lightplate",
@@ -272,7 +294,8 @@
     "material": [ "kevlar", "steel", "nomex" ],
 	"looks_like": "armguard_lightplate",
     "material_thickness": 7,
-    "environmental_protection": 12
+    "environmental_protection": 12,
+	"extend": { "flags": [ "STURDY" ] }
   },
   {
     "id": "sq_flegguard_lightplate",
@@ -283,7 +306,8 @@
     "material": [ "kevlar", "steel", "nomex" ],
 	"looks_like": "legguard_lightplate",
     "material_thickness": 7,
-    "environmental_protection": 12
+    "environmental_protection": 12,
+	"extend": { "flags": [ "STURDY" ] }
   },
   {
     "id": "sq_fcuirass_lightplate",
@@ -294,7 +318,8 @@
     "material": [ "kevlar", "steel", "nomex" ],
 	"looks_like": "cuirass_lightplate",
     "material_thickness": 7,
-    "environmental_protection": 12
+    "environmental_protection": 12,
+	"extend": { "flags": [ "STURDY" ] }
   },
   {
     "id": "sq_farmor_lightplate",
@@ -305,7 +330,8 @@
     "material": [ "kevlar", "steel", "nomex" ],
 	"looks_like": "armor_lightplate",
     "material_thickness": 7,
-    "environmental_protection": 12
+    "environmental_protection": 12,
+	"extend": { "flags": [ "STURDY" ] }
   },
   {
     "id": "sq_fchestpouch",
@@ -316,7 +342,8 @@
     "material": [ "kevlar", "nomex" ],
 	"looks_like": "chestpouch",
     "material_thickness": 3,
-    "environmental_protection": 10
+    "environmental_protection": 10,
+	"extend": { "flags": [ "STURDY" ] }
   },
   {
     "id": "sq_flegpouch_large",
@@ -327,7 +354,8 @@
     "material": [ "kevlar", "nomex" ],
 	"looks_like": "legpouch_large",
     "material_thickness": 3,
-    "environmental_protection": 10
+    "environmental_protection": 10,
+	"extend": { "flags": [ "STURDY" ] }
   },
   {
     "id": "sq_flegpouch",
@@ -338,7 +366,8 @@
     "material": [ "kevlar", "nomex" ],
 	"looks_like": "legpouch",
     "material_thickness": 3,
-    "environmental_protection": 10
+    "environmental_protection": 10,
+	"extend": { "flags": [ "STURDY" ] }
   },
   {
     "id": "sq_fammo_pouch",
@@ -349,7 +378,8 @@
     "material": [ "kevlar", "nomex" ],
 	"looks_like": "ammo_pouch",
     "material_thickness": 3,
-    "environmental_protection": 10
+    "environmental_protection": 10,
+	"extend": { "flags": [ "STURDY" ] }
   },
   {
     "id": "sq_fgrenadebandolier",
@@ -360,7 +390,8 @@
     "material": [ "nomex" ],
 	"looks_like": "grenadebandolier",
     "material_thickness": 3,
-    "environmental_protection": 10
+    "environmental_protection": 10,
+	"extend": { "flags": [ "STURDY" ] }
   },
   {
     "id": "sq_fgrenade_pouch",
@@ -371,7 +402,8 @@
     "material": [ "nomex" ],
 	"looks_like": "grenade_pouch",
     "material_thickness": 3,
-    "environmental_protection": 10
+    "environmental_protection": 10,
+	"extend": { "flags": [ "STURDY" ] }
   },
   {
     "id": "sq_fXL_holster",
@@ -382,7 +414,8 @@
     "material": [ "nomex" ],
     "looks_like": "XL_holster",
     "material_thickness": 3,
-    "environmental_protection": 10
+    "environmental_protection": 10,
+	"extend": { "flags": [ "STURDY" ] }
   },
   {
     "id": "sq_fback_holster",
@@ -393,7 +426,8 @@
     "material": [ "nomex" ],
     "looks_like": "XL_holster",
     "material_thickness": 3,
-    "environmental_protection": 10
+    "environmental_protection": 10,
+	"extend": { "flags": [ "STURDY" ] }
   },
   {
     "id": "sq_fduster_survivor",
@@ -403,7 +437,8 @@
     "description": "노멕스 방화 직물과 케블라로 보강한 수제 더스터 코트. 편안하고 튼튼하며, 주머니가 많이 달려 있어 저장 공간이 많습니다.",
     "material": [ "nomex", "kevlar" ],
 	"looks_like": "duster_survivor",
-    "environmental_protection": 10
+    "environmental_protection": 10,
+	"extend": { "flags": [ "STURDY" ] }
   },
   {
     "id": "sq_ftrenchcoat_survivor",
@@ -413,7 +448,8 @@
     "description": "노멕스 방화 직물과 케블라로 보강한 수제 트렌치코트. 편안하고 튼튼하며, 주머니가 많아 수납공간이 많습니다.",
     "material": [ "nomex", "kevlar" ],
 	"looks_like": "trenchcoat_survivor",
-    "environmental_protection": 10
+    "environmental_protection": 10,
+	"extend": { "flags": [ "STURDY" ] }
   },
   {
     "type": "recipe",

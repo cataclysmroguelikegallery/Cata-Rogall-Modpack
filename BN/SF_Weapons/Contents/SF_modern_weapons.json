@@ -90,6 +90,7 @@
     "description": "매우 효과적인 재블린 대전차미사일은 탠덤 성형작약탄을 발사해 적 전차의 취약한 상부를 타격, 파괴하는 것으로 잘 알려져 있습니다. 적외선 센서를 통해 자율추적이 가능해, 발사 후 망각 방식으로 1인이 사용 가능합니다.",
     "weight": "22000 g",
     "volume": "12 L",
+    "color": "cyan",
     "price": 17520300,
     "price_postapoc": 175200,
     "to_hit": -4,
@@ -145,6 +146,7 @@
     "to_hit": -8,
     "material": "steel",
     "ammo": "atgm",
+    "color": "cyan",
     "ranged_damage": { "damage_type": "bullet", "amount": 150, "armor_penetration": 150 },
     "range": 15,
     "dispersion": 0,
@@ -154,6 +156,7 @@
     "reload": 600,
     "loudness": 800,
     "valid_mod_locations": [ [ "sling", 1 ] ],
+    "modes": [ [ "DEFAULT", "semi", 1 ], [ "AUTO", "auto", 4 ] ],
     "extend": { "flags": [ "MOUNTED_GUN", "RELOAD_EJECT" ] }
   },
   {
@@ -185,11 +188,11 @@
     "id": "SF_mounted_Hellfire_Missile",
     "copy-from": "turret",
     "type": "vehicle_part",
-    "name": { "str": "AGM-114 헬파이어" },
+    "name": { "str": "차량용 AGM-114 헬파이어" },
     "item": "SF_Hellfire_Missile",
     "looks_like": "tow_launcher",
-    "color": "green",
-    "broken_color": "green",
+    "color": "cyan",
+    "broken_color": "cyan",
     "durability": 2000,
     "breaks_into": [ { "item": "SF_Hellfire_Missile", "count": 1 } ],
     "requirements": { 

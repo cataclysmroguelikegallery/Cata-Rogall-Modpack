@@ -716,7 +716,7 @@
     "type": "COMESTIBLE",
     "comestible_type": "MED",
     "name": { "str_sp": "나노마이트 캡슐: 화염 보호" },
-    "description": "나노머신 군집체가 포함된 캡슐입니다. 신체에 적용되었을 때 군집체가 피부층에 정배열되어 2시간동안 단열 및 방염 효과를 부여합니다.",
+    "description": "나노머신 군집체가 포함된 캡슐입니다. 신체에 적용되었을 때 군집체가 피부층에 정배열되어 30분동안 단열 및 방염 효과를 부여합니다.",
 	"looks_like": "5x50_hull",
     "weight": "10 g",
     "volume": "10 ml",
@@ -727,7 +727,7 @@
     "symbol": "!",
     "color": "light_gray",
     "flags": [ "NPC_SAFE", "IRREPLACEABLE_CONSUMABLE" ],
-    "use_action": { "type": "consume_drug", "activation_message": "나노마이트가 캡슐에서 방출되어 외부에 배열됩니다.", "effects": [ { "id": "sq_nanofire", "duration": "120 m" } ] }
+    "use_action": { "type": "consume_drug", "activation_message": "나노마이트가 캡슐에서 방출되어 외부에 배열됩니다.", "effects": [ { "id": "sq_nanofire", "duration": "30 m" } ] }
   },
   {
     "id": "sq_nanomite_acid",
@@ -745,14 +745,14 @@
     "symbol": "!",
     "color": "light_gray",
     "flags": [ "NPC_SAFE", "IRREPLACEABLE_CONSUMABLE" ],
-    "use_action": { "type": "consume_drug", "activation_message": "나노마이트가 캡슐에서 방출되어 외부에 배열됩니다.", "effects": [ { "id": "sq_nanoacid", "duration": "120 m" } ] }
+    "use_action": { "type": "consume_drug", "activation_message": "나노마이트가 캡슐에서 방출되어 외부에 배열됩니다.", "effects": [ { "id": "sq_nanoacid", "duration": "30 m" } ] }
   },
   {
     "id": "sq_nanomite_elec",
     "type": "COMESTIBLE",
     "comestible_type": "MED",
     "name": { "str_sp": "나노마이트 캡슐: 전기 보호" },
-    "description": "나노머신 군집체가 포함된 캡슐입니다. 신체에 적용되었을 때 군집체가 피부층에 정배열되어 2시간동안 전기피해에 대한 면역을 부여합니다.",
+    "description": "나노머신 군집체가 포함된 캡슐입니다. 신체에 적용되었을 때 군집체가 피부층에 정배열되어 30분동안 전기피해에 대한 면역을 부여합니다.",
 	"looks_like": "5x50_hull",
     "weight": "10 g",
     "volume": "10 ml",
@@ -763,14 +763,14 @@
     "symbol": "!",
     "color": "light_gray",
     "flags": [ "NPC_SAFE", "IRREPLACEABLE_CONSUMABLE" ],
-    "use_action": { "type": "consume_drug", "activation_message": "나노마이트가 캡슐에서 방출되어 외부에 배열됩니다.", "effects": [ { "id": "sq_nanoelec", "duration": "120 m" } ] }
+    "use_action": { "type": "consume_drug", "activation_message": "나노마이트가 캡슐에서 방출되어 외부에 배열됩니다.", "effects": [ { "id": "sq_nanoelec", "duration": "30 m" } ] }
   },
   {
     "id": "sq_nanomite_cold",
     "type": "COMESTIBLE",
     "comestible_type": "MED",
     "name": { "str_sp": "나노마이트 캡슐: 빙결 보호" },
-    "description": "나노머신 군집체가 포함된 캡슐입니다. 신체에 적용되었을 때 군집체가 피부층에 정배열되어 2시간동안 추위와 빙결에 대한 면역을 부여합니다.",
+    "description": "나노머신 군집체가 포함된 캡슐입니다. 신체에 적용되었을 때 군집체가 피부층에 정배열되어 30분동안 추위와 빙결에 대한 면역을 부여합니다.",
 	"looks_like": "5x50_hull",
     "weight": "10 g",
     "volume": "10 ml",
@@ -781,7 +781,7 @@
     "symbol": "!",
     "color": "light_gray",
     "flags": [ "NPC_SAFE", "IRREPLACEABLE_CONSUMABLE" ],
-    "use_action": { "type": "consume_drug", "activation_message": "나노마이트가 캡슐에서 방출되어 외부에 배열됩니다.", "effects": [ { "id": "sq_nanocold", "duration": "120 m" } ] }
+    "use_action": { "type": "consume_drug", "activation_message": "나노마이트가 캡슐에서 방출되어 외부에 배열됩니다.", "effects": [ { "id": "sq_nanocold", "duration": "30 m" } ] }
   },
   {
     "type": "effect_type",
@@ -852,7 +852,7 @@
     "qualities": [ { "id": "CHEM", "level": 3 } ],
     "tools": [ [ [ "sq_nanocomp", -1 ], [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
     "autolearn": true,
-    "components": [ [ [ "nanomaterial", 25 ] ], [ [ "sq_monofilament", 50 ] ], [ [ "burnt_out_bionic", 1 ] ], [ [ "solder_wire", 1 ] ] ]
+    "components": [ [ [ "nanomaterial", 75 ] ], [ [ "sq_monofilament", 50 ] ], [ [ "burnt_out_bionic", 1 ] ], [ [ "solder_wire", 1 ] ] ]
   },
   {
     "result": "sq_nanomite_acid",
@@ -867,7 +867,7 @@
     "qualities": [ { "id": "CHEM", "level": 3 } ],
     "tools": [ [ [ "sq_nanocomp", -1 ], [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
     "autolearn": true,
-    "components": [ [ [ "nanomaterial", 25 ] ], [ [ "sq_monofilament", 50 ] ], [ [ "burnt_out_bionic", 1 ] ], [ [ "solder_wire", 1 ] ] ]
+    "components": [ [ [ "nanomaterial", 75 ] ], [ [ "sq_monofilament", 50 ] ], [ [ "burnt_out_bionic", 1 ] ], [ [ "solder_wire", 1 ] ] ]
   },
   {
     "result": "sq_nanomite_elec",
@@ -882,7 +882,7 @@
     "qualities": [ { "id": "CHEM", "level": 3 } ],
     "tools": [ [ [ "sq_nanocomp", -1 ], [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
     "autolearn": true,
-    "components": [ [ [ "nanomaterial", 25 ] ], [ [ "sq_monofilament", 50 ] ], [ [ "burnt_out_bionic", 1 ] ], [ [ "solder_wire", 1 ] ] ]
+    "components": [ [ [ "nanomaterial", 75 ] ], [ [ "sq_monofilament", 50 ] ], [ [ "burnt_out_bionic", 1 ] ], [ [ "solder_wire", 1 ] ] ]
   },
   {
     "result": "sq_nanomite_cold",
@@ -897,6 +897,6 @@
     "qualities": [ { "id": "CHEM", "level": 3 } ],
     "tools": [ [ [ "sq_nanocomp", -1 ], [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
     "autolearn": true,
-    "components": [ [ [ "nanomaterial", 25 ] ], [ [ "sq_monofilament", 50 ] ], [ [ "burnt_out_bionic", 1 ] ], [ [ "solder_wire", 1 ] ] ]
+    "components": [ [ [ "nanomaterial", 75 ] ], [ [ "sq_monofilament", 50 ] ], [ [ "burnt_out_bionic", 1 ] ], [ [ "solder_wire", 1 ] ] ]
   }
 ]
