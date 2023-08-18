@@ -1,0 +1,19 @@
+[
+ {
+    "id": "AMMO_EFFECT_EXAMPLE",
+    "type": "ammo_effect",
+    "aoe": {
+      "field_type": "fd_electricity",
+      "intensity_min": 1,
+      "intensity_max": 3,
+      "radius": 5,
+      "chance": 25,
+      "check_passable": true,
+      "check_sees": true,
+      "check_sees_radius": 3
+    },
+    "trail": { "field_type": "fd_electricity", "intensity_min": 2, "intensity_max": 3, "chance": 100 },
+    "do_emp_blast": true,
+   "explosion": { "damage": 100, "fragment": { "impact": { "damage_type": "heat", "amount": 250, "armor_multiplier": 1 }, "range": 2 }, "radius": 2 }
+  }
+]
