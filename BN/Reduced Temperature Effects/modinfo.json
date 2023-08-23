@@ -1,0 +1,11 @@
+[
+	{
+		"type": "MOD_INFO",
+		"id": "reducedtempeffect",
+		"name": "온도 디버프 감소",
+		"authors": [ "NakedJake" ],
+		"description": "온도로 인한 영향(열 감속, 피해, 각종 디버프 등)이 크게 줄어듭니다.",
+		"category": "rebalance",
+		"dependencies": [ "bn" ]
+	}
+]

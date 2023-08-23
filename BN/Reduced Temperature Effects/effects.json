@@ -1,0 +1,97 @@
+[
+  {
+    "type": "effect_type",
+    "id": "cold",
+    "name": [ "Chilly", "Cold", "Freezing" ],
+    "desc": [ "Your %s is exposed to the cold.", "Your %s is very exposed to the cold.", "Your %s is dangerously cold!" ],
+    "speed_name": "Cold",
+    "max_intensity": 3,
+    "permanent": true,
+    "part_descs": true,
+    "base_mods": { "speed_mod": [ -2 ] },
+    "scaling_mods": {
+      "speed_mod": [ -4 ],
+      "int_mod": [ -0.5 ],
+      "dex_mod": [ -0.5 ],
+      "hurt_min": [ 1 ],
+      "hurt_chance": [ 100 ],
+      "pkill_tick": [ 60 ],
+      "pkill_min": [ 1 ],
+      "pkill_max_val": [ 30 ],
+      "stamina_chance": [ 2 ],
+      "stamina_min": [ -2 ]
+    }
+  },
+  {
+    "type": "effect_type",
+    "id": "hot",
+    "name": [ "Warm", "Hot", "Scorching" ],
+    "desc": [ "Your %s feels warm.", "Your %s is sweating from the heat.", "Your %s is sweating profusely!" ],
+    "max_intensity": 3,
+    "permanent": true,
+    "part_descs": true,
+    "base_mods": {
+      "thirst_tick": [ 2400 ],
+      "thirst_chance": [ 1 ],
+      "pain_min": [ 1 ],
+      "pain_chance": [ 1 ],
+      "pain_max_val": [ -1 ],
+      "hurt_min": [ 1 ],
+      "hurt_chance": [ -300 ],
+      "stamina_chance": [ 1 ]
+    },
+    "scaling_mods": { "thirst_min": [ 1 ], "thirst_tick": [ -600 ], "pain_max_val": [ 10 ], "hurt_chance": [ 175 ], "stamina_min": [ -1 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "hot_speed",
+    "name": [ "Slowdown", "Hampered", "Crushed" ],
+    "desc": [ "The heat slows you down.", "You struggle to move in this heat.", "The heat is crushing you." ],
+    "speed_name": "Heat slowdown",
+    "max_intensity": 3,
+    "permanent": true,
+    "part_descs": true,
+    "base_mods": { "speed_mod": [ -1 ] },
+    "scaling_mods": { "speed_mod": [ -2 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "frostbite",
+    "name": [ "Frostnip", "Frostbite" ],
+    "desc": [ "Your %s is frostnipped and has gone numb.", "Your %s is frostbitten!  Its tissues are frozen from the cold!" ],
+    "part_descs": true,
+    "speed_name": "Frostbite",
+    "dur_add_perc": 0,
+    "max_intensity": 2,
+    "permanent": true,
+    "scaling_mods": { "speed_mod": [ -3 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "frostbite_recovery",
+    "name": [ "Defrosting" ],
+    "desc": [ "Your %s is starting to feel the damage cold has wrought." ],
+    "permanent": true,
+    "part_descs": true,
+    "base_mods": { "pain_max_val": [ 40 ], "pain_chance": [ 2 ], "pain_min": [ 1 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "blisters",
+    "name": [ "Blisters" ],
+    "desc": [ "Your %s is blistering from the intense heat." ],
+    "main_parts_only": true,
+    "part_descs": true,
+    "miss_messages": [ [ "Your blisters distract you", 1 ] ],
+    "base_mods": {
+      "dex_mod": [ -1 ],
+      "str_mod": [ -1 ],
+      "per_mod": [ -1 ],
+      "pain_max_val": [ 35 ],
+      "pain_chance": [ 2 ],
+      "pain_min": [ 1 ],
+      "hurt_chance": [ 2 ],
+      "hurt_min": [ 1 ]
+    }
+  }
+]
