@@ -346,6 +346,7 @@
     "id": "sq_homebrew_antiseptic",
     "type": "COMESTIBLE",
     "name": { "str": "수제 소독제" },
+	"looks_like": "chem_compositionb",
     "description": "상처를 치료하고 감염을 멈추거나 예방하기 위해 야생에서 발견한 재료들을 절박하게 조합한 것입니다.  의심스러울 수도 있지만 치유력이 있을 수도 있습니다.  따끔거릴수록 더 좋겠죠.",
     "weight": "250 g",
     "volume": "250 ml",

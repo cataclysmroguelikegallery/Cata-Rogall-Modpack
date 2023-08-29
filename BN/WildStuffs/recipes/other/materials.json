@@ -8,6 +8,7 @@
     "difficulty": 3,
     "time": "5 m",
     "autolearn": true,
+	"charges": 50,
     "using": [ [ "earthenware_firing", 1 ] ],
     "tools": [ [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ] ],
     "components": [ [ [ "material_iron", 2 ] ] ]

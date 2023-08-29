@@ -35,6 +35,18 @@
     "extend": { "flags": [ "STURDY" ] }
   },
   {
+    "id": "sq_fsurvivor_belt_notools",
+	"copy-from": "survivor_belt_notools",
+    "type": "TOOL_ARMOR",
+    "name": { "str": "생존용 방화 벨트" },
+    "description": "케블라로 튼튼하게 보강되고, 노멕스 방화 직물로 만들어진 다용도벨트. 줄과 작은 칼을 넣을 수 있는 주머니가 달려 있습니다. 견고하고 착용시 편안하도록 만들어져 있습니다. 사용하면 무기를 넣거나 뺍니다.",
+    "material": [ "kevlar", "nomex" ],
+    "looks_like": "survivor_belt",
+    "material_thickness": 6,
+    "environmental_protection": 10,
+    "extend": { "flags": [ "STURDY" ] }
+  },
+  {
     "id": "sq_fsurvivor_light",
 	"copy-from": "survivor_light",
     "type": "TOOL_ARMOR",
@@ -511,6 +523,44 @@
       [ [ "saw", 1 ] ],
       [ [ "hacksaw", 1 ] ],
       [ [ "hammer", 1 ] ]
+    ]
+  },
+  {
+    "result": "sq_fsurvivor_belt",
+	"id_suffix": "from fsurvivor belt notools",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "skill_used": "fabrication",
+    "time": "1 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [
+      [ [ "sq_fsurvivor_belt_notools", 1 ] ],
+      [ [ "screwdriver_set", 1 ] ],
+      [ [ "wrench", 1 ] ],
+      [ [ "saw", 1 ] ],
+      [ [ "hacksaw", 1 ] ],
+      [ [ "hammer", 1 ] ]
+    ]
+  },
+  {
+    "result": "sq_fsurvivor_belt_notools",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "skill_used": "tailor",
+    "difficulty": 7,
+    "skills_required": [ "fabrication", 4 ],
+    "time": "80 m",
+    "autolearn": true,
+    "using": [ [ "sewing_standard", 140 ] ],
+    "components": [
+      [ [ "kevlar_plate", 6 ] ],
+	  [ [ "nomex", 4 ] ],
+      [ [ "duct_tape", 100 ] ],
+      [ [ "sheath", 1 ] ],
+      [ [ "legrig", 1 ], [ "tool_belt", 1 ], [ "dump_pouch", 1 ], [ "leather_pouch", 4 ] ]
     ]
   },
   {

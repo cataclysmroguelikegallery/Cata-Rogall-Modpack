@@ -548,8 +548,9 @@
     "batch_time_factors": [ 80, 5 ],
     "autolearn": true,
     "charges": 20,
-    "using": [ [ "welding_standard", 50 ] ],
-    "components": [ [ [ "steel_lump", 1 ] ] ]
+    "using": [ [ "forging_standard", 4 ] ],
+    "components": [ [ [ "steel_lump", 1 ] ] ],
+    "tools": [ [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ] ]
   },
   {
     "result": "scrap",
@@ -578,14 +579,15 @@
     "batch_time_factors": [ 50, 5 ],
     "autolearn": true,
     "charges": 400,
-    "using": [ [ "welding_standard", 50 ] ],
+    "using": [ [ "forging_standard", 10 ] ],
     "qualities": [ { "id": "SAW_M", "level": 2 } ],
-    "components": [ [ [ "steel_frame", 1 ] ] ]
+    "components": [ [ [ "frame", 1 ] ] ],
+    "tools": [ [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ] ]
   },
   {
     "result": "scrap",
     "type": "recipe",
-    "id_suffix": "to scrap 3",
+    "id_suffix": "to scrap 4",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
     "skill_used": "fabrication",
@@ -594,9 +596,10 @@
     "batch_time_factors": [ 50, 5 ],
     "autolearn": true,
     "charges": 2000,
-    "using": [ [ "welding_standard", 50 ] ],
+    "using": [ [ "forging_standard", 20 ] ],
     "qualities": [ { "id": "SAW_M", "level": 2 } ],
-    "components": [ [ [ "hdframe", 1 ] ] ]
+    "components": [ [ [ "hdframe", 1 ] ] ],
+    "tools": [ [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ] ]
   },
   {
     "result": "sq_rope_loop",
