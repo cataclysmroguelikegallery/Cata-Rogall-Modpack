@@ -41,7 +41,7 @@
     "looks_like": "polycarbonate_sheet",
     "color": "dark_gray",
     "count": 2,
-    "stack_size": 200,
+    "stack_size": 1,
 	"ammo_type": "components",
     "flags": [ "NO_SALVAGE" ]
   },
@@ -147,7 +147,7 @@
     "autolearn": false,
 	"charges": 2,
     "tools": [ [ [ "sq_atomic_forge", -1 ] ] ],
-    "components": [ [ [ "resin_chunk", 1 ] ], [ [ "graphene", 30 ] ] ]
+    "components": [ [ [ "resin_chunk", 1 ] ], [ [ "graphene", 3 ] ] ]
   },
   {
     "result": "carbide_plate",
@@ -164,7 +164,7 @@
     "autolearn": false,
 	"charges": 10,
     "tools": [ [ [ "sq_atomic_forge", -1 ] ] ],
-    "components": [ [ [ "alien_pod_resin", 1 ] ], [ [ "graphene", 3 ] ] ]
+    "components": [ [ [ "alien_pod_resin", 1 ] ], [ [ "graphene", 15 ] ] ]
   },
   {
     "result": "hydrogen_tank",

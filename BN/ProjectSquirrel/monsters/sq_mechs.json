@@ -1,17 +1,106 @@
 [
   {
+    "//": "Note that we are replacing the target, and in this process, we'll need to kill them... then they'll drop their loots (corpse included). There's no spell to prevent that, so flesh variants have special flag that absorbs items (which then clears dropped items immediately after the infection).",
+    "//1": "This will convert normal (or has a minor ability/characteristics such as swimmer) zombies into a regular flesh zombie.",
+    "id": "mon_flesh_infect_mech",
+    "type": "SPELL",
+    "name": { "str": "강제종료" },
+    "description": "로봇 제어용 노트북으로 생존자의 수제 메크에 1250만큼의 대미지를 주어 강제로 종료시킵니다.",
+    "flags": [ "SILENT" ],
+    "valid_targets": [ "ally" ],
+    "targeted_monster_ids": [
+      "mon_sq_mech_balance",
+      "mon_sq_mech_balance_2",
+      "mon_sq_mech_heavy",
+      "mon_sq_mech_heavy_2",
+      "mon_sq_mech_light",
+      "mon_sq_mech_light_2"
+    ],
+    "extra_effects": [ { "id": "mon_flesh_infect_mech_yes" } ],
+    "effect": "target_attack",
+    "min_damage": 1250,
+    "max_damage": 1250,
+    "min_range": 10,
+    "max_range": 10,
+    "damage_type": "bio"
+  },
+  {
+    "//": "Spams 'failed to place monster' message until it succeeds. Becomes very annoying when tons of monster uses the spell at a single target.",
+    "type": "SPELL",
+    "id": "mon_flesh_infect_mech_yes",
+    "name": { "str": "Infect" },
+    "description": "Spell casted by a monster. If you're seeing this, then read this one instead:\n'Caster infects the target, turning them into a crimson horror.'",
+    "flags": [ "SILENT", "PERMANENT" ],
+    "valid_targets": [ "ground" ],
+    "min_damage": 1,
+    "max_damage": 1,
+    "min_range": 1,
+    "max_range": 1,
+    "effect": "summon",
+    "effect_str": "mon_sq_mech_balance_2"
+  },
+  {
+    "id": "sq_mech_radiocontrol",
+    "type": "TOOL",
+    "category": "tools",
+    "looks_like": "radiocontrol",
+    "name": { "str_sp": "메크 종료기" },
+    "description": "A remote control for RC cars, with joystick to steer the car and colorful buttons that don't seem to do anything.  Perhaps they were for the deluxe model?",
+    "weight": "102 g",
+    "volume": "100 ml",
+    "price": 6000,
+    "price_postapoc": 250,
+    "to_hit": -1,
+    "material": [ "steel" ],
+    "symbol": "#",
+    "color": "light_gray",
+    "copy-from": "radio_car_base",
+    "ammo": "battery",
+    "charges_per_use": 1,
+    "use_action": [ { "type": "cast_spell", "spell_id": "mon_flesh_infect_mech", "no_fail": true, "level": 1 } ],
+    "magazines": [
+      [
+        "battery",
+        [
+          "light_disposable_cell",
+          "light_minus_disposable_cell",
+          "light_battery_cell",
+          "light_plus_battery_cell",
+          "light_minus_battery_cell",
+          "light_atomic_battery_cell",
+          "light_minus_atomic_battery_cell"
+        ]
+      ]
+    ],
+    "magazine_well": "250 ml"
+  },
+  {
+    "id": "storage_battery",
+    "type": "MAGAZINE",
+    "copy-from": "storage_battery",
+    "name": { "str": "storage battery", "str_pl": "storage batteries" },
+    "extend": { "flags": [ "MECH_BAT" ] }
+  },
+  {
+    "id": "medium_storage_battery",
+    "copy-from": "medium_storage_battery",
+    "type": "MAGAZINE",
+    "name": { "str": "medium storage battery", "str_pl": "medium storage batteries" },
+    "extend": { "flags": [ "MECH_BAT" ] }
+  },
+  {
     "id": "mon_sq_mech_balance",
     "type": "MONSTER",
     "name": { "str": "메크: 익스플로러 (탑승 모드)" },
     "description": "개수한 군용 정찰 외골격 시스템에 자율행동이 승인된 드론을 탑재한 전천후 표준형 메크 드론입니다. 광학 무기를 중심으로 운용하는 로드아웃으로, 평균적인 근접대응능력과 강력한 에너지 투사 능력이 특징입니다. 해킹하여 당신을 파일럿으로 인지하게끔 만들 수 있습니다. 다른 기계수트처럼, 장착된 대형 배터리를 UPS로 활용할 수 있습니다.",
     "default_faction": "mech_bot",
     "species": [ "ROBOT" ],
-    "volume": "700388 ml",
-    "weight": "700388 g",
+    "volume": "300388 ml",
+    "weight": "300388 g",
     "mountable_weight_ratio": 10,
     "hp": 1000,
     "speed": 120,
-    "material": [ "superalloy" ],
+    "material": [ "superalloy", "steel" ],
     "symbol": "M",
     "color": "yellow",
     "aggression": 100,
@@ -27,7 +116,9 @@
     "vision_night": 100,
     "mech_str_bonus": 100,
     "special_attacks": [
-	  [ "SMASH", 8 ], [ "BIO_OP_BIOJUTSU", 4 ], [ "LONGSWIPE", 2 ],
+      [ "SMASH", 8 ],
+      [ "BIO_OP_BIOJUTSU", 4 ],
+      [ "LONGSWIPE", 2 ],
       {
         "type": "gun",
         "cooldown": 2,
@@ -40,8 +131,8 @@
         "require_targeting_monster": true,
         "targeting_cost": 150
       }
-	],
-    "mech_battery": "huge_atomic_battery_cell",
+    ],
+    "mech_battery": "storage_battery",
     "mech_weapon": "sq_walkergun5",
     "revert_to_itype": "broken_sq_mech_balance",
     "death_function": [ "BROKEN" ],
@@ -51,7 +142,7 @@
       "MECH_RECON_VISION",
       "HEARS",
       "MILITARY_MECH",
-	  "MECH_DEFENSIVE",
+      "MECH_DEFENSIVE",
       "BASHES",
       "PUSH_MON",
       "ELECTRONIC",
@@ -61,7 +152,7 @@
       "RIDEABLE_MECH",
       "PRIORITIZE_TARGETS",
       "PATH_AVOID_DANGER_2",
-	  "DESTROYS"
+      "DESTROYS"
     ]
   },
   {
@@ -71,12 +162,12 @@
     "description": "개수한 군용 정찰 외골격 시스템에 자율행동이 승인된 드론을 탑재한 전천후 표준형 메크 드론입니다. 광학 무기를 중심으로 운용하는 로드아웃으로, 평균적인 근접대응능력과 강력한 에너지 투사 능력이 특징입니다. 혼자서도 작전 수행이 가능하며, 파일럿이 탑승하여 교전능력을 끌어올릴 수도 있습니다.",
     "default_faction": "mech_bot",
     "species": [ "ROBOT" ],
-    "volume": "700388 ml",
-    "weight": "700388 g",
+    "volume": "300388 ml",
+    "weight": "300388 g",
     "mountable_weight_ratio": 10,
     "hp": 1000,
     "speed": 120,
-    "material": [ "superalloy" ],
+    "material": [ "superalloy", "steel" ],
     "symbol": "M",
     "color": "yellow",
     "aggression": 100,
@@ -91,7 +182,9 @@
     "armor_fire": 80,
     "vision_night": 100,
     "special_attacks": [
-	  [ "SMASH", 8 ], [ "BIO_OP_BIOJUTSU", 4 ], [ "LONGSWIPE", 2 ],
+      [ "SMASH", 8 ],
+      [ "BIO_OP_BIOJUTSU", 4 ],
+      [ "LONGSWIPE", 2 ],
       {
         "type": "gun",
         "cooldown": 2,
@@ -104,7 +197,7 @@
         "require_targeting_monster": true,
         "targeting_cost": 150
       }
-	],
+    ],
     "revert_to_itype": "bot_sq_mech_balance_2",
     "death_function": [ "BROKEN" ],
     "death_drops": { "groups": [ [ "robots", 20 ] ] },
@@ -119,10 +212,10 @@
       "NO_BREATHE",
       "PRIORITIZE_TARGETS",
       "PATH_AVOID_DANGER_2",
-	  "DESTROYS",
-	  "PET_HARNESSABLE",
-	  "PET_MOUNTABLE",
-	  "CANPLAY"
+      "DESTROYS",
+      "PET_HARNESSABLE",
+      "PET_MOUNTABLE",
+      "CANPLAY"
     ]
   },
   {
@@ -135,16 +228,13 @@
     "description": "개수한 군용 정찰 외골격 시스템에 자율행동이 승인된 드론을 탑재한 전천후 표준형 메크 드론입니다. 광학 무기를 중심으로 운용하는 로드아웃으로, 평균적인 근접대응능력과 강력한 에너지 투사 능력이 특징입니다. 해킹하여 당신을 파일럿으로 인지하게끔 만들 수 있습니다. 다른 기계수트처럼, 장착된 대형 배터리를 UPS로 활용할 수 있습니다.",
     "price": 1000,
     "price_postapoc": 10,
-    "material": [ "superalloy" ],
-    "volume": "700388 ml",
-    "weight": "700388 g",
+    "material": [ "superalloy", "steel" ],
+    "volume": "300388 ml",
+    "weight": "300388 g",
     "bashing": 4,
     "cutting": 4,
     "to_hit": -3,
-    "use_action": {
-      "type": "place_monster",
-      "monster_id": "mon_sq_mech_balance"
-    }
+    "use_action": { "type": "place_monster", "monster_id": "mon_sq_mech_balance" }
   },
   {
     "type": "TOOL",
@@ -156,17 +246,13 @@
     "description": "개수한 군용 정찰 외골격 시스템에 자율행동이 승인된 드론을 탑재한 전천후 표준형 메크 드론입니다. 광학 무기를 중심으로 운용하는 로드아웃으로, 평균적인 근접대응능력과 강력한 에너지 투사 능력이 특징입니다. 혼자서도 작전 수행이 가능하며, 파일럿이 탑승하여 교전능력을 끌어올릴 수도 있습니다.",
     "price": 1000,
     "price_postapoc": 10,
-    "material": [ "superalloy" ],
-    "volume": "700388 ml",
-    "weight": "700388 g",
+    "material": [ "superalloy", "steel" ],
+    "volume": "300388 ml",
+    "weight": "300388 g",
     "bashing": 4,
     "cutting": 4,
     "to_hit": -3,
-    "use_action": {
-      "type": "place_monster",
-      "monster_id": "mon_sq_mech_balance_2",
-	  "is_pet": true
-    }
+    "use_action": { "type": "place_monster", "monster_id": "mon_sq_mech_balance_2", "is_pet": true }
   },
   {
     "type": "GENERIC",
@@ -178,9 +264,9 @@
     "description": "개수한 군용 정찰 외골격 시스템에 자율행동이 승인된 드론을 탑재한 전천후 표준형 메크 드론입니다. 이제는 부서져 땅에 주저앉았습니다. 부품 회수 가능.",
     "price": 1000,
     "price_postapoc": 10,
-    "material": [ "superalloy" ],
-    "volume": "700388 ml",
-    "weight": "700388 g",
+    "material": [ "superalloy", "steel" ],
+    "volume": "300388 ml",
+    "weight": "300388 g",
     "bashing": 4,
     "cutting": 4,
     "to_hit": -3
@@ -195,9 +281,9 @@
     "description": "개수한 군용 정찰 외골격 시스템에 자율행동이 승인된 드론을 탑재한 전천후 표준형 메크 드론입니다. 이제는 부서져 땅에 주저앉았습니다. 부품 회수 가능.",
     "price": 1000,
     "price_postapoc": 10,
-    "material": [ "superalloy" ],
-    "volume": "700388 ml",
-    "weight": "700388 g",
+    "material": [ "superalloy", "steel" ],
+    "volume": "300388 ml",
+    "weight": "300388 g",
     "bashing": 4,
     "cutting": 4,
     "to_hit": -3
@@ -228,8 +314,8 @@
       [ [ "alloy_plate", 10 ] ],
       [ [ "power_supply", 20 ] ],
       [ [ "storage_battery", 1 ] ],
-	  [ [ "sq_hardlight_matrix", 1 ] ],
-	  [ [ "sq_fusion_core", 1 ] ],
+      [ [ "sq_hardlight_matrix", 1 ] ],
+      [ [ "sq_fusion_core", 1 ] ],
       [ [ "mil_plate", 6 ] ]
     ]
   },
@@ -243,9 +329,7 @@
     "difficulty": 10,
     "time": "1 m",
     "autolearn": true,
-    "components": [
-      [ [ "bot_sq_mech_balance", 1 ] ]
-    ]
+    "components": [ [ [ "bot_sq_mech_balance", 1 ] ] ]
   },
   {
     "type": "recipe",
@@ -258,9 +342,7 @@
     "difficulty": 10,
     "time": "1 m",
     "autolearn": true,
-    "components": [
-      [ [ "bot_sq_mech_balance_2", 1 ] ]
-    ]
+    "components": [ [ [ "bot_sq_mech_balance_2", 1 ] ] ]
   },
   {
     "id": "mon_sq_mech_heavy",
@@ -269,12 +351,12 @@
     "description": "개수한 군용 정찰 외골격 시스템에 자율행동이 승인된 드론을 탑재한 국지방어형/공성형 전투용 메크 드론입니다. 실탄 무기를 중심으로 운용하는 로드아웃으로, 평균적인 근접대응능력과 강력한 화력 투사 능력이 특징입니다. 마치 걸어다니는 전차와도 비유될 수 있습니다. 해킹하여 당신을 파일럿으로 인지하게끔 만들 수 있습니다. 다른 기계수트처럼, 장착된 대형 배터리를 UPS로 활용할 수 있습니다.",
     "default_faction": "mech_bot",
     "species": [ "ROBOT" ],
-    "volume": "700388 ml",
-    "weight": "700388 g",
+    "volume": "300388 ml",
+    "weight": "300388 g",
     "mountable_weight_ratio": 10,
     "hp": 1250,
     "speed": 90,
-    "material": [ "superalloy" ],
+    "material": [ "superalloy", "steel" ],
     "symbol": "M",
     "color": "red",
     "aggression": 100,
@@ -290,7 +372,8 @@
     "vision_night": 30,
     "mech_str_bonus": 130,
     "special_attacks": [
-	  [ "SMASH", 8 ], [ "BIO_OP_BIOJUTSU", 4 ],
+      [ "SMASH", 8 ],
+      [ "BIO_OP_BIOJUTSU", 4 ],
       {
         "type": "gun",
         "cooldown": 2,
@@ -303,8 +386,8 @@
         "require_targeting_monster": true,
         "targeting_cost": 150
       }
-	],
-    "mech_battery": "huge_atomic_battery_cell",
+    ],
+    "mech_battery": "storage_battery",
     "mech_weapon": "sq_walkergun6",
     "revert_to_itype": "bot_sq_mech_heavy",
     "death_function": [ "BROKEN" ],
@@ -313,7 +396,7 @@
       "SEES",
       "HEARS",
       "MILITARY_MECH",
-	  "MECH_DEFENSIVE",
+      "MECH_DEFENSIVE",
       "BASHES",
       "PUSH_MON",
       "ELECTRONIC",
@@ -323,7 +406,7 @@
       "RIDEABLE_MECH",
       "PRIORITIZE_TARGETS",
       "PATH_AVOID_DANGER_2",
-	  "DESTROYS"
+      "DESTROYS"
     ]
   },
   {
@@ -333,12 +416,12 @@
     "description": "개수한 군용 정찰 외골격 시스템에 자율행동이 승인된 드론을 탑재한 국지방어형/공성형 전투용 메크 드론입니다. 실탄 무기를 중심으로 운용하는 로드아웃으로, 평균적인 근접대응능력과 강력한 화력 투사 능력이 특징입니다. 마치 걸어다니는 전차와도 비유될 수 있습니다. 혼자서도 작전 수행이 가능하며, 탑승 모드에서 파일럿이 탑승하여 교전능력을 끌어올릴 수도 있습니다.",
     "default_faction": "mech_bot",
     "species": [ "ROBOT" ],
-    "volume": "700388 ml",
-    "weight": "700388 g",
+    "volume": "300388 ml",
+    "weight": "300388 g",
     "mountable_weight_ratio": 10,
     "hp": 1000,
     "speed": 90,
-    "material": [ "superalloy" ],
+    "material": [ "superalloy", "steel" ],
     "symbol": "M",
     "color": "red",
     "aggression": 100,
@@ -353,7 +436,9 @@
     "armor_fire": 80,
     "vision_night": 100,
     "special_attacks": [
-	  [ "SMASH", 8 ], [ "BIO_OP_BIOJUTSU", 4 ], [ "LONGSWIPE", 2 ],
+      [ "SMASH", 8 ],
+      [ "BIO_OP_BIOJUTSU", 4 ],
+      [ "LONGSWIPE", 2 ],
       {
         "type": "gun",
         "cooldown": 2,
@@ -366,7 +451,7 @@
         "require_targeting_monster": true,
         "targeting_cost": 150
       }
-	],
+    ],
     "revert_to_itype": "bot_sq_mech_heavy_2",
     "death_function": [ "BROKEN" ],
     "death_drops": { "groups": [ [ "robots", 20 ] ] },
@@ -381,10 +466,10 @@
       "NO_BREATHE",
       "PRIORITIZE_TARGETS",
       "PATH_AVOID_DANGER_2",
-	  "DESTROYS",
-	  "PET_HARNESSABLE",
-	  "PET_MOUNTABLE",
-	  "CANPLAY"
+      "DESTROYS",
+      "PET_HARNESSABLE",
+      "PET_MOUNTABLE",
+      "CANPLAY"
     ]
   },
   {
@@ -397,16 +482,13 @@
     "description": "개수한 군용 정찰 외골격 시스템에 자율행동이 승인된 드론을 탑재한 국지방어형/공성형 전투용 메크 드론입니다. 실탄 무기를 중심으로 운용하는 로드아웃으로, 평균적인 근접대응능력과 강력한 화력 투사 능력이 특징입니다. 마치 걸어다니는 전차와도 비유될 수 있습니다. 해킹하여 당신을 파일럿으로 인지하게끔 만들 수 있습니다. 다른 기계수트처럼, 장착된 대형 배터리를 UPS로 활용할 수 있습니다.",
     "price": 1000,
     "price_postapoc": 10,
-    "material": [ "superalloy" ],
-    "volume": "700388 ml",
-    "weight": "700388 g",
+    "material": [ "superalloy", "steel" ],
+    "volume": "300388 ml",
+    "weight": "300388 g",
     "bashing": 4,
     "cutting": 4,
     "to_hit": -3,
-    "use_action": {
-      "type": "place_monster",
-      "monster_id": "mon_sq_mech_heavy"
-    }
+    "use_action": { "type": "place_monster", "monster_id": "mon_sq_mech_heavy" }
   },
   {
     "type": "TOOL",
@@ -418,17 +500,13 @@
     "description": "개수한 군용 정찰 외골격 시스템에 자율행동이 승인된 드론을 탑재한 국지방어형/공성형 전투용 메크 드론입니다. 실탄 무기를 중심으로 운용하는 로드아웃으로, 평균적인 근접대응능력과 강력한 화력 투사 능력이 특징입니다. 마치 걸어다니는 전차와도 비유될 수 있습니다. 혼자서도 작전 수행이 가능하며, 탑승 모드에서 파일럿이 탑승하여 교전능력을 끌어올릴 수도 있습니다.",
     "price": 1000,
     "price_postapoc": 10,
-    "material": [ "superalloy" ],
-    "volume": "700388 ml",
-    "weight": "700388 g",
+    "material": [ "superalloy", "steel" ],
+    "volume": "300388 ml",
+    "weight": "300388 g",
     "bashing": 4,
     "cutting": 4,
     "to_hit": -3,
-    "use_action": {
-      "type": "place_monster",
-      "monster_id": "mon_sq_mech_heavy_2",
-	  "is_pet": true
-    }
+    "use_action": { "type": "place_monster", "monster_id": "mon_sq_mech_heavy_2", "is_pet": true }
   },
   {
     "type": "GENERIC",
@@ -440,9 +518,9 @@
     "description": "개수한 군용 정찰 외골격 시스템에 자율행동이 승인된 드론을 탑재한 국지방어형/공성형 전투용 메크 드론입니다. 이제는 부서져 땅에 무릎을 꿇었습니다. 부품 회수 가능.",
     "price": 1000,
     "price_postapoc": 10,
-    "material": [ "superalloy" ],
-    "volume": "700388 ml",
-    "weight": "700388 g",
+    "material": [ "superalloy", "steel" ],
+    "volume": "300388 ml",
+    "weight": "300388 g",
     "bashing": 4,
     "cutting": 4,
     "to_hit": -3
@@ -457,9 +535,9 @@
     "description": "개수한 군용 정찰 외골격 시스템에 자율행동이 승인된 드론을 탑재한 국지방어형/공성형 전투용 메크 드론입니다. 이제는 부서져 땅에 무릎을 꿇었습니다. 부품 회수 가능.",
     "price": 1000,
     "price_postapoc": 10,
-    "material": [ "superalloy" ],
-    "volume": "700388 ml",
-    "weight": "700388 g",
+    "material": [ "superalloy", "steel" ],
+    "volume": "300388 ml",
+    "weight": "300388 g",
     "bashing": 4,
     "cutting": 4,
     "to_hit": -3
@@ -490,8 +568,8 @@
       [ [ "alloy_plate", 10 ] ],
       [ [ "power_supply", 20 ] ],
       [ [ "storage_battery", 1 ] ],
-	  [ [ "m2browning", 1 ] ],
-	  [ [ "sq_fusion_core", 1 ] ],
+      [ [ "m2browning", 1 ] ],
+      [ [ "sq_fusion_core", 1 ] ],
       [ [ "mil_plate", 6 ] ]
     ]
   },
@@ -505,9 +583,7 @@
     "difficulty": 10,
     "time": "1 m",
     "autolearn": true,
-    "components": [
-      [ [ "bot_sq_mech_heavy", 1 ] ]
-    ]
+    "components": [ [ [ "bot_sq_mech_heavy", 1 ] ] ]
   },
   {
     "type": "recipe",
@@ -520,9 +596,7 @@
     "difficulty": 10,
     "time": "1 m",
     "autolearn": true,
-    "components": [
-      [ [ "bot_sq_mech_heavy_2", 1 ] ]
-    ]
+    "components": [ [ [ "bot_sq_mech_heavy_2", 1 ] ] ]
   },
   {
     "id": "mon_sq_mech_light",
@@ -531,12 +605,12 @@
     "description": "개수한 군용 정찰 외골격 시스템에 자율행동이 승인된 드론을 탑재한 사족보행 기동형 메크 드론입니다. 근접 무기를 중심으로 운용하는 로드아웃으로, 뛰어난 근접대응능력과 높은 수준의 기동력이 특징입니다. 거대한 늑대와 같은 형태를 가지며, 인간을 초월한 움직임을 바탕으로 근접 전투에서 탁월한 활약을 펼칩니다. 해킹하여 당신을 파일럿으로 인지하게끔 만들 수 있습니다. 다른 기계수트처럼, 장착된 대형 배터리를 UPS로 활용할 수 있습니다.",
     "default_faction": "mech_bot",
     "species": [ "ROBOT" ],
-    "volume": "700388 ml",
-    "weight": "700388 g",
+    "volume": "300388 ml",
+    "weight": "300388 g",
     "mountable_weight_ratio": 10,
     "hp": 750,
     "speed": 250,
-    "material": [ "superalloy" ],
+    "material": [ "superalloy", "steel" ],
     "symbol": "M",
     "color": "blue",
     "aggression": 100,
@@ -552,7 +626,9 @@
     "vision_night": 60,
     "mech_str_bonus": 70,
     "special_attacks": [
-	  [ "SMASH", 8 ], [ "BIO_OP_BIOJUTSU", 4 ], [ "LONGSWIPE", 2 ],
+      [ "SMASH", 8 ],
+      [ "BIO_OP_BIOJUTSU", 4 ],
+      [ "LONGSWIPE", 2 ],
       {
         "type": "gun",
         "cooldown": 2,
@@ -565,8 +641,8 @@
         "require_targeting_monster": true,
         "targeting_cost": 150
       }
-	],
-    "mech_battery": "huge_atomic_battery_cell",
+    ],
+    "mech_battery": "storage_battery",
     "mech_weapon": "sq_walkergun7",
     "revert_to_itype": "broken_sq_mech_light",
     "death_function": [ "BROKEN" ],
@@ -575,19 +651,19 @@
       "SEES",
       "HEARS",
       "MILITARY_MECH",
-	  "MECH_DEFENSIVE",
+      "MECH_DEFENSIVE",
       "BASHES",
       "PUSH_MON",
       "ELECTRONIC",
-	  "ELECTRIC",
+      "ELECTRIC",
       "COLDPROOF",
       "NOHEAD",
       "NO_BREATHE",
       "RIDEABLE_MECH",
       "PRIORITIZE_TARGETS",
       "PATH_AVOID_DANGER_2",
-	  "DESTROYS",
-	  "NIGHT_INVISIBILITY"
+      "DESTROYS",
+      "NIGHT_INVISIBILITY"
     ]
   },
   {
@@ -597,12 +673,12 @@
     "description": "개수한 군용 정찰 외골격 시스템에 자율행동이 승인된 드론을 탑재한 사족보행 기동형 메크 드론입니다. 근접 무기를 중심으로 운용하는 로드아웃으로, 뛰어난 근접대응능력과 높은 수준의 기동력이 특징입니다. 거대한 늑대와 같은 형태를 가지며, 인간을 초월한 움직임을 바탕으로 근접 전투에서 탁월한 활약을 펼칩니다. 해킹하여 당신을 파일럿으로 인지하게끔 만들 수 있습니다. 혼자서도 작전 수행이 가능하며, 파일럿이 탑승하여 교전능력을 끌어올릴 수도 있습니다.",
     "default_faction": "mech_bot",
     "species": [ "ROBOT" ],
-    "volume": "700388 ml",
-    "weight": "700388 g",
+    "volume": "300388 ml",
+    "weight": "300388 g",
     "mountable_weight_ratio": 10,
     "hp": 750,
     "speed": 250,
-    "material": [ "superalloy" ],
+    "material": [ "superalloy", "steel" ],
     "symbol": "M",
     "color": "blue",
     "aggression": 100,
@@ -617,14 +693,13 @@
     "armor_fire": 280,
     "vision_night": 100,
     "special_attacks": [
-	  [ "SMASH", 1 ], [ "BIO_OP_BIOJUTSU", 1 ], [ "BIO_OP_IMPALE", 1 ], [ "STRETCH_ATTACK", 1 ], [ "LONGSWIPE", 1 ], { "type": "bite", "cooldown": 2 },
-	  {
-        "type": "leap",
-        "cooldown": 3,
-        "max_range": 8,
-        "min_consider_range": 2,
-        "max_consider_range": 50
-      },
+      [ "SMASH", 1 ],
+      [ "BIO_OP_BIOJUTSU", 1 ],
+      [ "BIO_OP_IMPALE", 1 ],
+      [ "STRETCH_ATTACK", 1 ],
+      [ "LONGSWIPE", 1 ],
+      { "type": "bite", "cooldown": 2 },
+      { "type": "leap", "cooldown": 3, "max_range": 8, "min_consider_range": 2, "max_consider_range": 50 },
       {
         "type": "gun",
         "cooldown": 2,
@@ -637,7 +712,7 @@
         "require_targeting_monster": true,
         "targeting_cost": 150
       }
-	],
+    ],
     "revert_to_itype": "bot_sq_mech_light_2",
     "death_function": [ "BROKEN" ],
     "death_drops": { "groups": [ [ "robots", 20 ] ] },
@@ -647,17 +722,17 @@
       "BASHES",
       "PUSH_MON",
       "ELECTRONIC",
-	  "ELECTRIC",
+      "ELECTRIC",
       "COLDPROOF",
       "NOHEAD",
       "NO_BREATHE",
       "PRIORITIZE_TARGETS",
       "PATH_AVOID_DANGER_2",
-	  "DESTROYS",
-	  "PET_HARNESSABLE",
-	  "PET_MOUNTABLE",
-	  "CANPLAY",
-	  "NIGHT_INVISIBILITY"
+      "DESTROYS",
+      "PET_HARNESSABLE",
+      "PET_MOUNTABLE",
+      "CANPLAY",
+      "NIGHT_INVISIBILITY"
     ]
   },
   {
@@ -670,16 +745,13 @@
     "description": "개수한 군용 정찰 외골격 시스템에 자율행동이 승인된 드론을 탑재한 사족보행 기동형 메크 드론입니다. 근접 무기를 중심으로 운용하는 로드아웃으로, 뛰어난 근접대응능력과 높은 수준의 기동력이 특징입니다. 거대한 늑대와 같은 형태를 가지며, 인간을 초월한 움직임을 바탕으로 근접 전투에서 탁월한 활약을 펼칩니다. 해킹하여 당신을 파일럿으로 인지하게끔 만들 수 있습니다. 다른 기계수트처럼, 장착된 대형 배터리를 UPS로 활용할 수 있습니다.",
     "price": 1000,
     "price_postapoc": 10,
-    "material": [ "superalloy" ],
-    "volume": "700388 ml",
-    "weight": "700388 g",
+    "material": [ "superalloy", "steel" ],
+    "volume": "300388 ml",
+    "weight": "300388 g",
     "bashing": 4,
     "cutting": 4,
     "to_hit": -3,
-    "use_action": {
-      "type": "place_monster",
-      "monster_id": "mon_sq_mech_light"
-    }
+    "use_action": { "type": "place_monster", "monster_id": "mon_sq_mech_light" }
   },
   {
     "type": "TOOL",
@@ -691,17 +763,13 @@
     "description": "개수한 군용 정찰 외골격 시스템에 자율행동이 승인된 드론을 탑재한 사족보행 기동형 메크 드론입니다. 근접 무기를 중심으로 운용하는 로드아웃으로, 뛰어난 근접대응능력과 높은 수준의 기동력이 특징입니다. 거대한 늑대와 같은 형태를 가지며, 인간을 초월한 움직임을 바탕으로 근접 전투에서 탁월한 활약을 펼칩니다. 해킹하여 당신을 파일럿으로 인지하게끔 만들 수 있습니다. 혼자서도 작전 수행이 가능하며, 파일럿이 탑승하여 교전능력을 끌어올릴 수도 있습니다.",
     "price": 1000,
     "price_postapoc": 10,
-    "material": [ "superalloy" ],
-    "volume": "700388 ml",
-    "weight": "700388 g",
+    "material": [ "superalloy", "steel" ],
+    "volume": "300388 ml",
+    "weight": "300388 g",
     "bashing": 4,
     "cutting": 4,
     "to_hit": -3,
-    "use_action": {
-      "type": "place_monster",
-      "monster_id": "mon_sq_mech_light_2",
-	  "is_pet": true
-    }
+    "use_action": { "type": "place_monster", "monster_id": "mon_sq_mech_light_2", "is_pet": true }
   },
   {
     "type": "GENERIC",
@@ -713,9 +781,9 @@
     "description": "개수한 군용 정찰 외골격 시스템에 자율행동이 승인된 드론을 탑재한 사족보행 기동형 메크 드론입니다. 이제는 죽음에 굴복하였습니다. 부품 회수 가능.",
     "price": 1000,
     "price_postapoc": 10,
-    "material": [ "superalloy" ],
-    "volume": "700388 ml",
-    "weight": "700388 g",
+    "material": [ "superalloy", "steel" ],
+    "volume": "300388 ml",
+    "weight": "300388 g",
     "bashing": 4,
     "cutting": 4,
     "to_hit": -3
@@ -730,9 +798,9 @@
     "description": "개수한 군용 정찰 외골격 시스템에 자율행동이 승인된 드론을 탑재한 사족보행 기동형 메크 드론입니다. 이제는 죽음에 굴복하였습니다. 부품 회수 가능.",
     "price": 1000,
     "price_postapoc": 10,
-    "material": [ "superalloy" ],
-    "volume": "700388 ml",
-    "weight": "700388 g",
+    "material": [ "superalloy", "steel" ],
+    "volume": "300388 ml",
+    "weight": "300388 g",
     "bashing": 4,
     "cutting": 4,
     "to_hit": -3
@@ -763,8 +831,8 @@
       [ [ "alloy_plate", 10 ] ],
       [ [ "power_supply", 20 ] ],
       [ [ "storage_battery", 1 ] ],
-	  [ [ "plasma_gun", 1 ] ],
-	  [ [ "sq_fusion_core", 1 ] ],
+      [ [ "plasma_gun", 1 ] ],
+      [ [ "sq_fusion_core", 1 ] ],
       [ [ "mil_plate", 6 ] ]
     ]
   },
@@ -778,9 +846,7 @@
     "difficulty": 10,
     "time": "1 m",
     "autolearn": true,
-    "components": [
-      [ [ "bot_sq_mech_light", 1 ] ]
-    ]
+    "components": [ [ [ "bot_sq_mech_light", 1 ] ] ]
   },
   {
     "type": "recipe",
@@ -793,9 +859,7 @@
     "difficulty": 10,
     "time": "1 m",
     "autolearn": true,
-    "components": [
-      [ [ "bot_sq_mech_light_2", 1 ] ]
-    ]
+    "components": [ [ [ "bot_sq_mech_light_2", 1 ] ] ]
   },
   {
     "result": "broken_sq_mech_balance",
@@ -816,8 +880,8 @@
       [ [ "alloy_plate", 10 ] ],
       [ [ "power_supply", 20 ] ],
       [ [ "storage_battery", 1 ] ],
-	  [ [ "sq_hardlight_matrix", 1 ] ],
-	  [ [ "sq_fusion_core", 1 ] ],
+      [ [ "sq_hardlight_matrix", 1 ] ],
+      [ [ "sq_fusion_core", 1 ] ],
       [ [ "mil_plate", 6 ] ]
     ]
   },
@@ -840,8 +904,8 @@
       [ [ "alloy_plate", 10 ] ],
       [ [ "power_supply", 20 ] ],
       [ [ "storage_battery", 1 ] ],
-	  [ [ "sq_hardlight_matrix", 1 ] ],
-	  [ [ "sq_fusion_core", 1 ] ],
+      [ [ "sq_hardlight_matrix", 1 ] ],
+      [ [ "sq_fusion_core", 1 ] ],
       [ [ "mil_plate", 6 ] ]
     ]
   },
@@ -864,8 +928,8 @@
       [ [ "alloy_plate", 10 ] ],
       [ [ "power_supply", 20 ] ],
       [ [ "storage_battery", 1 ] ],
-	  [ [ "m2browning", 1 ] ],
-	  [ [ "sq_fusion_core", 1 ] ],
+      [ [ "m2browning", 1 ] ],
+      [ [ "sq_fusion_core", 1 ] ],
       [ [ "mil_plate", 6 ] ]
     ]
   },
@@ -888,8 +952,8 @@
       [ [ "alloy_plate", 10 ] ],
       [ [ "power_supply", 20 ] ],
       [ [ "storage_battery", 1 ] ],
-	  [ [ "m2browning", 1 ] ],
-	  [ [ "sq_fusion_core", 1 ] ],
+      [ [ "m2browning", 1 ] ],
+      [ [ "sq_fusion_core", 1 ] ],
       [ [ "mil_plate", 6 ] ]
     ]
   },
@@ -912,8 +976,8 @@
       [ [ "alloy_plate", 10 ] ],
       [ [ "power_supply", 20 ] ],
       [ [ "storage_battery", 1 ] ],
-	  [ [ "plasma_gun", 1 ] ],
-	  [ [ "sq_fusion_core", 1 ] ],
+      [ [ "plasma_gun", 1 ] ],
+      [ [ "sq_fusion_core", 1 ] ],
       [ [ "mil_plate", 6 ] ]
     ]
   },
@@ -936,8 +1000,8 @@
       [ [ "alloy_plate", 10 ] ],
       [ [ "power_supply", 20 ] ],
       [ [ "storage_battery", 1 ] ],
-	  [ [ "plasma_gun", 1 ] ],
-	  [ [ "sq_fusion_core", 1 ] ],
+      [ [ "plasma_gun", 1 ] ],
+      [ [ "sq_fusion_core", 1 ] ],
       [ [ "mil_plate", 6 ] ]
     ]
   }

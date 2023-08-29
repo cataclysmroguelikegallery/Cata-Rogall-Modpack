@@ -33,6 +33,12 @@
     "components": [ [ [ "rag", 1 ], [ "nylon", 1 ], [ "nomex", 1 ], [ "neoprene", 1 ], [ "graphene", 1 ] ] ]
   },
   {
+    "id": "forging_standard",
+    "type": "requirement",
+    "//": "Forging of steel items (per steel chunk), charcoal forge is already a substitute for forge",
+    "tools": [ [ [ "forge", 20 ], [ "oxy_torch", 20 ], [ "sq_atomic_forge", -1 ] ] ]
+  },
+  {
     "id": "blacksmithing_standard",
     "type": "requirement",
     "//": "Includes forging resources as well as tools needed for basic blacksmithing.  Permits working hot metal on stone surfaces.",

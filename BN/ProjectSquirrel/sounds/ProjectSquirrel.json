@@ -210,6 +210,24 @@
     {
         "type": "sound_effect",
         "id" : "fire_gun",
+        "volume" : 75,
+        "variant" : "sq_walkergun7",
+        "files" : [
+            "guns/eweapons/ftk93.ogg"
+        ]
+    },
+	{
+        "type": "sound_effect",
+        "id" : "fire_gun_distant",
+        "volume" : 60,
+        "variant" : "sq_walkergun7",
+        "files" : [
+            "guns/eweapons/ftk93.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun",
         "volume" : 65,
         "variant" : "sq_hardlight_pistol",
         "files" : [
@@ -232,21 +250,21 @@
     {
         "type": "sound_effect",
         "id" : "fire_gun",
-        "volume" : 65,
+        "volume" : 75,
         "variant" : "sq_hardlight_smg",
         "files" : [
-			"guns/eweapons/recon_mech_laser_2.ogg",
-			"guns/eweapons/recon_mech_laser_3.ogg"
+			"guns/eweapons/plasma_gun.ogg",
+			"guns/eweapons/plasma_rifle.ogg"
         ]
     },
 	{
         "type": "sound_effect",
         "id" : "fire_gun_distant",
-        "volume" : 40,
+        "volume" : 50,
         "variant" : "sq_hardlight_smg",
         "files" : [
-			"guns/eweapons/recon_mech_laser_2.ogg",
-			"guns/eweapons/recon_mech_laser_3.ogg"
+			"guns/eweapons/plasma_gun.ogg",
+			"guns/eweapons/plasma_rifle.ogg"
         ]
     },
     {
@@ -325,7 +343,8 @@
         "volume" : 75,
         "variant" : "sq_fusion_pistol",
         "files" : [
-            "guns/eweapons/ftk93.ogg"
+            "guns/eweapons/bio_blaster_gun_1.ogg",
+	        "guns/eweapons/bio_blaster_gun_2.ogg"
         ]
     },
 	{
@@ -334,7 +353,8 @@
         "volume" : 40,
         "variant" : "sq_fusion_pistol",
         "files" : [
-            "guns/eweapons/ftk93.ogg"
+            "guns/eweapons/bio_blaster_gun_1.ogg",
+	        "guns/eweapons/bio_blaster_gun_2.ogg"
         ]
     },
     {
@@ -390,8 +410,7 @@
             "guns/others/120mm_1.ogg",
             "guns/others/120mm_2.ogg",
             "guns/others/120mm_3.ogg",
-            "guns/others/120mm_4.ogg",
-            "guns/others/120mm_5.ogg"
+            "guns/others/120mm_4.ogg"
         ]
     },
 	{
@@ -403,8 +422,7 @@
             "guns/others/120mm_1.ogg",
             "guns/others/120mm_2.ogg",
             "guns/others/120mm_3.ogg",
-            "guns/others/120mm_4.ogg",
-            "guns/others/120mm_5.ogg"
+            "guns/others/120mm_4.ogg"
         ]
     },
     {
