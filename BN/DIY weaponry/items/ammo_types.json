@@ -1,0 +1,8 @@
+[
+  {
+    "type": "ammunition_type",
+    "id": "ballista",
+    "name": "발리스타 볼트",
+    "default": "ballista_ammo_wood"
+  }
+]
