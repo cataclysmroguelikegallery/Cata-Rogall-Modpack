@@ -1,0 +1,12 @@
+[
+  {
+    "id": "ARROW",
+    "type": "json_flag",
+    "context": [  ]
+  },
+  {
+    "id": "BOLT",
+    "type": "json_flag",
+    "context": [  ]
+  }
+]

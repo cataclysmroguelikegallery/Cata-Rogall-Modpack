@@ -1,0 +1,48 @@
+[
+  {
+    "id": "xbow_motor",
+    "type": "GUNMOD",
+    "name": { "str": "전동식 쇠뇌 재장전 장치" },
+    "description": "쇠뇌 내부의 도르래를 전기 모터와 전선과 간단한 스위치로 대체하는 개조 부품입니다. 재장전이 획기적으로 빨라지지만, 사격마다 UPS 전력을 사용하게 됩니다.",
+    "weight": "220 g",
+    "volume": "250 ml",
+    "integral_volume": "0 ml",
+    "price": 10000,
+    "price_postapoc": 750,
+    "material": [ "steel", "plastic" ],
+    "symbol": ":",
+    "color": "dark_gray",
+    "location": "mechanism",
+    "mod_target_category": [
+      [ "S_XBOWS" ],
+      [ "M_XBOWS" ]
+    ],
+    "install_time": "10 m",
+    "reload_modifier": -80,
+    "flags": [ "USE_UPS", "IRREMOVABLE" ],
+    "ups_charges_modifier": 2
+  },
+  {
+    "id": "xbow_motor_adv",
+    "type": "GUNMOD",
+    "name": { "str": "전동식 쇠뇌 재장전 장치2" },
+    "description": "테스트용 부품",
+    "weight": "220 g",
+    "volume": "250 ml",
+    "integral_volume": "0 ml",
+    "price": 10000,
+    "price_postapoc": 750,
+    "material": [ "steel", "plastic" ],
+    "symbol": ":",
+    "color": "dark_gray",
+    "location": "mechanism",
+    "mod_target_category": [
+      [ "S_XBOWS" ],
+      [ "M_XBOWS" ]
+    ],
+    "install_time": "10 m",
+    "reload_modifier": -10,
+    "flags": [ "USE_UPS", "IRREMOVABLE" ],
+    "ups_charges_modifier": 2
+  }
+]

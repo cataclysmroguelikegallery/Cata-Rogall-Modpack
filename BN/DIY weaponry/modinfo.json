@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "DIY_weaponry",
+    "name": "DIY weaponry",
+    "authors": [ "Elbereth" ],
+    "maintainers": [ "Elbereth" ],
+    "description": "간단한 재료로 직접 만들 수 있는 각종 DIY 무장을 추가하고 일부 기존 무기는 재조정합니다. (플린트락, 활, 쇠뇌)",
+    "category": "content",
+    "dependencies": [ "bn" ]
+  }
+]

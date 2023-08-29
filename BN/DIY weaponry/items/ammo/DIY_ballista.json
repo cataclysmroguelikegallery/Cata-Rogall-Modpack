@@ -1,0 +1,24 @@
+[
+  {
+    "type": "AMMO",
+    "id": "ballista_ammo_wood",
+    "price": 5000,
+    "name": { "str": "나무 발리스타 볼트" },
+    "symbol": "=",
+    "color": "green",
+    "description": "첨단에 금속 촉이 달린 발리스타용의 묵직한 볼트입니다. 그냥 무기로 써도 되겠군요. 재사용 확률 낮음.",
+    "looks_like": "javelin_iron",
+    "material": [ "wood", "steel" ],
+    "volume": "2000 ml",
+    "price_postapoc": 200,
+    "weight": "1000 g",
+    "cutting": 10,
+    "bashing": 10,
+    "to_hit": -1,
+    "ammo_type": "ballista",
+    "dispersion": 100,
+    "loudness": 10,
+    "count": 1,
+    "dont_recover_one_in": 10
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "result": "multiquiver_arm",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "tailor",
+    "difficulty": 2,
+    "time": "10 m",
+    "autolearn": true,
+    "using": [ [ "sewing_standard", 6 ] ],
+    "components": [ [ [ "leather", 2 ] ] ]
+  }
+]
