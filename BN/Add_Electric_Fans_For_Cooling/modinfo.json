@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "p_cooler",
+    "name": "날이 너무 <color_red>더워요 </color>",
+    "authors": [ "cinornu" ],
+    "description": "휴대용 선풍기들을 추가해줍니다. 야생에서 살아가기엔 뉴잉글랜드는 너무 덥네요.",
+    "category": "items",
+    "dependencies": [ "bn" ]
+  }
+]

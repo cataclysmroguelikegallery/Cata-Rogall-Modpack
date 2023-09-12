@@ -1,0 +1,18 @@
+[
+  {
+    "id": "shot_paper_bird",
+    "type": "AMMO",
+    "name": { "str": "birdshot paper cartridge" },
+    "copy-from": "shot_paper_bird",
+    "range": 0,
+    "shape": [ "cone", { "half_angle": 15, "length": 8 } ]
+  },
+  {
+    "id": "shot_paper_00",
+    "type": "AMMO",
+    "name": { "str": "buckshot paper cartridge" },
+    "copy-from": "shot_paper_00",
+    "range": 0,
+    "shape": [ "cone", { "half_angle": 10, "length": 12 } ]
+  }
+]
