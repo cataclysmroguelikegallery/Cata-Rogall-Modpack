@@ -948,12 +948,12 @@
       }
     },
     "weather": {
-      "spring_temp": 5,
-      "summer_temp": -12,
-      "autumn_temp": -30,
-      "winter_temp": -50,
-      "base_humidity": 80.0,
-      "base_pressure": 990.0,
+      "spring_temp": 24,
+      "summer_temp": 40,
+      "autumn_temp": 6,
+      "winter_temp": -40,
+      "base_humidity": 70.0,
+      "base_pressure": 1000.0,
       "base_acid": 0.0,
       "base_wind": 5.4,
       "base_wind_distrib_peaks": 80,
