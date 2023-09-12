@@ -32,9 +32,9 @@
         "description": "짧은 돌진을 통해 발차기에 체중을 싣습니다. 체중이 실린 강력한 발차기는 상대방의 방어를 관통하여 충격을 전달합니다.",
         "skill_requirements": [ { "name": "unarmed", "level": 2 } ],
         "unarmed_allowed": true,
-	    "flat_bonuses": [ { "stat": "damage", "type": "bash", "scale": 1.0 },
-						  { "stat": "arpen", "type": "bash", "scaling-stat": "dex", "scale": 1.0 } ],
-        "buff_duration": 1
+	    "flat_bonuses": [ { "stat": "arpen", "type": "bash", "scaling-stat": "dex", "scale": 1.0 } ],
+        "buff_duration": 2,
+        "max_stacks": 3
       }
     ],
     "ondodge_buffs": [
@@ -150,6 +150,6 @@
     "unarmed_allowed": true,
     "downed_target": true,
 	"stun_dur": 2,
-    "mult_bonuses": [ { "stat": "movecost", "scale": 1.4 }, { "stat": "damage", "type": "bash", "scale": 1.5 } ]
+    "mult_bonuses": [ { "stat": "movecost", "scale": 1.5 }, { "stat": "damage", "type": "bash", "scale": 1.8 } ]
   }
 ]

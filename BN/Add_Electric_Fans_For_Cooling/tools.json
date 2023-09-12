@@ -1,0 +1,96 @@
+[
+  {
+    "id": "portable_cooler",
+    "type": "TOOL",
+    "category": "tools",
+    "name": { "str": "휴대용 선풍기" },
+    "description": "시원한 바람을 뿜어내주는 작은 선풍기입니다. 풍량은 그다지 세보이지 않네요...",
+    "weight": "500 g",
+    "volume": "50 ml",
+    "price": 1000,
+    "price_postapoc": 30,
+    "to_hit": -10,
+    "bashing": 1,
+    "material": "plastic",
+    "symbol": ";",
+    "color": "brown",
+    "ammo": "battery",
+    "flags": [ "ALLOWS_REMOTE_USE", "FRAGILE_MELEE" ],
+    "use_action": {
+      "target": "portable_cooler_on",
+      "msg": "휴대용 선풍기를 작동시켰다.",
+      "active": true,
+      "need_charges": 1,
+      "need_charges_msg": "선풍기의 전력이 부족하다.",
+      "menu_text": "작동",
+      "type": "transform"
+    },
+    "magazines": [
+      [
+        "battery",
+        [ "light_battery_cell", "light_plus_battery_cell", "light_atomic_battery_cell", "light_disposable_cell" ]
+      ]
+    ],
+    "magazine_well": "250 ml"
+  },
+  {
+    "id": "portable_cooler_on",
+    "copy-from": "portable_cooler",
+    "type": "TOOL",
+    "name": { "str": "휴대용 선풍기 (켜짐)" },
+    "description": "시원한 바람을 뿜어내주는 작은 선풍기입니다. 작동하니 약간이나마 주위가 시원해지지는 합니다.",
+    "power_draw": 50000,
+    "emits": [ "emit_cold_air1_stream" ],
+    "flags": [ "ALLOWS_REMOTE_USE", "FRAGILE_MELEE" ],
+    "revert_to": "portable_cooler",
+    "use_action": { "target": "portable_cooler", "msg": "휴대용 선풍기의 전원을 껐다.", "menu_text": "끄기", "type": "transform" },
+    "magazine_well": "250 ml"
+  },
+  {
+    "id": "large_cooler",
+    "type": "TOOL",
+    "category": "tools",
+    "name": { "str": "대형 선풍기" },
+    "description": "공장에서 자주 보일만한 커다란 선풍기입니다. 풍량이 어마어마할것 같네요.",
+    "weight": "7000 g",
+    "volume": "4000 ml",
+    "price": 5000,
+    "price_postapoc": 100,
+    "to_hit": -5,
+    "bashing": 10,
+    "material": "steel",
+    "symbol": ";",
+    "color": "brown",
+    "ammo": "battery",
+    "flags": [ "ALLOWS_REMOTE_USE" ],
+    "use_action": {
+      "target": "large_cooler_on",
+      "msg": "대형 선풍기를 작동시켰다.",
+      "active": true,
+      "need_charges": 1,
+      "need_charges_msg": "대형 선풍기의 전력이 부족하다.",
+      "menu_text": "켜기",
+      "type": "transform"
+    },
+    "magazines": [
+      [
+        "battery",
+        [ "medium_battery_cell", "medium_plus_battery_cell", "medium_atomic_battery_cell", "medium_disposable_cell" ]
+      ]
+    ],
+    "magazine_well": "500 ml"
+  },
+  {
+    "id": "large_cooler_on",
+    "copy-from": "large_cooler",
+    "type": "TOOL",
+    "name": { "str": "대형 선풍기 (켜짐)" },
+    "description": "공장에서 자주 보일만한 커다란 선풍기입니다. 작동시키니 어마어마한 풍량에 날아가버릴것 같습니다.",
+    "power_draw": 250000,
+    "emits": [ "emit_cold_air2_blast" ],
+    "flags": [ "ALLOWS_REMOTE_USE" ],
+    "revert_to": "large_cooler",
+    "use_action": { "target": "large_cooler", "msg": "대형 선풍기의 전원을 껐다.", "menu_text": "끄기", "type": "transform" },
+    "magazine_well": "500 ml"
+  }
+]

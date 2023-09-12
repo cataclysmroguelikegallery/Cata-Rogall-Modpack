@@ -1,0 +1,9 @@
+[
+  {
+    "id": "emit_cold_air1_stream",
+    "type": "emit",
+    "field": "fd_cold_air1",
+    "intensity": 3,
+    "qty": 50
+  }
+]
