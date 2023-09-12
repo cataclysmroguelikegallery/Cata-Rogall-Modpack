@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Jake's_Squirrel_mod\n"
-"POT-Creation-Date: 2023-08-17 21:05+0900\n"
+"POT-Creation-Date: 2023-09-12 20:08+0900\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3569,11 +3569,18 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. ~ Description for {'str': '생존용 다용도 방화 벨트'}
+#. ~ Description for {'str': '생존용 방화 벨트'}
 #: .\items\sq_nomex_survivor.json
 msgid ""
 "케블라로 튼튼하게 보강되고, 노멕스 방화 직물로 만들어진 다용도벨트. 줄과 작은 칼을 넣을 수 있는 주머니가 달려 있습니다. 견고하고 "
 "착용시 편안하도록 만들어져 있습니다. 사용하면 무기를 넣거나 뺍니다."
 msgstr ""
+
+#: .\items\sq_nomex_survivor.json
+msgid "생존용 방화 벨트"
+msgid_plural "생존용 방화 벨트s"
+msgstr[0] ""
+msgstr[1] ""
 
 #: .\items\sq_nomex_survivor.json
 msgid "생존용 방화 헤드램프"
@@ -4929,8 +4936,8 @@ msgstr[1] ""
 #. ~ Description for {'str': '드론: 컴패니언'}
 #: .\monsters\sq_friendlydrones.json
 msgid ""
-"아포칼립스 세계에서는 충실한 짐꾼과 친구가 필요합니다. 드론: 컴패니언은 중형 동물 갑옷을 입힐 수 있고, 180kg까지의 무게를 들 수"
-" 있으며, 귀여운 애완 동물처럼 행동할 수 있습니다. 수틀릴 경우에도 드론에 탑승하여 낮게 떠서 날아갈 수 있습니다."
+"아포칼립스 세계에서는 충실한 짐꾼과 친구가 필요합니다. 드론: 컴패니언은 180kg까지의 무게를 들 수 있으며, 귀여운 애완 동물처럼 "
+"행동할 수 있습니다. 수틀릴 경우에도 드론에 탑승하여 낮게 떠서 날아갈 수 있습니다."
 msgstr ""
 
 #: .\monsters\sq_friendlydrones.json
@@ -4942,9 +4949,9 @@ msgstr[1] ""
 #. ~ Description for {'str': '비활성화된 드론: 컴패니언'}
 #: .\monsters\sq_friendlydrones.json
 msgid ""
-"아포칼립스 세계에서는 충실한 짐꾼과 친구가 필요합니다. 드론: 컴패니언은 중형 동물 갑옷을 입힐 수 있고, 180kg까지의 무게를 들 수"
-" 있으며, 귀여운 애완 동물처럼 행동할 수 있습니다. 수틀릴 경우에도 드론에 탑승하여 낮게 떠서 날아갈 수 있습니다. 재프로그래밍 및 "
-"재설치를 마쳤다면 애완로봇이 명령에 응답해, 충실한 경량 로봇 짐꾼이자 친구로 작동할 것입니다."
+"아포칼립스 세계에서는 충실한 짐꾼과 친구가 필요합니다. 드론: 컴패니언은 180kg까지의 무게를 들 수 있으며, 귀여운 애완 동물처럼 "
+"행동할 수 있습니다. 수틀릴 경우에도 드론에 탑승하여 낮게 떠서 날아갈 수 있습니다. 재프로그래밍 및 재설치를 마쳤다면 애완로봇이 명령에"
+" 응답해, 충실한 경량 로봇 짐꾼이자 친구로 작동할 것입니다."
 msgstr ""
 
 #: .\monsters\sq_friendlydrones.json
@@ -5087,6 +5094,52 @@ msgstr[1] ""
 #: .\monsters\sq_mech_weapons.json
 msgid "세라믹 발톱, 사복검, 나노합금 코팅 송곳니, 플라즈마 투사기를 포함한 근접 무장 체계입니다."
 msgstr ""
+
+#: .\monsters\sq_mechs.json
+msgid "강제종료"
+msgstr ""
+
+#. ~ Description for {'str': '강제종료'}
+#: .\monsters\sq_mechs.json
+msgid "로봇 제어용 노트북으로 생존자의 수제 메크에 1250만큼의 대미지를 주어 강제로 종료시킵니다."
+msgstr ""
+
+#: .\monsters\sq_mechs.json
+msgid "Infect"
+msgstr ""
+
+#. ~ Description for {'str': 'Infect'}
+#: .\monsters\sq_mechs.json
+msgid ""
+"Spell casted by a monster. If you're seeing this, then read this one instead:\n"
+"'Caster infects the target, turning them into a crimson horror.'"
+msgstr ""
+
+#: .\monsters\sq_mechs.json
+msgid "메크 종료기"
+msgid_plural "메크 종료기"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': '메크 종료기'}
+#: .\monsters\sq_mechs.json
+msgid ""
+"A remote control for RC cars, with joystick to steer the car and colorful "
+"buttons that don't seem to do anything.  Perhaps they were for the deluxe "
+"model?"
+msgstr ""
+
+#: .\monsters\sq_mechs.json
+msgid "storage battery"
+msgid_plural "storage batteries"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\monsters\sq_mechs.json
+msgid "medium storage battery"
+msgid_plural "medium storage batteries"
+msgstr[0] ""
+msgstr[1] ""
 
 #: .\monsters\sq_mechs.json
 msgid "메크: 익스플로러 (탑승 모드)"
