@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Jake's_Squirrel_mod\n"
-"POT-Creation-Date: 2023-09-12 20:08+0900\n"
+"POT-Creation-Date: 2023-09-15 17:52+0900\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -313,8 +313,7 @@ msgstr ""
 #: .\advtech\sq_advanced_armor.json
 msgid ""
 "맞춤형 동력 중량 전투복입니다. 더블테크사의 파워아머를 생존자의 스타일로 어레인지하고 축소하여 만들었습니다. 진짜 파워아머에 비하면 "
-"제한적인 방호력을 가지고 있지만, 이 철갑덩어리를 입고 전진하는 생존자는 아무도 막지 못합니다. 사용하면 팔의 강력한 모터를 "
-"가동시킵니다."
+"제한적인 방호력을 가지고 있지만, 이 견고하고 투박한 만듦새는 아머의 동작을 보증합니다. 사용하면 팔의 강력한 모터를 가동시킵니다."
 msgstr ""
 
 #: .\advtech\sq_advanced_armor.json
@@ -359,7 +358,7 @@ msgstr ""
 #: .\advtech\sq_advanced_armor.json
 msgid ""
 "맞춤형 동력 중량 전투복입니다. 더블테크사의 파워아머를 생존자의 스타일로 어레인지하고 축소하여 만들었습니다. 진짜 파워아머에 비하면 "
-"제한적인 방호력을 가지고 있지만, 이 철갑덩어리를 입고 전진하는 생존자는 아무도 막지 못합니다. 사용하여 작동을 멈춥니다."
+"제한적인 방호력을 가지고 있지만, 이 견고하고 투박한 만듦새는 아머의 동작을 보증합니다. 사용하여 작동을 멈춥니다."
 msgstr ""
 
 #: .\advtech\sq_advanced_armor.json
@@ -2607,6 +2606,33 @@ msgstr ""
 msgid ""
 "상대적으로 무거운 탄소섬유 프레임입니다. 프레임 위에 다른 차량 부품들을 장착할 수 있고, 또 다른 프레임을 붙여서 차량 크기를 늘릴 수"
 " 있습니다. 질량이 클수록 충돌로 인한 피해량을 더 적게 받습니다."
+msgstr ""
+
+#: .\advtech\sq_vehicle_part.json
+msgid "탄소섬유 장갑판"
+msgstr ""
+
+#. ~ Description for {'str': '탄소섬유 장갑판'}
+#: .\advtech\sq_vehicle_part.json
+msgid "튼튼한 탄소섬유 벽입니다. 좀비들이 차량에 들어오는 것을 막고 시야를 차단합니다."
+msgstr ""
+
+#: .\advtech\sq_vehicle_part.json
+msgid "탄소섬유 쿼터패널"
+msgstr ""
+
+#. ~ Description for {'str': '탄소섬유 쿼터패널'}
+#: .\advtech\sq_vehicle_part.json
+msgid "절반 높이의 튼튼한 탄소섬유 벽입니다. 좀비들이 차량에 들어오는 것을 막지만 시야를 차단하지는 않습니다."
+msgstr ""
+
+#: .\advtech\sq_vehicle_part.json
+msgid "탄소섬유 지붕"
+msgstr ""
+
+#. ~ Description for {'str': '탄소섬유 지붕'}
+#: .\advtech\sq_vehicle_part.json
+msgid "두꺼운 탄소섬유 지붕."
 msgstr ""
 
 #: .\items\sq_armor_override.json
