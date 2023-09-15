@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Jake's_Squirrel_mod\n"
-"POT-Creation-Date: 2023-09-12 20:08+0900\n"
+"POT-Creation-Date: 2023-09-15 17:52+0900\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -336,14 +336,14 @@ msgstr ""
 msgid ""
 "맞춤형 동력 중량 전투복입니다. 더블테크사의 파워아머를 생존자의 스타일로 어레"
 "인지하고 축소하여 만들었습니다. 진짜 파워아머에 비하면 제한적인 방호력을 가지"
-"고 있지만, 이 철갑덩어리를 입고 전진하는 생존자는 아무도 막지 못합니다. 사용"
-"하면 팔의 강력한 모터를 가동시킵니다."
+"고 있지만, 이 견고하고 투박한 만듦새는 아머의 동작을 보증합니다. 사용하면 팔"
+"의 강력한 모터를 가동시킵니다."
 msgstr ""
 "A customized powered heavy combat suit. It's design was inspired by adapting "
 "and scaling down version of DoubleTech's Power Armor in a survivor's style. "
-"While it has limited protection compared to real power armor, no one can "
-"stop a survivor from charging forward in this hunk of steel. When used, it "
-"activates the arm's powerful motor."
+"While it has limited protection compared to real power armor, this rugged, "
+"clunky look ensures that the armor will work. When used, it activates the "
+"arm's powerful motor."
 
 #: .\advtech\sq_advanced_armor.json
 msgid "'워든' 중량 컴뱃 아머 (켜짐)"
@@ -388,13 +388,13 @@ msgstr ""
 msgid ""
 "맞춤형 동력 중량 전투복입니다. 더블테크사의 파워아머를 생존자의 스타일로 어레"
 "인지하고 축소하여 만들었습니다. 진짜 파워아머에 비하면 제한적인 방호력을 가지"
-"고 있지만, 이 철갑덩어리를 입고 전진하는 생존자는 아무도 막지 못합니다. 사용"
-"하여 작동을 멈춥니다."
+"고 있지만, 이 견고하고 투박한 만듦새는 아머의 동작을 보증합니다. 사용하여 작"
+"동을 멈춥니다."
 msgstr ""
 "A customized powered heavy combat suit. It's design was inspired by adapting "
 "and scaling down version of DoubleTech's Power Armor in a survivor's style. "
-"While it has limited protection compared to real power armor, no one can "
-"stop a survivor from advancing in this hunk of steel. Use to stop it from "
+"While it has limited protection compared to real power armor, this rugged, "
+"clunky look ensures that the armor will work. Use to stop it from "
 "functioning."
 
 #: .\advtech\sq_advanced_armor.json
@@ -3103,6 +3103,41 @@ msgstr ""
 "mounted on it, and it can be attached to other frames to increase the "
 "vehicle's size.  Increased mass makes it more resistant to damage in "
 "collisions."
+
+#: .\advtech\sq_vehicle_part.json
+msgid "탄소섬유 장갑판"
+msgstr "carbon fibre board"
+
+#. ~ Description for {'str': '탄소섬유 장갑판'}
+#: .\advtech\sq_vehicle_part.json
+msgid ""
+"튼튼한 탄소섬유 벽입니다. 좀비들이 차량에 들어오는 것을 막고 시야를 차단합니"
+"다."
+msgstr ""
+"A strong carbon fibre wall. Keeps zombies outside the vehicle and prevents "
+"people from seeing through it."
+
+#: .\advtech\sq_vehicle_part.json
+msgid "탄소섬유 쿼터패널"
+msgstr "carbon fibre quarterpanel"
+
+#. ~ Description for {'str': '탄소섬유 쿼터패널'}
+#: .\advtech\sq_vehicle_part.json
+msgid ""
+"절반 높이의 튼튼한 탄소섬유 벽입니다. 좀비들이 차량에 들어오는 것을 막지만 시"
+"야를 차단하지는 않습니다."
+msgstr ""
+"A half-height strong carbon fibre wall. Keeps zombies outside the vehicle "
+"but allows people to see over it."
+
+#: .\advtech\sq_vehicle_part.json
+msgid "탄소섬유 지붕"
+msgstr "carbon fibre roof"
+
+#. ~ Description for {'str': '탄소섬유 지붕'}
+#: .\advtech\sq_vehicle_part.json
+msgid "두꺼운 탄소섬유 지붕."
+msgstr "A thick carbon fibre roof."
 
 #: .\items\sq_armor_override.json
 msgid "fur coat"

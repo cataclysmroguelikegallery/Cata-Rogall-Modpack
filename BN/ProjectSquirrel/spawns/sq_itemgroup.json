@@ -57,7 +57,6 @@
   {
     "type": "item_group",
     "id": "sq_unrand_all",
-    "subtype": "distribution",
     "items": [
 	  [ "a_spear_knife", 2 ],
 	  [ "a_broadsword", 2 ],
@@ -135,12 +134,7 @@
     "id": "rare",
     "type": "item_group",
     "items": [
-	  [ "a_spear_knife", 2 ],
-	  [ "a_broadsword", 2 ],
-	  [ "a_zweihander", 2 ],
-	  [ "a_bwirebat", 2 ],
-	  [ "a_nodachi", 2 ],
-	  [ "a_katana", 2 ],
+      { "group": "sq_unrand_all", "prob": 2 },
       [ "sq_hardlight_longbow", 2 ],
 	  [ "sq_hardlight_rifle", 2 ],
 	  [ "sq_hardlight_pistol", 2 ],
@@ -176,12 +170,7 @@
     "id": "vault",
     "type": "item_group",
     "items": [
-	  [ "a_spear_knife", 2 ],
-	  [ "a_broadsword", 2 ],
-	  [ "a_zweihander", 2 ],
-	  [ "a_bwirebat", 2 ],
-	  [ "a_nodachi", 2 ],
-	  [ "a_katana", 2 ],
+      { "group": "sq_unrand_all", "prob": 2 },
       [ "sq_industrial_skeleton", 5 ],
 	  [ "sq_sprinter_skeleton", 5 ],
 	  [ "sq_vanguard_skeleton", 5 ],
@@ -343,12 +332,7 @@
     "type": "item_group",
     "id": "pawn",
     "items": [
-	  [ "a_spear_knife", 2 ],
-	  [ "a_broadsword", 2 ],
-	  [ "a_zweihander", 2 ],
-	  [ "a_bwirebat", 2 ],
-	  [ "a_nodachi", 2 ],
-	  [ "a_katana", 2 ],
+      { "group": "sq_unrand_all", "prob": 3 },
 	  [ "sq_shield_scrap", 5 ],
 	  [ "sq_shield_ballistic", 5 ],
 	  [ "sq_shield_riot_small", 5 ],
@@ -429,7 +413,7 @@
   {
     "type": "item_group",
     "id": "fireman_gear",
-    "items": [ [ "sq_stamina_juice", 15 ], [ "sq_shield_ballistic", 5 ], [ "sq_swat_shield", 2 ] ]
+    "items": [ [ "sq_industrial_skeleton", 10 ], [ "sq_stamina_juice", 15 ], [ "sq_shield_ballistic", 5 ], [ "sq_swat_shield", 2 ] ]
   },
   {
     "type": "item_group",

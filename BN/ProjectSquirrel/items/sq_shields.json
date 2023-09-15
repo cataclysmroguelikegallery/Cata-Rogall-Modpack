@@ -152,7 +152,7 @@
     "id": "sq_swat_shield",
     "name": { "str": "전술 방패: 바스티온" },
     "description": "방패병와 그 뒤에 서 있는 모든 사람이 목표물에 안전하게 접근하기 위해 설계된 탄도 방패입니다. 무겁고 다소 거추장스럽지만, 방호력만큼은 무시할 수 없습니다. 활성화하여 방패를 펼치고 몸에 밀착시킵니다.",
-    "weight": "12840 g",
+    "weight": "14840 g",
     "color": "dark_gray",
     "covers": [ "hand_either" ],
     "price": "8000 USD",
@@ -169,14 +169,17 @@
     "techniques": [ "WBLOCK_3", "BRUTAL" ],
     "coverage": 100,
     "material_thickness": 6,
-    "use_action": { "type": "transform", "msg": "전술 방패를 전개하여 방어태세에 돌입합니다!", "target": "sq_swat_shield_act" }
+    "use_action": { "type": "transform", "msg": "전술 방패를 전개하여 방어태세에 돌입합니다!", "target": "sq_swat_shield_act" },
+    "relic_data": {
+          "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "ench_effects": [ { "effect": "sq_stun_immune", "intensity": 1 } ]
+    } ] }
   },
   {
     "type": "ARMOR",
     "id": "sq_swat_shield_act",
     "name": { "str": "전술 방패: 바스티온 (방어 모드)" },
     "description": "방패병와 그 뒤에 서 있는 모든 사람이 목표물에 안전하게 접근하기 위해 설계된 탄도 방패입니다. 무겁고 다소 거추장스럽지만, 방호력만큼은 무시할 수 없습니다.  현재 작동 중이며, 사용자의 움직임을 방해하고 있습니다.",
-    "weight": "12840 g",
+    "weight": "14840 g",
     "color": "dark_gray",
     "covers": [ "torso", "legs", "head", "arms", "hands" ],
     "price": "8000 USD",
@@ -191,7 +194,10 @@
     "techniques": [ "WBLOCK_3", "BRUTAL" ],
     "coverage": 100,
     "material_thickness": 6,
-    "use_action": { "type": "transform", "msg": "전술 방패를 내립니다.", "target": "sq_swat_shield" }
+    "use_action": { "type": "transform", "msg": "전술 방패를 내립니다.", "target": "sq_swat_shield" },
+    "relic_data": {
+          "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "ench_effects": [ { "effect": "sq_stun_immune", "intensity": 1 } ]
+	} ] }
   },
   {
     "type": "ARMOR",
