@@ -535,8 +535,7 @@
     "time": "60 m",
     "reversible": true,
     "autolearn": true,
-    "qualities": [ { "id": "GLARE", "level": 2 } ],
-    "using": [ [ "welding_standard", 50 ] ],
+    "using": [ [ "welding_standard", 25 ] ],
     "components": [ [ [ "kevlar_plate", 20 ], [ "carbide_plate", 15 ] ] ]
   },
   {
