@@ -1,0 +1,95 @@
+[
+  {
+    "id": "calorie_pill",
+    "type": "COMESTIBLE",
+    "name": "nutriment",
+    "description": "A crumbly white pill half the size of your thumb, packed with vitamins and calories.  Provides a whole day's nutrition in portable form, but it's a little hard to keep down, thanks to the rancid taste and chalky texture.",
+    "color": "white",
+    "comestible_type": "FOOD",
+    "symbol": "%",
+    "weight": "500 g",
+    "volume": "50 ml",
+    "calories": 3000,
+    "healthy": 5,
+    "quench": -5,
+    "charges": 1,
+    "looks_like": "vitamins",
+    "fun": -10,
+    "freezing_point": -490,
+    "vitamins": [
+      [ "calcium", 24, 48 ],
+      [ "iron", 24, 48 ],
+      [ "vitA", 24, 48 ],
+      [ "vitB", 24, 48 ],
+      [ "vitC", 24, 48 ]
+    ],
+    "price": 10000
+  },
+  {
+    "type": "recipe",
+    "result": "calorie_pill",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_DRY",
+    "skill_used": "cooking",
+    "difficulty": 7,
+    "charges": 1,
+    "time": "10 m",
+    "batch_time_factors": [ 80, 5 ],
+    "autolearn": true,
+    "qualities": [ { "id": "CONTAIN", "level": 1 } ],
+    "using": [ [ "serum_production_standard", 10 ] ],
+    "components": [
+      [ [ "protein_powder", 10 ] ],
+      [ [ "milk_powder", 10 ] ],
+      [ [ "vitamins", 10 ], [ "gummy_vitamins", 10 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "vitamins",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_DRY",
+    "skill_used": "cooking",
+    "difficulty": 7,
+    "charges": 20,
+    "time": "10 m",
+    "batch_time_factors": [ 80, 5 ],
+    "autolearn": true,
+    "qualities": [ { "id": "CONTAIN", "level": 1 }, { "id": "CUT", "level": 1 } ],
+    "using": [ [ "mutagen_production_standard", 10 ] ],
+    "components": [
+      [ [ "lemonade_powder", 1 ], [ "sweet_fruit_like", 1, "LIST" ], [ "coconut", 1 ] ]
+    ]
+  },
+  {
+    "result": "protein_powder",
+    "type": "recipe",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_DRY",
+    "skill_used": "cooking",
+    "difficulty": 4,
+    "charges": 4,
+    "time": "12 m",
+    "batch_time_factors": [ 50, 3 ],
+    "autolearn": true,
+    "qualities": [ { "id": "CHEM", "level": 2 } ],
+    "tools": [ [ [ "mortar_pestle", -1 ] ], [ [ "surface_heat", 25, "LIST" ] ] ],
+    "components": [ [ [ "dry_meat", 2 ], [ "dry_fish", 3 ] ] ]
+  },
+  {
+    "result": "protein_powder",
+    "type": "recipe",
+    "id_suffix": "with_from_food_processor",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_DRY",
+    "skill_used": "cooking",
+    "difficulty": 4,
+    "charges": 4,
+    "time": "9 m",
+    "batch_time_factors": [ 50, 3 ],
+    "autolearn": true,
+    "qualities": [ { "id": "CHEM", "level": 2 } ],
+    "tools": [ [ [ "food_processor", 20 ] ], [ [ "surface_heat", 10, "LIST" ] ] ],
+    "components": [ [ [ "dry_meat", 2 ], [ "dry_fish", 3 ] ] ]
+  }
+]
