@@ -283,7 +283,7 @@
           },
           {
             "id": "vp_sq_carbide_hdboard_sw",
-            "fg": 143,
+            "fg": 142,
             "rotates": true,
             "multitile": true,
             "additional_tiles": [ { "id": "broken", "fg": 143 } ]
