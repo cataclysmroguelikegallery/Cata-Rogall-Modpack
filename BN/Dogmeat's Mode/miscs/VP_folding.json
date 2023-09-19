@@ -97,7 +97,8 @@
     "type": "vehicle_part",
     "name": { "str": "foldable seat" },
     "copy-from": "folding_seat",
-    "extend": { "flags": [ "BELTABLE" ] }
+    "extend": { "flags": [ "BELTABLE" ] },
+    "delete": { "location": "anywhere" }
   },
   {
     "id": "tearer",
@@ -138,5 +139,19 @@
     "copy-from": "crane_medium",
     "folded_volume": 60,
     "extend": { "flags": [ "FOLDABLE" ] }
+  },
+  {
+    "id": "external_tank_small",
+    "type": "vehicle_part",
+    "name": { "str": "external tank (100L)" },
+    "copy-from": "external_tank_small",
+    "extend": { "flags": [ "FLOATS" ] }
+  },
+  {
+    "id": "external_tank",
+    "type": "vehicle_part",
+    "name": { "str": "external tank (200L)" },
+    "copy-from": "external_tank",
+    "extend": { "flags": [ "FLOATS" ] }
   }
 ]

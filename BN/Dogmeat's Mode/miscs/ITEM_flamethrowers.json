@@ -1,0 +1,55 @@
+[
+  {
+    "id": "flamethrower",
+    "type": "GUN",
+    "name": { "str": "flamethrower" },
+    "copy-from": "flamethrower",
+    "ammo": [ "flammable", "diesel", "gasoline" ],
+    "magazines": [ [ "flammable", [ "pressurized_tank" ] ], [ "diesel", [ "pressurized_tank" ] ], [ "gasoline", [ "pressurized_tank" ] ] ]
+  },
+  {
+    "id": "rm451_flamethrower",
+    "type": "GUN",
+    "name": { "str": "RM451 flamethrower" },
+    "copy-from": "rm451_flamethrower",
+    "ammo": [ "flammable", "diesel", "gasoline" ],
+    "magazines": [ [ "flammable", [ "rm4502", "rm4504" ] ], [ "diesel", [ "rm4502", "rm4504" ] ], [ "gasoline", [ "rm4502", "rm4504" ] ] ]
+  },
+  {
+    "id": "flamethrower_simple",
+    "type": "GUN",
+    "name": { "str": "simple flamethrower" },
+    "copy-from": "flamethrower_simple",
+    "ammo": [ "flammable", "diesel", "gasoline" ],
+    "magazines": [ [ "flammable", [ "aux_pressurized_tank", "pressurized_tank" ] ], [ "diesel", [ "aux_pressurized_tank", "pressurized_tank" ] ], [ "gasoline", [ "aux_pressurized_tank", "pressurized_tank" ] ] ],
+    "valid_mod_locations": [ [ "sling", 1 ] ]
+  },
+  {
+    "id": "pressurized_tank",
+    "type": "MAGAZINE",
+    "name": { "str": "pressurized fuel tank" },
+    "copy-from": "pressurized_tank",
+    "ammo_type": [ "flammable", "diesel", "gasoline" ]
+  },
+  {
+    "id": "aux_pressurized_tank",
+    "type": "MAGAZINE",
+    "name": { "str": "small pressurized fuel tank" },
+    "copy-from": "aux_pressurized_tank",
+    "ammo_type": [ "flammable", "diesel", "gasoline" ]
+  },
+  {
+    "id": "rm4502",
+    "type": "MAGAZINE",
+    "name": { "str": "RM450-2 fuel canister" },
+    "copy-from": "rm4502",
+    "ammo_type": [ "flammable", "diesel", "gasoline" ]
+  },
+  {
+    "id": "rm4504",
+    "type": "MAGAZINE",
+    "name": { "str": "RM450-4 fuel canister" },
+    "copy-from": "rm4504",
+    "ammo_type": [ "flammable", "diesel", "gasoline" ]
+  }
+]

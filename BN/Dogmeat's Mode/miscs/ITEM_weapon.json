@@ -46,5 +46,42 @@
     "name": { "str": "nodachi replica" },
     "copy-from": "nodachi_inferior",
     "extend": { "flags": [ "REACH_ATTACK" ] }
+  },
+  {
+    "id": "bat",
+    "type": "GENERIC",
+    "category": "weapons",
+    "weapon_category": [ "CLUBS" ],
+    "name": { "str": "baseball bat" },
+    "copy-from": "bat",
+    "extend": { "flags": [ "MOLLE" ] }
+  },
+  {
+    "id": "bat_metal",
+    "type": "GENERIC",
+    "name": { "str": "aluminum bat" },
+    "copy-from": "bat_metal",
+    "extend": { "flags": [ "MOLLE" ] }
+  },
+  {
+    "id": "bwirebat",
+    "type": "GENERIC",
+    "name": { "str": "barbed wire bat" },
+    "copy-from": "bwirebat",
+    "extend": { "flags": [ "MOLLE" ] }
+  },
+  {
+    "id": "nailbat",
+    "type": "GENERIC",
+    "name": { "str": "nail bat" },
+    "copy-from": "nailbat",
+    "extend": { "flags": [ "MOLLE" ] }
+  },
+  {
+    "id": "shillelagh_weighted",
+    "type": "GENERIC",
+    "name": { "str": "loaded club" },
+    "copy-from": "shillelagh_weighted",
+    "extend": { "flags": [ "MOLLE" ] }
   }
 ]
