@@ -5,7 +5,7 @@
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_EXPLOSIVE",
     "skill_used": "electronics",
-    "difficulty": 8,
+    "difficulty": 5,
     "time": "30 m",
     "reversible": true,
     "decomp_learn": 5,
@@ -90,5 +90,47 @@
     "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 1 } ],
     "components": [ [ [ "cardboard", 140 ] ], [ [ "duct_tape", 150 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "flamethrower_simple",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "mechanics",
+    "difficulty": 6,
+	"skills_required": [ "fabrication", 4 ],
+    "time": "30 m",
+    "using": [
+      [ "welding_standard", 20 ],
+      [ "steel_standard", 1 ]
+    ],
+    "qualities": [
+      { "id": "SAW_M", "level": 1 },
+      { "id": "SCREW_FINE", "level": 1 },
+      { "id": "WRENCH_FINE", "level": 1 }
+    ],
+    "components": [
+      [ ["pilot_light", 2] ],
+      [ ["pipe", 1 ] ],
+      [ ["hose", 2] ],
+      [ ["metal_tank_little", 1] ]
+    ],
+    "reversible": false,
+    "autolearn": true,
+    "obsolete": false
+  },
+  {
+    "result": "beltfeed",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "skills_required": [ "rifle", 2 ],
+    "time": 200000,
+    "autolearn": true,
+    "using": [ [ "welding_standard", 5 ], [ "steel_tiny", 2 ] ],
+    "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 } ],
+    "components": [ [ [ "pipe", 2 ] ], [ [ "spring", 4 ] ] ]
   }
 ]
