@@ -495,10 +495,10 @@
     "subcategory": "CSC_첨단기술_MATERIALS",
     "skill_used": "fabrication",
     "skills_required": [ "cooking", 9 ],
-    "difficulty": 8,
+    "difficulty": 7,
     "time": "45 m",
     "batch_time_factors": [ 50, 5 ],
-    "book_learn": [ [ "recipe_lab_cvd", 7 ] ],
+    "book_learn": [ [ "recipe_lab_cvd", 5 ] ],
     "autolearn": false,
     "tools": [ [ [ "sq_atomic_forge", -1 ] ] ],
     "components": [ [ [ "carbide_plate", 12 ] ] ]
