@@ -147,7 +147,7 @@
     "autolearn": false,
 	"charges": 2,
     "tools": [ [ [ "sq_atomic_forge", -1 ] ] ],
-    "components": [ [ [ "resin_chunk", 1 ] ], [ [ "graphene", 3 ] ] ]
+    "components": [ [ [ "resin_chunk", 1 ], [ "slime_scrap", 3 ] ], [ [ "graphene", 3 ] ] ]
   },
   {
     "result": "carbide_plate",
@@ -164,7 +164,7 @@
     "autolearn": false,
 	"charges": 10,
     "tools": [ [ [ "sq_atomic_forge", -1 ] ] ],
-    "components": [ [ [ "alien_pod_resin", 1 ] ], [ [ "graphene", 15 ] ] ]
+    "components": [ [ [ "alien_pod_resin", 1 ], [ "slime_scrap", 15 ] ], [ [ "graphene", 15 ] ] ]
   },
   {
     "result": "hydrogen_tank",
