@@ -16,7 +16,6 @@
 - [New England Staff Arts](./BN/New%20England%20Staff%20Arts/): 무술: 뉴 잉글랜드 지팡이술을 추가합니다. 자동습득 가능합니다.
 - [Revive_Hub01_Base](./BN/Revive_Hub01_Base/): 삭제된 허브01의 지하실, 그리고 허브01의 보안책임자 율리시스 루크를 되살리는 모드입니다.
 - [Oil_and_Spinner](./BN/WildStuffs/): 심플하게 압착기와 방적기를 추가합니다.
-- [Old_Ammo_Stats](./BN/Old_Ammo_Stats/): 현재까지 BN 버전 패치로 진행된 탄약 리밸런싱을 롤백시키고 예전의 스탯을 복구시키는 모드입니다.
 - [better_cataclysm](./BN/better_cataclysm/): 카타클리즘의 불합리하고 불공평한 부분을 수정합니다.
 
 ### DDA
