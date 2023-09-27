@@ -1,0 +1,86 @@
+[
+  {
+    "id": "hair_violet",
+    "type": "mutation_flag",
+    "//": "This trait flag is used by cosmetic trait JSON, with no hardcode usage at present.",
+    "//generated-by": "https://deno.land/x/catjazz"
+  },
+  {
+    "id": "hair_type9",
+    "type": "mutation_flag",
+    "//": "This trait flag is used by cosmetic trait JSON, with no hardcode usage at present.",
+    "//generated-by": "https://deno.land/x/catjazz"
+  },
+  {
+    "id": "hair_other",
+    "type": "mutation_flag",
+    "//": "This trait flag is used by cosmetic trait JSON, with no hardcode usage at present.",
+    "//generated-by": "https://deno.land/x/catjazz"
+  },
+  {
+    "id": "hair_sub1",
+    "type": "mutation_flag",
+    "//": "This trait flag is used by cosmetic trait JSON, with no hardcode usage at present.",
+    "//generated-by": "https://deno.land/x/catjazz"
+  },
+  {
+    "id": "hair_sub2",
+    "type": "mutation_flag",
+    "//": "This trait flag is used by cosmetic trait JSON, with no hardcode usage at present.",
+    "//generated-by": "https://deno.land/x/catjazz"
+  },
+  {
+    "id": "hair_sub3",
+    "type": "mutation_flag",
+    "//": "This trait flag is used by cosmetic trait JSON, with no hardcode usage at present.",
+    "//generated-by": "https://deno.land/x/catjazz"
+  },
+  {
+    "id": "hair_sub4",
+    "type": "mutation_flag",
+    "//": "This trait flag is used by cosmetic trait JSON, with no hardcode usage at present.",
+    "//generated-by": "https://deno.land/x/catjazz"
+  },
+  {
+    "id": "hair_sub5",
+    "type": "mutation_flag",
+    "//": "This trait flag is used by cosmetic trait JSON, with no hardcode usage at present.",
+    "//generated-by": "https://deno.land/x/catjazz"
+  },
+  {
+    "id": "hair_sub6",
+    "type": "mutation_flag",
+    "//": "This trait flag is used by cosmetic trait JSON, with no hardcode usage at present.",
+    "//generated-by": "https://deno.land/x/catjazz"
+  },
+  {
+    "id": "hair_sub7",
+    "type": "mutation_flag",
+    "//": "This trait flag is used by cosmetic trait JSON, with no hardcode usage at present.",
+    "//generated-by": "https://deno.land/x/catjazz"
+  },
+  {
+    "id": "hair_green",
+    "type": "mutation_flag",
+    "//": "This trait flag is used by cosmetic trait JSON, with no hardcode usage at present.",
+    "//generated-by": "https://deno.land/x/catjazz"
+  },
+  {
+    "id": "hair_blue",
+    "type": "mutation_flag",
+    "//": "This trait flag is used by cosmetic trait JSON, with no hardcode usage at present.",
+    "//generated-by": "https://deno.land/x/catjazz"
+  },
+  {
+    "id": "hair_pink",
+    "type": "mutation_flag",
+    "//": "This trait flag is used by cosmetic trait JSON, with no hardcode usage at present.",
+    "//generated-by": "https://deno.land/x/catjazz"
+  },
+  {
+    "id": "hair_orange",
+    "type": "mutation_flag",
+    "//": "This trait flag is used by cosmetic trait JSON, with no hardcode usage at present.",
+    "//generated-by": "https://deno.land/x/catjazz"
+  }
+]
