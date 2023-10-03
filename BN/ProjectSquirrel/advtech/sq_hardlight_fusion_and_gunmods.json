@@ -550,7 +550,7 @@
     "material": [ "superalloy", "ceramic" ],
     "color": "light_blue",
     "range": 26,
-    "ranged_damage": { "damage_type": "true", "amount": 25, "armor_penetration": 54 },
+    "ranged_damage": { "damage_type": "heat", "amount": 25, "armor_penetration": 54 },
     "dispersion": 140,
     "loudness": 7,
     "ups_charges": 20,
@@ -961,7 +961,7 @@
     "clip_size": 8,
     "reload": 60,
     "ups_charges": 25,
-    "magazines": [ [ "metal_rail", [ "sq_rail_speedloader25", "sq_rail_speedloader50" ] ] ],
+    "magazines": [ [ "metal_rail", [ "sq_rail_speedloader8" ] ] ],
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "emitter", 1 ],
@@ -1025,10 +1025,10 @@
     "durability": 8,
     "recoil": 2000,
     "min_cycle_recoil": 800,
-    "clip_size": 20,
+    "clip_size": 25,
     "reload": 200,
     "ups_charges": 30,
-    "magazines": [ [ "metal_rail", [ "sq_rail_speedloader25", "sq_rail_speedloader50" ] ] ],
+    "magazines": [ [ "metal_rail", [ "sq_rail_speedloader8", "sq_rail_speedloader25" ] ] ],
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "emitter", 1 ],
@@ -1096,7 +1096,7 @@
     "clip_size": 25,
     "reload": 100,
     "ups_charges": 30,
-    "magazines": [ [ "metal_rail", [ "sq_rail_speedloader25", "sq_rail_speedloader50" ] ] ],
+    "magazines": [ [ "metal_rail", [ "sq_rail_speedloader8", "sq_rail_speedloader25" ] ] ],
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "emitter", 1 ],
@@ -1163,7 +1163,6 @@
     "clip_size": 4,
     "reload": 100,
     "ups_charges": 50,
-    "magazines": [ [ "metal_rail", [ "sq_rail_speedloader25", "sq_rail_speedloader50" ] ] ],
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "emitter", 1 ],
@@ -1231,7 +1230,7 @@
     "clip_size": 60,
     "reload": 400,
     "ups_charges": 40,
-    "magazines": [ [ "metal_rail", [ "sq_rail_speedloader25", "sq_rail_speedloader50" ] ] ],
+    "magazines": [ [ "metal_rail", [ "sq_rail_speedloader8", "sq_rail_speedloader25", "sq_rail_speedloader50" ] ] ],
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "emitter", 1 ],
@@ -1392,13 +1391,45 @@
     ]
   },
   {
+    "id": "sq_rail_speedloader8",
+    "looks_like": "m9mag",
+    "type": "MAGAZINE",
+    "name": { "str": "경량 레일 스피드로더" },
+    "description": "레일건용 스피드로더입니다. 레일 탄환 8발을 넣을 수 있고 호환되는 총기를 빠르게 장전할 수 있습니다.",
+    "weight": "28 g",
+    "volume": "125 ml",
+    "price": 8000,
+    "price_postapoc": 250,
+    "material": [ "superalloy", "plastic" ],
+    "symbol": "#",
+    "color": "dark_gray",
+    "ammo_type": "metal_rail",
+    "capacity": 8,
+    "flags": [ "SPEEDLOADER" ]
+  },
+  {
+    "result": "sq_rail_speedloader8",
+    "type": "recipe",
+    "category": "CC_첨단기술",
+    "subcategory": "CSC_첨단기술_MAGAZINES",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "skills_required": [ "gun", 2 ],
+    "time": "20 m",
+    "book_learn": [ [ "recipe_bullets", 2 ], [ "mag_rifle", 3 ] ],
+    "qualities": [ { "id": "SAW_M", "level": 1 }, { "id": "HAMMER", "level": 1 } ],
+    "using": [ [ "ammo_rail", 1 ] ],
+    "tools": [ [ [ "small_repairkit", 10 ], [ "large_repairkit", 5 ] ] ],
+    "components": [ [ [ "sheet_metal_small", 1 ] ] ]
+  },
+  {
     "id": "sq_rail_speedloader25",
     "looks_like": "m9mag",
     "type": "MAGAZINE",
     "name": { "str": "표준 레일 스피드로더" },
     "description": "레일건용 스피드로더입니다. 레일 탄환 25발을 넣을 수 있고 호환되는 총기를 빠르게 장전할 수 있습니다.",
     "weight": "92 g",
-    "volume": "500 ml",
+    "volume": "400 ml",
     "price": 8000,
     "price_postapoc": 250,
     "material": [ "superalloy", "plastic" ],
@@ -1781,8 +1812,7 @@
     ],
     "install_time": "30 m",
 	"handling_modifier": 8,
-    "dispersion_modifier": -8,
-	"aim_speed": 15
+    "dispersion_modifier": -8
   },
   {
     "id": "sq_turbo_charger",
