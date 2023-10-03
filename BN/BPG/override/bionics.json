@@ -1,0 +1,20 @@
+[
+  {
+    "id": "bio_advreactor",
+    "copy-from": "bio_advreactor",
+    "type": "BIONIC_ITEM",
+    "name": { "str": "CBM:개선된 소형 반응로" },
+    "description": "기존에 설치된 소형 반응로를 업그레이드하여 전력 생산량을 높이고, 제한적인 자동 방사능 제염 기능을 추가합니다. 플루토늄 연료 전지 1개가 2000 충전량으로 전환되어 매 턴마다 전력을 10kJ 생산하고, 연료 전지가 충전된 상태로 비활성화 상태일 때는 지속적으로 전력을 100J 생산합니다."
+  },
+  {
+    "id": "bio_advreactor",
+    "type": "bionic",
+	"copy-from": "bio_advreactor",
+    "name": { "str": "개선된 소형 반응로" },
+    "description": "기존에 설치된 소형 반응로를 업그레이드하여 전력 생산량을 높이고, 제한적인 자동 방사능 제염 기능을 추가합니다. 플루토늄 연료 전지 1개가 2000 충전량으로 전환되어 매 턴마다 전력을 10kJ 생산하고, 연료 전지가 충전된 상태로 비활성화 상태일 때는 지속적으로 전력을 100J 생산합니다.",
+	"encumbrance": [ [ "torso", 0 ] ],
+    "fuel_options": [ "plut_cell" ],
+    "fuel_capacity": 20000,
+    "fuel_multiplier": 2000
+  }
+]

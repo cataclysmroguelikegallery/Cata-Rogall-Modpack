@@ -1,0 +1,14 @@
+[
+  {
+    "type": "recipe_category",
+    "id": "CC_모듈아머",
+    "recipe_subcategories": [
+      "CSC_ALL",
+      "CSC_모듈아머_머리",
+      "CSC_모듈아머_전신",
+      "CSC_모듈아머_팔",
+      "CSC_모듈아머_다리",
+      "CSC_모듈아머_재료"
+    ]
+  }
+]

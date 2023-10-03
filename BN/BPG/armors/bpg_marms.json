@@ -1,0 +1,526 @@
+[
+	{
+		"id": "bpg_power_arm_base",
+		"type": "TOOL_ARMOR",
+		"category": "clothing",
+		"symbol": "[",
+		"color": "green",
+		"name": { "str": "파워 아머-M 파워암", "str_pl": "파워 아머-M 파워암" },
+		"description": "기본적인 기능만 내장된 모듈형 파워 아머의 시작기입니다.",
+		"price": 0,
+		"price_postapoc": 0,
+		"material": [ "steel", "carbide" ],
+		"weight": "6 kg",
+		"volume": "4500 ml",
+		"covers": [ "arms", "hands" ],
+		"warmth": 30,
+		"environmental_protection": 15,
+		"coverage": 100,
+		"material_thickness": 6,
+		"encumbrance": 20,
+		"flags": [
+		  "USE_UPS",
+		  "NAT_UPS",
+		  "POWERARMOR_EXTERNAL",
+		  "SUPER_FANCY",
+		  "OVERSIZE",
+		  "NONCONDUCTIVE",
+		  "VARSIZE",
+		  "STURDY",
+		  "WATERPROOF",
+		  "WATER_FRIENDLY",
+		  "RAINPROOF"
+		],
+		"use_action": {
+			"type": "set_transformed",
+			"dependencies": "POWERARMOR_EXO",
+			"msg": "* 파워암 모듈 동기화 중...",
+			"target": "bpg_power_arm_base_on",
+			"need_worn": true,
+			"active": true
+		}
+	},
+	{
+		"id": "bpg_power_arm_base_on",
+		"type": "TOOL_ARMOR",
+		"copy-from": "bpg_power_arm_base",
+		"repairs_like": "bpg_power_arm_base",
+		"name": { "str": "파워 아머-M 파워암 (켜짐)", "str_pl": "파워 아머-M 파워암 (켜짐)" },
+		"description": "기본적인 기능만 내장된 모듈형 파워 아머의 시작기입니다. 현재 작동 중입니다.",
+		"power_draw": 300000,
+		"encumbrance": 10,
+		"environmental_protection": 15,
+		"material_thickness": 6,
+		"weight_capacity_bonus": "6 kg",
+		"extend": { "flags": [ "NO_TAKEOFF", "CLIMATE_CONTROL", "TRADER_AVOID" ] },
+		"revert_to": "bpg_power_arm_base",
+		"use_action": {
+			"type": "set_transformed",
+			"dependencies": "POWERARMOR_EXO",
+			"menu_text": "Turn off",
+			"msg": "* 파워암 모듈 동기화 해제됨",
+			"target": "bpg_power_arm_base"
+		}
+	},
+	{
+		"result": "bpg_power_arm_base",
+		"type": "recipe",
+		"category": "CC_모듈아머",
+		"subcategory": "CSC_모듈아머_팔",
+		"skill_used": "electronics",
+		"difficulty": 8,
+		"skills_required": [ [ "mechanics", 7 ], [ "fabrication", 7 ], [ "computer", 8 ] ],
+		"time": "12 h",
+		"book_learn": [ [ "sq_recipe_lab_fusion", 7 ] ],
+		"tools": [ [ [ "sq_atomic_forge", -1 ] ], [ [ "sq_nanofab", -1 ] ] ],
+		"using": [ [ "welding_standard", 60 ], [ "blacksmithing_advanced", 7 ] ],
+		"components": [
+		  [ [ "bpg_lparmor_parts", 1 ] ],
+		  [ [ "ai_module", 1 ] ],
+		  [ [ "power_supply", 4 ] ],
+		  [ [ "motor_micro", 8 ] ],
+		  [ [ "processor", 4 ] ],
+		  [ [ "cable", 200 ] ]
+		]
+	},
+	{
+		"type": "mutation",
+		"id": "BPG_PARMOR_MK2_ARM",
+		"name": { "str": "파워 아머 암 모듈" },
+		"points": 0,
+		"description": "파워 아머에 내장된 강력한 모터가 펀치의 파괴력을 끌어올려줍니다. 비무장 전투 시의 타격 피해가 약간 증가합니다.",
+		"valid": false,
+		"purifiable": false,
+		"bash_dmg_bonus": 12
+	},
+	{
+		"id": "bpg_power_arm_mk2",
+		"type": "TOOL_ARMOR",
+		"category": "clothing",
+		"symbol": "[",
+		"color": "green",
+		"name": { "str": "파워 아머-M 파워암 Mk.II", "str_pl": "파워 아머-M 파워암 Mk.II" },
+		"description": "공격을 막아낼 수 있도록 장갑을 보강했으며, 조금 더 유연한 동작이 가능하도록 모터를 보강한 파워 아머-M 파워암 Mk.II 입니다. 이제 조금 더 편리하게 비무장 전투가 가능합니다.",
+		"price": 0,
+		"price_postapoc": 0,
+		"material": [ "steel", "carbide" ],
+		"weight": "8 kg",
+		"volume": "5500 ml",
+		"covers": [ "arms", "hands" ],
+		"warmth": 30,
+		"environmental_protection": 20,
+		"coverage": 100,
+		"material_thickness": 7,
+		"encumbrance": 20,
+		"flags": [
+		  "USE_UPS",
+		  "NAT_UPS",
+		  "POWERARMOR_EXTERNAL",
+		  "SUPER_FANCY",
+		  "OVERSIZE",
+		  "NONCONDUCTIVE",
+		  "VARSIZE",
+		  "STURDY",
+		  "WATERPROOF",
+		  "WATER_FRIENDLY",
+		  "RAINPROOF",
+		  "BLOCK_WHILE_WORN"
+		],
+		"use_action": {
+			"type": "set_transformed",
+			"dependencies": "POWERARMOR_EXO",
+			"msg": "* 파워암 모듈 동기화 중...",
+			"target": "bpg_power_arm_mk2_on",
+			"need_worn": true,
+			"active": true
+		}
+	},
+	{
+		"id": "bpg_power_arm_mk2_on",
+		"type": "TOOL_ARMOR",
+		"copy-from": "bpg_power_arm_mk2",
+		"repairs_like": "bpg_power_arm_mk2",
+		"name": { "str": "파워 아머-M 파워암 Mk.II (켜짐)", "str_pl": "파워 아머-M 파워암 Mk.II (켜짐)" },
+		"description": "공격을 막아낼 수 있도록 장갑을 보강했으며, 조금 더 유연한 동작이 가능하도록 모터를 보강한 파워 아머-M 파워암 Mk.II 입니다. 이제 조금 더 편리하게 비무장 전투가 가능합니다. 현재 작동 중입니다.",
+		"power_draw": 400000,
+		"encumbrance": 10,
+		"environmental_protection": 20,
+		"material_thickness": 7,
+		"weight_capacity_bonus": "8 kg",
+		"extend": { "flags": [ 
+			"NO_TAKEOFF",
+			"CLIMATE_CONTROL",
+			"TRADER_AVOID",
+			"UNARMED_WEAPON",
+			"UNBREAKABLE_MELEE"
+			]
+		},
+		"relic_data": {
+			"passive_effects": [
+				{
+				  "has": "WORN",
+				  "condition": "ALWAYS",
+				  "mutations": [ "BPG_PARMOR_MK2_ARM" ]
+				}
+			]
+		},
+		"revert_to": "bpg_power_arm_mk2",
+		"use_action": {
+			"type": "set_transformed",
+			"dependencies": "POWERARMOR_EXO",
+			"menu_text": "Turn off",
+			"msg": "* 파워암 모듈 동기화 해제됨",
+			"target": "bpg_power_arm_mk2"
+		}
+	},
+	{
+		"result": "bpg_power_arm_mk2",
+		"type": "recipe",
+		"category": "CC_모듈아머",
+		"subcategory": "CSC_모듈아머_팔",
+		"skill_used": "electronics",
+		"difficulty": 8,
+		"skills_required": [ [ "mechanics", 8 ], [ "fabrication", 8 ], [ "computer", 8 ] ],
+		"time": "6 h",
+		"book_learn": [ [ "sq_recipe_lab_fusion", 8 ] ],
+		"tools": [ [ [ "sq_atomic_forge", -1 ] ], [ [ "sq_nanofab", -1 ] ] ],
+		"using": [ [ "welding_standard", 40 ], [ "blacksmithing_advanced", 7 ] ],
+		"components": [
+		  [ [ "bpg_power_arm_base", 1 ] ],
+		  [ [ "power_supply", 16 ] ],
+		  [ [ "motor_micro", 32 ] ],
+		  [ [ "processor", 8 ] ],
+		  [ [ "carbide_plate", 4 ] ],
+		  [ [ "cable", 200 ] ],
+		  [ [ "solder_wire", 200 ] ]
+		]
+	},
+	{
+		"id": "bpg_power_arm_mk3",
+		"type": "TOOL_ARMOR",
+		"category": "clothing",
+		"symbol": "[",
+		"color": "green",
+		"name": { "str": "파워 아머-M 파워암 Mk.III", "str_pl": "파워 아머-M 파워암 Mk.III" },
+		"description": "산업용 외골격의 유압 장치를 차용해 사용자의 근력을 보강해주는 시스템을 추가한 파워 아머-M 파워암 Mk.III 입니다. 가동 시 사용자에게 약간의 근력을 조금 더 더해줍니다.",
+		"price": 0,
+		"price_postapoc": 0,
+		"material": [ "steel", "carbide" ],
+		"weight": "10 kg",
+		"volume": "6500 ml",
+		"covers": [ "arms", "hands" ],
+		"warmth": 30,
+		"environmental_protection": 30,
+		"coverage": 100,
+		"material_thickness": 7,
+		"encumbrance": 20,
+		"flags": [
+		  "USE_UPS",
+		  "NAT_UPS",
+		  "POWERARMOR_EXTERNAL",
+		  "SUPER_FANCY",
+		  "OVERSIZE",
+		  "NONCONDUCTIVE",
+		  "VARSIZE",
+		  "STURDY",
+		  "WATERPROOF",
+		  "WATER_FRIENDLY",
+		  "RAINPROOF",
+		  "BLOCK_WHILE_WORN"
+		],
+		"use_action": {
+			"type": "set_transformed",
+			"dependencies": "POWERARMOR_EXO",
+			"msg": "* 파워암 모듈 동기화 중...",
+			"target": "bpg_power_arm_mk3_on",
+			"need_worn": true,
+			"active": true
+		}
+	},
+	{
+		"id": "bpg_power_arm_mk3_on",
+		"type": "TOOL_ARMOR",
+		"copy-from": "bpg_power_arm_mk3",
+		"repairs_like": "bpg_power_arm_mk3",
+		"name": { "str": "파워 아머-M 파워암 Mk.III (켜짐)", "str_pl": "파워 아머-M 파워암 Mk.III (켜짐)" },
+		"description": "산업용 외골격의 유압 장치를 차용해 사용자의 근력을 보강해주는 시스템을 추가한 파워 아머-M 파워암 Mk.III 입니다. 가동 시 사용자에게 약간의 근력을 조금 더 더해줍니다. 현재 작동 중입니다.",
+		"power_draw": 500000,
+		"encumbrance": 10,
+		"environmental_protection": 30,
+		"material_thickness": 7,
+		"weight_capacity_bonus": "10 kg",
+		"extend": { "flags": [ 
+			"NO_TAKEOFF",
+			"CLIMATE_CONTROL",
+			"TRADER_AVOID",
+			"UNARMED_WEAPON",
+			"UNBREAKABLE_MELEE"
+			]
+		},
+		"relic_data": {
+		"passive_effects": [
+				{
+				"has": "WORN",
+				"condition": "ALWAYS",
+				"mutations": [ "BPG_PARMOR_MK2_ARM" ],
+				"values": [ { "value": "STRENGTH", "add": 5 } ]
+				}
+			]
+		},
+		"revert_to": "bpg_power_arm_mk3",
+		"use_action": {
+			"type": "set_transformed",
+			"dependencies": "POWERARMOR_EXO",
+			"menu_text": "Turn off",
+			"msg": "* 파워암 모듈 동기화 해제됨",
+			"target": "bpg_power_arm_mk3"
+		}
+	},
+	{
+		"result": "bpg_power_arm_mk3",
+		"type": "recipe",
+		"category": "CC_모듈아머",
+		"subcategory": "CSC_모듈아머_팔",
+		"skill_used": "electronics",
+		"difficulty": 9,
+		"skills_required": [ [ "mechanics", 9 ], [ "fabrication", 8 ], [ "computer", 8 ] ],
+		"time": "6 h",
+		"book_learn": [ [ "sq_recipe_lab_fusion", 8 ] ],
+		"tools": [ [ [ "sq_atomic_forge", -1 ] ], [ [ "sq_nanofab", -1 ] ] ],
+		"using": [ [ "welding_standard", 60 ], [ "blacksmithing_advanced", 7 ] ],
+		"components": [
+		  [ [ "bpg_power_arm_mk2", 1 ] ],
+		  [ [ "sq_industrial_skeleton", 1 ] ],
+		  [ [ "power_supply", 4 ] ],
+		  [ [ "processor", 2 ] ],
+		  [ [ "carbide_plate", 4 ] ],
+		  [ [ "cable", 50 ] ],
+		  [ [ "solder_wire", 100 ] ]
+		]
+	},
+	{
+		"type": "mutation",
+		"id": "BPG_PARMOR_MX_ARM",
+		"name": { "str": "파워 아머 암 모듈" },
+		"points": 0,
+		"description": "파워 아머에 내장된 강력한 유압 시스템이 펀치로 모든 것을 파괴할 수 있게 해줍니다. 비무장 전투 시의 타격 피해가 아주 크게 증가합니다.",
+		"valid": false,
+		"purifiable": false,
+		"bash_dmg_bonus": 24
+	},
+	{
+		"id": "bpg_power_arm_mx",
+		"type": "TOOL_ARMOR",
+		"category": "clothing",
+		"symbol": "[",
+		"color": "green",
+		"name": { "str": "파워 아머-MX 파워암", "str_pl": "파워 아머-MX 파워암" },
+		"description": "XEDRA의 기술로 대폭 강화한 파워 아머-MX 파워암입니다. 장갑은 두꺼워졌으나 무게와 방해도는 훨씬 더 개선된 그야말로 근미래 기술의 집약체죠. 또한 이계의 산물로 유압 모터를 개선해 더욱 더 강력한 힘을 발휘할 수 있게 되었습니다.",
+		"price": 0,
+		"price_postapoc": 0,
+		"material": [ "steel", "hardsteel", "carbide" ],
+		"weight": "8 kg",
+		"volume": "5500 ml",
+		"covers": [ "arms", "hands" ],
+		"warmth": 30,
+		"environmental_protection": 80,
+		"coverage": 100,
+		"material_thickness": 11,
+		"encumbrance": 10,
+		"flags": [
+		  "USE_UPS",
+		  "NAT_UPS",
+		  "POWERARMOR_EXTERNAL",
+		  "SUPER_FANCY",
+		  "OVERSIZE",
+		  "NONCONDUCTIVE",
+		  "VARSIZE",
+		  "STURDY",
+		  "WATERPROOF",
+		  "WATER_FRIENDLY",
+		  "RAINPROOF",
+		  "BLOCK_WHILE_WORN"
+		],
+		"use_action": {
+			"type": "set_transformed",
+			"dependencies": "POWERARMOR_EXO",
+			"msg": "* 파워암 모듈 동기화 중...",
+			"target": "bpg_power_arm_mx_on",
+			"need_worn": true,
+			"active": true
+		}
+	},
+	{
+		"id": "bpg_power_arm_mx_on",
+		"type": "TOOL_ARMOR",
+		"copy-from": "bpg_power_arm_mx",
+		"repairs_like": "bpg_power_arm_mx",
+		"name": { "str": "파워 아머-MX 파워암 (켜짐)", "str_pl": "파워 아머-MX 파워암 (켜짐)" },
+		"description": "XEDRA의 기술로 대폭 강화한 파워 아머-MX 파워암입니다. 장갑은 두꺼워졌으나 무게와 방해도는 훨씬 더 개선된 그야말로 근미래 기술의 집약체죠. 또한 이계의 산물로 유압 모터를 개선해 더욱 더 강력한 힘을 발휘할 수 있게 되었습니다. 현재 작동 중입니다.",
+		"power_draw": 1000000,
+		"encumbrance": 6,
+		"environmental_protection": 80,
+		"material_thickness": 11,
+		"weight_capacity_bonus": "8 kg",
+		"extend": { "flags": [ 
+			"NO_TAKEOFF",
+			"CLIMATE_CONTROL",
+			"TRADER_AVOID",
+			"UNARMED_WEAPON",
+			"UNBREAKABLE_MELEE"
+			]
+		},
+		"relic_data": {
+		"passive_effects": [
+				{
+				"has": "WORN",
+				"condition": "ALWAYS",
+				"mutations": [ "BPG_PARMOR_MX_ARM" ],
+				"values": [ { "value": "STRENGTH", "add": 10 } ]
+				}
+			]
+		},
+		"revert_to": "bpg_power_arm_mx",
+		"use_action": {
+			"type": "set_transformed",
+			"dependencies": "POWERARMOR_EXO",
+			"menu_text": "Turn off",
+			"msg": "* 파워암 모듈 동기화 해제됨",
+			"target": "bpg_power_arm_mx"
+		}
+	},
+	{
+		"result": "bpg_power_arm_mx",
+		"type": "recipe",
+		"category": "CC_모듈아머",
+		"subcategory": "CSC_모듈아머_팔",
+		"skill_used": "electronics",
+		"difficulty": 10,
+		"skills_required": [ [ "mechanics", 9 ], [ "fabrication", 9 ], [ "computer", 8 ] ],
+		"time": "24 h",
+		"book_learn": [ [ "bpg_recipe_lab_xedra", 9 ] ],
+		"tools": [ [ [ "sq_atomic_forge", -1 ] ], [ [ "sq_cvdmachine", -1 ] ], [ [ "sq_nanofab", -1 ] ] ],
+		"using": [ [ "welding_standard", 100 ], [ "blacksmithing_advanced", 7 ] ],
+		"components": [
+		  [ [ "bpg_power_arm_mk3", 1 ] ],
+		  [ [ "bpg_hparmor_parts", 1 ] ],
+		  [ [ "sq_fusion_core", 1 ] ],
+		  [ [ "rx11_stimpack", 1 ] ],
+		  [ [ "carbide_plate", 4 ] ],
+		  [ [ "plasma", 50 ] ],
+		  [ [ "nanomaterial", 100 ] ],
+		  [ [ "spiral_stone", 2 ] ],
+		  [ [ "vortex_stone", 1 ] ],
+		  [ [ "power_supply", 4 ] ],
+		  [ [ "processor", 2 ] ],
+		  [ [ "cable", 100 ] ],
+		  [ [ "solder_wire", 200 ] ]
+		]
+	},
+	{
+		"id": "bpg_power_arm_mxa",
+		"type": "TOOL_ARMOR",
+		"category": "clothing",
+		"symbol": "[",
+		"color": "green",
+		"name": { "str": "파워 아머-MX-A 파워암", "str_pl": "파워 아머-MX-A 파워암" },
+		"description": "퓨전 코어를 추가로 내장해 자체 생산 전력만으로 파워암이 요구하는 전력을 모두 충당할 수 있게 개선한 파워 아머-MX-A 파워암입니다. 거기다 장갑판을 경량화해 방해도를 낮추고, 모터를 개선하여 신속한 동작이 가능하게 해줍니다.",
+		"price": 0,
+		"price_postapoc": 0,
+		"material": [ "steel", "hardsteel", "carbide" ],
+		"weight": "7 kg",
+		"volume": "5000 ml",
+		"covers": [ "arms", "hands" ],
+		"warmth": 30,
+		"environmental_protection": 80,
+		"coverage": 100,
+		"material_thickness": 11,
+		"encumbrance": 5,
+		"flags": [
+		  "USE_UPS",
+		  "NAT_UPS",
+		  "POWERARMOR_EXTERNAL",
+		  "SUPER_FANCY",
+		  "OVERSIZE",
+		  "NONCONDUCTIVE",
+		  "VARSIZE",
+		  "STURDY",
+		  "WATERPROOF",
+		  "WATER_FRIENDLY",
+		  "RAINPROOF",
+		  "BLOCK_WHILE_WORN"
+		],
+		"use_action": {
+			"type": "set_transformed",
+			"dependencies": "POWERARMOR_EXO",
+			"msg": "* 파워암 모듈 동기화 중...",
+			"target": "bpg_power_arm_mxa_on",
+			"need_worn": true,
+			"active": true
+		}
+	},
+	{
+		"id": "bpg_power_arm_mxa_on",
+		"type": "TOOL_ARMOR",
+		"copy-from": "bpg_power_arm_mxa",
+		"repairs_like": "bpg_power_arm_mxa",
+		"name": { "str": "파워 아머-MX-A 파워암 (켜짐)", "str_pl": "파워 아머-MX-A 파워암 (켜짐)" },
+		"description": "퓨전 코어를 추가로 내장해 자체 생산 전력만으로 파워암이 요구하는 전력을 모두 충당할 수 있게 개선한 파워 아머-MX-A 파워암입니다. 거기다 장갑판을 경량화해 방해도를 낮추고, 모터를 개선하여 신속한 동작이 가능하게 해줍니다. 현재 작동 중입니다.",
+		"power_draw": 0,
+		"encumbrance": 0,
+		"environmental_protection": 80,
+		"material_thickness": 11,
+		"weight_capacity_bonus": "7 kg",
+		"extend": { "flags": [ 
+			"NO_TAKEOFF",
+			"CLIMATE_CONTROL",
+			"TRADER_AVOID",
+			"UNARMED_WEAPON",
+			"UNBREAKABLE_MELEE"
+			]
+		},
+		"relic_data": {
+		"passive_effects": [
+				{
+				"has": "WORN",
+				"condition": "ALWAYS",
+				"mutations": [ "BPG_PARMOR_MX_ARM" ],
+				"values": [ { "value": "STRENGTH", "multiply": 0.3, "add": 15 }, { "value": "ATTACK_COST", "add": -30 } ]
+				}
+			]
+		},
+		"revert_to": "bpg_power_arm_mxa",
+		"use_action": {
+			"type": "set_transformed",
+			"dependencies": "POWERARMOR_EXO",
+			"menu_text": "Turn off",
+			"msg": "* 파워암 모듈 동기화 해제됨",
+			"target": "bpg_power_arm_mxa"
+		}
+	},
+	{
+		"result": "bpg_power_arm_mxa",
+		"type": "recipe",
+		"category": "CC_모듈아머",
+		"subcategory": "CSC_모듈아머_팔",
+		"skill_used": "electronics",
+		"difficulty": 10,
+		"skills_required": [ [ "mechanics", 10 ], [ "fabrication", 10 ], [ "computer", 10 ] ],
+		"time": "24 h",
+		"book_learn": [ [ "bpg_recipe_lab_xedra", 10 ] ],
+		"tools": [ [ [ "sq_atomic_forge", -1 ] ], [ [ "sq_cvdmachine", -1 ] ], [ [ "sq_nanofab", -1 ] ] ],
+		"using": [ [ "welding_standard", 40 ], [ "blacksmithing_advanced", 7 ] ],
+		"components": [
+		  [ [ "bpg_power_arm_mx", 1 ] ],
+		  [ [ "sq_fusion_core", 4 ] ],
+		  [ [ "effective_emitter", 2 ] ],
+		  [ [ "high_density_capacitor", 2 ] ],
+		  [ [ "plasma", 25 ] ],
+		  [ [ "motor_small", 8 ] ],
+		  [ [ "power_supply", 8 ] ],
+		  [ [ "processor", 1 ] ],
+		  [ [ "cable", 100 ] ],
+		  [ [ "solder_wire", 200 ] ]
+		]
+	}
+]

@@ -1,0 +1,508 @@
+[
+	{
+		"id": "bpg_power_boots_base",
+		"type": "TOOL_ARMOR",
+		"category": "clothing",
+		"symbol": "[",
+		"color": "green",
+		"name": { "str": "파워 아머-M 파워부츠", "str_pl": "파워 아머-M 파워부츠" },
+		"description": "기본적인 기능만 내장된 모듈형 파워 아머의 시작기입니다.",
+		"price": 0,
+		"price_postapoc": 0,
+		"material": [ "steel", "carbide" ],
+		"weight": "12 kg",
+		"volume": "6000 ml",
+		"covers": [ "legs", "feet" ],
+		"warmth": 30,
+		"environmental_protection": 20,
+		"coverage": 100,
+		"material_thickness": 6,
+		"encumbrance": 20,
+		"flags": [
+		  "USE_UPS",
+		  "NAT_UPS",
+		  "POWERARMOR_EXTERNAL",
+		  "SUPER_FANCY",
+		  "OVERSIZE",
+		  "NONCONDUCTIVE",
+		  "VARSIZE",
+		  "STURDY",
+		  "WATERPROOF",
+		  "WATER_FRIENDLY",
+		  "RAINPROOF"
+		],
+		"use_action": {
+			"type": "set_transformed",
+			"dependencies": "POWERARMOR_EXO",
+			"msg": "* 파워부츠 모듈 동기화 중...",
+			"target": "bpg_power_boots_base_on",
+			"need_worn": true,
+			"active": true
+		}
+	},
+	{
+		"id": "bpg_power_boots_base_on",
+		"type": "TOOL_ARMOR",
+		"copy-from": "bpg_power_boots_base",
+		"repairs_like": "bpg_power_boots_base",
+		"name": { "str": "파워 아머-M 파워부츠 (켜짐)", "str_pl": "파워 아머-M 파워부츠 (켜짐)" },
+		"description": "기본적인 기능만 내장된 모듈형 파워 아머의 시작기입니다. 현재 작동 중입니다.",
+		"power_draw": 200000,
+		"encumbrance": 10,
+		"environmental_protection": 20,
+		"material_thickness": 6,
+		"weight_capacity_bonus": "12 kg",
+		"revert_to": "bpg_power_boots_base",
+		"extend": { "flags": [ 
+			"NO_TAKEOFF",
+			"CLIMATE_CONTROL",
+			"TRADER_AVOID"
+			]
+		},
+		"use_action": {
+			"type": "set_transformed",
+			"dependencies": "POWERARMOR_EXO",
+			"menu_text": "Turn off",
+			"msg": "* 파워부츠 모듈 동기화 해제 중...",
+			"target": "bpg_power_boots_base"
+		}
+	},
+	{
+		"result": "bpg_power_boots_base",
+		"type": "recipe",
+		"category": "CC_모듈아머",
+		"subcategory": "CSC_모듈아머_다리",
+		"skill_used": "electronics",
+		"difficulty": 8,
+		"skills_required": [ [ "mechanics", 7 ], [ "fabrication", 7 ], [ "computer", 8 ] ],
+		"time": "12 h",
+		"book_learn": [ [ "sq_recipe_lab_fusion", 7 ] ],
+		"tools": [ [ [ "sq_atomic_forge", -1 ] ], [ [ "sq_nanofab", -1 ] ] ],
+		"using": [ [ "welding_standard", 60 ], [ "blacksmithing_advanced", 7 ] ],
+		"components": [
+		  [ [ "bpg_lparmor_parts", 1 ] ],
+		  [ [ "ai_module", 1 ] ],
+		  [ [ "power_supply", 4 ] ],
+		  [ [ "motor_micro", 8 ] ],
+		  [ [ "processor", 4 ] ],
+		  [ [ "cable", 200 ] ]
+		]
+	},
+	{
+		"id": "bpg_power_boots_mk2",
+		"type": "TOOL_ARMOR",
+		"category": "clothing",
+		"symbol": "[",
+		"color": "green",
+		"name": { "str": "파워 아머-M 파워부츠 Mk.II", "str_pl": "파워 아머-M 파워부츠 Mk.II" },
+		"description": "장갑판을 보강하고, 약간의 부품과 공학적인 트릭을 이용해 치명적인 전기 공격에 대응할 수 있는 접지 기능을 추가한 파워 아머-M 파워부츠 Mk.II 입니다.",
+		"price": 0,
+		"price_postapoc": 0,
+		"material": [ "steel", "carbide" ],
+		"weight": "12 kg",
+		"volume": "6000 ml",
+		"covers": [ "legs", "feet" ],
+		"warmth": 30,
+		"environmental_protection": 25,
+		"coverage": 100,
+		"material_thickness": 8,
+		"encumbrance": 20,
+		"flags": [
+		  "USE_UPS",
+		  "NAT_UPS",
+		  "POWERARMOR_EXTERNAL",
+		  "SUPER_FANCY",
+		  "OVERSIZE",
+		  "NONCONDUCTIVE",
+		  "VARSIZE",
+		  "STURDY",
+		  "WATERPROOF",
+		  "WATER_FRIENDLY",
+		  "RAINPROOF",
+		  "ELECTRIC_IMMUNE"
+		],
+		"use_action": {
+			"type": "set_transformed",
+			"dependencies": "POWERARMOR_EXO",
+			"msg": "* 파워부츠 모듈 동기화 중...",
+			"target": "bpg_power_boots_mk2_on",
+			"need_worn": true,
+			"active": true
+		}
+	},
+	{
+		"id": "bpg_power_boots_mk2_on",
+		"type": "TOOL_ARMOR",
+		"copy-from": "bpg_power_boots_mk2",
+		"repairs_like": "bpg_power_boots_mk2",
+		"name": { "str": "파워 아머-M 파워부츠 Mk.II (켜짐)", "str_pl": "파워 아머-M 파워부츠 Mk.II (켜짐)" },
+		"description": "장갑판을 보강하고, 약간의 부품과 공학적인 트릭을 이용해 치명적인 전기 공격에 대응할 수 있는 접지 기능을 추가한 파워 아머-M 파워부츠 Mk.II 입니다. 현재 작동 중입니다.",
+		"power_draw": 200000,
+		"encumbrance": 10,
+		"environmental_protection": 25,
+		"material_thickness": 8,
+		"weight_capacity_bonus": "12 kg",
+		"revert_to": "bpg_power_boots_mk2",
+		"extend": { "flags": [ 
+			"NO_TAKEOFF",
+			"CLIMATE_CONTROL",
+			"TRADER_AVOID"
+			]
+		},
+		"use_action": {
+			"type": "set_transformed",
+			"dependencies": "POWERARMOR_EXO",
+			"menu_text": "Turn off",
+			"msg": "* 파워부츠 모듈 동기화 해제 중...",
+			"target": "bpg_power_boots_mk2"
+		}
+	},
+	{
+		"result": "bpg_power_boots_mk2",
+		"type": "recipe",
+		"category": "CC_모듈아머",
+		"subcategory": "CSC_모듈아머_다리",
+		"skill_used": "electronics",
+		"difficulty": 8,
+		"skills_required": [ [ "mechanics", 8 ], [ "fabrication", 8 ], [ "computer", 7 ] ],
+		"time": "3 h",
+		"book_learn": [ [ "sq_recipe_lab_fusion", 8 ] ],
+		"tools": [ [ [ "sq_atomic_forge", -1 ] ], [ [ "sq_nanofab", -1 ] ] ],
+		"using": [ [ "welding_standard", 20 ], [ "blacksmithing_advanced", 7 ] ],
+		"components": [
+		  [ [ "bpg_power_boots_base", 1 ] ],
+		  [ [ "scrap", 50 ] ],
+		  [ [ "graphene", 16 ] ],
+		  [ [ "carbide_plate", 2 ] ],
+		  [ [ "solder_wire", 100 ] ]
+		]
+	},
+	{
+		"id": "bpg_power_boots_mk3",
+		"type": "TOOL_ARMOR",
+		"category": "clothing",
+		"symbol": "[",
+		"color": "green",
+		"name": { "str": "파워 아머-M 파워부츠 Mk.III", "str_pl": "파워 아머-M 파워부츠 Mk.III" },
+		"description": "스프린터 스켈레톤의 시스템을 통합하여 기동성을 보강하고, 약간의 경량화를 거친 파워 아머-M 파워부츠 Mk.III 입니다. 그다지 효율적이지는 않습니다...",
+		"price": 0,
+		"price_postapoc": 0,
+		"material": [ "steel", "carbide" ],
+		"weight": "10 kg",
+		"volume": "6500 ml",
+		"covers": [ "legs", "feet" ],
+		"warmth": 30,
+		"environmental_protection": 30,
+		"coverage": 100,
+		"material_thickness": 7,
+		"encumbrance": 16,
+		"flags": [
+		  "USE_UPS",
+		  "NAT_UPS",
+		  "POWERARMOR_EXTERNAL",
+		  "SUPER_FANCY",
+		  "OVERSIZE",
+		  "NONCONDUCTIVE",
+		  "VARSIZE",
+		  "STURDY",
+		  "WATERPROOF",
+		  "WATER_FRIENDLY",
+		  "RAINPROOF",
+		  "ELECTRIC_IMMUNE"
+		],
+		"use_action": {
+			"type": "set_transformed",
+			"dependencies": "POWERARMOR_EXO",
+			"msg": "* 파워부츠 모듈 동기화 중...",
+			"target": "bpg_power_boots_mk3_on",
+			"need_worn": true,
+			"active": true
+		}
+	},
+	{
+		"id": "bpg_power_boots_mk3_on",
+		"type": "TOOL_ARMOR",
+		"copy-from": "bpg_power_boots_mk3",
+		"repairs_like": "bpg_power_boots_mk3",
+		"name": { "str": "파워 아머-M 파워부츠 Mk.III (켜짐)", "str_pl": "파워 아머-M 파워부츠 Mk.III (켜짐)" },
+		"description": "스프린터 스켈레톤의 시스템을 통합하여 기동성을 보강하고, 약간의 경량화를 거친 파워 아머-M 파워부츠 Mk.III 입니다. 그다지 효율적이지는 않습니다... 현재 작동 중입니다.",
+		"power_draw": 400000,
+		"encumbrance": 8,
+		"environmental_protection": 30,
+		"material_thickness": 7,
+		"weight_capacity_bonus": "10 kg",
+		"revert_to": "bpg_power_boots_mk3",
+		"extend": { "flags": [ 
+			"NO_TAKEOFF",
+			"CLIMATE_CONTROL",
+			"TRADER_AVOID"
+			]
+		},
+		"relic_data": {
+			"passive_effects": [ {
+				"has": "WORN",
+				"condition": "ALWAYS",
+				"values": [ { "value": "MOVE_COST", "add": -15 } ]
+				}
+			]
+		},
+		"use_action": {
+			"type": "set_transformed",
+			"dependencies": "POWERARMOR_EXO",
+			"menu_text": "Turn off",
+			"msg": "* 파워부츠 모듈 동기화 해제 중...",
+			"target": "bpg_power_boots_mk3"
+		}
+	},
+	{
+		"result": "bpg_power_boots_mk3",
+		"type": "recipe",
+		"category": "CC_모듈아머",
+		"subcategory": "CSC_모듈아머_다리",
+		"skill_used": "electronics",
+		"difficulty": 9,
+		"skills_required": [ [ "mechanics", 9 ], [ "fabrication", 8 ], [ "computer", 8 ] ],
+		"time": "6 h",
+		"book_learn": [ [ "sq_recipe_lab_fusion", 8 ] ],
+		"tools": [ [ [ "sq_atomic_forge", -1 ] ], [ [ "sq_nanofab", -1 ] ] ],
+		"using": [ [ "welding_standard", 60 ] ],
+		"components": [
+		  [ [ "bpg_power_boots_mk2", 1 ] ],
+		  [ [ "sq_sprinter_skeleton", 1 ] ],
+		  [ [ "power_supply", 4 ] ],
+		  [ [ "processor", 2 ] ],
+		  [ [ "cable", 50 ] ],
+		  [ [ "solder_wire", 100 ] ]
+		]
+	},
+	{
+		"id": "bpg_power_boots_mx",
+		"type": "TOOL_ARMOR",
+		"category": "clothing",
+		"symbol": "[",
+		"color": "green",
+		"name": { "str": "파워 아머-MX 파워부츠", "str_pl": "파워 아머-MX 파워부츠" },
+		"description": "XEDRA의 기술로 대폭 강화한 파워 아머-MX 파워부츠입니다. 장갑은 두꺼워졌으나 무게와 방해도는 훨씬 더 개선된 그야말로 근미래 기술의 집약체죠. 퓨전 코어를 내장하여 자체 전력으로 구동할 수 있게 되었으며, 신체 부위가 변형되어 있더라도 필요에 따라 각 파츠가 자연스럽게 개폐되는 구조로 개선되었습니다. ",
+		"price": 0,
+		"price_postapoc": 0,
+		"material": [ "steel", "hardsteel", "carbide" ],
+		"weight": "8 kg",
+		"volume": "5500 ml",
+		"covers": [ "legs", "feet" ],
+		"warmth": 30,
+		"environmental_protection": 80,
+		"coverage": 100,
+		"material_thickness": 11,
+		"encumbrance": 10,
+		"flags": [
+		  "USE_UPS",
+		  "NAT_UPS",
+		  "POWERARMOR_EXTERNAL",
+		  "SUPER_FANCY",
+		  "OVERSIZE",
+		  "NONCONDUCTIVE",
+		  "VARSIZE",
+		  "STURDY",
+		  "WATERPROOF",
+		  "WATER_FRIENDLY",
+		  "RAINPROOF",
+		  "ELECTRIC_IMMUNE"
+		],
+		"use_action": {
+			"type": "set_transformed",
+			"dependencies": "POWERARMOR_EXO",
+			"msg": "* 파워부츠 모듈 동기화 중...",
+			"target": "bpg_power_boots_mx_on",
+			"need_worn": true,
+			"active": true
+		}
+	},
+	{
+		"id": "bpg_power_boots_mx_on",
+		"type": "TOOL_ARMOR",
+		"copy-from": "bpg_power_boots_mx",
+		"repairs_like": "bpg_power_boots_mx",
+		"name": { "str": "파워 아머-MX 파워부츠 (켜짐)", "str_pl": "파워 아머-MX 파워부츠 (켜짐)" },
+		"description": "XEDRA의 기술로 대폭 강화한 파워 아머-MX 파워부츠입니다. 장갑은 두꺼워졌으나 무게와 방해도는 훨씬 더 개선된 그야말로 근미래 기술의 집약체죠. 퓨전 코어를 내장하여 자체 전력으로 구동할 수 있게 되었으며, 신체 부위가 변형되어있더라도 필요에 따라 각 파츠가 자연스럽게 개폐되는 구조로 개선되었습니다. 현재 작동 중입니다.",
+		"power_draw": 0,
+		"encumbrance": 4,
+		"environmental_protection": 80,
+		"material_thickness": 11,
+		"weight_capacity_bonus": "8 kg",
+		"revert_to": "bpg_power_boots_mx",
+		"extend": { "flags": [ 
+			"CLIMATE_CONTROL",
+			"TRADER_AVOID",
+			"NO_TAKEOFF",
+			"ALLOWS_NATURAL_ATTACKS"
+			]
+		},
+		"relic_data": {
+			"passive_effects": [ {
+				"has": "WORN",
+				"condition": "ALWAYS",
+				"values": [ { "value": "MOVE_COST", "add": -25 } ]
+				}
+			]
+		},
+		"use_action": {
+			"type": "set_transformed",
+			"dependencies": "POWERARMOR_EXO",
+			"menu_text": "Turn off",
+			"msg": "* 파워부츠 모듈 동기화 해제 중...",
+			"target": "bpg_power_boots_mx"
+		}
+	},
+	{
+		"result": "bpg_power_boots_mx",
+		"type": "recipe",
+		"category": "CC_모듈아머",
+		"subcategory": "CSC_모듈아머_다리",
+		"skill_used": "electronics",
+		"difficulty": 10,
+		"skills_required": [ [ "mechanics", 9 ], [ "fabrication", 9 ], [ "computer", 8 ] ],
+		"time": "24 h",
+		"book_learn": [ [ "bpg_recipe_lab_xedra", 9 ] ],
+		"tools": [ [ [ "sq_atomic_forge", -1 ] ], [ [ "sq_nanofab", -1 ] ] ],
+		"using": [ [ "welding_standard", 60 ] ],
+		"components": [
+		  [ [ "bpg_power_boots_mk3", 1 ] ],
+		  [ [ "bpg_hparmor_parts", 1 ] ],
+		  [ [ "sq_fusion_core", 4 ] ],
+		  [ [ "power_supply", 8 ] ],
+		  [ [ "processor", 1 ] ],
+		  [ [ "alloy_sheet", 4 ] ],
+		  [ [ "plasma", 25 ] ],
+		  [ [ "nanomaterial", 50 ] ],
+		  [ [ "cable", 200 ] ],
+		  [ [ "solder_wire", 400 ] ]
+		]
+	},
+	{
+		"type": "mutation",
+		"id": "BPG_PARMOR_MXA_BOOTS",
+		"name": { "str": "파워 아머 부츠 모듈" },
+		"points": 0,
+		"description": "파워 아머에 내장된 AI가 최적의 움직임을 계산 및 보조해줍니다. 평지가 아닌 지형에서의 움직임이 원활해지고, 민첩성과 회피 능력이 증가합니다.",
+		"valid": false,
+		"purifiable": false,
+		"movecost_obstacle_modifier": 0.5,
+		"dodge_modifier": 2,
+		"encumbrance_always": [
+			[ "torso", -5 ],
+			[ "head", -5 ],
+			[ "arm_l", -5 ],
+			[ "arm_r", -5 ],
+			[ "hand_l", -5 ],
+			[ "hand_r", -5 ],
+			[ "leg_l", -5 ],
+			[ "leg_r", -5 ],
+			[ "foot_l", -5 ],
+			[ "foot_r", -5 ]
+		]
+  },
+	{
+		"id": "bpg_power_boots_mxa",
+		"type": "TOOL_ARMOR",
+		"category": "clothing",
+		"symbol": "[",
+		"color": "green",
+		"name": { "str": "파워 아머-MX-A 파워부츠", "str_pl": "파워 아머-MX-A 파워부츠" },
+		"description": "인체공학적인 구조로 개선하고, 관리를 위한 AI를 추가로 내장한 파워 아머-MX-A 파워부츠입니다. 내장된 AI가 최적의 상태로 서보를 구동해주며, 민첩하게 움직일 수 있도록 이동을 보조합니다.",
+		"price": 0,
+		"price_postapoc": 0,
+		"material": [ "steel", "hardsteel", "carbide" ],
+		"weight": "9 kg",
+		"volume": "5500 ml",
+		"covers": [ "legs", "feet" ],
+		"warmth": 30,
+		"environmental_protection": 80,
+		"coverage": 100,
+		"material_thickness": 11,
+		"encumbrance": 10,
+		"flags": [
+		  "USE_UPS",
+		  "NAT_UPS",
+		  "POWERARMOR_EXTERNAL",
+		  "SUPER_FANCY",
+		  "OVERSIZE",
+		  "NONCONDUCTIVE",
+		  "VARSIZE",
+		  "STURDY",
+		  "WATERPROOF",
+		  "WATER_FRIENDLY",
+		  "RAINPROOF",
+		  "ELECTRIC_IMMUNE"
+		],
+		"use_action": {
+			"type": "set_transformed",
+			"dependencies": "POWERARMOR_EXO",
+			"msg": "* 파워부츠 모듈 동기화 중...",
+			"target": "bpg_power_boots_mxa_on",
+			"need_worn": true,
+			"active": true
+		}
+	},
+	{
+		"id": "bpg_power_boots_mxa_on",
+		"type": "TOOL_ARMOR",
+		"copy-from": "bpg_power_boots_mxa",
+		"repairs_like": "bpg_power_boots_mxa",
+		"name": { "str": "파워 아머-MX-A 파워부츠 (켜짐)", "str_pl": "파워 아머-MX-A 파워부츠 (켜짐)" },
+		"description": "인체공학적인 구조로 개선하고, 관리를 위한 AI를 추가로 내장한 파워 아머-MX-A 파워부츠입니다. 내장된 AI가 최적의 상태로 서보를 구동해주며, 민첩하게 움직일 수 있도록 이동을 보조합니다. 현재 작동 중입니다.",
+		"power_draw": 0,
+		"encumbrance": 0,
+		"environmental_protection": 80,
+		"material_thickness": 11,
+		"weight_capacity_bonus": "9 kg",
+		"revert_to": "bpg_power_boots_mxa",
+		"extend": { "flags": [ 
+			"CLIMATE_CONTROL",
+			"TRADER_AVOID",
+			"NO_TAKEOFF",
+			"ALLOWS_NATURAL_ATTACKS"
+			]
+		},
+		"relic_data": {
+			"passive_effects": [ {
+				"has": "WORN",
+				"condition": "ALWAYS",
+				"mutations": [ "BPG_PARMOR_MXA_BOOTS" ],
+				"values": [ { "value": "MOVE_COST", "add": -25 }, { "value": "DEXTERITY", "multiply": 0.5, "add": 10 } ]
+				}
+			]
+		},
+		"use_action": {
+			"type": "set_transformed",
+			"dependencies": "POWERARMOR_EXO",
+			"menu_text": "Turn off",
+			"msg": "* 파워부츠 모듈 동기화 해제 중...",
+			"target": "bpg_power_boots_mxa"
+		}
+	},
+	{
+		"result": "bpg_power_boots_mxa",
+		"type": "recipe",
+		"category": "CC_모듈아머",
+		"subcategory": "CSC_모듈아머_다리",
+		"skill_used": "electronics",
+		"difficulty": 10,
+		"skills_required": [ [ "mechanics", 10 ], [ "fabrication", 10 ], [ "computer", 10 ] ],
+		"time": "12 h",
+		"book_learn": [ [ "bpg_recipe_lab_xedra", 10 ] ],
+		"tools": [ [ [ "sq_atomic_forge", -1 ] ], [ [ "sq_nanofab", -1 ] ] ],
+		"using": [ [ "welding_standard", 60 ] ],
+		"components": [
+		  [ [ "bpg_power_boots_mx", 1 ] ],
+		  [ [ "ai_module_advanced", 4 ] ],
+		  [ [ "power_supply", 4 ] ],
+		  [ [ "processor", 2 ] ],
+		  [ [ "plasma", 50 ] ],
+		  [ [ "nanomaterial", 200 ] ],
+		  [ [ "cable", 100 ] ],
+		  [ [ "spiral_stone", 4 ] ],
+		  [ [ "vortex_stone", 2 ] ],
+		  [ [ "solder_wire", 50 ] ]
+		]
+	}
+]
