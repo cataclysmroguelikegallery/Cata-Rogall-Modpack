@@ -1,0 +1,283 @@
+[
+	{
+		"id": "bpg_arcreactor_upgrade",
+		"bionic_id": "bpg_arcreactor",
+		"copy-from": "bionic_general_npc_usable",
+		"type": "BIONIC_ITEM",
+		"name": { "str": "CBM:내장형 아크 반응로 업그레이드" },
+		"description": "기존에 설치된 개선된 소형 반응로를 아크 반응로로 업그레이드합니다. 아크 반응로는 방사능 누출의 걱정이 없으며 발전 효율도 배가된 차세대 반응로입니다.",
+		"price": 1500000,
+		"difficulty": 13,
+		"is_upgrade": true
+	},
+	{
+		"id": "bpg_arcreactor",
+		"copy-from": "bionic_general_npc_usable",
+		"type": "BIONIC_ITEM",
+		"name": { "str": "CBM:내장형 아크 반응로" },
+		"description": "차세대 기술로 만들어진 내장형 아크 반응로를 설치합니다. 아크 반응로는 방사능 누출의 걱정이 없으며 발전 효율도 배가된 차세대 반응로입니다.",
+		"price": 1500000,
+		"difficulty": 13
+	},
+	{
+		"id": "bpg_arcreactor",
+		"type": "bionic",
+		"name": { "str": "내장형 아크 반응로" },
+		"description": "방사능 누출이 없는 안전한 아크 반응로입니다. 플루토늄 연료 전지 1개가 3000 충전량으로 전환되어 매 턴마다 전력을 40kJ 생산하지만, 더 이상 비활성화 상태에서 전력을 생산하지 않습니다.",
+		"occupied_bodyparts": [ [ "torso", 30 ] ],
+		"fuel_options": [ "plut_cell" ],
+		"fuel_capacity": 60000,
+		"fuel_efficiency": 4,
+		"fuel_multiplier": 3000,
+		"time": 1,
+		"flags": [ "BIONIC_TOGGLED", "BIONIC_POWER_SOURCE", "BIONIC_NPC_USABLE" ],
+		"upgraded_bionic": "bio_advreactor"
+	},
+	{
+		"type": "recipe",
+		"result": "bio_advreactor",
+		"category": "CC_ELECTRONIC",
+		"subcategory": "CSC_ELECTRONIC_CBMS",
+		"skill_used": "electronics",
+		"skills_required": [ "computer", 7 ],
+		"difficulty": 8,
+		"time": "1 h",
+		"book_learn": [ [ "textbook_atomic_lab", 8 ], [ "sq_recipe_lab_fusion", 8 ] ],
+		"qualities": [
+			{ "id": "HAMMER", "level": 2 },
+			{ "id": "SAW_M", "level": 1 },
+			{ "id": "WRENCH", "level": 1 },
+			{ "id": "SCREW", "level": 1 }
+		],
+		"using": [ [ "soldering_standard", 60 ], [ "welding_standard", 20 ] ],
+		"components": [
+			[ [ "bio_reactor", 1 ] ],
+			[ [ "burnt_out_bionic", 1 ] ],
+			[ [ "plut_cell", 16 ] ],
+			[ [ "hard_plate", 8 ] ],
+			[ [ "power_supply", 4 ] ],
+			[ [ "solder_wire", 200 ] ]
+			
+		]
+	},
+	{
+		"type": "recipe",
+		"result": "bio_reactor_upgrade",
+		"category": "CC_ELECTRONIC",
+		"subcategory": "CSC_ELECTRONIC_CBMS",
+		"skill_used": "electronics",
+		"skills_required": [ "computer", 7 ],
+		"difficulty": 8,
+		"time": "1 h",
+		"book_learn": [ [ "textbook_atomic_lab", 8 ], [ "sq_recipe_lab_fusion", 8 ] ],
+		"qualities": [
+			{ "id": "HAMMER", "level": 2 },
+			{ "id": "SAW_M", "level": 1 },
+			{ "id": "WRENCH", "level": 1 },
+			{ "id": "SCREW", "level": 1 }
+		],
+		"using": [ [ "soldering_standard", 60 ], [ "welding_standard", 20 ] ],
+		"components": [
+			[ [ "sq_fusion_core", 1 ] ],
+			[ [ "burnt_out_bionic", 1 ] ],
+			[ [ "plut_cell", 8 ] ],
+			[ [ "hard_plate", 4 ] ],
+			[ [ "power_supply", 2 ] ],
+			[ [ "solder_wire", 100 ] ]
+			
+		]
+	},
+	{
+		"type": "recipe",
+		"result": "bpg_arcreactor",
+		"category": "CC_ELECTRONIC",
+		"subcategory": "CSC_ELECTRONIC_CBMS",
+		"skill_used": "electronics",
+		"skills_required": [ "computer", 9 ],
+		"difficulty": 10,
+		"time": "1 h",
+		"book_learn": [ [ "textbook_atomic_lab", 9 ], [ "sq_recipe_lab_fusion", 9 ] ],
+		"tools": [ [ [ "sq_atomic_forge", -1 ] ], [ [ "sq_nanofab", -1 ] ] ],
+		"qualities": [
+			{ "id": "HAMMER", "level": 2 },
+			{ "id": "SAW_M", "level": 1 },
+			{ "id": "WRENCH", "level": 1 },
+			{ "id": "SCREW", "level": 1 }
+		],
+		"using": [ [ "soldering_standard", 60 ], [ "welding_standard", 20 ] ],
+		"components": [
+			[ [ "sq_fusion_core", 4 ], [ "bio_advreactor", 2 ] ],
+			[ [ "sq_uranium_cell", 16 ] ],
+			[ [ "burnt_out_bionic", 1 ] ],
+			[ [ "ai_module_advanced", 1 ] ],
+			[ [ "self_monitoring_module", 1 ] ],
+			[ [ "alloy_sheet", 32 ] ],
+			[ [ "power_supply", 16 ] ],
+			[ [ "solder_wire", 400 ] ]
+		]
+	},
+	{
+		"type": "recipe",
+		"result": "bpg_arcreactor_upgrade",
+		"category": "CC_ELECTRONIC",
+		"subcategory": "CSC_ELECTRONIC_CBMS",
+		"skill_used": "electronics",
+		"skills_required": [ "computer", 9 ],
+		"difficulty": 10,
+		"time": "1 h",
+		"book_learn": [ [ "textbook_atomic_lab", 9 ], [ "sq_recipe_lab_fusion", 9 ] ],
+		"tools": [ [ [ "sq_atomic_forge", -1 ] ], [ [ "sq_nanofab", -1 ] ] ],
+		"qualities": [
+			{ "id": "HAMMER", "level": 2 },
+			{ "id": "SAW_M", "level": 1 },
+			{ "id": "WRENCH", "level": 1 },
+			{ "id": "SCREW", "level": 1 }
+		],
+		"using": [ [ "soldering_standard", 60 ], [ "welding_standard", 20 ] ],
+		"components": [
+			[ [ "sq_fusion_core", 2 ], [ "bio_advreactor", 1 ] ],
+			[ [ "sq_uranium_cell", 8 ] ],
+			[ [ "burnt_out_bionic", 1 ] ],
+			[ [ "ai_module_advanced", 1 ] ],
+			[ [ "self_monitoring_module", 1 ] ],
+			[ [ "alloy_sheet", 32 ] ],
+			[ [ "power_supply", 16 ] ],
+			[ [ "solder_wire", 400 ] ]
+		]
+	},
+	{
+		"id": "bio_power_storage_mkIII",
+		"copy-from": "bionic_general_npc_usable",
+		"type": "BIONIC_ITEM",
+		"name": { "str": "CBM:전력 저장소 Mk. III" },
+		"looks_like": "bio_int_enhancer",
+		"description": "여러 CBM 전력 저장소들을 병합해 하나의 커다란 전력 저장소로 만들었습니다. 사용자의 전력 용량을 1000 kJ만큼 상승시킵니다.",
+		"price": 0,
+		"weight": "70 g",
+		"difficulty": 1
+	},
+	{
+		"id": "bio_power_storage_mkIII",
+		"type": "bionic",
+		"name": { "str": "전력 저장소 Mk. III" },
+		"capacity": "1000 kJ",
+		"description": "여러 CBM 전력 저장소들을 병합해 하나의 커다란 전력 저장소로 만들었습니다. 사용자의 전력 용량을 1000 kJ만큼 상승시킵니다.",
+		"flags": [ "BIONIC_NPC_USABLE" ]
+	},
+	{
+		"type": "recipe",
+		"result": "bio_power_storage_mkIII",
+		"category": "CC_ELECTRONIC",
+		"subcategory": "CSC_ELECTRONIC_CBMS",
+		"skill_used": "electronics",
+		"skills_required": [ "computer", 5 ],
+		"difficulty": 5,
+		"time": "10 m",
+		"autolearn": true,
+		"qualities": [
+			{ "id": "SAW_M", "level": 1 },
+			{ "id": "WRENCH", "level": 1 },
+			{ "id": "SCREW", "level": 1 }
+		],
+		"using": [ [ "soldering_standard", 20 ] ],
+		"components": [
+			[ [ "bio_power_storage", 10 ], [ "bio_power_storage_mkII", 4 ] ],
+			[ [ "cable", 50 ] ],
+			[ [ "power_supply", 4 ] ],
+			[ [ "solder_wire", 100 ] ]
+		]
+	},
+	{
+		"id": "bio_power_storage_mk4",
+		"copy-from": "bionic_general_npc_usable",
+		"type": "BIONIC_ITEM",
+		"name": { "str": "CBM:전력 저장소 Mk. IIII" },
+		"looks_like": "bio_int_enhancer",
+		"description": "전력 저장소 Mk.III을 한번 더 개량해 초대용량 내장 축전지를 만들었습니다. 사용자의 전력 용량을 10000 kJ만큼 상승시킵니다.",
+		"price": 0,
+		"weight": "70 g",
+		"difficulty": 3
+	},
+	{
+		"id": "bio_power_storage_mk4",
+		"type": "bionic",
+		"name": { "str": "전력 저장소 Mk. IIII" },
+		"capacity": "10000 kJ",
+		"description": "여러 CBM 전력 저장소들을 병합해 하나의 커다란 전력 저장소로 만들었습니다. 사용자의 전력 용량을 10000 kJ만큼 상승시킵니다.",
+		"flags": [ "BIONIC_NPC_USABLE" ]
+	},
+	{
+		"type": "recipe",
+		"result": "bio_power_storage_mk4",
+		"category": "CC_ELECTRONIC",
+		"subcategory": "CSC_ELECTRONIC_CBMS",
+		"skill_used": "electronics",
+		"skills_required": [ "computer", 7 ],
+		"difficulty": 7,
+		"time": "60 m",
+		"book_learn": [ [ "textbook_atomic_lab", 9 ], [ "sq_recipe_lab_fusion", 9 ] ],
+		"autolearn": true,
+		"qualities": [
+			{ "id": "SAW_M", "level": 1 },
+			{ "id": "WRENCH", "level": 1 },
+			{ "id": "SCREW", "level": 1 }
+		],
+		"using": [ [ "soldering_standard", 60 ] ],
+		"components": [
+			[ [ "bio_power_storage_mkIII", 5 ] ],
+			[ [ "burnt_out_bionic", 5 ] ],
+			[ [ "storage_battery", 2 ] ],
+			[ [ "cable", 200 ] ],
+			[ [ "power_supply", 16 ] ],
+			[ [ "solder_wire", 400 ] ]
+		]
+	}
+	,
+	{
+		"id": "bio_power_storage_x",
+		"copy-from": "bionic_general_npc_usable",
+		"type": "BIONIC_ITEM",
+		"name": { "str": "CBM:초전도 전력 저장소" },
+		"looks_like": "bio_int_enhancer",
+		"description": "대체 왜 그런 싸구려 전력 저장소를 설치하는거죠? 차세대 기술로 만들어진 초전도 전력 저장소 하나면 모든게 해결됩니다. 사용자의 전력 용량을 50000 kJ만큼 상승시킵니다.",
+		"price": 0,
+		"weight": "70 g",
+		"difficulty": 5
+	},
+	{
+		"id": "bio_power_storage_x",
+		"type": "bionic",
+		"name": { "str": "초전도 전력 저장소" },
+		"capacity": "50000 kJ",
+		"description": "대체 왜 그런 싸구려 전력 저장소를 설치하는거죠? 차세대 기술로 만들어진 초전도 전력 저장소 하나면 모든게 해결됩니다. 사용자의 전력 용량을 50000 kJ만큼 상승시킵니다.",
+		"flags": [ "BIONIC_NPC_USABLE" ]
+	},
+	{
+		"type": "recipe",
+		"result": "bio_power_storage_x",
+		"category": "CC_ELECTRONIC",
+		"subcategory": "CSC_ELECTRONIC_CBMS",
+		"skill_used": "electronics",
+		"skills_required": [ "computer", 10 ],
+		"difficulty": 10,
+		"time": "6 h",
+		"book_learn": [ [ "bpg_recipe_lab_xedra", 9 ] ],
+		"autolearn": false,
+		"qualities": [
+			{ "id": "SAW_M", "level": 1 },
+			{ "id": "WRENCH", "level": 1 },
+			{ "id": "SCREW", "level": 1 }
+		],
+		"using": [ [ "soldering_standard", 60 ] ],
+		"components": [
+			[ [ "bio_power_storage_mk4", 3 ] ],
+			[ [ "sq_uranium_cell", 16 ] ],
+			[ [ "burnt_out_bionic", 10 ] ],
+			[ [ "high_density_capacitor", 8 ] ],
+			[ [ "large_storage_battery", 1 ] ],
+			[ [ "cable", 200 ] ],
+			[ [ "power_supply", 64 ] ],
+			[ [ "solder_wire", 400 ] ]
+		]
+	}
+]

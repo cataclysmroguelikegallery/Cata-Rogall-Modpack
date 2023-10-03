@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "BPG",
+    "name": "기괴하고도 강력한 장비들",
+    "authors": [ "cinornu" ],
+	"version": "0.5",
+    "description": "기괴하고도 강력한 최종 장비들을 추가합니다.",
+    "category": "items",
+    "dependencies": [ "bn", "Jake's_Squirrel_mod" ]
+  }
+]
