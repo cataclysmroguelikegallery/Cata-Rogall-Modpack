@@ -12,9 +12,8 @@
     "autolearn": true,
     "charges": 1,
     "reversible": true,
-    "qualities": [ { "id": "CHISEL", "level": 3 } ],
-    "tools": [ [ [ "tongs", -1 ] ], [ [ "swage", -1 ] ], [ [ "forge", 5 ], [ "oxy_torch", 1 ] ] ],
     "using": [ [ "ammo_bullet", 10 ] ],
+    "qualities": [ { "id": "CUT", "level": 1 } ],
     "components": [ [ [ "gunpowder", 5 ] ], [ [ "paper", 1 ] ] ]
   },
   {

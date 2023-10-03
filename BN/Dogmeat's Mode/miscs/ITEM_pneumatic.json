@@ -1,0 +1,9 @@
+[
+  {
+    "id": "tihar",
+    "type": "GUN",
+    "name": { "str": "pneumatic assault rifle" },
+    "copy-from": "tihar",
+    "ammo": [ "pebble", "nail" ]
+  }
+]

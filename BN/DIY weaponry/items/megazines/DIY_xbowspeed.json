@@ -1,0 +1,19 @@
+[
+  {
+    "id": "xbow_speedloader",
+    "looks_like": "mp5mag",
+    "type": "MAGAZINE",
+    "name": { "str": "연발 쇠뇌 스피드로더" },
+    "description": "10발의 쇠뇌 볼트를 빠르게 장전할 수 있는 작은 클립입니다. 사용하기 위해서는 먼저 호환되는 장전 어댑터를 쇠뇌에 장착해야합니다.",
+    "weight": "50 g",
+    "volume": "500 ml",
+    "price": 1000,
+    "price_postapoc": 10,
+    "material": "plastic",
+    "symbol": "/",
+    "color": "light_gray",
+    "ammo_type": "bolt",
+    "capacity": 10,
+    "flags": [ "SPEEDLOADER", "MAG_COMPACT" ]
+  }
+]

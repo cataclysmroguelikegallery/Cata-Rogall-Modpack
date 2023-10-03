@@ -1,0 +1,42 @@
+[
+  {
+    "id": "mounted_huge_crossbow_assist",
+    "copy-from": "turret",
+    "type": "vehicle_part",
+    "name": { "str": "차량용 대형 쇠뇌 (반자동)" },
+    "item": "huge_crossbow_assist",
+    "looks_like": "mounted_bigun",
+    "color": "green",
+    "broken_color": "green",
+    "breaks_into": [
+      { "item": "scrap", "count": [ 6, 12 ] },
+      { "item": "splinter", "count": [ 8, 16 ] },
+      { "item": "string_36", "count": [ 3, 6 ] }
+    ],
+    "requirements": { "install": { "skills": [ [ "mechanics", 3 ], [ "electronics", 2 ], [ "rifle", 1 ] ] }, "removal": { "skills": [ [ "mechanics", 1 ] ] } }
+  },
+  {
+    "id": "mounted_giant_crossbow",
+    "copy-from": "turret",
+    "type": "vehicle_part",
+    "name": { "str": "차량용 공성 발리스타" },
+    "item": "giant_crossbow",
+    "looks_like": "mounted_bigun",
+    "color": "green",
+    "broken_color": "green",
+    "breaks_into": [ { "item": "splinter", "count": [ 15, 30 ] }, { "item": "string_6", "count": [ 3, 6 ] }, { "item": "scrap", "count": [ 15, 30 ] } ],
+    "requirements": { "install": { "skills": [ [ "mechanics", 3 ], [ "rifle", 1 ] ] }, "removal": { "skills": [ [ "mechanics", 1 ] ] } }
+  },
+  {
+    "id": "mounted_giant_crossbow_assist",
+    "copy-from": "turret",
+    "type": "vehicle_part",
+    "name": { "str": "차량용 공성 발리스타 (반자동)" },
+    "item": "giant_crossbow_assist",
+    "looks_like": "mounted_bigun",
+    "color": "green",
+    "broken_color": "green",
+    "breaks_into": [ { "item": "splinter", "count": [ 15, 30 ] }, { "item": "string_6", "count": [ 3, 6 ] }, { "item": "scrap", "count": [ 15, 30 ] } ],
+    "requirements": { "install": { "skills": [ [ "mechanics", 3 ], [ "electronics", 2 ], [ "rifle", 1 ] ] }, "removal": { "skills": [ [ "mechanics", 1 ] ] } }
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "id": "xbow_chute",
+    "type": "GUNMOD",
+    "name": { "str": "연발 쇠뇌 스피드로더 어댑터" },
+    "description": "쇠뇌 장전부에 장착하는 간단한 부품입니다. 장착 시 스피드로더를 이용한 장전이 가능합니다.",
+    "weight": "100 g",
+    "volume": "120 ml",
+    "integral_volume": "120 ml",
+    "price": 12000,
+    "price_postapoc": 120,
+    "install_time": "10 m",
+    "material": "steel",
+    "symbol": ":",
+    "color": "green",
+    "location": "loading port",
+    "mod_targets": [ "rep_crossbow" ],
+    "acceptable_ammo": [ "bolt" ],
+    "magazine_adaptor": [ [ "bolt", [ "xbow_speedloader" ] ] ]
+  }
+]

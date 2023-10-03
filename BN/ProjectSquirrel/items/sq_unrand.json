@@ -34,7 +34,7 @@
     "bashing": 6,
     "cutting": 45,
     "techniques": [ "SQ_NITEN_WATER_CUT", "SQ_NITEN_RED_LEAF", "SQ_NITEN_STONE_CUT", "SQ_NITEN_TIMING_ATTACK", "SQ_NITEN_FEINT", "WBLOCK_2" ],
-    "flags": [ "STAB", "DURABLE_MELEE", "SHEATH_SWORD", "NONCONDUCTIVE" ]
+    "flags": [ "DURABLE_MELEE", "SHEATH_SWORD", "NONCONDUCTIVE" ]
   },
   {
     "id": "a_firekatana_off",
@@ -65,7 +65,7 @@
       "lacks_fuel_message": "Time stands still."
     },
     "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 6 ] ],
-    "flags": [ "STAB", "FIRE", "DURABLE_MELEE", "SHEATH_SWORD" ]
+    "flags": [ "FIRE", "DURABLE_MELEE", "SHEATH_SWORD" ]
   },
   {
     "id": "a_firekatana_on",
@@ -98,7 +98,7 @@
       },
       { "type": "firestarter", "moves": 30 }
     ],
-    "flags": [ "STAB", "FIRE", "LIGHT_240", "CHARGEDIM", "FLAMING", "DURABLE_MELEE", "TRADER_AVOID", "WATER_EXTINGUISH" ]
+    "flags": [ "FIRE", "LIGHT_240", "CHARGEDIM", "FLAMING", "DURABLE_MELEE", "TRADER_AVOID", "WATER_EXTINGUISH" ]
   },
   {
     "type": "recipe",
