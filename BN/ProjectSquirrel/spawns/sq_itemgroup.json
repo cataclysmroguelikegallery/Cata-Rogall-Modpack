@@ -462,5 +462,68 @@
     "id": "tools_blacksmith",
     "type": "item_group",
     "//": "Tools commonly used by blacksmiths",
-  "items": [ [ "sq_steel_jige", 10 ] ] }
+    "items": [ [ "sq_steel_jige", 10 ] ]
+  },
+  {
+    "type": "item_group",
+    "id": "gunmod_common",
+    "//": "Common gunmods typically owned by citizens and found in many locations.",
+    "items": [
+      [ "brass_catcher", 100 ],
+      [ "improve_sights", 60 ],
+      [ "muzzle_brake", 20 ],
+      [ "pistol_grip", 30 ],
+      [ "rifle_scope", 30 ],
+      [ "shoulder_strap", 100 ],
+      [ "suppressor", 60 ],
+      [ "suppressor_compact", 40 ],
+      [ "cheek_pad", 25 ],
+      [ "sq_rifling_barrel", 30 ],
+      [ "sq_choke", 40 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "gunmod_rare",
+    "//": "Less common gunmods including those only used by police/paramilitary forces.",
+    "items": [
+      [ "sq_rail_speedloader25", 40 ],
+      [ "sq_rail_speedloader50", 40 ],
+      [ "sq_smartpistol_module", 20 ],
+      [ "sq_smartgun_module", 20 ],
+      [ "sq_quick_reloader", 40 ],
+      [ "sq_epa", 20 ],
+      [ "sq_nanosuppressor", 20 ],
+      [ "sq_suppressor2", 20 ],
+      [ "sq_rifling_barrel", 40 ],
+      [ "sq_choke", 40 ],
+      [ "sq_smart_choke", 20 ],
+      [ "sq_neuro_trigger", 20 ],
+      [ "sq_turbo_charger", 20 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "gunmod_milspec",
+    "//": "Military specification gunmods found only at military sites.",
+    "items": [
+      [ "sq_smartpistol_module", 10 ],
+      [ "sq_smartgun_module", 10 ],
+      [ "sq_quick_reloader", 20 ],
+      [ "sq_epa", 20 ],
+      [ "sq_nanosuppressor", 20 ],
+      [ "sq_suppressor2", 20 ],
+      [ "sq_rifling_barrel", 20 ],
+      [ "sq_choke", 40 ],
+      [ "sq_smart_choke", 20 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "gunmod_energy",
+    "//": "Gunmods for energy weaponry found only at military sites and laboratories.",
+    "items": [
+      [ "sq_turbo_charger", 60 ]
+    ]
+  }
 ]

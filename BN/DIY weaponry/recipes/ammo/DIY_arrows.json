@@ -5,7 +5,6 @@
     "category": "CC_AMMO",
     "subcategory": "CSC_AMMO_ARROWS",
     "skill_used": "fabrication",
-    "skills_required": [ [ "archery", 1 ] ],
     "using": [ [ "forging_standard", 1 ] ],
     "difficulty": 3,
     "time": "30 m",
@@ -33,7 +32,7 @@
     "difficulty": 3,
     "time": "5 m",
     "reversible": true,
-    "autolearn": true,
+    "autolearn": [ [ "fabrication", 3 ] ],
     "book_learn": [ [ "recipe_arrows", 5 ] ],
     "qualities": [ { "id": "CUT", "level": 1 } ],
     "components": [
@@ -69,11 +68,12 @@
     "skills_required": [ [ "archery", 5 ], [ "mechanics", 3 ] ],
     "difficulty": 6,
     "time": "5 m",
+    "batch_time_factors": [ 80, 5 ],
     "book_learn": [ [ "textbook_anarch", 4 ], [ "recipe_bullets", 7 ] ],
     "qualities": [ { "id": "SAW_M", "level": 1 } ],
     "components": [
       [ ["scrap", 3 ] ],
-      [ [ "superglue", 2 ], [ "cordage", 2, "LIST" ] ],
+      [ [ "superglue", 1 ], [ "cordage", 1, "LIST" ] ],
       [
         [ "smpistol_primer", 1 ],
         [ "lgpistol_primer", 1 ],
@@ -82,6 +82,57 @@
         [ "shotgun_primer", 1 ]
       ],
       [ [ "gunpowder", 20 ], [ "chem_black_powder", 20 ] ]
+    ],
+    "delete_flags": [ "FILTHY" ],
+    "flags": [ "ALLOW_FILTHY" ]
+  },
+  {
+    "type": "recipe",
+    "result": "bolt_explosive",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_ARROWS",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "mechanics", 3 ] ],
+    "difficulty": 5,
+    "time": "5 m",
+    "batch_time_factors": [ 60, 5 ],
+    "book_learn": [ [ "recipe_arrows", 7 ], [ "textbook_anarch", 4 ], [ "recipe_bullets", 7 ] ],
+    "qualities": [ { "id": "SAW_M", "level": 1 } ],
+    "components": [
+      [ [ "bolt_metal", 1 ], [ "bolt_steel", 1 ] ],
+      [ [ "scrap", 3 ] ],
+      [ [ "adhesive", 1, "LIST" ], [ "filament", 20, "LIST" ] ],
+      [
+        [ "smpistol_primer", 1 ],
+        [ "lgpistol_primer", 1 ],
+        [ "smrifle_primer", 1 ],
+        [ "lgrifle_primer", 1 ],
+        [ "shotgun_primer", 1 ]
+      ],
+      [ [ "gunpowder", 20 ], [ "chem_black_powder", 20 ] ]
+    ],
+    "delete_flags": [ "FILTHY" ],
+    "flags": [ "ALLOW_FILTHY" ]
+  },
+  {
+    "type": "recipe",
+    "result": "bolt_bullet_50",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_ARROWS",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": "5 m",
+    "batch_time_factors": [ 80, 5 ],
+    "autolearn": true,
+    "book_learn": [ [ "recipe_arrows", 7 ], [ "textbook_anarch", 4 ], [ "recipe_bullets", 7 ] ],
+    "qualities": [ { "id": "SAW_M", "level": 1 } ],
+    "components": [
+      [ [ "50_incendiary", 1 ], [ "50bmg", 1 ], [ "50match", 1 ], [ "50ss", 1 ], [ "50_mk211", 1 ] ],
+      [ [ "scrap", 2 ] ],
+      [
+        [ "bolt_metal", 1 ],
+        [ "bolt_steel", 1 ]
+      ]
     ],
     "delete_flags": [ "FILTHY" ],
     "flags": [ "ALLOW_FILTHY" ]
@@ -118,6 +169,7 @@
     "skills_required": [ [ "cooking", 1 ], [ "survival", 1 ] ],
     "difficulty": 4,
     "time": "5 m",
+    "batch_time_factors": [ 60, 5 ],
     "autolearn": true,
     "book_learn": [ [ "recipe_arrows", 3 ], [ "recipe_bows", 6 ], [ "textbook_weapwest", 6 ] ],
     "qualities": [ { "id": "CUT", "level": 1 } ],
@@ -147,8 +199,9 @@
     "skills_required": [ "archery", 2 ],
     "difficulty": 3,
     "time": "5 m",
+    "batch_time_factors": [ 60, 5 ],
     "reversible": true,
-    "autolearn": true,
+    "autolearn": [ [ "fabrication", 3 ], [ "archery", 1 ] ],
     "book_learn": [ [ "recipe_arrows", 5 ], [ "textbook_weapwest", 6 ] ],
     "qualities": [ { "id": "CUT", "level": 1 } ],
     "using": [ [ "accelerant_liquid", 500 ] ],

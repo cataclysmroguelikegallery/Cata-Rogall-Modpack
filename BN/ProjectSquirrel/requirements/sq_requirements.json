@@ -1,5 +1,11 @@
 [
   {
+    "id": "ammo_rail",
+    "type": "requirement",
+    "//": "Components required for rail ammo",
+    "components": [ [ [ "steel_rail", 1 ], [ "rebar_rail", 1 ], [ "sq_du_rail", 1 ] ] ]
+  },
+  {
     "id": "sugar_standard",
     "type": "requirement",
     "//": "One unit provides ~260kcal; chosen to match one unit of molasses",

@@ -172,13 +172,13 @@
     "bashing": 6,
     "cutting": 28,
     "symbol": "*",
-    "thrown_damage": [ { "damage_type": "bash", "amount": 6 }, { "damage_type": "cut", "amount": 35 } ],
+    "thrown_damage": [ { "damage_type": "bash", "amount": 10 }, { "damage_type": "cut", "amount": 35 } ],
     "color": "cyan",
     "drop_action": { "type": "emit_actor", "emits": [ "emit_shock_burst" ], "scale_qty": true },
     "countdown_action": { "type": "explosion", "explosion": { "damage": 4, "radius": 3 } },
     "explosion": {
-    "damage": 90,
-    "radius": 4,
+    "damage": 85,
+    "radius": 3,
     "fragment": { "impact": { "damage_type": "electric", "amount": 150, "armor_multiplier": 1 }, "range": 6 }
       },
     "flags": [ "UNBREAKABLE_MELEE", "TRADER_AVOID", "STAB", "ACT_ON_RANGED_HIT", "CUSTOM_EXPLOSION" ]

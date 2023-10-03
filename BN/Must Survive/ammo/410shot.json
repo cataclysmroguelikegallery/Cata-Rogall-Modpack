@@ -1,9 +1,0 @@
-[
-  {
-    "id": "410shot_000",
-    "type": "AMMO",
-    "name": { "str": ".410 000 shot" },
-    "copy-from": "410shot_000",
-    "count": 5
-  }
-]
