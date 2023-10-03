@@ -487,8 +487,6 @@
     "id": "gunmod_rare",
     "//": "Less common gunmods including those only used by police/paramilitary forces.",
     "items": [
-      [ "sq_rail_speedloader25", 40 ],
-      [ "sq_rail_speedloader50", 40 ],
       [ "sq_smartpistol_module", 20 ],
       [ "sq_smartgun_module", 20 ],
       [ "sq_quick_reloader", 40 ],
