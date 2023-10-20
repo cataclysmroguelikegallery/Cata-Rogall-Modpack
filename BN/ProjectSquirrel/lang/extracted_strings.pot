@@ -2,11 +2,20 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Jake's_Squirrel_mod\n"
-"POT-Creation-Date: 2023-09-15 17:52+0900\n"
+"POT-Creation-Date: 2023-10-21 03:14+0900\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: .\effects.json
+msgid "충격 흡수 방패"
+msgstr ""
+
+#. ~ Description of effect '충격 흡수 방패'.
+#: .\effects.json
+msgid "방패가 들어오는 공격의 충격을 완전히 흡수합니다. 기절함 효과를 막습니다."
+msgstr ""
 
 #: .\harvest.json
 msgid "giant cockroach"
@@ -1022,164 +1031,166 @@ msgid_plural "플라즈마 충격 나이프s"
 msgstr[0] ""
 msgstr[1] ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "테슬라 캐논"
 msgid_plural "테슬라 캐논s"
 msgstr[0] ""
 msgstr[1] ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
 "테슬라 캐논은 전자기 파동으로써 적들의 장비를 마비시키고 전장을 혼돈으로 뒤섞는, 생존자의 걸작입니다. 방출된 전자기파는 4타일 이내에 "
 "있는 다른 적에게 옮겨갑니다."
 msgstr ""
 
-#: .\advtech\sq_hardlight_fusion.json .\items\sq_weapon_override.json
-#: .\monsters\sq_mech_weapons.json .\monsters\sq_walkers.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+#: .\items\sq_weapon_override.json .\monsters\sq_mech_weapons.json
+#: .\monsters\sq_walkers.json
 msgid "semi"
 msgstr ""
 
-#: .\advtech\sq_hardlight_fusion.json .\items\sq_weapon_override.json
-#: .\monsters\sq_mech_weapons.json .\monsters\sq_walkers.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+#: .\items\sq_weapon_override.json .\monsters\sq_mech_weapons.json
+#: .\monsters\sq_walkers.json
 msgid "auto"
 msgstr ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgctxt "gun_type_type"
 msgid "shotgun"
 msgstr ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "RA110 5x50mm flechette"
 msgid_plural "RA110 5x50mm flechettes"
 msgstr[0] ""
 msgstr[1] ""
 
 #. ~ Description for {'str': 'RA110 5x50mm flechette'}
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
 "Designed to defeat modern body armor, the Rivtech 5x50mm flechette round "
 "features a biodegradable sabot and a single, fin-stabilized penetrator."
 msgstr ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "RA119 5x50mm penetrator"
 msgid_plural "RA119 5x50mm penetrators"
 msgstr[0] ""
 msgstr[1] ""
 
 #. ~ Description for {'str': 'RA119 5x50mm penetrator'}
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
 "Designed to defeat modern body armor, the Rivtech 5x50mm RA119 penetrator "
 "round features a biodegradable sabot and a single, fin-stabilized tungsten "
 "alloy projectile."
 msgstr ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "beam scatterer"
 msgid_plural "beam scatterers"
 msgstr[0] ""
 msgstr[1] ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
 "A set of optics made to fit on laser weapons, which will diffract the laser "
 "beam into several lower powered beams.  This increases point-blank damage, "
 "but greatly reduces range."
 msgstr ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "lens"
 msgstr ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "focusing lens"
 msgid_plural "focusing lenses"
 msgstr[0] ""
 msgstr[1] ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
 "A set of optics to concentrate the laser beam on a smaller focus point.  "
 "This increases range and damage output, but complicates targeting."
 msgstr ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "electrolaser conversion"
 msgid_plural "electrolaser conversions"
 msgstr[0] ""
 msgstr[1] ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
 "A set of high-tech electronics and optics.  These converts a laser pistol "
 "into a less-lethal electrolaser capable of stunning targets, at the cost of "
 "a decreased damage output and increased power consumption."
 msgstr ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "effective emitter"
 msgid_plural "effective emitters"
 msgstr[0] ""
 msgstr[1] ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
 "A set of electronics to optimize emitter workcycle and increase overall "
 "energy efficiency.  Decreases power consumption."
 msgstr ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "emitter"
 msgstr ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "high density capacitor"
 msgid_plural "high density capacitors"
 msgstr[0] ""
 msgstr[1] ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
 "A capacitor with a higher energy density increases range and damage; at the "
 "cost of a markedly increased power consumption."
 msgstr ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "광선 고체화 매트릭스"
 msgid_plural "광선 고체화 매트릭스s"
 msgstr[0] ""
 msgstr[1] ""
 
 #. ~ Description for 광선 고체화 매트릭스
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
 "광자를 포집하고 저장하는 광선 고체화 기술은, 광자를 입자로 취급하여 다양한 응용 분야에서 활용됩니다. 이 작은 프로젝터는 광자가 "
 "일반적인 물질과 상호작용하여 광자를 잡아내고, 저장할 수 있는 기능을 제공합니다."
 msgstr ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "퓨전 코어"
 msgid_plural "퓨전 코어s"
 msgstr[0] ""
 msgstr[1] ""
 
 #. ~ Description for 퓨전 코어
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
 "가장 작은 별을 벼리는 기계 심장. 우라늄의 힘으로 가속시킨 수소의 핵융합으로 발생한 에너지를 안정적으로 공급하는 동력로입니다. 광학식 "
 "관성 가둠과 포탈 기술을 응용한 시간 지연으로 에너지 방출을 안정화하는데 성공화했습니다."
 msgstr ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "실험 보고서-미즈노"
 msgid_plural "실험 보고서-미즈노"
 msgstr[0] ""
 msgstr[1] ""
 
 #. ~ Description for {'str': '실험 보고서-미즈노', 'str_pl': '실험 보고서-미즈노'}
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
 "이 실험실 보고서는 광자의 파동을 교란하여 고체처럼 다루는 기술의 다양한 응용 분야에서의 활용성을 담고 있습니다. 파동함수의 일부라는 "
 "것을 간신히 눈치챈 어떤 수식의 끝에는, 난생 처음 보는 시간 단위가 포함된 해가 나와있었습니다. ''그러니까 이 주기로 스위치를 "
@@ -1187,28 +1198,28 @@ msgid ""
 " 없습니다.'' ''거기서부턴 자네 할 일이지. 박사 과정을 헛딴건 아니잖나?''"
 msgstr ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "실험 보고서-레드"
 msgid_plural "실험 보고서-레드"
 msgstr[0] ""
 msgstr[1] ""
 
 #. ~ Description for {'str': '실험 보고서-레드', 'str_pl': '실험 보고서-레드'}
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
 "이 합동 보고서는 손바닥만한 원자로를 이용하는 군용 무기에 대한 설계도가 제시되어 있습니다. 언뜻 봐도 우라늄이란 단어가 무척 "
 "편집증적으로 빈번하게 서술되고 있습니다. [승인 거부됨]: 이 핵융합 발전은 크기에는 주목할만하나 결국엔 우라늄의 핵분열을 사용하기 "
 "때문에 방사능 폐기물의 위협으로부터 벗어날 수 없음."
 msgstr ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "8x40mm HVP"
 msgid_plural "8x40mm HVPs"
 msgstr[0] ""
 msgstr[1] ""
 
 #. ~ Description for {'str': '8x40mm HVP'}
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
 "8x40mm caseless rounds, saboted high-velocity penetrator type.  Advanced "
 "military grade, armor-piercing ammunition that fires a single depleted "
@@ -1216,143 +1227,144 @@ msgid ""
 "reloaded."
 msgstr ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "5.56x45mm HVP"
 msgid_plural "5.56x45mm HVPs"
 msgstr[0] ""
 msgstr[1] ""
 
 #. ~ Description for {'str': '5.56x45mm HVP'}
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
 "열화 우라늄 탄두를 사용한 5.56x45mm 고속 철갑탄으로, 소총탄이 가지는 잠재력을 완전히 끌어냈습니다. 기존의 5.56mm 보다 "
 "더욱 향상된 피해량과 관통력을 가졌습니다."
 msgstr ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "7.62x51mm HVP"
 msgid_plural "7.62x51mm HVPs"
 msgstr[0] ""
 msgstr[1] ""
 
 #. ~ Description for {'str': '7.62x51mm HVP'}
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
 "열화 우라늄 탄두를 사용한 7.62x51mm 고속 철갑탄으로, 소총탄이 가지는 잠재력을 완전히 끌어냈습니다. 기존의 7.62mm 보다 "
 "더욱 향상된 파괴력과 관통력을 가졌습니다."
 msgstr ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "열화 우라늄 레일"
 msgid_plural "열화 우라늄 레일s"
 msgstr[0] ""
 msgstr[1] ""
 
 #. ~ Description for {'str': '열화 우라늄 레일'}
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "열화 우라늄 심을 넣고 주조한 강철 조각. 전자기 무기의 발사체로 쓸 수 있습니다."
 msgstr ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "scrap metal"
 msgid_plural "scrap metals"
 msgstr[0] ""
 msgstr[1] ""
 
 #. ~ Description for {'str': 'scrap metal'}
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
 "A bulky assortment of small bits of scrap steel useful in all kinds of "
 "crafting."
 msgstr ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "하드라이트 부무장"
 msgid_plural "하드라이트 부무장s"
 msgstr[0] ""
 msgstr[1] ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
 "고체화된 광자 볼트를 발사하는 에너지 부무장은 하드라이트 총기 기술력의 선구자입니다. 통상의 레이저 무기보다 사거리가 다소 짧지만 "
 "관통력이 강하고 화력이 뛰어납니다."
 msgstr ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "하드라이트 확산총"
 msgid_plural "하드라이트 확산총s"
 msgstr[0] ""
 msgstr[1] ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
 "근거리에서의 압도적인 군중 제압력과 화력을 모두 갖추도록 만든 하드라이트 에너지 샷건입니다. 샷건이지만 사실 특수화기에 가깝습니다. "
 "날카로운 단면을 지닌 광자 파편은 산산이 흩어져 주변 희생자들을 향해 굴절합니다."
 msgstr ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "하드라이트 카빈"
 msgid_plural "하드라이트 카빈s"
 msgstr[0] ""
 msgstr[1] ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
 "고체화된 광자 바늘을 폭풍처럼 발사하는 작은 에너지 카빈입니다. 하드라이트 소총보다 더 나은 휴대성과 빠른 조준속도를 지녀, 코너에서 "
 "마주치는 적들에게 깜짝 선물을 줄 수 있을 겁니다."
 msgstr ""
 
-#: .\advtech\sq_hardlight_fusion.json .\items\sq_weapon_override.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+#: .\items\sq_weapon_override.json
 msgid "burst"
 msgstr ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgctxt "gun_type_type"
 msgid "smg"
 msgstr ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "하드라이트 소총"
 msgid_plural "하드라이트 소총s"
 msgstr[0] ""
 msgstr[1] ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
 "하드라이트 에너지 소총은 이른바 '광선 고체화 매트릭스'로 불리는 매커니즘을 사용하는 에너지 무기입니다. 고체화된 광자 볼트를 속사하며,"
 " 재래식 돌격소총보다 사거리가 다소 짧지만 연사속도가 빠르고 매우 정확하여 중거리 교전에서 높은 효율을 발휘합니다."
 msgstr ""
 
-#: .\advtech\sq_hardlight_fusion.json .\items\sq_generic.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json .\items\sq_generic.json
 msgctxt "gun_type_type"
 msgid "rifle"
 msgstr ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "하드라이트 정밀소총"
 msgid_plural "하드라이트 정밀소총s"
 msgstr[0] ""
 msgstr[1] ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
 "고체화된 고출력 광자 볼트를 발사하는 에너지 정밀소총입니다. 다른 지정사수소총보다 사거리가 짧고 저지력이 낮아 멀리서 적을 방해하기 쉽지"
 " 않지만 향상된 조준 시스템과 저소음이 이를 보완하여 치고 빠지는 식의 기동타격을 가능하게 합니다."
 msgstr ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "하드라이트 롱보우"
 msgid_plural "하드라이트 롱보우s"
 msgstr[0] ""
 msgstr[1] ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
 "고효율로 동작하는 UPS 전원을 사용하는 매끄럽고 줄이 없는 초합금 롱보우입니다. 각 사격마다 프로젝터를 통하여 즉시 강력한 빛으로 "
 "이루어진 줄과 화살을 생성합니다. 이러한 시스템은 탁월한 정확성과 관통력을 제공합니다."
 msgstr ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "하드라이트 글레이브 (꺼짐)"
 msgid_plural "하드라이트 글레이브 (꺼짐)s"
 msgstr[0] ""
@@ -1361,24 +1373,24 @@ msgstr[1] ""
 #. ~ Use action menu_text for {'str': '하드라이트 글레이브 (꺼짐)'}.
 #. ~ Use action menu_text for {'str': '실험용 하드라이트 블레이드 (꺼짐)'}.
 #. ~ Use action menu_text for {'str': '제로 세이버', 'str_pl': '제로 세이버'}.
-#: .\advtech\sq_hardlight_fusion.json .\advtech\sq_nano_tier.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json .\advtech\sq_nano_tier.json
 #: .\items\sq_unrand.json
 msgid "Expand"
 msgstr ""
 
 #. ~ Use action msg for {'str': '하드라이트 글레이브 (꺼짐)'}.
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "하드라이트 글레이브를 켰습니다."
 msgstr ""
 
 #. ~ Description for {'str': '하드라이트 글레이브 (꺼짐)'}
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
 "이 무기는 고대 중국 무기의 양식을 SF 방식으로 재현한 동서고금 문화의 키메라입니다. 절삭력은 두말할 것도 없거니와, 자루 부분 또한 "
 "초합금으로 제작되어 있습니다. 전설 속의 대장군이 될 수 있지만, 기다란 수염과 붉은 말을 구하는 건 당신 몫입니다."
 msgstr ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "하드라이트 글레이브 (켜짐)"
 msgid_plural "하드라이트 글레이브 (켜짐)"
 msgstr[0] ""
@@ -1389,134 +1401,346 @@ msgstr[1] ""
 #. ~ Use action menu_text for {'str': '실험용 하드라이트 블레이드 (켜짐)', 'str_pl': '실험용
 #. 하드라이트 블레이드 (켜짐)'}.
 #. ~ Use action menu_text for {'str': '제로 세이버', 'str_pl': '제로 세이버'}.
-#: .\advtech\sq_hardlight_fusion.json .\advtech\sq_nano_tier.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json .\advtech\sq_nano_tier.json
 #: .\items\sq_unrand.json
 msgid "Collapse"
 msgstr ""
 
 #. ~ Use action msg for {'str': '하드라이트 글레이브 (켜짐)', 'str_pl': '하드라이트 글레이브
 #. (켜짐)'}.
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "하드라이트 글레이브를 껐습니다."
 msgstr ""
 
 #. ~ Description for {'str': '하드라이트 글레이브 (켜짐)', 'str_pl': '하드라이트 글레이브 (켜짐)'}
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
 "이 무기는 고대 중국 무기의 양식을 SF 방식으로 재현한 동서고금 문화의 키메라입니다. 절삭력은 두말할 것도 없거니와, 자루 부분 또한 "
 "초합금으로 제작되어 있습니다. 전설 속의 대장군이 될 수 있지만, 기다란 수염과 붉은 말을 구하는 건 당신 몫입니다. 사용하여 끌 수 "
 "있습니다."
 msgstr ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "가우스 리볼버"
 msgid_plural "가우스 리볼버s"
 msgstr[0] ""
 msgstr[1] ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
 "대재앙의 황량한 도시는 위험하니, 이 리볼버를 가져가세요. 초가열된 금속 레일을 발사하는 믿음직한 5연발 원자력 가우스 리볼버 한 정이면"
 " 누구보다 빠르게, 남들과는 다르게 중무장한 밴딧들의 머리에 구멍을 내줄 수 있습니다."
 msgstr ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "단발"
 msgstr ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "패닝"
 msgstr ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgctxt "gun_type_type"
 msgid "pistol"
 msgstr ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "가우스 집속포"
 msgid_plural "가우스 집속포s"
 msgstr[0] ""
 msgstr[1] ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
 "소형 퓨전 코어로 가동하는 가우스 플랙 건. 밀집된 적들을 처리하는데 좋습니다. 과냉각된 금속 레일 탄자는 충격을 받으면 파편의 폭풍을 "
 "일으켜 주변 지대를 초토화시킵니다."
 msgstr ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "가우스 라이플"
 msgid_plural "가우스 라이플s"
 msgstr[0] ""
 msgstr[1] ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
 "소형 퓨전 코어로 가동하는 가우스 라이플. 보병 개인화기주제에 무겁고 커다랗고 연사속도가 느리지만 건물 벽이든 자동차든 모두 전자기로 "
 "날려버리는 화력이 모든 걸 정당화합니다. 플레밍의 왼손법칙를 활용한 전자기 투사체 사출 병기입니다만, 우린 이걸 오른손 검지로 쏘죠. "
 "왼손은 거들 뿐입니다."
 msgstr ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "가우스 드라이버"
 msgid_plural "가우스 드라이버s"
 msgstr[0] ""
 msgstr[1] ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
 "순수한 화력을 장거리까지 보낸다는 생각 하나만을 위하여, 인체 공학적 설계 따위는 갖다 버린, 비대해진 이중 레일이 총신의 대부분을 "
 "차지하는 기형적 구조를 가진 가우스 대물저격총입니다. 가장 강력한 적에게 최고의 일격을 먹이기에는 이만한 무기가 없습니다."
 msgstr ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "가우스 어설트 캐논"
 msgid_plural "가우스 어설트 캐논s"
 msgstr[0] ""
 msgstr[1] ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
 "매우 육중하고 아름다운 가우스 중화기. 연사력을 위하여 퓨전 코어를 하나 더 장착했습니다. 두 개의 심장으로 작동하는 이 훌륭한 "
 "대화수단은 가열된 금속 파편을 끝없이 쏟아냅니다."
 msgstr ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "고속 자동"
 msgstr ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "해머 블로"
 msgstr ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "강력한 넉백 공격"
 msgstr ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 #, c-format
 msgid "%s을(를) 내려찍습니다."
 msgstr ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 #, c-format
 msgid "<npcname>이(가) %s을(를) 내려찍습니다."
 msgstr ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "퓨전 로켓 해머"
 msgid_plural "퓨전 로켓 해머s"
 msgstr[0] ""
 msgstr[1] ""
 
 #. ~ Description for {'str': '퓨전 로켓 해머'}
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
 "퓨전 코어를 동력원으로 사용하는 거대한 로켓 추진 공성 해머. 망치질 뿐만 아니라 원자력에서 나오는 초고온의 불꽃을 투사하여 멀리 떨어진"
 " 적에게 불지옥을 선사할 수 있습니다. 진홍빛으로 강조된 몸체, 열화 우라늄 코팅의 망치머리는 무차별적인 파괴력을 발휘합니다. 가장 "
 "강인한 이들만 이 무기를 다룰 수 있으니 제왕의 무기라고 부를만합니다. 휘두를 때 조심하십시오. 사랑하는 이들도 함께 대지와 융합시키고 "
 "싶지 않다면."
+msgstr ""
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid "경량 레일 스피드로더"
+msgid_plural "경량 레일 스피드로더s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': '경량 레일 스피드로더'}
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid "레일건용 스피드로더입니다. 레일 탄환 8발을 넣을 수 있고 호환되는 총기를 빠르게 장전할 수 있습니다."
+msgstr ""
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid "표준 레일 스피드로더"
+msgid_plural "표준 레일 스피드로더s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': '표준 레일 스피드로더'}
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid "레일건용 스피드로더입니다. 레일 탄환 25발을 넣을 수 있고 호환되는 총기를 빠르게 장전할 수 있습니다."
+msgstr ""
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid "대형 레일 스피드로더"
+msgid_plural "대형 레일 스피드로더s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': '대형 레일 스피드로더'}
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid "레일건용 대형 스피드로더입니다. 레일 탄환 50발을 넣을 수 있고 호환되는 총기를 빠르게 장전할 수 있습니다."
+msgstr ""
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid "스마트 피스톨 모듈"
+msgid_plural "스마트 피스톨 모듈s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid ""
+"이 피스톨 모듈은 더블테크 엔지니어들의 자부심이 담긴 역작입니다. 모션 센서를 포함한 스마트 자동 조준 기능을 갖춘 스마트 피스톨 모듈은"
+" 정확한 사격을 돕기 위해 탄환을 목표물에 자동으로 조준하는 기술을 포함하고 있습니다. 이 모듈은 탄환 트래킹과 자동 조준 등의 기술을 "
+"통해 비교적 짧은 거리에서의 사격에 높은 정확도를 제공합니다."
+msgstr ""
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid "mechanism"
+msgstr ""
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid "탄도 보조 프로세서"
+msgid_plural "탄도 보조 프로세서s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid ""
+"이 스마트건 모듈은 더블테크 엔지니어들의 자부심이 담긴 역작으로, 향상된 정확도와 사격 효율을 제공하는 스마트 피쳐를 통합한 장치입니다."
+" 이 모듈은 탄환 경로 계산, 환경 조건 모니터링 등의 기능을 통해 사격의 명중률을 크게 향상시키며 군사용 정밀 라이플에 적용됩니다."
+msgstr ""
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid "퀵 리로더"
+msgid_plural "퀵 리로더s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid "총기를 효율적으로 장전하는 부착물 모음으로, 총알이나 탄창을 빠르게 장전하여 전투에서의 생존능력을 높이는 역할을 합니다."
+msgstr ""
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid "전자기 탄환가속장치"
+msgid_plural "전자기 탄환가속장치s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid ""
+"화약 총기를 전열화학포로 개조합니다. 총기의 공격력은 크게 상승하지만 UPS의 전력을 사용하게 됩니다. 이 실험적인 장치는 목표물을 "
+"격파하는 데 효과적인 열량을 생성하고 발사하여, 특히 장거리 타격 및 장애물 관통에 우수한 성능을 제공합니다. 충분한 전자공학 및 "
+"기계공학적 지식을 보유한다면 더 굉장한 물건을 만들 수 있을지 모릅니다."
+msgstr ""
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid "오버드 레일건 확장모드"
+msgid_plural "오버드 레일건 확장모드s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid ""
+"경고!\n"
+"이 도구는 총기를 손상시킬 수 있습니다!\n"
+"사용자 책임하에 사용하세요!\n"
+"전자기 탄환가속장치(EPA)모듈을 극도로 과개조한 괴물로, 오버드 레일건 확장모드(Overed RailGun Expansion mod), 줄여서 O.R.G.E입니다. 이 출력 리미터를 해제한 총기 부착물은 총기 약실부터 전열화학포에 특화된 구조로 갈아치워 공격력을 극적으로 높이지만, 그만큼 많은 전력 소비를 요구하며 무겁습니다."
+msgstr ""
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid "첨단 소음 억제기"
+msgid_plural "첨단 소음 억제기s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid "사격시 발생하는 소음과 총구 화염을 크게 감소시킵니다. 나노입자가 도포된 내부 흡음재가 소음을 효과적으로 제거합니다."
+msgstr ""
+
+#. 
+#. ~ Mutation class name
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+#: .\mutations\mutation_category.json
+msgid "muzzle"
+msgstr ""
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid "소음기 MK II"
+msgid_plural "소음기 MK IIs"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid ""
+"소음기는 사격시 발생하는 소음과 총구 화염을 감소시킵니다. 총기 사격음은 굉장히 크기 때문에, 적절한 보호수단이 없다면 청각을 손상시킬 "
+"수 있습니다. 이 개선된 군용 소음기는 사격음을 크게 억제하며, 사격 정확도를 높입니다."
+msgstr ""
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid "총열 강선"
+msgid_plural "총열 강선s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid ""
+"총신 안쪽에 길쭉한 나선형 홈이 새겨진 총신으로, 총알이 이동하면서 나선형 홈을 따라 회전하게 됩니다. 회전으로 인한 각운동량으로 인해 "
+"총알은 주변 기류와 바람의 영향을 덜 받는 안정적인 궤적을 그리게 됩니다."
+msgstr ""
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid "barrel"
+msgstr ""
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid "산탄 초크"
+msgid_plural "산탄 초크s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid ""
+"산탄총의 총구 끄트머리 내부를 죄어, 총구 직경을 조여주는 총기 부착물입니다. 초크를 얼마나 조여주느냐에 따라서 산탄의 산포도가 "
+"달라지므로, 사냥꾼들이 많이 신경쓰는 부분입니다."
+msgstr ""
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid "스마트 초크"
+msgid_plural "스마트 초크s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid ""
+"스마트 산탄초크는 현대 총기 기술의 혁신적인 제품으로, 전자 제어 시스템을 활용하여 다양한 사격 상황에서 자동으로 총열을 조절합니다. "
+"적응적인 조절과 데이터 분석을 통해 총구의 최적의 성능을 유지하여 탄도를 개선하고 집탄률을 비약적으로 늘립니다."
+msgstr ""
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid "신경 제어 트리거"
+msgid_plural "신경 제어 트리거"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid "사용자의 뇌파를 읽어 총기를 의도대로 발사할 수 있게 합니다. 이로써 반사 시간을 제거하고 명중률을 향상시킬 수 있습니다."
+msgstr ""
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid "터보 차저"
+msgid_plural "터보 차저s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid ""
+"가우스 총기의 출력을 향상시켜 연사력을 증가시키는 고출력 축전지입니다. 반대 급부로 총기의 분산도와 반동을 상당히 높여서 조작에 어려움을"
+" 초래합니다."
+msgstr ""
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgctxt "gun_type_type"
+msgid "sq_fusion_rifle"
+msgstr ""
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgctxt "gun_type_type"
+msgid "sq_fusion_shotgun"
+msgstr ""
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid "탄약 전송 장치"
+msgid_plural "탄약 전송 장치s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid ""
+"총기의 급탄방식을 탄창에서 '전송'으로 영구적으로 교체하는데 필요한 부품입니다. 장치 내부에 탑재된 초소형 포탈 생성기가 열리고 닫히면서"
+" 탄약을 '하나씩' 총기의 약실 내부로 밀어넣습니다. 연사가 불가능해지지만 여분의 탄창을 들고 다닐 필요가 없어집니다."
 msgstr ""
 
 #: .\advtech\sq_main_tools.json
@@ -10518,11 +10742,6 @@ msgstr ""
 #. ~ Mutation class name
 #: .\mutations\mutation_category.json
 msgid "minotaur"
-msgstr ""
-
-#. ~ Mutation class name
-#: .\mutations\mutation_category.json
-msgid "muzzle"
 msgstr ""
 
 #. ~ Mutation class name
