@@ -666,7 +666,7 @@
   },
   {
     "type": "vehicle_part",
-    "id": "hdroof",
+    "id": "sq_carbide_hdroof",
     "name": { "str": "탄소섬유 지붕" },
     "symbol": "#",
     "color": "dark_gray",
