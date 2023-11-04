@@ -279,5 +279,22 @@
 			[ [ "power_supply", 64 ] ],
 			[ [ "solder_wire", 400 ] ]
 		]
+	},
+	{
+		"type": "recipe",
+		"result": "bio_power_storage_mkII",
+		"category": "CC_ELECTRONIC",
+		"subcategory": "CSC_ELECTRONIC_CBMS",
+		"skill_used": "electronics",
+		"skills_required": [ "computer", 5 ],
+		"difficulty": 6,
+		"time": "10 m",
+		"autolearn": true,
+		"using": [ [ "soldering_standard", 5 ] ],
+		"components": [
+			[ [ "bio_power_storage", 3 ] ],
+			[ [ "cable", 10 ] ],
+			[ [ "solder_wire", 20 ] ]
+		]
 	}
 ]

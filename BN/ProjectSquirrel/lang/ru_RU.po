@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Jake's_Squirrel_mod\n"
-"POT-Creation-Date: 2023-09-12 20:08+0900\n"
+"POT-Creation-Date: 2023-10-21 03:14+0900\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -13,6 +13,18 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
 "X-Generator: Poedit 3.3.2\n"
+
+#: .\effects.json
+msgid "충격 흡수 방패"
+msgstr "Амортизационный щит"
+
+#. ~ Description of effect '충격 흡수 방패'.
+#: .\effects.json
+msgid ""
+"방패가 들어오는 공격의 충격을 완전히 흡수합니다. 기절함 효과를 막습니다."
+msgstr ""
+"Ваш щит полностью поглощает удар входящих атак. Предотвращает эффекты "
+"оглушения."
 
 #: .\harvest.json
 msgid "giant cockroach"
@@ -97,27 +109,27 @@ msgstr ""
 
 #: .\sq_clothing_mods.json
 msgid "경량화 하기"
-msgstr "Lighten up/Облегчить"
+msgstr "Облегчение конструкции"
 
 #: .\sq_clothing_mods.json
 msgid "덧붙이기"
-msgstr "Patch up"
+msgstr "Залатать"
 
 #: .\sq_clothing_mods.json
 msgid "주머니 만들기"
-msgstr "Add pockets"
+msgstr "Добавить карманы"
 
 #: .\sq_clothing_mods.json
 msgid "주머니 떼기"
-msgstr "Destroy pockets"
+msgstr "Убрать карманы"
 
 #: .\sq_clothing_mods.json
 msgid "그래핀 시트 덧대기"
-msgstr "Pad with graphene sheet lining"
+msgstr "Колодка с подкладкой из графенового листа"
 
 #: .\sq_clothing_mods.json
 msgid "덧댄 그래핀 제거"
-msgstr "Destroy graphene sheet lining"
+msgstr "Демонтаж подкладки из графенового листа"
 
 #. ~ Please leave anything in <angle brackets> unchanged.
 #: .\sq_flags.json
@@ -131,7 +143,7 @@ msgid ""
 "이 장비는 안감을 빼내어 <good>방해도와 보온도가 감소</good>되었지만, <bad>방"
 "어력 또한 감소</bad>되었습니다"
 msgstr ""
-" Это снаряжение лишено подкладки, что <good>снижает скованность , "
+"Это снаряжение лишено подкладки, что <good>снижает скованность , "
 "теплозащиту</good> и <bad>защиту тела от других угроз</bad>"
 
 #. ~ Please leave anything in <angle brackets> unchanged.
@@ -293,7 +305,7 @@ msgstr ""
 msgid "정찰꾼 경량형 컴뱃 아머"
 msgid_plural "정찰꾼 경량형 컴뱃 아머s"
 msgstr[0] "Броня Рейнджера"
-msgstr[1] "Броней Рейнджера"
+msgstr[1] "Броня Рейнджера"
 msgstr[2] ""
 
 #. ~ Description for {'str': '정찰꾼 경량형 컴뱃 아머'}
@@ -325,7 +337,7 @@ msgstr ""
 msgid "'워든' 중량 컴뱃 아머"
 msgid_plural "'워든' 중량 컴뱃 아머s"
 msgstr[0] "Тяжелый бронекостюм 'Варден'"
-msgstr[1] "Тяжелых бронекостюмов 'Варден'"
+msgstr[1] "Тяжелый бронекостюм 'Варден'"
 msgstr[2] ""
 
 #. ~ Use action msg for {'str': "'워든' 중량 컴뱃 아머"}.
@@ -354,8 +366,8 @@ msgstr ""
 msgid ""
 "맞춤형 동력 중량 전투복입니다. 더블테크사의 파워아머를 생존자의 스타일로 어레"
 "인지하고 축소하여 만들었습니다. 진짜 파워아머에 비하면 제한적인 방호력을 가지"
-"고 있지만, 이 철갑덩어리를 입고 전진하는 생존자는 아무도 막지 못합니다. 사용"
-"하면 팔의 강력한 모터를 가동시킵니다."
+"고 있지만, 이 견고하고 투박한 만듦새는 아머의 동작을 보증합니다. 사용하면 팔"
+"의 강력한 모터를 가동시킵니다."
 msgstr ""
 "Индивидуальный тяжелый боевой костюм с питанием от УБП. Его дизайн был "
 "вдохновлен адаптацией и уменьшением версии силовой брони DoubleTech для "
@@ -368,7 +380,7 @@ msgstr ""
 msgid "'워든' 중량 컴뱃 아머 (켜짐)"
 msgid_plural "'워든' 중량 컴뱃 아머 (켜짐)s"
 msgstr[0] "Тяжелый бронекостюм 'Варден' (вкл.)"
-msgstr[1] "Тяжелых бронекостюмов 'Варден' (вкл.)"
+msgstr[1] "Тяжелый бронекостюм 'Варден' (вкл.)"
 msgstr[2] ""
 
 #. ~ Use action menu_text for {'str': "'워든' 중량 컴뱃 아머 (켜짐)"}.
@@ -408,8 +420,8 @@ msgstr ""
 msgid ""
 "맞춤형 동력 중량 전투복입니다. 더블테크사의 파워아머를 생존자의 스타일로 어레"
 "인지하고 축소하여 만들었습니다. 진짜 파워아머에 비하면 제한적인 방호력을 가지"
-"고 있지만, 이 철갑덩어리를 입고 전진하는 생존자는 아무도 막지 못합니다. 사용"
-"하여 작동을 멈춥니다."
+"고 있지만, 이 견고하고 투박한 만듦새는 아머의 동작을 보증합니다. 사용하여 작"
+"동을 멈춥니다."
 msgstr ""
 "Индивидуальный тяжелый боевой костюм с питанием от УБП. Его дизайн был "
 "вдохновлен адаптацией и уменьшением версии силовой брони DoubleTech для "
@@ -437,8 +449,8 @@ msgstr ""
 #: .\advtech\sq_advanced_armor.json
 msgid "'램파트' 강습 장갑복"
 msgid_plural "'램파트' 강습 장갑복s"
-msgstr[0] "Тяжелая Штурмовая силовая броня \"Рампарт\""
-msgstr[1] "Тяжелые Штурмовые силовые брони «Рампарт»"
+msgstr[0] "Штурмовая силовая броня \"Рампарт\""
+msgstr[1] "Штурмовая силовая броня \"Рампарт\""
 msgstr[2] ""
 
 #. ~ Description for {'str': "'램파트' 강습 장갑복"}
@@ -458,8 +470,8 @@ msgstr ""
 #: .\advtech\sq_advanced_armor.json
 msgid "'램파트' 강습 장갑복 (켜짐)"
 msgid_plural "'램파트' 강습 장갑복 (켜짐)s"
-msgstr[0] "Тяжелая Штурмовая силовая броня \"Рампарт\" (вкл.)"
-msgstr[1] "Тяжелые Штурмовые силовые брони «Рампарт» (вкл.)"
+msgstr[0] "Штурмовая силовая броня \"Рампарт\" (вкл.)"
+msgstr[1] "Штурмовая силовая броня \"Рампарт\" (вкл.)"
 msgstr[2] ""
 
 #. ~ Description for {'str': "'램파트' 강습 장갑복 (켜짐)"}
@@ -695,7 +707,6 @@ msgstr ""
 "гранату в виде боевого ножа."
 
 #: .\advtech\sq_advanced_armor.json
-#, fuzzy
 msgid "암살 잠입복 설계도"
 msgid_plural "암살 잠입복 설계도"
 msgstr[0] "схемы костюма ассасина"
@@ -866,7 +877,6 @@ msgstr ""
 "\"Рампарт\"."
 
 #: .\advtech\sq_advanced_armor_colors.json
-#, fuzzy
 msgid "콜세어 도색: 시가전"
 msgid_plural "콜세어 도색: 시가전s"
 msgstr[0] "Камуфляжная схема окраски \"Корсар\": Городской"
@@ -881,7 +891,6 @@ msgstr ""
 "\"Корсар\"."
 
 #: .\advtech\sq_advanced_armor_colors.json
-#, fuzzy
 msgid "파이어니어 도색: 시가전"
 msgid_plural "파이어니어 도색: 시가전s"
 msgstr[0] "Камуфляжная схема окраски \"Пионер\": Городской"
@@ -896,7 +905,6 @@ msgstr ""
 "\"Пионер\"."
 
 #: .\advtech\sq_advanced_armor_colors.json
-#, fuzzy
 msgid "램파트 도색: 시가전"
 msgid_plural "램파트 도색: 시가전s"
 msgstr[0] "Камуфляжная схема окраски \"Рампарт\": Городской"
@@ -1177,8 +1185,8 @@ msgstr "Earth Shockwave"
 msgid ""
 "아머의 힘으로 땅을 내리쳐 주변의 적들을 넘어뜨리고 타격대미지를 입힙니다."
 msgstr ""
-"Slam the ground with the force of your armor, knocking down nearby enemies "
-"and dealing damage."
+"Ударьте по земле силой своей брони, сбивая с ног ближайших врагов и нанося "
+"им урон."
 
 #: .\advtech\sq_advanced_armor_spells.json
 msgid "벽 부수기"
@@ -1201,7 +1209,7 @@ msgstr ""
 #. ~ Message for SPELL '가속'
 #: .\advtech\sq_advanced_armor_spells.json
 msgid "시간이 느리게 흘러가는 느낌이다."
-msgstr "It feels like time is passing slowly."
+msgstr "Такое ощущение, что время идет медленно."
 
 #: .\advtech\sq_advanced_armor_spells.json
 msgid "Short Leap"
@@ -1237,11 +1245,11 @@ msgstr "Captured"
 #. ~ Apply message for effect(s) '포착됨'.
 #: .\advtech\sq_advanced_armor_spells.json
 msgid "전술 조준경에 포착당했습니다!"
-msgstr "You're in the tactical crosshairs!"
+msgstr "Вы находитесь под прицелом!"
 
 #: .\advtech\sq_advanced_armor_spells.json
 msgid "팬텀 전술 조준경"
-msgstr "Phantom Tactical Sight"
+msgstr "Тактический прицел \"Фантом\""
 
 #: .\advtech\sq_advanced_armor_spells.json
 msgid "플라즈마 충격 수류탄"
@@ -1264,21 +1272,20 @@ msgstr ""
 "пламени."
 
 #: .\advtech\sq_advanced_armor_spells.json
-#, fuzzy
 msgid "플라즈마 충격 나이프"
 msgid_plural "플라즈마 충격 나이프s"
 msgstr[0] "Плазменно-ударный нож"
 msgstr[1] "Плазменно-ударных ножей"
 msgstr[2] ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "테슬라 캐논"
 msgid_plural "테슬라 캐논s"
 msgstr[0] "Пушка Тесла"
 msgstr[1] "Пушек Тесла"
 msgstr[2] ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
 "테슬라 캐논은 전자기 파동으로써 적들의 장비를 마비시키고 전장을 혼돈으로 뒤섞"
 "는, 생존자의 걸작입니다. 방출된 전자기파는 4타일 이내에 있는 다른 적에게 옮겨"
@@ -1288,22 +1295,24 @@ msgstr ""
 "вывода из строя вражеской техники и превращения поля боя в хаос. Излучаемая "
 "электромагнитная волна передается другим врагам в пределах 4 тайлов."
 
-#: .\advtech\sq_hardlight_fusion.json .\items\sq_weapon_override.json
-#: .\monsters\sq_mech_weapons.json .\monsters\sq_walkers.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+#: .\items\sq_weapon_override.json .\monsters\sq_mech_weapons.json
+#: .\monsters\sq_walkers.json
 msgid "semi"
 msgstr ""
 
-#: .\advtech\sq_hardlight_fusion.json .\items\sq_weapon_override.json
-#: .\monsters\sq_mech_weapons.json .\monsters\sq_walkers.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+#: .\items\sq_weapon_override.json .\monsters\sq_mech_weapons.json
+#: .\monsters\sq_walkers.json
 msgid "auto"
 msgstr ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgctxt "gun_type_type"
 msgid "shotgun"
 msgstr ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "RA110 5x50mm flechette"
 msgid_plural "RA110 5x50mm flechettes"
 msgstr[0] ""
@@ -1311,13 +1320,13 @@ msgstr[1] ""
 msgstr[2] ""
 
 #. ~ Description for {'str': 'RA110 5x50mm flechette'}
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
 "Designed to defeat modern body armor, the Rivtech 5x50mm flechette round "
 "features a biodegradable sabot and a single, fin-stabilized penetrator."
 msgstr ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "RA119 5x50mm penetrator"
 msgid_plural "RA119 5x50mm penetrators"
 msgstr[0] ""
@@ -1325,90 +1334,89 @@ msgstr[1] ""
 msgstr[2] ""
 
 #. ~ Description for {'str': 'RA119 5x50mm penetrator'}
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
 "Designed to defeat modern body armor, the Rivtech 5x50mm RA119 penetrator "
 "round features a biodegradable sabot and a single, fin-stabilized tungsten "
 "alloy projectile."
 msgstr ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "beam scatterer"
 msgid_plural "beam scatterers"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
 "A set of optics made to fit on laser weapons, which will diffract the laser "
 "beam into several lower powered beams.  This increases point-blank damage, "
 "but greatly reduces range."
 msgstr ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "lens"
 msgstr ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "focusing lens"
 msgid_plural "focusing lenses"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
 "A set of optics to concentrate the laser beam on a smaller focus point.  "
 "This increases range and damage output, but complicates targeting."
 msgstr ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "electrolaser conversion"
 msgid_plural "electrolaser conversions"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
 "A set of high-tech electronics and optics.  These converts a laser pistol "
 "into a less-lethal electrolaser capable of stunning targets, at the cost of "
 "a decreased damage output and increased power consumption."
 msgstr ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "effective emitter"
 msgid_plural "effective emitters"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
 "A set of electronics to optimize emitter workcycle and increase overall "
 "energy efficiency.  Decreases power consumption."
 msgstr ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "emitter"
 msgstr ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "high density capacitor"
 msgid_plural "high density capacitors"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
 "A capacitor with a higher energy density increases range and damage; at the "
 "cost of a markedly increased power consumption."
 msgstr ""
 
-#: .\advtech\sq_hardlight_fusion.json
-#, fuzzy
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "광선 고체화 매트릭스"
 msgid_plural "광선 고체화 매트릭스s"
 msgstr[0] "матрица фотонного твердения"
@@ -1416,7 +1424,7 @@ msgstr[1] "матриц фотонного твердения"
 msgstr[2] ""
 
 #. ~ Description for 광선 고체화 매트릭스
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
 "광자를 포집하고 저장하는 광선 고체화 기술은, 광자를 입자로 취급하여 다양한 응"
 "용 분야에서 활용됩니다. 이 작은 프로젝터는 광자가 일반적인 물질과 상호작용하"
@@ -1427,7 +1435,7 @@ msgstr ""
 "как частицы. Этот небольшой проектор позволяет улавливать и сохранять фотоны "
 "при их взаимодействии с обычными материалами."
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "퓨전 코어"
 msgid_plural "퓨전 코어s"
 msgstr[0] "термоядерное ядро"
@@ -1435,7 +1443,7 @@ msgstr[1] "термоядерных ядер"
 msgstr[2] ""
 
 #. ~ Description for 퓨전 코어
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
 "가장 작은 별을 벼리는 기계 심장. 우라늄의 힘으로 가속시킨 수소의 핵융합으로 "
 "발생한 에너지를 안정적으로 공급하는 동력로입니다. 광학식 관성 가둠과 포탈 기"
@@ -1447,7 +1455,7 @@ msgstr ""
 "временной задержке с использованием портальной технологии удается "
 "стабилизировать энерговыделение."
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "실험 보고서-미즈노"
 msgid_plural "실험 보고서-미즈노"
 msgstr[0] "лабораторные журнал - Mizuno"
@@ -1455,7 +1463,7 @@ msgstr[1] "лабораторных журналов - Mizuno"
 msgstr[2] ""
 
 #. ~ Description for {'str': '실험 보고서-미즈노', 'str_pl': '실험 보고서-미즈노'}
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
 "이 실험실 보고서는 광자의 파동을 교란하여 고체처럼 다루는 기술의 다양한 응용 "
 "분야에서의 활용성을 담고 있습니다. 파동함수의 일부라는 것을 간신히 눈치챈 어"
@@ -1474,7 +1482,7 @@ msgstr ""
 "обязательно будет воздействовать ее собственное электромагнитное поле. "
 "''Дальше это ваша работа. Вы ведь не зря защитили докторскую диссертацию?"
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "실험 보고서-레드"
 msgid_plural "실험 보고서-레드"
 msgstr[0] "лабораторные журнал - Red"
@@ -1482,7 +1490,7 @@ msgstr[1] "лабораторных журналов - Red"
 msgstr[2] ""
 
 #. ~ Description for {'str': '실험 보고서-레드', 'str_pl': '실험 보고서-레드'}
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
 "이 합동 보고서는 손바닥만한 원자로를 이용하는 군용 무기에 대한 설계도가 제시"
 "되어 있습니다. 언뜻 봐도 우라늄이란 단어가 무척 편집증적으로 빈번하게 서술되"
@@ -1495,7 +1503,7 @@ msgstr ""
 "электростанция поражает своими размерами, но поскольку в конечном итоге она "
 "использует деление урана, ей не избежать угрозы радиоактивных отходов."
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "8x40mm HVP"
 msgid_plural "8x40mm HVPs"
 msgstr[0] ""
@@ -1503,7 +1511,7 @@ msgstr[1] ""
 msgstr[2] ""
 
 #. ~ Description for {'str': '8x40mm HVP'}
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
 "8x40mm caseless rounds, saboted high-velocity penetrator type.  Advanced "
 "military grade, armor-piercing ammunition that fires a single depleted "
@@ -1511,7 +1519,7 @@ msgid ""
 "reloaded."
 msgstr ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "5.56x45mm HVP"
 msgid_plural "5.56x45mm HVPs"
 msgstr[0] ""
@@ -1519,7 +1527,7 @@ msgstr[1] ""
 msgstr[2] ""
 
 #. ~ Description for {'str': '5.56x45mm HVP'}
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
 "열화 우라늄 탄두를 사용한 5.56x45mm 고속 철갑탄으로, 소총탄이 가지는 잠재력"
 "을 완전히 끌어냈습니다. 기존의 5.56mm 보다 더욱 향상된 피해량과 관통력을 가졌"
@@ -1530,7 +1538,7 @@ msgstr ""
 "сравнению с оригинальным 5,56-мм патроном он обладает повышенной поражающей "
 "и проникающей способностью."
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "7.62x51mm HVP"
 msgid_plural "7.62x51mm HVPs"
 msgstr[0] ""
@@ -1538,7 +1546,7 @@ msgstr[1] ""
 msgstr[2] ""
 
 #. ~ Description for {'str': '7.62x51mm HVP'}
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
 "열화 우라늄 탄두를 사용한 7.62x51mm 고속 철갑탄으로, 소총탄이 가지는 잠재력"
 "을 완전히 끌어냈습니다. 기존의 7.62mm 보다 더욱 향상된 파괴력과 관통력을 가졌"
@@ -1549,7 +1557,7 @@ msgstr ""
 "обладает большей разрушительной силой и проникающей способностью, чем "
 "оригинальный 7,62-мм патрон."
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "열화 우라늄 레일"
 msgid_plural "열화 우라늄 레일s"
 msgstr[0] "Стержень из обедненного урана"
@@ -1557,7 +1565,7 @@ msgstr[1] "Стерженей из обедненного урана"
 msgstr[2] ""
 
 #. ~ Description for {'str': '열화 우라늄 레일'}
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
 "열화 우라늄 심을 넣고 주조한 강철 조각. 전자기 무기의 발사체로 쓸 수 있습니"
 "다."
@@ -1565,7 +1573,7 @@ msgstr ""
 "Кусок стали, отлитый с сердечником из обедненного урана. Может "
 "использоваться в качестве снаряда для электромагнитного оружия."
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "scrap metal"
 msgid_plural "scrap metals"
 msgstr[0] ""
@@ -1573,20 +1581,20 @@ msgstr[1] ""
 msgstr[2] ""
 
 #. ~ Description for {'str': 'scrap metal'}
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
 "A bulky assortment of small bits of scrap steel useful in all kinds of "
 "crafting."
 msgstr ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "하드라이트 부무장"
 msgid_plural "하드라이트 부무장s"
 msgstr[0] "Фотонный пистолет"
 msgstr[1] "Фотонных пистолетов"
 msgstr[2] ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
 "고체화된 광자 볼트를 발사하는 에너지 부무장은 하드라이트 총기 기술력의 선구자"
 "입니다. 통상의 레이저 무기보다 사거리가 다소 짧지만 관통력이 강하고 화력이 뛰"
@@ -1597,14 +1605,14 @@ msgstr ""
 "меньше, чем у обычного лазерного оружия, но оно обладает высокой проникающей "
 "способностью и большой огневой мощью."
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "하드라이트 확산총"
 msgid_plural "하드라이트 확산총s"
 msgstr[0] "Фотонный дробовик"
 msgstr[1] "Фотонных дробовиков"
 msgstr[2] ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
 "근거리에서의 압도적인 군중 제압력과 화력을 모두 갖추도록 만든 하드라이트 에너"
 "지 샷건입니다. 샷건이지만 사실 특수화기에 가깝습니다. 날카로운 단면을 지닌 광"
@@ -1615,14 +1623,14 @@ msgstr ""
 "дробовик, на самом деле он скорее специализированный: фотонные осколки с "
 "острым сечением рассеиваются и преломляются в сторону ближайших жертв."
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "하드라이트 카빈"
 msgid_plural "하드라이트 카빈s"
 msgstr[0] "Фотонный карабин"
 msgstr[1] "Фотонных карабинов"
 msgstr[2] ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
 "고체화된 광자 바늘을 폭풍처럼 발사하는 작은 에너지 카빈입니다. 하드라이트 소"
 "총보다 더 나은 휴대성과 빠른 조준속도를 지녀, 코너에서 마주치는 적들에게 깜"
@@ -1632,23 +1640,24 @@ msgstr ""
 "Благодаря лучшей мобильности и более быстрому прицеливанию, чем у винтовки "
 "hardlight, вы сможете заставать врагов за углами."
 
-#: .\advtech\sq_hardlight_fusion.json .\items\sq_weapon_override.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+#: .\items\sq_weapon_override.json
 msgid "burst"
 msgstr ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgctxt "gun_type_type"
 msgid "smg"
 msgstr ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "하드라이트 소총"
 msgid_plural "하드라이트 소총s"
 msgstr[0] "Фотонная винтовка"
 msgstr[1] "Фотонных винтовок"
 msgstr[2] ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
 "하드라이트 에너지 소총은 이른바 '광선 고체화 매트릭스'로 불리는 매커니즘을 사"
 "용하는 에너지 무기입니다. 고체화된 광자 볼트를 속사하며, 재래식 돌격소총보다 "
@@ -1661,19 +1670,19 @@ msgstr ""
 "винтовки, оно отличается высокой скоростью и точностью, что делает его "
 "весьма эффективным в бою на средних дистанциях."
 
-#: .\advtech\sq_hardlight_fusion.json .\items\sq_generic.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json .\items\sq_generic.json
 msgctxt "gun_type_type"
 msgid "rifle"
 msgstr ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "하드라이트 정밀소총"
 msgid_plural "하드라이트 정밀소총s"
 msgstr[0] "Высокоточная фотонная винтовка"
 msgstr[1] "Высокоточных фотонных винтовок"
 msgstr[2] ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
 "고체화된 고출력 광자 볼트를 발사하는 에너지 정밀소총입니다. 다른 지정사수소총"
 "보다 사거리가 짧고 저지력이 낮아 멀리서 적을 방해하기 쉽지 않지만 향상된 조"
@@ -1686,14 +1695,14 @@ msgstr ""
 "противника на расстоянии, но улучшенная система прицеливания и низкий "
 "уровень шума компенсируют это, позволяя совершать маневры с перебежками."
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "하드라이트 롱보우"
 msgid_plural "하드라이트 롱보우s"
 msgstr[0] "Фотонный длинный лук"
 msgstr[1] "Фотонных длинных луков"
 msgstr[2] ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
 "고효율로 동작하는 UPS 전원을 사용하는 매끄럽고 줄이 없는 초합금 롱보우입니"
 "다. 각 사격마다 프로젝터를 통하여 즉시 강력한 빛으로 이루어진 줄과 화살을 생"
@@ -1704,8 +1713,7 @@ msgstr ""
 "мощный световой поток, проходящий через проектор. Такие системы обеспечивают "
 "исключительную точность и пробивную способность."
 
-#: .\advtech\sq_hardlight_fusion.json
-#, fuzzy
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "하드라이트 글레이브 (꺼짐)"
 msgid_plural "하드라이트 글레이브 (꺼짐)s"
 msgstr[0] "Фотонная глефа (откл.)"
@@ -1715,18 +1723,18 @@ msgstr[2] ""
 #. ~ Use action menu_text for {'str': '하드라이트 글레이브 (꺼짐)'}.
 #. ~ Use action menu_text for {'str': '실험용 하드라이트 블레이드 (꺼짐)'}.
 #. ~ Use action menu_text for {'str': '제로 세이버', 'str_pl': '제로 세이버'}.
-#: .\advtech\sq_hardlight_fusion.json .\advtech\sq_nano_tier.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json .\advtech\sq_nano_tier.json
 #: .\items\sq_unrand.json
 msgid "Expand"
 msgstr ""
 
 #. ~ Use action msg for {'str': '하드라이트 글레이브 (꺼짐)'}.
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "하드라이트 글레이브를 켰습니다."
 msgstr "Вы нажимаете на кнопку в рукояти фотонной глефы активируя его."
 
 #. ~ Description for {'str': '하드라이트 글레이브 (꺼짐)'}
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
 "이 무기는 고대 중국 무기의 양식을 SF 방식으로 재현한 동서고금 문화의 키메라입"
 "니다. 절삭력은 두말할 것도 없거니와, 자루 부분 또한 초합금으로 제작되어 있습"
@@ -1738,8 +1746,7 @@ msgstr ""
 "рукоять изготовлена из сверхпрочного сплава. Вы можете стать военачальником "
 "из легенды, только нужно найти длинную бороду и рыжего коня."
 
-#: .\advtech\sq_hardlight_fusion.json
-#, fuzzy
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "하드라이트 글레이브 (켜짐)"
 msgid_plural "하드라이트 글레이브 (켜짐)"
 msgstr[0] "Фотонная глефа (вкл.)"
@@ -1751,19 +1758,19 @@ msgstr[2] ""
 #. ~ Use action menu_text for {'str': '실험용 하드라이트 블레이드 (켜짐)', 'str_pl': '실험용
 #. 하드라이트 블레이드 (켜짐)'}.
 #. ~ Use action menu_text for {'str': '제로 세이버', 'str_pl': '제로 세이버'}.
-#: .\advtech\sq_hardlight_fusion.json .\advtech\sq_nano_tier.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json .\advtech\sq_nano_tier.json
 #: .\items\sq_unrand.json
 msgid "Collapse"
 msgstr ""
 
 #. ~ Use action msg for {'str': '하드라이트 글레이브 (켜짐)', 'str_pl': '하드라이트 글레이브
 #. (켜짐)'}.
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "하드라이트 글레이브를 껐습니다."
 msgstr "Вы нажимаете на кнопку в рукояти фотонной глефы деактивируя его."
 
 #. ~ Description for {'str': '하드라이트 글레이브 (켜짐)', 'str_pl': '하드라이트 글레이브 (켜짐)'}
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
 "이 무기는 고대 중국 무기의 양식을 SF 방식으로 재현한 동서고금 문화의 키메라입"
 "니다. 절삭력은 두말할 것도 없거니와, 자루 부분 또한 초합금으로 제작되어 있습"
@@ -1776,14 +1783,14 @@ msgstr ""
 "из легенды, только нужно найти длинную бороду и рыжего коня. Используйте его "
 "чтобы выключить"
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "가우스 리볼버"
 msgid_plural "가우스 리볼버s"
 msgstr[0] "Револьвер системы Гаусса"
 msgstr[1] "Револьверов системы Гаусса"
 msgstr[2] ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
 "대재앙의 황량한 도시는 위험하니, 이 리볼버를 가져가세요. 초가열된 금속 레일"
 "을 발사하는 믿음직한 5연발 원자력 가우스 리볼버 한 정이면 누구보다 빠르게, 남"
@@ -1795,28 +1802,27 @@ msgstr ""
 "хорошо вооруженных бандитов, быстрее, чем кто-либо другой. Почуствуйте себя "
 "одноруким Гордоном Фриманом."
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "단발"
 msgstr "semi"
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "패닝"
 msgstr "heat"
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgctxt "gun_type_type"
 msgid "pistol"
 msgstr ""
 
-#: .\advtech\sq_hardlight_fusion.json
-#, fuzzy
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "가우스 집속포"
 msgid_plural "가우스 집속포s"
 msgstr[0] "Зенитная пушка Гаусса"
 msgstr[1] "Зенитных пушек Гаусса"
 msgstr[2] ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
 "소형 퓨전 코어로 가동하는 가우스 플랙 건. 밀집된 적들을 처리하는데 좋습니다. "
 "과냉각된 금속 레일 탄자는 충격을 받으면 파편의 폭풍을 일으켜 주변 지대를 초토"
@@ -1827,14 +1833,14 @@ msgstr ""
 "разрушающую окружающее пространство, и отлично подходят для поражения плотно "
 "скопившихся врагов."
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "가우스 라이플"
 msgid_plural "가우스 라이플s"
 msgstr[0] "Гаусс-винтовка"
 msgstr[1] "Гаусс-винтовок"
 msgstr[2] ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
 "소형 퓨전 코어로 가동하는 가우스 라이플. 보병 개인화기주제에 무겁고 커다랗고 "
 "연사속도가 느리지만 건물 벽이든 자동차든 모두 전자기로 날려버리는 화력이 모"
@@ -1848,14 +1854,14 @@ msgstr ""
 "Флеминга, но мы стреляем из него указательным пальцем правой руки, а левая "
 "рука - это просто пояс."
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "가우스 드라이버"
 msgid_plural "가우스 드라이버s"
 msgstr[0] "Рельсотрон"
 msgstr[1] "Рельсотронов"
 msgstr[2] ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
 "순수한 화력을 장거리까지 보낸다는 생각 하나만을 위하여, 인체 공학적 설계 따위"
 "는 갖다 버린, 비대해진 이중 레일이 총신의 대부분을 차지하는 기형적 구조를 가"
@@ -1868,15 +1874,14 @@ msgstr ""
 "Лучшего оружия для нанесения \"воскресного удара\" по самому мощному "
 "противнику не найти."
 
-#: .\advtech\sq_hardlight_fusion.json
-#, fuzzy
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "가우스 어설트 캐논"
 msgid_plural "가우스 어설트 캐논s"
 msgstr[0] "штурмовая гаусс-пушка"
 msgstr[1] "штурмовых гаусс-пушек"
 msgstr[2] ""
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
 "매우 육중하고 아름다운 가우스 중화기. 연사력을 위하여 퓨전 코어를 하나 더 장"
 "착했습니다. 두 개의 심장으로 작동하는 이 훌륭한 대화수단은 가열된 금속 파편"
@@ -1887,30 +1892,29 @@ msgstr ""
 "великий собеседник выпускает бесконечный поток раскаленных металлических "
 "осколков."
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "고속 자동"
 msgstr "high auto"
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "해머 블로"
 msgstr "hammer blow"
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "강력한 넉백 공격"
 msgstr "сильная нокаутирующая атака, 166% урона от ударов и колющих ударов"
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 #, c-format
 msgid "%s을(를) 내려찍습니다."
 msgstr "<npcname> strike %s down for the finishing blow."
 
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 #, c-format
 msgid "<npcname>이(가) %s을(를) 내려찍습니다."
 msgstr "<npcname> strike %s down for the finishing blow."
 
-#: .\advtech\sq_hardlight_fusion.json
-#, fuzzy
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "퓨전 로켓 해머"
 msgid_plural "퓨전 로켓 해머s"
 msgstr[0] "реактивный молот (Fusion)"
@@ -1918,7 +1922,7 @@ msgstr[1] "реактивных молотов (Fusion)"
 msgstr[2] ""
 
 #. ~ Description for {'str': '퓨전 로켓 해머'}
-#: .\advtech\sq_hardlight_fusion.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
 "퓨전 코어를 동력원으로 사용하는 거대한 로켓 추진 공성 해머. 망치질 뿐만 아니"
 "라 원자력에서 나오는 초고온의 불꽃을 투사하여 멀리 떨어진 적에게 불지옥을 선"
@@ -1935,6 +1939,331 @@ msgstr ""
 "справиться с этим оружием, поэтому его называют оружием королей. Будьте "
 "осторожны при обращении с ним. Если только вы не желаете расплавить своих "
 "близких с землей."
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid "경량 레일 스피드로더"
+msgid_plural "경량 레일 스피드로더s"
+msgstr[0] "Компактный рельсовый скорозарядник"
+msgstr[1] "Компактный рельсовый скорозарядник"
+msgstr[2] ""
+
+#. ~ Description for {'str': '경량 레일 스피드로더'}
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid ""
+"레일건용 스피드로더입니다. 레일 탄환 8발을 넣을 수 있고 호환되는 총기를 빠르"
+"게 장전할 수 있습니다."
+msgstr ""
+"Это скорозарядное устройство для рельсового оружия. Он вмещает 8 рельсовых "
+"патронов и позволяет быстро заряжать совместимое огнестрельное оружие."
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid "표준 레일 스피드로더"
+msgid_plural "표준 레일 스피드로더s"
+msgstr[0] "Стандартный рельсовый скорозарядник"
+msgstr[1] "Стандартный рельсовый скорозарядник"
+msgstr[2] ""
+
+#. ~ Description for {'str': '표준 레일 스피드로더'}
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid ""
+"레일건용 스피드로더입니다. 레일 탄환 25발을 넣을 수 있고 호환되는 총기를 빠르"
+"게 장전할 수 있습니다."
+msgstr ""
+"Это скорозарядное устройство для рельсового оружия. Он вмещает 25 рельсовых "
+"патронов и позволяет быстро заряжать совместимое оружие."
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid "대형 레일 스피드로더"
+msgid_plural "대형 레일 스피드로더s"
+msgstr[0] "Большой рельсовый скорозарядник"
+msgstr[1] ""
+msgstr[2] ""
+
+#. ~ Description for {'str': '대형 레일 스피드로더'}
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid ""
+"레일건용 대형 스피드로더입니다. 레일 탄환 50발을 넣을 수 있고 호환되는 총기"
+"를 빠르게 장전할 수 있습니다."
+msgstr ""
+"Это большой скорозарядник для рельсового оружия. Вмещает 50 рельсовых "
+"патронов и позволяет быстро заряжать совместимое оружие."
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid "스마트 피스톨 모듈"
+msgid_plural "스마트 피스톨 모듈s"
+msgstr[0] "Модуль умного пистолета"
+msgstr[1] "Модуль умного пистолета"
+msgstr[2] ""
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid ""
+"이 피스톨 모듈은 더블테크 엔지니어들의 자부심이 담긴 역작입니다. 모션 센서를 "
+"포함한 스마트 자동 조준 기능을 갖춘 스마트 피스톨 모듈은 정확한 사격을 돕기 "
+"위해 탄환을 목표물에 자동으로 조준하는 기술을 포함하고 있습니다. 이 모듈은 탄"
+"환 트래킹과 자동 조준 등의 기술을 통해 비교적 짧은 거리에서의 사격에 높은 정"
+"확도를 제공합니다."
+msgstr ""
+"Этот пистолетный модуль - одно из недавних достижений инженеров DoubleTech "
+"до катаклизма. Интеллектуальный пистолетный модуль Smart Pistol Module "
+"оснащен технологией автоматического наведения пули на цель с помощью "
+"датчиков движения, что способствует точности стрельбы. Благодаря таким "
+"технологиям, как слежение за пулей и автоприцеливание, этот модуль "
+"обеспечивает высокую точность стрельбы на сравнительно небольших расстояниях."
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid "mechanism"
+msgstr ""
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid "탄도 보조 프로세서"
+msgid_plural "탄도 보조 프로세서s"
+msgstr[0] "Баллистический сопроцессор"
+msgstr[1] "Баллистический сопроцессор"
+msgstr[2] ""
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid ""
+"이 스마트건 모듈은 더블테크 엔지니어들의 자부심이 담긴 역작으로, 향상된 정확"
+"도와 사격 효율을 제공하는 스마트 피쳐를 통합한 장치입니다. 이 모듈은 탄환 경"
+"로 계산, 환경 조건 모니터링 등의 기능을 통해 사격의 명중률을 크게 향상시키며 "
+"군사용 정밀 라이플에 적용됩니다."
+msgstr ""
+"Модуль \"умного оружия\" - одно из недавних достижений инженеров DoubleTech "
+"до катаклизма, вызвавшее фурор в оружейной отрасли, включающий в себя "
+"интеллектуальные функции, обеспечивающие повышение точности и эффективности "
+"стрельбы. Благодаря таким функциям, как расчет траектории полета пули и "
+"мониторинг состояния окружающей среды, модуль значительно повышает процент "
+"попадания при стрельбе и применяется в военных высокоточных винтовках."
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid "퀵 리로더"
+msgid_plural "퀵 리로더s"
+msgstr[0] "Пулевой быстрозарядник"
+msgstr[1] "Пулевой быстрозарядник"
+msgstr[2] ""
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid ""
+"총기를 효율적으로 장전하는 부착물 모음으로, 총알이나 탄창을 빠르게 장전하여 "
+"전투에서의 생존능력을 높이는 역할을 합니다."
+msgstr ""
+"Набор приспособлений для эффективного заряжания огнестрельного оружия, "
+"позволяющий быстро заряжать обоймы или магазины для повышения живучести в "
+"бою."
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid "전자기 탄환가속장치"
+msgid_plural "전자기 탄환가속장치s"
+msgstr[0] "Электромагнитный ускоритель"
+msgstr[1] "Электромагнитный ускоритель"
+msgstr[2] ""
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid ""
+"화약 총기를 전열화학포로 개조합니다. 총기의 공격력은 크게 상승하지만 UPS의 전"
+"력을 사용하게 됩니다. 이 실험적인 장치는 목표물을 격파하는 데 효과적인 열량"
+"을 생성하고 발사하여, 특히 장거리 타격 및 장애물 관통에 우수한 성능을 제공합"
+"니다. 충분한 전자공학 및 기계공학적 지식을 보유한다면 더 굉장한 물건을 만들 "
+"수 있을지 모릅니다."
+msgstr ""
+"Преобразует пороховое оружие в электротермическое оружие. Наносимый урон, "
+"значительно увеличивается, но при этом оно потребляет энергию от ИБП. Это "
+"экспериментальное устройство генерирует и выпускает эффективное количество "
+"тепла для уничтожения целей, что делает его особенно эффективным при "
+"нанесении дальних ударов и пробивании препятствий. При наличии достаточных "
+"знаний в области электроники и механики вы сможете создать нечто еще более "
+"потрясающее."
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid "오버드 레일건 확장모드"
+msgid_plural "오버드 레일건 확장모드s"
+msgstr[0] "Расширенный режим перегрузки рельсотрона"
+msgstr[1] "Расширенный режим перегрузки рельсотрона"
+msgstr[2] ""
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid ""
+"경고!\n"
+"이 도구는 총기를 손상시킬 수 있습니다!\n"
+"사용자 책임하에 사용하세요!\n"
+"전자기 탄환가속장치(EPA)모듈을 극도로 과개조한 괴물로, 오버드 레일건 확장모드"
+"(Overed RailGun Expansion mod), 줄여서 O.R.G.E입니다. 이 출력 리미터를 해제"
+"한 총기 부착물은 총기 약실부터 전열화학포에 특화된 구조로 갈아치워 공격력을 "
+"극적으로 높이지만, 그만큼 많은 전력 소비를 요구하며 무겁습니다."
+msgstr ""
+"Внимание!\n"
+"Данная модификация может повредить огнестрельное оружие!\n"
+"Используйте на свой страх и риск!\n"
+"Мод Overed RailGun Expansion, или сокращенно O.R.G.E, представляет собой "
+"чрезвычайно перемодифицированный монстр модуля электромагнитного ускорителя "
+"пули (EPA). При выключенном ограничителе мощности насадка переходит из "
+"патронника в термохимическую пушку, что резко увеличивает урон, но за счет "
+"энергопотребления и веса."
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid "첨단 소음 억제기"
+msgid_plural "첨단 소음 억제기s"
+msgstr[0] "Продвинутый глушитель"
+msgstr[1] ""
+msgstr[2] ""
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid ""
+"사격시 발생하는 소음과 총구 화염을 크게 감소시킵니다. 나노입자가 도포된 내부 "
+"흡음재가 소음을 효과적으로 제거합니다."
+msgstr ""
+"Значительно снижает шум и дульное пламя при стрельбе. Внутренний "
+"звукопоглощающий материал с нанесенными наночастицами эффективно устраняет "
+"шум."
+
+#.
+#. ~ Mutation class name
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+#: .\mutations\mutation_category.json
+msgid "muzzle"
+msgstr ""
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid "소음기 MK II"
+msgid_plural "소음기 MK IIs"
+msgstr[0] "walker: sniper MK II"
+msgstr[1] "walkers: sniper MK II"
+msgstr[2] ""
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid ""
+"소음기는 사격시 발생하는 소음과 총구 화염을 감소시킵니다. 총기 사격음은 굉장"
+"히 크기 때문에, 적절한 보호수단이 없다면 청각을 손상시킬 수 있습니다. 이 개선"
+"된 군용 소음기는 사격음을 크게 억제하며, 사격 정확도를 높입니다."
+msgstr ""
+"Глушители снижают уровень шума и дульного пламени огнестрельного оружия. "
+"Огнестрельное оружие очень громкое и может повредить слух без надлежащей "
+"защиты.  Данный глушитель нового поколения значительно подавляет звук "
+"выстрела и повышает точность стрельбы."
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid "총열 강선"
+msgid_plural "총열 강선s"
+msgstr[0] "Ствол с удлиненной спиральной канавкой"
+msgstr[1] "Ствол с удлиненной спиральной канавкой"
+msgstr[2] ""
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid ""
+"총신 안쪽에 길쭉한 나선형 홈이 새겨진 총신으로, 총알이 이동하면서 나선형 홈"
+"을 따라 회전하게 됩니다. 회전으로 인한 각운동량으로 인해 총알은 주변 기류와 "
+"바람의 영향을 덜 받는 안정적인 궤적을 그리게 됩니다."
+msgstr ""
+"Ствол оружия с удлиненной спиральной канавкой, вырезанной во внутренней "
+"части ствола, в результате чего пуля при движении вращается вдоль спиральной "
+"канавки. Благодаря угловому моменту, возникающему при вращении, пуля "
+"движется по стабильной траектории, на которую меньше влияют потоки воздуха и "
+"ветер."
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid "barrel"
+msgstr ""
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid "산탄 초크"
+msgid_plural "산탄 초크s"
+msgstr[0] "Ружейный чок"
+msgstr[1] "Ружейный чок"
+msgstr[2] ""
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid ""
+"산탄총의 총구 끄트머리 내부를 죄어, 총구 직경을 조여주는 총기 부착물입니다. "
+"초크를 얼마나 조여주느냐에 따라서 산탄의 산포도가 달라지므로, 사냥꾼들이 많"
+"이 신경쓰는 부분입니다."
+msgstr ""
+"Насадка для огнестрельного оружия, навинчивающаяся на внутреннюю часть дула "
+"ружья и стягивающая дульный диаметр. От того, насколько плотно затянут чок, "
+"зависит рассеивание дроби, что очень важно для охотников."
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid "스마트 초크"
+msgid_plural "스마트 초크s"
+msgstr[0] "Умный ружейный чок"
+msgstr[1] "Умный ружейный чок"
+msgstr[2] ""
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid ""
+"스마트 산탄초크는 현대 총기 기술의 혁신적인 제품으로, 전자 제어 시스템을 활용"
+"하여 다양한 사격 상황에서 자동으로 총열을 조절합니다. 적응적인 조절과 데이터 "
+"분석을 통해 총구의 최적의 성능을 유지하여 탄도를 개선하고 집탄률을 비약적으"
+"로 늘립니다."
+msgstr ""
+"Умные ружейные чоки - это прорыв в современной стрелковой технике основанное "
+"на технологии умного оружия , использующий электронную систему управления "
+"для автоматической регулировки ствола в различных ситуациях стрельбы. "
+"Благодаря адаптивной регулировке и анализу данных она поддерживает "
+"оптимальные характеристики дульного среза, улучшая баллистику и значительно "
+"повышая точность попадания."
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid "신경 제어 트리거"
+msgid_plural "신경 제어 트리거"
+msgstr[0] "Триггеры нейроконтроля"
+msgstr[1] "Триггеры нейроконтроля"
+msgstr[2] ""
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid ""
+"사용자의 뇌파를 읽어 총기를 의도대로 발사할 수 있게 합니다. 이로써 반사 시간"
+"을 제거하고 명중률을 향상시킬 수 있습니다."
+msgstr ""
+"Считывание мозговых волн пользователя позволяет обеспечить правильную "
+"стрельбу из огнестрельного оружия, устраняя время рефлекса и повышая "
+"точность попадания."
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid "터보 차저"
+msgid_plural "터보 차저s"
+msgstr[0] "Турбочарджер"
+msgstr[1] "Турбочарджер"
+msgstr[2] ""
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid ""
+"가우스 총기의 출력을 향상시켜 연사력을 증가시키는 고출력 축전지입니다. 반대 "
+"급부로 총기의 분산도와 반동을 상당히 높여서 조작에 어려움을 초래합니다."
+msgstr ""
+"Мощный аккумулятор Гаусса, увеличивающий мощность огнестрельного оружия и "
+"повышающий его огневую мощь. С другой стороны, он значительно увеличивает "
+"рассеивание и отдачу оружия, затрудняя его маневрирование."
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgctxt "gun_type_type"
+msgid "sq_fusion_rifle"
+msgstr ""
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgctxt "gun_type_type"
+msgid "sq_fusion_shotgun"
+msgstr ""
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid "탄약 전송 장치"
+msgid_plural "탄약 전송 장치s"
+msgstr[0] "Устройство для переноса боеприпасов"
+msgstr[1] "Устройство для переноса боеприпасов"
+msgstr[2] ""
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid ""
+"총기의 급탄방식을 탄창에서 '전송'으로 영구적으로 교체하는데 필요한 부품입니"
+"다. 장치 내부에 탑재된 초소형 포탈 생성기가 열리고 닫히면서 탄약을 '하나씩' "
+"총기의 약실 내부로 밀어넣습니다. 연사가 불가능해지지만 여분의 탄창을 들고 다"
+"닐 필요가 없어집니다."
+msgstr ""
+"Компонент, необходимый для перманентного изменения способа подачи патронов в "
+"огнестрельном оружии с магазинного на \"передаточный\". Крошечный портальный "
+"генератор внутри устройства открывается и закрывается, проталкивая "
+"боеприпасы \"один за другим\" в патронник огнестрельного оружия, что делает "
+"невозможным выстрел, но избавляет от необходимости носить с собой запасной "
+"магазин."
 
 #: .\advtech\sq_main_tools.json
 msgid "원자력 용광로"
@@ -1993,7 +2322,6 @@ msgstr ""
 "топлива, а также слоистые углеводороды для изоляции."
 
 #: .\advtech\sq_main_tools.json
-#, fuzzy
 msgid "물질 합성기: 나노 정밀 재봉틀"
 msgid_plural "물질 합성기: 나노 정밀 재봉틀s"
 msgstr[0] "синтезатор материи: нанопрецизионная швейная машина"
@@ -2103,7 +2431,6 @@ msgstr ""
 "\""
 
 #: .\advtech\sq_meds.json
-#, fuzzy
 msgid "나노포장 붕대"
 msgid_plural "나노포장 붕대s"
 msgstr[0] "нано-упакованный бинт"
@@ -2420,11 +2747,10 @@ msgid "가려움증이 사라집니다."
 msgstr "Зуд проходит."
 
 #: .\advtech\sq_meds.json
-#, fuzzy
 msgid "트리피드 해독제"
 msgid_plural "트리피드 해독제s"
-msgstr[0] "triffid antidote"
-msgstr[1] "triffid antidotes"
+msgstr[0] "Антидот Триффида"
+msgstr[1] "Антидот Триффида"
 msgstr[2] ""
 
 #. ~ Description for {'str': '트리피드 해독제'}
@@ -2790,8 +3116,8 @@ msgstr ""
 #: .\advtech\sq_nano_tier.json
 msgid "타입-보이 (태블릿 PC)"
 msgid_plural "타입-보이 (태블릿 PC)"
-msgstr[0] "Type-Boy (tablet PC)"
-msgstr[1] "Type-Boys (tablet PC)"
+msgstr[0] "Type-Boy (Планшет)"
+msgstr[1] "Type-Boy (Планшет)"
 msgstr[2] ""
 
 #. ~ Use action menu_text for {'str': '타입-보이 (태블릿 PC)', 'str_pl': '타입-보이 (태블릿
@@ -3328,6 +3654,41 @@ msgstr ""
 "другие компоненты автомобиля, а также она может крепиться к другим рамам для "
 "увеличения габаритов автомобиля. Увеличение массы повышает устойчивость к "
 "повреждениям при столкновениях за счёт потенциальной перегоночной дальности."
+
+#: .\advtech\sq_vehicle_part.json
+msgid "탄소섬유 장갑판"
+msgstr "рама из углеродного волокна"
+
+#. ~ Description for {'str': '탄소섬유 장갑판'}
+#: .\advtech\sq_vehicle_part.json
+msgid ""
+"튼튼한 탄소섬유 벽입니다. 좀비들이 차량에 들어오는 것을 막고 시야를 차단합니"
+"다."
+msgstr ""
+"Прочная полноразмерная часть корпуса из углеродного волокна. Она "
+"препятствует проникновению существ в машину и закрывает им обзор."
+
+#: .\advtech\sq_vehicle_part.json
+msgid "탄소섬유 쿼터패널"
+msgstr "рама из углеродного волокна"
+
+#. ~ Description for {'str': '탄소섬유 쿼터패널'}
+#: .\advtech\sq_vehicle_part.json
+msgid ""
+"절반 높이의 튼튼한 탄소섬유 벽입니다. 좀비들이 차량에 들어오는 것을 막지만 시"
+"야를 차단하지는 않습니다."
+msgstr ""
+"Прочная часть корпуса в половину высоты из углеродного волокна. Она "
+"препятствует проникновению существ в машину, но не закрывает обзор."
+
+#: .\advtech\sq_vehicle_part.json
+msgid "탄소섬유 지붕"
+msgstr "рама из углеродного волокна"
+
+#. ~ Description for {'str': '탄소섬유 지붕'}
+#: .\advtech\sq_vehicle_part.json
+msgid "두꺼운 탄소섬유 지붕."
+msgstr "Толстая крыша из углеродного волокна."
 
 #: .\items\sq_armor_override.json
 msgid "fur coat"
@@ -3970,7 +4331,6 @@ msgstr ""
 "туристов, доставщиков не из \"Bridges\""
 
 #: .\items\sq_cargo_frame.json
-#, fuzzy
 msgid "다람쥐 팩"
 msgid_plural "다람쥐 팩s"
 msgstr[0] "\"Rat-Pack\""
@@ -5708,8 +6068,8 @@ msgid ""
 "사용키를 누르면\n"
 "가스 잠그네"
 msgstr ""
-"Wrath of the Sun\n"
-"When you press the (a)\n"
+"Гнев солнца\n"
+"При нажатии кнопки (a)\n"
 "Gas Lock"
 
 #: .\items\sq_unrand.json
@@ -5722,13 +6082,12 @@ msgstr[2] ""
 #. ~ Use action msg for {'str_sp': '류이치몬지'}.
 #: .\items\sq_unrand.json
 msgid "용신의 검을 받아라!"
-msgstr "The dragon becomes me!"
+msgstr "Дракон становится мною!"
 
 #. ~ Use action need_charges_msg for {'str_sp': '류이치몬지'}.
 #: .\items\sq_unrand.json
-#, fuzzy
 msgid "검의 목소리가 들려온다. \"궁극기 충전 중이다.\""
-msgstr "Вы слышите голос меча. \"Я заряжаюсь на максимальную мощность\"."
+msgstr "Раздается голос меча. \"Ultimate заряжается\"."
 
 #. ~ Description for {'str_sp': '류이치몬지'}
 #: .\items\sq_unrand.json
@@ -5743,13 +6102,13 @@ msgstr ""
 #. ~ Use action msg for {'str_sp': '류이치몬지'}.
 #: .\items\sq_unrand.json
 msgid "용은 재충전이 필요하다."
-msgstr "The dragon needs recharging."
+msgstr "Дракону необходима подзарядка."
 
 #: .\items\sq_unrand.json
 msgid "하이랜더"
 msgid_plural "하이랜더"
-msgstr[0] "highlander"
-msgstr[1] "highlanders"
+msgstr[0] "Горец"
+msgstr[1] "Горцев"
 msgstr[2] ""
 
 #. ~ Description for {'str_sp': '하이랜더'}
@@ -5913,9 +6272,8 @@ msgstr "Божий гнев"
 
 #. ~ Description for {'str': '천상의 분노'}
 #: .\items\sq_unrand.json
-#, fuzzy
 msgid "적 하나를 갈라버립니다."
-msgstr "Разделение врага."
+msgstr "Splits an enemy."
 
 #. ~ Description for the sound of spell '{'str': '천상의 분노'}'
 #: .\items\sq_unrand.json
@@ -6444,7 +6802,6 @@ msgstr[1] "power shot"
 msgstr[2] ""
 
 #: .\monsters\sq_mech_weapons.json
-#, fuzzy
 msgid "하단 부착 총."
 msgstr "Нижнее крепление орудия."
 
@@ -6491,7 +6848,6 @@ msgstr ""
 "наносплавным покрытием и плазменные проекторы."
 
 #: .\monsters\sq_mechs.json
-#, fuzzy
 msgid "강제종료"
 msgstr "Принудительный выход"
 
@@ -6805,9 +7161,8 @@ msgstr[1] ""
 msgstr[2] ""
 
 #: .\monsters\sq_walkers.json
-#, fuzzy
 msgid "메롱."
-msgstr "Merong."
+msgstr "Мерунг."
 
 #: .\monsters\sq_walkers.json
 msgid "소형 유탄발사기"
@@ -6826,8 +7181,8 @@ msgstr[2] ""
 #: .\monsters\sq_walkers.json
 msgid "바렛 M107A1"
 msgid_plural "바렛 M107A1s"
-msgstr[0] "Barrett M107A1"
-msgstr[1] "Barrett M107A1"
+msgstr[0] "Баррет M107A1"
+msgstr[1] "Баррет M107A1"
 msgstr[2] ""
 
 #: .\monsters\sq_walkers.json
@@ -7524,8 +7879,9 @@ msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 일반적인 사람보"
 "다 음식이 덜 필요하게 됩니다."
 msgstr ""
-"A special mutagenic serum designed to give you a single mutation. This one "
-"will make you require less food than most."
+"Специальная мутагенная сыворотка, предназначенная для создания одной "
+"мутации. В результате этой мутации вы будете нуждаться в меньшем количестве "
+"пищи, чем большинство других."
 
 #: .\mutations\item.json
 msgid "재주좋은 수면가 혈청"
@@ -7606,8 +7962,8 @@ msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 독에 대한 저항력"
 "을 높여줍니다."
 msgstr ""
-"A special mutagenic serum designed to give you a single mutation. This one "
-"will make you more resistant to poisons."
+"Специальная мутагенная сыворотка, предназначенная для получения одной "
+"мутации. Эта мутация сделает вас более устойчивым к ядам."
 
 #: .\mutations\item.json
 msgid "타고난 체격 혈청"
@@ -7976,9 +8332,9 @@ msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 이동 패턴을 변경"
 "하여 걷는 동안 소음을 감소시키고 함정을 작동시킬 가능성을 줄입니다."
 msgstr ""
-"A special mutagenic serum designed to produce a single mutation. Modifies "
-"movement patterns, reducing walking noise and reducing the likelihood of "
-"traps being triggered."
+"Специальная мутагенная сыворотка, предназначенная для получения одной "
+"мутации. Изменяет характер движения, уменьшая шум при ходьбе и снижая "
+"вероятность срабатывания ловушек."
 
 #: .\mutations\item.json
 msgid "튼튼한 유전자 혈청"
@@ -9755,8 +10111,8 @@ msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 상어나 물고기와 "
 "같은 꼬리를 얻습니다."
 msgstr ""
-"A special mutagenic serum designed to give you a single mutation. Gives you "
-"a tail like that of a shark or fish."
+"Специальная мутагенная сыворотка, предназначенная для получения одной "
+"мутации. При этом у вас появляется хвост, как у акулы или рыбы."
 
 #: .\mutations\item.json
 msgid "긴 꼬리 혈청"
@@ -10319,8 +10675,8 @@ msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 고양이의 수염을 "
 "얻습니다."
 msgstr ""
-"A special mutagenic serum designed to give you a single mutation. This one "
-"gives you feline whiskers."
+"Специальная мутагенная сыворотка, предназначенная для получения одной "
+"мутации. В данном случае это кошачьи усы."
 
 #: .\mutations\item.json
 msgid "뻣뻣한 수염 혈청"
@@ -10402,8 +10758,8 @@ msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 캬~ 근육 찢 었 "
 "다!"
 msgstr ""
-"A special mutagenic serum designed to give you a single mutation. Dude, "
-"you're ripped!"
+"Специальная мутагенная сыворотка, предназначенная для получения одной "
+"мутации. Чувак, да ты подкачался!"
 
 #: .\mutations\item.json
 msgid "초인적 근력 혈청"
@@ -10612,8 +10968,8 @@ msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 감각 기관을 마음"
 "대로 늘리고 줄일 수 있게 됩니다."
 msgstr ""
-"A special mutagenic serum designed to give you a single mutation. Become "
-"capable of growing and retracting sensory organs at will."
+"Специальная мутагенная сыворотка, предназначенная для однократной мутации. "
+"Становитесь способным по своему желанию наращивать и втягивать органы чувств."
 
 #: .\mutations\item.json
 msgid "매우 작음 혈청"
@@ -13442,11 +13798,6 @@ msgstr ""
 
 #. ~ Mutation class name
 #: .\mutations\mutation_category.json
-msgid "muzzle"
-msgstr ""
-
-#. ~ Mutation class name
-#: .\mutations\mutation_category.json
 msgid "muzzle_bear"
 msgstr ""
 
@@ -14621,89 +14972,90 @@ msgstr ""
 msgid "<npcname> feints at %s"
 msgstr ""
 
-msgid "나노붕대 치유"
-msgstr "заживление с помощью нанобинта"
+#~ msgid "나노붕대 치유"
+#~ msgstr "заживление с помощью нанобинта"
 
-msgid "나노포장 붕대를 적용했습니다. 상처가 빠른 속도로 치유됩니다."
-msgstr "Вы наложили наноповязку и рана быстро зажила."
+#~ msgid "나노포장 붕대를 적용했습니다. 상처가 빠른 속도로 치유됩니다."
+#~ msgstr "Вы наложили наноповязку и рана быстро зажила."
 
-msgid "상처가 빠른 속도로 아뭅니다. 조금 아프네요."
-msgstr "Рана быстро заживает. Немного болит."
+#~ msgid "상처가 빠른 속도로 아뭅니다. 조금 아프네요."
+#~ msgstr "Рана быстро заживает. Немного болит."
 
-msgid ""
-"UPS로 돌아가게끔 만든, 방탄조끼와 회로가 삽입된 점프슈트를 사용해서 만든 수"
-"제 방어구. 리브텍 RM13 컴뱃아머의 설계를 참고해 만들었습니다. 해석하기 어려"
-"운 기술력과 양산성을 고려하여 일부 기능이 생략되었지만, 여전히 각종 피해로부"
-"터 몸을 보호해줍니다. 사용하면 전원을 켭니다."
-msgstr ""
-"Специально спроектированный силовой бронекостюм из бронежилета и комбинезона "
-"со встроенной в него схемой, рассчитанной на внутреннее питание от ИБП. За "
-"основу взят дизайн боевой брони Rivtech RM13. Некоторые функции были опущены "
-"из-за сложности интерпретации технологии и для повышения производительности, "
-"но он по-прежнему защищает вас не только от стихии, но и от вреда. "
-"Используйте его для включения."
+#~ msgid ""
+#~ "UPS로 돌아가게끔 만든, 방탄조끼와 회로가 삽입된 점프슈트를 사용해서 만든 "
+#~ "수제 방어구. 리브텍 RM13 컴뱃아머의 설계를 참고해 만들었습니다. 해석하기 "
+#~ "어려운 기술력과 양산성을 고려하여 일부 기능이 생략되었지만, 여전히 각종 피"
+#~ "해로부터 몸을 보호해줍니다. 사용하면 전원을 켭니다."
+#~ msgstr ""
+#~ "Специально спроектированный силовой бронекостюм из бронежилета и "
+#~ "комбинезона со встроенной в него схемой, рассчитанной на внутреннее "
+#~ "питание от ИБП. За основу взят дизайн боевой брони Rivtech RM13. "
+#~ "Некоторые функции были опущены из-за сложности интерпретации технологии и "
+#~ "для повышения производительности, но он по-прежнему защищает вас не "
+#~ "только от стихии, но и от вреда. Используйте его для включения."
 
-msgid "동위원소 원심분리 용광로"
-msgid_plural "동위원소 원심분리 용광로s"
-msgstr[0] "Печь для центрифугирования изотопов"
-msgstr[1] "isotope centrifuge forges"
-msgstr[2] ""
+#~ msgid "동위원소 원심분리 용광로"
+#~ msgid_plural "동위원소 원심분리 용광로s"
+#~ msgstr[0] "Печь для центрифугирования изотопов"
+#~ msgstr[1] "isotope centrifuge forges"
+#~ msgstr[2] ""
 
-msgid ""
-"원자력 용광로 겸 회전 원심분리기. 액체납으로 차폐한 이중관과 이중용기로 이루"
-"어진 전기먹는 하마입니다. 본격적인 핵연료의 이용과 추출이 가능해집니다."
-msgstr ""
-"Ядерная печь и ротационная центрифуга. Бегемот, питающийся электричеством, "
-"состоящий из двойной трубы и двойного сосуда, экранированного жидким "
-"свинцом. Появится возможность полномасштабной утилизации и извлечения "
-"ядерного топлива."
+#~ msgid ""
+#~ "원자력 용광로 겸 회전 원심분리기. 액체납으로 차폐한 이중관과 이중용기로 이"
+#~ "루어진 전기먹는 하마입니다. 본격적인 핵연료의 이용과 추출이 가능해집니다."
+#~ msgstr ""
+#~ "Ядерная печь и ротационная центрифуга. Бегемот, питающийся "
+#~ "электричеством, состоящий из двойной трубы и двойного сосуда, "
+#~ "экранированного жидким свинцом. Появится возможность полномасштабной "
+#~ "утилизации и извлечения ядерного топлива."
 
-msgid "우라늄 증식 용광로 (증식 완료)"
-msgid_plural "우라늄 증식 용광로 (증식 완료)s"
-msgstr[0] "кузница по обогащению урана (завершена)"
-msgstr[1] "uranium enrichment forges (completed)"
-msgstr[2] ""
+#~ msgid "우라늄 증식 용광로 (증식 완료)"
+#~ msgid_plural "우라늄 증식 용광로 (증식 완료)s"
+#~ msgstr[0] "кузница по обогащению урана (завершена)"
+#~ msgstr[1] "uranium enrichment forges (completed)"
+#~ msgstr[2] ""
 
-msgid ""
-"우라늄 증식 용광로가 농축 우라늄 생산 절차를 마쳤습니다. 분해하여 회수하십시"
-"오."
-msgstr ""
-"Кузница по обогащению урана завершила процесс производства обогащенного "
-"урана. Разберите и восстановите ее."
+#~ msgid ""
+#~ "우라늄 증식 용광로가 농축 우라늄 생산 절차를 마쳤습니다. 분해하여 회수하십"
+#~ "시오."
+#~ msgstr ""
+#~ "Кузница по обогащению урана завершила процесс производства обогащенного "
+#~ "урана. Разберите и восстановите ее."
 
-msgid "우라늄 증식 용광로"
-msgid_plural "우라늄 증식 용광로s"
-msgstr[0] "кузница для обогащения урана"
-msgstr[1] "uranium enrichment forges"
-msgstr[2] ""
+#~ msgid "우라늄 증식 용광로"
+#~ msgid_plural "우라늄 증식 용광로s"
+#~ msgstr[0] "кузница для обогащения урана"
+#~ msgstr[1] "uranium enrichment forges"
+#~ msgstr[2] ""
 
-msgid "용광로의 우라늄이 가득 찼다. 이제 꺼내야 할 시간이다."
-msgstr "Кузница полна урана, и пришло время его извлечь."
+#~ msgid "용광로의 우라늄이 가득 찼다. 이제 꺼내야 할 시간이다."
+#~ msgstr "Кузница полна урана, и пришло время его извлечь."
 
-msgid "용광로의 우라늄이 아직 증식하는 중이다."
-msgstr "Уран в кузне продолжает размножаться."
+#~ msgid "용광로의 우라늄이 아직 증식하는 중이다."
+#~ msgstr "Уран в кузне продолжает размножаться."
 
-msgid ""
-"우라늄-235의 핵융합을 기반으로 한 용광로는 플루토늄 연료전지를 대체하고, 지속"
-"적으로 농축 우라늄을 생성할 수 있는 혁신적인 에너지 시스템입니다. 방사능과 전"
-"자파가 우려된다면서 발전소를 반대하는 사람들도 있었죠. 그 사람들이 이걸 보면 "
-"뭐라고 생각할까요?"
-msgstr ""
-"Кузница, основанная на ядерном синтезе урана-235, - это революционная "
-"энергетическая система, способная заменить плутониевые топливные элементы и "
-"производить постоянно обогащенный уран. Были люди, которые выступали против "
-"этой установки, поскольку их беспокоили радиация и электромагнитные волны. "
-"Что бы они подумали, увидев это?"
+#~ msgid ""
+#~ "우라늄-235의 핵융합을 기반으로 한 용광로는 플루토늄 연료전지를 대체하고, "
+#~ "지속적으로 농축 우라늄을 생성할 수 있는 혁신적인 에너지 시스템입니다. 방사"
+#~ "능과 전자파가 우려된다면서 발전소를 반대하는 사람들도 있었죠. 그 사람들이 "
+#~ "이걸 보면 뭐라고 생각할까요?"
+#~ msgstr ""
+#~ "Кузница, основанная на ядерном синтезе урана-235, - это революционная "
+#~ "энергетическая система, способная заменить плутониевые топливные элементы "
+#~ "и производить постоянно обогащенный уран. Были люди, которые выступали "
+#~ "против этой установки, поскольку их беспокоили радиация и "
+#~ "электромагнитные волны. Что бы они подумали, увидев это?"
 
-msgid ""
-"5.56x45mm ammunition with a 62gr FMJ bullet containing a steel penetrator.  "
-"Its light weight, high accuracy, and manageable recoil lead to widespread "
-"use in the 20th century and it remains popular among militaries and "
-"civilians."
-msgstr ""
-"Патрон калибра 5,56х45 мм с пулей FMJ, c наконечником из обедненного урана, "
-"обеспечивающим превосходное поражение и проникающую способность. Малый вес, "
-"высокая точность и умеренная отдача привели к широкому распространению этого "
-"патрона в XX веке, и он по-прежнему популярен среди военных и гражданских "
-"лиц. Но вот данный боеприпас еще до катаклизма был прерогативой "
-"государственных полигонов-лабораторий и в армию не поставлялся."
+#~ msgid ""
+#~ "5.56x45mm ammunition with a 62gr FMJ bullet containing a steel "
+#~ "penetrator.  Its light weight, high accuracy, and manageable recoil lead "
+#~ "to widespread use in the 20th century and it remains popular among "
+#~ "militaries and civilians."
+#~ msgstr ""
+#~ "Патрон калибра 5,56х45 мм с пулей FMJ, c наконечником из обедненного "
+#~ "урана, обеспечивающим превосходное поражение и проникающую способность. "
+#~ "Малый вес, высокая точность и умеренная отдача привели к широкому "
+#~ "распространению этого патрона в XX веке, и он по-прежнему популярен среди "
+#~ "военных и гражданских лиц. Но вот данный боеприпас еще до катаклизма был "
+#~ "прерогативой государственных полигонов-лабораторий и в армию не "
+#~ "поставлялся."

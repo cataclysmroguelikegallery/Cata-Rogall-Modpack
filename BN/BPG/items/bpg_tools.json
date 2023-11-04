@@ -1,0 +1,164 @@
+[
+	{
+		"type": "TOOL",
+		"category": "artifacts",
+		"id": "bpg_xm00_exiler",
+		"looks_like": "diamond",
+		"name" : "XM00 추방자",
+		"description":"이계의 괴물들이 침입하는 현실의 구멍 주변의 시공간을 안정화하고, 그 구멍을 소멸시키는 시험 단계의 에너지 방출기입니다. 작동 시 주변의 시공간을 감지하여 자동으로 안정화시킵니다.",
+		"weight": "12 kg",
+		"volume": "8 L",
+		"price": 0,
+		"price_postapoc": 0,
+		"material": [ "superalloy" ],
+		"symbol": "/",
+		"color": "light_gray",
+		"ammo": "battery",
+		"max_charges": 10000,
+		"initial_charges": 0,
+		"use_action": {
+			"type": "transform",
+			"msg": "* 시스템 진단 중... \n* 시공간 안정화 시퀀스 개시",
+			"target": "bpg_xm00_exiler_on",
+			"active": true
+		},
+		"flags": [
+			"NO_SALVAGE",
+			"USE_UPS",
+			"NO_UNLOAD",
+			"NO_RELOAD",
+			"NONCONDUCTIVE"
+		]
+	},
+	{
+		"type": "TOOL",
+		"category": "artifacts",
+		"id": "bpg_xm00_exiler_on",
+		"name" : "XM00 추방자 (켜짐)",
+		"description":"이계의 괴물들이 침입하는 현실의 구멍 주변의 시공간을 안정화하고, 그 구멍을 소멸시키는 시험 단계의 에너지 방출기입니다. 작동 시 주변의 시공간을 감지하여 자동으로 안정화시킵니다. 현재 작동 중 입니다.",
+		"copy-from": "bpg_xm00_exiler",
+		"repairs_like": "bpg_xm00_exiler",
+		"revert_to": "bpg_xm00_exiler",
+		"power_draw": 80000000,
+		"use_action": { 
+			"type": "transform",
+			"menu_text": "Turn off",
+			"msg": "* 시스템 종료 중...",
+			"target": "bpg_xm00_exiler"
+		},
+		"relic_data": {
+			"recharge_scheme": [
+				{ "type": "trap", "rate": 0, "message": "The portal collapses!", "trap": "tr_portal" },
+				{ "type": "field", "interval": "1 s", "rate": 0, "field": "fd_fatigue", "int_min": 1, "int_max": 3 },
+				{ "type": "field", "interval": "1 s", "rate": 0, "field": "fd_tindalos_rift", "int_min": 1, "int_max": 3 }
+			]
+		}
+	},
+	{
+		"result": "bpg_xm00_exiler",
+		"type": "recipe",
+		"category": "CC_첨단기술",
+		"subcategory": "CSC_첨단기술_TOOLS",
+		"skill_used": "electronics",
+		"difficulty": 10,
+		"skills_required": [ [ "mechanics", 10 ], [ "fabrication", 10 ], [ "computer", 10 ] ],
+		"time": "48 h",
+		"book_learn": [ [ "bpg_recipe_lab_xedra", 10 ] ],
+		"tools": [ [ [ "sq_atomic_forge", -1 ] ], [ [ "sq_nanofab", -1 ] ] ],
+		"using": [ [ "welding_standard", 100 ] ],
+		"components": [
+			[ [ "sq_fusion_core", 2 ] ],
+			[ [ "sq_hardlight_matrix", 2 ] ],
+			[ [ "sq_dimension_pack", 1 ] ],
+			[ [ "effective_emitter", 8 ] ],
+			[ [ "high_density_capacitor", 4 ] ],
+			[ [ "sq_uranium_cell", 8 ] ],
+			[ [ "alloy_sheet", 8 ] ],
+			[ [ "vortex_stone", 4 ] ],
+			[ [ "spiral_stone", 8 ] ],
+			[ [ "petrified_eye", 1 ], [ "bpg_cimilar", 1 ] ],
+			[ [ "cable", 100 ] ],
+			[ [ "solder_wire", 200 ] ]
+		]
+	},
+	{
+		"type": "TOOL",
+		"category": "tools",
+		"id": "bpg_cimilar",
+		"looks_like": "minireactor",
+		"name" : "싼데 비슷한 추방자",
+		"description":"XM00 추방자를 최대한 싸고 저렴하면서도 비슷하게 만든 물건입니다. 사실상 일회용에 가까운 녀석이지만 뭐 기능은 비슷하니 이만하면 됐죠! 주변의 시공간을 안정시켜 현실의 구멍을 소멸시킵니다. 단 2초 동안만요.",
+		"weight": "60 kg",
+		"volume": "20 L",
+		"price": 0,
+		"price_postapoc": 0,
+		"material": [ "hardsteel" ],
+		"symbol": "/",
+		"color": "light_gray",
+		"ammo": "battery",
+		"max_charges": 4000,
+		"initial_charges": 0,
+		"use_action": {
+			"type": "transform",
+			"msg": "<color_green>녹색 불</color>이 들어옵니다. 아마도 켜진거겠죠...?",
+			"target": "bpg_cimilar_on",
+			"active": true
+		},
+		"flags": [
+			"NO_SALVAGE",
+			"USE_UPS",
+			"NO_UNLOAD",
+			"NO_RELOAD",
+			"NONCONDUCTIVE"
+		]
+	},
+	{
+		"type": "TOOL",
+		"category": "tools",
+		"id": "bpg_cimilar_on",
+		"name" : "싼데 비슷한 추방자 (켜짐)",
+		"description":"XM00 추방자를 최대한 싸고 저렴하면서도 비슷하게 만든 물건입니다. 사실상 일회용에 가까운 녀석이지만 뭐 기능은 비슷하니 이만하면 됐죠! 주변의 시공간을 안정시켜 현실의 구멍을 소멸시킵니다. 단 2초 동안만요. 현재 작동 중 입니다.",
+		"copy-from": "bpg_cimilar",
+		"repairs_like": "bpg_cimilar",
+		"revert_to": "bpg_cimilar",
+		"power_draw": 2000000000,
+		"use_action": { 
+			"type": "transform",
+			"menu_text": "Turn off",
+			"msg": "레버를 내려 전원을 껐습니다.",
+			"target": "bpg_cimilar"
+		},
+		"relic_data": {
+			"recharge_scheme": [
+				{ "type": "trap", "rate": 0, "message": "The portal collapses!", "trap": "tr_portal" },
+				{ "type": "field", "interval": "1 s", "rate": 0, "field": "fd_fatigue", "int_min": 1, "int_max": 3 },
+				{ "type": "field", "interval": "1 s", "rate": 0, "field": "fd_tindalos_rift", "int_min": 1, "int_max": 3 }
+			]
+		}
+	},
+	{
+		"result": "bpg_cimilar",
+		"type": "recipe",
+		"category": "CC_첨단기술",
+		"subcategory": "CSC_첨단기술_TOOLS",
+		"skill_used": "electronics",
+		"difficulty": 8,
+		"skills_required": [ [ "mechanics", 7 ], [ "fabrication", 7 ], [ "computer", 8 ] ],
+		"time": "48 h",
+		"book_learn": [ [ "bpg_recipe_lab_xedra", 7 ] ],
+		"tools": [ [ [ "sq_atomic_forge", -1 ] ], [ [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
+		"using": [ [ "welding_standard", 200 ], [ "blacksmithing_advanced", 7 ] ],
+		"components": [
+		  [ [ "sq_fusion_core", 1 ] ],
+		  [ [ "sq_hardlight_matrix", 1 ] ],
+		  [ [ "portal", 2 ] ],
+		  [ [ "storage_battery", 2 ], [ "large_storage_battery", 1 ] ],
+		  [ [ "hard_plate", 2 ] ],
+		  [ [ "power_supply", 8 ] ],
+		  [ [ "spiral_stone", 2 ] ],
+		  [ [ "petrified_eye", 1 ] ],
+		  [ [ "cable", 100 ] ],
+		  [ [ "solder_wire", 200 ] ]
+		]
+	}
+]
