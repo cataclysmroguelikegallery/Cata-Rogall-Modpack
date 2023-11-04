@@ -1,0 +1,16 @@
+[
+	{
+		"type": "recipe",
+		"result": "milk_powder",
+		"category": "CC_FOOD",
+		"subcategory": "CSC_FOOD_DRY",
+		"skill_used": "cooking",
+		"difficulty": 2,
+		"charges": 1,
+		"time": "40 m",
+		"batch_time_factors": [ 80, 1 ],
+		"autolearn": true,
+		"tools": [ [ [ "dehydrator", 25 ], [ "char_smoker", 25 ] ] ],
+		"components": [ [ [ "milk", 1 ], [ "milk_UHT", 1 ] ] ]
+	}
+]

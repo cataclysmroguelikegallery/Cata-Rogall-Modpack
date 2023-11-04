@@ -1,0 +1,26 @@
+[
+	{
+		"result": "rm13_armor",
+		"type": "uncraft",
+		"time": "12 h",
+		"qualities": [
+			{ "id": "SAW_M", "level": 2 },
+			{ "id": "SAW_M_FINE", "level": 1 },
+			{ "id": "WRENCH", "level": 2 },
+			{ "id": "WRENCH_FINE", "level": 1 },
+			{ "id": "SCREW", "level": 1 },
+			{ "id": "SCREW_FINE", "level": 1 }
+		],
+		"using": [ [ "welding_standard", 100 ] ],
+		"components": [
+			[ [ "bpg_carmor_p_arms", 1 ] ],
+			[ [ "bpg_carmor_p_legs", 1 ] ],
+			[ [ "bpg_carmor_p_armor", 1 ] ],
+			[ [ "bpg_carmor_p_head", 1 ] ],
+			[ [ "carbide_plate", 8 ] ],
+			[ [ "alloy_sheet", 16 ] ],
+			[ [ "power_supply", 16 ] ],
+			[ [ "cable", 100 ] ]
+		]
+	}
+]
