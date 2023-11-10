@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Jake's_Squirrel_mod\n"
-"POT-Creation-Date: 2023-10-21 03:14+0900\n"
+"POT-Creation-Date: 2023-11-11 01:35+0900\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1817,11 +1817,11 @@ msgid ""
 "기억하세요! 수소 + 석탄 = 웃는 얼굴.  설치 후 s키로 부수어서 회수하십시오."
 msgstr ""
 
-#: .\advtech\sq_main_tools.json
+#: .\advtech\sq_main_tools.json .\furniture_and_terrain\terrain-flora.json
 msgid "crunch!"
 msgstr ""
 
-#: .\advtech\sq_main_tools.json
+#: .\advtech\sq_main_tools.json .\furniture_and_terrain\terrain-flora.json
 msgid "whack!"
 msgstr ""
 
@@ -2858,6 +2858,99 @@ msgstr ""
 #: .\advtech\sq_vehicle_part.json
 msgid "두꺼운 탄소섬유 지붕."
 msgstr ""
+
+#: .\furniture_and_terrain\terrain-flora.json
+msgid "카카오나무"
+msgstr ""
+
+#. ~ Description for 카카오나무
+#: .\furniture_and_terrain\terrain-flora.json
+msgid ""
+"중남미 원산의 아욱목 아욱과의 두꺼운 나무로, 유전공학의 힘으로 뉴잉글랜드의 사계절을 버틸 수 있게 개량되었습니다. 나무줄기를 살펴보면 "
+"아직 따지 않고 남은 카카오 열매가 있는 게 보입니다. 대재앙에도 초콜릿만큼은 포기할 수 없죠, 암. 적절한 도구가 있다면 벌목할 수 "
+"있습니다."
+msgstr ""
+
+#. ~ Description for 카카오나무
+#: .\furniture_and_terrain\terrain-flora.json
+msgid ""
+"중남미 원산의 아욱목 아욱과의 두꺼운 나무로, 유전공학의 힘으로 뉴잉글랜드의 사계절을 버틸 수 있게 개량되었습니다. 지금 당장은 "
+"수확할만한 카카오 열매가 없는 것 같습니다. 적절한 도구가 있다면 벌목할 수 있습니다."
+msgstr ""
+
+#: .\furniture_and_terrain\terrain-flora.json
+msgid "코카나무"
+msgstr ""
+
+#. ~ Description for 코카나무
+#: .\furniture_and_terrain\terrain-flora.json
+msgid ""
+"남아메리카 원산의 말피기아목 코카나무과의 나무로, 수천 년 전부터 코카잎은 의약품과 강장제, 차로 이용되어왔습니다. 이상하게도, "
+"어째서인지 이 나무 또한 유전공학의 힘으로 뉴잉글랜드의 기후를 버틸 수 있도록 개량되었습니다. 적절한 도구가 있다면 벌목할 수 있습니다."
+msgstr ""
+
+#. ~ Description for 코카나무
+#: .\furniture_and_terrain\terrain-flora.json
+msgid ""
+"남아메리카 원산의 말피기아목 코카나무과의 나무로, 수천 년 전부터 코카잎은 의약품과 강장제, 차로 이용되어왔습니다. 지금 당장은 "
+"수확할만한 코카잎이 없는 것 같습니다. 적절한 도구가 있다면 벌목할 수 있습니다."
+msgstr ""
+
+#: .\furniture_and_terrain\terrain-flora.json
+msgid "코카잎"
+msgid_plural "코카잎"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': '코카잎', 'str_pl': '코카잎'}
+#: .\furniture_and_terrain\terrain-flora.json
+msgid ""
+"코카잎입니다. 오래 전부터 현재까지 의약품과 기호식품 등으로 이용해왔으며, 씹으면 약한 쾌감을 느낄 수 있습니다. 코카잎 자로 끓여서 "
+"먹을 수도 있고, 생으로 먹을 수도 있습니다. 하지만 많이 먹으면 중독현상을 일으킬 수 있습니다."
+msgstr ""
+
+#: .\furniture_and_terrain\terrain-flora.json
+msgid "코카잎 차"
+msgid_plural "코카잎 차s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for 코카잎 차
+#: .\furniture_and_terrain\terrain-flora.json
+msgid ""
+"코카나무의 잎에 뜨거운 물을 부어 만든 향긋한 음료. 마시면 코카인 성분으로 인한 약한 쾌감을 느낄 수 있지만, 너무 자주 마시면 "
+"중독현상을 일으킬 수 있습니다."
+msgstr ""
+
+#: .\furniture_and_terrain\terrain-flora.json
+msgid "카카오 열매"
+msgid_plural "카카오 열매"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': '카카오 열매'}
+#: .\furniture_and_terrain\terrain-flora.json
+msgid ""
+"테오브로마 카카오로 알려진 카카오 열매는 초콜릿을 만드는 데 사용되는 코코아 콩의 원료입니다. 달콤한 맛의 하얀 과육으로 둘러싸인 코코아"
+" 콩이 들어 있는 열대 과일입니다. 이 콩은 수확, 발효, 가공을 거쳐 다양한 초콜릿 제품으로 생산됩니다."
+msgstr ""
+
+#: .\furniture_and_terrain\terrain-flora.json
+msgid "카카오닙스"
+msgid_plural "카카오닙스"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': '카카오닙스'}
+#: .\furniture_and_terrain\terrain-flora.json
+msgid "발효되고 구운 카카오 콩으로, 초콜릿의 가장 원시적인 형태입니다. 갈아서 초콜릿으로 만들 수 있습니다."
+msgstr ""
+
+#: .\furniture_and_terrain\terrain-flora.json
+msgid "chocolate bar"
+msgid_plural "chocolate bars"
+msgstr[0] ""
+msgstr[1] ""
 
 #: .\items\sq_armor_override.json
 msgid "fur coat"

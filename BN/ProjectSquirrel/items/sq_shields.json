@@ -131,9 +131,9 @@
     "color": "yellow",
     "covers": [ "arm_either", "hand_either" ],
     "coverage": 100,
-    "encumbrance": 12,
+    "encumbrance": 17,
     "environmental_protection": 5,
-    "material_thickness": 7,
+    "material_thickness": 6,
     "use_action": {
       "type": "holster",
       "holster_prompt": "Stash ammo",
@@ -161,14 +161,14 @@
     "looks_like": "waterskin",
     "volume": "4500 ml",
     "to_hit": -1,
-    "encumbrance": 20,
+    "encumbrance": 32,
     "environmental_protection": 10,
     "bashing": 8,
     "symbol": "[",
     "flags": [ "STURDY", "OVERSIZE", "OUTER", "RESTRICT_HANDS", "ALLOWS_NATURAL_ATTACKS", "BLOCK_WHILE_WORN", "FLASH_PROTECTION" ],
     "techniques": [ "WBLOCK_3", "BRUTAL" ],
     "coverage": 100,
-    "material_thickness": 6,
+    "material_thickness": 5,
     "use_action": { "type": "transform", "msg": "전술 방패를 전개하여 방어태세에 돌입합니다!", "target": "sq_swat_shield_act" },
     "relic_data": {
           "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "ench_effects": [ { "effect": "sq_stun_immune", "intensity": 1 } ]
@@ -187,13 +187,13 @@
     "material": [ "hardsteel", "ceramic" ],
     "volume": "8500 ml",
     "to_hit": -1,
-    "encumbrance": 25,
+    "encumbrance": 32,
     "environmental_protection": 10,
     "symbol": "[",
     "flags": [ "STURDY", "OVERSIZE", "OUTER", "RESTRICT_HANDS", "ALLOWS_NATURAL_ATTACKS", "BLOCK_WHILE_WORN", "FLASH_PROTECTION" ],
     "techniques": [ "WBLOCK_3", "BRUTAL" ],
     "coverage": 100,
-    "material_thickness": 6,
+    "material_thickness": 5,
     "use_action": { "type": "transform", "msg": "전술 방패를 내립니다.", "target": "sq_swat_shield" },
     "relic_data": {
           "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "ench_effects": [ { "effect": "sq_stun_immune", "intensity": 1 } ]
@@ -213,14 +213,14 @@
     "looks_like": "waterskin",
     "volume": "3500 ml",
     "to_hit": -1,
-    "encumbrance": 17,
+    "encumbrance": 22,
     "environmental_protection": 5,
     "bashing": 8,
     "symbol": "[",
     "flags": [ "STURDY", "OVERSIZE", "OUTER", "ALLOWS_NATURAL_ATTACKS", "BLOCK_WHILE_WORN" ],
     "techniques": [ "WBLOCK_3", "BRUTAL" ],
     "coverage": 90,
-    "material_thickness": 4,
+    "material_thickness": 3,
     "use_action": { "type": "transform", "msg": "전술 방패를 전개하여 돌격태세에 돌입합니다!", "target": "sq_swat_shield_1_act" }
   },
   {
@@ -242,7 +242,7 @@
     "flags": [ "STURDY", "OVERSIZE", "OUTER", "ALLOWS_NATURAL_ATTACKS", "BLOCK_WHILE_WORN" ],
     "techniques": [ "WBLOCK_3", "BRUTAL" ],
     "coverage": 90,
-    "material_thickness": 4,
+    "material_thickness": 3,
     "use_action": { "type": "transform", "msg": "전술 방패를 내립니다.", "target": "sq_swat_shield_1" }
   },
   {
@@ -308,12 +308,13 @@
     "subcategory": "CSC_ARMOR_OTHER",
     "skill_used": "fabrication",
     "difficulty": 7,
-    "time": "240 m",
+    "time": "340 m",
 	"reversible": false,
-	"autolearn": true,
-    "qualities": [ { "id": "GLARE", "level": 2 }, { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 2 }, { "id": "SCREW", "level": 1 }, { "id": "CHISEL", "level": 3 }, { "id": "DRILL", "level": 3 }, { "id": "GRIND", "level": 2 } ],
-    "tools": [ [ [ "welder", 200 ], [ "welder_crude", 300 ], [ "toolset", 300 ], [ "forge", 200 ], [ "oxy_torch", 40 ] ] ],
-	"components": [ [ [ "hard_plate", 1 ] ], [ [ "ceramic_armor", 8 ] ] ]
+	"autolearn": false,
+    "book_learn": [ [ "recipe_melee", 5 ], [ "textbook_mechanics", 8 ] ],
+    "using": [ [ "welding_standard", 21 ], [ "blacksmithing_advanced", 7 ] ],
+    "qualities": [ { "id": "GRIND", "level": 2 } ],
+	"components": [ [ [ "hard_plate", 1 ] ], [ [ "ceramic_armor", 6 ] ], [ [ "kevlar_plate", 24 ] ] ]
   },
   {
     "result": "sq_swat_shield",
@@ -321,13 +322,15 @@
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_OTHER",
     "skill_used": "fabrication",
-    "difficulty": 8,
-    "time": "240 m",
+    "skills_required": [ [ "mechanics", 5 ] ],
+    "difficulty": 9,
+    "time": "340 m",
 	"reversible": false,
-	"autolearn": true,
-    "qualities": [ { "id": "GLARE", "level": 2 }, { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 2 }, { "id": "SCREW", "level": 1 }, { "id": "WRENCH", "level": 2 }, { "id": "CHISEL", "level": 3 }, { "id": "DRILL", "level": 3 }, { "id": "GRIND", "level": 2 } ],
-    "tools": [ [ [ "welder", 200 ], [ "welder_crude", 300 ], [ "toolset", 300 ], [ "forge", 200 ], [ "oxy_torch", 40 ] ] ],
-	"components": [ [ [ "hard_plate", 1 ] ], [ [ "ceramic_armor", 8 ] ] ]
+	"autolearn": false,
+    "book_learn": [ [ "recipe_melee", 7 ], [ "atomic_survival", 7 ] ],
+    "using": [ [ "welding_standard", 21 ], [ "blacksmithing_advanced", 7 ] ],
+    "qualities": [ { "id": "GRIND", "level": 2 } ],
+	"components": [ [ [ "hard_plate", 1 ] ], [ [ "ceramic_armor", 16 ] ], [ [ "foldframe", 2 ] ] ]
   },
   {
     "result": "sq_swat_shield_1",
@@ -335,12 +338,14 @@
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_OTHER",
     "skill_used": "fabrication",
+    "skills_required": [ [ "mechanics", 5 ] ],
     "difficulty": 8,
-    "time": "240 m",
+    "time": "340 m",
 	"reversible": false,
-	"autolearn": true,
-    "qualities": [ { "id": "GLARE", "level": 2 }, { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 2 }, { "id": "SCREW", "level": 1 }, { "id": "WRENCH", "level": 2 }, { "id": "CHISEL", "level": 3 }, { "id": "DRILL", "level": 3 }, { "id": "GRIND", "level": 2 } ],
-    "tools": [ [ [ "welder", 200 ], [ "welder_crude", 300 ], [ "toolset", 300 ], [ "forge", 200 ], [ "oxy_torch", 40 ] ] ],
-	"components": [ [ [ "hard_plate", 1 ] ], [ [ "ceramic_armor", 8 ] ] ]
+	"autolearn": false,
+    "book_learn": [ [ "recipe_melee", 5 ], [ "textbook_mechanics", 8 ] ],
+    "using": [ [ "welding_standard", 21 ], [ "blacksmithing_advanced", 7 ] ],
+    "qualities": [ { "id": "GRIND", "level": 2 } ],
+	"components": [ [ [ "hard_plate", 1 ] ], [ [ "ceramic_armor", 8 ] ], [ [ "foldframe", 2 ] ] ]
   }
 ]
