@@ -261,13 +261,13 @@
 	"fun": 40,
     "color": "yellow",
     "looks_like": "adrenaline_injector",
-    "addiction_potential": 7,
+    "addiction_potential": 12,
     "addiction_type": "mutagen",
     "stack_size": 30,
 	"flags": [ "IRREPLACEABLE_CONSUMABLE" ],
     "use_action": {
       "type": "consume_drug",
-      "effects": [ { "id": "panacea", "duration": 10 }, { "id": "sq_stamina_regen2", "duration": 3 }, { "id": "sq_stimpackeffect", "duration": "8 h" } ]
+      "effects": [ { "id": "panacea", "duration": 10 }, { "id": "sq_stamina_regen2", "duration": 3 }, { "id": "sq_stimpackeffect", "duration": "6 h" } ]
     }
   },
   {
@@ -284,7 +284,7 @@
     ],
     "miss_messages": [ [ "우울한 기분이 듭니다.", 1 ] ],
     "max_intensity": 4,
-    "int_dur_factor": "2 h",
+    "int_dur_factor": "1 h 30 m",
     "removes_effects": [ "winded" ],
     "base_mods": {
       "speed_mod": [ -10 ],
@@ -293,13 +293,13 @@
       "int_mod": [ -2 ],
       "per_mod": [ -4 ],
 	  "fatigue_min": [ 10 ],
-      "fatigue_chance": [ 20 ],
+      "fatigue_chance": [ 30 ],
       "fatigue_tick": [ 10 ],
       "hunger_amount": [ 10 ],
-      "hunger_chance": [ 20 ],
+      "hunger_chance": [ 30 ],
       "hunger_tick": [ 10 ],
       "thirst_amount": [ 5 ],
-      "thirst_chance": [ 20 ],
+      "thirst_chance": [ 30 ],
       "thirst_tick": [ 10 ],
       "pkill_max_val": [ 50 ],
 	  "pkill_tick": [ 1 ],
@@ -338,6 +338,7 @@
 	  [ [ "meat_frond", 6 ], ["leech_flower", 2 ] ],
       [ [ "sq_stamina_elixr", 1 ] ],
       [ [ "salt_water", 1 ], [ "saline", 5 ] ],
+      [ [ "coke", 1 ] ],
       [ [ "bleach", 1 ], [ "oxy_powder", 100 ] ],
       [ [ "aspirin", 5 ], [ "chem_phenol", 50 ] ]
     ]

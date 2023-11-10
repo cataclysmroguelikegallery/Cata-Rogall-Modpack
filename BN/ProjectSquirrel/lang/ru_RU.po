@@ -3617,7 +3617,9 @@ msgstr[2] ""
 #. ~ Description for {'str': '탄소섬유 프레임'}
 #: .\advtech\sq_vehicle_part.json
 msgid "겹층 탄화물로 만든 큰 프레임이다. 제작에 쓰인다."
-msgstr "Большая рама из слоистого твердого сплава."
+msgstr ""
+"Большая рамка из слоистого твердого сплава. Используется для изготовления "
+"изделий."
 
 #. ~ Description for {'str': '탄소섬유 프레임'}
 #: .\advtech\sq_vehicle_part.json
@@ -3657,7 +3659,7 @@ msgstr ""
 
 #: .\advtech\sq_vehicle_part.json
 msgid "탄소섬유 장갑판"
-msgstr "рама из углеродного волокна"
+msgstr "Углеволоконный кузов"
 
 #. ~ Description for {'str': '탄소섬유 장갑판'}
 #: .\advtech\sq_vehicle_part.json
@@ -3670,7 +3672,7 @@ msgstr ""
 
 #: .\advtech\sq_vehicle_part.json
 msgid "탄소섬유 쿼터패널"
-msgstr "рама из углеродного волокна"
+msgstr "Углековолоконная боковина"
 
 #. ~ Description for {'str': '탄소섬유 쿼터패널'}
 #: .\advtech\sq_vehicle_part.json
@@ -3683,7 +3685,7 @@ msgstr ""
 
 #: .\advtech\sq_vehicle_part.json
 msgid "탄소섬유 지붕"
-msgstr "рама из углеродного волокна"
+msgstr "Углеволоконная крыша"
 
 #. ~ Description for {'str': '탄소섬유 지붕'}
 #: .\advtech\sq_vehicle_part.json
