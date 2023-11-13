@@ -33,7 +33,7 @@
       [ "underbarrel", 1 ]
     ],
     "ammo_effects": [ "LASER", "INCENDIARY" ],
-    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON-FOULING" ]
+    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON_FOULING" ]
   },
   {
     "id": "adv_laser_gatling",
@@ -60,7 +60,7 @@
     "modes": [ [ "DEFAULT", "점사", 12 ],[ "DEFAULT", "연사", 25 ] ],
     "valid_mod_locations": [ [ "accessories", 1 ], [ "emitter", 1 ], [ "grip", 1 ], [ "lens", 1 ], [ "rail", 1 ], [ "sights", 1 ], [ "stock", 1 ] ],
     "ammo_effects": [ "LASER", "INCENDIARY" ],
-    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON-FOULING","MOUNTED_GUN" ]
+    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON_FOULING","MOUNTED_GUN" ]
   },
   {
     "id": "adv_laser_carbine",
@@ -96,7 +96,7 @@
       [ "underbarrel", 1 ]
     ],
     "ammo_effects": [ "LASER", "INCENDIARY" ],
-    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON-FOULING" ]
+    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON_FOULING" ]
   },
   {
     "id": "adv_energy_rifle",
@@ -132,7 +132,7 @@
       [ "underbarrel", 1 ]
     ],
     "ammo_effects": [ "LASER", "INCENDIARY" ],
-    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON-FOULING" ]
+    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON_FOULING" ]
   },
   {
     "type": "item_group",

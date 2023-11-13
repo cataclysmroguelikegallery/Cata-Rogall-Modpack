@@ -23,7 +23,7 @@
     "range": 0,
     "ranged_damage": { "damage_type": "bullet", "amount": 0, "armor_penetration": 0 },
     "sight_dispersion": 30,
-    "recoil": 0, 
+    "recoil": 0,
     "dispersion": 300,
     "reload": 30,
     "handling": 10,
@@ -36,7 +36,7 @@
       [ "sights", 1 ]
     ],
     "ammo_effects": [ "NEVER_MISFIRES" ],
-    "flags" : [ "NEVER_JAMS", "NON-FOULING", "DURABLE_MELEE" ],
+    "flags" : [ "NEVER_JAMS", "NON_FOULING", "DURABLE_MELEE" ],
     "faults": [  ]
   },
   {
@@ -195,9 +195,9 @@
     "broken_color": "cyan",
     "durability": 2000,
     "breaks_into": [ { "item": "SF_Hellfire_Missile", "count": 1 } ],
-    "requirements": { 
-      "install": { "skills": [ [ "mechanics", 8 ], [ "launcher", 5 ] ] }, 
-      "removal": { "skills": [ [ "mechanics", 6 ] ] } 
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 8 ], [ "launcher", 5 ] ] },
+      "removal": { "skills": [ [ "mechanics", 6 ] ] }
     }
   },
   {
