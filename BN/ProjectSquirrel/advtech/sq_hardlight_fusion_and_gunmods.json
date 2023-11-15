@@ -479,7 +479,7 @@
     "material": [ "steel", "depleted_uranium" ],
     "color": "light_gray",
     "dispersion": 100,
-    "effects": [ "NEVER_MISFIRES", "NON-FOULING" ],
+    "effects": [ "NEVER_MISFIRES" ],
     "relative": { "range": 15, "damage": { "damage_type": "stab", "amount": 20, "armor_penetration": 45 } }
   },
   {
@@ -1331,7 +1331,7 @@
       "POLEARM",
       "SHEATH_SPEAR",
       "NEVER_JAMS",
-      "NON-FOULING",
+      "NON_FOULING",
       "FIRESTARTER",
       "PYROMANIAC_WEAPON",
       "USE_UPS",
