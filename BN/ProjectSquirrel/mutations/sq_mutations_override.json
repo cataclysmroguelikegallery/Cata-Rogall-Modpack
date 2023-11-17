@@ -10,7 +10,7 @@
     "description": "You've grown a chitin exoskeleton made of thick, stiff plates.  It provides excellent physical protection, but reduces your Dexterity by 1 and encumbers all body parts but your eyes and mouth.  Greatly reduces wet effects.",
     "types": [ "SKIN" ],
     "prereqs": [ "CHITIN2", "CHITIN_FUR2" ],
-    "category": [ "SPIDER" ],
+    "category": [ "SPIDER", "CHITIN3" ],
     "changes_to": [ "CHITIN_FUR3" ],
     "wet_protection": [
       { "part": "head", "ignored": 4 },
@@ -64,7 +64,7 @@
     "types": [ "SKIN" ],
     "prereqs": [ "CHITIN_FUR2", "CHITIN3" ],
     "threshreq": [ "THRESH_SPIDER" ],
-    "category": [ "SPIDER" ],
+    "category": [ "SPIDER", "CHITIN_FUR3" ],
     "armor": [ { "parts": "ALL", "physical": 10, "bash": 15 } ],
     "passive_mods": { "dex_mod": -1 }
   },
@@ -83,7 +83,7 @@
     "types": [ "CLAWS" ],
     "prereqs": [ "NAILS" ],
     "cancels": [ "ARM_TENTACLES", "ARM_TENTACLES_4", "ARM_TENTACLES_8" ],
-    "category": [ "LIZARD", "BIRD", "CHIMERA" ]
+    "category": [ "LIZARD", "BIRD", "CHIMERA", "TALONS" ]
   },
   {
     "type": "mutation",
@@ -95,7 +95,7 @@
     "mixed_effect": true,
     "description": "You have grown large, curved, and wickedly sharp talons in place of your big toes.  Fortunately, they don't get in the way of your movement.  Unfortunately, they do prevent wearing footgear.",
     "types": [ "LEGS" ],
-    "category": [ "RAPTOR" ],
+    "category": [ "RAPTOR", "RAP_TALONS" ],
     "attacks": {
       "attack_text_u": "You slash %s with a talon",
       "attack_text_npc": "%1$s slashes %2$s with a talon",
@@ -114,7 +114,7 @@
     "mixed_effect": true,
     "description": "Your feet have fused into hooves.  This allows kicking attacks to do much more damage and provides natural armor; however, you cannot wear shoes of any kind.  Reduces wet effects.",
     "types": [ "LEGS" ],
-    "category": [ "CATTLE", "CHIMERA" ],
+    "category": [ "CATTLE", "CHIMERA", "HOOVES" ],
     "wet_protection": [ { "part": "foot_l", "neutral": 10 }, { "part": "foot_r", "neutral": 10 } ],
     "armor": [ { "parts": [ "foot_l", "foot_r" ], "physical": 10 } ],
     "attacks": {
@@ -137,7 +137,7 @@
     "types": [ "TEETH" ],
     "prereqs": [ "FANGS" ],
     "threshreq": [ "THRESH_FELINE", "THRESH_CHIMERA" ],
-    "category": [ "FELINE", "CHIMERA" ],
+    "category": [ "FELINE", "CHIMERA", "SABER_TEETH" ],
     "social_modifiers": { "intimidate": 15 },
     "attacks": {
       "attack_text_u": "You tear into %s with your saber teeth",
@@ -159,7 +159,7 @@
     "description": "You have a pair of large curled horns, like those of a ram.  They allow you to make a powerful bashing headbutt attack, but prevent wearing any headwear.",
     "types": [ "HORNS" ],
     "prereqs": [ "HORNS" ],
-    "category": [ "CHIMERA" ],
+    "category": [ "CHIMERA", "HORNS_CURLED" ],
     "attacks": {
       "attack_text_u": "You headbutt %s with your curled horns",
       "attack_text_npc": "%1$s headbutts %2$s with their curled horns",
@@ -179,6 +179,7 @@
     "description": "You have a pair of long, pointed horns, like those of an antelope.  They allow you to make a strong piercing headbutt attack, but prevent wearing headwear that is not made of fabric.",
     "types": [ "HORNS" ],
     "prereqs": [ "HORNS" ],
+    "category": [ "HORNS_POINTED" ],
     "attacks": {
       "attack_text_u": "You stab %s with your pointed horns",
       "attack_text_npc": "%1$s stabs %2$s with their pointed horns",
@@ -198,6 +199,7 @@
     "description": "You have a huge rack of antlers, like those of a moose.  They allow you to make a weak headbutt attack, but prevent wearing headwear that is not made of fabric.",
     "types": [ "HORNS" ],
     "prereqs": [ "HORNS" ],
+    "category": [ "ANTLERS" ],
     "attacks": {
       "attack_text_u": "You butt %s with your antlers",
       "attack_text_npc": "%1$s butts %2$s with their antlers",
@@ -216,7 +218,7 @@
     "description": "You have a pair of antennae.  They allow you to detect the presence of monsters up to a few tiles away, even if you can't see or hear them, but prevent wearing headwear that is not made of fabric.",
     "types": [ "HORNS" ],
     "prereqs": [ "HEADBUMPS" ],
-    "category": [ "INSECT" ],
+    "category": [ "INSECT", "ANTENNAE" ],
     "active": true,
     "starts_active": true
   },
@@ -230,7 +232,7 @@
     "description": "You have a fin-like tail.  It allows you to swim more quickly, but prevents wearing non-fabric pants.  Slightly increases wet benefits.",
     "types": [ "TAIL" ],
     "prereqs": [ "TAIL_STUB" ],
-    "category": [ "FISH" ],
+    "category": [ "FISH", "TAIL_FIN" ],
     "wet_protection": [ { "part": "leg_l", "good": 3 }, { "part": "leg_r", "good": 3 } ],
     "movecost_swim_modifier": 0.75
   },
@@ -245,7 +247,7 @@
     "types": [ "TAIL" ],
     "prereqs": [ "TAIL_STUB" ],
     "changes_to": [ "TAIL_FLUFFY", "TAIL_STING", "TAIL_CLUB", "TAIL_CATTLE", "TAIL_RAT" ],
-    "category": [ "FELINE" ],
+    "category": [ "FELINE", "TAIL_LONG" ],
     "dodge_modifier": 2
   },
   {
@@ -258,7 +260,7 @@
     "description": "You have a long tail with a tuft on the end.  You find yourself instinctively swatting away flies with it, though it's not as effective at balancing you as you'd like.  Prevents wearing non-fabric pants.",
     "types": [ "TAIL" ],
     "prereqs": [ "TAIL_LONG" ],
-    "category": [ "CATTLE" ],
+    "category": [ "CATTLE", "TAIL_CATTLE" ],
     "dodge_modifier": 1
   },
   {
@@ -271,7 +273,7 @@
     "description": "You have a long but hairless tail.  It's a pretty effective balancing aid, but does look, uh, ratty.  Prevents wearing non-fabric pants.",
     "types": [ "TAIL" ],
     "prereqs": [ "TAIL_LONG", "TAIL_STUB" ],
-    "category": [ "RAT", "MOUSE" ],
+    "category": [ "RAT", "MOUSE", "TAIL_RAT" ],
     "dodge_modifier": 2
   },
   {
@@ -285,7 +287,7 @@
     "types": [ "TAIL" ],
     "prereqs": [ "TAIL_STUB" ],
     "changes_to": [ "TAIL_CLUB" ],
-    "category": [ "LIZARD" ],
+    "category": [ "LIZARD", "TAIL_THICK" ],
     "attacks": {
       "attack_text_u": "You whap %s with your tail",
       "attack_text_npc": "%1$s whaps %2$s with their tail",
@@ -304,7 +306,7 @@
     "description": "You have a long and semi-stiff lizardlike tail.  You can't effectively lash it in combat, but it significantly improves your balance.  Prevents wearing non-fabric pants.",
     "types": [ "TAIL" ],
     "prereqs": [ "TAIL_STUB" ],
-    "category": [ "RAPTOR" ],
+    "category": [ "RAPTOR", "TAIL_RAPTOR" ],
     "dodge_modifier": 3
   },
   {
@@ -316,7 +318,7 @@
     "description": "You have a long, fluffy-furred tail.  It greatly improves your balance, making your ability to dodge much higher.  Prevents wearing non-fabric pants.",
     "types": [ "TAIL" ],
     "prereqs": [ "TAIL_LONG" ],
-    "category": [ "BEAST", "LUPINE" ],
+    "category": [ "BEAST", "LUPINE", "TAIL_FLUFFY" ],
     "social_modifiers": { "lie": -20, "persuade": 10 },
     "dodge_modifier": 4
   },
@@ -330,6 +332,7 @@
     "description": "You have a long tail that ends in a vicious stinger.  It does not improve your balance at all, but allows for a powerful piercing attack.  Prevents wearing non-fabric pants.",
     "types": [ "TAIL" ],
     "prereqs": [ "TAIL_LONG" ],
+	"category": [ "TAIL_STING" ],
     "attacks": {
       "attack_text_u": "You sting %s with your tail",
       "attack_text_npc": "%1$s stings %2$s with their tail",
@@ -347,7 +350,7 @@
     "description": "You have a long tail that ends in a heavy, bony club.  It does not improve your balance at all, but allows for a powerful bashing attack.  Prevents wearing non-fabric pants.",
     "types": [ "TAIL" ],
     "prereqs": [ "TAIL_THICK" ],
-    "category": [ "CHIMERA" ],
+    "category": [ "CHIMERA", "TAIL_CLUB" ],
     "attacks": {
       "attack_text_u": "You club %s with your tail",
       "attack_text_npc": "%1$s clubs %2$s with their tail",
@@ -369,7 +372,7 @@
     "prereqs": [ "MOUTH_FLAPS" ],
     "changes_to": [ "FANGS_SPIDER" ],
     "cancels": [ "MOUTH_TENTACLES" ],
-    "category": [ "INSECT", "SPIDER" ],
+    "category": [ "INSECT", "SPIDER", "MANDIBLES" ],
     "wet_protection": [ { "part": "mouth", "ignored": 100 } ],
     "attacks": {
       "attack_text_u": "You bite %s with your fangs",
@@ -393,7 +396,7 @@
     "prereqs": [ "LARGE", "LARGE_OK" ],
     "prereqs2": [ "STR_UP_3", "STR_UP_4" ],
     "changes_to": [ "HUGE_OK" ],
-    "category": [ "URSINE", "CATTLE" ],
+    "category": [ "URSINE", "CATTLE", "HUGE" ],
     "passive_mods": { "str_mod": 4 },
     "hp_adjustment": -6,
     "fatigue_modifier": 0.15,
@@ -414,7 +417,7 @@
     "prereqs2": [ "STR_UP_3", "STR_UP_4" ],
     "threshreq": [ "THRESH_URSINE", "THRESH_CATTLE" ],
     "leads_to": [ "MUT_TOUGH" ],
-    "category": [ "URSINE", "CATTLE" ],
+    "category": [ "URSINE", "CATTLE", "HUGE_OK" ],
     "passive_mods": { "str_mod": 4 },
     "weight_capacity_modifier": 1.1,
     "body_size": "HUGE"
@@ -433,7 +436,7 @@
     "types": [ "WINGS" ],
     "prereqs": [ "WINGS_STUB" ],
     "threshreq": [ "THRESH_INSECT" ],
-    "category": [ "INSECT" ],
+    "category": [ "INSECT", "WINGS_BUTTERFLY" ],
     "social_modifiers": { "lie": 15, "persuade": 5, "intimidate": -20 },
     "dodge_modifier": -4,
     "movecost_modifier": 0.9
@@ -449,7 +452,7 @@
     "description": "Your face resembles that of a bull, with a significant snout.  It looks fearsome but prevents wearing mouthgear.",
     "types": [ "MUZZLE" ],
     "prereqs": [ "SNOUT" ],
-    "category": [ "CATTLE" ],
+    "category": [ "CATTLE", "MINOTAUR" ],
     "social_modifiers": { "intimidate": 15 }
   },
   {
@@ -463,7 +466,7 @@
     "description": "Your jaw and nose have extended into a wolfish muzzle.  It lends itself to biting in combat and looks impressive, but prevents wearing mouthgear.",
     "types": [ "MUZZLE" ],
     "prereqs": [ "SNOUT" ],
-    "category": [ "BEAST", "LUPINE" ],
+    "category": [ "BEAST", "LUPINE", "MUZZLE" ],
     "social_modifiers": { "intimidate": 6 },
     "attacks": {
       "attack_text_u": "You nip at %s",
@@ -485,7 +488,7 @@
     "description": "Your jaw and nose have extended into a bearish muzzle.  You could bite with it, and it looks impressive, but it prevents wearing mouthgear.",
     "types": [ "MUZZLE" ],
     "prereqs": [ "SNOUT" ],
-    "category": [ "URSINE" ],
+    "category": [ "URSINE", "MUZZLE_BEAR" ],
     "attacks": {
       "attack_text_u": "You bite %s",
       "attack_text_npc": "%1$s bites %2$s",
@@ -505,7 +508,7 @@
     "description": "Your face and jaw have extended, giving you an alert and attentive appearance.",
     "types": [ "MUZZLE" ],
     "prereqs": [ "SNOUT" ],
-    "category": [ "RAT" ]
+    "category": [ "RAT", "MUZZLE_RAT" ]
   },
   {
     "type": "mutation",
@@ -518,7 +521,7 @@
     "description": "Your face and jaws are a shorter version of those found on alligators.  They look NASTY--as do the bite wounds they can inflict--but prevent wearing mouthgear.",
     "types": [ "MUZZLE" ],
     "prereqs": [ "SNOUT" ],
-    "category": [ "LIZARD" ],
+    "category": [ "LIZARD", "MUZZLE_LONG" ],
     "social_modifiers": { "intimidate": 20 },
     "attacks": {
       "attack_text_u": "You bite a chunk out of %s",
@@ -543,7 +546,7 @@
     "cancels": [ "MOUTH_TENTACLES" ],
     "prereqs": [ "EYEBULGE", "COMPOUND_EYES" ],
     "threshreq": [ "THRESH_INSECT" ],
-    "category": [ "INSECT" ],
+    "category": [ "INSECT", "PROBOSCIS" ],
     "active": true
   },
   {
@@ -561,7 +564,7 @@
     "prereqs": [ "CLAWS", "CLAWS_RETRACT", "CLAWS_RAT" ],
     "cancels": [ "TALONS" ],
     "changes_to": [ "PAWS_LARGE" ],
-    "category": [ "LUPINE", "RAT", "FELINE" ]
+    "category": [ "LUPINE", "RAT", "FELINE", "PAWS" ]
   },
   {
     "type": "mutation",
@@ -587,7 +590,7 @@
     "types": [ "HANDS" ],
     "prereqs": [ "PAWS" ],
     "cancels": [ "TALONS" ],
-    "category": [ "BEAST", "URSINE" ]
+    "category": [ "BEAST", "URSINE", "PAWS_LARGE" ]
   },
   {
     "type": "mutation",
@@ -600,7 +603,7 @@
     "description": "You have a beak for a mouth.  You can occasionally use it to peck at your enemies, but it is impossible for you to wear mouth gear.  Slightly reduces wet effects.",
     "types": [ "TEETH", "MUZZLE" ],
     "changes_to": [ "BEAK_HUM", "BEAK_PECK" ],
-    "category": [ "BIRD", "CEPHALOPOD" ],
+    "category": [ "BIRD", "CEPHALOPOD", "BEAK" ],
     "wet_protection": [ { "part": "mouth", "ignored": 1 } ],
     "attacks": {
       "attack_text_u": "You peck %s",
@@ -624,7 +627,7 @@
     "cancels": [ "MOUTH_TENTACLES" ],
     "prereqs": [ "BEAK" ],
     "threshreq": [ "THRESH_BIRD" ],
-    "category": [ "BIRD" ],
+    "category": [ "BIRD", "BEAK_PECK" ],
     "wet_protection": [ { "part": "mouth", "ignored": 2 } ],
     "attacks": [
       {
@@ -650,7 +653,7 @@
     "cancels": [ "MOUTH_TENTACLES" ],
     "prereqs": [ "BEAK" ],
     "threshreq": [ "THRESH_BIRD" ],
-    "category": [ "BIRD" ],
+    "category": [ "BIRD","BEAK_HUM" ],
     "wet_protection": [ { "part": "mouth", "ignored": 2 } ],
     "active": true
   },
@@ -668,7 +671,7 @@
     "changes_to": [ "INSECT_ARMS_OK", "ARACHNID_ARMS" ],
     "prereqs": [ "CHITIN", "CHITIN2", "CHITIN3", "CHITIN_FUR2", "CHITIN_FUR3" ],
     "threshreq": [ "THRESH_INSECT", "THRESH_SPIDER" ],
-    "category": [ "INSECT", "SPIDER" ],
+    "category": [ "INSECT", "SPIDER", "INSECT_ARMS" ],
     "passive_mods": { "dex_mod": -2 }
   },
   {
@@ -687,7 +690,7 @@
     "prereqs": [ "INSECT_ARMS" ],
     "prereqs2": [ "CHITIN3", "CHITIN_FUR2", "CHITIN_FUR3" ],
     "threshreq": [ "THRESH_SPIDER" ],
-    "category": [ "SPIDER" ],
+    "category": [ "SPIDER", "ARACHNID_ARMS" ],
     "passive_mods": { "dex_mod": -4 }
   },
   {
@@ -701,6 +704,7 @@
     "description": "Your arms have transformed into tentacles, resulting in a +1 bonus to Dexterity, permanent hand encumbrance of 30, and an inability to wear gloves.  Somewhat decreases wet penalties.",
     "encumbrance_always": [ [ "hand_l", 30 ], [ "hand_r", 30 ] ],
     "types": [ "HANDS" ],
+    "category": [ "ARM_TENTACLES" ],
     "leads_to": [ "CLAWS_TENTACLE" ],
     "changes_to": [ "ARM_TENTACLES_4" ],
     "cancels": [ "NAILS", "CLAWS", "TALONS", "WEBBED" ],
@@ -739,6 +743,7 @@
     "encumbrance_always": [ [ "hand_l", 30 ], [ "hand_r", 30 ] ],
     "types": [ "HANDS" ],
     "prereqs": [ "ARM_TENTACLES" ],
+    "category": [ "ARM_TENTACLES_4" ],
     "leads_to": [ "CLAWS_TENTACLE" ],
     "changes_to": [ "ARM_TENTACLES_8" ],
     "wet_protection": [
@@ -777,7 +782,7 @@
     "types": [ "HANDS" ],
     "prereqs": [ "ARM_TENTACLES_4" ],
     "leads_to": [ "CLAWS_TENTACLE" ],
-    "category": [ "CEPHALOPOD" ],
+    "category": [ "CEPHALOPOD", "ARM_TENTACLES_8" ],
     "wet_protection": [
       { "part": "arm_l", "neutral": 19 },
       { "part": "arm_r", "neutral": 19 },
@@ -813,7 +818,7 @@
     "prereqs": [ "CHITIN" ],
     "cancels": [ "CHITIN3" ],
     "changes_to": [ "SHELL2" ],
-    "category": [ "CEPHALOPOD" ],
+    "category": [ "CEPHALOPOD", "SHELL" ],
     "wet_protection": [ { "part": "torso", "ignored": 26 } ],
     "armor": [ { "parts": "torso", "bash": 6, "cut": 14, "bullet": 5 } ]
   },
@@ -831,7 +836,7 @@
     "encumbrance_always": [ [ "torso", 10 ] ],
     "prereqs": [ "SHELL" ],
     "threshreq": [ "THRESH_CEPHALOPOD" ],
-    "category": [ "CEPHALOPOD" ],
+    "category": [ "CEPHALOPOD", "SHELL2" ],
     "wet_protection": [ { "part": "torso", "ignored": 26 } ],
     "active": true,
     "armor": [ { "parts": "torso", "bash": 9, "cut": 17, "bullet": 5 } ]
@@ -849,7 +854,7 @@
     "leads_to": [ "LEG_TENT_BRACE" ],
     "movecost_swim_modifier": 0.85,
     "cancels": [ "LIGHTSTEP", "CLUMSY" ],
-    "category": [ "CEPHALOPOD" ],
+    "category": [ "CEPHALOPOD", "LEG_TENTACLES" ],
     "wet_protection": [
       { "part": "leg_l", "neutral": 21 },
       { "part": "leg_r", "neutral": 21 },

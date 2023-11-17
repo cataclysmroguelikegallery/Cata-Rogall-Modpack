@@ -229,12 +229,6 @@
   },
   {
     "type": "mutation",
-    "id": "TOUGH_FEET",
-    "copy-from": "TOUGH_FEET",
-    "extend": { "category": [ "TOUGH_FEET" ] }
-  },
-  {
-    "type": "mutation",
     "id": "TOUGH",
     "copy-from": "TOUGH",
     "extend": { "category": [ "TOUGH" ] }
@@ -481,9 +475,9 @@
   },
   {
     "type": "mutation",
-    "id": "ROBUST",
-    "copy-from": "ROBUST",
-    "extend": { "category": [ "ROBUST" ] }
+    "id": "REGEN_LIZ",
+    "copy-from": "REGEN_LIZ",
+    "extend": { "category": [ "REGEN_LIZ" ] }
   },
   {
     "type": "mutation",
@@ -598,12 +592,6 @@
     "id": "LYNX_FUR",
     "copy-from": "LYNX_FUR",
     "extend": { "category": [ "LYNX_FUR" ] }
-  },
-  {
-    "type": "mutation",
-    "id": "PATCHSKIN1",
-    "copy-from": "PATCHSKIN1",
-    "extend": { "category": [ "PATCHSKIN1" ] }
   },
   {
     "type": "mutation",
@@ -787,9 +775,9 @@
   },
   {
     "type": "mutation",
-    "id": "REDIOGENIC",
-    "copy-from": "REDIOGENIC",
-    "extend": { "category": [ "REDIOGENIC" ] }
+    "id": "RADIOGENIC",
+    "copy-from": "RADIOGENIC",
+    "extend": { "category": [ "RADIOGENIC" ] }
   },
   {
     "type": "mutation",
@@ -814,12 +802,6 @@
     "id": "INFRESIST",
     "copy-from": "INFRESIST",
     "extend": { "category": [ "INFRESIST" ] }
-  },
-  {
-    "type": "mutation",
-    "id": "INFIMMUNE",
-    "copy-from": "INFIMMUNE",
-    "extend": { "category": [ "INFIMMUNE" ] }
   },
   {
     "type": "mutation",
