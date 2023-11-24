@@ -858,6 +858,14 @@
   },
   {
     "type": "mutation_category",
+    "id": "NIGHTVISION3",
+    "name": "nightvision3",
+    "threshold_mut": "",
+    "mutagen_message": "",
+    "iv_message": ""
+  },
+  {
+    "type": "mutation_category",
     "id": "CEPH_EYES",
     "name": "ceph_eyes",
     "threshold_mut": "",

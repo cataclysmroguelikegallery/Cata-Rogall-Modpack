@@ -587,7 +587,7 @@ msgstr ""
 "the design of the Rivtech RM13 Combat Armor. Some features have been omitted "
 "due to difficulty of interpreting technology and for productivity, but it "
 "still protects you from the elements as well as from harm. It is turned on, "
-"and continually draining power.  Use it to turn it off."
+"and continually draining power.  Use it to turn it on."
 
 #: .\advtech\sq_advanced_armor.json
 msgid "생존용 컴뱃 아머 (켜짐)"
