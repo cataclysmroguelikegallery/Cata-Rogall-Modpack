@@ -157,8 +157,8 @@
       [ [ "motor_micro", 14 ] ],
       [ [ "processor", 1 ] ],
       [ [ "hsurvivor_suit", 1 ], [ "sasurvivor_suit", 1 ] ],
-      [ [ "helmet_hsurvivor", 1 ] ],
-      [ [ "mask_hsurvivor", 1 ] ],
+      [ [ "helmet_hsurvivor", 1 ], [ "helmet_sasurvivor", 1 ] ],
+      [ [ "mask_hsurvivor", 1 ], [ "mask_sasurvivor", 1 ] ],
       [ [ "gloves_hsurvivor", 1 ], [ "gloves_sasurvivor", 1 ] ],
       [ [ "boots_hsurvivor", 1 ], [ "boots_sasurvivor", 1 ] ],
       [ [ "steel_lump", 8 ] ]
@@ -234,7 +234,8 @@
       "USE_UPS",
       "NO_UNLOAD",
       "NO_RELOAD",
-      "HELMET_COMPAT"
+      "HELMET_COMPAT",
+	  "HEAVY_WEAPON_SUPPORT"
     ]
   },
   {
@@ -290,7 +291,8 @@
       "NO_UNLOAD",
       "NO_RELOAD",
       "NO_TAKEOFF",
-      "HELMET_COMPAT"
+      "HELMET_COMPAT",
+	  "HEAVY_WEAPON_SUPPORT"
     ]
   },
   {
@@ -743,7 +745,8 @@
       "USE_UPS",
       "NO_UNLOAD",
       "NO_RELOAD",
-      "HELMET_COMPAT"
+      "HELMET_COMPAT",
+	  "HEAVY_WEAPON_SUPPORT"
     ],
     "qualities": [ [ "GLARE", 3 ] ]
   },

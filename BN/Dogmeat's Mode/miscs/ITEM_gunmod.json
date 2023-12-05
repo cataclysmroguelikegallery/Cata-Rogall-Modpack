@@ -1,0 +1,34 @@
+[
+  {
+    "id": "tong-a",
+    "type": "GUNMOD",
+    "name": { "str": "통아" },
+    "description": "한국의 전통 국궁에서 사용되는 궁술 도구입니다. 짧은 화살이나 크로스보우 볼트를 활에서 사용할 수 있도록 해줍니다.",
+    "weight": "20 g",
+    "volume": "100 ml",
+    "integral_volume": "0 ml",
+    "price": 2000,
+    "price_postapoc": 200,
+    "material": [ "plastic" ],
+    "symbol": ":",
+    "color": "dark_gray",
+    "location": "accessories",
+    "ammo_modifier": [ "arrow", "bolt" ],
+    "mod_target_category": [ [ "BOWS" ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "tong-a",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "archery", 2 ] ],
+    "difficulty": 3,
+    "time": "10 m",
+    "autolearn": true,
+    "book_learn": [ [ "mag_archery", 2 ], [ "manual_archery", 1 ] ],
+    "using": [ [ "soldering_standard", 10 ] ],
+    "qualities": [ { "id": "HAMMER_FINE", "level": 1 }, { "id": "SAW_M_FINE", "level": 1 } ],
+    "components": [[[ "plastic_chunk", 3 ]]]
+  }
+]

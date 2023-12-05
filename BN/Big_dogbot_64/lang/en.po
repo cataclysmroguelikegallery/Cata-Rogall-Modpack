@@ -852,7 +852,7 @@ msgstr "Place massage chair"
 
 #: .\tile\construction_group.json
 msgid "실내용 대형 냉방기 설치"
-msgstr "Build Large Space Cooler"
+msgstr "Build Large Space Air Conditioner"
 
 #: .\tile\dimension.json
 msgid "차원좌표 송신기"
@@ -889,7 +889,7 @@ msgstr ""
 
 #: .\tile\dimension.json
 msgid "꺼진 망으로 연결된 차원좌표 수신기"
-msgstr "mounted grid dimensional coordinate reciever (off)"
+msgstr "mounted dimensional coordinate reciever (off)"
 
 #. ~ Description for 꺼진 망으로 연결된 차원좌표 수신기
 #: .\tile\dimension.json
@@ -916,7 +916,7 @@ msgstr "Mounted portable dimensional coordinate reciever."
 
 #: .\tile\dimension.json
 msgid "망으로 연결된 켜진 차원좌표 수신기"
-msgstr "mounted grid dimensional coordinate reciever (on)"
+msgstr "mounted dimensional coordinate reciever (on)"
 
 #. ~ Description for 망으로 연결된 켜진 차원좌표 수신기
 #: .\tile\dimension.json
@@ -926,15 +926,13 @@ msgstr "An installed, powered dimensional coordinate receiver."
 #: .\tile\dimensioncloser.json
 msgid "파딱"
 msgid_plural "파딱s"
-msgstr[0] "power tripper"
-msgstr[1] "power trippers"
+msgstr[0] "community moderator"
+msgstr[1] "community moderators"
 
 #. ~ Description for 파딱
 #: .\tile\dimensioncloser.json
 msgid "거의 모든 불과,연기종류제거와 포탈,균열을 닫을 수 있습니다"
 msgstr ""
-"Almost all types of fire and smoke can be eliminated and portals, tears in "
-"reality can be closed"
 
 #. ~ Relic recharge message for TOOL '파딱'
 #: .\tile\dimensioncloser.json
@@ -960,8 +958,8 @@ msgstr ""
 #: .\tile\dimensioncloser.json
 msgid "개량된 태양전지판 묶음"
 msgid_plural "개량된 태양전지판 묶음s"
-msgstr[0] "upgraded solar array"
-msgstr[1] "upgraded solar arrays"
+msgstr[0] ""
+msgstr[1] ""
 
 #. ~ Description for {'str': '개량된 태양전지판 묶음'}
 #. ~ Description for {'str': '양자 태양 전지판 묶음'}
@@ -977,8 +975,8 @@ msgstr ""
 #: .\tile\dimensioncloser.json
 msgid "양자 태양 전지판 묶음"
 msgid_plural "양자 태양 전지판 묶음s"
-msgstr[0] "quantum solar array"
-msgstr[1] "quantum solar arrays"
+msgstr[0] ""
+msgstr[1] ""
 
 #: .\tile\dimensioncloser.json
 msgid "quantum solar backpack (folded)"
@@ -1035,7 +1033,7 @@ msgstr ""
 
 #: .\tile\dimensioncloser.json
 msgid "설치된 양자태양 전력판"
-msgstr "mounted quantum solar panel"
+msgstr ""
 
 #. ~ Description for 설치된 양자태양 전력판
 #: .\tile\dimensioncloser.json
@@ -1043,8 +1041,6 @@ msgid ""
 "건물에 양자태양 전력판을 설치했습니다. 이제 굉장히 많은 전력을 생성할 수 있습"
 "니다"
 msgstr ""
-"You've installed quantum solar panels on your building, and now you can "
-"generate a lot of power."
 
 #: .\tile\dimensioncloser.json
 msgid "whack!"
@@ -1056,7 +1052,7 @@ msgstr ""
 
 #: .\tile\dimensioncloser.json
 msgid "설치된 양자태양 전지판 묶음"
-msgstr "mounted quantum solar array"
+msgstr ""
 
 #. ~ Description for 설치된 양자태양 전지판 묶음
 #: .\tile\dimensioncloser.json
@@ -1064,12 +1060,10 @@ msgid ""
 "이 수직으로 정렬된 양자태양 전지판 뭉치는 태양을 자동으로 추적해 전력을 충전"
 "합니다."
 msgstr ""
-"This vertically aligned cluster of quantum solar panels automatically tracks "
-"the sun to charge power."
 
 #: .\tile\dimensioncloser.json
 msgid "설치된 태양 전지판 묶음"
-msgstr "mounted solar array"
+msgstr ""
 
 #. ~ Description for 설치된 태양 전지판 묶음
 #: .\tile\dimensioncloser.json
@@ -1077,12 +1071,10 @@ msgid ""
 "건물에 태양 전력판묶음을 설치했습니다. 이제 굉장히 많은 전력을 생성할 수 있습"
 "니다"
 msgstr ""
-"You've installed a bunch of solar panels on your building, and now you can "
-"generate a lot of power"
 
 #: .\tile\dimensioncloser.json
 msgid "설치된 개량형 태양 전력판 묶음"
-msgstr "mounted upgraded solar array"
+msgstr ""
 
 #. ~ Description for 설치된 개량형 태양 전력판 묶음
 #: .\tile\dimensioncloser.json
@@ -1090,18 +1082,16 @@ msgid ""
 "건물에 개량된 태양 전력판묶음을 설치했습니다. 이제 많은 전력을 생성할 수 있습"
 "니다"
 msgstr ""
-"You've installed a set of improved solar panels on your building, and now "
-"you can generate a lot of power"
 
 #: .\tile\expgun.json
 msgid "점사 레이저 권총"
 msgid_plural "점사 레이저 권총s"
-msgstr[0] "burst laser pistol"
-msgstr[1] "burst laser pistols"
+msgstr[0] ""
+msgstr[1] ""
 
 #: .\tile\expgun.json
 msgid "빠른 사격. 오직 그 하나만을 위해 만들어진 무기입니다."
-msgstr "Rapid fire. A weapon made for one thing and one thing only."
+msgstr ""
 
 #: .\tile\expgun.json
 msgid "double"
@@ -1115,16 +1105,16 @@ msgstr ""
 #: .\tile\expgun.json
 msgid "레이저 개틀링건"
 msgid_plural "레이저 개틀링건s"
-msgstr[0] "laser gatling gun"
-msgstr[1] "laser gatling guns"
+msgstr[0] ""
+msgstr[1] ""
 
 #: .\tile\expgun.json
 msgid "람보가 된 기분을 느껴보십시오."
-msgstr "Feel like Rambo."
+msgstr ""
 
 #: .\tile\expgun.json
 msgid "연사"
-msgstr "auto"
+msgstr ""
 
 #: .\tile\expgun.json
 msgctxt "gun_type_type"
@@ -1134,17 +1124,14 @@ msgstr ""
 #: .\tile\expgun.json
 msgid "레이저 SMG"
 msgid_plural "레이저 SMGs"
-msgstr[0] "laser submachinegun"
-msgstr[1] "laser submachineguns"
+msgstr[0] ""
+msgstr[1] ""
 
 #: .\tile\expgun.json
 msgid ""
 "짧은 총렬을 가진 레이저 기관단총입니다.권총의 아쉬운 파괴력과 소총의 긴 총열"
 "의 단점을 모두 해결한 무기입니다."
 msgstr ""
-"A laser submachine gun with a short barrel, this weapon solves the "
-"shortcomings of both the pistol's lack of destructive power and the rifle's "
-"long barrel."
 
 #: .\tile\expgun.json
 msgid "semi-auto"
@@ -1158,16 +1145,14 @@ msgstr ""
 #: .\tile\expgun.json
 msgid "에너지 저격총"
 msgid_plural "에너지 저격총s"
-msgstr[0] "energy sniper rifle"
-msgstr[1] "energy sniper rifles"
+msgstr[0] ""
+msgstr[1] ""
 
 #: .\tile\expgun.json
 msgid ""
 "A heavy energy gun developed by C.R.I.T. R&D.  Mainly developed to test out "
 "a new breakthrough in hybrid weaponry."
 msgstr ""
-"A heavy energy gun. Mainly developed to test out a new breakthrough in "
-"hybrid weaponry."
 
 #: .\tile\expgun.json
 msgctxt "gun_type_type"
@@ -1183,58 +1168,55 @@ msgstr[1] ""
 #: .\tile\fake_item.json
 msgid "가짜 드롭 해머"
 msgid_plural "가짜 드롭 해머s"
-msgstr[0] "fake drop hammer"
-msgstr[1] "fake drop hammers"
+msgstr[0] ""
+msgstr[1] ""
 
 #. ~ Description for {'str': '가짜 드롭 해머'}
 #: .\tile\fake_item.json
 msgid "가짜 아이템 입니다. 해머 5단계 구성을 추가하기 위해 만들어졌습니다"
 msgstr ""
-"This is a fake item. It was created to add a hammer five-step configuration"
 
 #: .\tile\fake_item.json
 msgid "가짜 그라인더"
 msgid_plural "가짜 그라인더s"
-msgstr[0] "fake grinder"
-msgstr[1] "fake grinders"
+msgstr[0] ""
+msgstr[1] ""
 
 #. ~ Description for {'str': '가짜 그라인더'}
 #: .\tile\fake_item.json
 msgid "가짜 아이템 입니다. 연마,등등의 기능을 위해 만들어졌습니다"
-msgstr "This is a fake item. It is made for functions such as grinding"
+msgstr ""
 
 #: .\tile\fake_item.json
 msgid "가짜 "
 msgid_plural "가짜 s"
-msgstr[0] "fake"
-msgstr[1] "fake"
+msgstr[0] ""
+msgstr[1] ""
 
 #. ~ Description for {'str': '가짜 '}
 #: .\tile\fake_item.json
 msgid "가짜 아이템 입니다. 총기수리를 위해 만들어졌습니다"
-msgstr "This is a fake item. Designed to repair firearms"
+msgstr ""
 
 #: .\tile\fake_item.json
 msgid "거치된 목재 절단기"
 msgid_plural "거치된 목재 절단기s"
-msgstr[0] "mounted wood cutter"
-msgstr[1] "mounted wood cutters"
+msgstr[0] ""
+msgstr[1] ""
 
 #. ~ Description for {'str': '거치된 목재 절단기'}
 #: .\tile\fake_item.json
 msgid ""
 "가짜 아이템 입니다. 금속 절단,목재 절단,등등의 기능을 위해 만들어졌습니다"
 msgstr ""
-"This is a fake item. It is made for the function of metal cutting, wood "
-"cutting, etc."
 
 #: .\tile\fieldtype.json
 msgid "총탄 이펙트"
-msgstr "bullet effect"
+msgstr ""
 
 #: .\tile\fieldtype.json
 msgid "관통 화살"
-msgstr "penetrator arrow"
+msgstr ""
 
 #: .\tile\fieldtype.json
 msgid "hot air 1"
@@ -1290,12 +1272,12 @@ msgstr ""
 
 #: .\tile\furmiture.json
 msgid "망 연결된 정수기"
-msgstr "grid water purifiers"
+msgstr ""
 
 #. ~ Description for 망 연결된 정수기
 #: .\tile\furmiture.json
 msgid "전력으로 작동하는 설치된 정수기."
-msgstr "Installed water purifier that run on electricity."
+msgstr ""
 
 #: .\tile\furmiture.json
 msgid "metal screeching!"
@@ -1316,21 +1298,21 @@ msgstr ""
 
 #: .\tile\furmiture.json
 msgid "망 연결된 메탈마스터 용광로 친구"
-msgstr "grid MetalMaster forge buddy"
+msgstr ""
 
 #. ~ Description for 망 연결된 메탈마스터 용광로 친구
 #: .\tile\furmiture.json
 msgid "망으로 연결된 메탈마스터 용광로 친구입니다."
-msgstr "It's grid MetalMaster forge buddy."
+msgstr ""
 
 #: .\tile\furmiture.json
 msgid "망으로 연결된 단조 장치"
-msgstr "grid forge"
+msgstr ""
 
 #. ~ Description for 망으로 연결된 단조 장치
 #: .\tile\furmiture.json
 msgid "망으로 연결된 단조용 드롭해머 입니다."
-msgstr "It's grid forge."
+msgstr ""
 
 #: .\tile\furmiture.json
 msgid "망으로 연결된 연마기"
@@ -1353,40 +1335,38 @@ msgstr ""
 #: .\tile\furmiture.json
 msgid "휴대용 거치대"
 msgid_plural "휴대용 거치대s"
-msgstr[0] "portable stand"
-msgstr[1] "portable stands"
+msgstr[0] ""
+msgstr[1] ""
 
 #. ~ Description for 휴대용 거치대
 #: .\tile\furmiture.json
 msgid "이곳에 개틀링건을 거치하고 마음껏 쏘아보세요."
-msgstr "Mount your gatling gun here and shoot to your heart's content."
+msgstr ""
 
 #: .\tile\furmiture.json
 msgid "기이한 골판지 상자"
-msgstr "strange cardboard box"
+msgstr ""
 
 #. ~ Description for 기이한 골판지 상자
 #: .\tile\furmiture.json
 msgid "이거 이상하네요.이곳에 왠 상자람?..."
-msgstr "This is weird, what kind of box is this...?"
+msgstr ""
 
 #. ~ Description for {'str': '휴대용 거치대'}
 #: .\tile\furmiture.json
 msgid "사용시 휴대용 거치대를 펼칩니다."
-msgstr "Unfold the portable stand when in use."
+msgstr ""
 
 #: .\tile\furmiture.json
 msgid "접힌 기이한 골판지 상자"
 msgid_plural "접힌 기이한 골판지 상자s"
-msgstr[0] "folded strange cardboard box"
-msgstr[1] "folded strange cardboard boxes"
+msgstr[0] ""
+msgstr[1] ""
 
 #. ~ Description for {'str': '접힌 기이한 골판지 상자'}
 #: .\tile\furmiture.json
 msgid "왠지 이 상자를 설치하면 그 누구도 나를 못찾을 꺼 같습니다."
 msgstr ""
-"For some reason, I feel like if I fit inside this box, no one will ever find "
-"me."
 
 #: .\tile\furmiture.json
 msgid "abstract space cooler"
@@ -1400,7 +1380,7 @@ msgstr ""
 
 #: .\tile\furmiture.json
 msgid "실내용 에어컨 (no power)"
-msgstr "space cooler (no power)"
+msgstr ""
 
 #. ~ Description for 실내용 에어컨 (no power)
 #: .\tile\furmiture.json
@@ -1408,8 +1388,6 @@ msgid ""
 "벽에 달린 콘센트에 연결된 가정용 에어컨 입니다. 현재 전원이 들어와 있지 않습"
 "니다."
 msgstr ""
-"This is a home air conditioner plugged into a wall outlet. It is not "
-"currently powered."
 
 #. ~ Message for furniture '실내용 에어컨 (no power)'
 #. ~ Message for furniture '실내용 에어컨 (작동중)'
@@ -1419,15 +1397,13 @@ msgstr ""
 
 #: .\tile\furmiture.json
 msgid "실내용 에어컨 (off)"
-msgstr "space cooler (off)"
+msgstr ""
 
 #. ~ Description for 실내용 에어컨 (off)
 #: .\tile\furmiture.json
 msgid ""
 "벽에 달린 콘센트에 연결된 가정용 에어컨 입니다. 현재 전원이 꺼져있습니다."
 msgstr ""
-"This is a home air conditioner plugged into a wall outlet. It is currently "
-"switched off."
 
 #. ~ Message for furniture '실내용 에어컨 (off)'
 #: .\tile\furmiture.json
@@ -1436,7 +1412,7 @@ msgstr ""
 
 #: .\tile\furmiture.json
 msgid "실내용 에어컨 (작동중)"
-msgstr "space cooler (on)"
+msgstr ""
 
 #. ~ Description for 실내용 에어컨 (작동중)
 #: .\tile\furmiture.json
@@ -1444,8 +1420,6 @@ msgid ""
 "벽에 달린 콘센트에 연결된 가정용 에어컨 입니다. 현재 전원이 켜져있으며, 냉기"
 "를 뿜어내고 있습니다"
 msgstr ""
-"This is a home air conditioner plugged into a wall socket. It is currently "
-"switched on and blowing cold air."
 
 #: .\tile\furmiture.json
 msgid "abstract vibrator cooler"
@@ -1453,12 +1427,12 @@ msgstr ""
 
 #: .\tile\furmiture.json
 msgid "안마의자 "
-msgstr "massage chair"
+msgstr ""
 
 #. ~ Description for 안마의자
 #: .\tile\furmiture.json
 msgid "안마 의자."
-msgstr "massage chair."
+msgstr ""
 
 #. ~ Computer name
 #: .\tile\lab_floorplans_finale1level.json
@@ -1543,8 +1517,8 @@ msgstr ""
 #: .\tile\pet_carrier.json
 msgid "공간수축 애완동물 이동장"
 msgid_plural "공간수축 애완동물 이동장s"
-msgstr[0] "spacial-collapse pet carrier"
-msgstr[1] "spacial-collapse pet carriers"
+msgstr[0] ""
+msgstr[1] ""
 
 #. ~ Description for {'str': '공간수축 애완동물 이동장'}
 #: .\tile\pet_carrier.json
@@ -1552,20 +1526,18 @@ msgid ""
 "A plastic container meant to hold pets for transport.  Use it on a suitable "
 "animal to capture, use it on an empty tile to release."
 msgstr ""
-"A dimensional container meant to hold pets for transport.  Use it on a "
-"suitable animal to capture, use it on an empty tile to release."
 
 #: .\tile\pet_carrier.json
 msgid "약한 전술 연막"
-msgstr "thin tactical smoke"
+msgstr ""
 
 #: .\tile\pet_carrier.json
 msgid "전술 연막"
-msgstr "tactical smoke"
+msgstr ""
 
 #: .\tile\pet_carrier.json
 msgid "짙은 전술 연막"
-msgstr "thick tactical smoke"
+msgstr ""
 
 #: .\tile\pet_carrier.json
 msgid "armed smoke bomb"
@@ -1878,8 +1850,8 @@ msgstr ""
 #: .\tile\power_armor.json
 msgid "파워아머 화물 프레임 확장 공간"
 msgid_plural "파워아머 화물 프레임 확장 공간s"
-msgstr[0] "power armor hauling frame expansion space module"
-msgstr[1] "power armor hauling frame expansion space modules"
+msgstr[0] ""
+msgstr[1] ""
 
 #. ~ Description for {'str': '파워아머 화물 프레임 확장 공간'}
 #: .\tile\power_armor.json
@@ -1887,8 +1859,6 @@ msgid ""
 "이 파워아머 화물 프레임 확장 공간 모듈은 공간 확장 기술이 적용되어 추가로 40L"
 "분량의 공간을 제공합니다 "
 msgstr ""
-"This power armor hauling frame expansion space module features space "
-"expansion technology to provide an additional 40 litres of space."
 
 #: .\tile\power_armor.json
 msgid "power armor back holster"
@@ -2007,40 +1977,40 @@ msgstr ""
 #: .\tile\power_armor.json
 msgid "파워아머 정신방어 모듈"
 msgid_plural "파워아머 정신방어 모듈s"
-msgstr[0] "power armor psyshield module"
-msgstr[1] "power armor psyshield modules"
+msgstr[0] ""
+msgstr[1] ""
 
 #. ~ Use action msg for {'str': '파워아머 정신방어 모듈'}.
 #: .\tile\power_armor.json
 msgid "사이오닉 배리어 활성화."
-msgstr "Psionic barrier activatied."
+msgstr ""
 
 #. ~ Description for {'str': '파워아머 정신방어 모듈'}
 #: .\tile\power_armor.json
 msgid "당신의 정신을 지켜주는 파워아머 추가 모듈입니다"
-msgstr "Power armor add-on modules to protect your sanity."
+msgstr ""
 
 #: .\tile\power_armor.json
 msgid "파워아머 정신방어 모듈(활성화됨)"
 msgid_plural "파워아머 정신방어 모듈(활성화됨)s"
-msgstr[0] "power armor psyshield module (active)"
-msgstr[1] "power armor psyshield modules (active)"
+msgstr[0] ""
+msgstr[1] ""
 
 #. ~ Use action msg for {'str': '파워아머 정신방어 모듈(활성화됨)'}.
 #: .\tile\power_armor.json
 msgid "사이오닉 베리어 비활성화."
-msgstr "Psionic barrier deactivated."
+msgstr ""
 
 #: .\tile\power_armor.json
 msgid "파워아머 열/냉기 차단 모듈"
 msgid_plural "파워아머 열/냉기 차단 모듈s"
-msgstr[0] "power armor thermal conduction isolation module"
-msgstr[1] "power armor thermal insulation modules"
+msgstr[0] ""
+msgstr[1] ""
 
 #. ~ Use action msg for {'str': '파워아머 열/냉기 차단 모듈'}.
 #: .\tile\power_armor.json
 msgid "열교환 차단모듈 온라인."
-msgstr "Thermal conduction barrier module online."
+msgstr ""
 
 #. ~ Description for {'str': '파워아머 열/냉기 차단 모듈'}
 #: .\tile\power_armor.json
@@ -2048,30 +2018,28 @@ msgid ""
 "절대영도의 환경과 용암속에서도 생존이 가능하게 해주는 파워아머 추가 모듈입니"
 "다"
 msgstr ""
-"Power armor add-on modules that allow you to survive in sub-zero "
-"environments and lava."
 
 #: .\tile\power_armor.json
 msgid "파워아머 파워아머 열/냉기 차단 모듈(활성화됨)"
 msgid_plural "파워아머 파워아머 열/냉기 차단 모듈(활성화됨)s"
-msgstr[0] "power armor thermal conduction isolation module (active)"
-msgstr[1] "power armor thermal conduction isolation modules (active)"
+msgstr[0] ""
+msgstr[1] ""
 
 #. ~ Use action msg for {'str': '파워아머 파워아머 열/냉기 차단 모듈(활성화됨)'}.
 #: .\tile\power_armor.json
 msgid "열교환 차단 모듈 오프라인."
-msgstr "Thermal conduction barrier module offline."
+msgstr ""
 
 #: .\tile\power_armor.json
 msgid "파워아머 레이저 방어 모듈"
 msgid_plural "파워아머 레이저 방어 모듈s"
-msgstr[0] "power armor laser shield module"
-msgstr[1] "power armor laser shield modules"
+msgstr[0] ""
+msgstr[1] ""
 
 #. ~ Use action msg for {'str': '파워아머 레이저 방어 모듈'}.
 #: .\tile\power_armor.json
 msgid "애너지 배리어 활성화."
-msgstr "Energy barrier active."
+msgstr ""
 
 #. ~ Description for {'str': '파워아머 레이저 방어 모듈'}
 #: .\tile\power_armor.json
@@ -2079,30 +2047,28 @@ msgid ""
 "파워아머에 에너지 장막을 형성해 레이저 공격을 모두 흘려낼 수 있게 해주는 파워"
 "아머 추가 모듈입니다."
 msgstr ""
-"A power armor add-on module that creates an energy shield around your power "
-"armor, allowing it to deflect all laser attacks."
 
 #: .\tile\power_armor.json
 msgid "파워아머 레이저 방어 모듈(활성화됨)"
 msgid_plural "파워아머 레이저 방어 모듈(활성화됨)s"
-msgstr[0] "power armor laser shield module (active)"
-msgstr[1] "power armor laser shield modules (active)"
+msgstr[0] ""
+msgstr[1] ""
 
 #. ~ Use action msg for {'str': '파워아머 레이저 방어 모듈(활성화됨)'}.
 #: .\tile\power_armor.json
 msgid "애너지 베리어 비활성화."
-msgstr "Energy barrier inactive."
+msgstr ""
 
 #: .\tile\power_armor.json
 msgid "파워아머 동작 보조 모듈"
 msgid_plural "파워아머 동작 보조 모듈s"
-msgstr[0] "power armor motion assist module"
-msgstr[1] "power armor motion assist modules"
+msgstr[0] ""
+msgstr[1] ""
 
 #. ~ Use action msg for {'str': '파워아머 동작 보조 모듈'}.
 #: .\tile\power_armor.json
 msgid "동작 보정 모드 활성화."
-msgstr "Motion assist module engages."
+msgstr ""
 
 #. ~ Description for {'str': '파워아머 동작 보조 모듈'}
 #: .\tile\power_armor.json
@@ -2110,19 +2076,17 @@ msgid ""
 "모든 종류의 무기술에 대응하는 인공근육 보정장치입니다. 사용시 약 30%정도 빠르"
 "게 휘두를 수 있게 되었습니다 "
 msgstr ""
-"An power armor artificial muscle compensator for all types of martial arts. "
-"You can now swing about 30% faster when using it."
 
 #: .\tile\power_armor.json
 msgid "파워아머 동작 보조 모듈(활성화됨)"
 msgid_plural "파워아머 동작 보조 모듈(활성화됨)s"
-msgstr[0] "power armor motion assist module (active)"
-msgstr[1] "power armor motion assist modules (active)"
+msgstr[0] ""
+msgstr[1] ""
 
 #. ~ Use action msg for {'str': '파워아머 동작 보조 모듈(활성화됨)'}.
 #: .\tile\power_armor.json
 msgid "동작 보정 모드 비활성화."
-msgstr "Motion assist module disengages."
+msgstr ""
 
 #. ~ Description for {'str': '파워아머 동작 보조 모듈(활성화됨)'}
 #: .\tile\power_armor.json
@@ -2130,84 +2094,82 @@ msgid ""
 "모든 종류의 무기술에 대응하는 인공근육 보정장치입니다. 약 30%정도 빠르게 휘두"
 "를 수 있게 되었습니다 "
 msgstr ""
-"An power armor artificial muscle compensator for all types of martial arts. "
-"You can now swing about 30% faster."
 
 #: .\tile\power_armor.json
 msgid "완벽한-정신방어"
-msgstr "Perfect Psyshield"
+msgstr ""
 
 #. ~ Description of effect '완벽한-정신방어'.
 #: .\tile\power_armor.json
 msgid "거의 모든 종류의 정신에 영향을 주는 공격을 막아냅니다"
-msgstr "Defend against almost any kind of mind-affecting attack"
+msgstr ""
 
 #. ~ Apply message for effect(s) '완벽한-정신방어'.
 #: .\tile\power_armor.json
 msgid "당신의 정신은 이 세상과 단절되었다"
-msgstr "Your mind is disconnected from this world."
+msgstr ""
 
 #. ~ Remove message for effect(s) '완벽한-정신방어'.
 #: .\tile\power_armor.json
 msgid "당신의 정신은 이 세상과 다시 연결되었다."
-msgstr "Your mind has reconnected with the world."
+msgstr ""
 
 #: .\tile\power_armor.json
 msgid "온도 저항"
-msgstr "Temp Resistance"
+msgstr ""
 
 #. ~ Description of effect '온도 저항'.
 #: .\tile\power_armor.json
 msgid "그 어떤 추위와 더위도 당신에게 영향을 주지 못할것 입니다."
-msgstr "No amount of cold or heat will affect you."
+msgstr ""
 
 #. ~ Apply message for effect(s) '온도 저항'.
 #: .\tile\power_armor.json
 msgid "더위/추위면역!"
-msgstr "Heat/Cold Immunity!"
+msgstr ""
 
 #. ~ Remove message for effect(s) '온도 저항'.
 #: .\tile\power_armor.json
 msgid "세상의 온도를 다시 느낀다."
-msgstr "Feel the temperature of the world again."
+msgstr ""
 
 #: .\tile\power_armor.json
 msgid "레이저 저항"
-msgstr "Laser Immunity"
+msgstr ""
 
 #. ~ Description of effect '레이저 저항'.
 #: .\tile\power_armor.json
 msgid "모든 종류의 광학병기를 막아냅니다."
-msgstr "Defends against all types of optical weapons."
+msgstr ""
 
 #. ~ Apply message for effect(s) '레이저 저항'.
 #: .\tile\power_armor.json
 msgid "이제 빔병기가 두렵지 않다!"
-msgstr "You're not afraid of beam weapons anymore!"
+msgstr ""
 
 #. ~ Remove message for effect(s) '레이저 저항'.
 #: .\tile\power_armor.json
 msgid "다시 빔병기를 조심해야한다."
-msgstr "Again, you have to watch out for beam weapons."
+msgstr ""
 
 #: .\tile\power_armor.json
 msgid "공격 보조 장치"
-msgstr "Melee Assist"
+msgstr ""
 
 #. ~ Description of effect '공격 보조 장치'.
 #: .\tile\power_armor.json
 msgid "근접 공격 딜레이 감소."
-msgstr "Melee attack delay reduction."
+msgstr ""
 
 #. ~ Apply message for effect(s) '공격 보조 장치'.
 #: .\tile\power_armor.json
 msgid "관절 서브 모터 오버드라이브"
-msgstr "Articulated submotor overdrive."
+msgstr ""
 
 #. ~ Remove message for effect(s) '공격 보조 장치'.
 #: .\tile\power_armor.json
 msgid "관절 서브 모터 오프라인"
-msgstr "Articulated submotor offline."
+msgstr ""
 
 #: .\tile\power_armor.json
 msgid "Debug HVAC"
@@ -2221,13 +2183,13 @@ msgstr ""
 #: .\tile\power_armor.json
 msgid "파워아머 전술 방패"
 msgid_plural "파워아머 전술 방패s"
-msgstr[0] "power armor tactical shield"
-msgstr[1] "power armor tactical shields"
+msgstr[0] ""
+msgstr[1] ""
 
 #. ~ Use action msg for {'str': '파워아머 전술 방패'}.
 #: .\tile\power_armor.json
 msgid "방어모드 활성화."
-msgstr "Defense mod activated."
+msgstr ""
 
 #. ~ Use action need_charges_msg for {'str': '파워아머 전술 방패'}.
 #: .\tile\power_armor.json
@@ -2243,27 +2205,22 @@ msgid ""
 "능합니다. 사용중일경우 막대한 양의 전력을 소모하여 방어력을 강화하며 전신을 "
 "보호해줍니다"
 msgstr ""
-"This Double-tech tactical shield for power armor is built to survive small "
-"arms fire from tanks and nuclear explosions. It is made of a new material "
-"that can switch freely between energy and matter, allowing both hands to be "
-"used freely. When in use, it consumes massive amounts of power to boost "
-"defences and protect the entire body"
 
 #: .\tile\power_armor.json
 msgid "파워아머 전술 방패(완벽 방어 모드)"
 msgid_plural "파워아머 전술 방패(완벽 방어 모드)s"
-msgstr[0] "power armor tactical shield (perfect def)"
-msgstr[1] "power armor tactical shields (perfect def)"
+msgstr[0] ""
+msgstr[1] ""
 
 #. ~ Use action menu_text for {'str': '파워아머 전술 방패(완벽 방어 모드)'}.
 #: .\tile\power_armor.json
 msgid " 전원공급 중단  "
-msgstr "Interrupt power supply"
+msgstr ""
 
 #. ~ Use action msg for {'str': '파워아머 전술 방패(완벽 방어 모드)'}.
 #: .\tile\power_armor.json
 msgid "방어모드 비활성화."
-msgstr "Defense mod deactivated."
+msgstr ""
 
 #. ~ Description for {'str': '파워아머 전술 방패(완벽 방어 모드)'}
 #: .\tile\power_armor.json
@@ -2272,9 +2229,6 @@ msgid ""
 "는 사양으로 제작되었습니다. 현재 고강도 전면 보호막을 작동중 이며 사용자의 움"
 "직임을 방해하고 있습니다."
 msgstr ""
-"This tactical shield for power armor is built to survive small arms fire "
-"from tanks and nuclear explosions. It is currently activating a high-"
-"strength frontal shield and impeding your movement."
 
 #: .\tile\power_armor.json
 msgid "mi-go slaver beam"
