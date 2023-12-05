@@ -565,7 +565,6 @@
     "reversible": true,
     "autolearn": true,
     "using": [ [ "welding_standard", 10 ] ],
-    "qualities": [ { "id": "GLARE", "level": 2 } ],
     "components": [ [ [ "carbide_plate", 20 ] ], [ [ "graphene", 2 ] ] ]
   },
   {
@@ -612,7 +611,6 @@
     "time": "90 m",
     "reversible": true,
     "autolearn": true,
-    "qualities": [ { "id": "GLARE", "level": 2 } ],
     "using": [ [ "welding_standard", 50 ] ],
     "components": [ [ [ "carbide_plate", 50 ] ], [ [ "graphene", 10 ] ] ]
   },

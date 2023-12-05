@@ -6,20 +6,9 @@
     "name": { "str": "RM13 combat armor" },
     "copy-from": "rm13_armor",
     "charges_per_use": 0,
-    "ammo": "battery",
-    "magazines": [
-      [
-        "battery",
-        [
-          "medium_atomic_battery_cell",
-          "medium_battery_cell",
-          "medium_plus_battery_cell"
-        ]
-      ]
-    ],
-    "magazine_well": "525 ml",
-    "encumbrance": 20,
-	"max_charges": 0
+    "ammo": [ "battery", "plutonium" ],
+    "extend": { "flags": [ "USE_UPS", "NO_UNLOAD" ] },
+    "encumbrance": 20
   },
   {
     "id": "rm13_armor_on",
@@ -28,20 +17,9 @@
     "name": { "str": "RM13 combat armor (on)", "str_pl": "RM13 combat armors (on)" },
     "copy-from": "rm13_armor_on",
     "charges_per_use": 0,
-    "ammo": "battery",
-    "magazines": [
-      [
-        "battery",
-        [
-          "medium_atomic_battery_cell",
-          "medium_battery_cell",
-          "medium_plus_battery_cell"
-        ]
-      ]
-    ],
-    "magazine_well": "525 ml",
-    "encumbrance": 1,
-	"max_charges": 0
+    "ammo": [ "battery", "plutonium" ],
+    "extend": { "flags": [ "USE_UPS" ] },
+    "encumbrance": 1
   },
   {
     "id": "shark_suit_faraday",
