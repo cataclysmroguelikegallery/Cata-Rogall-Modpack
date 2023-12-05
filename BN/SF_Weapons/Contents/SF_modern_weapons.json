@@ -36,7 +36,7 @@
       [ "sights", 1 ]
     ],
     "ammo_effects": [ "NEVER_MISFIRES" ],
-    "flags" : [ "NEVER_JAMS", "NON-FOULING", "DURABLE_MELEE" ],
+    "flags" : [ "NEVER_JAMS", "NON_FOULING", "DURABLE_MELEE" ],
     "faults": [  ]
   },
   {

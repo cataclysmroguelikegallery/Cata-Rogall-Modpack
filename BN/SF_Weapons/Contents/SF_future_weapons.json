@@ -43,7 +43,7 @@
       [ "underbarrel", 1 ]
     ],
     "ammo_effects": [ "LASER", "NEVER_MISFIRES" ],
-    "flags" : [ "NEVER_JAMS", "NON-FOULING", "NEEDS_NO_LUBE", "NONCONDUCTIVE", "DURABLE_MELEE" ],
+    "flags" : [ "NEVER_JAMS", "NON_FOULING", "NEEDS_NO_LUBE", "NONCONDUCTIVE", "DURABLE_MELEE" ],
     "faults": [  ]
   },
   {
@@ -313,7 +313,7 @@
       [ "underbarrel", 1 ]
     ],
     "ammo_effects": [ "LASER", "LARGE_BEANBAG", "NEVER_MISFIRES", "NO_DAMAGE_SCALING", "WIDE" ],
-    "flags" : [ "NEVER_JAMS", "NON-FOULING", "NEEDS_NO_LUBE", "NONCONDUCTIVE", "WATERPROOF_GUN" ],
+    "flags" : [ "NEVER_JAMS", "NON_FOULING", "NEEDS_NO_LUBE", "NONCONDUCTIVE", "WATERPROOF_GUN" ],
     "faults": [  ]
   },
   {
@@ -362,7 +362,7 @@
       "loudness": 40,
       "ammo_effects": [ "LASER", "PLASMA", "NEVER_MISFIRES", "NO_DAMAGE_SCALING", "WIDE" ]
     },
-    "flags": [ "NEVER_JAMS", "NON-FOULING", "NEEDS_NO_LUBE", "NONCONDUCTIVE", "WATERPROOF_GUN", "IRREMOVABLE" ]
+    "flags": [ "NEVER_JAMS", "NON_FOULING", "NEEDS_NO_LUBE", "NONCONDUCTIVE", "WATERPROOF_GUN", "IRREMOVABLE" ]
   },
   {
     "id": "SF_Dominator_3",
@@ -394,7 +394,7 @@
       "loudness": 40,
       "ammo_effects": [ "LASER", "PLASMA", "NEVER_MISFIRES", "NO_DAMAGE_SCALING", "WIDE" ]
     },
-    "flags": [ "NEVER_JAMS", "NON-FOULING", "NEEDS_NO_LUBE", "NONCONDUCTIVE", "WATERPROOF_GUN", "IRREMOVABLE" ]
+    "flags": [ "NEVER_JAMS", "NON_FOULING", "NEEDS_NO_LUBE", "NONCONDUCTIVE", "WATERPROOF_GUN", "IRREMOVABLE" ]
   },
   {
     "type": "recipe",
@@ -547,7 +547,7 @@
       [ "underbarrel", 1 ]
     ],
     "ammo_effects": [ "PLASMA", "NEVER_MISFIRES", "INCENDIARY", "PLASMA_BLAST" ],
-    "flags" : [ "NEVER_JAMS", "NON-FOULING", "NEEDS_NO_LUBE", "NONCONDUCTIVE", "WATERPROOF_GUN", "DURABLE_MELEE" ],
+    "flags" : [ "NEVER_JAMS", "NON_FOULING", "NEEDS_NO_LUBE", "NONCONDUCTIVE", "WATERPROOF_GUN", "DURABLE_MELEE" ],
     "faults": [  ]
   },
   {
