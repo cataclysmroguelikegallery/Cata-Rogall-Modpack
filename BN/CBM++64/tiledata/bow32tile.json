@@ -1,33 +1,32 @@
 [
   {
     "type": "mod_tileset",
-    "compatibility": ["MX+(Overhaul)", "MSX++DEAD_PEOPLE", "UNDEAD_PEOPLE", "UNDEAD_PEOPLE_BASE" ],
+    "compatibility": ["MX+(Overhaul)", "MSX++DEAD_PEOPLE", "UNDEAD_PEOPLE", "UNDEAD_PEOPLE_BASE"],
     "tiles-new": [
-	  {
-      "file": "bow32.png",
-		"sprite_width":42,
-		"sprite_height":32,
-		"sprite_offset_x":-5,
-		"sprite_offset_y":4,
-      "tiles": [
-          { "id": "overlay_wielded_bio_bow_weapon", "fg": 
-				[
-				{"weight": 1,"sprite":0},
-				{"weight": 1,"sprite":1},
-				{"weight": 1,"sprite":2},
-				{"weight": 1,"sprite":3},
-				{"weight": 1,"sprite":4},
-				{"weight": 1,"sprite":5},
-				{"weight": 1,"sprite":6},
-				{"weight": 1,"sprite":7}
-				],
-				"rotates": false,
-				"animated" :true }
-				]
-		}
-      ]
-    }
-	
+      {
+        "file": "bow32.png",
+        "sprite_width": 42,
+        "sprite_height": 32,
+        "sprite_offset_x": -5,
+        "sprite_offset_y": 4,
+        "tiles": [
+          {
+            "id": "overlay_wielded_bio_bow_weapon",
+            "fg": [
+              { "weight": 1, "sprite": 0 },
+              { "weight": 1, "sprite": 1 },
+              { "weight": 1, "sprite": 2 },
+              { "weight": 1, "sprite": 3 },
+              { "weight": 1, "sprite": 4 },
+              { "weight": 1, "sprite": 5 },
+              { "weight": 1, "sprite": 6 },
+              { "weight": 1, "sprite": 7 }
+            ],
+            "rotates": false,
+            "animated": true
+          }
+        ]
+      }
     ]
   }
 ]

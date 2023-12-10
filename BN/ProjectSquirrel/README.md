@@ -1,20 +1,33 @@
-# Project: Pack Rat requires rolling with the latest version of BN to enjoy the content.
+# Project: Pack Rat requires playing with the latest version of BN to enjoy the content.
 
 ## 1. Add practical compression storage items
 
 Bundles of Rags 1L>0.5L
+
 Bundles of Leathers 1L>0.5L
+
 Bundles of Kevlar plates
+
 Bundles of Nomex
+
 Bundles of Plastic chunks
+
 Bundles of Chitins
+
 Bundles of Biosilicified Chitins
+
 Bundles of Planks
+
 Bundles of Splintered Wood
+
 Bundle of Glass Shards
+
 Bundle of Wires
+
 Bundle of pipes
+
 Bundle of scrap metal
+
 Bundles of layered carbides
 
 ## 2. Build a nanomaterial container, add a portable CVD machine
@@ -22,15 +35,25 @@ Bundles of layered carbides
 Requires at least Lab Report-Gustav to build these.
 In PPR 1.1, main tools will all be unified as 'Matter Synthesizer: Lorem Ipsum', and you will be able to evolve your own main tools to increase your skills, so you can make them in one tool instead of having to make multiple tools.
 
-- Tier 1: Atomic Forge (Graphene, Layered Carbide)
+Tier 1: Atomic Forge (Graphene, Layered Carbide)
 Manupulator workbench (workbench that allows you to work at twice the speed)
+
 ┏━━━━━━━━━━━━━━━━┛ 
-- Tier 2: Matter Synthesizer: Nanocompressor (hydrogen container, nanofabricated materials, superalloys) *Superalloys can be disassembled with a hacksaw to get thin superalloys.
-Isotope Centrifuge Forge: Enriched Uranium (raw material is toxic waste, maybe a g), Degraded Uranium, Uranium Fuel Cells, Plutonium Slurry, Plutonium Fuel Cells
+
+Tier 2: Matter Synthesizer: Nanocompressor (hydrogen container, nanofabricated materials, superalloys)
+
+*Superalloys can be disassembled with a metal saw to get thin superalloys.
+
+Isotope Centrifuge Forge: Enriched Uranium (raw material is toxic waste, maybe a g), Degraded Uranium, Uranium Fuel Cells, Plutonium Slurry, Plutonium Fuel Cells)
+
 ┏━━━━━━━━━━━━━━━━┛ 
-- Tier 3: Matter Synthesizer: Nano-precision sewing machines (electronics debris, RAM, wiring circuits, copper wire, solar cells, CBMs, AI cores, hardlight matrices, fusion cores)
+
+Tier 3: Matter Synthesizer: Nano-precision sewing machines (e-scraps, RAM, circuits, copper wire, solar cells, CBMs, AI cores, hardlight matrices, fusion cores)
+
 Uranium forge: Use A to continuously create enriched uranium, degraded uranium bullets,
+
 ┏━━━━━━━━━━━━━━━━┛ 
+
 - Tier 4: Matter Synthesizer: Nanoprinter (all RM weapon series and RM13 Combat Armor, all Combat Armors, Hardlight weapons, Gauss weapons)
 
 - Portable CVD Machine: Set up, examine, and use as is. To retrieve it, smash it with S.
@@ -53,40 +76,75 @@ Uranium forge: Use A to continuously create enriched uranium, degraded uranium b
 - Hardlight weapons: Highly advanced optical weapons that feed on the Hardlight Matrix. They disrupt the wavelengths of light and fire what they solidify, making it possible to recreate lightsabers and blasters from the original movies with solidified light. These weapons are characterized by high hit rate, short range, and anti-personnel. Ammo uses UPS power.
 - Gaussian weapons: High mass weapons that feed on fusion cores, or fusion cores. These are the arc reactors from the movie What's up? You can't use fusion cores directly, but you can build Gauss weapons, which are personalized railguns. You can also create mechs, which I'll talk about later. Features include Barrett-like damage, low rate of fire, large and heavy, and the ability to break through walls and zombie skulls. Ammunition is steel rails, degraded uranium rails, and scrap metal (!).
 - Fireproof Gears:
+
 ┏━━━━━━━━━━━━━━━━┛
+
 ┣━ Survival fireproof canteen
+
 ┣━ Survival fireproof harness
+
 ┣━ Survival multi-purpose fire belt
+
 ┣━ Survival fireproof headlamp
+
 ┣━ Survival atomic fireproof headlamp
+
 ┣━ Survival fireproof sheath
+
 ┣━ Survival fireproof lantern sheath
+
 ┣━ Survival fireproof handbag
+
 ┣━ Survival fireproof small sheath
+
 ┣━ Survival fireproof ankle sheath
+
 ┣━ Survival fireproof pistol holster
+
 ┣━ Survival fireproof bow sheath
+
 ┣━ Survival fireproof axe ring holster
+
 ┣━ Survival fireproof spear lanyard
+
 ┣━ Survival Fireproof Backpack
+
 ┣━ Survival fireproof rucksack (large backpack)
+
 ┣━ Survival fireproof duffel bag
+
 ┣━ Survival fireproof runner pack
+
 ┣━ Survival fireproof mountain backpack
+
 ┣━ Survival fireproof knee pads
+
 ┣━ Survival fireproof elbow pads
+
 ┣━ Survival Fireproof Arm Guard
+
 ┣━ Survival Fireproof Leg Guards
+
 ┣━ Survival Fireproof Breastplate
+
 ┣━ Survival Fireproof Armor
+
 ┣━ Survival Fireproof Chest Ammo Pouch
+
 ┣━ Survival Fireproof Leg Ammo Pouches
+
 ┣━ Survival Fireproof Ankle Ammo Pouch
+
 ┣━ Survival Large Fireproof Grenade Pouch
+
 ┣━ Survival Fireproof Grenade Pouch
+
 ┣━ Survival fireproof oversized gun holster
+
 ┣━ Survival fireproof back holster
+
 ┣━ Survival Fireproof Duster Coat
+
 ┗━ Survival Fireproof Trench Coat
 
 ## 4. Make Your Own Combat Armor
