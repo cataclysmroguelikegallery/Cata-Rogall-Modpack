@@ -1,4 +1,12 @@
-# Project: Pack Rat requires playing with the latest version of BN to enjoy the content.
+# What is Project: Pack Rat?
+
+Project: "Pack Rat Mode" provides comprehensive sci-fi contents. The mod adds combat armor and futuristic weapons, making gameplay more exciting, improving usability, and providing expanded end content.  Unlock atomic-powered tech to gain access to more advanced science! With new equipment and features, this mod will provide players with a more enriching experience.
+
+Yes, all of the sci-fi content in my mod uses a tech tree approach where you start with an Atomic Forge, build a tool called a Matter Synthesizer, and "evolve" the tool through crafting to unlock the number of different sci-fi items you can make. It's a bit like Starbound. At the "Matter Synthesizer: nano-precision sewing machines" stage, you can create not only CBMs, but also RAM, circuits, e-scraps, solar cells, and other materials that have been difficult to source in large quantities. You can create 7 different types of unique combat armor, 7 hard-light weapons, which are fast and accurate optical weapons, and 5 Gauss weapons, which are high-firepowered railguns powered by fusion cores. You can craft 5.56mm, 7.62mm, and 8x40mm with depleted uranium penetrators. You can find recipes in the previously useless Lab journal - Gustav, and the Lab journal - Herrera, where you can create useful electronics, and Rivtech design binders. Recipes for hard-light and Gaussian weapons are rarely found in the lab. I'm creating a faction that will have an impact later in the game.
+
+In addition, I've prepared several items that can be used even before the SF phase and QoL: 4 types of basic shields and 3 types of tactical shields, 6 types of frame packs and 3 types of powered exoskeletons, a dimensional backpack with a huge storage capacity, and a series of 34 survival fireproof items. Most of the clothes can be lined with steel plates or superalloy plates, and we've also added features such as Nomex lining, reducing interference, and adding pockets.
+
+* Project: Pack Rat requires playing with the latest version of BN to enjoy the content.
 
 ## 1. Add practical compression storage items
 
@@ -44,13 +52,9 @@ Tier 2: Matter Synthesizer: Nanocompressor (hydrogen container, nanofabricated m
 
 *Superalloys can be disassembled with a metal saw to get thin superalloys.
 
-Isotope Centrifuge Forge: Enriched Uranium (raw material is toxic waste, maybe a g), Degraded Uranium, Uranium Fuel Cells, Plutonium Slurry, Plutonium Fuel Cells)
-
 ┏━━━━━━━━━━━━━━━━┛ 
 
 Tier 3: Matter Synthesizer: Nano-precision sewing machines (e-scraps, RAM, circuits, copper wire, solar cells, CBMs, AI cores, hardlight matrices, fusion cores)
-
-Uranium forge: Use A to continuously create enriched uranium, degraded uranium bullets,
 
 ┏━━━━━━━━━━━━━━━━┛ 
 
@@ -222,9 +226,9 @@ Pack Frames (weight bonus equipment worn like a backpack).
 - Pipe A-frame Pack
 - Steel Carrier Frame
 - Frame Backpack: Bag + Pipe A-frame. Drop Only.
-- Industrial Exoskeleton: Reinforced exoskeleton with large weight gain. Droptemplate.
-- Vanguard Exoskeleton: A reinforced exoskeleton with a weapon slot and a Strength stat bonus when worn. Drops as.
-- Sprinter Exoskeleton: Drops as a droplet. A reinforced exoskeleton that provides a bonus to movement speed when worn. Dropped item.
+- Industrial Exoskeleton: Reinforced exoskeleton with large weight gain. Cannot be crafted.
+- Vanguard Exoskeleton: A reinforced exoskeleton with a weapon slot and a Strength stat bonus when worn. Cannot be crafted.
+- Sprinter Exoskeleton: A reinforced exoskeleton that provides a bonus to movement speed when worn. Cannot be crafted.
 - Rat-Pack: A backpack that is fireproof, provides 1.7x its weight, holds a medium-sized pet, holds 3 random weapons, and provides 120L.
 - Dimensional Stabilizer: Lab drop backpack that provides 300L. Also available in black.
 

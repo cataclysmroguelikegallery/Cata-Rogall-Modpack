@@ -282,7 +282,7 @@
 	  },
       { "type": "holster" }
 	],
-    "flags": [ "WATER_FRIENDLY", "STURDY", "BELTED", "USE_UPS" ]
+    "flags": [ "WATER_FRIENDLY", "STURDY", "BELTED", "USES_BIONIC_POWER" ]
   },
   {
     "id": "sq_nomad_rig_on",
@@ -297,7 +297,7 @@
       "msg": "어깨에 장착된 손전등을 껐습니다.",
       "target": "sq_nomad_rig"
     },
-    "flags": [ "LIGHT_500", "WATER_FRIENDLY", "STURDY", "BELTED", "USE_UPS" ]
+    "flags": [ "LIGHT_500", "WATER_FRIENDLY", "STURDY", "BELTED", "USES_BIONIC_POWER" ]
   },
   {
     "type": "mutation",
