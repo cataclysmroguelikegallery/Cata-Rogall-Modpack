@@ -44,13 +44,9 @@ Tier 2: Matter Synthesizer: Nanocompressor (hydrogen container, nanofabricated m
 
 *Superalloys can be disassembled with a metal saw to get thin superalloys.
 
-Isotope Centrifuge Forge: Enriched Uranium (raw material is toxic waste, maybe a g), Degraded Uranium, Uranium Fuel Cells, Plutonium Slurry, Plutonium Fuel Cells)
-
 ┏━━━━━━━━━━━━━━━━┛ 
 
 Tier 3: Matter Synthesizer: Nano-precision sewing machines (e-scraps, RAM, circuits, copper wire, solar cells, CBMs, AI cores, hardlight matrices, fusion cores)
-
-Uranium forge: Use A to continuously create enriched uranium, degraded uranium bullets,
 
 ┏━━━━━━━━━━━━━━━━┛ 
 
@@ -222,9 +218,9 @@ Pack Frames (weight bonus equipment worn like a backpack).
 - Pipe A-frame Pack
 - Steel Carrier Frame
 - Frame Backpack: Bag + Pipe A-frame. Drop Only.
-- Industrial Exoskeleton: Reinforced exoskeleton with large weight gain. Droptemplate.
-- Vanguard Exoskeleton: A reinforced exoskeleton with a weapon slot and a Strength stat bonus when worn. Drops as.
-- Sprinter Exoskeleton: Drops as a droplet. A reinforced exoskeleton that provides a bonus to movement speed when worn. Dropped item.
+- Industrial Exoskeleton: Reinforced exoskeleton with large weight gain. Cannot be crafted.
+- Vanguard Exoskeleton: A reinforced exoskeleton with a weapon slot and a Strength stat bonus when worn. Cannot be crafted.
+- Sprinter Exoskeleton: A reinforced exoskeleton that provides a bonus to movement speed when worn. Cannot be crafted.
 - Rat-Pack: A backpack that is fireproof, provides 1.7x its weight, holds a medium-sized pet, holds 3 random weapons, and provides 120L.
 - Dimensional Stabilizer: Lab drop backpack that provides 300L. Also available in black.
 

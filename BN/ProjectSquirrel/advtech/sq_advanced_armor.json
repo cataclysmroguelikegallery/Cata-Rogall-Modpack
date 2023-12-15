@@ -123,6 +123,7 @@
     "flags": [ "NONCONDUCTIVE", "OVERSIZE", "STURDY", "WATERPROOF", "RAINPROOF", "SWIM_GOGGLES", "SUN_GLASSES", "ELECTRIC_IMMUNE", "RAD_PROOF", "UNARMED_WEAPON", "ALLOWS_NATURAL_ATTACKS", "CLIMATE_CONTROL", "NO_UNLOAD", "NO_RELOAD", "NO_TAKEOFF" ],
     "turns_per_charge": 15,
     "encumbrance": 20,
+    "revert_to": "sq_warden_suit",
     "use_action": { "type": "transform", "menu_text": "Turn off", "msg": "Suit shutting down.", "target": "sq_warden_suit" },
     "relic_data": {
       "passive_effects": [
@@ -601,7 +602,7 @@
     "looks_like": "rm13_armor",
     "description": "UPS로 돌아가게끔 만든, 방탄조끼와 회로가 삽입된 점프슈트를 사용해서 만든 수제 방어구. 재료의 한계와 양산성을 고려하여 일부 기능이 생략되었지만, 여전히 각종 피해로부터 몸을 보호해주는 기본적인 기능이 탑재된 '싼데 비슷한' 방어구입니다. 누군가는 RM13 컴뱃 아머의 디자인을 베꼈다고 할 테지만 아무도 뭐라 할 사람은 없습니다. 현재 작동 중이며, 지속적으로 전력을 소모하고 있습니다. 사용하여 작동을 멈춥니다.",
     "turns_per_charge": 15,
-    "revert_to": "sq_advanced_fsurvivor_suit",
+    "revert_to": "sq_advanced_survivor_suit",
     "use_action": { "type": "transform", "menu_text": "Turn off", "msg": "Suit shutting down.", "target": "sq_advanced_survivor_suit" },
     "covers": [ "head", "mouth", "eyes", "torso", "arms", "hands", "legs", "feet" ],
     "environmental_protection": 30,
