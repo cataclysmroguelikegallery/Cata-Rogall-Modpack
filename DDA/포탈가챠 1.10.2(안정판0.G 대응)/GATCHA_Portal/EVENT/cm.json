@@ -20,7 +20,6 @@
 		"phase":"liquid",
 		"charges":1,
 		"fun":70,
-		"freezing_point":-70,
 		"flags":[ "TRADER_AVOID","EATEN_HOT","EATEN_COLD" ]
 	}
 ,
@@ -52,7 +51,6 @@
 		"volume":"200 ml",
 		"spoils_in":"360 days",
 		"fun":70,
-		"freezing_point":0,
 		"flags":[ "TRADER_AVOID","EATEN_HOT" ]
 	}
 ,
@@ -73,7 +71,6 @@
 		"volume":"200 ml",
 		"spoils_in":"360 days",
 		"fun":70,
-		"freezing_point":0,
 		"flags":[ "TRADER_AVOID","EATEN_HOT" ]
 	}
 

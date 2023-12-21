@@ -134,7 +134,6 @@
     "calories": 104,
     "quench": 15,
     "fun": 1,
-    "freezing_point": -49,
     "addiction_potential": 3,
     "use_action": {
       "type": "consume_drug",
@@ -197,7 +196,6 @@
     "calories": 222,
     "quench": -8,
     "fun": -5,
-    "freezing_point": -89,
     "addiction_potential": 7,
     "use_action": {
       "type": "consume_drug",
