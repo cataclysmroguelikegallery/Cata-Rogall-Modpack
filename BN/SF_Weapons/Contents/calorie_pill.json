@@ -15,7 +15,6 @@
     "charges": 1,
     "looks_like": "vitamins",
     "fun": -10,
-    "freezing_point": -490,
     "vitamins": [
       [ "calcium", 24, 48 ],
       [ "iron", 24, 48 ],
