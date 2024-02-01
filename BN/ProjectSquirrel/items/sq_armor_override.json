@@ -425,13 +425,6 @@
     "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pockets" ]
   },
   {
-    "id": "xlsurvivor_suit",
-    "type": "ARMOR",
-	"copy-from": "xlsurvivor_suit",
-    "name": { "str": "XL survivor suit" },
-    "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pockets" ]
-  },
-  {
     "id": "anbc_suit",
     "type": "ARMOR",
 	"copy-from": "anbc_suit",
