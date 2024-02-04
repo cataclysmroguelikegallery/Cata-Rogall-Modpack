@@ -1150,6 +1150,8 @@
     "looks_like": "sword_xiphos",
     "color": "red",
     "power_draw": 25000,
+    "revert_to": "sq_heat_blade_off",
+    "revert_msg":"히트 블레이드가 꺼졌습니다.",
     "techniques": [ "WBLOCK_2" ],
     "use_action": {
       "type": "transform",
