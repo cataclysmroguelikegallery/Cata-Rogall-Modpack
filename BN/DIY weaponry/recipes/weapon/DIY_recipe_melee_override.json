@@ -1,0 +1,14 @@
+[
+  {
+    "type": "recipe",
+    "result": "bat",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_BASHING",
+    "skill_used": "fabrication",
+    "difficulty": 4,
+    "time": "3 h",
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SAW_W", "level": 2 } ],
+    "components": [ [ [ "stick", 1 ] ] ]
+  }
+]

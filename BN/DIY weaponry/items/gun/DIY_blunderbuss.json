@@ -1,0 +1,22 @@
+[
+  {
+    "type": "AMMO",
+    "id": "blun_db",
+    "price": 4500,
+    "price_postapoc": 50,
+    "name": { "str": "나팔총 드래곤브레스 탄환" },
+    "symbol": "=",
+    "color": "red",
+    "description": "*****이 아이템이 보인다면 버그입니다.*****금속성 분말을 채워넣어 만든 조잡한 드래곤브레스 탄환입니다. 나팔총을 간이 화염방사기로 만듭니다.",
+    "material": [ "paper", "powder" ],
+    "volume": "100 ml",
+    "weight": "2 g",
+    "bashing": 1,
+    "ammo_type": "blunderbuss",
+    "damage": { "damage_type": "heat", "amount": 50 },
+    "shape": [ "cone", { "half_angle": 30, "length": 5 } ],
+    "dispersion": 1000,
+    "recoil": 780,
+    "effects": [ "COOKOFF", "SHOT", "RECYCLED", "INCENDIARY", "IGNITE" ]
+  }
+]
