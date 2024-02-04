@@ -1,0 +1,179 @@
+[
+  {
+    "id": "bat_fire",
+    "type": "TOOL",
+    "category": "weapons",
+    "weapon_category": [ "CLUBS" ],
+    "name": "'불빠따' 야구 방망이",
+    "looks_like": "bat",
+    "description": "This is sturdy wood bat, wrapped in gasoline-soaked rags and flame-resistant Nomex fabric.  Light it, and the ball game will REALLY heat up.  You'll need a lighter or matches to light it.",
+    "weight": "1485 g",
+    "volume": "2 L",
+    "price": "1 USD",
+    "to_hit": 3,
+    "bashing": 18,
+    "material": [ "wood", "nomex" ],
+    "symbol": "/",
+    "color": "brown",
+    "initial_charges": 25,
+    "max_charges": 25,
+    "charges_per_use": 1,
+    "techniques": [ "WBLOCK_1" ],
+    "use_action": {
+      "target": "bat_fire_lit",
+      "msg": "방망이에 불을 지핍니다.",
+      "active": true,
+      "need_fire": 1,
+      "menu_text": "Light",
+      "type": "transform"
+    },
+    "flags": [ "DURABLE_MELEE" ]
+  },
+  {
+    "id": "bat_fire_lit",
+    "type": "TOOL",
+    "category": "weapons",
+    "weapon_category": [ "CLUBS" ],
+    "name": "'불빠따' 야구 방망이",
+    "description": "This is a sturdy wood bat, wrapped in gasoline-soaked rags and flame-resistant Nomex fabric.  It is burning brightly, and makes it much easier to see the baselines at night games (It also makes the umpire FAR more likely to call a ball instead of a strike).",
+    "weight": "1485 g",
+    "volume": "2 L",
+    "price": 100,
+    "to_hit": 3,
+    "bashing": 18,
+    "material": [ "wood", "nomex" ],
+    "symbol": "/",
+    "color": "red",
+    "initial_charges": 25,
+    "max_charges": 25,
+    "turns_per_charge": 120,
+    "revert_to": "bat_fire_done",
+    "techniques": [ "WBLOCK_1" ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WIELD",
+          "condition": "ALWAYS",
+          "hit_you_effect": [ { "id": "melee_ignite", "once_in": 2, "min_level": 2, "max_level": 3, "message": "불이 %2$s에게 옮겨붙습니다!" } ]
+        }
+      ]
+    },
+    "use_action": [
+      { "type": "firestarter", "moves": 30 },
+      {
+        "target": "bat_fire",
+        "msg": "방망이의 불이 꺼졌습니다.",
+        "active": false,
+        "menu_text": "Extinguish",
+        "type": "transform"
+      }
+    ],
+    "flags": [ "FIRE", "LIGHT_100", "CHARGEDIM", "FLAMING", "DURABLE_MELEE", "TRADER_AVOID", "WATER_EXTINGUISH" ]
+  },
+  {
+    "id": "bat_fire_done",
+    "type": "TOOL",
+    "category": "weapons",
+    "weapon_category": [ "CLUBS" ],
+    "name": "'불빠따' 야구 방망이(소진됨)",
+    "looks_like": "bat",
+    "description": "연료를 모두 태워버린 야구 방망이입니다. 천 조각을 교체하고 연료를 보충한다면 새로 사용 가능합니다.",
+    "weight": "1485 g",
+    "volume": "2 L",
+    "price": "1 USD",
+    "to_hit": 3,
+    "bashing": 18,
+    "material": [ "wood", "nomex" ],
+    "symbol": "/",
+    "color": "brown",
+    "flags": [ "DURABLE_MELEE" ]
+  },
+  {
+    "id": "pike_fire",
+    "type": "TOOL",
+    "copy-from": "pike",
+    "name": { "str": "지옥불 파이크" },
+    "description": "파이크에 압전식 점화기와 연료탱크, 노즐이 달렸습니다. 휘발유를 채워넣고 작동시키면 불길을 뿜습니다.",
+    "relative": { "weight": 250, "volume": 1 },
+    "ammo": [ "gasoline" ],
+    "initial_charges": 0,
+    "max_charges": 50,
+    "charges_per_use": 1,
+    "use_action": {
+      "type": "fireweapon_off",
+      "target_id": "pike_fire_lit",
+      "moves": 10,
+      "noise": 0,
+      "success_chance": 2,
+      "success_message": "파이크가 불길에 달아오릅니다!",
+      "failure_message": "Click.",
+      "lacks_fuel_message": "Click."
+    }
+  },
+  {
+    "id": "pike_fire_lit",
+    "type": "TOOL",
+    "copy-from": "pike",
+    "name": { "str": "지옥불 파이크" },
+    "color": "red",
+    "description": "파이크에 압전식 점화기와 연료탱크, 노즐이 달렸습니다. 지금은 끝에서 불을 뿜고 있군요. 뜨거우니 조심하세요!",
+    "relative": { "weight": 250, "volume": 1 },
+    "ammo": [ "gasoline" ],
+    "initial_charges": 50,
+    "max_charges": 50,
+    "turns_per_charge": 60,
+    "revert_to": "pike_fire",
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WIELD",
+          "condition": "ALWAYS",
+          "hit_you_effect": [ { "id": "melee_ignite", "once_in": 2, "min_level": 3, "max_level": 5, "message": "불이 %2$s에게 옮겨붙습니다!" } ]
+        }
+      ]
+    },
+    "use_action": [
+      {
+        "type": "fireweapon_on",
+        "noise": 5,
+        "noise_chance": 25,
+        "noise_message": "치익.",
+        "voluntary_extinguish_message": "파이크의 불을 끕니다.",
+        "charges_extinguish_message": "Out of ammo!",
+        "water_extinguish_message": "파이크가 물 속에서 소리를 내더니, 이윽고 꺼졌습니다."
+      },
+      { "type": "firestarter", "moves": 30 }
+    ],
+    "extend": { "flags": [ "FIRE", "LIGHT_150", "CHARGEDIM", "FLAMING", "TRADER_AVOID", "WATER_EXTINGUISH" ] }
+  },
+  {
+    "id": "melee_ignite",
+    "type": "SPELL",
+    "name": { "str": "ignition strike" },
+    "description": "Makes fire on the target.",
+    "valid_targets": [ "self", "hostile", "ally" ],
+    "flags": [ "SILENT", "NO_EXPLOSION_VFX" ],
+    "effect": "target_attack",
+    "effect_str": "onfire",
+    "min_range": 12,
+    "max_range": 12,
+    "max_level": 10,
+    "base_casting_time": 100,
+    "base_energy_cost": 150,
+    "min_duration": 100,
+    "max_duration": 1000,
+    "duration_increment": 100,
+    "energy_source": "MANA"
+  },
+  {
+    "id": "bat_bomb",
+    "type": "TOOL",
+    "copy-from": "bat",
+    "name": { "str": "폭탄 방망이" },
+    "description": "[이 아이템이 보인다면 버그입니다.] 터무니없지만, 야구 방망이에 뇌홍과 화약이 담긴 포를 칭칭 둘러 감아 만든 무기. 이걸 만든 사람은 천재거나 정신 이상자 둘 중 하나인것 같습니다.",
+    "relative": { "weight": 250, "volume": 1 },
+    "ammo": [ "gasoline" ],
+    "initial_charges": 0,
+    "max_charges": 10
+  }
+]

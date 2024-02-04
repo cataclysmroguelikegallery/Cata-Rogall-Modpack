@@ -1,0 +1,19 @@
+[
+  {
+    "type": "mod_tileset",
+    "compatibility": [ "UNDEAD_PEOPLE_BASE", "UNDEAD_PEOPLE", "MshockRealXotto", "MSX++DEAD_PEOPLE" ],
+    "tiles-new": [
+      {
+        "file": "gfx/bat_fire/bat_fire.png",
+        "tiles": [
+          { "id": "bat_fire_lit", "fg": 0, "rotates": false },
+          { "id": "overlay_wielded_bat_fire_lit", "fg": 1, "rotates": false }
+        ],
+        "sprite_width": 32,
+        "sprite_height": 32,
+        "sprite_offset_x": 0,
+        "sprite_offset_y": 0
+      }
+    ]
+  }
+]

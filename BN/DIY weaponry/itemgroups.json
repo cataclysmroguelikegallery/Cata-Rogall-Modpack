@@ -1,0 +1,27 @@
+[
+  {
+    "type": "item_group",
+    "id": "art",
+    "items": [
+      { "item": "stiletto", "prob": 2 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "antique",
+    "items": [
+      { "item": "stiletto", "prob": 2 },
+      { "item": "rifle_chassepot", "prob": 3 },
+      { "item": "rifle_minie", "prob": 3 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "antique_rare",
+    "items": [
+      { "item": "stiletto", "prob": 6 },
+      { "item": "rifle_chassepot", "prob": 3 },
+      { "item": "rifle_minie", "prob": 3 }
+    ]
+  }
+]

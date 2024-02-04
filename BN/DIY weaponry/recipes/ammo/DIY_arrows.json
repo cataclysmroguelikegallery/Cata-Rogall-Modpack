@@ -30,30 +30,30 @@
     "skill_used": "fabrication",
     "skills_required": [ "archery", 3 ],
     "difficulty": 3,
-    "time": "5 m",
+    "time": "1 m",
     "reversible": true,
     "autolearn": [ [ "fabrication", 3 ] ],
     "book_learn": [ [ "recipe_arrows", 5 ] ],
     "qualities": [ { "id": "CUT", "level": 1 } ],
     "components": [
       [
-        [ "arrow_field_point_fletched", 5 ],
-        [ "arrow_fire_hardened_fletched", 5 ],
-        [ "arrow_wood", 5 ],
-        [ "arrow_heavy_fire_hardened_fletched", 5 ],
-        [ "arrow_heavy_field_point_fletched", 5 ],
-        [ "arrow_wood_heavy", 5 ],
-        [ "arrow_metal", 5 ]
+        [ "arrow_field_point_fletched", 1 ],
+        [ "arrow_fire_hardened_fletched", 1 ],
+        [ "arrow_wood", 1 ],
+        [ "arrow_heavy_fire_hardened_fletched", 1 ],
+        [ "arrow_heavy_field_point_fletched", 1 ],
+        [ "arrow_wood_heavy", 1 ],
+        [ "arrow_metal", 1 ]
       ],
       [ [ "rag", 1, "NO_RECOVER" ] ],
       [
-        [ "lamp_oil", 50, "NO_RECOVER" ],
-        [ "motor_oil", 50, "NO_RECOVER" ],
-        [ "chem_ethanol", 100, "NO_RECOVER" ],
-        [ "denat_alcohol", 100, "NO_RECOVER" ],
-        [ "gasoline", 250, "NO_RECOVER" ],
-        [ "diesel", 250, "NO_RECOVER" ],
-        [ "biodiesel", 250, "NO_RECOVER" ]
+        [ "lamp_oil", 10, "NO_RECOVER" ],
+        [ "motor_oil", 10, "NO_RECOVER" ],
+        [ "chem_ethanol", 20, "NO_RECOVER" ],
+        [ "denat_alcohol", 20, "NO_RECOVER" ],
+        [ "gasoline", 50, "NO_RECOVER" ],
+        [ "diesel", 50, "NO_RECOVER" ],
+        [ "biodiesel", 50, "NO_RECOVER" ]
       ]
     ],
     "delete_flags": [ "FILTHY" ],
@@ -68,48 +68,20 @@
     "skills_required": [ [ "archery", 5 ], [ "mechanics", 3 ] ],
     "difficulty": 6,
     "time": "5 m",
-    "batch_time_factors": [ 80, 5 ],
     "book_learn": [ [ "textbook_anarch", 4 ], [ "recipe_bullets", 7 ] ],
     "qualities": [ { "id": "SAW_M", "level": 1 } ],
     "components": [
-      [ ["scrap", 3 ] ],
-      [ [ "superglue", 1 ], [ "cordage", 1, "LIST" ] ],
-      [
-        [ "smpistol_primer", 1 ],
-        [ "lgpistol_primer", 1 ],
-        [ "smrifle_primer", 1 ],
-        [ "lgrifle_primer", 1 ],
-        [ "shotgun_primer", 1 ]
-      ],
-      [ [ "gunpowder", 20 ], [ "chem_black_powder", 20 ] ]
-    ],
-    "delete_flags": [ "FILTHY" ],
-    "flags": [ "ALLOW_FILTHY" ]
-  },
-  {
-    "type": "recipe",
-    "result": "bolt_explosive",
-    "category": "CC_AMMO",
-    "subcategory": "CSC_AMMO_ARROWS",
-    "skill_used": "fabrication",
-    "skills_required": [ [ "mechanics", 3 ] ],
-    "difficulty": 5,
-    "time": "5 m",
-    "batch_time_factors": [ 60, 5 ],
-    "book_learn": [ [ "recipe_arrows", 7 ], [ "textbook_anarch", 4 ], [ "recipe_bullets", 7 ] ],
-    "qualities": [ { "id": "SAW_M", "level": 1 } ],
-    "components": [
-      [ [ "bolt_metal", 1 ], [ "bolt_steel", 1 ] ],
       [ [ "scrap", 3 ] ],
-      [ [ "adhesive", 1, "LIST" ], [ "filament", 20, "LIST" ] ],
+      [ [ "adhesive", 1, "LIST" ], [ "filament", 50, "LIST" ] ],
       [
+        [ "impact_fuze", 1 ],
         [ "smpistol_primer", 1 ],
         [ "lgpistol_primer", 1 ],
         [ "smrifle_primer", 1 ],
         [ "lgrifle_primer", 1 ],
         [ "shotgun_primer", 1 ]
       ],
-      [ [ "gunpowder", 20 ], [ "chem_black_powder", 20 ] ]
+      [ [ "volatile_explosive", 2, "LIST" ], [ "stable_explosive", 2, "LIST" ], [ "military_explosive", 2, "LIST" ] ]
     ],
     "delete_flags": [ "FILTHY" ],
     "flags": [ "ALLOW_FILTHY" ]
@@ -128,6 +100,52 @@
     "qualities": [ { "id": "SAW_M", "level": 1 } ],
     "components": [
       [ [ "50_incendiary", 1 ], [ "50bmg", 1 ], [ "50match", 1 ], [ "50ss", 1 ], [ "50_mk211", 1 ] ],
+      [ [ "scrap", 2 ] ],
+      [
+        [ "bolt_metal", 1 ],
+        [ "bolt_steel", 1 ]
+      ]
+    ],
+    "delete_flags": [ "FILTHY" ],
+    "flags": [ "ALLOW_FILTHY" ]
+  },
+  {
+    "type": "recipe",
+    "result": "bolt_bullet_308",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_ARROWS",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": "5 m",
+    "batch_time_factors": [ 80, 5 ],
+    "autolearn": true,
+    "book_learn": [ [ "recipe_arrows", 7 ], [ "textbook_anarch", 4 ], [ "recipe_bullets", 7 ] ],
+    "qualities": [ { "id": "SAW_M", "level": 1 } ],
+    "components": [
+      [ [ "308", 1 ], [ "762_51", 1 ], [ "762_51_incendiary", 1 ], [ "bp_308", 1 ], [ "bp_762_51", 1 ], [ "bp_762_51_incendiary", 1 ] ],
+      [ [ "scrap", 2 ] ],
+      [
+        [ "bolt_metal", 1 ],
+        [ "bolt_steel", 1 ]
+      ]
+    ],
+    "delete_flags": [ "FILTHY" ],
+    "flags": [ "ALLOW_FILTHY" ]
+  },
+  {
+    "type": "recipe",
+    "result": "bolt_bullet_223",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_ARROWS",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": "5 m",
+    "batch_time_factors": [ 80, 5 ],
+    "autolearn": true,
+    "book_learn": [ [ "recipe_arrows", 7 ], [ "textbook_anarch", 4 ], [ "recipe_bullets", 7 ] ],
+    "qualities": [ { "id": "SAW_M", "level": 1 } ],
+    "components": [
+      [ [ "223", 1 ], [ "556", 1 ], [ "556_incendiary", 1 ], [ "bp_223", 1 ], [ "bp_556", 1 ], [ "bp_556_incendiary", 1 ] ],
       [ [ "scrap", 2 ] ],
       [
         [ "bolt_metal", 1 ],
