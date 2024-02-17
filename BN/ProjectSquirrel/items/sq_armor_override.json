@@ -499,6 +499,7 @@
     "type": "ARMOR",
 	"copy-from": "power_armor_helmet_basic_on",
     "name": { "str": "power armor helmet (active)", "str_pl": "power armor helmets (active)" },
+    "looks_like":"power_armor_helmet_basic",
     "extend": { "flags": [ "OVERSIZE", "WATCH", "THERMOMETER", "CLIMATE_CONTROL", "TRADER_AVOID" ] }
   },
   {
