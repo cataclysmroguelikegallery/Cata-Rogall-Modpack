@@ -1,11 +1,5 @@
 [
   {
-    "id": "MOLLE",
-    "type": "json_flag",
-    "context": [ "GENERIC" ],
-    "info": "This item can be attached to a <info>molle</info> of the appropriate size."
-  },
-  {
     "id": "shoulder_strap",
     "type": "GUNMOD",
     "name": { "str": "shoulder strap" },
