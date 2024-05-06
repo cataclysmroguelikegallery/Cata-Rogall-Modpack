@@ -1,0 +1,52 @@
+[
+{
+    "id": "mutagen_rabbit",
+    "copy-from": "mutagen_flavor",
+    "type": "COMESTIBLE",
+    "name": { "str": "토끼 뮤타젠" },
+    "use_action": { "type": "mutagen", "mutation_category": "RABBIT" }
+  },
+{
+    "id": "iv_mutagen_RABBIT",
+    "copy-from": "iv_mutagen_flavor",
+    "type": "COMESTIBLE",
+    "name": { "str": "토끼 혈청" },
+    "description": "농축된 하얗고 몽실몽실해보이는 색의 뮤타젠입니다. 진짜로 이걸 주입할건가요?",
+    "color": "red",
+    "use_action": { "type": "mutagen_iv", "mutation_category": "RABBIT" }
+  },
+  {
+    "type": "recipe",
+    "result": "mutagen_rabbit",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_MUTAGEN",
+    "skill_used": "cooking",
+    "skills_required": [ "firstaid", 3 ],
+    "difficulty": 9,
+    "time": "2 h",
+    "batch_time_factors": [ 20, 5 ],
+    "book_learn": [ [ "recipe_serum", 8 ], [ "recipe_labchem", 9 ], [ "recipe_animal", 8 ] ],
+    "using": [ [ "serum_production_standard", 37 ] ],
+    "components": [
+      [ [ "mutagen", 1 ] ],
+      [ [ "fish", 2 ], [ "can_sardine", 1 ], [ "can_tuna", 1 ], [ "can_salmon", 1 ], [ "can_herring", 1 ] ],
+      [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ]
+    ],
+    "flags": [ "SECRET" ]
+  },
+  {
+    "type": "recipe",
+    "result": "iv_mutagen_RABBIT",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_MUTAGEN",
+    "skill_used": "cooking",
+    "skills_required": [ "firstaid", 3 ],
+    "difficulty": 9,
+    "time": "2 h",
+    "batch_time_factors": [ 20, 5 ],
+    "book_learn": [ [ "recipe_serum", 8 ], [ "recipe_labchem", 9 ], [ "recipe_animal", 8 ] ],
+    "using": [ [ "serum_production_standard", 37 ] ],
+    "components": [ [ [ "mutagen_rabbit", 2 ] ] ],
+    "flags": [ "SECRET" ]
+  }
+]
