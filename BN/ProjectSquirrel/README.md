@@ -1,12 +1,4 @@
-# What is Project: Pack Rat?
-
-Project: "Pack Rat Mode" provides comprehensive sci-fi contents. The mod adds combat armor and futuristic weapons, making gameplay more exciting, improving usability, and providing expanded end content.  Unlock atomic-powered tech to gain access to more advanced science! With new equipment and features, this mod will provide players with a more enriching experience.
-
-Yes, all of the sci-fi content in my mod uses a tech tree approach where you start with an Atomic Forge, build a tool called a Matter Synthesizer, and "evolve" the tool through crafting to unlock the number of different sci-fi items you can make. It's a bit like Starbound. At the "Matter Synthesizer: nano-precision sewing machines" stage, you can create not only CBMs, but also RAM, circuits, e-scraps, solar cells, and other materials that have been difficult to source in large quantities. You can create 7 different types of unique combat armor, 7 hard-light weapons, which are fast and accurate optical weapons, and 5 Gauss weapons, which are high-firepowered railguns powered by fusion cores. You can craft 5.56mm, 7.62mm, and 8x40mm with depleted uranium penetrators. You can find recipes in the previously useless Lab journal - Gustav, and the Lab journal - Herrera, where you can create useful electronics, and Rivtech design binders. Recipes for hard-light and Gaussian weapons are rarely found in the lab. I'm creating a faction that will have an impact later in the game.
-
-In addition, I've prepared several items that can be used even before the SF phase and QoL: 4 types of basic shields and 3 types of tactical shields, 6 types of frame packs and 3 types of powered exoskeletons, a dimensional backpack with a huge storage capacity, and a series of 34 survival fireproof items. Most of the clothes can be lined with steel plates or superalloy plates, and we've also added features such as Nomex lining, reducing interference, and adding pockets.
-
-* Project: Pack Rat requires playing with the latest version of BN to enjoy the content.
+# Project: Pack Rat requires playing with the latest version of BN to enjoy the content.
 
 ## 1. Add practical compression storage items
 
