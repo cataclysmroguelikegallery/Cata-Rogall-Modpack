@@ -222,6 +222,7 @@
   },
   {
     "result": "alloy_plate",
+    "id_suffix": "nanotech",
     "type": "recipe",
     "category": "CC_첨단기술",
     "subcategory": "CSC_첨단기술_MATERIALS",
@@ -245,7 +246,7 @@
     "difficulty": 1,
     "time": "150 s",
     "qualities": [ { "id": "SAW_M", "level": 2 } ],
-    "components": [ [ [ "alloy_sheet", 8 ] ] ]
+    "components": [ [ [ "alloy_sheet", 12 ] ] ]
   },
   {
     "id": "nuclear_waste",

@@ -1,0 +1,23 @@
+[
+{
+  "type": "mod_tileset",
+  "compatibility": [ "MSX++DEAD_PEOPLE", "UNDEAD_PEOPLE", "UNDEAD_PEOPLE_BASE", "MshockXottoplus" ],
+  "tiles-new": [
+    {
+"file": "normal_items.png",
+      "//": "range 1 to 15",
+      "tiles": [
+        { "id": "overlay_worn_anbc_suit", "fg": 1, "rotates": false },
+        { "id": "overlay_worn_chainmail_suit", "fg": 2, "rotates": false },
+        { "id": "overlay_worn_chainmail_suit_faraday", "fg": 3, "rotates": false },
+        { "id": "overlay_worn_cleansuit", "fg": 4, "rotates": false },
+        { "id": "overlay_worn_entry_suit", "fg": 5, "rotates": false },
+        { "id": "overlay_worn_hazmat_suit", "fg": 6, "rotates": false },
+        { "id": "overlay_worn_robofac_enviro_suit", "fg": 7, "rotates": true },
+        { "id": "overlay_worn_phase_immersion_suit", "fg": 8, "rotates": false },
+        { "id": "overlay_worn_phase_immersion_suit_on", "fg": 9, "rotates": false },
+        { "id": "overlay_worn_rm13_armor", "fg": 10, "rotates": false },
+        { "id": "overlay_worn_rm13_armor_on", "fg": 11, "rotates": false }
+      ]
+    }
+]}]

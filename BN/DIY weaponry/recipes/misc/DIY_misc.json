@@ -1,0 +1,21 @@
+[
+  {
+    "result": "bike_rack",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_VEHICLE",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": "30 m",
+    "reversible": true,
+    "book_learn": [ [ "textbook_fabrication", 5 ], [ "welding_book", 6 ], [ "textbook_carpentry", 5 ] ],
+    "autolearn": [ [ "fabrication", 5 ], [ "mechanics", 1 ] ],
+    "using": [ [ "welding_standard", 2 ] ],
+    "qualities": [ { "id": "SAW_M", "level": 1 } ],
+    "components": [
+      [ [ "pipe", 4 ] ],
+      [ [ "scrap", 9 ], [ "steel_chunk", 3 ], [ "steel_lump", 1 ] ],
+      [ [ "rope_natural_short", 2, "LIST" ] ]
+    ]
+  }
+]

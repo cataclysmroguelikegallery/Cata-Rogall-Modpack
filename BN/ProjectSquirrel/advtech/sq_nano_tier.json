@@ -1150,6 +1150,8 @@
     "looks_like": "sword_xiphos",
     "color": "red",
     "power_draw": 25000,
+    "revert_to": "sq_heat_blade_off",
+    "revert_msg":"히트 블레이드가 꺼졌습니다.",
     "techniques": [ "WBLOCK_2" ],
     "use_action": {
       "type": "transform",
@@ -1322,6 +1324,7 @@
   },
   {
     "result": "bio_power_storage",
+    "id_suffix": "nanoprinted",
     "type": "recipe",
     "category": "CC_ELECTRONIC",
     "subcategory": "CSC_ELECTRONIC_CBMS",
@@ -1343,6 +1346,7 @@
   },
   {
     "result": "bio_power_storage_mkII",
+    "id_suffix": "nanoprinted",
     "type": "recipe",
     "category": "CC_ELECTRONIC",
     "subcategory": "CSC_ELECTRONIC_CBMS",
@@ -1365,6 +1369,7 @@
   },
   {
     "result": "bn_bio_solar",
+    "id_suffix": "nanoprinted",
     "type": "recipe",
     "category": "CC_ELECTRONIC",
     "subcategory": "CSC_ELECTRONIC_CBMS",
@@ -1386,6 +1391,7 @@
   },
   {
     "result": "bio_batteries",
+    "id_suffix": "nanoprinted",
     "type": "recipe",
     "category": "CC_ELECTRONIC",
     "subcategory": "CSC_ELECTRONIC_CBMS",
@@ -1408,6 +1414,7 @@
   },
   {
     "result": "bio_ups",
+    "id_suffix": "nanoprinted",
     "type": "recipe",
     "category": "CC_ELECTRONIC",
     "subcategory": "CSC_ELECTRONIC_CBMS",
@@ -1429,6 +1436,7 @@
   },
   {
     "result": "bio_evap",
+    "id_suffix": "nanoprinted",
     "type": "recipe",
     "category": "CC_ELECTRONIC",
     "subcategory": "CSC_ELECTRONIC_CBMS",
@@ -1450,6 +1458,7 @@
   },
   {
     "result": "bio_flashlight",
+    "id_suffix": "nanoprinted",
     "type": "recipe",
     "category": "CC_ELECTRONIC",
     "subcategory": "CSC_ELECTRONIC_CBMS",
@@ -1471,6 +1480,7 @@
   },
   {
     "result": "bio_water_extractor",
+    "id_suffix": "nanoprinted",
     "type": "recipe",
     "category": "CC_ELECTRONIC",
     "subcategory": "CSC_ELECTRONIC_CBMS",
@@ -1494,6 +1504,7 @@
   },
   {
     "result": "bio_climate",
+    "id_suffix": "nanoprinted",
     "type": "recipe",
     "category": "CC_ELECTRONIC",
     "subcategory": "CSC_ELECTRONIC_CBMS",
@@ -1516,6 +1527,7 @@
   },
   {
     "result": "bio_emp_armgun",
+    "id_suffix": "nanoprinted",
     "type": "recipe",
     "category": "CC_ELECTRONIC",
     "subcategory": "CSC_ELECTRONIC_CBMS",
@@ -1540,6 +1552,7 @@
   },
   {
     "result": "bio_syringe",
+    "id_suffix": "nanoprinted",
     "type": "recipe",
     "category": "CC_ELECTRONIC",
     "subcategory": "CSC_ELECTRONIC_CBMS",
@@ -1563,6 +1576,7 @@
   },
   {
     "result": "bio_shock_absorber",
+    "id_suffix": "nanoprinted",
     "type": "recipe",
     "category": "CC_ELECTRONIC",
     "subcategory": "CSC_ELECTRONIC_CBMS",
@@ -1586,6 +1600,7 @@
   },
   {
     "result": "bio_weight",
+    "id_suffix": "nanoprinted",
     "type": "recipe",
     "category": "CC_ELECTRONIC",
     "subcategory": "CSC_ELECTRONIC_CBMS",
@@ -1609,6 +1624,7 @@
   },
   {
     "result": "bio_sunglasses",
+    "id_suffix": "nanoprinted",
     "type": "recipe",
     "category": "CC_ELECTRONIC",
     "subcategory": "CSC_ELECTRONIC_CBMS",
@@ -1631,6 +1647,7 @@
   },
   {
     "result": "afs_bio_missiles",
+    "id_suffix": "nanoprinted",
     "type": "recipe",
     "category": "CC_ELECTRONIC",
     "subcategory": "CSC_ELECTRONIC_CBMS",
@@ -1655,6 +1672,7 @@
   },
   {
     "result": "bio_armor_head",
+    "id_suffix": "nanoprinted",
     "type": "recipe",
     "category": "CC_ELECTRONIC",
     "subcategory": "CSC_ELECTRONIC_CBMS",
@@ -1677,6 +1695,7 @@
   },
   {
     "result": "bio_armor_arms",
+    "id_suffix": "nanoprinted",
     "type": "recipe",
     "category": "CC_ELECTRONIC",
     "subcategory": "CSC_ELECTRONIC_CBMS",
@@ -1699,6 +1718,7 @@
   },
   {
     "result": "bio_armor_torso",
+    "id_suffix": "nanoprinted",
     "type": "recipe",
     "category": "CC_ELECTRONIC",
     "subcategory": "CSC_ELECTRONIC_CBMS",
@@ -1721,6 +1741,7 @@
   },
   {
     "result": "bio_armor_legs",
+    "id_suffix": "nanoprinted",
     "type": "recipe",
     "category": "CC_ELECTRONIC",
     "subcategory": "CSC_ELECTRONIC_CBMS",

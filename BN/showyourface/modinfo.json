@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "showyourface",
+    "name": "투명한 얼굴 방어구들",
+    "authors": [ "흰토끼" ],
+    "description": "머리를 가리는 방어구들을 투명하게하고, 헬멧이 있는 방어구의 헬멧을 투명하게 합니다.",
+    "category": "misc_additions",
+    "dependencies": [ "bn" ]
+  }
+]

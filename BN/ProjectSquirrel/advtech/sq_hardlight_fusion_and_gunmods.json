@@ -19,7 +19,7 @@
     "durability": 10,
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "AUTO", "auto", 3 ] ],
     "loudness": 35,
-    "ups_charges": 80,
+    "ups_charges": 100,
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "emitter", 1 ],
@@ -115,6 +115,7 @@
   },
   {
     "id": "beam_scatterer",
+    "copy-from": "beam_scatterer",
     "type": "GUNMOD",
     "name": { "str": "beam scatterer" },
     "description": "A set of optics made to fit on laser weapons, which will diffract the laser beam into several lower powered beams.  This increases point-blank damage, but greatly reduces range.",
@@ -134,12 +135,13 @@
       [ "ENERGY_WEAPONS", "SHOTGUNS" ],
       [ "ENERGY_WEAPONS", "RIFLES" ]
     ],
-    "range_modifier": -25,
+    "range_modifier": -15,
     "damage_modifier": { "damage_type": "heat", "amount": 10 },
     "ammo_effects": [ "SHOT" ]
   },
   {
     "id": "focusing_lens",
+    "copy-from": "focusing_lens",
     "type": "GUNMOD",
     "name": { "str": "focusing lens", "str_pl": "focusing lenses" },
     "description": "A set of optics to concentrate the laser beam on a smaller focus point.  This increases range and damage output, but complicates targeting.",
@@ -165,6 +167,7 @@
   },
   {
     "id": "electrolaser_conversion",
+    "copy-from": "electrolaser_conversion",
     "type": "GUNMOD",
     "name": { "str": "electrolaser conversion" },
     "description": "A set of high-tech electronics and optics.  These converts a laser pistol into a less-lethal electrolaser capable of stunning targets, at the cost of a decreased damage output and increased power consumption.",
@@ -191,6 +194,7 @@
   },
   {
     "id": "effective_emitter",
+    "copy-from": "effective_emitter",
     "type": "GUNMOD",
     "name": { "str": "effective emitter" },
     "description": "A set of electronics to optimize emitter workcycle and increase overall energy efficiency.  Decreases power consumption.",
@@ -216,6 +220,7 @@
   },
   {
     "id": "high_density_capacitor",
+    "copy-from": "high_density_capacitor",
     "type": "GUNMOD",
     "name": { "str": "high density capacitor" },
     "description": "A capacitor with a higher energy density increases range and damage; at the cost of a markedly increased power consumption.",
@@ -312,6 +317,8 @@
     "tools": [ [ [ "sq_nanocomp", -1 ], [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
     "components": [
       [ [ "nanomaterial", 100 ] ],
+      [ [ "canister_empty", 1 ] ],
+      [ [ "plasma", 150 ] ],
       [ [ "sq_depleted_uranium", 40 ] ],
       [ [ "sq_uranium_cell", 3 ] ],
       [ [ "amplifier", 2 ] ],
@@ -335,7 +342,7 @@
     "looks_like": "recipe_lab_elec",
     "required_level": 9,
     "max_level": 10,
-    "intelligence": 12,
+    "intelligence": 13,
     "time": "45 m",
     "fun": -1
   },
@@ -355,7 +362,7 @@
     "looks_like": "recipe_lab_elec",
     "required_level": 9,
     "max_level": 10,
-    "intelligence": 12,
+    "intelligence": 13,
     "time": "45 m",
     "fun": -1
   },
@@ -534,7 +541,7 @@
     "id": "HARDLIGHT_SHRED",
     "type": "ammo_effect",
     "aoe": { "field_type": "fd_dazzling", "intensity_min": 1, "intensity_max": 1, "radius": 1, "chance": 15 },
-    "explosion": { "fragment": { "impact": { "damage_type": "true", "amount": 10 }, "range": 1 } }
+    "explosion": { "fragment": { "impact": { "damage_type": "cut", "amount": 20 }, "range": 2 } }
   },
   {
     "id": "sq_hardlight_pistol",
@@ -549,7 +556,7 @@
     "price_postapoc": 7500,
     "material": [ "superalloy", "ceramic" ],
     "color": "light_blue",
-    "range": 26,
+    "range": 24,
     "ranged_damage": { "damage_type": "heat", "amount": 25, "armor_penetration": 54 },
     "dispersion": 140,
     "loudness": 7,
@@ -594,7 +601,7 @@
     "price_postapoc": 12000,
     "material": [ "superalloy", "ceramic" ],
     "color": "light_blue",
-    "range": 20,
+    "range": 18,
     "ranged_damage": { "damage_type": "heat", "amount": 40, "armor_penetration": 36 },
     "dispersion": 0,
     "modes": [ [ "DEFAULT", "semi", 1 ] ],
@@ -641,7 +648,7 @@
     "price_postapoc": 10000,
     "material": [ "superalloy", "ceramic" ],
     "color": "light_blue",
-    "range": 28,
+    "range": 26,
     "ranged_damage": { "damage_type": "heat", "amount": 35, "armor_penetration": 54 },
     "dispersion": 100,
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 3 ], [ "AUTO", "auto", 6 ] ],
@@ -688,7 +695,7 @@
     "price_postapoc": 10000,
     "material": [ "superalloy", "ceramic" ],
     "color": "light_blue",
-    "range": 32,
+    "range": 30,
     "ranged_damage": { "damage_type": "heat", "amount": 40, "armor_penetration": 58 },
     "dispersion": 10,
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "AUTO", "auto", 4 ] ],
@@ -735,10 +742,10 @@
     "price_postapoc": 15000,
     "material": [ "superalloy", "ceramic" ],
     "color": "light_blue",
-    "range": 50,
+    "range": 47,
     "ranged_damage": { "damage_type": "heat", "amount": 50, "armor_penetration": 82 },
     "dispersion": 0,
-    "recoil": 300,
+    "recoil": 200,
     "min_cycle_recoil": 900,
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "AUTO", "auto", 2 ] ],
     "loudness": 36,
@@ -1019,7 +1026,7 @@
     "ammo": [ "metal_rail" ],
     "skill": "rifle",
     "range": 10,
-    "ranged_damage": { "damage_type": "bullet", "amount": 65, "armor_penetration": 10 },
+    "ranged_damage": { "damage_type": "bullet", "amount": 45, "armor_penetration": 10 },
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 2 ] ],
     "dispersion": 130,
     "durability": 8,
@@ -1484,7 +1491,7 @@
     "qualities": [ { "id": "SAW_M", "level": 1 }, { "id": "HAMMER", "level": 1 } ],
     "using": [ [ "ammo_rail", 1 ] ],
     "tools": [ [ [ "small_repairkit", 10 ], [ "large_repairkit", 5 ] ] ],
-    "components": [ [ [ "sheet_metal_small", 1 ], [ "scrap", 1 ] ] ]
+    "components": [ [ [ "sheet_metal_small", 1 ], [ "scrap", 4 ] ] ]
   },
   {
     "id": "sq_smartpistol_module",
@@ -1542,7 +1549,7 @@
     ],
     "install_time": "45 m",
     "min_skills": [ [ "weapon", 5 ] ],
-    "dispersion_modifier": -90,
+    "dispersion_modifier": -120,
 	"flags": [ "INSTALL_DIFFICULT" ]
   },
   {
@@ -1638,7 +1645,7 @@
     "range_modifier": 10,
 	"dispersion_modifier": 15,
 	"ups_charges_modifier": 30,
-	"loudness_modifier": 80,
+	"loudness_modifier": 180,
     "handling_modifier": -12,
 	"flags": [ "INSTALL_DIFFICULT" ]
   },
@@ -1665,15 +1672,15 @@
     ],
     "components": [
       [ [ "sq_epa", 1 ] ],
-      [ [ "sheet_metal", 1 ] ],
-      [ [ "cable", 40 ] ],
+      [ [ "alloy_sheet", 1 ] ],
+      [ [ "cable", 8 ] ],
       [ [ "amplifier", 4 ] ],
       [ [ "power_supply", 4 ] ],
       [ [ "e_scrap", 12 ] ],
       [ [ "processor", 1 ] ],
       [ [ "RAM", 1 ] ],
       [ [ "small_lcd_screen", 1 ] ],
-      [ [ "battery_ups", 1 ] ]
+      [ [ "burnt_out_bionic", 1 ] ]
     ]
   },
   {
@@ -1755,8 +1762,8 @@
     "location": "barrel",
     "mod_target_category": [ [ "SHOTGUNS" ] ],
     "install_time": "5 m",
-    "damage_modifier": { "damage_type": "bullet", "amount": 10 },
-	"range_modifier": 6,
+    "damage_modifier": { "damage_type": "bullet", "amount": 8 },
+	"range_modifier": 4,
     "dispersion_modifier": -100
   },
   {
@@ -1777,7 +1784,7 @@
     "location": "barrel",
     "mod_target_category": [ [ "SHOTGUNS" ] ],
     "install_time": "10 m",
-    "damage_modifier": { "damage_type": "bullet", "amount": 20 },
+    "damage_modifier": { "damage_type": "bullet", "amount": 12 },
 	"range_modifier": 10,
     "dispersion_modifier": -200,
 	"handling_modifier": 8
@@ -1832,9 +1839,9 @@
     "location": "mechanism",
     "mod_targets": [ "sq_fusion_rifle", "sq_fusion_shotgun" ],
     "install_time": "5 m",
-    "dispersion_modifier": 12,
-	"handling_modifier": -8,
-    "mode_modifier": [ [ "AUTO", "auto", 4 ] ]
+    "dispersion_modifier": 20,
+	"handling_modifier": -10,
+    "mode_modifier": [ [ "AUTO", "auto", 3 ] ]
   },
   {
     "id": "sq_portal_loader",
@@ -1861,11 +1868,60 @@
       [ "GATLING_GUNS" ],
       [ "SHOTGUNS" ],
       [ "GRENADE_LAUNCHERS" ],
-      [ "ROCKET_LAUNCHERS" ],
-      [ "FLAMETHROWERS" ]
+      [ "ROCKET_LAUNCHERS" ]
     ],
     "mode_modifier": [ [ "AUTO", "auto", 1 ] ],
 	"reload_modifier": -100,
 	"flags": [ "INSTALL_DIFFICULT", "RELOAD_AND_SHOOT" ]
+  },
+  {
+    "id": "sq_chargedshot",
+    "looks_like": "radio_mod",
+    "type": "GUNMOD",
+    "name": { "str_sp": "광자 과충전기" },
+    "description": "하드라이트 소총 전용 커스텀 축전기 부품으로, 출력 리미터를 해제합니다.  광자를 과충전시켜 정밀하고 매우 강력한 한 방을 발사할 수 있도록 합니다.",
+    "weight": "408 g",
+    "volume": "250 ml",
+    "integral_volume": "0 ml",
+    "price": 465000,
+    "price_postapoc": 6500,
+    "material": [ "superalloy" ],
+    "symbol": ":",
+    "color": "light_blue",
+    "location": "lens",
+    "mod_targets": [ "sq_hardlight_rifle" ],
+    "gun_data": {
+      "recoil": 2800,
+      "range": 35,
+      "loudness": 654,
+      "skill": "rifle",
+      "dispersion": 0,
+      "durability": 10,
+  	  "ups_charges": 160,
+      "ranged_damage": { "damage_type": "heat", "amount": 100, "armor_penetration": 100 },
+      "ammo_effects": [ "LASER", "SHOT", "WIDE", "JET" ]
+    },
+    "flags": [ "NEVER_JAMS" ]
+  },
+  {
+    "id": "sq_grenadeshot",
+    "looks_like": "makeshift_sealer",
+    "type": "GUNMOD",
+    "name": { "str_sp": "광자 압축기" },
+    "description": "하드라이트 소총의 전용 커스텀 축전기 부품으로, 광자를 압축 및 고형화하는 개조부품입니다. 고밀도로 압축된 광자 포탄은 충격 시 폭발하여 파편이 수류탄처럼 흩어집니다.",
+    "weight": "408 g",
+    "volume": "250 ml",
+    "integral_volume": "0 ml",
+    "price": 465000,
+    "price_postapoc": 6500,
+    "material": [ "superalloy" ],
+    "symbol": ":",
+    "color": "light_blue",
+    "location": "lens",
+    "mod_targets": [ "sq_hardlight_rifle", "sq_hardlight_shotgun" ],
+    "ammo_effects": [ "HARDLIGHT_SHRED" ],
+    "flags": [ "NEVER_JAMS" ],
+    "damage_modifier": { "damage_type": "heat", "amount": -16 },
+  	"ups_charges_multiplier": 1.2
   }
 ]

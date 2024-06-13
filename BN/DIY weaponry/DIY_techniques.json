@@ -1,0 +1,15 @@
+[
+  {
+    "type": "technique",
+    "id": "DIY_tec_execution",
+    "name": "쿠 드 그라스",
+    "description": "기절한 적에게 매우 높은 관통 피해",
+    "unarmed_allowed": true,
+    "melee_allowed": true,
+    "stunned_target": true,
+    "crit_ok": true,
+    "weighting": 5,
+    "mult_bonuses": [ { "stat": "damage", "type": "stab", "scale": 8.0 } ],
+    "messages": [ "Coup de grâce!!!! %s의 급소를 꿰뚫습니다!", "Coup de grâce!!!! <npcname>가 %s의 급소를 꿰뚫습니다!" ]
+  }
+]

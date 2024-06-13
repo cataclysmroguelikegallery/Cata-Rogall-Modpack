@@ -5,7 +5,14 @@
     "type": "GUN",
     "name": { "str": "repeating crossbow" },
     "reload": 400,
-    "valid_mod_locations": [ [ "dampening", 1 ], [ "loading port", 1 ], [ "sights mount", 1 ], [ "sling", 1 ] ]
+    "valid_mod_locations": [ 
+        [ "dampening", 1 ],
+        [ "accessories", 2 ], 
+        [ "grip", 1 ], 
+        [ "mechanism", 1 ], 
+        [ "loading port", 1 ], 
+        [ "sights mount", 1 ], 
+        [ "sling", 1 ] ]
   },
   {
     "id": "huge_crossbow",

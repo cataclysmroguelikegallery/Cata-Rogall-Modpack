@@ -1,0 +1,23 @@
+[
+  {
+    "id": "stiletto",
+    "type": "GENERIC",
+    "category": "weapons",
+    "weapon_category": [ "KNIVES" ],
+    "name": { "str": "스틸레토", "str_pl": "스틸레토" },
+    "description": "'미제리코드'라고도 불리는, 이탈리아에서 유래한 기다란 찌르기용 단검입니다. 급소를 찔러 치명상을 입힙니다. 사용하기 좋도록 손잡이에는 가죽을 감았습니다.",
+    "weight": "1000 g",
+    "volume": "750 ml",
+    "price_postapoc": 1500,
+    "price": 25000,
+    "to_hit": 1,
+    "bashing": 2,
+    "cutting": 18,
+    "material": [ "iron" ],
+    "looks_like": "knife_baselard",
+    "symbol": ";",
+    "color": "dark_gray",
+    "techniques": [ "DIY_tec_execution" ],
+    "flags": [ "STAB", "SHEATH_KNIFE", "DURABLE_MELEE", "NONCONDUCTIVE" ]
+  }
+]
