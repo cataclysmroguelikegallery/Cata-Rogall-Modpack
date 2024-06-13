@@ -85,26 +85,6 @@
       }
   },
   {
-    "id": "survivor_belt",
-    "type": "ARMOR",
-    "name": { "str": "survivor utility belt" },
-    "copy-from": "survivor_belt",
-    "use_action": [
-      {
-        "type": "holster",
-        "holster_prompt": "Attach what to holder?",
-        "holster_msg": "You attach your %s to your %s.",
-        "multi": 6,
-        "draw_cost": 3,
-        "min_volume": "1 ml",
-        "max_volume": "2000 ml",
-        "flags": [ "BELT_CLIP", "SHEATH_KNIFE", "SHEATH_SWORD", "SHEATH_AXE", "SHEATH_SPEAR" ]
-      },
-      "CROWBAR",
-      "HAMMER"
-    ]
-  },
-  {
     "id": "tool_belt",
     "type": "ARMOR",
     "name": { "str": "tool belt" },

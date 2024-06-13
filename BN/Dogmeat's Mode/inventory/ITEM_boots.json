@@ -278,18 +278,5 @@
 		"draw_cost": 80, 
 		"multi": 2,
 		"flags": ["SHEATH_KNIFE"] }
-  },
-  {
-    "id": "boots_xlsurvivor",
-    "type": "ARMOR",
-    "name": { "str": "pair of XL survivor boots", "str_pl": "pairs of XL survivor boots" },
-    "copy-from": "boots_xlsurvivor",
-    "use_action": { 
-		"type": "holster", 
-		"max_volume": "250 ml", 
-		"max_weight": 600, 
-		"draw_cost": 80, 
-		"multi": 2,
-		"flags": ["SHEATH_KNIFE"] }
   }
 ]
