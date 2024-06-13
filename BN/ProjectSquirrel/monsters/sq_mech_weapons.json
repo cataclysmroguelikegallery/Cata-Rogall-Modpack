@@ -55,7 +55,7 @@
       "durability": 10,
 	  "ups_charges": 80,
       "ranged_damage": { "damage_type": "heat", "amount": 250, "armor_penetration": 100 },
-      "ammo_effects": [ "LASER", "SHOT", "WIDE", "FRAG" ]
+      "ammo_effects": [ "LASER", "SHOT", "WIDE", "FRAG", "JET" ]
     },
     "flags": [ "NEVER_JAMS", "IRREMOVABLE" ]
   },
@@ -76,7 +76,7 @@
     "min_cycle_recoil": 60,
     "range": 110,
     "ranged_damage": { "damage_type": "stab", "amount": 99, "armor_penetration": 44 },
-    "dispersion": 120,
+    "dispersion": 200,
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "AUTO", "auto", 6 ] ],
     "loudness": 764,
     "ups_charges": 10,

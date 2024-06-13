@@ -246,7 +246,7 @@
     "difficulty": 1,
     "time": "150 s",
     "qualities": [ { "id": "SAW_M", "level": 2 } ],
-    "components": [ [ [ "alloy_sheet", 8 ] ] ]
+    "components": [ [ [ "alloy_sheet", 12 ] ] ]
   },
   {
     "id": "nuclear_waste",

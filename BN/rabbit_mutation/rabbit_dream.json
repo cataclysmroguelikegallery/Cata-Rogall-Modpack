@@ -1,0 +1,39 @@
+[
+{
+    "type": "dream",
+    "messages": [ "당신은 토끼에 대한 이상한 꿈을 꿉니다.", "꿈이 당신에게 이상한 털복숭이 느낌을 줍니다." ],
+    "category": "RABBIT",
+    "strength": 1
+  },
+ {
+    "type": "dream",
+    "messages": [
+      "당신은 개에게서 도망치는 것에 대해 불안한 꿈을 꾸고 있습니다.",
+      "꿈을 꾸다 보면, 토끼와 같은 자신의 모습이 눈에 띕니다",
+      "당신은 집을 만들기 위해 언덕 아래에 구멍을 파는 꿈을 꾸게 됩니다."
+    ],
+    "category": "RABBIT",
+    "strength": 2
+  },
+  {
+    "type": "dream",
+    "messages": [
+      "부활절 토끼가 되는 것에 대한 이상한 꿈을 꿉니다...",
+      "당신은 토끼로 사는것에 대한 따듯하고 편안한 꿈을 꿉니다."
+    ],
+    "category": "RABBIT",
+    "strength": 3
+  },
+ {
+    "type": "dream",
+    "messages": [ "겨울에 당신의 굴은 가족들에게 충분히 따듯할까요?"],
+    "category": "RABBIT",
+    "strength": 4
+  },
+ {
+    "type": "dream",
+    "messages": [ "당신은 종말을 앞지르는 꿈을 꿉니다." ],
+    "category": "RABBIT",
+    "strength": 4
+  }
+]

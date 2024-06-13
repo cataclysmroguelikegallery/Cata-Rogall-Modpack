@@ -83,5 +83,15 @@
     "name": { "str": "loaded club" },
     "copy-from": "shillelagh_weighted",
     "extend": { "flags": [ "MOLLE" ] }
+  },
+  {
+    "id": "watercannon",
+    "type": "GUN",
+    "weapon_category": [ "WATER_CANNONS" ],
+    "symbol": "&",
+    "color": "dark_gray",
+    "name": { "str": "water cannon" },
+    "copy-from": "watercannon",
+	"delete": { "flags": [ "NO_RELOAD" ] }
   }
 ]

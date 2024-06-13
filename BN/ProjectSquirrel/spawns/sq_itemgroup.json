@@ -113,7 +113,9 @@
 	  [ "sq_fusion_pistol", 3 ],
 	  [ "sq_fusion_hmg", 2 ],
 	  [ "sq_fusion_shotgun", 3 ],
-	  [ "sq_fusion_sniper", 2 ]
+	  [ "sq_fusion_sniper", 2 ],
+      [ "sq_chargedshot", 3 ],
+      [ "sq_grenadeshot", 3 ]
     ]
   },
   {
@@ -520,7 +522,9 @@
       [ "sq_choke", 40 ],
       [ "sq_smart_choke", 20 ],
       [ "sq_neuro_trigger", 20 ],
-      [ "sq_turbo_charger", 20 ]
+      [ "sq_turbo_charger", 20 ],
+      [ "sq_chargedshot", 10 ],
+      [ "sq_grenadeshot", 10 ]
     ]
   },
   {
@@ -544,7 +548,9 @@
     "id": "gunmod_energy",
     "//": "Gunmods for energy weaponry found only at military sites and laboratories.",
     "items": [
-      [ "sq_turbo_charger", 60 ]
+      [ "sq_turbo_charger", 60 ],
+      [ "sq_chargedshot", 30 ],
+      [ "sq_grenadeshot", 30 ]
     ]
   }
 ]

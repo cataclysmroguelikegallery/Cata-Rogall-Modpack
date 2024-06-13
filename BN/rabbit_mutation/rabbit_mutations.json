@@ -1,0 +1,539 @@
+[
+ {
+    "type": "mutation",
+    "id": "EASYSLEEPER",
+    "name": { "str": "Accomplished Sleeper" },
+    "points": 1,
+    "description": "You have always been able to fall asleep easily, even when sleeping in less than ideal circumstances.",
+    "changes_to": [ "EASYSLEEPER2" ],
+    "starting_trait": true,
+    "valid": false,
+    "cancels": [ "INSOMNIA" ],
+    "category": [ "MOUSE", "INSECT", "RABBIT" ]
+  },
+ {
+    "type": "mutation",
+    "id": "ANIMALDISCORD",
+    "name": { "str": "Animal Discord" },
+    "points": -1,
+    "description": "Most animals don't like you, and aggressive animals are more likely to attack you.  This only applies to natural animals such as woodland creatures.",
+    "cancels": [ "ANIMALEMPATH" ],
+    "changes_to": [ "ANIMALDISCORD2" ],
+    "category": [ "LUPINE", "BEAST", "RAPTOR", "INSECT", "RABBIT" ]
+  },
+ {
+    "type": "mutation",
+    "id": "ANIMALDISCORD2",
+    "name": { "str": "Prey Animal" },
+    "points": -3,
+    "description": "Natural animals like dogs and wolves see you as prey, and are liable to attack you on sight.",
+    "cancels": [ "ANIMALEMPATH" ],
+    "prereqs": [ "ANIMALDISCORD" ],
+    "category": [ "MOUSE", "RABBIT" ]
+  },
+ {
+    "type": "mutation",
+    "id": "DEX_UP",
+    "name": { "str": "Dextrous" },
+    "points": 1,
+    "description": "You are a little nimbler.  +1 Dexterity.",
+    "changes_to": [ "DEX_UP_2", "DEX_ALPHA" ],
+    "category": [ "INSECT", "SLIME", "ALPHA", "RABBIT" ],
+    "passive_mods": { "dex_mod": 1 }
+  },
+ {
+    "type": "mutation",
+    "id": "DEX_UP_2",
+    "name": { "str": "Very Dextrous" },
+    "points": 2,
+    "description": "You are nimbler.  +2 Dexterity.",
+    "prereqs": [ "DEX_UP" ],
+    "changes_to": [ "DEX_UP_3" ],
+    "category": [ "LIZARD", "SPIDER", "CHIMERA", "RAPTOR", "MOUSE",  "RABBIT"],
+    "passive_mods": { "dex_mod": 2 }
+  },
+  {
+    "type": "mutation",
+    "id": "HUNGER",
+    "name": { "str": "Fast Metabolism" },
+    "points": -3,
+    "bodytemp_modifiers": [ 0, 1000 ],
+    "description": "You require more food than most people.  On a plus side, you are more resistant to cold.",
+    "starting_trait": true,
+    "types": [ "METABOLISM" ],
+    "changes_to": [ "HUNGER2", "MET_RAT" ],
+    "category": [ "RAT", "ALPHA", "MEDICAL", "ELFA", "BEAST", "SLIME", "RAPTOR", "CHIMERA", "MOUSE", "RABBIT" ],
+    "metabolism_modifier": 0.5
+  },
+  {
+    "type": "mutation",
+    "id": "SLEEPY",
+    "name": { "str": "Sleepy" },
+    "points": -2,
+    "description": "You need sleep more often, but still spend most of your time awake.",
+    "changes_to": [ "SLEEPY2", "MET_RAT" ],
+    "starting_trait": true,
+    "types": [ "SLEEP" ],
+    "category": [ "BEAST", "CHIMERA", "MOUSE", "RABBIT" ],
+    "fatigue_modifier": 0.333,
+    "fatigue_regen_modifier": 0.333
+  },
+{
+    "type": "mutation",
+    "id": "MET_RAT",
+    "name": { "str": "Rapid Metabolism" },
+    "points": -2,
+    "valid": false,
+    "description": "You require more resources than most, but heal more rapidly as well.  Provides weak regeneration even when not asleep.",
+    "types": [ "HEALING" ],
+    "cancels": [ "LIGHTEATER", "COLDBLOOD", "COLDBLOOD2", "COLDBLOOD3", "COLDBLOOD4", "WAKEFUL", "WAKEFUL2", "WAKEFUL3" ],
+    "prereqs": [ "HUNGER" ],
+    "prereqs2": [ "SLEEPY" ],
+    "category": [ "RAT", "MOUSE", "RABBIT" ],
+    "healing_awake": 0.2,
+    "healing_resting": 0.5,
+    "fatigue_modifier": 0.5,
+    "fatigue_regen_modifier": 0.333,
+    "metabolism_modifier": 0.333
+  },
+{
+    "type": "mutation",
+    "id": "FLEET",
+    "name": { "str": "Fleet-Footed" },
+    "points": 2,
+    "description": "You can move more quickly than most, resulting in a 15% speed bonus on sure footing.",
+    "starting_trait": true,
+    "changes_to": [ "FLEET2" ],
+    "category": [ "SPIDER", "MOUSE",  "RABBIT" ],
+    "types": [ "RUNNING" ],
+    "movecost_flatground_modifier": 0.85
+  },
+  {
+    "type": "mutation",
+    "id": "FLIMSY",
+    "name": { "str": "Flimsy" },
+    "points": -6,
+    "description": "Your body can't take much abuse.  Its maximum HP is 25% lower than usual, and you heal slightly slower.  Stacks with Glass Jaw.",
+    "starting_trait": true,
+    "valid": false,
+    "cancels": [ "TOUGH", "TOUGH2", "TOUGH3" ],
+    "category": [ "MOUSE", "ELFA", "RABBIT" ],
+    "changes_to": [ "FLIMSY2" ],
+    "hp_modifier": -0.25
+  },
+ {
+    "type": "mutation",
+    "id": "LIGHTFUR",
+    "name": { "str": "Lightly Furred" },
+    "points": 0,
+    "visibility": 6,
+    "ugliness": 2,
+    "bodytemp_modifiers": [ 250, 500 ],
+    "bodytemp_sleep": 100,
+    "description": "Light fur has grown to cover your entire body, providing slight protection from cold.",
+    "category": [ "CHIMERA", "SPIDER", "MOUSE", "RABBIT" ],
+    "types": [ "SKIN" ],
+    "prereqs": [ "SKIN_ROUGH" ],
+    "changes_to": [ "FUR", "FELINE_FUR", "LUPINE_FUR", "URSINE_FUR", "CHITIN_FUR", "RABBIT_FUR" ]
+  },
+{
+  "type": "mutation",
+  "id": "RABBIT_FUR",
+  "name": {
+    "str": "토끼 털가죽(토끼)"
+  },
+  "points": 2,
+  "visibility": 10,
+  "ugliness": 3,
+  "bodytemp_modifiers": [
+    750,
+    1500
+  ],
+  "description": "토끼처럼 새하얀 털가죽이 자라났습니다.",
+   "bodytemp_sleep": 400,
+  "types": [
+    "SKIN"
+  ],
+  "prereqs": [
+    "LIGHTFUR"
+  ],
+  "category": [
+    "RABBIT"
+  ],
+     "armor": [ { "parts": "ALL", "bash": 3 } ]
+},
+  {
+    "type": "mutation",
+    "id": "ALBINO",
+    "name": { "str": "Albino" },
+    "points": -1,
+    "description": "You lack skin pigmentation due to a genetic problem.  You sunburn extremely easily, and typically use an umbrella and sunglasses when going out in the sun.",
+    "starting_trait": true,
+    "changes_to": [ "SUNBURN" ],
+    "category": [ "TROGLOBITE", "MOUSE", "RABBIT" ],
+    "types": [ "skin_tone" ]
+  },
+{
+    "type": "mutation",
+    "id": "GOODCARDIO",
+    "name": { "str": "Indefatigable" },
+    "points": 2,
+    "description": "Whether due to exercise and good diet, or due to a natural propensity to physical endurance, you tire due to physical exertion much less readily than others.  Your maximum stamina and stamina regeneration is 25% higher than usual.",
+    "starting_trait": true,
+    "valid": false,
+    "cancels": [ "BADCARDIO" ],
+    "changes_to": [ "GOODCARDIO2" ],
+    "category": [ "FISH", "LUPINE", "MOUSE", "INSECT", "RABBIT" ],
+    "max_stamina_modifier": 1.25
+  },
+ {
+    "type": "mutation",
+    "id": "JITTERY",
+    "name": { "str": "Jittery" },
+    "points": -3,
+    "description": "When very hungry or under the effects of stimulants, you may find your hands shaking uncontrollably, severely reducing your Dexterity.",
+    "starting_trait": true,
+    "valid": false,
+    "category": [ "MEDICAL", "MOUSE", "RABBIT" ]
+  },
+ {
+    "type": "mutation",
+    "id": "ANTIJUNK",
+    "name": { "str": "Junkfood Intolerance" },
+    "points": -1,
+    "description": "Something in those heavily processed foods doesn't agree with you.  It's possible for you to eat them, but you will suffer morale penalties and obtain less nutrition from them.",
+    "starting_trait": true,
+    "cancels": [ "PROJUNK" ],
+    "vitamins_absorb_multi": [ [ "junk", [ [ "vitA", 0 ], [ "vitB", 0 ], [ "vitC", 0 ], [ "calcium", 0 ], [ "iron", 0 ] ] ] ],
+    "category": [ "BEAST", "RAPTOR", "ALPHA", "ELFA", "RABBIT" ]
+  },
+ {
+    "type": "mutation",
+    "id": "LIGHT_BONES",
+    "name": { "str": "Light Bones" },
+    "points": 2,
+    "mixed_effect": true,
+    "description": "Your bones are very light.  This enables you to move and attack 10% faster, but also reduces your carrying weight by 20% and makes bashing attacks hurt a little more.",
+    "category": [ "MOUSE", "RABBIT" ],
+    "changes_to": [ "HOLLOW_BONES" ],
+    "movecost_modifier": 0.9,
+    "attackcost_modifier": 0.9,
+    "weight_capacity_modifier": 0.8
+  },
+ {
+    "type": "mutation",
+    "id": "SMALL",
+    "name": { "str": "Small" },
+    "points": -2,
+    "visibility": 5,
+    "mixed_effect": true,
+    "description": "You've noticeably shrunk in size.  You're able to move with increased litheness, but your smaller stature prevents you from carrying as much.",
+    "types": [ "SIZE" ],
+    "changes_to": [ "SMALL2" ],
+    "category": [ "MOUSE", "RABBIT" ],
+    "hp_modifier": -0.05,
+    "dodge_modifier": 1,
+    "weight_capacity_modifier": 0.8,
+    "body_size": "SMALL"
+  },
+{
+  "type": "mutation",
+  "id": "PAWS_LITTLE",
+  "name": {
+    "str": "작은 앞발(토끼)"
+  },
+  "points": 0,
+  "visibility": 2,
+  "ugliness": 1,
+   "mixed_effect": true,
+    "cut_dmg_bonus": 3,
+   "description": "손이 조그만 발로 변했습니다. 약간의 방해도와 조작이 어러워지지만, 날카로운 발톱으로 공격할 수 있습니다.",
+   "craft_skill_bonus": [ [ "electronics", -1 ], [ "tailor", -1 ], [ "mechanics", -1 ] ],
+   "types": [ "HANDS" ],
+   "cancels": [ "TALONS" ],
+   "category": [
+    "RABBIT"
+  ]
+},
+ {
+    "type": "mutation",
+    "id": "HERBIVORE",
+    "name": { "str": "Herbivore" },
+    "points": -3,
+    "description": "Your body's ability to digest meat is severely hampered.  Eating meat has a good chance of making you vomit it back up; even if you manage to keep it down, its nutritional value is greatly reduced.",
+    "cancels": [ "CARNIVORE", "SAPROVORE", "ANTIFRUIT", "MEATARIAN" ],
+    "leads_to": [ "RUMINANT" ],
+    "category": [ "CATTLE", "RABBIT" ]
+  },
+ {
+    "type": "mutation",
+    "id": "RUMINANT",
+    "name": { "str": "Ruminant" },
+    "points": 2,
+    "description": "Your digestive system is capable of digesting cellulose and other rough plant material.  You can eat underbrush and shrubs by activating this, standing over your target, and pressing E.",
+    "prereqs": [ "HERBIVORE" ],
+    "changes_to": [ "GRAZER" ],
+    "cancels": [ "CARNIVORE", "SAPROVORE" ],
+    "category": [ "CATTLE", "RABBIT" ],
+    "active": true,
+    "cost": 0
+  },
+ {
+    "type": "mutation",
+    "id": "STRONG_LEGS",
+    "name": { "str": "Strong Legs" },
+    "points": 1,
+    "visibility": 1,
+    "description": "Your legs have gained muscle mass to propel you across any terrain, and help carry a bit more.",
+    "prereqs": [ "PADDED_FEET", "RABBIT_FEET" ],
+    "movecost_modifier": 0.8,
+    "weight_capacity_modifier": 1.2,
+    "category": [ "FELINE", "LUPINE", "RABBIT" ]
+  },
+{
+    "type": "mutation",
+    "id": "QUICK",
+    "name": { "str": "Quick" },
+    "points": 4,
+    "description": "You're just generally quick!  You get a 10% bonus to action points.",
+    "starting_trait": true,
+    "category": [ "FISH", "BIRD", "INSECT", "TROGLOBITE", "CHIMERA", "RAPTOR", "MOUSE", "RABBIT" ],
+    "speed_modifier": 1.1
+  },
+{
+  "type": "mutation",
+  "id": "RABBIT_EARS",
+  "name": {
+    "str": "토끼 귀(토끼)"
+  },
+  "points": 1,
+  "visibility": 9,
+  "ugliness": 1,
+  "description": "길고 커다란 귀가 되었습니다. 멀리서 난 소리도 잘 들을수 있습니다.",
+  "types": [
+    "EARS"
+  ],
+    "hearing_modifier": 2.5,
+    "category": [
+    "RABBIT"
+  ]
+},
+{
+  "type": "mutation",
+  "id": "RABBIT_FEET",
+  "name": {
+    "str": "토끼 발(토끼)"
+  },
+  "points": 0,
+  "visibility": 2,
+  "ugliness": 2,
+  "mixed_effect": true,
+  "description": "발이 튼튼하고 큰 토끼 발로 성장했습니다. 강력한 발차기를 할 수 있고, 운이 약간 좋아진거 같지만 신발을 신을 수 없습니다.",
+  "types": [
+    "LEGS"
+  ],
+  "category": [
+    "RABBIT"
+  ],
+  "wet_protection": [
+    {
+      "part": "foot_l",
+      "neutral": 10
+    },
+    {
+      "part": "foot_r",
+      "neutral": 10
+    }
+  ],
+  "restricts_gear": [
+    "foot_l",
+    "foot_r"
+  ],
+  "bodytemp_modifiers": [
+    25,
+    50
+  ],
+    "armor": [ { "parts": [ "foot_l", "foot_r" ], "bash": 1 } ],
+  "attacks": {
+    "attack_text_u": "커다란 발로 걷어찼다!",
+    "attack_text_npc": "%1$s 가 커다란발로 걷어찼습니다.",
+    "chance": 15,
+    "strength_damage": {
+      "damage_type": "bash",
+      "amount": 1.5
+    }
+  }
+},
+{
+  "type": "mutation",
+  "id": "TAIL_RABBIT",
+  "name": {
+    "str": "토끼 꼬리(토끼)"
+  },
+  "points": 0,
+  "visibility": 1,
+  "ugliness": 1,
+  "description": "토끼같은, 작고 땅딸막한 꼬리가 생겼습니다. 아무런 능력도 없습니다.",
+  "types": [
+    "TAIL"
+  ],
+  "cancels": [
+    "TAIL_STUB"
+  ],
+  "category": [
+    "RABBIT"
+  ]
+},
+  {
+    "type": "mutation",
+    "id": "SNOUT",
+    "name": { "str": "Snout" },
+    "points": -1,
+    "visibility": 4,
+    "ugliness": 3,
+    "description": "Your face and jaw have begun… changing.  Masks and such fit OK, but you're noticeably mutated.",
+    "changes_to": [ "BEAK", "BEAK_HUM", "BEAK_PECK", "PROBOSCIS", "MINOTAUR", "MUZZLE", "MUZZLE_BEAR", "MUZZLE_LONG", "MUZZLE_RAT", "RABBIT_NOSE" ],
+    "category": [ "FELINE", "RABBIT" ]
+  },
+{
+  "type": "mutation",
+  "id": "RABBIT_NOSE",
+  "name": {
+    "str": "토끼 코(토끼)"
+  },
+  "cancels": [ "MUZZLE_RAT" ], 
+  "points": -1,
+  "visibility": 6,
+  "ugliness": 1,
+  "description": "코가 주둥이와 함께 귀여운 토끼 코로 변했습니다. 매우 씰룩거립니다.",
+  "types": [
+    "MUZZLE"
+  ],
+  "prereqs": [
+    "SNOUT"
+  ],
+  "category": [
+    "RABBIT"
+  ]
+},
+  {
+    "type": "mutation",
+    "id": "WHISKERS",
+    "name": { "str": "Whiskers" },
+    "points": 1,
+    "visibility": 3,
+    "ugliness": 1,
+    "description": "You have a handsome set of feline whiskers around your mouth.  These make you more aware of vibrations in the air, and improve your ability to dodge very slightly, but only when uncovered.",
+    "types": [ "WHISKERS" ],
+    "category": [ "FELINE", "RABBIT" ]
+  },
+{
+  "type": "mutation",
+  "id": "THRESH_RABBIT",
+  "name": {
+    "str": "토끼목"
+  },
+  "points": 1,
+  "description": "당신은 당근이 정말 먹고 싶습니다. 토끼목의 일원이 된 것을 환영합니다!",
+  "valid": false,
+  "purifiable": false,
+  "threshold": true
+},
+ {
+    "type": "mutation",
+    "id": "GOODCARDIO2",
+    "name": { "str": "Hyperactive" },
+    "points": 4,
+    "description": "Your body's efficiency is like that of a tiny furnace, increasing your maximum stamina and stamina regeneration by 40%.",
+    "valid": false,
+    "prereqs": [ "GOODCARDIO" ],
+    "cancels": [ "BADCARDIO" ],
+    "threshreq": [ "THRESH_MOUSE", "THRESH_RABBIT" ],
+    "category": [ "MOUSE", "RABBIT" ],
+    "max_stamina_modifier": 1.4
+  },
+  {
+    "type": "mutation",
+    "id": "RABBIT_INCISORS",
+    "name": { "str": "토끼 이빨" },
+    "points": 2,
+    "visibility": 3,
+    "ugliness": 3,
+    "description": "당근을 갉아먹기 좋은 길고 튼튼한 이빨이 자라났습니다. 적을 공격할때 일정확률로 적을 깨물어 피해를 줍니다.",
+    "types": [ "TEETH" ],
+    "prereqs": [ "RABBIT_NOSE" ],
+    "threshreq": [ "THRESH_RABBIT" ],
+    "category": [ "RABBIT" ],
+    "attacks": {
+      "attack_text_u": "당신은 %s를 이빨로 깨물었다",
+      "attack_text_npc": "%1$s 가 %2$s 를 이빨로 깨물었다.",
+      "body_part": "mouth",
+      "chance": 18,
+      "base_damage": [ { "damage_type": "cut", "amount": 3 }, { "damage_type": "bash", "amount": 3 } ]
+}},
+  {
+    "type": "mutation",
+    "id": "GRAZER",
+    "name": { "str": "Grazer" },
+    "points": 3,
+    "description": "You're accustomed to eating plants directly, and can get nutrition from grass as well as underbrush and shrubs.  Eat either one by activating this, standing over your target, and pressing E.",
+    "prereqs": [ "RUMINANT","INCISORS", "RABBIT_INCISORS" ],
+    "threshreq": [ "THRESH_CATTLE", "THRESH_RABBIT" ],
+    "cancels": [ "CARNIVORE", "SAPROVORE" ],
+    "category": [ "CATTLE", "RABBIT" ],
+    "active": true,
+    "cost": 0
+  },
+ {
+    "type": "mutation",
+    "id": "BURROW",
+    "name": { "str": "Burrowing" },
+    "points": 4,
+    "valid": false,
+    "purifiable": false,
+    "description": "Your claws and teeth allow you to dig through dirt and rubble with ease.",
+    "prereqs": [ "CLAWS_ST", "PAWS_LITTLE" ],
+    "prereqs2": [ "INCISORS", "RABBIT_INCISORS" ],
+    "threshreq": [ "THRESH_RAT", "THRESH_RABBIT" ],
+    "category": [ "RAT", "RABBIT"],
+    "active": true
+  },
+  {
+    "type": "mutation",
+    "id": "EASYSLEEPER2",
+    "name": { "str": "Practiced Sleeper" },
+    "points": 2,
+    "description": "Your body's demanding energy needs mean you can fall asleep just about anywhere.",
+    "prereqs": [ "MET_RAT" ],
+    "cancels": [ "INSOMNIA" ],
+    "threshreq": [ "THRESH_MOUSE", "THRESH_RABBIT" ],
+    "category": [ "MOUSE", "RABBIT" ]
+  },
+{
+    "type": "mutation",
+    "id": "RUNNING_LEG",
+    "name": { "str": "질주하는 다리" },
+    "points": 1,
+    "visibility": 1,
+    "ugliness": 3,
+    "description": "당신은 빠른속도로 질주 할 수 있는 강력한 다리를 얻었습니다. 주문시전 탭에 들어가 사용합니다.",
+    "prereqs": [
+    "STRONG_LEGS"],
+    "threshreq": [
+    "THRESH_RABBIT"],
+    "spells_learned": [ ["RABBIT_HASTE", 12] ],
+    "category": [ "RABBIT" ]
+  },
+  {
+    "type": "mutation",
+    "id": "MORE_PAIN",
+    "name": { "str": "Pain Sensitive" },
+    "points": -2,
+    "description": "For some reason, things always seem to hurt you more.  Pain dealt to you is increased by 25%.",
+    "starting_trait": true,
+    "//": "The MORE_PAIN mutations will always increase the pain you receive by at least 1.",
+    "cancels": [ "PAINRESIST", "NOPAIN" ],
+    "changes_to": [ "MORE_PAIN2" ],
+    "category": [ "RABBIT" ]
+  }
+]

@@ -1,0 +1,170 @@
+[
+{
+    "id": "mutagen_rabbit",
+    "copy-from": "mutagen_flavor",
+    "type": "COMESTIBLE",
+    "name": { "str": "토끼 뮤타젠" },
+    "use_action": { "type": "mutagen", "mutation_category": "RABBIT" }
+  },
+{
+    "id": "iv_mutagen_RABBIT",
+    "copy-from": "iv_mutagen_flavor",
+    "type": "COMESTIBLE",
+    "name": { "str": "토끼 혈청" },
+    "description": "농축된 하얗고 몽실몽실해보이는 색의 뮤타젠입니다. 진짜로 이걸 주입할건가요?",
+    "color": "red",
+    "use_action": { "type": "mutagen_iv", "mutation_category": "RABBIT" }
+  },
+  {
+    "type": "recipe",
+    "result": "mutagen_rabbit",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_MUTAGEN",
+    "skill_used": "cooking",
+    "skills_required": [ "firstaid", 3 ],
+    "difficulty": 9,
+    "time": "2 h",
+    "batch_time_factors": [ 20, 5 ],
+    "book_learn": [ [ "recipe_serum", 8 ], [ "recipe_labchem", 9 ], [ "recipe_animal", 8 ] ],
+    "using": [ [ "mutagen_production_standard", 25 ] ],
+    "components": [ [ [ "mutagen", 1 ] ], [ [ "meat", 3 ] ], [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ] ],
+    "flags": [ "SECRET" ]
+  },
+  {
+    "type": "recipe",
+    "result": "iv_mutagen_RABBIT",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_MUTAGEN",
+    "skill_used": "cooking",
+    "skills_required": [ "firstaid", 3 ],
+    "difficulty": 9,
+    "time": "2 h",
+    "batch_time_factors": [ 20, 5 ],
+    "book_learn": [ [ "recipe_serum", 8 ], [ "recipe_labchem", 9 ], [ "recipe_animal", 8 ] ],
+    "using": [ [ "serum_production_standard", 37 ] ],
+    "components": [ [ [ "mutagen_rabbit", 2 ] ] ],
+    "flags": [ "SECRET" ]
+  },
+{
+"id":"trans_item",
+"type": "ARMOR",
+"name":"투명아이템",
+"description": "투명 아이템.",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "price": "1 USD",
+    "price_postapoc": "1 cent",
+    "flags": [ "FANCY" ],
+    "material": [ "plastic" ],
+    "symbol": "[",
+    "color": "red"
+},
+{
+    "id": "t_mask_fsurvivor",
+    "copy-from": "mask_fsurvivor",
+    "looks_like": "trans_item",
+    "type": "ARMOR",
+    "name": { "str": "투명 생존형 방화 가스마스크" }
+},
+{
+    "id": "t_mask_hsurvivor",
+    "copy-from": "mask_hsurvivor",
+    "looks_like": "trans_item",
+    "type": "ARMOR",
+    "name": { "str": "투명 생존형 중량 가스마스크" }
+},
+{
+    "id": "t_mask_sasurvivor",
+    "copy-from": "mask_sasurvivor",
+    "looks_like": "trans_item",
+    "type": "ARMOR",
+    "name": { "str": "투명 생존형 초합금 가스마스크" }
+},
+{
+    "id": "t_mask_lsurvivor",
+    "copy-from": "mask_lsurvivor",
+    "looks_like": "trans_item",
+    "type": "ARMOR",
+    "name": { "str": "투명 생존형 경량형 가스마스크" }
+},
+{
+    "id": "t_mask_survivor",
+    "copy-from": "mask_survivor",
+    "looks_like": "trans_item",
+    "type": "ARMOR",
+    "name": { "str": "투명 생존형 가스마스크" }
+},
+{
+    "id": "t_mask_wsurvivor",
+    "copy-from": "mask_wsurvivor",
+    "looks_like": "trans_item",
+    "type": "ARMOR",
+    "name": { "str": "투명 겨울생존형 가스마스크" }
+},
+  {
+    "result": "t_mask_fsurvivor",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_HEAD",
+    "skill_used": "tailor",
+    "difficulty": 1,
+    "time": "1 m",
+    "autolearn": [ [ "tailor", 1 ] ],
+    "components": [ [ [ "mask_fsurvivor", 1 ] ] ]
+  },
+  {
+    "result": "t_mask_hsurvivor",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_HEAD",
+    "skill_used": "tailor",
+    "difficulty": 1,
+    "time": "1 m",
+    "autolearn": [ [ "tailor", 1 ] ],
+    "components": [ [ [ "mask_hsurvivor", 1 ] ] ]
+  },
+  {
+    "result": "t_mask_sasurvivor",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_HEAD",
+    "skill_used": "tailor",
+    "difficulty": 1,
+    "time": "1 m",
+    "autolearn": [ [ "tailor", 1 ] ],
+    "components": [ [ [ "mask_sasurvivor", 1 ] ] ]
+  },
+  {
+    "result": "t_mask_lsurvivor",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_HEAD",
+    "skill_used": "tailor",
+    "difficulty": 1,
+    "time": "1 m",
+    "autolearn": [ [ "tailor", 1 ] ],
+    "components": [ [ ["mask_lsurvivor", 1 ] ] ]
+  },
+  {
+    "result": "t_mask_survivor",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_HEAD",
+    "skill_used": "tailor",
+    "difficulty": 1,
+    "time": "1 m",
+    "autolearn": [ [ "tailor", 1 ] ],
+    "components": [ [ [ "mask_survivor", 1 ] ] ]
+  },
+  {
+    "result": "t_mask_survivor",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_HEAD",
+    "skill_used": "tailor",
+    "difficulty": 1,
+    "time": "1 m",
+    "autolearn": [ [ "tailor", 1 ] ],
+    "components": [ [ [ "mask_survivor", 1 ] ] ]
+  }
+]
