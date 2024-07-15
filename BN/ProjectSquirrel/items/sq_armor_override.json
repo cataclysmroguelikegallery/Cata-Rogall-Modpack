@@ -435,6 +435,7 @@
     "id": "depowered_armor",
     "type": "ARMOR",
 	  "copy-from": "depowered_armor",
+    "looks_like": "depowered_armor",
     "name": { "str": "salvaged power armor" },
     "extend": { "flags": [ "OVERSIZE" ] }
   },
@@ -442,6 +443,7 @@
     "id": "depowered_helmet",
     "type": "ARMOR",
 	  "copy-from": "depowered_helmet",
+    "looks_like": "depowered_helmet",
     "name": { "str": "salvaged power armor helmet" },
     "extend": { "flags": [ "OVERSIZE" ] }
   },
@@ -449,6 +451,7 @@
     "id": "power_armor_basic",
     "type": "ARMOR",
 	  "copy-from": "power_armor_basic",
+    "looks_like": "power_armor_basic",
     "name": { "str": "power armor", "str_pl": "suits of power armor" },
     "extend": { "flags": [ "OVERSIZE" ] }
   },
@@ -456,6 +459,7 @@
     "id": "power_armor_basic_on",
     "type": "ARMOR",
 	  "copy-from": "power_armor_basic_on",
+    "looks_like": "power_armor_basic_on",
     "name": { "str": "power armor (active)", "str_pl": "suits of power armor (active)" },
     "extend": { "flags": [ "OVERSIZE", "CLIMATE_CONTROL", "TRADER_AVOID" ] }
   },
@@ -463,6 +467,7 @@
     "id": "power_armor_heavy",
     "type": "ARMOR",
 	  "copy-from": "power_armor_heavy",
+    "looks_like": "power_armor_heavy",
     "name": { "str": "heavy power armor", "str_pl": "suits of heavy power armor" },
     "extend": { "flags": [ "OVERSIZE" ] }
   },
@@ -470,6 +475,7 @@
     "id": "power_armor_heavy_on",
     "type": "ARMOR",
 	  "copy-from": "power_armor_heavy_on",
+    "looks_like": "power_armor_heavy_on",
     "name": { "str": "heavy power armor (active)", "str_pl": "suits of heavy power armor (active)" },
     "extend": { "flags": [ "OVERSIZE", "CLIMATE_CONTROL", "TRADER_AVOID" ] }
   },
@@ -477,6 +483,7 @@
     "id": "power_armor_light",
     "type": "ARMOR",
 	  "copy-from": "power_armor_light",
+    "looks_like": "power_armor_light",
     "name": { "str": "light power armor", "str_pl": "suits of light power armor" },
     "extend": { "flags": [ "OVERSIZE" ] }
   },
@@ -484,7 +491,7 @@
     "id": "power_armor_light_on",
     "type": "ARMOR",
 	  "copy-from": "power_armor_light_on",
-    "looks_like": "power_armor_helmet_light_on",
+    "looks_like": "power_armor_light_on",
     "name": { "str": "light power armor (active)", "str_pl": "suits of light power armor (active)" },
     "extend": { "flags": [ "OVERSIZE", "CLIMATE_CONTROL", "TRADER_AVOID" ] }
   },
@@ -492,6 +499,7 @@
     "id": "power_armor_helmet_basic",
     "type": "ARMOR",
 	  "copy-from": "power_armor_helmet_basic",
+    "looks_like": "power_armor_helmet_basic",
     "name": { "str": "power armor helmet" },
     "extend": { "flags": [ "OVERSIZE" ] }
   },
@@ -500,13 +508,14 @@
     "type": "ARMOR",
 	  "copy-from": "power_armor_helmet_basic_on",
     "name": { "str": "power armor helmet (active)", "str_pl": "power armor helmets (active)" },
-    "looks_like":"power_armor_helmet_basic",
+    "looks_like":"power_armor_helmet_basic_on",
     "extend": { "flags": [ "OVERSIZE", "WATCH", "THERMOMETER", "CLIMATE_CONTROL", "TRADER_AVOID" ] }
   },
   {
     "id": "power_armor_helmet_heavy",
     "type": "ARMOR",
 	  "copy-from": "power_armor_helmet_heavy",
+    "looks_like": "power_armor_helmet_heavy",
     "name": { "str": "heavy power armor helmet" },
     "extend": { "flags": [ "OVERSIZE" ] }
   },
@@ -522,6 +531,7 @@
     "id": "power_armor_helmet_light",
     "type": "ARMOR",
 	  "copy-from": "power_armor_helmet_light",
+    "looks_like": "power_armor_helmet_light",
     "name": { "str": "light power armor helmet" },
     "extend": { "flags": [ "OVERSIZE" ] }
   },
@@ -529,6 +539,7 @@
     "id": "power_armor_helmet_light_on",
     "type": "ARMOR",
 	  "copy-from": "power_armor_helmet_light_on",
+    "looks_like": "power_armor_helmet_light_on",
     "name": { "str": "light power armor helmet (active)", "str_pl": "light power armor helmets (active)" },
     "extend": { "flags": [ "OVERSIZE", "WATCH", "THERMOMETER", "CLIMATE_CONTROL", "TRADER_AVOID" ] }
   },
