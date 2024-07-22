@@ -80,7 +80,7 @@
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "AUTO", "auto", 6 ] ],
     "loudness": 764,
     "ups_charges": 10,
-    "built_in_mods": [ "sq_grenadeshot" ],
+    "built_in_mods": [ "sq_88mmshot" ],
     "ammo_effects": [ "SHOT", "WIDE" ],
     "flags": [
       "NO_UNLOAD",
@@ -94,7 +94,7 @@
     ]
   },
   {
-    "id": "sq_grenadeshot",
+    "id": "sq_88mmshot",
     "type": "GUNMOD",
     "name": { "str_sp": "88mm 캐논" },
     "description": "하단 부착 총.",
