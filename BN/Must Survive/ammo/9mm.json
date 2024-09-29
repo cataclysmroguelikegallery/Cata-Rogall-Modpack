@@ -8,7 +8,7 @@
     "volume": "250 ml",
     "price": 150,
     "price_postapoc": 1000,
-    "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
+     
     "material": [ "brass", "powder" ],
     "symbol": "=",
     "color": "yellow",
@@ -40,7 +40,7 @@
     "description": "Overpressure 9x19mm ammunition.  The round's increased velocity results in superior accuracy and stopping power at the cost of higher recoil.",
     "price": 300,
     "price_postapoc": 800,
-    "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
+     
     "count": 5,
     "relative": { "damage": { "damage_type": "bullet", "armor_penetration": 15 }, "dispersion": -15 },
     "proportional": { "recoil": 2 }
@@ -53,7 +53,7 @@
     "description": "A step beyond the high-pressure 9x19mm +P round, the +P+ has even higher internal pressure offering superior damage, accuracy, and penetration.",
     "price": 350,
     "price_postapoc": 400,
-    "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
+     
     "count": 2,
     "relative": { "damage": { "damage_type": "bullet", "amount": 2, "armor_penetration": 2 }, "dispersion": -15 },
     "proportional": { "recoil": 1.5 }
@@ -70,7 +70,7 @@
       "dispersion": 1.2
     },
     "extend": { "effects": [ "RECYCLED", "BLACKPOWDER", "MUZZLE_SMOKE" ] },
-    "delete": { "effects": [ "NEVER_MISFIRES" ], "flags": [ "IRREPLACEABLE_CONSUMABLE" ] }
+    "delete": { "effects": [ "NEVER_MISFIRES" ] }
   },
   {
     "id": "bp_9mmfmj",
@@ -84,6 +84,6 @@
       "dispersion": 1.2
     },
     "extend": { "effects": [ "RECYCLED", "BLACKPOWDER", "MUZZLE_SMOKE" ] },
-    "delete": { "effects": [ "NEVER_MISFIRES" ], "flags": [ "IRREPLACEABLE_CONSUMABLE" ] }
+    "delete": { "effects": [ "NEVER_MISFIRES" ] }
   }
 ]

@@ -8,7 +8,7 @@
     "volume": "250 ml",
     "price": 300,
     "price_postapoc": 1600,
-    "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
+     
     "material": [ "steel", "powder" ],
     "symbol": "=",
     "color": "dark_gray",
@@ -36,6 +36,6 @@
       "dispersion": 1.2
     },
     "extend": { "effects": [ "RECYCLED", "BLACKPOWDER", "MUZZLE_SMOKE" ] },
-    "delete": { "effects": [ "NEVER_MISFIRES" ], "flags": [ "IRREPLACEABLE_CONSUMABLE" ] }
+    "delete": { "effects": [ "NEVER_MISFIRES" ] }
   }
 ]

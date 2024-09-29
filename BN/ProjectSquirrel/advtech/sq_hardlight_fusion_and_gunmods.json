@@ -74,7 +74,7 @@
     "damage": { "damage_type": "bullet", "amount": 30, "armor_penetration": 66 },
     "dispersion": 60,
     "recoil": 400,
-    "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
+     
     "price_postapoc": 1800,
     "effects": [ "COOKOFF", "NEVER_MISFIRES" ]
   },
@@ -408,7 +408,7 @@
     "description": "열화 우라늄 탄두를 사용한 5.56x45mm 고속 철갑탄으로, 소총탄이 가지는 잠재력을 완전히 끌어냈습니다. 기존의 5.56mm 보다 더욱 향상된 피해량과 관통력을 가졌습니다.",
     "price": 1290,
     "price_postapoc": 1500,
-    "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
+     
     "relative": { "damage": { "damage_type": "bullet", "amount": 5, "armor_penetration": 34 }, "dispersion": 40 },
     "proportional": { "dispersion": 1.5, "recoil": 1.5 },
     "extend": { "effects": [ "NEVER_MISFIRES" ] }
@@ -444,7 +444,7 @@
     "description": "열화 우라늄 탄두를 사용한 7.62x51mm 고속 철갑탄으로, 소총탄이 가지는 잠재력을 완전히 끌어냈습니다. 기존의 7.62mm 보다 더욱 향상된 파괴력과 관통력을 가졌습니다.",
     "price": 1290,
     "price_postapoc": 1500,
-    "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
+     
     "relative": { "damage": { "damage_type": "bullet", "amount": 5, "armor_penetration": 34 }, "dispersion": 40 },
     "proportional": { "dispersion": 1.5, "recoil": 1.5 },
     "extend": { "effects": [ "NEVER_MISFIRES" ] }

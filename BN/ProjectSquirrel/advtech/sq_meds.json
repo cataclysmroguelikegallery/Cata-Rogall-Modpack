@@ -262,7 +262,7 @@
     "addiction_potential": 12,
     "addiction_type": "mutagen",
     "stack_size": 30,
-	"flags": [ "IRREPLACEABLE_CONSUMABLE" ],
+	 
     "use_action": {
       "type": "consume_drug",
       "effects": [ { "id": "panacea", "duration": 10 }, { "id": "sq_stamina_regen2", "duration": 3 }, { "id": "sq_stimpackeffect", "duration": "6 h" } ]
@@ -726,7 +726,7 @@
     "stack_size": 200,
     "symbol": "!",
     "color": "light_gray",
-    "flags": [ "NPC_SAFE", "IRREPLACEABLE_CONSUMABLE" ],
+    "flags": [ "NPC_SAFE" ],
     "use_action": { "type": "consume_drug", "activation_message": "나노마이트가 캡슐에서 방출되어 외부에 배열됩니다.", "effects": [ { "id": "sq_nanofire", "duration": "60 m" } ] }
   },
   {
@@ -744,7 +744,7 @@
     "stack_size": 200,
     "symbol": "!",
     "color": "light_gray",
-    "flags": [ "NPC_SAFE", "IRREPLACEABLE_CONSUMABLE" ],
+    "flags": [ "NPC_SAFE" ],
     "use_action": { "type": "consume_drug", "activation_message": "나노마이트가 캡슐에서 방출되어 외부에 배열됩니다.", "effects": [ { "id": "sq_nanoacid", "duration": "60 m" } ] }
   },
   {
@@ -762,7 +762,7 @@
     "stack_size": 200,
     "symbol": "!",
     "color": "light_gray",
-    "flags": [ "NPC_SAFE", "IRREPLACEABLE_CONSUMABLE" ],
+    "flags": [ "NPC_SAFE" ],
     "use_action": { "type": "consume_drug", "activation_message": "나노마이트가 캡슐에서 방출되어 외부에 배열됩니다.", "effects": [ { "id": "sq_nanoelec", "duration": "60 m" } ] }
   },
   {
@@ -780,7 +780,7 @@
     "stack_size": 200,
     "symbol": "!",
     "color": "light_gray",
-    "flags": [ "NPC_SAFE", "IRREPLACEABLE_CONSUMABLE" ],
+    "flags": [ "NPC_SAFE" ],
     "use_action": { "type": "consume_drug", "activation_message": "나노마이트가 캡슐에서 방출되어 외부에 배열됩니다.", "effects": [ { "id": "sq_nanocold", "duration": "60 m" } ] }
   },
   {

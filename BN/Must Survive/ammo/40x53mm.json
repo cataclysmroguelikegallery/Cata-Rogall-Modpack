@@ -6,7 +6,7 @@
     "price": 10000,
     "price_postapoc": 6000,
     "volume": "260 ml",
-    "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
+     
     "material": [ "steel", "powder" ],
     "symbol": "=",
     "color": "yellow",
