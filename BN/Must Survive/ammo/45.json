@@ -17,7 +17,7 @@
     "volume": "250 ml",
     "price": 180,
     "price_postapoc": 600,
-    "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
+     
     "material": [ "brass", "powder" ],
     "symbol": "=",
     "color": "yellow",
@@ -39,7 +39,7 @@
     "description": "Overpressure .45 ACP ammunition with 200gr JHP bullets.  This +P ammunition has higher muzzle energy than typical loads leading to greater damage, accuracy and recoil.",
     "price": 210,
     "price_postapoc": 600,
-    "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
+     
     "count": 2,
     "relative": { "damage": { "damage_type": "bullet", "armor_penetration": 18 }, "dispersion": -10 },
     "proportional": { "recoil": 2.0 }
@@ -56,7 +56,7 @@
       "dispersion": 1.2
     },
     "extend": { "effects": [ "RECYCLED", "BLACKPOWDER", "MUZZLE_SMOKE" ] },
-    "delete": { "effects": [ "NEVER_MISFIRES" ], "flags": [ "IRREPLACEABLE_CONSUMABLE" ] }
+    "delete": { "effects": [ "NEVER_MISFIRES" ] }
   },
   {
     "id": "bp_45_jhp",
@@ -70,6 +70,6 @@
       "dispersion": 1.2
     },
     "extend": { "effects": [ "RECYCLED", "BLACKPOWDER", "MUZZLE_SMOKE" ] },
-    "delete": { "effects": [ "NEVER_MISFIRES" ], "flags": [ "IRREPLACEABLE_CONSUMABLE" ] }
+    "delete": { "effects": [ "NEVER_MISFIRES" ] }
   }
 ]

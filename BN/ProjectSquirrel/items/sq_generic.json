@@ -623,7 +623,7 @@
     "volume": "250 ml",
     "price": 225,
     "price_postapoc": 8000,
-    "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
+     
     "material": [ "plastic", "powder" ],
     "symbol": "=",
     "color": "pink",

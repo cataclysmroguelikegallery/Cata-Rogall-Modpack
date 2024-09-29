@@ -8,7 +8,7 @@
     "volume": "250 ml",
     "price": 160,
     "price_postapoc": 800,
-    "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
+     
     "material": [ "brass", "powder" ],
     "symbol": "=",
     "color": "yellow",
@@ -50,7 +50,7 @@
       "dispersion": 1.2
     },
     "extend": { "effects": [ "RECYCLED", "BLACKPOWDER", "MUZZLE_SMOKE" ] },
-    "delete": { "effects": [ "NEVER_MISFIRES" ], "flags": [ "IRREPLACEABLE_CONSUMABLE" ] }
+    "delete": { "effects": [ "NEVER_MISFIRES" ] }
   },
   {
     "id": "bp_3006_incendiary",
@@ -64,7 +64,7 @@
       "dispersion": 1.2
     },
     "extend": { "effects": [ "RECYCLED", "BLACKPOWDER", "MUZZLE_SMOKE" ] },
-    "delete": { "effects": [ "NEVER_MISFIRES" ], "flags": [ "IRREPLACEABLE_CONSUMABLE" ] }
+    "delete": { "effects": [ "NEVER_MISFIRES" ] }
   },
   {
     "id": "bp_3006fmj",
@@ -78,6 +78,6 @@
       "dispersion": 1.2
     },
     "extend": { "effects": [ "RECYCLED", "BLACKPOWDER", "MUZZLE_SMOKE" ] },
-    "delete": { "effects": [ "NEVER_MISFIRES" ], "flags": [ "IRREPLACEABLE_CONSUMABLE" ] }
+    "delete": { "effects": [ "NEVER_MISFIRES" ] }
   }
 ]

@@ -8,7 +8,7 @@
     "volume": "250 ml",
     "price": 280,
     "price_postapoc": 900,
-    "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
+     
     "material": [ "brass", "powder" ],
     "symbol": "=",
     "color": "yellow",
@@ -31,7 +31,7 @@
     "description": "5.56x45mm ammunition with a 62gr FMJ bullet containing a steel penetrator.  Its light weight, high accuracy, and manageable recoil lead to widespread use in the 20th century and it remains popular among militaries and civilians.",
     "price": 290,
     "price_postapoc": 900,
-    "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
+     
     "//": "Balanced as AP, 7/8 damage, arpen 6/7 of that value.",
     "relative": { "damage": { "damage_type": "bullet", "amount": -5, "armor_penetration": 14 }, "dispersion": -10 },
     "proportional": { "recoil": 1.1 },
@@ -57,7 +57,7 @@
       "dispersion": 1.2
     },
     "extend": { "effects": [ "RECYCLED", "BLACKPOWDER", "MUZZLE_SMOKE" ] },
-    "delete": { "effects": [ "NEVER_MISFIRES" ], "flags": [ "IRREPLACEABLE_CONSUMABLE" ] }
+    "delete": { "effects": [ "NEVER_MISFIRES" ] }
   },
   {
     "id": "bp_556",
@@ -71,7 +71,7 @@
       "dispersion": 1.2
     },
     "extend": { "effects": [ "RECYCLED", "BLACKPOWDER", "MUZZLE_SMOKE" ] },
-    "delete": { "effects": [ "NEVER_MISFIRES" ], "flags": [ "IRREPLACEABLE_CONSUMABLE" ] }
+    "delete": { "effects": [ "NEVER_MISFIRES" ] }
   },
   {
     "id": "bp_556_incendiary",
@@ -85,6 +85,6 @@
       "dispersion": 1.2
     },
     "extend": { "effects": [ "RECYCLED", "BLACKPOWDER", "MUZZLE_SMOKE" ] },
-    "delete": { "effects": [ "NEVER_MISFIRES" ], "flags": [ "IRREPLACEABLE_CONSUMABLE" ] }
+    "delete": { "effects": [ "NEVER_MISFIRES" ] }
   }
 ]
