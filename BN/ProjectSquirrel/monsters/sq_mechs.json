@@ -78,7 +78,7 @@
     "id": "storage_battery",
     "type": "MAGAZINE",
     "copy-from": "storage_battery",
-    "name": { "str": "storage battery", "str_pl": "storage batteries" },
+    "name": { "str": "large storage battery", "str_pl": "large storage batteries" },
     "extend": { "flags": [ "MECH_BAT" ] }
   },
   {
