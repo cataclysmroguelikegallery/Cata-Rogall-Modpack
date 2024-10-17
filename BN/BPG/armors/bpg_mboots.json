@@ -184,7 +184,7 @@
 		"symbol": "[",
 		"color": "green",
 		"name": { "str": "파워 아머-M 파워부츠 Mk.III", "str_pl": "파워 아머-M 파워부츠 Mk.III" },
-		"description": "스프린터 스켈레톤의 시스템을 통합하여 기동성을 보강하고, 약간의 경량화를 거친 파워 아머-M 파워부츠 Mk.III 입니다. 그다지 효율적이지는 않습니다...",
+		"description": "민수용 외골격의 모터를 결합하여 기동성을 보강하고, 약간의 경량화를 거친 파워 아머-M 파워부츠 Mk.III 입니다. 그다지 효율적이지는 않습니다...",
 		"price": 0,
 		"price_postapoc": 0,
 		"material": [ "steel", "carbide" ],
@@ -225,7 +225,7 @@
 		"copy-from": "bpg_power_boots_mk3",
 		"repairs_like": "bpg_power_boots_mk3",
 		"name": { "str": "파워 아머-M 파워부츠 Mk.III (켜짐)", "str_pl": "파워 아머-M 파워부츠 Mk.III (켜짐)" },
-		"description": "스프린터 스켈레톤의 시스템을 통합하여 기동성을 보강하고, 약간의 경량화를 거친 파워 아머-M 파워부츠 Mk.III 입니다. 그다지 효율적이지는 않습니다... 현재 작동 중입니다.",
+		"description": "민수용 외골격의 모터를 결합하여 기동성을 보강하고, 약간의 경량화를 거친 파워 아머-M 파워부츠 Mk.III 입니다. 그다지 효율적이지는 않습니다... 현재 작동 중입니다.",
 		"power_draw": 400000,
 		"encumbrance": 8,
 		"environmental_protection": 30,
@@ -268,7 +268,7 @@
 		"using": [ [ "welding_standard", 60 ] ],
 		"components": [
 		  [ [ "bpg_power_boots_mk2", 1 ] ],
-		  [ [ "sq_sprinter_skeleton", 1 ] ],
+		  [ [ "sq_sprinter_skeleton", 1 ], [ "exosuit_industrial", 1 ] ],
 		  [ [ "power_supply", 4 ] ],
 		  [ [ "processor", 2 ] ],
 		  [ [ "cable", 50 ] ],
@@ -498,8 +498,8 @@
 		  [ [ "plasma", 10 ] ],
 		  [ [ "nanomaterial", 50 ] ],
 		  [ [ "cable", 100 ] ],
-		  [ [ "spiral_stone", 4 ] ],
-		  [ [ "vortex_stone", 2 ] ],
+		  [ [ "spiral_stone", 3 ] ],
+		  [ [ "vortex_stone", 1 ] ],
 		  [ [ "solder_wire", 50 ] ]
 		]
 	}

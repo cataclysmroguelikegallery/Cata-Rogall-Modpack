@@ -83,7 +83,7 @@
 		"tools": [ [ [ "sq_atomic_forge", -1 ] ], [ [ "sq_nanofab", -1 ] ] ],
 		"using": [ [ "welding_standard", 80 ], [ "blacksmithing_advanced", 7 ] ],
 		"components": [
-		  [ [ "bpg_hparmor_parts", 1 ] ],
+		  [ [ "bpg_hparmor_parts", 1 ], [ "exosuit_survivor", 1 ] ],
 		  [ [ "ai_module", 1 ] ],
 		  [ [ "power_supply", 4 ] ],
 		  [ [ "motor_micro", 16 ] ],
@@ -198,7 +198,7 @@
 		"color": "green",
 		"name": { "str": "파워 아머-M Mk.III", "str_pl": "파워 아머-M Mk.III" },
 		"looks_like": "power_armor_heavy",
-		"description": "뱅가드 스켈레톤의 프레임을 결합해 모터를 강화해 하중 분산 능력을 강화한 파워 아머-M Mk.III 입니다. 하는 김에 깜빡한 온도계도 설치하고 프레임 교체로 약간의 경량화에도 성공했죠!",
+		"description": "군용으로 사용되는 외골격의 프레임을 결합해 모터를 강화해 하중 분산 능력을 강화한 파워 아머-M Mk.III 입니다. 하는 김에 깜빡한 온도계도 설치하고 프레임 교체로 약간의 경량화에도 성공했죠!",
 		"price": 0,
 		"price_postapoc": 0,
 		"material": [ "steel", "hardsteel", "carbide" ],
@@ -246,7 +246,7 @@
 		"repairs_like": "bpg_power_armor_mk3",
 		"looks_like": "power_armor_heavy",
 		"name": { "str": "파워 아머-M Mk.III (켜짐)", "str_pl": "파워 아머-M Mk.III (켜짐)" },
-		"description": "뱅가드 스켈레톤의 프레임을 결합해 하중 부하를 경감시킨 파워 아머-M Mk.III 입니다. 하는 김에 깜빡한 온도계도 설치하고 프레임 교체로 약간의 경량화에도 성공했죠! 현재 작동 중입니다.",
+		"description": "군용으로 사용되는 외골격의 프레임을 결합해 하중 부하를 경감시킨 파워 아머-M Mk.III 입니다. 하는 김에 깜빡한 온도계도 설치하고 프레임 교체로 약간의 경량화에도 성공했죠! 현재 작동 중입니다.",
 		"power_draw": 750000,
 		"encumbrance": 20,
 		"environmental_protection": 30,
@@ -278,7 +278,7 @@
 		"using": [ [ "welding_standard", 100 ] ],
 		"components": [
 		  [ [ "bpg_power_armor_mk2", 1 ] ],
-		  [ [ "sq_vanguard_skeleton", 1 ] ],
+		  [ [ "sq_vanguard_skeleton", 1 ], [ "exosuit_military", 1 ] ],
 		  [ [ "thermometer", 1 ] ],
 		  [ [ "power_supply", 4 ] ],
 		  [ [ "processor", 2 ] ],
@@ -498,7 +498,7 @@
 		  [ [ "bpg_nano_alloy_sheet", 2 ] ],
 		  [ [ "sq_stimpack", 4 ] ],
 		  [ [ "rx12_injector", 1 ], [ "wearable_rx12", 1 ] ],
-		  [ [ "spiral_stone", 2 ] ],
+		  [ [ "spiral_stone", 1 ] ],
 		  [ [ "petrified_eye", 1 ] ]
 		]
 	},
@@ -621,7 +621,7 @@
 		  [ [ "plasma", 10 ] ],
 		  [ [ "nanomaterial", 25 ] ],
 		  [ [ "power_supply", 16 ] ],
-		  [ [ "vortex_stone", 2 ] ],
+		  [ [ "vortex_stone", 1 ] ],
 		  [ [ "cable", 200 ] ],
 		  [ [ "solder_wire", 400 ] ]
 		]
