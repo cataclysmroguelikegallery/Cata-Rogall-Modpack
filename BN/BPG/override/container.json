@@ -1,0 +1,9 @@
+[
+  {
+    "id": "power_armor_canteen",
+    "copy-from": "power_armor_canteen",
+	"type": "CONTAINER",
+	"name": { "str": "power armor canteen" },
+    "material": [ "steel" ]
+  }
+]
