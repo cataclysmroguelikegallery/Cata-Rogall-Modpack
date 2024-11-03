@@ -2647,5 +2647,77 @@
     "threshold_mut": "",
     "mutagen_message": "",
     "iv_message": ""
+  },
+  {
+    "type": "mutation_category",
+    "id": "INT_SLIME",
+    "name": "int_slime",
+    "threshold_mut": "",
+    "mutagen_message": "",
+    "iv_message": ""
+  },
+  {
+    "type": "mutation_category",
+    "id": "FAST_REFLEXES",
+    "name": "fast_reflexes",
+    "threshold_mut": "",
+    "mutagen_message": "",
+    "iv_message": ""
+  },
+  {
+    "type": "mutation_category",
+    "id": "PER_SLIME_OK",
+    "name": "per_slime_ok",
+    "threshold_mut": "",
+    "mutagen_message": "",
+    "iv_message": ""
+  },
+  {
+    "type": "mutation_category",
+    "id": "MUT_TOUGH",
+    "name": "mut_tough",
+    "threshold_mut": "",
+    "mutagen_message": "",
+    "iv_message": ""
+  },
+  {
+    "type": "mutation_category",
+    "id": "GRAZER",
+    "name": "grazer",
+    "threshold_mut": "",
+    "mutagen_message": "",
+    "iv_message": ""
+  },
+  {
+    "type": "mutation_category",
+    "id": "DISRESISTANCE",
+    "name": "disresistance",
+    "threshold_mut": "",
+    "mutagen_message": "",
+    "iv_message": ""
+  },
+  {
+    "type": "mutation_category",
+    "id": "ROUGH_SKIN",
+    "name": "rough_skin",
+    "threshold_mut": "",
+    "mutagen_message": "",
+    "iv_message": ""
+  },
+  {
+    "type": "mutation_category",
+    "id": "SLIT_NOSTRILS",
+    "name": "slit_nostrils",
+    "threshold_mut": "",
+    "mutagen_message": "",
+    "iv_message": ""
+  },
+  {
+    "type": "mutation_category",
+    "id": "SMALL2",
+    "name": "small2",
+    "threshold_mut": "",
+    "mutagen_message": "",
+    "iv_message": ""
   }
 ]
