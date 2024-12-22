@@ -459,7 +459,7 @@
     "id": "power_armor_basic_on",
     "type": "ARMOR",
 	  "copy-from": "power_armor_basic_on",
-    "looks_like": "power_armor_basic_on",
+    "looks_like": "power_armor_basic",
     "name": { "str": "power armor (active)", "str_pl": "suits of power armor (active)" },
     "extend": { "flags": [ "OVERSIZE", "CLIMATE_CONTROL", "TRADER_AVOID" ] }
   },
@@ -475,7 +475,7 @@
     "id": "power_armor_heavy_on",
     "type": "ARMOR",
 	  "copy-from": "power_armor_heavy_on",
-    "looks_like": "power_armor_heavy_on",
+    "looks_like": "power_armor_heavy",
     "name": { "str": "heavy power armor (active)", "str_pl": "suits of heavy power armor (active)" },
     "extend": { "flags": [ "OVERSIZE", "CLIMATE_CONTROL", "TRADER_AVOID" ] }
   },
@@ -491,7 +491,7 @@
     "id": "power_armor_light_on",
     "type": "ARMOR",
 	  "copy-from": "power_armor_light_on",
-    "looks_like": "power_armor_light_on",
+    "looks_like": "power_armor_light",
     "name": { "str": "light power armor (active)", "str_pl": "suits of light power armor (active)" },
     "extend": { "flags": [ "OVERSIZE", "CLIMATE_CONTROL", "TRADER_AVOID" ] }
   },
@@ -508,7 +508,7 @@
     "type": "ARMOR",
 	  "copy-from": "power_armor_helmet_basic_on",
     "name": { "str": "power armor helmet (active)", "str_pl": "power armor helmets (active)" },
-    "looks_like":"power_armor_helmet_basic_on",
+    "looks_like":"power_armor_helmet_basic",
     "extend": { "flags": [ "OVERSIZE", "WATCH", "THERMOMETER", "CLIMATE_CONTROL", "TRADER_AVOID" ] }
   },
   {
@@ -523,7 +523,7 @@
     "id": "power_armor_helmet_heavy_on",
     "type": "ARMOR",
 	  "copy-from": "power_armor_helmet_heavy_on",
-    "looks_like": "power_armor_helmet_heavy_on",
+    "looks_like": "power_armor_helmet_heavy",
     "name": { "str": "heavy power armor helmet (active)", "str_pl": "heavy power armor helmets (active)" },
     "extend": { "flags": [ "OVERSIZE", "WATCH", "THERMOMETER", "CLIMATE_CONTROL", "TRADER_AVOID" ] }
   },
@@ -539,7 +539,7 @@
     "id": "power_armor_helmet_light_on",
     "type": "ARMOR",
 	  "copy-from": "power_armor_helmet_light_on",
-    "looks_like": "power_armor_helmet_light_on",
+    "looks_like": "power_armor_helmet_light",
     "name": { "str": "light power armor helmet (active)", "str_pl": "light power armor helmets (active)" },
     "extend": { "flags": [ "OVERSIZE", "WATCH", "THERMOMETER", "CLIMATE_CONTROL", "TRADER_AVOID" ] }
   },
