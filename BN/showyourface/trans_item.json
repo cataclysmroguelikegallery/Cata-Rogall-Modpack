@@ -1,9 +1,9 @@
 [
-{
-"id":"trans_item",
-"type": "ARMOR",
-"name":"투명아이템",
-"description": "투명 아이템.",
+  {
+    "id": "trans_item",
+    "type": "ARMOR",
+    "name": "투명아이템",
+    "description": "투명 아이템.",
     "weight": "1 g",
     "volume": "1 ml",
     "price": "1 USD",
@@ -12,107 +12,107 @@
     "material": [ "plastic" ],
     "symbol": "[",
     "color": "red"
-},
-{
+  },
+  {
     "id": "t_mask_fsurvivor",
     "copy-from": "mask_fsurvivor",
     "looks_like": "trans_item",
     "type": "ARMOR",
     "name": { "str": "투명 생존형 방화 가스마스크" }
-},
-{
+  },
+  {
     "id": "t_mask_hsurvivor",
     "copy-from": "mask_hsurvivor",
     "looks_like": "trans_item",
     "type": "ARMOR",
     "name": { "str": "투명 생존형 중량 가스마스크" }
-},
-{
+  },
+  {
     "id": "t_mask_sasurvivor",
     "copy-from": "mask_sasurvivor",
     "looks_like": "trans_item",
     "type": "ARMOR",
     "name": { "str": "투명 생존형 초합금 가스마스크" }
-},
-{
+  },
+  {
     "id": "t_mask_lsurvivor",
     "copy-from": "mask_lsurvivor",
     "looks_like": "trans_item",
     "type": "ARMOR",
     "name": { "str": "투명 생존형 경량형 가스마스크" }
-},
-{
+  },
+  {
     "id": "t_mask_survivor",
     "copy-from": "mask_survivor",
     "looks_like": "trans_item",
     "type": "ARMOR",
     "name": { "str": "투명 생존형 가스마스크" }
-},
-{
+  },
+  {
     "id": "t_mask_wsurvivor",
     "copy-from": "mask_wsurvivor",
     "looks_like": "trans_item",
     "type": "ARMOR",
     "name": { "str": "투명 겨울생존형 가스마스크" }
-},
-{
+  },
+  {
     "id": "t_helmet_survivor",
     "copy-from": "helmet_survivor",
     "looks_like": "trans_item",
     "type": "ARMOR",
     "name": { "str": "투명 생존형 헬멧" }
-},
-{
+  },
+  {
     "id": "t_helmet_hsurvivor",
     "copy-from": "helmet_hsurvivor",
     "looks_like": "trans_item",
     "type": "ARMOR",
     "name": { "str": "투명 중량형 생존형 헬멧" }
-},
-{
+  },
+  {
     "id": "t_helmet_sasurvivor",
     "copy-from": "helmet_sasurvivor",
     "looks_like": "trans_item",
     "type": "ARMOR",
     "name": { "str": "투명 초합금 생존형 헬멧" }
-},
-{
+  },
+  {
     "id": "t_hood_fsurvivor",
     "type": "ARMOR",
     "name": { "str": "투명 생존형 방화후드" },
-	"looks_like":"trans_item",
-	"copy-from":"hood_fsurvivor"
-},
-{
+    "looks_like": "trans_item",
+    "copy-from": "hood_fsurvivor"
+  },
+  {
     "id": "t_hood_lsurvivor",
     "type": "ARMOR",
     "name": { "str": "투명 경량령 생존후드" },
-	"looks_like":"trans_item",
-	"copy-from":"hood_lsurvivor"
-},
-{
+    "looks_like": "trans_item",
+    "copy-from": "hood_lsurvivor"
+  },
+  {
     "id": "t_hood_survivor",
     "type": "ARMOR",
     "name": { "str": "투명 생존형 후드" },
-	"looks_like":"trans_item",
-	"copy-from":"hood_survivor"
-},
-{
-    "id": "t_hood_wsurvivor",
-    "type": "ARMOR",
-    "name": { "str": "투명 겨울형 생존 후드" },
-	"looks_like":"trans_item",
-	"copy-from":"hood_wsurvivor"
-},
-{
-    "id": "t_hood_wsurvivor",
-    "type": "ARMOR",
-    "name": { "str": "투명 겨울형 생존 후드" },
-	"looks_like":"trans_item",
-	"copy-from":"hood_wsurvivor"
-},
+    "looks_like": "trans_item",
+    "copy-from": "hood_survivor"
+  },
   {
-    "result": "rm13_armor",
+    "id": "t_hood_wsurvivor",
+    "type": "ARMOR",
+    "name": { "str": "투명 겨울형 생존 후드" },
+    "looks_like": "trans_item",
+    "copy-from": "hood_wsurvivor"
+  },
+  {
+    "id": "t_hood_wsurvivor",
+    "type": "ARMOR",
+    "name": { "str": "투명 겨울형 생존 후드" },
+    "looks_like": "trans_item",
+    "copy-from": "hood_wsurvivor"
+  },
+  {
+    "result": "t_mask_fsurvivor",
     "type": "recipe",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_HEAD",
@@ -153,7 +153,7 @@
     "difficulty": 1,
     "time": "1 m",
     "autolearn": [ [ "tailor", 1 ] ],
-    "components": [ [ ["mask_lsurvivor", 1 ] ] ]
+    "components": [ [ [ "mask_lsurvivor", 1 ] ] ]
   },
   {
     "result": "t_mask_survivor",
@@ -166,7 +166,7 @@
     "autolearn": [ [ "tailor", 1 ] ],
     "components": [ [ [ "mask_survivor", 1 ] ] ]
   },
-    {
+  {
     "result": "t_helmet_survivor",
     "type": "recipe",
     "category": "CC_ARMOR",
@@ -177,7 +177,7 @@
     "autolearn": [ [ "tailor", 1 ] ],
     "components": [ [ [ "helmet_survivor", 1 ] ] ]
   },
-      {
+  {
     "result": "t_helmet_hsurvivor",
     "type": "recipe",
     "category": "CC_ARMOR",
@@ -188,7 +188,7 @@
     "autolearn": [ [ "tailor", 1 ] ],
     "components": [ [ [ "helmet_hsurvivor", 1 ] ] ]
   },
-      {
+  {
     "result": "t_helmet_sasurvivor",
     "type": "recipe",
     "category": "CC_ARMOR",
@@ -199,7 +199,7 @@
     "autolearn": [ [ "tailor", 1 ] ],
     "components": [ [ [ "helmet_sasurvivor", 1 ] ] ]
   },
-        {
+  {
     "result": "t_hood_fsurvivor",
     "type": "recipe",
     "category": "CC_ARMOR",
@@ -210,7 +210,7 @@
     "autolearn": [ [ "tailor", 1 ] ],
     "components": [ [ [ "hood_fsurvivor", 1 ] ] ]
   },
-          {
+  {
     "result": "t_hood_lsurvivor",
     "type": "recipe",
     "category": "CC_ARMOR",
@@ -221,7 +221,7 @@
     "autolearn": [ [ "tailor", 1 ] ],
     "components": [ [ [ "hood_lsurvivor", 1 ] ] ]
   },
-            {
+  {
     "result": "t_hood_survivor",
     "type": "recipe",
     "category": "CC_ARMOR",
@@ -232,7 +232,7 @@
     "autolearn": [ [ "tailor", 1 ] ],
     "components": [ [ [ "hood_survivor", 1 ] ] ]
   },
-              {
+  {
     "result": "t_hood_wsurvivor",
     "type": "recipe",
     "category": "CC_ARMOR",
@@ -243,4 +243,4 @@
     "autolearn": [ [ "tailor", 1 ] ],
     "components": [ [ [ "hood_wsurvivor", 1 ] ] ]
   }
-  ]
+]
