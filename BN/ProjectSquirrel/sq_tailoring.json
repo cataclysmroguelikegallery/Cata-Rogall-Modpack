@@ -70,7 +70,7 @@
     "use_action": {
       "type": "repair_item",
       "item_action_type": "repair_fabric",
-      "materials": [ "cotton", "leather", "lycra", "nylon", "wool", "fur", "faux_fur", "nomex", "kevlar", "gutskin" ],
+      "materials": [ "cotton", "leather", "nylon", "wool", "fur", "faux_fur", "nomex", "kevlar", "gutskin" ],
       "skill": "tailor",
       "tool_quality": -1,
       "cost_scaling": 0.1,
@@ -128,7 +128,7 @@
     "use_action": {
       "type": "repair_item",
       "item_action_type": "repair_fabric",
-      "materials": [ "cotton", "lycra", "nylon", "leather", "wool", "fur", "faux_fur", "nomex", "gutskin" ],
+      "materials": [ "cotton", "nylon", "leather", "wool", "fur", "faux_fur", "nomex", "gutskin" ],
       "skill": "tailor",
       "tool_quality": -1,
       "cost_scaling": 0.1,
@@ -158,7 +158,7 @@
     "use_action": {
       "type": "repair_item",
       "item_action_type": "repair_fabric",
-      "materials": [ "cotton", "leather", "lycra", "nylon", "wool", "fur", "faux_fur", "nomex", "kevlar", "gutskin" ],
+      "materials": [ "cotton", "leather", "nylon", "wool", "fur", "faux_fur", "nomex", "kevlar", "gutskin" ],
       "skill": "tailor",
       "tool_quality": 0,
       "cost_scaling": 0.1,
@@ -204,7 +204,7 @@
       {
         "type": "repair_item",
         "item_action_type": "repair_fabric",
-        "materials": [ "cotton", "leather", "lycra", "nylon", "wool", "fur", "faux_fur", "nomex", "kevlar", "neoprene", "gutskin", "graphene_sheet" ],
+        "materials": [ "cotton", "leather", "nylon", "wool", "fur", "faux_fur", "nomex", "kevlar", "neoprene", "gutskin", "graphene_sheet" ],
         "skill": "tailor",
         "tool_quality": 1,
         "cost_scaling": 0.1,
@@ -215,7 +215,6 @@
         "materials": [
           "cotton",
           "leather",
-          "lycra",
           "nylon",
           "wool",
           "fur",
@@ -226,10 +225,20 @@
           "gutskin",
           "plastic",
           "kevlar_rigid",
-		  "graphene_sheet"
+          "graphene_sheet"
         ],
         "skill": "tailor",
-        "clothing_mods": [ "leather_padded", "steel_padded", "alloy_padded", "kevlar_padded", "nomex_padded", "furred", "wooled", "lightened", "pockets" ]
+        "clothing_mods": [
+          "leather_padded",
+          "steel_padded",
+          "alloy_padded",
+          "kevlar_padded",
+          "nomex_padded",
+          "furred",
+          "wooled",
+          "lightened",
+          "pockets"
+        ]
       }
     ],
     "flags": [ "ALLOWS_REMOTE_USE" ]
