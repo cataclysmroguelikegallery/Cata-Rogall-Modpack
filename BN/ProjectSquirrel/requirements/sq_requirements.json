@@ -24,7 +24,16 @@
   {
     "id": "beverage_sweetener",
     "type": "requirement",
-    "components": [ [ [ "sugar", 3 ], [ "honey_bottled", 1 ], [ "honey_glassed", 1 ], [ "syrup", 1 ], [ "beet_syrup", 2 ], [ "sq_insect_jelly", 2 ] ] ]
+    "components": [
+      [
+        [ "sugar", 3 ],
+        [ "honey_bottled", 1 ],
+        [ "honey_glassed", 1 ],
+        [ "syrup", 1 ],
+        [ "beet_syrup", 2 ],
+        [ "sq_insect_jelly", 2 ]
+      ]
+    ]
   },
   {
     "id": "filament",
@@ -48,7 +57,7 @@
     "id": "blacksmithing_standard",
     "type": "requirement",
     "//": "Includes forging resources as well as tools needed for basic blacksmithing.  Permits working hot metal on stone surfaces.",
-    "qualities": [ { "id": "ANVIL", "level": 1 }, { "id": "HAMMER", "level": 3 } ],
+    "qualities": [ { "id": "ANVIL", "level": 1 }, { "id": "HAMMER", "level": 2 } ],
     "tools": [ [ [ "forge", 20 ], [ "oxy_torch", 20 ], [ "sq_atomic_forge", -1 ] ], [ [ "tongs", -1 ] ] ]
   },
   {
