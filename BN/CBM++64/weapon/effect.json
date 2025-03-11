@@ -17,7 +17,7 @@
 	"sound_id": "misc",                                       
 	"sound_variant": "shockwave",
     "flags": [ "SILENT","NO_HANDS","NO_LEGS","NO_FAIL"],
-    "damage_type": "none"
+    "damage_type": "true"
   },{
     "id": "Claw_du", 
 	"type": "SPELL",
@@ -36,7 +36,7 @@
 	"sound_id": "misc",                                       
 	"sound_variant": "shockwave",
     "flags": [ "SILENT","NO_HANDS","NO_LEGS","NO_FAIL"],
-    "damage_type": "none"
+    "damage_type": "true"
   },{
 	   "id": "ench_climate_EX", 
 		"type": "enchantment",
@@ -71,7 +71,7 @@
 	"sound_id": "misc",                                       
 	"sound_variant": "shockwave",
     "flags": [ "SILENT","NO_HANDS","NO_LEGS","NO_FAIL"],
-    "damage_type": "none"
+    "damage_type": "true"
   },{
 "type": "effect_type",
     "id": "Sandevistan",
