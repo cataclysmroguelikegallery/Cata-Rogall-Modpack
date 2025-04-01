@@ -149,7 +149,7 @@
     "occupied_bodyparts": [ [ "torso", 10 ] ],
     "act_cost": "600 J"
   },
-  {
+    {
     "id": "bio_cable",
     "type": "bionic",
     "name": { "str": "Cable Charger System" },
