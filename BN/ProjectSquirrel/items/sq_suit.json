@@ -219,28 +219,6 @@
     "components": [ [ [ "rag", 4 ] ] ]
   },
   {
-    "id": "sq_rope_loop",
-    "type": "ARMOR",
-    "name": { "str": "밧줄 고리" },
-    "description": "A length of rope tied with a sliding knot into a loop.  You can slip all sorts of large objects in and carry them as a bundle; if you want to tie a single item more securely you'd have to disassemble this loop.  It takes a while to untie it and get things out, and attackers might pull the whole thing undone if you're not careful.",
-    "weight": "216 g",
-    "volume": "360 ml",
-    "price": 360,
-    "price_postapoc": 10,
-    "material": [ "cotton" ],
-    "symbol": "[",
-    "looks_like": "rope_6",
-    "color": "light_gray",
-    "covers": [ "torso" ],
-    "coverage": 10,
-	"rigid": false,
-    "encumbrance": 3,
-    "max_encumbrance": 80,
-    "storage": "50 L",
-    "material_thickness": 2,
-    "flags": [ "NO_SALVAGE", "WATER_FRIENDLY", "TIE_UP", "BELTED", "OVERSIZE" ]
-  },
-  {
     "id": "sq_nomad_rig",
     "type": "TOOL_ARMOR",
     "name": { "str": "유목민 하네스" },
@@ -260,8 +238,6 @@
     "material_thickness": 2,
     "ammo": "battery",
     "armor_data": { "covers": [ "torso" ], "coverage": 20, "encumbrance": 4, "material_thickness": 2 },
-	"max_charges": 200,
-	"initial_charges": 0,
     "charges_per_use": 1,
     "container_data": { "contains": "3 L", "seals":true, "watertight": true },
     "use_action": [
@@ -307,7 +283,7 @@
     "valid": false,
 	"purifiable": false,
     "description": "더 많은 것을 운반할 수 있도록 무게를 분산시키는 데에 도움이 되는 장비를 착용하고 있습니다.",
-    "weight_capacity_modifier": 1.1
+    "weight_capacity_modifier": 1.2
   },
   {
     "id": "sq_armor_nomad_advanced",
@@ -325,8 +301,6 @@
     "volume": "7500 ml",
     "storage": "20 L",
     "ammo": "battery",
-    "max_charges": 500,
-    "initial_charges": 0,
     "use_action": {
       "type": "transform",
       "msg": "온도조절 기능을 작동시킵니다.",

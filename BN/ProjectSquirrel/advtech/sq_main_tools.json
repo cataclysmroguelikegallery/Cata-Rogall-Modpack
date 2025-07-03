@@ -221,9 +221,9 @@
       {
         "type": "repair_item",
         "item_action_type": "repair_fabric",
-        "materials": [ "cotton", "leather", "nylon", "wool", "fur", "faux_fur", "nomex", "kevlar", "neoprene", "gutskin", "graphene_sheet", "carbide" ],
+        "materials": [ "cotton", "leather", "nylon", "wool", "fur", "faux_fur", "nomex", "kevlar", "neoprene", "gutskin", "plastic", "kevlar_rigid", "scute", "graphene_sheet", "carbide" ],
         "skill": "tailor",
-        "tool_quality": 2,
+        "tool_quality": 4,
         "cost_scaling": 0.1,
         "move_cost": 800
       },
@@ -246,7 +246,7 @@
           "carbide"
         ],
         "skill": "tailor",
-        "clothing_mods": [ "leather_padded", "steel_padded", "alloy_padded", "kevlar_padded", "nomex_padded", "furred", "wooled", "lightened", "pockets", "graphene_padded" ]
+        "clothing_mods": [ "leather_padded", "steel_padded", "alloy_padded", "kevlar_padded", "scute", "nomex_padded", "furred", "wooled", "lightened", "resized_large", "pocketed", "graphene_padded" ]
       }
     ],
     "flags": [ "ALLOWS_REMOTE_USE" ]
@@ -380,9 +380,9 @@
       {
         "type": "repair_item",
         "item_action_type": "repair_fabric",
-        "materials": [ "cotton", "leather", "nylon", "wool", "fur", "faux_fur", "nomex", "kevlar", "neoprene", "gutskin", "graphene_sheet", "carbide" ],
+        "materials": [ "cotton", "leather", "nylon", "wool", "fur", "faux_fur", "nomex", "kevlar", "neoprene", "gutskin", "plastic", "kevlar_rigid", "scute", "graphene_sheet", "carbide" ],
         "skill": "tailor",
-        "tool_quality": 3,
+        "tool_quality": 5,
         "cost_scaling": 0.1,
         "move_cost": 800
       },
@@ -405,7 +405,7 @@
 		  "carbide"
         ],
         "skill": "tailor",
-        "clothing_mods": [ "leather_padded", "steel_padded", "alloy_padded", "kevlar_padded", "nomex_padded", "furred", "wooled", "lightened", "pockets", "graphene_padded" ]
+        "clothing_mods": [ "leather_padded", "steel_padded", "alloy_padded", "kevlar_padded", "nomex_padded", "furred", "wooled", "lightened", "resized_large", "pockets", "graphene_padded" ]
       }
     ],
     "flags": [ "ALLOWS_REMOTE_USE" ]
