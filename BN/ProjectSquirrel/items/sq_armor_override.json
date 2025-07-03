@@ -69,7 +69,7 @@
   {
     "id": "duster_leather",
     "type": "ARMOR",
-    "copy-from": "duster_leather",
+	  "copy-from": "duster_leather",
     "name": { "str": "leather duster" },
     "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pockets" ]
   },
@@ -83,7 +83,7 @@
   {
     "id": "greatcoat",
     "type": "ARMOR",
-    "copy-from": "greatcoat",
+	  "copy-from": "greatcoat",
     "name": { "str": "greatcoat" },
     "valid_mods": [ "steel_padded", "alloy_padded", "lightened", "pockets" ]
   },
