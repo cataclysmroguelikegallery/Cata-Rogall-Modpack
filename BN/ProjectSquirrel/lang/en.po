@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Jake's_Squirrel_mod\n"
-"POT-Creation-Date: 2023-11-11 01:35+0900\n"
+"POT-Creation-Date: 2025-07-02 19:39+0900\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.4\n"
+"X-Generator: Poedit 3.6\n"
 
 #: .\effects.json
 msgid "충격 흡수 방패"
@@ -25,21 +25,6 @@ msgstr ""
 "Your shield completely absorbs the impact of incoming attacks. Prevents stun "
 "effects - this is a bug."
 
-#: .\harvest.json
-msgid "giant cockroach"
-msgid_plural "giant cockroaches"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': 'giant cockroach', 'str_pl': 'giant cockroaches'}
-#: .\harvest.json
-msgid "A mutant cockroach the size of a small dog."
-msgstr ""
-
-#: .\harvest.json
-msgid "You laboriously dissect the colossal insect."
-msgstr ""
-
 #: .\modinfo.json
 msgid "<color_yellow>프로젝트: 다람쥐</color>"
 msgstr "<color_yellow>Project: Pack Rat</color>"
@@ -47,92 +32,23 @@ msgstr "<color_yellow>Project: Pack Rat</color>"
 #. ~ Description for <color_yellow>프로젝트: 다람쥐</color>
 #: .\modinfo.json
 msgid "하이테크 모드."
-msgstr "Very High Tech Mode. More infos in README.MD."
+msgstr "Endgame High Tech Mode. More infos in README.MD."
 
 #: .\sq_clothing_mods.json
-msgid "Pad with leather"
+msgid "Remove the lining"
 msgstr ""
 
 #: .\sq_clothing_mods.json
-msgid "Destroy leather padding"
+msgid "Re-lining"
 msgstr ""
 
 #: .\sq_clothing_mods.json
-msgid "Pad with steel"
+msgid "Pad with Graphene sheet"
 msgstr ""
 
 #: .\sq_clothing_mods.json
-msgid "Destroy steel padding"
+msgid "Destroy Graphene sheet padding"
 msgstr ""
-
-#: .\sq_clothing_mods.json
-msgid "Pad with superalloy"
-msgstr ""
-
-#: .\sq_clothing_mods.json
-msgid "Destroy superalloy padding"
-msgstr ""
-
-#: .\sq_clothing_mods.json
-msgid "Pad with Kevlar"
-msgstr ""
-
-#: .\sq_clothing_mods.json
-msgid "Destroy Kevlar padding"
-msgstr ""
-
-#: .\sq_clothing_mods.json
-msgid "노멕스 덧대기"
-msgstr "Pad with Nomex"
-
-#: .\sq_clothing_mods.json
-msgid "덧댄 노멕스 제거"
-msgstr "Destroy Nomex padding"
-
-#: .\sq_clothing_mods.json
-msgid "Line it with fur"
-msgstr ""
-
-#: .\sq_clothing_mods.json
-msgid "Destroy fur lining"
-msgstr ""
-
-#: .\sq_clothing_mods.json
-msgid "Line it with wool"
-msgstr ""
-
-#: .\sq_clothing_mods.json
-msgid "Destroy wool lining"
-msgstr ""
-
-#: .\sq_clothing_mods.json
-msgid "경량화 하기"
-msgstr "Lighten up"
-
-#: .\sq_clothing_mods.json
-msgid "덧붙이기"
-msgstr "Patch up"
-
-#: .\sq_clothing_mods.json
-msgid "주머니 만들기"
-msgstr "Add pockets"
-
-#: .\sq_clothing_mods.json
-msgid "주머니 떼기"
-msgstr "Add pockets"
-
-#: .\sq_clothing_mods.json
-msgid "그래핀 시트 덧대기"
-msgstr "Pad with graphene sheet lining"
-
-#: .\sq_clothing_mods.json
-msgid "덧댄 그래핀 제거"
-msgstr "Destroy graphene sheet lining"
-
-#. ~ Please leave anything in <angle brackets> unchanged.
-#: .\sq_flags.json
-msgid "이 장비는 노멕스를 덧대어 <good>화염 방호력이 향상</good>되었습니다"
-msgstr "This gear is lined with Nomex for <good>flame protection</good>"
 
 #. ~ Please leave anything in <angle brackets> unchanged.
 #: .\sq_flags.json
@@ -146,13 +62,6 @@ msgstr ""
 #. ~ Please leave anything in <angle brackets> unchanged.
 #: .\sq_flags.json
 msgid ""
-"이 장비는 주머니를 부착하여 <good>저장 공간이 늘었</good>지만 <bad>방해도가 "
-"조금 증가</bad>되었습니다"
-msgstr "Add pockets"
-
-#. ~ Please leave anything in <angle brackets> unchanged.
-#: .\sq_flags.json
-msgid ""
 "이 장비는 그래핀을 안감에 덧대어 <good>종합적인 방호력이 조금 향상</good>되었"
 "습니다"
 msgstr ""
@@ -160,131 +69,10 @@ msgstr ""
 "protection</good>"
 
 #: .\sq_tailoring.json
-msgid "bone sewing awl"
-msgid_plural "bone sewing awls"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': 'bone sewing awl'}
-#: .\sq_tailoring.json
-msgid ""
-"This is a crude sharpened bone awl; those were used for leatherworking "
-"before metal was discovered.  It can also serve as an improvised stabbing "
-"weapon, but will break quickly."
-msgstr ""
-
-#: .\sq_tailoring.json
-msgid "steel sewing awl"
-msgid_plural "steel sewing awls"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': 'steel sewing awl'}
-#: .\sq_tailoring.json
-msgid ""
-"This is a steel awl with a wooden grip, usually used for leatherworking.  It "
-"can also serve as an improvised stabbing weapon, but will break quickly."
-msgstr ""
-
-#: .\sq_tailoring.json
-msgid "knitting needles"
-msgid_plural "pairs of knitting needles"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': 'knitting needles', 'str_pl': 'pairs of knitting
-#. needles'}
-#: .\sq_tailoring.json
-msgid ""
-"A pair of stout wooden needles with round ends used to turn thread and yarn "
-"into cloth."
-msgstr ""
-
-#: .\sq_tailoring.json
-msgid "bone needle"
-msgid_plural "bone needles"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': 'bone needle'}
-#: .\sq_tailoring.json
-msgid ""
-"This is sharp needle made from a bone.  It would be useful for making rough "
-"clothing and items.  Its low quality makes it rather unsuitable for anything "
-"requiring speed or precision."
-msgstr ""
-
-#: .\sq_tailoring.json
-msgid "curved needle"
-msgid_plural "curved needles"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': 'curved needle'}
-#: .\sq_tailoring.json
-msgid ""
-"A curved sharp needle made of steel.  Its rounded shape allows it to make "
-"stitches that only pierce one side of the material.  While unsuitable for "
-"most tailoring projects, it's a necessity for stitching neoprene."
-msgstr ""
-
-#: .\sq_tailoring.json
-msgid "wooden needle"
-msgid_plural "wooden needles"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': 'wooden needle'}
-#: .\sq_tailoring.json
-msgid ""
-"This is a wooden needle whittled down to a sharp point.  It has a narrow "
-"hole carved into the head for threading.  Its low quality makes it rather "
-"unsuitable for anything requiring speed or precision, or involving tougher "
-"materials like Kevlar."
-msgstr ""
-
-#: .\sq_tailoring.json
-msgid "sewing kit"
-msgid_plural "sewing kits"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': 'sewing kit'}
-#: .\sq_tailoring.json
-msgid ""
-"This is a plastic kit with a variety of needles, some plastic spools for "
-"thread, and a few other useful textile tools.  Use a sewing kit on an "
-"article of clothing to attempt to repair or reinforce that clothing.  This "
-"uses your tailoring skill."
-msgstr ""
-
-#: .\sq_tailoring.json
-msgid "tailoring pattern set"
-msgid_plural "tailoring pattern sets"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': 'tailoring pattern set'}
-#: .\sq_tailoring.json
-msgid ""
-"This is a large set of tailoring patterns made from paper.  They're useful "
-"for making any kind of cloth or leather items from scratch, but are "
-"necessary for more advanced projects."
-msgstr ""
-
-#: .\sq_tailoring.json
 msgid "tailor's kit"
 msgid_plural "tailor's kits"
 msgstr[0] ""
 msgstr[1] ""
-
-#. ~ Description for {'str': "tailor's kit"}
-#: .\sq_tailoring.json
-msgid ""
-"This is a high quality kit consisting of a variety of needles, some plastic "
-"spools for thread, some small scissors, and an awl.  Use a tailor's kit to "
-"customize your clothing and armor.  This uses your tailoring skill."
-msgstr ""
 
 #: .\advtech\sq_advanced_armor.json
 msgid "정찰꾼 경량형 컴뱃 아머"
@@ -370,8 +158,6 @@ msgstr[1] "'Warden' heavy combat armors (on)"
 #. ~ Use action menu_text for {'str': "'레버넌트' 암살 잠입복 (켜짐)"}.
 #. ~ Use action menu_text for {'str': '타입-보이 (손전등)', 'str_pl': '타입-보이 (손전등)'}.
 #. ~ Use action menu_text for {'str': '히트 블레이드 (켜짐)'}.
-#. ~ Use action menu_text for {'str': 'phase immersion suit (on)', 'str_pl':
-#. 'phase immersion suits (on)'}.
 #. ~ Use action menu_text for {'str': '뱅가드 스켈레톤 (켜짐)'}.
 #. ~ Use action menu_text for {'str': '스프린터 스켈레톤 (켜짐)'}.
 #. ~ Use action menu_text for {'str': '산업용 외골격 (켜짐)'}.
@@ -379,8 +165,8 @@ msgstr[1] "'Warden' heavy combat armors (on)"
 #. ~ Use action menu_text for {'str': '고급 유목민 외투 (켜짐)'}.
 #. ~ Use action menu_text for {'str_sp': '류이치몬지'}.
 #: .\advtech\sq_advanced_armor.json .\advtech\sq_nano_tier.json
-#: .\items\sq_armor_override.json .\items\sq_cargo_frame.json
-#: .\items\sq_nomex_survivor.json .\items\sq_suit.json .\items\sq_unrand.json
+#: .\items\sq_cargo_frame.json .\items\sq_nomex_survivor.json
+#: .\items\sq_suit.json .\items\sq_unrand.json
 msgid "Turn off"
 msgstr ""
 
@@ -389,9 +175,7 @@ msgstr ""
 #. ~ Use action msg for {'str': "'파이어니어' 환경 피갑복 (켜짐)"}.
 #. ~ Use action msg for {'str': '생존용 컴뱃 아머 (켜짐)'}.
 #. ~ Use action msg for {'str': "'레버넌트' 암살 잠입복 (켜짐)"}.
-#. ~ Use action msg for {'str': 'phase immersion suit (on)', 'str_pl': 'phase
-#. immersion suits (on)'}.
-#: .\advtech\sq_advanced_armor.json .\items\sq_armor_override.json
+#: .\advtech\sq_advanced_armor.json
 msgid "Suit shutting down."
 msgstr ""
 
@@ -1551,7 +1335,7 @@ msgstr ""
 "assault rifle, it is fast and extremely accurate, making it highly effective "
 "in medium-range engagements."
 
-#: .\advtech\sq_hardlight_fusion_and_gunmods.json .\items\sq_generic.json
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgctxt "gun_type_type"
 msgid "rifle"
 msgstr ""
@@ -2105,6 +1889,47 @@ msgstr ""
 "chamber, making it impossible to fire but eliminating the need to carry a "
 "spare magazine. If you see this, it's a bug."
 
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid "광자 과충전기"
+msgid_plural "광자 과충전기"
+msgstr[0] "photon overcharger"
+msgstr[1] "photon overchargers"
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid ""
+"하드라이트 소총 전용 커스텀 축전기 부품으로, 출력 리미터를 해제합니다.  광자"
+"를 과충전시켜 정밀하고 매우 강력한 한 방을 발사할 수 있도록 합니다."
+msgstr ""
+"This is a custom capacitor part for the hardlight rifle that disables the "
+"output limiter.  Overcharges photons, allowing you to fire a precise and "
+"extremely powerful single shot."
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgctxt "gun_type_type"
+msgid "sq_hardlight_rifle"
+msgstr ""
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid "광자 압축기"
+msgid_plural "광자 압축기"
+msgstr[0] "photon compressor"
+msgstr[1] "photon compressors"
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid ""
+"하드라이트 소총의 전용 커스텀 축전기 부품으로, 광자를 압축 및 고형화하는 개조"
+"부품입니다. 고밀도로 압축된 광자 포탄은 충격 시 폭발하여 파편이 수류탄처럼 흩"
+"어집니다."
+msgstr ""
+"A custom capacitor component for the hardlight rifle, a modification that "
+"compresses and solidifies photons. The densely compressed photon shells "
+"explode on impact, scattering shrapnel like a grenade."
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgctxt "gun_type_type"
+msgid "sq_hardlight_shotgun"
+msgstr ""
+
 #: .\advtech\sq_main_tools.json
 msgid "원자력 용광로"
 msgid_plural "원자력 용광로s"
@@ -2215,11 +2040,11 @@ msgstr ""
 "diamond coating on your weapon. Remember: hydrogen + coal = smiley face. "
 "Retrieve it by smashing it with the S key."
 
-#: .\advtech\sq_main_tools.json .\furniture_and_terrain\terrain-flora.json
+#: .\advtech\sq_main_tools.json
 msgid "crunch!"
 msgstr ""
 
-#: .\advtech\sq_main_tools.json .\furniture_and_terrain\terrain-flora.json
+#: .\advtech\sq_main_tools.json
 msgid "whack!"
 msgstr ""
 
@@ -3376,216 +3201,80 @@ msgstr ""
 "bullet-stopper you can stick on a vehicle."
 
 #: .\advtech\sq_vehicle_part.json
-msgid "탄소섬유 프레임"
-msgid_plural "탄소섬유 프레임s"
-msgstr[0] "carbon fibre frame"
-msgstr[1] "carbon fibre frames"
+msgid "겹층 탄화물 프레임"
+msgid_plural "겹층 탄화물 프레임s"
+msgstr[0] "layered carbide frame"
+msgstr[1] "bundles of layered carbides"
 
-#. ~ Description for {'str': '탄소섬유 프레임'}
+#. ~ Description for {'str': '겹층 탄화물 프레임'}
 #: .\advtech\sq_vehicle_part.json
 msgid "겹층 탄화물로 만든 큰 프레임이다. 제작에 쓰인다."
 msgstr "A large frame made of layered carbide."
 
-#. ~ Description for {'str': '탄소섬유 프레임'}
+#. ~ Description for {'str': '겹층 탄화물 프레임'}
 #: .\advtech\sq_vehicle_part.json
 msgid ""
-"탄소섬유 프레임입니다. 프레임 위에 다른 차량 부품들을 장착할 수 있고, 또 다"
-"른 프레임을 붙여서 차량 크기를 늘릴 수 있습니다. "
+"겹층 탄화물 프레임입니다. 프레임 위에 다른 차량 부품들을 장착할 수 있고, 또 "
+"다른 프레임을 붙여서 차량 크기를 늘릴 수 있습니다. "
 msgstr ""
-"A carbon fibre frame. Other vehicle components can be mounted on it, and it "
-"can be attached to other frames to increase the vehicle's size. "
+"A layered carbide frame. Other vehicle components can be mounted on it, and "
+"it can be attached to other frames to increase the vehicle's size. "
 
 #: .\advtech\sq_vehicle_part.json
-msgid "고강도 탄소섬유 프레임"
-msgid_plural "고강도 탄소섬유 프레임s"
-msgstr[0] "heavy-duty carbon fibre frame"
-msgstr[1] "heavy-duty carbon fibre frames"
+msgid "고강도 겹층 탄화물 프레임"
+msgid_plural "고강도 겹층 탄화물 프레임s"
+msgstr[0] "heavy-duty layered carbide frame"
+msgstr[1] "heavy-duty layered carbide frames"
 
-#. ~ Description for {'str': '고강도 탄소섬유 프레임'}
+#. ~ Description for {'str': '고강도 겹층 탄화물 프레임'}
 #: .\advtech\sq_vehicle_part.json
 msgid "경량 군용 차량 건조에 사용되는 대형 강화 겹층 탄화물 프레임입니다."
 msgstr ""
 "A large reinforced layered carbide frame used in the construction of "
 "lightweight military vehicles."
 
-#. ~ Description for {'str': '고강도 탄소섬유 프레임'}
+#. ~ Description for {'str': '고강도 겹층 탄화물 프레임'}
 #: .\advtech\sq_vehicle_part.json
 msgid ""
-"상대적으로 무거운 탄소섬유 프레임입니다. 프레임 위에 다른 차량 부품들을 장착"
-"할 수 있고, 또 다른 프레임을 붙여서 차량 크기를 늘릴 수 있습니다. 질량이 클수"
-"록 충돌로 인한 피해량을 더 적게 받습니다."
+"상대적으로 무거운 겹층 탄화물 프레임입니다. 프레임 위에 다른 차량 부품들을 장"
+"착할 수 있고, 또 다른 프레임을 붙여서 차량 크기를 늘릴 수 있습니다. 질량이 클"
+"수록 충돌로 인한 피해량을 더 적게 받습니다."
 msgstr ""
-"A relatively heavy carbon fibre frame. Other vehicle components can be "
+"A relatively heavy layered carbide frame. Other vehicle components can be "
 "mounted on it, and it can be attached to other frames to increase the "
 "vehicle's size.  Increased mass makes it more resistant to damage in "
 "collisions."
 
-#: .\advtech\sq_vehicle_part.json
-msgid "탄소섬유 장갑판"
-msgstr "carbon fibre board"
-
-#. ~ Description for {'str': '탄소섬유 장갑판'}
+#. ~ Description for {'str': '겹층 탄화물 장갑판'}
 #: .\advtech\sq_vehicle_part.json
 msgid ""
-"튼튼한 탄소섬유 벽입니다. 좀비들이 차량에 들어오는 것을 막고 시야를 차단합니"
-"다."
+"튼튼한 겹층 탄화물 벽입니다. 좀비들이 차량에 들어오는 것을 막고 시야를 차단합"
+"니다."
 msgstr ""
-"A strong carbon fibre wall. Keeps zombies outside the vehicle and prevents "
-"people from seeing through it."
+"A strong layered carbide wall. Keeps zombies outside the vehicle and "
+"prevents people from seeing through it."
 
 #: .\advtech\sq_vehicle_part.json
-msgid "탄소섬유 쿼터패널"
-msgstr "carbon fibre quarterpanel"
+msgid "겹층 탄화물 쿼터패널"
+msgstr "layered carbide quarterpanel"
 
-#. ~ Description for {'str': '탄소섬유 쿼터패널'}
+#. ~ Description for {'str': '겹층 탄화물 쿼터패널'}
 #: .\advtech\sq_vehicle_part.json
 msgid ""
-"절반 높이의 튼튼한 탄소섬유 벽입니다. 좀비들이 차량에 들어오는 것을 막지만 시"
-"야를 차단하지는 않습니다."
+"절반 높이의 튼튼한 겹층 탄화물 벽입니다. 좀비들이 차량에 들어오는 것을 막지"
+"만 시야를 차단하지는 않습니다."
 msgstr ""
-"A half-height strong carbon fibre wall. Keeps zombies outside the vehicle "
+"A half-height strong layered carbide wall. Keeps zombies outside the vehicle "
 "but allows people to see over it."
 
 #: .\advtech\sq_vehicle_part.json
-msgid "탄소섬유 지붕"
-msgstr "carbon fibre roof"
+msgid "겹층 탄화물 지붕"
+msgstr "layered carbide roof"
 
-#. ~ Description for {'str': '탄소섬유 지붕'}
+#. ~ Description for {'str': '겹층 탄화물 지붕'}
 #: .\advtech\sq_vehicle_part.json
-msgid "두꺼운 탄소섬유 지붕."
-msgstr "A thick carbon fibre roof."
-
-#: .\furniture_and_terrain\terrain-flora.json
-msgid "카카오나무"
-msgstr "cacao tree"
-
-#. ~ Description for 카카오나무
-#: .\furniture_and_terrain\terrain-flora.json
-msgid ""
-"중남미 원산의 아욱목 아욱과의 두꺼운 나무로, 유전공학의 힘으로 뉴잉글랜드의 "
-"사계절을 버틸 수 있게 개량되었습니다. 나무줄기를 살펴보면 아직 따지 않고 남"
-"은 카카오 열매가 있는 게 보입니다. 대재앙에도 초콜릿만큼은 포기할 수 없죠, "
-"암. 적절한 도구가 있다면 벌목할 수 있습니다."
-msgstr ""
-"A thick tree belonging to the 'Theobroma' genus, native to Central and South "
-"America, that has been genetically engineered to withstand New England's "
-"four seasons. If you examined the trunk of the tree, you could probably find "
-"some mature cacao pods. Even in the face of apocalypse, you can't give up "
-"chocolate, of course. You could cut it down with the right tools."
-
-#. ~ Description for 카카오나무
-#: .\furniture_and_terrain\terrain-flora.json
-msgid ""
-"중남미 원산의 아욱목 아욱과의 두꺼운 나무로, 유전공학의 힘으로 뉴잉글랜드의 "
-"사계절을 버틸 수 있게 개량되었습니다. 지금 당장은 수확할만한 카카오 열매가 없"
-"는 것 같습니다. 적절한 도구가 있다면 벌목할 수 있습니다."
-msgstr ""
-"A thick tree belonging to the 'Theobroma' genus, native to Central and South "
-"America, that has been genetically engineered to withstand New England's "
-"four seasons. Looks like all the ripe cacao pods have been picked. You could "
-"cut it down with the right tools."
-
-#: .\furniture_and_terrain\terrain-flora.json
-msgid "코카나무"
-msgstr "coca"
-
-#. ~ Description for 코카나무
-#: .\furniture_and_terrain\terrain-flora.json
-msgid ""
-"남아메리카 원산의 말피기아목 코카나무과의 나무로, 수천 년 전부터 코카잎은 의"
-"약품과 강장제, 차로 이용되어왔습니다. 이상하게도, 어째서인지 이 나무 또한 유"
-"전공학의 힘으로 뉴잉글랜드의 기후를 버틸 수 있도록 개량되었습니다. 적절한 도"
-"구가 있다면 벌목할 수 있습니다."
-msgstr ""
-"A tree native to South America, coca leaves have been used as medicine, "
-"tonic, and tea for thousands of years. Oddly enough, the tree has also been "
-"modified to withstand New England's climate through the power of genetic "
-"engineering. You could cut it down with the right tools."
-
-#. ~ Description for 코카나무
-#: .\furniture_and_terrain\terrain-flora.json
-msgid ""
-"남아메리카 원산의 말피기아목 코카나무과의 나무로, 수천 년 전부터 코카잎은 의"
-"약품과 강장제, 차로 이용되어왔습니다. 지금 당장은 수확할만한 코카잎이 없는 "
-"것 같습니다. 적절한 도구가 있다면 벌목할 수 있습니다."
-msgstr ""
-"A tree native to South America, coca leaves have been used as medicine, "
-"tonic, and tea for thousands of years. Looks like all the coca leaves have "
-"been picked. You could cut it down with the right tools."
-
-#: .\furniture_and_terrain\terrain-flora.json
-msgid "코카잎"
-msgid_plural "코카잎"
-msgstr[0] "coca leaf"
-msgstr[1] "coca leaves"
-
-#. ~ Description for {'str': '코카잎', 'str_pl': '코카잎'}
-#: .\furniture_and_terrain\terrain-flora.json
-msgid ""
-"코카잎입니다. 오래 전부터 현재까지 의약품과 기호식품 등으로 이용해왔으며, 씹"
-"으면 약한 쾌감을 느낄 수 있습니다. 코카잎 자로 끓여서 먹을 수도 있고, 생으로 "
-"먹을 수도 있습니다. 하지만 많이 먹으면 중독현상을 일으킬 수 있습니다."
-msgstr ""
-"A coca leaf. It has a long history of medicinal and culinary uses, and can "
-"produce a mild high when chewed. It can be brewed with coca leaves or eaten "
-"raw. However, if consumed in large quantities, it can cause addiction."
-
-#: .\furniture_and_terrain\terrain-flora.json
-msgid "코카잎 차"
-msgid_plural "코카잎 차s"
-msgstr[0] "coca tea"
-msgstr[1] "coca tea"
-
-#. ~ Description for 코카잎 차
-#: .\furniture_and_terrain\terrain-flora.json
-msgid ""
-"코카나무의 잎에 뜨거운 물을 부어 만든 향긋한 음료. 마시면 코카인 성분으로 인"
-"한 약한 쾌감을 느낄 수 있지만, 너무 자주 마시면 중독현상을 일으킬 수 있습니"
-"다."
-msgstr ""
-"An aromatic drink made by pouring hot water over the leaves of the coca "
-"tree. Drinking it can give you a mild high from the cocaine content, but if "
-"you drink it too often, it can cause addiction."
-
-#: .\furniture_and_terrain\terrain-flora.json
-msgid "카카오 열매"
-msgid_plural "카카오 열매"
-msgstr[0] "cacao pod"
-msgstr[1] "cacao pods"
-
-#. ~ Description for {'str_sp': '카카오 열매'}
-#: .\furniture_and_terrain\terrain-flora.json
-msgid ""
-"테오브로마 카카오로 알려진 카카오 열매는 초콜릿을 만드는 데 사용되는 코코아 "
-"콩의 원료입니다. 달콤한 맛의 하얀 과육으로 둘러싸인 코코아 콩이 들어 있는 열"
-"대 과일입니다. 이 콩은 수확, 발효, 가공을 거쳐 다양한 초콜릿 제품으로 생산됩"
-"니다."
-msgstr ""
-"The cacao fruit, scientifically known as Theobroma cacao, is the source of "
-"cocoa beans used to make chocolate. It is a tropical fruit that contains "
-"cocoa beans surrounded by a sweet-tasting, white pulp. The beans are "
-"harvested, fermented, and processed to produce various chocolate products."
-
-#: .\furniture_and_terrain\terrain-flora.json
-msgid "카카오닙스"
-msgid_plural "카카오닙스"
-msgstr[0] "cacao nib"
-msgstr[1] "cacao nibs"
-
-#. ~ Description for {'str_sp': '카카오닙스'}
-#: .\furniture_and_terrain\terrain-flora.json
-msgid ""
-"발효되고 구운 카카오 콩으로, 초콜릿의 가장 원시적인 형태입니다. 갈아서 초콜릿"
-"으로 만들 수 있습니다."
-msgstr ""
-"Fermented and roasted cacao beans, the most primitive form of chocolate. It "
-"can be ground and made into chocolate."
-
-#: .\furniture_and_terrain\terrain-flora.json
-msgid "chocolate bar"
-msgid_plural "chocolate bars"
-msgstr[0] ""
-msgstr[1] ""
+msgid "두꺼운 겹층 탄화물 지붕."
+msgstr "A thick layered carbide roof."
 
 #: .\items\sq_armor_override.json
 msgid "fur coat"
@@ -3936,12 +3625,6 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: .\items\sq_armor_override.json
-msgid "XL survivor suit"
-msgid_plural "XL survivor suits"
-msgstr[0] ""
-msgstr[1] ""
-
-#: .\items\sq_armor_override.json
 msgid "ANBC suit"
 msgid_plural "ANBC suits"
 msgstr[0] ""
@@ -4043,36 +3726,11 @@ msgid_plural "RM13 combat armors (on)"
 msgstr[0] ""
 msgstr[1] ""
 
-#. ~ Description for {'str': 'RM13 combat armor (on)', 'str_pl': 'RM13 combat
-#. armors (on)'}
-#: .\items\sq_armor_override.json
-msgid ""
-"Internally powered by a maximum of ten plutonium fuel cells, this full-body "
-"suit of sleek black military armor represents the pinnacle of Rivtech's non-"
-"rigid powered armor technology.  It is turned on, and continually draining "
-"power.  Use it to turn it off."
-msgstr ""
-
-#: .\items\sq_armor_override.json
-msgid "phase immersion suit"
-msgid_plural "phase immersion suits"
-msgstr[0] ""
-msgstr[1] ""
-
 #: .\items\sq_armor_override.json
 msgid "phase immersion suit (on)"
 msgid_plural "phase immersion suits (on)"
 msgstr[0] ""
 msgstr[1] ""
-
-#. ~ Description for {'str': 'phase immersion suit (on)', 'str_pl': 'phase
-#. immersion suits (on)'}
-#: .\items\sq_armor_override.json
-msgid ""
-"Covered in interlocking plates of reflective metal, this advanced suit "
-"resembles both plate armor and an astronaut's spacesuit.  It is turned on, "
-"and continually draining power.  Use it to turn it off."
-msgstr ""
 
 #: .\items\sq_cargo_frame.json
 msgid "지게"
@@ -4589,37 +4247,6 @@ msgstr ""
 "the Rivtech grenade launcher. It is a shell-less round and cannot be "
 "disassembled or reused."
 
-#: .\items\sq_generic.json
-msgid "ferromagnetic rail rifle"
-msgid_plural "ferromagnetic rail rifles"
-msgstr[0] ""
-msgstr[1] ""
-
-#: .\items\sq_generic.json
-msgid ""
-"A single-shot, electrically propelled, steel rail launcher handcrafted from "
-"scrap.  The hypervelocity metal stake that it fires is accelerated to the "
-"point of spontaneous combustion by a Lorentz force generated by "
-"electromagnetic induction, powered by a standard UPS."
-msgstr ""
-
-#: .\items\sq_generic.json
-msgid "heavy rail rifle"
-msgid_plural "heavy rail rifles"
-msgstr[0] ""
-msgstr[1] ""
-
-#: .\items\sq_generic.json
-msgid ""
-"This overpowered and overengineered variant of the ferromagnetic rail rifle "
-"was designed to deliver electromagnetically-driven obliteration right "
-"through whatever obstacles that lies in front of it, be it buildings, "
-"vehicles or hordes of walking dead.  However, the hefty bulk and weight of "
-"this weapon compared to most contemporary rifles makes it somewhat "
-"cumbersome to wield; not to mention that it consumes UPS charges at a "
-"tremendous rate, making it impractical for use in prolonged engagements."
-msgstr ""
-
 #: .\items\sq_nomex_survivor.json
 msgid "생존용 방화 수통"
 msgid_plural "생존용 방화 수통s"
@@ -4655,12 +4282,11 @@ msgstr ""
 "to be comfortable to wear.  Activate to holster/draw your weapon."
 
 #: .\items\sq_nomex_survivor.json
-msgid "생존용 다용도 방화 벨트"
-msgid_plural "생존용 다용도 방화 벨트s"
-msgstr[0] "survivor fireproof utility belt"
-msgstr[1] "survivor fireproof utility belts"
+msgid "생존용 방화 벨트"
+msgid_plural "생존용 방화 벨트s"
+msgstr[0] "survivor fireproof belt"
+msgstr[1] "survivor fireproof belts"
 
-#. ~ Description for {'str': '생존용 다용도 방화 벨트'}
 #. ~ Description for {'str': '생존용 방화 벨트'}
 #: .\items\sq_nomex_survivor.json
 msgid ""
@@ -4672,12 +4298,6 @@ msgstr ""
 "fireproof fabric, covered with straps and pouches containing many useful "
 "hand tools and a sheath to carry a smaller blade.  Durable and carefully "
 "crafted to be comfortable to wear.  Activate to sheathe/draw a weapon."
-
-#: .\items\sq_nomex_survivor.json
-msgid "생존용 방화 벨트"
-msgid_plural "생존용 방화 벨트s"
-msgstr[0] "survivor fireproof belt"
-msgstr[1] "survivor fireproof belts"
 
 #: .\items\sq_nomex_survivor.json
 msgid "생존용 방화 헤드램프"
@@ -5543,22 +5163,6 @@ msgid "간이 스카프: 네이비 (풀림)"
 msgid_plural "간이 스카프: 네이비 (풀림)"
 msgstr[0] "simple patchwork scarf: navy (loose)"
 msgstr[1] "simple patchwork scarves: navy (loose)"
-
-#: .\items\sq_suit.json
-msgid "밧줄 고리"
-msgid_plural "밧줄 고리s"
-msgstr[0] "loop of rope"
-msgstr[1] "loops of rope"
-
-#. ~ Description for {'str': '밧줄 고리'}
-#: .\items\sq_suit.json
-msgid ""
-"A length of rope tied with a sliding knot into a loop.  You can slip all "
-"sorts of large objects in and carry them as a bundle; if you want to tie a "
-"single item more securely you'd have to disassemble this loop.  It takes a "
-"while to untie it and get things out, and attackers might pull the whole "
-"thing undone if you're not careful."
-msgstr ""
 
 #: .\items\sq_suit.json
 msgid "유목민 하네스"
@@ -6448,6 +6052,301 @@ msgstr ""
 "Broken drone: Juggernaut. This drone was seemingly unstoppable, but somehow "
 "its power armor was breached and it fell. Parts recoverable."
 
+#: .\monsters\sq_insect_spider_death_drops.json
+msgid "skittering plague"
+msgid_plural "skittering plagues"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\monsters\sq_insect_spider_death_drops.json
+msgid "plague nymph"
+msgid_plural "plague nymphs"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\monsters\sq_insect_spider_death_drops.json
+msgid "plague vector"
+msgid_plural "plague vectors"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\monsters\sq_insect_spider_death_drops.json
+msgid "giant cockroach"
+msgid_plural "giant cockroaches"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\monsters\sq_insect_spider_death_drops.json
+msgid "giant cockroach nymph"
+msgid_plural "giant cockroach nymphs"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\monsters\sq_insect_spider_death_drops.json
+msgid "pregnant giant cockroach"
+msgid_plural "pregnant giant cockroaches"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\monsters\sq_insect_spider_death_drops.json
+msgid "giant bee"
+msgid_plural "giant bees"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\monsters\sq_insect_spider_death_drops.json
+msgid "centipede"
+msgid_plural "centipedes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\monsters\sq_insect_spider_death_drops.json
+msgid "giant centipede"
+msgid_plural "giant centipedes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\monsters\sq_insect_spider_death_drops.json
+msgid "centipede matriarch"
+msgid_plural "centipede matriarchs"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\monsters\sq_insect_spider_death_drops.json
+msgid "armored centipede"
+msgid_plural "armored centipedes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\monsters\sq_insect_spider_death_drops.json
+msgid "firefly"
+msgid_plural "fireflies"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\monsters\sq_insect_spider_death_drops.json
+msgid "huge dragonfly naiad"
+msgid_plural "huge dragonfly naiads"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\monsters\sq_insect_spider_death_drops.json
+msgid "giant dragonfly"
+msgid_plural "giant dragonflies"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\monsters\sq_insect_spider_death_drops.json
+msgid "mega dragonfly"
+msgid_plural "mega dragonflies"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\monsters\sq_insect_spider_death_drops.json
+msgid "giant fly"
+msgid_plural "giant flies"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\monsters\sq_insect_spider_death_drops.json
+msgid "giant mosquito"
+msgid_plural "giant mosquitos"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'giant mosquito'}
+#: .\monsters\sq_insect_spider_death_drops.json
+msgid ""
+"An enormous mutant mosquito, fluttering erratically.  Its face is dominated "
+"by a long, spear-tipped proboscis."
+msgstr ""
+
+#: .\monsters\sq_insect_spider_death_drops.json
+msgid "giant cellar spider"
+msgid_plural "giant cellar spiders"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\monsters\sq_insect_spider_death_drops.json
+msgid "immature giant cellar spider"
+msgid_plural "immature giant cellar spiders"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\monsters\sq_insect_spider_death_drops.json
+msgid "giant jumping spider"
+msgid_plural "giant jumping spiders"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\monsters\sq_insect_spider_death_drops.json
+msgid "giant trapdoor spider"
+msgid_plural "giant trapdoor spiders"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\monsters\sq_insect_spider_death_drops.json
+msgid "giant web spider"
+msgid_plural "giant web spiders"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\monsters\sq_insect_spider_death_drops.json
+msgid "immature giant web spider"
+msgid_plural "immature giant web spiders"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\monsters\sq_insect_spider_death_drops.json
+msgid "giant black widow"
+msgid_plural "giant black widows"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\monsters\sq_insect_spider_death_drops.json
+msgid "giant black widow spiderling"
+msgid_plural "giant black widow spiderlings"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\monsters\sq_insect_spider_death_drops.json
+msgid "giant wolf spider"
+msgid_plural "giant wolf spiders"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\monsters\sq_insect_spider_death_drops.json
+msgid "wasp larva"
+msgid_plural "wasp larvae"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\monsters\sq_insect_spider_death_drops.json
+msgid "wasp pupa"
+msgid_plural "wasp pupae"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\monsters\sq_insect_spider_death_drops.json
+msgid "wasp"
+msgid_plural "wasps"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\monsters\sq_insect_spider_death_drops.json
+msgid "wasp queen"
+msgid_plural "wasp queens"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'wasp queen'}
+#: .\monsters\sq_insect_spider_death_drops.json
+msgid ""
+"A mutated wasp queen grown to the size of a person, laying a single white "
+"egg in each empty cell it comes across while scurrying around on the paper "
+"walls of their home.  It struggles to fit into some of them, but the newer "
+"cells seem to be getting larger…"
+msgstr ""
+
+#: .\monsters\sq_insect_spider_death_drops.json
+msgid "giant wasp"
+msgid_plural "giant wasps"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\monsters\sq_insect_spider_death_drops.json
+msgid "giant wasp queen"
+msgid_plural "giant wasp queens"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'giant wasp queen'}
+#: .\monsters\sq_insect_spider_death_drops.json
+msgid ""
+"A yellowjacket queen grown to the size of a horse, towering over their "
+"daughters.  Even with their abdomen swollen with eggs and wings long unused "
+"it still poses a threat to interlopers, should their children have failed at "
+"subduing them."
+msgstr ""
+
+#: .\monsters\sq_insect_spider_death_drops.json
+msgid "dermatik"
+msgid_plural "dermatiks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\monsters\sq_insect_spider_death_drops.json
+msgid "dermatik larva"
+msgid_plural "dermatik larvae"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\monsters\sq_insect_spider_death_drops.json
+msgid "dermatik midwife"
+msgid_plural "dermatik midwives"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\monsters\sq_insect_spider_death_drops.json
+msgid "giant ant"
+msgid_plural "giant ants"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\monsters\sq_insect_spider_death_drops.json
+msgid "giant acidic ant"
+msgid_plural "giant acidic ants"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\monsters\sq_insect_spider_death_drops.json
+msgid "acidic ant larva"
+msgid_plural "acidic ant larvae"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\monsters\sq_insect_spider_death_drops.json
+msgid "acidic queen ant"
+msgid_plural "acidic queen ants"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\monsters\sq_insect_spider_death_drops.json
+msgid "acidic soldier ant"
+msgid_plural "acidic soldier ants"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\monsters\sq_insect_spider_death_drops.json
+msgid "ant larva"
+msgid_plural "ant larvae"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\monsters\sq_insect_spider_death_drops.json
+msgid "queen ant"
+msgid_plural "queen ants"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\monsters\sq_insect_spider_death_drops.json
+msgid "soldier ant"
+msgid_plural "soldier ants"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\monsters\sq_insect_spider_death_drops.json
+msgid "giant locust"
+msgid_plural "giant locusts"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\monsters\sq_insect_spider_death_drops.json
+msgid "locust nymph"
+msgid_plural "locust nymphs"
+msgstr[0] ""
+msgstr[1] ""
+
 #: .\monsters\sq_mech_weapons.json
 msgid "MK40 파동 소총"
 msgid_plural "MK40 파동 소총s"
@@ -6549,8 +6448,8 @@ msgid ""
 msgstr ""
 
 #: .\monsters\sq_mechs.json
-msgid "storage battery"
-msgid_plural "storage batteries"
+msgid "large storage battery"
+msgid_plural "large storage batteries"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -12292,6 +12191,11 @@ msgstr ""
 
 #. ~ Mutation class name
 #: .\mutations\mutation_category.json
+msgid "nightvision3"
+msgstr ""
+
+#. ~ Mutation class name
+#: .\mutations\mutation_category.json
 msgid "ceph_eyes"
 msgstr ""
 
@@ -13400,6 +13304,46 @@ msgstr ""
 msgid "strongback"
 msgstr ""
 
+#. ~ Mutation class name
+#: .\mutations\mutation_category.json
+msgid "int_slime"
+msgstr ""
+
+#. ~ Mutation class name
+#: .\mutations\mutation_category.json
+msgid "fast_reflexes"
+msgstr ""
+
+#. ~ Mutation class name
+#: .\mutations\mutation_category.json
+msgid "per_slime_ok"
+msgstr ""
+
+#. ~ Mutation class name
+#: .\mutations\mutation_category.json
+msgid "mut_tough"
+msgstr ""
+
+#. ~ Mutation class name
+#: .\mutations\mutation_category.json
+msgid "grazer"
+msgstr ""
+
+#. ~ Mutation class name
+#: .\mutations\mutation_category.json
+msgid "disresistance"
+msgstr ""
+
+#. ~ Mutation class name
+#: .\mutations\mutation_category.json
+msgid "rough_skin"
+msgstr ""
+
+#. ~ Mutation class name
+#: .\mutations\mutation_category.json
+msgid "small2"
+msgstr ""
+
 #: .\mutations\sq_mutations_override.json
 msgid "Chitinous Plate"
 msgstr ""
@@ -14027,62 +13971,62 @@ msgid ""
 msgstr ""
 
 #. ~ Crafting recipes category name
-#: .\recipe\recipes.json
+#: .\recipe\recipe_categories.json
 msgid "첨단기술"
 msgstr "HIGH-TECHS"
 
 #. ~ Crafting recipes subcategory all
-#: .\recipe\recipes.json
+#: .\recipe\recipe_categories.json
 msgid "ALL"
 msgstr ""
 
 #. ~ Crafting recipes subcategory of '첨단기술' category
-#: .\recipe\recipes.json
+#: .\recipe\recipe_categories.json
 msgid "TOOLS"
 msgstr ""
 
 #. ~ Crafting recipes subcategory of '첨단기술' category
-#: .\recipe\recipes.json
+#: .\recipe\recipe_categories.json
 msgid "MEDICAL"
 msgstr ""
 
 #. ~ Crafting recipes subcategory of '첨단기술' category
-#: .\recipe\recipes.json
+#: .\recipe\recipe_categories.json
 msgid "ARMOR"
 msgstr ""
 
 #. ~ Crafting recipes subcategory of '첨단기술' category
-#: .\recipe\recipes.json
+#: .\recipe\recipe_categories.json
 msgid "MATERIALS"
 msgstr ""
 
 #. ~ Crafting recipes subcategory of '첨단기술' category
-#: .\recipe\recipes.json
+#: .\recipe\recipe_categories.json
 msgid "근접무기"
 msgstr "MELEE"
 
 #. ~ Crafting recipes subcategory of '첨단기술' category
-#: .\recipe\recipes.json
+#: .\recipe\recipe_categories.json
 msgid "RANGED"
 msgstr ""
 
 #. ~ Crafting recipes subcategory of '첨단기술' category
-#: .\recipe\recipes.json
+#: .\recipe\recipe_categories.json
 msgid "MODS"
 msgstr ""
 
 #. ~ Crafting recipes subcategory of '첨단기술' category
-#: .\recipe\recipes.json
+#: .\recipe\recipe_categories.json
 msgid "MAGAZINES"
 msgstr ""
 
 #. ~ Crafting recipes subcategory of '첨단기술' category
-#: .\recipe\recipes.json
+#: .\recipe\recipe_categories.json
 msgid "드론"
 msgstr "DRONES"
 
 #. ~ Crafting recipes subcategory of '첨단기술' category
-#: .\recipe\recipes.json
+#: .\recipe\recipe_categories.json
 msgid "OTHER"
 msgstr ""
 
@@ -14275,6 +14219,169 @@ msgstr ""
 #, c-format
 msgid "<npcname> feints at %s"
 msgstr ""
+
+#~ msgid "노멕스 덧대기"
+#~ msgstr "Pad with Nomex"
+
+#~ msgid "덧댄 노멕스 제거"
+#~ msgstr "Destroy Nomex padding"
+
+#~ msgid "경량화 하기"
+#~ msgstr "Lighten up"
+
+#~ msgid "덧붙이기"
+#~ msgstr "Patch up"
+
+#~ msgid "주머니 만들기"
+#~ msgstr "Add pockets"
+
+#~ msgid "주머니 떼기"
+#~ msgstr "Add pockets"
+
+#~ msgid "그래핀 시트 덧대기"
+#~ msgstr "Pad with graphene sheet lining"
+
+#~ msgid "덧댄 그래핀 제거"
+#~ msgstr "Destroy graphene sheet lining"
+
+#~ msgid "이 장비는 노멕스를 덧대어 <good>화염 방호력이 향상</good>되었습니다"
+#~ msgstr "This gear is lined with Nomex for <good>flame protection</good>"
+
+#~ msgid ""
+#~ "이 장비는 주머니를 부착하여 <good>저장 공간이 늘었</good>지만 <bad>방해도"
+#~ "가 조금 증가</bad>되었습니다"
+#~ msgstr "Add pockets"
+
+#~ msgid "탄소섬유 프레임"
+#~ msgid_plural "탄소섬유 프레임s"
+#~ msgstr[0] "carbon fibre frame"
+#~ msgstr[1] "carbon fibre frames"
+
+#~ msgid "탄소섬유 장갑판"
+#~ msgstr "carbon fibre board"
+
+#~ msgid "탄소섬유 쿼터패널"
+#~ msgstr "carbon fibre quarterpanel"
+
+#~ msgid "탄소섬유 지붕"
+#~ msgstr "carbon fibre roof"
+
+#~ msgid "카카오나무"
+#~ msgstr "cacao tree"
+
+#~ msgid ""
+#~ "중남미 원산의 아욱목 아욱과의 두꺼운 나무로, 유전공학의 힘으로 뉴잉글랜드"
+#~ "의 사계절을 버틸 수 있게 개량되었습니다. 나무줄기를 살펴보면 아직 따지 않"
+#~ "고 남은 카카오 열매가 있는 게 보입니다. 대재앙에도 초콜릿만큼은 포기할 수 "
+#~ "없죠, 암. 적절한 도구가 있다면 벌목할 수 있습니다."
+#~ msgstr ""
+#~ "A thick tree belonging to the 'Theobroma' genus, native to Central and "
+#~ "South America, that has been genetically engineered to withstand New "
+#~ "England's four seasons. If you examined the trunk of the tree, you could "
+#~ "probably find some mature cacao pods. Even in the face of apocalypse, you "
+#~ "can't give up chocolate, of course. You could cut it down with the right "
+#~ "tools."
+
+#~ msgid ""
+#~ "중남미 원산의 아욱목 아욱과의 두꺼운 나무로, 유전공학의 힘으로 뉴잉글랜드"
+#~ "의 사계절을 버틸 수 있게 개량되었습니다. 지금 당장은 수확할만한 카카오 열"
+#~ "매가 없는 것 같습니다. 적절한 도구가 있다면 벌목할 수 있습니다."
+#~ msgstr ""
+#~ "A thick tree belonging to the 'Theobroma' genus, native to Central and "
+#~ "South America, that has been genetically engineered to withstand New "
+#~ "England's four seasons. Looks like all the ripe cacao pods have been "
+#~ "picked. You could cut it down with the right tools."
+
+#~ msgid "코카나무"
+#~ msgstr "coca"
+
+#~ msgid ""
+#~ "남아메리카 원산의 말피기아목 코카나무과의 나무로, 수천 년 전부터 코카잎은 "
+#~ "의약품과 강장제, 차로 이용되어왔습니다. 이상하게도, 어째서인지 이 나무 또"
+#~ "한 유전공학의 힘으로 뉴잉글랜드의 기후를 버틸 수 있도록 개량되었습니다. 적"
+#~ "절한 도구가 있다면 벌목할 수 있습니다."
+#~ msgstr ""
+#~ "A tree native to South America, coca leaves have been used as medicine, "
+#~ "tonic, and tea for thousands of years. Oddly enough, the tree has also "
+#~ "been modified to withstand New England's climate through the power of "
+#~ "genetic engineering. You could cut it down with the right tools."
+
+#~ msgid ""
+#~ "남아메리카 원산의 말피기아목 코카나무과의 나무로, 수천 년 전부터 코카잎은 "
+#~ "의약품과 강장제, 차로 이용되어왔습니다. 지금 당장은 수확할만한 코카잎이 없"
+#~ "는 것 같습니다. 적절한 도구가 있다면 벌목할 수 있습니다."
+#~ msgstr ""
+#~ "A tree native to South America, coca leaves have been used as medicine, "
+#~ "tonic, and tea for thousands of years. Looks like all the coca leaves "
+#~ "have been picked. You could cut it down with the right tools."
+
+#~ msgid "코카잎"
+#~ msgid_plural "코카잎"
+#~ msgstr[0] "coca leaf"
+#~ msgstr[1] "coca leaves"
+
+#~ msgid ""
+#~ "코카잎입니다. 오래 전부터 현재까지 의약품과 기호식품 등으로 이용해왔으며, "
+#~ "씹으면 약한 쾌감을 느낄 수 있습니다. 코카잎 자로 끓여서 먹을 수도 있고, 생"
+#~ "으로 먹을 수도 있습니다. 하지만 많이 먹으면 중독현상을 일으킬 수 있습니다."
+#~ msgstr ""
+#~ "A coca leaf. It has a long history of medicinal and culinary uses, and "
+#~ "can produce a mild high when chewed. It can be brewed with coca leaves or "
+#~ "eaten raw. However, if consumed in large quantities, it can cause "
+#~ "addiction."
+
+#~ msgid "코카잎 차"
+#~ msgid_plural "코카잎 차s"
+#~ msgstr[0] "coca tea"
+#~ msgstr[1] "coca tea"
+
+#~ msgid ""
+#~ "코카나무의 잎에 뜨거운 물을 부어 만든 향긋한 음료. 마시면 코카인 성분으로 "
+#~ "인한 약한 쾌감을 느낄 수 있지만, 너무 자주 마시면 중독현상을 일으킬 수 있"
+#~ "습니다."
+#~ msgstr ""
+#~ "An aromatic drink made by pouring hot water over the leaves of the coca "
+#~ "tree. Drinking it can give you a mild high from the cocaine content, but "
+#~ "if you drink it too often, it can cause addiction."
+
+#~ msgid "카카오 열매"
+#~ msgid_plural "카카오 열매"
+#~ msgstr[0] "cacao pod"
+#~ msgstr[1] "cacao pods"
+
+#~ msgid ""
+#~ "테오브로마 카카오로 알려진 카카오 열매는 초콜릿을 만드는 데 사용되는 코코"
+#~ "아 콩의 원료입니다. 달콤한 맛의 하얀 과육으로 둘러싸인 코코아 콩이 들어 있"
+#~ "는 열대 과일입니다. 이 콩은 수확, 발효, 가공을 거쳐 다양한 초콜릿 제품으"
+#~ "로 생산됩니다."
+#~ msgstr ""
+#~ "The cacao fruit, scientifically known as Theobroma cacao, is the source "
+#~ "of cocoa beans used to make chocolate. It is a tropical fruit that "
+#~ "contains cocoa beans surrounded by a sweet-tasting, white pulp. The beans "
+#~ "are harvested, fermented, and processed to produce various chocolate "
+#~ "products."
+
+#~ msgid "카카오닙스"
+#~ msgid_plural "카카오닙스"
+#~ msgstr[0] "cacao nib"
+#~ msgstr[1] "cacao nibs"
+
+#~ msgid ""
+#~ "발효되고 구운 카카오 콩으로, 초콜릿의 가장 원시적인 형태입니다. 갈아서 초"
+#~ "콜릿으로 만들 수 있습니다."
+#~ msgstr ""
+#~ "Fermented and roasted cacao beans, the most primitive form of chocolate. "
+#~ "It can be ground and made into chocolate."
+
+#~ msgid "생존용 다용도 방화 벨트"
+#~ msgid_plural "생존용 다용도 방화 벨트s"
+#~ msgstr[0] "survivor fireproof utility belt"
+#~ msgstr[1] "survivor fireproof utility belts"
+
+#~ msgid "밧줄 고리"
+#~ msgid_plural "밧줄 고리s"
+#~ msgstr[0] "loop of rope"
+#~ msgstr[1] "loops of rope"
 
 #~ msgid "나노붕대 치유"
 #~ msgstr "nanobandage healing"

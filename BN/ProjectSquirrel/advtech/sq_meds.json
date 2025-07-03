@@ -372,7 +372,7 @@
     "desc": [ "따갑습니다." ],
     "rating": "bad",
     "base_mods": { "pain_min": [ 1 ] },
-    "max_duration": "30 m",
+    "max_duration": "10 m",
     "show_in_info": true
   },
   {
@@ -415,7 +415,6 @@
     "healthy": 1,
     "fun": 2,
     "flags": [ "NUTRIENT_OVERRIDE" ],
-    "spoils_in": "4 days",
     "vitamins": [ [ "vitA", 17 ], [ "vitC", 32 ], [ "calcium", 2 ], [ "iron", 4 ], [ "vitB", 28 ] ]
   },
   {
