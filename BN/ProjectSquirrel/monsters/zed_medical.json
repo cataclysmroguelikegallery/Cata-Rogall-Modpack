@@ -1,0 +1,123 @@
+[
+  {
+    "id": "mon_zombie_nurse",
+    "type": "MONSTER",
+    "name": { "str": "nurse" },
+    "description": "Instead of one of its forearms, this zombie has a muscular tube ending in a stinger that is moist with stringy slime.  It is single-mindedly focused on using just that one limb to fight.",
+    "default_faction": "zombie",
+    "bodytype": "human",
+    "categories": [ "CLASSIC" ],
+    "species": [ "ZOMBIE", "HUMAN" ],
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 80,
+    "speed": 80,
+    "material": [ "flesh" ],
+    "symbol": "Z",
+    "color": "green_white",
+    "aggression": 100,
+    "morale": 100,
+    "melee_skill": 3,
+    "armor_acid": 4,
+    "vision_night": 3,
+    "harvest": "zombie_maybe_sci_bionics",
+    "path_settings": { "max_dist": 3 },
+    "special_attacks": [ { "id": "inject" } ],
+    "death_drops": "mon_zombie_medical_death_drops",
+    "death_function": [ "NORMAL" ],
+    "burn_into": "mon_zombie_scorched",
+    "upgrades": { "half_life": 14, "into": "mon_zombie_surgeon" },
+    "flags": [ "SEES", "HEARS", "WARM", "POISON", "BLEED", "NO_BREATHE", "REVIVES" ]
+  },
+  {
+    "id": "mon_zombie_surgeon",
+    "type": "MONSTER",
+    "copy-from": "mon_zombie_nurse",
+    "delete": { "categories": [ "CLASSIC" ] },
+    "name": { "str": "surgeon" },
+    "description": "A dripping stinger where one hand would be, a set of razor-like claws in place of the other one.  This zombie's cold, focused eyes look down at you from above a \"mask\" of melded flesh.",
+    "default_faction": "zombie",
+    "hp": 150,
+    "color": "light_green_white",
+    "melee_skill": 4,
+    "armor_acid": 10,
+    "vision_day": 45,
+    "vision_night": 5,
+    "harvest": "zombie_maybe_sci_bionics",
+    "path_settings": { "max_dist": 5 },
+    "special_attacks": [
+      {
+        "id": "scratch",
+        "damage_max_instance": [ { "damage_type": "cut", "amount": 24, "armor_multiplier": 2 } ],
+        "effects": [ { "id": "bleed", "duration": 100, "affect_hit_bp": true } ]
+      },
+      { "id": "inject", "move_cost": 50, "effects": [ { "id": "poison", "duration": 90, "bp": "torso" } ] }
+    ],
+    "upgrades": { "half_life": 14, "into": "mon_zombie_vivisector" }
+  },
+  {
+    "id": "mon_zombie_vivisector",
+    "type": "MONSTER",
+    "copy-from": "mon_zombie_surgeon",
+    "name": { "str": "vivisector" },
+    "description": "This humanoid has a long bone \"syringe\" in place of one forearm, a large saw as the opposing hand, and a pair of digitigrade legs ending in raptor-like feet.  Its head is featureless, except for its \"human\" eyes, which smile with inhuman malice and scorn.",
+    "default_faction": "zombie",
+    "color": "light_green_white",
+    "melee_skill": 5,
+    "armor_stab": 6,
+    "armor_acid": 20,
+    "vision_day": 50,
+    "vision_night": 10,
+    "harvest": "zombie_maybe_sci_bionics",
+    "path_settings": { "max_dist": 10 },
+    "special_attacks": [
+      { "type": "leap", "cooldown": 5, "max_range": 5, "max_consider_range": 5, "move_cost": 0 },
+      {
+        "id": "scratch",
+        "damage_max_instance": [ { "damage_type": "cut", "amount": 30, "armor_multiplier": 2 } ],
+        "effects": [ { "id": "bleed", "duration": 500, "affect_hit_bp": true } ]
+      },
+      {
+        "id": "inject",
+        "damage_max_instance": [ { "damage_type": "stab", "amount": 5, "armor_multiplier": 0.2 }, { "damage_type": "acid", "amount": 5 } ],
+        "effects": [ { "id": "poison", "duration": 90, "bp": "torso" }, { "id": "badpoison", "duration": 30, "bp": "torso" } ]
+      }
+    ],
+    "upgrades": { "half_life": 14, "into": "mon_zombie_conjoiner" }
+  },
+  {
+    "id": "mon_zombie_conjoiner",
+    "type": "MONSTER",
+    "copy-from": "mon_zombie_surgeon",
+    "name": { "str": "cadaver assembler" },
+    "description": "With a grotesquely twisted body and four arms fused with surgical tools, this zombie obsessively regenerates nearby undead at an abnormal speed. A dark aura flows over its pale skin, eerily healing damaged allies and spreading a distorted will to live.",
+    "default_faction": "zombie",
+    "color": "red_white",
+    "hp": 205,
+    "melee_skill": 6,
+    "armor_stab": 6,
+    "armor_acid": 20,
+    "vision_day": 50,
+    "vision_night": 14,
+    "harvest": "CBM_SCI",
+    "path_settings": { "max_dist": 10 },
+    "special_attacks": [
+      {
+        "id": "scratch",
+        "damage_max_instance": [ { "damage_type": "cut", "amount": 30, "armor_multiplier": 0.3 } ],
+        "effects": [ { "id": "bleed", "duration": 800, "affect_hit_bp": true } ]
+      },
+      {
+        "id": "inject",
+        "damage_max_instance": [ { "damage_type": "stab", "amount": 15, "armor_multiplier": 0.2 }, { "damage_type": "acid", "amount": 5 } ],
+        "effects": [ { "id": "paralyzepoison", "duration": 90, "bp": "torso" }, { "id": "badpoison", "duration": 60, "bp": "torso" } ]
+      },
+      {
+        "type": "spell",
+        "spell_data": { "id": "conjoiner_heal" },
+        "cooldown": 1,
+        "monster_message": "<color_yellow>Nearby zombies regenerate abnormally quickly.</color>"
+      }
+    ]
+  }
+]
