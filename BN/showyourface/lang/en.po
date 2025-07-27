@@ -1,0 +1,123 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: showyourface\n"
+"POT-Creation-Date: 2025-07-07 07:42+0900\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != "
+"1);\n"
+"X-Generator: Poedit 3.6\n"
+
+#: .\modinfo.json
+msgid "투명한 얼굴 방어구들"
+msgstr ""
+
+#. ~ Description for 투명한 얼굴 방어구들
+#: .\modinfo.json
+msgid ""
+"머리를 가리는 방어구들을 투명하게하고, 헬멧"
+"이 있는 방어구의 헬멧을 투명하게 합니다."
+msgstr ""
+"Adds recipies for survivor headwear series "
+"that exposes the wearer's bare face. Have "
+"fun with fashion."
+
+#: .\trans_item.json
+msgid "투명아이템"
+msgid_plural "투명아이템s"
+msgstr[0] "transparent item"
+msgstr[1] "transparent items"
+
+#. ~ Description for 투명아이템
+#: .\trans_item.json
+msgid "투명 아이템."
+msgstr "transparent item abstract."
+
+#: .\trans_item.json
+msgid "투명 생존형 방화 가스마스크"
+msgid_plural "투명 생존형 방화 가스마스크s"
+msgstr[0] "transparent survivor mask"
+msgstr[1] "transparent survivor masks"
+
+#: .\trans_item.json
+msgid "투명 생존형 중량 가스마스크"
+msgid_plural "투명 생존형 중량 가스마스크s"
+msgstr[0] "transparent heavy survivor mask"
+msgstr[1] "transparent heavy survivor masks"
+
+#: .\trans_item.json
+msgid "투명 생존형 초합금 가스마스크"
+msgid_plural "투명 생존형 초합금 가스마스크s"
+msgstr[0] ""
+"transparent superalloy survivor mask"
+msgstr[1] ""
+"transparent superalloy survivor masks"
+
+#: .\trans_item.json
+msgid "투명 생존형 경량형 가스마스크"
+msgid_plural "투명 생존형 경량형 가스마스크s"
+msgstr[0] "transparent light survivor mask"
+msgstr[1] "transparent light survivor masks"
+
+#: .\trans_item.json
+msgid "투명 생존형 가스마스크"
+msgid_plural "투명 생존형 가스마스크s"
+msgstr[0] "transparent survivor mask"
+msgstr[1] "transparent survivor masks"
+
+#: .\trans_item.json
+msgid "투명 겨울생존형 가스마스크"
+msgid_plural "투명 겨울생존형 가스마스크s"
+msgstr[0] "transparent winter survivor mask"
+msgstr[1] "transparent winter survivor masks"
+
+#: .\trans_item.json
+msgid "투명 생존형 헬멧"
+msgid_plural "투명 생존형 헬멧s"
+msgstr[0] "transparent survivor helmet"
+msgstr[1] "transparent survivor helmets"
+
+#: .\trans_item.json
+msgid "투명 중량형 생존형 헬멧"
+msgid_plural "투명 중량형 생존형 헬멧s"
+msgstr[0] "transparent heavy survivor helmet"
+msgstr[1] ""
+"transparent heavy survivor helmets"
+
+#: .\trans_item.json
+msgid "투명 초합금 생존형 헬멧"
+msgid_plural "투명 초합금 생존형 헬멧s"
+msgstr[0] ""
+"transparent superalloy survivor helmet"
+msgstr[1] ""
+"transparent superalloy survivor helmets"
+
+#: .\trans_item.json
+msgid "투명 생존형 방화후드"
+msgid_plural "투명 생존형 방화후드s"
+msgstr[0] "transparent survivor firehood"
+msgstr[1] "transparent survivor firehoods"
+
+#: .\trans_item.json
+msgid "투명 경량령 생존후드"
+msgid_plural "투명 경량령 생존후드s"
+msgstr[0] "transparent light survivor hood"
+msgstr[1] "transparent light survivor hoods"
+
+#: .\trans_item.json
+msgid "투명 생존형 후드"
+msgid_plural "투명 생존형 후드s"
+msgstr[0] "transparent survivor hood"
+msgstr[1] "transparent survivor hoods"
+
+#: .\trans_item.json
+msgid "투명 겨울형 생존 후드"
+msgid_plural "투명 겨울형 생존 후드s"
+msgstr[0] "transparent winter survivor hood"
+msgstr[1] "transparent winter survivor hoods"

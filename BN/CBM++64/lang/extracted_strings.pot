@@ -1,0 +1,2031 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Unknown Mod\n"
+"POT-Creation-Date: 2025-07-07 07:53+0900\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: .\modinfo.json
+msgid "불페큘라의 cbm 타일변경 및 밸런스 패치"
+msgstr ""
+
+#. ~ Description for 불페큘라의 cbm 타일변경 및 밸런스 패치
+#: .\modinfo.json
+msgid "cbm의 타일과 밸런스를 조정해줍니다."
+msgstr ""
+
+#: .\weapon\bio.json
+msgid "bionic claws"
+msgid_plural "bionic claws"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': 'bionic claws'}
+#: .\weapon\bio.json
+msgid "Short and sharp claws made from a high-tech metal."
+msgstr ""
+
+#: .\weapon\bio.json
+msgid "바이오닉 인벤토리"
+msgid_plural "바이오닉 인벤토리"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': '바이오닉 인벤토리'}
+#: .\weapon\bio.json
+msgid "척추를 따라 등에 접히는 추가 확장 공간을 설치했습니다."
+msgstr ""
+
+#: .\weapon\bio.json
+msgid "생체공학 추가 공간"
+msgstr ""
+
+#. ~ Description for {'str': '생체공학 추가 공간'}
+#: .\weapon\bio.json
+msgid ""
+"척추를 따라 등에 접히는 추가 확장 공간을 설치합니다. 사용시 가방을 손에 생성합니다. 그대로 착용한 후 해제할때는 그냥 바닥에 "
+"버리십시오"
+msgstr ""
+
+#: .\weapon\bio.json
+msgid "CBM:인벤토리"
+msgid_plural "CBM:인벤토리s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'CBM:인벤토리'}
+#: .\weapon\bio.json
+msgid "척추를 따라 등에 접히는 추가 확장 공간을 설치할 수 있습니다"
+msgstr ""
+
+#: .\weapon\bio.json
+msgid "바이오닉 광학추적형 유선 및 무선 유도식 발사관"
+msgid_plural "바이오닉 광학추적형 유선 및 무선 유도식 발사관s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\weapon\bio.json
+msgid "진짜 로켓 발사기 입니다. 들고 쏘거나 움직이는게 거의 불가능 하지만 모든 종류의 로켓을 발사할 수 있습니다"
+msgstr ""
+
+#: .\weapon\bio.json
+msgctxt "gun_type_type"
+msgid "launcher"
+msgstr ""
+
+#: .\weapon\bio.json
+msgid "내장 유탄 발사기"
+msgid_plural "내장 유탄 발사기s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\weapon\bio.json
+msgid ""
+"A grenade launcher mounted onto your right-hand wrist.  Less powerful than a"
+" proper grenade launcher, but infinitely more portable, and quick to reload."
+msgstr ""
+
+#: .\weapon\bio.json
+msgid "autonomous surgical scalpels"
+msgid_plural "autonomous surgical scalpels"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': 'autonomous surgical scalpels'}
+#: .\weapon\bio.json
+msgid ""
+"A system of surgical grade scalpels.  They allow you to make precise cuts "
+"and can also be used as a high-quality butchering tool."
+msgstr ""
+
+#: .\weapon\bio.json
+msgid "진보한 확장형 도구모음"
+msgid_plural "진보한 확장형 도구모음s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': '진보한 확장형 도구모음'}
+#: .\weapon\bio.json
+msgid "당신의 손에서 튀어 나오는 도구모음. 거의 모든 종류의 도구를 대체할 수 있습니다."
+msgstr ""
+
+#: .\weapon\bio.json
+msgctxt "weapon"
+msgid "분자 제조립 합금 활 "
+msgid_plural "분자 제조립 합금 활 s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\weapon\bio.json
+msgid ""
+"리브텍사의 역작, 무소음 무기로 최대 전차까지 상대하기 위해 만들어진 CBM입니다.보조 사격키로 저격모드를 활성화 할 수 있습니다"
+msgstr ""
+
+#: .\weapon\bio.json
+msgid "속사"
+msgstr ""
+
+#: .\weapon\bio.json
+msgid "분자 제조립 합금 활 : 저격모드 "
+msgid_plural "분자 제조립 합금 활 : 저격모드 s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\weapon\bio.json
+msgid "저격모드"
+msgstr ""
+
+#: .\weapon\bio.json
+msgid "accessories"
+msgstr ""
+
+#: .\weapon\bio.json
+msgctxt "weapon"
+msgid "손등 쇠뇌 "
+msgid_plural "손등 쇠뇌 s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\weapon\bio.json
+msgid "손등에 장착된 쇠뇌 긴급하게 가까이 있는 폭발물을 처리할 때 사용하세요."
+msgstr ""
+
+#: .\weapon\bio.json
+msgctxt "gun_type_type"
+msgid "pistol"
+msgstr ""
+
+#: .\weapon\bio.json
+msgctxt "weapon"
+msgid "손목 내장형 탄환발사기 "
+msgid_plural "손목 내장형 탄환발사기 s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\weapon\bio.json
+msgid ""
+"A leather sling, easy to use and accurate.  It uses pebbles as ammunition."
+msgstr ""
+
+#: .\weapon\bio.json
+msgctxt "gun_type_type"
+msgid "throw"
+msgstr ""
+
+#: .\weapon\bio.json
+msgid "바이오닉 대구경 산탄총"
+msgid_plural "바이오닉 대구경 산탄총s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\weapon\bio.json
+msgid "Bionic retracting shotgun integrated with your arm."
+msgstr ""
+
+#: .\weapon\bio.json
+msgid "single shot"
+msgstr ""
+
+#: .\weapon\bio.json
+msgid "double"
+msgstr ""
+
+#: .\weapon\bio.json
+msgid "전탄발사"
+msgstr ""
+
+#: .\weapon\bio.json
+msgctxt "gun_type_type"
+msgid "shotgun"
+msgstr ""
+
+#: .\weapon\bio.json
+msgid "바이오닉 대구경 저격총"
+msgid_plural "바이오닉 대구경 저격총s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\weapon\bio.json
+msgid "당신의 팔에 설치된 대구경 저격총."
+msgstr ""
+
+#: .\weapon\bio.json
+msgctxt "gun_type_type"
+msgid "rifle"
+msgstr ""
+
+#: .\weapon\bio.json
+msgid "초전도 단분자 와이어"
+msgid_plural "초전도 단분자 와이어s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': '초전도 단분자 와이어'}
+#: .\weapon\bio.json
+msgid "초전도체로 만들어진 단분자 와이어 입니다.해킹 기능도 탑재 되어 있습니다."
+msgstr ""
+
+#: .\weapon\bio.json
+msgid "내장형 도구 모음 업그레이드킷"
+msgid_plural "내장형 도구 모음 업그레이드킷s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': '내장형 도구 모음 업그레이드킷'}
+#: .\weapon\bio.json
+msgid ""
+"기존에 있던 내장형 도구 모음 바이오닉을 거의 모든 종류의 작업에 사용될 수 있게 분자 재조립 과정을 거쳐 변환할 수 있도록 개조합니다"
+msgstr ""
+
+#: .\weapon\bio.json
+msgid "내장 통합 전원 장치 업그레이드킷"
+msgid_plural "내장 통합 전원 장치 업그레이드킷s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': '내장 통합 전원 장치 업그레이드킷'}
+#: .\weapon\bio.json
+msgid "개량형 ups로 업그레이드 합니다"
+msgstr ""
+
+#: .\weapon\bio.json
+msgid "CBM : 손목 내장형 탄환발사기"
+msgid_plural "CBM : 손목 내장형 탄환발사기s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'CBM : 손목 내장형 탄환발사기'}
+#: .\weapon\bio.json
+msgid "손목에 나노와이어로 이루어진 고탄성 소형 발사장치를 설치했습니다."
+msgstr ""
+
+#: .\weapon\bio.json
+msgid "CBM : 분자 제조립 활"
+msgid_plural "CBM : 분자 제조립 활s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'CBM : 분자 제조립 활'}
+#: .\weapon\bio.json
+msgid ""
+"손등에 초합금판과 나노물질로 이루어진 활이 장착 되었습니다.내장된 초소형 모터로 장전을 자동으로 하여 그냥 쏘기만 해도 될꺼 같습니다."
+msgstr ""
+
+#: .\weapon\bio.json
+msgid "CBM : 손등 석궁"
+msgid_plural "CBM : 손등 석궁s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'CBM : 손등 석궁'}
+#: .\weapon\bio.json
+msgid ""
+"손등에 초합금판과 나노물질로 이루어진 초소형 석궁이 장착 되었습니다.내장된 초소형 모터로 장전을 자동으로 하여 그냥 쏘기만 해도 될꺼 "
+"같습니다."
+msgstr ""
+
+#: .\weapon\bio.json
+msgid "CBM : 모노와이어"
+msgid_plural "CBM : 모노와이어s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'CBM : 모노와이어'}
+#: .\weapon\bio.json
+msgid "이 cbm은 아주 유명한 해커가 사용했었습니다"
+msgstr ""
+
+#: .\weapon\bio.json
+msgid "손목 슬링"
+msgstr ""
+
+#. ~ Description for {'str': '손목 슬링'}
+#: .\weapon\bio.json
+msgid "사용시 손목에서 고탄성 나노와이어 뭉치를 뽑아냅니다."
+msgstr ""
+
+#: .\weapon\bio.json
+msgid "진보된 내장형 도구모음"
+msgstr ""
+
+#. ~ Description for {'str': '진보된 내장형 도구모음'}
+#: .\weapon\bio.json
+msgid "확장형 도구 모음을 좀더 업그레이드 했습니다."
+msgstr ""
+
+#: .\weapon\bio.json
+msgid "확장 도구모음 MK2"
+msgstr ""
+
+#. ~ Description for {'str': '확장 도구모음 MK2'}
+#. ~ Description for {'str': 'Extended Toolset'}
+#: .\weapon\bio.json .\weapon\bionics.json
+msgid ""
+"Extend or withdraw your integrated toolset to cut metal, pry things, or "
+"other stuff.  This takes up your hands."
+msgstr ""
+
+#: .\weapon\bio.json
+msgid "개량형 내장 통합 전원 장치"
+msgstr ""
+
+#. ~ Description for {'str': '개량형 내장 통합 전원 장치'}
+#. ~ Description for {'str': 'Internal Unified Power System'}
+#: .\weapon\bio.json .\weapon\bionics.json
+msgid ""
+"You have a Unified Power System wired into your power banks.  Objects that "
+"run on a UPS can now draw directly from your bionic power supply."
+msgstr ""
+
+#: .\weapon\bio.json
+msgid "바이오닉 TOW"
+msgstr ""
+
+#. ~ Description for {'str': '바이오닉 TOW'}
+#: .\weapon\bio.json
+msgid "왼팔에 차원 확장 수납시스템을 적용한 결과 무려 로켓발사기를 수납할 수 있게 되었습니다."
+msgstr ""
+
+#: .\weapon\bio.json
+msgid "조립식 저격총 팔"
+msgstr ""
+
+#. ~ Description for {'str': '조립식 저격총 팔'}
+#: .\weapon\bio.json
+msgid "양팔에 저격총 파츠를 각각 따로 분리해서 수납한 결과 무려 저격총을 수납할 수 있게 되었습니다."
+msgstr ""
+
+#: .\weapon\bio.json .\weapon\effect.json
+msgid "산데비스탄"
+msgstr ""
+
+#. ~ Description for {'str': '산데비스탄'}
+#: .\weapon\bio.json
+msgid "정말 기초적인 임플란트입니다."
+msgstr ""
+
+#: .\weapon\bio.json
+msgid "손등 석궁"
+msgstr ""
+
+#. ~ Description for {'str': '손등 석궁'}
+#: .\weapon\bio.json
+msgid "사용시 손등에서 초합금판과 나노와이어로 이루어진 작은 석궁으로 볼트를 쏘아냅니다."
+msgstr ""
+
+#: .\weapon\bio.json
+msgid "바이오닉 활"
+msgstr ""
+
+#. ~ Description for {'str': '바이오닉 활'}
+#: .\weapon\bio.json
+msgid "사용시 개조가 가능한 초합금과 나노와이어로 이루어진 큰 활을 뽑아냅니다."
+msgstr ""
+
+#: .\weapon\bio.json
+msgid "모노와이어"
+msgstr ""
+
+#. ~ Description for {'str': '모노와이어'}
+#: .\weapon\bio.json
+msgid "한때 아주 유명한 해커가 사용했던 cbm입니다.사용시 모노와이어를 뽑아내 전투준비를 합니다."
+msgstr ""
+
+#: .\weapon\bio.json
+msgid "내장형 기온 조절 장치 EX"
+msgstr ""
+
+#. ~ Description for {'str': '내장형 기온 조절 장치 EX'}
+#: .\weapon\bio.json
+msgid ""
+"사용시 극단적으로 춥거나 더운 환경에서도 체내 온도를 조절 할 수 있게 해줍니다. 다만 많은 전력과 수분을 사용하기에 사용에 있어 "
+"주의해야 합니다 "
+msgstr ""
+
+#. ~ Description for 산데비스탄
+#: .\weapon\bio.json
+msgid "Grants you an extra turn."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Adrenaline Pump"
+msgstr ""
+
+#. ~ Description for {'str': 'Adrenaline Pump'}
+#: .\weapon\bionics.json
+msgid ""
+"A stimulator system has been surgically implanted alongside your adrenal "
+"glands, allowing you to trigger your body's adrenaline response at the cost "
+"of some bionic power."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Active Defense System"
+msgstr ""
+
+#. ~ Description for {'str': 'Active Defense System'}
+#: .\weapon\bionics.json
+msgid ""
+"This bionic charges a forcefield around your body that deflects incoming "
+"attacks.  Bullets are heavily deflected, piercing well deflected, slashing "
+"moderately deflected and bashing barely deflected.  This bionic charges at "
+"half speed for 3 turns after being hit, and doesn't consume power when fully"
+" charged."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Alarm System"
+msgstr ""
+
+#. ~ Description for {'str': 'Alarm System'}
+#: .\weapon\bionics.json
+msgid ""
+"A motion-detecting alarm system will notice almost all movement within a "
+"fifteen-foot radius, and will silently alert you.  This is very useful "
+"during sleep, or if you suspect a cloaked pursuer."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Alloy Plating - Legs"
+msgstr ""
+
+#. ~ Description for {'str': 'Alloy Plating - Legs'}
+#: .\weapon\bionics.json
+msgid ""
+"The flesh on your legs and feet have been surgically replaced by alloy "
+"plating.  Provides 6 bash and cut protection, 5 ballistic protection, and "
+"can be used in conjunction with bionic martial arts."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Protective Lenses"
+msgstr ""
+
+#. ~ Description for {'str': 'Protective Lenses'}
+#: .\weapon\bionics.json
+msgid ""
+"Your eye sockets have been surgically sealed with highly protective mirrored"
+" lenses and your tear ducts have been re-routed to your mouth.  Provides 3 "
+"bash and cut protection, and 7 environmental protection."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Alloy Plating - Arms"
+msgstr ""
+
+#. ~ Description for {'str': 'Alloy Plating - Arms'}
+#: .\weapon\bionics.json
+msgid ""
+"The flesh on your arms and hands have been surgically replaced by alloy "
+"plating.  Provides 6 bash and cut protection, 5 ballistic protection, and "
+"can be used in conjunction with bionic martial arts."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Alloy Plating - torso"
+msgstr ""
+
+#. ~ Description for {'str': 'Alloy Plating - torso'}
+#: .\weapon\bionics.json
+msgid ""
+"The flesh on your torso has been surgically replaced by alloy plating, "
+"protecting it from physical trauma.  Provides 6 bash and cut protection, and"
+" 5 ballistic protection."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Alloy Plating - head"
+msgstr ""
+
+#. ~ Description for {'str': 'Alloy Plating - head'}
+#: .\weapon\bionics.json
+msgid ""
+"The flesh on your head has been surgically replaced by alloy plating, "
+"protecting both your head and jaw regions.  Provides 6 bash and cut "
+"protection, and 5 ballistic protection."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Squeaky Ankles"
+msgstr ""
+
+#. ~ Description for {'str': 'Squeaky Ankles'}
+#: .\weapon\bionics.json
+msgid ""
+"In a cruel twist of fate, a poorly executed CBM surgery has given you a pair"
+" of useless bionics which make squeaking noises when you walk."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Battery System"
+msgstr ""
+
+#. ~ Description for {'str': 'Battery System'}
+#: .\weapon\bionics.json
+msgid ""
+"You have a battery draining attachment, and thus can make use of the energy "
+"contained in normal, everyday batteries.  Use 'E' to drain charge from a "
+"battery.  Can be toggled on and off at will."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Monomolecular Blade"
+msgstr ""
+
+#. ~ Description for {'str': 'Monomolecular Blade'}
+#: .\weapon\bionics.json
+msgid ""
+"A deadly foot-long blade made of advanced material now resides inside your "
+"forearm, capable of being extended through the back of your wrist at the "
+"cost of a small amount of power.  Though exceptionally sharp, it will "
+"prevent you from holding anything else while extended."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Shotgun Arm"
+msgstr ""
+
+#. ~ Description for {'str': 'Shotgun Arm'}
+#: .\weapon\bionics.json
+msgid "오른팔에 12게이지 산탄총이 숨겨져있습니다.바이오닉을 활성화하면 산탄총을 발사하고 재장전할 수 있습니다"
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Optical Dampers"
+msgstr ""
+
+#. ~ Description for {'str': 'Optical Dampers'}
+#: .\weapon\bionics.json
+msgid ""
+"The lenses surgically installed over your eyes can be tinted to block out "
+"incoming light."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Blood Analysis"
+msgstr ""
+
+#. ~ Description for {'str': 'Blood Analysis'}
+#: .\weapon\bionics.json
+msgid ""
+"Small sensors have been surgically implanted in your heart, allowing you to "
+"analyze your blood.  This will detect many illnesses, drugs, and other "
+"conditions."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Blood Filter"
+msgstr ""
+
+#. ~ Description for {'str': 'Blood Filter'}
+#: .\weapon\bionics.json
+msgid ""
+"A filtration system in your heart allows you to actively filter out chemical"
+" impurities, primarily drugs.  It will have limited impact on viruses.  Note"
+" that it is not a targeted filter; ALL drugs in your system will be "
+"affected."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Cable Charger System"
+msgstr ""
+
+#. ~ Description for {'str': 'Cable Charger System'}
+#: .\weapon\bionics.json
+msgid ""
+"You have a complex port surgically mounted above your hip.  While active, it"
+" will recharge bionic power when connected to a power source via cable."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Cable Charger System Mk. II"
+msgstr ""
+
+#. ~ Description for {'str': 'Cable Charger System Mk. II'}
+#: .\weapon\bionics.json
+msgid ""
+"This is a military-grade electronic port and power converter system which "
+"are surgically mounted above your hip, it has ten times higher throughput "
+"than basic version.  While active, it will recharge bionic power when "
+"connected to a power source via cable."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Subdermal Carbon Filament"
+msgstr ""
+
+#. ~ Description for {'str': 'Subdermal Carbon Filament'}
+#: .\weapon\bionics.json
+msgid ""
+"Lying just beneath your skin is a thin armor made of carbon nanotubes.  This"
+" reduces all bashing damage by 5%, cutting damage by 10%, and ballistic "
+"damage by 15%."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Chain Lightning"
+msgstr ""
+
+#. ~ Description for {'str': 'Chain Lightning'}
+#: .\weapon\bionics.json
+msgid ""
+"Your body is equipped with a chain lightning generator, allowing you to emit"
+" a blast of lightning at a target, leaving a trail of lightning in its wake,"
+" jumping to additional targets within 4 tiles of the previous target."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Bionic Claws"
+msgstr ""
+
+#. ~ Description for {'str': 'Bionic Claws'}
+#: .\weapon\bionics.json
+msgid ""
+"Vicious claws have been surgically installed inside your fingers, allowing "
+"you to extend and retract them at the cost of a small amount of power.  "
+"These do considerable cutting damage, but prevent you from holding anything "
+"else while extended."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Internal Climate Control"
+msgstr ""
+
+#. ~ Description for {'str': 'Internal Climate Control'}
+#: .\weapon\bionics.json
+msgid ""
+"Throughout your body lies a network of thermal piping, which eases the "
+"effects of high and low ambient temperatures when activated."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Cloaking System"
+msgstr ""
+
+#. ~ Description for {'str': 'Cloaking System'}
+#: .\weapon\bionics.json
+msgid ""
+"This high-power system uses a set of cameras and LEDs to make you blend into"
+" your background, rendering you fully invisible to normal vision.  However, "
+"you may be detected by infrared, sonar, etc."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Close Quarters Battle"
+msgstr ""
+
+#. ~ Description for {'str': 'Close Quarters Battle'}
+#: .\weapon\bionics.json
+msgid ""
+"Bionic processors and databanks, loaded with martial arts combat programs, "
+"are surgically integrated into your nervous system.  Whilst active, the CQB "
+"module will improve your hand to hand combat skills, but prevents you from "
+"improving them through combat experience."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Bionic-Induced Deformity"
+msgstr ""
+
+#. ~ Description for {'str': 'Bionic-Induced Deformity'}
+#: .\weapon\bionics.json
+msgid ""
+"A combination of poor surgical installation and unpleasant scarring has lead"
+" to the malfunctioning bionic catastrophe you call your face.  People who "
+"mind that you look like a dime-store Frankenstein will react poorly to your "
+"appearance."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Wired Reflexes"
+msgstr ""
+
+#. ~ Description for {'str': 'Wired Reflexes'}
+#: .\weapon\bionics.json
+msgid ""
+"Your reaction time has been greatly enhanced with bionic nerve stimulators, "
+"giving you a +2 bonus to dexterity."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Expanded Digestive System"
+msgstr ""
+
+#. ~ Description for {'str': 'Expanded Digestive System'}
+#: .\weapon\bionics.json
+msgid ""
+"You have been outfitted with three synthetic stomachs and industrial-grade "
+"intestines.  Not only can you extract much more nutrition from food, but you"
+" are immune to foodborne illness, parasites, and can even eat rotten food."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Acidic Discharge"
+msgstr ""
+
+#. ~ Description for {'str': 'Acidic Discharge'}
+#: .\weapon\bionics.json
+msgid ""
+"A malfunctioning bionic which occasionally discharges acid into your "
+"muscles, causing sharp pain and minor damage."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Electrical Discharge"
+msgstr ""
+
+#. ~ Description for {'str': 'Electrical Discharge'}
+#: .\weapon\bionics.json
+msgid ""
+"A malfunctioning bionic which occasionally discharges electricity through "
+"your body, causing pain and brief paralysis but no damage."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Electrical Drain"
+msgstr ""
+
+#. ~ Description for {'str': 'Electrical Drain'}
+#: .\weapon\bionics.json
+msgid ""
+"A malfunctioning bionic.  It doesn't perform any useful function, but will "
+"occasionally draw power from your batteries."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Sound Dampeners"
+msgstr ""
+
+#. ~ Description for {'str': 'Sound Dampeners'}
+#: .\weapon\bionics.json
+msgid ""
+"When this bionic is active, you can block hearing completely (with Enhanced "
+"Hearing deactivated) or dampen sound slightly (with Enhanced Hearing "
+"activated)."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Enhanced Hearing"
+msgstr ""
+
+#. ~ Description for {'str': 'Enhanced Hearing'}
+#: .\weapon\bionics.json
+msgid ""
+"When this bionic is active, your hearing will be drastically improved, "
+"allowing you to hear ten times better than the average person.  "
+"Additionally, high-intensity sounds will be automatically dampened before "
+"they can damage your hearing."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Directional EMP"
+msgstr ""
+
+#. ~ Description for {'str': 'Directional EMP'}
+#: .\weapon\bionics.json
+msgid ""
+"Surgically mounted in the palm of your hand are small parabolic EMP field "
+"generators.  You may use power to fire a wide, but short-ranged blast which "
+"will disable electronics and robots."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "EMP Projector"
+msgstr ""
+
+#. ~ Description for {'str': 'EMP Projector'}
+#: .\weapon\bionics.json
+msgid ""
+"A ranged EMP generator system is implanted on the palm of your right hand "
+"and arm.  The system fires precise, single-target pulses that require time "
+"to aim.  Extremely effective against electronic targets but mostly useless "
+"otherwise."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Ethanol Burner"
+msgstr ""
+
+#. ~ Description for {'str': 'Ethanol Burner'}
+#: .\weapon\bionics.json
+msgid "You burn alcohol as fuel in an extremely efficient reaction."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Aero-Evaporator"
+msgstr ""
+
+#. ~ Description for {'str': 'Aero-Evaporator'}
+#: .\weapon\bionics.json
+msgid ""
+"This unit draws moisture from the surrounding air, which slowly trickles "
+"directly into your blood stream.  It may fail in very dry environments."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Diamond Cornea"
+msgstr ""
+
+#. ~ Description for {'str': 'Diamond Cornea'}
+#: .\weapon\bionics.json
+msgid "Your vision is greatly enhanced, giving you a +2 bonus to perception."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Telescopic Lenses"
+msgstr ""
+
+#. ~ Description for {'str': 'Telescopic Lenses'}
+#: .\weapon\bionics.json
+msgid ""
+"The lenses in your eyes have been surgically removed and replaced with an "
+"array of high-powered, auto-focusing lenses.  They function as integrated "
+"binoculars, letting you see much farther than before, and any mundane vision"
+" problems you might have had are now gone."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Facial Distortion"
+msgstr ""
+
+#. ~ Description for {'str': 'Facial Distortion'}
+#: .\weapon\bionics.json
+msgid ""
+"Through controlled application of electrochemical impulses, you are capable "
+"of altering your facial structure so as to subtly affect the reactions of "
+"others.  This grants a bonus to all social interactions."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Dielectric Capacitance System"
+msgstr ""
+
+#. ~ Description for {'str': 'Dielectric Capacitance System'}
+#: .\weapon\bionics.json
+msgid ""
+"Throughout your body lies a network of miniature piezoelectric capacitors "
+"which can be charged with bionic power to temporarily protect you from "
+"external electrical discharge."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Fingerhack"
+msgstr ""
+
+#. ~ Description for {'str': 'Fingerhack'}
+#: .\weapon\bionics.json
+msgid ""
+"One of your fingers has an electrohack surgically embedded in it; an all-"
+"purpose hacking unit used to override control panels and the like (but not "
+"computers).  Skill in computers is important, and a failed use may damage "
+"your circuits."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Flashbang Generator"
+msgstr ""
+
+#. ~ Description for {'str': 'Flashbang Generator'}
+#: .\weapon\bionics.json
+msgid ""
+"Light emitting diodes surgically integrated into your skin can release a "
+"flash comparable to a flashbang grenade, blinding nearby enemies.  Speakers "
+"integrated into your body mimic the loud sound, deafening those nearby."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Cranial Flashlight"
+msgstr ""
+
+#. ~ Description for {'str': 'Cranial Flashlight'}
+#: .\weapon\bionics.json
+msgid ""
+"Surgically mounted between your eyes is a small but powerful LED flashlight."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "LED Tattoo"
+msgstr ""
+
+#. ~ Description for {'str': 'LED Tattoo'}
+#: .\weapon\bionics.json
+msgid ""
+"A small LED display just beneath your dermal layer can be illuminated on "
+"command to show patterns of your choice at dim or bright luminosity.  It "
+"doesn't provide enough light to comfortably read or craft, but it can "
+"suffice if you have nothing else."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Glowy Thing"
+msgstr ""
+
+#. ~ Description for {'str': 'Glowy Thing'}
+#: .\weapon\bionics.json
+msgid ""
+"You don't think that capacitor is *meant* to glow, but it does, and usually "
+"at bad times.  A malfunctioning bionic randomly turns on and off, causing "
+"you to glow and making you visible in the dark without improving how much "
+"you can see in the slightest."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Integrated Dosimeter"
+msgstr ""
+
+#. ~ Description for {'str': 'Integrated Dosimeter'}
+#: .\weapon\bionics.json
+msgid ""
+"Small radiation sensors have been surgically implanted throughout your body,"
+" allowing you to analyze your level of absorbed radiation.  They will also "
+"alert you whenever exposed to environmental radiation."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Respirator"
+msgstr ""
+
+#. ~ Description for {'str': 'Respirator'}
+#: .\weapon\bionics.json
+msgid ""
+"A complex respiration augmentation system.  Improves respiration ability in "
+"air and allows breathing water.  Will automatically turn on when drowning.  "
+"Turn on to recharge stamina faster, at moderate power cost.  Asthmatics may "
+"also use it to stop asthma attacks."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Terranian Sonar"
+msgstr ""
+
+#. ~ Description for {'str': 'Terranian Sonar'}
+#: .\weapon\bionics.json
+msgid ""
+"Your feet are equipped with precision sonar equipment, allowing you to "
+"detect the movements of creatures below the ground, buried traps, and "
+"unstable terrain."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Heat Drain"
+msgstr ""
+
+#. ~ Description for {'str': 'Heat Drain'}
+#: .\weapon\bionics.json
+msgid ""
+"While fighting unarmed against a warm-blooded opponent, there is a chance "
+"that a successful hit will drain body heat, inflicting a small amount of "
+"extra damage, and increasing your power reserves slightly."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Thermal Dissipation"
+msgstr ""
+
+#. ~ Description for {'str': 'Thermal Dissipation'}
+#: .\weapon\bionics.json
+msgid ""
+"Powerful heatsinks and supermaterials are surgically woven into your flesh."
+"  While powered, this system will prevent heat damage up to 2000 degrees "
+"Fahrenheit.  Note that this does not affect your internal temperature."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Hydraulic Muscles"
+msgstr ""
+
+#. ~ Description for {'str': 'Hydraulic Muscles'}
+#: .\weapon\bionics.json
+msgid ""
+"While activated, your muscles will be greatly enhanced, increasing your "
+"strength by 20."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Infrared Vision"
+msgstr ""
+
+#. ~ Description for {'str': 'Infrared Vision'}
+#: .\weapon\bionics.json
+msgid ""
+"Your range of vision extends into the infrared, allowing you to see warm-"
+"blooded creatures in the dark or through smoke."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Cerebral Booster"
+msgstr ""
+
+#. ~ Description for {'str': 'Cerebral Booster'}
+#: .\weapon\bionics.json
+msgid ""
+"Your brain has been enhanced with bionic coprocessors, giving you a +2 bonus"
+" to intelligence."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Itchy Metal Thing"
+msgstr ""
+
+#. ~ Description for {'str': 'Itchy Metal Thing'}
+#: .\weapon\bionics.json
+msgid ""
+"A bionic of some sort, so badly installed that you cannot even tell what it "
+"was originally supposed to be.  Sometimes it itches horribly."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Finger-Mounted Laser"
+msgstr ""
+
+#. ~ Description for {'str': 'Finger-Mounted Laser'}
+#: .\weapon\bionics.json
+msgid ""
+"One of your fingers has a small high-powered laser surgically embedded in "
+"it.  This long range weapon is not incredibly damaging, but is very "
+"accurate, and has the potential to start fires."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Leaky Bionic"
+msgstr ""
+
+#. ~ Description for {'str': 'Leaky Bionic'}
+#: .\weapon\bionics.json
+msgid ""
+"This botched piece of bionic hardware slowly leaks electrolytic compounds, "
+"piezoelectric nanomaterials, and other high-tech contaminants into your "
+"bloodstream.  Needless to say, this is not good for your health."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Leukocyte Breeder System"
+msgstr ""
+
+#. ~ Description for {'str': 'Leukocyte Breeder System'}
+#: .\weapon\bionics.json
+msgid ""
+"You are equipped with bionic stimulators which augment your haematopoiesis "
+"system, allowing you to accelerate white blood cell production using bionic "
+"power.  It is supposed to run continuously and may cause unpleasant side "
+"effects when turned off."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Finger Lighter"
+msgstr ""
+
+#. ~ Description for {'str': 'Finger Lighter'}
+#: .\weapon\bionics.json
+msgid ""
+"The index fingers of both hands have powerful fire starters which extend "
+"from the tip."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Fingerpick"
+msgstr ""
+
+#. ~ Description for {'str': 'Fingerpick'}
+#: .\weapon\bionics.json
+msgid ""
+"One of your fingers has an electronic lockpick surgically embedded in it.  "
+"This automatic system will quickly unlock all but the most advanced key "
+"locks without any skill required on the part of the user."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Electromagnetic Unit"
+msgstr ""
+
+#. ~ Description for {'str': 'Electromagnetic Unit'}
+#: .\weapon\bionics.json
+msgid ""
+"Surgically embedded in your right hand is a powerful electromagnet, allowing"
+" you to use your own strength to pull all nearby magnetic objects towards "
+"you.  Unlucky bystanders might be injured or killed by flying objects."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Nictating Membrane"
+msgstr ""
+
+#. ~ Description for {'str': 'Nictating Membrane'}
+#: .\weapon\bionics.json
+msgid ""
+"Your eyes have a thin membrane that closes over your eyes while underwater, "
+"negating any vision penalties."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Enhanced Memory Banks"
+msgstr ""
+
+#. ~ Description for {'str': 'Enhanced Memory Banks'}
+#: .\weapon\bionics.json
+msgid ""
+"Your memory has been enhanced with small quantum storage drives.  While "
+"active, you learn - both through reading and practice - more quickly.  "
+"Additionally, you can't forget skills you've already learned."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Metabolic Interchange"
+msgstr ""
+
+#. ~ Description for {'str': 'Metabolic Interchange'}
+#: .\weapon\bionics.json
+msgid ""
+"Your digestive system and power supply are interconnected; bionic energy is "
+"replenished by burning calories.  Can be toggled on and off at will."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Weather Reader"
+msgstr ""
+
+#. ~ Description for {'str': 'Weather Reader'}
+#: .\weapon\bionics.json
+msgid ""
+"A multitude of scientific instruments and sensors collect environmental "
+"data.  The data is compiled and presented as a simple readout of the current"
+" weather.  It also passively tells you the local air temperature."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Repair Nanobots"
+msgstr ""
+
+#. ~ Description for {'str': 'Repair Nanobots'}
+#: .\weapon\bionics.json
+msgid ""
+"Inside your body is a fleet of tiny dormant robots.  While activated they "
+"will reduce the intensity of one bleed effect every 30 seconds, and heal all"
+" injured body parts by 1 HP (or broken limbs by 1%) every 2 minutes if you "
+"have 3 kJ bionic power and 5 kcal per body part.  Broken limbs must still be"
+" splinted (unless you have specific mutations) to benefit.  If you don't "
+"have enough, they will prioritize based on the resources you have."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Artificial Night Generator"
+msgstr ""
+
+#. ~ Description for {'str': 'Artificial Night Generator'}
+#: .\weapon\bionics.json
+msgid ""
+"When active, this bionic eliminates all light within a 2 tile radius through"
+" destructive interference."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Implanted Night Vision"
+msgstr ""
+
+#. ~ Description for {'str': 'Implanted Night Vision'}
+#: .\weapon\bionics.json
+msgid ""
+"When active, this bionic will amplify existing light, allowing you to see in"
+" the dark."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Noisemaker"
+msgstr ""
+
+#. ~ Description for {'str': 'Noisemaker'}
+#: .\weapon\bionics.json
+msgid ""
+"A malfunctioning bionic.  It will occasionally emit a loud burst of noise."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Bionic Nostril"
+msgstr ""
+
+#. ~ Description for {'str': 'Bionic Nostril'}
+#: .\weapon\bionics.json
+msgid ""
+"You're really not sure how the CBM ended up in your nose, but no matter how "
+"it got there this badly misplaced bionic makes it difficult to breathe.  "
+"Increases mouth encumbrance by ten."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Offensive Defense System"
+msgstr ""
+
+#. ~ Description for {'str': 'Offensive Defense System'}
+#: .\weapon\bionics.json
+msgid ""
+"A thin forcefield surrounds your body, continually draining power.  This "
+"field does not deflect attacks, but rather delivers a strong shock, damaging"
+" unarmed attackers and those with a conductive weapon."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Sensory Dulling"
+msgstr ""
+
+#. ~ Description for {'str': 'Sensory Dulling'}
+#: .\weapon\bionics.json
+msgid ""
+"Your nervous system is wired to allow you to inhibit the signals of pain, "
+"allowing you to dull your senses at will.  However, the use of this system "
+"may cause delayed reaction time and drowsiness."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Bionic Visual Impairment"
+msgstr ""
+
+#. ~ Description for {'str': 'Bionic Visual Impairment'}
+#: .\weapon\bionics.json
+msgid ""
+"Due to a badly misplaced dielectric stylette, you are now suffering from "
+"mild optic neuropathy.  Increases eye encumbrance by ten."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Power Armor Interface"
+msgstr ""
+
+#. ~ Description for {'str': 'Power Armor Interface'}
+#: .\weapon\bionics.json
+msgid ""
+"Interfaces your bionic power system with the internal charging port on suits"
+" of power armor, allowing them to draw from the user's bionic power banks.  "
+"Twice as efficient as using a UPS."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Power Armor Interface Mk. II"
+msgstr ""
+
+#. ~ Description for {'str': 'Power Armor Interface Mk. II'}
+#: .\weapon\bionics.json
+msgid ""
+"Interfaces your bionic power system with the internal charging port on suits"
+" of power armor, allowing them to draw from the user's bionic power banks.  "
+"Four times as efficient as using a UPS, the Mk. II was designed by "
+"DoubleTech Inc., to meet the popularity of the Mk. II power armor series."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Power Storage"
+msgstr ""
+
+#. ~ Description for {'str': 'Power Storage'}
+#: .\weapon\bionics.json
+msgid ""
+"A Compact Bionics Module that increases your power capacity by 100 kJ.  "
+"Having at least one of these is a prerequisite to using powered bionics.  "
+"You will also need a power supply, found in various CBMs."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Power Storage Mk. II"
+msgstr ""
+
+#. ~ Description for {'str': 'Power Storage Mk. II'}
+#: .\weapon\bionics.json
+msgid "A Compact Bionics Module that increases your power capacity by 250 kJ."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Power Overload"
+msgstr ""
+
+#. ~ Description for {'str': 'Power Overload'}
+#: .\weapon\bionics.json
+msgid ""
+"Damaged power circuits cause short-circuiting inside your muscles when your "
+"batteries are above 75% capacity, causing greatly reduced strength.  This "
+"has no effect if you have no internal batteries."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Probability Travel"
+msgstr ""
+
+#. ~ Description for {'str': 'Probability Travel'}
+#: .\weapon\bionics.json
+msgid ""
+"Increases your body's wavelength, allowing you to quantum tunnel through "
+"walls, reappearing on the other side.  Activate and select a direction to "
+"use.  Tunneling costs 100 bionic power per tile traveled through."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Air Filtration System (passive)"
+msgstr ""
+
+#. ~ Description for {'str': 'Air Filtration System (passive)'}
+#. ~ Description for {'str': 'Air Filtration System (active)'}
+#: .\weapon\bionics.json
+msgid ""
+"Surgically implanted in your trachea is an advanced filtration system.  In "
+"it's passive form it will protect you against smoke inhalation.  Once "
+"activated, it will prevent spores, toxins and diseases from being inhaled."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Air Filtration System (active)"
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Radiation Scrubber System"
+msgstr ""
+
+#. ~ Description for {'str': 'Radiation Scrubber System'}
+#: .\weapon\bionics.json
+msgid ""
+"A system of advanced piezomechanical blood filters have been surgically "
+"implanted throughout your body, allowing you to purge yourself of absorbed "
+"radiation at the cost of some bionic power.  While activated if irradiated "
+"stacks are present will remove 1 stack of irradiated every 10 minutes "
+"costing 10kJ."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Railgun"
+msgstr ""
+
+#. ~ Description for {'str': 'Railgun'}
+#: .\weapon\bionics.json
+msgid ""
+"EM field generators in your arms double the range and damage of thrown iron "
+"and steel objects at a cost of 1 power per throw, causing them to leave a "
+"trail of electricity that can cause additional damage."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Fingertip Razors"
+msgstr ""
+
+#. ~ Description for {'str': 'Fingertip Razors'}
+#: .\weapon\bionics.json
+msgid ""
+"You possess razor-sharp claws underneath your fingernails that do a small "
+"amount of unarmed slashing damage whenever your fingertips are uncovered."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Recycler Unit"
+msgstr ""
+
+#. ~ Description for {'str': 'Recycler Unit'}
+#: .\weapon\bionics.json
+msgid ""
+"Your digestive system has been outfitted with a series of filters and "
+"processors, allowing you to reclaim waste liquid and, to a lesser degree, "
+"nutrients.  The net effect is a greatly reduced need to eat and drink."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Remote Controller"
+msgstr ""
+
+#. ~ Description for {'str': 'Remote Controller'}
+#: .\weapon\bionics.json
+msgid ""
+"A small module connected to your brain allows you to interface with nearby "
+"devices with wireless capabilities."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Sonic Resonator"
+msgstr ""
+
+#. ~ Description for {'str': 'Sonic Resonator'}
+#: .\weapon\bionics.json
+msgid ""
+"Your entire body may resonate at very high power, creating a short-range "
+"shockwave.  While it will not do much damage to creatures, solid objects "
+"such as walls and doors will be damaged."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Olfactory Mask"
+msgstr ""
+
+#. ~ Description for {'str': 'Olfactory Mask'}
+#: .\weapon\bionics.json
+msgid ""
+"While this system is powered, your body will produce very little odor, "
+"making it nearly impossible for creatures to track you by scent."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Bionic Short Circuit"
+msgstr ""
+
+#. ~ Description for {'str': 'Bionic Short Circuit'}
+#: .\weapon\bionics.json
+msgid ""
+"A poorly-wired bionic which fails to serve its intended purpose, this "
+"malfunctioning device periodically short-circuits, causing systemic muscle "
+"tremors."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Synaptic Regeneration System"
+msgstr ""
+
+#. ~ Description for {'str': 'Synaptic Regeneration System'}
+#: .\weapon\bionics.json
+msgid ""
+"An electromagnetic stimulator has been surgically implanted on the back of "
+"your head and along your spine, continually draining power.  As long as it's"
+" active, you won't become sleep deprived; and if you're sleep deprived "
+"already, it will boost the rate of recovery while you sleep."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Electroshock Unit"
+msgstr ""
+
+#. ~ Description for {'str': 'Electroshock Unit'}
+#: .\weapon\bionics.json
+msgid ""
+"While fighting unarmed, or with a weapon that conducts electricity, there is"
+" a chance that a successful hit will shock your opponent, inflicting extra "
+"damage and disabling them temporarily at the cost of some energy."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Shockwave Generator"
+msgstr ""
+
+#. ~ Description for {'str': 'Shockwave Generator'}
+#: .\weapon\bionics.json
+msgid ""
+"You generate a powerful shockwave, knocking back all nearby creatures.  "
+"Targets are stunned briefly, take damage and additional stun upon impact "
+"with impassable terrain, and knockback any creatures they collide with."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Endocrine Enervator"
+msgstr ""
+
+#. ~ Description for {'str': 'Endocrine Enervator'}
+#: .\weapon\bionics.json
+msgid ""
+"Through a combination of psychochemical manipulation and old fashioned "
+"electrical nerve stimulation, this malfunctioning bionic alters your brain "
+"chemistry in such a way as to cause fatigue.  You will find yourself tiring "
+"a bit faster than before."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Motor Control Overstimulator"
+msgstr ""
+
+#. ~ Description for {'str': 'Motor Control Overstimulator'}
+#: .\weapon\bionics.json
+msgid ""
+"One piezoelectric solenoid surgically installed backwards, two crossed "
+"wires, and four burned-out capacitors later you started falling on your face"
+" and writhing around at the least convenient times.  This incorrectly-"
+"configured bionic periodically stuns you for a short duration."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Synaptic Accelerator"
+msgstr ""
+
+#. ~ Description for {'str': 'Synaptic Accelerator'}
+#: .\weapon\bionics.json
+msgid ""
+"Your nervous system has been enhanced with bionic stimulators, giving you a "
+"10% boost to your speed."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Wire-Induced Stiffness"
+msgstr ""
+
+#. ~ Description for {'str': 'Wire-Induced Stiffness'}
+#: .\weapon\bionics.json
+msgid ""
+"Improperly installed wires cause a physical stiffness in most of your body, "
+"causing increased encumbrance."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Muscle Augmentation"
+msgstr ""
+
+#. ~ Description for {'str': 'Muscle Augmentation'}
+#: .\weapon\bionics.json
+msgid ""
+"Your muscular system has been surgically enhanced with myomer fibers, giving"
+" you a +2 bonus to strength."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Autonomous Surgical Scalpels"
+msgstr ""
+
+#. ~ Description for {'str': 'Autonomous Surgical Scalpels'}
+#: .\weapon\bionics.json
+msgid ""
+"A system of surgical grade scalpels is implanted on your fingers.  They "
+"allow you to make automated precise cuts and can also be used as a high-"
+"quality butchering tool."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Anti-Glare Compensators"
+msgstr ""
+
+#. ~ Description for {'str': 'Anti-Glare Compensators'}
+#: .\weapon\bionics.json
+msgid ""
+"Your eyes have quick-reacting transition lenses surgically installed over "
+"them.  They negate glare penalties, partially protect you from bright "
+"flashes, and protect your eyes when welding."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Targeting System"
+msgstr ""
+
+#. ~ Description for {'str': 'Targeting System'}
+#: .\weapon\bionics.json
+msgid ""
+"Your eyes are surgically equipped with range finders, and their movement is "
+"synced with that of your arms, to a degree.  Shots you fire will be much "
+"more accurate, particularly at long range."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Teleportation Unit"
+msgstr ""
+
+#. ~ Description for {'str': 'Teleportation Unit'}
+#: .\weapon\bionics.json
+msgid ""
+"This highly experimental unit folds space over short distances, instantly "
+"transporting your body up to 25 feet at the cost of much power.  Note that "
+"prolonged or frequent use may have dangerous side effects."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Self-Locking Thumbs"
+msgstr ""
+
+#. ~ Description for {'str': 'Self-Locking Thumbs'}
+#: .\weapon\bionics.json
+msgid ""
+"Self-locking thumbs hold tight (even when you really don't want them to) and"
+" don't let go (even when you'd rather they did).  Increases hand encumbrance"
+" by ten, while failing to improve your ability to hold objects whatsoever."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Time Dilation"
+msgstr ""
+
+#. ~ Description for {'str': 'Time Dilation'}
+#: .\weapon\bionics.json
+msgid ""
+"At the cost of all stored bionic power, you may increase your body speed and"
+" reactions dramatically, essentially freezing time.  You are still delicate,"
+" however, and violent or rapid movements may damage you due to friction."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Integrated Toolset"
+msgstr ""
+
+#. ~ Description for {'str': 'Integrated Toolset'}
+#: .\weapon\bionics.json
+msgid ""
+"Surgically implanted in your hands and fingers is a set of tools - "
+"screwdriver, hammer, wrench, hacksaw, drill, welder, and heating elements.  "
+"You can use this in place of many tools when crafting."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Extended Toolset"
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Joint Torsion Ratchet"
+msgstr ""
+
+#. ~ Description for {'str': 'Joint Torsion Ratchet'}
+#: .\weapon\bionics.json
+msgid ""
+"Your joints have been surgically equipped with torsion ratchets that slowly "
+"generate power when you move.  Whilst this is toggled, moving will require "
+"more effort, though more power will be generated."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Joint Servo"
+msgstr ""
+
+#. ~ Description for {'str': 'Joint Servo'}
+#: .\weapon\bionics.json
+msgid ""
+"Your leg joints have been equipped with servomotors that provide power-"
+"assisted movement.  They are optimized for running, but walking also "
+"requires less effort when this bionic is online.  Even when they're offline,"
+" the servos balances your gait."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Visual Disruptor"
+msgstr ""
+
+#. ~ Description for {'str': 'Visual Disruptor'}
+#: .\weapon\bionics.json
+msgid ""
+"A malfunctioning bionic which causes occasional visual distortion and "
+"pixelation."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Uncanny Dodge"
+msgstr ""
+
+#. ~ Description for {'str': 'Uncanny Dodge'}
+#: .\weapon\bionics.json
+msgid ""
+"Your nervous system has been augmented with bionic processors, allowing you "
+"to dodge attacks beyond normal human capability, including bullets."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Internal Unified Power System"
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Voice Remodulator"
+msgstr ""
+
+#. ~ Description for {'str': 'Voice Remodulator'}
+#: .\weapon\bionics.json
+msgid ""
+"You will likely spend the rest of your days serving as a walking testament "
+"to why you don't opt for the Autodoc's 'Cyborg Identity Package'.  A "
+"remodulator unit jammed down your throat has given you a creepy robot voice."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Internal Chronometer"
+msgstr ""
+
+#. ~ Description for {'str': 'Internal Chronometer'}
+#: .\weapon\bionics.json
+msgid ""
+"You have been equipped with an internal atomic clock, ensuring that you will"
+" always know the current time.  Additionally, it includes a silent alarm "
+"clock function."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Water Extraction Unit"
+msgstr ""
+
+#. ~ Description for {'str': 'Water Extraction Unit'}
+#: .\weapon\bionics.json
+msgid ""
+"Nanotubes surgically embedded in the palm of your hand will pump any "
+"available fluid out of a dead body, cleanse it of impurities and convert it "
+"into drinkable water.  You must, however, have a container to store the "
+"water in."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Gasoline Fuel Cell CBM"
+msgstr ""
+
+#. ~ Description for {'str': 'Gasoline Fuel Cell CBM'}
+#: .\weapon\bionics.json
+msgid ""
+"A small gasoline fuel cell fixed to your scapula.  Despite its limited "
+"energy output compared to other fuel cells, this device still produces a "
+"significant amount of heat dissipated through a heat exhaust protruding from"
+" your back.  A diffuse network of bio-plastic bladders has been meshed with "
+"your circulatory system and serves as a fuel tank."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Micro Reactor"
+msgstr ""
+
+#. ~ Description for {'str': 'Micro Reactor'}
+#: .\weapon\bionics.json
+msgid ""
+"This stripped down mini-reactor generates impressive amounts of bionic power"
+" but slowly irradiates the user.  1 plutonium fuel cell provides 2500 "
+"charges producing 10kJ of power a turn, while not active & fueled provides a"
+" constant 50J of power."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Advanced Micro Reactor"
+msgstr ""
+
+#. ~ Description for {'str': 'Advanced Micro Reactor'}
+#: .\weapon\bionics.json
+msgid ""
+"This stripped down mini-reactor has been heavily modified and is more "
+"efficient and safer than the base model.  1 plutonium fuel cell provides "
+"3000 charges producing 12kJ of power a turn, while not active & fueled "
+"provides a constant 100J of power."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Micro Reactor Safety Override"
+msgstr ""
+
+#. ~ Description for {'str': 'Micro Reactor Safety Override'}
+#: .\weapon\bionics.json
+msgid ""
+"Disables the radiation safety protocols allowing for much higher energy "
+"production.  While active produces 40kJ of power a turn and 1 irradiated "
+"stack every 20 turns."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Intravenous Needletip"
+msgstr ""
+
+#. ~ Description for {'str': 'Intravenous Needletip'}
+#: .\weapon\bionics.json
+msgid ""
+"The flesh of the inside of your middle finger has been replaced with a tube "
+"leading into your arteries, with a retractable needle extending out of the "
+"tip of the finger when clenched.  This lets you pump intravenous drugs like "
+"morphine directly into your bloodstream without needing to carry a syringe."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Titanium Skeletal Bracing"
+msgstr ""
+
+#. ~ Description for {'str': 'Titanium Skeletal Bracing'}
+#: .\weapon\bionics.json
+msgid ""
+"Titanium bracing has been installed onto your elbows, knees, and spine, "
+"making them far better at handling strain.  Your carrying capacity is "
+"increased by 20 kilograms, or about 44 pounds."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Kinetic Shock Absorbers"
+msgstr ""
+
+#. ~ Description for {'str': 'Kinetic Shock Absorbers'}
+#: .\weapon\bionics.json
+msgid ""
+"Most of the flesh in your arms, legs, and upper torso has been replaced with"
+" industrial-strength springs and protective padding.  Clenching your fist "
+"allows you to fold and unfold this padding; while active, the hydraulic "
+"absorbers will prevent damage to your body from severe impacts, at the cost "
+"of impaired movement."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Taste Modifier"
+msgstr ""
+
+#. ~ Description for {'str': 'Taste Modifier'}
+#: .\weapon\bionics.json
+msgid ""
+"A set of highly sensitive sensors is installed in your mouth, and a small "
+"yet sophisticated analyzer is installed in the cavity of your skull.  The "
+"active bionic will nullify the taste of all comestibles with negative "
+"enjoyment value at the cost of draining bionic power."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Soporific Induction"
+msgstr ""
+
+#. ~ Description for {'str': 'Soporific Induction'}
+#: .\weapon\bionics.json
+msgid ""
+"An electrode has been implanted into your brain's ventrolateral preoptic "
+"nucleus.  It turns on whenever you're trying to fall asleep, creating an "
+"artificial but effective sensation of fatigue."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Solar Panels"
+msgstr ""
+
+#. ~ Description for {'str': 'Solar Panels'}
+#: .\weapon\bionics.json
+msgid ""
+"Installed on your back is a set of retractable, reinforced solar panels "
+"resembling angular butterfly wings.  When in direct sunlight, they will "
+"automatically deploy and slowly recharge your power level."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Deployable Grenade Launcher"
+msgstr ""
+
+#. ~ Description for {'str': 'Deployable Grenade Launcher'}
+#: .\weapon\bionics.json
+msgid ""
+"왼손에 유탄 발사기와 탄도계산기가 내장되어, 중거리 내 표적에 40m 유탄을 굉장히 정확하게 발사할 수 있습니다.왼손이 안으로 접히면 "
+"유탄발사기가 드러납니다."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Linguistic Coprocessor"
+msgstr ""
+
+#. ~ Description for {'str': 'Linguistic Coprocessor'}
+#: .\weapon\bionics.json
+msgid ""
+"The left hemisphere of your brain has been augmented with a microcomputer "
+"that moderately increases the speed that language and written words are "
+"processed, granting a 25% increase to reading speed."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Dopamine Stimulators"
+msgstr ""
+
+#. ~ Description for {'str': 'Dopamine Stimulators'}
+#: .\weapon\bionics.json
+msgid ""
+"Tiny cybernetic stimulators have been installed throughout your ventral "
+"tegmental area, and trigger at set intervals using bionic power.  This "
+"slowly releases a stream of reward chemicals and hormones into your brain, "
+"inducing a state of euphoria that notably elevates mood."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "Fusion Blaster Arm"
+msgstr ""
+
+#. ~ Description for {'str': 'Fusion Blaster Arm'}
+#: .\weapon\bionics.json
+msgid ""
+"Heavy-duty fusion blaster was integrated ino your left arm!  You may use "
+"your energy banks to fire a damaging heat ray."
+msgstr ""
+
+#: .\weapon\bionics.json
+msgid "테스트 바이오닉"
+msgstr ""
+
+#. ~ Description for {'str': '테스트 바이오닉'}
+#: .\weapon\bionics.json
+msgid ""
+"Installed within you is a perpetual generator powered by nonsensoleum.  When"
+" activated it's power gen doubles.  If you are seeing this, you'd better be "
+"debugging."
+msgstr ""
+
+#: .\weapon\effect.json
+msgid "베어가르기"
+msgstr ""
+
+#. ~ Description for 베어가르기
+#. ~ Description for the sound of spell '베어가르기'
+#. ~ Description for 긁기
+#. ~ Description for the sound of spell '긁기'
+#. ~ Description for 산데비스탄이펙트
+#: .\weapon\effect.json
+msgid " "
+msgstr ""
+
+#: .\weapon\effect.json
+msgid "긁기"
+msgstr ""
+
+#. ~ Description of effect '산데비스탄'.
+#: .\weapon\effect.json
+msgid "세상아 멈춰라! 너 참 아름답구나. "
+msgstr ""
+
+#. ~ Apply message for effect(s) '산데비스탄'.
+#: .\weapon\effect.json
+msgid "아주 기초적인 임플란트를 사용했다."
+msgstr ""
+
+#. ~ Remove message for effect(s) '산데비스탄'.
+#: .\weapon\effect.json
+msgid "주변 시간이 원래대로 돌아오는 느낌이다."
+msgstr ""
+
+#: .\weapon\effect.json
+msgid "산데비스탄이펙트"
+msgstr ""
+
+#: .\weapon\elec.json
+msgid "control laptop"
+msgid_plural "control laptops"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Use action msg for {'str': 'control laptop'}.
+#: .\weapon\elec.json
+msgid "로봇 제어용 노트북의 화면을 켰다."
+msgstr ""
+
+#. ~ Use action need_charges_msg for {'str': 'control laptop'}.
+#: .\weapon\elec.json
+msgid "The laptop's batteries need more charge."
+msgstr ""
+
+#. ~ Description for {'str': 'control laptop'}
+#: .\weapon\elec.json
+msgid ""
+"A modified laptop, now capable of transmitting in the ultra-high frequencies"
+" utilized by robots.  Activate it to command robots from afar."
+msgstr ""
+
+#: .\weapon\elec.json
+msgid "로봇 제어용 노트북(화면 켜짐)"
+msgid_plural "로봇 제어용 노트북(화면 켜짐)"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Use action menu_text for {'str': '로봇 제어용 노트북(화면 켜짐)', 'str_pl': '로봇 제어용
+#. 노트북(화면 켜짐)'}.
+#: .\weapon\elec.json
+msgid "Turn off"
+msgstr ""
+
+#. ~ Use action msg for {'str': '로봇 제어용 노트북(화면 켜짐)', 'str_pl': '로봇 제어용 노트북(화면
+#. 켜짐)'}.
+#: .\weapon\elec.json
+msgid "로봇 제어용 노트북의 화면을 껐다."
+msgstr ""
+
+#: .\weapon\mu.json
+msgid "BIO Claws"
+msgstr ""
+
+#. ~ Description for {'str': 'BIO Claws'}
+#: .\weapon\mu.json
+msgid "바이오닉 생체공학손톱."
+msgstr ""
+
+#: .\weapon\mu.json
+msgid "기회 포착"
+msgstr ""
+
+#. ~ Description for {'str': '기회 포착'}
+#: .\weapon\mu.json
+msgid "클로로 최대 2번 더 긁을 수 있습니다"
+msgstr ""
+
+#: .\weapon\mu.json
+msgid "당신은 %s을(를) 후려쳤다"
+msgstr ""
+
+#: .\weapon\mu.json
+msgid "%$s slaps %2$s with their claws"
+msgstr ""
+
+#: .\weapon\mu.json
+msgid "당신은 %s을(를) 클로로 긁었다"
+msgstr ""
+
+#: .\weapon\mu.json
+msgid "%$s rakes %2$s with their clasw"
+msgstr ""
+
+#: .\weapon\mu.json
+msgid "극한 기후 적응 시스템"
+msgstr ""
+
+#. ~ Description for {'str': '극한 기후 적응 시스템'}
+#: .\weapon\mu.json
+msgid "극한적인 대기온도 적응 시스템 작동중. 수분과 전력을 급격하게 소모시키니 유의하십시오."
+msgstr ""
+
+#: .\weapon\mu.json
+msgid "산성방어CBM"
+msgstr ""
+
+#. ~ Description for {'str': '산성방어CBM'}
+#. ~ Description for {'str': '산성방어CBM_발'}
+#: .\weapon\mu.json
+msgid "이걸 보고 있다면 버그입니다."
+msgstr ""
+
+#: .\weapon\mu.json
+msgid "산성방어CBM_발"
+msgstr ""
+
+#: .\weapon\toolmod.json
+msgid "ammo mod"
+msgid_plural "ammo mods"
+msgstr[0] ""
+msgstr[1] ""
