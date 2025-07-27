@@ -4,14 +4,14 @@
     "id": "style_eskrima",
     "copy-from": "style_eskrima",
     "name": { "str": "Eskrima" },
-    "weapon_category": [ "KNIVES", "BATONS", "TONFAS", "QUARTERSTAVES", "FIST_WEAPONS", "BIONIC_WEAPONRY", "SHORT_SWORDS" ]
+    "weapon_category": [ "STILETTOS", "KNIVES", "BATONS", "TONFAS", "QUARTERSTAVES", "FIST_WEAPONS", "BIONIC_WEAPONRY", "SHORT_SWORDS" ]
   },
   {
     "type": "martial_art",
     "id": "style_barbaran",
     "copy-from": "style_barbaran",
     "name": { "str": "Barbaran Montante" },
-    "weapon_category": [ "MEDIEVAL_SWORDS", "1H_HAMMERS", "2H_HAMMERS", "1H_AXES", "FLAILS", "MACES" ]
+    "weapon_category": [ "MEDIEVAL_SWORDS", "2H_SWORDS", "1H_HAMMERS", "2H_HAMMERS", "1H_AXES", "FLAILS", "MACES" ]
   },
   {
     "type": "martial_art",
@@ -21,26 +21,10 @@
     "weapon_category": [ "BATONS", "DUELING_SWORDS", "SHORT_SWORDS" ]
   },
   {
-    "type": "martial_art",
-    "id": "style_silat",
-    "copy-from": "style_silat",
-    "name": { "str": "Silat" },
-    "weapon_category": [ "KNIVES", "BATONS", "TONFAS", "QUARTERSTAVES", "SPEARS", "GLAIVES", "SHORT_SWORDS" ]
-  },
-  {
-    "type": "martial_art",
-    "id": "style_ninjutsu",
-    "copy-from": "style_ninjutsu",
-    "name": { "str": "Ninjutsu" },
-    "weapon_category": [ "1H_SWORDS", "JAPANESE_SWORDS", "BATONS", "QUARTERSTAVES", "BIONIC_WEAPONRY", "SHORT_SWORDS" ]
-  },
-  {
     "id": "rm103a_pistol",
     "copy-from": "rm103a_pistol",
     "type": "GUN",
     "name": { "str": "RM103A automagnum" },
-    "weight": "1250 g",
-    "volume": "750 ml",
 	"modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 2 ] ],
     "magazine_well": "250 ml",
     "magazines": [ [ "8x40mm", [ "8x40_25_mag", "8x40_10_mag" ] ] ]
@@ -50,11 +34,17 @@
     "copy-from": "rm2000_smg",
     "type": "GUN",
     "name": { "str": "RM2000 submachine gun" },
-    "weight": "1600 g",
-    "volume": "1 L",
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "AUTO", "auto", 4 ] ],
     "magazine_well": "250 ml",
     "magazines": [ [ "8x40mm", [ "8x40_50_mag", "8x40_100_mag", "8x40_25_mag", "8x40_10_mag" ] ] ]
+  },
+  {
+    "id": "rm99_pistol",
+    "copy-from": "rm99_pistol",
+    "type": "GUN",
+    "name": { "str": "RM99 revolver" },
+	"modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 5 ] ],
+    "ranged_damage": { "damage_type": "bullet", "amount": 30 }
   },
   {
     "type": "GENERIC",
@@ -62,49 +52,48 @@
     "copy-from": "bio_blade_weapon",
     "name": { "str": "monomolecular blade" },
 	"bashing": 8,
-    "cutting": 36,
-    "flags": [ "STAB", "UNARMED_WEAPON", "NO_DROP", "NO_UNWIELD", "UNBREAKABLE_MELEE", "TRADER_AVOID" ]
+    "cutting": 36
   },
   {
     "id": "zweihander",
     "copy-from": "zweihander",
     "type": "GENERIC",
     "name": { "str": "zweihaender" },
-    "flags": [ "DURABLE_MELEE", "REACH_ATTACK", "SHEATH_SWORD", "ALWAYS_TWOHAND" ]
+    "extend": { "flags": [ "REACH_ATTACK" ] }
   },
   {
     "id": "zweihander_fake",
     "copy-from": "zweihander_fake",
     "type": "GENERIC",
     "name": { "str": "zweihaender fake" },
-    "flags": [ "SHEATH_SWORD", "REACH_ATTACK", "ALWAYS_TWOHAND", "FRAGILE_MELEE" ]
+    "extend": { "flags": [ "REACH_ATTACK" ] }
   },
   {
     "id": "zweihander_inferior",
     "copy-from": "zweihander_inferior",
     "type": "GENERIC",
     "name": { "str": "zweihaender replica" },
-    "flags": [ "SHEATH_SWORD", "REACH_ATTACK", "ALWAYS_TWOHAND" ]
+    "extend": { "flags": [ "REACH_ATTACK" ] }
   },
   {
     "id": "nodachi",
     "type": "GENERIC",
     "copy-from": "nodachi",
     "name": { "str_sp": "nodachi" },
-    "flags": [ "REACH_ATTACK", "DURABLE_MELEE", "SHEATH_SWORD", "ALWAYS_TWOHAND", "NONCONDUCTIVE" ]
+    "extend": { "flags": [ "REACH_ATTACK" ] }
   },
   {
     "id": "nodachi_inferior",
     "type": "GENERIC",
     "copy-from": "nodachi_inferior",
     "name": { "str": "nodachi replica" },
-    "flags": [ "REACH_ATTACK", "SHEATH_SWORD", "ALWAYS_TWOHAND" ]
+    "extend": { "flags": [ "REACH_ATTACK" ] }
   },
   {
     "id": "nodachi_fake",
     "type": "GENERIC",
     "copy-from": "nodachi_fake",
     "name": { "str": "nodachi fake" },
-    "flags": [ "REACH_ATTACK", "SHEATH_SWORD", "ALWAYS_TWOHAND", "FRAGILE_MELEE" ]
+    "extend": { "flags": [ "REACH_ATTACK" ] }
   }
 ]

@@ -60,7 +60,7 @@
   },
  {
     "type": "furniture",
-    "id": "f_asf_metal_rig",
+    "id": "f_afs_metal_rig",
     "looks_like": "afs_metal_rig",
     "name": "망 연결된 메탈마스터 용광로 친구",
     "symbol": "&",
@@ -69,7 +69,7 @@
     "move_cost_mod": -1,
     "coverage": 80,
     "required_str": -1,
-    "crafting_pseudo_item": [ "fake_gridkiln", "fake_griddsolderingiron", "fake_gridforge", "fake_gridwelder" ],
+    "crafting_pseudo_item": [ "fake_gridkiln", "fake_gridsolderingiron", "fake_gridforge", "fake_gridwelder" ],
     "flags": [ "BLOCKSDOOR", "MINEABLE", "EASY_DECONSTRUCT" ],
     "examine_action": "use_furn_fake_item",
     "deconstruct": { "items": [ { "item": "afs_metal_rig", "count": 1 }, { "item": "cable", "charges": 5 } ] },

@@ -1,0 +1,1195 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: BPG\n"
+"POT-Creation-Date: 2025-07-06 04:00+0900\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: .\modinfo.json
+msgid "기괴하고도 강력한 장비들"
+msgstr ""
+
+#. ~ Description for 기괴하고도 강력한 장비들
+#: .\modinfo.json
+msgid "기괴하고도 강력한 최종 장비들을 추가합니다."
+msgstr ""
+
+#: .\armors\bpg_armors.json
+msgid "RM13-U 컴뱃 아머"
+msgid_plural "RM13-U 컴뱃 아머"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'RM13-U 컴뱃 아머', 'str_pl': 'RM13-U 컴뱃 아머'}
+#: .\armors\bpg_armors.json
+msgid ""
+"UPS를 쓸 줄 모르는 서툰 친구들을 위해 리브텍 사의 RM13 컴뱃 아머를 불법 개조해 발전기를 내장했습니다만, 무게와 방해도가 꽤나 "
+"늘었습니다."
+msgstr ""
+
+#: .\armors\bpg_armors.json
+msgid "RM13-X 시험용 벨트"
+msgid_plural "RM13-X 시험용 벨트"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Use action msg for {'str': 'RM13-X 시험용 벨트', 'str_pl': 'RM13-X 시험용 벨트'}.
+#: .\armors\bpg_armors.json
+msgid ""
+"RM13-X 변신 모듈을 가동합니다.\n"
+"푸-드 라이더!"
+msgstr ""
+
+#. ~ Description for {'str': 'RM13-X 시험용 벨트', 'str_pl': 'RM13-X 시험용 벨트'}
+#: .\armors\bpg_armors.json
+msgid ""
+"어마어마한 부품들이 응축된 벨트입니다. 사용하면 어떻게 될까요..?\n"
+"어디선가 본듯한 장난감같은 외관을 하고 있지만 신경쓰지 맙시다."
+msgstr ""
+
+#: .\armors\bpg_armors.json
+msgid "RM13-X 변신 무장"
+msgid_plural "RM13-X 변신 무장"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Use action menu_text for {'str': 'RM13-X 변신 무장', 'str_pl': 'RM13-X 변신
+#. 무장'}.
+#. ~ Use action menu_text for {'str': '파워 아머-M (켜짐)', 'str_pl': '파워 아머-M
+#. (켜짐)'}.
+#. ~ Use action menu_text for {'str': '파워 아머-M Mk.II (켜짐)', 'str_pl': '파워 아머-M
+#. Mk.II (켜짐)'}.
+#. ~ Use action menu_text for {'str': '파워 아머-M Mk.III (켜짐)', 'str_pl': '파워
+#. 아머-M Mk.III (켜짐)'}.
+#. ~ Use action menu_text for {'str': '파워 아머-MX (켜짐)', 'str_pl': '파워 아머-MX
+#. (켜짐)'}.
+#. ~ Use action menu_text for {'str': '파워 아머-MX-A (켜짐)', 'str_pl': '파워 아머-MX-A
+#. (켜짐)'}.
+#. ~ Use action menu_text for {'str': '파워 아머-MX-B (켜짐)', 'str_pl': '파워 아머-MX-B
+#. (켜짐)'}.
+#. ~ Use action menu_text for {'str': '파워 아머-M 파워암 (켜짐)', 'str_pl': '파워 아머-M
+#. 파워암 (켜짐)'}.
+#. ~ Use action menu_text for {'str': '파워 아머-M 파워암 Mk.II (켜짐)', 'str_pl': '파워
+#. 아머-M 파워암 Mk.II (켜짐)'}.
+#. ~ Use action menu_text for {'str': '파워 아머-M 파워암 Mk.III (켜짐)', 'str_pl': '파워
+#. 아머-M 파워암 Mk.III (켜짐)'}.
+#. ~ Use action menu_text for {'str': '파워 아머-MX 파워암 (켜짐)', 'str_pl': '파워 아머-MX
+#. 파워암 (켜짐)'}.
+#. ~ Use action menu_text for {'str': '파워 아머-MX-A 파워암 (켜짐)', 'str_pl': '파워 아머-
+#. MX-A 파워암 (켜짐)'}.
+#. ~ Use action menu_text for {'str': '파워 아머-M 파워부츠 (켜짐)', 'str_pl': '파워 아머-M
+#. 파워부츠 (켜짐)'}.
+#. ~ Use action menu_text for {'str': '파워 아머-M 파워부츠 Mk.II (켜짐)', 'str_pl': '파워
+#. 아머-M 파워부츠 Mk.II (켜짐)'}.
+#. ~ Use action menu_text for {'str': '파워 아머-M 파워부츠 Mk.III (켜짐)', 'str_pl':
+#. '파워 아머-M 파워부츠 Mk.III (켜짐)'}.
+#. ~ Use action menu_text for {'str': '파워 아머-MX 파워부츠 (켜짐)', 'str_pl': '파워 아머-
+#. MX 파워부츠 (켜짐)'}.
+#. ~ Use action menu_text for {'str': '파워 아머-MX-A 파워부츠 (켜짐)', 'str_pl': '파워
+#. 아머-MX-A 파워부츠 (켜짐)'}.
+#. ~ Use action menu_text for {'str': '파워 아머-M 헬멧 (켜짐)', 'str_pl': '파워 아머-M 헬멧
+#. (켜짐)'}.
+#. ~ Use action menu_text for {'str': '파워 아머-M 헬멧 Mk.II (켜짐)', 'str_pl': '파워
+#. 아머-M 헬멧 Mk.II (켜짐)'}.
+#. ~ Use action menu_text for {'str': '파워 아머-M 헬멧 Mk.III (켜짐)', 'str_pl': '파워
+#. 아머-M 헬멧 Mk.III (켜짐)'}.
+#. ~ Use action menu_text for {'str': '파워 아머-MX 헬멧 (켜짐)', 'str_pl': '파워 아머-MX
+#. 헬멧 (켜짐)'}.
+#. ~ Use action menu_text for {'str': '파워 아머-MX-A 헬멧 (켜짐)', 'str_pl': '파워 아머-
+#. MX-A 헬멧 (켜짐)'}.
+#. ~ Use action menu_text for XM00 추방자 (켜짐).
+#. ~ Use action menu_text for 싼데 비슷한 추방자 (켜짐).
+#: .\armors\bpg_armors.json .\armors\bpg_marmor.json .\armors\bpg_marms.json
+#: .\armors\bpg_mboots.json .\armors\bpg_mhelmet.json .\items\bpg_tools.json
+msgid "Turn off"
+msgstr ""
+
+#. ~ Use action msg for {'str': 'RM13-X 변신 무장', 'str_pl': 'RM13-X 변신 무장'}.
+#: .\armors\bpg_armors.json
+msgid "변신을 해제합니다."
+msgstr ""
+
+#. ~ Description for {'str': 'RM13-X 변신 무장', 'str_pl': 'RM13-X 변신 무장'}
+#: .\armors\bpg_armors.json
+msgid "RM13-X 시험용 벨트를 작동해, 내부에 숨겨진 변신 모듈을 완전히 해방했습니다. 멋지군요!"
+msgstr ""
+
+#: .\armors\bpg_armors.json
+msgid "푸드-라이더!"
+msgstr ""
+
+#. ~ Description for {'str': '푸드-라이더!'}
+#: .\armors\bpg_armors.json
+msgid "당신은 푸드플레이스™의 위대한 영웅 푸드-라이더로 변신했습니다!"
+msgstr ""
+
+#: .\armors\bpg_marmor.json
+msgid "파워 아머-M"
+msgid_plural "파워 아머-M"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Use action msg for {'str': '파워 아머-M', 'str_pl': '파워 아머-M'}.
+#. ~ Use action msg for {'str': '파워 아머-M Mk.II', 'str_pl': '파워 아머-M Mk.II'}.
+#. ~ Use action msg for {'str': '파워 아머-M Mk.III', 'str_pl': '파워 아머-M Mk.III'}.
+#. ~ Use action msg for {'str': '파워 아머-MX', 'str_pl': '파워 아머-MX'}.
+#. ~ Use action msg for {'str': '파워 아머-MX-A', 'str_pl': '파워 아머-MX-A'}.
+#. ~ Use action msg for {'str': '파워 아머-MX-B', 'str_pl': '파워 아머-MX-B'}.
+#: .\armors\bpg_marmor.json
+msgid ""
+"* Power Armor Control OS\n"
+"* 기동 시퀀스 진행..."
+msgstr ""
+
+#. ~ Description for {'str': '파워 아머-M', 'str_pl': '파워 아머-M'}
+#. ~ Description for {'str': '파워 아머-M 파워암', 'str_pl': '파워 아머-M 파워암'}
+#. ~ Description for {'str': '파워 아머-M 파워부츠', 'str_pl': '파워 아머-M 파워부츠'}
+#. ~ Description for {'str': '파워 아머-M 헬멧', 'str_pl': '파워 아머-M 헬멧'}
+#: .\armors\bpg_marmor.json .\armors\bpg_marms.json .\armors\bpg_mboots.json
+#: .\armors\bpg_mhelmet.json
+msgid "기본적인 기능만 내장된 모듈형 파워 아머의 시작기입니다."
+msgstr ""
+
+#: .\armors\bpg_marmor.json
+msgid "파워 아머-M (켜짐)"
+msgid_plural "파워 아머-M (켜짐)"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Use action msg for {'str': '파워 아머-M (켜짐)', 'str_pl': '파워 아머-M (켜짐)'}.
+#. ~ Use action msg for {'str': '파워 아머-M Mk.II (켜짐)', 'str_pl': '파워 아머-M Mk.II
+#. (켜짐)'}.
+#. ~ Use action msg for {'str': '파워 아머-M Mk.III (켜짐)', 'str_pl': '파워 아머-M
+#. Mk.III (켜짐)'}.
+#. ~ Use action msg for {'str': '파워 아머-MX (켜짐)', 'str_pl': '파워 아머-MX (켜짐)'}.
+#. ~ Use action msg for {'str': '파워 아머-MX-A (켜짐)', 'str_pl': '파워 아머-MX-A
+#. (켜짐)'}.
+#. ~ Use action msg for {'str': '파워 아머-MX-B (켜짐)', 'str_pl': '파워 아머-MX-B
+#. (켜짐)'}.
+#: .\armors\bpg_marmor.json
+msgid ""
+"* Power Armor Control OS\n"
+"* 종료 시퀀스 진행..."
+msgstr ""
+
+#. ~ Description for {'str': '파워 아머-M (켜짐)', 'str_pl': '파워 아머-M (켜짐)'}
+#. ~ Description for {'str': '파워 아머-M 파워암 (켜짐)', 'str_pl': '파워 아머-M 파워암 (켜짐)'}
+#. ~ Description for {'str': '파워 아머-M 파워부츠 (켜짐)', 'str_pl': '파워 아머-M 파워부츠
+#. (켜짐)'}
+#. ~ Description for {'str': '파워 아머-M 헬멧 (켜짐)', 'str_pl': '파워 아머-M 헬멧 (켜짐)'}
+#: .\armors\bpg_marmor.json .\armors\bpg_marms.json .\armors\bpg_mboots.json
+#: .\armors\bpg_mhelmet.json
+msgid "기본적인 기능만 내장된 모듈형 파워 아머의 시작기입니다. 현재 작동 중입니다."
+msgstr ""
+
+#: .\armors\bpg_marmor.json
+msgid "파워 아머-M Mk.II"
+msgid_plural "파워 아머-M Mk.II"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': '파워 아머-M Mk.II', 'str_pl': '파워 아머-M Mk.II'}
+#: .\armors\bpg_marmor.json
+msgid ""
+"강철판과 납을 덧대 방사능 방호 기능을 추가하고, 내부에 콘덴서를 내장하여 외부 온도 영향과 수분의 소모량을 감소시키는 기능을 추가한 "
+"파워 아머-M의 Mk.II 모델입니다. 덕분에 꽤나 무겁고 불편해졌습니다."
+msgstr ""
+
+#: .\armors\bpg_marmor.json
+msgid "파워 아머-M Mk.II (켜짐)"
+msgid_plural "파워 아머-M Mk.II (켜짐)"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': '파워 아머-M Mk.II (켜짐)', 'str_pl': '파워 아머-M Mk.II
+#. (켜짐)'}
+#: .\armors\bpg_marmor.json
+msgid ""
+"강철판과 납을 덧대 방사능 방호 기능을 추가하고, 내부에 콘덴서를 내장하여 외부 온도 영향과 수분의 소모량을 감소시키는 기능을 추가한 "
+"파워 아머-M의 Mk.II 모델입니다. 덕분에 꽤나 무겁고 불편해졌습니다. 현재 작동 중입니다."
+msgstr ""
+
+#: .\armors\bpg_marmor.json
+msgid "파워 아머-M Mk.III"
+msgid_plural "파워 아머-M Mk.III"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': '파워 아머-M Mk.III', 'str_pl': '파워 아머-M Mk.III'}
+#: .\armors\bpg_marmor.json
+msgid ""
+"군용으로 사용되는 외골격의 프레임을 결합해 모터를 강화해 하중 분산 능력을 강화한 파워 아머-M Mk.III 입니다. 하는 김에 깜빡한 "
+"온도계도 설치하고 프레임 교체로 약간의 경량화에도 성공했죠!"
+msgstr ""
+
+#: .\armors\bpg_marmor.json
+msgid "파워 아머-M Mk.III (켜짐)"
+msgid_plural "파워 아머-M Mk.III (켜짐)"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': '파워 아머-M Mk.III (켜짐)', 'str_pl': '파워 아머-M Mk.III
+#. (켜짐)'}
+#: .\armors\bpg_marmor.json
+msgid ""
+"군용으로 사용되는 외골격의 프레임을 결합해 하중 부하를 경감시킨 파워 아머-M Mk.III 입니다. 하는 김에 깜빡한 온도계도 설치하고 "
+"프레임 교체로 약간의 경량화에도 성공했죠! 현재 작동 중입니다."
+msgstr ""
+
+#: .\armors\bpg_marmor.json
+msgid "파워 아머-MX"
+msgid_plural "파워 아머-MX"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': '파워 아머-MX', 'str_pl': '파워 아머-MX'}
+#: .\armors\bpg_marmor.json
+msgid ""
+"XEDRA의 기술로 대폭 강화한 파워 아머-MX 파워부츠입니다. 장갑은 두꺼워졌으나 무게와 방해도는 훨씬 더 개선된 그야말로 근미래 "
+"기술의 집약체죠. 또한, 가동 시 강력한 차폐막으로 더 이상 외부의 온도에 영향을 받지 않게 됩니다."
+msgstr ""
+
+#: .\armors\bpg_marmor.json
+msgid "파워 아머-MX (켜짐)"
+msgid_plural "파워 아머-MX (켜짐)"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': '파워 아머-MX (켜짐)', 'str_pl': '파워 아머-MX (켜짐)'}
+#: .\armors\bpg_marmor.json
+msgid ""
+"XEDRA의 기술로 대폭 강화한 파워 아머-MX 파워부츠입니다. 장갑은 두꺼워졌으나 무게와 방해도는 훨씬 더 개선된 그야말로 근미래 "
+"기술의 집약체죠. 또한, 가동 시 강력한 차폐막으로 더 이상 외부의 온도에 영향을 받지 않게 됩니다. 현재 작동 중입니다."
+msgstr ""
+
+#: .\armors\bpg_marmor.json
+msgid "파워 아머-MX-A"
+msgid_plural "파워 아머-MX-A"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': '파워 아머-MX-A', 'str_pl': '파워 아머-MX-A'}
+#: .\armors\bpg_marmor.json
+msgid ""
+"5점식 고정기구를 이식해 이계의 힘에 대항할 수 있게 개조한 파워 아머-MX-A 입니다. 또한 신체 감각이 예민해져 지각력이 증가합니다."
+" 물론 이 모든 능력은 파워 아머가 가동될때에만 작동합니다."
+msgstr ""
+
+#: .\armors\bpg_marmor.json
+msgid "파워 아머-MX-A (켜짐)"
+msgid_plural "파워 아머-MX-A (켜짐)"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': '파워 아머-MX-A (켜짐)', 'str_pl': '파워 아머-MX-A (켜짐)'}
+#: .\armors\bpg_marmor.json
+msgid ""
+"5점식 고정기구를 이식해 이계의 힘에 대항할 수 있게 개조한 파워 아머-MX-A 입니다. 또한 신체 감각이 예민해져 지각력이 증가합니다."
+" 현재 작동 중입니다."
+msgstr ""
+
+#: .\armors\bpg_marmor.json
+msgid "파워 아머 메인 OS"
+msgstr ""
+
+#. ~ Description for {'str': '파워 아머 메인 OS'}
+#: .\armors\bpg_marmor.json
+msgid ""
+"파워 아머가 사용자의 신체 상태를 스캐닝하고 관리하여 언제나 최적의 상태를 유지할 수 있게 해줍니다. 이로 인해 스태미나 재생력이 크게 "
+"증가하고, 속도와 지각력이 대폭 증가합니다. 또한 파워 아머의 방어력을 상회하는 피해를 입더라도 이를 치유하고 복구하기 위한 관리 체계가"
+" 내장되었습니다."
+msgstr ""
+
+#: .\armors\bpg_marmor.json
+msgid "파워 아머-MX-B"
+msgid_plural "파워 아머-MX-B"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': '파워 아머-MX-B', 'str_pl': '파워 아머-MX-B'}
+#: .\armors\bpg_marmor.json
+msgid ""
+"대량의 퓨전 코어와 축전지를 이용해 에너지 효율성을 대폭 증가시킨 파워 아머-MX-B 입니다. 또한 파워 아머에 내장된 AI가 사용자의 "
+"신체 상태를 직접적으로 관리하고 보조해 신체 능력이 대폭 증가합니다."
+msgstr ""
+
+#: .\armors\bpg_marmor.json
+msgid "파워 아머-MX-B (켜짐)"
+msgid_plural "파워 아머-MX-B (켜짐)"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': '파워 아머-MX-B (켜짐)', 'str_pl': '파워 아머-MX-B (켜짐)'}
+#: .\armors\bpg_marmor.json
+msgid ""
+"대량의 퓨전 코어와 축전지를 이용해 에너지 효율성을 대폭 증가시킨 파워 아머-MX-B 입니다. 또한 파워 아머에 내장된 AI가 사용자의 "
+"신체 상태를 직접적으로 관리하고 보조해 신체 능력이 대폭 증가합니다. 현재 작동 중입니다."
+msgstr ""
+
+#: .\armors\bpg_marms.json
+msgid "파워 아머-M 파워암"
+msgid_plural "파워 아머-M 파워암"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Use action msg for {'str': '파워 아머-M 파워암', 'str_pl': '파워 아머-M 파워암'}.
+#. ~ Use action msg for {'str': '파워 아머-M 파워암 Mk.II', 'str_pl': '파워 아머-M 파워암
+#. Mk.II'}.
+#. ~ Use action msg for {'str': '파워 아머-M 파워암 Mk.III', 'str_pl': '파워 아머-M 파워암
+#. Mk.III'}.
+#. ~ Use action msg for {'str': '파워 아머-MX 파워암', 'str_pl': '파워 아머-MX 파워암'}.
+#. ~ Use action msg for {'str': '파워 아머-MX-A 파워암', 'str_pl': '파워 아머-MX-A 파워암'}.
+#: .\armors\bpg_marms.json
+msgid "* 파워암 모듈 동기화 중..."
+msgstr ""
+
+#: .\armors\bpg_marms.json
+msgid "파워 아머-M 파워암 (켜짐)"
+msgid_plural "파워 아머-M 파워암 (켜짐)"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Use action msg for {'str': '파워 아머-M 파워암 (켜짐)', 'str_pl': '파워 아머-M 파워암
+#. (켜짐)'}.
+#. ~ Use action msg for {'str': '파워 아머-M 파워암 Mk.II (켜짐)', 'str_pl': '파워 아머-M
+#. 파워암 Mk.II (켜짐)'}.
+#. ~ Use action msg for {'str': '파워 아머-M 파워암 Mk.III (켜짐)', 'str_pl': '파워 아머-M
+#. 파워암 Mk.III (켜짐)'}.
+#. ~ Use action msg for {'str': '파워 아머-MX 파워암 (켜짐)', 'str_pl': '파워 아머-MX 파워암
+#. (켜짐)'}.
+#. ~ Use action msg for {'str': '파워 아머-MX-A 파워암 (켜짐)', 'str_pl': '파워 아머-MX-A
+#. 파워암 (켜짐)'}.
+#: .\armors\bpg_marms.json
+msgid "* 파워암 모듈 동기화 해제됨"
+msgstr ""
+
+#: .\armors\bpg_marms.json
+msgid "파워 아머 암 모듈"
+msgstr ""
+
+#. ~ Description for {'str': '파워 아머 암 모듈'}
+#: .\armors\bpg_marms.json
+msgid "파워 아머에 내장된 강력한 모터가 펀치의 파괴력을 끌어올려줍니다. 비무장 전투 시의 타격 피해가 약간 증가합니다."
+msgstr ""
+
+#: .\armors\bpg_marms.json
+msgid "파워 아머-M 파워암 Mk.II"
+msgid_plural "파워 아머-M 파워암 Mk.II"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': '파워 아머-M 파워암 Mk.II', 'str_pl': '파워 아머-M 파워암
+#. Mk.II'}
+#: .\armors\bpg_marms.json
+msgid ""
+"공격을 막아낼 수 있도록 장갑을 보강했으며, 조금 더 유연한 동작이 가능하도록 모터를 보강한 파워 아머-M 파워암 Mk.II 입니다. "
+"이제 조금 더 편리하게 비무장 전투가 가능합니다."
+msgstr ""
+
+#: .\armors\bpg_marms.json
+msgid "파워 아머-M 파워암 Mk.II (켜짐)"
+msgid_plural "파워 아머-M 파워암 Mk.II (켜짐)"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': '파워 아머-M 파워암 Mk.II (켜짐)', 'str_pl': '파워 아머-M 파워암
+#. Mk.II (켜짐)'}
+#: .\armors\bpg_marms.json
+msgid ""
+"공격을 막아낼 수 있도록 장갑을 보강했으며, 조금 더 유연한 동작이 가능하도록 모터를 보강한 파워 아머-M 파워암 Mk.II 입니다. "
+"이제 조금 더 편리하게 비무장 전투가 가능합니다. 현재 작동 중입니다."
+msgstr ""
+
+#: .\armors\bpg_marms.json
+msgid "파워 아머-M 파워암 Mk.III"
+msgid_plural "파워 아머-M 파워암 Mk.III"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': '파워 아머-M 파워암 Mk.III', 'str_pl': '파워 아머-M 파워암
+#. Mk.III'}
+#: .\armors\bpg_marms.json
+msgid ""
+"산업용 외골격의 유압 장치를 차용해 사용자의 근력을 보강해주는 시스템을 추가한 파워 아머-M 파워암 Mk.III 입니다. 가동 시 "
+"사용자에게 약간의 근력을 조금 더 더해줍니다."
+msgstr ""
+
+#: .\armors\bpg_marms.json
+msgid "파워 아머-M 파워암 Mk.III (켜짐)"
+msgid_plural "파워 아머-M 파워암 Mk.III (켜짐)"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': '파워 아머-M 파워암 Mk.III (켜짐)', 'str_pl': '파워 아머-M 파워암
+#. Mk.III (켜짐)'}
+#: .\armors\bpg_marms.json
+msgid ""
+"산업용 외골격의 유압 장치를 차용해 사용자의 근력을 보강해주는 시스템을 추가한 파워 아머-M 파워암 Mk.III 입니다. 가동 시 "
+"사용자에게 약간의 근력을 조금 더 더해줍니다. 현재 작동 중입니다."
+msgstr ""
+
+#. ~ Description for {'str': '파워 아머 암 모듈'}
+#: .\armors\bpg_marms.json
+msgid ""
+"파워 아머에 내장된 강력한 유압 시스템이 펀치로 모든 것을 파괴할 수 있게 해줍니다. 비무장 전투 시의 타격 피해가 아주 크게 "
+"증가합니다."
+msgstr ""
+
+#: .\armors\bpg_marms.json
+msgid "파워 아머-MX 파워암"
+msgid_plural "파워 아머-MX 파워암"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': '파워 아머-MX 파워암', 'str_pl': '파워 아머-MX 파워암'}
+#: .\armors\bpg_marms.json
+msgid ""
+"XEDRA의 기술로 대폭 강화한 파워 아머-MX 파워암입니다. 장갑은 두꺼워졌으나 무게와 방해도는 훨씬 더 개선된 그야말로 근미래 기술의"
+" 집약체죠. 또한 이계의 산물로 유압 모터를 개선해 더욱 더 강력한 힘을 발휘할 수 있게 되었습니다."
+msgstr ""
+
+#: .\armors\bpg_marms.json
+msgid "파워 아머-MX 파워암 (켜짐)"
+msgid_plural "파워 아머-MX 파워암 (켜짐)"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': '파워 아머-MX 파워암 (켜짐)', 'str_pl': '파워 아머-MX 파워암
+#. (켜짐)'}
+#: .\armors\bpg_marms.json
+msgid ""
+"XEDRA의 기술로 대폭 강화한 파워 아머-MX 파워암입니다. 장갑은 두꺼워졌으나 무게와 방해도는 훨씬 더 개선된 그야말로 근미래 기술의"
+" 집약체죠. 또한 이계의 산물로 유압 모터를 개선해 더욱 더 강력한 힘을 발휘할 수 있게 되었습니다. 현재 작동 중입니다."
+msgstr ""
+
+#: .\armors\bpg_marms.json
+msgid "파워 아머-MX-A 파워암"
+msgid_plural "파워 아머-MX-A 파워암"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': '파워 아머-MX-A 파워암', 'str_pl': '파워 아머-MX-A 파워암'}
+#: .\armors\bpg_marms.json
+msgid ""
+"퓨전 코어를 추가로 내장해 자체 생산 전력만으로 파워암이 요구하는 전력을 모두 충당할 수 있게 개선한 파워 아머-MX-A 파워암입니다. "
+"거기다 장갑판을 경량화해 방해도를 낮추고, 모터를 개선하여 신속한 동작이 가능하게 해줍니다."
+msgstr ""
+
+#: .\armors\bpg_marms.json
+msgid "파워 아머-MX-A 파워암 (켜짐)"
+msgid_plural "파워 아머-MX-A 파워암 (켜짐)"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': '파워 아머-MX-A 파워암 (켜짐)', 'str_pl': '파워 아머-MX-A 파워암
+#. (켜짐)'}
+#: .\armors\bpg_marms.json
+msgid ""
+"퓨전 코어를 추가로 내장해 자체 생산 전력만으로 파워암이 요구하는 전력을 모두 충당할 수 있게 개선한 파워 아머-MX-A 파워암입니다. "
+"거기다 장갑판을 경량화해 방해도를 낮추고, 모터를 개선하여 신속한 동작이 가능하게 해줍니다. 현재 작동 중입니다."
+msgstr ""
+
+#: .\armors\bpg_mboots.json
+msgid "파워 아머-M 파워부츠"
+msgid_plural "파워 아머-M 파워부츠"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Use action msg for {'str': '파워 아머-M 파워부츠', 'str_pl': '파워 아머-M 파워부츠'}.
+#. ~ Use action msg for {'str': '파워 아머-M 파워부츠 Mk.II', 'str_pl': '파워 아머-M 파워부츠
+#. Mk.II'}.
+#. ~ Use action msg for {'str': '파워 아머-M 파워부츠 Mk.III', 'str_pl': '파워 아머-M 파워부츠
+#. Mk.III'}.
+#. ~ Use action msg for {'str': '파워 아머-MX 파워부츠', 'str_pl': '파워 아머-MX 파워부츠'}.
+#. ~ Use action msg for {'str': '파워 아머-MX-A 파워부츠', 'str_pl': '파워 아머-MX-A
+#. 파워부츠'}.
+#: .\armors\bpg_mboots.json
+msgid "* 파워부츠 모듈 동기화 중..."
+msgstr ""
+
+#: .\armors\bpg_mboots.json
+msgid "파워 아머-M 파워부츠 (켜짐)"
+msgid_plural "파워 아머-M 파워부츠 (켜짐)"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Use action msg for {'str': '파워 아머-M 파워부츠 (켜짐)', 'str_pl': '파워 아머-M 파워부츠
+#. (켜짐)'}.
+#. ~ Use action msg for {'str': '파워 아머-M 파워부츠 Mk.II (켜짐)', 'str_pl': '파워 아머-M
+#. 파워부츠 Mk.II (켜짐)'}.
+#. ~ Use action msg for {'str': '파워 아머-M 파워부츠 Mk.III (켜짐)', 'str_pl': '파워 아머-M
+#. 파워부츠 Mk.III (켜짐)'}.
+#. ~ Use action msg for {'str': '파워 아머-MX 파워부츠 (켜짐)', 'str_pl': '파워 아머-MX 파워부츠
+#. (켜짐)'}.
+#. ~ Use action msg for {'str': '파워 아머-MX-A 파워부츠 (켜짐)', 'str_pl': '파워 아머-MX-A
+#. 파워부츠 (켜짐)'}.
+#: .\armors\bpg_mboots.json
+msgid "* 파워부츠 모듈 동기화 해제 중..."
+msgstr ""
+
+#: .\armors\bpg_mboots.json
+msgid "파워 아머-M 파워부츠 Mk.II"
+msgid_plural "파워 아머-M 파워부츠 Mk.II"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': '파워 아머-M 파워부츠 Mk.II', 'str_pl': '파워 아머-M 파워부츠
+#. Mk.II'}
+#: .\armors\bpg_mboots.json
+msgid ""
+"장갑판을 보강하고, 약간의 부품과 공학적인 트릭을 이용해 치명적인 전기 공격에 대응할 수 있는 접지 기능을 추가한 파워 아머-M 파워부츠"
+" Mk.II 입니다."
+msgstr ""
+
+#: .\armors\bpg_mboots.json
+msgid "파워 아머-M 파워부츠 Mk.II (켜짐)"
+msgid_plural "파워 아머-M 파워부츠 Mk.II (켜짐)"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': '파워 아머-M 파워부츠 Mk.II (켜짐)', 'str_pl': '파워 아머-M
+#. 파워부츠 Mk.II (켜짐)'}
+#: .\armors\bpg_mboots.json
+msgid ""
+"장갑판을 보강하고, 약간의 부품과 공학적인 트릭을 이용해 치명적인 전기 공격에 대응할 수 있는 접지 기능을 추가한 파워 아머-M 파워부츠"
+" Mk.II 입니다. 현재 작동 중입니다."
+msgstr ""
+
+#: .\armors\bpg_mboots.json
+msgid "파워 아머-M 파워부츠 Mk.III"
+msgid_plural "파워 아머-M 파워부츠 Mk.III"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': '파워 아머-M 파워부츠 Mk.III', 'str_pl': '파워 아머-M 파워부츠
+#. Mk.III'}
+#: .\armors\bpg_mboots.json
+msgid ""
+"민수용 외골격의 모터를 결합하여 기동성을 보강하고, 약간의 경량화를 거친 파워 아머-M 파워부츠 Mk.III 입니다. 그다지 효율적이지는"
+" 않습니다..."
+msgstr ""
+
+#: .\armors\bpg_mboots.json
+msgid "파워 아머-M 파워부츠 Mk.III (켜짐)"
+msgid_plural "파워 아머-M 파워부츠 Mk.III (켜짐)"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': '파워 아머-M 파워부츠 Mk.III (켜짐)', 'str_pl': '파워 아머-M
+#. 파워부츠 Mk.III (켜짐)'}
+#: .\armors\bpg_mboots.json
+msgid ""
+"민수용 외골격의 모터를 결합하여 기동성을 보강하고, 약간의 경량화를 거친 파워 아머-M 파워부츠 Mk.III 입니다. 그다지 효율적이지는"
+" 않습니다... 현재 작동 중입니다."
+msgstr ""
+
+#: .\armors\bpg_mboots.json
+msgid "파워 아머-MX 파워부츠"
+msgid_plural "파워 아머-MX 파워부츠"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': '파워 아머-MX 파워부츠', 'str_pl': '파워 아머-MX 파워부츠'}
+#: .\armors\bpg_mboots.json
+msgid ""
+"XEDRA의 기술로 대폭 강화한 파워 아머-MX 파워부츠입니다. 장갑은 두꺼워졌으나 무게와 방해도는 훨씬 더 개선된 그야말로 근미래 "
+"기술의 집약체죠. 퓨전 코어를 내장하여 자체 전력으로 구동할 수 있게 되었으며, 신체 부위가 변형되어 있더라도 필요에 따라 각 파츠가 "
+"자연스럽게 개폐되는 구조로 개선되었습니다. "
+msgstr ""
+
+#: .\armors\bpg_mboots.json
+msgid "파워 아머-MX 파워부츠 (켜짐)"
+msgid_plural "파워 아머-MX 파워부츠 (켜짐)"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': '파워 아머-MX 파워부츠 (켜짐)', 'str_pl': '파워 아머-MX 파워부츠
+#. (켜짐)'}
+#: .\armors\bpg_mboots.json
+msgid ""
+"XEDRA의 기술로 대폭 강화한 파워 아머-MX 파워부츠입니다. 장갑은 두꺼워졌으나 무게와 방해도는 훨씬 더 개선된 그야말로 근미래 "
+"기술의 집약체죠. 퓨전 코어를 내장하여 자체 전력으로 구동할 수 있게 되었으며, 신체 부위가 변형되어있더라도 필요에 따라 각 파츠가 "
+"자연스럽게 개폐되는 구조로 개선되었습니다. 현재 작동 중입니다."
+msgstr ""
+
+#: .\armors\bpg_mboots.json
+msgid "파워 아머 부츠 모듈"
+msgstr ""
+
+#. ~ Description for {'str': '파워 아머 부츠 모듈'}
+#: .\armors\bpg_mboots.json
+msgid ""
+"파워 아머에 내장된 AI가 최적의 움직임을 계산 및 보조해줍니다. 평지가 아닌 지형에서의 움직임이 원활해지고, 민첩성과 회피 능력이 "
+"증가합니다."
+msgstr ""
+
+#: .\armors\bpg_mboots.json
+msgid "파워 아머-MX-A 파워부츠"
+msgid_plural "파워 아머-MX-A 파워부츠"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': '파워 아머-MX-A 파워부츠', 'str_pl': '파워 아머-MX-A 파워부츠'}
+#: .\armors\bpg_mboots.json
+msgid ""
+"인체공학적인 구조로 개선하고, 관리를 위한 AI를 추가로 내장한 파워 아머-MX-A 파워부츠입니다. 내장된 AI가 최적의 상태로 서보를 "
+"구동해주며, 민첩하게 움직일 수 있도록 이동을 보조합니다."
+msgstr ""
+
+#: .\armors\bpg_mboots.json
+msgid "파워 아머-MX-A 파워부츠 (켜짐)"
+msgid_plural "파워 아머-MX-A 파워부츠 (켜짐)"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': '파워 아머-MX-A 파워부츠 (켜짐)', 'str_pl': '파워 아머-MX-A
+#. 파워부츠 (켜짐)'}
+#: .\armors\bpg_mboots.json
+msgid ""
+"인체공학적인 구조로 개선하고, 관리를 위한 AI를 추가로 내장한 파워 아머-MX-A 파워부츠입니다. 내장된 AI가 최적의 상태로 서보를 "
+"구동해주며, 민첩하게 움직일 수 있도록 이동을 보조합니다. 현재 작동 중입니다."
+msgstr ""
+
+#: .\armors\bpg_mhelmet.json
+msgid "파워 아머-M 헬멧"
+msgid_plural "파워 아머-M 헬멧"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Use action msg for {'str': '파워 아머-M 헬멧', 'str_pl': '파워 아머-M 헬멧'}.
+#. ~ Use action msg for {'str': '파워 아머-M 헬멧 Mk.II', 'str_pl': '파워 아머-M 헬멧
+#. Mk.II'}.
+#. ~ Use action msg for {'str': '파워 아머-M 헬멧 Mk.III', 'str_pl': '파워 아머-M 헬멧
+#. Mk.III'}.
+#. ~ Use action msg for {'str': '파워 아머-MX 헬멧', 'str_pl': '파워 아머-MX 헬멧'}.
+#. ~ Use action msg for {'str': '파워 아머-MX-A 헬멧', 'str_pl': '파워 아머-MX-A 헬멧'}.
+#: .\armors\bpg_mhelmet.json
+msgid "* 헬멧 모듈 동기화 중..."
+msgstr ""
+
+#: .\armors\bpg_mhelmet.json
+msgid "파워 아머-M 헬멧 (켜짐)"
+msgid_plural "파워 아머-M 헬멧 (켜짐)"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Use action msg for {'str': '파워 아머-M 헬멧 (켜짐)', 'str_pl': '파워 아머-M 헬멧
+#. (켜짐)'}.
+#. ~ Use action msg for {'str': '파워 아머-M 헬멧 Mk.II (켜짐)', 'str_pl': '파워 아머-M 헬멧
+#. Mk.II (켜짐)'}.
+#. ~ Use action msg for {'str': '파워 아머-M 헬멧 Mk.III (켜짐)', 'str_pl': '파워 아머-M
+#. 헬멧 Mk.III (켜짐)'}.
+#. ~ Use action msg for {'str': '파워 아머-MX 헬멧 (켜짐)', 'str_pl': '파워 아머-MX 헬멧
+#. (켜짐)'}.
+#. ~ Use action msg for {'str': '파워 아머-MX-A 헬멧 (켜짐)', 'str_pl': '파워 아머-MX-A 헬멧
+#. (켜짐)'}.
+#: .\armors\bpg_mhelmet.json
+msgid "* 헬멧 모듈 동기화 해제됨"
+msgstr ""
+
+#: .\armors\bpg_mhelmet.json
+msgid "파워 아머-M 헬멧 Mk.II"
+msgid_plural "파워 아머-M 헬멧 Mk.II"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': '파워 아머-M 헬멧 Mk.II', 'str_pl': '파워 아머-M 헬멧 Mk.II'}
+#: .\armors\bpg_mhelmet.json
+msgid "파워 아머-M 헬멧에 호흡 관련 기능을 추가하고 안구 보호 기능을 강화했습니다."
+msgstr ""
+
+#: .\armors\bpg_mhelmet.json
+msgid "파워 아머-M 헬멧 Mk.II (켜짐)"
+msgid_plural "파워 아머-M 헬멧 Mk.II (켜짐)"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': '파워 아머-M 헬멧 Mk.II (켜짐)', 'str_pl': '파워 아머-M 헬멧
+#. Mk.II (켜짐)'}
+#: .\armors\bpg_mhelmet.json
+msgid ""
+"파워 아머-M 헬멧에 호흡 관련 기능을 추가하고 안구 보호 기능을 강화했습니다.\n"
+"가스 필터와 수중 재호흡기가 가동되고 있습니다."
+msgstr ""
+
+#: .\armors\bpg_mhelmet.json
+msgid "파워 아머-M 헬멧 Mk.III"
+msgid_plural "파워 아머-M 헬멧 Mk.III"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': '파워 아머-M 헬멧 Mk.III', 'str_pl': '파워 아머-M 헬멧
+#. Mk.III'}
+#: .\armors\bpg_mhelmet.json
+msgid "파워 아머-M 헬멧 Mk.II의 재질을 조금 더 보강하고, 야간 투시 기능을 추가했습니다."
+msgstr ""
+
+#: .\armors\bpg_mhelmet.json
+msgid "파워 아머-M 헬멧 Mk.III (켜짐)"
+msgid_plural "파워 아머-M 헬멧 Mk.III (켜짐)"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': '파워 아머-M 헬멧 Mk.III (켜짐)', 'str_pl': '파워 아머-M 헬멧
+#. Mk.III (켜짐)'}
+#: .\armors\bpg_mhelmet.json
+msgid "파워 아머-M 헬멧 Mk.II의 재질을 조금 더 보강하고, 야간 투시 기능을 추가했습니다. 현재 작동 중입니다."
+msgstr ""
+
+#: .\armors\bpg_mhelmet.json
+msgid "파워 아머-MX 헬멧"
+msgid_plural "파워 아머-MX 헬멧"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': '파워 아머-MX 헬멧', 'str_pl': '파워 아머-MX 헬멧'}
+#: .\armors\bpg_mhelmet.json
+msgid ""
+"XEDRA의 기술로 대폭 강화한 파워 아머-MX 파워부츠입니다. 장갑은 두꺼워졌으나 무게와 방해도는 훨씬 더 개선된 그야말로 근미래 기술의 집약체죠. 내장된 퓨전 코어로 인해 더 이상 외부 전력이 필요하지 않습니다!\n"
+"또한 정신 공격에 대한 내성을 부여하며, 지능을 소폭 증가시킵니다."
+msgstr ""
+
+#: .\armors\bpg_mhelmet.json
+msgid "파워 아머-MX 헬멧 (켜짐)"
+msgid_plural "파워 아머-MX 헬멧 (켜짐)"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': '파워 아머-MX 헬멧 (켜짐)', 'str_pl': '파워 아머-MX 헬멧 (켜짐)'}
+#: .\armors\bpg_mhelmet.json
+msgid ""
+"XEDRA의 기술로 대폭 강화한 파워 아머-MX 파워부츠입니다. 장갑은 두꺼워졌으나 무게와 방해도는 훨씬 더 개선된 그야말로 근미래 기술의 집약체죠. 내장된 퓨전 코어로 인해 더 이상 외부 전력이 필요하지 않습니다!\n"
+"또한 정신 공격에 대한 내성을 부여하며, 지능을 소폭 증가시킵니다.\n"
+"현재 작동 중입니다."
+msgstr ""
+
+#: .\armors\bpg_mhelmet.json
+msgid "파워 아머 헬멧 모듈"
+msgstr ""
+
+#. ~ Description for {'str': '파워 아머 헬멧 모듈'}
+#: .\armors\bpg_mhelmet.json
+msgid ""
+"내장된 이계의 눈이 분석한 정보를 내장된 프로세서가 분석하여 사용자의 시야에 직접 표시해줍니다. 아무리 어두운 밤이라도 앞을 바라볼 수 "
+"있으며, 주변을 투시할 수도 있습니다."
+msgstr ""
+
+#: .\armors\bpg_mhelmet.json
+msgid "파워 아머-MX-A 헬멧"
+msgid_plural "파워 아머-MX-A 헬멧"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': '파워 아머-MX-A 헬멧', 'str_pl': '파워 아머-MX-A 헬멧'}
+#: .\armors\bpg_mhelmet.json
+msgid ""
+"유물에 깃든 이계의 기술을 적용시킨 파워 아머-MX 헬멧입니다. \n"
+"작동 시 이계의 눈이 사용자에게 투시 능력을 부여하며 지능이 대폭 증가합니다."
+msgstr ""
+
+#: .\armors\bpg_mhelmet.json
+msgid "파워 아머-MX-A 헬멧 (켜짐)"
+msgid_plural "파워 아머-MX-A 헬멧 (켜짐)"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': '파워 아머-MX-A 헬멧 (켜짐)', 'str_pl': '파워 아머-MX-A 헬멧
+#. (켜짐)'}
+#: .\armors\bpg_mhelmet.json
+msgid ""
+"물에 깃든 이계의 기술을 적용시킨 파워 아머-MX 헬멧입니다.\n"
+"작동 시 이계의 눈이 사용자에게 투시 능력을 부여하며 지능이 증가합니다.\n"
+"현재 작동 중입니다."
+msgstr ""
+
+#: .\bionics\bpg_bionics.json
+msgid "CBM:내장형 아크 반응로 업그레이드"
+msgid_plural "CBM:내장형 아크 반응로 업그레이드s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'CBM:내장형 아크 반응로 업그레이드'}
+#: .\bionics\bpg_bionics.json
+msgid ""
+"기존에 설치된 개선된 소형 반응로를 아크 반응로로 업그레이드합니다. 아크 반응로는 방사능 누출의 걱정이 없으며 발전 효율도 배가된 차세대"
+" 반응로입니다."
+msgstr ""
+
+#: .\bionics\bpg_bionics.json
+msgid "CBM:내장형 아크 반응로"
+msgid_plural "CBM:내장형 아크 반응로s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'CBM:내장형 아크 반응로'}
+#: .\bionics\bpg_bionics.json
+msgid ""
+"차세대 기술로 만들어진 내장형 아크 반응로를 설치합니다. 아크 반응로는 방사능 누출의 걱정이 없으며 발전 효율도 배가된 차세대 "
+"반응로입니다."
+msgstr ""
+
+#: .\bionics\bpg_bionics.json
+msgid "내장형 아크 반응로"
+msgstr ""
+
+#. ~ Description for {'str': '내장형 아크 반응로'}
+#: .\bionics\bpg_bionics.json
+msgid ""
+"방사능 누출이 없는 안전한 아크 반응로입니다. 플루토늄 연료 전지 1개가 3000 충전량으로 전환되어 매 턴마다 전력을 40kJ "
+"생산하지만, 더 이상 비활성화 상태에서 전력을 생산하지 않습니다."
+msgstr ""
+
+#: .\bionics\bpg_bionics.json
+msgid "CBM:전력 저장소 Mk. III"
+msgid_plural "CBM:전력 저장소 Mk. IIIs"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'CBM:전력 저장소 Mk. III'}
+#. ~ Description for {'str': '전력 저장소 Mk. III'}
+#: .\bionics\bpg_bionics.json
+msgid ""
+"여러 CBM 전력 저장소들을 병합해 하나의 커다란 전력 저장소로 만들었습니다. 사용자의 전력 용량을 1000 kJ만큼 상승시킵니다."
+msgstr ""
+
+#: .\bionics\bpg_bionics.json
+msgid "전력 저장소 Mk. III"
+msgstr ""
+
+#: .\bionics\bpg_bionics.json
+msgid "CBM:전력 저장소 Mk. IIII"
+msgid_plural "CBM:전력 저장소 Mk. IIIIs"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'CBM:전력 저장소 Mk. IIII'}
+#: .\bionics\bpg_bionics.json
+msgid ""
+"전력 저장소 Mk.III을 한번 더 개량해 초대용량 내장 축전지를 만들었습니다. 사용자의 전력 용량을 10000 kJ만큼 상승시킵니다."
+msgstr ""
+
+#: .\bionics\bpg_bionics.json
+msgid "전력 저장소 Mk. IIII"
+msgstr ""
+
+#. ~ Description for {'str': '전력 저장소 Mk. IIII'}
+#: .\bionics\bpg_bionics.json
+msgid ""
+"여러 CBM 전력 저장소들을 병합해 하나의 커다란 전력 저장소로 만들었습니다. 사용자의 전력 용량을 10000 kJ만큼 상승시킵니다."
+msgstr ""
+
+#: .\bionics\bpg_bionics.json
+msgid "CBM:초전도 전력 저장소"
+msgid_plural "CBM:초전도 전력 저장소s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'CBM:초전도 전력 저장소'}
+#. ~ Description for {'str': '초전도 전력 저장소'}
+#: .\bionics\bpg_bionics.json
+msgid ""
+"대체 왜 그런 싸구려 전력 저장소를 설치하는거죠? 차세대 기술로 만들어진 초전도 전력 저장소 하나면 모든게 해결됩니다. 사용자의 전력 "
+"용량을 50000 kJ만큼 상승시킵니다."
+msgstr ""
+
+#: .\bionics\bpg_bionics.json
+msgid "초전도 전력 저장소"
+msgstr ""
+
+#. ~ Crafting recipes category name
+#: .\items\bpg_category.json
+msgid "모듈아머"
+msgstr ""
+
+#. ~ Crafting recipes subcategory all
+#: .\items\bpg_category.json
+msgid "ALL"
+msgstr ""
+
+#. ~ Crafting recipes subcategory of '모듈아머' category
+#: .\items\bpg_category.json
+msgid "머리"
+msgstr ""
+
+#. ~ Crafting recipes subcategory of '모듈아머' category
+#: .\items\bpg_category.json
+msgid "전신"
+msgstr ""
+
+#. ~ Crafting recipes subcategory of '모듈아머' category
+#: .\items\bpg_category.json
+msgid "팔"
+msgstr ""
+
+#. ~ Crafting recipes subcategory of '모듈아머' category
+#: .\items\bpg_category.json
+msgid "다리"
+msgstr ""
+
+#. ~ Crafting recipes subcategory of '모듈아머' category
+#: .\items\bpg_category.json
+msgid "재료"
+msgstr ""
+
+#: .\items\bpg_generic.json
+msgid "XEDRA 기밀 문서"
+msgid_plural "XEDRA 기밀 문서"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'XEDRA 기밀 문서', 'str_pl': 'XEDRA 기밀 문서'}
+#: .\items\bpg_generic.json
+msgid ""
+"각종 실험 보고서를 읽다가 눈치챈 숨겨진 단서들을 모아 해독해낸 XEDRA 기밀 문서입니다. 알아보기 힘든 복잡한 도면과 외계 유물의 "
+"사용법이 기록되어 있습니다."
+msgstr ""
+
+#: .\items\bpg_generic.json
+msgid "당신의 연구 노트"
+msgid_plural "당신의 연구 노트"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': '당신의 연구 노트', 'str_pl': '당신의 연구 노트'}
+#: .\items\bpg_generic.json
+msgid ""
+"여러가지 실험 보고서와 제조법을 읽으면서 떠올린 당신의 망상을 현실로 만들 시간입니다! 당신이 스스로 연구하고 노력하며 고심한 결과물들을"
+" 기록할 노트입니다. 상상만 해도 즐겁군요."
+msgstr ""
+
+#: .\items\bpg_generic.json
+msgid "파워 아머 차원 안정기 Mk.II"
+msgid_plural "파워 아머 차원 안정기 Mk.IIs"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Use action holster_msg for {'str': '파워 아머 차원 안정기 Mk.II'}.
+#: .\items\bpg_generic.json
+msgid "You holster your %s"
+msgstr ""
+
+#. ~ Use action holster_prompt for {'str': '파워 아머 차원 안정기 Mk.II'}.
+#: .\items\bpg_generic.json
+msgid "내장형 도구 수납함"
+msgstr ""
+
+#. ~ Description for {'str': '파워 아머 차원 안정기 Mk.II'}
+#: .\items\bpg_generic.json
+msgid "파워 아머 차원 안정기에 여러 물건을 수납할 수 있는 편리한 통합 수납함을 추가했습니다."
+msgstr ""
+
+#: .\items\bpg_materials.json
+msgid "나노코팅 초합금판"
+msgid_plural "나노코팅 초합금판"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\items\bpg_materials.json
+msgid "dented"
+msgstr ""
+
+#: .\items\bpg_materials.json
+msgid "scratched"
+msgstr ""
+
+#: .\items\bpg_materials.json
+msgid "marked"
+msgstr ""
+
+#: .\items\bpg_materials.json
+msgid "smashed"
+msgstr ""
+
+#: .\items\bpg_materials.json
+msgid "shattered"
+msgstr ""
+
+#. ~ Description for {'str': '나노코팅 초합금판', 'str_pl': '나노코팅 초합금판'}
+#: .\items\bpg_materials.json
+msgid "초합금판에 나노물질을 고밀도로 코팅하여 다시 정련한 금속판입니다."
+msgstr ""
+
+#: .\items\bpg_sparts.json
+msgid "중량형 파워 아머 모듈"
+msgid_plural "중량형 파워 아머 모듈"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': '중량형 파워 아머 모듈', 'str_pl': '중량형 파워 아머 모듈'}
+#: .\items\bpg_sparts.json
+msgid "파워 아머를 분해해서 모듈화시킨 커다란 부품입니다. 주로 핵심이 되는 기능이나 커다란 동력이 필요한 파츠 제작에 사용합니다."
+msgstr ""
+
+#: .\items\bpg_sparts.json
+msgid "경량형 파워 아머 모듈"
+msgid_plural "경량형 파워 아머 모듈"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': '경량형 파워 아머 모듈', 'str_pl': '경량형 파워 아머 모듈'}
+#: .\items\bpg_sparts.json
+msgid "파워 아머를 분해해서 모듈화시킨 가벼운 부품입니다. 주로 기능성이나 기동성이 필요한 파츠 제작에 사용합니다."
+msgstr ""
+
+#: .\items\bpg_sparts.json
+msgid "컴뱃 아머 - 머리"
+msgid_plural "컴뱃 아머 - 머리"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': '컴뱃 아머 - 머리', 'str_pl': '컴뱃 아머 - 머리'}
+#: .\items\bpg_sparts.json
+msgid "컴뱃 아머를 파츠 별로 분리하여 분해한 부품 중 머리 부분입니다."
+msgstr ""
+
+#: .\items\bpg_sparts.json
+msgid "컴뱃 아머 - 팔"
+msgid_plural "컴뱃 아머 - 팔"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': '컴뱃 아머 - 팔', 'str_pl': '컴뱃 아머 - 팔'}
+#: .\items\bpg_sparts.json
+msgid "컴뱃 아머를 파츠 별로 분리하여 분해한 부품 중 팔 부분입니다."
+msgstr ""
+
+#: .\items\bpg_sparts.json
+msgid "컴뱃 아머 - 다리"
+msgid_plural "컴뱃 아머 - 다리"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': '컴뱃 아머 - 다리', 'str_pl': '컴뱃 아머 - 다리'}
+#: .\items\bpg_sparts.json
+msgid "컴뱃 아머를 파츠 별로 분리하여 분해한 부품 중 다리 부분입니다."
+msgstr ""
+
+#: .\items\bpg_sparts.json
+msgid "컴뱃 아머 - 전신"
+msgid_plural "컴뱃 아머 - 전신"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': '컴뱃 아머 - 전신', 'str_pl': '컴뱃 아머 - 전신'}
+#: .\items\bpg_sparts.json
+msgid "컴뱃 아머를 파츠 별로 분리하여 분해한 부품 중 팔, 다리, 머리를 제외한 나머지 부분입니다."
+msgstr ""
+
+#: .\items\bpg_tools.json
+msgid "맥-포탈"
+msgid_plural "맥-포탈s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for 맥-포탈
+#: .\items\bpg_tools.json
+msgid "포탈 생성기를 개조하여 모든 연장이 들어가는 소형 주머니 차원으로 만들었습니다. 간편하네요!"
+msgstr ""
+
+#: .\items\bpg_tools.json
+msgid "XM00 추방자"
+msgid_plural "XM00 추방자s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Use action msg for XM00 추방자.
+#: .\items\bpg_tools.json
+msgid ""
+"* 시스템 진단 중... \n"
+"* 시공간 안정화 시퀀스 개시"
+msgstr ""
+
+#. ~ Description for XM00 추방자
+#: .\items\bpg_tools.json
+msgid ""
+"이계의 괴물들이 침입하는 현실의 구멍 주변의 시공간을 안정화하고, 그 구멍을 소멸시키는 시험 단계의 에너지 방출기입니다. 작동 시 주변의"
+" 시공간을 감지하여 자동으로 안정화시킵니다."
+msgstr ""
+
+#: .\items\bpg_tools.json
+msgid "XM00 추방자 (켜짐)"
+msgid_plural "XM00 추방자 (켜짐)s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Use action msg for XM00 추방자 (켜짐).
+#: .\items\bpg_tools.json
+msgid "* 시스템 종료 중..."
+msgstr ""
+
+#. ~ Description for XM00 추방자 (켜짐)
+#: .\items\bpg_tools.json
+msgid ""
+"이계의 괴물들이 침입하는 현실의 구멍 주변의 시공간을 안정화하고, 그 구멍을 소멸시키는 시험 단계의 에너지 방출기입니다. 작동 시 주변의"
+" 시공간을 감지하여 자동으로 안정화시킵니다. 현재 작동 중 입니다."
+msgstr ""
+
+#. ~ Relic recharge message for TOOL 'XM00 추방자 (켜짐)'
+#. ~ Relic recharge message for TOOL '싼데 비슷한 추방자 (켜짐)'
+#: .\items\bpg_tools.json
+msgid "The portal collapses!"
+msgstr ""
+
+#: .\items\bpg_tools.json
+msgid "싼데 비슷한 추방자"
+msgid_plural "싼데 비슷한 추방자s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Use action msg for 싼데 비슷한 추방자.
+#: .\items\bpg_tools.json
+msgid "<color_green>녹색 불</color>이 들어옵니다. 아마도 켜진거겠죠...?"
+msgstr ""
+
+#. ~ Description for 싼데 비슷한 추방자
+#: .\items\bpg_tools.json
+msgid ""
+"XM00 추방자를 최대한 싸고 저렴하면서도 비슷하게 만든 물건입니다. 사실상 일회용에 가까운 녀석이지만 뭐 기능은 비슷하니 이만하면 "
+"됐죠! 주변의 시공간을 안정시켜 현실의 구멍을 소멸시킵니다. 단 2초 동안만요."
+msgstr ""
+
+#: .\items\bpg_tools.json
+msgid "싼데 비슷한 추방자 (켜짐)"
+msgid_plural "싼데 비슷한 추방자 (켜짐)s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Use action msg for 싼데 비슷한 추방자 (켜짐).
+#: .\items\bpg_tools.json
+msgid "레버를 내려 전원을 껐습니다."
+msgstr ""
+
+#. ~ Description for 싼데 비슷한 추방자 (켜짐)
+#: .\items\bpg_tools.json
+msgid ""
+"XM00 추방자를 최대한 싸고 저렴하면서도 비슷하게 만든 물건입니다. 사실상 일회용에 가까운 녀석이지만 뭐 기능은 비슷하니 이만하면 "
+"됐죠! 주변의 시공간을 안정시켜 현실의 구멍을 소멸시킵니다. 단 2초 동안만요. 현재 작동 중 입니다."
+msgstr ""
+
+#: .\override\bionics.json
+msgid "CBM:개선된 소형 반응로"
+msgid_plural "CBM:개선된 소형 반응로s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'CBM:개선된 소형 반응로'}
+#. ~ Description for {'str': '개선된 소형 반응로'}
+#: .\override\bionics.json
+msgid ""
+"기존에 설치된 소형 반응로를 업그레이드하여 전력 생산량을 높이고, 제한적인 자동 방사능 제염 기능을 추가합니다. 플루토늄 연료 전지 "
+"1개가 2000 충전량으로 전환되어 매 턴마다 전력을 10kJ 생산하고, 연료 전지가 충전된 상태로 비활성화 상태일 때는 지속적으로 "
+"전력을 100J 생산합니다."
+msgstr ""
+
+#: .\override\bionics.json
+msgid "개선된 소형 반응로"
+msgstr ""
+
+#: .\override\container.json
+msgid "power armor canteen"
+msgid_plural "power armor canteens"
+msgstr[0] ""
+msgstr[1] ""

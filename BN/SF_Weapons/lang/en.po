@@ -1,0 +1,550 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: SF_Weapons\n"
+"POT-Creation-Date: 2025-07-06 02:41+0900\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.6\n"
+
+#: .\modinfo.json
+msgid "총기 리밸런싱 +@"
+msgstr "Rebalancing guns + Future weapon pack"
+
+#. ~ Description for 총기 리밸런싱 +@
+#: .\modinfo.json
+msgid ""
+"총기, 탄환 중 밸런싱이 미비하거나, 시스템이 이상하거나 불편한 것들을 재조정합"
+"니다. 또한, 몇몇 현대적 무기와 실험적인 미래형 무기를 추가합니다. \n"
+"자세한 정보는 모드 파일의 README에 전부 표기되어 있습니다. 인게임에서 알기 어"
+"려운 정보가 주로 기입되어 있습니다."
+msgstr ""
+"Rebalances guns, ammo, and other things that are unbalanced, weird or "
+"inconvenient in the system. It also adds some modern weapons and "
+"experimental futuristic weapons. \n"
+"All of this information is fully documented in the README in the mod file. "
+"It contains mostly information that is hard to find in-game."
+
+#: .\Contents\40x46mm.json
+msgid "RM802 grenade launcher"
+msgid_plural "RM802 grenade launchers"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\Contents\40x46mm.json
+msgid ""
+"The Rivtech RM802 pump-action 40mm grenade launcher was designed to be a "
+"step ahead of single-shot grenade launchers by allowing sustained heavy "
+"firepower.  However, its capacity is fairly limited so it must be used with "
+"careful planning."
+msgstr ""
+
+#: .\Contents\SF_future_weapons.json
+msgid "펄스 라이플"
+msgid_plural "펄스 라이플s"
+msgstr[0] "pulse rifle"
+msgstr[1] "pulse rifles"
+
+#: .\Contents\SF_future_weapons.json
+msgid ""
+"이 레이저 병기는 초장거리 저격을 목적으로 여러 광원을 파장에 따라 배치하여 극"
+"히 짧은 순간에 조사되는 펨토세컨드 레이저 펄스를 만들어냅니다. 광원이 추가될"
+"수록 위력이 증가하지만, 광원은 사격할수록 열화되기 때문에 교체해야 합니다. 극"
+"히 정밀한 저격을 위해 리브텍 사와의 기술협력으로 최신형 광학조준경을 탑재하"
+"고 있습니다. UPS를 이용해 작동합니다."
+msgstr ""
+"This laser weapon creates femtosecond laser pulses that are irradiated in "
+"extremely short bursts by deploying multiple light sources at different "
+"wavelengths for ultra-long-range sniping. The power increases with each "
+"additional light source, but the light sources deteriorate with each shot "
+"and must be replaced. For extremely precise sniping, it is equipped with the "
+"latest optical sight in cooperation with Rivtech. It is powered by a UPS."
+
+#: .\Contents\SF_future_weapons.json .\Contents\SF_modern_weapons.json
+msgid "semi"
+msgstr ""
+
+#: .\Contents\SF_future_weapons.json
+msgctxt "gun_type_type"
+msgid "rifle"
+msgstr ""
+
+#: .\Contents\SF_future_weapons.json
+msgid "광원: 루비"
+msgid_plural "광원: 루비s"
+msgstr[0] "light source: ruby"
+msgstr[1] "light sources: ruby"
+
+#: .\Contents\SF_future_weapons.json
+msgid ""
+"펄스 라이플에 사용되는 루비 광원입니다. 펄스 레이저의 위력을 강화하며, 또한 "
+"레이저가 약간 분산됩니다. 지속적인 사용에 의해 상태가 열화되기 때문에, 주기적"
+"으로 교체할 필요가 있습니다."
+msgstr ""
+"A ruby light source used in the pulse rifle. It enhances the power of the "
+"pulse laser, and also slightly disperses the laser. It deteriorates with "
+"constant use, so it needs to be replaced periodically."
+
+#: .\Contents\SF_future_weapons.json
+msgid "lens"
+msgstr ""
+
+#: .\Contents\SF_future_weapons.json
+msgid "광원: 광섬유"
+msgid_plural "광원: 광섬유s"
+msgstr[0] "light source: fiber optic"
+msgstr[1] "light sources: fiber optic"
+
+#: .\Contents\SF_future_weapons.json
+msgid ""
+"펄스 라이플에 사용되는 광섬유 광원입니다. 펄스 레이저의 위력을 강화하며, 또"
+"한 레이저가 약간 분산됩니다. 지속적인 사용에 의해 상태가 열화되기 때문에, 주"
+"기적으로 교체할 필요가 있습니다."
+msgstr ""
+"An optical fiber light source used in the pulse rifle. It enhances the power "
+"of the pulse laser, and also slightly disperses the laser. It deteriorates "
+"with constant use, so it needs to be replaced periodically."
+
+#: .\Contents\SF_future_weapons.json
+msgid "광섬유"
+msgid_plural "광섬유s"
+msgstr[0] "fiber optic"
+msgstr[1] "fiber optics"
+
+#. ~ Description for {'str': '광섬유'}
+#: .\Contents\SF_future_weapons.json
+msgid ""
+"전반사를 이용한 광섬유입니다. 투과성 높은 유리, 플라스틱으로 이루어져 있고, "
+"내부 심인 코어가 외부보다 굴절률이 높습니다. 아주 먼 거리로도 빛을 잘 전달하"
+"기 때문에 정보 전달을 위해 쓰이거나, 원거리에서 빛의 세기를 높이기 위해 집광"
+"하는 데 쓰입니다. 휘어 부러지지 않도록 조심하세요."
+msgstr ""
+"It is an all-optical fiber. It is made of highly permeable glass, plastic, "
+"and has an inner core that has a higher refractive index than the outer. "
+"They are used to carry information because they transmit light well over "
+"very long distances, or to focus light to increase its intensity at a "
+"distance. Be careful not to bend and break them."
+
+#: .\Contents\SF_future_weapons.json
+msgid "광원: 이산화탄소"
+msgid_plural "광원: 이산화탄소s"
+msgstr[0] "light source: carbon dioxide"
+msgstr[1] "light sources: carbon dioxide"
+
+#: .\Contents\SF_future_weapons.json
+msgid ""
+"펄스 라이플에 사용되는 이산화탄소 광원입니다. 펄스 레이저의 위력을 강화하며, "
+"또한 레이저가 약간 분산됩니다. 지속적인 사용에 의해 상태가 열화되기 때문에, "
+"주기적으로 교체할 필요가 있습니다."
+msgstr ""
+"A carbon dioxide light source used in the pulse rifle. It enhances the power "
+"of the pulse laser, and also slightly disperses the laser. It deteriorates "
+"with constant use, so it needs to be replaced periodically."
+
+#: .\Contents\SF_future_weapons.json
+msgid "광원 조정기"
+msgid_plural "광원 조정기s"
+msgstr[0] "light source modifier"
+msgstr[1] "light source modifiers"
+
+#: .\Contents\SF_future_weapons.json
+msgid ""
+"펄스 라이플에 사용되는 광원 조정기입니다. 펄스 레이저의 회절을 억제하고 더욱 "
+"집중시킵니다. 조정기 자체가 소모품은 아니나 지속적으로 사용할수록 연결이 풀어"
+"질 수 있으니, 주기적으로 재조정할 필요가 있습니다."
+msgstr ""
+"A light source modifier used in pulse rifles. It suppresses diffraction of "
+"the pulsed laser and makes it more focused. While the modifier itself is not "
+"consumable, it can become disconnected with constant use and needs to be "
+"readjusted periodically."
+
+#: .\Contents\SF_future_weapons.json .\Contents\gunmods.json
+msgid "mechanism"
+msgstr ""
+
+#: .\Contents\SF_future_weapons.json
+msgid "도미네이터"
+msgid_plural "도미네이터s"
+msgstr[0] "dominator"
+msgstr[1] "dominators"
+
+#: .\Contents\SF_future_weapons.json
+msgid ""
+"본래라면 100년 뒤의 이차원에서 사용될 휴대형 심리진단 진압·집행 시스템, 도미"
+"네이터입니다. 패럴라이저, 엘리미네이터, 디컴포저의 3개 모드로 구분되어 있습니"
+"다. 기본적으로는 패럴라이저 모드로 설정되어 있습니다. \n"
+"팁: 기본적으로 F키로 사격 모드를 바꿀 수 있습니다. 탄환을 다 사용했을 때 사"
+"격 화면에 접근하려면 활용해보세요."
+msgstr ""
+"The dominator, a portable psychodiagnostic suppression and enforcement "
+"system originally intended for use in an alternate dimension 100 years in "
+"the future. It has three modes: Paralyzer, Eliminator, and Decomposer. By "
+"default, it is set to Paralyzer mode. \n"
+"Tip: By default, you can change fire modes with the (F) key. Use it to "
+"access the shooting screen when you're out of bullets."
+
+#: .\Contents\SF_future_weapons.json
+msgid "Paralyzer"
+msgstr ""
+
+#: .\Contents\SF_future_weapons.json .\Contents\SF_modern_weapons.json
+msgctxt "gun_type_type"
+msgid "pistol"
+msgstr ""
+
+#: .\Contents\SF_future_weapons.json
+msgid "논리썰 패럴라이저"
+msgid_plural "논리썰 패럴라이저s"
+msgstr[0] "non-lethal paralyzer"
+msgstr[1] "non-lethal paralyzers"
+
+#: .\Contents\SF_future_weapons.json
+msgid "사용자가 관측한 경계 대상을 기절시키는 광선을 발사합니다."
+msgstr "Fires a beam that stuns boundary targets observed by the user."
+
+#: .\Contents\SF_future_weapons.json
+msgid "emitter"
+msgstr ""
+
+#: .\Contents\SF_future_weapons.json
+msgid "리썰 엘리미네이터"
+msgid_plural "리썰 엘리미네이터s"
+msgstr[0] "lethal eliminator"
+msgstr[1] "lethal eliminators"
+
+#: .\Contents\SF_future_weapons.json
+msgid "사용자가 관측한 위험 인물을 폭사시키는 광선을 발사합니다."
+msgstr ""
+"Fires a beam of light that blasts a dangerous figure that the user has "
+"observed."
+
+#: .\Contents\SF_future_weapons.json .\Contents\gunmods.json
+msgid "rail"
+msgstr ""
+
+#: .\Contents\SF_future_weapons.json
+msgid "디스트로이 디컴포저"
+msgid_plural "디스트로이 디컴포저s"
+msgstr[0] "destroy decomposer"
+msgstr[1] "destroy decomposers"
+
+#: .\Contents\SF_future_weapons.json
+msgid "사용자에게 위협이 되는 물체를 입자 단위로 분해하는 광탄을 발사합니다."
+msgstr ""
+"Fires a light bullet that breaks down objects that threaten you into "
+"particles."
+
+#: .\Contents\SF_future_weapons.json
+msgid "underbarrel"
+msgstr ""
+
+#: .\Contents\SF_future_weapons.json
+msgid "시빌라 시스템"
+msgid_plural "시빌라 시스템s"
+msgstr[0] "Sibyl System"
+msgstr[1] "Sibyl Systems"
+
+#. ~ Description for 시빌라 시스템
+#: .\Contents\SF_future_weapons.json
+msgid ""
+"디스토피아 도시 안 모두를 감시하는 시스템의 구성원. 그들은 각각 기존의 철학"
+"과 다른, 선악에 구애받지 않는 신념을 가졌기에, 다른 누구보다도 인간을 객관적"
+"으로 바라볼 수 있다고 평가받았고, 그로 인해 도시 안의 윤리의 기준을 정하는 역"
+"할을 맡게 되었습니다. 시빌라 시스템 구성원의 수에는 변동이 있어 왔으나, 현재"
+"는 247명입니다."
+msgstr ""
+"Members of the system that monitors everyone in the dystopian city. Each of "
+"them has a different philosophy and beliefs, both good and bad, that make "
+"them better able to look at humans objectively than anyone else, and as a "
+"result, they've been tasked with setting the standard for ethics in the "
+"city. The number of members of the Sibyl system has fluctuated, but "
+"currently stands at 247."
+
+#: .\Contents\SF_future_weapons.json
+msgid "fusion pack"
+msgid_plural "fusion packs"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'fusion pack'}
+#: .\Contents\SF_future_weapons.json
+msgid ""
+"In the middle of the 21st Century, military powers began to look towards "
+"energy based weapons.  The result was the standard fusion pack, capable of "
+"delivering bolts of superheated gas at near light speed with no recoil."
+msgstr ""
+
+#: .\Contents\SF_future_weapons.json
+msgid "플라즈마 어나힐레이터"
+msgid_plural "플라즈마 어나힐레이터s"
+msgstr[0] "plasma annihilator"
+msgstr[1] "plasma annihilators"
+
+#: .\Contents\SF_future_weapons.json
+msgid ""
+"강력한 전자기장을 통해 가속된 플라즈마를 투사하는 병기입니다. 고온의 플라즈마"
+"가 적의 장갑을 관통할 뿐만 아니라, 과전류를 확산시켜 대규모의 적을 제압할 수 "
+"있습니다. 본래 차량이나 항공기에 장착할 것을 전제로 한 대량 화력투사용 장비이"
+"지만, 플라즈마가 포탄에 비해 반동이 비교적 적어, 강력한 체력을 가진 병사는 단"
+"독으로 사용할 수도 있습니다. UPS를 이용해 작동합니다."
+msgstr ""
+"A weapon that projects accelerated plasma through a powerful electromagnetic "
+"field. The high-temperature plasma not only penetrates enemy armor, but also "
+"spreads overcurrents, allowing it to take out large groups of enemies. While "
+"originally intended to be mounted on a vehicle or aircraft, the plasma has a "
+"relatively low recoil compared to shells, so soldiers with high health can "
+"use it alone. It operates using a UPS."
+
+#: .\Contents\SF_future_weapons.json .\Contents\SF_modern_weapons.json
+msgid "auto"
+msgstr ""
+
+#: .\Contents\SF_future_weapons.json
+msgid "차량용 플라즈마 어나힐레이터"
+msgstr "mounted plasma annihilator"
+
+#: .\Contents\SF_modern_weapons.json
+msgid "트리플 액션 썬더"
+msgid_plural "트리플 액션 썬더s"
+msgstr[0] "triple action thunder"
+msgstr[1] "triple action thunders"
+
+#: .\Contents\SF_modern_weapons.json
+msgid ""
+"트리플 액션 사에서 제작한 .50 BMG 탄환을 사용하는 세계 최대의 권총입니다. 내"
+"구성과 반동 제어를 위해 단발식으로 작동하며, 일반적인 소총보다도 더 무겁습니"
+"다. 가스 피스톤이 총열 하단에 장탁되어 있어 반동을 약간 줄여주지만, 여전히 주"
+"의해야 합니다."
+msgstr ""
+"The world's largest handgun chambered in .50 BMG rounds, made by Triple "
+"Action. It is single-shot for durability and recoil control, and is heavier "
+"than a typical rifle. A gas piston is mounted at the bottom of the barrel, "
+"which reduces recoil slightly, but you still have to be careful."
+
+#: .\Contents\SF_modern_weapons.json
+msgid "FGM-148 재블린"
+msgid_plural "FGM-148 재블린"
+msgstr[0] "FGM-148 Javelin"
+msgstr[1] "FGM-148 Javelins"
+
+#: .\Contents\SF_modern_weapons.json
+msgid ""
+"매우 효과적인 재블린 대전차미사일은 탠덤 성형작약탄을 발사해 적 전차의 취약"
+"한 상부를 타격, 파괴하는 것으로 잘 알려져 있습니다. 적외선 센서를 통해 자율추"
+"적이 가능해, 발사 후 망각 방식으로 1인이 사용 가능합니다."
+msgstr ""
+"The highly effective Javelin anti-tank missile is known for firing tandem "
+"molded cluster bombs to strike and destroy the vulnerable upper hull of "
+"enemy vehicles. It can be autonomously tracked via infrared sensors, and can "
+"be used by one person using the fire-and-forget method."
+
+#: .\Contents\SF_modern_weapons.json
+msgid "AGM-114 헬파이어"
+msgid_plural "AGM-114 헬파이어"
+msgstr[0] "AGM-114 Hellfire"
+msgstr[1] "AGM-114 Hellfires"
+
+#: .\Contents\SF_modern_weapons.json
+msgid ""
+"헬리콥터용 공대지 미사일을 대표하는 헬파이어 미사일입니다. 어떤 방향으로도 "
+"적 전차를 일격으로 격파할 수 있는 강력한 파괴력을 보유하고 있습니다."
+msgstr ""
+"The Hellfire missile is the flagship of air-to-ground missiles for "
+"helicopters. It has a high destructive power that can knock out enemy tanks "
+"in a single hit from any direction."
+
+#: .\Contents\SF_modern_weapons.json
+msgid "차량용 AGM-114 헬파이어"
+msgstr "mounted AGM-114 Hellfire"
+
+#: .\Contents\SF_modern_weapons.json
+msgid "152mm ATGM HEAT"
+msgid_plural "152mm ATGM HEATs"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': '152mm ATGM HEAT'}
+#: .\Contents\SF_modern_weapons.json
+msgid ""
+"A tube-launched, optically tracked, wire-guided missile contained in a steel "
+"tube.  Designed to be highly effective against vehicles and structures."
+msgstr ""
+
+#: .\Contents\ammo.json
+msgid "spiked homemade rocket"
+msgid_plural "spiked homemade rockets"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'spiked homemade rocket'}
+#: .\Contents\ammo.json
+msgid ""
+"A hand built rocket, consisting of a spike welded onto a pipe that was "
+"filled with improvised rocket fuel.  Horribly inaccurate, as can be expected "
+"of this grade of weapon, but packs a fierce punch… if it hits."
+msgstr ""
+
+#: .\Contents\ammo.json
+msgid "explosive homemade rocket"
+msgid_plural "explosive homemade rockets"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'explosive homemade rocket'}
+#: .\Contents\ammo.json
+msgid ""
+"A hand built rocket, consisting of a simple explosive warhead attached onto "
+"a pipe, filled with improvised rocket fuel.  Not very powerful, but can be "
+"made from scratch."
+msgstr ""
+
+#: .\Contents\ammo.json
+msgid "incendiary homemade rocket"
+msgid_plural "incendiary homemade rockets"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'incendiary homemade rocket'}
+#: .\Contents\ammo.json
+msgid ""
+"A hand built rocket, consisting of a container of flammable gel attached "
+"onto a pipe, filled with improvised rocket fuel.  Short-range incendiary - "
+"handle with care!"
+msgstr ""
+
+#: .\Contents\calorie_pill.json
+msgid "nutriment"
+msgid_plural "nutriments"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for nutriment
+#: .\Contents\calorie_pill.json
+msgid ""
+"A crumbly white pill half the size of your thumb, packed with vitamins and "
+"calories.  Provides a whole day's nutrition in portable form, but it's a "
+"little hard to keep down, thanks to the rancid taste and chalky texture."
+msgstr ""
+
+#: .\Contents\gunmods.json
+msgid "adjustable stock"
+msgid_plural "adjustable stocks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\Contents\gunmods.json
+msgid "An adjustable replacement stock improving both recoil and accuracy."
+msgstr ""
+
+#: .\Contents\gunmods.json
+msgid "stock"
+msgstr ""
+
+#: .\Contents\gunmods.json
+msgid "cheek pad"
+msgid_plural "cheek pads"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\Contents\gunmods.json
+msgid ""
+"A stock accessory for sniper rifles and even DMRs considerably improving eye "
+"relief efficiency, prevents slipping, and reduces recoil to the neck and "
+"cheek."
+msgstr ""
+
+#: .\Contents\gunmods.json
+msgid "match trigger"
+msgid_plural "match triggers"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\Contents\gunmods.json
+msgid ""
+"A precision weighted trigger assembly that slightly improves a firearm's "
+"accuracy."
+msgstr ""
+
+#: .\Contents\gunmods.json
+msgid "gyroscopic stabilizer"
+msgid_plural "gyroscopic stabilizers"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\Contents\gunmods.json
+msgid ""
+"An advanced unit that straps onto the side of your firearm and reduces "
+"vibration, greatly reducing recoil and slightly increasing accuracy."
+msgstr ""
+
+#: .\Contents\gunmods.json
+msgid "modified gyroscopic stabilizer"
+msgid_plural "modified gyroscopic stabilizers"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\Contents\gunmods.json
+msgid ""
+"An advanced unit that straps onto the side of your firearm and reduces "
+"vibration, greatly reducing recoil and slightly increasing accuracy.  This "
+"one was modified and customized to mount on pretty much any weapon other "
+"than pistols, if you so want."
+msgstr ""
+
+#: .\Contents\vehicle_parts.json
+msgid "washing machine"
+msgstr ""
+
+#. ~ Description for {'str': 'washing machine'}
+#: .\Contents\vehicle_parts.json
+msgid ""
+"A small washing machine.  With detergent, water, and some electrical power, "
+"you could clean a lot of clothes.  'e'xamine the tile with the washing "
+"machine to use it."
+msgstr ""
+
+#: .\Contents\vehicle_parts.json
+msgid "dishwasher"
+msgstr ""
+
+#. ~ Description for {'str': 'dishwasher'}
+#: .\Contents\vehicle_parts.json
+msgid ""
+"A small dishwasher.  With detergent, water, and some electrical power, you "
+"could clean your dishes…  Or something more useful like a CBM dripping with "
+"zombie gore.  'e'xamine the tile with the dishwasher to use it."
+msgstr ""
+
+#: .\Contents\vehicle_parts.json
+msgid "autoclave"
+msgstr ""
+
+#. ~ Description for {'str': 'autoclave'}
+#: .\Contents\vehicle_parts.json
+msgid ""
+"This is an autoclave.  It's useful for sterilizing things like CBMs.  "
+"'e'xamine the tile with the autoclave to use it."
+msgstr ""
+
+#: .\Contents\vehicle_parts.json
+msgid "vehicle-mounted heater"
+msgstr ""
+
+#: .\Contents\vehicle_parts.json
+msgid "turret control unit"
+msgstr ""
+
+#. ~ Description for {'str': 'turret control unit'}
+#: .\Contents\vehicle_parts.json
+msgid ""
+"A set of motor, camera, and an AI unit which allows for tracking targets, "
+"friend-or-foe identification, and firing the connected turret in full "
+"automatic mode.  When installed over the turret, it will enable auto "
+"targeting mode for said turret."
+msgstr ""

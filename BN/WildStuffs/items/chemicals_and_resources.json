@@ -1,23 +1,6 @@
 [
   {	
 	"type": "GENERIC",
-    "id": "material_iron",
-    "symbol": "*",
-    "color": "light_red",
-    "name": { "str_sp": "철광석" },
-    "category": "spare_parts",
-    "description": "작은 철광석 바위 파편입니다. 꽤 부실하며 무기로서는 그리 효과적이지 않지만, 이를 용융하여 사용할 수 있습니다.",
-	"looks_like": "chem_thermite",
-    "price": 500,
-    "price_postapoc": 10,
-    "material": "stone",
-    "weight": "700 g",
-    "volume": "1 L",
-    "bashing": 2,
-    "to_hit": -2
-  },
-  {	
-	"type": "GENERIC",
     "id": "material_copper",
     "symbol": ",",
     "color": "light_red",

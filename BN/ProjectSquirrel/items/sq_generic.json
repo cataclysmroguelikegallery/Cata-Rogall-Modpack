@@ -54,7 +54,7 @@
     "using": [ [ "soldering_standard", 10 ] ],
     "qualities": [ { "id": "HAMMER_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
     "tools": [ [ [ "small_repairkit", 10 ], [ "large_repairkit", 10 ] ] ],
-    "components": [ [ [ "scrap", 1 ] ] ]
+    "components": [ [ [ "scrap", 2 ] ] ]
   },
   {
     "type": "recipe",

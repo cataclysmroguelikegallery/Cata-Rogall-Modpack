@@ -1,0 +1,609 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: rabbit_mutation\n"
+"POT-Creation-Date: 2025-07-06 02:05+0900\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: .\modinfo.json
+msgid "토끼 변이 모드"
+msgstr ""
+
+#. ~ Description for 토끼 변이 모드
+#: .\modinfo.json
+msgid "토끼 변이를 추가합니다."
+msgstr ""
+
+#: .\modinfo.json
+msgctxt "profession_male"
+msgid "흰 토끼(모든 변이)"
+msgstr ""
+
+#: .\modinfo.json
+msgctxt "profession_female"
+msgid "흰 토끼(모든 변이)"
+msgstr ""
+
+#. ~ Profession (male 흰 토끼(모든 변이)) description
+#. ~ Profession (male 흰 토끼(플레이)) description
+#: .\modinfo.json
+msgctxt "prof_desc_male"
+msgid "아무래도 제 시간에 어마어마하게 늦어버린거 같군요."
+msgstr ""
+
+#. ~ Profession (female 흰 토끼(모든 변이)) description
+#. ~ Profession (female 흰 토끼(플레이)) description
+#: .\modinfo.json
+msgctxt "prof_desc_female"
+msgid "아무래도 제 시간에 어마어마하게 늦어버린거 같군요."
+msgstr ""
+
+#: .\modinfo.json
+msgctxt "profession_male"
+msgid "흰 토끼(플레이)"
+msgstr ""
+
+#: .\modinfo.json
+msgctxt "profession_female"
+msgid "흰 토끼(플레이)"
+msgstr ""
+
+#: .\rabbit_dream.json
+msgid "당신은 토끼에 대한 이상한 꿈을 꿉니다."
+msgstr ""
+
+#: .\rabbit_dream.json
+msgid "꿈이 당신에게 이상한 털복숭이 느낌을 줍니다."
+msgstr ""
+
+#: .\rabbit_dream.json
+msgid "당신은 개에게서 도망치는 것에 대해 불안한 꿈을 꾸고 있습니다."
+msgstr ""
+
+#: .\rabbit_dream.json
+msgid "꿈을 꾸다 보면, 토끼와 같은 자신의 모습이 눈에 띕니다"
+msgstr ""
+
+#: .\rabbit_dream.json
+msgid "당신은 집을 만들기 위해 언덕 아래에 구멍을 파는 꿈을 꾸게 됩니다."
+msgstr ""
+
+#: .\rabbit_dream.json
+msgid "부활절 토끼가 되는 것에 대한 이상한 꿈을 꿉니다..."
+msgstr ""
+
+#: .\rabbit_dream.json
+msgid "당신은 토끼로 사는것에 대한 따듯하고 편안한 꿈을 꿉니다."
+msgstr ""
+
+#: .\rabbit_dream.json
+msgid "겨울에 당신의 굴은 가족들에게 충분히 따듯할까요?"
+msgstr ""
+
+#: .\rabbit_dream.json
+msgid "당신은 종말을 앞지르는 꿈을 꿉니다."
+msgstr ""
+
+#: .\rabbit_item.json
+msgid "토끼 뮤타젠"
+msgid_plural "토끼 뮤타젠s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\rabbit_item.json
+msgid "토끼 혈청"
+msgid_plural "토끼 혈청s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': '토끼 혈청'}
+#: .\rabbit_item.json
+msgid "농축된 하얗고 몽실몽실해보이는 색의 뮤타젠입니다. 진짜로 이걸 주입할건가요?"
+msgstr ""
+
+#: .\rabbit_item.json
+msgid "투명아이템"
+msgid_plural "투명아이템s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for 투명아이템
+#: .\rabbit_item.json
+msgid "투명 아이템."
+msgstr ""
+
+#: .\rabbit_item.json
+msgid "투명 생존형 방화 가스마스크"
+msgid_plural "투명 생존형 방화 가스마스크s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\rabbit_item.json
+msgid "투명 생존형 중량 가스마스크"
+msgid_plural "투명 생존형 중량 가스마스크s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\rabbit_item.json
+msgid "투명 생존형 초합금 가스마스크"
+msgid_plural "투명 생존형 초합금 가스마스크s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\rabbit_item.json
+msgid "투명 생존형 경량형 가스마스크"
+msgid_plural "투명 생존형 경량형 가스마스크s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\rabbit_item.json
+msgid "투명 생존형 가스마스크"
+msgid_plural "투명 생존형 가스마스크s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\rabbit_item.json
+msgid "투명 겨울생존형 가스마스크"
+msgid_plural "투명 겨울생존형 가스마스크s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Mutation class name
+#: .\rabbit_mutation_ordering.json
+msgid "Rabbit"
+msgstr ""
+
+#. ~ Mutation class: Rabbit mutagen_message
+#: .\rabbit_mutation_ordering.json
+msgid "이제는 걷는것보다 깡총깡총 뛰는게 더 낫습니다."
+msgstr ""
+
+#. ~ Mutation class: Rabbit iv_message
+#: .\rabbit_mutation_ordering.json
+msgid "당신은 깡총깡총 뛰어다니고, 당근이 엄청나게 먹고싶습니다."
+msgstr ""
+
+#. ~ Mutation class: Rabbit Male memorial messsage
+#: .\rabbit_mutation_ordering.json
+msgctxt "memorial_male"
+msgid "당근맛을 느끼다."
+msgstr ""
+
+#. ~ Mutation class: Rabbit Female memorial messsage
+#: .\rabbit_mutation_ordering.json
+msgctxt "memorial_female"
+msgid "당근맛을 느끼다."
+msgstr ""
+
+#: .\rabbit_mutation_spell.json
+msgid "질주본능"
+msgstr ""
+
+#. ~ Description of effect '질주본능'.
+#: .\rabbit_mutation_spell.json
+msgid "토끼의 기민함으로, 위험을 회피하고 빠르게 달립니다."
+msgstr ""
+
+#. ~ Apply message for effect(s) '질주본능'.
+#: .\rabbit_mutation_spell.json
+msgid "이를 꽉 깨물고 달릴준비를 합니다."
+msgstr ""
+
+#. ~ Remove message for effect(s) '질주본능'.
+#: .\rabbit_mutation_spell.json
+msgid "온몸의 긴장이 풀리고, 지칩니다..."
+msgstr ""
+
+#. ~ Description for {'str': '질주본능'}
+#: .\rabbit_mutation_spell.json
+msgid "온몸에 힘을 집중해 짧은시간 엄청나게 빠른 속도를 냅니다. 하지만 질주가 끝나면 매우 지치게됩니다."
+msgstr ""
+
+#: .\rabbit_mutations.json
+msgid "Accomplished Sleeper"
+msgstr ""
+
+#. ~ Description for {'str': 'Accomplished Sleeper'}
+#: .\rabbit_mutations.json
+msgid ""
+"You have always been able to fall asleep easily, even when sleeping in less "
+"than ideal circumstances."
+msgstr ""
+
+#: .\rabbit_mutations.json
+msgid "Animal Discord"
+msgstr ""
+
+#. ~ Description for {'str': 'Animal Discord'}
+#: .\rabbit_mutations.json
+msgid ""
+"Most animals don't like you, and aggressive animals are more likely to "
+"attack you.  This only applies to natural animals such as woodland "
+"creatures."
+msgstr ""
+
+#: .\rabbit_mutations.json
+msgid "Prey Animal"
+msgstr ""
+
+#. ~ Description for {'str': 'Prey Animal'}
+#: .\rabbit_mutations.json
+msgid ""
+"Natural animals like dogs and wolves see you as prey, and are liable to "
+"attack you on sight."
+msgstr ""
+
+#: .\rabbit_mutations.json
+msgid "Dextrous"
+msgstr ""
+
+#. ~ Description for {'str': 'Dextrous'}
+#: .\rabbit_mutations.json
+msgid "You are a little nimbler.  +1 Dexterity."
+msgstr ""
+
+#: .\rabbit_mutations.json
+msgid "Very Dextrous"
+msgstr ""
+
+#. ~ Description for {'str': 'Very Dextrous'}
+#: .\rabbit_mutations.json
+msgid "You are nimbler.  +2 Dexterity."
+msgstr ""
+
+#: .\rabbit_mutations.json
+msgid "Fast Metabolism"
+msgstr ""
+
+#. ~ Description for {'str': 'Fast Metabolism'}
+#: .\rabbit_mutations.json
+msgid ""
+"You require more food than most people.  On a plus side, you are more "
+"resistant to cold."
+msgstr ""
+
+#: .\rabbit_mutations.json
+msgid "Sleepy"
+msgstr ""
+
+#. ~ Description for {'str': 'Sleepy'}
+#: .\rabbit_mutations.json
+msgid "You need sleep more often, but still spend most of your time awake."
+msgstr ""
+
+#: .\rabbit_mutations.json
+msgid "Rapid Metabolism"
+msgstr ""
+
+#. ~ Description for {'str': 'Rapid Metabolism'}
+#: .\rabbit_mutations.json
+msgid ""
+"You require more resources than most, but heal more rapidly as well.  "
+"Provides weak regeneration even when not asleep."
+msgstr ""
+
+#: .\rabbit_mutations.json
+msgid "Fleet-Footed"
+msgstr ""
+
+#. ~ Description for {'str': 'Fleet-Footed'}
+#: .\rabbit_mutations.json
+msgid ""
+"You can move more quickly than most, resulting in a 15% speed bonus on sure "
+"footing."
+msgstr ""
+
+#: .\rabbit_mutations.json
+msgid "Flimsy"
+msgstr ""
+
+#. ~ Description for {'str': 'Flimsy'}
+#: .\rabbit_mutations.json
+msgid ""
+"Your body can't take much abuse.  Its maximum HP is 25% lower than usual, "
+"and you heal slightly slower.  Stacks with Glass Jaw."
+msgstr ""
+
+#: .\rabbit_mutations.json
+msgid "Lightly Furred"
+msgstr ""
+
+#. ~ Description for {'str': 'Lightly Furred'}
+#: .\rabbit_mutations.json
+msgid ""
+"Light fur has grown to cover your entire body, providing slight protection "
+"from cold."
+msgstr ""
+
+#: .\rabbit_mutations.json
+msgid "토끼 털가죽(토끼)"
+msgstr ""
+
+#. ~ Description for {'str': '토끼 털가죽(토끼)'}
+#: .\rabbit_mutations.json
+msgid "토끼처럼 새하얀 털가죽이 자라났습니다."
+msgstr ""
+
+#: .\rabbit_mutations.json
+msgid "Albino"
+msgstr ""
+
+#. ~ Description for {'str': 'Albino'}
+#: .\rabbit_mutations.json
+msgid ""
+"You lack skin pigmentation due to a genetic problem.  You sunburn extremely "
+"easily, and typically use an umbrella and sunglasses when going out in the "
+"sun."
+msgstr ""
+
+#: .\rabbit_mutations.json
+msgid "Indefatigable"
+msgstr ""
+
+#. ~ Description for {'str': 'Indefatigable'}
+#: .\rabbit_mutations.json
+msgid ""
+"Whether due to exercise and good diet, or due to a natural propensity to "
+"physical endurance, you tire due to physical exertion much less readily than"
+" others.  Your maximum stamina and stamina regeneration is 25% higher than "
+"usual."
+msgstr ""
+
+#: .\rabbit_mutations.json
+msgid "Jittery"
+msgstr ""
+
+#. ~ Description for {'str': 'Jittery'}
+#: .\rabbit_mutations.json
+msgid ""
+"When very hungry or under the effects of stimulants, you may find your hands"
+" shaking uncontrollably, severely reducing your Dexterity."
+msgstr ""
+
+#: .\rabbit_mutations.json
+msgid "Junkfood Intolerance"
+msgstr ""
+
+#. ~ Description for {'str': 'Junkfood Intolerance'}
+#: .\rabbit_mutations.json
+msgid ""
+"Something in those heavily processed foods doesn't agree with you.  It's "
+"possible for you to eat them, but you will suffer morale penalties and "
+"obtain less nutrition from them."
+msgstr ""
+
+#: .\rabbit_mutations.json
+msgid "Light Bones"
+msgstr ""
+
+#. ~ Description for {'str': 'Light Bones'}
+#: .\rabbit_mutations.json
+msgid ""
+"Your bones are very light.  This enables you to move and attack 10% faster, "
+"but also reduces your carrying weight by 20% and makes bashing attacks hurt "
+"a little more."
+msgstr ""
+
+#: .\rabbit_mutations.json
+msgid "Small"
+msgstr ""
+
+#. ~ Description for {'str': 'Small'}
+#: .\rabbit_mutations.json
+msgid ""
+"You've noticeably shrunk in size.  You're able to move with increased "
+"litheness, but your smaller stature prevents you from carrying as much."
+msgstr ""
+
+#: .\rabbit_mutations.json
+msgid "작은 앞발(토끼)"
+msgstr ""
+
+#. ~ Description for {'str': '작은 앞발(토끼)'}
+#: .\rabbit_mutations.json
+msgid "손이 조그만 발로 변했습니다. 약간의 방해도와 조작이 어러워지지만, 날카로운 발톱으로 공격할 수 있습니다."
+msgstr ""
+
+#: .\rabbit_mutations.json
+msgid "Herbivore"
+msgstr ""
+
+#. ~ Description for {'str': 'Herbivore'}
+#: .\rabbit_mutations.json
+msgid ""
+"Your body's ability to digest meat is severely hampered.  Eating meat has a "
+"good chance of making you vomit it back up; even if you manage to keep it "
+"down, its nutritional value is greatly reduced."
+msgstr ""
+
+#: .\rabbit_mutations.json
+msgid "Ruminant"
+msgstr ""
+
+#. ~ Description for {'str': 'Ruminant'}
+#: .\rabbit_mutations.json
+msgid ""
+"Your digestive system is capable of digesting cellulose and other rough "
+"plant material.  You can eat underbrush and shrubs by activating this, "
+"standing over your target, and pressing E."
+msgstr ""
+
+#: .\rabbit_mutations.json
+msgid "Strong Legs"
+msgstr ""
+
+#. ~ Description for {'str': 'Strong Legs'}
+#: .\rabbit_mutations.json
+msgid ""
+"Your legs have gained muscle mass to propel you across any terrain, and help"
+" carry a bit more."
+msgstr ""
+
+#: .\rabbit_mutations.json
+msgid "Quick"
+msgstr ""
+
+#. ~ Description for {'str': 'Quick'}
+#: .\rabbit_mutations.json
+msgid "You're just generally quick!  You get a 10% bonus to action points."
+msgstr ""
+
+#: .\rabbit_mutations.json
+msgid "토끼 귀(토끼)"
+msgstr ""
+
+#. ~ Description for {'str': '토끼 귀(토끼)'}
+#: .\rabbit_mutations.json
+msgid "길고 커다란 귀가 되었습니다. 멀리서 난 소리도 잘 들을수 있습니다."
+msgstr ""
+
+#: .\rabbit_mutations.json
+msgid "토끼 발(토끼)"
+msgstr ""
+
+#. ~ Description for {'str': '토끼 발(토끼)'}
+#: .\rabbit_mutations.json
+msgid "발이 튼튼하고 큰 토끼 발로 성장했습니다. 강력한 발차기를 할 수 있고, 운이 약간 좋아진거 같지만 신발을 신을 수 없습니다."
+msgstr ""
+
+#: .\rabbit_mutations.json
+msgid "커다란 발로 걷어찼다!"
+msgstr ""
+
+#: .\rabbit_mutations.json
+msgid "%1$s 가 커다란발로 걷어찼습니다."
+msgstr ""
+
+#: .\rabbit_mutations.json
+msgid "토끼 꼬리(토끼)"
+msgstr ""
+
+#. ~ Description for {'str': '토끼 꼬리(토끼)'}
+#: .\rabbit_mutations.json
+msgid "토끼같은, 작고 땅딸막한 꼬리가 생겼습니다. 아무런 능력도 없습니다."
+msgstr ""
+
+#: .\rabbit_mutations.json
+msgid "Snout"
+msgstr ""
+
+#. ~ Description for {'str': 'Snout'}
+#: .\rabbit_mutations.json
+msgid ""
+"Your face and jaw have begun… changing.  Masks and such fit OK, but you're "
+"noticeably mutated."
+msgstr ""
+
+#: .\rabbit_mutations.json
+msgid "토끼 코(토끼)"
+msgstr ""
+
+#. ~ Description for {'str': '토끼 코(토끼)'}
+#: .\rabbit_mutations.json
+msgid "코가 주둥이와 함께 귀여운 토끼 코로 변했습니다. 매우 씰룩거립니다."
+msgstr ""
+
+#: .\rabbit_mutations.json
+msgid "Whiskers"
+msgstr ""
+
+#. ~ Description for {'str': 'Whiskers'}
+#: .\rabbit_mutations.json
+msgid ""
+"You have a handsome set of feline whiskers around your mouth.  These make "
+"you more aware of vibrations in the air, and improve your ability to dodge "
+"very slightly, but only when uncovered."
+msgstr ""
+
+#: .\rabbit_mutations.json
+msgid "토끼목"
+msgstr ""
+
+#. ~ Description for {'str': '토끼목'}
+#: .\rabbit_mutations.json
+msgid "당신은 당근이 정말 먹고 싶습니다. 토끼목의 일원이 된 것을 환영합니다!"
+msgstr ""
+
+#: .\rabbit_mutations.json
+msgid "Hyperactive"
+msgstr ""
+
+#. ~ Description for {'str': 'Hyperactive'}
+#: .\rabbit_mutations.json
+msgid ""
+"Your body's efficiency is like that of a tiny furnace, increasing your "
+"maximum stamina and stamina regeneration by 40%."
+msgstr ""
+
+#: .\rabbit_mutations.json
+msgid "토끼 이빨"
+msgstr ""
+
+#. ~ Description for {'str': '토끼 이빨'}
+#: .\rabbit_mutations.json
+msgid "당근을 갉아먹기 좋은 길고 튼튼한 이빨이 자라났습니다. 적을 공격할때 일정확률로 적을 깨물어 피해를 줍니다."
+msgstr ""
+
+#: .\rabbit_mutations.json
+msgid "당신은 %s를 이빨로 깨물었다"
+msgstr ""
+
+#: .\rabbit_mutations.json
+msgid "%1$s 가 %2$s 를 이빨로 깨물었다."
+msgstr ""
+
+#: .\rabbit_mutations.json
+msgid "Grazer"
+msgstr ""
+
+#. ~ Description for {'str': 'Grazer'}
+#: .\rabbit_mutations.json
+msgid ""
+"You're accustomed to eating plants directly, and can get nutrition from "
+"grass as well as underbrush and shrubs.  Eat either one by activating this, "
+"standing over your target, and pressing E."
+msgstr ""
+
+#: .\rabbit_mutations.json
+msgid "Burrowing"
+msgstr ""
+
+#. ~ Description for {'str': 'Burrowing'}
+#: .\rabbit_mutations.json
+msgid ""
+"Your claws and teeth allow you to dig through dirt and rubble with ease."
+msgstr ""
+
+#: .\rabbit_mutations.json
+msgid "Practiced Sleeper"
+msgstr ""
+
+#. ~ Description for {'str': 'Practiced Sleeper'}
+#: .\rabbit_mutations.json
+msgid ""
+"Your body's demanding energy needs mean you can fall asleep just about "
+"anywhere."
+msgstr ""
+
+#: .\rabbit_mutations.json
+msgid "질주하는 다리"
+msgstr ""
+
+#. ~ Description for {'str': '질주하는 다리'}
+#: .\rabbit_mutations.json
+msgid "당신은 빠른속도로 질주 할 수 있는 강력한 다리를 얻었습니다. 주문시전 탭에 들어가 사용합니다."
+msgstr ""
+
+#: .\rabbit_mutations.json
+msgid "Pain Sensitive"
+msgstr ""
+
+#. ~ Description for {'str': 'Pain Sensitive'}
+#: .\rabbit_mutations.json
+msgid ""
+"For some reason, things always seem to hurt you more.  Pain dealt to you is "
+"increased by 25%."
+msgstr ""

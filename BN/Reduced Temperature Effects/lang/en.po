@@ -1,0 +1,163 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: reducedtempeffect\n"
+"POT-Creation-Date: 2025-07-06 03:55+0900\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.6\n"
+
+#: .\effects.json
+msgid "Chilly"
+msgstr ""
+
+#. ~ Description of effect 'Chilly'.
+#: .\effects.json
+#, c-format
+msgid "Your %s is exposed to the cold."
+msgstr ""
+
+#.
+#. ~ Speed name of effect(s) 'Chilly, Cold, Freezing'.
+#: .\effects.json
+msgid "Cold"
+msgstr ""
+
+#. ~ Description of effect 'Cold'.
+#: .\effects.json
+#, c-format
+msgid "Your %s is very exposed to the cold."
+msgstr ""
+
+#: .\effects.json
+msgid "Freezing"
+msgstr ""
+
+#. ~ Description of effect 'Freezing'.
+#: .\effects.json
+#, c-format
+msgid "Your %s is dangerously cold!"
+msgstr ""
+
+#: .\effects.json
+msgid "Warm"
+msgstr ""
+
+#. ~ Description of effect 'Warm'.
+#: .\effects.json
+#, c-format
+msgid "Your %s feels warm."
+msgstr ""
+
+#: .\effects.json
+msgid "Hot"
+msgstr ""
+
+#. ~ Description of effect 'Hot'.
+#: .\effects.json
+#, c-format
+msgid "Your %s is sweating from the heat."
+msgstr ""
+
+#: .\effects.json
+msgid "Scorching"
+msgstr ""
+
+#. ~ Description of effect 'Scorching'.
+#: .\effects.json
+#, c-format
+msgid "Your %s is sweating profusely!"
+msgstr ""
+
+#: .\effects.json
+msgid "Slowdown"
+msgstr ""
+
+#. ~ Description of effect 'Slowdown'.
+#: .\effects.json
+msgid "The heat slows you down."
+msgstr ""
+
+#: .\effects.json
+msgid "Hampered"
+msgstr ""
+
+#. ~ Description of effect 'Hampered'.
+#: .\effects.json
+msgid "You struggle to move in this heat."
+msgstr ""
+
+#: .\effects.json
+msgid "Crushed"
+msgstr ""
+
+#. ~ Description of effect 'Crushed'.
+#: .\effects.json
+msgid "The heat is crushing you."
+msgstr ""
+
+#. ~ Speed name of effect(s) 'Slowdown, Hampered, Crushed'.
+#: .\effects.json
+msgid "Heat slowdown"
+msgstr ""
+
+#: .\effects.json
+msgid "Frostnip"
+msgstr ""
+
+#. ~ Description of effect 'Frostnip'.
+#: .\effects.json
+#, c-format
+msgid "Your %s is frostnipped and has gone numb."
+msgstr ""
+
+#.
+#. ~ Speed name of effect(s) 'Frostnip, Frostbite'.
+#: .\effects.json
+msgid "Frostbite"
+msgstr ""
+
+#. ~ Description of effect 'Frostbite'.
+#: .\effects.json
+#, c-format
+msgid "Your %s is frostbitten!  Its tissues are frozen from the cold!"
+msgstr ""
+
+#: .\effects.json
+msgid "Defrosting"
+msgstr ""
+
+#. ~ Description of effect 'Defrosting'.
+#: .\effects.json
+#, c-format
+msgid "Your %s is starting to feel the damage cold has wrought."
+msgstr ""
+
+#: .\effects.json
+msgid "Blisters"
+msgstr ""
+
+#. ~ Description of effect 'Blisters'.
+#: .\effects.json
+#, c-format
+msgid "Your %s is blistering from the intense heat."
+msgstr ""
+
+#. ~ Miss message for effect(s) 'Blisters'.
+#: .\effects.json
+msgid "Your blisters distract you"
+msgstr ""
+
+#: .\modinfo.json
+msgid "온도 디버프 감소"
+msgstr "Reduced Temperature Debuffs"
+
+#. ~ Description for 온도 디버프 감소
+#: .\modinfo.json
+msgid "온도로 인한 영향(열 감속, 피해, 각종 디버프 등)이 크게 줄어듭니다."
+msgstr "Temperature effects (thermal slows, damage, various debuffs, etc.) are greatly reduced."

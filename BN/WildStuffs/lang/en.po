@@ -1,0 +1,473 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Wild_stuffs_addon\n"
+"POT-Creation-Date: 2025-07-06 03:38+0900\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.6\n"
+
+#: .\modinfo.json
+msgid "야생 애드온"
+msgstr "Wild Stuffs Addon"
+
+#. ~ Description for 야생 애드온
+#: .\modinfo.json
+msgid ""
+"타 모드와 자연스럽게 섞일 수 있는 호환성 중시의 순한맛 야생을 표방하고 있습"
+"니다."
+msgstr ""
+"It's a compatibility-centric, mild-flavored wilderness that blends "
+"seamlessly with other mods."
+
+#. ~ Name for scenario 'Middle of Nowhere' for a male character
+#: .\scenarios.json
+msgctxt "scenario_male"
+msgid "Middle of Nowhere"
+msgstr ""
+
+#. ~ Name for scenario 'Middle of Nowhere' for a female character
+#: .\scenarios.json
+msgctxt "scenario_female"
+msgid "Middle of Nowhere"
+msgstr ""
+
+#. ~ Description for scenario 'Middle of Nowhere' for a male character.
+#: .\scenarios.json
+msgctxt "scen_desc_male"
+msgid "어쩌다보니 숲속에서 깨어나게 되었습니다."
+msgstr "Somehow, you woke up in a forest."
+
+#. ~ Description for scenario 'Middle of Nowhere' for a female character.
+#: .\scenarios.json
+msgctxt "scen_desc_female"
+msgid "어쩌다보니 숲속에서 깨어나게 되었습니다."
+msgstr "Somehow, you woke up in a forest."
+
+#. ~ Starting location for scenario 'Middle of Nowhere'.
+#. ~ Starting location for scenario '동굴에서'.
+#: .\scenarios.json
+msgctxt "start_name"
+msgid "Field"
+msgstr ""
+
+#. ~ Name for scenario '동굴에서' for a male character
+#: .\scenarios.json
+msgctxt "scenario_male"
+msgid "동굴에서"
+msgstr "In The Cave"
+
+#. ~ Name for scenario '동굴에서' for a female character
+#: .\scenarios.json
+msgctxt "scenario_female"
+msgid "동굴에서"
+msgstr "In The Cave"
+
+#. ~ Description for scenario '동굴에서' for a male character.
+#: .\scenarios.json
+msgctxt "scen_desc_male"
+msgid "어쩌다보니 동굴에서 깨어나게 되었습니다."
+msgstr "Somehow, you woke up in a cave."
+
+#. ~ Description for scenario '동굴에서' for a female character.
+#: .\scenarios.json
+msgctxt "scen_desc_female"
+msgid "어쩌다보니 동굴에서 깨어나게 되었습니다."
+msgstr "Somehow, you woke up in a cave."
+
+#: .\start_locations.json
+msgid "Field"
+msgstr ""
+
+#: .\furniture_and_terrain\firniture-tools.json
+msgid "forge"
+msgstr ""
+
+#. ~ Description for forge
+#: .\furniture_and_terrain\firniture-tools.json
+msgid "Metalworking station typically used in combination with an anvil."
+msgstr ""
+
+#: .\furniture_and_terrain\firniture-tools.json
+msgid "crunch!"
+msgstr ""
+
+#: .\furniture_and_terrain\firniture-tools.json
+msgid "whump."
+msgstr ""
+
+#: .\furniture_and_terrain\furniture-terrains.json
+msgid "small boulder"
+msgstr ""
+
+#: .\furniture_and_terrain\furniture-terrains.json
+msgid "smash!"
+msgstr ""
+
+#: .\furniture_and_terrain\furniture-terrains.json
+msgid "thump."
+msgstr ""
+
+#: .\furniture_and_terrain\furniture-terrains.json
+msgid "medium boulder"
+msgstr ""
+
+#: .\furniture_and_terrain\furniture-terrains.json
+msgid "large boulder"
+msgstr ""
+
+#: .\furniture_and_terrain\terrain-walls.json
+msgid "solid rock"
+msgstr ""
+
+#: .\furniture_and_terrain\terrain-walls.json
+msgid "crash!"
+msgstr ""
+
+#: .\furniture_and_terrain\terrain-walls.json
+msgid "whump!"
+msgstr ""
+
+#: .\items\chemicals_and_resources.json
+msgid "구리광석"
+msgid_plural "구리광석"
+msgstr[0] "copper ore"
+msgstr[1] "copper ore"
+
+#. ~ Description for {'str_sp': '구리광석'}
+#: .\items\chemicals_and_resources.json
+msgid ""
+"작은 구리광석 바위 파편입니다. 꽤 부실하며 무기로서는 그리 효과적이지 않지"
+"만, 이를 용융하여 사용할 수 있습니다."
+msgstr ""
+"These are small copper ore fragments. They are quite brittle and not very "
+"effective as a weapon, but can be melted down and used."
+
+#: .\items\oilspinner.json
+msgid "압착기"
+msgid_plural "압착기s"
+msgstr[0] "oil press"
+msgstr[1] "oil presses"
+
+#. ~ Description for {'str': '압착기'}
+#: .\items\oilspinner.json
+msgid ""
+"식물성 기름을 만들기 위한 크랭크 프레스입니다. 추출 효율을 높이기 위해 핫플"
+"레이트로 원료를 가열합니다."
+msgstr ""
+"A crank press for making vegetable oil. The raw material is heated with a "
+"hotplate to increase extraction efficiency."
+
+#: .\items\oilspinner.json
+msgid "방적기"
+msgid_plural "방적기s"
+msgstr[0] "spinner"
+msgstr[1] "spinners"
+
+#. ~ Description for {'str': '방적기'}
+#: .\items\oilspinner.json
+msgid ""
+"쉽게 말하면 물레. 섬유를 가공해서 실을 만드는 기계입니다. 목화에서 빠른 속도"
+"로 많은 양의 실을 뽑아낼 수 있습니다."
+msgstr ""
+"A spinning wheel. It's a machine that processes fibers to make strings. It "
+"can pull large amounts of yarn from cotton at high speeds."
+
+#: .\items\armor\cloaks.json
+msgid "짚 망토"
+msgid_plural "짚 망토s"
+msgstr[0] "straw cloak"
+msgstr[1] "straw cloaks"
+
+#. ~ Description for {'str': '짚 망토'}
+#: .\items\armor\cloaks.json
+msgid "지푸라기로 만든 간단한 망토."
+msgstr "A simple cloak made of straw."
+
+#: .\items\armor\storage.json
+msgid "허리 바구니"
+msgid_plural "허리 바구니s"
+msgstr[0] "waist basket"
+msgstr[1] "waist baskets"
+
+#. ~ Description for {'str': '허리 바구니'}
+#: .\items\armor\storage.json
+msgid "허리에 매는 작은 바구니."
+msgstr "A small basket to wear around your waist."
+
+#: .\items\tool\metalworking.json
+msgid "점토 목탄 용광로"
+msgid_plural "점토 목탄 용광로s"
+msgstr[0] "clay charcoal forge"
+msgstr[1] "clay charcoal forges"
+
+#. ~ Description for {'str': '점토 목탄 용광로'}
+#: .\items\tool\metalworking.json
+msgid ""
+"목탄을 이용해서 불을 때는 휴대용 금속가공 용광로입니다. 적절한 도구가 있다"
+"면 금속가공 및 금속 물품 수리에 활용할 수 있습니다."
+msgstr ""
+"This is a portable, charcoal fired, metalworking clay forge.  If combined "
+"with the right tools, you could use this for metalworking, or it could be "
+"used to repair metal items."
+
+#: .\items\tool\metalworking.json
+msgid "점토 목탄 가마"
+msgid_plural "점토 목탄 가마s"
+msgstr[0] "clay charcoal kiln"
+msgstr[1] "clay charcoal kilns"
+
+#. ~ Description for {'str': '점토 목탄 가마'}
+#: .\items\tool\metalworking.json
+msgid ""
+"열분해 작용을 이용해 목탄, 즉 숯을 만드는 튼튼한 점토 박스입니다. 산소 부족"
+"으로 인해 유기 물질이 완전히 타지 않는 불완전연소를 통해 숯이 만들어집니다."
+msgstr ""
+"A stout clay box used for producing charcoal via pyrolysis; the incomplete "
+"burning of organic materials in the absence of oxygen."
+
+#: .\items\tool\metalworking.json
+msgid "점토 목탄 가마 (가득참)"
+msgid_plural "점토 목탄 가마 (가득참)s"
+msgstr[0] "filled clay charcoal kiln"
+msgstr[1] "filled clay charcoal kilns"
+
+#. ~ Use action menu_text for {'str': '점토 목탄 가마 (가득참)'}.
+#: .\items\tool\metalworking.json
+msgid "Light wood"
+msgstr ""
+
+#. ~ Use action msg for {'str': '점토 목탄 가마 (가득참)'}.
+#: .\items\tool\metalworking.json
+msgid "You light the wood."
+msgstr ""
+
+#. ~ Use action need_fire_msg for {'str': '점토 목탄 가마 (가득참)'}.
+#: .\items\tool\metalworking.json
+msgid "You need something to light it with!"
+msgstr ""
+
+#. ~ Description for {'str': '점토 목탄 가마 (가득참)'}
+#: .\items\tool\metalworking.json
+msgid ""
+"나무를 가득 채운 점토 목탄 가마입니다. 나무를 천천히 연소시켜 목탄으로 만들 "
+"수 있습니다."
+msgstr ""
+"A clay kiln filled with wood which will become charcoal after a slow period "
+"of burning."
+
+#: .\items\tool\metalworking.json
+msgid "점토 목탄 가마 (불붙음)"
+msgid_plural "점토 목탄 가마 (불붙음)s"
+msgstr[0] "lit clay charcoal kiln"
+msgstr[1] "lit clay charcoal kilns"
+
+#. ~ Use action msg for {'str': '점토 목탄 가마 (불붙음)'}.
+#: .\items\tool\metalworking.json
+msgid ""
+"The kilns embers have died out, you can now disassemble it to harvest the "
+"charcoal."
+msgstr ""
+
+#. ~ Use action not_ready_msg for {'str': '점토 목탄 가마 (불붙음)'}.
+#: .\items\tool\metalworking.json
+msgid "The kiln is still burning."
+msgstr ""
+
+#. ~ Description for {'str': '점토 목탄 가마 (불붙음)'}
+#: .\items\tool\metalworking.json
+msgid ""
+"천천히 연소하고 있는 나무로 가득 찬 가마입니다. 그냥 놔두는게 좋을 것 같습니"
+"다."
+msgstr "A kiln full of wood that has been lit; better drop it!"
+
+#: .\items\tool\metalworking.json
+msgid "점토 목탄 가마 (완성됨)"
+msgid_plural "점토 목탄 가마 (완성됨)s"
+msgstr[0] "finished clay charcoal kiln"
+msgstr[1] "finished clay charcoal kilns"
+
+#. ~ Description for {'str': '점토 목탄 가마 (완성됨)'}
+#: .\items\tool\metalworking.json
+msgid ""
+"연소가 끝난 목탄 가마입니다. 분해하여 목탄과 가마를 회수할 수 있습니다."
+msgstr ""
+"A clay charcoal kiln that has finished burning.  Disassemble it to retrieve "
+"the charcoal and kiln."
+
+#: .\items\tool\metalworking.json
+msgid "강철 모루"
+msgid_plural "강철 모루s"
+msgstr[0] "iron anvil"
+msgstr[1] "iron anvils"
+
+#. ~ Description for {'str': '강철 모루'}
+#: .\items\tool\metalworking.json
+msgid ""
+"This is an enormously heavy block of oddly shaped iron with a chisel-like "
+"projection set into the corner.  It's used in most metalworking fabrication "
+"recipes."
+msgstr ""
+
+#: .\items\tool\workshop.json
+msgid "구리 곡괭이"
+msgid_plural "구리 곡괭이s"
+msgstr[0] "copper pickaxe"
+msgstr[1] "copper pickaxes"
+
+#. ~ Description for {'str': '구리 곡괭이'}
+#: .\items\tool\workshop.json
+msgid ""
+"큰 구리 곡괭이, 단단한 것을 부수거나 적절한 기술이 있다면 단단한 적을 부수는"
+"데 적합합니다. 땅을 내려치세요!"
+msgstr ""
+"This is a large steel pickaxe, suitable for breaking up hard things or "
+"(with enough skill) hard targets.  Strike the earth!"
+
+#: .\items\vehicle\wheel.json
+msgid "경량형 나무 바퀴 마운트"
+msgid_plural "경량형 나무 바퀴 마운트s"
+msgstr[0] "light wooden wheel mount"
+msgstr[1] "light wooden wheel mounts"
+
+#. ~ Description for {'str': '경량형 나무 바퀴 마운트'}
+#: .\items\vehicle\wheel.json
+msgid "자전거 바퀴나 오토바이 바퀴를 달 수 있도록 구멍이 뚫려있는 나무 조각."
+msgstr "A piece of wood with holes suitable for a bike or motorbike wheel."
+
+#: .\overmap\terrain_hardcoded.json
+msgid "cave"
+msgstr ""
+
+#: .\overmap\terrain_hardcoded.json
+msgid "rat cave"
+msgstr ""
+
+#: .\recipes\oilspinner.json
+msgid "자작나무껍질 붕대"
+msgid_plural "자작나무껍질 붕대s"
+msgstr[0] "birchbark bandage"
+msgstr[1] "birchbark bandages"
+
+#. ~ Description for {'str': '자작나무껍질 붕대'}
+#: .\recipes\oilspinner.json
+msgid ""
+"피를 멈추고 상처를 먼지로부터 보호하기 위해 상처 주위에 묶을 수 있는 작은 자"
+"작나무 껍질 조각과 끈입니다. 아무것도 없는 것보다는 낫습니다."
+msgstr ""
+"A small piece of birchbark and string that can be tied around the wound to "
+"stop the bleeding and protect the wound from dirt. It's better than nothing."
+
+#: .\recipes\oilspinner.json
+msgid "연고 바른 자작나무껍질 붕대"
+msgid_plural "연고 바른 자작나무껍질 붕대s"
+msgstr[0] "birchbark bandage with ointment"
+msgstr[1] "birchbark bandages with ointment"
+
+#. ~ Description for {'str': '연고 바른 자작나무껍질 붕대'}
+#: .\recipes\oilspinner.json
+msgid ""
+"마늘 연고가 첨가된 자작나무껍질 붕대입니다. 상처난 곳에 좋지만 진짜 붕대만"
+"큼 좋지는 않습니다."
+msgstr ""
+"A birchbark bandage with garlic ointment added. It's good for cuts, but not "
+"as good as a real bandage."
+
+#: .\recipes\oilspinner.json
+msgid "숫돌"
+msgid_plural "숫돌s"
+msgstr[0] "whetstone"
+msgstr[1] "whetstones"
+
+#. ~ Description for {'str': '숫돌'}
+#: .\recipes\oilspinner.json
+msgid ""
+"날붙이 무기를 수리하고 연마할 때 쓰는 작은 숫돌입니다. 사실 날붙이 뿐만 아니"
+"라 다른 금속 재질의 물건을 갈아내는 데에도 쓸만합니다. 사용하여 금속 아이템"
+"을 수리할 수 있습니다."
+msgstr ""
+"A small sharpening stone used to repair and sharpen bladed weapons. It is "
+"actually useful for sharpening other metal objects as well as blades. You "
+"can use it to repair metal items."
+
+#: .\recipes\oilspinner.json
+msgid "발판 작동 숫돌"
+msgid_plural "발판 작동 숫돌s"
+msgstr[0] "pedal powered grindstone"
+msgstr[1] "pedal powered grindstones"
+
+#. ~ Description for {'str': '발판 작동 숫돌'}
+#: .\recipes\oilspinner.json
+msgid ""
+"페달로 작동하는 둥근 숫돌로, 금속을 갈아내는 데에 쓸만합니다. 사용하여 금속 "
+"아이템을 수리할 수 있습니다."
+msgstr ""
+"A round, pedal-powered grindstone, useful for grinding metal. You can use "
+"it to repair metal items."
+
+#: .\recipes\oilspinner.json
+msgid "Royal Penny Tea"
+msgstr ""
+
+#: .\recipes\oilspinner.json
+msgid "점토 배터리"
+msgid_plural "점토 배터리"
+msgstr[0] "clay battery"
+msgstr[1] "clay batteries"
+
+#. ~ Description for {'str': '점토 배터리', 'str_pl': '점토 배터리'}
+#: .\recipes\oilspinner.json
+msgid ""
+"점토로 만든 케이스에 들어있는 12v 납산 축전지로, 일반 차량의 전력 시스템을 "
+"작동시킬 때 사용합니다."
+msgstr ""
+"A 12-volt lead-acid battery in a clay case, used to power the power system "
+"of a typical vehicle."
+
+#: .\recipes\oilspinner.json
+msgid "점토 배터리 묶음"
+msgid_plural "점토 배터리 묶음s"
+msgstr[0] "bundle of clay batteries"
+msgstr[1] "bundles of clay batteries"
+
+#. ~ Description for {'str': '점토 배터리 묶음'}
+#: .\recipes\oilspinner.json
+msgid "간단한 나무 프레임에 직렬로 연결된 4개의 점토 배터리입니다"
+msgstr "Four clay batteries connected in series on a simple wooden frame"
+
+#: .\recipes\vehicleparts\wheel.json
+msgid "light wooden wheel mount"
+msgstr ""
+
+#. ~ Description for {'str': 'light wooden wheel mount'}
+#. ~ Description for {'str': 'light wooden wheel mount (steerable)'}
+#: .\recipes\vehicleparts\wheel.json
+msgid "A piece of wood with holes."
+msgstr ""
+
+#: .\recipes\vehicleparts\wheel.json
+msgid "light wooden wheel mount (steerable)"
+msgstr ""
+
+#: .\recipes\vehicleparts\wheel.json
+msgid "나무상자 (짜임)"
+msgstr "wood box (jointed)"
+
+#: .\recipes\vehicleparts\wheel.json
+msgid "접이식 나무 상자 (짜임)"
+msgstr "folding wood box (jointed)"
+
+#: .\recipes\vehicleparts\wheel.json
+msgid "나무 보트 선체 (짜임)"
+msgstr "wooden boat hull (jointed)"
+
+#. ~ Description for {'str': '나무 보트 선체 (짜임)'}
+#: .\recipes\vehicleparts\wheel.json
+msgid "A wooden board that keeps the water out of your boat."
+msgstr ""

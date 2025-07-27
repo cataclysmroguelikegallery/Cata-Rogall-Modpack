@@ -1,0 +1,107 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: showyourface\n"
+"POT-Creation-Date: 2025-07-07 07:42+0900\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: .\modinfo.json
+msgid "투명한 얼굴 방어구들"
+msgstr ""
+
+#. ~ Description for 투명한 얼굴 방어구들
+#: .\modinfo.json
+msgid "머리를 가리는 방어구들을 투명하게하고, 헬멧이 있는 방어구의 헬멧을 투명하게 합니다."
+msgstr ""
+
+#: .\trans_item.json
+msgid "투명아이템"
+msgid_plural "투명아이템s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for 투명아이템
+#: .\trans_item.json
+msgid "투명 아이템."
+msgstr ""
+
+#: .\trans_item.json
+msgid "투명 생존형 방화 가스마스크"
+msgid_plural "투명 생존형 방화 가스마스크s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\trans_item.json
+msgid "투명 생존형 중량 가스마스크"
+msgid_plural "투명 생존형 중량 가스마스크s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\trans_item.json
+msgid "투명 생존형 초합금 가스마스크"
+msgid_plural "투명 생존형 초합금 가스마스크s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\trans_item.json
+msgid "투명 생존형 경량형 가스마스크"
+msgid_plural "투명 생존형 경량형 가스마스크s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\trans_item.json
+msgid "투명 생존형 가스마스크"
+msgid_plural "투명 생존형 가스마스크s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\trans_item.json
+msgid "투명 겨울생존형 가스마스크"
+msgid_plural "투명 겨울생존형 가스마스크s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\trans_item.json
+msgid "투명 생존형 헬멧"
+msgid_plural "투명 생존형 헬멧s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\trans_item.json
+msgid "투명 중량형 생존형 헬멧"
+msgid_plural "투명 중량형 생존형 헬멧s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\trans_item.json
+msgid "투명 초합금 생존형 헬멧"
+msgid_plural "투명 초합금 생존형 헬멧s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\trans_item.json
+msgid "투명 생존형 방화후드"
+msgid_plural "투명 생존형 방화후드s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\trans_item.json
+msgid "투명 경량령 생존후드"
+msgid_plural "투명 경량령 생존후드s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\trans_item.json
+msgid "투명 생존형 후드"
+msgid_plural "투명 생존형 후드s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\trans_item.json
+msgid "투명 겨울형 생존 후드"
+msgid_plural "투명 겨울형 생존 후드s"
+msgstr[0] ""
+msgstr[1] ""

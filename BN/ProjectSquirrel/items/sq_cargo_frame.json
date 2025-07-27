@@ -179,7 +179,7 @@
     "material": [ "nomex", "steel", "kevlar" ],
     "symbol": "[",
     "looks_like": "backpack",
-    "color": "black",
+    "color": "blue",
     "covers": [ "torso" ],
     "coverage": 80,
     "rigid": false,
@@ -189,7 +189,7 @@
     "storage": "120 L",
     "material_thickness": 4,
 	"environmental_protection": 10,
-    "properties": [ [ "monster_size_capacity", "MEDIUM" ] ],
+    "properties": [ [ "creature_size_capacity", "MEDIUM" ] ],
     "use_action": [
       "CAPTURE_MONSTER_ACT",
       {

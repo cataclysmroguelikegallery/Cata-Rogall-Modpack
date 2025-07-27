@@ -1,12 +1,12 @@
 [
-{
+  {
     "id": "mutagen_rabbit",
     "copy-from": "mutagen_flavor",
     "type": "COMESTIBLE",
     "name": { "str": "토끼 뮤타젠" },
     "use_action": { "type": "mutagen", "mutation_category": "RABBIT" }
   },
-{
+  {
     "id": "iv_mutagen_RABBIT",
     "copy-from": "iv_mutagen_flavor",
     "type": "COMESTIBLE",
@@ -45,11 +45,11 @@
     "components": [ [ [ "mutagen_rabbit", 2 ] ] ],
     "flags": [ "SECRET" ]
   },
-{
-"id":"trans_item",
-"type": "ARMOR",
-"name":"투명아이템",
-"description": "투명 아이템.",
+  {
+    "id": "trans_item",
+    "type": "ARMOR",
+    "name": "투명아이템",
+    "description": "투명 아이템.",
     "weight": "1 g",
     "volume": "1 ml",
     "price": "1 USD",
@@ -58,49 +58,49 @@
     "material": [ "plastic" ],
     "symbol": "[",
     "color": "red"
-},
-{
+  },
+  {
     "id": "t_mask_fsurvivor",
     "copy-from": "mask_fsurvivor",
     "looks_like": "trans_item",
     "type": "ARMOR",
     "name": { "str": "투명 생존형 방화 가스마스크" }
-},
-{
+  },
+  {
     "id": "t_mask_hsurvivor",
     "copy-from": "mask_hsurvivor",
     "looks_like": "trans_item",
     "type": "ARMOR",
     "name": { "str": "투명 생존형 중량 가스마스크" }
-},
-{
+  },
+  {
     "id": "t_mask_sasurvivor",
     "copy-from": "mask_sasurvivor",
     "looks_like": "trans_item",
     "type": "ARMOR",
     "name": { "str": "투명 생존형 초합금 가스마스크" }
-},
-{
+  },
+  {
     "id": "t_mask_lsurvivor",
     "copy-from": "mask_lsurvivor",
     "looks_like": "trans_item",
     "type": "ARMOR",
     "name": { "str": "투명 생존형 경량형 가스마스크" }
-},
-{
+  },
+  {
     "id": "t_mask_survivor",
     "copy-from": "mask_survivor",
     "looks_like": "trans_item",
     "type": "ARMOR",
     "name": { "str": "투명 생존형 가스마스크" }
-},
-{
+  },
+  {
     "id": "t_mask_wsurvivor",
     "copy-from": "mask_wsurvivor",
     "looks_like": "trans_item",
     "type": "ARMOR",
     "name": { "str": "투명 겨울생존형 가스마스크" }
-},
+  },
   {
     "result": "t_mask_fsurvivor",
     "type": "recipe",
@@ -143,7 +143,7 @@
     "difficulty": 1,
     "time": "1 m",
     "autolearn": [ [ "tailor", 1 ] ],
-    "components": [ [ ["mask_lsurvivor", 1 ] ] ]
+    "components": [ [ [ "mask_lsurvivor", 1 ] ] ]
   },
   {
     "result": "t_mask_survivor",
