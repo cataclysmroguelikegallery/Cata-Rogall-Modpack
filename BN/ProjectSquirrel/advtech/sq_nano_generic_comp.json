@@ -145,9 +145,9 @@
     "batch_time_factors": [ 50, 5 ],
     "book_learn": [ [ "recipe_lab_cvd", 7 ] ],
     "autolearn": false,
-	"charges": 2,
+	"charges": 3,
     "tools": [ [ [ "sq_atomic_forge", -1 ] ] ],
-    "components": [ [ [ "resin_chunk", 1 ], [ "slime_scrap", 3 ] ], [ [ "graphene", 3 ] ] ]
+    "components": [ [ [ "resin_chunk", 1 ], [ "slime_scrap", 5 ] ], [ [ "graphene", 3 ] ] ]
   },
   {
     "result": "carbide_plate",
@@ -162,26 +162,27 @@
     "batch_time_factors": [ 50, 5 ],
     "book_learn": [ [ "recipe_lab_cvd", 7 ] ],
     "autolearn": false,
-	"charges": 10,
+	"charges": 15,
     "tools": [ [ [ "sq_atomic_forge", -1 ] ] ],
-    "components": [ [ [ "alien_pod_resin", 1 ], [ "slime_scrap", 15 ] ], [ [ "graphene", 15 ] ] ]
+    "components": [ [ [ "alien_pod_resin", 1 ], [ "slime_scrap", 25 ] ], [ [ "graphene", 15 ] ] ]
   },
   {
-    "result": "hydrogen_tank",
+    "result": "c_hydrogen_gas",
+	"id_suffix": "alternative",
     "type": "recipe",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
     "skill_used": "cooking",
-    "difficulty": 6,
+    "difficulty": 4,
     "time": "30 m",
     "batch_time_factors": [ 80, 5 ],
     "book_learn": [ [ "textbook_chemistry", 6 ], [ "adv_chemistry", 6 ], [ "recipe_labchem", 7 ] ],
     "qualities": [
-      { "id": "CHEM", "level": 3 }
+      { "id": "CHEM", "level": 3 }, { "id": "PRESSURIZATION", "level": 1 }
     ],
     "tools": [ [ [ "surface_heat", 20, "LIST" ] ] ],
     "autolearn": false,
-    "components": [ [ [ "ammonia", 5 ] ], [ [ "metal_tank_little", 1 ] ] ]
+    "components": [ [ [ "ammonia", 2 ] ] ]
   },
   {
     "result": "plasma",
@@ -197,7 +198,7 @@
     "qualities": [ { "id": "CHEM", "level": 3 } ],
     "tools": [ [ [ "sq_nanocomp", -1 ], [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
     "autolearn": false,
-    "components": [ [ [ "hydrogen_tank", 2 ] ] ]
+    "components": [ [ "c_hydrogen_gas", 20 ] ]
   },
   {
     "result": "nanomaterial",

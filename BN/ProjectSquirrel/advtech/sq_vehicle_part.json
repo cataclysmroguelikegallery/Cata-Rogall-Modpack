@@ -501,7 +501,7 @@
     "book_learn": [ [ "recipe_lab_cvd", 5 ] ],
     "autolearn": false,
     "tools": [ [ [ "sq_atomic_forge", -1 ] ] ],
-    "components": [ [ [ "carbide_plate", 12 ] ] ]
+    "components": [ [ [ "carbide_plate", 6 ] ] ]
   },
   {
     "type": "vehicle_part",
@@ -565,7 +565,7 @@
     "reversible": true,
     "autolearn": true,
     "using": [ [ "welding_standard", 10 ] ],
-    "components": [ [ [ "carbide_plate", 20 ] ], [ [ "graphene", 2 ] ] ]
+    "components": [ [ [ "carbide_plate", 10 ] ], [ [ "graphene", 2 ] ] ]
   },
   {
     "abstract": "sq_carbide_frame",
@@ -612,7 +612,7 @@
     "reversible": true,
     "autolearn": true,
     "using": [ [ "welding_standard", 50 ] ],
-    "components": [ [ [ "carbide_plate", 50 ] ], [ [ "graphene", 10 ] ] ]
+    "components": [ [ [ "carbide_plate", 25 ] ], [ [ "graphene", 10 ] ] ]
   },
   {
     "abstract": "sq_carbide_hdframe",

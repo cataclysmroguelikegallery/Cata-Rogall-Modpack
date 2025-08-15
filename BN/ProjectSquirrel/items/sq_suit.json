@@ -302,7 +302,7 @@
     "volume": "7500 ml",
     "storage": "20 L",
     "ammo": "battery",
-	  "max_charges": 1000,
+	"max_charges": 1000,
     "use_action": {
       "type": "transform",
       "msg": "온도조절 기능을 작동시킵니다.",
