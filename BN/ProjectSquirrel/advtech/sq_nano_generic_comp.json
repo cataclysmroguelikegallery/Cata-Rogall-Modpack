@@ -1,5 +1,14 @@
 [
   {
+    "id": "alien_pod_resin",
+	"copy-from": "alien_pod_resin",
+    "type": "TOOL",
+    "category": "spare_parts",
+    "name": { "str": "alien resin pod" },
+    "weight": "7000 g",
+    "volume": "11000 ml"
+  },
+  {
     "id": "hazardous_waste_drum",
     "copy-from": "55gal_drum",
     "type": "CONTAINER",
@@ -198,7 +207,7 @@
     "qualities": [ { "id": "CHEM", "level": 3 } ],
     "tools": [ [ [ "sq_nanocomp", -1 ], [ "sq_nanoprint", -1 ], [ "sq_nanofab", -1 ] ] ],
     "autolearn": false,
-    "components": [ [ "c_hydrogen_gas", 20 ] ]
+    "components": [ [ [ "c_hydrogen_gas", 20 ] ] ]
   },
   {
     "result": "nanomaterial",
