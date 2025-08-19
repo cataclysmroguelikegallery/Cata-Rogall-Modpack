@@ -17,6 +17,8 @@
   {
     "type": "recipe",
     "result": "purifier_smart_shot",
+    "id_suffix": "sq_recipe",
+    "//": "레시피가 겹치는 문제가 발생할 경우 id_suffix 를 활용할 것.",
     "category": "CC_첨단기술",
     "subcategory": "CSC_첨단기술_MUTAGEN",
     "skill_used": "cooking",
