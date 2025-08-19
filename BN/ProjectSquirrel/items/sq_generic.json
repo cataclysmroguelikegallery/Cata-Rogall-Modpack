@@ -552,7 +552,7 @@
     "category": "spare_parts",
     "name": { "str": "황동 묶음", "str_pl": "황동 묶음" },
     "description": "저장을 위해 꽉 묶어둔 황동입니다. 사용하거나 분해하여 내용물을 꺼낼 수 있습니다.",
-    "weight": "1000 g",
+    "weight": "100 g",
     "volume": "20 ml",
     "price": "1000 USD",
     "price_postapoc": "1000 cent",
@@ -564,7 +564,7 @@
     "flags": [ "NO_REPAIR", "NO_SALVAGE" ]
   },
   {
-    "result": "bundle_scrap_copper",
+    "result": "bundle_cartridgebrass",
     "type": "uncraft",
     "skill_used": "fabrication",
     "time": "1 s",
