@@ -48,14 +48,6 @@
     "extend": { "flags": [ "BELT_CLIP" ] }
   },
   {
-    "id": "smartphone_music",
-    "type": "TOOL",
-    "category": "tools",
-    "name": { "str": "smartphone - music", "str_pl": "smartphones - music" },
-    "copy-from": "smartphone_music",
-    "extend": { "flags": [ "BELT_CLIP" ] }
-  },
-  {
     "id": "electrohack",
     "type": "TOOL",
     "category": "tools",
