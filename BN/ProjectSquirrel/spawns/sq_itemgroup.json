@@ -59,10 +59,7 @@
 	  [ "sq_healingfactor", 4 ],
 	  [ "sq_stimpack", 4 ],
       [ "sq_antidote_posion", 10 ],
-      [ "sq_antidote_badpoison", 6 ],
-      [ "mutagen", 5 ],
-      [ "purifier", 2 ],
-      [ "mutagen_medical", 1 ]
+      [ "sq_antidote_badpoison", 6 ]
     ]
   },
   {
@@ -73,9 +70,7 @@
       [ "1st_aid", 15 ],
       [ "weak_antibiotic", 10 ],
       [ "sq_antidote_posion", 15 ],
-      [ "sq_antidote_badpoison", 5 ],
-      [ "pepto", 80 ],
-      [ "medical_gauze", 10 ]
+      [ "sq_antidote_badpoison", 5 ]
     ]
   },
   {
@@ -131,8 +126,6 @@
 	  [ "nanomaterial", 10 ],
       [ "sq_homebrew_antiseptic", 4 ],
       [ "sq_antidote_posion", 10 ],
-      [ "iodine", 8 ],
-      [ "prussian_blue", 8 ],
       [ "sq_stamina_juice", 8 ],
       [ "sq_royal_jelly_sap", 5 ],
       [ "sq_stamina_elixr", 4 ],

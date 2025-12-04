@@ -246,7 +246,7 @@
           "carbide"
         ],
         "skill": "tailor",
-        "clothing_mods": [ "leather_padded", "steel_padded", "alloy_padded", "kevlar_padded", "scute", "nomex_padded", "furred", "wooled", "lightened", "resized_large", "pocketed", "graphene_padded" ]
+        "clothing_mods": [ "leather_padded", "steel_padded", "alloy_padded", "kevlar_padded", "nomex_padded", "furred", "wooled", "lightened", "resized_large", "pocketed", "graphene_padded" ]
       }
     ],
     "flags": [ "ALLOWS_REMOTE_USE" ]

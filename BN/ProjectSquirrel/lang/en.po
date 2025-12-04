@@ -1343,8 +1343,8 @@ msgstr ""
 #: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "하드라이트 정밀소총"
 msgid_plural "하드라이트 정밀소총s"
-msgstr[0] "harlight precision rifle"
-msgstr[1] "harlight precision rifles"
+msgstr[0] "hardlight precision rifle"
+msgstr[1] "hardlight precision rifles"
 
 #: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
@@ -3179,7 +3179,7 @@ msgstr "mounted hardlight rifle"
 
 #: .\advtech\sq_vehicle_part.json
 msgid "차량용 하드라이트 정밀소총"
-msgstr "mounted harlight precision rifle"
+msgstr "mounted hardlight precision rifle"
 
 #: .\advtech\sq_vehicle_part.json
 msgid "차량용 테슬라 캐논"

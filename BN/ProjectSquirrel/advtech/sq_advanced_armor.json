@@ -102,7 +102,7 @@
     "coverage": 100,
     "qualities": [ [ "GLARE", 2 ] ],
     "encumbrance": 30,
-    "material_thickness": 5,
+    "material_thickness": 8,
     "relic_data": {
       "passive_effects": [
         {
@@ -265,7 +265,7 @@
         }
       ]
     },
-    "material_thickness": 8,
+    "material_thickness": 9,
     "encumbrance": 20,
     "flags": [
       "SUPER_FANCY",
