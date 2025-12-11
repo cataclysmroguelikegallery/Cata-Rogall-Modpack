@@ -107,9 +107,6 @@
         }
       ]
     },
-    "gun_data": {
-      "valid_mod_locations": [ [ "센서", 1 ], [ "운영체제", 1 ], [ "발열 관리", 1 ] ]
-    },
     "artifact_data": { "effects_worn": [  ] },
     "flags": [
       "SUPER_FANCY",
@@ -173,9 +170,6 @@
         }
       ]
     },
-    "gun_data": {
-      "valid_mod_locations": [ [ "센서", 1 ], [ "운영체제", 1 ] ]
-    },
     "artifact_data": { "effects_worn": [  ] },
     "flags": [
       "SUPER_FANCY",
@@ -238,9 +232,6 @@
           ]
         }
       ]
-    },
-    "gun_data": {
-      "valid_mod_locations": [ [ "센서", 1 ], [ "운영체제", 1 ] ]
     },
     "artifact_data": { "effects_worn": [  ] },
     "flags": [
