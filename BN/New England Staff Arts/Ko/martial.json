@@ -75,7 +75,7 @@
       "tec_NE_staff_counter_Pause"
     ],
     "weapons": [ "i_staff", "l-stick", "l-stick_on", "q_staff", "shock_staff", "staff_sling" ],
-    "weapon_categories": [ "staves" ]
+    "weapon_category": [ "QUARTERSTAVES" ]
   },
   {
     "type": "technique",
