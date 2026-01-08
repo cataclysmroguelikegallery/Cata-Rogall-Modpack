@@ -1,158 +1,152 @@
 [
-	{
-		"type":"martial_art",
-		"id":"style_NE_staff",
-		
-		"name":"뉴 잉글랜드 지팡이술",
-		"description":"봉술은 어느 문화권에서도 찾을 수 있는 무술입니다. 무기의 단순한 구조와 그로 인한 자유로운 파지법, 그리고 변화무쌍한 동작이 무수한 시간 속에서 봉술이 다양한 가지를 뻗게 하였습니다.\n이제, 뉴 잉글랜드 분파의 새로운 가지를 뻗을 차례입니다. 당신이 바로 최초의 스승이며, 전설의 시초입니다.",
-		"initiate":["당신은 스스로 고안한 대로 봉을 말아쥡니다.","당신의 무술을 전수받은 %s(이)가 봉을 정갈히 잡습니다."],
-		"autolearn": [ ["bashing", "4"]],
-		"learn_difficulty":5,
-		"strictly_melee":true,
-		"static_buffs":[
-			{
-				"id": "buff_NE_staff_static",
-				"name":"흐름의 자세",
-				"description":"상대의 공격을 유연하게 흘려내도록, 비스듬히 봉을 기울입니다.\n방어기회가 1 증가하고, 방어 시 데미지를 민첩의 절반만큼 경감합니다.",
-				"melee_allowed":true,
-				"bonus_blocks": 1,
-				"flat_bonuses":[{"stat":"block", "scaling-stat": "dex", "scale": 0.5 }]
-			},
-			{
-				"id": "buff_NE_staff_static_wall",
-				"name":"막힌 흐름",
-				"description":"벽에 부딪혀 회전이 제한됩니다.\n행동력이 25% 더 소모되고 관통 이외의 피해가 30% 감소합니다.",
-				"melee_allowed":true,
-				"wall_adjacent":true,
-				"mult_bonuses":[
-					{"stat":"movecost", "scale":1.25},
-					{"stat":"damage", "type":"bash", "scale": 0.7},
-					{"stat":"damage", "type":"cut", "scale": 0.7}
-				]
-			}
-		],
-		"onblock_buffs":[
-			{
-				"id": "buff_NE_staff_block",
-				"name":"역류",
-				"description":"흘린 공격의 반동을 이용해 다음 동작을 이끌어냅니다.\n행동력 소모가 15% 줄어듭니다.",
-				"skill_requirements":[{"name":"melee", "level":4}],
-				"buff_duration": 1,
-				"melee_allowed":true,
-				"mult_bonuses":[{"stat":"movecost", "scale":0.85}]	
-			}
-		],
-		
-		"onmove_buffs":[
-			{
-				"id": "buff_NE_staff_move",
-				"name":"거센 물살",
-				"description":"봉을 회전시키며 앞으로 나아갑니다.\n관통 이외의 피해가 10% 상승합니다.",
-				"skill_requirements":[{"name":"melee", "level":4}],
-				"buff_duration": 1,
-				"max_stacks": 2,
-				"melee_allowed":true,
-				"mult_bonuses":[
-					{"stat":"damage", "type": "bash", "scale":1.1},
-					{"stat":"damage", "type": "cut", "scale": 1.1}
-				]
-			}
-		],
-		"onpause_buffs":[
-			{
-				"id": "buff_NE_staff_pause",
-				"name":"물처럼 고요하게",
-				"description":"잠시 멈추어 사방의 공격을 막아낼 준비를 합니다.\n방어기회가 1 증가하고 \"굽이치는 고요\"가 가능해집니다.",
-				"skill_requirements":[{"name":"melee", "level":5}],
-				"buff_duration": 1,
-				"bonus_blocks": 1,
-				"melee_allowed":true
-			}
-		],
-		"techniques" : [
-			"tec_NE_staff_disarm",
-			"tec_NE_staff_counter",
-			"tec_NE_staff_downattack",
-			"tec_NE_staff_feint",
-			"tec_NE_staff_counter_Pause"
-		],
-		"weapons": [
-			"i_staff",
-			"l-stick",
-			"l-stick_on",
-			"q_staff",
-			"shock_staff",
-			"staff_sling"
-		]
-	},
-	{
-		"type":"technique",
-		"id":"tec_NE_staff_disarm",
-		"name":"손 담그기",
-		"messages":["%s의 손목을 쳐서 무기를 떨어트렸다!","<npcname>이 %s의 손목을 쳐 무기를 떨어트렸다!"],
-		"skill_requirements":[{"name":"melee", "level":4}],
-		"melee_allowed":true,
-		"disarms": true
-	},
-	{
-		"type":"technique",
-		"id":"tec_NE_staff_feint",
-		"name":"물보라",
-		"messages":["헛휘두른 봉을 돌려 다시 붙잡았다.","<npcname>의 무기가 회전하여 제자리로 돌아갔다."],
-		"skill_requirements":[{"name":"melee", "level":4}],
-		"melee_allowed":true,
-		"defensive":true,
-		"miss_recovery":true,
-		"mult_bonuses":[{"stat":"movecost","scale":0.5}]
-	},
-	{
-		"type":"technique",
-		"id":"tec_NE_staff_counter",
-		"name":"발목 적시기",
-		"messages":["공격을 흘려낸 반동으로 다리를 걸어 %s(을)를 넘어트렸다!","<npcname>이 %s의 발목을 무기로 잡아챘다!"],
-		"skill_requirements":[{"name":"melee", "level":4}],
-		"melee_allowed":true,
-		"block_counter":true,
-		"down_dur": 3,
-		"mult_bonuses":[
-			{"stat":"movecost", "scale":0.0},
-			{"stat":"damage", "type":"cut", "scale":0.40},
-			{"stat":"damage", "type":"bash", "scale": 0.80},
-			{"stat":"damage", "type":"stab", "scale": 0.0}
-			]
-	},
-	{
-		"type":"technique",
-		"id":"tec_NE_staff_counter_Pause",
-		"name":"굽이치는 고요",
-		"messages":["완벽하게 흘려낸 공격으로 %s의 다리를 걸어 쓰러트렸다!","<npcname>(은)는 완벽하게 %s의 다리를 걸었다!"],
-		"skill_requirements":[{"name":"melee", "level":6}],
-		"melee_allowed":true,
-		"req_buffs":"buff_NE_staff_pause",
-		"block_counter":true,
-		"down_dur": 2,
-		"weighting": 1,
-		"mult_bonuses":[
-			{"stat":"movecost", "scale":0.0},
-			{"stat":"damage", "type":"cut", "scale":0.70},
-			{"stat":"damage", "type":"bash", "scale": 1.25},
-			{"stat":"damage", "type":"stab", "scale": 0.0}
-			]
-	},
-	{
-		"type":"technique",
-		"id":"tec_NE_staff_downattack",
-		"name":"맹렬한 소나기",
-		"messages":["쓰러진 %s에게 타격이 빗발친다!","쓰러진 %s에게 <npcname>의 타격이 빗발친다!"],
-		"skill_requirements":[{"name":"melee", "level":5}],
-		"melee_allowed":true,
-		"crit_ok":true,
-		"downed_target":true,
-		"mult_bonuses":[
-			{"stat":"movecost", "scale":0.80},
-			{"stat":"damage", "type":"bash", "scale": 1.25}
-			],
-		"flat_bonuses":[{"stat":"arpen","type":"bash","scaling-stat":"dex","scale":2.00}]
-	}
-	
+  {
+    "type": "martial_art",
+    "id": "style_NE_staff",
+    "name": "뉴 잉글랜드 지팡이술",
+    "description": "봉술은 어느 문화권에서도 찾을 수 있는 무술입니다. 무기의 단순한 구조와 그로 인한 자유로운 파지법, 그리고 변화무쌍한 동작이 무수한 시간 속에서 봉술이 다양한 가지를 뻗게 하였습니다.\n이제, 뉴 잉글랜드 분파의 새로운 가지를 뻗을 차례입니다. 당신이 바로 최초의 스승이며, 전설의 시초입니다.",
+    "initiate": [
+      "당신은 스스로 고안한 대로 봉을 말아쥡니다.",
+      "당신의 무술을 전수받은 %s(이)가 봉을 정갈히 잡습니다."
+    ],
+    "autolearn": [ [ "bashing", "4" ] ],
+    "learn_difficulty": 5,
+    "strictly_melee": true,
+    "static_buffs": [
+      {
+        "id": "buff_NE_staff_static",
+        "name": "흐름의 자세",
+        "description": "상대의 공격을 유연하게 흘려내도록, 비스듬히 봉을 기울입니다.\n방어기회가 1 증가하고, 방어 시 데미지를 민첩의 절반만큼 경감합니다.",
+        "melee_allowed": true,
+        "bonus_blocks": 1,
+        "flat_bonuses": [ { "stat": "block", "scaling-stat": "dex", "scale": 0.5 } ]
+      },
+      {
+        "id": "buff_NE_staff_static_wall",
+        "name": "막힌 흐름",
+        "description": "벽에 부딪혀 회전이 제한됩니다.\n행동력이 25% 더 소모되고 관통 이외의 피해가 30% 감소합니다.",
+        "melee_allowed": true,
+        "wall_adjacent": true,
+        "mult_bonuses": [
+          { "stat": "movecost", "scale": 1.25 },
+          { "stat": "damage", "type": "bash", "scale": 0.7 },
+          { "stat": "damage", "type": "cut", "scale": 0.7 }
+        ]
+      }
+    ],
+    "onblock_buffs": [
+      {
+        "id": "buff_NE_staff_block",
+        "name": "역류",
+        "description": "흘린 공격의 반동을 이용해 다음 동작을 이끌어냅니다.\n행동력 소모가 15% 줄어듭니다.",
+        "skill_requirements": [ { "name": "melee", "level": 4 } ],
+        "buff_duration": 1,
+        "melee_allowed": true,
+        "mult_bonuses": [ { "stat": "movecost", "scale": 0.85 } ]
+      }
+    ],
+    "onmove_buffs": [
+      {
+        "id": "buff_NE_staff_move",
+        "name": "거센 물살",
+        "description": "봉을 회전시키며 앞으로 나아갑니다.\n관통 이외의 피해가 10% 상승합니다.",
+        "skill_requirements": [ { "name": "melee", "level": 4 } ],
+        "buff_duration": 1,
+        "max_stacks": 2,
+        "melee_allowed": true,
+        "mult_bonuses": [ { "stat": "damage", "type": "bash", "scale": 1.1 }, { "stat": "damage", "type": "cut", "scale": 1.1 } ]
+      }
+    ],
+    "onpause_buffs": [
+      {
+        "id": "buff_NE_staff_pause",
+        "name": "물처럼 고요하게",
+        "description": "잠시 멈추어 사방의 공격을 막아낼 준비를 합니다.\n방어기회가 1 증가하고 \"굽이치는 고요\"가 가능해집니다.",
+        "skill_requirements": [ { "name": "melee", "level": 5 } ],
+        "buff_duration": 1,
+        "bonus_blocks": 1,
+        "melee_allowed": true
+      }
+    ],
+    "techniques": [
+      "tec_NE_staff_disarm",
+      "tec_NE_staff_counter",
+      "tec_NE_staff_downattack",
+      "tec_NE_staff_feint",
+      "tec_NE_staff_counter_Pause"
+    ],
+    "weapons": [ "i_staff", "l-stick", "l-stick_on", "q_staff", "shock_staff", "staff_sling" ],
+    "weapon_category": [ "QUARTERSTAVES" ]
+  },
+  {
+    "type": "technique",
+    "id": "tec_NE_staff_disarm",
+    "name": "손 담그기",
+    "messages": [ "%s의 손목을 쳐서 무기를 떨어트렸다!", "<npcname>이 %s의 손목을 쳐 무기를 떨어트렸다!" ],
+    "skill_requirements": [ { "name": "melee", "level": 4 } ],
+    "melee_allowed": true,
+    "disarms": true
+  },
+  {
+    "type": "technique",
+    "id": "tec_NE_staff_feint",
+    "name": "물보라",
+    "messages": [ "헛휘두른 봉을 돌려 다시 붙잡았다.", "<npcname>의 무기가 회전하여 제자리로 돌아갔다." ],
+    "skill_requirements": [ { "name": "melee", "level": 4 } ],
+    "melee_allowed": true,
+    "defensive": true,
+    "miss_recovery": true,
+    "mult_bonuses": [ { "stat": "movecost", "scale": 0.5 } ]
+  },
+  {
+    "type": "technique",
+    "id": "tec_NE_staff_counter",
+    "name": "발목 적시기",
+    "messages": [
+      "공격을 흘려낸 반동으로 다리를 걸어 %s(을)를 넘어트렸다!",
+      "<npcname>이 %s의 발목을 무기로 잡아챘다!"
+    ],
+    "skill_requirements": [ { "name": "melee", "level": 4 } ],
+    "melee_allowed": true,
+    "block_counter": true,
+    "down_dur": 3,
+    "mult_bonuses": [
+      { "stat": "movecost", "scale": 0.0 },
+      { "stat": "damage", "type": "cut", "scale": 0.4 },
+      { "stat": "damage", "type": "bash", "scale": 0.8 },
+      { "stat": "damage", "type": "stab", "scale": 0.0 }
+    ]
+  },
+  {
+    "type": "technique",
+    "id": "tec_NE_staff_counter_Pause",
+    "name": "굽이치는 고요",
+    "messages": [
+      "완벽하게 흘려낸 공격으로 %s의 다리를 걸어 쓰러트렸다!",
+      "<npcname>(은)는 완벽하게 %s의 다리를 걸었다!"
+    ],
+    "skill_requirements": [ { "name": "melee", "level": 6 } ],
+    "melee_allowed": true,
+    "req_buffs": "buff_NE_staff_pause",
+    "block_counter": true,
+    "down_dur": 2,
+    "weighting": 1,
+    "mult_bonuses": [
+      { "stat": "movecost", "scale": 0.0 },
+      { "stat": "damage", "type": "cut", "scale": 0.7 },
+      { "stat": "damage", "type": "bash", "scale": 1.25 },
+      { "stat": "damage", "type": "stab", "scale": 0.0 }
+    ]
+  },
+  {
+    "type": "technique",
+    "id": "tec_NE_staff_downattack",
+    "name": "맹렬한 소나기",
+    "messages": [ "쓰러진 %s에게 타격이 빗발친다!", "쓰러진 %s에게 <npcname>의 타격이 빗발친다!" ],
+    "skill_requirements": [ { "name": "melee", "level": 5 } ],
+    "melee_allowed": true,
+    "crit_ok": true,
+    "downed_target": true,
+    "mult_bonuses": [ { "stat": "movecost", "scale": 0.8 }, { "stat": "damage", "type": "bash", "scale": 1.25 } ],
+    "flat_bonuses": [ { "stat": "arpen", "type": "bash", "scaling-stat": "dex", "scale": 2.0 } ]
+  }
 ]
