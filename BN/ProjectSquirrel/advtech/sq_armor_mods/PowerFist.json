@@ -1,0 +1,39 @@
+[
+  {
+    "id": "sq_mod_heatsink_light",
+    "type": "GUNMOD",
+    "name": "나노핀 히트싱크",
+    "description": "극도로 얇은 복합 소재로 제작되어 무게는 거의 없지만, 열 관리 능력은 최소한에 그칩니다.",
+    "weight": "100 g",
+    "volume": "250 ml",
+    "price": "3100 USD",
+    "price_postapoc": "310 USD",
+    "to_hit": -4,
+    "material": [ "superalloy" ],
+    "symbol": ":",
+    "color": "light_gray",
+    "location": "발열 관리",
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "mutations": [ "SQ_HEATSINK_LIGHT" ],
+          "values": [ { "value": "STRENGTH", "multiply": 1 } ]
+        }
+      ]
+    }
+  },
+  {
+    "type": "mutation",
+    "id": "SQ_HEATSINK_LIGHT",
+    "name": { "str": "히트싱크1" },
+    "points": 0,
+    "description": "A.",
+	"player_display": true,
+    "valid": false,
+    "purifiable": false,
+    "stamina_regen_modifier": 1.5,
+    "max_stamina_modifier": 1.2
+  }
+]
