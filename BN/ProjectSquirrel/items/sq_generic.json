@@ -564,7 +564,7 @@
     "flags": [ "NO_REPAIR", "NO_SALVAGE" ]
   },
   {
-    "result": "bundle_scrap_copper",
+    "result": "bundle_cartridgebrass",
     "type": "uncraft",
     "skill_used": "fabrication",
     "time": "1 s",
