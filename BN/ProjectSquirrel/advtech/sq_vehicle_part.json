@@ -183,7 +183,7 @@
     "weight": "100 kg",
     "price": 245000,
     "price_postapoc": 10000,
-	"looks_like": "minifreezer",
+    "looks_like": "minifreezer",
     "copy-from": "minifridge"
   },
   {
@@ -206,10 +206,7 @@
       { "id": "SCREW", "level": 1 },
       { "id": "WRENCH", "level": 1 }
     ],
-    "components": [
-      [ [ "minifreezer", 2 ] ],
-      [ [ "cargo_rack", 1 ] ]
-    ]
+    "components": [ [ [ "minifreezer", 2 ] ], [ [ "cargo_rack", 1 ] ] ]
   },
   {
     "type": "vehicle_part",
@@ -246,7 +243,7 @@
     "type": "GENERIC",
     "id": "sq_supercharge_station",
     "name": { "str": "초고속 충전소" },
-	"looks_like": "recharge_station",
+    "looks_like": "recharge_station",
     "description": "차량 전력으로 작동하는 최첨단 충전소입니다. 작동 중에 내부 저장공간에 삽입된 모든 충전 가능한 배터리 (셀식 배터리, 납-산 배터리 등) 를 초고속 충전 기술로 배터리 충전소보다 훨씬 빨리 충전시킬 것입니다. 이 장치는 사전에 설치된 저장공간이 있어야 설치할 수 있으며, 대시보드나 전자기기 제어장치에서 끄고 켤 수 있습니다.",
     "weight": "13500 g",
     "to_hit": 1,
@@ -269,19 +266,25 @@
     "time": "100 m",
     "reversible": true,
     "decomp_learn": 7,
-	"autolearn": true,
+    "autolearn": true,
     "book_learn": [ [ "textbook_mechanics", 7 ], [ "textbook_electronics", 6 ], [ "advanced_electronics", 6 ], [ "textbook_robots", 5 ] ],
     "tools": [ [ [ "sq_atomic_forge", -1 ] ] ],
     "using": [ [ "soldering_standard", 50 ] ],
     "qualities": [ { "id": "SCREW", "level": 1 } ],
-    "components": [ [ [ "recharge_station", 1 ] ], [ [ "power_supply", 2 ] ], [ [ "processor", 2 ] ], [ [ "scrap", 5 ] ], [ [ "cable", 8 ] ] ]
+    "components": [
+      [ [ "recharge_station", 1 ] ],
+      [ [ "power_supply", 2 ] ],
+      [ [ "processor", 2 ] ],
+      [ [ "scrap", 5 ] ],
+      [ [ "cable", 8 ] ]
+    ]
   },
   {
     "type": "vehicle_part",
     "id": "sq_supercharge_station",
     "name": { "str": "초고속 충전소" },
     "symbol": "o",
-	"looks_like": "recharge_station",
+    "looks_like": "recharge_station",
     "color": "light_blue",
     "broken_symbol": "#",
     "broken_color": "blue",
@@ -310,8 +313,8 @@
     "id": "sq_engine_atomic",
     "name": { "str": "원자력 엔진" },
     "description": "방사능 붕괴를 통해 열을 생성하여 차량에 지속적이고 안정적인 전력을 얻는 원자력 엔진입니다. 첨단 설계 덕분에 한 차량에 여러 개를 설치해도 출력 낭비가 일어나지 않습니다.",
-	"color": "light_green",
-	"looks_like": "minireactor",
+    "color": "light_green",
+    "looks_like": "minireactor",
     "weight": "300 kg",
     "material": [ "superalloy" ],
     "volume": "25 L",
@@ -335,7 +338,7 @@
     "qualities": [ { "id": "HAMMER", "level": 1 }, { "id": "SCREW", "level": 1 } ],
     "components": [
       [ [ "minireactor", 1 ] ],
-	  [ [ "motor_enhanced", 1 ] ],
+      [ [ "motor_enhanced", 1 ] ],
       [ [ "sq_atomic_forge", 1 ] ],
       [ [ "power_supply", 5 ] ],
       [ [ "alloy_plate", 2 ] ],
@@ -345,11 +348,11 @@
   {
     "id": "sq_engine_atomic",
     "copy-from": "engine_motor",
-	"color": "light_green",
+    "color": "light_green",
     "type": "vehicle_part",
     "name": { "str": "원자력 엔진" },
     "item": "sq_engine_atomic",
-	"looks_like": "minireactor",
+    "looks_like": "minireactor",
     "description": "방사능 붕괴를 통해 열을 생성하여 차량에 지속적이고 안정적인 전력을 얻는 원자력 엔진입니다. 첨단 설계 덕분에 한 차량에 여러 개를 설치해도 출력 낭비가 일어나지 않습니다.",
     "durability": 200,
     "epower": 12500,
@@ -378,7 +381,7 @@
     "copy-from": "turret",
     "type": "vehicle_part",
     "name": { "str": "차량용 하드라이트 부무장" },
-	"looks_like": "plasma_gun",
+    "looks_like": "plasma_gun",
     "item": "sq_hardlight_pistol",
     "color": "light_blue",
     "broken_color": "light_blue",
@@ -395,7 +398,7 @@
     "copy-from": "turret",
     "type": "vehicle_part",
     "name": { "str": "차량용 하드라이트 확산총" },
-	"looks_like": "plasma_gun",
+    "looks_like": "plasma_gun",
     "item": "sq_hardlight_shotgun",
     "color": "light_blue",
     "broken_color": "light_blue",
@@ -412,7 +415,7 @@
     "copy-from": "turret",
     "type": "vehicle_part",
     "name": { "str": "차량용 하드라이트 카빈" },
-	"looks_like": "plasma_gun",
+    "looks_like": "plasma_gun",
     "item": "sq_hardlight_smg",
     "color": "light_blue",
     "broken_color": "light_blue",
@@ -429,7 +432,7 @@
     "copy-from": "turret",
     "type": "vehicle_part",
     "name": { "str": "차량용 하드라이트 소총" },
-	"looks_like": "plasma_gun",
+    "looks_like": "plasma_gun",
     "item": "sq_hardlight_rifle",
     "color": "light_blue",
     "broken_color": "light_blue",
@@ -446,7 +449,7 @@
     "copy-from": "turret",
     "type": "vehicle_part",
     "name": { "str": "차량용 하드라이트 정밀소총" },
-	"looks_like": "plasma_gun",
+    "looks_like": "plasma_gun",
     "item": "sq_hardlight_sniper",
     "color": "light_blue",
     "broken_color": "light_blue",
@@ -463,7 +466,7 @@
     "copy-from": "turret",
     "type": "vehicle_part",
     "name": { "str": "차량용 테슬라 캐논" },
-	"looks_like": "emp_gun",
+    "looks_like": "emp_gun",
     "item": "sq_tesla_cannon",
     "color": "cyan",
     "broken_color": "cyan",
@@ -523,9 +526,7 @@
       "repair": { "skills": [ [ "mechanics", 7 ] ], "time": "30 m", "using": [ [ "welding_standard", 5 ] ] }
     },
     "flags": [ "ARMOR" ],
-    "breaks_into": [
-      { "item": "carbide_plate", "count": [ 0, 4 ] }
-    ],
+    "breaks_into": [ { "item": "carbide_plate", "count": [ 0, 4 ] } ],
     "damage_reduction": { "all": 70, "cut": 95, "stab": 118 }
   },
   {
@@ -545,7 +546,7 @@
     "type": "GENERIC",
     "id": "sq_carbide_frame",
     "name": { "str": "겹층 탄화물 프레임" },
-	"looks_like": "carbide_plate",
+    "looks_like": "carbide_plate",
     "description": "겹층 탄화물로 만든 큰 프레임이다. 제작에 쓰인다.",
     "weight": "5000 g",
     "to_hit": -5,
@@ -591,7 +592,7 @@
     "type": "GENERIC",
     "id": "sq_carbide_hdframe",
     "name": { "str": "고강도 겹층 탄화물 프레임" },
-	"looks_like": "frame",
+    "looks_like": "frame",
     "description": "경량 군용 차량 건조에 사용되는 대형 강화 겹층 탄화물 프레임입니다.",
     "weight": "25000 g",
     "to_hit": -6,
@@ -621,7 +622,7 @@
     "abstract": "sq_carbide_hdframe",
     "type": "vehicle_part",
     "name": { "str": "고강도 겹층 탄화물 프레임" },
-	"looks_like": "hdframe",
+    "looks_like": "hdframe",
     "item": "sq_carbide_hdframe",
     "location": "structure",
     "color": "dark_gray",
@@ -690,26 +691,19 @@
     "type": "item_group",
     "id": "ig_vp_sq_carbide_plate",
     "subtype": "collection",
-    "entries": [
-      { "item": "carbide_plate", "count": [ 4, 7 ] },
-      { "item": "graphene", "count": [ 4, 6 ] }
-    ]
+    "entries": [ { "item": "carbide_plate", "count": [ 4, 7 ] }, { "item": "graphene", "count": [ 4, 6 ] } ]
   },
   {
     "type": "item_group",
     "id": "ig_vp_sq_carbide_frame",
     "subtype": "collection",
-    "entries": [
-      { "item": "carbide_plate", "count": [ 4, 6 ] }
-    ]
+    "entries": [ { "item": "carbide_plate", "count": [ 4, 6 ] } ]
   },
   {
     "type": "item_group",
     "id": "ig_vp_sq_carbide_hdframe",
     "subtype": "collection",
-    "entries": [
-      { "item": "carbide_plate", "count": [ 8, 12 ] }
-    ]
+    "entries": [ { "item": "carbide_plate", "count": [ 8, 12 ] } ]
   },
   {
     "id": "sq_carbide_frame_cover",
@@ -770,6 +764,12 @@
   {
     "id": "sq_carbide_hdframe_horizontal_2",
     "copy-from": "sq_carbide_hdframe",
+    "type": "vehicle_part",
+    "symbol": "="
+  },
+  {
+    "id": "sq_carbide_hdhalfboard_horizontal_2",
+    "copy-from": "sq_carbide_hdhalfboard",
     "type": "vehicle_part",
     "symbol": "="
   },
@@ -910,6 +910,12 @@
   {
     "id": "sq_carbide_hdframe_vertical_2",
     "copy-from": "sq_carbide_hdframe",
+    "type": "vehicle_part",
+    "symbol": "H"
+  },
+  {
+    "id": "sq_carbide_hdhalfboard_vertical_2",
+    "copy-from": "sq_carbide_hdhalfboard",
     "type": "vehicle_part",
     "symbol": "H"
   }
