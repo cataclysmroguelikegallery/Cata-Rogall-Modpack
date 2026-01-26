@@ -394,7 +394,7 @@
     "qualities": [ { "id": "SCREW", "level": 1 }, { "id": "WRENCH", "level": 1 } ],
     "components": [
       [ [ "canister_empty", 1 ] ],
-      [ [ "nuclear_waste", 10 ], [ "sq_uranium_condensed", 1 ] ],
+      [ [ "nuclear_fuel", 10 ], [ "nuclear_waste", 10 ], [ "sq_uranium_condensed", 1 ] ],
       [ [ "power_supply", 2 ] ],
       [ [ "nanomaterial", 5 ] ]
     ]
@@ -402,6 +402,7 @@
   {
     "result": "plut_cell",
     "type": "recipe",
+    "id_suffix": "alternative",
     "category": "CC_첨단기술",
     "subcategory": "CSC_첨단기술_MATERIALS",
     "skill_used": "mechanics",
@@ -413,7 +414,7 @@
     "tools": [ [  [ "sq_atomic_forge", -1 ] ] ],
     "qualities": [ { "id": "SCREW", "level": 1 }, { "id": "WRENCH", "level": 1 } ],
     "components": [
-      [ [ "canister_empty", 1 ] ],
+      [ [ "canister_empty", 5 ] ],
       [ [ "nuclear_waste", 5 ], [ "plut_slurry", 10 ], [ "plut_slurry_dense", 5 ] ],
       [ [ "power_supply", 2 ] ],
       [ [ "nanomaterial", 5 ] ]
@@ -428,7 +429,7 @@
     "skill_used": "mechanics",
     "skills_required": [ "electronics", 4 ],
     "difficulty": 8,
-	"charges": 10,
+	"charges": 5,
     "time": 30000,
     "book_learn": [ [ "recipe_atomic_battery", 5 ] ],
     "autolearn": true,
