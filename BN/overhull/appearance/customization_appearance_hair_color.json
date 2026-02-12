@@ -60,9 +60,9 @@
     "types": [ "hair_color" ]
   },
   {
-    "id": "hair_black",
+    "id": "sub_hair_black",
     "type": "mutation",
-    "name": { "str": "Hair color: black" },
+    "name": { "str": "Hair sub color: black" },
     "description": "You have black sub hair.",
     "points": 0,
     "starting_trait": true,
@@ -72,9 +72,9 @@
     "types": [ "sub_hair_color" ]
   },
   {
-    "id": "hair_brown",
+    "id": "sub_hair_brown",
     "type": "mutation",
-    "name": { "str": "Hair color: brown" },
+    "name": { "str": "Hair sub color: brown" },
     "description": "You have brown sub hair.",
     "points": 0,
     "starting_trait": true,
@@ -84,9 +84,9 @@
     "types": [ "sub_hair_color" ]
   },
   {
-    "id": "hair_blond",
+    "id": "sub_hair_blond",
     "type": "mutation",
-    "name": { "str": "Hair color: blond" },
+    "name": { "str": "Hair sub color: blond" },
     "description": "You have blond sub hair.",
     "points": 0,
     "starting_trait": true,
@@ -96,9 +96,9 @@
     "types": [ "sub_hair_color" ]
   },
   {
-    "id": "hair_red",
+    "id": "sub_hair_red",
     "type": "mutation",
-    "name": { "str": "Hair color: red" },
+    "name": { "str": "Hair sub color: red" },
     "description": "You have red sub hair.",
     "points": 0,
     "starting_trait": true,
@@ -108,9 +108,9 @@
     "types": [ "sub_hair_color" ]
   },
   {
-    "id": "hair_gray",
+    "id": "sub_hair_gray",
     "type": "mutation",
-    "name": { "str": "Hair color: gray" },
+    "name": { "str": "Hair sub color: gray" },
     "description": "You have gray sub hair.",
     "points": 0,
     "starting_trait": true,
@@ -120,9 +120,9 @@
     "types": [ "sub_hair_color" ]
   },
   {
-    "id": "hair_white",
+    "id": "sub_hair_white",
     "type": "mutation",
-    "name": { "str": "Hair color: white" },
+    "name": { "str": "Hair sub color: white" },
     "description": "You have white sub hair.",
     "points": 0,
     "starting_trait": true,
@@ -132,9 +132,9 @@
     "types": [ "sub_hair_color" ]
   },
   {
-    "id": "hair_violet",
+    "id": "sub_hair_violet",
     "type": "mutation",
-    "name": "Hair color: violet",
+    "name": { "str": "Hair sub color: violet" },
     "description": "You have violet sub hair.",
     "points": 0,
     "starting_trait": true,
@@ -144,9 +144,9 @@
     "types": [ "sub_hair_color" ]
   },
   {
-    "id": "hair_green",
+    "id": "sub_hair_green",
     "type": "mutation",
-    "name": "Hair color: green",
+    "name": { "str": "Hair sub color: green" },
     "description": "You have green sub hair.",
     "points": 0,
     "starting_trait": true,
@@ -156,9 +156,9 @@
     "types": [ "sub_hair_color" ]
   },
   {
-    "id": "hair_blue",
+    "id": "sub_hair_blue",
     "type": "mutation",
-    "name": "Hair color: blue",
+    "name": { "str": "Hair sub color: blue" },
     "description": "You have blue sub hair.",
     "points": 0,
     "starting_trait": true,
@@ -168,9 +168,9 @@
     "types": [ "sub_hair_color" ]
   },
   {
-    "id": "hair_pink",
+    "id": "sub_hair_pink",
     "type": "mutation",
-    "name": "Hair color: pink",
+    "name": { "str": "Hair sub color: pink" },
     "description": "You have pink sub hair.",
     "points": 0,
     "starting_trait": true,
@@ -180,9 +180,9 @@
     "types": [ "sub_hair_color" ]
   },
   {
-    "id": "hair_orange",
+    "id": "sub_hair_orange",
     "type": "mutation",
-    "name": "Hair color: orange",
+    "name": { "str": "Hair sub color: orange" },
     "description": "You have orange sub hair.",
     "points": 0,
     "starting_trait": true,
