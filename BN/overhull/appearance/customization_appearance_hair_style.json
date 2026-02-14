@@ -1,0 +1,110 @@
+[
+  {
+    "id": "hair_type9",
+    "type": "mutation",
+    "name": "Hair style: type9",
+    "description": "Type9 hair",
+    "points": 0,
+    "starting_trait": true,
+    "valid": false,
+    "purifiable": false,
+    "player_display": false,
+    "types": [ "hair_style" ]
+  },
+  {
+    "id": "hair_other",
+    "type": "mutation",
+    "name": "Hair style: other",
+    "description": "Other hair",
+    "points": 0,
+    "starting_trait": true,
+    "valid": false,
+    "purifiable": false,
+    "player_display": false,
+    "types": [ "hair_style" ]
+  },
+  {
+    "id": "hair_sub1",
+    "type": "mutation",
+    "name": "Sub Hair: 1",
+    "description": "Sub hair 1",
+    "points": 0,
+    "starting_trait": true,
+    "valid": false,
+    "purifiable": false,
+    "player_display": false,
+    "types": [ "sub_hair_style" ]
+  },
+  {
+    "id": "hair_sub2",
+    "type": "mutation",
+    "name": "Sub Hair: 2",
+    "description": "Sub hair 2",
+    "points": 0,
+    "starting_trait": true,
+    "valid": false,
+    "purifiable": false,
+    "player_display": false,
+    "types": [ "sub_hair_style" ]
+  },
+  {
+    "id": "hair_sub3",
+    "type": "mutation",
+    "name": "Sub Hair: 3",
+    "description": "Sub hair 3",
+    "points": 0,
+    "starting_trait": true,
+    "valid": false,
+    "purifiable": false,
+    "player_display": false,
+    "types": [ "sub_hair_style" ]
+  },
+  {
+    "id": "hair_sub4",
+    "type": "mutation",
+    "name": "Sub Hair: 4",
+    "description": "Sub hair 4",
+    "points": 0,
+    "starting_trait": true,
+    "valid": false,
+    "purifiable": false,
+    "player_display": false,
+    "types": [ "sub_hair_style" ]
+  },
+  {
+    "id": "hair_sub5",
+    "type": "mutation",
+    "name": "Sub Hair: 5",
+    "description": "Sub hair 5",
+    "points": 0,
+    "starting_trait": true,
+    "valid": false,
+    "purifiable": false,
+    "player_display": false,
+    "types": [ "sub_hair_style" ]
+  },
+  {
+    "id": "hair_sub6",
+    "type": "mutation",
+    "name": "Sub Hair: 6",
+    "description": "Sub hair 6",
+    "points": 0,
+    "starting_trait": true,
+    "valid": false,
+    "purifiable": false,
+    "player_display": false,
+    "types": [ "sub_hair_style" ]
+  },
+  {
+    "id": "hair_sub7",
+    "type": "mutation",
+    "name": "Sub Hair: 7",
+    "description": "Sub hair 7",
+    "points": 0,
+    "starting_trait": true,
+    "valid": false,
+    "purifiable": false,
+    "player_display": false,
+    "types": [ "sub_hair_style" ]
+  }
+]
