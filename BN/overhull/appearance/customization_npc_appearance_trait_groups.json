@@ -1,236 +1,85 @@
 [
   {
     "type": "trait_group",
-    "id": "Hair_Any",
+    "id": "Hair_Style_Any",
     "subtype": "distribution",
     "traits": [
-      { "group": "Hair_Red", "prob": 9 },
-      { "group": "Hair_Blond", "prob": 10 },
-      { "group": "Hair_Black", "prob": 9 },
-      { "group": "Hair_Brown", "prob": 9 },
-      { "group": "Hair_Gray", "prob": 9 },
-      { "group": "Hair_White", "prob": 9 },
-	  { "group": "Hair_Violet", "prob": 9 },
-	  { "group": "Hair_Green", "prob": 9 },
-	  { "group": "Hair_Blue", "prob": 9 },
-	  { "group": "Hair_Pink", "prob": 9 },
-	  { "group": "Hair_Orange", "prob": 9 }
+      { "trait": "hair_crewcut", "prob": 25 },
+      { "trait": "hair_mohawk", "prob": 1 },
+      { "trait": "hair_fro", "prob": 1 },
+      { "trait": "hair_short", "prob": 35 },
+      { "trait": "hair_medium", "prob": 25 },
+      { "trait": "hair_long", "prob": 13 },
+      { "trait": "hair_type9", "prob": 25 },
+      { "trait": "hair_other", "prob": 13 }
     ]
   },
   {
     "type": "trait_group",
-    "id": "Hair_Irish",
+    "id": "Hair_Color_Any",
     "subtype": "distribution",
     "traits": [
-      { "group": "Hair_Red", "prob": 7 },
-      { "group": "Hair_Blond", "prob": 7 },
-      { "group": "Hair_Black", "prob": 15 },
-      { "group": "Hair_Brown", "prob": 26 },
-      { "group": "Hair_Gray", "prob": 5 },
-      { "group": "Hair_White", "prob": 5 },
-	  { "group": "Hair_Violet", "prob": 7 },
-	  { "group": "Hair_Green", "prob": 7 },
-	  { "group": "Hair_Blue", "prob": 7 },
-	  { "group": "Hair_Pink", "prob": 7 },
-	  { "group": "Hair_Orange", "prob": 7 }
+      { "trait": "hair_red", "prob": 5 },
+      { "trait": "hair_blond", "prob": 25 },
+      { "trait": "hair_black", "prob": 25 },
+      { "trait": "hair_brown", "prob": 25 },
+      { "trait": "hair_gray", "prob": 10 },
+      { "trait": "hair_white", "prob": 10 },
+      { "trait": "hair_green", "prob": 10 },
+      { "trait": "hair_blue", "prob": 10 },
+      { "trait": "hair_pink", "prob": 10 },
+      { "trait": "hair_orange", "prob": 10 }
     ]
   },
   {
     "type": "trait_group",
-    "id": "Hair_Fair",
+    "id": "Hair_Color_Irish",
     "subtype": "distribution",
     "traits": [
-      { "group": "Hair_Red", "prob": 3 },
-      { "group": "Hair_Blond", "prob": 30 },
-      { "group": "Hair_Black", "prob": 5 },
-      { "group": "Hair_Brown", "prob": 20 },
-      { "group": "Hair_Gray", "prob": 5 },
-      { "group": "Hair_White", "prob": 7 },
-	  { "group": "Hair_Violet", "prob": 6 },
-	  { "group": "Hair_Green", "prob": 6 },
-	  { "group": "Hair_Blue", "prob": 6 },
-	  { "group": "Hair_Pink", "prob": 6 },
-	  { "group": "Hair_Orange", "prob": 6 }
+      { "trait": "Hair_Red", "prob": 7 },
+      { "trait": "Hair_Blond", "prob": 7 },
+      { "trait": "Hair_Black", "prob": 15 },
+      { "trait": "Hair_Brown", "prob": 26 },
+      { "trait": "Hair_Gray", "prob": 5 },
+      { "trait": "Hair_White", "prob": 5 },
+      { "trait": "Hair_Violet", "prob": 7 },
+      { "trait": "Hair_Green", "prob": 7 },
+      { "trait": "Hair_Blue", "prob": 7 },
+      { "trait": "Hair_Pink", "prob": 7 },
+      { "trait": "Hair_Orange", "prob": 7 }
     ]
   },
   {
     "type": "trait_group",
-    "id": "Hair_Dark",
+    "id": "Hair_Color_Fair",
     "subtype": "distribution",
     "traits": [
-      { "group": "Hair_Black", "prob": 35 },
-      { "group": "Hair_Brown", "prob": 30 },
-      { "group": "Hair_Gray", "prob": 9 },
-      { "group": "Hair_White", "prob": 10 },
-	  { "group": "Hair_Violet", "prob": 4 },
-	  { "group": "Hair_Green", "prob": 4 },
-	  { "group": "Hair_Blue", "prob": 4 },
-	  { "group": "Hair_Pink", "prob": 4 }
+      { "trait": "Hair_Red", "prob": 3 },
+      { "trait": "Hair_Blond", "prob": 30 },
+      { "trait": "Hair_Black", "prob": 5 },
+      { "trait": "Hair_Brown", "prob": 20 },
+      { "trait": "Hair_Gray", "prob": 5 },
+      { "trait": "Hair_White", "prob": 7 },
+      { "trait": "Hair_Violet", "prob": 6 },
+      { "trait": "Hair_Green", "prob": 6 },
+      { "trait": "Hair_Blue", "prob": 6 },
+      { "trait": "Hair_Pink", "prob": 6 },
+      { "trait": "Hair_Orange", "prob": 6 }
     ]
   },
   {
     "type": "trait_group",
-    "id": "Hair_Black",
-    "subtype": "distribution",
-    "traits": [ 
-	  { "trait": "hair_black_crewcut" },
-	  { "trait": "hair_black_mohawk" },
-	  { "trait": "hair_black_fro" },
-	  { "trait": "hair_black_short" },
-	  { "trait": "hair_black_medium" },
-	  { "trait": "hair_black_long" },
-	  { "trait": "hair_black_type9" },
-	  { "trait": "hair_black_other" }
-	]
-  },
-  {
-    "type": "trait_group",
-    "id": "Hair_Brown",
-    "subtype": "distribution",
-    "traits": [ 
-	  { "trait": "hair_brown_crewcut" },
-	  { "trait": "hair_brown_mohawk" },
-	  { "trait": "hair_brown_fro" },
-	  { "trait": "hair_brown_short" },
-	  { "trait": "hair_brown_medium" },
-	  { "trait": "hair_brown_long" },
-	  { "trait": "hair_brown_type9" },
-	  { "trait": "hair_brown_other" }
-	]
-  },
-  {
-    "type": "trait_group",
-    "id": "Hair_Blond",
+    "id": "Hair__Color_Dark",
     "subtype": "distribution",
     "traits": [
-	  { "trait": "hair_blond_crewcut" },
-	  { "trait": "hair_blond_mohawk" },
-	  { "trait": "hair_blond_fro" },
-	  { "trait": "hair_blond_short" },
-	  { "trait": "hair_blond_medium" },
-	  { "trait": "hair_blond_long" },
-	  { "trait": "hair_blond_type9" },
-	  { "trait": "hair_blond_other" }
-	]
-  },
-  {
-    "type": "trait_group",
-    "id": "Hair_Red",
-    "subtype": "distribution",
-    "traits": [
-	  { "trait": "hair_red_crewcut" },
-	  { "trait": "hair_red_mohawk" },
-	  { "trait": "hair_red_fro" },
-	  { "trait": "hair_red_short" },
-	  { "trait": "hair_red_medium" },
-	  { "trait": "hair_red_long" },
-	  { "trait": "hair_red_type9" },
-	  { "trait": "hair_red_other" }
-	]
-  },
-  {
-    "type": "trait_group",
-    "id": "Hair_Gray",
-    "subtype": "distribution",
-    "traits": [
-	  { "trait": "hair_gray_crewcut" },
-	  { "trait": "hair_gray_mohawk" },
-	  { "trait": "hair_gray_fro" },
-	  { "trait": "hair_gray_short" },
-	  { "trait": "hair_gray_medium" },
-	  { "trait": "hair_gray_long" },
-	  { "trait": "hair_gray_type9" },
-	  { "trait": "hair_gray_other" }
-	]
-  },
-  {
-    "type": "trait_group",
-    "id": "Hair_White",
-    "subtype": "distribution",
-    "traits": [
-	  { "trait": "hair_white_crewcut" },
-	  { "trait": "hair_white_mohawk" },
-	  { "trait": "hair_white_fro" },
-	  { "trait": "hair_white_short" },
-	  { "trait": "hair_white_medium" },
-	  { "trait": "hair_white_long" },
-	  { "trait": "hair_white_type9" },
-	  { "trait": "hair_white_other" }
-	]
-  },
-  {
-    "type": "trait_group",
-    "id": "Hair_Violet",
-    "subtype": "distribution",
-    "traits": [
-	  { "trait": "hair_violet_crewcut" },
-	  { "trait": "hair_violet_mohawk" },
-	  { "trait": "hair_violet_fro" },
-	  { "trait": "hair_violet_short" },
-	  { "trait": "hair_violet_medium" },
-	  { "trait": "hair_violet_long" },
-	  { "trait": "hair_violet_type9" },
-	  { "trait": "hair_violet_other" }
-	]
-  },
-  {
-    "type": "trait_group",
-    "id": "Hair_Green",
-    "subtype": "distribution",
-    "traits": [
-	  { "trait": "hair_green_crewcut" },
-	  { "trait": "hair_green_mohawk" },
-	  { "trait": "hair_green_fro" },
-	  { "trait": "hair_green_short" },
-	  { "trait": "hair_green_medium" },
-	  { "trait": "hair_green_long" },
-	  { "trait": "hair_green_type9" },
-	  { "trait": "hair_green_other" }
-	]
-  },
-  {
-    "type": "trait_group",
-    "id": "Hair_Blue",
-    "subtype": "distribution",
-    "traits": [
-	  { "trait": "hair_blue_crewcut" },
-	  { "trait": "hair_blue_mohawk" },
-	  { "trait": "hair_blue_fro" },
-	  { "trait": "hair_blue_short" },
-	  { "trait": "hair_blue_medium" },
-	  { "trait": "hair_blue_long" },
-	  { "trait": "hair_blue_type9" },
-	  { "trait": "hair_blue_other" }
-	]
-  },
-  {
-    "type": "trait_group",
-    "id": "Hair_Pink",
-    "subtype": "distribution",
-    "traits": [
-	  { "trait": "hair_pink_crewcut" },
-	  { "trait": "hair_pink_mohawk" },
-	  { "trait": "hair_pink_fro" },
-	  { "trait": "hair_pink_short" },
-	  { "trait": "hair_pink_medium" },
-	  { "trait": "hair_pink_long" },
-	  { "trait": "hair_pink_type9" },
-	  { "trait": "hair_pink_other" }
-	]
-  },
-  {
-    "type": "trait_group",
-    "id": "Hair_Orange",
-    "subtype": "distribution",
-    "traits": [
-	  { "trait": "hair_orange_crewcut" },
-	  { "trait": "hair_orange_mohawk" },
-	  { "trait": "hair_orange_fro" },
-	  { "trait": "hair_orange_short" },
-	  { "trait": "hair_orange_medium" },
-	  { "trait": "hair_orange_long" },
-	  { "trait": "hair_orange_type9" },
-	  { "trait": "hair_orange_other" }
-	]
+      { "trait": "Hair_Black", "prob": 35 },
+      { "trait": "Hair_Brown", "prob": 30 },
+      { "trait": "Hair_Gray", "prob": 9 },
+      { "trait": "Hair_White", "prob": 10 },
+      { "trait": "Hair_Violet", "prob": 4 },
+      { "trait": "Hair_Green", "prob": 4 },
+      { "trait": "Hair_Blue", "prob": 4 },
+      { "trait": "Hair_Pink", "prob": 4 }
+    ]
   }
 ]
