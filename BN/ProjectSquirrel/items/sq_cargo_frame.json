@@ -228,6 +228,20 @@
     "flags": [ "ONLY_ONE", "WATER_FRIENDLY", "STURDY", "BELTED", "OVERSIZE" ]
   },
   {
+    "result": "sq_dimension_pack",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "electronics",
+    "difficulty": 8,
+    "skills_required": [ [ "mechanics", 3 ], [ "electronics", 3 ] ],
+    "time": "40 h",
+    "autolearn": true,
+    "using": [ [ "welding_standard", 6 ] ],
+    "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 } ],
+    "components": [ [ [ "ai_module_advanced", 1 ] ], [ [ "teleporter", 1 ] ], [ [ "nanomaterial", 20 ] ],[ [ "self_monitoring_module", 4 ] ],[ [ "portal", 1 ] ], [ [ "plut_cell", 25 ] ] ]
+  },
+  {
     "id": "sq_power_armor_dimension_pack",
     "type": "TOOL_ARMOR",
     "name": { "str": "파워 아머 차원 안정기" },
