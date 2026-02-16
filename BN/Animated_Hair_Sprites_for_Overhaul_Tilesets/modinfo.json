@@ -1,0 +1,12 @@
+[    
+  {
+    "type": "MOD_INFO",
+	"category": "SUPPLEMENTAL",
+	"ident": "foxrework",
+	"authors": [ "Vulpecula"],
+	"maintainers": [ "Gallatin", "flamesuit" ],
+	"name": "불페큘라의 캐릭터 도트 리플레이스",
+	"description": "각종 움직이는 바디파츠들을 만나보세요. 오버홀 모드 필요",
+	"dependencies": [ "bn","Overhaul Tileset" ]
+  }
+]

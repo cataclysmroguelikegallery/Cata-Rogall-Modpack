@@ -1,0 +1,86 @@
+[
+  {
+    "id": "EYE_BLINK_RED",
+    "type": "mutation",
+    "name": "깜빡이는 붉은 눈동자",
+    "description": "당신은 붉은 눈을 가지고 깜빡일수 있다.",
+    "points": 0,
+    "starting_trait": true,
+    "valid": false,
+    "purifiable": false,
+    "player_display": false,
+    "types": [ "eye_color" ]
+  },
+  {
+    "id": "EYE_BLINK_PURPLE",
+    "type": "mutation",
+    "name": "깜빡이는 자주빛 눈동자",
+    "description": "당신은 자줏빛 눈을 가지고 깜빡일수 있다.",
+    "points": 0,
+    "starting_trait": true,
+    "valid": false,
+    "purifiable": false,
+    "player_display": false,
+    "types": [ "eye_color" ]
+  },
+  {
+    "id": "EYE_BLINK_YELLOW",
+    "type": "mutation",
+    "name": "깜빡이는 노란색 눈동자",
+    "description": "당신은 노란색 눈을 가지고 깜빡일수 있다.",
+    "points": 0,
+    "starting_trait": true,
+    "valid": false,
+    "purifiable": false,
+    "player_display": false,
+    "types": [ "eye_color" ]
+  },
+  {
+    "id": "EYE_BLINK_GREEN",
+    "type": "mutation",
+    "name": "깜빡이는 녹색빛 눈동자",
+    "description": "당신은 녹색빛 눈을 가지고 깜빡일수 있다.",
+    "points": 0,
+    "starting_trait": true,
+    "valid": false,
+    "purifiable": false,
+    "player_display": false,
+    "types": [ "eye_color" ]
+  },
+  {
+    "id": "EYE_BLINK_BLUE",
+    "type": "mutation",
+    "name": "깜빡이는 푸른빛 눈동자",
+    "description": "당신은 푸른빛 눈을 가지고 깜빡일수 있다.",
+    "points": 0,
+    "starting_trait": true,
+    "valid": false,
+    "purifiable": false,
+    "player_display": false,
+    "types": [ "eye_color" ]
+  },
+  {
+    "id": "EYE_BLINK_PINK",
+    "type": "mutation",
+    "name": "깜빡이는 분홍빛 눈동자",
+    "description": "당신은 분홍빛 눈을 가지고 깜빡일수 있다.",
+    "points": 0,
+    "starting_trait": true,
+    "valid": false,
+    "purifiable": false,
+    "player_display": false,
+    "types": [ "eye_color" ]
+  },
+  {
+    "id": "EYE_BLINK_GRASS",
+    "type": "mutation",
+    "name": "깜빡이는 풀빛의 눈동자",
+    "description": "당신은 풀빛 눈을 가지고 깜빡일수 있다.",
+    "points": 0,
+    "starting_trait": true,
+    "valid": false,
+    "purifiable": false,
+    "player_display": false,
+    "types": [ "eye_color" ]
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "type": "overlay_order",
+    "overlay_ordering": [
+      {
+        "id": [
+          "EYE_BLINK_RED",
+          "EYE_BLINK_PURPLE",
+          "EYE_BLINK_YELLOW",
+          "EYE_BLINK_GREEN",
+          "EYE_BLINK_BLUE",
+          "EYE_BLINK_PINK",
+          "EYE_BLINK_GRASS"
+        ],
+        "order": 1500
+      },
+      {
+        "id": [
+          "hair_blond_wavy",
+          "hair_green_wavy",
+          "hair_blue_wavy",
+          "hair_dark_blue_wavy",
+          "hair_purple_wavy",
+          "hair_5a95f5_wavy",
+          "hair_pink_wavy",
+          "hair_red_wavy",
+          "hair_orange_wavy",
+          "hair_white_wavy"
+        ],
+        "order": 1600
+      }
+    ]
+  }
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "type": "mod_tileset",
+    "compatibility": [ "MX+(Overhaul)", "MSX++DEAD_PEOPLE", "UNDEAD_PEOPLE", "UNDEAD_PEOPLE_BASE" ],
+    "tiles-new": [
+	  {
+		"file": "fox.png",
+		"sprite_width":54,
+		"sprite_height":48,
+		"sprite_offset_x":-11,
+		"sprite_offset_y":-15,
+		"tiles": 
+		[
+		{ "id": "overlay_mutation_FOX_EARS", "fg": 
+		[
+		{"weight": 10,"sprite":0},
+		{"weight": 10,"sprite":1},
+		{"weight": 10,"sprite":2},
+		{"weight": 10,"sprite":3},
+		{"weight": 10,"sprite":4},
+		{"weight": 10,"sprite":5},
+		{"weight": 10,"sprite":6},
+		{"weight": 10,"sprite":7},
+		{"weight": 10,"sprite":8}
+		],
+		"rotates": false,
+		"animated" :true }
+		]
+
+
+
+
+
+
+    }
+	
+    ]
+  }
+]

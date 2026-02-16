@@ -1,0 +1,122 @@
+[
+  {
+    "id": "hair_blond_wavy",
+    "type": "mutation",
+    "name": "머리: 찰랑거리는 금색 긴머리",
+    "description": "찰랑거리는 블론디한 색상의 긴 머리입니다.",
+    "points": 0,
+    "starting_trait": true,
+    "valid": false,
+    "purifiable": false,
+    "player_display": false,
+    "types": [ "hair_style" ]
+  },
+  {
+    "id": "hair_green_wavy",
+    "type": "mutation",
+    "name": "머리: 찰랑거리는 녹색 긴머리",
+    "description": "찰랑거리는 녹색의 긴 머리입니다.",
+    "points": 0,
+    "starting_trait": true,
+    "valid": false,
+    "purifiable": false,
+    "player_display": false,
+    "types": [ "hair_style" ]
+  },
+  {
+    "id": "hair_blue_wavy",
+    "type": "mutation",
+    "name": "머리: 찰랑거리는 청색 긴머리",
+    "description": "찰랑거리는 푸르스름한 색상의 긴 머리입니다.",
+    "points": 0,
+    "starting_trait": true,
+    "valid": false,
+    "purifiable": false,
+    "player_display": false,
+    "types": [ "hair_style" ]
+  },
+  {
+    "id": "hair_dark_blue_wavy",
+    "type": "mutation",
+    "name": "머리: 찰랑거리는 군청색 긴머리",
+    "description": "찰랑거리는 네이비한 색상의 긴 머리입니다.",
+    "points": 0,
+    "starting_trait": true,
+    "valid": false,
+    "purifiable": false,
+    "player_display": false,
+    "types": [ "hair_style" ]
+  },
+  {
+    "id": "hair_purple_wavy",
+    "type": "mutation",
+    "name": "머리: 찰랑거리는 자색 긴머리",
+    "description": "찰랑거리는 보라색의 긴 머리입니다.",
+    "points": 0,
+    "starting_trait": true,
+    "valid": false,
+    "purifiable": false,
+    "player_display": false,
+    "types": [ "hair_style" ]
+  },
+  {
+    "id": "hair_5a95f5_wavy",
+    "type": "mutation",
+    "name": "머리: 찰랑거리는 이웨카 블루 롱 헤어",
+    "description": "찰랑거리는 진한 푸른색의 긴 머리입니다.",
+    "points": 0,
+    "starting_trait": true,
+    "valid": false,
+    "purifiable": false,
+    "player_display": false,
+    "types": [ "hair_style" ]
+  },
+  {
+    "id": "hair_pink_wavy",
+    "type": "mutation",
+    "name": "머리: 찰랑거리는 분홍색 긴머리",
+    "description": "찰랑거리는 분홍색의 긴 머리입니다.",
+    "points": 0,
+    "starting_trait": true,
+    "valid": false,
+    "purifiable": false,
+    "player_display": false,
+    "types": [ "hair_style" ]
+  },
+  {
+    "id": "hair_red_wavy",
+    "type": "mutation",
+    "name": "머리: 찰랑거리는 적색 긴머리",
+    "description": "찰랑거는 적색의 긴 머리입니다.",
+    "points": 0,
+    "starting_trait": true,
+    "valid": false,
+    "purifiable": false,
+    "player_display": false,
+    "types": [ "hair_style" ]
+  },
+  {
+    "id": "hair_orange_wavy",
+    "type": "mutation",
+    "name": "머리: 찰랑거리는 주황색 긴머리",
+    "description": "찰랑거는 주황색의 긴 머리입니다.",
+    "points": 0,
+    "starting_trait": true,
+    "valid": false,
+    "purifiable": false,
+    "player_display": false,
+    "types": [ "hair_style" ]
+  },
+  {
+    "id": "hair_white_wavy",
+    "type": "mutation",
+    "name": "머리: 찰랑거리는 하얀색 긴머리",
+    "description": "찰랑거리는 탈색된 긴 머리입니다.",
+    "points": 0,
+    "starting_trait": true,
+    "valid": false,
+    "purifiable": false,
+    "player_display": false,
+    "types": [ "hair_style" ]
+  }
+]

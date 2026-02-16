@@ -1,0 +1,134 @@
+[
+  {
+    "type": "mod_tileset",
+    "compatibility": [ "MX+(Overhaul)", "MSX++DEAD_PEOPLE", "UNDEAD_PEOPLE", "UNDEAD_PEOPLE_BASE" ],
+    "tiles-new": [
+      {
+        "file": "vulpecula_eye.png",
+        "sprite_width": 32,
+        "sprite_height": 32,
+        "sprite_offset_x": 0,
+        "sprite_offset_y": 0,
+        "tiles": [
+          {
+            "id": "overlay_mutation_ALBINO",
+            "fg": [
+              { "weight": 200, "sprite": 70 },
+              { "weight": 2, "sprite": 71 },
+              { "weight": 2, "sprite": 72 },
+              { "weight": 5, "sprite": 73 },
+              { "weight": 2, "sprite": 72 },
+              { "weight": 2, "sprite": 71 }
+            ],
+            "rotates": false,
+            "animated": true
+          },
+          {
+            "id": "overlay_mutation_EYE_BLINK_RED",
+            "fg": [
+              { "weight": 200, "sprite": 0 },
+              { "weight": 2, "sprite": 1 },
+              { "weight": 2, "sprite": 2 },
+              { "weight": 5, "sprite": 3 },
+              { "weight": 2, "sprite": 2 },
+              { "weight": 2, "sprite": 1 }
+            ],
+            "rotates": false,
+            "animated": true
+          },
+          {
+            "id": "overlay_mutation_EYE_BLINK_PURPLE",
+            "fg": [
+              { "weight": 200, "sprite": 10 },
+              { "weight": 2, "sprite": 11 },
+              { "weight": 2, "sprite": 12 },
+              { "weight": 5, "sprite": 13 },
+              { "weight": 2, "sprite": 12 },
+              { "weight": 2, "sprite": 11 }
+            ],
+            "rotates": false,
+            "animated": true
+          },
+          {
+            "id": "overlay_mutation_EYE_BLINK_YELLOW",
+            "fg": [
+              { "weight": 200, "sprite": 20 },
+              { "weight": 2, "sprite": 21 },
+              { "weight": 2, "sprite": 22 },
+              { "weight": 5, "sprite": 23 },
+              { "weight": 2, "sprite": 22 },
+              { "weight": 2, "sprite": 21 }
+            ],
+            "rotates": false,
+            "animated": true
+          },
+          {
+            "id": "overlay_mutation_EYE_BLINK_GREEN",
+            "fg": [
+              { "weight": 200, "sprite": 30 },
+              { "weight": 2, "sprite": 31 },
+              { "weight": 2, "sprite": 32 },
+              { "weight": 5, "sprite": 33 },
+              { "weight": 2, "sprite": 32 },
+              { "weight": 2, "sprite": 31 }
+            ],
+            "rotates": false,
+            "animated": true
+          },
+          {
+            "id": "overlay_mutation_EYE_BLINK_BLUE",
+            "fg": [
+              { "weight": 200, "sprite": 50 },
+              { "weight": 2, "sprite": 51 },
+              { "weight": 2, "sprite": 52 },
+              { "weight": 5, "sprite": 53 },
+              { "weight": 2, "sprite": 52 },
+              { "weight": 2, "sprite": 51 }
+            ],
+            "rotates": false,
+            "animated": true
+          },
+          {
+            "id": "overlay_mutation_EYE_BLINK_PINK",
+            "fg": [
+              { "weight": 200, "sprite": 60 },
+              { "weight": 2, "sprite": 61 },
+              { "weight": 2, "sprite": 62 },
+              { "weight": 5, "sprite": 63 },
+              { "weight": 2, "sprite": 62 },
+              { "weight": 2, "sprite": 61 }
+            ],
+            "rotates": false,
+            "animated": true
+          },
+          {
+            "id": "overlay_mutation_ELFAEYES",
+            "fg": [
+              { "weight": 200, "sprite": 40 },
+              { "weight": 2, "sprite": 41 },
+              { "weight": 2, "sprite": 42 },
+              { "weight": 5, "sprite": 43 },
+              { "weight": 2, "sprite": 42 },
+              { "weight": 2, "sprite": 41 }
+            ],
+            "rotates": false,
+            "animated": true
+          },
+          {
+            "id": "overlay_mutation_EYE_BLINK_GRASS",
+            "fg": [
+              { "weight": 200, "sprite": 40 },
+              { "weight": 2, "sprite": 41 },
+              { "weight": 2, "sprite": 42 },
+              { "weight": 5, "sprite": 43 },
+              { "weight": 2, "sprite": 42 },
+              { "weight": 2, "sprite": 41 }
+            ],
+            "rotates": false,
+            "animated": true
+          }
+        ]
+      }
+    ]
+  }
+]

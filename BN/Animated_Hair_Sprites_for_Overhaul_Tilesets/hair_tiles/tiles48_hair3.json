@@ -1,0 +1,188 @@
+[
+  {
+    "type": "mod_tileset",
+    "compatibility": [ "MX+(Overhaul)", "MSX++DEAD_PEOPLE", "UNDEAD_PEOPLE", "UNDEAD_PEOPLE_BASE" ],
+    "tiles-new": [
+      {
+        "file": "vulpecula_hair3.png",
+        "sprite_width": 32,
+        "sprite_height": 32,
+        "sprite_offset_x": 0,
+        "sprite_offset_y": 0,
+        "tiles": [
+          {
+            "id": "overlay_female_mutation_hair_blond_wavy",
+            "fg": [
+              { "weight": 10, "sprite": 0 },
+              { "weight": 10, "sprite": 1 },
+              { "weight": 10, "sprite": 2 },
+              { "weight": 10, "sprite": 3 },
+              { "weight": 10, "sprite": 4 },
+              { "weight": 10, "sprite": 5 },
+              { "weight": 10, "sprite": 6 },
+              { "weight": 10, "sprite": 7 },
+              { "weight": 10, "sprite": 8 },
+              { "weight": 10, "sprite": 9 }
+            ],
+            "rotates": false,
+            "animated": true
+          },
+          {
+            "id": "overlay_female_mutation_hair_green_wavy",
+            "fg": [
+              { "weight": 10, "sprite": 10 },
+              { "weight": 10, "sprite": 11 },
+              { "weight": 10, "sprite": 12 },
+              { "weight": 10, "sprite": 13 },
+              { "weight": 10, "sprite": 14 },
+              { "weight": 10, "sprite": 15 },
+              { "weight": 10, "sprite": 16 },
+              { "weight": 10, "sprite": 17 },
+              { "weight": 10, "sprite": 18 },
+              { "weight": 10, "sprite": 19 }
+            ],
+            "rotates": false,
+            "animated": true
+          },
+          {
+            "id": "overlay_female_mutation_hair_blue_wavy",
+            "fg": [
+              { "weight": 10, "sprite": 20 },
+              { "weight": 10, "sprite": 21 },
+              { "weight": 10, "sprite": 22 },
+              { "weight": 10, "sprite": 23 },
+              { "weight": 10, "sprite": 24 },
+              { "weight": 10, "sprite": 25 },
+              { "weight": 10, "sprite": 26 },
+              { "weight": 10, "sprite": 27 },
+              { "weight": 10, "sprite": 28 },
+              { "weight": 10, "sprite": 29 }
+            ],
+            "rotates": false,
+            "animated": true
+          },
+          {
+            "id": "overlay_female_mutation_hair_dark_blue_wavy",
+            "fg": [
+              { "weight": 10, "sprite": 30 },
+              { "weight": 10, "sprite": 31 },
+              { "weight": 10, "sprite": 32 },
+              { "weight": 10, "sprite": 33 },
+              { "weight": 10, "sprite": 34 },
+              { "weight": 10, "sprite": 35 },
+              { "weight": 10, "sprite": 36 },
+              { "weight": 10, "sprite": 37 },
+              { "weight": 10, "sprite": 38 },
+              { "weight": 10, "sprite": 39 }
+            ],
+            "rotates": false,
+            "animated": true
+          },
+          {
+            "id": "overlay_female_mutation_hair_purple_wavy",
+            "fg": [
+              { "weight": 10, "sprite": 40 },
+              { "weight": 10, "sprite": 41 },
+              { "weight": 10, "sprite": 42 },
+              { "weight": 10, "sprite": 43 },
+              { "weight": 10, "sprite": 44 },
+              { "weight": 10, "sprite": 45 },
+              { "weight": 10, "sprite": 46 },
+              { "weight": 10, "sprite": 47 },
+              { "weight": 10, "sprite": 48 },
+              { "weight": 10, "sprite": 49 }
+            ],
+            "rotates": false,
+            "animated": true
+          },
+          {
+            "id": "overlay_female_mutation_hair_5a95f5_wavy",
+            "fg": [
+              { "weight": 10, "sprite": 50 },
+              { "weight": 10, "sprite": 51 },
+              { "weight": 10, "sprite": 52 },
+              { "weight": 10, "sprite": 53 },
+              { "weight": 10, "sprite": 54 },
+              { "weight": 10, "sprite": 55 },
+              { "weight": 10, "sprite": 56 },
+              { "weight": 10, "sprite": 57 },
+              { "weight": 10, "sprite": 58 },
+              { "weight": 10, "sprite": 59 }
+            ],
+            "rotates": false,
+            "animated": true
+          },
+          {
+            "id": "overlay_female_mutation_hair_pink_wavy",
+            "fg": [
+              { "weight": 10, "sprite": 60 },
+              { "weight": 10, "sprite": 61 },
+              { "weight": 10, "sprite": 62 },
+              { "weight": 10, "sprite": 63 },
+              { "weight": 10, "sprite": 64 },
+              { "weight": 10, "sprite": 65 },
+              { "weight": 10, "sprite": 66 },
+              { "weight": 10, "sprite": 67 },
+              { "weight": 10, "sprite": 68 },
+              { "weight": 10, "sprite": 69 }
+            ],
+            "rotates": false,
+            "animated": true
+          },
+          {
+            "id": "overlay_female_mutation_hair_red_wavy",
+            "fg": [
+              { "weight": 10, "sprite": 70 },
+              { "weight": 10, "sprite": 71 },
+              { "weight": 10, "sprite": 72 },
+              { "weight": 10, "sprite": 73 },
+              { "weight": 10, "sprite": 74 },
+              { "weight": 10, "sprite": 75 },
+              { "weight": 10, "sprite": 76 },
+              { "weight": 10, "sprite": 77 },
+              { "weight": 10, "sprite": 78 },
+              { "weight": 10, "sprite": 79 }
+            ],
+            "rotates": false,
+            "animated": true
+          },
+          {
+            "id": "overlay_female_mutation_hair_orange_wavy",
+            "fg": [
+              { "weight": 10, "sprite": 80 },
+              { "weight": 10, "sprite": 81 },
+              { "weight": 10, "sprite": 82 },
+              { "weight": 10, "sprite": 83 },
+              { "weight": 10, "sprite": 84 },
+              { "weight": 10, "sprite": 85 },
+              { "weight": 10, "sprite": 86 },
+              { "weight": 10, "sprite": 87 },
+              { "weight": 10, "sprite": 88 },
+              { "weight": 10, "sprite": 89 }
+            ],
+            "rotates": false,
+            "animated": true
+          },
+          {
+            "id": "overlay_female_mutation_hair_white_wavy",
+            "fg": [
+              { "weight": 10, "sprite": 90 },
+              { "weight": 10, "sprite": 91 },
+              { "weight": 10, "sprite": 92 },
+              { "weight": 10, "sprite": 93 },
+              { "weight": 10, "sprite": 94 },
+              { "weight": 10, "sprite": 95 },
+              { "weight": 10, "sprite": 96 },
+              { "weight": 10, "sprite": 97 },
+              { "weight": 10, "sprite": 98 },
+              { "weight": 10, "sprite": 99 }
+            ],
+            "rotates": false,
+            "animated": true
+          }
+        ]
+      }
+    ]
+  }
+]
+

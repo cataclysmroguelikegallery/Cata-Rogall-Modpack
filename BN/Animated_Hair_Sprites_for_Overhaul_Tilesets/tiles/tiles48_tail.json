@@ -1,0 +1,32 @@
+[
+  {
+    "type": "mod_tileset",
+    "compatibility": [ "MX+(Overhaul)", "MSX++DEAD_PEOPLE", "UNDEAD_PEOPLE", "UNDEAD_PEOPLE_BASE" ],
+    "tiles-new": [
+	 {
+				"file": "tail1.png",
+				"sprite_width":56,
+				"sprite_height":48,
+				"sprite_offset_x":-12,
+				"sprite_offset_y":-16,
+				"tiles": 
+				[
+				{ "id": "overlay_mutation_0TAIL_FOX", "fg": 
+				[
+				{"weight": 10,"sprite":0},
+				{"weight": 10,"sprite":1},
+				{"weight": 10,"sprite":2},
+				{"weight": 10,"sprite":3},
+				{"weight": 10,"sprite":4},
+				{"weight": 10,"sprite":5},
+				{"weight": 10,"sprite":6},
+				{"weight": 10,"sprite":7}
+				],
+				"rotates": false,
+				"animated" :true }
+				]
+		}
+	
+    ]
+  }
+]
