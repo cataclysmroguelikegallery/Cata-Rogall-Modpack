@@ -1,0 +1,171 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Unknown Mod\n"
+"POT-Creation-Date: 2026-02-16 18:32+0900\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: .\modinfo.json
+msgid "불페큘라의 캐릭터 도트 리플레이스"
+msgstr ""
+
+#. ~ Description for 불페큘라의 캐릭터 도트 리플레이스
+#: .\modinfo.json
+msgid "각종 움직이는 바디파츠들을 만나보세요. 오버홀 모드 필요"
+msgstr ""
+
+#: .\eye_tiles\eye_mutation.json
+msgid "깜빡이는 붉은 눈동자"
+msgstr ""
+
+#. ~ Description for 깜빡이는 붉은 눈동자
+#: .\eye_tiles\eye_mutation.json
+msgid "당신은 붉은 눈을 가지고 깜빡일수 있다."
+msgstr ""
+
+#: .\eye_tiles\eye_mutation.json
+msgid "깜빡이는 자주빛 눈동자"
+msgstr ""
+
+#. ~ Description for 깜빡이는 자주빛 눈동자
+#: .\eye_tiles\eye_mutation.json
+msgid "당신은 자줏빛 눈을 가지고 깜빡일수 있다."
+msgstr ""
+
+#: .\eye_tiles\eye_mutation.json
+msgid "깜빡이는 노란색 눈동자"
+msgstr ""
+
+#. ~ Description for 깜빡이는 노란색 눈동자
+#: .\eye_tiles\eye_mutation.json
+msgid "당신은 노란색 눈을 가지고 깜빡일수 있다."
+msgstr ""
+
+#: .\eye_tiles\eye_mutation.json
+msgid "깜빡이는 녹색빛 눈동자"
+msgstr ""
+
+#. ~ Description for 깜빡이는 녹색빛 눈동자
+#: .\eye_tiles\eye_mutation.json
+msgid "당신은 녹색빛 눈을 가지고 깜빡일수 있다."
+msgstr ""
+
+#: .\eye_tiles\eye_mutation.json
+msgid "깜빡이는 푸른빛 눈동자"
+msgstr ""
+
+#. ~ Description for 깜빡이는 푸른빛 눈동자
+#: .\eye_tiles\eye_mutation.json
+msgid "당신은 푸른빛 눈을 가지고 깜빡일수 있다."
+msgstr ""
+
+#: .\eye_tiles\eye_mutation.json
+msgid "깜빡이는 분홍빛 눈동자"
+msgstr ""
+
+#. ~ Description for 깜빡이는 분홍빛 눈동자
+#: .\eye_tiles\eye_mutation.json
+msgid "당신은 분홍빛 눈을 가지고 깜빡일수 있다."
+msgstr ""
+
+#: .\eye_tiles\eye_mutation.json
+msgid "깜빡이는 풀빛의 눈동자"
+msgstr ""
+
+#. ~ Description for 깜빡이는 풀빛의 눈동자
+#: .\eye_tiles\eye_mutation.json
+msgid "당신은 풀빛 눈을 가지고 깜빡일수 있다."
+msgstr ""
+
+#: .\hair_tiles\hair_mutation.json
+msgid "머리: 찰랑거리는 금색 긴머리"
+msgstr ""
+
+#. ~ Description for 머리: 찰랑거리는 금색 긴머리
+#: .\hair_tiles\hair_mutation.json
+msgid "찰랑거리는 블론디한 색상의 긴 머리입니다."
+msgstr ""
+
+#: .\hair_tiles\hair_mutation.json
+msgid "머리: 찰랑거리는 녹색 긴머리"
+msgstr ""
+
+#. ~ Description for 머리: 찰랑거리는 녹색 긴머리
+#: .\hair_tiles\hair_mutation.json
+msgid "찰랑거리는 녹색의 긴 머리입니다."
+msgstr ""
+
+#: .\hair_tiles\hair_mutation.json
+msgid "머리: 찰랑거리는 청색 긴머리"
+msgstr ""
+
+#. ~ Description for 머리: 찰랑거리는 청색 긴머리
+#: .\hair_tiles\hair_mutation.json
+msgid "찰랑거리는 푸르스름한 색상의 긴 머리입니다."
+msgstr ""
+
+#: .\hair_tiles\hair_mutation.json
+msgid "머리: 찰랑거리는 군청색 긴머리"
+msgstr ""
+
+#. ~ Description for 머리: 찰랑거리는 군청색 긴머리
+#: .\hair_tiles\hair_mutation.json
+msgid "찰랑거리는 네이비한 색상의 긴 머리입니다."
+msgstr ""
+
+#: .\hair_tiles\hair_mutation.json
+msgid "머리: 찰랑거리는 자색 긴머리"
+msgstr ""
+
+#. ~ Description for 머리: 찰랑거리는 자색 긴머리
+#: .\hair_tiles\hair_mutation.json
+msgid "찰랑거리는 보라색의 긴 머리입니다."
+msgstr ""
+
+#: .\hair_tiles\hair_mutation.json
+msgid "머리: 찰랑거리는 이웨카 블루 롱 헤어"
+msgstr ""
+
+#. ~ Description for 머리: 찰랑거리는 이웨카 블루 롱 헤어
+#: .\hair_tiles\hair_mutation.json
+msgid "찰랑거리는 진한 푸른색의 긴 머리입니다."
+msgstr ""
+
+#: .\hair_tiles\hair_mutation.json
+msgid "머리: 찰랑거리는 분홍색 긴머리"
+msgstr ""
+
+#. ~ Description for 머리: 찰랑거리는 분홍색 긴머리
+#: .\hair_tiles\hair_mutation.json
+msgid "찰랑거리는 분홍색의 긴 머리입니다."
+msgstr ""
+
+#: .\hair_tiles\hair_mutation.json
+msgid "머리: 찰랑거리는 적색 긴머리"
+msgstr ""
+
+#. ~ Description for 머리: 찰랑거리는 적색 긴머리
+#: .\hair_tiles\hair_mutation.json
+msgid "찰랑거는 적색의 긴 머리입니다."
+msgstr ""
+
+#: .\hair_tiles\hair_mutation.json
+msgid "머리: 찰랑거리는 주황색 긴머리"
+msgstr ""
+
+#. ~ Description for 머리: 찰랑거리는 주황색 긴머리
+#: .\hair_tiles\hair_mutation.json
+msgid "찰랑거는 주황색의 긴 머리입니다."
+msgstr ""
+
+#: .\hair_tiles\hair_mutation.json
+msgid "머리: 찰랑거리는 하얀색 긴머리"
+msgstr ""
+
+#. ~ Description for 머리: 찰랑거리는 하얀색 긴머리
+#: .\hair_tiles\hair_mutation.json
+msgid "찰랑거리는 탈색된 긴 머리입니다."
+msgstr ""

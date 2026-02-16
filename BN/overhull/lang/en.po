@@ -1,0 +1,1340 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Unknown Mod\n"
+"POT-Creation-Date: 2026-02-16 18:49+0900\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.8\n"
+
+#: .\armor.json
+msgid "무녀복"
+msgid_plural "무녀복s"
+msgstr[0] "miko attire"
+msgstr[1] "miko attires"
+
+#. ~ Description for 무녀복
+#: .\armor.json
+msgid "일본 신토신앙의 예복, 실용성보다는 외견에 치중되어 있습니다."
+msgstr ""
+"The ceremonial robes of Japanese Shinto faith prioritize appearance over "
+"practicality."
+
+#: .\armor.json
+msgid "생존용 무녀복"
+msgid_plural "생존용 무녀복s"
+msgstr[0] "survivor miko attire"
+msgstr[1] "survivor miko attires"
+
+#. ~ Description for 생존용 무녀복
+#: .\armor.json
+msgid ""
+"일본 신토신앙의 예복, 외견을 최대한 보존한채 케블라와 노멕스를 덧대고 주머니"
+"를 만들어 실용성을 늘렸습니다."
+msgstr ""
+"The ceremonial robes of Japanese Shinto faith have been enhanced for "
+"practicality by adding Kevlar and Nomex layers while preserving their "
+"appearance as much as possible, and by adding pockets."
+
+#: .\armor.json
+msgid "개선된 보안경"
+msgid_plural "개선된 보안경s"
+msgstr[0] "improved safety glasses"
+msgstr[1] "improved safety glasses"
+
+#. ~ Description for 개선된 보안경
+#: .\armor.json
+msgid "기존의 보안경을 조금 더 크게하면서 방어력도 개선했습니다."
+msgstr ""
+"These are saftey goggles that are slightly larger and feature improved "
+"defense."
+
+#: .\armor.json
+msgid "리본"
+msgid_plural "리본s"
+msgstr[0] "ribbon"
+msgstr[1] "ribbons"
+
+#. ~ Description for 리본
+#: .\armor.json
+msgid "끈을 간단이 꼬아서 만든 장식용 리본입니다."
+msgstr "This is a decorative ribbon made by simply twisting a cord."
+
+#: .\armor.json
+msgid "꽃 비녀"
+msgid_plural "꽃 비녀s"
+msgstr[0] "ornamental flower hairpin"
+msgstr[1] "ornamental flower hairpins"
+
+#. ~ Description for 꽃 비녀
+#: .\armor.json
+msgid "짧은 작대기에 조화와 끈을 단 장식용 비녀."
+msgstr ""
+"A decorative hairpin with a short rod, adorned with flowers and a cord."
+
+#: .\armor.json
+msgid "자금관"
+msgid_plural "자금관s"
+msgstr[0] "zijin guan"
+msgstr[1] "zijin guans"
+
+#. ~ Description for 자금관
+#: .\armor.json
+msgid ""
+"중국의 전통 모자. 과거 어떠한 중국의 무장이 머리에 쓰고다녀 매우 유명한 모자"
+"다."
+msgstr ""
+"A traditional Chinese crown adorned with pheasant tails. This iconic "
+"headpiece gained immense fame after being worn by a legendary warlord of "
+"ancient times."
+
+#: .\armor.json
+msgid "아얌"
+msgid_plural "아얌s"
+msgstr[0] "ayam"
+msgstr[1] "ayams"
+
+#. ~ Description for 아얌
+#: .\armor.json
+msgid "조선의 전통 모자. 여성들이 쓰던 방한모. 방어성능은 기대할 수 없다."
+msgstr ""
+"Traditional Korean hat. A winter hat worn by women. Do not expect any "
+"protective function."
+
+#: .\armor.json
+msgid "붉은 관"
+msgid_plural "붉은 관s"
+msgstr[0] "crimson headdress"
+msgstr[1] "crimson headdresses"
+
+#. ~ Description for 붉은 관
+#: .\armor.json
+msgid "신비한 느낌이 감도는 붉은색 관."
+msgstr "A traditional red headdress exuding a mystical aura."
+
+#: .\armor.json
+msgid "푸른 관"
+msgid_plural "푸른 관s"
+msgstr[0] "azure headdress"
+msgstr[1] "azure headdresses"
+
+#. ~ Description for 푸른 관
+#: .\armor.json
+msgid "신비한 느낌이 감도는 파란색 관."
+msgstr "A traditional blue headdress exuding a mystical aura."
+
+#: .\armor.json
+msgid "한복"
+msgid_plural "한복s"
+msgstr[0] "hanbok"
+msgstr[1] "hanbok"
+
+#. ~ Description for 한복
+#: .\armor.json
+msgid "동북아시아 한국이라 불리는 나라의 전통의상"
+msgstr ""
+"The traditional attire of the country known as Korea in Northeast Asia."
+
+#: .\armor.json
+msgid "생존용 한복"
+msgid_plural "생존용 한복s"
+msgstr[0] "survivor hanbok"
+msgstr[1] "survivor hanbok"
+
+#. ~ Description for 생존용 한복
+#: .\armor.json
+msgid ""
+"동북아시아 한국이라 불리는 나라의 전통의상, 외견을 최대한 보존한채 필요없는 "
+"부분을 잘라내고, 케블라를 덧댄 뒤에 주머니를 만들어 실용성을 늘렸습니다."
+msgstr ""
+"The traditional attire of the country known as Korea in Northeast Asia has "
+"been modified by preserving its appearance as much as possible, removing "
+"unnecessary parts, reinforcing it with Kevlar, and adding pockets to enhance "
+"practicality."
+
+#: .\armor.json
+msgid "하이테크 보안경 (꺼짐)"
+msgid_plural "하이테크 보안경 (꺼짐)s"
+msgstr[0] "hi-tech goggles (off)"
+msgstr[1] "hi-tech goggles (off)"
+
+#. ~ Use action msg for 하이테크 보안경 (꺼짐).
+#: .\armor.json
+msgid "하이테크 보안경을 가동시켰다."
+msgstr "You activated the high-tech goggles."
+
+#. ~ Use action need_charges_msg for 하이테크 보안경 (꺼짐).
+#: .\armor.json
+msgid "하이테크 보안경에 배터리가 없다."
+msgstr "The battery in the high-tech goggles is dead."
+
+#. ~ Description for 하이테크 보안경 (꺼짐)
+#: .\armor.json
+msgid ""
+"시력보정 기능과 멀리볼수 있는 기능, 그리고 밝은 빛에 눈을 보호하는 기능이 내"
+"장되어 있는 최첨단 보안경. 사용하면 꽤 밝은 빛이 켜집니다."
+msgstr ""
+"State-of-the-art safety glasses featuring built-in vision correction, long-"
+"distance viewing capabilities, and eye protection against bright light. When "
+"activated, they emit a fairly bright light."
+
+#: .\armor.json
+msgid "하이테크 보안경 (켜짐)"
+msgid_plural "하이테크 보안경 (켜짐)s"
+msgstr[0] "hi-tech goggles (on)"
+msgstr[1] "hi-tech goggles (on)"
+
+#. ~ Use action menu_text for 하이테크 보안경 (켜짐).
+#: .\armor.json
+msgid "끄기"
+msgstr "Turn off"
+
+#. ~ Use action msg for 하이테크 보안경 (켜짐).
+#: .\armor.json
+msgid "하이테크 보안경을 껐다."
+msgstr "You deactivated the high-tech goggles."
+
+#. ~ Description for 하이테크 보안경 (켜짐)
+#: .\armor.json
+msgid ""
+"시력보정 기능과 멀리볼수 있는 기능, 그리고 매우 밝은 빛에 눈을 보호하는 기능"
+"이 내장되어 있는 최첨단 보안경. 현재 빛이 나오고 있는 상태입니다."
+msgstr ""
+"State-of-the-art safety goggles featuring built-in vision correction, long-"
+"distance viewing capabilities, and eye protection against extremely bright "
+"light. The light is currently activated."
+
+#: .\armor.json
+msgid "필터 마스크(XL)"
+msgid_plural "필터 마스크(XL)s"
+msgstr[0] "filter mask (XL)"
+msgstr[1] "filter masks (XL)"
+
+#. ~ Description for 필터 마스크(XL)
+#: .\armor.json
+msgid ""
+"필터마스크를 이어붙여서 대형화시켰습니다. 이 정도 사이즈라면 어떤 입에도 잘 "
+"맞을거 같습니다."
+msgstr ""
+"This is a filter mask enlarged by joining multiple pieces together. At this "
+"size, it should fit any mouth well."
+
+#: .\armor.json
+msgid "선녀의 스카프"
+msgid_plural "선녀의 스카프s"
+msgstr[0] "hagoromo"
+msgstr[1] "hagoromos"
+
+#. ~ Description for 선녀의 스카프
+#: .\armor.json
+msgid "날개옷과 비슷한 느낌의 반투명한 천."
+msgstr "A sheer, translucent fabric reminiscent of a celestial maiden's robe."
+
+#: .\armor.json
+msgid "강철 카이트실드"
+msgid_plural "강철 카이트실드s"
+msgstr[0] "steel kite shield"
+msgstr[1] "steel kite shields"
+
+#. ~ Description for 강철 카이트실드
+#: .\armor.json
+msgid ""
+"위는 둥글고 아래는 뾰족한 형태의 대형 방패, 현대의 강철로 만들었기 때문에 전"
+"통적인 방식의 카이트실드보다는 훨씬 튼튼하지만 대신 굉장히 무겁다."
+msgstr ""
+"A large shield with a rounded top and pointed bottom, crafted from modern "
+"steel, making it far sturdier than traditional kite shields but also "
+"extremely heavy."
+
+#: .\books.json
+msgid "Tyep2 : 전설의 생명체 재현"
+msgid_plural "Tyep2 : 전설의 생명체 재현s"
+msgstr[0] "Type 2 : Recreation of Legendary Creatures"
+msgstr[1] "copies of Type 2 : Recreation of Legendary Creatures"
+
+#. ~ Description for Tyep2 : 전설의 생명체 재현
+#: .\books.json
+msgid "신화속의 짐승을 구현해보고자하는 과학자들의 연구서."
+msgstr "A research paper by scientists attempting to recreate mythical beasts."
+
+#: .\modinfo.json
+msgid "Overhaul Tileset"
+msgstr ""
+
+#. ~ Description for Overhaul Tileset
+#: .\modinfo.json
+msgid ""
+"MX+Tileset(Overhaul)의 모드판. Overhaul 타일셋을 적용시키고, 새로운 외형을 추"
+"가합니다."
+msgstr ""
+"A massive expansion for MX+Tileset (Overhaul) featuring a complete sprite "
+"redesign, beautiful Eastern attire like Hanbok, and entirely new mutation "
+"paths to become mythical creatures using custom mutagens and serums."
+
+#: .\mutagen.json
+msgid "여우 뮤타젠"
+msgid_plural "여우 뮤타젠s"
+msgstr[0] "fox mutagen"
+msgstr[1] "fox mutagen"
+
+#: .\mutagen.json
+msgid "페가서스 뮤타젠"
+msgid_plural "페가서스 뮤타젠s"
+msgstr[0] "pegasus mutagen"
+msgstr[1] "pegasus mutagen"
+
+#: .\mutagen.json
+msgid "골렘 뮤타젠"
+msgid_plural "골렘 뮤타젠s"
+msgstr[0] "golem mutagen"
+msgstr[1] "golem mutagen"
+
+#: .\mutagen.json
+msgid "드래곤 뮤타젠"
+msgid_plural "드래곤 뮤타젠s"
+msgstr[0] "dragon mutagen"
+msgstr[1] "dragon mutagen"
+
+#: .\mutagen.json
+msgid "여우 혈청"
+msgid_plural "여우 혈청s"
+msgstr[0] "fox serum"
+msgstr[1] "fox serum"
+
+#: .\mutagen.json
+msgid "페가서스 혈청"
+msgid_plural "페가서스 혈청s"
+msgstr[0] "pegasus serum"
+msgstr[1] "pegasus serum"
+
+#: .\mutagen.json
+msgid "골렘 혈청"
+msgid_plural "골렘 혈청s"
+msgstr[0] "golem serum"
+msgstr[1] "golem serum"
+
+#: .\mutagen.json
+msgid "드래곤 혈청"
+msgid_plural "드래곤 혈청s"
+msgstr[0] "dragon serum"
+msgstr[1] "dragon serum"
+
+#. ~ Mutation class name
+#: .\mutation_category.json
+msgid "Fox"
+msgstr ""
+
+#. ~ Mutation class: Fox mutagen_message
+#: .\mutation_category.json
+msgid "산과 들을 뛰어다니고 싶다는 생각이 든다."
+msgstr "You feel an urge to run across mountains and fields."
+
+#. ~ Mutation class: Fox iv_message
+#: .\mutation_category.json
+msgid "혈관에 피가 흐를때마다 온 몸에서 털이 나는 느낌이 든다."
+msgstr ""
+"With every pulse in your veins, you feel fur sprouting all over your body."
+
+#. ~ Mutation class: Fox Male memorial messsage
+#. ~ Mutation class: Horse Male memorial messsage
+#. ~ Mutation class: Golem Male memorial messsage
+#. ~ Mutation class: Dragon Male memorial messsage
+#: .\mutation_category.json
+msgctxt "memorial_male"
+msgid "어떤 것이든 문제가 없다."
+msgstr "Nothing can stand in your way."
+
+#. ~ Mutation class: Fox Female memorial messsage
+#. ~ Mutation class: Horse Female memorial messsage
+#. ~ Mutation class: Golem Female memorial messsage
+#. ~ Mutation class: Dragon Female memorial messsage
+#: .\mutation_category.json
+msgctxt "memorial_female"
+msgid "어떤 것이든 문제가 없다."
+msgstr "Nothing can stand in your way."
+
+#. ~ Mutation class name
+#: .\mutation_category.json
+msgid "Horse"
+msgstr ""
+
+#. ~ Mutation class: Horse mutagen_message
+#: .\mutation_category.json
+msgid "다리가 강해진다는 느낌이 든다."
+msgstr "You feel your legs growing stronger."
+
+#. ~ Mutation class: Horse iv_message
+#: .\mutation_category.json
+msgid "심장이 빠르게 뛰며 어디든지 질주를 하고 싶다는 충동에 휩싸인다."
+msgstr ""
+"Your heart races, and you are consumed by the urge to sprint endlessly."
+
+#. ~ Mutation class name
+#: .\mutation_category.json
+msgid "Golem"
+msgstr ""
+
+#. ~ Mutation class: Golem mutagen_message
+#: .\mutation_category.json
+msgid "왠지 피부가 딱딱해지는 느낌이 든다."
+msgstr "You feel your skin beginning to harden."
+
+#. ~ Mutation class: Golem iv_message
+#: .\mutation_category.json
+msgid "흐르는 피 속에 둘맹이가 있는 느낌이 든다."
+msgstr "You feel pebbles coursing through your veins."
+
+#. ~ Mutation class name
+#: .\mutation_category.json
+msgid "Dragon"
+msgstr ""
+
+#. ~ Mutation class: Dragon mutagen_message
+#: .\mutation_category.json
+msgid "몸이 뜨거워지는 것 같다."
+msgstr "You feel a deep heat radiating from within your body."
+
+#. ~ Mutation class: Dragon iv_message
+#: .\mutation_category.json
+msgid "불타오르는 광기가... 휘몰아친다."
+msgstr "A blazing frenzy... sweeps over you."
+
+#: .\mutations.json
+msgid "나인테일"
+msgstr "Nine Tails"
+
+#. ~ Description for 나인테일
+#: .\mutations.json
+msgid ""
+"당신은 9개나 되는 꼬리를 가졌습니다. 여차하면 침대 대신 덮고 잘 수 있을 정도"
+"로 폭신푹신하며 뛰어난 보온효과를 제공합니다. 다만 꼬리수가 많아진 탓에 회피"
+"능력 보너스가 기존보다 약간 감소합니다."
+msgstr ""
+"You have nine tails. They are fluffy enough to act as a makeshift bed and "
+"provide excellent warmth. However, having so many tails slightly reduces "
+"your dodge bonus compared to before."
+
+#: .\mutations.json
+msgid "노란 솜털꼬리"
+msgstr "Yellow Fluffy Tails"
+
+#. ~ Description for 노란 솜털꼬리
+#: .\mutations.json
+msgid ""
+"노란색의 길고 푹신한 털이 달린 꼬리가 생겼습니다. 이 꼬리는 몸의 균형을 잡는"
+"데 도움이 되고, 회피 능력을 대폭 향상시켜줍니다. 그렇지만 꼬리가 걸리적거려"
+"서 다리에 천 재질이 아닌 의복을 착용할 수 없게 됩니다."
+msgstr ""
+"You have grown a long, fluffy yellow tail. It helps you keep your balance "
+"and significantly improves your dodge skill. However, the tail gets in the "
+"way, preventing you from wearing non-fabric clothing on your legs."
+
+#: .\mutations.json
+msgid "포니테일"
+msgstr "Pony Tail"
+
+#. ~ Description for 포니테일
+#: .\mutations.json
+msgid ""
+"당신은 포니테일을 가지고 있습니다. 머리스타일이 아닌 진짜 포니테일을요. 회피"
+"에 보너스가 주어집니다. 그렇지만 꼬리가 걸리적거려서 다리에 천 재질이 아닌 의"
+"복을 착용할 수 없게 됩니다."
+msgstr ""
+
+#: .\mutations.json
+msgid "Thick-Skinned"
+msgstr ""
+
+#: .\mutations.json
+msgid "돌 피부"
+msgstr "Stone Slin"
+
+#. ~ Description for 돌 피부
+#: .\mutations.json
+msgid ""
+"당신의 피부는 사포로 문질러도 멀쩡할 정도로 매우 딱딱해졌습니다. 움직임이 약"
+"간 불편해지지만 받는 절단 피해를 감소시킵니다."
+msgstr ""
+"Your skin has become so tough that rubbing sandpaper against it wouldn't "
+"leave a scratch. It makes movement slightly uncomfortable, but reduces "
+"incoming cut damage."
+
+#: .\mutations.json
+msgid "암석 피부"
+msgstr "Rock Skin"
+
+#. ~ Description for 암석 피부
+#: .\mutations.json
+msgid ""
+"당신의 피부는 생기를 잃었고 무기질에 가까워졌습니다. 움직임이 불편해지지만 받"
+"는 절단 피해를 크게 감소시키며 타격 피해 또한 감소합니다."
+msgstr ""
+"Your skin has lost its vitality, becoming almost inorganic. It makes "
+"movement uncomfortable, but heavily reduces incoming cut damage and also "
+"reduces bash damage."
+
+#: .\mutations.json
+msgid "Freakishly Huge"
+msgstr ""
+
+#: .\mutations.json
+msgid "노란 털가죽"
+msgstr "Yellow Fur"
+
+#. ~ Description for 노란 털가죽
+#: .\mutations.json
+msgid "포근한 금빛 털이 온몸을 덮었습니다. 상당한 보온효과를 가집니다."
+msgstr ""
+"Cozy, golden fur covers your entire body. It provides significant warmth."
+
+#: .\mutations.json
+msgid "용 비늘"
+msgstr "Dragon Scales"
+
+#. ~ Description for 용 비늘
+#: .\mutations.json
+msgid ""
+"몸의 비늘이 붉은 빛을 띄며 더욱 단단해졌습니다. 이 비늘은 화염에 내성이 있고 "
+"높은 방어력을 가지고 있습니다. 그러나 움직이기 불편해서 민첩성이 2 감소하고 "
+"방해도도 약간 증가합니다. 또한 젖음 페널티를 크게 줄여줍니다."
+msgstr ""
+"The scales on your body have taken on a red hue and become even harder. "
+"These scales are resistant to fire and offer high protection. However, they "
+"make movement awkward, decreasing your Dexterity by 2 and slightly "
+"increasing encumbrance. It also greatly reduces the wet penalty."
+
+#: .\mutations.json
+msgid "여우 주둥이"
+msgstr "Fox Muzzle"
+
+#. ~ Description for 여우 주둥이
+#: .\mutations.json
+msgid "당신의 입이 뾰족한 여우 주둥이로 변했습니다."
+msgstr "Your mouth has transformed into a pointed fox muzzle."
+
+#: .\mutations.json
+msgid "말 주둥이"
+msgstr "Horse Muzzle"
+
+#. ~ Description for 말 주둥이
+#: .\mutations.json
+msgid "당신의 입은 진짜 말처럼 매우 길쭉하게 변했습니다."
+msgstr "Your mouth has elongated significantly, just like a real horse."
+
+#: .\mutations.json
+msgid "용 머리"
+msgstr "Dragon Head"
+
+#. ~ Description for 용 머리
+#: .\mutations.json
+msgid ""
+"당신의 얼굴과 턱이 붉고, 크고, 강력하게 변화했습니다. 보기에는 징그럽지만 적"
+"을 물어뜯기에 탁월합니다."
+msgstr ""
+"Your face and jaw have morphed into something red, large, and powerful. It "
+"looks grotesque, but is excellent for biting enemies."
+
+#: .\mutations.json
+msgid "%s(을)를 한웅큼 깨뭅니다."
+msgstr "You bite a chunk out of %s."
+
+#: .\mutations.json
+msgid "%1$s(이)가 %2$s(을)를 한웅큼 깨뭅니다."
+msgstr "%1$s bites a chunk out of %2$s."
+
+#: .\mutations.json
+msgid "여우"
+msgstr "Fox"
+
+#. ~ Description for 여우
+#: .\mutations.json
+msgid "문명이 멸망했지만 당신은 괜찮습니다. 산과 들, 숲이 당신의 집이니까요."
+msgstr ""
+"Civilization has fallen, but you are fine. The mountains, fields, and "
+"forests are your home."
+
+#: .\mutations.json
+msgid "페가수스"
+msgstr "Pegasus"
+
+#. ~ Description for 페가수스
+#: .\mutations.json
+msgid "앞으로 나아가고 전진하며 달립니니다. 그게 당신의 삶이니까요."
+msgstr "You move forward, advance, and run. That is your life."
+
+#: .\mutations.json
+msgid "골렘"
+msgstr "Golem"
+
+#. ~ Description for 골렘
+#: .\mutations.json
+msgid ""
+"당신은 누군가에게 자신이 살아있다고 감히 말할 수 없는 지경에 이르렀습니다"
+msgstr ""
+"You have reached a point where you hardly dare call yourself alive to anyone."
+
+#: .\mutations.json
+msgid "드래곤"
+msgstr "Dragon"
+
+#. ~ Description for 드래곤
+#: .\mutations.json
+msgid "그 어떤 것도... 당신을 쉬이 불태우거나 쓰러뜨릴 수 없을 것입니다."
+msgstr "Nothing... will easily burn or bring you down."
+
+#: .\mutations.json
+msgid "여우 귀"
+msgstr "Fox Ears"
+
+#. ~ Description for 여우 귀
+#: .\mutations.json
+msgid "당신의 귀는 뾰족하고 매우 눈에 띕니다. 소리를 듣는데 탁월합니다."
+msgstr ""
+"Your ears are pointed and highly conspicuous. They are excellent for hearing."
+
+#: .\mutations.json
+msgid "토끼 귀"
+msgstr "Rabbit Ears"
+
+#. ~ Description for 토끼 귀
+#: .\mutations.json
+msgid ""
+"이 엄청나게 길쭉한 귀는... 마치 토끼가 된 느낌입니다. 보기에 좋고 소리를 듣는"
+"데 큰 도움이 되지만, 일반적인 장비를 머리에 착용할 수 없게 됩니다."
+msgstr ""
+"These incredibly long ears... make you feel like a rabbit. They look nice "
+"and help tremendously with hearing, but prevent you from wearing normal "
+"headgear."
+
+#: .\mutations.json
+msgid "말 귀"
+msgstr "Horse Ears"
+
+#. ~ Description for 말 귀
+#: .\mutations.json
+msgid ""
+"당신의 귀는 작지만 모양새 있는 말의 귀가 되었습니다. 소리를 듣는데 도움이 됩"
+"니다."
+msgstr ""
+"Your ears have turned into small but shapely horse ears. They help with "
+"hearing."
+
+#: .\mutations.json
+msgid "신화적 매력"
+msgstr "Mythical Charm"
+
+#. ~ Description for 신화적 매력
+#: .\mutations.json
+msgid ""
+"당신은 이야기 속에서나 나올법한 미모를 가졌습니다. 누구라도 당신에게 호의를 "
+"가지지 않고는 못 배길겁니다."
+msgstr ""
+"You possess a beauty straight out of a fairy tale. No one can help but feel "
+"favorably toward you."
+
+#: .\mutations.json
+msgid "말의 민첩성"
+msgstr "Equine Agility"
+
+#. ~ Description for 말의 민첩성
+#: .\mutations.json
+msgid "당신은 달리기 위해 존재합니다. 민첩성 +5"
+msgstr "You exist to run. Dexterity +5"
+
+#: .\mutations.json
+msgid "골렘의 둔함"
+msgstr "Golem's Steadfastness"
+
+#. ~ Description for 골렘의 둔함
+#: .\mutations.json
+msgid ""
+"몸이 이상하리만치 둔해진 느낌입니다. 그대신 힘이 강해진 느낌도 함께 듭니다. "
+"체력 +2, 민첩성 -2"
+msgstr ""
+"Your body feels unnaturally sluggish, but also much stronger. Strength +2, "
+"Dexterity -2"
+
+#: .\mutations.json
+msgid "여우의 교활함"
+msgstr "Vulpine Cunning"
+
+#. ~ Description for 여우의 교활함
+#: .\mutations.json
+msgid "어째서인지 머리가 매우 좋아진 느낌입니다. 지능 +5"
+msgstr "For some reason, you feel much smarter. Intelligence +5"
+
+#: .\mutations.json
+msgid "Reptilian Healing"
+msgstr ""
+
+#. ~ Name for scenario 'Experiment' for a male character
+#: .\scenarios.json
+msgctxt "scenario_male"
+msgid "Experiment"
+msgstr ""
+
+#. ~ Name for scenario 'Experiment' for a female character
+#: .\scenarios.json
+msgctxt "scenario_female"
+msgid "Experiment"
+msgstr ""
+
+#. ~ Name for scenario 'Challenge - Lab Patient' for a male character
+#: .\scenarios.json
+msgctxt "scenario_male"
+msgid "Challenge - Lab Patient"
+msgstr ""
+
+#. ~ Name for scenario 'Challenge - Lab Patient' for a female character
+#: .\scenarios.json
+msgctxt "scenario_female"
+msgid "Challenge - Lab Patient"
+msgstr ""
+
+#: .\vehicle_parts.json
+msgid "중형 냉장고"
+msgid_plural "중형 냉장고s"
+msgstr[0] "medium fridge"
+msgstr[1] "medium fridges"
+
+#. ~ Description for 중형 냉장고
+#: .\vehicle_parts.json
+msgid "소형 냉장고를 이어붙여 더 많은 내용물을 담을수 있는 냉장고."
+msgstr ""
+"A combined refrigerator made by splicing mini-fridges together, providing "
+"extra storage space."
+
+#: .\vehicle_parts.json
+msgid "대형 냉장고"
+msgid_plural "대형 냉장고s"
+msgstr[0] "big fridge"
+msgstr[1] "big fridges"
+
+#. ~ Description for 대형 냉장고
+#: .\vehicle_parts.json
+msgid "기존 냉장고보다 매우 많은 내용물을 담을 수 있는 냉장고."
+msgstr ""
+"A high-capacity refrigerator that can hold significantly more items than a "
+"standard one."
+
+#: .\vehicle_parts.json
+msgid "차량용 책장"
+msgid_plural "차량용 책장s"
+msgstr[0] "mounted bookshelf"
+msgstr[1] "mounted bookshelves"
+
+#. ~ Description for 차량용 책장
+#: .\vehicle_parts.json
+msgid ""
+"여러가지 종류의 책을 꽂아두거나 다른 물건도 넣어둘 수 있는 큼지막한 책장."
+msgstr ""
+"A spacious bookshelf capable of storing various books as well as other "
+"miscellaneous items."
+
+#: .\vehicle_parts.json
+msgid "중형냉동고"
+msgid_plural "중형냉동고s"
+msgstr[0] "medium freezer"
+msgstr[1] "medium freezers"
+
+#. ~ Description for 중형냉동고
+#: .\vehicle_parts.json
+msgid "기존보다 더 많은 내용물을 담을수 있는 냉동고."
+msgstr ""
+"An expanded freezer with increased storage capacity compared to standard "
+"models."
+
+#: .\vehicle_parts.json
+msgid "책장"
+msgstr "bookshelf"
+
+#: .\appearance\block_appearance.json
+msgid "Facial hair: none"
+msgstr ""
+
+#. ~ Description for Facial hair: none
+#: .\appearance\block_appearance.json
+msgid ""
+"You have no hair on your face, it is shaven or simply untouched by the "
+"presence of hair."
+msgstr ""
+
+#: .\appearance\block_appearance.json
+msgid "Facial hair: goatee"
+msgstr ""
+
+#. ~ Description for Facial hair: goatee
+#: .\appearance\block_appearance.json
+msgid "You have a short beard at the tip of your chin."
+msgstr ""
+
+#: .\appearance\block_appearance.json
+msgid "Facial hair: circle beard"
+msgstr ""
+
+#. ~ Description for Facial hair: circle beard
+#: .\appearance\block_appearance.json
+msgid ""
+"You have a moustache and a short beard, that both form a circle around your "
+"lips."
+msgstr ""
+
+#: .\appearance\block_appearance.json
+msgid "Facial hair: royale beard"
+msgstr ""
+
+#. ~ Description for Facial hair: royale beard
+#: .\appearance\block_appearance.json
+msgid "You have a moustache and a short beard forming a patch under your lips."
+msgstr ""
+
+#: .\appearance\block_appearance.json
+msgid "Facial hair: anchor beard"
+msgstr ""
+
+#. ~ Description for Facial hair: anchor beard
+#: .\appearance\block_appearance.json
+msgid ""
+"You have a moustache and a beard starting with a strip going down from the "
+"bottom lip, then tracing the jaw lines. It looks a bit like an anchor, thus "
+"the name."
+msgstr ""
+
+#: .\appearance\block_appearance.json
+msgid "Facial hair: short boxed beard"
+msgstr ""
+
+#. ~ Description for Facial hair: short boxed beard
+#: .\appearance\block_appearance.json
+msgid ""
+"You have a moustache and a short beard with trimmed sides. Thin patches "
+"connect them both, forming a 'box' around the lips, thus the name."
+msgstr ""
+
+#: .\appearance\block_appearance.json
+msgid "Facial hair: chevron moustache"
+msgstr ""
+
+#. ~ Description for Facial hair: chevron moustache
+#: .\appearance\block_appearance.json
+msgid "You have a moustache that covers your entire top lip."
+msgstr ""
+
+#: .\appearance\block_appearance.json
+msgid "Facial hair: 3-day stubble"
+msgstr ""
+
+#. ~ Description for Facial hair: 3-day stubble
+#: .\appearance\block_appearance.json
+msgid "You have a short trimmed moustache and beard imitating a 3-day stubble."
+msgstr ""
+
+#: .\appearance\block_appearance.json
+msgid "Facial hair: horseshoe"
+msgstr ""
+
+#. ~ Description for Facial hair: horseshoe
+#: .\appearance\block_appearance.json
+msgid ""
+"You have a moustache with patches going down the chin from both ends, thus "
+"the name."
+msgstr ""
+
+#: .\appearance\block_appearance.json
+msgid "Facial hair: original moustache"
+msgstr ""
+
+#. ~ Description for Facial hair: original moustache
+#: .\appearance\block_appearance.json
+msgid ""
+"You have a moustache with shortened ends, that covers only the skin above "
+"your upper lip."
+msgstr ""
+
+#: .\appearance\block_appearance.json
+msgid "Facial hair: mutton chops beard"
+msgstr ""
+
+#. ~ Description for Facial hair: mutton chops beard
+#: .\appearance\block_appearance.json
+msgid ""
+"You have long sideburns that connect to your moustache, with the tip of the "
+"chin shaven clean."
+msgstr ""
+
+#: .\appearance\block_appearance.json
+msgid "Facial hair: gunslinger beard"
+msgstr ""
+
+#. ~ Description for Facial hair: gunslinger beard
+#: .\appearance\block_appearance.json
+msgid "You have a horseshoe moustache and disconnected sideburns."
+msgstr ""
+
+#: .\appearance\block_appearance.json
+msgid "Facial hair: chin strip"
+msgstr ""
+
+#. ~ Description for Facial hair: chin strip
+#: .\appearance\block_appearance.json
+msgid ""
+"You have a short beard in a form of a vertical patch under your bottom lip."
+msgstr ""
+
+#: .\appearance\block_appearance.json
+msgid "Facial hair: chin curtain"
+msgstr ""
+
+#. ~ Description for Facial hair: chin curtain
+#: .\appearance\block_appearance.json
+msgid ""
+"You have a full beard without a moustache, restricted to the chin, sometimes "
+"called a 'lion's mane'. Much like Abraham Lincoln's beard."
+msgstr ""
+
+#: .\appearance\block_appearance.json
+msgid "Facial hair: chin strap"
+msgstr ""
+
+#. ~ Description for Facial hair: chin strap
+#: .\appearance\block_appearance.json
+msgid ""
+"You have beard along the jaw lines, circling tha chin, and no moustache."
+msgstr ""
+
+#: .\appearance\block_appearance.json
+msgid "Facial hair: beard"
+msgstr ""
+
+#. ~ Description for Facial hair: beard
+#: .\appearance\block_appearance.json
+msgid ""
+"You have a moustache and a long beard, both formed by allowing free growth "
+"of hair, with no particular styling."
+msgstr ""
+
+#: .\appearance\block_appearance.json
+msgid "Facial hair: handlebar moustache"
+msgstr ""
+
+#. ~ Description for Facial hair: handlebar moustache
+#: .\appearance\block_appearance.json
+msgid "You have a moustache with long flared out ends."
+msgstr ""
+
+#: .\appearance\block_appearance.json
+msgid "Facial hair: neckbeard"
+msgstr ""
+
+#. ~ Description for Facial hair: neckbeard
+#: .\appearance\block_appearance.json
+msgid ""
+"You have a beard formed from hair grown on neck below the chin line. No "
+"moustache included."
+msgstr ""
+
+#: .\appearance\block_appearance.json
+msgid "Facial hair: pencil moustache"
+msgstr ""
+
+#. ~ Description for Facial hair: pencil moustache
+#: .\appearance\block_appearance.json
+msgid "You have a very thin moustache just above the line of the upper lip."
+msgstr ""
+
+#: .\appearance\block_appearance.json
+msgid "Facial hair: shenandoah"
+msgstr ""
+
+#. ~ Description for Facial hair: shenandoah
+#: .\appearance\block_appearance.json
+msgid ""
+"Long full beard with no moustache, popular among Amish community, often with "
+"two pointed ends."
+msgstr ""
+
+#: .\appearance\block_appearance.json
+msgid "Facial hair: sideburns"
+msgstr ""
+
+#. ~ Description for Facial hair: sideburns
+#: .\appearance\block_appearance.json
+msgid ""
+"You have patches of hair in front of your ears, that normaly would connect "
+"your hair with the beard, but they are here by themselves."
+msgstr ""
+
+#: .\appearance\block_appearance.json
+msgid "Facial hair: soul patch"
+msgstr ""
+
+#. ~ Description for Facial hair: soul patch
+#: .\appearance\block_appearance.json
+msgid ""
+"You have a little bit of hair in the dip under your lower lip, and no other "
+"facial hair whatsoever."
+msgstr ""
+
+#: .\appearance\block_appearance.json
+msgid "Facial hair: toothbrush moustache"
+msgstr ""
+
+#. ~ Description for Facial hair: toothbrush moustache
+#: .\appearance\block_appearance.json
+msgid ""
+"Charlie Chaplin used to have this short patch of hair just under the nose, "
+"but then that other guy used it as a characteristic, and it became "
+"unwelcomed."
+msgstr ""
+
+#: .\appearance\block_appearance.json
+msgid "Facial hair: Van Dyke"
+msgstr ""
+
+#. ~ Description for Facial hair: Van Dyke
+#: .\appearance\block_appearance.json
+msgid "You have handlebar moustache with a chin strip or a small goatee."
+msgstr ""
+
+#: .\appearance\block_appearance.json
+msgid "Facial hair: walrus"
+msgstr ""
+
+#. ~ Description for Facial hair: walrus
+#: .\appearance\block_appearance.json
+msgid ""
+"You have long thick moustache, overshadowing you lips, that somewhat "
+"resembles facial hair of a walrus."
+msgstr ""
+
+#: .\appearance\block_appearance.json
+msgid "Facial hair: The Zappa"
+msgstr ""
+
+#. ~ Description for Facial hair: The Zappa
+#: .\appearance\block_appearance.json
+msgid ""
+"You have a wide soul patch and a full moustache that extends a bit downwards "
+"at the corners of your lips."
+msgstr ""
+
+#: .\appearance\block_appearance.json
+msgid "Hair: none"
+msgstr ""
+
+#. ~ Description for Hair: none
+#: .\appearance\block_appearance.json
+msgid "You are bald."
+msgstr ""
+
+#: .\appearance\customization_appearance_eye.json
+msgid "Eye tone: blue"
+msgstr ""
+
+#. ~ Description for Eye tone: blue
+#: .\appearance\customization_appearance_eye.json
+msgid "You have a blue eye tone."
+msgstr ""
+
+#: .\appearance\customization_appearance_eye.json
+msgid "Eye tone: gray"
+msgstr ""
+
+#. ~ Description for Eye tone: gray
+#: .\appearance\customization_appearance_eye.json
+msgid "You have a gray eye tone."
+msgstr ""
+
+#: .\appearance\customization_appearance_eye.json
+msgid "Eye tone: brown"
+msgstr ""
+
+#. ~ Description for Eye tone: brown
+#: .\appearance\customization_appearance_eye.json
+msgid "You have a Brown eye tone."
+msgstr ""
+
+#: .\appearance\customization_appearance_eye.json
+msgid "Eye tone: green"
+msgstr ""
+
+#. ~ Description for Eye tone: green
+#: .\appearance\customization_appearance_eye.json
+msgid "You have a green eye tone."
+msgstr ""
+
+#: .\appearance\customization_appearance_eye.json
+msgid "Eye tone: red"
+msgstr ""
+
+#. ~ Description for Eye tone: red
+#: .\appearance\customization_appearance_eye.json
+msgid "You have a red eye tone."
+msgstr ""
+
+#: .\appearance\customization_appearance_eye.json
+msgid "Eye tone: yellow"
+msgstr ""
+
+#. ~ Description for Eye tone: yellow
+#: .\appearance\customization_appearance_eye.json
+msgid "You have a yellow eye tone."
+msgstr ""
+
+#: .\appearance\customization_appearance_eye.json
+msgid "Eye color: pink"
+msgstr ""
+
+#. ~ Description for {'str': 'Eye color: pink'}
+#: .\appearance\customization_appearance_eye.json
+msgid "You have oddly pink eyes."
+msgstr ""
+
+#: .\appearance\customization_appearance_eye.json
+msgid "Eye color: white"
+msgstr ""
+
+#. ~ Description for {'str': 'Eye color: white'}
+#: .\appearance\customization_appearance_eye.json
+msgid "You have no visible irises."
+msgstr ""
+
+#: .\appearance\customization_appearance_eye.json
+msgid "Eye color: black"
+msgstr ""
+
+#. ~ Description for {'str': 'Eye color: black'}
+#: .\appearance\customization_appearance_eye.json
+msgid "Your eyes are disconcertingly pitch black."
+msgstr ""
+
+#: .\appearance\customization_appearance_hair_color.json
+msgid "Hair color: violet"
+msgstr ""
+
+#. ~ Description for Hair color: violet
+#: .\appearance\customization_appearance_hair_color.json
+msgid "You have violet hair."
+msgstr ""
+
+#: .\appearance\customization_appearance_hair_color.json
+msgid "Hair color: green"
+msgstr ""
+
+#. ~ Description for Hair color: green
+#: .\appearance\customization_appearance_hair_color.json
+msgid "Screw the rules, you have green hair!"
+msgstr ""
+
+#: .\appearance\customization_appearance_hair_color.json
+msgid "Hair color: blue"
+msgstr ""
+
+#. ~ Description for Hair color: blue
+#: .\appearance\customization_appearance_hair_color.json
+msgid "You have blue hair."
+msgstr ""
+
+#: .\appearance\customization_appearance_hair_color.json
+msgid "Hair color: pink"
+msgstr ""
+
+#. ~ Description for Hair color: pink
+#: .\appearance\customization_appearance_hair_color.json
+msgid "You have pink hair."
+msgstr ""
+
+#: .\appearance\customization_appearance_hair_color.json
+msgid "Hair color: orange"
+msgstr ""
+
+#. ~ Description for Hair color: orange
+#: .\appearance\customization_appearance_hair_color.json
+msgid "You have orange hair."
+msgstr ""
+
+#: .\appearance\customization_appearance_hair_color.json
+msgid "Hair sub color: black"
+msgstr ""
+
+#. ~ Description for {'str': 'Hair sub color: black'}
+#: .\appearance\customization_appearance_hair_color.json
+msgid "You have black sub hair."
+msgstr ""
+
+#: .\appearance\customization_appearance_hair_color.json
+msgid "Hair sub color: brown"
+msgstr ""
+
+#. ~ Description for {'str': 'Hair sub color: brown'}
+#: .\appearance\customization_appearance_hair_color.json
+msgid "You have brown sub hair."
+msgstr ""
+
+#: .\appearance\customization_appearance_hair_color.json
+msgid "Hair sub color: blond"
+msgstr ""
+
+#. ~ Description for {'str': 'Hair sub color: blond'}
+#: .\appearance\customization_appearance_hair_color.json
+msgid "You have blond sub hair."
+msgstr ""
+
+#: .\appearance\customization_appearance_hair_color.json
+msgid "Hair sub color: red"
+msgstr ""
+
+#. ~ Description for {'str': 'Hair sub color: red'}
+#: .\appearance\customization_appearance_hair_color.json
+msgid "You have red sub hair."
+msgstr ""
+
+#: .\appearance\customization_appearance_hair_color.json
+msgid "Hair sub color: gray"
+msgstr ""
+
+#. ~ Description for {'str': 'Hair sub color: gray'}
+#: .\appearance\customization_appearance_hair_color.json
+msgid "You have gray sub hair."
+msgstr ""
+
+#: .\appearance\customization_appearance_hair_color.json
+msgid "Hair sub color: white"
+msgstr ""
+
+#. ~ Description for {'str': 'Hair sub color: white'}
+#: .\appearance\customization_appearance_hair_color.json
+msgid "You have white sub hair."
+msgstr ""
+
+#: .\appearance\customization_appearance_hair_color.json
+msgid "Hair sub color: violet"
+msgstr ""
+
+#. ~ Description for {'str': 'Hair sub color: violet'}
+#: .\appearance\customization_appearance_hair_color.json
+msgid "You have violet sub hair."
+msgstr ""
+
+#: .\appearance\customization_appearance_hair_color.json
+msgid "Hair sub color: green"
+msgstr ""
+
+#. ~ Description for {'str': 'Hair sub color: green'}
+#: .\appearance\customization_appearance_hair_color.json
+msgid "You have green sub hair."
+msgstr ""
+
+#: .\appearance\customization_appearance_hair_color.json
+msgid "Hair sub color: blue"
+msgstr ""
+
+#. ~ Description for {'str': 'Hair sub color: blue'}
+#: .\appearance\customization_appearance_hair_color.json
+msgid "You have blue sub hair."
+msgstr ""
+
+#: .\appearance\customization_appearance_hair_color.json
+msgid "Hair sub color: pink"
+msgstr ""
+
+#. ~ Description for {'str': 'Hair sub color: pink'}
+#: .\appearance\customization_appearance_hair_color.json
+msgid "You have pink sub hair."
+msgstr ""
+
+#: .\appearance\customization_appearance_hair_color.json
+msgid "Hair sub color: orange"
+msgstr ""
+
+#. ~ Description for {'str': 'Hair sub color: orange'}
+#: .\appearance\customization_appearance_hair_color.json
+msgid "You have orange sub hair."
+msgstr ""
+
+#: .\appearance\customization_appearance_hair_style.json
+msgid "Hair style: type9"
+msgstr ""
+
+#. ~ Description for Hair style: type9
+#: .\appearance\customization_appearance_hair_style.json
+msgid "Type9 hair"
+msgstr ""
+
+#: .\appearance\customization_appearance_hair_style.json
+msgid "Hair style: other"
+msgstr ""
+
+#. ~ Description for Hair style: other
+#: .\appearance\customization_appearance_hair_style.json
+msgid "Other hair"
+msgstr ""
+
+#: .\appearance\customization_appearance_hair_style.json
+msgid "Sub Hair: 1"
+msgstr ""
+
+#. ~ Description for Sub Hair: 1
+#: .\appearance\customization_appearance_hair_style.json
+msgid "Sub hair 1"
+msgstr ""
+
+#: .\appearance\customization_appearance_hair_style.json
+msgid "Sub Hair: 2"
+msgstr ""
+
+#. ~ Description for Sub Hair: 2
+#: .\appearance\customization_appearance_hair_style.json
+msgid "Sub hair 2"
+msgstr ""
+
+#: .\appearance\customization_appearance_hair_style.json
+msgid "Sub Hair: 3"
+msgstr ""
+
+#. ~ Description for Sub Hair: 3
+#: .\appearance\customization_appearance_hair_style.json
+msgid "Sub hair 3"
+msgstr ""
+
+#: .\appearance\customization_appearance_hair_style.json
+msgid "Sub Hair: 4"
+msgstr ""
+
+#. ~ Description for Sub Hair: 4
+#: .\appearance\customization_appearance_hair_style.json
+msgid "Sub hair 4"
+msgstr ""
+
+#: .\appearance\customization_appearance_hair_style.json
+msgid "Sub Hair: 5"
+msgstr ""
+
+#. ~ Description for Sub Hair: 5
+#: .\appearance\customization_appearance_hair_style.json
+msgid "Sub hair 5"
+msgstr ""
+
+#: .\appearance\customization_appearance_hair_style.json
+msgid "Sub Hair: 6"
+msgstr ""
+
+#. ~ Description for Sub Hair: 6
+#: .\appearance\customization_appearance_hair_style.json
+msgid "Sub hair 6"
+msgstr ""
+
+#: .\appearance\customization_appearance_hair_style.json
+msgid "Sub Hair: 7"
+msgstr ""
+
+#. ~ Description for Sub Hair: 7
+#: .\appearance\customization_appearance_hair_style.json
+msgid "Sub hair 7"
+msgstr ""
