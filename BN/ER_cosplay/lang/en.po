@@ -1,0 +1,246 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Unknown Mod\n"
+"POT-Creation-Date: 2026-02-24 23:33+0900\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.8\n"
+
+#: .\er_twins_hat.json
+msgid "데비의 모자"
+msgid_plural "데비의 모자s"
+msgstr[0] "Debi's hat"
+msgstr[1] "Debi's hats"
+
+#. ~ Description for {'str': '데비의 모자'}
+#: .\er_twins_hat.json
+msgid "데비의 검은 야구 모자. 보온에 약간 도움이 됩니다."
+msgstr ""
+"Debi's black baseball cap.  It provides a little bit "
+"of warmth.."
+
+#: .\er_twins_hat.json
+msgid "마를렌의 모자"
+msgid_plural "마를렌의 모자s"
+msgstr[0] "Marlene's hat"
+msgstr[1] "Marlene's hats"
+
+#. ~ Description for {'str': '마를렌의 모자'}
+#: .\er_twins_hat.json
+msgid "마를렌의 흰 야구 모자. 보온에 약간 도움이 됩니다."
+msgstr ""
+"Marlene's white baseball cap.  It provides a little "
+"bit of warmth."
+
+#: .\hair_mutation.json
+msgid "머리: 비앙카"
+msgstr "Hair style: Bianca"
+
+#. ~ Description for 머리: 비앙카
+#: .\hair_mutation.json
+msgid ""
+"진조이니라! 좀비가 득실거리는 세상에서 이런 고딕 흡혈"
+"귀 같은 청록색 머리를 유지하려면 샴푸와 린스가 꽤 많이 "
+"필요할 것 같습니다."
+msgstr ""
+"Witness the true strength of the vampire queen!  In a "
+"world overrun by zombies, maintaining this gothic "
+"vampire-like teal hair must require quite a lot of "
+"shampoo and conditioner."
+
+#: .\hair_mutation.json
+msgid "머리: 카티야"
+msgstr "Hair style: Katja"
+
+#. ~ Description for 머리: 카티야
+#: .\hair_mutation.json
+msgid ""
+"도시의 잔해와 완벽하게 동화되는 저격수의 회색빛의 샤기 "
+"헤어입니다."
+msgstr ""
+"The gray shaggy hair of the sniper blends perfectly "
+"with the city's ruins."
+
+#: .\hair_mutation.json
+msgid "머리: 아비게일"
+msgstr "Hair style: Abigail"
+
+#. ~ Description for 머리: 아비게일
+#: .\hair_mutation.json
+msgid ""
+"공간이동 능력자가 실수로 낫으로 자른듯한 해괴한 스타일"
+"의 머리입니다."
+msgstr ""
+"It's a bizarre hairstyle that looks like it was "
+"accidentally cut with a scythe by someone with "
+"teleportation abilities."
+
+#: .\hair_mutation.json
+msgid "머리: 띠아"
+msgstr "Hair style: Tia"
+
+#. ~ Description for 머리: 띠아
+#: .\hair_mutation.json
+msgid ""
+"어딘가 주눅이 들어 있는 천재 화가의 주황색 머리입니다. "
+"한 쪽 머리는 묶어서 연필을 꽂아두었습니다."
+msgstr ""
+"The orange hair of the genius painter with a shy side. "
+"One side is tied back with a pencil tucked in."
+
+#: .\hair_mutation.json
+msgid "머리: 셀린"
+msgstr "Hair style: Celine"
+
+#. ~ Description for 머리: 셀린
+#: .\hair_mutation.json
+msgid ""
+"폭발 외에는 관심이 없는 정비사의 하늘색 단발머리입니다."
+msgstr ""
+"The sky-blue bob haircut of mechanic who shows no "
+"interest in anything but explosions."
+
+#: .\hair_mutation.json
+msgid "머리: 리 다이린"
+msgstr "Hair style: Li Dailin"
+
+#. ~ Description for 머리: 리 다이린
+#: .\hair_mutation.json
+msgid ""
+"주정뱅이 무술가의 만두머리입니다. 어디선가 짙은 알코올 "
+"냄새가 나는 것 같지만, 기분 탓일 겁니다."
+msgstr ""
+"This is the double buns of a drunken martial artist.  "
+"You smell a strong odor of alcohol somewhere, but it "
+"must be an imagination."
+
+#: .\hair_mutation.json
+msgid "머리: 츠바메"
+msgstr "Hair style: Tsubame"
+
+#. ~ Description for 머리: 츠바메
+#: .\hair_mutation.json
+msgid ""
+"일륜회의 배신자 닌자의 상투를 튼 보라색 머리입니다."
+msgstr ""
+"It's the purple hair of the traitor ninja from "
+"Nichirin Company with a topknot."
+
+#: .\hair_mutation.json
+msgid "머리: 니키"
+msgstr "Hair style: Nicky"
+
+#. ~ Description for 머리: 니키
+#: .\hair_mutation.json
+msgid ""
+"초인적인 힘을 가진 스턴트 배우의 양갈래 금발머리입니다."
+msgstr ""
+"The split blonde hair of a stunt performer with "
+"superhuman strength."
+
+#: .\hair_mutation.json
+msgid "머리: 혜진"
+msgstr "Hair style: Hyejin"
+
+#. ~ Description for 머리: 혜진
+#: .\hair_mutation.json
+msgid ""
+"운명론적 사고관을 가진 여고생의 양갈래 보라색 머리입니"
+"다."
+msgstr ""
+"A high school girl with a fatalistic outlook sports "
+"purple hair in two braids."
+
+#: .\hair_mutation.json
+msgid "머리: 헤이즈"
+msgstr "Hair style: Haze"
+
+#. ~ Description for 머리: 헤이즈
+#: .\hair_mutation.json
+msgid ""
+"어디까지나 프로답게. 빈틈없는 무기상인의 회색머리입니"
+"다."
+msgstr ""
+"I got plenty of weapons for you to choose from.  It's "
+"the gray hair of arms dealer leaves no room for error."
+
+#: .\hair_mutation.json
+msgid "머리: 데비"
+msgstr "Hair style: Debi"
+
+#. ~ Description for 머리: 데비
+#: .\hair_mutation.json
+msgid ""
+"특별한 힘을 가진 쌍둥이 언니의 단발머리입니다. 원거리 "
+"무기를 싫어해야 할 것 같습니다."
+msgstr ""
+"This is the short haircut of the twin sister with "
+"special powers.  She probably dislikes ranged weapons."
+
+#: .\hair_mutation.json
+msgid "머리: 마를렌"
+msgstr "Hair style: Marlene"
+
+#. ~ Description for 머리: 마를렌
+#: .\hair_mutation.json
+msgid ""
+"특별한 힘을 가진 쌍둥이 동생의 단발머리입니다. 덤벙거리"
+"는 누군가를 챙겨줘야할 것 같습니다."
+msgstr ""
+"This is the short haircut of the twin sister with "
+"special powers.  It seems like I need to look out for "
+"someone who's a bit scatterbrained."
+
+#: .\hair_mutation.json
+msgid "머리: 샬럿"
+msgstr "Hair style: Charlotte"
+
+#. ~ Description for 머리: 샬럿
+#: .\hair_mutation.json
+msgid ""
+"상처를 치유하는 능력을 가진 순수한 소녀의 긴 분홍색 머"
+"리입니다."
+msgstr ""
+"It is the long pink hair of a girl with the ability to "
+"heal wounds."
+
+#: .\hair_mutation.json
+msgid "머리: 재키"
+msgstr "Hair style: Jackie"
+
+#. ~ Description for 머리: 재키
+#: .\hair_mutation.json
+msgid ""
+"숨바꼭질 시작이구나? 미치광이 전기톱 살인마의 덥수룩한 "
+"백금발 머리입니다."
+msgstr ""
+"Is it time for hide-and-seek?  It's the shaggy "
+"platinum blonde hair of the maniacal chainsaw killer."
+
+#: .\modinfo.json
+msgid ""
+"<color_i_white>아글라이아 뷰티 살롱: 루미아 섬 생존자 "
+"헤어팩</color>"
+msgstr ""
+"<color_i_white>Aglaia Beauty Salon: Eternal Return "
+"Hairpack</color>"
+
+#. ~ Description for <color_i_white>아글라이아 뷰티 살롱: 루미아 섬 생존자 헤어팩</color>
+#: .\modinfo.json
+msgid ""
+"루미아 섬의 생존자들로부터 영감을 받은 14종의 헤어스타"
+"일과 데비&마를렌의 모자를 추가합니다. 절망의 끝에 다다"
+"른 폰에게 모든 영광을."
+msgstr ""
+"Adds 14+ hairstyles inspired by the survivors of Lumia "
+"Island and hats from Debi & Marlene. (Crew cut: "
+"Hyunwoo/Sylvia, Long hair: Camilo/Eva, Middle hair: "
+"Yuki/Vanya)  Let there be glory to the pawns, who "
+"reached the end of despair."

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "hat_debi",
+    "copy-from": "hat_ball",
+    "type": "ARMOR",
+    "name": { "str": "데비의 모자" },
+    "description": "데비의 검은 야구 모자. 보온에 약간 도움이 됩니다.",
+    "flags": [ "HELMET_COMPAT" ]
+  },
+  {
+    "id": "hat_marlene",
+    "copy-from": "hat_ball",
+    "type": "ARMOR",
+    "name": { "str": "마를렌의 모자" },
+    "description": "마를렌의 흰 야구 모자. 보온에 약간 도움이 됩니다.",
+    "flags": [ "HELMET_COMPAT" ]
+  },
+  {
+    "result": "hat_debi",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_HEAD",
+    "skill_used": "tailor",
+    "difficulty": 2,
+    "time": "20 m",
+    "autolearn": true,
+    "using": [ [ "sewing_standard", 10 ] ],
+    "components": [ [ [ "rag", 4 ] ] ]
+  },
+  {
+    "result": "hat_marlene",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_HEAD",
+    "skill_used": "tailor",
+    "difficulty": 2,
+    "time": "20 m",
+    "autolearn": true,
+    "using": [ [ "sewing_standard", 10 ] ],
+    "components": [ [ [ "rag", 4 ] ] ]
+  }
+]
