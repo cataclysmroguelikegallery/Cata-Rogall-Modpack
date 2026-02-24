@@ -15,7 +15,7 @@
     "color": "light_gray",
     "covers": [ "torso", "arms", "legs" ],
     "coverage": 60,
-    "encumbrance": 50,
+    "encumbrance": 5,
     "warmth": 10,
     "material_thickness": 1,
     "environmental_protection": 1,
