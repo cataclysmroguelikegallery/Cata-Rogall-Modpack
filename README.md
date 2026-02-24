@@ -29,3 +29,34 @@
 1. 이 저장소 우측 위 초록색 `Code` 버튼을 누릅니다.
 2. 아래에 있는 `Download ZIP`을 누릅니다.
 3. 다운로드가 완료되면 압축을 풀고, 내부의 `BN` 또는 `DDA` 디렉터리에 있는 모드 폴더들을 카타클리즘의 `mods` 폴더에 넣습니다.
+
+## Credits & Acknowledgements (크레딧 및 감사 인사)
+
+이 모드는 다음 제작자들의 훌륭한 작업물이 없었다면 완성될 수 없었습니다.
+
+
+이 모드는 다음 제작자들의 훌륭한 작업물이 없었다면 완성될 수 없었습니다.
+This mod would not have been possible without the great work of the following creators.
+
+🧬 Targeted Mutation (표적 돌연변이)
+Original Author (원작자): Mutaman, StandingStorm
+Original Mod Link (원본 모드 링크): https://github.com/Zlorthishen/BrightNights-Structured-Kenan-Modpack
+Changes Made (변경 사항):
+Translated into Korean (한국어 번역 적용)
+Fixed bugs and resolved compatibility issues (오류 및 호환성 문제 해결)
+Merged into this mod and modpack (본 모드와 모드팩에 병합됨)
+
+🎨 Sprites and Artworks (도트와 아트워크)
+thhoney03: Drew the sprites for Project: Packrat's Type-Boy!
+Project: Packrat의 타입-보이의 도트를 그려주셨습니다!
+
+Coalcat: Drew the spinning wheel sprite for Wildstuff mod!
+Wildstuff 모드의 방적기 도트를 그려주셨습니다!
+
+⚙️ Maintainers (유지보수와 관리)
+NappingOcean, Scarf005: The administrator of this modpack provided tremendous assistance while serving in the military!
+ (본 모드팩의 관리자가 군 복무를 하는 동안 많이 도와주셨습니다!)
+
+
+원작자의 노고에 깊은 감사를 드립니다!
+Huge thanks to the original author for their amazing work!
