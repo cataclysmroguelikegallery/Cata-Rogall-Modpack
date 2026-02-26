@@ -6,6 +6,7 @@
 	"authors": [ "NakedJake" ],
 	"name": "<color_i_white>아글라이아 뷰티 살롱: 루미아 섬 생존자 헤어팩</color>",
 	"description": "루미아 섬의 생존자들로부터 영감을 받은 14종의 헤어스타일과 데비&마를렌의 모자를 추가합니다. 절망의 끝에 다다른 폰에게 모든 영광을.",
+	"version": "0.1.1",
 	"dependencies": [ "bn" ]
   }
 ]

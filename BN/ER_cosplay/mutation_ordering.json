@@ -1,0 +1,27 @@
+[
+  {
+    "type": "overlay_order",
+    "overlay_ordering": [
+      {
+        "id": [
+          "hair_bianca",
+          "hair_katja",
+          "hair_abigail",
+          "hair_tia",
+          "hair_celine",
+          "hair_celine",
+          "hair_dailin",
+          "hair_tsubame",
+          "hair_nicky",
+          "hair_hyejin",
+          "hair_haze",
+		  "hair_debi",
+		  "hair_marlene",
+		  "hair_charlotte",
+		  "hair_jackie"
+        ],
+        "order": 1600
+      }
+    ]
+  }
+]
