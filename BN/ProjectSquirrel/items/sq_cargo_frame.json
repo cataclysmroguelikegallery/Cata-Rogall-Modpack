@@ -161,10 +161,21 @@
     "coverage": 30,
     "rigid": false,
     "encumbrance": 3,
-    "max_encumbrance": 15,
+    "max_encumbrance": 12,
     "weight_capacity_modifier": 1.5,
     "warmth": 1,
     "material_thickness": 3,
+    "use_action": {
+      "type": "holster",
+      "holster_prompt": "Stow gear",
+      "holster_msg": "You stow your %s",
+      "min_volume": "250ml",
+      "max_volume": "2500ml",
+      "multi": 2,
+      "draw_cost": 120,
+      "flags": [ "SHEATH_KNIFE", "SHEATH_SWORD", "SHEATH_AXE", "MAG_COMPACT", "MAG_BULKY", "MAG_BELT", "SPEEDLOADER", "BELT_CLIP" ],
+      "skills": [ "pistol", "smg", "shotgun", "rifle", "launcher" ]
+    },
     "flags": [ "BELTED" ]
   },
   {
