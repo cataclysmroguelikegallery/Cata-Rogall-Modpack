@@ -32,7 +32,6 @@
       "GAS_PROOF",
       "CLIMATE_CONTROL",
       "USE_UPS",
-      "HELMET_COMPAT",
       "FLASH_PROTECTION"
     ],
     "qualities": [ [ "GLARE", 3 ] ]
@@ -72,6 +71,70 @@
     ]
   },
   {
+    "id": "sq_hanwha_head_standard",
+    "copy-from": "sq_modular_combat_armor_head",
+    "type": "TOOL_ARMOR",
+    "symbol": "[",
+    "color": "dark_gray",
+    "name": { "str": "H-01 그래니트 헬멧" },
+    "looks_like": "rm13_armor",
+    "price": 15000000,
+    "price_postapoc": 15000,
+    "material": [ "carbide", "ceramic" ],
+    "description": "한화 디펜스에서 대량 생산한 1.5세대 중표준 컴뱃 아머 헬멧. 자사의 2세대 고급형 모델 설계도에서 '불필요한 편의 및 연산 기능'을 극단적으로 덜어낸 원가 절감의 결정체입니다. 내부 공간을 배려하지 않은 설계 탓에 착용감이 끔찍하고 추가적인 FCS 칩셋을 달 확장성도 거의 없지만, 그 빈 공간을 무식하게 두꺼운 합금 장갑판으로 채워 넣었습니다. 총알이 빗발치는 전장에서는 이 멍청한 쇳덩어리만큼 확실한 생명 보험도 없었습니다.\n보너스: 행동속도 +5%, 힘 +1, 민첩 +1, 인지 +1",
+    "weight": "11500 g",
+    "volume": "4500 ml",
+    "ammo": "battery",
+    "power_draw": 1000000,
+    "coverage": 100,
+    "material_thickness": 8,
+    "resistance": { "bash": 42, "cut": 42, "bullet": 63, "heat": 18, "electric": 24, "acid": 24 },
+    "environmental_protection": 15,
+    "encumbrance": 60,
+    "warmth": 10,
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "PERCEPTION", "add": -1 },
+            { "value": "RANGED_DISPERSION", "multiply": -0.1 },
+            { "value": "RANGED_DAMAGE_BULLET", "multiply": 0.1 },
+            { "value": "RANGED_RANGE", "multiply": 0.1 },
+            { "value": "RANGED_RECOIL", "multiply": -0.1 },
+            { "value": "RANGED_AIM_SPEED", "multiply": 0.1 }
+          ]
+        }
+      ]
+    },
+    "artifact_data": { "effects_worn": [  ] },
+    "flags": [
+      "SUPER_FANCY",
+      "OVERSIZE",
+      "NONCONDUCTIVE",
+      "VARSIZE",
+      "WATCH",
+      "ALARMCLOCK",
+      "RAD_PROOF",
+      "STURDY",
+      "WATERPROOF",
+      "WATER_FRIENDLY",
+      "HYGROMETER",
+      "THERMOMETER",
+      "RAINPROOF",
+      "SWIM_GOGGLES",
+      "SUN_GLASSES",
+      "PARTIAL_DEAF",
+      "GAS_PROOF",
+      "CLIMATE_CONTROL",
+      "USE_UPS",
+      "FLASH_PROTECTION",
+	  "COMBAT_NPC_USE"
+    ],
+    "qualities": [ [ "GLARE", 3 ] ]
+  },
+  {
     "id": "sq_spartan_head_standard",
     "copy-from": "sq_modular_combat_armor_head",
     "type": "TOOL_ARMOR",
@@ -102,7 +165,13 @@
             { "value": "SPEED", "multiply": 0.05 },
             { "value": "STRENGTH", "add": 1 },
             { "value": "DEXTERITY", "add": 1 },
-            { "value": "PERCEPTION", "add": 1 }
+            { "value": "PERCEPTION", "add": 1 },
+            { "value": "RANGED_DISPERSION", "multiply": -0.1 },
+            { "value": "RANGED_DAMAGE_BULLET", "multiply": 0.1 },
+            { "value": "RANGED_RANGE", "multiply": 0.1 },
+            { "value": "RANGED_RECOIL", "multiply": -0.1 },
+            { "value": "RANGED_RELOAD_TIME", "multiply": -0.1 },
+            { "value": "RANGED_AIM_SPEED", "multiply": 0.1 }
           ]
         }
       ]
