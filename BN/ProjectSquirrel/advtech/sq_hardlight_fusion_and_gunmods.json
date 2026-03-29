@@ -74,7 +74,6 @@
     "damage": { "damage_type": "bullet", "amount": 30, "armor_penetration": 66 },
     "dispersion": 60,
     "recoil": 400,
-     
     "price_postapoc": 1800,
     "effects": [ "COOKOFF", "NEVER_MISFIRES" ]
   },
@@ -367,6 +366,25 @@
     "fun": -1
   },
   {
+    "id": "recipe_book_vertigon",
+    "type": "BOOK",
+    "name": { "str": "베르티곤 기밀 무기공학 매뉴얼", "str_pl": "베르티곤 기밀 무기공학 매뉴얼들" },
+    "description": "표지에 '비인가자 열람 엄금'이라는 붉은 경고 문구가 찍혀 있는 두꺼운 제본책입니다. 내부에는 일반적인 상식을 뛰어넘는 최첨단 특수 화기들의 조립 도면, 그리고 핵심 부품의 가공법이 빼곡하게 인쇄되어 있습니다. 제대로 된 공구와 재료만 있다면, 이 위험한 기술력의 결정체를 직접 만들어낼 수 있을 것입니다.",
+    "weight": "1850 g",
+    "volume": "500 ml",
+    "price": 250000,
+    "bashing": 4,
+    "material": [ "paper", "plastic" ],
+    "symbol": "?",
+    "color": "dark_gray",
+    "skill": "fabrication",
+    "required_level": 8,
+    "max_level": 10,
+    "intelligence": 13,
+    "time": "45 m",
+    "fun": -3
+  },
+  {
     "id": "8mm_hvp",
     "copy-from": "8mm_caseless",
     "type": "AMMO",
@@ -408,7 +426,6 @@
     "description": "열화 우라늄 탄두를 사용한 5.56x45mm 고속 철갑탄으로, 소총탄이 가지는 잠재력을 완전히 끌어냈습니다. 기존의 5.56mm 보다 더욱 향상된 피해량과 관통력을 가졌습니다.",
     "price": 1290,
     "price_postapoc": 1500,
-     
     "relative": { "damage": { "damage_type": "bullet", "amount": 5, "armor_penetration": 34 }, "dispersion": 40 },
     "proportional": { "dispersion": 1.5, "recoil": 1.5 },
     "extend": { "effects": [ "NEVER_MISFIRES" ] }
@@ -444,7 +461,6 @@
     "description": "열화 우라늄 탄두를 사용한 7.62x51mm 고속 철갑탄으로, 소총탄이 가지는 잠재력을 완전히 끌어냈습니다. 기존의 7.62mm 보다 더욱 향상된 파괴력과 관통력을 가졌습니다.",
     "price": 1290,
     "price_postapoc": 1500,
-     
     "relative": { "damage": { "damage_type": "bullet", "amount": 5, "armor_penetration": 34 }, "dispersion": 40 },
     "proportional": { "dispersion": 1.5, "recoil": 1.5 },
     "extend": { "effects": [ "NEVER_MISFIRES" ] }
@@ -1509,15 +1525,11 @@
     "symbol": ":",
     "color": "light_green",
     "location": "mechanism",
-    "mod_target_category": [
-      [ "PISTOLS" ],
-      [ "REVOLVERS" ],
-      [ "SUBMACHINE_GUNS" ]
-    ],
+    "mod_target_category": [ [ "PISTOLS" ], [ "REVOLVERS" ], [ "SUBMACHINE_GUNS" ] ],
     "install_time": "45 m",
     "min_skills": [ [ "weapon", 5 ] ],
     "dispersion_modifier": -250,
-	"flags": [ "INSTALL_DIFFICULT" ]
+    "flags": [ "INSTALL_DIFFICULT" ]
   },
   {
     "id": "sq_smartgun_module",
@@ -1550,7 +1562,7 @@
     "install_time": "45 m",
     "min_skills": [ [ "weapon", 5 ] ],
     "dispersion_modifier": -120,
-	"flags": [ "INSTALL_DIFFICULT" ]
+    "flags": [ "INSTALL_DIFFICULT" ]
   },
   {
     "id": "sq_quick_reloader",
@@ -1580,8 +1592,8 @@
       [ "ROCKET_LAUNCHERS" ],
       [ "FLAMETHROWERS" ]
     ],
-	"reload_modifier": -50,
-	"flags": [ "INSTALL_DIFFICULT" ]
+    "reload_modifier": -50,
+    "flags": [ "INSTALL_DIFFICULT" ]
   },
   {
     "id": "sq_epa",
@@ -1610,10 +1622,10 @@
     ],
     "damage_modifier": { "damage_type": "bullet", "amount": 10 },
     "range_modifier": 5,
-	"dispersion_modifier": 15,
-	"ups_charges_modifier": 10,
-	"loudness_modifier": 40,
-	"flags": [ "INSTALL_DIFFICULT" ]
+    "dispersion_modifier": 15,
+    "ups_charges_modifier": 10,
+    "loudness_modifier": 40,
+    "flags": [ "INSTALL_DIFFICULT" ]
   },
   {
     "id": "sq_super_epa",
@@ -1643,11 +1655,11 @@
     ],
     "damage_modifier": { "damage_type": "bullet", "amount": 25 },
     "range_modifier": 10,
-	"dispersion_modifier": 15,
-	"ups_charges_modifier": 30,
-	"loudness_modifier": 180,
+    "dispersion_modifier": 15,
+    "ups_charges_modifier": 30,
+    "loudness_modifier": 180,
     "handling_modifier": -12,
-	"flags": [ "INSTALL_DIFFICULT" ]
+    "flags": [ "INSTALL_DIFFICULT" ]
   },
   {
     "type": "recipe",
@@ -1656,20 +1668,11 @@
     "subcategory": "CSC_첨단기술_MODS",
     "skill_used": "fabrication",
     "skills_required": [ [ "mechanics", 8 ], [ "electronics", 9 ], [ "computer", 4 ] ],
-    "using": [
-      [ "soldering_standard", 5 ],
-      [ "welding_standard", 10 ],
-      [ "surface_heat", 10 ],
-      [ "steel_standard", 2 ]
-    ],
+    "using": [ [ "soldering_standard", 5 ], [ "welding_standard", 10 ], [ "surface_heat", 10 ], [ "steel_standard", 2 ] ],
     "difficulty": 9,
     "time": "6 h",
     "autolearn": true,
-    "qualities": [
-      { "id": "SAW_M", "level": 1 },
-      { "id": "SAW_M_FINE", "level": 1 },
-      { "id": "SCREW_FINE", "level": 1 }
-    ],
+    "qualities": [ { "id": "SAW_M", "level": 1 }, { "id": "SAW_M_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
     "components": [
       [ [ "sq_epa", 1 ] ],
       [ [ "alloy_sheet", 1 ] ],
@@ -1722,12 +1725,12 @@
     "location": "muzzle",
     "mod_target_category": [ [ "PISTOLS" ], [ "SUBMACHINE_GUNS" ], [ "RIFLES" ], [ "MACHINE_GUNS" ], [ "GATLING_GUNS" ] ],
     "install_time": "5 m",
-	"dispersion_modifier": -6,
+    "dispersion_modifier": -6,
     "loudness_modifier": -70
   },
   {
     "id": "sq_rifling_barrel",
-	"looks_like": "suppressor",
+    "looks_like": "suppressor",
     "type": "GUNMOD",
     "name": { "str": "총열 강선" },
     "description": "총신 안쪽에 길쭉한 나선형 홈이 새겨진 총신으로, 총알이 이동하면서 나선형 홈을 따라 회전하게 됩니다. 회전으로 인한 각운동량으로 인해 총알은 주변 기류와 바람의 영향을 덜 받는 안정적인 궤적을 그리게 됩니다.",
@@ -1741,12 +1744,12 @@
     "location": "barrel",
     "mod_target_category": [ [ "PISTOLS" ], [ "SUBMACHINE_GUNS" ], [ "RIFLES" ], [ "SHOTGUNS" ], [ "MACHINE_GUNS" ], [ "GATLING_GUNS" ] ],
     "damage_modifier": { "damage_type": "bullet", "amount": 4 },
-	"range_modifier": 5,
+    "range_modifier": 5,
     "dispersion_modifier": -10
   },
   {
     "id": "sq_choke",
-	"looks_like": "suppressor_compact",
+    "looks_like": "suppressor_compact",
     "type": "GUNMOD",
     "name": { "str": "산탄 초크" },
     "description": "산탄총의 총구 끄트머리 내부를 죄어, 총구 직경을 조여주는 총기 부착물입니다. 초크를 얼마나 조여주느냐에 따라서 산탄의 산포도가 달라지므로, 사냥꾼들이 많이 신경쓰는 부분입니다.",
@@ -1763,12 +1766,12 @@
     "mod_target_category": [ [ "SHOTGUNS" ] ],
     "install_time": "5 m",
     "damage_modifier": { "damage_type": "bullet", "amount": 8 },
-	"range_modifier": 4,
+    "range_modifier": 4,
     "dispersion_modifier": -100
   },
   {
     "id": "sq_smart_choke",
-	"looks_like": "suppressor_compact",
+    "looks_like": "suppressor_compact",
     "type": "GUNMOD",
     "name": { "str": "스마트 초크" },
     "description": "스마트 산탄초크는 현대 총기 기술의 혁신적인 제품으로, 전자 제어 시스템을 활용하여 다양한 사격 상황에서 자동으로 총열을 조절합니다. 적응적인 조절과 데이터 분석을 통해 총구의 최적의 성능을 유지하여 탄도를 개선하고 집탄률을 비약적으로 늘립니다.",
@@ -1785,9 +1788,9 @@
     "mod_target_category": [ [ "SHOTGUNS" ] ],
     "install_time": "10 m",
     "damage_modifier": { "damage_type": "bullet", "amount": 12 },
-	"range_modifier": 10,
+    "range_modifier": 10,
     "dispersion_modifier": -200,
-	"handling_modifier": 8
+    "handling_modifier": 8
   },
   {
     "id": "sq_neuro_trigger",
@@ -1818,12 +1821,12 @@
       [ "FLAMETHROWERS" ]
     ],
     "install_time": "30 m",
-	"handling_modifier": 8,
+    "handling_modifier": 8,
     "dispersion_modifier": -8
   },
   {
     "id": "sq_turbo_charger",
-	"looks_like": "motor_super",
+    "looks_like": "motor_super",
     "type": "GUNMOD",
     "name": { "str": "터보 차저" },
     "description": "가우스 총기의 출력을 향상시켜 연사력을 증가시키는 고출력 축전지입니다. 반대 급부로 총기의 분산도와 반동을 상당히 높여서 조작에 어려움을 초래합니다.",
@@ -1840,7 +1843,7 @@
     "mod_targets": [ "sq_fusion_rifle", "sq_fusion_shotgun" ],
     "install_time": "5 m",
     "dispersion_modifier": 20,
-	"handling_modifier": -10,
+    "handling_modifier": -10,
     "mode_modifier": [ [ "AUTO", "auto", 3 ] ]
   },
   {
@@ -1871,8 +1874,8 @@
       [ "ROCKET_LAUNCHERS" ]
     ],
     "mode_modifier": [ [ "AUTO", "auto", 1 ] ],
-	"reload_modifier": -100,
-	"flags": [ "INSTALL_DIFFICULT", "RELOAD_AND_SHOOT" ]
+    "reload_modifier": -100,
+    "flags": [ "INSTALL_DIFFICULT", "RELOAD_AND_SHOOT" ]
   },
   {
     "id": "sq_chargedshot",
@@ -1897,7 +1900,7 @@
       "skill": "rifle",
       "dispersion": 0,
       "durability": 10,
-  	  "ups_charges": 160,
+      "ups_charges": 160,
       "ranged_damage": { "damage_type": "heat", "amount": 100, "armor_penetration": 100 },
       "ammo_effects": [ "LASER", "SHOT", "WIDE", "JET" ]
     },
@@ -1922,6 +1925,6 @@
     "ammo_effects": [ "HARDLIGHT_SHRED" ],
     "flags": [ "NEVER_JAMS" ],
     "damage_modifier": { "damage_type": "heat", "amount": -16 },
-  	"ups_charges_multiplier": 1.2
+    "ups_charges_multiplier": 1.2
   }
 ]

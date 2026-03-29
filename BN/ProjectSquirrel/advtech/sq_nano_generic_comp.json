@@ -55,6 +55,26 @@
     "flags": [ "NO_SALVAGE" ]
   },
   {
+    "id": "vertigon",
+    "type": "AMMO",
+    "category": "artifacts",
+    "name": { "str": "베르티곤", "str_pl": "베르티곤" },
+    "description": "대지의 중력을 거부하고 끊임없이 허공으로 '떨어지려' 하는 기괴한 성질을 지니며, 깊고 불안정한 자수정빛 보라색을 띄는 미지의 입자 덩어리입니다. 가만히 쥐고만 있어도 손바닥이 위로 당겨지는 듯한 불쾌한 역장과 함께, 신경을 긁는 미세한 진동이 뼛속까지 스며듭니다. 거대 기업들이 오버테크놀로지의 심장으로 삼는 이 창백한 입자 덩어리는, 그저 차폐막 없이 곁에 두는 것만으로도 인간의 반고리관을 찢어놓을 듯한 우주적인 멀미를 유발합니다. 어쩌면 이 입자들은 스스로의 의지를 가지고 있는 것 같습니다.",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "price": 20000,
+    "price_postapoc": 50000,
+    "material": "powder",
+    "symbol": ",",
+    "looks_like": "fd_fatigue",
+    "color": "i_magenta",
+    "count": 1,
+    "stack_size": 1,
+	"ammo_type": "components",
+    "artifact_data": { "effects_carried": [ "AEP_SPLIT", "AEP_SCHIZO", "AEP_ATTENTION" ] },
+    "flags": [ "NO_SALVAGE" ]
+  },
+  {
     "id": "bundle_carbide",
     "type": "GENERIC",
     "category": "spare_parts",

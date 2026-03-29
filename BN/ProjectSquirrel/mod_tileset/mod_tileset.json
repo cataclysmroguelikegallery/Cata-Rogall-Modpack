@@ -293,7 +293,7 @@
             "fg": 144,
             "rotates": true,
             "multitile": true,
-            "additional_tiles": [ { "id": "broken", "fg": 145} ]
+            "additional_tiles": [ { "id": "broken", "fg": 145 } ]
           },
           {
             "id": "vp_sq_carbide_hdboard_vertical_left",
@@ -307,7 +307,7 @@
             "fg": 148,
             "rotates": true,
             "multitile": true,
-            "additional_tiles": [ { "id": "broken", "fg": 149} ]
+            "additional_tiles": [ { "id": "broken", "fg": 149 } ]
           },
           {
             "id": "vp_sq_carbide_hdhalfboard",
@@ -342,28 +342,28 @@
             "fg": 158,
             "rotates": true,
             "multitile": true,
-            "additional_tiles": [ { "id": "broken", "fg": 159} ]
+            "additional_tiles": [ { "id": "broken", "fg": 159 } ]
           },
           {
             "id": "vp_sq_carbide_hdhalfboard_ne",
             "fg": 160,
             "rotates": true,
             "multitile": true,
-            "additional_tiles": [ { "id": "broken", "fg": 161} ]
+            "additional_tiles": [ { "id": "broken", "fg": 161 } ]
           },
           {
             "id": "vp_sq_carbide_hdhalfboard_nw",
             "fg": 162,
             "rotates": true,
             "multitile": true,
-            "additional_tiles": [ { "id": "broken", "fg": 163} ]
+            "additional_tiles": [ { "id": "broken", "fg": 163 } ]
           },
           {
             "id": "vp_sq_carbide_hdhalfboard_se",
             "fg": 164,
             "rotates": true,
             "multitile": true,
-            "additional_tiles": [ { "id": "broken", "fg": 165} ]
+            "additional_tiles": [ { "id": "broken", "fg": 165 } ]
           },
           {
             "id": "vp_sq_carbide_hdhalfboard_sw",
@@ -398,7 +398,7 @@
             "fg": 174,
             "rotates": true,
             "multitile": true,
-            "additional_tiles": [ { "id": "broken", "fg": 175} ]
+            "additional_tiles": [ { "id": "broken", "fg": 175 } ]
           },
           { "id": "vp_sq_carbide_frame", "fg": 176, "rotates": true },
           {
@@ -452,9 +452,80 @@
           { "id": "vp_sq_carbide_hdframe_sw", "fg": 201, "rotates": true },
           { "id": "vp_sq_carbide_hdframe_vertical", "fg": 202, "rotates": true },
           { "id": "vp_sq_carbide_hdframe_vertical_2", "fg": 203, "rotates": true },
-		  { "id": "vp_sq_carbide_hdroof", "fg": 204, "rotates": true },
-		  { "id": "sq_carbide_plating", "fg": 205, "rotates": false },
-		  { "id": "cacao_pod", "fg": 206, "rotates": false }
+          { "id": "vp_sq_carbide_hdroof", "fg": 204, "rotates": true },
+          { "id": "sq_carbide_plating", "fg": 205, "rotates": false },
+          { "id": "overlay_wielded_cacao_pod", "fg": 206, "rotates": false },
+          { "id": "cacao_pod", "fg": 206, "rotates": false },
+          { "id": "overlay_wielded_vertigon", "fg": 208, "rotates": false },
+          { "id": "vertigon", "fg": 208, "rotates": false },
+          { "id": "overlay_wielded_sq_antigrav_hover", "fg": 209, "rotates": false },
+          { "id": "sq_antigrav_hover", "fg": 209, "rotates": false },
+          {
+            "id": "vp_sq_antigrav_hover",
+            "fg": 209,
+            "rotates": true,
+            "multitile": true,
+            "additional_tiles": [ { "id": "broken", "fg": 212, "bg": 209 } ]
+          },
+          { "id": "overlay_wielded_sq_antigrav_module", "fg": 210, "rotates": false },
+          { "id": "sq_antigrav_module", "fg": 210, "rotates": false },
+          {
+            "id": "vp_sq_antigrav_module",
+            "fg": 210,
+            "rotates": true,
+            "multitile": true,
+            "additional_tiles": [ { "id": "broken", "fg": 212, "bg": 210 } ]
+          },
+          { "id": "overlay_wielded_sq_antigrav_thruster", "fg": 211, "rotates": false },
+          { "id": "sq_antigrav_thruster", "fg": 211, "rotates": false },
+          {
+            "id": "vp_sq_antigrav_thruster",
+            "fg": 211,
+            "rotates": true,
+            "multitile": true,
+            "additional_tiles": [ { "id": "broken", "fg": 212, "bg": 211 } ]
+          },
+          {
+            "id": "vp_sq_antigrav_thruster_external",
+            "fg": 211,
+            "rotates": true,
+            "multitile": true,
+            "additional_tiles": [ { "id": "broken", "fg": 212, "bg": 211 } ]
+          },
+          { "id": "overlay_wielded_sq_vtol_hover", "fg": 213, "rotates": false },
+          { "id": "sq_vtol_hover", "fg": 213, "rotates": false },
+          {
+            "id": "vp_sq_vtol_hover",
+            "fg": 213,
+            "rotates": true,
+            "multitile": true,
+            "additional_tiles": [ { "id": "broken", "fg": 212, "bg": 213 } ]
+          },
+          { "id": "overlay_wielded_sq_multiballoon", "fg": 214, "rotates": false },
+          { "id": "sq_multiballoon", "fg": 214, "rotates": false },
+          {
+            "id": "vp_sq_multiballoon",
+            "fg": 210,
+            "rotates": true,
+            "multitile": true,
+            "additional_tiles": [ { "id": "broken", "fg": 212, "bg": 214 } ]
+          },
+          { "id": "overlay_wielded_sq_jet_thruster", "fg": 215, "rotates": false },
+          { "id": "sq_jet_thruster", "fg": 215, "rotates": false },
+          {
+            "id": "vp_sq_jet_thruster",
+            "fg": 211,
+            "rotates": true,
+            "multitile": true,
+            "additional_tiles": [ { "id": "broken", "fg": 212, "bg": 215 } ]
+          },
+          {
+            "id": "vp_sq_jet_thruster_external",
+            "fg": 211,
+            "rotates": true,
+            "multitile": true,
+            "additional_tiles": [ { "id": "broken", "fg": 212, "bg": 215 } ]
+          }
         ],
         "sprite_width": 32,
         "sprite_height": 32,
