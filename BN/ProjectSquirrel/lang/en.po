@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Jake's_Squirrel_mod\n"
-"POT-Creation-Date: 2025-07-02 19:39+0900\n"
+"POT-Creation-Date: 2026-04-04 06:47+0900\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.6\n"
+"X-Generator: Poedit 3.8\n"
 
 #: .\effects.json
 msgid "충격 흡수 방패"
@@ -1179,6 +1179,28 @@ msgstr ""
 "is described in a highly paranoid manner. [Disapproved]: this fusion power "
 "plant is remarkable for its size, but because it ultimately uses the fission "
 "of uranium, it cannot escape the threat of radioactive waste."
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid "베르티곤 기밀 무기공학 매뉴얼"
+msgid_plural "베르티곤 기밀 무기공학 매뉴얼들"
+msgstr[0] "secret vertigon weapons engineering manual"
+msgstr[1] "secret vertigon weapons engineering manuals"
+
+#. ~ Description for {'str': '베르티곤 기밀 무기공학 매뉴얼', 'str_pl': '베르티곤 기밀 무기공학
+#. 매뉴얼들'}
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid ""
+"표지에 '비인가자 열람 엄금'이라는 붉은 경고 문구가 찍혀 있는 두꺼운 제본책입"
+"니다. 내부에는 일반적인 상식을 뛰어넘는 최첨단 특수 화기들의 조립 도면, 그리"
+"고 핵심 부품의 가공법이 빼곡하게 인쇄되어 있습니다. 제대로 된 공구와 재료만 "
+"있다면, 이 위험한 기술력의 결정체를 직접 만들어낼 수 있을 것입니다."
+msgstr ""
+"This is a thick, bound volume with a red warning label on the cover that "
+"reads, “Unauthorized access strictly prohibited.” Inside, it is densely "
+"packed with assembly diagrams for cutting-edge specialized firearms that "
+"defy common sense, as well as manufacturing methods for their core "
+"components. With the right tools and materials, you could build this "
+"embodiment of dangerous technology yourself."
 
 #: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "8x40mm HVP"
@@ -2546,6 +2568,12 @@ msgid "나노머신에 의한 추위 보호가 약해지고 있습니다."
 msgstr "Cold protection by nanomachines is being weakened."
 
 #: .\advtech\sq_nano_generic_comp.json
+msgid "alien resin pod"
+msgid_plural "alien resin pods"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\advtech\sq_nano_generic_comp.json
 msgid "hazardous waste drum"
 msgid_plural "hazardous waste drums"
 msgstr[0] ""
@@ -2585,6 +2613,24 @@ msgid ""
 msgstr ""
 "Reinforced layered carbide armor plates, which can be used to craft or "
 "repair high-tech equipment made of layered carbide."
+
+#: .\advtech\sq_nano_generic_comp.json
+msgid "베르티곤"
+msgid_plural "베르티곤"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': '베르티곤', 'str_pl': '베르티곤'}
+#: .\advtech\sq_nano_generic_comp.json
+msgid ""
+"대지의 중력을 거부하고 끊임없이 허공으로 '떨어지려' 하는 기괴한 성질을 지니"
+"며, 깊고 불안정한 자수정빛 보라색을 띄는 미지의 입자 덩어리입니다. 가만히 쥐"
+"고만 있어도 손바닥이 위로 당겨지는 듯한 불쾌한 역장과 함께, 신경을 긁는 미세"
+"한 진동이 뼛속까지 스며듭니다. 거대 기업들이 오버테크놀로지의 심장으로 삼는 "
+"이 창백한 입자 덩어리는, 그저 차폐막 없이 곁에 두는 것만으로도 인간의 반고리"
+"관을 찢어놓을 듯한 우주적인 멀미를 유발합니다. 어쩌면 이 입자들은 스스로의 의"
+"지를 가지고 있는 것 같습니다."
+msgstr ""
 
 #: .\advtech\sq_nano_generic_comp.json
 msgid "겹층 탄화물 묶음"
@@ -3031,6 +3077,151 @@ msgstr ""
 "off by using."
 
 #: .\advtech\sq_vehicle_part.json
+msgid "VTOL 추진기"
+msgid_plural "VTOL 추진기"
+msgstr[0] "VTOL thruster"
+msgstr[1] "VTOL thrusters"
+
+#. ~ Description for VTOL 추진기
+#. ~ Description for {'str': 'VTOL 추진기', 'str_pl': 'VTOL 추진기'}
+#: .\advtech\sq_vehicle_part.json
+msgid ""
+"군용 수직이착륙기나 대형 수송 드론에 사용되는 수직이착륙 추진기입니다. 대지, "
+"바다, 하늘을 가리지 않고 자유롭게 이착륙할 수 있습니다."
+msgstr ""
+"This is a vertical takeoff and landing (VTOL) propulsion system used in "
+"military VTOL aircraft and large transport drones. It allows for free "
+"takeoff and landing on land, at sea, or in the air."
+
+#: .\advtech\sq_vehicle_part.json
+msgid "다중격벽 수소낭"
+msgid_plural "다중격벽 수소낭s"
+msgstr[0] "multi-chamber hydrogen bladder"
+msgstr[1] "multi-chamber hydrogen bladders"
+
+#. ~ Description for 다중격벽 수소낭
+#. ~ Description for 외장형 다중격벽 수소낭
+#. ~ Description for {'str': '다중격벽 수소낭'}
+#: .\advtech\sq_vehicle_part.json
+msgid ""
+"과거의 비행선이 왜 수소 대신 헬륨을 썼는지, 그리고 그 헬륨 비행선조차 왜 역"
+"사 속으로 사라졌는지를 몸소 증명해 줄 발명품입니다. 차량용 배터리로 물을 전"
+"기 분해하여 얻어낸 수소를 그래핀 시트로 만든 주머니에 꽉꽉 채워 넣었습니다. "
+"그나마 벌집 모양의 다중 격벽 구조로 바느질해 두어서 새가 한 번 쪼았다고 바로 "
+"추락하진 않겠지만, 소이탄이나 화염병 근처에는 절대 가지 않는 것이 당신의 목숨"
+"과 차량의 뼈대를 보존하는 길입니다."
+msgstr ""
+"This invention serves as a living demonstration of why airships of the past "
+"used helium instead of hydrogen—and why even those helium-filled airships "
+"eventually faded into history. Packed a pouch made of graphene sheets to the "
+"brim with hydrogen. Thanks to the honeycomb-shaped multi-wall structure, a "
+"single peck from a bird won’t cause it to crash immediately, but staying "
+"away from incendiary bombs or Molotov cocktails is the best way to preserve "
+"both your life and the vehicle’s frame."
+
+#: .\advtech\sq_vehicle_part.json
+msgid "외장형 다중격벽 수소낭"
+msgstr "external multi-chamber hydrogen bladder"
+
+#: .\advtech\sq_vehicle_part.json
+msgid "제트 추진기"
+msgid_plural "제트 추진기s"
+msgstr[0] "jet thruster"
+msgstr[1] "jet thrusters"
+
+#. ~ Description for 제트 추진기
+#. ~ Description for {'str': '제트 추진기'}
+#: .\advtech\sq_vehicle_part.json
+msgid ""
+"군사 등급의 항공우주 공학이 집약된 제트 추진기 모듈입니다. 원래는 차세대 건쉽"
+"이나 대형 수송 드론의 자세 제어 및 주 동력원으로 사용되던 물건으로, 일반적인 "
+"내연기관과는 궤를 달리하는 압도적인 추력 대 중량비를 자랑합니다."
+msgstr ""
+"This jet propulsion module is a concentrated embodiment of military-grade "
+"aerospace engineering. Originally designed for use as the primary propulsion "
+"system and attitude control mechanism in next-generation gunships and large "
+"transport drones, it boasts an overwhelming thrust-to-weight ratio that far "
+"surpasses that of conventional internal combustion engines."
+
+#: .\advtech\sq_vehicle_part.json
+msgid "외장형 제트 추진기"
+msgstr "external jet thruster"
+
+#: .\advtech\sq_vehicle_part.json
+msgid "반중력 호버 장치"
+msgid_plural "반중력 호버 장치"
+msgstr[0] "anti-gravity hover system"
+msgstr[1] "anti-gravity hover systems"
+
+#. ~ Description for 반중력 호버 장치
+#. ~ Description for {'str': '반중력 호버 장치', 'str_pl': '반중력 호버 장치'}
+#: .\advtech\sq_vehicle_part.json
+msgid ""
+"바퀴가 있어야 할 자리를 대체하는 다목적 반중력 추진기입니다. 대지의 마찰력을 "
+"비웃으며 늪지와 폐허 위를 미끄러지듯 주파하게 합니다. 이 자비 없는 쇳덩어리"
+"를 통제하지 못해 콘크리트 벽에 처박혀 으깨진 기업의 테스트 파일럿은 셀 수조"
+"차 없습니다."
+msgstr ""
+"This is a multipurpose anti-gravity thruster that replaces the wheels. It "
+"glides effortlessly over swamps and ruins, defying the friction of the "
+"earth. Countless corporate test pilots have been crushed against concrete "
+"walls after losing control of this merciless hunk of metal."
+
+#: .\advtech\sq_vehicle_part.json
+msgid "반중력 부양모듈"
+msgid_plural "반중력 부양모듈s"
+msgstr[0] "anti-gravity levitation module"
+msgstr[1] "anti-gravity levitation modules"
+
+#. ~ Description for 반중력 부양모듈
+#. ~ Description for 외장형 반중력 부양모듈
+#. ~ Description for {'str': '반중력 부양모듈'}
+#: .\advtech\sq_vehicle_part.json
+msgid ""
+"베르티곤의 불안정한 역장을 이용해 수 톤에 달하는 차량의 물리적 질량을 강제로 "
+"지워버리는 반중력 하부 부품입니다. 이 모듈을 장착한 거대한 중장갑 요새는 지형"
+"의 페널티를 무시한 채 늪지와 폐허 위를 깃털처럼 미끄러지듯 주파할 수 있습니"
+"다."
+msgstr ""
+"This anti-gravity subsystem utilizes the unstable force field of the "
+"vertigon to effectively nullify the physical mass of vehicles weighing "
+"several tons. A massive, heavily armored fortress equipped with this module "
+"can glide effortlessly over swamps and ruins, as if made of feathers, "
+"completely ignoring terrain penalties."
+
+#: .\advtech\sq_vehicle_part.json
+msgid "외장형 반중력 부양모듈"
+msgstr "external anti-gravity levitation module"
+
+#: .\advtech\sq_vehicle_part.json
+msgid "반중력 추진기"
+msgid_plural "반중력 추진기s"
+msgstr[0] "anti-gravity thruster"
+msgstr[1] "anti-gravity thrusters"
+
+#. ~ Description for 반중력 추진기
+#. ~ Description for {'str': '반중력 추진기'}
+#: .\advtech\sq_vehicle_part.json
+msgid ""
+"베르티곤의 불안정한 반발 역장을 후방으로 폭주시켜 막대한 가속도를 얻어내는 비"
+"인도적인 추진 장치입니다. 점화 스위치를 누르는 순간 등받이를 박살 낼 듯 짓누"
+"르는 살인적인 중력가속도는 탑승자의 척추를 위협합니다. 하지만 기업의 회계사들"
+"은 이 무식한 깡추진력으로 적의 방어선을 돌파할 수 있다면, 파일럿의 장기 파열"
+"쯤은 '수용 가능한 작전 손실'로 기록할 뿐입니다."
+msgstr ""
+"This is an inhumane propulsion system that generates immense acceleration by "
+"channeling vertigon’s unstable repulsive field backward. The moment the "
+"ignition switch is pressed, a murderous gravitational acceleration—seemingly "
+"strong enough to shatter the backrest—threatens the pilot’s spine. However, "
+"corporate accountants simply record the rupture of a pilot’s internal organs "
+"as “acceptable operational losses” if this brute-force thrust can break "
+"through enemy defenses."
+
+#: .\advtech\sq_vehicle_part.json
+msgid "외장형 반중력 추진기"
+msgstr "external anti-gravity thruster"
+
+#: .\advtech\sq_vehicle_part.json
 msgid "차량용 머니퓰레이터 작업대"
 msgstr "vehicle manipulator workbench"
 
@@ -3275,6 +3466,134 @@ msgstr "layered carbide roof"
 #: .\advtech\sq_vehicle_part.json
 msgid "두꺼운 겹층 탄화물 지붕."
 msgstr "A thick layered carbide roof."
+
+#: .\advtech\sq_advanced_module_armor\sq_advanced_module_armor_head.json
+msgid "모듈형 컴뱃 아머 헤드"
+msgid_plural "모듈형 컴뱃 아머 헤드s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\advtech\sq_advanced_module_armor\sq_advanced_module_armor_head.json
+msgid "모듈형 컴뱃 아머 바디"
+msgid_plural "모듈형 컴뱃 아머 바디s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\advtech\sq_advanced_module_armor\sq_advanced_module_armor_head.json
+msgid "H-01 그래니트 헬멧"
+msgid_plural "H-01 그래니트 헬멧s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'H-01 그래니트 헬멧'}
+#: .\advtech\sq_advanced_module_armor\sq_advanced_module_armor_head.json
+msgid ""
+"한화 디펜스에서 대량 생산한 1.5세대 중표준 컴뱃 아머 헬멧. 자사의 2세대 고급"
+"형 모델 설계도에서 '불필요한 편의 및 연산 기능'을 극단적으로 덜어낸 원가 절감"
+"의 결정체입니다. 내부 공간을 배려하지 않은 설계 탓에 착용감이 끔찍하고 추가적"
+"인 FCS 칩셋을 달 확장성도 거의 없지만, 그 빈 공간을 무식하게 두꺼운 합금 장갑"
+"판으로 채워 넣었습니다. 총알이 빗발치는 전장에서는 이 멍청한 쇳덩어리만큼 확"
+"실한 생명 보험도 없었습니다.\n"
+"보너스: 행동속도 +5%, 힘 +1, 민첩 +1, 인지 +1"
+msgstr ""
+
+#: .\advtech\sq_advanced_module_armor\sq_advanced_module_armor_head.json
+msgid "MHD-10 미그란트 헤드기어"
+msgid_plural "MHD-10 미그란트 헤드기어s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'MHD-10 미그란트 헤드기어'}
+#: .\advtech\sq_advanced_module_armor\sq_advanced_module_armor_head.json
+msgid ""
+"스파르탄 다이내믹스의 표준형 2세대 컴뱃아머 헬멧. 대격변 이전의 기술력을 집약"
+"하여 어떤 전장에서도 파일럿을 보호하고 기본적인 정보를 제공하도록 설계되었습"
+"니다. 모든 스탯이 균형 잡혀 있으며, 특출난 점은 없지만 모난 데도 없습니다.\n"
+"보너스: 행동속도 +5%, 힘 +1, 민첩 +1, 인지 +1"
+msgstr ""
+
+#: .\advtech\sq_advanced_module_armor\sq_advanced_module_armor_head.json
+msgid "BDAH-01 배리어블 헤드"
+msgid_plural "BDAH-01 배리어블 헤드s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'BDAH-01 배리어블 헤드'}
+#: .\advtech\sq_advanced_module_armor\sq_advanced_module_armor_head.json
+msgid ""
+"보잉-대우의 양산형 컴뱃아머 헤드. 첨단 항공우주 기술과 에너지 관리 시스템을 "
+"접목하여 개발된 밸런스형 헤드 파츠입니다. 과도한 기능보다는 핵심적인 생존성"
+"을 우선한 설계입니다."
+msgstr ""
+
+#: .\advtech\sq_advanced_module_armor\sq_advanced_module_armor_head.json
+msgid "RAH-15 스펙터 헤드유닛"
+msgid_plural "RAH-15 스펙터 헤드유닛s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'RAH-15 스펙터 헤드유닛'}
+#: .\advtech\sq_advanced_module_armor\sq_advanced_module_armor_head.json
+msgid ""
+"레이시온의 정찰 및 전자전 특화 헤드유닛. 강력한 스캔 능력과 향상된 정보 처리 "
+"모듈을 내장하여 전장의 시야를 넓힙니다. 대신 방어력은 희생되었으며, 민감한 센"
+"서 시스템은 물리적 충격에 취약할 수 있습니다."
+msgstr ""
+
+#: .\advtech\sq_advanced_module_armor\sq_advanced_module_armor_head.json
+msgid "LTH-07 블리츠 헤드"
+msgid_plural "LTH-07 블리츠 헤드s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'LTH-07 블리츠 헤드'}
+#: .\advtech\sq_advanced_module_armor\sq_advanced_module_armor_head.json
+msgid ""
+"래티튜드(아라가네와 연관)의 경량 고기동 컴뱃아머 헤드. **최대한의 기동성과 에"
+"너지 효율을 위해 설계되었습니다. 극도로 가볍고 전력 소모가 적어 빠른 움직임"
+"을 선호하는 파일럿에게 적합합니다. 다만, 방어력은 모든 모델 중 가장 취약합니"
+"다.**"
+msgstr ""
+
+#: .\advtech\sq_advanced_module_armor\sq_advanced_module_armor_head.json
+msgid "OLH-T01 시커 헤드"
+msgid_plural "OLH-T01 시커 헤드s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'OLH-T01 시커 헤드'}
+#: .\advtech\sq_advanced_module_armor\sq_advanced_module_armor_head.json
+msgid ""
+"오리온 연구소의 최신 정보전 헤드. 일반적인 센서의 범위를 넘어선 '특수 감지' "
+"능력을 내장하여 XEDRA 에너지 잔류물이나 은폐된 물체를 탐지합니다. 최첨단 기술"
+"이 집약된 만큼 가격이 비싸고, 민감한 부품 보호를 위해 방어력이 다소 희생되었"
+"습니다."
+msgstr ""
+
+#: .\advtech\sq_advanced_module_armor\sq_advanced_module_armor_head.json
+msgid "MBD-10 미그란트 컴뱃아머"
+msgid_plural "MBD-10 미그란트 컴뱃아머s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'MBD-10 미그란트 컴뱃아머'}
+#: .\advtech\sq_advanced_module_armor\sq_advanced_module_armor_head.json
+msgid ""
+"스파르탄 다이내믹스의 표준형 2세대 컴뱃아머 슈트. 모난 데 없이 평균적인 스펙"
+"을 가졌다."
+msgstr ""
+
+#: .\advtech\sq_advanced_module_armor\sq_advanced_module_armor_head.json
+msgid "B02 배리어블"
+msgid_plural "B02 배리어블s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'B02 배리어블'}
+#: .\advtech\sq_advanced_module_armor\sq_advanced_module_armor_head.json
+msgid ""
+"보잉-대우의 양산형 2세대 컴뱃아머 슈트. 모난 데 없이 평균적인 스펙을 가졌다."
+msgstr ""
 
 #: .\items\sq_armor_override.json
 msgid "fur coat"
@@ -3727,6 +4046,12 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: .\items\sq_armor_override.json
+msgid "phase immersion suit"
+msgid_plural "phase immersion suits"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\items\sq_armor_override.json
 msgid "phase immersion suit (on)"
 msgid_plural "phase immersion suits (on)"
 msgstr[0] ""
@@ -3791,6 +4116,16 @@ msgid "프레임 가방"
 msgid_plural "프레임 가방s"
 msgstr[0] "frame pack"
 msgstr[1] "frame packs"
+
+#. ~ Use action holster_msg for {'str': '프레임 가방'}.
+#: .\items\sq_cargo_frame.json
+msgid "You stow your %s"
+msgstr ""
+
+#. ~ Use action holster_prompt for {'str': '프레임 가방'}.
+#: .\items\sq_cargo_frame.json
+msgid "Stow gear"
+msgstr ""
 
 #. ~ Description for {'str': '프레임 가방'}
 #: .\items\sq_cargo_frame.json
@@ -4011,6 +4346,26 @@ msgstr ""
 "to stop working."
 
 #: .\items\sq_generic.json
+msgid "풀스 골드 로프"
+msgid_plural "풀스 골드 로프"
+msgstr[0] "fool's gold loaf"
+msgstr[1] "fool's gold loaves"
+
+#. ~ Description for {'str_sp': '풀스 골드 로프'}
+#: .\items\sq_generic.json
+msgid ""
+"식빵 하나를 통째로 파내고 그 안에 땅콩버터 한 통, 과일 잼 한 통, 그리고 구운 "
+"베이컨 1파운드를 쑤셔 넣은 전설적인 샌드위치입니다. 엘비스 프레슬리가 생전에 "
+"아주 좋아했었던 이 칼로리 폭탄은 엄청난 만족감을 주지만, 혈관에는 심각한 타격"
+"을 줄 것입니다."
+msgstr ""
+"This legendary sandwich involves hollowing out an entire loaf of white bread "
+"and stuffing it with a jar of peanut butter, a jar of fruit jam, and a pound "
+"of cooked bacon. A calorie bomb that Elvis Presley loved during his "
+"lifetime, it offers immense satisfaction but will take a serious toll on "
+"your blood vessels."
+
+#: .\items\sq_generic.json
 msgid "bundle of rags"
 msgid_plural "bundles of rags"
 msgstr[0] ""
@@ -4217,6 +4572,45 @@ msgid ""
 msgstr ""
 "Electronic scraps, bundled tightly together for storage.  Disassemble to "
 "unpack."
+
+#: .\items\sq_generic.json
+#, fuzzy
+#| msgid "유리 조각 묶음"
+#| msgid_plural "유리 조각 묶음"
+msgid "구리 조각 묶음"
+msgid_plural "구리 조각 묶음"
+msgstr[0] "bundle of glass shards"
+msgstr[1] "bundles of glass shards"
+
+#. ~ Description for {'str': '구리 조각 묶음', 'str_pl': '구리 조각 묶음'}
+#: .\items\sq_generic.json
+#, fuzzy
+#| msgid ""
+#| "저장을 위해 꽉 묶어둔 유리 조각들입니다. 사용하거나 분해하여 내용물을 꺼"
+#| "낼 수 있습니다."
+msgid ""
+"저장을 위해 꽉 묶어둔 구리 조각입니다. 사용하거나 분해하여 내용물을 꺼낼 수 "
+"있습니다."
+msgstr ""
+"Glass shards, bundled tightly together for storage.  Disassemble to unpack."
+
+#: .\items\sq_generic.json
+msgid "황동 묶음"
+msgid_plural "황동 묶음"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': '황동 묶음', 'str_pl': '황동 묶음'}
+#: .\items\sq_generic.json
+#, fuzzy
+#| msgid ""
+#| "저장을 위해 꽉 묶어둔 고철입니다. 사용하거나 분해하여 내용물을 꺼낼 수 있"
+#| "습니다."
+msgid ""
+"저장을 위해 꽉 묶어둔 황동입니다. 사용하거나 분해하여 내용물을 꺼낼 수 있습니"
+"다."
+msgstr ""
+"Scrap metals, bundled tightly together for storage.  Disassemble to unpack."
 
 #: .\items\sq_generic.json
 msgid "8x40mm caseless"
@@ -5604,14 +5998,6 @@ msgid "Fencing"
 msgstr ""
 
 #: .\items\sq_weapon_override.json
-msgid "Silat"
-msgstr ""
-
-#: .\items\sq_weapon_override.json
-msgid "Ninjutsu"
-msgstr ""
-
-#: .\items\sq_weapon_override.json
 msgid "RM103A automagnum"
 msgid_plural "RM103A automagnums"
 msgstr[0] ""
@@ -5620,6 +6006,12 @@ msgstr[1] ""
 #: .\items\sq_weapon_override.json
 msgid "RM2000 submachine gun"
 msgid_plural "RM2000 submachine guns"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\items\sq_weapon_override.json
+msgid "RM99 revolver"
+msgid_plural "RM99 revolvers"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -9658,36 +10050,6 @@ msgstr ""
 "to recover from pain faster."
 
 #: .\mutations\item.json
-msgid "빠른 고통 회복 혈청"
-msgid_plural "빠른 고통 회복 혈청s"
-msgstr[0] "Quick pain recovery serum"
-msgstr[1] "Quick pain recovery serums"
-
-#. ~ Description for 빠른 고통 회복 혈청
-#: .\mutations\item.json
-msgid ""
-"하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 고통에서 더 빨"
-"리 벗어날 수 있습니다."
-msgstr ""
-"A special mutagenic serum designed to give you a single mutation. Allows you "
-"to recover from pain much faster."
-
-#: .\mutations\item.json
-msgid "아주 빠른 고통 회복 혈청"
-msgid_plural "아주 빠른 고통 회복 혈청s"
-msgstr[0] "Very quick pain recovery serum"
-msgstr[1] "Very quick pain recovery serums"
-
-#. ~ Description for 아주 빠른 고통 회복 혈청
-#: .\mutations\item.json
-msgid ""
-"하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 고통에서 매우 빨"
-"리 벗어날 수 있습니다."
-msgstr ""
-"A special mutagenic serum designed to give you a single mutation. Recover "
-"from pain in little to no time at all."
-
-#: .\mutations\item.json
 msgid "고행 중독자 혈청"
 msgid_plural "고행 중독자 혈청s"
 msgstr[0] "Pain junkie serum"
@@ -12741,16 +13103,6 @@ msgstr ""
 
 #. ~ Mutation class name
 #: .\mutations\mutation_category.json
-msgid "painrec2"
-msgstr ""
-
-#. ~ Mutation class name
-#: .\mutations\mutation_category.json
-msgid "painrec3"
-msgstr ""
-
-#. ~ Mutation class name
-#: .\mutations\mutation_category.json
 msgid "masochist_med"
 msgstr ""
 
@@ -14027,6 +14379,11 @@ msgstr "DRONES"
 
 #. ~ Crafting recipes subcategory of '첨단기술' category
 #: .\recipe\recipe_categories.json
+msgid "MUTAGEN"
+msgstr ""
+
+#. ~ Crafting recipes subcategory of '첨단기술' category
+#: .\recipe\recipe_categories.json
 msgid "OTHER"
 msgstr ""
 
@@ -14219,6 +14576,30 @@ msgstr ""
 #, c-format
 msgid "<npcname> feints at %s"
 msgstr ""
+
+#~ msgid "빠른 고통 회복 혈청"
+#~ msgid_plural "빠른 고통 회복 혈청s"
+#~ msgstr[0] "Quick pain recovery serum"
+#~ msgstr[1] "Quick pain recovery serums"
+
+#~ msgid ""
+#~ "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 고통에서 더 "
+#~ "빨리 벗어날 수 있습니다."
+#~ msgstr ""
+#~ "A special mutagenic serum designed to give you a single mutation. Allows "
+#~ "you to recover from pain much faster."
+
+#~ msgid "아주 빠른 고통 회복 혈청"
+#~ msgid_plural "아주 빠른 고통 회복 혈청s"
+#~ msgstr[0] "Very quick pain recovery serum"
+#~ msgstr[1] "Very quick pain recovery serums"
+
+#~ msgid ""
+#~ "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 고통에서 매"
+#~ "우 빨리 벗어날 수 있습니다."
+#~ msgstr ""
+#~ "A special mutagenic serum designed to give you a single mutation. Recover "
+#~ "from pain in little to no time at all."
 
 #~ msgid "노멕스 덧대기"
 #~ msgstr "Pad with Nomex"

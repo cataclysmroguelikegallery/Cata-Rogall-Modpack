@@ -346,13 +346,13 @@
   {
     "id": "sq_antigrav_thruster",
     "copy-from": "propeller_rotors",
-    "symbol": "o",
+    "symbol": "^",
     "color": "magenta",
     "type": "vehicle_part",
     "name": "반중력 추진기",
     "description": "베르티곤의 불안정한 반발 역장을 후방으로 폭주시켜 막대한 가속도를 얻어내는 비인도적인 추진 장치입니다. 점화 스위치를 누르는 순간 등받이를 박살 낼 듯 짓누르는 살인적인 중력가속도는 탑승자의 척추를 위협합니다. 하지만 기업의 회계사들은 이 무식한 깡추진력으로 적의 방어선을 돌파할 수 있다면, 파일럿의 장기 파열쯤은 '수용 가능한 작전 손실'로 기록할 뿐입니다.",
     "item": "sq_antigrav_thruster",
-	"propeller_diameter": 15,
+	"propeller_diameter": 20,
     "requirements": {
       "install": { "skills": [ [ "mechanics", 8 ] ], "time": "60 m", "using": [ [ "welding_standard", 20 ] ] },
       "removal": { "skills": [ [ "mechanics", 8 ] ], "time": "60 m", "using": [ [ "vehicle_weld_removal", 10 ] ] },
@@ -375,7 +375,7 @@
   {
     "type": "GENERIC",
     "id": "sq_antigrav_thruster",
-    "symbol": "o",
+    "symbol": "^",
     "color": "magenta",
     "name": { "str": "반중력 추진기" },
     "description": "베르티곤의 불안정한 반발 역장을 후방으로 폭주시켜 막대한 가속도를 얻어내는 비인도적인 추진 장치입니다. 점화 스위치를 누르는 순간 등받이를 박살 낼 듯 짓누르는 살인적인 중력가속도는 탑승자의 척추를 위협합니다. 하지만 기업의 회계사들은 이 무식한 깡추진력으로 적의 방어선을 돌파할 수 있다면, 파일럿의 장기 파열쯤은 '수용 가능한 작전 손실'로 기록할 뿐입니다.",
