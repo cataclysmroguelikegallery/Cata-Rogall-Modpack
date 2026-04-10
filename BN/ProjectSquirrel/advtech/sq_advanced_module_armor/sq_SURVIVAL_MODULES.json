@@ -1,0 +1,40 @@
+[
+  {
+    "type": "mutation",
+    "id": "SQ_SYNAPTIC_AUGMENTED_REFLEXES",
+    "name": { "str": "특수 모듈: 모듈 컴프레서" },
+    "points": 0,
+    "description": "컴뱃 아머의 제어장치가 당신의 신경망에 접속하여 운동신경과 반사신경을 상승시킵니다. 회피가 더욱 쉬워지며, 이제 당신을 가로막는 난간이나 가판대 등에서 평지처럼 이동할 수 있습니다.",
+    "valid": false,
+    "purifiable": false,
+    "stamina_regen_modifier": 0.3,
+    "movecost_obstacle_modifier": 0.5,
+    "dodge_modifier": 2,
+    "encumbrance_always": [
+      [ "head", -40 ]
+    ]
+  },
+  {
+    "type": "mutation",
+    "id": "SQ_SYNAPTIC_AUGMENTED_REFLEXES",
+    "name": { "str": "시냅스 증강 반사신경" },
+    "points": 0,
+    "description": "컴뱃 아머의 제어장치가 당신의 신경망에 접속하여 운동신경과 반사신경을 상승시킵니다. 회피가 더욱 쉬워지며, 이제 당신을 가로막는 난간이나 가판대 등에서 평지처럼 이동할 수 있습니다.",
+    "valid": false,
+    "purifiable": false,
+    "stamina_regen_modifier": 0.3,
+    "movecost_obstacle_modifier": 0.5,
+    "dodge_modifier": 2,
+    "encumbrance_always": [
+      [ "torso", -5 ],
+      [ "arm_l", -5 ],
+      [ "arm_r", -5 ],
+      [ "hand_l", -5 ],
+      [ "hand_r", -5 ],
+      [ "leg_l", -5 ],
+      [ "leg_r", -5 ],
+      [ "foot_l", -5 ],
+      [ "foot_r", -5 ]
+    ]
+  }
+]

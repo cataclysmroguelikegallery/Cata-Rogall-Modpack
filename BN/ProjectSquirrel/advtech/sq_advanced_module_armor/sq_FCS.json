@@ -1,0 +1,796 @@
+[
+  {
+    "id": "sq_rivtech_fcs_swarm1",
+    "type": "ARMOR",
+    "name": { "str_sp": "RMFCS100 스마트 타게팅 모듈 (질량중심 타격형)" },
+    "description": "리브텍(Rivtech) 사의 무탄피 화기 운용 교리를 완벽하게 대변하는 표준 타겟팅 시스템입니다. 사수의 뇌파를 스캔해 교전 의도를 파악하는 즉시, 불필요한 약점 계산을 생략하고 표적의 가장 넓은 면적인 질량 중심(몸통)으로 영점을 강제 고정합니다. 급소를 노리지 않아 단발의 위력은 다소 감소하지만, 기계적인 조준 속도와 흔들림 없는 명중률을 바탕으로 압도적인 연사 화망을 적중시키는 데 특화되어 있습니다.",
+    "weight": "11 g",
+    "volume": "5 ml",
+    "price": "4500 USD",
+    "price_postapoc": "450 USD",
+    "to_hit": 0,
+    "material": [ "superalloy", "plastic" ],
+    "symbol": "[",
+    "looks_like": "mobile_memory_card",
+    "color": "light_blue",
+    "covers": [ "head" ],
+    "coverage": 0,
+    "encumbrance": 20,
+    "material_thickness": 1,
+    "flags": [ "ONLY_ONE", "ALLOWS_NATURAL_ATTACKS", "UNBREAKABLE", "COMPACT", "POWERARMOR_COMPATIBLE" ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "RANGED_AIM_SPEED", "multiply": 0.35 },
+            { "value": "RANGED_DISPERSION", "multiply": -0.45 },
+            { "value": "RANGED_DAMAGE_BULLET", "multiply": -0.12 },
+            { "value": "RANGED_RANGE", "multiply": -0.1 },
+            { "value": "RANGED_RECOIL", "multiply": -0.1 }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sq_rivtech_fcs_swarm2",
+    "type": "ARMOR",
+    "name": { "str_sp": "RM-FCS200 스마트 타게팅 시스템 (질량중심 타격형)" },
+    "description": "리브텍의 특수 타격대를 위해 극소수만 제작된 하이엔드 타겟팅 시스템입니다. 기본형의 '질량 중심 사격' 알고리즘을 극한까지 끌어올려, 사수가 표적을 인지하는 순간 이미 뇌파 스캔과 조준 정렬이 끝납니다. 치명타 연산을 완전히 배제하여 개별 탄환의 파괴력은 떨어지지만, 적이 회피를 시도하기도 전에 완벽한 점(Point)의 탄착군을 몸통에 꽂아 넣어 말 그대로 표적을 '삭제'해 버리는 차가운 효율을 자랑합니다.",
+    "weight": "14 g",
+    "volume": "8 ml",
+    "price": "6500 USD",
+    "price_postapoc": "650 USD",
+    "to_hit": 0,
+    "material": [ "superalloy", "plastic" ],
+    "symbol": "[",
+    "looks_like": "mobile_memory_card",
+    "color": "light_blue",
+    "covers": [ "head" ],
+    "coverage": 0,
+    "encumbrance": 20,
+    "material_thickness": 1,
+    "flags": [ "ONLY_ONE", "ALLOWS_NATURAL_ATTACKS", "UNBREAKABLE", "COMPACT", "POWERARMOR_COMPATIBLE" ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "RANGED_AIM_SPEED", "multiply": 0.55 },
+            { "value": "RANGED_DISPERSION", "multiply": -0.65 },
+            { "value": "RANGED_DAMAGE_BULLET", "multiply": -0.25 },
+            { "value": "RANGED_RANGE", "multiply": -0.14 },
+            { "value": "RANGED_RECOIL", "multiply": -0.12 }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sq_spartan_fcs_standard",
+    "type": "ARMOR",
+    "name": { "str_sp": "스파르탄 M-FCS '팔랑크스'" },
+    "description": "스파르탄 다이내믹스 사가 미군 보병을 위해 납품한 제식 사격 통제 시스템입니다. MUSCO의 범용 모델에 비해 무게와 부피가 더 나가고 조준 보조 속도도 살짝 둔탁하지만, 진흙탕을 구르거나 폭발 충격에 휩쓸려도 절대 연산 오류를 일으키지 않습니다. 어떤 극한 상황에서도 사수에게 '정확하고 흔들림 없는 타격'을 보장하는, 미군의 든든한 국밥 같은 장비입니다.",
+    "weight": "15 g",
+    "volume": "8 ml",
+    "price": "1500 USD",
+    "price_postapoc": "150 USD",
+    "to_hit": -2,
+    "material": [ "superalloy", "steel" ],
+    "symbol": "[",
+    "looks_like": "mobile_memory_card",
+    "color": "dark_gray",
+    "covers": [ "head" ],
+    "coverage": 0,
+    "encumbrance": 24,
+    "material_thickness": 2,
+    "flags": [ "ONLY_ONE", "ALLOWS_NATURAL_ATTACKS", "UNBREAKABLE", "COMPACT", "POWERARMOR_COMPATIBLE" ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "RANGED_DISPERSION", "multiply": -0.22 },
+            { "value": "RANGED_RECOIL", "multiply": -0.25 },
+            { "value": "RANGED_DAMAGE_BULLET", "multiply": 0.1, "add": 3 },
+            { "value": "RANGED_RANGE", "multiply": 0.1 },
+            { "value": "RANGED_AIM_SPEED", "multiply": 0.12 }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sq_spartan_fcs_heavy",
+    "type": "ARMOR",
+    "name": { "str_sp": "스파르탄 H-FCS '센추리온'" },
+    "description": "미 해병대의 분대지원화기(SAW) 사수들을 위해 개량된 중무장용 모델입니다. 한화 디펜스의 '마동'이나 '반석'처럼 반동 제어에만 극단적으로 몰두하기보다는, 지속 사격 중에도 적의 헤드라인을 놓치지 않도록 탄착군 유지에 많은 연산 자원을 할당했습니다. 무겁고 둔하지만 화망의 질 자체를 다르게 만들어줍니다.",
+    "weight": "22 g",
+    "volume": "12 ml",
+    "price": "1650 USD",
+    "price_postapoc": "165 USD",
+    "to_hit": -2,
+    "material": [ "superalloy", "steel" ],
+    "symbol": "[",
+    "looks_like": "mobile_memory_card",
+    "color": "dark_gray",
+    "covers": [ "head" ],
+    "coverage": 0,
+    "encumbrance": 30,
+    "material_thickness": 2,
+    "flags": [ "ONLY_ONE", "ALLOWS_NATURAL_ATTACKS", "UNBREAKABLE", "COMPACT", "POWERARMOR_COMPATIBLE" ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "RANGED_RECOIL", "multiply": -0.4 },
+            { "value": "RANGED_DAMAGE_BULLET", "multiply": 0.15 },
+            { "value": "RANGED_DISPERSION", "multiply": -0.18 }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sq_spartan_fcs_marksman",
+    "type": "ARMOR",
+    "name": { "str_sp": "스파르탄 D-FCS '뱅가드'" },
+    "description": "미 특수작전사령부(SOCOM)의 지정사수들을 위해 납품되는 고정밀 FCS입니다. 레이시온의 저격 모델들이 기동성을 깎아내며 초장거리에 집착할 때, 스파르탄 다이내믹스는 '보병의 교전 거리 내에서의 절대적인 적중률'을 택했습니다. 돌격소총부터 전투소총까지, 어떤 총기를 쥐여줘도 군더더기 없는 완벽한 타격을 보장합니다.",
+    "weight": "16 g",
+    "volume": "8 ml",
+    "price": "1800 USD",
+    "price_postapoc": "180 USD",
+    "to_hit": -2,
+    "material": [ "superalloy", "steel" ],
+    "symbol": "[",
+    "looks_like": "mobile_memory_card",
+    "color": "dark_gray",
+    "covers": [ "head" ],
+    "coverage": 0,
+    "encumbrance": 25,
+    "material_thickness": 2,
+    "flags": [ "ONLY_ONE", "ALLOWS_NATURAL_ATTACKS", "UNBREAKABLE", "COMPACT", "POWERARMOR_COMPATIBLE" ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "RANGED_DISPERSION", "multiply": -0.3 },
+            { "value": "RANGED_RECOIL", "multiply": -0.05 },
+            { "value": "RANGED_DAMAGE_BULLET", "multiply": 0.15 },
+            { "value": "RANGED_RANGE", "multiply": 0.2 },
+            { "value": "RANGED_AIM_SPEED", "multiply": 0.13 }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sq_musco_fcs_lite",
+    "type": "ARMOR",
+    "name": { "str_sp": "MUSCO FGP-90C 보급형 FCS" },
+    "description": "FGP-91의 '무난함'조차 부담스러워하는 징집병이나 민간 보안 업체를 위해 성능과 단가를 더 둥글게 깎아낸 염가형 모델입니다. 화기 운용 능력을 획기적으로 올려주지는 않지만, 매우 가볍고 시스템 부하가 적어 어떤 조잡한 컴뱃 아머에 달아도 고장 없이 쾌적하게 작동합니다.",
+    "weight": "8 g",
+    "volume": "4 ml",
+    "price": "900 USD",
+    "price_postapoc": "90 USD",
+    "to_hit": -1,
+    "material": [ "superalloy", "plastic" ],
+    "symbol": "[",
+    "looks_like": "mobile_memory_card",
+    "color": "light_red",
+    "covers": [ "head" ],
+    "coverage": 0,
+    "encumbrance": 13,
+    "material_thickness": 1,
+    "flags": [ "ONLY_ONE", "ALLOWS_NATURAL_ATTACKS", "UNBREAKABLE", "COMPACT", "POWERARMOR_COMPATIBLE" ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "RANGED_DISPERSION", "multiply": -0.18 },
+            { "value": "RANGED_DAMAGE_BULLET", "add": 3 },
+            { "value": "RANGED_RECOIL", "multiply": -0.14 },
+            { "value": "RANGED_RELOAD_TIME", "multiply": -0.18 },
+            { "value": "RANGED_AIM_SPEED", "multiply": 0.16 }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sq_musco_fcs_standard1",
+    "type": "ARMOR",
+    "name": { "str_sp": "MUSCO FGP-91 범용 FCS" },
+    "description": "뮤스코(MUSCO) 사에서 개발한 군용 표준 사격 통제 시스템입니다. 모든 환경에서 안정적인 성능을 발휘하도록 설계되었으며, 보병의 기본 교전 거리에서 조준 속도, 명중률, 반동 제어 등 전반적인 화기 운용 능력을 균형 있게 향상시킵니다. '가장 무난한 것이 가장 강력하다'는 철학이 담긴 베스트셀러입니다.",
+    "weight": "10 g",
+    "volume": "5 ml",
+    "price": "1600 USD",
+    "price_postapoc": "160 USD",
+    "to_hit": -2,
+    "material": [ "superalloy", "plastic" ],
+    "symbol": "[",
+    "looks_like": "mobile_memory_card",
+    "color": "light_red",
+    "covers": [ "head" ],
+    "coverage": 0,
+    "encumbrance": 20,
+    "material_thickness": 1,
+    "flags": [ "ONLY_ONE", "ALLOWS_NATURAL_ATTACKS", "UNBREAKABLE", "COMPACT", "POWERARMOR_COMPATIBLE" ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "RANGED_DISPERSION", "multiply": -0.25 },
+            { "value": "RANGED_DAMAGE_BULLET", "add": 5 },
+            { "value": "RANGED_RANGE", "multiply": 0.15 },
+            { "value": "RANGED_RECOIL", "multiply": -0.2 },
+            { "value": "RANGED_RELOAD_TIME", "multiply": -0.2 },
+            { "value": "RANGED_AIM_SPEED", "multiply": 0.22 }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sq_musco_fcs_standard2",
+    "type": "ARMOR",
+    "name": { "str_sp": "MUSCO FSP-91A1 전술 FCS" },
+    "description": "FGP-91의 개량형으로, 특수작전 환경에 맞춰 기동성과 반응 속도를 최적화한 전술 모델입니다. 범용 모델보다 화력 보정이 조금 높고, 가벼운 시스템 부하와 빠른 조준 속도를 제공하여 돌발 상황에서 적보다 먼저 방아쇠를 당길 수 있게 해줍니다.",
+    "weight": "10 g",
+    "volume": "5 ml",
+    "price": "1600 USD",
+    "price_postapoc": "160 USD",
+    "to_hit": -2,
+    "material": [ "superalloy", "plastic" ],
+    "symbol": "[",
+    "looks_like": "mobile_memory_card",
+    "color": "light_red",
+    "covers": [ "head" ],
+    "coverage": 0,
+    "encumbrance": 17,
+    "material_thickness": 1,
+    "flags": [ "ONLY_ONE", "ALLOWS_NATURAL_ATTACKS", "UNBREAKABLE", "COMPACT", "POWERARMOR_COMPATIBLE" ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "RANGED_DISPERSION", "multiply": -0.33 },
+            { "value": "RANGED_DAMAGE_BULLET", "add": 8 },
+            { "value": "RANGED_RANGE", "add": 2 },
+            { "value": "RANGED_RECOIL", "multiply": -0.12 },
+            { "value": "RANGED_RELOAD_TIME", "multiply": -0.25 },
+            { "value": "RANGED_AIM_SPEED", "multiply": 0.3 }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sq_wraitheon_fcs_close1",
+    "type": "ARMOR",
+    "name": { "str_sp": "FCS/01 레이시온 스콜 (돌파형)" },
+    "description": "대테러 부대의 실내 진입(Breaching)을 위해 극단적으로 튜닝된 포인트맨 전용 FCS입니다. 사거리 연산을 과감히 포기한 대신 조준선 정렬과 반동 제어에 시스템 자원을 쏟아부어, 문을 박차고 들어가는 찰나의 순간에 압도적인 반사 신경으로 적을 찢어버릴 수 있습니다. 단, 중장거리에서는 시야 초점이 맞지 않아 무용지물이 됩니다.",
+    "weight": "10 g",
+    "volume": "5 ml",
+    "price": "1600 USD",
+    "price_postapoc": "160 USD",
+    "to_hit": -2,
+    "material": [ "superalloy", "plastic" ],
+    "symbol": "[",
+    "looks_like": "mobile_memory_card",
+    "color": "light_red",
+    "covers": [ "head" ],
+    "coverage": 0,
+    "encumbrance": 25,
+    "material_thickness": 1,
+    "flags": [ "ONLY_ONE", "ALLOWS_NATURAL_ATTACKS", "UNBREAKABLE", "COMPACT", "POWERARMOR_COMPATIBLE" ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "RANGED_DISPERSION", "multiply": -0.1 },
+            { "value": "RANGED_DAMAGE_BULLET", "multiply": 0.2, "add": 7 },
+            { "value": "RANGED_RANGE", "multiply": -0.75, "add": 18 },
+            { "value": "RANGED_RECOIL", "multiply": -0.25 },
+            { "value": "RANGED_RELOAD_TIME", "multiply": -0.4 },
+            { "value": "RANGED_AIM_SPEED", "multiply": 0.7 }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sq_wraitheon_fcs_close2",
+    "type": "ARMOR",
+    "name": { "str_sp": "FCS/02 레이시온 스톰 (제압형)" },
+    "description": "골목길이나 좁은 도심지 등 복잡한 시가지 교전을 상정하고 개발된 중근거리 제압용 FCS입니다. '스콜' 모델의 극단성을 조금 덜어내고 최소한의 사거리를 확보하여, 다수의 적에게 지속적인 화망을 형성하고 제압 사격을 가하는 데 최적화되어 있습니다.",
+    "weight": "10 g",
+    "volume": "5 ml",
+    "price": "1600 USD",
+    "price_postapoc": "160 USD",
+    "to_hit": -2,
+    "material": [ "superalloy", "plastic" ],
+    "symbol": "[",
+    "looks_like": "mobile_memory_card",
+    "color": "light_red",
+    "covers": [ "head" ],
+    "coverage": 0,
+    "encumbrance": 30,
+    "material_thickness": 1,
+    "flags": [ "ONLY_ONE", "ALLOWS_NATURAL_ATTACKS", "UNBREAKABLE", "COMPACT", "POWERARMOR_COMPATIBLE" ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "RANGED_DISPERSION", "multiply": -0.23 },
+            { "value": "RANGED_DAMAGE_BULLET", "add": 10 },
+            { "value": "RANGED_RANGE", "multiply": -0.4, "add": 14 },
+            { "value": "RANGED_RECOIL", "multiply": -0.2 },
+            { "value": "RANGED_RELOAD_TIME", "multiply": -0.25 },
+            { "value": "RANGED_AIM_SPEED", "multiply": 0.5 }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sq_wraitheon_fcs_far_mild",
+    "type": "ARMOR",
+    "name": { "str_sp": "FCS/04M 레이시온 아르고스 (정찰저격형)" },
+    "description": "'오버시어' 모델의 극단적인 조준 속도 및 재장전 페널티를 완화한 마일드 버전입니다. 가시거리 밖의 표적을 삭제해버리는 오버시어 특유의 쾌감은 다소 줄었지만, 중장거리 교전에서 사수에게 필요한 최소한의 기동성과 시야 확보 능력을 돌려주어 훨씬 유연한 저격 플레이가 가능합니다.",
+    "weight": "10 g",
+    "volume": "5 ml",
+    "price": "1500 USD",
+    "price_postapoc": "150 USD",
+    "to_hit": -2,
+    "material": [ "superalloy", "plastic" ],
+    "symbol": "[",
+    "looks_like": "mobile_memory_card",
+    "color": "light_red",
+    "covers": [ "head" ],
+    "coverage": 0,
+    "encumbrance": 22,
+    "material_thickness": 1,
+    "flags": [ "ONLY_ONE", "ALLOWS_NATURAL_ATTACKS", "UNBREAKABLE", "COMPACT", "POWERARMOR_COMPATIBLE" ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "RANGED_DISPERSION", "multiply": -0.35 },
+            { "value": "RANGED_DAMAGE_BULLET", "multiply": 0.1 },
+            { "value": "RANGED_RANGE", "multiply": 0.22 },
+            { "value": "RANGED_RECOIL", "multiply": -0.14 },
+            { "value": "RANGED_AIM_SPEED", "multiply": 0.07 }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sq_wraitheon_fcs_far1",
+    "type": "ARMOR",
+    "name": { "str_sp": "FCS/03 레이시온 호크아이 (지정사수형)" },
+    "description": "분대 내 지정사수(DMR)를 위해 설계된 중장거리 타격용 FCS입니다. 조준 속도와 기동 사격 시의 반동 제어를 일부 희생한 대신, 교전 거리와 단발 정밀도를 대폭 끌어올렸습니다. 급소 타격 알고리즘이 적용되어 있어, 적의 인지 범위 밖에서 치명적인 피해를 입히는 데 탁월합니다.",
+    "weight": "10 g",
+    "volume": "5 ml",
+    "price": "1600 USD",
+    "price_postapoc": "160 USD",
+    "to_hit": -2,
+    "material": [ "superalloy", "plastic" ],
+    "symbol": "[",
+    "looks_like": "mobile_memory_card",
+    "color": "light_red",
+    "covers": [ "head" ],
+    "coverage": 0,
+    "encumbrance": 28,
+    "material_thickness": 1,
+    "flags": [ "ONLY_ONE", "ALLOWS_NATURAL_ATTACKS", "UNBREAKABLE", "COMPACT", "POWERARMOR_COMPATIBLE" ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "RANGED_DISPERSION", "multiply": -0.55 },
+            { "value": "RANGED_DAMAGE_BULLET", "multiply": 0.15 },
+            { "value": "RANGED_RANGE", "multiply": 0.27 },
+            { "value": "RANGED_RECOIL", "multiply": -0.1 },
+            { "value": "RANGED_AIM_SPEED", "multiply": -0.12 }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sq_wraitheon_fcs_far2",
+    "type": "ARMOR",
+    "name": { "str_sp": "FCS/04 레이시온 오버시어 (대물저격형)" },
+    "description": "'전장의 감시자'라는 이명을 가진 초장거리 저격 전용 FCS입니다. 근접전 생존에 필요한 조준 속도와 재장전 편의성 등 모든 기동 요소를 무시하고, 오직 가시거리 한계선 너머의 고가치 표적을 완벽하게 삭제하기 위한 극한의 탄도 보정 및 운동 에너지 증폭 연산에만 집중했습니다.",
+    "weight": "10 g",
+    "volume": "5 ml",
+    "price": "1600 USD",
+    "price_postapoc": "160 USD",
+    "to_hit": -2,
+    "material": [ "superalloy", "plastic" ],
+    "symbol": "[",
+    "looks_like": "mobile_memory_card",
+    "color": "light_red",
+    "covers": [ "head" ],
+    "coverage": 0,
+    "encumbrance": 32,
+    "material_thickness": 1,
+    "flags": [ "ONLY_ONE", "ALLOWS_NATURAL_ATTACKS", "UNBREAKABLE", "COMPACT", "POWERARMOR_COMPATIBLE" ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "RANGED_DISPERSION", "multiply": -0.75 },
+            { "value": "RANGED_DAMAGE_BULLET", "multiply": 0.23 },
+            { "value": "RANGED_RANGE", "multiply": 0.4 },
+            { "value": "RANGED_RELOAD_TIME", "multiply": 0.3 },
+            { "value": "RANGED_AIM_SPEED", "multiply": -0.2 }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sq_hanwha_fcs_assault1",
+    "type": "ARMOR",
+    "name": { "str_sp": "한화 디펜스 HF-K1 '비호' (돌격지원형)" },
+    "description": "한화 에어로스페이스에서 궤도 차량의 사격 통제 기술을 보병용으로 소형화하여 개발한 무기 관제 시스템입니다. 뮤스코(MUSCO) 제품만큼 정밀도가 뛰어나지는 않지만, 특유의 쇼크업소버(Shock Absorber) 알고리즘 덕분에 연발 사격 시의 반동 제어 능력이 탁월합니다. 진흙탕에 구르거나 영하의 온도에서도 스펙트럼 오류 없이 무난하고 안정적으로 작동하는 훌륭한 신뢰성을 자랑합니다.",
+    "weight": "15 g",
+    "volume": "8 ml",
+    "price": "1400 USD",
+    "price_postapoc": "140 USD",
+    "to_hit": -2,
+    "material": [ "superalloy", "plastic" ],
+    "symbol": "[",
+    "looks_like": "mobile_memory_card",
+    "color": "light_red",
+    "covers": [ "head" ],
+    "coverage": 0,
+    "encumbrance": 23,
+    "material_thickness": 1,
+    "flags": [ "ONLY_ONE", "ALLOWS_NATURAL_ATTACKS", "UNBREAKABLE", "COMPACT", "POWERARMOR_COMPATIBLE" ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "RANGED_RECOIL", "multiply": -0.35 },
+            { "value": "RANGED_DISPERSION", "multiply": -0.2 },
+            { "value": "RANGED_RANGE", "multiply": 0.07 },
+            { "value": "RANGED_AIM_SPEED", "multiply": 0.15 }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sq_hanwha_fcs_assault_mild",
+    "type": "ARMOR",
+    "name": { "str_sp": "한화 디펜스 HF-K2M '반석' (기동지원형)" },
+    "description": "포탑에 가까운 '마동'의 압도적인 반동 제어력을 살짝 깎아내고 밸런스를 맞춘 모델입니다. 거대한 중화기를 들고도 어느 정도 보병의 형태를 유지하며 이동 사격이 가능하도록 쇼크업소버의 유연성을 늘렸습니다. 마동만큼 제자리에 완벽하게 말뚝을 박을 수는 없지만, 진지 변환과 위치 사수가 훨씬 매끄럽습니다.",
+    "weight": "16 g",
+    "volume": "9 ml",
+    "price": "1450 USD",
+    "price_postapoc": "145 USD",
+    "to_hit": -2,
+    "material": [ "superalloy", "plastic" ],
+    "symbol": "[",
+    "looks_like": "mobile_memory_card",
+    "color": "light_red",
+    "covers": [ "head" ],
+    "coverage": 0,
+    "encumbrance": 24,
+    "material_thickness": 1,
+    "flags": [ "ONLY_ONE", "ALLOWS_NATURAL_ATTACKS", "UNBREAKABLE", "COMPACT", "POWERARMOR_COMPATIBLE" ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "RANGED_RECOIL", "multiply": -0.53 },
+            { "value": "RANGED_DISPERSION", "multiply": -0.23 },
+            { "value": "RANGED_RANGE", "multiply": 0.04 },
+            { "value": "RANGED_AIM_SPEED", "multiply": -0.08 }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sq_hanwha_fcs_assault2",
+    "type": "ARMOR",
+    "name": { "str_sp": "한화 디펜스 HF-K2 '마동' (지원화기용)" },
+    "description": "다목적 기관총(GPMG) 및 중화기의 지속 사격 지원을 위해 설계된 한화의 헤비듀티(Heavy-duty) FCS입니다. 조준 보조 속도는 평범한 수준에 머물러 있으나, 기계적 내구성과 반동 상쇄 연산 능력을 한계까지 끌어올렸습니다. 거대한 화기에서 뿜어져 나오는 맹렬한 반동을 억제하여, 보병이 제자리에서 쏟아내는 탄막을 마치 포탑처럼 안정적으로 유지해 줍니다.",
+    "weight": "18 g",
+    "volume": "10 ml",
+    "price": "1550 USD",
+    "price_postapoc": "150 USD",
+    "to_hit": -2,
+    "material": [ "superalloy", "plastic" ],
+    "symbol": "[",
+    "looks_like": "mobile_memory_card",
+    "color": "light_red",
+    "covers": [ "head" ],
+    "coverage": 0,
+    "encumbrance": 28,
+    "material_thickness": 1,
+    "flags": [ "ONLY_ONE", "ALLOWS_NATURAL_ATTACKS", "UNBREAKABLE", "COMPACT", "POWERARMOR_COMPATIBLE" ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "RANGED_RECOIL", "multiply": -0.7 },
+            { "value": "RANGED_DISPERSION", "multiply": -0.3 },
+            { "value": "RANGED_RANGE", "multiply": 0.08 },
+            { "value": "RANGED_AIM_SPEED", "multiply": -0.15 }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sq_boeingdaewoo_fcs_opt1",
+    "type": "ARMOR",
+    "name": { "str_sp": "보잉-대우 BD-FCS-01 '아이기스'" },
+    "description": "보잉-대우의 표준형 무기 관제 시스템입니다. 타 제조사 제품과는 차원이 다른 연산 처리 능력을 기반으로, 광학 병기의 위력 감쇄를 최소화하는 보정 알고리즘이 탑재되었습니다. 고가인 만큼 모든 성능이 뛰어나지만, 시스템 유지를 위해 수시로 아머의 전력을 끌어다 쓰기로 악명이 높습니다.",
+    "weight": "12 g",
+    "volume": "6 ml",
+    "price": "4500 USD",
+    "price_postapoc": "450 USD",
+    "to_hit": -1,
+    "material": [ "superalloy", "glass" ],
+    "symbol": "[",
+    "looks_like": "mobile_memory_card",
+    "color": "cyan",
+    "covers": [ "head" ],
+    "coverage": 0,
+    "encumbrance": 30,
+    "material_thickness": 1,
+    "flags": [ "ONLY_ONE", "ALLOWS_NATURAL_ATTACKS", "UNBREAKABLE", "COMPACT", "POWERARMOR_COMPATIBLE" ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "RANGED_DISPERSION", "multiply": -0.18 },
+            { "value": "RANGED_DAMAGE_BULLET", "multiply": 0.15 },
+            { "value": "RANGED_RANGE", "multiply": 0.12 },
+            { "value": "RANGED_AIM_SPEED", "multiply": 0.2 }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sq_boeingdaewoo_fcs_opt_mild",
+    "type": "ARMOR",
+    "name": { "str_sp": "보잉-대우 BD-FCS-02M '플레어'" },
+    "description": "'프로미넌스'의 끔찍한 명중률 하락과 반동 증가라는 하이리스크를 견디지 못한 파일럿들의 원성에 보잉-대우가 마지못해 내놓은 타협안입니다. 출력 증폭 수치를 적정선으로 낮추어 명중률 페널티를 크게 줄였습니다. 고삐 풀린 야생마 같던 프로미넌스에 비하면 훨씬 길들이기 쉬워졌습니다.",
+    "weight": "14 g",
+    "volume": "7 ml",
+    "price": "5500 USD",
+    "price_postapoc": "550 USD",
+    "to_hit": -1,
+    "material": [ "superalloy", "glass" ],
+    "symbol": "[",
+    "looks_like": "mobile_memory_card",
+    "color": "cyan",
+    "covers": [ "head" ],
+    "coverage": 0,
+    "encumbrance": 33,
+    "material_thickness": 1,
+    "flags": [ "ONLY_ONE", "ALLOWS_NATURAL_ATTACKS", "UNBREAKABLE", "COMPACT", "POWERARMOR_COMPATIBLE" ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "RANGED_DAMAGE_BULLET", "multiply": 0.25 },
+            { "value": "RANGED_RANGE", "multiply": 0.1 },
+            { "value": "RANGED_DISPERSION", "multiply": 0.1 },
+            { "value": "RANGED_RECOIL", "multiply": 0.15 },
+            { "value": "RANGED_AIM_SPEED", "multiply": 0.15 }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sq_boeingdaewoo_fcs_opt2",
+    "type": "ARMOR",
+    "name": { "str_sp": "보잉-대우 BD-FCS-02X '프로미넌스'" },
+    "description": "차세대 에너지 병기 운용을 위해 설계된 실험용 고출력 FCS입니다. '한 발의 결정력'을 극대화하기 위해 탄도 보정보다는 출력 증폭 연산에 자원을 집중했습니다. 이 시스템이 장착된 컴뱃 아머는 전장의 포식자가 되지만, 장시간 교전 시 기체 배터리 잔량을 심각하게 우려해야 할 것입니다.",
+    "weight": "15 g",
+    "volume": "8 ml",
+    "price": "6200 USD",
+    "price_postapoc": "620 USD",
+    "to_hit": -1,
+    "material": [ "superalloy", "glass" ],
+    "symbol": "[",
+    "looks_like": "mobile_memory_card",
+    "color": "cyan",
+    "covers": [ "head" ],
+    "coverage": 0,
+    "encumbrance": 38,
+    "material_thickness": 1,
+    "flags": [ "ONLY_ONE", "ALLOWS_NATURAL_ATTACKS", "UNBREAKABLE", "COMPACT", "POWERARMOR_COMPATIBLE" ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "RANGED_DAMAGE_BULLET", "multiply": 0.45 },
+            { "value": "RANGED_RANGE", "multiply": 0.1 },
+            { "value": "RANGED_DISPERSION", "multiply": 0.25 },
+            { "value": "RANGED_RECOIL", "multiply": 0.27 },
+            { "value": "RANGED_AIM_SPEED", "multiply": 0.05 }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sq_boeingdaewoo_fcs_opt3",
+    "type": "ARMOR",
+    "name": { "str_sp": "보잉-대우 BD-FCS-03 '싱귤러리티'" },
+    "description": "보잉-대우 기술력의 결정체로, 초장거리 저격 및 광역 제압용 멀티 타겟팅 시스템입니다. 수천 개의 변수를 실시간으로 계산하여 명중률을 극단적으로 끌어올립니다. 정예 파일럿들이 선호할 법한 이 모듈은 마치 전장을 체스판처럼 내려다보는 듯한 정밀함을 사수에게 제공합니다.",
+    "weight": "10 g",
+    "volume": "5 ml",
+    "price": "8800 USD",
+    "price_postapoc": "880 USD",
+    "to_hit": 0,
+    "material": [ "superalloy", "glass" ],
+    "symbol": "[",
+    "looks_like": "mobile_memory_card",
+    "color": "cyan",
+    "covers": [ "head" ],
+    "coverage": 0,
+    "encumbrance": 45,
+    "material_thickness": 1,
+    "flags": [ "ONLY_ONE", "ALLOWS_NATURAL_ATTACKS", "UNBREAKABLE", "COMPACT", "POWERARMOR_COMPATIBLE" ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "RANGED_DISPERSION", "multiply": -0.3 },
+            { "value": "RANGED_DAMAGE_BULLET", "multiply": 0.33 },
+            { "value": "RANGED_RANGE", "multiply": 0.13 },
+            { "value": "RANGED_RECOIL", "multiply": 0.3 }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sq_survivor_fcs_basic",
+    "type": "ARMOR",
+    "name": { "str_sp": "생존용 간이 광학 FCS" },
+    "description": "파손된 스마트 기기의 고해상도 카메라와 거리 측정 센서를 조합해 만든 조잡하지만 확실한 사격 보조 장치입니다. 전문적인 탄도 연산 기능은 부족하지만, 육안에 의존하는 것보다 훨씬 빠른 조준선 정렬을 도와줍니다. 기술력이 부족한 초반 단계에서도 기초적인 부품만으로 제작할 수 있는 것이 가장 큰 장점입니다.",
+    "weight": "25 g",
+    "volume": "15 ml",
+    "price": "200 USD",
+    "price_postapoc": "20 USD",
+    "to_hit": -1,
+    "material": [ "aluminum", "plastic" ],
+    "symbol": "[",
+    "looks_like": "mobile_memory_card",
+    "color": "yellow",
+    "covers": [ "head" ],
+    "coverage": 0,
+    "encumbrance": 12,
+    "material_thickness": 1,
+    "flags": [ "ONLY_ONE", "ALLOWS_NATURAL_ATTACKS", "UNBREAKABLE", "COMPACT", "POWERARMOR_COMPATIBLE" ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [ { "value": "RANGED_DISPERSION", "multiply": -0.08 }, { "value": "RANGED_AIM_SPEED", "multiply": 0.15 } ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sq_survivor_fcs_chimera",
+    "type": "ARMOR",
+    "name": { "str_sp": "생존용 하이브리드 FCS '키메라'" },
+    "description": "MUSCO 사의 재장전 알고리즘 소스와 레이시온 스콜의 근접 조준 모듈을 강제로 병렬 연결한 변종 시스템입니다. 두 기업 제품의 장점인 빠른 조준과 민첩한 무장 교체 능력을 동시에 확보하는 데 성공했지만, 연산 충돌로 인해 사격 시 발생하는 충격을 전혀 제어하지 못합니다. 반동을 상쇄할 자원까지 조준 연산에 쏟아부은 극단적인 결과물입니다.",
+    "weight": "20 g",
+    "volume": "10 ml",
+    "price": "800 USD",
+    "price_postapoc": "80 USD",
+    "to_hit": -2,
+    "material": [ "superalloy", "plastic" ],
+    "symbol": "[",
+    "looks_like": "mobile_memory_card",
+    "color": "green",
+    "covers": [ "head" ],
+    "coverage": 0,
+    "encumbrance": 25,
+    "material_thickness": 1,
+    "flags": [ "ONLY_ONE", "ALLOWS_NATURAL_ATTACKS", "UNBREAKABLE", "COMPACT", "POWERARMOR_COMPATIBLE" ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "RANGED_AIM_SPEED", "multiply": 0.4 },
+            { "value": "RANGED_RELOAD_TIME", "multiply": -0.3 },
+            { "value": "RANGED_RECOIL", "multiply": 0.4 },
+            { "value": "RANGED_DISPERSION", "multiply": 0.08 }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "sq_survivor_fcs_refined",
+    "type": "ARMOR",
+    "name": { "str_sp": "생존용 정밀 개조 FCS" },
+    "description": "수많은 실전을 거치며 최적화된 커스텀 펌웨어가 탑재된 독립 제작 모델입니다. 대기업의 범용 제품들이 가진 불필요한 안전 가이드라인을 해제하고, 오직 황무지에서의 사격 효율에만 집중했습니다. MUSCO의 표준 모델에 육박하는 안정성과 레이시온 모델의 날카로움을 동시에 갖춘, 생존자의 기술력이 정점에 달했음을 보여주는 걸작입니다.",
+    "weight": "12 g",
+    "volume": "6 ml",
+    "price": "2200 USD",
+    "price_postapoc": "220 USD",
+    "to_hit": -2,
+    "material": [ "superalloy", "glass" ],
+    "symbol": "[",
+    "looks_like": "mobile_memory_card",
+    "color": "white",
+    "covers": [ "head" ],
+    "coverage": 0,
+    "encumbrance": 20,
+    "material_thickness": 1,
+    "flags": [ "ONLY_ONE", "ALLOWS_NATURAL_ATTACKS", "UNBREAKABLE", "COMPACT", "POWERARMOR_COMPATIBLE" ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "RANGED_DISPERSION", "multiply": -0.22 },
+            { "value": "RANGED_RECOIL", "multiply": -0.15 },
+            { "value": "RANGED_AIM_SPEED", "multiply": 0.3 },
+            { "value": "RANGED_DAMAGE_BULLET", "add": 5 }
+          ]
+        }
+      ]
+    }
+  }
+]

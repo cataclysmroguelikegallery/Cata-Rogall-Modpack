@@ -2617,8 +2617,8 @@ msgstr ""
 #: .\advtech\sq_nano_generic_comp.json
 msgid "베르티곤"
 msgid_plural "베르티곤"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "vertigon"
+msgstr[1] "vertigon"
 
 #. ~ Description for {'str': '베르티곤', 'str_pl': '베르티곤'}
 #: .\advtech\sq_nano_generic_comp.json
@@ -2631,6 +2631,15 @@ msgid ""
 "관을 찢어놓을 듯한 우주적인 멀미를 유발합니다. 어쩌면 이 입자들은 스스로의 의"
 "지를 가지고 있는 것 같습니다."
 msgstr ""
+"It is an unknown mass of particles that possesses a bizarre property—defying "
+"Earth’s gravity and constantly “falling” into the void—and emits a deep, "
+"unstable amethyst-like purple glow. Even when simply held in one’s hand, an "
+"unpleasant force field seems to pull the palm upward, while a nerve-grating, "
+"subtle vibration seeps deep into the bones. This pale mass of particles, "
+"which giant corporations regard as the heart of overtechnology, induces a "
+"cosmic vertigo severe enough to tear apart a human’s semicircular canals "
+"simply by being kept nearby without a shielding barrier. Perhaps these "
+"particles possess a will of their own."
 
 #: .\advtech\sq_nano_generic_comp.json
 msgid "겹층 탄화물 묶음"
