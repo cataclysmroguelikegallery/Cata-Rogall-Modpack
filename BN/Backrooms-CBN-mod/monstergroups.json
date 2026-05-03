@@ -1,0 +1,27 @@
+[
+  {
+    "type": "monstergroup",
+    "name": "GROUP_BACKROOMS",
+    "default": "mon_zombie",
+    "monsters": [
+      { "monster": "mon_zombie", "pack_size": [ 1, 2 ], "freq": 920, "cost_multiplier": 1 },
+      { "monster": "mon_cat", "pack_size": [ 1, 1 ], "freq": 15, "cost_multiplier": 1 },
+      { "monster": "mon_dog", "pack_size": [ 1, 1 ], "freq": 15, "cost_multiplier": 1 },
+      { "monster": "mon_mutant_experimental", "freq": 1, "cost_multiplier": 1, "pack_size": [ 1, 1 ] },
+      { "monster": "mon_broken_cyborg", "freq": 1, "cost_multiplier": 1, "pack_size": [ 1, 1 ] },
+      { "monster": "mon_broken_cyborg", "freq": 1, "cost_multiplier": 1, "pack_size": [ 1, 1 ] },
+      { "monster": "mon_skeleton_brute", "freq": 1, "cost_multiplier": 1, "pack_size": [ 1, 1 ] },
+      { "monster": "mon_cougar", "freq": 4, "cost_multiplier": 1, "pack_size": [ 1, 1 ] },
+      { "monster": "mon_bobcat", "freq": 4, "cost_multiplier": 1, "pack_size": [ 1, 1 ] },
+      { "monster": "mon_bear", "freq": 4, "cost_multiplier": 1, "pack_size": [ 1, 1 ] },
+      { "monster": "mon_moose", "freq": 4, "cost_multiplier": 1, "pack_size": [ 1, 1 ] },
+      { "monster": "mon_wolf", "freq": 4, "cost_multiplier": 1, "pack_size": [ 1, 1 ] },
+      { "monster": "mon_coyote", "freq": 4, "cost_multiplier": 1, "pack_size": [ 1, 1 ] },
+      { "monster": "mon_duck", "freq": 4, "cost_multiplier": 1, "pack_size": [ 1, 1 ] },
+      { "monster": "mon_goose_canadian", "freq": 4, "cost_multiplier": 1, "pack_size": [ 1, 1 ] },
+      { "monster": "mon_raccoon", "freq": 4, "cost_multiplier": 1, "pack_size": [ 1, 1 ] },
+      { "monster": "mon_opossum", "freq": 4, "cost_multiplier": 1, "pack_size": [ 1, 1 ] },
+      { "monster": "mon_chipmunk", "freq": 4, "cost_multiplier": 1, "pack_size": [ 1, 1 ] }
+    ]
+  }
+]
