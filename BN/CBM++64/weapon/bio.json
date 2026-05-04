@@ -90,7 +90,7 @@
     "type": "TOOL",
     "name": { "str_sp": "autonomous surgical scalpels" },
     "delete": { "qualities": [ [ "CUT_FINE", 5 ] ] },
-    "extends": { "qualities": [ [ "CUT_FINE", 10 ] ] }
+    "extend": { "qualities": [ [ "CUT_FINE", 10 ] ] }
   },
 	{
     "id": "toolset_extended_mk2",
@@ -100,7 +100,7 @@
     "category": "tools",
     "name": { "str": "향상된 확장형 도구모음" },
     "description": "당신의 손에서 튀어 나오는 도구모음. 거의 모든 종류의 도구를 대체할 수 있습니다.",
-    "extends": { "flags": [ "DIG_TOOL", "POWERED" ] },
+    "extend": { "flags": [ "DIG_TOOL", "POWERED" ] },
     "use_action": [
 	    "OXYTORCH",
 	    "JACKHAMMER",
@@ -151,7 +151,7 @@
     "name": { "str": "바이오닉 합성장궁" },	
     "description": "리브텍사의 역작인 무소음 무기입니다. 최대 전차까지 상대할 수 있습니다. 보조 사격 키로 저격 모드를 활성화할 수 있습니다.",
     "material": [ "superalloy", "plastic" ],
-	  "extends": { "weapon_category": [ "MAGNETIC" ], "flags": [ "WATERPROOF_GUN", "NO_DROP", "NO_UNWIELD", "TRADER_AVOID", "NEVER_JAMS", "RELOAD_AND_SHOOT" ] },
+	  "extend": { "weapon_category": [ "MAGNETIC" ], "flags": [ "WATERPROOF_GUN", "NO_DROP", "NO_UNWIELD", "TRADER_AVOID", "NEVER_JAMS", "RELOAD_AND_SHOOT" ] },
     "color": "brown",
     "ammo": "arrow",
 	  "reload": 10,
@@ -210,7 +210,7 @@
     "description": "손등에 장착된 석궁입니다. 가까이 있는 폭발물을 급하게 처리할 때 유용합니다.",
     "price": 150,
     "material": [ "superalloy", "plastic" ],
-	  "extends": { "weapon_category": [ "MAGNETIC" ], "flags": [ "WATERPROOF_GUN", "NO_DROP", "NO_UNWIELD", "TRADER_AVOID", "NEVER_JAMS", "RELOAD_AND_SHOOT" ] },
+	  "extend": { "weapon_category": [ "MAGNETIC" ], "flags": [ "WATERPROOF_GUN", "NO_DROP", "NO_UNWIELD", "TRADER_AVOID", "NEVER_JAMS", "RELOAD_AND_SHOOT" ] },
     "ammo": [ "bolt" ],
     "weight": "0 g",
     "volume": "25 ml",
@@ -233,7 +233,7 @@
     "description": "손목에 내장된 슬링샷입니다. 조약돌과 바위를 탄환으로 삼아 쏘아낼 수 있습니다.",
     "price": 150,
     "material": [ "superalloy", "plastic" ],
-	  "extends": { "weapon_category": [ "MAGNETIC" ], "flags": [ "WATERPROOF_GUN", "NO_DROP", "NO_UNWIELD", "TRADER_AVOID", "NEVER_JAMS", "RELOAD_AND_SHOOT" ] },
+	  "extend": { "weapon_category": [ "MAGNETIC" ], "flags": [ "WATERPROOF_GUN", "NO_DROP", "NO_UNWIELD", "TRADER_AVOID", "NEVER_JAMS", "RELOAD_AND_SHOOT" ] },
     "ammo": [ "pebble", "rock" ],
     "weight": "0 g","recoil": 0,
     "volume": "25 ml",
