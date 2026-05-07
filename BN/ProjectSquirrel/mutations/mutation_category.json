@@ -2703,5 +2703,85 @@
     "threshold_mut": "",
     "mutagen_message": "",
     "iv_message": ""
+  },
+  {
+    "type": "mutation_category",
+    "id": "RABBIT_EARS",
+    "name": "rabbit_ears",
+    "threshold_mut": "",
+    "mutagen_message": "",
+    "iv_message": ""
+  },
+  {
+    "type": "mutation_category",
+    "id": "TAIL_RABBIT",
+    "name": "tail_rabbit",
+    "threshold_mut": "",
+    "mutagen_message": "",
+    "iv_message": ""
+  },
+  {
+    "type": "mutation_category",
+    "id": "RABBIT_FUR",
+    "name": "rabbit_fur",
+    "threshold_mut": "",
+    "mutagen_message": "",
+    "iv_message": ""
+  },
+  {
+    "type": "mutation_category",
+    "id": "RABBIT_FEET",
+    "name": "rabbit_feet",
+    "threshold_mut": "",
+    "mutagen_message": "",
+    "iv_message": ""
+  },
+  {
+    "type": "mutation_category",
+    "id": "RABBIT_NOSE",
+    "name": "rabbit_nose",
+    "threshold_mut": "",
+    "mutagen_message": "",
+    "iv_message": ""
+  },
+  {
+    "type": "mutation_category",
+    "id": "THRESH_RABBIT",
+    "name": "thresh_rabbit",
+    "threshold_mut": "",
+    "mutagen_message": "",
+    "iv_message": ""
+  },
+  {
+    "type": "mutation_category",
+    "id": "THRESH_SERPENT",
+    "name": "thresh_serpent",
+    "threshold_mut": "",
+    "mutagen_message": "",
+    "iv_message": ""
+  },
+  {
+    "type": "mutation_category",
+    "id": "TAIL_SNAKE",
+    "name": "tail_snake",
+    "threshold_mut": "",
+    "mutagen_message": "",
+    "iv_message": ""
+  },
+  {
+    "type": "mutation_category",
+    "id": "TAIL_SNAKE_OK",
+    "name": "tail_snake_ok",
+    "threshold_mut": "",
+    "mutagen_message": "",
+    "iv_message": ""
+  },
+  {
+    "type": "mutation_category",
+    "id": "SNAKE_COILS",
+    "name": "snake_coils",
+    "threshold_mut": "",
+    "mutagen_message": "",
+    "iv_message": ""
   }
 ]

@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Jake's_Squirrel_mod\n"
-"POT-Creation-Date: 2026-04-04 06:47+0900\n"
+"POT-Creation-Date: 2026-05-07 08:51+0900\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -3080,27 +3080,10 @@ msgid ""
 "로, 제다이 전사들의 영원한 상징이자, 뉴턴의 불타는 검증 도구이며, 오타쿠 과학"
 "의 정점입니다.  사용하여 끌 수 있습니다."
 msgstr ""
-"The Livtek RMX-01 Experimental Hardlight Blade is a powerful weapon "
+"The Rivtech RMX-01 Experimental Hardlight Blade is a powerful weapon "
 "utilizing laser technology, an eternal symbol of Jedi warriors, a fiery "
 "testament to Newton, and the pinnacle of otaku science.  It can be turned "
 "off by using."
-
-#: .\advtech\sq_vehicle_part.json
-msgid "VTOL 추진기"
-msgid_plural "VTOL 추진기"
-msgstr[0] "VTOL thruster"
-msgstr[1] "VTOL thrusters"
-
-#. ~ Description for VTOL 추진기
-#. ~ Description for {'str': 'VTOL 추진기', 'str_pl': 'VTOL 추진기'}
-#: .\advtech\sq_vehicle_part.json
-msgid ""
-"군용 수직이착륙기나 대형 수송 드론에 사용되는 수직이착륙 추진기입니다. 대지, "
-"바다, 하늘을 가리지 않고 자유롭게 이착륙할 수 있습니다."
-msgstr ""
-"This is a vertical takeoff and landing (VTOL) propulsion system used in "
-"military VTOL aircraft and large transport drones. It allows for free "
-"takeoff and landing on land, at sea, or in the air."
 
 #: .\advtech\sq_vehicle_part.json
 msgid "다중격벽 수소낭"
@@ -3131,30 +3114,6 @@ msgstr ""
 #: .\advtech\sq_vehicle_part.json
 msgid "외장형 다중격벽 수소낭"
 msgstr "external multi-chamber hydrogen bladder"
-
-#: .\advtech\sq_vehicle_part.json
-msgid "제트 추진기"
-msgid_plural "제트 추진기s"
-msgstr[0] "jet thruster"
-msgstr[1] "jet thrusters"
-
-#. ~ Description for 제트 추진기
-#. ~ Description for {'str': '제트 추진기'}
-#: .\advtech\sq_vehicle_part.json
-msgid ""
-"군사 등급의 항공우주 공학이 집약된 제트 추진기 모듈입니다. 원래는 차세대 건쉽"
-"이나 대형 수송 드론의 자세 제어 및 주 동력원으로 사용되던 물건으로, 일반적인 "
-"내연기관과는 궤를 달리하는 압도적인 추력 대 중량비를 자랑합니다."
-msgstr ""
-"This jet propulsion module is a concentrated embodiment of military-grade "
-"aerospace engineering. Originally designed for use as the primary propulsion "
-"system and attitude control mechanism in next-generation gunships and large "
-"transport drones, it boasts an overwhelming thrust-to-weight ratio that far "
-"surpasses that of conventional internal combustion engines."
-
-#: .\advtech\sq_vehicle_part.json
-msgid "외장형 제트 추진기"
-msgstr "external jet thruster"
 
 #: .\advtech\sq_vehicle_part.json
 msgid "반중력 호버 장치"
@@ -3475,134 +3434,6 @@ msgstr "layered carbide roof"
 #: .\advtech\sq_vehicle_part.json
 msgid "두꺼운 겹층 탄화물 지붕."
 msgstr "A thick layered carbide roof."
-
-#: .\advtech\sq_advanced_module_armor\sq_advanced_module_armor_head.json
-msgid "모듈형 컴뱃 아머 헤드"
-msgid_plural "모듈형 컴뱃 아머 헤드s"
-msgstr[0] ""
-msgstr[1] ""
-
-#: .\advtech\sq_advanced_module_armor\sq_advanced_module_armor_head.json
-msgid "모듈형 컴뱃 아머 바디"
-msgid_plural "모듈형 컴뱃 아머 바디s"
-msgstr[0] ""
-msgstr[1] ""
-
-#: .\advtech\sq_advanced_module_armor\sq_advanced_module_armor_head.json
-msgid "H-01 그래니트 헬멧"
-msgid_plural "H-01 그래니트 헬멧s"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': 'H-01 그래니트 헬멧'}
-#: .\advtech\sq_advanced_module_armor\sq_advanced_module_armor_head.json
-msgid ""
-"한화 디펜스에서 대량 생산한 1.5세대 중표준 컴뱃 아머 헬멧. 자사의 2세대 고급"
-"형 모델 설계도에서 '불필요한 편의 및 연산 기능'을 극단적으로 덜어낸 원가 절감"
-"의 결정체입니다. 내부 공간을 배려하지 않은 설계 탓에 착용감이 끔찍하고 추가적"
-"인 FCS 칩셋을 달 확장성도 거의 없지만, 그 빈 공간을 무식하게 두꺼운 합금 장갑"
-"판으로 채워 넣었습니다. 총알이 빗발치는 전장에서는 이 멍청한 쇳덩어리만큼 확"
-"실한 생명 보험도 없었습니다.\n"
-"보너스: 행동속도 +5%, 힘 +1, 민첩 +1, 인지 +1"
-msgstr ""
-
-#: .\advtech\sq_advanced_module_armor\sq_advanced_module_armor_head.json
-msgid "MHD-10 미그란트 헤드기어"
-msgid_plural "MHD-10 미그란트 헤드기어s"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': 'MHD-10 미그란트 헤드기어'}
-#: .\advtech\sq_advanced_module_armor\sq_advanced_module_armor_head.json
-msgid ""
-"스파르탄 다이내믹스의 표준형 2세대 컴뱃아머 헬멧. 대격변 이전의 기술력을 집약"
-"하여 어떤 전장에서도 파일럿을 보호하고 기본적인 정보를 제공하도록 설계되었습"
-"니다. 모든 스탯이 균형 잡혀 있으며, 특출난 점은 없지만 모난 데도 없습니다.\n"
-"보너스: 행동속도 +5%, 힘 +1, 민첩 +1, 인지 +1"
-msgstr ""
-
-#: .\advtech\sq_advanced_module_armor\sq_advanced_module_armor_head.json
-msgid "BDAH-01 배리어블 헤드"
-msgid_plural "BDAH-01 배리어블 헤드s"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': 'BDAH-01 배리어블 헤드'}
-#: .\advtech\sq_advanced_module_armor\sq_advanced_module_armor_head.json
-msgid ""
-"보잉-대우의 양산형 컴뱃아머 헤드. 첨단 항공우주 기술과 에너지 관리 시스템을 "
-"접목하여 개발된 밸런스형 헤드 파츠입니다. 과도한 기능보다는 핵심적인 생존성"
-"을 우선한 설계입니다."
-msgstr ""
-
-#: .\advtech\sq_advanced_module_armor\sq_advanced_module_armor_head.json
-msgid "RAH-15 스펙터 헤드유닛"
-msgid_plural "RAH-15 스펙터 헤드유닛s"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': 'RAH-15 스펙터 헤드유닛'}
-#: .\advtech\sq_advanced_module_armor\sq_advanced_module_armor_head.json
-msgid ""
-"레이시온의 정찰 및 전자전 특화 헤드유닛. 강력한 스캔 능력과 향상된 정보 처리 "
-"모듈을 내장하여 전장의 시야를 넓힙니다. 대신 방어력은 희생되었으며, 민감한 센"
-"서 시스템은 물리적 충격에 취약할 수 있습니다."
-msgstr ""
-
-#: .\advtech\sq_advanced_module_armor\sq_advanced_module_armor_head.json
-msgid "LTH-07 블리츠 헤드"
-msgid_plural "LTH-07 블리츠 헤드s"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': 'LTH-07 블리츠 헤드'}
-#: .\advtech\sq_advanced_module_armor\sq_advanced_module_armor_head.json
-msgid ""
-"래티튜드(아라가네와 연관)의 경량 고기동 컴뱃아머 헤드. **최대한의 기동성과 에"
-"너지 효율을 위해 설계되었습니다. 극도로 가볍고 전력 소모가 적어 빠른 움직임"
-"을 선호하는 파일럿에게 적합합니다. 다만, 방어력은 모든 모델 중 가장 취약합니"
-"다.**"
-msgstr ""
-
-#: .\advtech\sq_advanced_module_armor\sq_advanced_module_armor_head.json
-msgid "OLH-T01 시커 헤드"
-msgid_plural "OLH-T01 시커 헤드s"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': 'OLH-T01 시커 헤드'}
-#: .\advtech\sq_advanced_module_armor\sq_advanced_module_armor_head.json
-msgid ""
-"오리온 연구소의 최신 정보전 헤드. 일반적인 센서의 범위를 넘어선 '특수 감지' "
-"능력을 내장하여 XEDRA 에너지 잔류물이나 은폐된 물체를 탐지합니다. 최첨단 기술"
-"이 집약된 만큼 가격이 비싸고, 민감한 부품 보호를 위해 방어력이 다소 희생되었"
-"습니다."
-msgstr ""
-
-#: .\advtech\sq_advanced_module_armor\sq_advanced_module_armor_head.json
-msgid "MBD-10 미그란트 컴뱃아머"
-msgid_plural "MBD-10 미그란트 컴뱃아머s"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': 'MBD-10 미그란트 컴뱃아머'}
-#: .\advtech\sq_advanced_module_armor\sq_advanced_module_armor_head.json
-msgid ""
-"스파르탄 다이내믹스의 표준형 2세대 컴뱃아머 슈트. 모난 데 없이 평균적인 스펙"
-"을 가졌다."
-msgstr ""
-
-#: .\advtech\sq_advanced_module_armor\sq_advanced_module_armor_head.json
-msgid "B02 배리어블"
-msgid_plural "B02 배리어블s"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': 'B02 배리어블'}
-#: .\advtech\sq_advanced_module_armor\sq_advanced_module_armor_head.json
-msgid ""
-"보잉-대우의 양산형 2세대 컴뱃아머 슈트. 모난 데 없이 평균적인 스펙을 가졌다."
-msgstr ""
 
 #: .\items\sq_armor_override.json
 msgid "fur coat"
@@ -6453,195 +6284,195 @@ msgstr ""
 "Broken drone: Juggernaut. This drone was seemingly unstoppable, but somehow "
 "its power armor was breached and it fell. Parts recoverable."
 
-#: .\monsters\sq_insect_spider_death_drops.json
+#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
 msgid "skittering plague"
 msgid_plural "skittering plagues"
 msgstr[0] ""
 msgstr[1] ""
 
-#: .\monsters\sq_insect_spider_death_drops.json
+#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
 msgid "plague nymph"
 msgid_plural "plague nymphs"
 msgstr[0] ""
 msgstr[1] ""
 
-#: .\monsters\sq_insect_spider_death_drops.json
+#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
 msgid "plague vector"
 msgid_plural "plague vectors"
 msgstr[0] ""
 msgstr[1] ""
 
-#: .\monsters\sq_insect_spider_death_drops.json
+#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
 msgid "giant cockroach"
 msgid_plural "giant cockroaches"
 msgstr[0] ""
 msgstr[1] ""
 
-#: .\monsters\sq_insect_spider_death_drops.json
+#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
 msgid "giant cockroach nymph"
 msgid_plural "giant cockroach nymphs"
 msgstr[0] ""
 msgstr[1] ""
 
-#: .\monsters\sq_insect_spider_death_drops.json
+#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
 msgid "pregnant giant cockroach"
 msgid_plural "pregnant giant cockroaches"
 msgstr[0] ""
 msgstr[1] ""
 
-#: .\monsters\sq_insect_spider_death_drops.json
+#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
 msgid "giant bee"
 msgid_plural "giant bees"
 msgstr[0] ""
 msgstr[1] ""
 
-#: .\monsters\sq_insect_spider_death_drops.json
+#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
 msgid "centipede"
 msgid_plural "centipedes"
 msgstr[0] ""
 msgstr[1] ""
 
-#: .\monsters\sq_insect_spider_death_drops.json
+#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
 msgid "giant centipede"
 msgid_plural "giant centipedes"
 msgstr[0] ""
 msgstr[1] ""
 
-#: .\monsters\sq_insect_spider_death_drops.json
+#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
 msgid "centipede matriarch"
 msgid_plural "centipede matriarchs"
 msgstr[0] ""
 msgstr[1] ""
 
-#: .\monsters\sq_insect_spider_death_drops.json
+#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
 msgid "armored centipede"
 msgid_plural "armored centipedes"
 msgstr[0] ""
 msgstr[1] ""
 
-#: .\monsters\sq_insect_spider_death_drops.json
+#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
 msgid "firefly"
 msgid_plural "fireflies"
 msgstr[0] ""
 msgstr[1] ""
 
-#: .\monsters\sq_insect_spider_death_drops.json
+#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
 msgid "huge dragonfly naiad"
 msgid_plural "huge dragonfly naiads"
 msgstr[0] ""
 msgstr[1] ""
 
-#: .\monsters\sq_insect_spider_death_drops.json
+#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
 msgid "giant dragonfly"
 msgid_plural "giant dragonflies"
 msgstr[0] ""
 msgstr[1] ""
 
-#: .\monsters\sq_insect_spider_death_drops.json
+#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
 msgid "mega dragonfly"
 msgid_plural "mega dragonflies"
 msgstr[0] ""
 msgstr[1] ""
 
-#: .\monsters\sq_insect_spider_death_drops.json
+#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
 msgid "giant fly"
 msgid_plural "giant flies"
 msgstr[0] ""
 msgstr[1] ""
 
-#: .\monsters\sq_insect_spider_death_drops.json
+#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
 msgid "giant mosquito"
 msgid_plural "giant mosquitos"
 msgstr[0] ""
 msgstr[1] ""
 
 #. ~ Description for {'str': 'giant mosquito'}
-#: .\monsters\sq_insect_spider_death_drops.json
+#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
 msgid ""
 "An enormous mutant mosquito, fluttering erratically.  Its face is dominated "
 "by a long, spear-tipped proboscis."
 msgstr ""
 
-#: .\monsters\sq_insect_spider_death_drops.json
+#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
 msgid "giant cellar spider"
 msgid_plural "giant cellar spiders"
 msgstr[0] ""
 msgstr[1] ""
 
-#: .\monsters\sq_insect_spider_death_drops.json
+#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
 msgid "immature giant cellar spider"
 msgid_plural "immature giant cellar spiders"
 msgstr[0] ""
 msgstr[1] ""
 
-#: .\monsters\sq_insect_spider_death_drops.json
+#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
 msgid "giant jumping spider"
 msgid_plural "giant jumping spiders"
 msgstr[0] ""
 msgstr[1] ""
 
-#: .\monsters\sq_insect_spider_death_drops.json
+#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
 msgid "giant trapdoor spider"
 msgid_plural "giant trapdoor spiders"
 msgstr[0] ""
 msgstr[1] ""
 
-#: .\monsters\sq_insect_spider_death_drops.json
+#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
 msgid "giant web spider"
 msgid_plural "giant web spiders"
 msgstr[0] ""
 msgstr[1] ""
 
-#: .\monsters\sq_insect_spider_death_drops.json
+#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
 msgid "immature giant web spider"
 msgid_plural "immature giant web spiders"
 msgstr[0] ""
 msgstr[1] ""
 
-#: .\monsters\sq_insect_spider_death_drops.json
+#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
 msgid "giant black widow"
 msgid_plural "giant black widows"
 msgstr[0] ""
 msgstr[1] ""
 
-#: .\monsters\sq_insect_spider_death_drops.json
+#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
 msgid "giant black widow spiderling"
 msgid_plural "giant black widow spiderlings"
 msgstr[0] ""
 msgstr[1] ""
 
-#: .\monsters\sq_insect_spider_death_drops.json
+#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
 msgid "giant wolf spider"
 msgid_plural "giant wolf spiders"
 msgstr[0] ""
 msgstr[1] ""
 
-#: .\monsters\sq_insect_spider_death_drops.json
+#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
 msgid "wasp larva"
 msgid_plural "wasp larvae"
 msgstr[0] ""
 msgstr[1] ""
 
-#: .\monsters\sq_insect_spider_death_drops.json
+#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
 msgid "wasp pupa"
 msgid_plural "wasp pupae"
 msgstr[0] ""
 msgstr[1] ""
 
-#: .\monsters\sq_insect_spider_death_drops.json
+#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
 msgid "wasp"
 msgid_plural "wasps"
 msgstr[0] ""
 msgstr[1] ""
 
-#: .\monsters\sq_insect_spider_death_drops.json
+#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
 msgid "wasp queen"
 msgid_plural "wasp queens"
 msgstr[0] ""
 msgstr[1] ""
 
 #. ~ Description for {'str': 'wasp queen'}
-#: .\monsters\sq_insect_spider_death_drops.json
+#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
 msgid ""
 "A mutated wasp queen grown to the size of a person, laying a single white "
 "egg in each empty cell it comes across while scurrying around on the paper "
@@ -6649,20 +6480,20 @@ msgid ""
 "cells seem to be getting larger…"
 msgstr ""
 
-#: .\monsters\sq_insect_spider_death_drops.json
+#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
 msgid "giant wasp"
 msgid_plural "giant wasps"
 msgstr[0] ""
 msgstr[1] ""
 
-#: .\monsters\sq_insect_spider_death_drops.json
+#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
 msgid "giant wasp queen"
 msgid_plural "giant wasp queens"
 msgstr[0] ""
 msgstr[1] ""
 
 #. ~ Description for {'str': 'giant wasp queen'}
-#: .\monsters\sq_insect_spider_death_drops.json
+#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
 msgid ""
 "A yellowjacket queen grown to the size of a horse, towering over their "
 "daughters.  Even with their abdomen swollen with eggs and wings long unused "
@@ -6670,79 +6501,79 @@ msgid ""
 "subduing them."
 msgstr ""
 
-#: .\monsters\sq_insect_spider_death_drops.json
+#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
 msgid "dermatik"
 msgid_plural "dermatiks"
 msgstr[0] ""
 msgstr[1] ""
 
-#: .\monsters\sq_insect_spider_death_drops.json
+#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
 msgid "dermatik larva"
 msgid_plural "dermatik larvae"
 msgstr[0] ""
 msgstr[1] ""
 
-#: .\monsters\sq_insect_spider_death_drops.json
+#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
 msgid "dermatik midwife"
 msgid_plural "dermatik midwives"
 msgstr[0] ""
 msgstr[1] ""
 
-#: .\monsters\sq_insect_spider_death_drops.json
+#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
 msgid "giant ant"
 msgid_plural "giant ants"
 msgstr[0] ""
 msgstr[1] ""
 
-#: .\monsters\sq_insect_spider_death_drops.json
+#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
 msgid "giant acidic ant"
 msgid_plural "giant acidic ants"
 msgstr[0] ""
 msgstr[1] ""
 
-#: .\monsters\sq_insect_spider_death_drops.json
+#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
 msgid "acidic ant larva"
 msgid_plural "acidic ant larvae"
 msgstr[0] ""
 msgstr[1] ""
 
-#: .\monsters\sq_insect_spider_death_drops.json
+#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
 msgid "acidic queen ant"
 msgid_plural "acidic queen ants"
 msgstr[0] ""
 msgstr[1] ""
 
-#: .\monsters\sq_insect_spider_death_drops.json
+#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
 msgid "acidic soldier ant"
 msgid_plural "acidic soldier ants"
 msgstr[0] ""
 msgstr[1] ""
 
-#: .\monsters\sq_insect_spider_death_drops.json
+#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
 msgid "ant larva"
 msgid_plural "ant larvae"
 msgstr[0] ""
 msgstr[1] ""
 
-#: .\monsters\sq_insect_spider_death_drops.json
+#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
 msgid "queen ant"
 msgid_plural "queen ants"
 msgstr[0] ""
 msgstr[1] ""
 
-#: .\monsters\sq_insect_spider_death_drops.json
+#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
 msgid "soldier ant"
 msgid_plural "soldier ants"
 msgstr[0] ""
 msgstr[1] ""
 
-#: .\monsters\sq_insect_spider_death_drops.json
+#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
 msgid "giant locust"
 msgid_plural "giant locusts"
 msgstr[0] ""
 msgstr[1] ""
 
-#: .\monsters\sq_insect_spider_death_drops.json
+#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
 msgid "locust nymph"
 msgid_plural "locust nymphs"
 msgstr[0] ""
@@ -8388,11 +8219,12 @@ msgstr[1] "Full nightvision serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 빛에 민감한 원뿔"
-"을 풍부하게 제공하여 대부분의 생물보다 뛰어난 야간 시야를 제공합니다."
+"을 풍부하게 제공하여 대부분의 생물보다 뛰어난 야간 시야를 제공합니다. 특정 임"
+"계 변이를 요구합니다."
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. Gives you "
 "an abundance of light-sensitive cones in your eyes, granting better "
-"nightsight than most creatures have."
+"nightsight than most creatures have, if your body supports it."
 
 #: .\mutations\item.json
 msgid "연체동물의 눈 혈청"
@@ -8450,11 +8282,12 @@ msgstr[1] "Bird eyes serum"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 구조적으로 눈을 "
-"조류와 유사하게 변경하여 시력과 지각력을 높입니다."
+"조류와 유사하게 변경하여 시력과 지각력을 높입니다. 특정 임계 변이를 요구합니"
+"다."
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. "
 "Structurally changes your eyes to be similar to that of avians, heightening "
-"visual acuity and perception."
+"visual acuity and perception, if your body supports it."
 
 #: .\mutations\item.json
 msgid "적외선 시야 혈청"
@@ -8466,11 +8299,12 @@ msgstr[1] "Infrared vision serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 적외선 파장을 "
-"볼 수 있도록 눈을 변경하여 어둠 속에서 온혈 생물을 볼 수 있습니다."
+"볼 수 있도록 눈을 변경하여 어둠 속에서 온혈 생물을 볼 수 있습니다. 특정 임계 "
+"변이를 요구합니다."
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. Changes "
 "your eyes to see the infrared wavelengths, allowing you to see warm-blooded "
-"creatures in the dark."
+"creatures in the dark, if your body supports it."
 
 #: .\mutations\item.json
 msgid "파충류 눈 혈청"
@@ -8548,11 +8382,11 @@ msgstr[1] "Reptilian healing serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 골절과 상처 모두"
-"에 자체적인 빠른 복구 능력을 부여합니다."
+"에 자체적인 빠른 복구 능력을 부여합니다. 특정 임계 변이를 요구합니다."
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. Grants "
 "self-setting and automatic fast repair to both skeletal breakage and wounds "
-"of the flesh."
+"of the flesh, if your body supports it."
 
 #: .\mutations\item.json
 msgid "아주 적은 수면 혈청"
@@ -8565,12 +8399,12 @@ msgstr[1] "Very little sleep serums"
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 뇌가 깨어 있는 "
 "동안 REM 수면과 유사한 기능을 짧게 폭발적으로 수행하여 깨어 있는 시간을 늘리"
-"고 필요한 수면 시간을 줄입니다."
+"고 필요한 수면 시간을 줄입니다. 특정 임계 변이를 요구합니다."
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. Allows "
 "your brain to perform short bursts of functions similar to REM sleep while "
 "awake, lengthening times you're awake and lowering the amount of time you "
-"need to sleep."
+"need to sleep, if your body supports it."
 
 #: .\mutations\item.json
 msgid "피로감을 못 느낌 혈청"
@@ -8583,11 +8417,11 @@ msgstr[1] "Tireless serums"
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 당신의 두뇌는 항"
 "상 REM 수면과 유사한 기능을 지속적으로 수행하여 수면의 필요성을 효과적으로 제"
-"거합니다."
+"거합니다. 특정 임계 변이를 요구합니다."
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. Your brain "
 "constantly performs similar functions to REM sleep all the time, effectively "
-"removing the need to sleep."
+"removing the need to sleep, if your body supports it."
 
 #: .\mutations\item.json
 msgid "송곳니 혈청"
@@ -8614,10 +8448,10 @@ msgstr[1] "Incisors serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 설치류와 같은 앞"
-"니가 자랍니다."
+"니가 자랍니다. 특정 임계 변이를 요구합니다."
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. Grows your "
-"frontal teeth into rodent-like incisors."
+"frontal teeth into rodent-like incisors, if your body supports it."
 
 #: .\mutations\item.json
 msgid "제 3의 눈꺼풀 혈청"
@@ -8750,10 +8584,10 @@ msgstr[1] "Down serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 미세한 층을 가"
-"진 부드러운 깃털로 몸을 덮습니다."
+"진 부드러운 깃털로 몸을 덮습니다. 특정 임계 변이를 요구합니다."
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. Gives you "
-"a fine layer of down feathers."
+"a fine layer of down feathers, if your body supports it."
 
 #: .\mutations\item.json
 msgid "짧은 털가죽 혈청"
@@ -8976,10 +8810,12 @@ msgstr[1] "Urticating hairs serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 느슨한 키틴의 털"
-"로 이루어진 근접 공격자에 대한 방어 메커니즘을 구축합니다."
+"로 이루어진 근접 공격자에 대한 방어 메커니즘을 구축합니다. 특정 임계 변이를 "
+"요구합니다."
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. Loosens "
-"the hairs on your chitin as a defense mechanism against melee attackers."
+"the hairs on your chitin as a defense mechanism against melee attackers, if "
+"your body supports it."
 
 #: .\mutations\item.json
 msgid "뼈로 된 가시 혈청"
@@ -9067,10 +8903,10 @@ msgstr[1] "Thorns serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 작은 나무 가시"
-"로 ​​피부를 덮습니다."
+"로 피부를 덮습니다."
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. Covers "
-"your skin in small woody thorns."
+"your skin in small woody thorns, if your body supports it."
 
 #: .\mutations\item.json
 msgid "잎 혈청"
@@ -9097,10 +8933,10 @@ msgstr[1] "Lush leaves serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 더 큰 이파리를 "
-"제공합니다."
+"제공합니다. 특정 임계 변이를 요구합니다."
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. Gives you "
-"larger leaves."
+"larger leaves, if your body supports it."
 
 #: .\mutations\item.json
 msgid "파릇파릇한 잎 혈청"
@@ -9112,10 +8948,12 @@ msgstr[1] "Verdant leaves serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 머리를 덮지 않으"
-"면 영양 공급원 역할을 할 수 있는 크고 생생한 잎을 제공합니다."
+"면 영양 공급원 역할을 할 수 있는 크고 생생한 잎을 제공합니다. 특정 임계 변이"
+"를 요구합니다."
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. Gives you "
-"large and vibrant leaves that can act as a source of nutrition if uncovered."
+"large and vibrant leaves that can act as a source of nutrition if uncovered, "
+"if your body supports it."
 
 #: .\mutations\item.json
 msgid "증산 혈청"
@@ -9127,10 +8965,11 @@ msgstr[1] "Transpiration serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 영양분을 이동시"
-"키는 방법으로 물의 증발을 이용하도록 변경합니다."
+"키는 방법으로 물의 증발을 이용하도록 변경합니다. 특정 임계 변이를 요구합니다."
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. Changes "
-"your to use the evaporation of water as a way to move nutrients."
+"your to use the evaporation of water as a way to move nutrients, if your "
+"body supports it."
 
 #: .\mutations\item.json
 msgid "개화 혈청"
@@ -9142,10 +8981,10 @@ msgstr[1] "Flower serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 두피에 꽃을 피웁"
-"니다."
+"니다. 특정 임계 변이를 요구합니다."
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. Makes "
-"flowers bloom on your scalp."
+"flowers bloom on your scalp, if your body supports it."
 
 #: .\mutations\item.json
 msgid "장미꽃봉오리 혈청"
@@ -9157,10 +8996,10 @@ msgstr[1] "Rosebud serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 머리 꼭대기에 장"
-"미 봉오리를 피워줍니다."
+"미 봉오리를 피워줍니다. 특정 임계 변이를 요구합니다."
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. Makes the "
-"top of your head bloom with rosebuds."
+"top of your head bloom with rosebuds, if your body supports it."
 
 #: .\mutations\item.json
 msgid "긴 손톱 혈청"
@@ -9247,10 +9086,10 @@ msgstr[1] "Tentacle rakes serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 촉수에 갈고리가 "
-"달린 큰 갈퀴를 줍니다."
+"달린 큰 갈퀴를 줍니다. 특정 임계 변이를 요구합니다."
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. Gives your "
-"tentacles large hook-barbed rakes."
+"tentacles large hook-barbed rakes, if your body supports it."
 
 #: .\mutations\item.json
 msgid "먹물샘 혈청"
@@ -9415,10 +9254,11 @@ msgstr[1] "Strongly venomous serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 생물학적 공격으"
-"로 적에게 강력한 독을 주입합니다."
+"로 적에게 강력한 독을 주입합니다. 특정 임계 변이를 요구합니다."
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. Makes your "
-"biological attacks inject your enemies with a strong venom."
+"biological attacks inject your enemies with a strong venom, if your body "
+"supports it."
 
 #: .\mutations\item.json
 msgid "끈적이는 손바닥 혈청"
@@ -9445,10 +9285,10 @@ msgstr[1] "Stretchy limbs serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 팔다리에 약간의 "
-"유연성을 제공합니다."
+"유연성을 제공합니다. 특정 임계 변이를 요구합니다."
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. Gives a "
-"bit more flexibility to your limbs."
+"bit more flexibility to your limbs, if your body supports it."
 
 #: .\mutations\item.json
 msgid "고무같은 관절 혈청"
@@ -9460,10 +9300,10 @@ msgstr[1] "Rubbery limbs serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 팔다리에 상당한 "
-"유연성을 제공합니다."
+"유연성을 제공합니다. 특정 임계 변이를 요구합니다."
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. "
-"Signifigantly flexifies your limbs."
+"Signifigantly flexifies your limbs, if your body supports it."
 
 #: .\mutations\item.json
 msgid "무정형관절 혈청"
@@ -9475,10 +9315,10 @@ msgstr[1] "Pseudolimbs serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 팔다리를 위족처"
-"럼 바꿉니다."
+"럼 바꿉니다. 특정 임계 변이를 요구합니다."
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. Turns your "
-"limbs into pseudopod-like limbs."
+"limbs into pseudopod-like limbs, if your body supports it."
 
 #: .\mutations\item.json
 msgid "겹눈 혈청"
@@ -9568,10 +9408,11 @@ msgstr[1] "Troglobitic tunnel pain resistance serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 지하 생활의 통증"
-"과 고통에 잘 적응하도록 몸을 적응시킵니다."
+"과 고통에 잘 적응하도록 몸을 적응시킵니다. 특정 임계 변이를 요구합니다."
 msgstr ""
-"A special mutagenic serum designed to give you a single mutation. Adapts "
-"your body to be fine with the aches and pains of underground living."
+"A special mutagenic serum designed to give you a single mutation, if your "
+"body supports it. Adapts your body to be fine with the aches and pains of "
+"underground living."
 
 #: .\mutations\item.json
 msgid "지하형 체구 혈청"
@@ -9583,26 +9424,27 @@ msgstr[1] "Troglobitic stockiness serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 몸은 짧아지지만 "
-"신체 질량이 근육으로 바뀌어 근력은 증가하지만 민첩성은 떨어집니다."
+"신체 질량이 근육으로 바뀌어 근력은 증가하지만 민첩성은 떨어집니다. 특정 임계 "
+"변이를 요구합니다."
 msgstr ""
-"A special mutagenic serum designed to give you a single mutation. Shortens "
-"you but converts the mass into muscle, increasing strength but lowering "
-"dexterity."
+"A special mutagenic serum designed to give you a single mutation, if your "
+"body supports it. Shortens you but converts the mass into muscle, increasing "
+"strength but lowering dexterity."
 
 #: .\mutations\item.json
-msgid "최하위 청소자 혈청"
-msgid_plural "최하위 청소자 혈청s"
+msgid "청소동물 혈청"
+msgid_plural "청소동물 혈청s"
 msgstr[0] "Saprovore serum"
 msgstr[1] "Saprovore serums"
 
-#. ~ Description for 최하위 청소자 혈청
+#. ~ Description for 청소동물 혈청
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 썩은 음식을 먹"
-"을 수 있습니다."
+"을 수 있습니다. 특정 임계 변이를 요구합니다."
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. Allows you "
-"to eat rotting food."
+"to eat rotting food, if your body supports it."
 
 #: .\mutations\item.json
 msgid "청소식물 혈청"
@@ -9615,11 +9457,11 @@ msgstr[1] "Saprophage serums"
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 뿌리와 광합성을 "
 "기반으로 한 생계 유지 및 때때로 썩는 음식에 대한 신진대사 선호도를 제공합니"
-"다."
+"다. 특정 임계 변이를 요구합니다."
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. Gives you "
 "a metabolic preference to root and photosynthesis-based sustenance and the "
-"occasional rotting food."
+"occasional rotting food, if your body supports it."
 
 #: .\mutations\item.json
 msgid "모래주머니 혈청"
@@ -9631,10 +9473,10 @@ msgstr[1] "Gizzard serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 새처럼 모래주머"
-"니를 얻습니다."
+"니를 얻습니다. 특정 임계 변이를 요구합니다."
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. Gives you "
-"a gizzard, like a bird's."
+"a gizzard, like a bird's, if your body supports it."
 
 #: .\mutations\item.json
 msgid "되새김동물 혈청"
@@ -9661,10 +9503,11 @@ msgstr[1] "Grazer serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 풀을 먹을 수 있"
-"게 해줍니다."
+"게 해줍니다. 특정 임계 변이를 요구합니다."
 msgstr ""
-"A special mutagenic serum designed to give you a single mutation. Makes you "
-"capable of eating grass."
+"A special mutagenic serum designed to give you a single mutation. This one "
+"will make you capable of falling asleep just about anywhere, if your body "
+"supports it, if your body supports it."
 
 #: .\mutations\item.json
 msgid "초월적 창자 혈청"
@@ -9691,10 +9534,11 @@ msgstr[1] "Eater of the dead serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 이것으로 좀비들"
-"은 곧 밀키트처럼 보일 것입니다."
+"은 곧 밀키트처럼 보일 것입니다. 특정 임계 변이를 요구합니다."
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. With this "
-"those zombies will be looking like a meal-ticket in no time."
+"those zombies will be looking like a meal-ticket in no time, if your body "
+"supports it."
 
 #: .\mutations\item.json
 msgid "굴 파기 혈청"
@@ -9706,10 +9550,10 @@ msgstr[1] "Burrowing serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 발톱으로 거의 모"
-"든 것을 파헤칠 수 있습니다."
+"든 것을 파헤칠 수 있습니다. 특정 임계 변이를 요구합니다."
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. Allows you "
-"to dig through almost anything with your claws."
+"to dig through almost anything with your claws, if your body supports it."
 
 #: .\mutations\item.json
 msgid "칼날 이빨 혈청"
@@ -9721,10 +9565,10 @@ msgstr[1] "Saber teeth serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 매우 크고 믿을 "
-"수 없을 정도로 날카로운 송곳니를 자라게 합니다."
+"수 없을 정도로 날카로운 송곳니를 자라게 합니다. 특정 임계 변이를 요구합니다."
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. Makes you "
-"grow extremely large and incredibly sharp fangs."
+"grow extremely large and incredibly sharp fangs, if your body supports it."
 
 #: .\mutations\item.json
 msgid "대사과다증 혈청"
@@ -9737,11 +9581,11 @@ msgstr[1] "Hyper metabolism serums"
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 신진대사를 엄청"
 "나게 크게 높여 과도한 음식을 상처 치유에 사용할 수 있는 조직으로 직접 전환할 "
-"수 있습니다."
+"수 있습니다. 특정 임계 변이를 요구합니다."
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. Hikes up "
 "your metabolism so much that it allows you to directly convert excess food "
-"into usable tissue for wounds and such."
+"into usable tissue for wounds and such, if your body supports it."
 
 #: .\mutations\item.json
 msgid "뿔 혈청"
@@ -9993,10 +9837,11 @@ msgstr[1] "Hibernation serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 정말 오랜 시간 "
-"동안 지방을 저장하고 잠을 잘 수 있습니다."
+"동안 지방을 저장하고 잠을 잘 수 있습니다. 특정 임계 변이를 요구합니다."
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. Allows you "
-"to store fat and sleep for really long periods of time."
+"to store fat and sleep for really long periods of time, if your body "
+"supports it."
 
 #: .\mutations\item.json
 msgid "강인한 생명력 혈청"
@@ -10008,10 +9853,10 @@ msgstr[1] "Resilience serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 몸을 더 강인하"
-"게 만듭니다."
+"게 만듭니다. 특정 임계 변이를 요구합니다."
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. Makes your "
-"body more resilient."
+"body more resilient, if your body supports it."
 
 #: .\mutations\item.json
 msgid "단단함 혈청"
@@ -10023,10 +9868,10 @@ msgstr[1] "Solidly built serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 몸을 더욱 강인하"
-"게 만듭니다."
+"게 만듭니다. 특정 임계 변이를 요구합니다."
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. Makes your "
-"body really resilient."
+"body really resilient, if your body supports it."
 
 #: .\mutations\item.json
 msgid "태애앵크 혈청"
@@ -10038,10 +9883,10 @@ msgstr[1] "Tank serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 몇 대 맞는 것 쯤"
-"이야 우습지요."
+"이야 우습지요. 특정 임계 변이를 요구합니다."
 msgstr ""
-"A special mutagenic serum designed to give you a single mutation. Might as "
-"well take a few hits for laughs now."
+"A special mutagenic serum designed to give you a single mutation, if your "
+"body supports it. Might as well take a few hits for laughs now."
 
 #: .\mutations\item.json
 msgid "고통 회복 혈청"
@@ -10068,10 +9913,10 @@ msgstr[1] "Pain junkie serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 고통을 갈망하고 "
-"좋아하기 시작합니다."
+"좋아하기 시작합니다. 특정 임계 변이를 요구합니다."
 msgstr ""
-"A special mutagenic serum designed to give you a single mutation. Start to "
-"crave and like pain."
+"A special mutagenic serum designed to give you a single mutation, if your "
+"body supports it. Start to crave and like pain."
 
 #: .\mutations\item.json
 msgid "고행자 혈청"
@@ -10083,10 +9928,10 @@ msgstr[1] "Cenobite serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 당신은 고통을 사"
-"랑합니다."
+"랑합니다. 특정 임계 변이를 요구합니다."
 msgstr ""
-"A special mutagenic serum designed to give you a single mutation. You'll "
-"REALLY like pain."
+"A special mutagenic serum designed to give you a single mutation, if your "
+"body supports it. You'll REALLY like pain."
 
 #: .\mutations\item.json
 msgid "통증 무감각 혈청"
@@ -10098,10 +9943,10 @@ msgstr[1] "Deadening serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 모든 통각 신경"
-"을 제거합니다."
+"을 제거합니다. 특정 임계 변이를 요구합니다."
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. "
-"Essentially removes all pain nerves."
+"Essentially removes all pain nerves, if your body supports it."
 
 #: .\mutations\item.json
 msgid "조류 날개 혈청"
@@ -10173,10 +10018,10 @@ msgstr[1] "Folding fangs serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 아래턱을 거미 송"
-"곳니로 바꿉니다."
+"곳니로 바꿉니다. 특정 임계 변이를 요구합니다."
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. Turns "
-"mandibles into spider fangs."
+"mandibles into spider fangs, if your body supports it."
 
 #: .\mutations\item.json
 msgid "개의 귀 혈청"
@@ -10293,10 +10138,10 @@ msgstr[1] "Web weaver serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 자신만의 거미줄"
-"을 생산할 수 있는 기능을 제공합니다."
+"을 생산할 수 있는 기능을 제공합니다. 특정 임계 변이를 요구합니다."
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. Gives you "
-"the capabilities to produce your own webbing."
+"the capabilities to produce your own webbing, if your body supports it."
 
 #: .\mutations\item.json
 msgid "거미줄 다이버 혈청"
@@ -10308,10 +10153,10 @@ msgstr[1] "Web diver serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 낭떠러지를 하강"
-"하거나 추락할 때 거미줄을 사용합니다."
+"하거나 추락할 때 거미줄을 사용합니다. 특정 임계 변이를 요구합니다."
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. Allows you "
-"to use your webs as a way to scale shear drops."
+"to use your webs as a way to scale shear drops, if your body supports it."
 
 #: .\mutations\item.json
 msgid "거미줄 밧줄 혈청"
@@ -10323,10 +10168,10 @@ msgstr[1] "Rope webs serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 거미줄로 밧줄을 "
-"만들 수 있습니다."
+"만들 수 있습니다. 특정 임계 변이를 요구합니다."
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. Allows you "
-"to make ropes from your spider silk."
+"to make ropes from your spider silk, if your body supports it."
 
 #: .\mutations\item.json
 msgid "거미줄 건축가 혈청"
@@ -10338,10 +10183,11 @@ msgstr[1] "Arachnitect serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 허공 이편저편을 "
-"거미줄로 덮어 다리를 만들 수 있습니다."
+"거미줄로 덮어 다리를 만들 수 있습니다. 특정 임계 변이를 요구합니다."
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. Allows you "
-"to use webs to spin suspended walkways between ledges to span small gaps."
+"to use webs to spin suspended walkways between ledges to span small gaps, if "
+"your body supports it."
 
 #: .\mutations\item.json
 msgid "수염 혈청"
@@ -10399,11 +10245,12 @@ msgstr[1] "Enlargening serums"
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 성장 혈청을 주입"
 "하여 오늘부터 더욱 커다래져보십시오! 주의. Large Inc.는 지원되지 않는 인프라"
-"로 인한 성장 부족에 대해 책임을 지지 않습니다."
+"로 인한 성장 부족에 대해 책임을 지지 않습니다. 특정 임계 변이를 요구합니다."
 msgstr ""
-"A special mutagenic serum designed to give you a single mutation. Try this "
-"enlargement serum and get bigger, today! Large Inc. is not responsible for "
-"any lack of growth due to unsupported infratructure."
+"A special mutagenic serum designed to give you a single mutation, if your "
+"body supports it. Try this enlargement serum and get bigger, today! Large "
+"Inc. is not responsible for any lack of growth due to unsupported "
+"infratructure."
 
 #: .\mutations\item.json
 msgid "거대함 혈청"
@@ -10415,7 +10262,7 @@ msgstr[1] "Enhugement serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 아주 커어어어어"
-"다래집니다!!! 당신의 몸이 받쳐준다면요..."
+"다래집니다!!! 당신의 몸이 받쳐준다면요... 특정 임계 변이를 요구합니다."
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. Become "
 "HUUUGE!!! If your body can support it..."
@@ -10445,10 +10292,10 @@ msgstr[1] "Insanely strong serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 크르르! 내 알통 "
-"좀 봐봐!"
+"좀 봐봐! 특정 임계 변이를 요구합니다."
 msgstr ""
-"A special mutagenic serum designed to give you a single mutation. Argh! Look "
-"at my bulging muscles!"
+"A special mutagenic serum designed to give you a single mutation, if your "
+"body supports it. Argh! Look at my bulging muscles!"
 
 #: .\mutations\item.json
 msgid "최고의 근력 혈청"
@@ -10460,10 +10307,10 @@ msgstr[1] "Alpha strength serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 나 같은 알파가 "
-"이렇게 강한 건 당연하지."
+"이렇게 강한 건 당연하지. 특정 임계 변이를 요구합니다."
 msgstr ""
-"A special mutagenic serum designed to give you a single mutation. It's only "
-"natural that an alpha such as I be this strong."
+"A special mutagenic serum designed to give you a single mutation, if your "
+"body supports it. It's only natural that an alpha such as I be this strong."
 
 #: .\mutations\item.json
 msgid "극한적 민첩성 혈청"
@@ -10490,10 +10337,11 @@ msgstr[1] "Insanely dextrous serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 손가락 관절 사이"
-"로 동전 뒤집기를 할 수 있습니다."
+"로 동전 뒤집기를 할 수 있습니다. 특정 임계 변이를 요구합니다."
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. You can do "
-"that trick with the coin flipping between your knuckles."
+"that trick with the coin flipping between your knuckles, if your body "
+"supports it."
 
 #: .\mutations\item.json
 msgid "최고의 민첩성 혈청"
@@ -10505,10 +10353,10 @@ msgstr[1] "Alpha dexterity serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 그럼, 알파는 이"
-"렇게 민첩해야 한다고."
+"렇게 민첩해야 한다고. 특정 임계 변이를 요구합니다."
 msgstr ""
-"A special mutagenic serum designed to give you a single mutation. Alphas "
-"ought to be this dextrous, yes."
+"A special mutagenic serum designed to give you a single mutation, if your "
+"body supports it. Alphas ought to be this dextrous, yes."
 
 #: .\mutations\item.json
 msgid "극한적 지능 혈청"
@@ -10535,10 +10383,10 @@ msgstr[1] "Insanely intelligent serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 당신은 특이점을 "
-"통과했습니다."
+"통과했습니다. 특정 임계 변이를 요구합니다."
 msgstr ""
-"A special mutagenic serum designed to give you a single mutation. You've "
-"passed the singularity."
+"A special mutagenic serum designed to give you a single mutation, if your "
+"body supports it. You've passed the singularity."
 
 #: .\mutations\item.json
 msgid "최고의 지능 혈청"
@@ -10550,10 +10398,10 @@ msgstr[1] "Alpha intelligence serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 비알파는 그저 지"
-"적 평민일 뿐이다."
+"적 평민일 뿐이다. 특정 임계 변이를 요구합니다."
 msgstr ""
-"A special mutagenic serum designed to give you a single mutation. Non-alphas "
-"are such intellectual plebeians."
+"A special mutagenic serum designed to give you a single mutation, if your "
+"body supports it. Non-alphas are such intellectual plebeians."
 
 #: .\mutations\item.json
 msgid "극한적 지각력 혈청"
@@ -10580,10 +10428,10 @@ msgstr[1] "Insanely perceptive serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 주변에 있는 모"
-"든 것을 인식할 수 있습니다."
+"든 것을 인식할 수 있습니다. 특정 임계 변이를 요구합니다."
 msgstr ""
 "A special mutagenic serum, designed to give you a single mutation. Perceive "
-"all there is around you."
+"all there is around you, if your body supports it."
 
 #: .\mutations\item.json
 msgid "최고의 지각력 혈청"
@@ -10595,10 +10443,11 @@ msgstr[1] "Alpha intelligence serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 물론 알파는 가"
-"장 작은 세부 사항까지 인식할 수 있지."
+"장 작은 세부 사항까지 인식할 수 있지. 특정 임계 변이를 요구합니다."
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. Alphas are "
-"able to perceive the smallest of details, of course."
+"able to perceive the smallest of details, of course, if your body supports "
+"it."
 
 #: .\mutations\item.json
 msgid "분산 신경과학 혈청"
@@ -10610,11 +10459,12 @@ msgstr[1] "Distributed neurology serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 슬라임같은 몸 전"
-"체에 뉴런을 분산시켜 기본적으로 하나의 큰 두뇌가 됩니다."
+"체에 뉴런을 분산시켜 기본적으로 하나의 큰 두뇌가 됩니다. 특정 임계 변이를 요"
+"구합니다."
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. "
 "Distributes your brain across your slimy body. Become basically one big "
-"brain."
+"brain, if your body supports it."
 
 #: .\mutations\item.json
 msgid "분산된 감각 혈청"
@@ -10626,10 +10476,11 @@ msgstr[1] "Distributed senses serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 감각 기관을 마음"
-"대로 늘리고 줄일 수 있게 됩니다."
+"대로 늘리고 줄일 수 있게 됩니다. 특정 임계 변이를 요구합니다."
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. Become "
-"capable of growing and retracting sensory organs at will."
+"capable of growing and retracting sensory organs at will, if your body "
+"supports it."
 
 #: .\mutations\item.json
 msgid "매우 작음 혈청"
@@ -10641,10 +10492,10 @@ msgstr[1] "Tiny serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 원래 크기의 절반"
-"이 됩니다."
+"이 됩니다. 특정 임계 변이를 요구합니다."
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. Become "
-"half your original size."
+"half your original size, if your body supports it."
 
 #: .\mutations\item.json
 msgid "존재감 없음 혈청"
@@ -10671,10 +10522,10 @@ msgstr[1] "Crafty serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 쥐처럼 교활해집"
-"니다."
+"니다. 특정 임계 변이를 요구합니다."
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. Become as "
-"crafty as a mouse."
+"crafty as a mouse, if your body supports it."
 
 #: .\mutations\item.json
 msgid "기다란 콧구멍 혈청"
@@ -10910,10 +10761,11 @@ msgstr[1] "Proboscis serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 당신이 파리인지 "
-"모기인지는 스스로 알아낼 몫입니다."
+"모기인지는 스스로 알아낼 몫입니다. 특정 임계 변이를 요구합니다."
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. Whether "
-"you're more like a fly or a mosquito after this is for you to figure out."
+"you're more like a fly or a mosquito after this is for you to figure out, if "
+"your body supports it..."
 
 #: .\mutations\item.json
 msgid "속이 빈 뼈 혈청"
@@ -10972,10 +10824,12 @@ msgstr[1] "Extreme persistence hunter serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 말 그대로 사냥감"
-"이 지쳐서 죽을 때까지 며칠 동안 쫓을 수 있습니다."
+"이 지쳐서 죽을 때까지 며칠 동안 쫓을 수 있습니다. 특정 임계 변이를 요구합니"
+"다."
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. Allows you "
-"to pursue prey for days until they literally die from exhaustion."
+"to pursue prey for days until they literally die from exhaustion, if your "
+"body supports it."
 
 #: .\mutations\item.json
 msgid "빠른 신진대사 혈청"
@@ -11049,11 +10903,11 @@ msgstr[1] "Metabolic rehydration serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 먹는 것에서 수분"
-"을 얻어 쥐처럼 배고픔이 곧 갈증이 됩니다."
+"을 얻어 쥐처럼 배고픔이 곧 갈증이 됩니다. 특정 임계 변이를 요구합니다."
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. Gain "
 "moisture from what you eat and have your hunger and thirst be equal, like "
-"mice."
+"mice, if your body supports it."
 
 #: .\mutations\item.json
 msgid "아주 깊은 수면 혈청"
@@ -11141,10 +10995,11 @@ msgstr[1] "Woodpecker beak serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 딱따구리의 부리"
-"를 얻어 하루 종일 적을 쪼아보세요."
+"를 얻어 하루 종일 적을 쪼아보세요. 특정 임계 변이를 요구합니다."
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. Gain the "
-"beak of a woodpecker and peck at enemies all day long."
+"beak of a woodpecker and peck at enemies all day long, if your body supports "
+"it."
 
 #: .\mutations\item.json
 msgid "벌새 부리 혈청"
@@ -11156,10 +11011,11 @@ msgstr[1] "Hummingbird beak serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 벌새 부리를 얻습"
-"니다. 꽃이 맛있어 보입니다."
+"니다. 꽃이 맛있어 보입니다. 특정 임계 변이를 요구합니다."
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. Gain a "
-"hummingbird beak, making those flowers look mighty tasty."
+"hummingbird beak, making those flowers look mighty tasty, if your body "
+"supports it."
 
 #: .\mutations\item.json
 msgid "저 방사성 혈청"
@@ -11201,10 +11057,10 @@ msgstr[1] "Viscous serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 몸의 점액 배출"
-"을 늘려 끈적끈적하고 젤처럼 만듭니다."
+"을 늘려 끈적끈적하고 젤처럼 만듭니다. 특정 임계 변이를 요구합니다."
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. Increase "
-"your body's slime output to be sticky and gel-like."
+"your body's slime output to be sticky and gel-like, if your body supports it."
 
 #: .\mutations\item.json
 msgid "부정형 혈청"
@@ -11216,10 +11072,10 @@ msgstr[1] "Amorphous body serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 당신의 살을 즐거"
-"운 젤리 같이 일관되게 만듭니다."
+"운 젤리 같이 일관되게 만듭니다. 특정 임계 변이를 요구합니다."
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. Make your "
-"flesh and pleasing gel-like consistency."
+"flesh and pleasing gel-like consistency, if your body supports it."
 
 #: .\mutations\item.json
 msgid "전세포화 혈청"
@@ -11231,10 +11087,10 @@ msgstr[1] "Omnicellular serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 하나의 큰 세포"
-"가 됩니다."
+"가 됩니다. 특정 임계 변이를 요구합니다."
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. Become one "
-"big cell."
+"big cell, if your body supports it."
 
 #: .\mutations\item.json
 msgid "초식동물 혈청"
@@ -11291,10 +11147,10 @@ msgstr[1] "Vine sprouter serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 덩굴 가지를 완전"
-"히 제어하여 마음대로 떨어뜨릴 수 있게 됩니다."
+"히 제어하여 마음대로 떨어뜨릴 수 있게 됩니다. 특정 임계 변이를 요구합니다."
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. Gain full "
-"control over vine limbs and their detachment."
+"control over vine limbs and their detachment, if your body supports it."
 
 #: .\mutations\item.json
 msgid "머리카락 뿌리 혈청"
@@ -11321,10 +11177,11 @@ msgstr[1] "Roots serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 발의 뿌리를 얻"
-"어 파낼 수 있는 지형에 가만히 있으면 흙에서 영양과 수분을 흡수할 수 있습니다."
+"어 파낼 수 있는 지형에 가만히 있으면 흙에서 영양과 수분을 흡수할 수 있습니"
+"다. 특정 임계 변이를 요구합니다."
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. Gain roots "
-"for feet."
+"for feet, if your body supports it."
 
 #: .\mutations\item.json
 msgid "뿌리 내리기 혈청"
@@ -11336,10 +11193,12 @@ msgstr[1] "Rooter serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 파낼 수 있는 지"
-"형에 있으면 느려지는 대가로 뿌리를 내려 영양과 수분을 흡수합니다."
+"형에 있으면 느려지는 대가로 뿌리를 내려 영양과 수분을 흡수합니다. 특정 임계 "
+"변이를 요구합니다."
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. Become "
-"better at rooting yourself at the cost of being slower on diggable terrain."
+"better at rooting yourself at the cost of being slower on diggable terrain, "
+"if your body supports it."
 
 #: .\mutations\item.json
 msgid "엽록소 형성 혈청"
@@ -11351,10 +11210,12 @@ msgstr[1] "Chloromorphosis serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 파낼 수 있는 흙"
-"에서 잠을 자면 배고픔이나 갈증이 해소될 것입니다."
+"에서 잠을 자면 배고픔이나 갈증이 해소될 것입니다. 특정 임계 변이를 요구합니"
+"다."
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. Sleeping "
-"on diggable soil will satisfy any hunger or thirst you might have."
+"on diggable soil will satisfy any hunger or thirst you might have, if your "
+"body supports it."
 
 #: .\mutations\item.json
 msgid "균근 교감 혈청"
@@ -11366,10 +11227,10 @@ msgstr[1] "Mycorrhizal communion serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 나무들에게 제정"
-"신인 사람처럼 말을 걸 수 있게 됩니다."
+"신인 사람처럼 말을 걸 수 있게 됩니다. 특정 임계 변이를 요구합니다."
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. Talk to "
-"trees like a sane being."
+"trees like a sane being, if your body supports it."
 
 #: .\mutations\item.json
 msgid "심한 열기 의존증 혈청"
@@ -11396,10 +11257,12 @@ msgstr[1] "Ectothermic serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 추울수록 느려지"
-"지만 더울수록 빨라지며, 많이 먹을 필요가 없게 됩니다."
+"지만 더울수록 빨라지며, 많이 먹을 필요가 없게 됩니다. 특정 임계 변이를 요구합"
+"니다."
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. You're "
-"even slower the colder it gets but at least your food needs are even lower."
+"even slower the colder it gets but at least your food needs are even lower, "
+"if your body supports it."
 
 #: .\mutations\item.json
 msgid "거슬리는 목소리 혈청"
@@ -11487,10 +11350,12 @@ msgstr[1] "Arachnid arms serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 네 개의 여분의 "
-"거미 팔을 돋아나게 합니다. 딱히 많이 쓸모가 있지는 않습니다."
+"거미 팔을 돋아나게 합니다. 딱히 많이 쓸모가 있지는 않습니다. 특정 임계 변이"
+"를 요구합니다."
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. Sprout "
-"four extra arachnidian arms. They don't have much use currently."
+"four extra arachnidian arms. They don't have much use currently, if your "
+"body supports it."
 
 #: .\mutations\item.json
 msgid "8개의 촉수 혈청"
@@ -11562,10 +11427,10 @@ msgstr[1] "Tentacle bracing serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 하체 촉수에 빨판"
-"을 돋아나게 하여 가만히 있기 편해집니다."
+"을 돋아나게 하여 가만히 있기 편해집니다. 특정 임계 변이를 요구합니다."
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. Give your "
-"lower tentacles some suckers to keep you in place."
+"lower tentacles some suckers to keep you in place if your body supports it."
 
 #: .\mutations\item.json
 msgid "고양이과 유연성 혈청"
@@ -11595,10 +11460,10 @@ msgstr[1] "Acidproof serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 산성 피해에 대"
-"한 저항성을 가집니다."
+"한 저항성을 가집니다. 특정 임계 변이를 요구합니다."
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. Make your "
-"flesh immune to acid."
+"flesh immune to acid if your body supports it."
 
 #: .\mutations\item.json
 msgid "산성 혈액 혈청"
@@ -11610,10 +11475,11 @@ msgstr[1] "Acid blood serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 혈액을 산성으로 "
-"바꾸어 적들이 당신을 아프게 한 것을 후회하게 만듭니다."
+"바꾸어 적들이 당신을 아프게 한 것을 후회하게 만듭니다. 특정 임계 변이를 요구"
+"합니다."
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. Turn your "
-"blood into acid, make them regret hurting you."
+"blood into acid, make them regret hurting you if your body supports it."
 
 #: .\mutations\item.json
 msgid "양서류 혈청"
@@ -11625,10 +11491,10 @@ msgstr[1] "Amphibious serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 육지와 물 모두에"
-"서 편안한 수륙 양용 뮤턴트가 됩니다."
+"서 편안한 수륙 양용 뮤턴트가 됩니다. 특정 임계 변이를 요구합니다."
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. Become "
-"amphibiousm comfortable both on land and in water."
+"amphibiousm comfortable both on land and in water if your body supports it."
 
 #: .\mutations\item.json
 msgid "눈꺼풀 없는 눈 혈청"
@@ -11640,10 +11506,11 @@ msgstr[1] "Lidless eyes serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 눈꺼풀을 제거하"
-"고 투명한 막으로 교체합니다."
+"고 투명한 막으로 교체합니다. 특정 임계 변이를 요구합니다."
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. Remove "
-"your eyelids and replace them with a see-through membrane."
+"your eyelids and replace them with a see-through membrane if your body "
+"supports it."
 
 #: .\mutations\item.json
 msgid "수중 친화성 혈청"
@@ -11655,10 +11522,10 @@ msgstr[1] "Aqueous repose serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 수중에서 수면이 "
-"쉬워지고 물속에서 무언가를 먹을 수 있게 됩니다."
+"쉬워지고 물속에서 무언가를 먹을 수 있게 됩니다. 특정 임계 변이를 요구합니다."
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. Falling "
-"asleep underwater should be easier now."
+"asleep underwater should be easier now if your body supports it."
 
 #: .\mutations\item.json
 msgid "담수삼투 혈청"
@@ -11670,10 +11537,10 @@ msgstr[1] "Freshwater osmosis serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 민물에 들어가있"
-"으면 갈증이 해소됩니다."
+"으면 갈증이 해소됩니다. 특정 임계 변이를 요구합니다."
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. Hydrate "
-"your body by being in water."
+"your body by being in water if your body supports it."
 
 #: .\mutations\item.json
 msgid "전기수용체 혈청"
@@ -11692,6 +11559,22 @@ msgstr ""
 "shocks."
 
 #: .\mutations\item.json
+msgid "독성 피부 혈청"
+msgid_plural "독성 피부 혈청s"
+msgstr[0] "Toxic skin serum"
+msgstr[1] "Toxic skin serums"
+
+#. ~ Description for 독성 피부 혈청
+#: .\mutations\item.json
+msgid ""
+"하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 당신을 깨무는 녀"
+"석들에게 고약한 맛을 선물합니다. 특정 임계 변이를 요구합니다."
+msgstr ""
+"A special mutagenic serum designed to give you a single mutation. This one "
+"will make you capable of falling asleep just about anywhere, if your body "
+"supports it."
+
+#: .\mutations\item.json
 msgid "상어 이빨 혈청"
 msgid_plural "상어 이빨 혈청s"
 msgstr[0] "Shark teeth serum"
@@ -11701,10 +11584,12 @@ msgstr[1] "Shark teeth serums"
 #: .\mutations\item.json
 msgid ""
 "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 상어의 이빨처럼 "
-"날카로운 이빨이 납니다. 매우 빠르게 자라나며 자주 빠집니다."
+"날카로운 이빨이 납니다. 매우 빠르게 자라나며 자주 빠집니다. 특정 임계 변이를 "
+"요구합니다."
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. Gain sharp "
-"teeth like those of a shark and shed and replace them frequently."
+"teeth like those of a shark and shed and replace them frequently if your "
+"body supports it."
 
 #: .\mutations\item.json
 msgid "재빠른 반사신경 혈청"
@@ -11720,6 +11605,166 @@ msgid ""
 msgstr ""
 "A special mutagenic serum designed to give you a single mutation. Gain "
 "faster reflexes and improve your dodging."
+
+#: .\mutations\item.json
+msgid "토끼 귀 혈청"
+msgid_plural "토끼 귀 혈청s"
+msgstr[0] "Rabbit ears serum"
+msgstr[1] "Rabbit ears serums"
+
+#. ~ Description for 토끼 귀 혈청
+#: .\mutations\item.json
+msgid ""
+"하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 귀가 길고 뾰족해"
+"져 주변의 미세한 소리까지 잡아내는 뛰어난 청력을 얻게 됩니다."
+msgstr ""
+"A special mutagenic serum designed to give you a single mutation. Your ears "
+"become long and pointed, giving them exceptional hearing that picks up even "
+"the faintest sounds around them."
+
+#: .\mutations\item.json
+msgid "토끼 꼬리 혈청"
+msgid_plural "토끼 꼬리 혈청s"
+msgstr[0] "Rabbit tail serum"
+msgstr[1] "Rabbit tail serums"
+
+#. ~ Description for 토끼 꼬리 혈청
+#: .\mutations\item.json
+msgid ""
+"하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 엉덩이에 귀여운 "
+"솜뭉치 같은 꼬리가 자라나며 귀엽고 사랑스럽고 예쁩니다."
+msgstr ""
+"A special mutagenic serum designed to give you a single mutation. Gives you "
+"a cute, fluffy tail. It's cute, adorable, and beautiful."
+
+#: .\mutations\item.json
+msgid "토끼 털 혈청"
+msgid_plural "토끼 털 혈청s"
+msgstr[0] "Rabbit fur serum"
+msgstr[1] "Rabbit fur serums"
+
+#. ~ Description for 토끼 털 혈청
+#: .\mutations\item.json
+msgid ""
+"하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 온몸이 부드럽고 "
+"빽빽한 토끼 털로 덮여 추위로부터 몸을 보호해 줍니다."
+msgstr ""
+"A special mutagenic serum designed to give you a single mutation. Your "
+"entire body is covered in soft, thick rabbit fur, which protects you from "
+"the cold."
+
+#: .\mutations\item.json
+msgid "토끼 발 혈청"
+msgid_plural "토끼 발 혈청s"
+msgstr[0] "Rabbit feet serum"
+msgstr[1] "Rabbit feet serums"
+
+#. ~ Description for 토끼 발 혈청
+#: .\mutations\item.json
+msgid ""
+"하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 발이 거대한 토끼"
+"의 발처럼 변형됩니다. 발차기가 강해지고 운이 좋아지는 것 같은 느낌이 듭니다."
+msgstr ""
+"A special mutagenic serum designed to give you a single mutation. Your feet "
+"transform into the paws of a giant rabbit. You feel as though your kicks "
+"have become more powerful and your luck has improved."
+
+#: .\mutations\item.json
+msgid "토끼 코 혈청"
+msgid_plural "토끼 코 혈청s"
+msgstr[0] "Rabbit nose serum"
+msgstr[1] "Rabbit nose serums"
+
+#. ~ Description for 토끼 코 혈청
+#: .\mutations\item.json
+msgid ""
+"하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 코가 씰룩거리는 "
+"토끼의 코로 변형됩니다."
+msgstr ""
+"A special mutagenic serum designed to give you a single mutation. Your nose "
+"turns into a twitching rabbit nose."
+
+#: .\mutations\item.json
+msgid "토끼 임계점 혈청"
+msgid_plural "토끼 임계점 혈청s"
+msgstr[0] "Rabbit threshold serum"
+msgstr[1] "Rabbit threshold serums"
+
+#. ~ Description for 토끼 임계점 혈청
+#: .\mutations\item.json
+msgid ""
+"하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 특정한 계통의 변"
+"이를 많이 가지고 있다면 당신의 몸을 더욱 더 토끼와 같은 상태에 영구적으로 적"
+"응시킬 것입니다."
+msgstr ""
+"A special mutagenic serum designed to give you a single mutation. This one "
+"will adapt your body to a more rabbit-like state permanently if your body "
+"supports such a change."
+
+#: .\mutations\item.json
+msgid "뱀 임계점 혈청"
+msgid_plural "뱀 임계점 혈청s"
+msgstr[0] "Serpent threshold serum"
+msgstr[1] "Lizard threshold serums"
+
+#. ~ Description for 뱀 임계점 혈청
+#: .\mutations\item.json
+msgid ""
+"하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 특정한 계통의 변"
+"이를 많이 가지고 있다면 당신의 몸을 더욱 더 뱀과 같은 상태에 영구적으로 적응"
+"시킬 것입니다."
+msgstr ""
+"A special mutagenic serum designed to give you a single mutation. This one "
+"will adapt your body to a more serpent-like state permanently if your body "
+"supports such a change."
+
+#: .\mutations\item.json
+msgid "뱀 신체 혈청"
+msgid_plural "뱀 신체 혈청s"
+msgstr[0] "Snake body serum"
+msgstr[1] "Snake body serums"
+
+#. ~ Description for 뱀 신체 혈청
+#: .\mutations\item.json
+msgid ""
+"하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 두 다리가 완전"
+"히 융합되어 거대한 뱀의 하반신으로 변형됩니다."
+msgstr ""
+"A special mutagenic serum designed to give you a single mutation. Two legs "
+"fuse completely, transforming into the lower body of a giant snake."
+
+#: .\mutations\item.json
+msgid "굽이치는 몸 혈청"
+msgid_plural "굽이치는 몸 혈청s"
+msgstr[0] "Serpentine body serum"
+msgstr[1] "Serpentine body serums"
+
+#. ~ Description for 굽이치는 몸 혈청
+#: .\mutations\item.json
+msgid ""
+"하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 거대한 뱀의 하반"
+"신으로 지형에 구애받지 않고 미끄러지듯 이동할 수 있습니다. 특정 임계 변이를 "
+"요구합니다."
+msgstr ""
+"A special mutagenic serum designed to give you a single mutation. With the "
+"lower body of a giant snake, you can glide effortlessly over any terrain., "
+"if your body supports it."
+
+#: .\mutations\item.json
+msgid "으스러뜨리는 똬리 혈청"
+msgid_plural "으스러뜨리는 똬리 혈청s"
+msgstr[0] "Crushing coils serum"
+msgstr[1] "Crushing coils serums"
+
+#. ~ Description for 으스러뜨리는 똬리 혈청
+#: .\mutations\item.json
+msgid ""
+"하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 마치 아나콘다처"
+"럼 꼬리가 튼튼하고 강력해집니다. 특정 임계 변이를 요구합니다."
+msgstr ""
+"A special mutagenic serum designed to give you a single mutation. This one "
+"will make your tail as strong and powerful as an anaconda's. if your body "
+"supports it."
 
 #. ~ Mutation class name
 #: .\mutations\mutation_category.json
@@ -13705,630 +13750,54 @@ msgstr ""
 msgid "small2"
 msgstr ""
 
-#: .\mutations\sq_mutations_override.json
-msgid "Chitinous Plate"
+#. ~ Mutation class name
+#: .\mutations\mutation_category.json
+msgid "rabbit_ears"
 msgstr ""
 
-#. ~ Description for {'str': 'Chitinous Plate'}
-#: .\mutations\sq_mutations_override.json
-msgid ""
-"You've grown a chitin exoskeleton made of thick, stiff plates.  It provides "
-"excellent physical protection, but reduces your Dexterity by 1 and encumbers "
-"all body parts but your eyes and mouth.  Greatly reduces wet effects."
+#. ~ Mutation class name
+#: .\mutations\mutation_category.json
+msgid "tail_rabbit"
 msgstr ""
 
-#: .\mutations\sq_mutations_override.json
-msgid "Furred Plate"
+#. ~ Mutation class name
+#: .\mutations\mutation_category.json
+msgid "rabbit_fur"
 msgstr ""
 
-#. ~ Description for {'str': 'Furred Plate'}
-#: .\mutations\sq_mutations_override.json
-msgid ""
-"Your exoskeleton has hardened considerably, imposing a further -1 to "
-"Dexterity, and boasts a fine coat of hairs that put feline whiskers to shame."
+#. ~ Mutation class name
+#: .\mutations\mutation_category.json
+msgid "rabbit_feet"
 msgstr ""
 
-#: .\mutations\sq_mutations_override.json
-msgid "Large Talons"
+#. ~ Mutation class name
+#: .\mutations\mutation_category.json
+msgid "rabbit_nose"
 msgstr ""
 
-#. ~ Description for {'str': 'Large Talons'}
-#: .\mutations\sq_mutations_override.json
-msgid ""
-"Your index fingers have grown into huge talons.  After a bit of practice, "
-"you find that this does not affect your dexterity, but allows for a deadly "
-"unarmed attack.  They also prevent wearing gloves."
+#. ~ Mutation class name
+#: .\mutations\mutation_category.json
+msgid "thresh_rabbit"
 msgstr ""
 
-#: .\mutations\sq_mutations_override.json
-msgid "Toe Talons"
+#. ~ Mutation class name
+#: .\mutations\mutation_category.json
+msgid "thresh_serpent"
 msgstr ""
 
-#. ~ Description for {'str': 'Toe Talons'}
-#: .\mutations\sq_mutations_override.json
-msgid ""
-"You have grown large, curved, and wickedly sharp talons in place of your big "
-"toes.  Fortunately, they don't get in the way of your movement.  "
-"Unfortunately, they do prevent wearing footgear."
+#. ~ Mutation class name
+#: .\mutations\mutation_category.json
+msgid "tail_snake"
 msgstr ""
 
-#: .\mutations\sq_mutations_override.json
-msgid "You slash %s with a talon"
+#. ~ Mutation class name
+#: .\mutations\mutation_category.json
+msgid "tail_snake_ok"
 msgstr ""
 
-#: .\mutations\sq_mutations_override.json
-msgid "%1$s slashes %2$s with a talon"
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "Hooves"
-msgstr ""
-
-#. ~ Description for {'str': 'Hooves'}
-#: .\mutations\sq_mutations_override.json
-msgid ""
-"Your feet have fused into hooves.  This allows kicking attacks to do much "
-"more damage and provides natural armor; however, you cannot wear shoes of "
-"any kind.  Reduces wet effects."
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "You kick %s with your hooves"
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "%1$s kicks %2$s with their hooves"
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "Saber Teeth"
-msgstr ""
-
-#. ~ Description for {'str': 'Saber Teeth'}
-#: .\mutations\sq_mutations_override.json
-msgid ""
-"Your fangs have grown extremely large and incredibly sharp.  They make it "
-"impossible to wear mouthgear and difficult to eat… but leave nasty wounds "
-"when you bite."
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "You tear into %s with your saber teeth"
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "%1$s tears into %2$s with their saber teeth"
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "Curled Horns"
-msgstr ""
-
-#. ~ Description for {'str': 'Curled Horns'}
-#: .\mutations\sq_mutations_override.json
-msgid ""
-"You have a pair of large curled horns, like those of a ram.  They allow you "
-"to make a powerful bashing headbutt attack, but prevent wearing any headwear."
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "You headbutt %s with your curled horns"
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "%1$s headbutts %2$s with their curled horns"
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "Pointed Horns"
-msgstr ""
-
-#. ~ Description for {'str': 'Pointed Horns'}
-#: .\mutations\sq_mutations_override.json
-msgid ""
-"You have a pair of long, pointed horns, like those of an antelope.  They "
-"allow you to make a strong piercing headbutt attack, but prevent wearing "
-"headwear that is not made of fabric."
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "You stab %s with your pointed horns"
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "%1$s stabs %2$s with their pointed horns"
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "Antlers"
-msgstr ""
-
-#. ~ Description for {'str': 'Antlers'}
-#: .\mutations\sq_mutations_override.json
-msgid ""
-"You have a huge rack of antlers, like those of a moose.  They allow you to "
-"make a weak headbutt attack, but prevent wearing headwear that is not made "
-"of fabric."
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "You butt %s with your antlers"
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "%1$s butts %2$s with their antlers"
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "Antennae"
-msgstr ""
-
-#. ~ Description for {'str': 'Antennae'}
-#: .\mutations\sq_mutations_override.json
-msgid ""
-"You have a pair of antennae.  They allow you to detect the presence of "
-"monsters up to a few tiles away, even if you can't see or hear them, but "
-"prevent wearing headwear that is not made of fabric."
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "Tail Fin"
-msgstr ""
-
-#. ~ Description for {'str': 'Tail Fin'}
-#: .\mutations\sq_mutations_override.json
-msgid ""
-"You have a fin-like tail.  It allows you to swim more quickly, but prevents "
-"wearing non-fabric pants.  Slightly increases wet benefits."
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "Long Tail"
-msgstr ""
-
-#. ~ Description for {'str': 'Long Tail'}
-#: .\mutations\sq_mutations_override.json
-msgid ""
-"You have a long, graceful tail, like that of a big cat.  It improves your "
-"balance, making your ability to dodge higher, but prevents wearing non-"
-"fabric pants."
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "Cattle Tail"
-msgstr ""
-
-#. ~ Description for {'str': 'Cattle Tail'}
-#: .\mutations\sq_mutations_override.json
-msgid ""
-"You have a long tail with a tuft on the end.  You find yourself "
-"instinctively swatting away flies with it, though it's not as effective at "
-"balancing you as you'd like.  Prevents wearing non-fabric pants."
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "Rodent Tail"
-msgstr ""
-
-#. ~ Description for {'str': 'Rodent Tail'}
-#: .\mutations\sq_mutations_override.json
-msgid ""
-"You have a long but hairless tail.  It's a pretty effective balancing aid, "
-"but does look, uh, ratty.  Prevents wearing non-fabric pants."
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "Thick Tail"
-msgstr ""
-
-#. ~ Description for {'str': 'Thick Tail'}
-#: .\mutations\sq_mutations_override.json
-msgid ""
-"You have a long, thick, lizardlike tail.  It helps you balance a bit but "
-"also makes a serviceable whip.  Prevents wearing non-fabric pants."
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "You whap %s with your tail"
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "%1$s whaps %2$s with their tail"
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "Raptor Tail"
-msgstr ""
-
-#. ~ Description for {'str': 'Raptor Tail'}
-#: .\mutations\sq_mutations_override.json
-msgid ""
-"You have a long and semi-stiff lizardlike tail.  You can't effectively lash "
-"it in combat, but it significantly improves your balance.  Prevents wearing "
-"non-fabric pants."
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "Fluffy Tail"
-msgstr ""
-
-#. ~ Description for {'str': 'Fluffy Tail'}
-#: .\mutations\sq_mutations_override.json
-msgid ""
-"You have a long, fluffy-furred tail.  It greatly improves your balance, "
-"making your ability to dodge much higher.  Prevents wearing non-fabric pants."
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "Spiked Tail"
-msgstr ""
-
-#. ~ Description for {'str': 'Spiked Tail'}
-#: .\mutations\sq_mutations_override.json
-msgid ""
-"You have a long tail that ends in a vicious stinger.  It does not improve "
-"your balance at all, but allows for a powerful piercing attack.  Prevents "
-"wearing non-fabric pants."
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "You sting %s with your tail"
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "%1$s stings %2$s with their tail"
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "Club Tail"
-msgstr ""
-
-#. ~ Description for {'str': 'Club Tail'}
-#: .\mutations\sq_mutations_override.json
-msgid ""
-"You have a long tail that ends in a heavy, bony club.  It does not improve "
-"your balance at all, but allows for a powerful bashing attack.  Prevents "
-"wearing non-fabric pants."
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "You club %s with your tail"
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "%1$s clubs %2$s with their tail"
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "Mandibles"
-msgstr ""
-
-#. ~ Description for {'str': 'Mandibles'}
-#: .\mutations\sq_mutations_override.json
-msgid ""
-"A set of insect-like mandibles have grown around your mouth.  They allow you "
-"to eat faster and provide a slicing unarmed attack, but prevent wearing "
-"mouthwear.  Slightly reduces wet effects."
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "You bite %s with your fangs"
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "%1$s bites %2$s with their fangs"
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "Freakishly Huge"
-msgstr ""
-
-#. ~ Description for {'str': 'Freakishly Huge'}
-#: .\mutations\sq_mutations_override.json
-msgid ""
-"You have grown even more massive, to the point where you cannot usefully fit "
-"into human-sized clothing or vehicles.  Much of it is powerful muscle mass "
-"(Strength +4), but it's a real pain to haul around."
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "Huge"
-msgstr ""
-
-#. ~ Description for {'str': 'Huge'}
-#: .\mutations\sq_mutations_override.json
-msgid ""
-"Your cardiovascular system has caught up with your muscular physique, so who "
-"needs pathetic human cars?  Strength +4."
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "Butterfly Wings"
-msgstr ""
-
-#. ~ Description for {'str': 'Butterfly Wings'}
-#: .\mutations\sq_mutations_override.json
-msgid ""
-"You have a very large pair of brightly-colored, very beautiful wings.  They "
-"can't lift you, and they make balancing tricky, but they certainly catch air "
-"and attention!"
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "Bovine Snout"
-msgstr ""
-
-#. ~ Description for {'str': 'Bovine Snout'}
-#: .\mutations\sq_mutations_override.json
-msgid ""
-"Your face resembles that of a bull, with a significant snout.  It looks "
-"fearsome but prevents wearing mouthgear."
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "Lupine Muzzle"
-msgstr ""
-
-#. ~ Description for {'str': 'Lupine Muzzle'}
-#: .\mutations\sq_mutations_override.json
-msgid ""
-"Your jaw and nose have extended into a wolfish muzzle.  It lends itself to "
-"biting in combat and looks impressive, but prevents wearing mouthgear."
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "You nip at %s"
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "%1$s nips and harries %2$s"
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "Ursine Muzzle"
-msgstr ""
-
-#. ~ Description for {'str': 'Ursine Muzzle'}
-#: .\mutations\sq_mutations_override.json
-msgid ""
-"Your jaw and nose have extended into a bearish muzzle.  You could bite with "
-"it, and it looks impressive, but it prevents wearing mouthgear."
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "You bite %s"
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "%1$s bites %2$s"
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "Rodent Muzzle"
-msgstr ""
-
-#. ~ Description for {'str': 'Rodent Muzzle'}
-#: .\mutations\sq_mutations_override.json
-msgid ""
-"Your face and jaw have extended, giving you an alert and attentive "
-"appearance."
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "Reptilian Muzzle"
-msgstr ""
-
-#. ~ Description for {'str': 'Reptilian Muzzle'}
-#: .\mutations\sq_mutations_override.json
-msgid ""
-"Your face and jaws are a shorter version of those found on alligators.  They "
-"look NASTY--as do the bite wounds they can inflict--but prevent wearing "
-"mouthgear."
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "You bite a chunk out of %s"
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "%1$s bites a chunk out of %2$s"
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "Proboscis"
-msgstr ""
-
-#. ~ Description for {'str': 'Proboscis'}
-#: .\mutations\sq_mutations_override.json
-msgid ""
-"You've gotten rid of that terribly imprecise mouth and now imbibe your food "
-"like a proper person.  Chewing was tiresome anyway."
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "Paws"
-msgstr ""
-
-#. ~ Description for {'str': 'Paws'}
-#: .\mutations\sq_mutations_override.json
-msgid ""
-"Your hands have fused into quasi-paws.  Fine manipulation is a challenge: "
-"permanent hand encumbrance of 10, difficulty with delicate craftwork, and "
-"your gloves don't fit.  But they handle water better."
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "Broad Paws"
-msgstr ""
-
-#. ~ Description for {'str': 'Broad Paws'}
-#: .\mutations\sq_mutations_override.json
-msgid ""
-"Your paws are much larger now.  Manual dexterity is difficult: permanent "
-"hand encumbrance of 20, serious problems crafting, and no gloves.  In "
-"return, though, you can swim better."
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "Beak"
-msgstr ""
-
-#. ~ Description for {'str': 'Beak'}
-#: .\mutations\sq_mutations_override.json
-msgid ""
-"You have a beak for a mouth.  You can occasionally use it to peck at your "
-"enemies, but it is impossible for you to wear mouth gear.  Slightly reduces "
-"wet effects."
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "You peck %s"
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "%1$s pecks %2$s"
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "Woodpecker Beak"
-msgstr ""
-
-#. ~ Description for {'str': 'Woodpecker Beak'}
-#: .\mutations\sq_mutations_override.json
-msgid ""
-"Pecking at prey is part of your daily routine now.  Slightly reduces wet "
-"effects."
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "You jackhammer into %s with your beak"
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "%1$s jackhammer into %2$s with their beak"
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "Hummingbird Beak"
-msgstr ""
-
-#. ~ Description for {'str': 'Hummingbird Beak'}
-#: .\mutations\sq_mutations_override.json
-msgid ""
-"Though your beak's not suitable for pecking, those flowers out there are a "
-"good source of energy.  Examine them to feed."
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "Insect Limbs"
-msgstr ""
-
-#. ~ Description for {'str': 'Insect Limbs'}
-#: .\mutations\sq_mutations_override.json
-msgid ""
-"You've *finally* sprouted a pair of arms from your midsection.  They flail "
-"more or less uncontrollably, making you feel rather larval."
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "Arachnid Limbs"
-msgstr ""
-
-#. ~ Description for {'str': 'Arachnid Limbs'}
-#: .\mutations\sq_mutations_override.json
-msgid ""
-"There's the last two limbs you were expecting.  Unfortunately, you still "
-"can't coordinate them, so you're getting in your own way.  A lot."
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "Tentacle Arms"
-msgstr ""
-
-#. ~ Description for {'str': 'Tentacle Arms'}
-#: .\mutations\sq_mutations_override.json
-msgid ""
-"Your arms have transformed into tentacles, resulting in a +1 bonus to "
-"Dexterity, permanent hand encumbrance of 30, and an inability to wear "
-"gloves.  Somewhat decreases wet penalties."
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "You slap %s with your tentacle"
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "%1$s slaps %2$s with their tentacle"
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "You rake %s with your tentacle"
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "%1$s rakes %2$s with their tentacle"
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "4 Tentacles"
-msgstr ""
-
-#. ~ Description for {'str': '4 Tentacles'}
-#: .\mutations\sq_mutations_override.json
-msgid ""
-"Your arms have transformed into four tentacles, resulting in a +1 bonus to "
-"Dexterity, permanent hand encumbrance of 30, and an inability to wear "
-"gloves.  You can make up to 3 extra attacks with them.  Somewhat decreases "
-"wet penalties."
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "8 Tentacles"
-msgstr ""
-
-#. ~ Description for {'str': '8 Tentacles'}
-#: .\mutations\sq_mutations_override.json
-msgid ""
-"Your arms have transformed into eight tentacles, resulting in a +1 bonus to "
-"Dexterity, permanent hand encumbrance of 30, and an inability to wear "
-"gloves.  You can make up to 7 extra attacks with them.  Somewhat decreases "
-"wet penalties."
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "Shell"
-msgstr ""
-
-#. ~ Description for {'str': 'Shell'}
-#: .\mutations\sq_mutations_override.json
-msgid ""
-"You have grown a thick shell over your torso, providing excellent armor.  "
-"You find you can use the empty space as 16 storage space, but cannot wear "
-"anything on your torso.  Somewhat reduces wet effects."
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "Roomy Shell"
-msgstr ""
-
-#. ~ Description for {'str': 'Roomy Shell'}
-#: .\mutations\sq_mutations_override.json
-msgid ""
-"Your protective shell has grown large enough to accommodate--if need be--"
-"your whole body.  Activate to pull your head and limbs into your shell, "
-"trading mobility and vision for warmth and shelter."
-msgstr ""
-
-#: .\mutations\sq_mutations_override.json
-msgid "Leg Tentacles"
-msgstr ""
-
-#. ~ Description for {'str': 'Leg Tentacles'}
-#: .\mutations\sq_mutations_override.json
-msgid ""
-"Your legs have transformed into six tentacles.  This decreases your speed on "
-"land by 20%, makes your movement silent, increases your swimming speed and "
-"reduces wet penalties, but you can't use footwear any more."
+#. ~ Mutation class name
+#: .\mutations\mutation_category.json
+msgid "snake_coils"
 msgstr ""
 
 #. ~ Crafting recipes category name
@@ -14585,6 +14054,51 @@ msgstr ""
 #, c-format
 msgid "<npcname> feints at %s"
 msgstr ""
+
+#~ msgid "VTOL 추진기"
+#~ msgid_plural "VTOL 추진기"
+#~ msgstr[0] "VTOL thruster"
+#~ msgstr[1] "VTOL thrusters"
+
+#~ msgid ""
+#~ "군용 수직이착륙기나 대형 수송 드론에 사용되는 수직이착륙 추진기입니다. 대"
+#~ "지, 바다, 하늘을 가리지 않고 자유롭게 이착륙할 수 있습니다."
+#~ msgstr ""
+#~ "This is a vertical takeoff and landing (VTOL) propulsion system used in "
+#~ "military VTOL aircraft and large transport drones. It allows for free "
+#~ "takeoff and landing on land, at sea, or in the air."
+
+#~ msgid "제트 추진기"
+#~ msgid_plural "제트 추진기s"
+#~ msgstr[0] "jet thruster"
+#~ msgstr[1] "jet thrusters"
+
+#~ msgid ""
+#~ "군사 등급의 항공우주 공학이 집약된 제트 추진기 모듈입니다. 원래는 차세대 "
+#~ "건쉽이나 대형 수송 드론의 자세 제어 및 주 동력원으로 사용되던 물건으로, 일"
+#~ "반적인 내연기관과는 궤를 달리하는 압도적인 추력 대 중량비를 자랑합니다."
+#~ msgstr ""
+#~ "This jet propulsion module is a concentrated embodiment of military-grade "
+#~ "aerospace engineering. Originally designed for use as the primary "
+#~ "propulsion system and attitude control mechanism in next-generation "
+#~ "gunships and large transport drones, it boasts an overwhelming thrust-to-"
+#~ "weight ratio that far surpasses that of conventional internal combustion "
+#~ "engines."
+
+#~ msgid "외장형 제트 추진기"
+#~ msgstr "external jet thruster"
+
+#~ msgid "최하위 청소자 혈청"
+#~ msgid_plural "최하위 청소자 혈청s"
+#~ msgstr[0] "Saprovore serum"
+#~ msgstr[1] "Saprovore serums"
+
+#~ msgid ""
+#~ "하나의 특정한 변이만을 제공하도록 설계된 특수 돌연변이 혈청. 풀을 먹을 수 "
+#~ "있게 해줍니다."
+#~ msgstr ""
+#~ "A special mutagenic serum designed to give you a single mutation. Makes "
+#~ "you capable of eating grass."
 
 #~ msgid "빠른 고통 회복 혈청"
 #~ msgid_plural "빠른 고통 회복 혈청s"

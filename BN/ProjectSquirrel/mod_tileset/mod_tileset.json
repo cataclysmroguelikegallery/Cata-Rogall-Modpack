@@ -492,15 +492,6 @@
             "multitile": true,
             "additional_tiles": [ { "id": "broken", "fg": 212, "bg": 211 } ]
           },
-          { "id": "overlay_wielded_sq_vtol_hover", "fg": 213, "rotates": false },
-          { "id": "sq_vtol_hover", "fg": 213, "rotates": false },
-          {
-            "id": "vp_sq_vtol_hover",
-            "fg": 213,
-            "rotates": true,
-            "multitile": true,
-            "additional_tiles": [ { "id": "broken", "fg": 212, "bg": 213 } ]
-          },
           { "id": "overlay_wielded_sq_multiballoon", "fg": 214, "rotates": false },
           { "id": "sq_multiballoon", "fg": 214, "rotates": false },
           {
@@ -509,22 +500,6 @@
             "rotates": true,
             "multitile": true,
             "additional_tiles": [ { "id": "broken", "fg": 212, "bg": 214 } ]
-          },
-          { "id": "overlay_wielded_sq_jet_thruster", "fg": 215, "rotates": false },
-          { "id": "sq_jet_thruster", "fg": 215, "rotates": false },
-          {
-            "id": "vp_sq_jet_thruster",
-            "fg": 211,
-            "rotates": true,
-            "multitile": true,
-            "additional_tiles": [ { "id": "broken", "fg": 212, "bg": 215 } ]
-          },
-          {
-            "id": "vp_sq_jet_thruster_external",
-            "fg": 211,
-            "rotates": true,
-            "multitile": true,
-            "additional_tiles": [ { "id": "broken", "fg": 212, "bg": 215 } ]
           }
         ],
         "sprite_width": 32,

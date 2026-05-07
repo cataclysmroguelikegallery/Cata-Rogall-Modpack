@@ -621,6 +621,7 @@
     "type": "mutation",
     "id": "CHITIN3",
     "copy-from": "CHITIN3",
+	"delete": { "restricts_gear": [ "head" ] },
     "extend": { "category": [ "CHITIN3" ] }
   },
   {
@@ -639,6 +640,7 @@
     "type": "mutation",
     "id": "CHITIN_FUR3",
     "copy-from": "CHITIN_FUR3",
+	"delete": { "restricts_gear": [ "head" ] },
     "extend": { "category": [ "CHITIN_FUR3" ] }
   },
   {
@@ -771,6 +773,7 @@
     "type": "mutation",
     "id": "TALONS",
     "copy-from": "TALONS",
+	"delete": { "restricts_gear": [ "hand_l", "hand_r" ] },
     "extend": { "category": [ "TALONS" ] }
   },
   {
@@ -861,12 +864,14 @@
     "type": "mutation",
     "id": "RAP_TALONS",
     "copy-from": "RAP_TALONS",
+	"delete": { "restricts_gear": [ "foot_l", "foot_r" ] },
     "extend": { "category": [ "RAP_TALONS" ] }
   },
   {
     "type": "mutation",
     "id": "HOOVES",
     "copy-from": "HOOVES",
+	"delete": { "restricts_gear": [ "foot_l", "foot_r" ] },
     "extend": { "category": [ "HOOVES" ] }
   },
   {
@@ -939,6 +944,7 @@
     "type": "mutation",
     "id": "SABER_TEETH",
     "copy-from": "SABER_TEETH",
+	"delete": { "restricts_gear": [ "mouth" ] },
     "extend": { "category": [ "SABER_TEETH" ] }
   },
   {
@@ -957,24 +963,28 @@
     "type": "mutation",
     "id": "HORNS_CURLED",
     "copy-from": "HORNS_CURLED",
+	"delete": { "restricts_gear": [ "head" ] },
     "extend": { "category": [ "HORNS_CURLED" ] }
   },
   {
     "type": "mutation",
     "id": "HORNS_POINTED",
     "copy-from": "HORNS_POINTED",
+	"delete": { "restricts_gear": [ "head" ] },
     "extend": { "category": [ "HORNS_POINTED" ] }
   },
   {
     "type": "mutation",
     "id": "ANTLERS",
     "copy-from": "ANTLERS",
+	"delete": { "restricts_gear": [ "head" ] },
     "extend": { "category": [ "ANTLERS" ] }
   },
   {
     "type": "mutation",
     "id": "ANTENNAE",
     "copy-from": "ANTENNAE",
+	"delete": { "restricts_gear": [ "head" ] },
     "extend": { "category": [ "ANTENNAE" ] }
   },
   {
@@ -993,54 +1003,63 @@
     "type": "mutation",
     "id": "TAIL_FIN",
     "copy-from": "TAIL_FIN",
+	"delete": { "restricts_gear": [ "leg_l", "leg_r" ] },
     "extend": { "category": [ "TAIL_FIN" ] }
   },
   {
     "type": "mutation",
     "id": "TAIL_LONG",
     "copy-from": "TAIL_LONG",
+	"delete": { "restricts_gear": [ "leg_l", "leg_r" ] },
     "extend": { "category": [ "TAIL_LONG" ] }
   },
   {
     "type": "mutation",
     "id": "TAIL_CATTLE",
     "copy-from": "TAIL_CATTLE",
+	"delete": { "restricts_gear": [ "leg_l", "leg_r" ] },
     "extend": { "category": [ "TAIL_CATTLE" ] }
   },
   {
     "type": "mutation",
     "id": "TAIL_RAT",
     "copy-from": "TAIL_RAT",
+	"delete": { "restricts_gear": [ "leg_l", "leg_r" ] },
     "extend": { "category": [ "TAIL_RAT" ] }
   },
   {
     "type": "mutation",
     "id": "TAIL_THICK",
     "copy-from": "TAIL_THICK",
+	"delete": { "restricts_gear": [ "leg_l", "leg_r" ] },
     "extend": { "category": [ "TAIL_THICK" ] }
   },
   {
     "type": "mutation",
     "id": "TAIL_RAPTOR",
     "copy-from": "TAIL_RAPTOR",
+	"delete": { "restricts_gear": [ "leg_l", "leg_r" ] },
     "extend": { "category": [ "TAIL_RAPTOR" ] }
   },
   {
     "type": "mutation",
     "id": "TAIL_FLUFFY",
     "copy-from": "TAIL_FLUFFY",
+	"delete": { "restricts_gear": [ "leg_l", "leg_r" ] },
     "extend": { "category": [ "TAIL_FLUFFY" ] }
   },
   {
     "type": "mutation",
     "id": "TAIL_STING",
     "copy-from": "TAIL_STING",
+	"delete": { "restricts_gear": [ "leg_l", "leg_r" ] },
     "extend": { "category": [ "TAIL_STING" ] }
   },
   {
     "type": "mutation",
     "id": "TAIL_CLUB",
     "copy-from": "TAIL_CLUB",
+	"delete": { "restricts_gear": [ "leg_l", "leg_r" ] },
     "extend": { "category": [ "TAIL_CLUB" ] }
   },
   {
@@ -1125,6 +1144,7 @@
     "type": "mutation",
     "id": "MANDIBLES",
     "copy-from": "MANDIBLES",
+	"delete": { "restricts_gear": [ "mouth" ] },
     "extend": { "category": [ "MANDIBLES" ] }
   },
   {
@@ -1225,8 +1245,16 @@
   },
   {
     "type": "mutation",
+    "id": "HUGE",
+    "copy-from": "HUGE",
+    "delete": { "restricts_gear": [ "torso", "leg_l", "leg_r", "arm_l", "arm_r", "hand_l", "hand_r", "head", "foot_l", "foot_r" ] },
+    "extend": { "category": [ "HUGE" ] }
+  },
+  {
+    "type": "mutation",
     "id": "HUGE_OK",
     "copy-from": "HUGE_OK",
+    "delete": { "restricts_gear": [ "torso", "leg_l", "leg_r", "arm_l", "arm_r", "hand_l", "hand_r", "head", "foot_l", "foot_r" ] },
     "extend": { "category": [ "HUGE_OK" ] }
   },
   {
@@ -1353,6 +1381,7 @@
     "type": "mutation",
     "id": "WINGS_BUTTERFLY",
     "copy-from": "WINGS_BUTTERFLY",
+    "delete": { "restricts_gear": [ "torso" ] },
     "extend": { "category": [ "WINGS_BUTTERFLY" ] }
   },
   {
@@ -1395,36 +1424,42 @@
     "type": "mutation",
     "id": "MINOTAUR",
     "copy-from": "MINOTAUR",
+    "restricts_gear": [ "mouth" ],
     "extend": { "category": [ "MINOTAUR" ] }
   },
   {
     "type": "mutation",
     "id": "MUZZLE",
     "copy-from": "MUZZLE",
+    "restricts_gear": [ "mouth" ],
     "extend": { "category": [ "MUZZLE" ] }
   },
   {
     "type": "mutation",
     "id": "MUZZLE_BEAR",
     "copy-from": "MUZZLE_BEAR",
+    "restricts_gear": [ "mouth" ],
     "extend": { "category": [ "MUZZLE_BEAR" ] }
   },
   {
     "type": "mutation",
     "id": "MUZZLE_RAT",
     "copy-from": "MUZZLE_RAT",
+    "restricts_gear": [ "mouth" ],
     "extend": { "category": [ "MUZZLE_RAT" ] }
   },
   {
     "type": "mutation",
     "id": "MUZZLE_LONG",
     "copy-from": "MUZZLE_LONG",
+    "restricts_gear": [ "mouth" ],
     "extend": { "category": [ "MUZZLE_LONG" ] }
   },
   {
     "type": "mutation",
     "id": "PROBOSCIS",
     "copy-from": "PROBOSCIS",
+    "restricts_gear": [ "mouth" ],
     "extend": { "category": [ "PROBOSCIS" ] }
   },
   {
@@ -1503,24 +1538,28 @@
     "type": "mutation",
     "id": "PAWS_LARGE",
     "copy-from": "PAWS_LARGE",
+    "delete": { "restricts_gear": [ "hand_l", "hand_r" ] },
     "extend": { "category": [ "PAWS_LARGE" ] }
   },
   {
     "type": "mutation",
     "id": "BEAK",
     "copy-from": "BEAK",
+    "delete": { "restricts_gear": [ "mouth" ] },
     "extend": { "category": [ "BEAK" ] }
   },
   {
     "type": "mutation",
     "id": "BEAK_PECK",
     "copy-from": "BEAK_PECK",
+    "delete": { "restricts_gear": [ "mouth" ] },
     "extend": { "category": [ "BEAK_PECK" ] }
   },
   {
     "type": "mutation",
     "id": "BEAK_HUM",
     "copy-from": "BEAK_HUM",
+    "delete": { "restricts_gear": [ "mouth" ] },
     "extend": { "category": [ "BEAK_HUM" ] }
   },
   {
@@ -1645,38 +1684,72 @@
   },
   {
     "type": "mutation",
+    "id": "INSECT_ARMS",
+    "copy-from": "INSECT_ARMS",
+    "delete": { "restricts_gear": [ "torso" ] },
+    "extend": { "category": [ "INSECT_ARMS" ] }
+  },
+  {
+    "type": "mutation",
     "id": "INSECT_ARMS_OK",
     "copy-from": "INSECT_ARMS_OK",
+    "delete": { "restricts_gear": [ "torso" ] },
     "extend": { "category": [ "INSECT_ARMS_OK" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "ARACHNID_ARMS",
+    "copy-from": "ARACHNID_ARMS",
+    "delete": { "restricts_gear": [ "torso" ] },
+    "extend": { "category": [ "ARACHNID_ARMS" ] }
   },
   {
     "type": "mutation",
     "id": "ARACHNID_ARMS_OK",
     "copy-from": "ARACHNID_ARMS_OK",
+    "delete": { "restricts_gear": [ "torso" ] },
     "extend": { "category": [ "ARACHNID_ARMS_OK" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "ARM_TENTACLES",
+    "copy-from": "ARM_TENTACLES",
+	"delete": { "restricts_gear": [ "hand_l", "hand_r" ] },
+    "extend": { "category": [ "ARM_TENTACLES" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "ARM_TENTACLES_4",
+    "copy-from": "ARM_TENTACLES_4",
+	"delete": { "restricts_gear": [ "hand_l", "hand_r" ] },
+    "extend": { "category": [ "ARM_TENTACLES_4" ] }
   },
   {
     "type": "mutation",
     "id": "ARM_TENTACLES_8",
     "copy-from": "ARM_TENTACLES_8",
+	"delete": { "restricts_gear": [ "hand_l", "hand_r" ] },
     "extend": { "category": [ "ARM_TENTACLES_8" ] }
   },
   {
     "type": "mutation",
     "id": "SHELL",
     "copy-from": "SHELL",
+	"delete": { "restricts_gear": [ "torso" ] },
     "extend": { "category": [ "SHELL" ] }
   },
   {
     "type": "mutation",
     "id": "SHELL2",
     "copy-from": "SHELL2",
+	"delete": { "restricts_gear": [ "torso" ] },
     "extend": { "category": [ "SHELL2" ] }
   },
   {
     "type": "mutation",
     "id": "LEG_TENTACLES",
     "copy-from": "LEG_TENTACLES",
+	"delete": { "restricts_gear": [ "foot_l", "foot_r" ] },
     "extend": { "category": [ "LEG_TENTACLES" ] }
   },
   {
@@ -1744,5 +1817,68 @@
     "id": "FAST_REFLEXES",
     "copy-from": "FAST_REFLEXES",
     "extend": { "category": [ "FAST_REFLEXES" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "RABBIT_EARS",
+    "copy-from": "RABBIT_EARS",
+    "extend": { "category": [ "RABBIT_EARS" ] }
+  },
+    {
+    "type": "mutation",
+    "id": "TAIL_RABBIT",
+    "copy-from": "TAIL_RABBIT",
+    "extend": { "category": [ "TAIL_RABBIT" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "RABBIT_FUR",
+    "copy-from": "RABBIT_FUR",
+    "extend": { "category": [ "RABBIT_FUR" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "RABBIT_FEET",
+    "copy-from": "RABBIT_FEET",
+	"delete": { "restricts_gear": [ "foot_l", "foot_r" ] },
+    "extend": { "category": [ "RABBIT_FEET" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "RABBIT_NOSE",
+    "copy-from": "RABBIT_NOSE",
+    "extend": { "category": [ "RABBIT_NOSE" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "THRESH_RABBIT",
+    "copy-from": "THRESH_RABBIT",
+    "extend": { "category": [ "THRESH_RABBIT" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "THRESH_SERPENT",
+    "copy-from": "THRESH_SERPENT",
+    "extend": { "category": [ "THRESH_SERPENT" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "TAIL_SNAKE",
+    "copy-from": "TAIL_SNAKE",
+	"delete": { "restricts_gear": [ "leg_l", "leg_r", "foot_l", "foot_r" ] },
+    "extend": { "category": [ "TAIL_SNAKE" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "TAIL_SNAKE_OK",
+    "copy-from": "TAIL_SNAKE_OK",
+	"delete": { "restricts_gear": [ "leg_l", "leg_r", "foot_l", "foot_r" ] },
+    "extend": { "category": [ "TAIL_SNAKE_OK" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "SNAKE_COILS",
+    "copy-from": "SNAKE_COILS",
+    "extend": { "category": [ "SNAKE_COILS" ] }
   }
 ]

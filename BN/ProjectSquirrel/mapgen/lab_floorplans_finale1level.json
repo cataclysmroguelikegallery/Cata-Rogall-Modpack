@@ -1,58 +1,10 @@
 [
   {
-    "//": "nano_fabricator room",
-    "type": "mapgen",
-    "method": "json",
-    "om_terrain": [ "lab_finale_1level" ],
-    "weight": 100,
-    "object": {
-      "fill_ter": "t_thconc_floor",
-      "rows": [
-        "CCC..................CCC",
-        "C..........YY..........C",
-        "........................",
-        "....cc............cc....",
-        "....cc..c......c..cc....",
-        "....cc..c..//..c..cc....",
-        "........c..//..c........",
-        "........c......c........",
-        "...........YY...........",
-        "........................",
-        ".....-----gGGg-----.....",
-        ".....-c.g,,,,,,g.c-.....",
-        "..YY.-c.G,/,,/,G.c-.YY..",
-        ".....-c.g,?,,?,g.c-.....",
-        "ggGGg----,,,,,,----gGGgg",
-        ".x...-CC-+gggg+-CC-...x.",
-        ".x..x-,,,,,,,,,,,,-x..x.",
-        ".x..C-,r,,,rr,,,r,-C..x.",
-        ".x..C-Y,,,,,,,,,,Y-C..x.",
-        ".x..x----GggggG----x..x.",
-        ".R....G..........G....R.",
-        "......G....YY....G......",
-        ".Yxx..g..........g..xxY.",
-        "......g..........g......"
-      ],
-      "palettes": [ "lab_palette", "lab_loot_research" ],
-      "furniture": { "R": "f_rack" },
-      "terrain": { "?": "t_nanofab", "r": "t_metal_floor", "/": "t_nanofab_body" },
-      "mapping": { "r": { "item": { "item": "standard_template_construct" } }, "R": { "item": { "item": "nanomaterial" } } },
-      "place_nested": [ { "chunks": [ "lab_finale_loot" ], "x": 6, "y": 11 } ],
-      "place_loot": [ { "group": "mech_power_cell_spawn", "x": [ 4, 5 ], "y": [ 3, 5 ] } ],
-      "place_monster": [
-        { "monster": "mon_secubot", "x": [ 1, 4 ], "y": [ 20, 22 ], "chance": 90 },
-        { "monster": "mon_secubot", "x": [ 19, 20 ], "y": [ 20, 22 ], "chance": 90 },
-        { "monster": "mon_zombie_scientist", "x": [ 2, 20 ], "y": [ 1, 9 ], "chance": 90, "repeat": [ 1, 2 ] },
-        { "monster": "mon_mech_lifter", "x": 2, "y": 2, "chance": 100 }
-      ]
-    }
-  },
-  {
     "//": "portal room",
     "type": "mapgen",
     "method": "json",
     "om_terrain": [ "lab_finale_1level" ],
-    "weight": 50,
+    "weight": 75,
     "object": {
       "fill_ter": "t_thconc_floor",
       "rows": [
@@ -63,7 +15,7 @@
         ".rY.r,.. G.....d...tt.Y.",
         ".R..r,...G.........tt...",
         ".....,..tg..............",
-        "---l,,..tg.....d........",
+        "-+-l,,..tg.....d........",
         "..-l....tggGGggdh.......",
         "..-lll...G,,,,gd........",
         "..-----g-ggGGgg-gggGg-+-",
@@ -78,13 +30,14 @@
         "-+-------GggggG-------+-",
         ".......................-",
         ".......................-",
-        ".CCCCxxxxx....xCCxxCCCx-",
+        ".CCCCxxxxA....ACCxxCCCx-",
         "........................"
       ],
       "palettes": [ "lab_palette", "lab_loot_research" ],
-      "furniture": { "R": "f_rack", "D": "f_desk" },
+      "furniture": { "R": "f_rack", "D": "f_desk", "A": "f_artifact_analyzer_console" },
       "fields": { "Q": { "field": "fd_fatigue", "intensity": 3 } },
       "mapping": {
+		",": { "item": [ { "item": "vertigon", "chance": 8, "repeat": 2 } ] },
         "R": { "item": [ { "item": "dimensional_anchor" }, { "item": "phase_immersion_suit" } ] },
         "D": {
           "item": [
@@ -96,11 +49,8 @@
         }
       },
       "place_nested": [ { "chunks": [ "lab_finale_loot" ], "x": 4, "y": 1 } ],
-      "place_monster": [
-        { "monster": "mon_hound_tindalos", "x": [ 7, 8 ], "y": [ 17, 18 ], "chance": 90 },
-        { "monster": "mon_hound_tindalos", "x": [ 16, 17 ], "y": [ 17, 18 ], "chance": 90 },
-        { "monster": "mon_mech_lifter", "x": 2, "y": 2, "chance": 100 }
-      ]
+      "place_loot": [ { "item": "id_science", "x": [ 19, 20 ], "y": [ 2, 5 ] } ],
+      "place_monster": [ { "monster": "mon_mech_lifter", "x": 2, "y": 2, "chance": 100 } ]
     }
   },
   {
@@ -122,15 +72,15 @@
         "...|C.......6.......|...",
         "...|-..............-|...",
         "..Y..................Y..",
-        "..Y.......?..?.......Y..",
+        "..Y..................Y..",
         "...|gggggg----gggggg|...",
         "...|txttttCCCCtttxxt|...",
         "...|r.hh........h .r|...",
         "...|r.Y..........Y.r|...",
         "...|r..|---MM---|..r|...",
-        "-MM|---|..?..?..|---|MM-",
+        "-MM|---|........|---|MM-",
         "........................",
-        "........................",
+        "...........?............",
         "........................",
         "....Y..............Y....",
         "........................",
@@ -138,8 +88,11 @@
         "........................"
       ],
       "palettes": [ "lab_palette" ],
-      "monster": { "?": { "monster": "mon_turret_light" } },
+      "monster": { "?": { "monster": "mon_shade_boss" } },
       "terrain": { "o": "t_radio_tower" },
+      "mapping": {
+		".": { "item": [ { "item": "vertigon", "chance": 3, "repeat": 2 } ] }
+      },
       "computers": {
         "6": {
           "name": "Sub-prime Contact Console",
@@ -152,7 +105,8 @@
           "failures": [ { "action": "damage" }, { "action": "secubots" } ]
         }
       },
-      "place_nested": [ { "chunks": [ "lab_finale_loot" ], "x": 4, "y": 13 } ]
+      "place_nested": [ { "chunks": [ "lab_finale_loot" ], "x": 4, "y": 13 } ],
+      "place_loot": [ { "item": "id_science", "x": [ 14, 16 ], "y": 12 } ]
     }
   },
   {
@@ -173,12 +127,12 @@
         ".....?...|..oooo.hx|....",
         "....|--|M|..oooo..C|....",
         "....|r.M....Oooo..C|....",
-        "....|r.|xh..oooo..C|....",
+        "....|r*|xh..oooo..C|....",
         "....|rY|ttt......YC|....",
         "....|--|-----------|....",
         "........................",
         "..Y..................Y..",
-        "..........?..?..........",
+        "........................",
         "........................",
         "---------|....|--ggggg--",
         "ttttt.xtt|Y..Y|Y........",
@@ -191,10 +145,10 @@
       ],
       "palettes": [ "lab_palette" ],
       "place_nested": [ { "chunks": [ "lab_finale_loot" ], "x": 5, "y": 8 } ],
+      "monster": { "?": { "monster": "mon_turret_light" }, "*": { "monster": "mon_shade_boss", "chance": 25 } },
       "mapping": {
         "O": { "item": [ { "item": "recipe_lab_cvd" } ] }
       },
-      "monster": { "?": { "monster": "mon_turret_light" } },
       "terrain": { "o": "t_cvdbody", "O": "t_cvdmachine" }
     }
   },

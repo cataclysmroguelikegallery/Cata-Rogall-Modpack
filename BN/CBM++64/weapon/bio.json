@@ -1,14 +1,24 @@
 [
-	{
+  {
     "id": "bio_claws_weapon",
     "copy-from": "bio_claws_weapon",
     "type": "GENERIC",
     "category": "weapons",
     "name": { "str_sp": "bionic claws" },
     "cutting": 24,
-	  "techniques": [ "WBLOCK_3" ],
-	  "relic_data": { "passive_effects": [ { "has": "WIELD", "condition": "ALWAYS",	"mutations": [ "bionic_claws"],	"hit_you_effect": [ { "id": "Claw_du", "hit_self": false} ] } ] }
-  },{
+    "techniques": [ "WBLOCK_3" ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WIELD",
+          "condition": "ALWAYS",
+          "mutations": [ "bionic_claws" ],
+          "hit_you_effect": [ { "id": "Claw_du", "hit_self": false } ]
+        }
+      ]
+    }
+  },
+  {
     "id": "bio_inventory_bag",
     "copy-from": "fake_item",
     "type": "ARMOR",
@@ -24,7 +34,7 @@
     "max_encumbrance": 60,
     "storage": "30 L",
     "material_thickness": 3,
-    "flags": [ "TRADER_AVOID","NO_UNWIELD","ONLY_ONE", "NO_DROP","NO_REPAIR", "NO_SALVAGE", "OVERSIZE","NO_UNLOAD","DANGEROUS" ]
+    "flags": [ "TRADER_AVOID", "NO_UNWIELD", "ONLY_ONE", "NO_DROP", "NO_REPAIR", "NO_SALVAGE", "OVERSIZE", "NO_UNLOAD", "DANGEROUS" ]
   },
   {
     "id": "bio_inventory",
@@ -65,7 +75,7 @@
     "symbol": "(",
     "color": "magenta",
     "skill": "launcher",
-    "ammo": [ "RPG-7","84x246mm","m235","66mm","xray_laser_barrel","atgm" ],
+    "ammo": [ "RPG-7", "84x246mm", "m235", "66mm", "xray_laser_barrel", "atgm" ],
     "ups_charges": 200,
     "range": 15,
     "dispersion": 50,
@@ -73,11 +83,13 @@
     "durability": 6,
     "clip_size": 1,
     "reload": 1000,
-	  "relic_data": {	"passive_effects": [ { "has": "WIELD", "condition": "ALWAYS",	"values": [ { "value": "MOVE_COST", "multiply": 5, "add": 500 } ]	} ] },
+    "relic_data": {
+      "passive_effects": [ { "has": "WIELD", "condition": "ALWAYS", "values": [ { "value": "MOVE_COST", "multiply": 5, "add": 500 } ] } ]
+    },
     "loudness": 200,
-    "flags": ["TRADER_AVOID", "NEVER_JAMS", "NO_UNWIELD", "NO_DROP", "TRADER_AVOID", "RELOAD_EJECT", "MOUNTED_GUN" ]
+    "flags": [ "TRADER_AVOID", "NEVER_JAMS", "NO_UNWIELD", "NO_DROP", "TRADER_AVOID", "RELOAD_EJECT", "MOUNTED_GUN" ]
   },
-	{
+  {
     "id": "afs_bionic_rocket",
     "type": "GUN",
     "copy-from": "afs_bionic_rocket",
@@ -90,9 +102,9 @@
     "type": "TOOL",
     "name": { "str_sp": "autonomous surgical scalpels" },
     "delete": { "qualities": [ [ "CUT_FINE", 5 ] ] },
-    "extends": { "qualities": [ [ "CUT_FINE", 10 ] ] }
+    "extend": { "qualities": [ [ "CUT_FINE", 10 ] ] }
   },
-	{
+  {
     "id": "toolset_extended_mk2",
     "copy-from": "toolset_extended",
     "looks_like": "toolset_extended",
@@ -100,16 +112,31 @@
     "category": "tools",
     "name": { "str": "향상된 확장형 도구모음" },
     "description": "당신의 손에서 튀어 나오는 도구모음. 거의 모든 종류의 도구를 대체할 수 있습니다.",
-    "extends": { "flags": [ "DIG_TOOL", "POWERED" ] },
+    "extend": { "flags": [ "DIG_TOOL", "POWERED" ] },
     "use_action": [
-	    "OXYTORCH",
-	    "JACKHAMMER",
+      "OXYTORCH",
+      "JACKHAMMER",
       "HAMMER",
       "CROWBAR",
       {
         "type": "repair_item",
         "item_action_type": "repair_metal",
-        "materials": [ "kevlar", "plastic", "superalloy", "iron", "steel", "budget_steel", "hardsteel", "aluminum", "bronze", "copper", "silver", "platinum", "gold", "glass" ],
+        "materials": [
+          "kevlar",
+          "plastic",
+          "superalloy",
+          "iron",
+          "steel",
+          "budget_steel",
+          "hardsteel",
+          "aluminum",
+          "bronze",
+          "copper",
+          "silver",
+          "platinum",
+          "gold",
+          "glass"
+        ],
         "skill": "mechanics",
         "cost_scaling": 0.1,
         "move_cost": 1000
@@ -129,49 +156,52 @@
       [ "CUT", 2 ],
       [ "PRY", 4 ],
       [ "DRILL", 3 ],
-	    [ "AXE", 4 ],
-	    [ "WELD", 2 ],
+      [ "AXE", 4 ],
+      [ "WELD", 2 ],
       [ "BUTCHER", -38 ],
       [ "FILE", 2 ],
       [ "REAM", 1 ],
-	    [ "CHISEL", 3 ],
-	    [ "VISE", 1 ],
-	    [ "DIG", 3 ],
-	    [ "LEATHER_AWL", 2 ],
-	    [ "SMOOTH", 3 ],
-	    [ "SHEAR", 3 ],
-	    [ "GRIND", 2 ]
+      [ "CHISEL", 3 ],
+      [ "VISE", 1 ],
+      [ "DIG", 3 ],
+      [ "LEATHER_AWL", 2 ],
+      [ "SMOOTH", 3 ],
+      [ "SHEAR", 3 ],
+      [ "GRIND", 2 ]
     ]
   },
   {
     "id": "bio_bow_weapon",
-	  "copy-from": "bow_base",
+    "copy-from": "bow_base",
     "looks_like": "longbow",
-    "type": "GUN",    
-    "name": { "str": "바이오닉 합성장궁" },	
+    "type": "GUN",
+    "name": { "str": "바이오닉 합성장궁" },
     "description": "리브텍사의 역작인 무소음 무기입니다. 최대 전차까지 상대할 수 있습니다. 보조 사격 키로 저격 모드를 활성화할 수 있습니다.",
     "material": [ "superalloy", "plastic" ],
-	  "extends": { "weapon_category": [ "MAGNETIC" ], "flags": [ "WATERPROOF_GUN", "NO_DROP", "NO_UNWIELD", "TRADER_AVOID", "NEVER_JAMS", "RELOAD_AND_SHOOT" ] },
+    "extend": {
+      "weapon_category": [ "MAGNETIC" ],
+      "flags": [ "WATERPROOF_GUN", "NO_DROP", "NO_UNWIELD", "TRADER_AVOID", "NEVER_JAMS", "RELOAD_AND_SHOOT" ]
+    },
     "color": "brown",
     "ammo": "arrow",
-	  "reload": 10,
+    "reload": 10,
     "weight": "10 g",
     "volume": "250 ml",
     "to_hit": -2,
     "modes": [ [ "DEFAULT", "속사", 1 ] ],
-    "ranged_damage": { "damage_type": "stab", "amount": 43 ,"damage_multiplier": 1.1,"armor_penetration": 4 },
+    "ranged_damage": { "damage_type": "stab", "amount": 43, "damage_multiplier": 1.1, "armor_penetration": 4 },
     "range": 30,
     "dispersion": 100,
     "sight_dispersion": 10,
     "durability": 8,
     "loudness": 3,
-	  "ups_charges": 8,
-	  "built_in_mods": [ "bio_bow_weapon_sniping" ],
-    "valid_mod_locations": [[ "accessories", 1 ]]
+    "ups_charges": 8,
+    "built_in_mods": [ "bio_bow_weapon_sniping" ],
+    "valid_mod_locations": [ [ "accessories", 1 ] ]
   },
   {
     "id": "bio_bow_weapon_sniping",
-    "type": "GUNMOD",	
+    "type": "GUNMOD",
     "name": "바이오닉 합성장궁 (저격)",
     "description": "바이오닉 합성장궁의 저격 모드를 위한 부품입니다.",
     "weight": "1000 g",
@@ -186,62 +216,67 @@
     "gun_data": {
       "range": 50,
       "modes": [ [ "DEFAULT", "저격", 1 ] ],
-      "ranged_damage": {
-        "damage_type": "stab",
-        "amount": 80,
-        "damage_multiplier": 4,
-        "armor_penetration": 20 },
+      "ranged_damage": { "damage_type": "stab", "amount": 80, "damage_multiplier": 4, "armor_penetration": 20 },
       "dispersion": 100,
       "clip_size": 1,
       "skill": "archery",
       "ammo": "arrow",
       "reload": 1500,
       "durability": 10,
-      "ups_charges": 300 },
-    "flags": [ "IRREMOVABLE", "FIRE_TWOHAND", "WATERPROOF_GUN", "TRADER_AVOID", "NEVER_JAMS", "RELOAD_ONE", "RELOAD_AND_SHOOT" ] 
+      "ups_charges": 300
+    },
+    "flags": [ "IRREMOVABLE", "FIRE_TWOHAND", "WATERPROOF_GUN", "TRADER_AVOID", "NEVER_JAMS", "RELOAD_ONE", "RELOAD_AND_SHOOT" ]
   },
   {
     "id": "bio_xbow_weapon",
     "copy-from": "s_xbow_base",
     "looks_like": "crossbow",
     "type": "GUN",
-    "color": "brown",   
-    "name": { "str": "손등 석궁" },	
+    "color": "brown",
+    "name": { "str": "손등 석궁" },
     "description": "손등에 장착된 석궁입니다. 가까이 있는 폭발물을 급하게 처리할 때 유용합니다.",
     "price": 150,
     "material": [ "superalloy", "plastic" ],
-	  "extends": { "weapon_category": [ "MAGNETIC" ], "flags": [ "WATERPROOF_GUN", "NO_DROP", "NO_UNWIELD", "TRADER_AVOID", "NEVER_JAMS", "RELOAD_AND_SHOOT" ] },
+    "extend": {
+      "weapon_category": [ "MAGNETIC" ],
+      "flags": [ "WATERPROOF_GUN", "NO_DROP", "NO_UNWIELD", "TRADER_AVOID", "NEVER_JAMS", "RELOAD_AND_SHOOT" ]
+    },
     "ammo": [ "bolt" ],
     "weight": "0 g",
     "volume": "25 ml",
     "to_hit": -2,
-    "ranged_damage": { "damage_type": "stab", "amount": 20 , "damage_multiplier": 2 },
+    "ranged_damage": { "damage_type": "stab", "amount": 20, "damage_multiplier": 2 },
     "range": 15,
     "recoil": 0,
     "dispersion": 15,
     "sight_dispersion": 1,
     "durability": 8
   },
-	{
+  {
     "id": "bio_sling_weapon",
     "copy-from": "muscle_ranged_base",
     "looks_like": "slingshot",
     "type": "GUN",
     "color": "brown",
-    "skill": "throw", 
-    "name": { "str": "손목 내장형 슬링샷" },	
+    "skill": "throw",
+    "name": { "str": "손목 내장형 슬링샷" },
     "description": "손목에 내장된 슬링샷입니다. 조약돌과 바위를 탄환으로 삼아 쏘아낼 수 있습니다.",
     "price": 150,
     "material": [ "superalloy", "plastic" ],
-	  "extends": { "weapon_category": [ "MAGNETIC" ], "flags": [ "WATERPROOF_GUN", "NO_DROP", "NO_UNWIELD", "TRADER_AVOID", "NEVER_JAMS", "RELOAD_AND_SHOOT" ] },
+    "extend": {
+      "weapon_category": [ "MAGNETIC" ],
+      "flags": [ "WATERPROOF_GUN", "NO_DROP", "NO_UNWIELD", "TRADER_AVOID", "NEVER_JAMS", "RELOAD_AND_SHOOT" ]
+    },
     "ammo": [ "pebble", "rock" ],
-    "weight": "0 g","recoil": 0,
+    "weight": "0 g",
+    "recoil": 0,
     "volume": "25 ml",
-    "to_hit": -2,"reload": 1,
+    "to_hit": -2,
+    "reload": 1,
     "ranged_damage": { "damage_type": "bash", "amount": 10 },
     "range": 12,
     "dispersion": 15,
-	  "sight_dispersion": 1,
+    "sight_dispersion": 1,
     "durability": 8
   },
   {
@@ -273,7 +308,7 @@
     "ranged_damage": { "damage_type": "bullet", "amount": 2 },
     "durability": 6,
     "clip_size": 2,
-	  "valid_mod_locations": [ [ "sMEAC", 1 ] ],
+    "valid_mod_locations": [ [ "sMEAC", 1 ] ],
     "modes": [ [ "DEFAULT", "single shot", 1 ] ],
     "reload": 600,
     "flags": [ "NEVER_JAMS", "NO_DROP", "RELOAD_EJECT", "NO_UNWIELD", "TRADER_AVOID", "RELOAD_ONE" ]
@@ -292,9 +327,11 @@
     "material": [ "superalloy" ],
     "techniques": [ "SPIN", "IMPALE", "WIDE" ],
     "volume": "1000 ml",
-    "relic_data": { "passive_effects": [ { "has": "WIELD", "condition": "ALWAYS", "hit_you_effect": [ { "id": "nanocut","hit_self": false } ] } ] },
+    "relic_data": {
+      "passive_effects": [ { "has": "WIELD", "condition": "ALWAYS", "hit_you_effect": [ { "id": "nanocut", "hit_self": false } ] } ]
+    },
     "cutting": 41,
-    "flags": [ "NO_DROP", "NO_UNWIELD", "UNBREAKABLE_MELEE", "TRADER_AVOID","REACH_ATTACK" , "REACH3" ,"RELOAD_ONE", "WHIP"],
+    "flags": [ "NO_DROP", "NO_UNWIELD", "UNBREAKABLE_MELEE", "TRADER_AVOID", "REACH_ATTACK", "REACH3", "RELOAD_ONE", "WHIP" ],
     "qualities": [ [ "CUT", 1 ] ]
   },
   {
@@ -371,17 +408,17 @@
     "occupied_bodyparts": [ [ "arm_r", 5 ], [ "hand_r", 2 ] ],
     "act_cost": "20 J",
     "fake_item": "bio_sling_weapon",
-    "flags": [ "BIONIC_GUN"]
+    "flags": [ "BIONIC_GUN" ]
   },
   {
     "id": "adv_bio_tools",
     "type": "bionic",
-	"copy-from": "bio_tools",
+    "copy-from": "bio_tools",
     "name": { "str": "향상된 내장형 도구 모음" },
     "description": "확장형 도구 모음을 좀더 업그레이드했습니다.",
     "occupied_bodyparts": [ [ "hand_l", 3 ], [ "hand_r", 3 ] ],
     "included_bionics": [ "adv_bio_tools_extend" ],
-    "flags": ["BIONIC_NPC_USABLE" ]
+    "flags": [ "BIONIC_NPC_USABLE" ]
   },
   {
     "id": "adv_bio_tools_extend",
@@ -391,7 +428,7 @@
     "fake_item": "toolset_extended_mk2",
     "included": true,
     "flags": [ "BIONIC_TOGGLED", "BIONIC_WEAPON" ],
-	"upgraded_bionic": "bio_tools_extend" 
+    "upgraded_bionic": "bio_tools_extend"
   },
   {
     "id": "adv_bio_ups",
@@ -401,7 +438,7 @@
     "description": "개량형 UPS를 사용하도록 개조된 내장 통합 전원 장치입니다.",
     "occupied_bodyparts": [ [ "torso", 5 ] ],
     "flags": [ "BIONIC_TOGGLED" ],
-    "fake_item" : "adv_UPS_off" 
+    "fake_item": "adv_UPS_off"
   },
   {
     "id": "bio_Recoilless_Rifle",
@@ -427,7 +464,7 @@
     "id": "bio_time_space",
     "type": "bionic",
     "name": { "str": "산데비스탄" },
-    "learned_spells": [ [ "SweetDreams", 1] ],
+    "learned_spells": [ [ "SweetDreams", 1 ] ],
     "description": "정말 기초적인 임플란트입니다.",
     "included": true
   },
@@ -439,7 +476,7 @@
     "occupied_bodyparts": [ [ "arm_r", 5 ], [ "hand_r", 2 ] ],
     "act_cost": "20 J",
     "fake_item": "bio_sling_weapon",
-    "flags": [ "BIONIC_GUN"]
+    "flags": [ "BIONIC_GUN" ]
   },
   {
     "id": "bio_xbow",
@@ -449,7 +486,7 @@
     "occupied_bodyparts": [ [ "arm_r", 5 ], [ "hand_r", 2 ] ],
     "act_cost": "50 J",
     "fake_item": "bio_xbow_weapon",
-    "flags": ["BIONIC_GUN"]
+    "flags": [ "BIONIC_GUN" ]
   },
   {
     "id": "bio_bow",
@@ -488,9 +525,13 @@
     "type": "SPELL",
     "name": "산데비스탄",
     "description": "사용하면 잔상이 남을 정도로 빠르게 움직입니다. 함께 달을 볼 친구가 있으면 더 좋겠네요.",
-    "valid_targets": [ "self" ],"base_energy_cost": 1800,"energy_source": "BIONIC",
-    "flags": [ "SILENT","NO_HANDS","NO_LEGS","NO_FAIL"],
-    "effect": "mod_moves","effect_str": "BIONIC","extra_effects": [ { "id": "Sandevistan_spell", "hit_self": true, "max_level": 1 } ],
+    "valid_targets": [ "self" ],
+    "base_energy_cost": 1800,
+    "energy_source": "BIONIC",
+    "flags": [ "SILENT", "NO_HANDS", "NO_LEGS", "NO_FAIL" ],
+    "effect": "mod_moves",
+    "effect_str": "BIONIC",
+    "extra_effects": [ { "id": "Sandevistan_spell", "hit_self": true, "max_level": 1 } ],
     "min_damage": 1800,
     "max_damage": 1800,
     "base_casting_time": 1
@@ -498,20 +539,17 @@
   {
     "type": "item_group",
     "id": "bionics",
-    "items": [
-      [ "bio_whip", 8 ],["bio_bow",20],["bio_xbow",34],["bio_sling",33],["adv_bio_tools",40]
-	  ]
-	},
-  {"type": "item_group",
-    "id": "bionics_op","items": [
-      [ "bio_whip", 15 ],["bio_bow",15],["bio_xbow",20],["bio_sling",20],["adv_bio_tools",35]
-	  ]
-	},
+    "items": [ [ "bio_whip", 8 ], [ "bio_bow", 20 ], [ "bio_xbow", 34 ], [ "bio_sling", 33 ], [ "adv_bio_tools", 40 ] ]
+  },
+  {
+    "type": "item_group",
+    "id": "bionics_op",
+    "items": [ [ "bio_whip", 15 ], [ "bio_bow", 15 ], [ "bio_xbow", 20 ], [ "bio_sling", 20 ], [ "adv_bio_tools", 35 ] ]
+  },
   {
     "type": "item_group",
     "id": "bionics_op2_off",
-    "subtype": "distribution","items": [
-      [ "bio_whip", 15 ],["bio_bow",15],["bio_xbow",20],["bio_sling",20],["adv_bio_tools",35]
-	  ]
-	}
+    "subtype": "distribution",
+    "items": [ [ "bio_whip", 15 ], [ "bio_bow", 15 ], [ "bio_xbow", 20 ], [ "bio_sling", 20 ], [ "adv_bio_tools", 35 ] ]
+  }
 ]
