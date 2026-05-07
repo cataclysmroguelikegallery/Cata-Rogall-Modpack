@@ -178,10 +178,7 @@
     "name": { "str": "바이오닉 합성장궁" },
     "description": "리브텍사의 역작인 무소음 무기입니다. 최대 전차까지 상대할 수 있습니다. 보조 사격 키로 저격 모드를 활성화할 수 있습니다.",
     "material": [ "superalloy", "plastic" ],
-    "extend": {
-      "weapon_category": [ "MAGNETIC" ],
-      "flags": [ "WATERPROOF_GUN", "NO_DROP", "NO_UNWIELD", "TRADER_AVOID", "NEVER_JAMS", "RELOAD_AND_SHOOT" ]
-    },
+	  "extends": { "weapon_category": [ "MAGNETIC" ], "flags": [ "WATERPROOF_GUN", "NO_DROP", "NO_UNWIELD", "TRADER_AVOID", "NEVER_JAMS", "RELOAD_AND_SHOOT" ] },
     "color": "brown",
     "ammo": "arrow",
     "reload": 10,
@@ -237,10 +234,7 @@
     "description": "손등에 장착된 석궁입니다. 가까이 있는 폭발물을 급하게 처리할 때 유용합니다.",
     "price": 150,
     "material": [ "superalloy", "plastic" ],
-    "extend": {
-      "weapon_category": [ "MAGNETIC" ],
-      "flags": [ "WATERPROOF_GUN", "NO_DROP", "NO_UNWIELD", "TRADER_AVOID", "NEVER_JAMS", "RELOAD_AND_SHOOT" ]
-    },
+	  "extends": { "weapon_category": [ "MAGNETIC" ], "flags": [ "WATERPROOF_GUN", "NO_DROP", "NO_UNWIELD", "TRADER_AVOID", "NEVER_JAMS", "RELOAD_AND_SHOOT" ] },
     "ammo": [ "bolt" ],
     "weight": "0 g",
     "volume": "25 ml",
@@ -263,10 +257,7 @@
     "description": "손목에 내장된 슬링샷입니다. 조약돌과 바위를 탄환으로 삼아 쏘아낼 수 있습니다.",
     "price": 150,
     "material": [ "superalloy", "plastic" ],
-    "extend": {
-      "weapon_category": [ "MAGNETIC" ],
-      "flags": [ "WATERPROOF_GUN", "NO_DROP", "NO_UNWIELD", "TRADER_AVOID", "NEVER_JAMS", "RELOAD_AND_SHOOT" ]
-    },
+	  "extends": { "weapon_category": [ "MAGNETIC" ], "flags": [ "WATERPROOF_GUN", "NO_DROP", "NO_UNWIELD", "TRADER_AVOID", "NEVER_JAMS", "RELOAD_AND_SHOOT" ] },
     "ammo": [ "pebble", "rock" ],
     "weight": "0 g",
     "recoil": 0,
