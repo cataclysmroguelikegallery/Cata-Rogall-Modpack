@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "ny_transformers",
+    "name": "Transformers",
+    "authors": [ "Nyaa" ],
+    "description": "Allows transforming mecha between rideable and autonomous modes via interaction",
+    "category": "content",
+    "lua_api_version": 2,
+    "dependencies": [ "bn", "Jake's_Squirrel_mod" ]
+  }
+]
