@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Jake's_Squirrel_mod\n"
-"POT-Creation-Date: 2026-05-07 08:51+0900\n"
+"POT-Creation-Date: 2026-05-30 03:53+0900\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -847,101 +847,16 @@ msgid "shotgun"
 msgstr ""
 
 #: .\advtech\sq_hardlight_fusion_and_gunmods.json
-msgid "RA110 5x50mm flechette"
-msgid_plural "RA110 5x50mm flechettes"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': 'RA110 5x50mm flechette'}
-#: .\advtech\sq_hardlight_fusion_and_gunmods.json
-msgid ""
-"Designed to defeat modern body armor, the Rivtech 5x50mm flechette round "
-"features a biodegradable sabot and a single, fin-stabilized penetrator."
-msgstr ""
-
-#: .\advtech\sq_hardlight_fusion_and_gunmods.json
-msgid "RA119 5x50mm penetrator"
-msgid_plural "RA119 5x50mm penetrators"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': 'RA119 5x50mm penetrator'}
-#: .\advtech\sq_hardlight_fusion_and_gunmods.json
-msgid ""
-"Designed to defeat modern body armor, the Rivtech 5x50mm RA119 penetrator "
-"round features a biodegradable sabot and a single, fin-stabilized tungsten "
-"alloy projectile."
-msgstr ""
-
-#: .\advtech\sq_hardlight_fusion_and_gunmods.json
-msgid "beam scatterer"
-msgid_plural "beam scatterers"
-msgstr[0] ""
-msgstr[1] ""
-
-#: .\advtech\sq_hardlight_fusion_and_gunmods.json
-msgid ""
-"A set of optics made to fit on laser weapons, which will diffract the laser "
-"beam into several lower powered beams.  This increases point-blank damage, "
-"but greatly reduces range."
-msgstr ""
-
-#: .\advtech\sq_hardlight_fusion_and_gunmods.json
-msgid "lens"
-msgstr ""
-
-#: .\advtech\sq_hardlight_fusion_and_gunmods.json
-msgid "focusing lens"
-msgid_plural "focusing lenses"
-msgstr[0] ""
-msgstr[1] ""
-
-#: .\advtech\sq_hardlight_fusion_and_gunmods.json
-msgid ""
-"A set of optics to concentrate the laser beam on a smaller focus point.  "
-"This increases range and damage output, but complicates targeting."
-msgstr ""
-
-#: .\advtech\sq_hardlight_fusion_and_gunmods.json
-msgid "electrolaser conversion"
-msgid_plural "electrolaser conversions"
-msgstr[0] ""
-msgstr[1] ""
-
-#: .\advtech\sq_hardlight_fusion_and_gunmods.json
-msgid ""
-"A set of high-tech electronics and optics.  These converts a laser pistol "
-"into a less-lethal electrolaser capable of stunning targets, at the cost of "
-"a decreased damage output and increased power consumption."
-msgstr ""
-
-#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "effective emitter"
 msgid_plural "effective emitters"
 msgstr[0] ""
 msgstr[1] ""
 
 #: .\advtech\sq_hardlight_fusion_and_gunmods.json
-msgid ""
-"A set of electronics to optimize emitter workcycle and increase overall "
-"energy efficiency.  Decreases power consumption."
-msgstr ""
-
-#: .\advtech\sq_hardlight_fusion_and_gunmods.json
-msgid "emitter"
-msgstr ""
-
-#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "high density capacitor"
 msgid_plural "high density capacitors"
 msgstr[0] ""
 msgstr[1] ""
-
-#: .\advtech\sq_hardlight_fusion_and_gunmods.json
-msgid ""
-"A capacitor with a higher energy density increases range and damage; at the "
-"cost of a markedly increased power consumption."
-msgstr ""
 
 #: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "광선 고체화 매트릭스"
@@ -1014,21 +929,6 @@ msgid ""
 msgstr ""
 
 #: .\advtech\sq_hardlight_fusion_and_gunmods.json
-msgid "8x40mm HVP"
-msgid_plural "8x40mm HVPs"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': '8x40mm HVP'}
-#: .\advtech\sq_hardlight_fusion_and_gunmods.json
-msgid ""
-"8x40mm caseless rounds, saboted high-velocity penetrator type.  Advanced "
-"military grade, armor-piercing ammunition that fires a single depleted "
-"uranium flechette.  Being caseless rounds, these cannot be disassembled or "
-"reloaded."
-msgstr ""
-
-#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "5.56x45mm HVP"
 msgid_plural "5.56x45mm HVPs"
 msgstr[0] ""
@@ -1070,13 +970,6 @@ msgid "scrap metal"
 msgid_plural "scrap metals"
 msgstr[0] ""
 msgstr[1] ""
-
-#. ~ Description for {'str': 'scrap metal'}
-#: .\advtech\sq_hardlight_fusion_and_gunmods.json
-msgid ""
-"A bulky assortment of small bits of scrap steel useful in all kinds of "
-"crafting."
-msgstr ""
 
 #: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "하드라이트 부무장"
@@ -1554,6 +1447,10 @@ msgstr[1] ""
 msgid ""
 "하드라이트 소총 전용 커스텀 축전기 부품으로, 출력 리미터를 해제합니다.  광자를 과충전시켜 정밀하고 매우 강력한 한 방을 발사할 수 "
 "있도록 합니다."
+msgstr ""
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid "lens"
 msgstr ""
 
 #: .\advtech\sq_hardlight_fusion_and_gunmods.json
@@ -5181,301 +5078,6 @@ msgid ""
 "부서진 드론: 저거너트. 아무도 막지 못할 것만 같던 드론이었지만, 결국 어떤 원인에 의해서 파워아머가 뚫리고 쓰러졌습니다. 부품 회수 "
 "가능."
 msgstr ""
-
-#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
-msgid "skittering plague"
-msgid_plural "skittering plagues"
-msgstr[0] ""
-msgstr[1] ""
-
-#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
-msgid "plague nymph"
-msgid_plural "plague nymphs"
-msgstr[0] ""
-msgstr[1] ""
-
-#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
-msgid "plague vector"
-msgid_plural "plague vectors"
-msgstr[0] ""
-msgstr[1] ""
-
-#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
-msgid "giant cockroach"
-msgid_plural "giant cockroaches"
-msgstr[0] ""
-msgstr[1] ""
-
-#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
-msgid "giant cockroach nymph"
-msgid_plural "giant cockroach nymphs"
-msgstr[0] ""
-msgstr[1] ""
-
-#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
-msgid "pregnant giant cockroach"
-msgid_plural "pregnant giant cockroaches"
-msgstr[0] ""
-msgstr[1] ""
-
-#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
-msgid "giant bee"
-msgid_plural "giant bees"
-msgstr[0] ""
-msgstr[1] ""
-
-#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
-msgid "centipede"
-msgid_plural "centipedes"
-msgstr[0] ""
-msgstr[1] ""
-
-#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
-msgid "giant centipede"
-msgid_plural "giant centipedes"
-msgstr[0] ""
-msgstr[1] ""
-
-#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
-msgid "centipede matriarch"
-msgid_plural "centipede matriarchs"
-msgstr[0] ""
-msgstr[1] ""
-
-#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
-msgid "armored centipede"
-msgid_plural "armored centipedes"
-msgstr[0] ""
-msgstr[1] ""
-
-#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
-msgid "firefly"
-msgid_plural "fireflies"
-msgstr[0] ""
-msgstr[1] ""
-
-#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
-msgid "huge dragonfly naiad"
-msgid_plural "huge dragonfly naiads"
-msgstr[0] ""
-msgstr[1] ""
-
-#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
-msgid "giant dragonfly"
-msgid_plural "giant dragonflies"
-msgstr[0] ""
-msgstr[1] ""
-
-#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
-msgid "mega dragonfly"
-msgid_plural "mega dragonflies"
-msgstr[0] ""
-msgstr[1] ""
-
-#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
-msgid "giant fly"
-msgid_plural "giant flies"
-msgstr[0] ""
-msgstr[1] ""
-
-#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
-msgid "giant mosquito"
-msgid_plural "giant mosquitos"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': 'giant mosquito'}
-#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
-msgid ""
-"An enormous mutant mosquito, fluttering erratically.  Its face is dominated "
-"by a long, spear-tipped proboscis."
-msgstr ""
-
-#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
-msgid "giant cellar spider"
-msgid_plural "giant cellar spiders"
-msgstr[0] ""
-msgstr[1] ""
-
-#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
-msgid "immature giant cellar spider"
-msgid_plural "immature giant cellar spiders"
-msgstr[0] ""
-msgstr[1] ""
-
-#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
-msgid "giant jumping spider"
-msgid_plural "giant jumping spiders"
-msgstr[0] ""
-msgstr[1] ""
-
-#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
-msgid "giant trapdoor spider"
-msgid_plural "giant trapdoor spiders"
-msgstr[0] ""
-msgstr[1] ""
-
-#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
-msgid "giant web spider"
-msgid_plural "giant web spiders"
-msgstr[0] ""
-msgstr[1] ""
-
-#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
-msgid "immature giant web spider"
-msgid_plural "immature giant web spiders"
-msgstr[0] ""
-msgstr[1] ""
-
-#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
-msgid "giant black widow"
-msgid_plural "giant black widows"
-msgstr[0] ""
-msgstr[1] ""
-
-#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
-msgid "giant black widow spiderling"
-msgid_plural "giant black widow spiderlings"
-msgstr[0] ""
-msgstr[1] ""
-
-#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
-msgid "giant wolf spider"
-msgid_plural "giant wolf spiders"
-msgstr[0] ""
-msgstr[1] ""
-
-#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
-msgid "wasp larva"
-msgid_plural "wasp larvae"
-msgstr[0] ""
-msgstr[1] ""
-
-#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
-msgid "wasp pupa"
-msgid_plural "wasp pupae"
-msgstr[0] ""
-msgstr[1] ""
-
-#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
-msgid "wasp"
-msgid_plural "wasps"
-msgstr[0] ""
-msgstr[1] ""
-
-#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
-msgid "wasp queen"
-msgid_plural "wasp queens"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': 'wasp queen'}
-#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
-msgid ""
-"A mutated wasp queen grown to the size of a person, laying a single white "
-"egg in each empty cell it comes across while scurrying around on the paper "
-"walls of their home.  It struggles to fit into some of them, but the newer "
-"cells seem to be getting larger…"
-msgstr ""
-
-#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
-msgid "giant wasp"
-msgid_plural "giant wasps"
-msgstr[0] ""
-msgstr[1] ""
-
-#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
-msgid "giant wasp queen"
-msgid_plural "giant wasp queens"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': 'giant wasp queen'}
-#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
-msgid ""
-"A yellowjacket queen grown to the size of a horse, towering over their "
-"daughters.  Even with their abdomen swollen with eggs and wings long unused "
-"it still poses a threat to interlopers, should their children have failed at"
-" subduing them."
-msgstr ""
-
-#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
-msgid "dermatik"
-msgid_plural "dermatiks"
-msgstr[0] ""
-msgstr[1] ""
-
-#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
-msgid "dermatik larva"
-msgid_plural "dermatik larvae"
-msgstr[0] ""
-msgstr[1] ""
-
-#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
-msgid "dermatik midwife"
-msgid_plural "dermatik midwives"
-msgstr[0] ""
-msgstr[1] ""
-
-#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
-msgid "giant ant"
-msgid_plural "giant ants"
-msgstr[0] ""
-msgstr[1] ""
-
-#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
-msgid "giant acidic ant"
-msgid_plural "giant acidic ants"
-msgstr[0] ""
-msgstr[1] ""
-
-#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
-msgid "acidic ant larva"
-msgid_plural "acidic ant larvae"
-msgstr[0] ""
-msgstr[1] ""
-
-#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
-msgid "acidic queen ant"
-msgid_plural "acidic queen ants"
-msgstr[0] ""
-msgstr[1] ""
-
-#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
-msgid "acidic soldier ant"
-msgid_plural "acidic soldier ants"
-msgstr[0] ""
-msgstr[1] ""
-
-#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
-msgid "ant larva"
-msgid_plural "ant larvae"
-msgstr[0] ""
-msgstr[1] ""
-
-#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
-msgid "queen ant"
-msgid_plural "queen ants"
-msgstr[0] ""
-msgstr[1] ""
-
-#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
-msgid "soldier ant"
-msgid_plural "soldier ants"
-msgstr[0] ""
-msgstr[1] ""
-
-#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
-msgid "giant locust"
-msgid_plural "giant locusts"
-msgstr[0] ""
-msgstr[1] ""
-
-#: .\monsters\sq_insect_spider_death_drops_no_vertigons_for_now.json
-msgid "locust nymph"
-msgid_plural "locust nymphs"
-msgstr[0] ""
-msgstr[1] ""
 
 #: .\monsters\sq_mech_weapons.json
 msgid "MK40 파동 소총"
