@@ -14,9 +14,16 @@ Translated into Korean (한국어 번역 적용)
 Fixed bugs and resolved compatibility issues (오류 및 호환성 문제 해결)
 Merged into this mod and modpack (본 모드와 모드팩에 병합됨)
 
+🤖 Transformer beta 2 (메카 모드 변형 베타2)
+Original Author (원작자): Nyaa
+Changes Made (변경 사항):
+Merged into this mod and modpack (본 모드와 모드팩에 병합됨)
+
 🎨 Sprites and Artworks (도트와 아트워크)
 thhoney03: Drew the sprites for Project: Packrat's Type-Boy!
 Project: Packrat의 타입-보이의 도트를 그려주셨습니다!
+
+
 
 Coalcat: Drew the spinning wheel sprite for Wildstuff mod!
 Wildstuff 모드의 방적기 도트를 그려주셨습니다!
