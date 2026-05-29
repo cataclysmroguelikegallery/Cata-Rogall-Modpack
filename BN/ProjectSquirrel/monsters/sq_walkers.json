@@ -250,7 +250,8 @@
       "monster_id": "mon_sq_gun_walker",
 	  "place_randomly": false,
 	  "is_pet": true
-    }
+    },
+    "flags": [ "ALLOWS_REMOTE_USE" ]
   },
   {
     "type": "GENERIC",
@@ -371,7 +372,8 @@
       "monster_id": "mon_sq_gun_walker_2",
 	  "place_randomly": false,
 	  "is_pet": true
-    }
+    },
+    "flags": [ "ALLOWS_REMOTE_USE" ]
   },
   {
     "type": "GENERIC",
@@ -490,7 +492,8 @@
       "monster_id": "mon_sq_gun_walker_3",
 	  "place_randomly": false,
 	  "is_pet": true
-    }
+    },
+    "flags": [ "ALLOWS_REMOTE_USE" ]
   },
   {
     "type": "GENERIC",
@@ -611,7 +614,8 @@
       "monster_id": "mon_sq_gun_walker_4",
 	  "place_randomly": false,
 	  "is_pet": true
-    }
+    },
+    "flags": [ "ALLOWS_REMOTE_USE" ]
   },
   {
     "type": "GENERIC",

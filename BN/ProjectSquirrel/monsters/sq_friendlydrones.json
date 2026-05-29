@@ -45,7 +45,8 @@
       "monster_id": "mon_sq_drone_companion",
       "moves": 100,
 	  "is_pet": true
-    }
+    },
+    "flags": [ "ALLOWS_REMOTE_USE" ]
   },
   {
     "type": "GENERIC",
@@ -136,7 +137,7 @@
 	],
     "revert_to_itype": "bot_sq_drone_pilot",
     "death_function": [ "BROKEN" ],
-    "flags": [ "SEES", "HEARS", "ELECTRONIC", "ELECTRIC", "COLDPROOF", "FIREPROOF", "NO_BREATHE", "GUILT", "PATH_AVOID_DANGER_2", "PET_HARNESSABLE", "CLIMBS", "CANPLAY", "HIT_AND_RUN" ]
+    "flags": [ "SEES", "HEARS", "ELECTRONIC", "ELECTRIC", "COLDPROOF", "FIREPROOF", "NO_BREATHE", "GUILT", "PATH_AVOID_DANGER_2", "PET_HARNESSABLE", "CLIMBS", "CANPLAY", "HIT_AND_RUN", "PRIORITIZE_TARGETS" ]
   },
   {
     "id": "bot_sq_drone_pilot",
@@ -157,7 +158,8 @@
       "monster_id": "mon_sq_drone_pilot",
       "moves": 100,
 	  "is_pet": true
-    }
+    },
+    "flags": [ "ALLOWS_REMOTE_USE" ]
   },
   {
     "type": "GENERIC",
@@ -252,7 +254,7 @@
 	],
     "revert_to_itype": "bot_sq_drone_power",
     "death_function": [ "BROKEN" ],
-    "flags": [ "SEES", "HEARS", "ELECTRONIC", "ELECTRIC", "COLDPROOF", "FIREPROOF", "NO_BREATHE", "GUILT", "PATH_AVOID_DANGER_2", "PET_HARNESSABLE", "CLIMBS", "CANPLAY" ]
+    "flags": [ "SEES", "HEARS", "ELECTRONIC", "ELECTRIC", "COLDPROOF", "FIREPROOF", "NO_BREATHE", "GUILT", "PATH_AVOID_DANGER_2", "PET_HARNESSABLE", "CLIMBS", "CANPLAY", "PRIORITIZE_TARGETS" ]
   },
   {
     "id": "bot_sq_drone_power",
@@ -273,7 +275,8 @@
       "monster_id": "mon_sq_drone_power",
       "moves": 100,
 	  "is_pet": true
-    }
+    },
+    "flags": [ "ALLOWS_REMOTE_USE" ]
   },
   {
     "type": "GENERIC",

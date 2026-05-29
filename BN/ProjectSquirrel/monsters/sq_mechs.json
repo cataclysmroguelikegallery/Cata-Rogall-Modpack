@@ -234,7 +234,8 @@
     "bashing": 4,
     "cutting": 4,
     "to_hit": -3,
-    "use_action": { "type": "place_monster", "monster_id": "mon_sq_mech_balance" }
+    "use_action": { "type": "place_monster", "monster_id": "mon_sq_mech_balance" },
+    "flags": [ "ALLOWS_REMOTE_USE" ]
   },
   {
     "type": "TOOL",
@@ -252,7 +253,8 @@
     "bashing": 4,
     "cutting": 4,
     "to_hit": -3,
-    "use_action": { "type": "place_monster", "monster_id": "mon_sq_mech_balance_2", "is_pet": true }
+    "use_action": { "type": "place_monster", "monster_id": "mon_sq_mech_balance_2", "is_pet": true },
+    "flags": [ "ALLOWS_REMOTE_USE" ]
   },
   {
     "type": "GENERIC",
@@ -488,7 +490,8 @@
     "bashing": 4,
     "cutting": 4,
     "to_hit": -3,
-    "use_action": { "type": "place_monster", "monster_id": "mon_sq_mech_heavy" }
+    "use_action": { "type": "place_monster", "monster_id": "mon_sq_mech_heavy" },
+    "flags": [ "ALLOWS_REMOTE_USE" ]
   },
   {
     "type": "TOOL",
@@ -506,7 +509,8 @@
     "bashing": 4,
     "cutting": 4,
     "to_hit": -3,
-    "use_action": { "type": "place_monster", "monster_id": "mon_sq_mech_heavy_2", "is_pet": true }
+    "use_action": { "type": "place_monster", "monster_id": "mon_sq_mech_heavy_2", "is_pet": true },
+    "flags": [ "ALLOWS_REMOTE_USE" ]
   },
   {
     "type": "GENERIC",
@@ -751,7 +755,8 @@
     "bashing": 4,
     "cutting": 4,
     "to_hit": -3,
-    "use_action": { "type": "place_monster", "monster_id": "mon_sq_mech_light" }
+    "use_action": { "type": "place_monster", "monster_id": "mon_sq_mech_light" },
+    "flags": [ "ALLOWS_REMOTE_USE" ]
   },
   {
     "type": "TOOL",
@@ -769,7 +774,8 @@
     "bashing": 4,
     "cutting": 4,
     "to_hit": -3,
-    "use_action": { "type": "place_monster", "monster_id": "mon_sq_mech_light_2", "is_pet": true }
+    "use_action": { "type": "place_monster", "monster_id": "mon_sq_mech_light_2", "is_pet": true },
+    "flags": [ "ALLOWS_REMOTE_USE" ]
   },
   {
     "type": "GENERIC",
