@@ -7,7 +7,7 @@
     "volume": "3450 ml",
     "weight": "200 g",
     "price": "12 USD",
-    "price_postapoc": 5,
+    "price_postapoc": "5 cent",
     "to_hit": -1,
     "color": "blue",
     "symbol": "/",

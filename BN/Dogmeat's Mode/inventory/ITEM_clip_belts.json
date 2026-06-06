@@ -31,7 +31,7 @@
       "holster_msg": "You clip your %s to your %s",
       "multi": 4,
       "max_volume": "2 L",
-      "max_weight": 3600,
+      "max_weight": "3600 g",
       "draw_cost": 50,
       "flags": [ "BELT_CLIP" ]
     }
@@ -47,7 +47,7 @@
       "holster_msg": "You tuck your %s into your %s",
       "multi": 2,
       "max_volume": "500 ml",
-      "max_weight": 400,
+      "max_weight": "400 g",
       "draw_cost": 60,
       "flags": [ "BELT_CLIP" ]
     }
@@ -63,7 +63,7 @@
       "holster_msg": "You attach your %s to your %s.",
       "multi": 2,
       "max_volume": "2250 ml",
-      "max_weight": 3600,
+      "max_weight": "3600 g",
       "draw_cost": 50,
       "flags": [ "BELT_CLIP" ]
     }

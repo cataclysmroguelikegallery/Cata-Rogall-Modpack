@@ -11,7 +11,7 @@
     "flags": [ "NO_LEGS", "CONCENTRATE", "SOMATIC" ],
     "min_damage": 200,
     "max_damage": 3200,
-    "damage_increment": 100.0,
+    "damage_increment": 100,
     "min_range": 2,
     "max_range": 12,
     "range_increment": 0.5,
@@ -19,7 +19,7 @@
     "difficulty": 15,
     "base_casting_time": 100,
     "base_energy_cost": 80,
-    "energy_increment": -1.0,
+    "energy_increment": -1,
     "final_energy_cost": 40,
     "damage_type": "bio"
   },
@@ -31,7 +31,7 @@
     "description": "이 책에는 말그대로 눈빛만으로 사람을 죽이는 방법에 대해 서술하고 있습니다. 중2병에 걸린 잼민이가 쓴건가 싶었으나, 자세히 읽으니 복잡한 마법술식이 쓰여있는 것으로 보아 저자는 아마 진심인 것 같습니다.",
     "weight": "1 kg",
     "volume": "1250 ml",
-    "price": 35000,
+    "price": "350 USD",
     "symbol": "?",
     "color": "black",
     "use_action": { "type": "learn_spell", "spells": [ "necrotic_gaze", "death_eye" ] }

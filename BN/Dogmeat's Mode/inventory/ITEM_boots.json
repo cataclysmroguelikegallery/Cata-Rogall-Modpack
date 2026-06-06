@@ -7,7 +7,7 @@
     "use_action": { 
 		"type": "holster", 
 		"max_volume": "250 ml", 
-		"max_weight": 600, 
+		"max_weight": "600 g",
 		"draw_cost": 80, 
 		"multi": 2,
 		"flags": ["SHEATH_KNIFE"] }
@@ -20,7 +20,7 @@
     "use_action": { 
 		"type": "holster", 
 		"max_volume": "250 ml", 
-		"max_weight": 600, 
+		"max_weight": "600 g",
 		"draw_cost": 80, 
 		"multi": 2,
 		"flags": ["SHEATH_KNIFE"] }
@@ -34,7 +34,7 @@
     "use_action": { 
 		"type": "holster", 
 		"max_volume": "250 ml", 
-		"max_weight": 600, 
+		"max_weight": "600 g",
 		"draw_cost": 80, 
 		"multi": 2,
 		"flags": ["SHEATH_KNIFE"] }
@@ -47,7 +47,7 @@
     "use_action": { 
 		"type": "holster", 
 		"max_volume": "250 ml", 
-		"max_weight": 600, 
+		"max_weight": "600 g",
 		"draw_cost": 80, 
 		"multi": 2,
 		"flags": ["SHEATH_KNIFE"] }
@@ -60,7 +60,7 @@
     "use_action": { 
 		"type": "holster", 
 		"max_volume": "250 ml", 
-		"max_weight": 600, 
+		"max_weight": "600 g",
 		"draw_cost": 80, 
 		"multi": 2,
 		"flags": ["SHEATH_KNIFE"] }
@@ -74,7 +74,7 @@
     "use_action": { 
 		"type": "holster", 
 		"max_volume": "250 ml", 
-		"max_weight": 600, 
+		"max_weight": "600 g",
 		"draw_cost": 80, 
 		"multi": 2,
 		"flags": ["SHEATH_KNIFE"] }
@@ -87,7 +87,7 @@
     "use_action": { 
 		"type": "holster", 
 		"max_volume": "250 ml", 
-		"max_weight": 600, 
+		"max_weight": "600 g",
 		"draw_cost": 80, 
 		"multi": 2,
 		"flags": ["SHEATH_KNIFE"] }
@@ -100,7 +100,7 @@
     "use_action": { 
 		"type": "holster", 
 		"max_volume": "250 ml", 
-		"max_weight": 600, 
+		"max_weight": "600 g",
 		"draw_cost": 80, 
 		"multi": 2,
 		"flags": ["SHEATH_KNIFE"] }
@@ -113,7 +113,7 @@
     "use_action": { 
 		"type": "holster", 
 		"max_volume": "250 ml", 
-		"max_weight": 600, 
+		"max_weight": "600 g",
 		"draw_cost": 80, 
 		"multi": 2,
 		"flags": ["SHEATH_KNIFE"] }
@@ -127,7 +127,7 @@
     "use_action": { 
 		"type": "holster", 
 		"max_volume": "250 ml", 
-		"max_weight": 600, 
+		"max_weight": "600 g",
 		"draw_cost": 80, 
 		"multi": 2,
 		"flags": ["SHEATH_KNIFE"] }
@@ -140,7 +140,7 @@
     "use_action": { 
 		"type": "holster", 
 		"max_volume": "250 ml", 
-		"max_weight": 600, 
+		"max_weight": "600 g",
 		"draw_cost": 80, 
 		"multi": 2,
 		"flags": ["SHEATH_KNIFE"] }
@@ -153,7 +153,7 @@
     "use_action": { 
 		"type": "holster", 
 		"max_volume": "250 ml", 
-		"max_weight": 600, 
+		"max_weight": "600 g",
 		"draw_cost": 80, 
 		"multi": 2,
 		"flags": ["SHEATH_KNIFE"] }
@@ -166,7 +166,7 @@
     "use_action": { 
 		"type": "holster", 
 		"max_volume": "250 ml", 
-		"max_weight": 600, 
+		"max_weight": "600 g",
 		"draw_cost": 80, 
 		"multi": 2,
 		"flags": ["SHEATH_KNIFE"] }
@@ -179,7 +179,7 @@
     "use_action": { 
 		"type": "holster", 
 		"max_volume": "250 ml", 
-		"max_weight": 600, 
+		"max_weight": "600 g",
 		"draw_cost": 80, 
 		"multi": 2,
 		"flags": ["SHEATH_KNIFE"] }
@@ -193,7 +193,7 @@
     "use_action": { 
 		"type": "holster", 
 		"max_volume": "250 ml", 
-		"max_weight": 600, 
+		"max_weight": "600 g",
 		"draw_cost": 80, 
 		"multi": 2,
 		"flags": ["SHEATH_KNIFE"] }
@@ -206,7 +206,7 @@
     "use_action": { 
 		"type": "holster", 
 		"max_volume": "250 ml", 
-		"max_weight": 600, 
+		"max_weight": "600 g",
 		"draw_cost": 80, 
 		"multi": 2,
 		"flags": ["SHEATH_KNIFE"] }
@@ -220,7 +220,7 @@
     "use_action": { 
 		"type": "holster", 
 		"max_volume": "250 ml", 
-		"max_weight": 600, 
+		"max_weight": "600 g",
 		"draw_cost": 80, 
 		"multi": 2,
 		"flags": ["SHEATH_KNIFE"] }
@@ -233,7 +233,7 @@
     "use_action": { 
 		"type": "holster", 
 		"max_volume": "250 ml", 
-		"max_weight": 600, 
+		"max_weight": "600 g",
 		"draw_cost": 80, 
 		"multi": 2,
 		"flags": ["SHEATH_KNIFE"] }
@@ -246,7 +246,7 @@
     "use_action": { 
 		"type": "holster", 
 		"max_volume": "250 ml", 
-		"max_weight": 600, 
+		"max_weight": "600 g",
 		"draw_cost": 80, 
 		"multi": 2, 
 		"skills": [ "pistol" ],
@@ -261,7 +261,7 @@
     "use_action": { 
 		"type": "holster", 
 		"max_volume": "250 ml", 
-		"max_weight": 600, 
+		"max_weight": "600 g",
 		"draw_cost": 80, 
 		"multi": 2,
 		"flags": ["SHEATH_KNIFE"] }
@@ -274,7 +274,7 @@
     "use_action": { 
 		"type": "holster", 
 		"max_volume": "250 ml", 
-		"max_weight": 600, 
+		"max_weight": "600 g",
 		"draw_cost": 80, 
 		"multi": 2,
 		"flags": ["SHEATH_KNIFE"] }

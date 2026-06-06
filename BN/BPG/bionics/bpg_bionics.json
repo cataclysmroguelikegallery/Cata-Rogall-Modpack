@@ -6,7 +6,7 @@
 		"type": "BIONIC_ITEM",
 		"name": { "str": "CBM:내장형 아크 반응로 업그레이드" },
 		"description": "기존에 설치된 개선된 소형 반응로를 아크 반응로로 업그레이드합니다. 아크 반응로는 방사능 누출의 걱정이 없으며 발전 효율도 배가된 차세대 반응로입니다.",
-		"price": 1500000,
+		"price": "15 kUSD",
 		"difficulty": 13,
 		"is_upgrade": true
 	},
@@ -16,7 +16,7 @@
 		"type": "BIONIC_ITEM",
 		"name": { "str": "CBM:내장형 아크 반응로" },
 		"description": "차세대 기술로 만들어진 내장형 아크 반응로를 설치합니다. 아크 반응로는 방사능 누출의 걱정이 없으며 발전 효율도 배가된 차세대 반응로입니다.",
-		"price": 1500000,
+		"price": "15 kUSD",
 		"difficulty": 13
 	},
 	{
@@ -152,7 +152,7 @@
 		"name": { "str": "CBM:전력 저장소 Mk. III" },
 		"looks_like": "bio_int_enhancer",
 		"description": "여러 CBM 전력 저장소들을 병합해 하나의 커다란 전력 저장소로 만들었습니다. 사용자의 전력 용량을 1000 kJ만큼 상승시킵니다.",
-		"price": 0,
+		"price": "0 cent",
 		"weight": "70 g",
 		"difficulty": 1
 	},
@@ -194,7 +194,7 @@
 		"name": { "str": "CBM:전력 저장소 Mk. IIII" },
 		"looks_like": "bio_int_enhancer",
 		"description": "전력 저장소 Mk.III을 한번 더 개량해 초대용량 내장 축전지를 만들었습니다. 사용자의 전력 용량을 10000 kJ만큼 상승시킵니다.",
-		"price": 0,
+		"price": "0 cent",
 		"weight": "70 g",
 		"difficulty": 3
 	},
@@ -240,7 +240,7 @@
 		"name": { "str": "CBM:초전도 전력 저장소" },
 		"looks_like": "bio_int_enhancer",
 		"description": "대체 왜 그런 싸구려 전력 저장소를 설치하는거죠? 차세대 기술로 만들어진 초전도 전력 저장소 하나면 모든게 해결됩니다. 사용자의 전력 용량을 50000 kJ만큼 상승시킵니다.",
-		"price": 0,
+		"price": "0 cent",
 		"weight": "70 g",
 		"difficulty": 5
 	},

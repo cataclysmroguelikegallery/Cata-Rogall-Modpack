@@ -8,8 +8,8 @@
     "description": "자전거 바퀴나 오토바이 바퀴를 달 수 있도록 구멍이 뚫려있는 나무 조각.",
     "weight": "100 g",
     "volume": "250 ml",
-    "price": 10,
-    "price_postapoc": 10,
+    "price": "10 cent",
+    "price_postapoc": "10 cent",
     "material": [ "wood" ],
     "symbol": ";",
     "color": "dark_gray"

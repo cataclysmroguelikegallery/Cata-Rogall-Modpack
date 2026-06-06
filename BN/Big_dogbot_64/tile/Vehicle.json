@@ -9,10 +9,10 @@
     "broken_color": "cyan",
     "damage_modifier": 80,
     "durability": 50,
-    "size": 10,
+    "size": "2500 ml",
     "item": "foldframe",
     "location": "center",
-    "folded_volume": 10,
+    "folded_volume": "2500 ml",
     "requirements": {
       "install": { "skills": [ [ "mechanics", 2 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] },
       "removal": { "skills": [ [ "mechanics", 2 ] ], "time": "30 m", "using": [ [ "vehicle_weld_removal", 1 ] ] },
@@ -33,7 +33,7 @@
     "item": "alloy_sheet",
     "difficulty": 5,
     "location": "armor",
-    "folded_volume": 2,
+    "folded_volume": "500 ml",
     "requirements": {
       "install": { "skills": [ [ "mechanics", 5 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] },
       "removal": { "skills": [ [ "mechanics", 3 ] ], "time": "30 m", "using": [ [ "vehicle_weld_removal", 1 ] ] },
@@ -52,7 +52,7 @@
     "type": "vehicle_part",
     "name": "swappable storage battery case",
     "extend": { "flags": [ "FOLDABLE" ] },
-    "folded_volume": 9
+    "folded_volume": "2250 ml"
   },
   {
     "id": "solar_panel",
@@ -60,7 +60,7 @@
     "type": "vehicle_part",
     "name": "solar panel",
     "extend": { "flags": [ "FOLDABLE" ] },
-    "folded_volume": 12
+    "folded_volume": "3 L"
   },
   {
     "id": "reinforced_solar_panel",
@@ -68,7 +68,7 @@
     "type": "vehicle_part",
     "name": "reinforced solar panel",
     "extend": { "flags": [ "FOLDABLE" ] },
-    "folded_volume": 26
+    "folded_volume": "6500 ml"
   },
   {
     "id": "solar_panel_v2",
@@ -76,7 +76,7 @@
     "type": "vehicle_part",
     "name": "upgraded solar panel",
     "extend": { "flags": [ "FOLDABLE" ] },
-    "folded_volume": 18
+    "folded_volume": "4500 ml"
   },
   {
     "id": "reinforced_solar_panel_v2",
@@ -84,7 +84,7 @@
     "type": "vehicle_part",
     "name": "upgraded reinforced solar panel",
     "extend": { "flags": [ "FOLDABLE" ] },
-    "folded_volume": 30
+    "folded_volume": "7500 ml"
   },
   {
     "id": "solar_panel_v3",
@@ -92,7 +92,7 @@
     "type": "vehicle_part",
     "name": "quantum solar panel",
     "extend": { "flags": [ "FOLDABLE" ] },
-    "folded_volume": 18
+    "folded_volume": "4500 ml"
   },
   {
     "id": "stereo",
@@ -100,7 +100,7 @@
     "type": "vehicle_part",
     "name": "stereo system",
     "extend": { "flags": [ "FOLDABLE" ] },
-    "folded_volume": 14
+    "folded_volume": "3500 ml"
   },
   {
     "id": "drive_by_wire_controls",
@@ -108,7 +108,7 @@
     "type": "vehicle_part",
     "name": "drive by wire controls",
     "extend": { "flags": [ "FOLDABLE" ] },
-    "folded_volume": 15
+    "folded_volume": "3750 ml"
   },
   {
     "id": "cam_control",
@@ -116,7 +116,7 @@
     "type": "vehicle_part",
     "name": "camera control system",
     "extend": { "flags": [ "FOLDABLE" ] },
-    "folded_volume": 16
+    "folded_volume": "4 L"
   },
   {
     "id": "omnicam",
@@ -124,35 +124,35 @@
     "type": "vehicle_part",
     "name": "security camera",
     "extend": { "flags": [ "FOLDABLE" ] },
-    "folded_volume": 8
+    "folded_volume": "2 L"
   },
   {
     "id": "minireactor",
     "copy-from": "minireactor",
     "type": "vehicle_part",
     "extend": { "flags": [ "FOLDABLE" ] },
-    "folded_volume": 6
+    "folded_volume": "1500 ml"
   },
   {
     "id": "tank_small",
     "copy-from": "tank_small",
     "type": "vehicle_part",
     "extend": { "flags": [ "FOLDABLE" ] },
-    "folded_volume": 40
+    "folded_volume": "10 L"
   },
   {
     "id": "chimes",
     "copy-from": "chimes",
     "type": "vehicle_part",
     "extend": { "flags": [ "FOLDABLE" ] },
-    "folded_volume": 16
+    "folded_volume": "4 L"
   },
   {
     "id": "water_purifier",
     "copy-from": "water_purifier",
     "type": "vehicle_part",
     "extend": { "flags": [ "FOLDABLE" ] },
-    "folded_volume": 12
+    "folded_volume": "3 L"
   },{
     "type": "GENERIC",
     "id": "programmable_autopilot",
@@ -166,8 +166,8 @@
     "volume": "10 L",
     "bashing": 3,
     "category": "veh_parts",
-    "price": 90000,
-    "price_postapoc": 2500
+    "price": "900 USD",
+    "price_postapoc": "25 USD"
   },{
     "type": "vehicle_part",
     "id": "programmable_autopilot",
@@ -178,7 +178,7 @@
     "broken_color": "red",
     "damage_modifier": 80,
     "durability": 100,
-    "folded_volume": 10,
+    "folded_volume": "2500 ml",
     "description": "A computer system hooked up to the steering and engine of the vehicle to allow it to follow simple paths.",
     "item": "programmable_autopilot",
     "difficulty": 5,
@@ -213,7 +213,7 @@
     "epower": -50,
     "item": "turret_controls",
     "description": "A set of motor, camera, and an AI unit which allows for tracking targets, friend-or-foe identification, and firing the connected turret in full automatic mode.  When installed over the turret, it will enable auto targeting mode for said turret.",
-    "folded_volume": 3,
+    "folded_volume": "750 ml",
     "flags": [ "ENABLED_DRAINS_EPOWER", "TURRET_CONTROLS", "UNMOUNT_ON_DAMAGE", "FOLDABLE" ],
     "requirements": {
       "install": {
@@ -231,7 +231,7 @@
     "symbol": "t",
     "durability": 400,
     "damage_modifier": 80,
-    "folded_volume": 12,
+    "folded_volume": "3 L",
     "location": "on_roof",
     "requirements": { "install": { "time": "100 s" }, "removal": { "time": "50 s" } },
     "flags": [ "TURRET","FOLDABLE" ]
@@ -254,7 +254,7 @@
     "type": "vehicle_part",
     "name": { "str": "mounted huge crossbow" },
     "item": "huge_crossbow",
-    "folded_volume": 20,
+    "folded_volume": "5 L",
     "looks_like": "mounted_bigun",
     "color": "green",
     "broken_color": "green",
@@ -312,7 +312,7 @@
     "name": { "str": "mounted flamethrower" },
     "item": "flamethrower",
     "default_ammo": "napalm",
-    "folded_volume": 16,
+    "folded_volume": "4 L",
     "color": "dark_gray",
     "broken_color": "dark_gray",
     "breaks_into": [ { "item": "scrap", "count": 3 }, { "item": "steel_chunk", "count": 1 }, { "item": "steel_lump", "count": 1 } ],
@@ -326,7 +326,7 @@
     "name": { "str": "mounted RM451 flamethrower" },
     "item": "rm451_flamethrower",
     "looks_like": "flamethrower",
-    "folded_volume": 14,
+    "folded_volume": "3500 ml",
     "default_ammo": "napalm",
     "color": "dark_gray",
     "broken_color": "dark_gray",
@@ -341,7 +341,7 @@
     "name": { "str": "mounted PPA-5 plasma gun" },
     "item": "plasma_gun",
     "color": "magenta",
-    "folded_volume": 15,
+    "folded_volume": "3750 ml",
     "broken_color": "magenta",
     "breaks_into": [ { "item": "scrap", "count": 20 }, { "item": "steel_chunk", "count": 10 }, { "item": "steel_lump", "count": 6 } ],
     "requirements": {
@@ -383,7 +383,7 @@
     "type": "vehicle_part",
     "name": { "str": "mounted M249" },
     "item": "m249",
-    "folded_volume": 14,
+    "folded_volume": "3500 ml",
     "color": "cyan",
     "broken_color": "cyan",
     "breaks_into": [ { "item": "scrap", "count": 24 }, { "item": "steel_chunk", "count": 9 }, { "item": "steel_lump", "count": 3 } ],
@@ -431,7 +431,7 @@
     "name": { "str": "mounted M2 Browning" },
     "item": "m2browning",
     "color": "green",
-    "folded_volume": 20,
+    "folded_volume": "5 L",
     "broken_color": "green",
     "breaks_into": [ { "item": "scrap", "count": 80 }, { "item": "steel_chunk", "count": 48 }, { "item": "steel_lump", "count": 18 } ],
     "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
@@ -443,7 +443,7 @@
     "name": { "str": "mounted .50 caliber rifle" },
     "item": "m2browning_sawn",
     "looks_like": "mounted_browning",
-    "folded_volume": 20,
+    "folded_volume": "5 L",
     "color": "green",
     "broken_color": "green",
     "breaks_into": [ { "item": "scrap", "count": 40 }, { "item": "steel_chunk", "count": 24 }, { "item": "steel_lump", "count": 9 } ],
@@ -456,7 +456,7 @@
     "name": { "str": "mounted M134D-H Minigun" },
     "item": "m134",
     "color": "green",
-    "folded_volume": 24,
+    "folded_volume": "6 L",
     "broken_color": "green",
     "breaks_into": [ { "item": "scrap", "count": 28 }, { "item": "steel_chunk", "count": 20 }, { "item": "steel_lump", "count": 12 } ],
     "requirements": { "install": { "skills": [ [ "mechanics", 6 ], [ "rifle", 3 ] ] }, "removal": { "skills": [ [ "mechanics", 4 ] ] } }
@@ -468,7 +468,7 @@
     "name": { "str": "mounted Browning Automatic Rifle" },
     "item": "m1918",
     "color": "cyan",
-    "folded_volume": 10,
+    "folded_volume": "2500 ml",
     "broken_color": "cyan",
     "breaks_into": [ { "item": "scrap", "count": 25 }, { "item": "steel_chunk", "count": 5 }, { "item": "steel_lump", "count": 5 } ],
     "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
@@ -480,7 +480,7 @@
     "name": { "str": "mounted M240" },
     "item": "m240",
     "color": "cyan",
-    "folded_volume": 16,
+    "folded_volume": "4 L",
     "broken_color": "cyan",
     "breaks_into": [ { "item": "scrap", "count": 28 }, { "item": "steel_chunk", "count": 12 }, { "item": "steel_lump", "count": 7 } ],
     "requirements": { "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
@@ -491,7 +491,7 @@
     "type": "vehicle_part",
     "name": { "str": "mounted M60" },
     "item": "m60",
-    "folded_volume": 16,
+    "folded_volume": "4 L",
     "color": "cyan",
     "broken_color": "cyan",
     "breaks_into": [ { "item": "scrap", "count": 24 }, { "item": "steel_chunk", "count": 10 }, { "item": "steel_lump", "count": 6 } ],
@@ -504,7 +504,7 @@
     "name": { "str": "mounted Mark 19 grenade launcher" },
     "item": "mark19",
     "color": "green",
-    "folded_volume": 16,
+    "folded_volume": "4 L",
     "broken_color": "green",
     "breaks_into": [ { "item": "scrap", "count": 80 }, { "item": "steel_chunk", "count": 41 }, { "item": "steel_lump", "count": 17 } ],
     "requirements": { "install": { "skills": [ [ "mechanics", 5 ], [ "launcher", 1 ] ] }, "removal": { "skills": [ [ "mechanics", 3 ] ] } }
@@ -516,7 +516,7 @@
     "name": { "str": "mounted BGM-71F TOW" },
     "item": "atgm_launcher",
     "color": "green",
-    "folded_volume": 100,
+    "folded_volume": "25 L",
     "broken_color": "green",
     "durability": 800,
     "breaks_into": [ { "item": "scrap", "count": 32 }, { "item": "steel_chunk", "count": 5 }, { "item": "steel_lump", "count": 5 } ],
@@ -529,7 +529,7 @@
     "name": { "str": "mounted M202A1 FLASH" },
     "item": "m202_flash",
     "looks_like": "tow_launcher",
-    "folded_volume": 24,
+    "folded_volume": "6 L",
     "color": "dark_gray",
     "broken_color": "dark_gray",
     "breaks_into": [ { "item": "scrap", "count": 16 }, { "item": "steel_chunk", "count": 2 }, { "item": "steel_lump", "count": 2 } ],
@@ -543,7 +543,7 @@
     "item": "surv_rocket_launcher",
     "looks_like": "tow_launcher",
     "color": "light_gray",
-    "folded_volume": 24,
+    "folded_volume": "6 L",
     "broken_color": "light_gray",
     "breaks_into": [ { "item": "scrap", "count": [ 10, 20 ] } ],
     "requirements": { "install": { "skills": [ [ "mechanics", 3 ], [ "launcher", 1 ] ] }, "removal": { "skills": [ [ "mechanics", 1 ] ] } }
@@ -555,7 +555,7 @@
     "name": { "str": "mounted RM298 HMG" },
     "item": "rm298",
     "color": "white",
-    "folded_volume": 18,
+    "folded_volume": "4500 ml",
     "broken_color": "white",
     "breaks_into": [ { "item": "scrap", "count": 40 }, { "item": "steel_chunk", "count": 30 }, { "item": "steel_lump", "count": 13 } ],
     "requirements": { "install": { "skills": [ [ "mechanics", 5 ], [ "rifle", 2 ] ] }, "removal": { "skills": [ [ "mechanics", 3 ] ] } }
@@ -617,7 +617,7 @@
     "name": { "str": "mounted heavy rail rifle" },
     "item": "heavy_rail_rifle",
     "color": "magenta",
-    "folded_volume": 18,
+    "folded_volume": "4500 ml",
     "broken_color": "magenta",
     "breaks_into": [ { "item": "scrap", "count": 30 }, { "item": "steel_chunk", "count": 10 }, { "item": "steel_lump", "count": 6 } ],
     "requirements": {
@@ -633,7 +633,7 @@
     "item": "rebar_rifle",
     "color": "magenta",
     "broken_color": "magenta",
-    "folded_volume": 10,
+    "folded_volume": "2500 ml",
     "breaks_into": [ { "item": "scrap", "count": 9 }, { "item": "steel_chunk", "count": 5 }, { "item": "steel_lump", "count": 2 } ],
     "requirements": {
       "install": { "skills": [ [ "mechanics", 5 ], [ "electronics", 5 ] ] },

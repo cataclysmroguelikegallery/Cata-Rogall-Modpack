@@ -53,7 +53,7 @@
     "name": { "str": "CBM:생채공학 추가 공간" },
     "looks_like": "bio_int_enhancer",
     "description": "척추를 따라 등에 접히는 추가 확장 공간을 설치할 수 있습니다",
-    "price": 8000,
+    "price": "80 USD",
     "weight": "0 g",
     "difficulty": 8
   },
@@ -66,7 +66,7 @@
     "looks_like": "atgm_launcher",
     "description": "진짜 로켓 발사기 입니다. 들고 쏘거나 움직이는게 거의 불가능 하지만 모든 종류의 로켓을 발사할 수 있습니다",
     "volume": "2250 ml",
-    "price": 0,
+    "price": "0 cent",
     "to_hit": -2,
     "bashing": 9,
     "weight": "93000 g",
@@ -202,8 +202,8 @@
     "name": "바이오닉 합성장궁 (저격)",
     "description": "바이오닉 합성장궁의 저격 모드를 위한 부품입니다.",
     "weight": "1000 g",
-    "volume": 0,
-    "price": 95000,
+    "volume": "0 ml",
+    "price": "950 USD",
     "to_hit": -1,
     "material": [ "superalloy", "plastic" ],
     "symbol": ":",
@@ -232,7 +232,7 @@
     "color": "brown",
     "name": { "str": "손등 석궁" },
     "description": "손등에 장착된 석궁입니다. 가까이 있는 폭발물을 급하게 처리할 때 유용합니다.",
-    "price": 150,
+    "price": "150 cent",
     "material": [ "superalloy", "plastic" ],
 	  "extend": { "weapon_category": [ "MAGNETIC" ], "flags": [ "WATERPROOF_GUN", "NO_DROP", "NO_UNWIELD", "TRADER_AVOID", "NEVER_JAMS", "RELOAD_AND_SHOOT" ] },
     "ammo": [ "bolt" ],
@@ -255,7 +255,7 @@
     "skill": "throw",
     "name": { "str": "손목 내장형 슬링샷" },
     "description": "손목에 내장된 슬링샷입니다. 조약돌과 바위를 탄환으로 삼아 쏘아낼 수 있습니다.",
-    "price": 150,
+    "price": "150 cent",
     "material": [ "superalloy", "plastic" ],
 	  "extend": { "weapon_category": [ "MAGNETIC" ], "flags": [ "WATERPROOF_GUN", "NO_DROP", "NO_UNWIELD", "TRADER_AVOID", "NEVER_JAMS", "RELOAD_AND_SHOOT" ] },
     "ammo": [ "pebble", "rock" ],
@@ -286,7 +286,7 @@
     "description": "당신의 팔에 설치된 대구경 저격총.",
     "volume": "103 ml",
     "reload_noise_volume": 10,
-    "price": 0,
+    "price": "0 cent",
     "to_hit": -2,
     "bashing": 3,
     "material": [ "superalloy", "plastic" ],
@@ -332,7 +332,7 @@
     "name": { "str": "내장형 도구 모음 업그레이드킷" },
     "looks_like": "bio_int_enhancer",
     "description": "기존의 내장형 도구모음을 거의 모든 작업에 활용할 수 있도록 개조합니다.",
-    "price": 8000,
+    "price": "80 USD",
     "weight": "0 g",
     "difficulty": 8
   },
@@ -343,7 +343,7 @@
     "name": { "str": "내장 통합 전원 장치 업그레이드킷" },
     "looks_like": "bio_int_enhancer",
     "description": "내장 통합 전원 장치를 개량형 UPS로 업그레이드합니다.",
-    "price": 8000,
+    "price": "80 USD",
     "weight": "0 g",
     "difficulty": 8
   },
@@ -354,7 +354,7 @@
     "name": { "str": "CBM:손목 내장형 슬링샷" },
     "looks_like": "bio_int_enhancer",
     "description": "손목에 나노와이어 슬링샷을 설치했습니다.",
-    "price": 8000,
+    "price": "80 USD",
     "weight": "0 g",
     "difficulty": 8
   },
@@ -365,7 +365,7 @@
     "name": { "str": "CBM:바이오닉 합성장궁" },
     "looks_like": "bio_int_enhancer",
     "description": "손등에 초합금판과 나노물질로 이뤄진 활을 장착했습니다. 내장된 초소형 모터가 자동으로 재장전해주는 덕분에 사격에만 집중할 수 있습니다.",
-    "price": 8000,
+    "price": "80 USD",
     "weight": "0 g",
     "difficulty": 8
   },
@@ -376,7 +376,7 @@
     "name": { "str": "CBM:손등 석궁" },
     "looks_like": "bio_int_enhancer",
     "description": "손등에 초합금판과 나노물질로 이루어진 초소형 석궁이 장착되었습니다. 내장된 초소형 모터가 자동으로 재장전해주는 덕분에 사격에만 집중할 수 있습니다.",
-    "price": 8000,
+    "price": "80 USD",
     "weight": "0 g",
     "difficulty": 8
   },
@@ -387,7 +387,7 @@
     "name": { "str": "CBM:초전도 단분자 와이어" },
     "looks_like": "bio_int_enhancer",
     "description": "초전도체로 만들어진 단분자 와이어를 장착했습니다. 절삭력이 매우 뛰어나며, 해킹 기능도 탑재되어 있습니다.",
-    "price": 8000,
+    "price": "80 USD",
     "weight": "0 g",
     "difficulty": 8
   },
@@ -439,7 +439,7 @@
     "fake_item": "bionic_TOW",
     "included": true,
     "flags": [ "BIONIC_TOGGLED", "BIONIC_WEAPON" ],
-    "act_cost": 50
+    "act_cost": "50 kJ"
   },
   {
     "id": "bio_sniper_Rifle",
@@ -449,7 +449,7 @@
     "fake_item": "bionic_sniper",
     "included": true,
     "flags": [ "BIONIC_TOGGLED", "BIONIC_WEAPON" ],
-    "act_cost": 5
+    "act_cost": "5 kJ"
   },
   {
     "id": "bio_time_space",

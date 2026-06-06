@@ -12,7 +12,7 @@
     "durability": 100,
     "description": "A small washing machine.  With detergent, water, and some electrical power, you could clean a lot of clothes.  'e'xamine the tile with the washing machine to use it.",
     "epower": -100,
-    "size": 160,
+    "size": "40 L",
     "item": "washing_machine",
     "location": "center",
     "requirements": {
@@ -41,7 +41,7 @@
     "durability": 100,
     "description": "A small dishwasher.  With detergent, water, and some electrical power, you could clean your dishes…  Or something more useful like a CBM dripping with zombie gore.  'e'xamine the tile with the dishwasher to use it.",
     "epower": -100,
-    "size": 160,
+    "size": "40 L",
     "item": "dishwasher",
     "location": "center",
     "looks_like": "washing_machine",
@@ -71,7 +71,7 @@
     "durability": 100,
     "description": "This is an autoclave.  It's useful for sterilizing things like CBMs.  'e'xamine the tile with the autoclave to use it.",
     "epower": -300,
-    "size": 11,
+    "size": "2750 ml",
     "item": "vh_autoclave",
     "location": "center",
     "requirements": {
@@ -122,7 +122,7 @@
     "epower": -250,
     "item": "turret_controls",
     "description": "A set of motor, camera, and an AI unit which allows for tracking targets, friend-or-foe identification, and firing the connected turret in full automatic mode.  When installed over the turret, it will enable auto targeting mode for said turret.",
-    "folded_volume": 3,
+    "folded_volume": "750 ml",
     "flags": [ "ENABLED_DRAINS_EPOWER", "TURRET_CONTROLS", "UNMOUNT_ON_DAMAGE" ],
     "requirements": {
       "install": {

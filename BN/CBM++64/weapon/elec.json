@@ -6,8 +6,8 @@
     "copy-from": "laptop",
     "name": { "str": "control laptop" },
     "description": "A modified laptop, now capable of transmitting in the ultra-high frequencies utilized by robots.  Activate it to command robots from afar.",
-    "price": 10000,
-    "price_postapoc": 8000,
+    "price": "100 USD",
+    "price_postapoc": "80 USD",
     "charges_per_use": 2,
     "use_action": [
 	  "CAMERA", 

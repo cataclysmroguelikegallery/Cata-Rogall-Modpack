@@ -285,7 +285,7 @@
     "broken_color": "light_gray",
     "damage_modifier": 60,
     "durability": 120,
-    "size": 120,
+    "size": "30 L",
     "item": "sq_adv_workbench",
     "location": "center",
     "requirements": {
@@ -301,7 +301,7 @@
       { "item": "steel_chunk", "count": [ 4, 8 ] },
       { "item": "scrap", "count": [ 12, 24 ] }
     ],
-    "workbench": { "multiplier": 2.0, "mass": 500000, "volume": "50L" },
+    "workbench": { "multiplier": 2, "mass": "500 kg", "volume": "50L" },
     "damage_reduction": { "all": 29 }
   },
   {
@@ -316,7 +316,7 @@
     "color": "magenta",
     "broken_color": "magenta",
     "durability": 400,
-    "size": 40000,
+    "size": "10000 L",
     "cargo_weight_modifier": 0,
     "breaks_into": [  ],
     "requirements": {
@@ -457,8 +457,8 @@
     "description": "식품을 냉동 보관할 수 있는 이동식 솔루션으로 설계된 대형 버전의 300L의 대용량 냉동고입니다. 외부 요소로부터 단열 기능을 제공합니다.",
     "volume": "300 L",
     "weight": "100 kg",
-    "price": 245000,
-    "price_postapoc": 10000,
+    "price": "2450 USD",
+    "price_postapoc": "100 USD",
     "looks_like": "minifreezer",
     "copy-from": "minifridge"
   },
@@ -497,7 +497,7 @@
     "damage_modifier": 80,
     "durability": 100,
     "epower": -70,
-    "size": 1200,
+    "size": "300 L",
     "item": "sq_megafreezer",
     "location": "center",
     "requirements": {
@@ -529,8 +529,8 @@
     "volume": "8 L",
     "bashing": 6,
     "category": "veh_parts",
-    "price": 330000,
-    "price_postapoc": 20000
+    "price": "3300 USD",
+    "price_postapoc": "200 USD"
   },
   {
     "type": "recipe",
@@ -576,7 +576,7 @@
       "repair": { "skills": [ [ "mechanics", 4 ] ], "time": "30 m", "using": [ [ "adhesive", 1 ] ] }
     },
     "flags": [ "INTERNAL", "RECHARGE", "FOLDABLE" ],
-    "folded_volume": 8,
+    "folded_volume": "2 L",
     "breaks_into": [
       { "item": "steel_chunk", "count": [ 0, 2 ] },
       { "item": "scrap", "count": [ 1, 2 ] },
@@ -594,8 +594,8 @@
     "weight": "300 kg",
     "material": [ "superalloy" ],
     "volume": "25 L",
-    "price": 1208000,
-    "price_postapoc": 7500,
+    "price": "12080 USD",
+    "price_postapoc": "75 USD",
     "copy-from": "motor"
   },
   {
@@ -762,8 +762,8 @@
     "description": "강화된 겹층 탄화물 플레이트로, 가벼우면서도 튼튼한, 차량에 부착할 수 있는 최고의 총알 방지 장치입니다.",
     "weight": "4500 g",
     "volume": "3000 ml",
-    "price": 36000,
-    "price_postapoc": 1200,
+    "price": "360 USD",
+    "price_postapoc": "12 USD",
     "material": "carbide",
     "symbol": ",",
     "looks_like": "polycarbonate_sheet",
@@ -830,8 +830,8 @@
     "material": [ "carbide" ],
     "volume": "15 L",
     "bashing": 20,
-    "price": 16500,
-    "price_postapoc": 300,
+    "price": "165 USD",
+    "price_postapoc": "3 USD",
     "copy-from": "foldframe"
   },
   {
@@ -876,8 +876,8 @@
     "material": [ "carbide" ],
     "volume": "20 L",
     "bashing": 25,
-    "price": 36000,
-    "price_postapoc": 750,
+    "price": "360 USD",
+    "price_postapoc": "750 cent",
     "qualities": [ [ "ANVIL", 1 ] ],
     "copy-from": "foldframe"
   },
