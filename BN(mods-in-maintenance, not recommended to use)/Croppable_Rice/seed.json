@@ -6,7 +6,7 @@
     "name": { "str_sp": "rice seed" },
     "description": "Indica Massachusettstica, or usually called 'Massachusetts rice'. GMO-tech long-grain rice that can be grown in the climates of New England. Can be plant on plowed dirt.",
     "weight": "5 g",
-    "price": 50,
+    "price": "50 cent",
     "stack_size": 40,
     "seed_data": { "plant_name": "Rice", "fruit": "rice_grain", "byproducts": [ "withered" ], "grow": "14 days" }
   }

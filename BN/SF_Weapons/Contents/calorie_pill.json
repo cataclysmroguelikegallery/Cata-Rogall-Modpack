@@ -22,7 +22,7 @@
       [ "vitB", 24, 48 ],
       [ "vitC", 24, 48 ]
     ],
-    "price": 10000
+    "price": "100 USD"
   },
   {
     "type": "recipe",

@@ -2,7 +2,7 @@
   {
     "type": "AMMO",
     "id": "ballista_ammo_wood",
-    "price": 5000,
+    "price": "50 USD",
     "name": { "str": "나무 발리스타 볼트" },
     "symbol": "=",
     "color": "green",
@@ -10,7 +10,7 @@
     "looks_like": "javelin_iron",
     "material": [ "wood", "steel" ],
     "volume": "2000 ml",
-    "price_postapoc": 200,
+    "price_postapoc": "2 USD",
     "weight": "1000 g",
     "cutting": 10,
     "bashing": 10,

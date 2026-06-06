@@ -2,8 +2,8 @@
   {
     "type": "AMMO",
     "id": "blun_db",
-    "price": 4500,
-    "price_postapoc": 50,
+    "price": "45 USD",
+    "price_postapoc": "50 cent",
     "name": { "str": "나팔총 드래곤브레스 탄환" },
     "symbol": "=",
     "color": "red",

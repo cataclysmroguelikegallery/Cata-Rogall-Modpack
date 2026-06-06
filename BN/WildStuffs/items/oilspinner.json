@@ -7,8 +7,8 @@
     "looks_like": "hand_crank_charger",
     "weight": "2300 g",
     "volume": "1560 ml",
-    "price": 12000,
-    "price_postapoc": 1000,
+    "price": "120 USD",
+    "price_postapoc": "10 USD",
     "to_hit": -2,
     "bashing": 7,
     "material": "steel",
@@ -30,7 +30,7 @@
     "material": "wood",
     "volume": "10 L",
     "bashing": 1,
-    "price": 3000,
-    "price_postapoc": 500
+    "price": "30 USD",
+    "price_postapoc": "5 USD"
   }
 ]

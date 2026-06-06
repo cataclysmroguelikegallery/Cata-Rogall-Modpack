@@ -6,7 +6,7 @@
     "description": "콜세어 기동 타격복의 국방색 도색.",
     "weight": "0 g",
     "volume": "0 ml",
-    "price": 0,
+    "price": "0 cent",
     "material": [ "steel" ],
     "symbol": "[",
     "color": "dark_gray"
@@ -95,7 +95,7 @@
     "description": "콜세어 기동 타격복의 레드 바이저.",
     "weight": "0 g",
     "volume": "0 ml",
-    "price": 0,
+    "price": "0 cent",
     "material": [ "steel" ],
     "symbol": "[",
     "color": "dark_gray"

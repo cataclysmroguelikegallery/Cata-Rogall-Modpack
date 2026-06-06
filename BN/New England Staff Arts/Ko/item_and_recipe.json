@@ -4,7 +4,7 @@
 		"copy-from":"book_martial",
 		"type":"GENERIC",
 		"name": {"str_sp": "뉴 잉글랜드 최후의 막대기"},
-		"price_postapoc": 0,
+		"price_postapoc": "0 cent",
 		"description": "당신이 직접 편찬한 무술서입니다. 당신이 고안한 뉴 잉글랜드 지팡이술의 정수를 담아냈습니다.",
 		"book_data":{"martial_art": "style_NE_staff"}
 	},

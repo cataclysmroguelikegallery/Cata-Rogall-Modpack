@@ -2,8 +2,8 @@
   {
     "type": "AMMO",
     "id": "spiked_rocket",
-    "price": 1000,
-    "price_postapoc": 100,
+    "price": "10 USD",
+    "price_postapoc": "1 USD",
     "name": { "str": "spiked homemade rocket" },
     "symbol": ",",
     "color": "dark_gray",
@@ -21,8 +21,8 @@
   {
     "type": "AMMO",
     "id": "explosive_hm_rocket",
-    "price": 2000,
-    "price_postapoc": 100,
+    "price": "20 USD",
+    "price_postapoc": "1 USD",
     "name": { "str": "explosive homemade rocket" },
     "symbol": ",",
     "color": "dark_gray",
@@ -40,8 +40,8 @@
   {
     "type": "AMMO",
     "id": "incendiary_hm_rocket",
-    "price": 1300,
-    "price_postapoc": 100,
+    "price": "13 USD",
+    "price_postapoc": "1 USD",
     "name": { "str": "incendiary homemade rocket" },
     "symbol": ",",
     "color": "red",
