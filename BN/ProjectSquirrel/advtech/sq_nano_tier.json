@@ -1223,7 +1223,7 @@
     "skills_required": [ "electronics", 10 ],
     "difficulty": 10,
     "time": 400000,
-    "book_learn": [ [ "recipe_caseless", 8 ], [ "recipe_lab_elec", 9 ] ],
+    "book_learn": [ [ "recipe_caseless", 8 ], [ "recipe_lab_elec", 9 ], [ "sq_recipe_lab_hardlight", 8 ] ],
     "autolearn": false,
     "qualities": [
       { "id": "SCREW", "level": 1 },

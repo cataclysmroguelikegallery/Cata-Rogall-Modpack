@@ -500,7 +500,11 @@
             "rotates": true,
             "multitile": true,
             "additional_tiles": [ { "id": "broken", "fg": 212, "bg": 214 } ]
-          }
+          },
+		  { "id": "sq_portable_hydraulic_press", "fg": 216, "rotates": false },
+		  { "id": "overlay_wielded_sq_portable_hydraulic_press", "fg": 216, "rotates": false },
+		  { "id": "sq_hardlight_toolset", "fg": 217, "rotates": false },
+		  { "id": "overlay_wielded_sq_hardlight_toolset", "fg": 218, "rotates": false }
         ],
         "sprite_width": 32,
         "sprite_height": 32,

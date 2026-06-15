@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Jake's_Squirrel_mod\n"
-"POT-Creation-Date: 2026-05-30 03:53+0900\n"
+"POT-Creation-Date: 2026-06-15 13:26+0900\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -929,6 +929,20 @@ msgid ""
 msgstr ""
 
 #: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid "하드라이트 멀티툴"
+msgid_plural "하드라이트 멀티툴"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': '하드라이트 멀티툴', 'str_pl': '하드라이트 멀티툴'}
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid ""
+"내장된 광선 고체화 매트릭스를 통해 에너지를 물리적 형태로 변환하는 궁극의 야전 연장통입니다. 스위치를 켜면 빛의 입자가 렌치, 톱날, "
+"용접기 등 필요한 모든 도구의 형태로 굳어집니다. 거추장스러운 연장통을 들고 다닐 필요 없이, 이 작은 장치 하나면 대부분의 제작과 "
+"수리가 가능합니다."
+msgstr ""
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "5.56x45mm HVP"
 msgid_plural "5.56x45mm HVPs"
 msgstr[0] ""
@@ -1473,6 +1487,19 @@ msgstr ""
 #: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgctxt "gun_type_type"
 msgid "sq_hardlight_shotgun"
+msgstr ""
+
+#: .\advtech\sq_main_tools.json
+msgid "휴대용 유압 프레스"
+msgid_plural "휴대용 유압 프레스"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str_sp': '휴대용 유압 프레스'}
+#: .\advtech\sq_main_tools.json
+msgid ""
+"기존 거치형 유압 프레스의 부피와 무게를 획기적으로 줄인 휴대용 버전입니다. 유압 자키를 응용하여 조립되었으며, 생존자가 직접 들고 "
+"다니거나 차량에 싣기 적합한 크기입니다. 크기는 작아졌지만 금속 부품을 압착하고 탄피를 성형하는 데에는 충분한 위력을 발휘합니다."
 msgstr ""
 
 #: .\advtech\sq_main_tools.json
@@ -4711,12 +4738,6 @@ msgstr[1] ""
 #: .\items\sq_weapon_override.json
 msgid "RM99 revolver"
 msgid_plural "RM99 revolvers"
-msgstr[0] ""
-msgstr[1] ""
-
-#: .\items\sq_weapon_override.json
-msgid "monomolecular blade"
-msgid_plural "monomolecular blades"
 msgstr[0] ""
 msgstr[1] ""
 

@@ -79,17 +79,17 @@
   {
     "id": "effective_emitter",
     "copy-from": "effective_emitter",
-	"name": { "str": "effective emitter" },
+    "name": { "str": "effective emitter" },
     "type": "GUNMOD",
     "integral_volume": "0 ml",
-    "mod_target_category": [ [ "ENERGY_WEAPONS"],[ "MAGNETIC" ] ]
+    "mod_target_category": [ [ "ENERGY_WEAPONS" ], [ "MAGNETIC" ] ]
   },
   {
     "id": "high_density_capacitor",
     "copy-from": "high_density_capacitor",
-	"name": { "str": "high density capacitor" },
+    "name": { "str": "high density capacitor" },
     "type": "GUNMOD",
-    "mod_target_category": [ [ "ENERGY_WEAPONS"],[ "MAGNETIC" ] ]
+    "mod_target_category": [ [ "ENERGY_WEAPONS" ], [ "MAGNETIC" ] ]
   },
   {
     "type": "GENERIC",
@@ -102,8 +102,8 @@
     "price": "8140000 USD",
     "looks_like": "standard_template_construct",
     "material": [ "superalloy" ],
-    "weight": "225 g",
-    "volume": "125 ml",
+    "weight": "125 g",
+    "volume": "75 ml",
     "to_hit": -5,
     "flags": [ "LIGHT_5", "LEAK_DAM", "RADIOACTIVE", "TRADER_AVOID", "NO_SALVAGE", "NONCONDUCTIVE" ]
   },
@@ -124,9 +124,9 @@
       [ [ "nanomaterial", 100 ] ],
       [ [ "lens", 2 ] ],
       [ [ "diamond", 1 ] ],
-      [ [ "plut_cell", 4 ] ],
-      [ [ "cable", 30 ] ],
-      [ [ "amplifier", 2 ] ],
+      [ [ "plut_cell", 2 ] ],
+      [ [ "cable", 10 ] ],
+      [ [ "amplifier", 1 ] ],
       [ [ "portal", 1 ] ],
       [ [ "platinum_small", 1 ] ]
     ]
@@ -142,8 +142,8 @@
     "price": "8140000 USD",
     "looks_like": "fusion_pack",
     "material": [ "superalloy" ],
-    "weight": "1225 g",
-    "volume": "125 ml",
+    "weight": "625 g",
+    "volume": "175 ml",
     "to_hit": -5,
     "flags": [ "LIGHT_5", "LEAK_DAM", "RADIOACTIVE", "TRADER_AVOID", "NO_SALVAGE", "NONCONDUCTIVE" ]
   },
@@ -163,10 +163,10 @@
     "components": [
       [ [ "nanomaterial", 100 ] ],
       [ [ "canister_empty", 1 ] ],
-      [ [ "plasma", 150 ] ],
-      [ [ "sq_depleted_uranium", 40 ] ],
-      [ [ "sq_uranium_cell", 3 ] ],
-      [ [ "amplifier", 2 ] ],
+      [ [ "plasma", 70 ] ],
+      [ [ "sq_depleted_uranium", 30 ] ],
+      [ [ "sq_uranium_cell", 2 ] ],
+      [ [ "amplifier", 1 ] ],
       [ [ "portal", 1 ] ],
       [ [ "platinum_small", 1 ] ]
     ]
@@ -229,6 +229,92 @@
     "intelligence": 13,
     "time": "45 m",
     "fun": -3
+  },
+  {
+    "id": "sq_hardlight_toolset",
+    "type": "TOOL",
+    "name": { "str": "하드라이트 멀티툴", "str_pl": "하드라이트 멀티툴" },
+    "description": "내장된 광선 고체화 매트릭스를 통해 에너지를 물리적 형태로 변환하는 궁극의 야전 연장통입니다. 스위치를 켜면 빛의 입자가 렌치, 톱날, 용접기 등 필요한 모든 도구의 형태로 굳어집니다. 거추장스러운 연장통을 들고 다닐 필요 없이, 이 작은 장치 하나면 대부분의 제작과 수리가 가능합니다.",
+    "sub": "toolset",
+    "weight": "250 g",
+    "volume": "125 ml",
+    "price": "25000 USD",
+    "price_postapoc": "125 USD",
+    "material": [ "superalloy" ],
+    "symbol": ";",
+    "color": "light_blue",
+    "ammo": "battery",
+    "max_charges": 1000,
+    "flags": [ "BELT_CLIP", "USE_UPS", "WATER_FRIENDLY", "DURABLE_LOCKPICK", "ALLOWS_REMOTE_USE" ],
+    "use_action": [
+      "OXYTORCH",
+	  "HAMMER",
+      "CROWBAR",
+      {
+        "type": "repair_item",
+        "item_action_type": "repair_metal",
+        "materials": [ "kevlar", "plastic", "iron", "steel", "budget_steel", "hardsteel", "aluminum", "copper", "silver", "gold", "glass" ],
+        "skill": "mechanics",
+        "cost_scaling": 0.1,
+        "move_cost": 1000
+      }
+    ],
+    "qualities": [
+	  [ "WELD", 2 ],
+	  [ "SWAGING", 1 ],
+	  [ "GRIP_HOT", 2 ],
+	  [ "LOCKPICK", 10 ],
+      [ "HAMMER", 3 ],
+      [ "HAMMER_FINE", 1 ],
+      [ "SAW_W", 1 ],
+      [ "SAW_M", 2 ],
+      [ "SAW_M_FINE", 1 ],
+      [ "WRENCH", 2 ],
+      [ "WRENCH_FINE", 1 ],
+      [ "PULL", 2 ],
+	  [ "CASING_FORMING", 1 ],
+      [ "SCREW", 1 ],
+      [ "SCREW_FINE", 1 ],
+	  [ "CHISEL", 3 ],
+      [ "CUT", 1 ],
+      [ "PRY", 1 ],
+      [ "CUT_M", 2 ],
+      [ "PULL_FINE", 2 ],
+      [ "HV_INSULATION", 2 ],
+      [ "DRILL", 3 ],
+      [ "BUTCHER", -12 ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "sq_hardlight_toolset",
+    "category": "CC_첨단기술",
+    "subcategory": "CSC_첨단기술_TOOLS",
+    "skill_used": "fabrication",
+    "skills_required": [ "electronics", 10 ],
+    "difficulty": 10,
+    "time": "240 m",
+    "autolearn": false,
+    "book_learn": [ [ "recipe_caseless", 8 ], [ "sq_recipe_lab_hardlight", 9 ] ],
+    "qualities": [
+      { "id": "SCREW", "level": 1 },
+      { "id": "GLARE", "level": 2 },
+      { "id": "SAW_M_FINE", "level": 1 },
+      { "id": "WRENCH_FINE", "level": 1 },
+      { "id": "HAMMER", "level": 2 }
+    ],
+    "components": [
+      [ [ "sq_hardlight_matrix", 1 ] ],
+      [ [ "power_supply", 1 ] ],
+      [ [ "alloy_sheet", 1 ] ],
+      [ [ "amplifier", 2 ] ],
+	  [ [ "plut_cell", 2 ] ],
+      [ [ "cable", 10 ] ],
+      [ [ "high_density_capacitor", 1 ] ],
+      [ [ "focusing_lens", 1 ] ],
+      [ [ "effective_emitter", 1 ] ],
+      [ [ "scrap", 5 ] ]
+    ]
   },
   {
     "type": "recipe",
@@ -378,7 +464,7 @@
   {
     "id": "scrap",
     "copy-from": "scrap",
-	"name": { "str": "scrap metal" },
+    "name": { "str": "scrap metal" },
     "type": "AMMO",
     "ammo_type": "metal_rail",
     "range": 10,

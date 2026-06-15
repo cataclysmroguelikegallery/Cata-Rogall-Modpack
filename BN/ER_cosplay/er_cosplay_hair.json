@@ -4,7 +4,7 @@
     "compatibility": [ "UNDEAD_PEOPLE_BASE", "UNDEAD_PEOPLE", "MshockRealXotto", "MSX++DEAD_PEOPLE" ],
     "tints": [
       { "id": "hair_blond", "fg": "#ffde80", "blend_mode": "multiply" },
-      { "id": "hair_platinum_blond", "fg": "#ffeaaf", "blend_mode": "multiply" },
+      { "id": "hair_platinum_blond", "fg": "#b2a28c", "blend_mode": "overlay" },
       { "id": "hair_white", "fg": "#ffffff", "blend_mode": "softlight" },
       { "id": "hair_black", "fg": "#383838", "blend_mode": "multiply" },
       { "id": "hair_brown", "fg": "#603e1e", "blend_mode": "multiply" },
@@ -137,7 +137,23 @@
 		  { "id": "overlay_female_worn_thermal_outfit", "fg": 71, "rotates": false },
 		  { "id": "overlay_male_worn_thermal_outfit", "fg": 72, "rotates": false },
           { "id": "overlay_female_worn_thermal_outfit_on", "fg": 73, "rotates": false },
-          { "id": "overlay_male_worn_thermal_outfit_on", "fg": 74, "rotates": false }
+          { "id": "overlay_male_worn_thermal_outfit_on", "fg": 74, "rotates": false },
+          { "id": "overlay_wielded_laptop", "fg": 75, "rotates": false },
+		  { "id": "overlay_wielded_laptop_music", "fg": 75, "rotates": false },
+		  { "id": "overlay_wielded_laptop_screen_lit", "fg": 76, "rotates": false },
+          { "id": "overlay_wielded_laptop_boris", "fg": 77, "rotates": false },
+		  { "id": "overlay_wielded_control_laptop", "fg": 78, "rotates": false },
+		  { "id": "overlay_wielded_control_laptop_music", "fg": 78, "rotates": false },
+		  { "id": "overlay_wielded_control_laptop_screen_lit", "fg": 78, "rotates": false },
+		  { "id": "overlay_wielded_portable_game", "fg": 79, "rotates": false },
+		  { "id": "overlay_wielded_vibrator", "fg": 80, "rotates": false },
+		  { "id": "overlay_wielded_mag_porn", "fg": 81, "rotates": false },
+        { "id": "overlay_wielded_book_temp", "fg": 82 },
+        { "id": "overlay_wielded_map_temp", "fg": 83 },
+        { "id": "overlay_wielded_recipe_temp", "fg": 84 },
+        { "id": "overlay_wielded_schematics_temp", "fg": 85 },
+		{ "id": "overlay_wielded_recipe_mininuke_launch", "fg": 86 },
+		{ "id": "overlay_worn_blindfold", "fg": 87, "rotates": false }
         ]
       }
     ]

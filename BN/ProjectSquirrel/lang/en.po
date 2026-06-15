@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Jake's_Squirrel_mod\n"
-"POT-Creation-Date: 2026-05-30 03:53+0900\n"
+"POT-Creation-Date: 2026-06-15 13:26+0900\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -1118,6 +1118,26 @@ msgstr ""
 "embodiment of dangerous technology yourself."
 
 #: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid "하드라이트 멀티툴"
+msgid_plural "하드라이트 멀티툴"
+msgstr[0] "hardlight multi-tool"
+msgstr[1] "hardlight multi-tools"
+
+#. ~ Description for {'str': '하드라이트 멀티툴', 'str_pl': '하드라이트 멀티툴'}
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
+msgid ""
+"내장된 광선 고체화 매트릭스를 통해 에너지를 물리적 형태로 변환하는 궁극의 야"
+"전 연장통입니다. 스위치를 켜면 빛의 입자가 렌치, 톱날, 용접기 등 필요한 모든 "
+"도구의 형태로 굳어집니다. 거추장스러운 연장통을 들고 다닐 필요 없이, 이 작은 "
+"장치 하나면 대부분의 제작과 수리가 가능합니다."
+msgstr ""
+"This is the ultimate field multi-tool that converts energy into physical "
+"form using a built-in light-solidification matrix. When you flip the switch, "
+"light particles solidify into the shapes of all the tools you need, such as "
+"wrenches, saw blades, and welders. No need to lug around a bulky toolbox—"
+"this single compact device handles most construction and repair tasks."
+
+#: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "5.56x45mm HVP"
 msgid_plural "5.56x45mm HVPs"
 msgstr[0] ""
@@ -1848,6 +1868,26 @@ msgstr ""
 msgctxt "gun_type_type"
 msgid "sq_hardlight_shotgun"
 msgstr ""
+
+#: .\advtech\sq_main_tools.json
+msgid "휴대용 유압 프레스"
+msgid_plural "휴대용 유압 프레스"
+msgstr[0] "portable hydraulic press"
+msgstr[1] "portable hydraulic presses"
+
+#. ~ Description for {'str_sp': '휴대용 유압 프레스'}
+#: .\advtech\sq_main_tools.json
+msgid ""
+"기존 거치형 유압 프레스의 부피와 무게를 획기적으로 줄인 휴대용 버전입니다. 유"
+"압 자키를 응용하여 조립되었으며, 생존자가 직접 들고 다니거나 차량에 싣기 적합"
+"한 크기입니다. 크기는 작아졌지만 금속 부품을 압착하고 탄피를 성형하는 데에는 "
+"충분한 위력을 발휘합니다."
+msgstr ""
+"This is a portable version that dramatically reduces the size and weight of "
+"conventional stationary hydraulic presses. It is constructed using a "
+"hydraulic jack and is compact enough for survivors to carry by hand or load "
+"into a vehicle. Although smaller in size, it delivers sufficient power to "
+"crimp metal parts and form bullet casings."
 
 #: .\advtech\sq_main_tools.json
 msgid "원자력 용광로"
@@ -5738,12 +5778,6 @@ msgstr[1] ""
 #: .\items\sq_weapon_override.json
 msgid "RM99 revolver"
 msgid_plural "RM99 revolvers"
-msgstr[0] ""
-msgstr[1] ""
-
-#: .\items\sq_weapon_override.json
-msgid "monomolecular blade"
-msgid_plural "monomolecular blades"
 msgstr[0] ""
 msgstr[1] ""
 

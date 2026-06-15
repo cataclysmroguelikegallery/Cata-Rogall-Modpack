@@ -47,14 +47,6 @@
     "ranged_damage": { "damage_type": "bullet", "amount": 30 }
   },
   {
-    "type": "GENERIC",
-    "id": "bio_blade_weapon",
-    "copy-from": "bio_blade_weapon",
-    "name": { "str": "monomolecular blade" },
-	"bashing": 8,
-    "cutting": 36
-  },
-  {
     "id": "zweihander",
     "copy-from": "zweihander",
     "type": "GENERIC",
