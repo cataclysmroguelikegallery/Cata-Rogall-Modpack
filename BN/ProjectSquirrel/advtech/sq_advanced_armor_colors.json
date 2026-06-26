@@ -2,8 +2,8 @@
   {
     "id": "sq_advanced_lsurvivor_suit_color_camo",
     "type": "ARMOR",
-    "name": { "str": "콜세어 도색: 국방색" },
-    "description": "콜세어 기동 타격복의 국방색 도색.",
+    "name": { "str": "Corsair paint scheme: military" },
+    "description": "Corsair blitz strike suit's military paint scheme.",
     "weight": "0 g",
     "volume": "0 ml",
     "price": "0 cent",
@@ -15,84 +15,84 @@
     "id": "sq_advanced_fsurvivor_suit_color_camo",
 	"copy-from": "sq_advanced_lsurvivor_suit_color_camo",
     "type": "ARMOR",
-    "name": { "str": "파이어니어 도색: 국방색" },
-    "description": "파이어니어 환경 피갑복의 국방색 도색."
+    "name": { "str": "Pioneer paint scheme: military" },
+    "description": "Pioneer environmental carapace's military paint scheme."
   },
   {
     "id": "sq_advanced_hsurvivor_suit_color_camo",
 	"copy-from": "sq_advanced_lsurvivor_suit_color_camo",
     "type": "ARMOR",
-    "name": { "str": "램파트 도색: 국방색" },
-    "description": "램파트 강습 장갑복의 국방색 도색."
+    "name": { "str": "Rampart paint scheme: military" },
+    "description": "Rampart assault armor's military paint scheme."
   },
   {
     "id": "sq_advanced_lsurvivor_suit_color_black",
 	"copy-from": "sq_advanced_lsurvivor_suit_color_camo",
     "type": "ARMOR",
-    "name": { "str": "콜세어 도색: 검은색" },
-    "description": "콜세어 기동 타격복의 검은색 도색."
+    "name": { "str": "Corsair paint scheme: black" },
+    "description": "Corsair blitz strike suit's black paint scheme."
   },
   {
     "id": "sq_advanced_fsurvivor_suit_color_black",
 	"copy-from": "sq_advanced_lsurvivor_suit_color_camo",
     "type": "ARMOR",
-    "name": { "str": "파이어니어 도색: 검은색" },
-    "description": "파이어니어 환경 피갑복의 검은색 도색."
+    "name": { "str": "Pioneer paint scheme: black" },
+    "description": "Pioneer environmental carapace's black paint scheme."
   },
   {
     "id": "sq_advanced_hsurvivor_suit_color_black",
 	"copy-from": "sq_advanced_lsurvivor_suit_color_camo",
     "type": "ARMOR",
-    "name": { "str": "램파트 도색: 검은색" },
-    "description": "램파트 강습 장갑복의 검은색 도색."
+    "name": { "str": "Rampart paint scheme: black" },
+    "description": "Rampart assault armor's black paint scheme."
   },
   {
     "id": "sq_advanced_lsurvivor_suit_color_urban",
 	"copy-from": "sq_advanced_lsurvivor_suit_color_camo",
     "type": "ARMOR",
-    "name": { "str": "콜세어 도색: 시가전" },
-    "description": "콜세어 기동 타격복의 시가전 도색."
+    "name": { "str": "Corsair paint scheme: urban" },
+    "description": "Corsair blitz strike suit's urban paint scheme."
   },
   {
     "id": "sq_advanced_fsurvivor_suit_color_urban",
 	"copy-from": "sq_advanced_lsurvivor_suit_color_camo",
     "type": "ARMOR",
-    "name": { "str": "파이어니어 도색: 시가전" },
-    "description": "파이어니어 환경 피갑복의 시가전 도색."
+    "name": { "str": "Pioneer paint scheme: urban" },
+    "description": "Pioneer environmental carapace's urban paint scheme."
   },
   {
     "id": "sq_advanced_hsurvivor_suit_color_urban",
 	"copy-from": "sq_advanced_lsurvivor_suit_color_camo",
     "type": "ARMOR",
-    "name": { "str": "램파트 도색: 시가전" },
-    "description": "램파트 강습 장갑복의 시가전 도색."
+    "name": { "str": "Rampart paint scheme: urban" },
+    "description": "Rampart assault armor's urban paint scheme."
   },
   {
     "id": "sq_advanced_lsurvivor_suit_color_desert",
 	"copy-from": "sq_advanced_lsurvivor_suit_color_camo",
     "type": "ARMOR",
-    "name": { "str": "콜세어 도색: 사막전" },
-    "description": "콜세어 기동 타격복의 사막전 도색."
+    "name": { "str": "Corsair paint scheme: horizon" },
+    "description": "Corsair blitz strike suit's horizon paint scheme."
   },
   {
     "id": "sq_advanced_fsurvivor_suit_color_desert",
 	"copy-from": "sq_advanced_lsurvivor_suit_color_camo",
     "type": "ARMOR",
-    "name": { "str": "파이어니어 도색: 사막전" },
-    "description": "파이어니어 환경 피갑복의 사막전 도색."
+    "name": { "str": "Pioneer paint scheme: horizon" },
+    "description": "Pioneer environmental carapace's horizon paint scheme."
   },
   {
     "id": "sq_advanced_hsurvivor_suit_color_desert",
 	"copy-from": "sq_advanced_lsurvivor_suit_color_camo",
     "type": "ARMOR",
-    "name": { "str": "램파트 도색: 사막전" },
-    "description": "램파트 강습 장갑복의 사막전 도색."
+    "name": { "str": "Rampart paint scheme: horizon" },
+    "description": "Rampart assault armor's horizon paint scheme."
   },
   {
     "id": "sq_advanced_lsurvivor_suit_visor_red",
     "type": "ARMOR",
-    "name": { "str": "콜세어 바이저: 레드" },
-    "description": "콜세어 기동 타격복의 레드 바이저.",
+    "name": { "str": "Corsair visor: red" },
+    "description": "Corsair blitz strike suit's red visor.",
     "weight": "0 g",
     "volume": "0 ml",
     "price": "0 cent",
@@ -104,126 +104,126 @@
     "id": "sq_advanced_fsurvivor_suit_visor_red",
 	"copy-from": "sq_advanced_lsurvivor_suit_visor_red",
     "type": "ARMOR",
-    "name": { "str": "파이어니어 바이저: 레드" },
-    "description": "파이어니어 환경 피갑복의 레드 바이저."
+    "name": { "str": "Pioneer visor: red" },
+    "description": "Pioneer environmental carapace's red visor."
   },
   {
     "id": "sq_advanced_hsurvivor_suit_visor_red",
 	"copy-from": "sq_advanced_lsurvivor_suit_visor_red",
     "type": "ARMOR",
-    "name": { "str": "램파트 바이저: 레드" },
-    "description": "램파트 강습 장갑복의 레드 바이저."
+    "name": { "str": "Rampart visor: red" },
+    "description": "Rampart assault armor's red visor."
   },
   {
     "id": "sq_advanced_lsurvivor_suit_visor_yellow",
 	"copy-from": "sq_advanced_lsurvivor_suit_visor_red",
     "type": "ARMOR",
-    "name": { "str": "콜세어 바이저: 옐로" },
-    "description": "콜세어 기동 타격복의 옐로 바이저."
+    "name": { "str": "Corsair visor: yellow" },
+    "description": "Corsair blitz strike suit's yellow visor."
   },
   {
     "id": "sq_advanced_fsurvivor_suit_visor_green",
 	"copy-from": "sq_advanced_lsurvivor_suit_visor_red",
     "type": "ARMOR",
-    "name": { "str": "파이어니어 바이저: 그린" },
-    "description": "파이어니어 환경 피갑복의 그린 바이저."
+    "name": { "str": "Pioneer visor: green" },
+    "description": "Pioneer environmental carapace's green visor."
   },
   {
     "id": "sq_advanced_hsurvivor_suit_visor_green",
 	"copy-from": "sq_advanced_lsurvivor_suit_visor_red",
     "type": "ARMOR",
-    "name": { "str": "램파트 바이저: 그린" },
-    "description": "램파트 강습 장갑복의 그린 바이저."
+    "name": { "str": "Rampart visor: green" },
+    "description": "Rampart assault armor's green visor."
   },
   {
     "id": "sq_advanced_lsurvivor_suit_visor_cyan",
 	"copy-from": "sq_advanced_lsurvivor_suit_visor_red",
     "type": "ARMOR",
-    "name": { "str": "콜세어 바이저: 시안" },
-    "description": "콜세어 기동 타격복의 시안 바이저."
+    "name": { "str": "Corsair visor: cyan" },
+    "description": "Corsair blitz strike suit's cyan visor."
   },
   {
     "id": "sq_advanced_fsurvivor_suit_visor_cyan",
 	"copy-from": "sq_advanced_lsurvivor_suit_visor_red",
     "type": "ARMOR",
-    "name": { "str": "파이어니어 바이저: 시안" },
-    "description": "파이어니어 환경 피갑복의 시안 바이저."
+    "name": { "str": "Pioneer visor: cyan" },
+    "description": "Pioneer environmental carapace's cyan visor."
   },
   {
     "id": "sq_advanced_hsurvivor_suit_visor_cyan",
 	"copy-from": "sq_advanced_lsurvivor_suit_visor_red",
     "type": "ARMOR",
-    "name": { "str": "램파트 바이저: 시안" },
-    "description": "램파트 강습 장갑복의 시안 바이저."
+    "name": { "str": "Rampart visor: cyan" },
+    "description": "Rampart assault armor's cyan visor."
   },
   {
     "id": "sq_advanced_lsurvivor_suit_visor_blue",
 	"copy-from": "sq_advanced_lsurvivor_suit_visor_red",
     "type": "ARMOR",
-    "name": { "str": "콜세어 바이저: 블루" },
-    "description": "콜세어 기동 타격복의 블루 바이저."
+    "name": { "str": "Corsair visor: blue" },
+    "description": "Corsair blitz strike suit's blue visor."
   },
   {
     "id": "sq_advanced_fsurvivor_suit_visor_blue",
 	"copy-from": "sq_advanced_lsurvivor_suit_visor_red",
     "type": "ARMOR",
-    "name": { "str": "파이어니어 바이저: 블루" },
-    "description": "파이어니어 환경 피갑복의 블루 바이저."
+    "name": { "str": "Pioneer visor: blue" },
+    "description": "Pioneer environmental carapace's blue visor."
   },
   {
     "id": "sq_advanced_hsurvivor_suit_visor_blue",
 	"copy-from": "sq_advanced_lsurvivor_suit_visor_red",
     "type": "ARMOR",
-    "name": { "str": "램파트 바이저: 블루" },
-    "description": "램파트 강습 장갑복의 블루 바이저."
+    "name": { "str": "Rampart visor: blue" },
+    "description": "Rampart assault armor's blue visor."
   },
   {
     "id": "sq_advanced_lsurvivor_suit_visor_purple",
 	"copy-from": "sq_advanced_lsurvivor_suit_visor_red",
     "type": "ARMOR",
-    "name": { "str": "콜세어 바이저: 퍼플" },
-    "description": "콜세어 기동 타격복의 퍼플 바이저."
+    "name": { "str": "Corsair visor: purple" },
+    "description": "Corsair blitz strike suit's purple visor."
   },
   {
     "id": "sq_advanced_fsurvivor_suit_visor_purple",
 	"copy-from": "sq_advanced_lsurvivor_suit_visor_red",
     "type": "ARMOR",
-    "name": { "str": "파이어니어 바이저: 퍼플" },
-    "description": "파이어니어 환경 피갑복의 퍼플 바이저."
+    "name": { "str": "Pioneer visor: purple" },
+    "description": "Pioneer environmental carapace's purple visor."
   },
   {
     "id": "sq_advanced_hsurvivor_suit_visor_purple",
 	"copy-from": "sq_advanced_lsurvivor_suit_visor_red",
     "type": "ARMOR",
-    "name": { "str": "램파트 바이저: 퍼플" },
-    "description": "램파트 강습 장갑복의 퍼플 바이저."
+    "name": { "str": "Rampart visor: purple" },
+    "description": "Rampart assault armor's purple visor."
   },
   {
     "id": "sq_advanced_lsurvivor_suit_visor_white",
 	"copy-from": "sq_advanced_lsurvivor_suit_visor_red",
     "type": "ARMOR",
-    "name": { "str": "콜세어 바이저: 화이트" },
-    "description": "콜세어 기동 타격복의 화이트 바이저."
+    "name": { "str": "Corsair visor: white" },
+    "description": "Corsair blitz strike suit's white visor."
   },
   {
     "id": "sq_advanced_fsurvivor_suit_visor_white",
 	"copy-from": "sq_advanced_lsurvivor_suit_visor_red",
     "type": "ARMOR",
-    "name": { "str": "파이어니어 바이저: 화이트" },
-    "description": "파이어니어 환경 피갑복의 화이트 바이저."
+    "name": { "str": "Pioneer visor: white" },
+    "description": "Pioneer environmental carapace's white visor."
   },
   {
     "id": "sq_advanced_hsurvivor_suit_visor_white",
 	"copy-from": "sq_advanced_lsurvivor_suit_visor_red",
     "type": "ARMOR",
-    "name": { "str": "램파트 바이저: 화이트" },
-    "description": "램파트 강습 장갑복의 화이트 바이저."
+    "name": { "str": "Rampart visor: white" },
+    "description": "Rampart assault armor's white visor."
   },
   {
     "result": "sq_advanced_lsurvivor_suit_color_camo",
     "type": "recipe",
-    "category": "CC_첨단기술",
-    "subcategory": "CSC_첨단기술_OTHER",
+    "category": "CC_High-Tech",
+    "subcategory": "CSC_High-Tech_Other",
     "skill_used": "fabrication",
     "difficulty": 10,
 	"skills_required": [ [ "mechanics", 10 ], [ "electronics", 10 ], [ "computer", 10 ] ],
@@ -237,8 +237,8 @@
   {
     "result": "sq_advanced_fsurvivor_suit_color_camo",
     "type": "recipe",
-    "category": "CC_첨단기술",
-    "subcategory": "CSC_첨단기술_OTHER",
+    "category": "CC_High-Tech",
+    "subcategory": "CSC_High-Tech_Other",
     "skill_used": "fabrication",
     "difficulty": 10,
 	"skills_required": [ [ "mechanics", 10 ], [ "electronics", 10 ], [ "computer", 10 ] ],
@@ -252,8 +252,8 @@
   {
     "result": "sq_advanced_hsurvivor_suit_color_camo",
     "type": "recipe",
-    "category": "CC_첨단기술",
-    "subcategory": "CSC_첨단기술_OTHER",
+    "category": "CC_High-Tech",
+    "subcategory": "CSC_High-Tech_Other",
     "skill_used": "fabrication",
     "difficulty": 10,
 	"skills_required": [ [ "mechanics", 10 ], [ "electronics", 10 ], [ "computer", 10 ] ],
@@ -267,8 +267,8 @@
   {
     "result": "sq_advanced_lsurvivor_suit_color_black",
     "type": "recipe",
-    "category": "CC_첨단기술",
-    "subcategory": "CSC_첨단기술_OTHER",
+    "category": "CC_High-Tech",
+    "subcategory": "CSC_High-Tech_Other",
     "skill_used": "fabrication",
     "difficulty": 10,
 	"skills_required": [ [ "mechanics", 10 ], [ "electronics", 10 ], [ "computer", 10 ] ],
@@ -282,8 +282,8 @@
   {
     "result": "sq_advanced_fsurvivor_suit_color_black",
     "type": "recipe",
-    "category": "CC_첨단기술",
-    "subcategory": "CSC_첨단기술_OTHER",
+    "category": "CC_High-Tech",
+    "subcategory": "CSC_High-Tech_Other",
     "skill_used": "fabrication",
     "difficulty": 10,
 	"skills_required": [ [ "mechanics", 10 ], [ "electronics", 10 ], [ "computer", 10 ] ],
@@ -297,8 +297,8 @@
   {
     "result": "sq_advanced_hsurvivor_suit_color_black",
     "type": "recipe",
-    "category": "CC_첨단기술",
-    "subcategory": "CSC_첨단기술_OTHER",
+    "category": "CC_High-Tech",
+    "subcategory": "CSC_High-Tech_Other",
     "skill_used": "fabrication",
     "difficulty": 10,
 	"skills_required": [ [ "mechanics", 10 ], [ "electronics", 10 ], [ "computer", 10 ] ],
@@ -312,8 +312,8 @@
   {
     "result": "sq_advanced_lsurvivor_suit_color_urban",
     "type": "recipe",
-    "category": "CC_첨단기술",
-    "subcategory": "CSC_첨단기술_OTHER",
+    "category": "CC_High-Tech",
+    "subcategory": "CSC_High-Tech_Other",
     "skill_used": "fabrication",
     "difficulty": 10,
 	"skills_required": [ [ "mechanics", 10 ], [ "electronics", 10 ], [ "computer", 10 ] ],
@@ -327,8 +327,8 @@
   {
     "result": "sq_advanced_fsurvivor_suit_color_urban",
     "type": "recipe",
-    "category": "CC_첨단기술",
-    "subcategory": "CSC_첨단기술_OTHER",
+    "category": "CC_High-Tech",
+    "subcategory": "CSC_High-Tech_Other",
     "skill_used": "fabrication",
     "difficulty": 10,
 	"skills_required": [ [ "mechanics", 10 ], [ "electronics", 10 ], [ "computer", 10 ] ],
@@ -342,8 +342,8 @@
   {
     "result": "sq_advanced_hsurvivor_suit_color_urban",
     "type": "recipe",
-    "category": "CC_첨단기술",
-    "subcategory": "CSC_첨단기술_OTHER",
+    "category": "CC_High-Tech",
+    "subcategory": "CSC_High-Tech_Other",
     "skill_used": "fabrication",
     "difficulty": 10,
 	"skills_required": [ [ "mechanics", 10 ], [ "electronics", 10 ], [ "computer", 10 ] ],
@@ -357,8 +357,8 @@
   {
     "result": "sq_advanced_lsurvivor_suit_color_desert",
     "type": "recipe",
-    "category": "CC_첨단기술",
-    "subcategory": "CSC_첨단기술_OTHER",
+    "category": "CC_High-Tech",
+    "subcategory": "CSC_High-Tech_Other",
     "skill_used": "fabrication",
     "difficulty": 10,
 	"skills_required": [ [ "mechanics", 10 ], [ "electronics", 10 ], [ "computer", 10 ] ],
@@ -372,8 +372,8 @@
   {
     "result": "sq_advanced_fsurvivor_suit_color_desert",
     "type": "recipe",
-    "category": "CC_첨단기술",
-    "subcategory": "CSC_첨단기술_OTHER",
+    "category": "CC_High-Tech",
+    "subcategory": "CSC_High-Tech_Other",
     "skill_used": "fabrication",
     "difficulty": 10,
 	"skills_required": [ [ "mechanics", 10 ], [ "electronics", 10 ], [ "computer", 10 ] ],
@@ -387,8 +387,8 @@
   {
     "result": "sq_advanced_hsurvivor_suit_color_desert",
     "type": "recipe",
-    "category": "CC_첨단기술",
-    "subcategory": "CSC_첨단기술_OTHER",
+    "category": "CC_High-Tech",
+    "subcategory": "CSC_High-Tech_Other",
     "skill_used": "fabrication",
     "difficulty": 10,
 	"skills_required": [ [ "mechanics", 10 ], [ "electronics", 10 ], [ "computer", 10 ] ],
@@ -402,8 +402,8 @@
   {
     "result": "sq_advanced_lsurvivor_suit_visor_red",
     "type": "recipe",
-    "category": "CC_첨단기술",
-    "subcategory": "CSC_첨단기술_OTHER",
+    "category": "CC_High-Tech",
+    "subcategory": "CSC_High-Tech_Other",
     "skill_used": "fabrication",
     "difficulty": 10,
 	"skills_required": [ [ "mechanics", 10 ], [ "electronics", 10 ], [ "computer", 10 ] ],
@@ -417,8 +417,8 @@
   {
     "result": "sq_advanced_lsurvivor_suit_visor_yellow",
     "type": "recipe",
-    "category": "CC_첨단기술",
-    "subcategory": "CSC_첨단기술_OTHER",
+    "category": "CC_High-Tech",
+    "subcategory": "CSC_High-Tech_Other",
     "skill_used": "fabrication",
     "difficulty": 10,
 	"skills_required": [ [ "mechanics", 10 ], [ "electronics", 10 ], [ "computer", 10 ] ],
@@ -432,8 +432,8 @@
   {
     "result": "sq_advanced_lsurvivor_suit_visor_cyan",
     "type": "recipe",
-    "category": "CC_첨단기술",
-    "subcategory": "CSC_첨단기술_OTHER",
+    "category": "CC_High-Tech",
+    "subcategory": "CSC_High-Tech_Other",
     "skill_used": "fabrication",
     "difficulty": 10,
 	"skills_required": [ [ "mechanics", 10 ], [ "electronics", 10 ], [ "computer", 10 ] ],
@@ -447,8 +447,8 @@
   {
     "result": "sq_advanced_lsurvivor_suit_visor_blue",
     "type": "recipe",
-    "category": "CC_첨단기술",
-    "subcategory": "CSC_첨단기술_OTHER",
+    "category": "CC_High-Tech",
+    "subcategory": "CSC_High-Tech_Other",
     "skill_used": "fabrication",
     "difficulty": 10,
 	"skills_required": [ [ "mechanics", 10 ], [ "electronics", 10 ], [ "computer", 10 ] ],
@@ -462,8 +462,8 @@
   {
     "result": "sq_advanced_lsurvivor_suit_visor_purple",
     "type": "recipe",
-    "category": "CC_첨단기술",
-    "subcategory": "CSC_첨단기술_OTHER",
+    "category": "CC_High-Tech",
+    "subcategory": "CSC_High-Tech_Other",
     "skill_used": "fabrication",
     "difficulty": 10,
 	"skills_required": [ [ "mechanics", 10 ], [ "electronics", 10 ], [ "computer", 10 ] ],
@@ -477,8 +477,8 @@
   {
     "result": "sq_advanced_lsurvivor_suit_visor_white",
     "type": "recipe",
-    "category": "CC_첨단기술",
-    "subcategory": "CSC_첨단기술_OTHER",
+    "category": "CC_High-Tech",
+    "subcategory": "CSC_High-Tech_Other",
     "skill_used": "fabrication",
     "difficulty": 10,
 	"skills_required": [ [ "mechanics", 10 ], [ "electronics", 10 ], [ "computer", 10 ] ],
@@ -492,8 +492,8 @@
   {
     "result": "sq_advanced_fsurvivor_suit_visor_red",
     "type": "recipe",
-    "category": "CC_첨단기술",
-    "subcategory": "CSC_첨단기술_OTHER",
+    "category": "CC_High-Tech",
+    "subcategory": "CSC_High-Tech_Other",
     "skill_used": "fabrication",
     "difficulty": 10,
 	"skills_required": [ [ "mechanics", 10 ], [ "electronics", 10 ], [ "computer", 10 ] ],
@@ -507,8 +507,8 @@
   {
     "result": "sq_advanced_fsurvivor_suit_visor_green",
     "type": "recipe",
-    "category": "CC_첨단기술",
-    "subcategory": "CSC_첨단기술_OTHER",
+    "category": "CC_High-Tech",
+    "subcategory": "CSC_High-Tech_Other",
     "skill_used": "fabrication",
     "difficulty": 10,
 	"skills_required": [ [ "mechanics", 10 ], [ "electronics", 10 ], [ "computer", 10 ] ],
@@ -522,8 +522,8 @@
   {
     "result": "sq_advanced_fsurvivor_suit_visor_cyan",
     "type": "recipe",
-    "category": "CC_첨단기술",
-    "subcategory": "CSC_첨단기술_OTHER",
+    "category": "CC_High-Tech",
+    "subcategory": "CSC_High-Tech_Other",
     "skill_used": "fabrication",
     "difficulty": 10,
 	"skills_required": [ [ "mechanics", 10 ], [ "electronics", 10 ], [ "computer", 10 ] ],
@@ -537,8 +537,8 @@
   {
     "result": "sq_advanced_fsurvivor_suit_visor_blue",
     "type": "recipe",
-    "category": "CC_첨단기술",
-    "subcategory": "CSC_첨단기술_OTHER",
+    "category": "CC_High-Tech",
+    "subcategory": "CSC_High-Tech_Other",
     "skill_used": "fabrication",
     "difficulty": 10,
 	"skills_required": [ [ "mechanics", 10 ], [ "electronics", 10 ], [ "computer", 10 ] ],
@@ -552,8 +552,8 @@
   {
     "result": "sq_advanced_fsurvivor_suit_visor_purple",
     "type": "recipe",
-    "category": "CC_첨단기술",
-    "subcategory": "CSC_첨단기술_OTHER",
+    "category": "CC_High-Tech",
+    "subcategory": "CSC_High-Tech_Other",
     "skill_used": "fabrication",
     "difficulty": 10,
 	"skills_required": [ [ "mechanics", 10 ], [ "electronics", 10 ], [ "computer", 10 ] ],
@@ -567,8 +567,8 @@
   {
     "result": "sq_advanced_fsurvivor_suit_visor_white",
     "type": "recipe",
-    "category": "CC_첨단기술",
-    "subcategory": "CSC_첨단기술_OTHER",
+    "category": "CC_High-Tech",
+    "subcategory": "CSC_High-Tech_Other",
     "skill_used": "fabrication",
     "difficulty": 10,
 	"skills_required": [ [ "mechanics", 10 ], [ "electronics", 10 ], [ "computer", 10 ] ],
@@ -582,8 +582,8 @@
   {
     "result": "sq_advanced_hsurvivor_suit_visor_red",
     "type": "recipe",
-    "category": "CC_첨단기술",
-    "subcategory": "CSC_첨단기술_OTHER",
+    "category": "CC_High-Tech",
+    "subcategory": "CSC_High-Tech_Other",
     "skill_used": "fabrication",
     "difficulty": 10,
 	"skills_required": [ [ "mechanics", 10 ], [ "electronics", 10 ], [ "computer", 10 ] ],
@@ -597,8 +597,8 @@
   {
     "result": "sq_advanced_hsurvivor_suit_visor_green",
     "type": "recipe",
-    "category": "CC_첨단기술",
-    "subcategory": "CSC_첨단기술_OTHER",
+    "category": "CC_High-Tech",
+    "subcategory": "CSC_High-Tech_Other",
     "skill_used": "fabrication",
     "difficulty": 10,
 	"skills_required": [ [ "mechanics", 10 ], [ "electronics", 10 ], [ "computer", 10 ] ],
@@ -612,8 +612,8 @@
   {
     "result": "sq_advanced_hsurvivor_suit_visor_cyan",
     "type": "recipe",
-    "category": "CC_첨단기술",
-    "subcategory": "CSC_첨단기술_OTHER",
+    "category": "CC_High-Tech",
+    "subcategory": "CSC_High-Tech_Other",
     "skill_used": "fabrication",
     "difficulty": 10,
 	"skills_required": [ [ "mechanics", 10 ], [ "electronics", 10 ], [ "computer", 10 ] ],
@@ -627,8 +627,8 @@
   {
     "result": "sq_advanced_hsurvivor_suit_visor_blue",
     "type": "recipe",
-    "category": "CC_첨단기술",
-    "subcategory": "CSC_첨단기술_OTHER",
+    "category": "CC_High-Tech",
+    "subcategory": "CSC_High-Tech_Other",
     "skill_used": "fabrication",
     "difficulty": 10,
 	"skills_required": [ [ "mechanics", 10 ], [ "electronics", 10 ], [ "computer", 10 ] ],
@@ -642,8 +642,8 @@
   {
     "result": "sq_advanced_hsurvivor_suit_visor_purple",
     "type": "recipe",
-    "category": "CC_첨단기술",
-    "subcategory": "CSC_첨단기술_OTHER",
+    "category": "CC_High-Tech",
+    "subcategory": "CSC_High-Tech_Other",
     "skill_used": "fabrication",
     "difficulty": 10,
 	"skills_required": [ [ "mechanics", 10 ], [ "electronics", 10 ], [ "computer", 10 ] ],
@@ -657,8 +657,8 @@
   {
     "result": "sq_advanced_hsurvivor_suit_visor_white",
     "type": "recipe",
-    "category": "CC_첨단기술",
-    "subcategory": "CSC_첨단기술_OTHER",
+    "category": "CC_High-Tech",
+    "subcategory": "CSC_High-Tech_Other",
     "skill_used": "fabrication",
     "difficulty": 10,
 	"skills_required": [ [ "mechanics", 10 ], [ "electronics", 10 ], [ "computer", 10 ] ],
