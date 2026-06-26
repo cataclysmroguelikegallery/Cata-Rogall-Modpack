@@ -3377,7 +3377,7 @@ msgstr ""
 #: .\advtech\sq_vertigon_tier.json
 msgid "vertigon coated uranium rail"
 msgid_plural "vertigon coated uranium rails"
-msgstr[0] "베르티곤 코티 우라늄 레일"
+msgstr[0] "베르티곤 코팅 우라늄 레일"
 
 #. ~ Description for {'str': 'vertigon coated uranium rail'}
 #: .\advtech\sq_vertigon_tier.json

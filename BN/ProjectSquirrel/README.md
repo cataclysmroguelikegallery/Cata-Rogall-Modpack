@@ -1,431 +1,184 @@
 # Project: Pack Rat requires playing with the latest version of BN to enjoy the content.
 
-## 1. Add practical compression storage items
 
-Bundles of Rags 1L>0.5L
+![20230724_135902](https://github.com/NobleJake/ProjectPackRat/assets/108422062/cea7f77a-3108-4eec-b4cb-3a4d8329d6cb)
 
-Bundles of Leathers 1L>0.5L
 
-Bundles of Kevlar plates
+---
 
-Bundles of Nomex
+# Project: Pack Rat
 
-Bundles of Plastic chunks
+Project: Pack Rat is a comprehensive sci-fi content mod designed to expand end-game content, improve usability, and make gameplay more exciting by introducing advanced combat armor and futuristic weaponry. Unlock atomic-powered technology to gain access to cutting-edge science and enrich your survival experience!
 
-Bundles of Chitins
+The sci-fi content in this mod utilizes a tech-tree progression system. You start by constructing an **Atomic Forge**, which allows you to build a **Matter Synthesizer**. By continually "evolving" this synthesizer through crafting, you unlock recipes for increasingly advanced sci-fi items—similar to the progression in games like *Starbound*.
 
-Bundles of Biosilicified Chitins
+At the "Nano-Precision Sewing Machine" tier, you can manufacture CBMs and mass-produce previously scarce materials like RAM, circuits, e-scrap, and solar cells. Ultimately, you will be able to craft 7 unique types of combat armor, 7 highly accurate Hardlight optical weapons, and 5 heavy-hitting Gauss weapons powered by fusion cores. You can also manufacture 5.56mm, 7.62mm, and 8x40mm ammunition with depleted uranium penetrators.
 
-Bundles of Planks
+Crucial recipes can be found in *Lab Journal - Gustav*, *Lab Journal - Herrera* (now highly valuable for electronics), and *Rivtech Design Binders*. Hardlight and Gauss weapon recipes are rare drops found exclusively in labs.
 
-Bundles of Splintered Wood
+Beyond the late-game sci-fi tier, the mod includes numerous Quality of Life (QoL) improvements and mid-game items: 7 types of shields, 9 pack frames and exoskeletons, a massive Dimensional Backpack, and a complete line of 34 fireproof survival garments. Most clothing can now be reinforced with steel or superalloy plates, and we've added new clothing modifications like Nomex lining and extra pockets.
 
-Bundle of Glass Shards
+*Note: Project: Pack Rat requires the latest version of Cataclysm: Bright Nights (BN).*
 
-Bundle of Wires
+---
 
-Bundle of pipes
+## 1. Practical Compression Storage
 
-Bundle of scrap metal
+We have introduced bundle recipes to help manage inventory clutter.
 
-Bundles of layered carbides
+| Item Type | Compressed Volume |
+| --- | --- |
+| Rags, Leather | 1L -> 0.5L |
+| Kevlar Plates, Nomex | Standard compression |
+| Plastic Chunks, Chitin, Biosilicified Chitin | Standard compression |
+| Planks, Splintered Wood, Glass Shards | Standard compression |
+| Wires, Pipes, Scrap Metal, Layered Carbides | Standard compression |
 
-## 2. Build a nanomaterial container, add a portable CVD machine
+---
 
-Requires at least Lab Report-Gustav to build these.
-In PPR 1.1, main tools will all be unified as 'Matter Synthesizer: Lorem Ipsum', and you will be able to evolve your own main tools to increase your skills, so you can make them in one tool instead of having to make multiple tools.
+## 2. Nanomaterial & Portable Crafting
 
-Tier 1: Atomic Forge (Graphene, Layered Carbide)
-Manupulator workbench (workbench that allows you to work at twice the speed)
+*Requires Lab Journal - Gustav.* Main tools are designed to be upgraded sequentially, saving space by replacing the need for multiple different crafting stations.
 
-┏━━━━━━━━━━━━━━━━┛ 
+* **Tier 1 - Atomic Forge:** Unlocks Graphene and Layered Carbides. Can be upgraded to a Manipulator Workbench, which doubles crafting speed.
+* **Tier 2 - Matter Synthesizer (Nanocompressor):** Unlocks Hydrogen Containers, Nanofabricated Materials, and Superalloys. *Tip: Superalloys can be cut down into thin superalloys using a metal saw.*
+* **Tier 3 - Matter Synthesizer (Nano-Precision Sewing Machine):** Unlocks E-scrap, RAM, Circuits, Copper Wire, Solar Cells, CBMs, AI Cores, Hardlight Matrices, and Fusion Cores.
+* **Tier 4 - Matter Synthesizer (Nanoprinter):** Unlocks RM weapon series, RM13 Combat Armor, custom Combat Armors, Hardlight weapons, and Gauss weapons.
+* **Portable CVD Machine:** Can be deployed, examined, and used in the field. Simply smash it (S) to pick it back up.
 
-Tier 2: Matter Synthesizer: Nanocompressor (hydrogen container, nanofabricated materials, superalloys)
+---
 
-*Superalloys can be disassembled with a metal saw to get thin superalloys.
+## 3. General Item Additions
 
-┏━━━━━━━━━━━━━━━━┛ 
+* **Advanced Nomad Suit / Nomad Harness:** Ported from DDA. Recipes found in *Surviving a Nuclear War*.
+* **Type-Boy:** An all-in-one smart device functioning as a watch, bionic scanner, binoculars, two-way radio, and radiation biomonitor.
+* **Ranger Lightweight Combat Armor:** A non-powered, versatile combat suit blending various survival sets.
+* **Carbon Jumpsuit:** A mass-produced, cost-effective, high-performance survival suit.
+* **Nanopack Bandages:** Advanced medical supplies that instantly restore 20 health upon application.
+* **Monomolecular Wire:** A concealed weapon woven from monomolecular fibers. Extremely low volume, capable of 3-tile reach attacks, but carries a -2 hit penalty.
+* **Bionic Splint:** A minimally intrusive splint that heals broken limbs 4x faster.
+* **Craftable Gas Tanks:** Craftable hydrogen tanks and canisters (required for diamond coating).
+* **Binary Sword & Heat Blade:** The legendary sword from *Madness Combat* and a battery-powered, flaming shish kebab blade.
+* **Restored Content:** Fire weapons, craftable bone armor, and low-to-mid-tier bionics are back and craftable.
+* **Hardlight Weapons:** Advanced optical weapons powered by a Hardlight Matrix and UPS power. They solidify light to create high-accuracy, short-range, anti-personnel laser blades and blasters.
+* **Gauss Weapons:** Massive railguns powered by fusion cores. Characterized by low fire rates but devastating, wall-shattering damage. Ammunition includes steel rails, depleted uranium rails, and scrap metal.
+* **Fireproof Gear Set:** A massive collection of 34 fireproof survival items, ranging from canteens, harnesses, and headlamps to duster coats, trench coats, ammo pouches, and exoskeletons.
 
-Tier 3: Matter Synthesizer: Nano-precision sewing machines (e-scraps, RAM, circuits, copper wire, solar cells, CBMs, AI cores, hardlight matrices, fusion cores)
+---
 
-┏━━━━━━━━━━━━━━━━┛ 
+## 4. Custom Combat Armor
 
-- Tier 4: Matter Synthesizer: Nanoprinter (all RM weapon series and RM13 Combat Armor, all Combat Armors, Hardlight weapons, Gauss weapons)
+Design specialized combat armors to fit your playstyle. Open to players with Level 10 in Computers, Electronics, and Mechanics.
 
-- Portable CVD Machine: Set up, examine, and use as is. To retrieve it, smash it with S.
+* **Survival Combat Armor:** A survivor's reverse-engineered RM13 Combat Armor. It has higher encumbrance and no activated armor boost, but serves as the base crafting material for advanced suits. Requires *Rivtech Design Binders*.
+* **"Rampart" Assault Armor:** A semi-rigid walking tank. Doubles your strength, increases armor, and grants parrying abilities to make you an invincible melee juggernaut. Features a built-in circulatory system for extreme stamina regeneration.
+* **"Corsair" Blitz Strike Suit:** A lightweight, non-rigid suit prioritizing speed. Increases movement speed by 30%, Agility by 3, and Perception by 3. Features a built-in Synaptic Accelerator for free parkour movement, and a special ability that stops time for 10 turns (costs 500 Power).
+* **"Pioneer" Environmental Carapace:** The ultimate utility and exploration suit. Provides absolute environmental protection (gas, electricity, climate, radiation). Its special ability grants immunity to mind control and teleport sickness. Features a built-in penetrating scanner for unparalleled convenience.
+* **"Warden" Heavy Combat Armor:** A cost-effective, clunky power armor alternative. Features hydraulic arms that, when activated, allow you to crush zombie skulls with your bare hands.
+* **"Legion" Powered Suit:** A true military-grade exoskeleton. Holds 4 weapons, increases carry weight by 1.7x, doubles Perception, and boosts healing speed. Its special ability generates a blade-shaped plasma impact grenade for 100 Power. (Blueprint drop only).
+* **"Revenant" Assassination Infiltration Suit:** A covert ops suit made of liquefied smart metal for noise cancellation and scent concealment. Features stealth capabilities and the ability to morph its metallic hands into deadly blades. (Blueprint drop only).
 
-## 3. Other items added
+*Customization:* Rampart, Corsair, and Pioneer suits feature four paint schemes (Military, Black, Urban, Desert). Visors across all suits can be customized in Red, Orange, Yellow, Green, Sky Blue, Purple, or White.
 
-- Advanced Nomad Suit/Nomad Harness: from DDA. Recipe from the book Surviving a Nuclear War.
-- Type-Boy: Smartwatch + bionic scanner + binocular function + two-way radio + radiation biomonitor. You know the motif.
-- Ranger Lightweight Combat Armor: Non-powered combat suit. A combination of various survival sets. A parody of the NCR Ranger combat armor from Fallout series.
-- Carbon Jumpsuit (a mass-produced, high-performance survival suit that can be made cheaply).
-- Nanopack bandages (bandages that instantly restore 20 health upon application)
-- Monomolecular wire: memorization made from monomolecular fibers. Extremely small in volume and capable of 3-square attacks. Has a -2 hit modifier instead.
-- Bionic Splint: A splint that attaches limbs 4x faster and is less intrusive.
-- Craftable hydrogen tanks and hydrogen canisters (needed for diamond coating).
-- Binary Sword: Used by Jesus in Madness Combat. Reborn in the Cataclysm.
-- Heat Blade: A shish kebab, a battery-consuming sharp-edged hot plate. Can set enemies on fire, of course.
-- Fire weapons are back. (from Nohope mod)
-- Bone armor can be crafted. (from No Hope mod)
-- Low to Mid tier bionics also can be crafted.
-- Hardlight weapons: Highly advanced optical weapons that feed on the Hardlight Matrix. They disrupt the wavelengths of light and fire what they solidify, making it possible to recreate lightsabers and blasters from the original movies with solidified light. These weapons are characterized by high hit rate, short range, and anti-personnel. Ammo uses UPS power.
-- Gaussian weapons: High mass weapons that feed on fusion cores, or fusion cores. These are the arc reactors from the movie What's up? You can't use fusion cores directly, but you can build Gauss weapons, which are personalized railguns. You can also create mechs, which I'll talk about later. Features include Barrett-like damage, low rate of fire, large and heavy, and the ability to break through walls and zombie skulls. Ammunition is steel rails, degraded uranium rails, and scrap metal (!).
-- Fireproof Gears:
+---
 
-┏━━━━━━━━━━━━━━━━┛
+## 5. Shields & Exoskeletons
 
-┣━ Survival fireproof canteen
+* **Shields:** Ranging from early-game (Plank Shield, Scrap Metal Shield, Small Riot Shield) to end-game tactical gear. Tactical variants include the *Commando* (holds 2 magazines), the 12-kilogram *Bastion* (full-body protection), and the *Frontline* (allows two-handed weapon use while protecting the upper body).
+* **Pack Frames:** Various weight-distribution frames including Crude, Wooden, Pipe, and Steel.
+* **Exoskeletons:** Industrial (massive weight capacity), Vanguard (weapon slot and strength bonus), and Sprinter (movement speed bonus). *Drop only.*
+* **Special Backpacks:** The *Rat-Pack* (120L, fireproof, holds a medium pet and 3 weapons) and the *Dimensional Stabilizer* (300L lab drop).
 
-┣━ Survival fireproof harness
-
-┣━ Survival multi-purpose fire belt
-
-┣━ Survival fireproof headlamp
-
-┣━ Survival atomic fireproof headlamp
-
-┣━ Survival fireproof sheath
-
-┣━ Survival fireproof lantern sheath
-
-┣━ Survival fireproof handbag
-
-┣━ Survival fireproof small sheath
-
-┣━ Survival fireproof ankle sheath
-
-┣━ Survival fireproof pistol holster
-
-┣━ Survival fireproof bow sheath
-
-┣━ Survival fireproof axe ring holster
-
-┣━ Survival fireproof spear lanyard
-
-┣━ Survival Fireproof Backpack
-
-┣━ Survival fireproof rucksack (large backpack)
-
-┣━ Survival fireproof duffel bag
-
-┣━ Survival fireproof runner pack
-
-┣━ Survival fireproof mountain backpack
-
-┣━ Survival fireproof knee pads
-
-┣━ Survival fireproof elbow pads
-
-┣━ Survival Fireproof Arm Guard
-
-┣━ Survival Fireproof Leg Guards
-
-┣━ Survival Fireproof Breastplate
-
-┣━ Survival Fireproof Armor
-
-┣━ Survival Fireproof Chest Ammo Pouch
-
-┣━ Survival Fireproof Leg Ammo Pouches
-
-┣━ Survival Fireproof Ankle Ammo Pouch
-
-┣━ Survival Large Fireproof Grenade Pouch
-
-┣━ Survival Fireproof Grenade Pouch
-
-┣━ Survival fireproof oversized gun holster
-
-┣━ Survival fireproof back holster
-
-┣━ Survival Fireproof Duster Coat
-
-┗━ Survival Fireproof Trench Coat
-
-## 4. Make Your Own Combat Armor
-
-With the final content, you can create combat armor with different capabilities to suit your needs and preferences.
-Open to all common crafting 10 Computers 10 Electrical Engineering 10 Mechanical Engineering 10
-
-Survival Combat Armor (requires a Rivtech design binders)
-- A survivalist version of the Rivtech RM13 Combat Armor, with the design hastened by the setting. It is a sub-compatible version of the RM13 Combat Armor, with no armor increase when activated and a higher level of encumberance. Used as a material for the following three armors.
-
-"Rampart" Assault Armor
-
-- Semi-rigid combat armor made to resemble a walking tank. Increases strength by 2x when worn.
-- When used by a Survivor who fully understands the design of the Rivtech Combat Armor, it increases armor and grants additional parrying abilities, making it even more invulnerable in melee.
-- The Combat Armor's built-in circulatory management system provides a constant supply of oxygen, dramatically increasing stamina regeneration.
-
-"Corsair" Blitz Strike Suit
-
-- Non-rigid combat armor with the exact opposite characteristics of the Rampart.
-- It has low armor, but when worn, it increases your movement speed by 30% and increases your agility and perception by 3.
-- A versatile suit that can also be used as a work suit during the day thanks to its high Action Speed passive.
-- Its special ability allows you to stop time for 10 turns for 500 Power.
-- Combat Armor's built-in Synaptic Accelerator allows you to automatically parkour on tables, ledges, etc. without losing any Action Points.
-
-"Pioneer" Environmental Carapace
-
-- Non-rigid combat armor with defenses between Rampart and Corsair.
-- It has particularly high environmental protection and provides built-in gas, electricity, climate control system, and radiation immunity.
-- The special ability grants full protection from mind control and climate conditions, and prevents teleportation sickness.
-- In addition, the Combat Armor's built-in penetrating scanner provides moderate range vision, making it the GOAT in terms of convenience.
-
-Plus, they come in four different paint schemes: Military, Black, Urban, and Desert.
-Think of it as a skin concept, and if you don't like the look of your existing suit, it's very easy to slap on a paint job for a different suit. In short, it's a looker.
-And the visor skins, including the existing suit, come in the following colors: red orange (yellow) green sky blue purple white.
-
-"Warden" Heavy Combat Armor
-
-- Clunky combat armor that's cheap and can mimic Rampart at relatively low tiers. Think of it as a survivor's version of a power armor.
-- The arms are equipped with hydraulic muscles that, when activated, allow you to smash zombie heads like melting butter while unarmed.
-- It's a great value for the price.
-
-"Legion" Powered Suit
-
-- A actual military suit. Holds 4 weapons of any type, 1.7x weight limit, increased healing speed, 2x perception, and more for the next generation of supersoldiers.
-- The best part is that it's always on, even when it's not.
-- It costs 100 power to use and instantly creates a blade-shaped plasma impact grenade, with the performance of this melee weapon and grenade depending on how strategically you use it.
-- Obtained from blueprint Drops.
-
-"Revenant" Assassination Infiltration Suit
-
-- An actual military suit #2. In the setting, this fearsome armor has a history of being used in small batches to assassinate enemy nationals during the Chinese-American War.
-- The suit's fluid upper construction of liquefied smart metal provides noise cancellation and body odor concealment.
-- Defense is below Corsair, but the special ability Stealth makes up for it.
-- The extra liquefied metal in hands can be used to transform them into blades, giving it enough killing power even when unarmed.
-- Obtained from blueprint drops.
-
-## 5. Add more items
-
-Loop of Rope: from DDA.
-
-Shields
-
-- Plank Shield: A bundle of planks that can be crafted in crafting level 1.
-- Scrap Metal Shield: a metal plate with a handle.
-- Small Riot Shield: A buckler-shaped polearm.
-- Riot Shield: The plastic shield we all know. A very large plastic shield. When used, the shield can be raised into a defensive stance.
-- Tactical shield: Commando: Holds 2 magazines. Relatively lightweight. Begins to have legitimate bulletproof properties.
-- Tactical Shield: Bastion: A 12-kilogram bulletproof shield. R6S Montagne's specialty, of course. Provides full-body protection.
-- Tactical Shield: Frontline: A lighter version of the above shield, The Division 2 themed. Allows two-handed weapons. Can be used to shield all but the legs.
-
-Pack Frames (weight bonus equipment worn like a backpack).
-
-- Crude Pack Frame
-- Wooden Pack Frame
-- Pipe A-frame Pack
-- Steel Carrier Frame
-- Frame Backpack: Bag + Pipe A-frame. Drop Only.
-- Industrial Exoskeleton: Reinforced exoskeleton with large weight gain. Cannot be crafted.
-- Vanguard Exoskeleton: A reinforced exoskeleton with a weapon slot and a Strength stat bonus when worn. Cannot be crafted.
-- Sprinter Exoskeleton: A reinforced exoskeleton that provides a bonus to movement speed when worn. Cannot be crafted.
-- Rat-Pack: A backpack that is fireproof, provides 1.7x its weight, holds a medium-sized pet, holds 3 random weapons, and provides 120L.
-- Dimensional Stabilizer: Lab drop backpack that provides 300L. Also available in black.
+---
 
 ## 6. Balance Patches
 
-Fixed weird cat mutation sprites.
-
-Added barometer recipe.
-
-Added Monomolecular Blade and Bionic Claws to Escrima-applied weapons.
-
-Changed the attack type of the Monomolecular Blade to Piercing.
-
-Added 40x46 Rivtech shell-less grenades.
-
-Added a 2-square distance attack to the Zweihander
-
-Reduced the weight of the RM103A Automagnum by 200 grams and the RM2000 Submachine Gun by 300 grams.
-
-Added a 2-point burst fire mode to the RM103A Magnum.
-
-Added 50- and 100-round magazines to the range of compatible magazines to address the RM2000 submachine gun's ambiguous status as a smg in terms of portability with small 25-round magazine capacity, and it was backward compatibility with the RM51 assault rifle with folding buttstock.
-* I've also modified it to spawn with a 50-round magazine inserted, giving it a lighter, smaller mini-assault rifle vibes.
-
-Added a recipe for 8x40 ammo shells. The path to obtaining the recipe is the same as for the crafted 8x40 JHP.
-
-Increased the Hardtacks' batch production(b) speed bonuses from 50% to 83%. Biscuits can now be used as a valuable late-game preserve.
-
-UPS and Advanced UPS can now be equipped.
-
-Tankbots, Tri-Pods, and Chicken Walkers can now be disassembled and crafted.
-
-Removed equipment restrictions for all variants. (e.g., the Fluffy Tail mutation used to prevent you from wearing Combat Armor or Power Armor.)
-
-Power Armor is now tagged with the OVERSIZE tag, meaning that characters with the Giant Mutation can now wear Power Armor.
-
-- Become a Power Armor Super Mutant and enjoy the apocalypse!
-* Pointed horns, Antlers and Antennae traits are hardcoded to not wear normal-sized helmets!
-
-Bank Vault: Increased drop chance of certain books to 1.5x.
-
-- Rivtech design binders
-- Lab Journal - Gustav
-* Most of the core items in the current mode come from these two books.
-
-Added weapon categories with corresponding martial arts.
-
-- Eskrima: Sword
-- Barbaran Montante: one-handed hammer, two-handed hammer, one-handed axe, flail, mace
-- Fencing: Sword
-- Silat: Sword
-- Ninjutsu: Sword
-* Weirdly, when the game updated the weapon categories, some of the weapons that used to have a sword type were lost, so I fixed that.
-
-## 7. Sprite patches
-
-I changed the dots on the ones I didn't like.
-
-- Gambeson: re-colored to look more like an item sprite.
-- Heavy Survival Boots, Heavy Survival Suit: Reshot to look more like Master Chief or Doom guy armor.
-- RM120C shotgun: Apex Mastiff
-- RM228 PDW: Apex Mozambique shotgun
-- RM216 SPIW: Apex Fraulein PDW
-- RM232 IDW: Apex Alternator SMG
-- RM103A Automagnum: Apex RE-45 Automatic
-- RM11B Scout Rifle: Apex Longbow DMR
-- RM2000 Submachine Gun: Apex R-99 SMG
-- RM51 Assault Rifle: Apex R-301 Carbine
-- RM614 LMG: Apex Devotion LMG
-- RM88 Combat Rifle: Apex G7 Scout
-- A7 Laser Rifle: Apex Havoc Rifle
-- Kukri: Retaken because the dots were messed up
-
-## 8. Add Clothing Modifications
-
-Add Nomex: It can't still prevent your gear from burning, but It'll give you some beneficial flame protection.
-
-Lighten up: Shedding some of the lining to make the gear less obstructive and less warmer. At the expense of armor. Good for gear with a high degree of warmth that has good specs and you want to wear.
-
-Create Pouch: Literally attaches a leather pouch to your clothing to increase storage. The trade-off is a slight increase in hindrance.
-
-## 9. Drones
-
-### Introduction
-
-Added a whole new bunch of robots to the game, instead of the usual manhacks, security bots, whatbots, and mechs.
-In addition, this content allows players to progress from pets and carriers to humanoid combatants and eventually to walking weaponry.
-Built-in ammo will be infinite for convenience. I don't want you to be stuck managing your minions' bullets.
-Drones will progress from Companion > Pilot > Juggernaut or Mechs (Explorer/Predator/Stronghold).
-You can move up and down in tiers freely by crafting or B, ) disassembling.
-
-#### Drones
-
-Simply Flying bugs.
-Highly maneuverable, but not very durable except for Drones: Electro Cannon, so handle with care.
-
-Drones: Striker
-
-- Just like the drone companion, but with a laser pistol.
-- Don't judge by the size. It's a great kiting machine against mobs.
-- If you have two of them, you can even melt Kevlar Hulks with a combination of kiting and aggro distractions.
-
-Drones: Striker MK II
-
-- These guys have gotten bigger and are equipped with A7 laser rifles.
-
-Drone: E-Cannon
-
-- Big, fat EMP bombardment drones. Slightly sluggish.
-
-#### Walkers
-
-Slower than drones.
-But have the advantage of being much stronger and bulkier.
-
-Walkers: Attackers
-
-- Less maneuverable than a drone, but has the advantage of being much more durable.
-- This one fires 5.56mm rounds every 3 turns.
-
-Walker: Bombardier
-
-- Slower, but fires small grenades at long range every 6 turns.
-- They won't shoot if enemy gets within 6 squares of them due to their safety distance, so you'll need to have other Walkers to escort them.
-
-Walker: Sniper
-
-- A quadrupedal robot that fires a 7.62mm DMR every 5 turns at very long range.
-
-Walker: Sniper MK II
-- A monstrosity that fires a .50-caliber objective sniper rifle every 7 turns at very long range.
-
-#### Companions
-
-Tier 1
-
-Drones: Companions
-
-- Think drone from Nier: Automata, or the Recovery Drone from Apex Lifeline.
-- These drones are the basis for TechTrees to macro them, and since they are cores, you can build them directly from their parts as long as you can salvage an eyebot.
-- It's very comfortable to think of it as an eyebot-on-a-good-side. It has the ability to be a porter, play with you to raise your mood.
-- It also has a high speed of 250, and when riding a low-altitude-flying drone, the player is treated as if they were riding a horse.
-
-Tier 2
-
-Drones: Pilot
-
-- Drone: A Companion with android limbs, chassis, and survival combat armor.
-- It temporarily loses its ability to fly. Equipped with an A7 laser rifle and the melee abilities of a prototype robot to escort survivors.
-- Can give the impression of an NPC when playing without any NPCs.
-
-Tier 3
-
-Drone: Juggernaut
-
-- Drone: Power armor on the pilot. Slowed down to 100 speed, but immune to all attacks by Juggernauts.
-- It can also throw enemies. To evolve to macro, take the Tech from the `Drone: Pilot`, not this one.
-
-Tier 4
-
-Mechs: Explorer/Predator/Stronghold
-
-- Fusion core consumption for crafting. They don't directly use nanofabricators, but are more advanced than combat armor.
-- Be very careful when using them, as they can literally smash through walls and terrain when in standalone mode.
-- Can be converted between standalone and mounted mode by crafting. In fact, systematically, the only way to itemize in mounted mode (mech mode) is to kill it > repair the body > disassemble it > extract the materials > remake it. I'm really sorry, but mechs are hardcoded and this is the only way to do it.
-
-The Explorer Mech
-
-- Carries an wave energy rifle and a long-range laser sniper pod.
-- A humanoid mech with moderate armor, moderate mobility, moderate melee, a wave rifle that bounces off enemies, and a long-range sniper with a power shot that can explode.
-- Excellent at taking out multiple enemies at medium to long range, and his powershot in mounted mode makes him an excellent companion and interpersonal macro.
-
-The Predator mech
-
-- Features a huge serrated blade on his tail and a plasma shotgun.
-- A wolf-type Mech with low armor, top-notch mobility, and excellent melee abilities.
-- It has a plasma shot that burns and EMPs enemies, and melee abilities based on movement that humanoids can't perform.
-- In its standalone form, it has the ability to leap, and in its mounted form, its built-in melee database allows it to use specific martial arts, such as Eskrima and Fior de Battaglia, to further amplify its destructive power.
-
-The Stronghold Mech
-
-- Equipped with a 12.7mm heavy machine gun and grenade launcher.
-- A giant-sized Mech with top-tier armor, low mobility, and insane ranged abilities.
-- No ammo limits thanks to a built-in nanofabricator that provides an instant supply of bullets.
-- Everyone's favorite one-shot, one-kill grenade launcher is available in mounted mode. An excellent defensive/siege mech that is optimized for the point defense.
-
-
-
-Credits & Acknowledgements
+* Fixed mutated cat sprites.
+* Added a crafting recipe for the Barometer.
+* Added Monomolecular Blade and Bionic Claws to the Eskrima martial art weapon list.
+* Changed Monomolecular Blade damage type to Piercing.
+* Added 40x46 Rivtech caseless grenades.
+* Zweihander now has a 2-tile reach attack.
+* Reduced the weight of the RM103A Automagnum and RM2000 SMG.
+* Added a 2-round burst mode to the RM103A Magnum.
+* Added 50- and 100-round magazine compatibility to the RM2000 SMG to improve its viability as a primary weapon. It now spawns with a 50-round magazine by default.
+* Added a recipe for 8x40 ammo shells (unlocked alongside the 8x40 JHP recipe).
+* Increased Hardtack batch production speed bonus from 50% to 83%, making it a highly viable late-game food source.
+* UPS and Advanced UPS are now equippable.
+* Tankbots, Tri-Pods, and Chicken Walkers can now be disassembled and crafted.
+* Removed clothing restrictions for all mutant anatomy variants (e.g., Fluffy Tail no longer prevents wearing Combat/Power armor).
+* Power Armor is now tagged as `OVERSIZE`, allowing characters with the Giant mutation to wear it. *(Note: Horns, Antlers, and Antennae are hardcoded and still prevent wearing normal-sized helmets).*
+* Increased the drop rate of *Rivtech Design Binders* and *Lab Journal - Gustav* in Bank Vaults by 1.5x.
+* Fixed lost martial arts categories: Eskrima, Barbaran Montante, Fencing, Silat, and Ninjutsu have had their proper weapons re-assigned.
+
+---
+
+## 7. Sprite Updates
+
+Redrawn and recolored several sprites for better visual clarity and thematic flavor.
+
+* Gambeson recolored. Heavy Survival Boots/Suit redesigned to resemble classic sci-fi marine armor.
+* RM120C Shotgun: Redrawn as the Mastiff.
+* RM228 PDW: Redrawn as the Mozambique.
+* RM216 SPIW: Redrawn as the Prowler.
+* RM232 IDW: Redrawn as the Alternator.
+* RM103A Automagnum: Redrawn as the RE-45.
+* RM11B Scout Rifle: Redrawn as the Longbow DMR.
+* RM2000 SMG: Redrawn as the R-99.
+* RM51 Assault Rifle: Redrawn as the R-301.
+* RM614 LMG: Redrawn as the Devotion.
+* RM88 Combat Rifle: Redrawn as the G7 Scout.
+* A7 Laser Rifle: Redrawn as the Havoc.
+* Kukri sprite fixed.
+
+---
+
+## 8. Clothing Modifications
+
+* **Add Nomex:** Adds flame-resistant properties to your garments.
+* **Lighten Up:** Removes internal lining to reduce encumbrance and warmth at the cost of slight armor reduction. Perfect for adapting heavy winter gear for warmer climates.
+* **Create Pouch:** Attaches a leather pouch to increase storage volume, with a minor encumbrance penalty.
+
+---
+
+## 9. Drones & Mechs
+
+A complete robotic companion progression system. Move from simple utility pets to heavily armed humanoid combatants, and eventually to pilotable walking weaponry. Built-in ammunition is infinite to eliminate tedious micromanagement. You can upgrade or downgrade tiers freely through crafting and disassembly.
+
+### Drones & Walkers
+
+* **Drones:** Flying units. Highly maneuverable but fragile. Includes the standard *Striker* (Laser Pistol), *Striker MK II* (A7 Laser Rifle), and *E-Cannon* (heavy EMP bombardment).
+* **Walkers:** Slower, bulkier, and heavily armored ground units. Includes the *Attacker* (5.56mm fire), *Bombardier* (long-range grenades, will not fire if enemies are within 6 tiles), *Sniper* (7.62mm DMR), and the monstrous *Sniper MK II* (.50-cal objective rifle).
+
+### Companion Progression
+
+* **Tier 1 - Drone Companion:** A utility core resembling an eyebot. Fast (250 speed), capable of carrying items, and boosting your morale. When riding a low-altitude drone, the game treats it as a mount.
+* **Tier 2 - Drone Pilot:** The companion core equipped with android limbs and combat armor. Loses flight but gains an A7 laser rifle and melee capabilities to escort you like an NPC.
+* **Tier 3 - Drone Juggernaut:** The pilot fitted with Power Armor. Speed drops to 100, but it becomes practically immune to damage and can throw enemies.
+* **Tier 4 - Mechs (Explorer / Predator / Stronghold):** The ultimate robotic assets, requiring fusion cores to craft. They can smash through walls and terrain in standalone mode. *Note: Switching between standalone and mounted mode requires disassembling and remaking the mech due to game engine hardcoding.*
+* **Explorer Mech:** A humanoid mech with moderate stats. Armed with a bouncing wave energy rifle and a laser sniper pod with an explosive power shot.
+* **Predator Mech:** A highly mobile, wolf-like mech with a serrated tail blade and a plasma shotgun (burns and EMPs). Capable of leaping in standalone mode and utilizing specific martial arts (Eskrima, Fior di Battaglia) when mounted.
+* **Stronghold Mech:** A massive, heavily armored siege engine. Armed with a 12.7mm heavy machine gun and a grenade launcher. Extremely slow but offers unparalleled point defense and firepower.
+
+---
+
+## Credits & Acknowledgements
 
 This mod would not have been possible without the great work of the following creators.
 
-🧬 Targeted Mutation
-Original Author: Mutaman, StandingStorm
-Original Mod Link: https://github.com/Zlorthishen/BrightNights-Structured-Kenan-Modpack
-Changes Made:
-Translated into Korean
-Fixed bugs and resolved compatibility issues
-Merged into this mod and modpack
+### 🧬 Targeted Mutation
+* Original Author: Mutaman, StandingStorm
+* Original Mod Link: https://github.com/Zlorthishen/BrightNights-Structured-Kenan-Modpack
+* Changes Made:
+* Translated into Korean
+* Fixed bugs and resolved compatibility issues
+* Merged into this mod and modpack
 
-🎨 Sprites and Artworks
-thhoney03: Drew the sprites for Project: Packrat's Type-Boy!
-Coalcat: Drew the spinning wheel sprite for Wildstuff mod!
+### 🎨 Sprites and Artworks
+* thhoney03: Drew the sprites for Project: Packrat's Type-Boy!
+* Coalcat: Drew the spinning wheel sprite for Wildstuff mod!
 
-⚙️ Maintainers
-NappingOcean, Scarf005: Provided tremendous assistance while the modpack administrator was serving in the military.
+### ⚙️ Maintainers
+* NappingOcean, Scarf005: Provided tremendous assistance while the modpack administrator was serving in the military.
 
 Huge thanks to the original authors for their amazing work!
