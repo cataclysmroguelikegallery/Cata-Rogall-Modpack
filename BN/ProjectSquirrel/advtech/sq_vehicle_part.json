@@ -469,7 +469,7 @@
     "subcategory": "CSC_OTHER_VEHICLE",
     "skill_used": "mechanics",
     "skills_required": [ "fabrication", 5 ],
-    "difficulty": 6,
+    "difficulty": 7,
     "time": "120 m",
     "reversible": true,
     "autolearn": true,
@@ -482,12 +482,12 @@
       { "id": "SCREW", "level": 1 },
       { "id": "WRENCH", "level": 1 }
     ],
-    "components": [ [ [ "minifreezer", 3 ] ], [ [ "cargo_rack", 1 ] ] ]
+    "components": [ [ [ "minifreezer", 3 ] ], [ [ "cargo_rack", 1 ] ], [ [ "plut_cell", 3 ] ] ]
   },
   {
     "type": "vehicle_part",
     "id": "sq_megafreezer",
-    "name": { "str": "mega freezers" },
+    "name": { "str": "mega freezer" },
     "description": "A large version of the 1000 litre capacity freezer designed as a mobile solution for freezing food. It provides insulation from external elements.",
     "symbol": "=",
     "color": "light_blue",

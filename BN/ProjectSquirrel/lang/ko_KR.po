@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Jake's_Squirrel_mod\n"
-"POT-Creation-Date: 2026-06-25 18:47+0900\n"
+"POT-Creation-Date: 2026-06-28 00:51+0900\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -146,24 +146,32 @@ msgstr ""
 
 #: .\advtech\sq_advanced_armor.json
 msgid "'Warden' heavy combat armor (on)"
-msgid_plural "'Warden' heavy combat armor (on)s"
+msgid_plural "'Warden' heavy combat armors (on)"
 msgstr[0] "'워든' 중량 컴뱃 아머 (켜짐)"
 
-#. ~ Use action menu_text for {'str': "'Warden' heavy combat armor (on)"}.
-#. ~ Use action menu_text for {'str': "'Rampart' assault armor (on)"}.
-#. ~ Use action menu_text for {'str': "'Pioneer' environmental carapace
-#. (on)"}.
-#. ~ Use action menu_text for {'str': 'survivor combat armor (on)'}.
+#. ~ Use action menu_text for {'str': "'Warden' heavy combat armor (on)",
+#. 'str_pl': "'Warden' heavy combat armors (on)"}.
+#. ~ Use action menu_text for {'str': "'Rampart' assault armor (on)",
+#. 'str_pl': "'Rampart' assault armors (on)"}.
+#. ~ Use action menu_text for {'str': "'Pioneer' environmental carapace (on)",
+#. 'str_pl': "'Pioneer' environmental carapaces (on)"}.
+#. ~ Use action menu_text for {'str': 'survivor combat armor (on)', 'str_pl':
+#. 'survivor combat armors (on)'}.
 #. ~ Use action menu_text for {'str': "'Revenant' assassination infiltration
-#. suit (on)"}.
-#. ~ Use action menu_text for {'str': 'Type-Boys (flashlight)', 'str_pl':
+#. suit (on)", 'str_pl': "'Revenant' assassination infiltration suits (on)"}.
+#. ~ Use action menu_text for {'str': 'Type-Boy (flashlight)', 'str_pl':
 #. 'Type-Boys (flashlight)'}.
 #. ~ Use action menu_text for {'str': 'heat blade (on)'}.
-#. ~ Use action menu_text for {'str': 'vanguard exoskeleton (on)'}.
-#. ~ Use action menu_text for {'str': 'sprinter skeleton (on)'}.
-#. ~ Use action menu_text for {'str': 'industrial exoskeleton (on)'}.
-#. ~ Use action menu_text for {'str': 'survivor fireproof headlamp (on)'}.
-#. ~ Use action menu_text for {'str': 'advanced nomad suit (on)'}.
+#. ~ Use action menu_text for {'str': 'vanguard exoskeleton (on)', 'str_pl':
+#. 'vanguard exoskeletons (on)'}.
+#. ~ Use action menu_text for {'str': 'sprinter skeleton (on)', 'str_pl':
+#. 'sprinter skeletons (on)'}.
+#. ~ Use action menu_text for {'str': 'industrial exoskeleton (on)', 'str_pl':
+#. 'industrial exoskeletons (on)'}.
+#. ~ Use action menu_text for {'str': 'survivor fireproof headlamp (on)',
+#. 'str_pl': 'survivor fireproof headlamps (on)'}.
+#. ~ Use action menu_text for {'str': 'advanced nomad suit (on)', 'str_pl':
+#. 'advanced nomad suits (on)'}.
 #. ~ Use action menu_text for {'str_sp': 'Ryu Ichimonji'}.
 #: .\advtech\sq_advanced_armor.json .\advtech\sq_nano_tier.json
 #: .\items\sq_cargo_frame.json .\items\sq_nomex_survivor.json
@@ -171,17 +179,22 @@ msgstr[0] "'워든' 중량 컴뱃 아머 (켜짐)"
 msgid "Turn off"
 msgstr ""
 
-#. ~ Use action msg for {'str': "'Warden' heavy combat armor (on)"}.
-#. ~ Use action msg for {'str': "'Rampart' assault armor (on)"}.
-#. ~ Use action msg for {'str': "'Pioneer' environmental carapace (on)"}.
-#. ~ Use action msg for {'str': 'survivor combat armor (on)'}.
+#. ~ Use action msg for {'str': "'Warden' heavy combat armor (on)", 'str_pl':
+#. "'Warden' heavy combat armors (on)"}.
+#. ~ Use action msg for {'str': "'Rampart' assault armor (on)", 'str_pl':
+#. "'Rampart' assault armors (on)"}.
+#. ~ Use action msg for {'str': "'Pioneer' environmental carapace (on)",
+#. 'str_pl': "'Pioneer' environmental carapaces (on)"}.
+#. ~ Use action msg for {'str': 'survivor combat armor (on)', 'str_pl':
+#. 'survivor combat armors (on)'}.
 #. ~ Use action msg for {'str': "'Revenant' assassination infiltration suit
-#. (on)"}.
+#. (on)", 'str_pl': "'Revenant' assassination infiltration suits (on)"}.
 #: .\advtech\sq_advanced_armor.json
 msgid "Suit shutting down."
 msgstr ""
 
-#. ~ Description for {'str': "'Warden' heavy combat armor (on)"}
+#. ~ Description for {'str': "'Warden' heavy combat armor (on)", 'str_pl':
+#. "'Warden' heavy combat armors (on)"}
 #: .\advtech\sq_advanced_armor.json
 msgid ""
 "A customized powered heavy combat suit. It's design was inspired by adapting "
@@ -231,10 +244,11 @@ msgstr ""
 
 #: .\advtech\sq_advanced_armor.json
 msgid "'Rampart' assault armor (on)"
-msgid_plural "'Rampart' assault armor (on)s"
+msgid_plural "'Rampart' assault armors (on)"
 msgstr[0] "'램파트' 강습 장갑복 (켜짐)"
 
-#. ~ Description for {'str': "'Rampart' assault armor (on)"}
+#. ~ Description for {'str': "'Rampart' assault armor (on)", 'str_pl':
+#. "'Rampart' assault armors (on)"}
 #: .\advtech\sq_advanced_armor.json
 msgid ""
 "Customized semi-rigid power armor that is internally powered by UPS. "
@@ -295,10 +309,11 @@ msgstr ""
 
 #: .\advtech\sq_advanced_armor.json
 msgid "'Pioneer' environmental carapace (on)"
-msgid_plural "'Pioneer' environmental carapace (on)s"
+msgid_plural "'Pioneer' environmental carapaces (on)"
 msgstr[0] "'파이어니어' 환경 피갑복 (켜짐)"
 
-#. ~ Description for {'str': "'Pioneer' environmental carapace (on)"}
+#. ~ Description for {'str': "'Pioneer' environmental carapace (on)",
+#. 'str_pl': "'Pioneer' environmental carapaces (on)"}
 #: .\advtech\sq_advanced_armor.json
 msgid ""
 "Customized non-rigid power armor that is internally powered by UPS. Built to "
@@ -371,10 +386,11 @@ msgstr ""
 
 #: .\advtech\sq_advanced_armor.json
 msgid "survivor combat armor (on)"
-msgid_plural "survivor combat armor (on)s"
+msgid_plural "survivor combat armors (on)"
 msgstr[0] "생존용 컴뱃 아머 (켜짐)"
 
-#. ~ Description for {'str': 'survivor combat armor (on)'}
+#. ~ Description for {'str': 'survivor combat armor (on)', 'str_pl': 'survivor
+#. combat armors (on)'}
 #: .\advtech\sq_advanced_armor.json
 msgid ""
 "A custom-built armor made from a bulletproof vest and a jumpsuit with "
@@ -511,11 +527,11 @@ msgstr ""
 
 #: .\advtech\sq_advanced_armor.json
 msgid "'Revenant' assassination infiltration suit (on)"
-msgid_plural "'Revenant' assassination infiltration suit (on)s"
+msgid_plural "'Revenant' assassination infiltration suits (on)"
 msgstr[0] "'레버넌트' 암살 잠입복 (켜짐)"
 
 #. ~ Description for {'str': "'Revenant' assassination infiltration suit
-#. (on)"}
+#. (on)", 'str_pl': "'Revenant' assassination infiltration suits (on)"}
 #: .\advtech\sq_advanced_armor.json
 msgid ""
 "Customized military grade flexible power armor that is internally powered by "
@@ -534,300 +550,330 @@ msgstr ""
 
 #: .\advtech\sq_advanced_armor_colors.json
 msgid "Corsair paint scheme: military"
-msgid_plural "Corsair paint scheme: militarys"
+msgid_plural "Corsair paint schemes: military"
 msgstr[0] "콜세어 도색: 국방색"
 
-#. ~ Description for {'str': 'Corsair paint scheme: military'}
+#. ~ Description for {'str': 'Corsair paint scheme: military', 'str_pl':
+#. 'Corsair paint schemes: military'}
 #: .\advtech\sq_advanced_armor_colors.json
 msgid "Corsair blitz strike suit's military paint scheme."
 msgstr "콜세어 기동 타격복의 국방색 도색."
 
 #: .\advtech\sq_advanced_armor_colors.json
 msgid "Pioneer paint scheme: military"
-msgid_plural "Pioneer paint scheme: militarys"
+msgid_plural "Pioneer paint scheme: military"
 msgstr[0] "파이어니어 도색: 국방색"
 
-#. ~ Description for {'str': 'Pioneer paint scheme: military'}
+#. ~ Description for {'str': 'Pioneer paint scheme: military', 'str_pl':
+#. 'Pioneer paint scheme: military'}
 #: .\advtech\sq_advanced_armor_colors.json
 msgid "Pioneer environmental carapace's military paint scheme."
 msgstr "파이어니어 환경 피갑복의 국방색 도색."
 
 #: .\advtech\sq_advanced_armor_colors.json
 msgid "Rampart paint scheme: military"
-msgid_plural "Rampart paint scheme: militarys"
+msgid_plural "Rampart paint scheme: military"
 msgstr[0] "램파트 도색: 국방색"
 
-#. ~ Description for {'str': 'Rampart paint scheme: military'}
+#. ~ Description for {'str': 'Rampart paint scheme: military', 'str_pl':
+#. 'Rampart paint scheme: military'}
 #: .\advtech\sq_advanced_armor_colors.json
 msgid "Rampart assault armor's military paint scheme."
 msgstr "램파트 강습 장갑복의 국방색 도색."
 
 #: .\advtech\sq_advanced_armor_colors.json
 msgid "Corsair paint scheme: black"
-msgid_plural "Corsair paint scheme: blacks"
+msgid_plural "Corsair paint schemes: black"
 msgstr[0] "콜세어 도색: 검은색"
 
-#. ~ Description for {'str': 'Corsair paint scheme: black'}
+#. ~ Description for {'str': 'Corsair paint scheme: black', 'str_pl': 'Corsair
+#. paint schemes: black'}
 #: .\advtech\sq_advanced_armor_colors.json
 msgid "Corsair blitz strike suit's black paint scheme."
 msgstr "콜세어 기동 타격복의 검은색 도색."
 
 #: .\advtech\sq_advanced_armor_colors.json
 msgid "Pioneer paint scheme: black"
-msgid_plural "Pioneer paint scheme: blacks"
+msgid_plural "Pioneer paint schemes: black"
 msgstr[0] "파이어니어 도색: 검은색"
 
-#. ~ Description for {'str': 'Pioneer paint scheme: black'}
+#. ~ Description for {'str': 'Pioneer paint scheme: black', 'str_pl': 'Pioneer
+#. paint schemes: black'}
 #: .\advtech\sq_advanced_armor_colors.json
 msgid "Pioneer environmental carapace's black paint scheme."
 msgstr "파이어니어 환경 피갑복의 검은색 도색."
 
 #: .\advtech\sq_advanced_armor_colors.json
 msgid "Rampart paint scheme: black"
-msgid_plural "Rampart paint scheme: blacks"
+msgid_plural "Rampart paint schemes: black"
 msgstr[0] "램파트 도색: 검은색"
 
-#. ~ Description for {'str': 'Rampart paint scheme: black'}
+#. ~ Description for {'str': 'Rampart paint scheme: black', 'str_pl': 'Rampart
+#. paint schemes: black'}
 #: .\advtech\sq_advanced_armor_colors.json
 msgid "Rampart assault armor's black paint scheme."
 msgstr "램파트 강습 장갑복의 검은색 도색."
 
 #: .\advtech\sq_advanced_armor_colors.json
 msgid "Corsair paint scheme: urban"
-msgid_plural "Corsair paint scheme: urbans"
+msgid_plural "Corsair paint schemes: urban"
 msgstr[0] "콜세어 도색: 시가전"
 
-#. ~ Description for {'str': 'Corsair paint scheme: urban'}
+#. ~ Description for {'str': 'Corsair paint scheme: urban', 'str_pl': 'Corsair
+#. paint schemes: urban'}
 #: .\advtech\sq_advanced_armor_colors.json
 msgid "Corsair blitz strike suit's urban paint scheme."
 msgstr "콜세어 기동 타격복의 시가전 도색."
 
 #: .\advtech\sq_advanced_armor_colors.json
 msgid "Pioneer paint scheme: urban"
-msgid_plural "Pioneer paint scheme: urbans"
+msgid_plural "Pioneer paint schemes: urban"
 msgstr[0] "파이어니어 도색: 시가전"
 
-#. ~ Description for {'str': 'Pioneer paint scheme: urban'}
+#. ~ Description for {'str': 'Pioneer paint scheme: urban', 'str_pl': 'Pioneer
+#. paint schemes: urban'}
 #: .\advtech\sq_advanced_armor_colors.json
 msgid "Pioneer environmental carapace's urban paint scheme."
 msgstr "파이어니어 환경 피갑복의 시가전 도색."
 
 #: .\advtech\sq_advanced_armor_colors.json
 msgid "Rampart paint scheme: urban"
-msgid_plural "Rampart paint scheme: urbans"
+msgid_plural "Rampart paint schemes: urban"
 msgstr[0] "램파트 도색: 시가전"
 
-#. ~ Description for {'str': 'Rampart paint scheme: urban'}
+#. ~ Description for {'str': 'Rampart paint scheme: urban', 'str_pl': 'Rampart
+#. paint schemes: urban'}
 #: .\advtech\sq_advanced_armor_colors.json
 msgid "Rampart assault armor's urban paint scheme."
 msgstr "램파트 강습 장갑복의 시가전 도색."
 
 #: .\advtech\sq_advanced_armor_colors.json
 msgid "Corsair paint scheme: horizon"
-msgid_plural "Corsair paint scheme: horizons"
+msgid_plural "Corsair paint schemes: horizon"
 msgstr[0] "콜세어 도색: 사막전"
 
-#. ~ Description for {'str': 'Corsair paint scheme: horizon'}
+#. ~ Description for {'str': 'Corsair paint scheme: horizon', 'str_pl':
+#. 'Corsair paint schemes: horizon'}
 #: .\advtech\sq_advanced_armor_colors.json
 msgid "Corsair blitz strike suit's horizon paint scheme."
 msgstr "콜세어 기동 타격복의 사막전 도색."
 
 #: .\advtech\sq_advanced_armor_colors.json
 msgid "Pioneer paint scheme: horizon"
-msgid_plural "Pioneer paint scheme: horizons"
+msgid_plural "Pioneer paint schemes: horizon"
 msgstr[0] "파이어니어 도색: 사막전"
 
-#. ~ Description for {'str': 'Pioneer paint scheme: horizon'}
+#. ~ Description for {'str': 'Pioneer paint scheme: horizon', 'str_pl':
+#. 'Pioneer paint schemes: horizon'}
 #: .\advtech\sq_advanced_armor_colors.json
 msgid "Pioneer environmental carapace's horizon paint scheme."
 msgstr "파이어니어 환경 피갑복의 사막전 도색."
 
 #: .\advtech\sq_advanced_armor_colors.json
 msgid "Rampart paint scheme: horizon"
-msgid_plural "Rampart paint scheme: horizons"
+msgid_plural "Rampart paint schemes: horizon"
 msgstr[0] "램파트 도색: 사막전"
 
-#. ~ Description for {'str': 'Rampart paint scheme: horizon'}
+#. ~ Description for {'str': 'Rampart paint scheme: horizon', 'str_pl':
+#. 'Rampart paint schemes: horizon'}
 #: .\advtech\sq_advanced_armor_colors.json
 msgid "Rampart assault armor's horizon paint scheme."
 msgstr "램파트 강습 장갑복의 사막전 도색."
 
 #: .\advtech\sq_advanced_armor_colors.json
 msgid "Corsair visor: red"
-msgid_plural "Corsair visor: reds"
+msgid_plural "Corsair visors: red"
 msgstr[0] "콜세어 바이저: 레드"
 
-#. ~ Description for {'str': 'Corsair visor: red'}
+#. ~ Description for {'str': 'Corsair visor: red', 'str_pl': 'Corsair visors:
+#. red'}
 #: .\advtech\sq_advanced_armor_colors.json
 msgid "Corsair blitz strike suit's red visor."
 msgstr "콜세어 기동 타격복의 레드 바이저."
 
 #: .\advtech\sq_advanced_armor_colors.json
 msgid "Pioneer visor: red"
-msgid_plural "Pioneer visor: reds"
+msgid_plural "Pioneer visors: red"
 msgstr[0] "파이어니어 바이저: 레드"
 
-#. ~ Description for {'str': 'Pioneer visor: red'}
+#. ~ Description for {'str': 'Pioneer visor: red', 'str_pl': 'Pioneer visors:
+#. red'}
 #: .\advtech\sq_advanced_armor_colors.json
 msgid "Pioneer environmental carapace's red visor."
 msgstr "파이어니어 환경 피갑복의 레드 바이저."
 
 #: .\advtech\sq_advanced_armor_colors.json
 msgid "Rampart visor: red"
-msgid_plural "Rampart visor: reds"
+msgid_plural "Rampart visors: red"
 msgstr[0] "램파트 바이저: 레드"
 
-#. ~ Description for {'str': 'Rampart visor: red'}
+#. ~ Description for {'str': 'Rampart visor: red', 'str_pl': 'Rampart visors:
+#. red'}
 #: .\advtech\sq_advanced_armor_colors.json
 msgid "Rampart assault armor's red visor."
 msgstr "램파트 강습 장갑복의 레드 바이저."
 
 #: .\advtech\sq_advanced_armor_colors.json
 msgid "Corsair visor: yellow"
-msgid_plural "Corsair visor: yellows"
+msgid_plural "Corsair visors: yellow"
 msgstr[0] "콜세어 바이저: 옐로"
 
-#. ~ Description for {'str': 'Corsair visor: yellow'}
+#. ~ Description for {'str': 'Corsair visor: yellow', 'str_pl': 'Corsair
+#. visors: yellow'}
 #: .\advtech\sq_advanced_armor_colors.json
 msgid "Corsair blitz strike suit's yellow visor."
 msgstr "콜세어 기동 타격복의 옐로 바이저."
 
 #: .\advtech\sq_advanced_armor_colors.json
 msgid "Pioneer visor: green"
-msgid_plural "Pioneer visor: greens"
+msgid_plural "Pioneer visors: green"
 msgstr[0] "파이어니어 바이저: 그린"
 
-#. ~ Description for {'str': 'Pioneer visor: green'}
+#. ~ Description for {'str': 'Pioneer visor: green', 'str_pl': 'Pioneer
+#. visors: green'}
 #: .\advtech\sq_advanced_armor_colors.json
 msgid "Pioneer environmental carapace's green visor."
 msgstr "파이어니어 환경 피갑복의 그린 바이저."
 
 #: .\advtech\sq_advanced_armor_colors.json
 msgid "Rampart visor: green"
-msgid_plural "Rampart visor: greens"
+msgid_plural "Rampart visors: green"
 msgstr[0] "램파트 바이저: 그린"
 
-#. ~ Description for {'str': 'Rampart visor: green'}
+#. ~ Description for {'str': 'Rampart visor: green', 'str_pl': 'Rampart
+#. visors: green'}
 #: .\advtech\sq_advanced_armor_colors.json
 msgid "Rampart assault armor's green visor."
 msgstr "램파트 강습 장갑복의 그린 바이저."
 
 #: .\advtech\sq_advanced_armor_colors.json
 msgid "Corsair visor: cyan"
-msgid_plural "Corsair visor: cyans"
+msgid_plural "Corsair visors: cyan"
 msgstr[0] "콜세어 바이저: 시안"
 
-#. ~ Description for {'str': 'Corsair visor: cyan'}
+#. ~ Description for {'str': 'Corsair visor: cyan', 'str_pl': 'Corsair visors:
+#. cyan'}
 #: .\advtech\sq_advanced_armor_colors.json
 msgid "Corsair blitz strike suit's cyan visor."
 msgstr "콜세어 기동 타격복의 시안 바이저."
 
 #: .\advtech\sq_advanced_armor_colors.json
 msgid "Pioneer visor: cyan"
-msgid_plural "Pioneer visor: cyans"
+msgid_plural "Pioneer visors: red"
 msgstr[0] "파이어니어 바이저: 시안"
 
-#. ~ Description for {'str': 'Pioneer visor: cyan'}
+#. ~ Description for {'str': 'Pioneer visor: cyan', 'str_pl': 'Pioneer visors:
+#. red'}
 #: .\advtech\sq_advanced_armor_colors.json
 msgid "Pioneer environmental carapace's cyan visor."
 msgstr "파이어니어 환경 피갑복의 시안 바이저."
 
 #: .\advtech\sq_advanced_armor_colors.json
 msgid "Rampart visor: cyan"
-msgid_plural "Rampart visor: cyans"
+msgid_plural "Rampart visors: cyan"
 msgstr[0] "램파트 바이저: 시안"
 
-#. ~ Description for {'str': 'Rampart visor: cyan'}
+#. ~ Description for {'str': 'Rampart visor: cyan', 'str_pl': 'Rampart visors:
+#. cyan'}
 #: .\advtech\sq_advanced_armor_colors.json
 msgid "Rampart assault armor's cyan visor."
 msgstr "램파트 강습 장갑복의 시안 바이저."
 
 #: .\advtech\sq_advanced_armor_colors.json
 msgid "Corsair visor: blue"
-msgid_plural "Corsair visor: blues"
+msgid_plural "Corsair visors: blue"
 msgstr[0] "콜세어 바이저: 블루"
 
-#. ~ Description for {'str': 'Corsair visor: blue'}
+#. ~ Description for {'str': 'Corsair visor: blue', 'str_pl': 'Corsair visors:
+#. blue'}
 #: .\advtech\sq_advanced_armor_colors.json
 msgid "Corsair blitz strike suit's blue visor."
 msgstr "콜세어 기동 타격복의 블루 바이저."
 
 #: .\advtech\sq_advanced_armor_colors.json
 msgid "Pioneer visor: blue"
-msgid_plural "Pioneer visor: blues"
+msgid_plural "Pioneer visors: blue"
 msgstr[0] "파이어니어 바이저: 블루"
 
-#. ~ Description for {'str': 'Pioneer visor: blue'}
+#. ~ Description for {'str': 'Pioneer visor: blue', 'str_pl': 'Pioneer visors:
+#. blue'}
 #: .\advtech\sq_advanced_armor_colors.json
 msgid "Pioneer environmental carapace's blue visor."
 msgstr "파이어니어 환경 피갑복의 블루 바이저."
 
 #: .\advtech\sq_advanced_armor_colors.json
 msgid "Rampart visor: blue"
-msgid_plural "Rampart visor: blues"
+msgid_plural "Rampart visors: blue"
 msgstr[0] "램파트 바이저: 블루"
 
-#. ~ Description for {'str': 'Rampart visor: blue'}
+#. ~ Description for {'str': 'Rampart visor: blue', 'str_pl': 'Rampart visors:
+#. blue'}
 #: .\advtech\sq_advanced_armor_colors.json
 msgid "Rampart assault armor's blue visor."
 msgstr "램파트 강습 장갑복의 블루 바이저."
 
 #: .\advtech\sq_advanced_armor_colors.json
 msgid "Corsair visor: purple"
-msgid_plural "Corsair visor: purples"
+msgid_plural "Corsair visors: purple"
 msgstr[0] "콜세어 바이저: 퍼플"
 
-#. ~ Description for {'str': 'Corsair visor: purple'}
+#. ~ Description for {'str': 'Corsair visor: purple', 'str_pl': 'Corsair
+#. visors: purple'}
 #: .\advtech\sq_advanced_armor_colors.json
 msgid "Corsair blitz strike suit's purple visor."
 msgstr "콜세어 기동 타격복의 퍼플 바이저."
 
 #: .\advtech\sq_advanced_armor_colors.json
 msgid "Pioneer visor: purple"
-msgid_plural "Pioneer visor: purples"
+msgid_plural "Pioneer visors: purple"
 msgstr[0] "파이어니어 바이저: 퍼플"
 
-#. ~ Description for {'str': 'Pioneer visor: purple'}
+#. ~ Description for {'str': 'Pioneer visor: purple', 'str_pl': 'Pioneer
+#. visors: purple'}
 #: .\advtech\sq_advanced_armor_colors.json
 msgid "Pioneer environmental carapace's purple visor."
 msgstr "파이어니어 환경 피갑복의 퍼플 바이저."
 
 #: .\advtech\sq_advanced_armor_colors.json
 msgid "Rampart visor: purple"
-msgid_plural "Rampart visor: purples"
+msgid_plural "Rampart visors: purple"
 msgstr[0] "램파트 바이저: 퍼플"
 
-#. ~ Description for {'str': 'Rampart visor: purple'}
+#. ~ Description for {'str': 'Rampart visor: purple', 'str_pl': 'Rampart
+#. visors: purple'}
 #: .\advtech\sq_advanced_armor_colors.json
 msgid "Rampart assault armor's purple visor."
 msgstr "램파트 강습 장갑복의 퍼플 바이저."
 
 #: .\advtech\sq_advanced_armor_colors.json
 msgid "Corsair visor: white"
-msgid_plural "Corsair visor: whites"
+msgid_plural "Corsair visors: white"
 msgstr[0] "콜세어 바이저: 화이트"
 
-#. ~ Description for {'str': 'Corsair visor: white'}
+#. ~ Description for {'str': 'Corsair visor: white', 'str_pl': 'Corsair
+#. visors: white'}
 #: .\advtech\sq_advanced_armor_colors.json
 msgid "Corsair blitz strike suit's white visor."
 msgstr "콜세어 기동 타격복의 화이트 바이저."
 
 #: .\advtech\sq_advanced_armor_colors.json
 msgid "Pioneer visor: white"
-msgid_plural "Pioneer visor: whites"
+msgid_plural "Pioneer visors: white"
 msgstr[0] "파이어니어 바이저: 화이트"
 
-#. ~ Description for {'str': 'Pioneer visor: white'}
+#. ~ Description for {'str': 'Pioneer visor: white', 'str_pl': 'Pioneer
+#. visors: white'}
 #: .\advtech\sq_advanced_armor_colors.json
 msgid "Pioneer environmental carapace's white visor."
 msgstr "파이어니어 환경 피갑복의 화이트 바이저."
 
 #: .\advtech\sq_advanced_armor_colors.json
 msgid "Rampart visor: white"
-msgid_plural "Rampart visor: whites"
+msgid_plural "Rampart visors: white"
 msgstr[0] "램파트 바이저: 화이트"
 
-#. ~ Description for {'str': 'Rampart visor: white'}
+#. ~ Description for {'str': 'Rampart visor: white', 'str_pl': 'Rampart
+#. visors: white'}
 #: .\advtech\sq_advanced_armor_colors.json
 msgid "Rampart assault armor's white visor."
 msgstr "램파트 강습 장갑복의 화이트 바이저."
@@ -1008,11 +1054,11 @@ msgstr ""
 "술을 응용한 시간 지연으로 에너지 방출을 안정화하는데 성공화했습니다."
 
 #: .\advtech\sq_hardlight_fusion_and_gunmods.json
-msgid "lab journals-Mizuno"
+msgid "lab journal-Mizuno"
 msgid_plural "lab journals-Mizuno"
 msgstr[0] "실험 보고서-미즈노"
 
-#. ~ Description for {'str': 'lab journals-Mizuno', 'str_pl': 'lab journals-
+#. ~ Description for {'str': 'lab journal-Mizuno', 'str_pl': 'lab journals-
 #. Mizuno'}
 #: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
@@ -1033,11 +1079,11 @@ msgstr ""
 "밖에 없습니다.'' ''거기서부턴 자네 할 일이지. 박사 과정을 헛딴건 아니잖나?''"
 
 #: .\advtech\sq_hardlight_fusion_and_gunmods.json
-msgid "lab journals-Red"
+msgid "lab journal-Red"
 msgid_plural "lab journals-Red"
 msgstr[0] "실험 보고서-레드"
 
-#. ~ Description for {'str': 'lab journals-Red', 'str_pl': 'lab journals-Red'}
+#. ~ Description for {'str': 'lab journal-Red', 'str_pl': 'lab journals-Red'}
 #: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
 "This joint report presents blueprints for a military weapon that utilizes a "
@@ -1052,11 +1098,11 @@ msgstr ""
 "라늄의 핵분열을 사용하기 때문에 방사능 폐기물의 위협으로부터 벗어날 수 없음."
 
 #: .\advtech\sq_hardlight_fusion_and_gunmods.json
-msgid "hardlight multi-tools"
+msgid "hardlight multi-tool"
 msgid_plural "hardlight multi-tools"
 msgstr[0] "하드라이트 멀티툴"
 
-#. ~ Description for {'str': 'hardlight multi-tools', 'str_pl': 'hardlight
+#. ~ Description for {'str': 'hardlight multi-tool', 'str_pl': 'hardlight
 #. multi-tools'}
 #: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
@@ -1267,11 +1313,11 @@ msgstr ""
 "신 몫입니다."
 
 #: .\advtech\sq_hardlight_fusion_and_gunmods.json
-msgid "hardlight glaives (on)"
+msgid "hardlight glaive (on)"
 msgid_plural "hardlight glaives (on)"
 msgstr[0] "하드라이트 글레이브 (켜짐)"
 
-#. ~ Use action menu_text for {'str': 'hardlight glaives (on)', 'str_pl':
+#. ~ Use action menu_text for {'str': 'hardlight glaive (on)', 'str_pl':
 #. 'hardlight glaives (on)'}.
 #. ~ Use action menu_text for {'str': 'experimental hardlight blades (on)',
 #. 'str_pl': 'experimental hardlight blades (on)'}.
@@ -1281,13 +1327,13 @@ msgstr[0] "하드라이트 글레이브 (켜짐)"
 msgid "Collapse"
 msgstr ""
 
-#. ~ Use action msg for {'str': 'hardlight glaives (on)', 'str_pl': 'hardlight
+#. ~ Use action msg for {'str': 'hardlight glaive (on)', 'str_pl': 'hardlight
 #. glaives (on)'}.
 #: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "You turn off hardlight glaive."
 msgstr "하드라이트 글레이브를 껐습니다."
 
-#. ~ Description for {'str': 'hardlight glaives (on)', 'str_pl': 'hardlight
+#. ~ Description for {'str': 'hardlight glaive (on)', 'str_pl': 'hardlight
 #. glaives (on)'}
 #: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
@@ -1548,16 +1594,16 @@ msgstr ""
 "수 있을지 모릅니다."
 
 #: .\advtech\sq_hardlight_fusion_and_gunmods.json
-msgid "overed railgun expansion mod"
-msgid_plural "overed railgun expansion mods"
-msgstr[0] "오버드 레일건 확장모드"
+msgid "overcharged railgun expansion mod"
+msgid_plural "overcharged railgun expansion mods"
+msgstr[0] "오버차지드 레일건 확장모드"
 
 #: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid ""
 "Warning!\n"
 "This tool can damage your firearm!\n"
 "Use at your own risk!\n"
-"The Overed RailGun Expansion mod, or O.R.G.E for short, is a monstrous "
+"The Overcharged RailGun Expansion mod, or O.R.G.E for short, is a monstrous "
 "overmodification of the electromagnetic projectile accelerator (EPA) module. "
 "This overclocked firearm attachment transforms your weapon from a gun "
 "chamber to a thermochemical cannon, dramatically increasing its damage "
@@ -1566,10 +1612,10 @@ msgstr ""
 "경고!\n"
 "이 도구는 총기를 손상시킬 수 있습니다!\n"
 "사용자 책임하에 사용하세요!\n"
-"전자기 탄환가속장치(EPA)모듈을 극도로 과개조한 괴물로, 오버드 레일건 확장모드"
-"(Overed RailGun Expansion mod), 줄여서 O.R.G.E입니다. 이 출력 리미터를 해제"
-"한 총기 부착물은 총기 약실부터 전열화학포에 특화된 구조로 갈아치워 공격력을 "
-"극적으로 높이지만, 그만큼 많은 전력 소비를 요구하며 무겁습니다."
+"전자기 탄환가속장치(EPA)모듈을 극도로 과개조한 괴물로, 오버차지드 레일건 확장"
+"모드(Overcharged RailGun Expansion mod), 줄여서 O.R.G.E입니다. 이 출력 리미터"
+"를 해제한 총기 부착물은 총기 약실부터 전열화학포에 특화된 구조로 갈아치워 공"
+"격력을 극적으로 높이지만, 그만큼 많은 전력 소비를 요구하며 무겁습니다."
 
 #: .\advtech\sq_hardlight_fusion_and_gunmods.json
 msgid "advanced noise suppressor"
@@ -1662,8 +1708,8 @@ msgstr ""
 "로 늘립니다."
 
 #: .\advtech\sq_hardlight_fusion_and_gunmods.json
-msgid "neuro triggers"
-msgid_plural "neuro triggers"
+msgid "neuro trigger"
+msgid_plural "neuro trigger"
 msgstr[0] "신경 제어 트리거"
 
 #: .\advtech\sq_hardlight_fusion_and_gunmods.json
@@ -1717,8 +1763,8 @@ msgstr ""
 "닐 필요가 없어집니다."
 
 #: .\advtech\sq_hardlight_fusion_and_gunmods.json
-msgid "photon overchargers"
-msgid_plural "photon overchargers"
+msgid "photon overcharger"
+msgid_plural "photon overcharger"
 msgstr[0] "광자 과충전기"
 
 #: .\advtech\sq_hardlight_fusion_and_gunmods.json
@@ -1740,8 +1786,8 @@ msgid "sq_hardlight_rifle"
 msgstr ""
 
 #: .\advtech\sq_hardlight_fusion_and_gunmods.json
-msgid "photon compressors"
-msgid_plural "photon compressors"
+msgid "photon compressor"
+msgid_plural "photon compressor"
 msgstr[0] "광자 압축기"
 
 #: .\advtech\sq_hardlight_fusion_and_gunmods.json
@@ -1790,11 +1836,12 @@ msgid "whack!"
 msgstr ""
 
 #: .\advtech\sq_main_tools.json
-msgid "portable hydraulic presses"
+msgid "portable hydraulic press"
 msgid_plural "portable hydraulic presses"
 msgstr[0] "휴대용 유압 프레스"
 
-#. ~ Description for {'str_sp': 'portable hydraulic presses'}
+#. ~ Description for {'str': 'portable hydraulic press', 'str_pl': 'portable
+#. hydraulic presses'}
 #: .\advtech\sq_main_tools.json
 msgid ""
 "This is a portable version that dramatically reduces the size and weight of "
@@ -1827,12 +1874,12 @@ msgstr ""
 "의 정제소 역할도 겸하며 다양한 첨단 부품과 원료 생산의 기초가 됩니다."
 
 #: .\advtech\sq_main_tools.json
-msgid "Manipulator Workbenches"
-msgid_plural "Manipulator Workbenches"
+msgid "manipulator workbench"
+msgid_plural "manipulator workbenches"
 msgstr[0] "머니퓰레이터 작업대"
 
-#. ~ Description for {'str': 'Manipulator Workbenches', 'str_pl': 'Manipulator
-#. Workbenches'}
+#. ~ Description for {'str': 'manipulator workbench', 'str_pl': 'manipulator
+#. workbenches'}
 #: .\advtech\sq_main_tools.json
 msgid ""
 "This robotic arm with an arc welder and a large workbench with a large "
@@ -2040,11 +2087,11 @@ msgid "You'll feel energized from the inside out!"
 msgstr "몸 안쪽에서부터 에너지가 솟구칩니다!"
 
 #: .\advtech\sq_meds.json
-msgid "combat stimulants"
-msgid_plural "combat stimulantss"
+msgid "combat stimulant"
+msgid_plural "combat stimulants"
 msgstr[0] "전투 자극제"
 
-#. ~ Description for {'str': 'combat stimulants'}
+#. ~ Description for {'str': 'combat stimulant'}
 #: .\advtech\sq_meds.json
 msgid ""
 "A combat stimulant, a field injectable drug that mixes powerful synthetic "
@@ -2145,11 +2192,11 @@ msgid "It's stinging."
 msgstr "따갑습니다."
 
 #: .\advtech\sq_meds.json
-msgid "insect jellies"
+msgid "insect jelly"
 msgid_plural "insect jellies"
 msgstr[0] "곤충 젤리"
 
-#. ~ Description for {'str_sp': 'insect jellies'}
+#. ~ Description for {'str': 'insect jelly', 'str_pl': 'insect jellies'}
 #: .\advtech\sq_meds.json
 msgid ""
 "A nutritious mass produced by insects. It has a sweet, mild flavor like "
@@ -2182,17 +2229,17 @@ msgstr ""
 
 #: .\advtech\sq_meds.json
 msgid "royal jelly mixture"
-msgid_plural "royal jelly mixture"
+msgid_plural "royal jelly mixtures"
 msgstr[0] "로얄 젤리 혼합물"
 
 #. ~ Use action activation_message for {'str': 'royal jelly mixture',
-#. 'str_pl': 'royal jelly mixture'}.
+#. 'str_pl': 'royal jelly mixtures'}.
 #: .\advtech\sq_meds.json
 msgid "..."
 msgstr ""
 
 #. ~ Description for {'str': 'royal jelly mixture', 'str_pl': 'royal jelly
-#. mixture'}
+#. mixtures'}
 #: .\advtech\sq_meds.json
 msgid ""
 "A milky, sweet-smelling jelly that is mixed with a little triffid extract to "
@@ -2259,23 +2306,24 @@ msgid "The toxin-removing effects of serum are lost."
 msgstr "혈청의 독소 제거 효과가 사라집니다."
 
 #: .\advtech\sq_meds.json
-msgid "nanomite capsules: flame protection"
+msgid "nanomite capsule: flame protection"
 msgid_plural "nanomite capsules: flame protection"
 msgstr[0] "나노마이트 캡슐: 화염 보호"
 
-#. ~ Use action activation_message for {'str_sp': 'nanomite capsules: flame
-#. protection'}.
-#. ~ Use action activation_message for {'str_sp': 'nanomite capsules: acid
-#. protection'}.
-#. ~ Use action activation_message for {'str_sp': 'nanomite capsules:
-#. electrical protection'}.
-#. ~ Use action activation_message for {'str_sp': 'nanomite capsules: cold
-#. protection'}.
+#. ~ Use action activation_message for {'str': 'nanomite capsule: flame
+#. protection', 'str_pl': 'nanomite capsules: flame protection'}.
+#. ~ Use action activation_message for {'str': 'nanomite capsules: acid
+#. protection', 'str_pl': 'nanomite capsules: acid protection'}.
+#. ~ Use action activation_message for {'str': 'nanomite capsule: electrical
+#. protection', 'str_pl': 'nanomite capsules: electrical protection'}.
+#. ~ Use action activation_message for {'str': 'nanomite capsule: cold
+#. protection', 'str_pl': 'nanomite capsules: cold protection'}.
 #: .\advtech\sq_meds.json
 msgid "Nanomites are released from the capsule and arranged on the outside."
 msgstr "나노마이트가 캡슐에서 방출되어 외부에 배열됩니다."
 
-#. ~ Description for {'str_sp': 'nanomite capsules: flame protection'}
+#. ~ Description for {'str': 'nanomite capsule: flame protection', 'str_pl':
+#. 'nanomite capsules: flame protection'}
 #: .\advtech\sq_meds.json
 msgid ""
 "A capsule containing a colony of nanomachines. When applied to the body, the "
@@ -2290,7 +2338,8 @@ msgid "nanomite capsules: acid protection"
 msgid_plural "nanomite capsules: acid protection"
 msgstr[0] "나노마이트 캡슐: 산성 보호"
 
-#. ~ Description for {'str_sp': 'nanomite capsules: acid protection'}
+#. ~ Description for {'str': 'nanomite capsules: acid protection', 'str_pl':
+#. 'nanomite capsules: acid protection'}
 #: .\advtech\sq_meds.json
 msgid ""
 "A capsule containing a colony of nanomachines. When applied to the body, the "
@@ -2301,11 +2350,12 @@ msgstr ""
 "정배열되어 2시간동안 산성피해와 부식에 대한 면역을 부여합니다."
 
 #: .\advtech\sq_meds.json
-msgid "nanomite capsules: electrical protection"
+msgid "nanomite capsule: electrical protection"
 msgid_plural "nanomite capsules: electrical protection"
 msgstr[0] "나노마이트 캡슐: 전기 보호"
 
-#. ~ Description for {'str_sp': 'nanomite capsules: electrical protection'}
+#. ~ Description for {'str': 'nanomite capsule: electrical protection',
+#. 'str_pl': 'nanomite capsules: electrical protection'}
 #: .\advtech\sq_meds.json
 msgid ""
 "A capsule containing a colony of nanomachines. When applied to the body, the "
@@ -2316,11 +2366,12 @@ msgstr ""
 "정배열되어 30분동안 전기피해에 대한 면역을 부여합니다."
 
 #: .\advtech\sq_meds.json
-msgid "nanomite capsules: cold protection"
+msgid "nanomite capsule: cold protection"
 msgid_plural "nanomite capsules: cold protection"
 msgstr[0] "나노마이트 캡슐: 빙결 보호"
 
-#. ~ Description for {'str_sp': 'nanomite capsules: cold protection'}
+#. ~ Description for {'str': 'nanomite capsule: cold protection', 'str_pl':
+#. 'nanomite capsules: cold protection'}
 #: .\advtech\sq_meds.json
 msgid ""
 "A capsule containing a colony of nanomachines. When applied to the body, the "
@@ -2401,21 +2452,11 @@ msgid_plural "alien resin pods"
 msgstr[0] ""
 
 #: .\advtech\sq_nano_generic_comp.json
-msgid "hazardous waste drum"
-msgid_plural "hazardous waste drums"
-msgstr[0] ""
-
-#. ~ Description for {'str': 'hazardous waste drum'}
-#: .\advtech\sq_nano_generic_comp.json
-msgid "A yellow drum meant for the storage of hazardous substances."
-msgstr ""
-
-#: .\advtech\sq_nano_generic_comp.json
-msgid "graphene sheets"
+msgid "graphene sheet"
 msgid_plural "graphene sheets"
 msgstr[0] "그래핀 시트"
 
-#. ~ Description for {'str': 'graphene sheets', 'str_pl': 'graphene sheets'}
+#. ~ Description for {'str': 'graphene sheet', 'str_pl': 'graphene sheets'}
 #: .\advtech\sq_nano_generic_comp.json
 msgid ""
 "A thin polymeric carbon allotrope in which carbon atoms form a hexagonal "
@@ -2424,12 +2465,12 @@ msgstr ""
 "탄소 원자들이 육각형 구조를 이루는 얇은 고분자 탄소 동소체. 겹층 탄화물로 이"
 "루어진 물질을 만드는 데 사용됩니다."
 
-#: .\advtech\sq_nano_generic_comp.json
-msgid "layered carbides"
+#: .\advtech\sq_nano_generic_comp.json .\requirements\sq_requirements.json
+msgid "layered carbide"
 msgid_plural "layered carbides"
 msgstr[0] "겹층 탄화물"
 
-#. ~ Description for {'str': 'layered carbides', 'str_pl': 'layered carbides'}
+#. ~ Description for {'str': 'layered carbide', 'str_pl': 'layered carbides'}
 #: .\advtech\sq_nano_generic_comp.json
 msgid ""
 "Reinforced layered carbide armor plates, which can be used to craft or "
@@ -2440,10 +2481,10 @@ msgstr ""
 
 #: .\advtech\sq_nano_generic_comp.json
 msgid "vertigon"
-msgid_plural "vertigon"
+msgid_plural "vertigons"
 msgstr[0] "베르티곤"
 
-#. ~ Description for {'str': 'vertigon', 'str_pl': 'vertigon'}
+#. ~ Description for {'str': 'vertigon', 'str_pl': 'vertigons'}
 #: .\advtech\sq_nano_generic_comp.json
 msgid ""
 "It is an unknown mass of particles that possesses a bizarre property—defying "
@@ -2465,11 +2506,11 @@ msgstr ""
 "지를 가지고 있는 것 같습니다."
 
 #: .\advtech\sq_nano_generic_comp.json
-msgid "bundles of layered carbides"
+msgid "bundle of layered carbides"
 msgid_plural "bundles of layered carbides"
-msgstr[0] "겹층 탄화물 프레임s"
+msgstr[0] "겹층 탄화물 프레임"
 
-#. ~ Description for {'str': 'bundles of layered carbides', 'str_pl': 'bundles
+#. ~ Description for {'str': 'bundle of layered carbides', 'str_pl': 'bundles
 #. of layered carbides'}
 #: .\advtech\sq_nano_generic_comp.json
 msgid ""
@@ -2480,21 +2521,11 @@ msgstr ""
 "수 있습니다."
 
 #: .\advtech\sq_nano_generic_comp.json
-msgid "nuclear waste"
-msgid_plural "nuclear waste"
-msgstr[0] ""
-
-#. ~ Description for {'str_sp': 'nuclear waste'}
-#: .\advtech\sq_nano_generic_comp.json
-msgid "A small pellet of silvery metal, still warm to the touch."
-msgstr ""
-
-#: .\advtech\sq_nano_generic_comp.json
-msgid "enriched uranium canisters"
+msgid "enriched uranium canister"
 msgid_plural "enriched uranium canisters"
 msgstr[0] "농축 우라늄 용기"
 
-#. ~ Description for {'str': 'enriched uranium canisters', 'str_pl': 'enriched
+#. ~ Description for {'str': 'enriched uranium canister', 'str_pl': 'enriched
 #. uranium canisters'}
 #: .\advtech\sq_nano_generic_comp.json
 msgid ""
@@ -2530,7 +2561,7 @@ msgstr ""
 msgid "shattered"
 msgstr ""
 
-#. ~ Description for {'str': 'depleted uranium', 'str_pl': 'depleted uranium'}
+#. ~ Description for {'str_sp': 'depleted uranium'}
 #: .\advtech\sq_nano_generic_comp.json
 msgid ""
 "A byproduct of the processing of uranium. It is an extremely dense and "
@@ -2541,11 +2572,11 @@ msgstr ""
 "속으로, 전투용 화기의 관통자나 장갑재에 사용될 수 있습니다."
 
 #: .\advtech\sq_nano_generic_comp.json
-msgid "uranium fuel cells"
+msgid "uranium fuel cell"
 msgid_plural "uranium fuel cells"
 msgstr[0] "우라늄 연료 전지"
 
-#. ~ Description for {'str': 'uranium fuel cells', 'str_pl': 'uranium fuel
+#. ~ Description for {'str': 'uranium fuel cell', 'str_pl': 'uranium fuel
 #. cells'}
 #: .\advtech\sq_nano_generic_comp.json
 msgid ""
@@ -2561,11 +2592,11 @@ msgstr ""
 "토늄 연료전지와 호환되지 않습니다."
 
 #: .\advtech\sq_nano_generic_comp.json
-msgid "monomolecular fibers"
+msgid "monomolecular fiber"
 msgid_plural "monomolecular fibers"
 msgstr[0] "단분자 섬유"
 
-#. ~ Description for {'str': 'monomolecular fibers', 'str_pl': 'monomolecular
+#. ~ Description for {'str': 'monomolecular fiber', 'str_pl': 'monomolecular
 #. fibers'}
 #: .\advtech\sq_nano_generic_comp.json
 msgid ""
@@ -2576,21 +2607,21 @@ msgstr ""
 "거의 보이지 않습니다. 베이지 않도록 취급에 주의하세요!"
 
 #: .\advtech\sq_nano_tier.json
-msgid "Type-Boys"
+msgid "Type-Boy"
 msgid_plural "Type-Boys"
 msgstr[0] "타입-보이"
 
-#. ~ Use action menu_text for {'str': 'Type-Boys', 'str_pl': 'Type-Boys'}.
+#. ~ Use action menu_text for {'str': 'Type-Boy', 'str_pl': 'Type-Boys'}.
 #: .\advtech\sq_nano_tier.json
 msgid "Tablet PC mode"
 msgstr "태블릿 PC 모드"
 
-#. ~ Use action msg for {'str': 'Type-Boys', 'str_pl': 'Type-Boys'}.
+#. ~ Use action msg for {'str': 'Type-Boy', 'str_pl': 'Type-Boys'}.
 #: .\advtech\sq_nano_tier.json
 msgid "You turn on Tablet PC mode for your Type-Boy."
 msgstr "타입-보이의 태블릿 PC 모드를 켰다."
 
-#. ~ Description for {'str': 'Type-Boys', 'str_pl': 'Type-Boys'}
+#. ~ Description for {'str': 'Type-Boy', 'str_pl': 'Type-Boys'}
 #: .\advtech\sq_nano_tier.json
 msgid ""
 "It's a smart device that runs on UPS. A Type-Boy model from Fujin's "
@@ -2608,24 +2639,24 @@ msgstr ""
 "진스의 타입보이요.\" 라고 자랑스럽게 말씀하십시오. 사용하여 확인 가능합니다."
 
 #: .\advtech\sq_nano_tier.json
-msgid "Type-Boys (tablet PC)"
+msgid "Type-Boy (tablet PC)"
 msgid_plural "Type-Boys (tablet PC)"
 msgstr[0] "타입-보이 (태블릿 PC)"
 
-#. ~ Use action menu_text for {'str': 'Type-Boys (tablet PC)', 'str_pl':
-#. 'Type-Boys (tablet PC)'}.
+#. ~ Use action menu_text for {'str': 'Type-Boy (tablet PC)', 'str_pl': 'Type-
+#. Boys (tablet PC)'}.
 #: .\advtech\sq_nano_tier.json
 msgid "Bionic scanner"
 msgstr "바이오닉 스캐너"
 
-#. ~ Use action msg for {'str': 'Type-Boys (tablet PC)', 'str_pl': 'Type-Boys
+#. ~ Use action msg for {'str': 'Type-Boy (tablet PC)', 'str_pl': 'Type-Boys
 #. (tablet PC)'}.
 #: .\advtech\sq_nano_tier.json
 msgid "You turned on your Type-Boy's bionic scanner mode."
 msgstr "타입-보이의 바이오닉 스캐너 모드를 켰다."
 
-#. ~ Use action need_charges_msg for {'str': 'Type-Boys (tablet PC)',
-#. 'str_pl': 'Type-Boys (tablet PC)'}.
+#. ~ Use action need_charges_msg for {'str': 'Type-Boy (tablet PC)', 'str_pl':
+#. 'Type-Boys (tablet PC)'}.
 #. ~ Use action need_charges_msg for {'str': 'Type-Boys (bionic scanner)',
 #. 'str_pl': 'Type-Boys (bionic scanner)'}.
 #: .\advtech\sq_nano_tier.json
@@ -2650,11 +2681,11 @@ msgid "You turn on the flashlight mode for your Type-Boy."
 msgstr "타입-보이의 손전등 모드를 켰다."
 
 #: .\advtech\sq_nano_tier.json
-msgid "Type-Boys (flashlight)"
+msgid "Type-Boy (flashlight)"
 msgid_plural "Type-Boys (flashlight)"
 msgstr[0] "타입-보이 (손전등)"
 
-#. ~ Use action msg for {'str': 'Type-Boys (flashlight)', 'str_pl': 'Type-Boys
+#. ~ Use action msg for {'str': 'Type-Boy (flashlight)', 'str_pl': 'Type-Boys
 #. (flashlight)'}.
 #: .\advtech\sq_nano_tier.json
 msgid "You turn off your Type-Boy."
@@ -2665,36 +2696,16 @@ msgid "UPS"
 msgid_plural "UPS's"
 msgstr[0] ""
 
-#. ~ Description for {'str': 'UPS', 'str_pl': "UPS's"}
-#: .\advtech\sq_nano_tier.json
-msgid ""
-"This is a unified power supply, or UPS.  It is a civilian evolution of a "
-"military project.  Designed to power advanced weapons and armor, the "
-"civilian version serves as a portable power bank and inverter for many "
-"household electronics.  It can be worn around to either leg for ease of "
-"access."
-msgstr ""
-
 #: .\advtech\sq_nano_tier.json
 msgid "advanced UPS"
 msgid_plural "advanced UPS's"
 msgstr[0] ""
 
-#. ~ Description for {'str': 'advanced UPS', 'str_pl': "advanced UPS's"}
 #: .\advtech\sq_nano_tier.json
-msgid ""
-"This is an advanced version of the unified power supply, or UPS.  This "
-"device has been significantly redesigned to provide better efficiency as "
-"well as to consume plutonium fuel cells rather than batteries, and is both "
-"slimmer and lighter to wear.  Sadly, its plutonium reactor can't be charged "
-"in UPS charging station."
-msgstr ""
-
-#: .\advtech\sq_nano_tier.json
-msgid "bionic splints"
+msgid "bionic splint"
 msgstr "생체공학 부목"
 
-#. ~ Description for {'str': 'bionic splints'}
+#. ~ Description for {'str': 'bionic splint'}
 #: .\advtech\sq_nano_tier.json
 msgid ""
 "A bionic splint helps your broken limb heal.  Your broken limb will heal 4x "
@@ -2704,12 +2715,12 @@ msgstr ""
 "배 빨리 회복됩니다."
 
 #: .\advtech\sq_nano_tier.json
-msgid "bionic arm splints"
-msgid_plural "bionic arm splintss"
+msgid "bionic arm splint"
+msgid_plural "bionic arm splints"
 msgstr[0] "생체공학 팔 부목"
 
-#. ~ Description for {'str': 'bionic arm splints'}
-#. ~ Description for {'str': 'bionic leg splints'}
+#. ~ Description for {'str': 'bionic arm splint'}
+#. ~ Description for {'str': 'bionic leg splint'}
 #: .\advtech\sq_nano_tier.json
 msgid ""
 "Advanced splint. Less restrictive on limb movement, and quickly immobilizes "
@@ -2719,8 +2730,8 @@ msgstr ""
 "다."
 
 #: .\advtech\sq_nano_tier.json
-msgid "bionic leg splints"
-msgid_plural "bionic leg splintss"
+msgid "bionic leg splint"
+msgid_plural "bionic leg splints"
 msgstr[0] "생체공학 다리 부목"
 
 #: .\advtech\sq_nano_tier.json
@@ -3071,7 +3082,7 @@ msgid_plural "mega freezers"
 msgstr[0] "메가 냉동고"
 
 #. ~ Description for {'str': 'mega freezer', 'str_pl': 'mega freezers'}
-#. ~ Description for {'str': 'mega freezers'}
+#. ~ Description for {'str': 'mega freezer'}
 #: .\advtech\sq_vehicle_part.json
 msgid ""
 "A large version of the 1000 litre capacity freezer designed as a mobile "
@@ -3079,10 +3090,6 @@ msgid ""
 msgstr ""
 "식품을 냉동 보관할 수 있는 이동식 솔루션으로 설계된 대형 버전의 1000L의 대용"
 "량 냉동고입니다. 외부 요소로부터 단열 기능을 제공합니다."
-
-#: .\advtech\sq_vehicle_part.json
-msgid "mega freezers"
-msgstr "메가 냉동고"
 
 #: .\advtech\sq_vehicle_part.json
 msgid "superfast recharging station"
@@ -3941,18 +3948,25 @@ msgstr ""
 "용하면 전원을 켭니다."
 
 #: .\items\sq_cargo_frame.json
+#, fuzzy
+#| msgid "vanguard exoskeleton (on)"
+#| msgid_plural "vanguard exoskeleton (on)s"
 msgid "vanguard exoskeleton (on)"
-msgid_plural "vanguard exoskeleton (on)s"
+msgid_plural "vanguard exoskeletons (on)"
 msgstr[0] "뱅가드 스켈레톤 (켜짐)"
 
-#. ~ Use action msg for {'str': 'vanguard exoskeleton (on)'}.
-#. ~ Use action msg for {'str': 'sprinter skeleton (on)'}.
-#. ~ Use action msg for {'str': 'industrial exoskeleton (on)'}.
+#. ~ Use action msg for {'str': 'vanguard exoskeleton (on)', 'str_pl':
+#. 'vanguard exoskeletons (on)'}.
+#. ~ Use action msg for {'str': 'sprinter skeleton (on)', 'str_pl': 'sprinter
+#. skeletons (on)'}.
+#. ~ Use action msg for {'str': 'industrial exoskeleton (on)', 'str_pl':
+#. 'industrial exoskeletons (on)'}.
 #: .\items\sq_cargo_frame.json
 msgid "The exoskeleton disengages."
 msgstr "외골격의 기동을 중지합니다."
 
-#. ~ Description for {'str': 'vanguard exoskeleton (on)'}
+#. ~ Description for {'str': 'vanguard exoskeleton (on)', 'str_pl': 'vanguard
+#. exoskeletons (on)'}
 #: .\items\sq_cargo_frame.json
 msgid ""
 "A military all-weather combat armored exoskeleton capable of storing "
@@ -3991,11 +4005,15 @@ msgstr ""
 "너스를 줍니다. 사용하면 전원을 켭니다."
 
 #: .\items\sq_cargo_frame.json
+#, fuzzy
+#| msgid "sprinter skeleton (on)"
+#| msgid_plural "sprinter skeleton (on)s"
 msgid "sprinter skeleton (on)"
-msgid_plural "sprinter skeleton (on)s"
+msgid_plural "sprinter skeletons (on)"
 msgstr[0] "스프린터 스켈레톤 (켜짐)"
 
-#. ~ Description for {'str': 'sprinter skeleton (on)'}
+#. ~ Description for {'str': 'sprinter skeleton (on)', 'str_pl': 'sprinter
+#. skeletons (on)'}
 #: .\items\sq_cargo_frame.json
 msgid ""
 "A lightweight reinforced exoskeleton with fast maneuverability. A type of "
@@ -4026,11 +4044,15 @@ msgstr ""
 "원을 켭니다."
 
 #: .\items\sq_cargo_frame.json
+#, fuzzy
+#| msgid "industrial exoskeleton (on)"
+#| msgid_plural "industrial exoskeleton (on)s"
 msgid "industrial exoskeleton (on)"
-msgid_plural "industrial exoskeleton (on)s"
+msgid_plural "industrial exoskeletons (on)"
 msgstr[0] "산업용 외골격 (켜짐)"
 
-#. ~ Description for {'str': 'industrial exoskeleton (on)'}
+#. ~ Description for {'str': 'industrial exoskeleton (on)', 'str_pl':
+#. 'industrial exoskeletons (on)'}
 #: .\items\sq_cargo_frame.json
 msgid ""
 "A type of armor developed for civilian use, it is a robotic system that "
@@ -4043,11 +4065,15 @@ msgstr ""
 "중이며, 지속적으로 전력을 소모하고 있습니다. 사용하여 작동을 멈춥니다."
 
 #: .\items\sq_generic.json
-msgid "fool's gold loaves"
+#, fuzzy
+#| msgid "fool's gold loaves"
+#| msgid_plural "fool's gold loaves"
+msgid "fool's gold loaf"
 msgid_plural "fool's gold loaves"
 msgstr[0] "풀스 골드 로프"
 
-#. ~ Description for {'str_sp': "fool's gold loaves"}
+#. ~ Description for {'str': "fool's gold loaf", 'str_pl': "fool's gold
+#. loaves"}
 #: .\items\sq_generic.json
 msgid ""
 "This legendary sandwich involves hollowing out an entire loaf of white bread "
@@ -4098,11 +4124,11 @@ msgid ""
 msgstr ""
 
 #: .\items\sq_generic.json
-msgid "bundles of Kevlar plates"
+msgid "bundle of Kevlar plates"
 msgid_plural "bundles of Kevlar plates"
 msgstr[0] "케블라 묶음"
 
-#. ~ Description for {'str': 'bundles of Kevlar plates', 'str_pl': 'bundles of
+#. ~ Description for {'str': 'bundle of Kevlar plates', 'str_pl': 'bundles of
 #. Kevlar plates'}
 #: .\items\sq_generic.json
 msgid ""
@@ -4112,11 +4138,11 @@ msgstr ""
 "낼 수 있습니다."
 
 #: .\items\sq_generic.json
-msgid "bundles of Nomex patches"
+msgid "bundle of Nomex patches"
 msgid_plural "bundles of Nomex patches"
 msgstr[0] "노멕스 묶음"
 
-#. ~ Description for {'str': 'bundles of Nomex patches', 'str_pl': 'bundles of
+#. ~ Description for {'str': 'bundle of Nomex patches', 'str_pl': 'bundles of
 #. Nomex patches'}
 #: .\items\sq_generic.json
 msgid ""
@@ -4126,12 +4152,12 @@ msgstr ""
 "수 있습니다."
 
 #: .\items\sq_generic.json
-msgid "bundles of plastic chunks"
+msgid "bundle of plastic chunks"
 msgid_plural "bundles of plastic chunks"
 msgstr[0] "플라스틱 묶음"
 
-#. ~ Description for {'str': 'bundles of plastic chunks', 'str_pl': 'bundles
-#. of plastic chunks'}
+#. ~ Description for {'str': 'bundle of plastic chunks', 'str_pl': 'bundles of
+#. plastic chunks'}
 #: .\items\sq_generic.json
 msgid ""
 "Plastic chunks, bundled tightly together for storage.  Disassemble to unpack."
@@ -4140,11 +4166,11 @@ msgstr ""
 "낼 수 있습니다."
 
 #: .\items\sq_generic.json
-msgid "bundles of chunks of chitin"
+msgid "bundle of chunks of chitin"
 msgid_plural "bundles of chunks of chitin"
 msgstr[0] "키틴질 묶음"
 
-#. ~ Description for {'str': 'bundles of chunks of chitin', 'str_pl': 'bundles
+#. ~ Description for {'str': 'bundle of chunks of chitin', 'str_pl': 'bundles
 #. of chunks of chitin'}
 #: .\items\sq_generic.json
 msgid ""
@@ -4155,11 +4181,11 @@ msgstr ""
 "수 있습니다."
 
 #: .\items\sq_generic.json
-msgid "bundles of chunks of biosilicified chitin"
+msgid "bundle of chunks of biosilicified chitin"
 msgid_plural "bundles of chunks of biosilicified chitin"
 msgstr[0] "유기규소 키틴질 묶음"
 
-#. ~ Description for {'str': 'bundles of chunks of biosilicified chitin',
+#. ~ Description for {'str': 'bundle of chunks of biosilicified chitin',
 #. 'str_pl': 'bundles of chunks of biosilicified chitin'}
 #: .\items\sq_generic.json
 msgid ""
@@ -4170,11 +4196,11 @@ msgstr ""
 "물을 꺼낼 수 있습니다."
 
 #: .\items\sq_generic.json
-msgid "bundles of splintered woods"
+msgid "bundle of splintered woods"
 msgid_plural "bundles of splintered woods"
 msgstr[0] "쪼개진 나무 묶음"
 
-#. ~ Description for {'str': 'bundles of splintered woods', 'str_pl': 'bundles
+#. ~ Description for {'str': 'bundle of splintered woods', 'str_pl': 'bundles
 #. of splintered woods'}
 #: .\items\sq_generic.json
 msgid ""
@@ -4185,11 +4211,11 @@ msgstr ""
 "수 있습니다."
 
 #: .\items\sq_generic.json
-msgid "bundles of planks"
+msgid "bundle of planks"
 msgid_plural "bundles of planks"
 msgstr[0] "널빤지 묶음"
 
-#. ~ Description for {'str': 'bundles of planks', 'str_pl': 'bundles of
+#. ~ Description for {'str': 'bundle of planks', 'str_pl': 'bundles of
 #. planks'}
 #: .\items\sq_generic.json
 msgid "Planks, bundled tightly together for storage.  Disassemble to unpack."
@@ -4198,11 +4224,11 @@ msgstr ""
 "습니다."
 
 #: .\items\sq_generic.json
-msgid "bundles of glass shards"
+msgid "bundle of glass shards"
 msgid_plural "bundles of glass shards"
 msgstr[0] "유리 조각 묶음"
 
-#. ~ Description for {'str': 'bundles of glass shards', 'str_pl': 'bundles of
+#. ~ Description for {'str': 'bundle of glass shards', 'str_pl': 'bundles of
 #. glass shards'}
 #: .\items\sq_generic.json
 msgid ""
@@ -4212,11 +4238,11 @@ msgstr ""
 "수 있습니다."
 
 #: .\items\sq_generic.json
-msgid "bundles of pipes"
+msgid "bundle of pipes"
 msgid_plural "bundles of pipes"
 msgstr[0] "파이프 묶음"
 
-#. ~ Description for {'str': 'bundles of pipes', 'str_pl': 'bundles of pipes'}
+#. ~ Description for {'str': 'bundle of pipes', 'str_pl': 'bundles of pipes'}
 #: .\items\sq_generic.json
 msgid "Pipes, bundled tightly together for storage.  Disassemble to unpack."
 msgstr ""
@@ -4224,11 +4250,11 @@ msgstr ""
 "습니다."
 
 #: .\items\sq_generic.json
-msgid "bundles of scrap metals"
+msgid "bundle of scrap metals"
 msgid_plural "bundles of scrap metals"
 msgstr[0] "고철 묶음"
 
-#. ~ Description for {'str': 'bundles of scrap metals', 'str_pl': 'bundles of
+#. ~ Description for {'str': 'bundle of scrap metals', 'str_pl': 'bundles of
 #. scrap metals'}
 #: .\items\sq_generic.json
 msgid ""
@@ -4238,11 +4264,11 @@ msgstr ""
 "다."
 
 #: .\items\sq_generic.json
-msgid "bundles of wires"
+msgid "bundle of wires"
 msgid_plural "bundles of wires"
 msgstr[0] "철사 묶음"
 
-#. ~ Description for {'str': 'bundles of wires', 'str_pl': 'bundles of wires'}
+#. ~ Description for {'str': 'bundle of wires', 'str_pl': 'bundles of wires'}
 #: .\items\sq_generic.json
 msgid "Wires, bundled tightly together for storage.  Disassemble to unpack."
 msgstr ""
@@ -4250,12 +4276,12 @@ msgstr ""
 "다."
 
 #: .\items\sq_generic.json
-msgid "bundles of electronic scraps"
+msgid "bundle of electronic scraps"
 msgid_plural "bundles of electronic scraps"
 msgstr[0] "전자기기 잔해 묶음"
 
-#. ~ Description for {'str': 'bundles of electronic scraps', 'str_pl':
-#. 'bundles of electronic scraps'}
+#. ~ Description for {'str': 'bundle of electronic scraps', 'str_pl': 'bundles
+#. of electronic scraps'}
 #: .\items\sq_generic.json
 msgid ""
 "Electronic scraps, bundled tightly together for storage.  Disassemble to "
@@ -4265,11 +4291,11 @@ msgstr ""
 "수 있습니다."
 
 #: .\items\sq_generic.json
-msgid "bundles of scrap coppers"
+msgid "bundle of scrap coppers"
 msgid_plural "bundles of scrap coppers"
 msgstr[0] "구리 조각 묶음"
 
-#. ~ Description for {'str': 'bundles of scrap coppers', 'str_pl': 'bundles of
+#. ~ Description for {'str': 'bundle of scrap coppers', 'str_pl': 'bundles of
 #. scrap coppers'}
 #: .\items\sq_generic.json
 msgid ""
@@ -4279,11 +4305,11 @@ msgstr ""
 "있습니다."
 
 #: .\items\sq_generic.json
-msgid "bundles of scrap brass"
+msgid "bundle of scrap brass"
 msgid_plural "bundles of scrap brass"
 msgstr[0] "황동 묶음"
 
-#. ~ Description for {'str': 'bundles of scrap brass', 'str_pl': 'bundles of
+#. ~ Description for {'str': 'bundle of scrap brass', 'str_pl': 'bundles of
 #. scrap brass'}
 #: .\items\sq_generic.json
 msgid ""
@@ -4335,10 +4361,11 @@ msgstr ""
 
 #: .\items\sq_nomex_survivor.json
 msgid "survivor fireproof harness"
-msgid_plural "survivor fireproof harnesss"
+msgid_plural "survivor fireproof harnesses"
 msgstr[0] "생존용 방화 하네스"
 
-#. ~ Description for {'str': 'survivor fireproof harness'}
+#. ~ Description for {'str': 'survivor fireproof harness', 'str_pl': 'survivor
+#. fireproof harnesses'}
 #: .\items\sq_nomex_survivor.json
 msgid ""
 "A custom-built light harness reinforced with Kevlar and made of Nomex "
@@ -4397,15 +4424,17 @@ msgstr ""
 
 #: .\items\sq_nomex_survivor.json
 msgid "survivor fireproof headlamp (on)"
-msgid_plural "survivor fireproof headlamp (on)s"
+msgid_plural "survivor fireproof headlamps (on)"
 msgstr[0] "생존용 방화 헤드램프 (켜짐)"
 
-#. ~ Use action msg for {'str': 'survivor fireproof headlamp (on)'}.
+#. ~ Use action msg for {'str': 'survivor fireproof headlamp (on)', 'str_pl':
+#. 'survivor fireproof headlamps (on)'}.
 #: .\items\sq_nomex_survivor.json
 msgid "The %s flicks off."
 msgstr ""
 
-#. ~ Description for {'str': 'survivor fireproof headlamp (on)'}
+#. ~ Description for {'str': 'survivor fireproof headlamp (on)', 'str_pl':
+#. 'survivor fireproof headlamps (on)'}
 #: .\items\sq_nomex_survivor.json
 msgid ""
 "This is a custom-made LED headlamp reinforced with Kevlar and made of Nomex "
@@ -4450,22 +4479,23 @@ msgstr ""
 
 #: .\items\sq_nomex_survivor.json
 msgid "survivor atomic fireproof headlamp (covered)"
-msgid_plural "survivor atomic fireproof headlamp (covered)s"
+msgid_plural "survivor atomic fireproof headlamp (covered)"
 msgstr[0] "생존용 원자력 방화 헤드램프 (덮임)"
 
 #. ~ Use action menu_text for {'str': 'survivor atomic fireproof headlamp
-#. (covered)'}.
+#. (covered)', 'str_pl': 'survivor atomic fireproof headlamp (covered)'}.
 #: .\items\sq_nomex_survivor.json
 msgid "Open cover"
 msgstr ""
 
 #. ~ Use action msg for {'str': 'survivor atomic fireproof headlamp
-#. (covered)'}.
+#. (covered)', 'str_pl': 'survivor atomic fireproof headlamp (covered)'}.
 #: .\items\sq_nomex_survivor.json
 msgid "You open the headlamp's cover."
 msgstr ""
 
-#. ~ Description for {'str': 'survivor atomic fireproof headlamp (covered)'}
+#. ~ Description for {'str': 'survivor atomic fireproof headlamp (covered)',
+#. 'str_pl': 'survivor atomic fireproof headlamp (covered)'}
 #: .\items\sq_nomex_survivor.json
 msgid ""
 "This is a custom-made, reinforced with Kevlar and made of Nomex fireproof "
@@ -4679,10 +4709,11 @@ msgstr ""
 
 #: .\items\sq_nomex_survivor.json
 msgid "pair of survivor fireproof knee pads"
-msgid_plural "pair of survivor fireproof knee padss"
+msgid_plural "pairs of survivor fireproof knee pads"
 msgstr[0] "생존용 방화 무릎 보호대"
 
-#. ~ Description for {'str': 'pair of survivor fireproof knee pads'}
+#. ~ Description for {'str': 'pair of survivor fireproof knee pads', 'str_pl':
+#. 'pairs of survivor fireproof knee pads'}
 #: .\items\sq_nomex_survivor.json
 msgid "A pair of knee pads made of Kevlar and Nomex fireproof fabric."
 msgstr ""
@@ -4691,10 +4722,11 @@ msgstr ""
 
 #: .\items\sq_nomex_survivor.json
 msgid "pair of survivor fireproof elbow pads"
-msgid_plural "pair of survivor fireproof elbow padss"
+msgid_plural "pairs of survivor fireproof elbow pads"
 msgstr[0] "생존용 방화 팔꿈치 보호대"
 
-#. ~ Description for {'str': 'pair of survivor fireproof elbow pads'}
+#. ~ Description for {'str': 'pair of survivor fireproof elbow pads',
+#. 'str_pl': 'pairs of survivor fireproof elbow pads'}
 #: .\items\sq_nomex_survivor.json
 msgid "A pair of elbow pads made of Kevlar and Nomex fireproof fabric."
 msgstr ""
@@ -4702,10 +4734,11 @@ msgstr ""
 
 #: .\items\sq_nomex_survivor.json
 msgid "pair of survivor fireproof arm guards"
-msgid_plural "pair of survivor fireproof arm guardss"
+msgid_plural "pairs of survivor fireproof arm guards"
 msgstr[0] "생존용 방화 팔 보호구"
 
-#. ~ Description for {'str': 'pair of survivor fireproof arm guards'}
+#. ~ Description for {'str': 'pair of survivor fireproof arm guards',
+#. 'str_pl': 'pairs of survivor fireproof arm guards'}
 #: .\items\sq_nomex_survivor.json
 msgid ""
 "A full assembly of arm protection, reinforced with Kevlar and made of Nomex "
@@ -4718,10 +4751,11 @@ msgstr ""
 
 #: .\items\sq_nomex_survivor.json
 msgid "pair of survivor fireproof leg guards"
-msgid_plural "pair of survivor fireproof leg guardss"
+msgid_plural "pairs of survivor fireproof leg guards"
 msgstr[0] "생존용 방화 다리 보호구"
 
-#. ~ Description for {'str': 'pair of survivor fireproof leg guards'}
+#. ~ Description for {'str': 'pair of survivor fireproof leg guards',
+#. 'str_pl': 'pairs of survivor fireproof leg guards'}
 #: .\items\sq_nomex_survivor.json
 msgid ""
 "A full assembly of leg protection, reinforced with Kevlar and made of Nomex "
@@ -4734,10 +4768,11 @@ msgstr ""
 
 #: .\items\sq_nomex_survivor.json
 msgid "survivor fireproof cuirass"
-msgid_plural "survivor fireproof cuirasss"
+msgid_plural "survivor fireproof cuirasses"
 msgstr[0] "생존용 방화 흉갑"
 
-#. ~ Description for {'str': 'survivor fireproof cuirass'}
+#. ~ Description for {'str': 'survivor fireproof cuirass', 'str_pl': 'survivor
+#. fireproof cuirasses'}
 #: .\items\sq_nomex_survivor.json
 msgid ""
 "A breastplate reinforced with Kevlar and made of Nomex fireproof fabric, and "
@@ -4759,10 +4794,11 @@ msgstr "케블라로 튼튼하게 보강되고, 노멕스 방화 직물로 만�
 
 #: .\items\sq_nomex_survivor.json
 msgid "survivor fireproof chest ammo pouch"
-msgid_plural "survivor fireproof chest ammo pouchs"
+msgid_plural "survivor fireproof chest ammo pouches"
 msgstr[0] "생존용 방화 가슴 탄약 주머니"
 
-#. ~ Description for {'str': 'survivor fireproof chest ammo pouch'}
+#. ~ Description for {'str': 'survivor fireproof chest ammo pouch', 'str_pl':
+#. 'survivor fireproof chest ammo pouches'}
 #: .\items\sq_nomex_survivor.json
 msgid ""
 "An ammo pouch reinforced with Kevlar and made of Nomex fireproof fabric that "
@@ -4774,10 +4810,11 @@ msgstr ""
 
 #: .\items\sq_nomex_survivor.json
 msgid "survivor fireproof leg ammo pouch"
-msgid_plural "survivor fireproof leg ammo pouchs"
+msgid_plural "survivor fireproof leg ammo pouches"
 msgstr[0] "생존용 방화 다리 탄약 주머니"
 
-#. ~ Description for {'str': 'survivor fireproof leg ammo pouch'}
+#. ~ Description for {'str': 'survivor fireproof leg ammo pouch', 'str_pl':
+#. 'survivor fireproof leg ammo pouches'}
 #: .\items\sq_nomex_survivor.json
 msgid ""
 "An ammo pouch reinforced with Kevlar and made of Nomex fireproof fabric that "
@@ -4789,10 +4826,11 @@ msgstr ""
 
 #: .\items\sq_nomex_survivor.json
 msgid "survivor fireproof ankle ammo pouch"
-msgid_plural "survivor fireproof ankle ammo pouchs"
+msgid_plural "survivor fireproof ankle ammo pouches"
 msgstr[0] "생존용 방화 발목 탄약 주머니"
 
-#. ~ Description for {'str': 'survivor fireproof ankle ammo pouch'}
+#. ~ Description for {'str': 'survivor fireproof ankle ammo pouch', 'str_pl':
+#. 'survivor fireproof ankle ammo pouches'}
 #: .\items\sq_nomex_survivor.json
 msgid ""
 "A small ammo pouch reinforced with Kevlar and made of Nomex fireproof fabric "
@@ -4804,10 +4842,11 @@ msgstr ""
 
 #: .\items\sq_nomex_survivor.json
 msgid "survivor fireproof ammo pouch"
-msgid_plural "survivor fireproof ammo pouchs"
+msgid_plural "survivor fireproof ammo pouches"
 msgstr[0] "생존용 방화 탄약 주머니"
 
-#. ~ Description for {'str': 'survivor fireproof ammo pouch'}
+#. ~ Description for {'str': 'survivor fireproof ammo pouch', 'str_pl':
+#. 'survivor fireproof ammo pouches'}
 #: .\items\sq_nomex_survivor.json
 msgid ""
 "A small pouch reinforced with Kevlar and made of Nomex fireproof fabric that "
@@ -4819,10 +4858,11 @@ msgstr ""
 
 #: .\items\sq_nomex_survivor.json
 msgid "large survivor fireproof grenade pouch"
-msgid_plural "large survivor fireproof grenade pouchs"
+msgid_plural "large survivor fireproof grenade pouches"
 msgstr[0] "생존용 대형 방화 유탄 주머니"
 
-#. ~ Description for {'str': 'large survivor fireproof grenade pouch'}
+#. ~ Description for {'str': 'large survivor fireproof grenade pouch',
+#. 'str_pl': 'large survivor fireproof grenade pouches'}
 #: .\items\sq_nomex_survivor.json
 msgid ""
 "A pouch reinforced with Kevlar and made of Nomex fireproof fabric for "
@@ -4833,10 +4873,11 @@ msgstr ""
 
 #: .\items\sq_nomex_survivor.json
 msgid "survivor fireproof grenade pouch"
-msgid_plural "survivor fireproof grenade pouchs"
+msgid_plural "survivor fireproof grenade pouches"
 msgstr[0] "생존용 방화 유탄 주머니"
 
-#. ~ Description for {'str': 'survivor fireproof grenade pouch'}
+#. ~ Description for {'str': 'survivor fireproof grenade pouch', 'str_pl':
+#. 'survivor fireproof grenade pouches'}
 #: .\items\sq_nomex_survivor.json
 msgid ""
 "A small pouch reinforced with Kevlar and made of Nomex fireproof fabric for "
@@ -4976,15 +5017,17 @@ msgstr ""
 
 #: .\items\sq_shields.json
 msgid "riot shield (Def)"
-msgid_plural "riot shield (Def)s"
+msgid_plural "riot shields (Def)"
 msgstr[0] "진압 방패 (방어 모드)"
 
-#. ~ Use action msg for {'str': 'riot shield (Def)'}.
+#. ~ Use action msg for {'str': 'riot shield (Def)', 'str_pl': 'riot shields
+#. (Def)'}.
 #: .\items\sq_shields.json
 msgid "The riot shield is lowered."
 msgstr "진압 방패를 내립니다."
 
-#. ~ Description for {'str': 'riot shield (Def)'}
+#. ~ Description for {'str': 'riot shield (Def)', 'str_pl': 'riot shields
+#. (Def)'}
 #: .\items\sq_shields.json
 msgid ""
 "A square clear plastic shield commonly used by police and protesters.  "
@@ -4999,20 +5042,23 @@ msgstr ""
 
 #: .\items\sq_shields.json
 msgid "tactical shield: commando"
-msgid_plural "tactical shield: commandos"
+msgid_plural "tactical shields: commando"
 msgstr[0] "전술 방패: 코만도"
 
-#. ~ Use action holster_msg for tactical shield: commando.
+#. ~ Use action holster_msg for {'str': 'tactical shield: commando', 'str_pl':
+#. 'tactical shields: commando'}.
 #: .\items\sq_shields.json
 msgid "You stash your %s."
 msgstr ""
 
-#. ~ Use action holster_prompt for tactical shield: commando.
+#. ~ Use action holster_prompt for {'str': 'tactical shield: commando',
+#. 'str_pl': 'tactical shields: commando'}.
 #: .\items\sq_shields.json
 msgid "Stash ammo"
 msgstr ""
 
-#. ~ Description for tactical shield: commando
+#. ~ Description for {'str': 'tactical shield: commando', 'str_pl': 'tactical
+#. shields: commando'}
 #: .\items\sq_shields.json
 msgid ""
 "This shield offer high performance protection and magazine storage. If you "
@@ -5024,15 +5070,17 @@ msgstr ""
 
 #: .\items\sq_shields.json
 msgid "tactical shield: bastion"
-msgid_plural "tactical shield: bastions"
+msgid_plural "tactical shields: bastion"
 msgstr[0] "전술 방패: 바스티온"
 
-#. ~ Use action msg for {'str': 'tactical shield: bastion'}.
+#. ~ Use action msg for {'str': 'tactical shield: bastion', 'str_pl':
+#. 'tactical shields: bastion'}.
 #: .\items\sq_shields.json
 msgid "The tactical shield is pulled to a defensive posture!"
 msgstr "전술 방패를 전개하여 방어태세에 돌입합니다!"
 
-#. ~ Description for {'str': 'tactical shield: bastion'}
+#. ~ Description for {'str': 'tactical shield: bastion', 'str_pl': 'tactical
+#. shields: bastion'}
 #: .\items\sq_shields.json
 msgid ""
 "A ballistic shield designed to allow the point man and anyone standing "
@@ -5046,16 +5094,19 @@ msgstr ""
 
 #: .\items\sq_shields.json
 msgid "tactical shield: bastion (Def)"
-msgid_plural "tactical shield: bastion (Def)s"
+msgid_plural "tactical shields: bastion (Def)"
 msgstr[0] "전술 방패: 바스티온 (방어 모드)"
 
-#. ~ Use action msg for {'str': 'tactical shield: bastion (Def)'}.
-#. ~ Use action msg for {'str': 'tactical shield: frontline (Atk)'}.
+#. ~ Use action msg for {'str': 'tactical shield: bastion (Def)', 'str_pl':
+#. 'tactical shields: bastion (Def)'}.
+#. ~ Use action msg for {'str': 'tactical shield: frontline (Atk)', 'str_pl':
+#. 'tactical shields: frontline (Atk)'}.
 #: .\items\sq_shields.json
 msgid "The tactical shield is lowered."
 msgstr "전술 방패를 내립니다."
 
-#. ~ Description for {'str': 'tactical shield: bastion (Def)'}
+#. ~ Description for {'str': 'tactical shield: bastion (Def)', 'str_pl':
+#. 'tactical shields: bastion (Def)'}
 #: .\items\sq_shields.json
 msgid ""
 "A ballistic shield designed to allow the point man and anyone standing "
@@ -5069,15 +5120,17 @@ msgstr ""
 
 #: .\items\sq_shields.json
 msgid "tactical shield: frontline"
-msgid_plural "tactical shield: frontlines"
+msgid_plural "tactical shields: frontline"
 msgstr[0] "전술 방패: 프론트라인"
 
-#. ~ Use action msg for {'str': 'tactical shield: frontline'}.
+#. ~ Use action msg for {'str': 'tactical shield: frontline', 'str_pl':
+#. 'tactical shields: frontline'}.
 #: .\items\sq_shields.json
 msgid "The tactical shield is pulled to a assault posture!"
 msgstr "전술 방패를 전개하여 돌격태세에 돌입합니다!"
 
-#. ~ Description for {'str': 'tactical shield: frontline'}
+#. ~ Description for {'str': 'tactical shield: frontline', 'str_pl': 'tactical
+#. shields: frontline'}
 #: .\items\sq_shields.json
 msgid ""
 "A shield that allows you to use a two-handed weapon while equipped with a "
@@ -5090,10 +5143,11 @@ msgstr ""
 
 #: .\items\sq_shields.json
 msgid "tactical shield: frontline (Atk)"
-msgid_plural "tactical shield: frontline (Atk)s"
+msgid_plural "tactical shields: frontline (Atk)"
 msgstr[0] "전술 방패: 프론트라인 (돌격 모드)"
 
-#. ~ Description for {'str': 'tactical shield: frontline (Atk)'}
+#. ~ Description for {'str': 'tactical shield: frontline (Atk)', 'str_pl':
+#. 'tactical shields: frontline (Atk)'}
 #: .\items\sq_shields.json
 msgid ""
 "A shield that allows you to use a two-handed weapon while equipped with a "
@@ -5105,36 +5159,36 @@ msgstr ""
 "을 방해하고 있습니다."
 
 #: .\items\sq_suit.json
-msgid "simple patchwork scarves: olive"
+msgid "simple patchwork scarf: olive"
 msgid_plural "simple patchwork scarves: olive"
 msgstr[0] "간이 스카프: 올리브"
 
-#. ~ Use action menu_text for {'str': 'simple patchwork scarves: olive',
+#. ~ Use action menu_text for {'str': 'simple patchwork scarf: olive',
 #. 'str_pl': 'simple patchwork scarves: olive'}.
-#. ~ Use action menu_text for {'str': 'simple patchwork scarves: khaki',
+#. ~ Use action menu_text for {'str': 'simple patchwork scarf: khaki',
 #. 'str_pl': 'simple patchwork scarves: khaki'}.
-#. ~ Use action menu_text for {'str': 'simple patchwork scarves: navy',
+#. ~ Use action menu_text for {'str': 'simple patchwork scarf: navy',
 #. 'str_pl': 'simple patchwork scarves: navy'}.
 #: .\items\sq_suit.json
 msgid "Loosen"
 msgstr ""
 
-#. ~ Use action msg for {'str': 'simple patchwork scarves: olive', 'str_pl':
+#. ~ Use action msg for {'str': 'simple patchwork scarf: olive', 'str_pl':
 #. 'simple patchwork scarves: olive'}.
-#. ~ Use action msg for {'str': 'simple patchwork scarves: khaki', 'str_pl':
+#. ~ Use action msg for {'str': 'simple patchwork scarf: khaki', 'str_pl':
 #. 'simple patchwork scarves: khaki'}.
-#. ~ Use action msg for {'str': 'simple patchwork scarves: navy', 'str_pl':
+#. ~ Use action msg for {'str': 'simple patchwork scarf: navy', 'str_pl':
 #. 'simple patchwork scarves: navy'}.
 #: .\items\sq_suit.json
 msgid "You loosen your %s."
 msgstr ""
 
-#. ~ Description for {'str': 'simple patchwork scarves: olive', 'str_pl':
+#. ~ Description for {'str': 'simple patchwork scarf: olive', 'str_pl':
 #. 'simple patchwork scarves: olive'}
-#. ~ Description for {'str': 'simple patchwork scarves: khaki', 'str_pl':
+#. ~ Description for {'str': 'simple patchwork scarf: khaki', 'str_pl':
 #. 'simple patchwork scarves: khaki'}
-#. ~ Description for {'str': 'simple patchwork scarves: navy', 'str_pl':
-#. 'simple patchwork scarves: navy'}
+#. ~ Description for {'str': 'simple patchwork scarf: navy', 'str_pl': 'simple
+#. patchwork scarves: navy'}
 #: .\items\sq_suit.json
 msgid ""
 "A simple and light cloth scarf, worn over the mouth for warmth.  Use it to "
@@ -5142,36 +5196,36 @@ msgid ""
 msgstr ""
 
 #: .\items\sq_suit.json
-msgid "simple patchwork scarves: olive (loose)"
+msgid "simple patchwork scarf: olive (loose)"
 msgid_plural "simple patchwork scarves: olive (loose)"
 msgstr[0] "간이 스카프: 올리브 (풀림)"
 
-#. ~ Use action menu_text for {'str': 'simple patchwork scarves: olive
-#. (loose)', 'str_pl': 'simple patchwork scarves: olive (loose)'}.
-#. ~ Use action menu_text for {'str': 'simple patchwork scarves: khaki
-#. (loose)', 'str_pl': 'simple patchwork scarves: khaki (loose)'}.
-#. ~ Use action menu_text for {'str': 'simple patchwork scarves: navy
-#. (loose)', 'str_pl': 'simple patchwork scarves: navy (loose)'}.
+#. ~ Use action menu_text for {'str': 'simple patchwork scarf: olive (loose)',
+#. 'str_pl': 'simple patchwork scarves: olive (loose)'}.
+#. ~ Use action menu_text for {'str': 'simple patchwork scarf: khaki (loose)',
+#. 'str_pl': 'simple patchwork scarves: khaki (loose)'}.
+#. ~ Use action menu_text for {'str': 'simple patchwork scarf: navy (loose)',
+#. 'str_pl': 'simple patchwork scarves: navy (loose)'}.
 #: .\items\sq_suit.json
 msgid "Wrap tighter"
 msgstr ""
 
-#. ~ Use action msg for {'str': 'simple patchwork scarves: olive (loose)',
+#. ~ Use action msg for {'str': 'simple patchwork scarf: olive (loose)',
 #. 'str_pl': 'simple patchwork scarves: olive (loose)'}.
-#. ~ Use action msg for {'str': 'simple patchwork scarves: khaki (loose)',
+#. ~ Use action msg for {'str': 'simple patchwork scarf: khaki (loose)',
 #. 'str_pl': 'simple patchwork scarves: khaki (loose)'}.
-#. ~ Use action msg for {'str': 'simple patchwork scarves: navy (loose)',
+#. ~ Use action msg for {'str': 'simple patchwork scarf: navy (loose)',
 #. 'str_pl': 'simple patchwork scarves: navy (loose)'}.
 #: .\items\sq_suit.json
 msgid "You wrap your scarf tighter."
 msgstr ""
 
-#. ~ Description for {'str': 'simple patchwork scarves: olive (loose)',
+#. ~ Description for {'str': 'simple patchwork scarf: olive (loose)',
 #. 'str_pl': 'simple patchwork scarves: olive (loose)'}
-#. ~ Description for {'str': 'simple patchwork scarves: khaki (loose)',
+#. ~ Description for {'str': 'simple patchwork scarf: khaki (loose)',
 #. 'str_pl': 'simple patchwork scarves: khaki (loose)'}
-#. ~ Description for {'str': 'simple patchwork scarves: navy (loose)',
-#. 'str_pl': 'simple patchwork scarves: navy (loose)'}
+#. ~ Description for {'str': 'simple patchwork scarf: navy (loose)', 'str_pl':
+#. 'simple patchwork scarves: navy (loose)'}
 #: .\items\sq_suit.json
 msgid ""
 "A simple and light cloth scarf, worn over the mouth for warmth.  Use it to "
@@ -5179,42 +5233,43 @@ msgid ""
 msgstr ""
 
 #: .\items\sq_suit.json
-msgid "simple patchwork scarves: khaki"
+msgid "simple patchwork scarf: khaki"
 msgid_plural "simple patchwork scarves: khaki"
 msgstr[0] "간이 스카프: 카키"
 
 #: .\items\sq_suit.json
-msgid "simple patchwork scarves: khaki (loose)"
+msgid "simple patchwork scarf: khaki (loose)"
 msgid_plural "simple patchwork scarves: khaki (loose)"
 msgstr[0] "간이 스카프: 카키 (풀림)"
 
 #: .\items\sq_suit.json
-msgid "simple patchwork scarves: navy"
+msgid "simple patchwork scarf: navy"
 msgid_plural "simple patchwork scarves: navy"
 msgstr[0] "간이 스카프: 네이비"
 
 #: .\items\sq_suit.json
-msgid "simple patchwork scarves: navy (loose)"
+msgid "simple patchwork scarf: navy (loose)"
 msgid_plural "simple patchwork scarves: navy (loose)"
 msgstr[0] "간이 스카프: 네이비 (풀림)"
 
 #: .\items\sq_suit.json
 msgid "nomad harness"
-msgid_plural "nomad harnesss"
+msgid_plural "nomad harnesses"
 msgstr[0] "유목민 하네스"
 
-#. ~ Use action msg for {'str': 'nomad harness'}.
+#. ~ Use action msg for {'str': 'nomad harness', 'str_pl': 'nomad harnesses'}.
 #: .\items\sq_suit.json
 msgid "You turn the shoulder mounted flashlight on."
 msgstr "어깨에 장착된 손전등을 켰습니다."
 
-#. ~ Use action need_charges_msg for {'str': 'nomad harness'}.
+#. ~ Use action need_charges_msg for {'str': 'nomad harness', 'str_pl': 'nomad
+#. harnesses'}.
 #. ~ Use action need_charges_msg for {'str': 'advanced nomad suit'}.
 #: .\items\sq_suit.json
 msgid "Your internal reservoir is empty."
 msgstr "내부 동력이 고갈되었습니다."
 
-#. ~ Description for {'str': 'nomad harness'}
+#. ~ Description for {'str': 'nomad harness', 'str_pl': 'nomad harnesses'}
 #: .\items\sq_suit.json
 msgid ""
 "A custom-built lightweight set of weight distributing pouches over your "
@@ -5231,15 +5286,17 @@ msgstr ""
 
 #: .\items\sq_suit.json
 msgid "nomad harness (on)"
-msgid_plural "nomad harness (on)s"
+msgid_plural "nomad harnesses (on)"
 msgstr[0] "유목민 하네스 (켜짐)"
 
-#. ~ Use action menu_text for {'str': 'nomad harness (on)'}.
+#. ~ Use action menu_text for {'str': 'nomad harness (on)', 'str_pl': 'nomad
+#. harnesses (on)'}.
 #: .\items\sq_suit.json
 msgid "Turn off flashlight"
 msgstr "손전등 끄기"
 
-#. ~ Use action msg for {'str': 'nomad harness (on)'}.
+#. ~ Use action msg for {'str': 'nomad harness (on)', 'str_pl': 'nomad
+#. harnesses (on)'}.
 #: .\items\sq_suit.json
 msgid "You turn the shoulder mounted flashlight off."
 msgstr "어깨에 장착된 손전등을 껐습니다."
@@ -5285,15 +5342,17 @@ msgstr ""
 
 #: .\items\sq_suit.json
 msgid "advanced nomad suit (on)"
-msgid_plural "advanced nomad suit (on)s"
+msgid_plural "advanced nomad suits (on)"
 msgstr[0] "고급 유목민 외투 (켜짐)"
 
-#. ~ Use action msg for {'str': 'advanced nomad suit (on)'}.
+#. ~ Use action msg for {'str': 'advanced nomad suit (on)', 'str_pl':
+#. 'advanced nomad suits (on)'}.
 #: .\items\sq_suit.json
 msgid "The %s pipes stop humming."
 msgstr ""
 
-#. ~ Description for {'str': 'advanced nomad suit (on)'}
+#. ~ Description for {'str': 'advanced nomad suit (on)', 'str_pl': 'advanced
+#. nomad suits (on)'}
 #: .\items\sq_suit.json
 msgid ""
 "A reinforced but airy jumpsuit designed to survive the long-term wear and "
@@ -5669,61 +5728,6 @@ msgid_plural "nodachi fakes"
 msgstr[0] ""
 
 #. ~ Computer name
-#: .\mapgen\hazardous_waste_sarcophagus.json
-msgid "SRCF Security Terminal"
-msgstr ""
-
-#. ~ Computer option
-#: .\mapgen\hazardous_waste_sarcophagus.json
-msgid "Security Reminder [1055]"
-msgstr ""
-
-#. ~ Computer option
-#: .\mapgen\hazardous_waste_sarcophagus.json
-msgid "Security Reminder [1056]"
-msgstr ""
-
-#. ~ Computer option
-#: .\mapgen\hazardous_waste_sarcophagus.json
-msgid "Security Reminder [1057]"
-msgstr ""
-
-#. ~ Computer option
-#: .\mapgen\hazardous_waste_sarcophagus.json
-msgid "Security Reminder [1058]"
-msgstr ""
-
-#. ~ Computer option
-#: .\mapgen\hazardous_waste_sarcophagus.json
-msgid "EPA: Report All Potential Containment Breaches [3873643]"
-msgstr ""
-
-#. ~ Computer option
-#: .\mapgen\hazardous_waste_sarcophagus.json
-msgid "SRCF: Internal Memo, EPA [2918024]"
-msgstr ""
-
-#. ~ Computer option
-#: .\mapgen\hazardous_waste_sarcophagus.json
-msgid "CDC: Internal Memo, Standby [2918115]"
-msgstr ""
-
-#. ~ Computer option
-#: .\mapgen\hazardous_waste_sarcophagus.json
-msgid "USARMY: SEAL SRCF [987167]"
-msgstr ""
-
-#. ~ Computer option
-#: .\mapgen\hazardous_waste_sarcophagus.json
-msgid "COMMAND: REACTIVATE ELEVATOR"
-msgstr ""
-
-#. ~ Computer option
-#: .\mapgen\hazardous_waste_sarcophagus.json
-msgid "COMMAND: SEAL SRCF [4423]"
-msgstr ""
-
-#. ~ Computer name
 #: .\mapgen\lab_floorplans_finale1level.json
 msgid "Sub-prime Contact Console"
 msgstr ""
@@ -5757,35 +5761,6 @@ msgstr ""
 #. ~ Computer name
 #: .\mapgen\lab_weapons_range.json
 msgid "Armory Entrance"
-msgstr ""
-
-#: .\mapgen\municipal_microreactor.json
-msgid "nuclear reactor core"
-msgstr ""
-
-#: .\mapgen\municipal_microreactor.json
-msgid "warehouse"
-msgstr ""
-
-#: .\mapgen\municipal_microreactor.json
-msgid "waste storage"
-msgstr ""
-
-#: .\mapgen\municipal_microreactor.json
-msgid "reactor control"
-msgstr ""
-
-#: .\mapgen\municipal_microreactor.json
-msgid "reactor room"
-msgstr ""
-
-#: .\mapgen\municipal_microreactor.json
-msgid "municipal reactor"
-msgstr ""
-
-#. ~ Sign
-#: .\mapgen\toxic_dump.json
-msgid "RESTRICTED AREA! AUTHORIZED PERSONNEL ONLY"
 msgstr ""
 
 #: .\monsters\sq_drones.json
@@ -12988,10 +12963,6 @@ msgstr ""
 msgid "tattered"
 msgstr ""
 
-#: .\requirements\sq_requirements.json
-msgid "layered carbide"
-msgstr "겹층 탄화물"
-
 #: .\techniques\sq_unrand_techniques.json
 msgid "Wide Strike"
 msgstr ""
@@ -13153,3 +13124,10 @@ msgstr ""
 #, c-format
 msgid "<npcname> feints at %s"
 msgstr ""
+
+#~ msgid "layered carbides"
+#~ msgid_plural "layered carbides"
+#~ msgstr[0] "겹층 탄화물"
+
+#~ msgid "mega freezers"
+#~ msgstr "메가 냉동고"

@@ -2,7 +2,7 @@
   {
     "id": "sq_advanced_lsurvivor_suit_color_camo",
     "type": "ARMOR",
-    "name": { "str": "Corsair paint scheme: military" },
+    "name": { "str": "Corsair paint scheme: military", "str_pl": "Corsair paint schemes: military" },
     "description": "Corsair blitz strike suit's military paint scheme.",
     "weight": "0 g",
     "volume": "0 ml",
@@ -15,83 +15,83 @@
     "id": "sq_advanced_fsurvivor_suit_color_camo",
 	"copy-from": "sq_advanced_lsurvivor_suit_color_camo",
     "type": "ARMOR",
-    "name": { "str": "Pioneer paint scheme: military" },
+    "name": { "str": "Pioneer paint scheme: military", "str_pl": "Pioneer paint scheme: military" },
     "description": "Pioneer environmental carapace's military paint scheme."
   },
   {
     "id": "sq_advanced_hsurvivor_suit_color_camo",
 	"copy-from": "sq_advanced_lsurvivor_suit_color_camo",
     "type": "ARMOR",
-    "name": { "str": "Rampart paint scheme: military" },
+    "name": { "str": "Rampart paint scheme: military", "str_pl": "Rampart paint scheme: military" },
     "description": "Rampart assault armor's military paint scheme."
   },
   {
     "id": "sq_advanced_lsurvivor_suit_color_black",
 	"copy-from": "sq_advanced_lsurvivor_suit_color_camo",
     "type": "ARMOR",
-    "name": { "str": "Corsair paint scheme: black" },
+    "name": { "str": "Corsair paint scheme: black", "str_pl": "Corsair paint schemes: black" },
     "description": "Corsair blitz strike suit's black paint scheme."
   },
   {
     "id": "sq_advanced_fsurvivor_suit_color_black",
 	"copy-from": "sq_advanced_lsurvivor_suit_color_camo",
     "type": "ARMOR",
-    "name": { "str": "Pioneer paint scheme: black" },
+    "name": { "str": "Pioneer paint scheme: black", "str_pl": "Pioneer paint schemes: black" },
     "description": "Pioneer environmental carapace's black paint scheme."
   },
   {
     "id": "sq_advanced_hsurvivor_suit_color_black",
 	"copy-from": "sq_advanced_lsurvivor_suit_color_camo",
     "type": "ARMOR",
-    "name": { "str": "Rampart paint scheme: black" },
+    "name": { "str": "Rampart paint scheme: black", "str_pl": "Rampart paint schemes: black" },
     "description": "Rampart assault armor's black paint scheme."
   },
   {
     "id": "sq_advanced_lsurvivor_suit_color_urban",
 	"copy-from": "sq_advanced_lsurvivor_suit_color_camo",
     "type": "ARMOR",
-    "name": { "str": "Corsair paint scheme: urban" },
+    "name": { "str": "Corsair paint scheme: urban", "str_pl": "Corsair paint schemes: urban" },
     "description": "Corsair blitz strike suit's urban paint scheme."
   },
   {
     "id": "sq_advanced_fsurvivor_suit_color_urban",
 	"copy-from": "sq_advanced_lsurvivor_suit_color_camo",
     "type": "ARMOR",
-    "name": { "str": "Pioneer paint scheme: urban" },
+    "name": { "str": "Pioneer paint scheme: urban", "str_pl": "Pioneer paint schemes: urban" },
     "description": "Pioneer environmental carapace's urban paint scheme."
   },
   {
     "id": "sq_advanced_hsurvivor_suit_color_urban",
 	"copy-from": "sq_advanced_lsurvivor_suit_color_camo",
     "type": "ARMOR",
-    "name": { "str": "Rampart paint scheme: urban" },
+    "name": { "str": "Rampart paint scheme: urban", "str_pl": "Rampart paint schemes: urban" },
     "description": "Rampart assault armor's urban paint scheme."
   },
   {
     "id": "sq_advanced_lsurvivor_suit_color_desert",
 	"copy-from": "sq_advanced_lsurvivor_suit_color_camo",
     "type": "ARMOR",
-    "name": { "str": "Corsair paint scheme: horizon" },
+    "name": { "str": "Corsair paint scheme: horizon", "str_pl": "Corsair paint schemes: horizon" },
     "description": "Corsair blitz strike suit's horizon paint scheme."
   },
   {
     "id": "sq_advanced_fsurvivor_suit_color_desert",
 	"copy-from": "sq_advanced_lsurvivor_suit_color_camo",
     "type": "ARMOR",
-    "name": { "str": "Pioneer paint scheme: horizon" },
+    "name": { "str": "Pioneer paint scheme: horizon", "str_pl": "Pioneer paint schemes: horizon" },
     "description": "Pioneer environmental carapace's horizon paint scheme."
   },
   {
     "id": "sq_advanced_hsurvivor_suit_color_desert",
 	"copy-from": "sq_advanced_lsurvivor_suit_color_camo",
     "type": "ARMOR",
-    "name": { "str": "Rampart paint scheme: horizon" },
+    "name": { "str": "Rampart paint scheme: horizon", "str_pl": "Rampart paint schemes: horizon" },
     "description": "Rampart assault armor's horizon paint scheme."
   },
   {
     "id": "sq_advanced_lsurvivor_suit_visor_red",
     "type": "ARMOR",
-    "name": { "str": "Corsair visor: red" },
+    "name": { "str": "Corsair visor: red", "str_pl": "Corsair visors: red" },
     "description": "Corsair blitz strike suit's red visor.",
     "weight": "0 g",
     "volume": "0 ml",
@@ -104,119 +104,119 @@
     "id": "sq_advanced_fsurvivor_suit_visor_red",
 	"copy-from": "sq_advanced_lsurvivor_suit_visor_red",
     "type": "ARMOR",
-    "name": { "str": "Pioneer visor: red" },
+    "name": { "str": "Pioneer visor: red", "str_pl": "Pioneer visors: red" },
     "description": "Pioneer environmental carapace's red visor."
   },
   {
     "id": "sq_advanced_hsurvivor_suit_visor_red",
 	"copy-from": "sq_advanced_lsurvivor_suit_visor_red",
     "type": "ARMOR",
-    "name": { "str": "Rampart visor: red" },
+    "name": { "str": "Rampart visor: red", "str_pl": "Rampart visors: red" },
     "description": "Rampart assault armor's red visor."
   },
   {
     "id": "sq_advanced_lsurvivor_suit_visor_yellow",
 	"copy-from": "sq_advanced_lsurvivor_suit_visor_red",
     "type": "ARMOR",
-    "name": { "str": "Corsair visor: yellow" },
+    "name": { "str": "Corsair visor: yellow", "str_pl": "Corsair visors: yellow" },
     "description": "Corsair blitz strike suit's yellow visor."
   },
   {
     "id": "sq_advanced_fsurvivor_suit_visor_green",
 	"copy-from": "sq_advanced_lsurvivor_suit_visor_red",
     "type": "ARMOR",
-    "name": { "str": "Pioneer visor: green" },
+    "name": { "str": "Pioneer visor: green", "str_pl": "Pioneer visors: green" },
     "description": "Pioneer environmental carapace's green visor."
   },
   {
     "id": "sq_advanced_hsurvivor_suit_visor_green",
 	"copy-from": "sq_advanced_lsurvivor_suit_visor_red",
     "type": "ARMOR",
-    "name": { "str": "Rampart visor: green" },
+    "name": { "str": "Rampart visor: green", "str_pl": "Rampart visors: green" },
     "description": "Rampart assault armor's green visor."
   },
   {
     "id": "sq_advanced_lsurvivor_suit_visor_cyan",
 	"copy-from": "sq_advanced_lsurvivor_suit_visor_red",
     "type": "ARMOR",
-    "name": { "str": "Corsair visor: cyan" },
+    "name": { "str": "Corsair visor: cyan", "str_pl": "Corsair visors: cyan" },
     "description": "Corsair blitz strike suit's cyan visor."
   },
   {
     "id": "sq_advanced_fsurvivor_suit_visor_cyan",
 	"copy-from": "sq_advanced_lsurvivor_suit_visor_red",
     "type": "ARMOR",
-    "name": { "str": "Pioneer visor: cyan" },
+    "name": { "str": "Pioneer visor: cyan", "str_pl": "Pioneer visors: red" },
     "description": "Pioneer environmental carapace's cyan visor."
   },
   {
     "id": "sq_advanced_hsurvivor_suit_visor_cyan",
 	"copy-from": "sq_advanced_lsurvivor_suit_visor_red",
     "type": "ARMOR",
-    "name": { "str": "Rampart visor: cyan" },
+    "name": { "str": "Rampart visor: cyan", "str_pl": "Rampart visors: cyan" },
     "description": "Rampart assault armor's cyan visor."
   },
   {
     "id": "sq_advanced_lsurvivor_suit_visor_blue",
 	"copy-from": "sq_advanced_lsurvivor_suit_visor_red",
     "type": "ARMOR",
-    "name": { "str": "Corsair visor: blue" },
+    "name": { "str": "Corsair visor: blue", "str_pl": "Corsair visors: blue" },
     "description": "Corsair blitz strike suit's blue visor."
   },
   {
     "id": "sq_advanced_fsurvivor_suit_visor_blue",
 	"copy-from": "sq_advanced_lsurvivor_suit_visor_red",
     "type": "ARMOR",
-    "name": { "str": "Pioneer visor: blue" },
+    "name": { "str": "Pioneer visor: blue", "str_pl": "Pioneer visors: blue" },
     "description": "Pioneer environmental carapace's blue visor."
   },
   {
     "id": "sq_advanced_hsurvivor_suit_visor_blue",
 	"copy-from": "sq_advanced_lsurvivor_suit_visor_red",
     "type": "ARMOR",
-    "name": { "str": "Rampart visor: blue" },
+    "name": { "str": "Rampart visor: blue", "str_pl": "Rampart visors: blue" },
     "description": "Rampart assault armor's blue visor."
   },
   {
     "id": "sq_advanced_lsurvivor_suit_visor_purple",
 	"copy-from": "sq_advanced_lsurvivor_suit_visor_red",
     "type": "ARMOR",
-    "name": { "str": "Corsair visor: purple" },
+    "name": { "str": "Corsair visor: purple", "str_pl": "Corsair visors: purple" },
     "description": "Corsair blitz strike suit's purple visor."
   },
   {
     "id": "sq_advanced_fsurvivor_suit_visor_purple",
 	"copy-from": "sq_advanced_lsurvivor_suit_visor_red",
     "type": "ARMOR",
-    "name": { "str": "Pioneer visor: purple" },
+    "name": { "str": "Pioneer visor: purple", "str_pl": "Pioneer visors: purple" },
     "description": "Pioneer environmental carapace's purple visor."
   },
   {
     "id": "sq_advanced_hsurvivor_suit_visor_purple",
 	"copy-from": "sq_advanced_lsurvivor_suit_visor_red",
     "type": "ARMOR",
-    "name": { "str": "Rampart visor: purple" },
+    "name": { "str": "Rampart visor: purple", "str_pl": "Rampart visors: purple" },
     "description": "Rampart assault armor's purple visor."
   },
   {
     "id": "sq_advanced_lsurvivor_suit_visor_white",
 	"copy-from": "sq_advanced_lsurvivor_suit_visor_red",
     "type": "ARMOR",
-    "name": { "str": "Corsair visor: white" },
+    "name": { "str": "Corsair visor: white", "str_pl": "Corsair visors: white" },
     "description": "Corsair blitz strike suit's white visor."
   },
   {
     "id": "sq_advanced_fsurvivor_suit_visor_white",
 	"copy-from": "sq_advanced_lsurvivor_suit_visor_red",
     "type": "ARMOR",
-    "name": { "str": "Pioneer visor: white" },
+    "name": { "str": "Pioneer visor: white", "str_pl": "Pioneer visors: white" },
     "description": "Pioneer environmental carapace's white visor."
   },
   {
     "id": "sq_advanced_hsurvivor_suit_visor_white",
 	"copy-from": "sq_advanced_lsurvivor_suit_visor_red",
     "type": "ARMOR",
-    "name": { "str": "Rampart visor: white" },
+    "name": { "str": "Rampart visor: white", "str_pl": "Rampart visors: white" },
     "description": "Rampart assault armor's white visor."
   },
   {

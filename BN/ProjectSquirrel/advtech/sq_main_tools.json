@@ -42,7 +42,7 @@
     "id": "sq_portable_hydraulic_press",
     "type": "TOOL",
     "category": "tools_workshop",
-    "name": { "str_sp": "portable hydraulic presses" },
+    "name": { "str": "portable hydraulic press", "str_pl": "portable hydraulic presses" },
     "description": "This is a portable version that dramatically reduces the size and weight of conventional stationary hydraulic presses. It is constructed using a hydraulic jack and is compact enough for survivors to carry by hand or load into a vehicle. Although smaller in size, it delivers sufficient power to crimp metal parts and form bullet casings.",
     "sub": "hydraulic_press",
     "weight": "15 kg",
@@ -173,7 +173,7 @@
   {
     "type": "GENERIC",
     "id": "sq_adv_workbench",
-    "name": { "str": "Manipulator Workbenches", "str_pl": "Manipulator Workbenches" },
+    "name": { "str": "manipulator workbench", "str_pl": "manipulator workbenches" },
     "description": "This robotic arm with an arc welder and a large workbench with a large touchscreen has everything you need. It can be used as a workbench to work at twice the speed.",
     "weight": "23000 g",
     "color": "cyan",

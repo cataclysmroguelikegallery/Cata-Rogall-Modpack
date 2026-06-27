@@ -94,7 +94,7 @@
   {
     "type": "ARMOR",
     "id": "sq_shield_riot_act",
-    "name": { "str": "riot shield (Def)" },
+    "name": { "str": "riot shield (Def)", "str_pl": "riot shields (Def)" },
     "description": "A square clear plastic shield commonly used by police and protesters.  Shaped like the Roman scutum shield, it is designed to be worn in formation.  The word ''police'' is emblazoned in large letters on the front.  It is currently being used, and slowing you down.  Use to lower the shield.",
     "weight": "4040 g",
     "volume": "6 L",
@@ -117,7 +117,7 @@
   {
     "id": "sq_shield_ballistic",
     "type": "ARMOR",
-    "name": "tactical shield: commando",
+    "name": { "str": "tactical shield: commando", "str_pl": "tactical shields: commando" },
     "category": "armor",
     "description": "This shield offer high performance protection and magazine storage. If you don't know what to choose, the tactical shield: commando is the best choice. It's quite heavy but effective.",
     "weight": "6582 g",
@@ -150,7 +150,7 @@
   {
     "type": "ARMOR",
     "id": "sq_swat_shield",
-    "name": { "str": "tactical shield: bastion" },
+    "name": { "str": "tactical shield: bastion", "str_pl": "tactical shields: bastion" },
     "description": "A ballistic shield designed to allow the point man and anyone standing behind it to safely approach their target. It is heavy and somewhat cumbersome, but its protection cannot be denied.  Activate it to be held close and in front of you.",
     "weight": "18840 g",
     "color": "dark_gray",
@@ -177,7 +177,7 @@
   {
     "type": "ARMOR",
     "id": "sq_swat_shield_act",
-    "name": { "str": "tactical shield: bastion (Def)" },
+    "name": { "str": "tactical shield: bastion (Def)", "str_pl": "tactical shields: bastion (Def)" },
     "description": "A ballistic shield designed to allow the point man and anyone standing behind it to safely approach their target. It is heavy and somewhat cumbersome, but its protection cannot be denied. It is currently being used, and slowing you down.",
     "weight": "18840 g",
     "color": "dark_gray",
@@ -202,7 +202,7 @@
   {
     "type": "ARMOR",
     "id": "sq_swat_shield_1",
-    "name": { "str": "tactical shield: frontline" },
+    "name": { "str": "tactical shield: frontline", "str_pl": "tactical shields: frontline" },
     "description": "A shield that allows you to use a two-handed weapon while equipped with a shield. The downside is that it leaves the holder's legs exposed.  Activate it to be extended and held close in front of you.",
     "weight": "8840 g",
     "color": "dark_gray",
@@ -226,7 +226,7 @@
   {
     "type": "ARMOR",
     "id": "sq_swat_shield_1_act",
-    "name": { "str": "tactical shield: frontline (Atk)" },
+    "name": { "str": "tactical shield: frontline (Atk)", "str_pl": "tactical shields: frontline (Atk)" },
     "description": "A shield that allows you to use a two-handed weapon while equipped with a shield. The downside is that it leaves the holder's legs exposed. It is currently being used, and slowing you down.",
     "weight": "8840 g",
     "color": "dark_gray",

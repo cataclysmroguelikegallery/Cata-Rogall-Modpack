@@ -51,7 +51,7 @@
     "type": "TOOL_ARMOR",
     "category": "clothing",
     "id": "sq_typeboy",
-    "name": { "str": "Type-Boys", "str_pl": "Type-Boys" },
+    "name": { "str": "Type-Boy", "str_pl": "Type-Boys" },
     "volume": "550 ml",
     "description": "It's a smart device that runs on UPS. A Type-Boy model from Fujin's industry, it has the functionality of a smartwatch, plus a host of other features and information, including maps and location tracking, a bionic scanner, and a radiation biomonitor. These little computerized devices help survivors perform a variety of tasks and manage information efficiently. You can check it out by using.",
     "weight": "632 g",
@@ -100,7 +100,7 @@
     "id": "sq_typeboy_on",
     "copy-from": "sq_typeboy",
     "type": "TOOL_ARMOR",
-    "name": { "str": "Type-Boys (tablet PC)", "str_pl": "Type-Boys (tablet PC)" },
+    "name": { "str": "Type-Boy (tablet PC)", "str_pl": "Type-Boys (tablet PC)" },
     "revert_to": "sq_typeboy",
     "use_action": [
       "EINKTABLETPC",
@@ -143,7 +143,7 @@
     "id": "sq_typeboy_flashlight",
     "copy-from": "sq_typeboy",
     "type": "TOOL_ARMOR",
-    "name": { "str": "Type-Boys (flashlight)", "str_pl": "Type-Boys (flashlight)" },
+    "name": { "str": "Type-Boy (flashlight)", "str_pl": "Type-Boys (flashlight)" },
     "revert_to": "sq_typeboy",
     "use_action": { "menu_text": "Turn off", "type": "transform", "msg": "You turn off your Type-Boy.", "target": "sq_typeboy" },
     "extend": { "flags": [ "LIGHT_300", "TRADER_AVOID" ] }
@@ -180,7 +180,6 @@
     "type": "TOOL_ARMOR",
     "copy-from": "UPS_off",
     "name": { "str": "UPS", "str_pl": "UPS's" },
-    "description": "This is a unified power supply, or UPS.  It is a civilian evolution of a military project.  Designed to power advanced weapons and armor, the civilian version serves as a portable power bank and inverter for many household electronics.  It can be worn around to either leg for ease of access.",
     "coverage": 5,
     "encumbrance": 2,
     "covers": [ "leg_either" ]
@@ -190,7 +189,6 @@
     "type": "TOOL_ARMOR",
     "copy-from": "adv_UPS_off",
     "name": { "str": "advanced UPS", "str_pl": "advanced UPS's" },
-    "description": "This is an advanced version of the unified power supply, or UPS.  This device has been significantly redesigned to provide better efficiency as well as to consume plutonium fuel cells rather than batteries, and is both slimmer and lighter to wear.  Sadly, its plutonium reactor can't be charged in UPS charging station.",
     "coverage": 5,
     "encumbrance": 1,
     "covers": [ "leg_either" ],
@@ -309,7 +307,7 @@
   {
     "type": "mutation",
     "id": "SQ_BIO_SPLINT",
-    "name": { "str": "bionic splints" },
+    "name": { "str": "bionic splint" },
     "points": 0,
     "valid": false,
     "purifiable": false,
@@ -319,7 +317,7 @@
   {
     "id": "sq_advanced_arm_splint",
     "type": "ARMOR",
-    "name": { "str": "bionic arm splints" },
+    "name": { "str": "bionic arm splint" },
     "description": "Advanced splint. Less restrictive on limb movement, and quickly immobilizes broken bones.",
     "weight": "600 g",
     "volume": "1 L",
@@ -353,7 +351,7 @@
   {
     "id": "sq_advanced_leg_splint",
     "type": "ARMOR",
-    "name": { "str": "bionic leg splints" },
+    "name": { "str": "bionic leg splint" },
     "description": "Advanced splint. Less restrictive on limb movement, and quickly immobilizes broken bones.",
     "weight": "900 g",
     "volume": "1 L",
