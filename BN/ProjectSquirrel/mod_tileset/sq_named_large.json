@@ -1,0 +1,20 @@
+[
+  {
+    "type": "mod_tileset",
+    "compatibility": [ "UNDEAD_PEOPLE_BASE", "UNDEAD_PEOPLE", "MshockRealXotto", "MSX++DEAD_PEOPLE" ],
+    "tiles-new": [
+      {
+        "file": "mod_tileset/sq_named_large.png",
+        "tiles": [
+          { "id": "mon_ice_golem", "fg": [ { "weight": 1, "sprite": 20 }, { "weight": 1, "sprite": 21 } ], "rotates": false },
+          { "id": "mon_dragon_permafrost", "fg": 22, "rotates": false }
+        ],
+        "//": "range 1 to 8",
+        "sprite_width": 64,
+        "sprite_height": 80,
+        "sprite_offset_x": -16,
+        "sprite_offset_y": -48
+      }
+    ]
+  }
+]

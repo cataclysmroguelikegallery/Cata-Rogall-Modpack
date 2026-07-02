@@ -1,0 +1,464 @@
+[
+  {
+    "id": "mon_alpha_razorclaw",
+    "copy-from": "mon_alpha_razorclaw",
+    "type": "MONSTER",
+    "death_drops": "mon_alpha_razorclaw_death_drops"
+  },
+{
+    "id": "mon_plague_nymph",
+    "type": "MONSTER",
+    "copy-from": "mon_plague_nymph",
+    "death_drops": "mon_plague_nymph_death_drops"
+  },
+  {
+    "id": "mon_plague_vector",
+    "type": "MONSTER",
+    "copy-from": "mon_plague_vector",
+    "death_drops": "mon_plague_vector_death_drops"
+  },
+  {
+    "id": "mon_giant_cockroach",
+    "type": "MONSTER",
+    "copy-from": "mon_giant_cockroach",
+    "death_drops": "mon_giant_cockroach_death_drops"
+  },
+  {
+    "id": "mon_giant_cockroach_nymph",
+    "type": "MONSTER",
+    "copy-from": "mon_giant_cockroach_nymph",
+    "death_drops": "mon_giant_cockroach_nymph_death_drops"
+  },
+  {
+    "id": "mon_pregnant_giant_cockroach",
+    "type": "MONSTER",
+    "copy-from": "mon_pregnant_giant_cockroach",
+    "death_drops": "mon_pregnant_giant_cockroach_death_drops"
+  },
+  {
+    "id": "mon_bee",
+    "type": "MONSTER",
+    "copy-from": "mon_bee",
+    "death_drops": "mon_bee_death_drops"
+  },
+  {
+    "id": "mon_centipede_small",
+    "type": "MONSTER",
+    "copy-from": "mon_centipede_small",
+    "death_drops": "mon_centipede_small_death_drops"
+  },
+  {
+    "id": "mon_centipede_giant",
+    "type": "MONSTER",
+    "copy-from": "mon_centipede_giant",
+    "death_drops": "mon_centipede_giant_death_drops"
+  },
+  {
+    "id": "mon_centipede_mom",
+    "type": "MONSTER",
+    "copy-from": "mon_centipede_mom",
+    "death_drops": "mon_centipede_mom_death_drops"
+  },
+  {
+    "id": "mon_centipede_mega",
+    "type": "MONSTER",
+    "copy-from": "mon_centipede_mega",
+    "death_drops": "mon_centipede_mega_death_drops"
+  },
+  {
+    "id": "mon_firefly",
+    "type": "MONSTER",
+    "copy-from": "mon_firefly",
+    "death_drops": "mon_firefly_death_drops"
+  },
+  {
+    "id": "mon_dragonfly_naiad",
+    "type": "MONSTER",
+    "copy-from": "mon_dragonfly_naiad",
+    "death_drops": "mon_dragonfly_naiad_death_drops"
+  },
+  {
+    "id": "mon_dragonfly_giant",
+    "type": "MONSTER",
+    "copy-from": "mon_dragonfly_giant",
+    "death_drops": "mon_dragonfly_giant_death_drops"
+  },
+  {
+    "id": "mon_dragonfly_mega",
+    "type": "MONSTER",
+    "copy-from": "mon_dragonfly_mega",
+    "death_drops": "mon_dragonfly_mega_death_drops"
+  },
+  {
+    "id": "mon_fly",
+    "type": "MONSTER",
+    "copy-from": "mon_fly",
+    "death_drops": "mon_fly_death_drops"
+  },
+  {
+    "id": "mon_mosquito_giant",
+    "type": "MONSTER",
+    "copy-from": "mon_mosquito_giant",
+    "death_drops": "mon_mosquito_giant_death_drops"
+  },
+  {
+    "id": "mon_spider_cellar_giant",
+    "type": "MONSTER",
+    "copy-from": "mon_spider_cellar_giant",
+    "death_drops": "mon_spider_cellar_giant_death_drops"
+  },
+  {
+    "id": "mon_spider_cellar_giant_s",
+    "type": "MONSTER",
+    "copy-from": "mon_spider_cellar_giant_s",
+    "death_drops": "mon_spider_cellar_giant_s_death_drops"
+  },
+  {
+    "id": "mon_spider_jumping_giant",
+    "type": "MONSTER",
+    "copy-from": "mon_spider_jumping_giant",
+    "death_drops": "mon_spider_jumping_giant_death_drops"
+  },
+  {
+    "id": "mon_spider_trapdoor_giant",
+    "type": "MONSTER",
+    "copy-from": "mon_spider_trapdoor_giant",
+    "death_drops": "mon_spider_trapdoor_giant_death_drops"
+  },
+  {
+    "id": "mon_spider_web",
+    "type": "MONSTER",
+    "copy-from": "mon_spider_web",
+    "death_drops": "mon_spider_web_death_drops"
+  },
+  {
+    "id": "mon_spider_web_s",
+    "type": "MONSTER",
+    "copy-from": "mon_spider_web_s",
+    "death_drops": "mon_spider_web_s_death_drops"
+  },
+  {
+    "id": "mon_spider_widow_giant",
+    "type": "MONSTER",
+    "copy-from": "mon_spider_widow_giant",
+    "death_drops": "mon_spider_widow_giant_death_drops"
+  },
+  {
+    "id": "mon_spider_widow_giant_s",
+    "type": "MONSTER",
+    "copy-from": "mon_spider_widow_giant_s",
+    "death_drops": "mon_spider_widow_giant_s_death_drops"
+  },
+  {
+    "id": "mon_spider_wolf_giant",
+    "type": "MONSTER",
+    "copy-from": "mon_spider_wolf_giant",
+    "death_drops": "mon_spider_wolf_giant_death_drops"
+  },
+  {
+    "id": "mon_wasp_larva",
+    "type": "MONSTER",
+    "copy-from": "mon_wasp_larva",
+    "death_drops": "mon_wasp_larva_death_drops"
+  },
+  {
+    "id": "mon_wasp_pupa",
+    "type": "MONSTER",
+    "copy-from": "mon_wasp_pupa",
+    "death_drops": "mon_wasp_pupa_death_drops"
+  },
+  {
+    "id": "mon_wasp_small",
+    "type": "MONSTER",
+    "copy-from": "mon_wasp_small",
+    "death_drops": "mon_wasp_small_death_drops"
+  },
+  {
+    "id": "mon_wasp",
+    "type": "MONSTER",
+    "copy-from": "mon_wasp",
+    "death_drops": "mon_wasp_death_drops"
+  },
+  {
+    "id": "mon_dermatik_midwife",
+    "type": "MONSTER",
+    "copy-from": "mon_dermatik_midwife",
+    "death_drops": "mon_dermatik_midwife_death_drops"
+  },
+  {
+    "id": "mon_ant_queen",
+    "copy-from": "mon_ant_queen",
+    "type": "MONSTER",
+    "death_drops": "mon_ant_queen_death_drops"
+  },
+  {
+    "id": "mon_ant_acid",
+    "copy-from": "mon_ant_acid",
+    "type": "MONSTER",
+    "death_drops": "mon_ant_acid_death_drops"
+  },
+  {
+    "id": "mon_ant_acid_soldier",
+    "copy-from": "mon_ant_acid_soldier",
+    "type": "MONSTER",
+    "death_drops": "mon_ant_acid_soldier_death_drops"
+  },
+  {
+    "id": "mon_ant_acid_queen",
+    "copy-from": "mon_ant_acid_queen",
+    "type": "MONSTER",
+    "death_drops": "mon_ant_acid_queen_death_drops"
+  },
+  {
+    "id": "mon_zombie_master",
+    "copy-from": "mon_zombie_master",
+    "type": "MONSTER",
+    "death_drops": "mon_zombie_master_death_drops"
+  },
+  {
+    "id": "mon_jabberwock",
+    "copy-from": "mon_jabberwock",
+    "type": "MONSTER",
+    "death_drops": "mon_jabberwock_death_drops"
+  },
+  {
+    "id": "mon_triffid_queen",
+    "copy-from": "mon_triffid_queen",
+    "type": "MONSTER",
+    "death_drops": "mon_triffid_queen_death_drops"
+  },
+  {
+    "id": "mon_triffid_heart",
+    "copy-from": "mon_triffid_heart",
+    "type": "MONSTER",
+    "death_drops": "mon_triffid_heart_death_drops"
+  },
+  {
+    "id": "mon_fungaloid_seeder",
+    "copy-from": "mon_fungaloid_seeder",
+    "type": "MONSTER",
+    "death_drops": "mon_fungaloid_seeder_death_drops"
+  },
+  {
+    "id": "mon_blob_brain",
+    "copy-from": "mon_blob_brain",
+    "type": "MONSTER",
+    "death_drops": "mon_blob_brain_death_drops"
+  },
+  {
+    "id": "mon_wasp_queen",
+    "copy-from": "mon_wasp_queen",
+    "type": "MONSTER",
+    "death_drops": "mon_wasp_queen_death_drops"
+  },
+  {
+    "id": "mon_wasp_mega",
+    "copy-from": "mon_wasp_mega",
+    "type": "MONSTER",
+    "death_drops": "mon_wasp_mega_death_drops"
+  },
+  {
+    "id": "mon_dermatik_larva",
+    "copy-from": "mon_dermatik_larva",
+    "type": "MONSTER",
+    "death_drops": "mon_dermatik_larva_death_drops"
+  },
+  {
+    "id": "mon_dermatik",
+    "copy-from": "mon_dermatik",
+    "type": "MONSTER",
+    "death_drops": "mon_dermatik_death_drops"
+  },
+  {
+    "id": "mon_albino_penguin",
+    "copy-from": "mon_albino_penguin",
+    "type": "MONSTER",
+    "death_drops": "mon_albino_penguin_death_drops"
+  },
+  {
+    "id": "mon_amigara_horror",
+    "copy-from": "mon_amigara_horror",
+    "type": "MONSTER",
+    "death_drops": "mon_amigara_horror_death_drops"
+  },
+  {
+    "id": "mon_thing",
+    "copy-from": "mon_thing",
+    "type": "MONSTER",
+    "death_drops": "mon_thing_death_drops"
+  },
+  {
+    "id": "mon_human_snail",
+    "copy-from": "mon_human_snail",
+    "type": "MONSTER",
+    "death_drops": "mon_human_snail_death_drops"
+  },
+  {
+    "id": "mon_flying_polyp",
+    "copy-from": "mon_flying_polyp",
+    "type": "MONSTER",
+    "death_drops": "mon_flying_polyp_death_drops"
+  },
+  {
+    "id": "mon_hunting_horror",
+    "copy-from": "mon_hunting_horror",
+    "type": "MONSTER",
+    "death_drops": "mon_hunting_horror_death_drops"
+  },
+  {
+    "id": "mon_mi_go",
+    "copy-from": "mon_mi_go",
+    "type": "MONSTER",
+    "death_drops": "mon_mi_go_death_drops"
+  },
+  {
+    "id": "mon_mi_go_slaver",
+    "copy-from": "mon_mi_go_slaver",
+    "type": "MONSTER",
+    "death_drops": "mon_mi_go_slaver_death_drops"
+  },
+  {
+    "id": "mon_mi_go_surgeon",
+    "copy-from": "mon_mi_go_surgeon",
+    "type": "MONSTER",
+    "death_drops": "mon_mi_go_surgeon_death_drops"
+  },
+  {
+    "id": "mon_mi_go_guard",
+    "copy-from": "mon_mi_go_guard",
+    "type": "MONSTER",
+    "death_drops": "mon_mi_go_guard_death_drops"
+  },
+  {
+    "id": "mon_mi_go_myrmidon",
+    "copy-from": "mon_mi_go_myrmidon",
+    "type": "MONSTER",
+    "death_drops": "mon_mi_go_myrmidon_death_drops"
+  },
+  {
+    "id": "mon_mi_go_scout",
+    "copy-from": "mon_mi_go_scout",
+    "type": "MONSTER",
+    "death_drops": "mon_mi_go_scout_death_drops"
+  },
+  {
+    "id": "mon_yugg",
+    "copy-from": "mon_yugg",
+    "type": "MONSTER",
+    "death_drops": "mon_yugg_death_drops"
+  },
+  {
+    "id": "mon_flaming_eye",
+    "copy-from": "mon_flaming_eye",
+    "type": "MONSTER",
+    "death_drops": "mon_flaming_eye_death_drops"
+  },
+  {
+    "id": "mon_kreck",
+    "copy-from": "mon_kreck",
+    "type": "MONSTER",
+    "death_drops": "mon_kreck_death_drops"
+  },
+  {
+    "id": "mon_gracke",
+    "copy-from": "mon_gracke",
+    "type": "MONSTER",
+    "death_drops": "mon_gracke_death_drops"
+  },
+  {
+    "id": "mon_blank",
+    "copy-from": "mon_blank",
+    "type": "MONSTER",
+    "death_drops": "mon_blank_death_drops"
+  },
+  {
+    "id": "mon_gozu",
+    "copy-from": "mon_gozu",
+    "type": "MONSTER"
+  },
+  {
+    "id": "mon_darkman",
+    "copy-from": "mon_darkman",
+    "type": "MONSTER",
+    "death_drops": "mon_darkman_death_drops"
+  },
+  {
+    "id": "mon_breather_hub",
+    "copy-from": "mon_breather_hub",
+    "type": "MONSTER",
+    "death_drops": "mon_breather_hub_death_drops"
+  },
+  {
+    "id": "mon_shoggoth",
+    "copy-from": "mon_shoggoth",
+    "type": "MONSTER",
+    "death_drops": "mon_shoggoth_death_drops"
+  },
+  {
+    "id": "mon_dementia",
+    "copy-from": "mon_dementia",
+    "type": "MONSTER",
+    "death_drops": "mon_dementia_death_drops"
+  },
+  {
+    "id": "mon_homunculus",
+    "copy-from": "mon_homunculus",
+    "type": "MONSTER",
+    "death_drops": "mon_homunculus_death_drops"
+  },
+  {
+    "id": "mon_blood_sacrifice",
+    "copy-from": "mon_blood_sacrifice",
+    "type": "MONSTER",
+    "death_drops": "mon_blood_sacrifice_death_drops"
+  },
+  {
+    "id": "mon_flesh_angel",
+    "copy-from": "mon_flesh_angel",
+    "type": "MONSTER",
+    "death_drops": "mon_flesh_angel_death_drops"
+  },
+  {
+    "id": "mon_skeleton_hulk",
+    "copy-from": "mon_skeleton_hulk",
+    "type": "MONSTER",
+    "death_drops": "mon_skeleton_hulk_death_drops"
+  },
+  {
+    "id": "mon_hound_tindalos",
+    "copy-from": "mon_hound_tindalos",
+    "//": "Only the real ones will drop essence, not afterimages.",
+    "type": "MONSTER",
+    "death_drops": "mon_hound_tindalos_death_drops"
+  },
+  {
+    "id": "mon_mothman",
+    "copy-from": "mon_mothman",
+    "type": "MONSTER",
+    "death_drops": "mon_mothman_death_drops"
+  },
+  {
+    "id": "mon_wolf_mutant_huge",
+    "copy-from": "mon_wolf_mutant_huge",
+    "type": "MONSTER",
+    "death_drops": "mon_wolf_mutant_huge_death_drops"
+  },
+  {
+    "id": "mon_zombie_stormbringer",
+    "copy-from": "mon_zombie_stormbringer",
+    "type": "MONSTER",
+    "death_drops": "mon_zombie_stormbringer_death_drops"
+  },
+  {
+    "id": "mon_zombie_conjoiner",
+    "copy-from": "mon_zombie_conjoiner",
+    "type": "MONSTER",
+    "death_drops": "mon_zombie_conjoiner_death_drops"
+  },
+  {
+    "id": "mon_zombie_darkfield",
+    "copy-from": "mon_zombie_darkfield",
+    "type": "MONSTER",
+    "death_drops": "mon_zombie_darkfield_death_drops"
+  }
+]

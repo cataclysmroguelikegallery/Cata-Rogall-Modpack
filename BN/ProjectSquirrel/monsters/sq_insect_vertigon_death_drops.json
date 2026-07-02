@@ -1,0 +1,468 @@
+[
+  {
+    "type": "item_group",
+    "id": "mon_alpha_razorclaw_death_drops",
+    "subtype": "collection",
+    "entries": [ { "item": "vertigon", "count": [ 1, 1 ], "prob": 25 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_plague_nymph_death_drops",
+    "subtype": "collection",
+    "entries": [ { "item": "sq_insect_jelly", "count": [ 1, 1 ], "prob": 10 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_plague_vector_death_drops",
+    "subtype": "collection",
+    "entries": [ { "item": "sq_insect_jelly", "count": [ 1, 2 ], "prob": 50 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_giant_cockroach_death_drops",
+    "subtype": "collection",
+    "entries": [ { "item": "sq_insect_jelly", "count": [ 1, 2 ], "prob": 50 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_giant_cockroach_nymph_death_drops",
+    "subtype": "collection",
+    "entries": [ { "item": "sq_insect_jelly", "count": [ 1, 1 ], "prob": 10 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_pregnant_giant_cockroach_death_drops",
+    "subtype": "collection",
+    "entries": [ { "item": "sq_insect_jelly", "count": [ 2, 8 ], "prob": 50 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_bee_death_drops",
+    "subtype": "collection",
+    "entries": [ { "item": "sq_insect_jelly", "count": [ 2, 8 ], "prob": 50 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_centipede_small_death_drops",
+    "subtype": "collection",
+    "entries": [ { "item": "sq_insect_jelly", "count": [ 2, 8 ], "prob": 50 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_centipede_giant_death_drops",
+    "subtype": "collection",
+    "entries": [ { "item": "sq_insect_jelly", "count": [ 16, 64 ], "prob": 100 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_centipede_mom_death_drops",
+    "subtype": "collection",
+    "entries": [ { "item": "sq_insect_jelly", "count": [ 32, 128 ], "prob": 100 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_centipede_mega_death_drops",
+    "subtype": "collection",
+    "entries": [ { "item": "sq_insect_jelly", "count": [ 32, 128 ], "prob": 100 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_firefly_death_drops",
+    "subtype": "collection",
+    "entries": [ { "item": "sq_insect_jelly", "count": [ 1, 1 ], "prob": 10 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_dragonfly_naiad_death_drops",
+    "subtype": "collection",
+    "entries": [ { "item": "sq_insect_jelly", "count": [ 1, 1 ], "prob": 10 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_dragonfly_giant_death_drops",
+    "subtype": "collection",
+    "entries": [ { "item": "sq_insect_jelly", "count": [ 2, 8 ], "prob": 50 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_dragonfly_mega_death_drops",
+    "subtype": "collection",
+    "entries": [ { "item": "sq_insect_jelly", "count": [ 16, 64 ], "prob": 100 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_fly_death_drops",
+    "subtype": "collection",
+    "entries": [ { "item": "sq_insect_jelly", "count": [ 2, 8 ], "prob": 50 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_mosquito_giant_death_drops",
+    "subtype": "collection",
+    "entries": [ { "item": "sq_insect_jelly", "count": [ 2, 8 ], "prob": 50 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_spider_cellar_giant_death_drops",
+    "subtype": "collection",
+    "entries": [ { "item": "sq_insect_jelly", "count": [ 2, 8 ], "prob": 50 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_spider_cellar_giant_s_death_drops",
+    "subtype": "collection",
+    "entries": [ { "item": "sq_insect_jelly", "count": [ 1, 1 ], "prob": 10 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_spider_jumping_giant_death_drops",
+    "subtype": "collection",
+    "entries": [ { "item": "sq_insect_jelly", "count": [ 2, 8 ], "prob": 50 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_spider_trapdoor_giant_death_drops",
+    "subtype": "collection",
+    "entries": [ { "item": "sq_insect_jelly", "count": [ 8, 32 ], "prob": 50 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_spider_web_death_drops",
+    "subtype": "collection",
+    "entries": [ { "item": "sq_insect_jelly", "count": [ 8, 32 ], "prob": 50 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_spider_web_s_death_drops",
+    "subtype": "collection",
+    "entries": [ { "item": "sq_insect_jelly", "count": [ 1, 1 ], "prob": 10 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_spider_widow_giant_death_drops",
+    "subtype": "collection",
+    "entries": [ { "item": "sq_insect_jelly", "count": [ 2, 8 ], "prob": 50 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_spider_widow_giant_s_death_drops",
+    "subtype": "collection",
+    "entries": [ { "item": "sq_insect_jelly", "count": [ 1, 1 ], "prob": 10 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_spider_wolf_giant_death_drops",
+    "subtype": "collection",
+    "entries": [ { "item": "sq_insect_jelly", "count": [ 2, 8 ], "prob": 50 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_wasp_larva_death_drops",
+    "subtype": "collection",
+    "entries": [ { "item": "sq_insect_jelly", "count": [ 2, 8 ], "prob": 50 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_wasp_pupa_death_drops",
+    "subtype": "collection",
+    "entries": [ { "item": "sq_insect_jelly", "count": [ 2, 8 ], "prob": 50 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_wasp_small_death_drops",
+    "subtype": "collection",
+    "entries": [ { "item": "sq_insect_jelly", "count": [ 2, 8 ], "prob": 50 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_wasp_queen_death_drops",
+    "subtype": "collection",
+    "entries": [ { "item": "sq_insect_jelly", "count": [ 16, 64 ], "prob": 100 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_wasp_death_drops",
+    "subtype": "collection",
+    "entries": [ { "item": "sq_insect_jelly", "count": [ 8, 32 ], "prob": 50 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_dermatik_midwife_death_drops",
+    "subtype": "collection",
+    "entries": [ { "item": "sq_insect_jelly", "count": [ 2, 8 ], "prob": 50 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_ant_queen_death_drops",
+    "subtype": "collection",
+    "entries": [ { "item": "sq_insect_jelly", "count": [ 16, 64 ] } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_ant_acid_death_drops",
+    "subtype": "collection",
+    "entries": [ { "item": "sq_insect_jelly", "count": [ 2, 8 ], "prob": 50 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_ant_acid_soldier_death_drops",
+    "subtype": "collection",
+    "entries": [ { "item": "sq_insect_jelly", "count": [ 2, 8 ], "prob": 50 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_ant_acid_queen_death_drops",
+    "subtype": "collection",
+    "entries": [ { "item": "sq_insect_jelly", "count": [ 16, 64 ] } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_zombie_darkfield_death_drops",
+    "subtype": "collection",
+    "entries": [ { "group": "default_zombie_death_drops" }, { "item": "vertigon", "count": [ 1, 1 ], "prob": 25 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_zombie_master_death_drops",
+    "subtype": "collection",
+    "entries": [ { "group": "default_zombie_death_drops" }, { "item": "vertigon", "count": [ 1, 1 ], "prob": 25 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_triffid_queen_death_drops",
+    "subtype": "collection",
+    "entries": [ { "item": "vertigon", "count": [ 1, 1 ], "prob": 25 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_triffid_heart_death_drops",
+    "subtype": "collection",
+    "entries": [ { "distribution": [ { "item": "vertigon", "count": [ 2, 4 ], "prob": 50 } ] } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_fungaloid_seeder_death_drops",
+    "subtype": "collection",
+    "entries": [ { "item": "vertigon", "count": [ 1, 1 ], "prob": 10 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_blob_brain_death_drops",
+    "subtype": "collection",
+    "entries": [ { "item": "vertigon", "count": [ 2, 4 ], "prob": 50 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_wasp_queen_death_drops",
+    "subtype": "collection",
+    "entries": [ { "item": "sq_insect_jelly", "count": [ 16, 64 ] } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_wasp_mega_death_drops",
+    "subtype": "collection",
+    "entries": [ { "item": "sq_insect_jelly", "count": [ 16, 64 ] } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_dermatik_larva_death_drops",
+    "subtype": "collection",
+    "entries": [ { "item": "sq_insect_jelly", "count": [ 1, 1 ], "prob": 50 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_dermatik_death_drops",
+    "subtype": "collection",
+    "entries": [ { "item": "sq_insect_jelly", "count": [ 1, 2 ], "prob": 25 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_albino_penguin_death_drops",
+    "subtype": "collection",
+    "//": "Strangely enough these count as nether monsters instead of mutants, so they drop essence.",
+    "entries": [ { "item": "vertigon", "count": [ 1, 1 ], "prob": 50 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_amigara_horror_death_drops",
+    "subtype": "collection",
+    "//": "Species is HORROR instead of MUTANT, so allowed to drop essence.",
+    "entries": [ { "item": "vertigon", "count": [ 2, 4 ], "prob": 25 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_thing_death_drops",
+    "subtype": "collection",
+    "entries": [ { "item": "vertigon", "count": [ 2, 4 ], "prob": 25 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_human_snail_death_drops",
+    "subtype": "collection",
+    "entries": [ { "item": "vertigon", "count": [ 1, 1 ], "prob": 25 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_flying_polyp_death_drops",
+    "subtype": "collection",
+    "entries": [ { "item": "vertigon", "count": [ 2, 4 ], "prob": 50 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_hunting_horror_death_drops",
+    "subtype": "collection",
+    "entries": [ { "item": "vertigon", "count": [ 1, 1 ], "prob": 50 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_mi_go_death_drops",
+    "//": "All advanced variants drop plates at higher rate, versions with slaver beam additionally drop essence at higher rate.",
+    "subtype": "collection",
+    "entries": [ { "item": "vertigon", "count": [ 1, 1 ], "prob": 50 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_mi_go_slaver_death_drops",
+    "subtype": "collection",
+    "entries": [ { "item": "vertigon", "count": [ 1, 1 ], "prob": 50 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_mi_go_surgeon_death_drops",
+    "subtype": "collection",
+    "entries": [ { "item": "vertigon", "count": [ 1, 1 ], "prob": 50 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_mi_go_guard_death_drops",
+    "subtype": "collection",
+    "entries": [ { "item": "vertigon", "count": [ 1, 1 ], "prob": 50 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_mi_go_myrmidon_death_drops",
+    "subtype": "collection",
+    "entries": [ { "item": "vertigon", "count": [ 2, 4 ], "prob": 50 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_mi_go_scout_death_drops",
+    "subtype": "collection",
+    "entries": [ { "item": "vertigon", "count": [ 1, 1 ], "prob": 50 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_yugg_death_drops",
+    "subtype": "collection",
+    "entries": [ { "distribution": [ { "item": "vertigon", "count": [ 2, 4 ], "prob": 50 } ] } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_flaming_eye_death_drops",
+    "subtype": "collection",
+    "entries": [ { "item": "vertigon", "count": [ 2, 4 ], "prob": 50 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_kreck_death_drops",
+    "subtype": "collection",
+    "entries": [ { "item": "vertigon", "count": [ 1, 1 ], "prob": 50 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_gracke_death_drops",
+    "subtype": "collection",
+    "entries": [ { "item": "vertigon", "count": [ 1, 1 ], "prob": 50 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_blank_death_drops",
+    "subtype": "collection",
+    "entries": [ { "item": "vertigon", "count": [ 1, 1 ], "prob": 50 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_darkman_death_drops",
+    "subtype": "collection",
+    "entries": [ { "item": "vertigon", "count": [ 2, 4 ], "prob": 50 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_breather_hub_death_drops",
+    "subtype": "collection",
+    "entries": [ { "item": "vertigon", "count": [ 2, 4 ], "prob": 50 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_shoggoth_death_drops",
+    "subtype": "collection",
+    "entries": [ { "item": "vertigon", "count": [ 2, 4 ], "prob": 50 } ]
+  },
+  {
+    "id": "mon_dementia_death_drops",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [ { "item": "vertigon", "count": [ 1, 1 ], "prob": 25 } ]
+  },
+  {
+    "id": "mon_homunculus_death_drops",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [ { "item": "vertigon", "count": [ 1, 1 ], "prob": 25 } ]
+  },
+  {
+    "id": "mon_blood_sacrifice_death_drops",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [ { "item": "vertigon", "count": [ 1, 1 ], "prob": 25 } ]
+  },
+  {
+    "id": "mon_flesh_angel_death_drops",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [ { "item": "vertigon", "count": [ 2, 4 ], "prob": 50 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_zombie_conjoiner_death_drops",
+    "subtype": "collection",
+    "entries": [ { "group": "mon_zombie_medical_death_drops" }, { "item": "vertigon", "count": [ 1, 1 ], "prob": 10 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_skeleton_hulk_death_drops",
+    "subtype": "collection",
+    "entries": [ { "group": "mon_zombie_hulk_death_drops" }, { "item": "vertigon", "count": [ 1, 1 ], "prob": 10 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_wolf_mutant_huge_death_drops",
+    "subtype": "collection",
+    "entries": [ { "item": "vertigon", "count": [ 1, 1 ], "prob": 10 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_zombie_stormbringer_death_drops",
+    "subtype": "collection",
+    "entries": [ { "group": "default_zombie_death_drops" }, { "item": "vertigon", "count": [ 1, 1 ], "prob": 10 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_mothman_death_drops",
+    "subtype": "collection",
+    "entries": [ { "item": "vertigon", "count": [ 2, 4 ], "prob": 50 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_hound_tindalos_death_drops",
+    "subtype": "collection",
+    "entries": [ { "item": "vertigon", "count": [ 2, 4 ], "prob": 50 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "mon_jabberwock_death_drops",
+    "subtype": "collection",
+    "//": "Blood essence, plus a completely random monsterpart.  Could be from some unlucky part of the body assembly, or from something it hunted.",
+    "entries": [ { "item": "vertigon", "count": [ 1, 1 ], "prob": 10 } ]
+  }
+]

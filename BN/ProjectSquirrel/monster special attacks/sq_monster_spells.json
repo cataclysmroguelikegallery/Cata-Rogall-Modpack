@@ -1,0 +1,197 @@
+[
+  {
+    "id": "fd_blizzard",
+    "type": "field_type",
+    "intensity_levels": [
+      { "name": "chilly mist", "sym": "8", "dangerous": true, "color": "light_cyan" },
+      { "name": "freezing fog", "color": "cyan", "translucency": 10 },
+      {
+        "name": "blizzard",
+        "color": "white",
+        "transparent": false,
+        "translucency": 0,
+        "effects": [
+          {
+            "effect_id": "frostbite",
+            "body_part": "torso",
+            "intensity": 1,
+            "min_duration": "5 seconds",
+            "max_duration": "5 seconds"
+          }
+        ]
+      }
+    ],
+    "decay_amount_factor": 50,
+    "gas_absorption_factor": 15,
+    "percent_spread": 66,
+    "outdoor_age_speedup": "30 minutes",
+    "underwater_age_speedup": "50 minutes",
+    "dirty_transparency_cache": true,
+    "priority": 8,
+    "half_life": "1 minutes",
+    "phase": "gas",
+    "display_items": false,
+    "display_field": true,
+    "looks_like": "fd_smoke"
+  },
+  {
+    "type": "emit",
+    "id": "emit_winter_waker_aura",
+    "field": "fd_cold_air4",
+    "qty": 5000,
+    "chance": 100
+  },
+  {
+    "type": "emit",
+    "id": "emit_winter_waker_blizzard",
+    "field": "fd_blizzard",
+    "qty": 60,
+    "chance": 100
+  },
+  {
+    "type": "SPELL",
+    "id": "frost_beast_summoning",
+    "name": { "str": "Shattered Mirror" },
+    "description": "Summons a weaker ice clone of itself.",
+    "flags": [ "HOSTILE_SUMMON", "NO_EXPLOSION_VFX", "RANDOM_DAMAGE", "RANDOM_DURATION" ],
+    "valid_targets": [ "ground", "self" ],
+    "min_damage": 1,
+    "max_damage": 2,
+    "min_range": 1,
+    "max_range": 8,
+    "min_aoe": 8,
+    "max_aoe": 8,
+    "base_casting_time": 3,
+    "min_duration": 3000,
+    "max_duration": 6000,
+    "effect": "summon",
+    "effect_str": "mon_frost_beast_clone"
+  },
+  {
+    "type": "SPELL",
+    "id": "spell_ice_blast",
+    "name": { "str": "Ice Blast" },
+    "description": "Shoots a blast of freezing ice.",
+    "valid_targets": [ "hostile" ],
+    "flags": [ "RANDOM_DAMAGE" ],
+    "effect": "line_attack",
+    "damage_type": "cold",
+    "min_damage": 5,
+    "max_damage": 15,
+    "min_range": 12,
+    "max_range": 12,
+    "sprite": "fd_blizzard",
+    "field_id": "fd_blizzard",
+    "field_chance": 1,
+    "min_field_intensity": 1,
+    "max_field_intensity": 1,
+    "base_casting_time": 150
+  },
+  {
+    "id": "fd_frostfire",
+    "looks_like": "fd_plasma",
+    "type": "field_type",
+    "legacy_enum_id": 10,
+    "intensity_levels": [
+      {
+        "name": "small frost flare",
+        "sym": "4",
+        "color": "light_cyan",
+        "dangerous": true,
+        "light_emitted": 20,
+        "light_color": "#aaffff",
+        "translucency": 0.7,
+        "convection_temperature_mod": -150,
+        "effects": [
+          {
+            "effect_id": "frostbite",
+            "body_part": "torso",
+            "intensity": 3,
+            "min_duration": "15 seconds",
+            "max_duration": "15 seconds"
+          }
+        ]
+      },
+      { "name": "frost fire", "color": "cyan", "light_emitted": 60, "light_color": "#55ffff", "translucency": 0.4 },
+      {
+        "name": "raging frost fire",
+        "color": "blue",
+        "light_emitted": 160,
+        "light_color": "#00ffff",
+        "translucency": 0.1
+      }
+    ],
+    "description_affix": "on",
+    "decay_amount_factor": 3,
+    "priority": 9,
+    "half_life": "1 minutes",
+    "phase": "plasma",
+    "stacking_type": "duration",
+    "display_items": false,
+    "display_field": true
+  },
+  {
+    "id": "FROSTFIRE_AOE",
+    "type": "ammo_effect",
+    "trail": { "field_type": "fd_frostfire", "intensity_min": 1, "intensity_max": 1, "chance": 80 },
+    "aoe": { "field_type": "fd_blizzard", "intensity_min": 1, "intensity_max": 1, "radius": 1, "chance": 80 },
+    "explosion": { "fragment": { "impact": { "damage_type": "cut", "amount": 18 }, "range": 1 } }
+  },
+  {
+    "id": "monster_frostgun_fake",
+    "weapon_category": [ "SUBMACHINE_GUNS" ],
+    "type": "GUN",
+    "copy-from": "fake_item",
+    "name": { "str": "frost submachinegun" },
+    "description": "Used to give frost-submachinegun-shooting monster a specific degree of inaccuracy. If you encounter one of these in the wild, it's a bug.",
+    "ammo_effects": [ "NEVER_MISFIRES" ],
+    "flags": [ "NEVER_JAMS" ],
+    "skill": "smg",
+    "durability": 10,
+    "range": 16,
+    "dispersion": 5000,
+    "sight_dispersion": 600,
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "burst", 3 ] ],
+    "ranged_damage": { "damage_type": "cold", "amount": 8, "armor_penetration": 5 }
+  },
+  {
+    "id": "monster_frostfire_fake",
+    "weapon_category": [ "FLAMETHROWERS" ],
+    "type": "GUN",
+    "copy-from": "fake_item",
+    "name": { "str": "frost fire breath" },
+    "description": "Used to give ice-breathing bosses a specific degree of inaccuracy. If you encounter one of these in the wild, it's a bug.",
+    "ammo_effects": [ "NEVER_MISFIRES", "FROSTFIRE_AOE" ],
+    "flags": [ "NEVER_JAMS" ],
+    "skill": "pistol",
+    "durability": 10,
+    "range": 16,
+    "dispersion": 12000,
+    "sight_dispersion": 2000,
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "burst", 3 ] ],
+    "ranged_damage": { "damage_type": "cold", "amount": 9, "armor_penetration": 5 }
+  },
+  {
+    "type": "SPELL",
+    "id": "spell_permafrost_wind",
+    "name": { "str": "Permafrost Wind" },
+    "description": "Unleashes bone-chilling wind of absolute zero temperatures.",
+    "sprite": "fd_blizzard",
+    "effect": "cone_attack",
+    "valid_targets": [ "hostile", "ground", "none" ],
+    "flags": [ "RANDOM_DAMAGE" ],
+    "affected_body_parts": [ "HEAD", "TORSO", "MOUTH", "EYES", "ARM_L", "ARM_R", "HAND_R", "HAND_L", "LEG_L", "FOOT_L", "FOOT_R" ],
+    "damage_type": "cold",
+    "min_damage": 9,
+    "max_damage": 15,
+    "min_range": 3,
+    "max_range": 3,
+    "min_aoe": 360,
+    "max_aoe": 360,
+    "field_id": "fd_blizzard",
+    "field_chance": 2,
+    "min_field_intensity": 1,
+    "max_field_intensity": 1,
+    "base_casting_time": 150
+  }
+]
