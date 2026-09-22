@@ -4,7 +4,6 @@
     "type": "GUN",
     "skill": "pistol",
     "weapon_category": [ "PISTOLS" ],
-    "reload_noise_volume": 0,
     "name": { "str": "트리플 액션 썬더" },
     "symbol": "]",
     "looks_like": "rm103a_pistol",
