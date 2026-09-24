@@ -6,7 +6,7 @@
     "name": { "str": "RM13 combat armor" },
     "copy-from": "rm13_armor",
     "ammo":"battery",
-    "extend": { "flags": [ "NO_RELOAD", "NO_UNLOAD", "WATER_FRIENDLY" ] },
+    "extend": { "flags": [ "USE_UPS", "NO_RELOAD", "NO_UNLOAD", "WATER_FRIENDLY" ] },
     "relic_data": { 
       "passive_effects": [ { "has": "WORN", "condition": "ACTIVE", "values": [ { "value": "STRENGTH", "add": 2 } ] } ],
       "recharge_scheme": [ { "type": "time", "interval": "12 m", "rate": 60 } ] }
@@ -18,7 +18,7 @@
     "ammo":"battery",
     "name": { "str": "RM13 combat armor (on)", "str_pl": "RM13 combat armors (on)" },
     "copy-from": "rm13_armor_on",
-    "extend": { "flags": [ "NO_RELOAD", "NO_UNLOAD", "WATER_FRIENDLY" ] },
+    "extend": { "flags": [ "USE_UPS", "NO_RELOAD", "NO_UNLOAD", "WATER_FRIENDLY" ] },
     "relic_data": { 
       "passive_effects": [ { "has": "WORN", "condition": "ACTIVE", "values": [ { "value": "STRENGTH", "add": 2 } ] } ],
       "recharge_scheme": [ { "type": "time", "interval": "12 m", "rate": 60 } ] }
