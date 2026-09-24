@@ -1,0 +1,9 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "dogmeat_mod",
+    "name": "Dogmeat's Convenience",
+    "description": "Several modifications for convinient gameplay.",
+    "dependencies": [ "bn" ]
+  }
+]

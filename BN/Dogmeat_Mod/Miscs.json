@@ -1,0 +1,46 @@
+[
+  {
+    "type": "vehicle_part",
+    "id": "airship_balloon",
+    "name": { "str": "airship balloon" },
+    "copy-from": "airship_balloon",
+    "height": 100
+  },
+  {
+    "type": "vehicle_part",
+    "id": "airship_balloon_external",
+    "name": { "str": "external airship balloon" },
+    "copy-from": "airship_balloon_external",
+    "height": 100
+  },
+  {
+    "id": "hovercraft_section",
+    "type": "vehicle_part",
+    "name": { "str": "hovercraft impeller" },
+    "copy-from": "hovercraft_section",
+    "contact_area": 80,
+    "extend": { "flags": [ "TRAP_PROOF" ] }
+  },
+  {
+    "id": "tihar",
+    "copy-from": "tihar",
+    "type": "GUN",
+    "name": { "str": "pneumatic assault rifle" },
+    "ammo": [ "pebble", "nail", "BB", "paintball" ]
+  },
+  {
+    "id": "hat_noise_cancelling",
+    "type": "ARMOR",
+    "name": { "str": "noise canceling headgear" },
+    "copy-from": "hat_noise_cancelling",
+    "extend": { "flags": [ "DEAF" ] }
+  },
+  {
+    "id": "throwing_knife",
+    "type": "GENERIC",
+    "name": { "str": "throwing knife", "str_pl": "throwing knives" },
+    "copy-from": "throwing_knife",
+    "thrown_damage": [ { "damage_type": "stab", "amount": 18, "armor_penetration": 12 } ],
+    "weight": "518g"
+  }
+]

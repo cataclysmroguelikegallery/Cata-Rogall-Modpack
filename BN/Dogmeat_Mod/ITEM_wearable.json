@@ -1,0 +1,63 @@
+[
+  {
+    "id": "jumper_cable",
+    "type": "TOOL_ARMOR",
+    "category": "tools",
+    "name": { "str": "jumper cable" },
+    "copy-from": "jumper_cable",
+    "armor_data": { "covers": [ "torso" ], "coverage": 5, "encumbrance": 0, "material_thickness": 1 },
+    "extend": { "flags": [ "COMPACT" ] }
+  },
+  {
+    "id": "jumper_cable_heavy",
+    "type": "TOOL_ARMOR",
+    "category": "tools",
+    "name": { "str": "heavy-duty cable" },
+    "copy-from": "jumper_cable_heavy",
+    "armor_data": { "covers": [ "torso" ], "coverage": 5, "encumbrance": 4, "material_thickness": 3 },
+    "extend": { "flags": [ "COMPACT" ] }
+  },
+  {
+    "id": "grapnel",
+    "type": "TOOL_ARMOR",
+    "category": "tools",
+    "name": { "str": "grappling hook" },
+    "copy-from": "grapnel",
+    "armor_data": { "covers": [ "torso" ], "coverage": 10, "encumbrance": 5, "material_thickness": 6 },
+    "extend": { "flags": [ "MOLLE", "DURABLE_MELEE", "NONCONDUCTIVE", "COMPACT", "REACH_ATTACK", "REACH3" ] }
+  },
+  {
+    "id": "adv_UPS_off",
+    "type": "TOOL_ARMOR",
+    "category": "tools",
+    "name": { "str": "advanced UPS", "str_pl": "advanced UPS's" },
+    "copy-from": "adv_UPS_off",
+    "armor_data": { "covers": [ "leg_either" ], "coverage": 5, "encumbrance": 2, "material_thickness": 1 },
+    "extend": { "flags": [ "WAIST" ] }
+  },
+  {
+    "id": "UPS_off",
+    "type": "TOOL_ARMOR",
+    "category": "tools",
+    "name": { "str": "UPS", "str_pl": "UPS's" },
+    "copy-from": "UPS_off",
+    "armor_data": { "covers": [ "leg_either" ], "coverage": 5, "encumbrance": 2, "material_thickness": 1 },
+    "extend": { "flags": [ "WAIST" ] }
+  },
+  {
+    "id": "mp3",
+    "type": "TOOL_ARMOR",
+    "category": "tools",
+    "name": { "str": "mp3 player (off)", "str_pl": "mp3 players (off)" },
+    "copy-from": "mp3",
+    "armor_data": { "coverage": 5, "encumbrance": 0, "material_thickness": 1 }
+  },
+  {
+    "id": "mp3_on",
+    "type": "TOOL_ARMOR",
+    "category": "tools",
+    "name": { "str": "mp3 player (on)", "str_pl": "mp3 players (on)" },
+    "copy-from": "mp3_on",
+    "armor_data": { "coverage": 5, "encumbrance": 0, "material_thickness": 1 }
+  }
+]

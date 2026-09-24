@@ -1,0 +1,42 @@
+[
+  {
+    "id": "rm13_armor",
+    "type": "TOOL_ARMOR",
+    "category": "clothing",
+    "name": { "str": "RM13 combat armor" },
+    "copy-from": "rm13_armor",
+    "ammo":"battery",
+    "extend": { "flags": [ "NO_RELOAD", "NO_UNLOAD", "WATER_FRIENDLY" ] },
+    "relic_data": { 
+      "passive_effects": [ { "has": "WORN", "condition": "ACTIVE", "values": [ { "value": "STRENGTH", "add": 2 } ] } ],
+      "recharge_scheme": [ { "type": "time", "interval": "12 m", "rate": 60 } ] }
+  },
+  {
+    "id": "rm13_armor_on",
+    "type": "TOOL_ARMOR",
+    "category": "clothing",
+    "ammo":"battery",
+    "name": { "str": "RM13 combat armor (on)", "str_pl": "RM13 combat armors (on)" },
+    "copy-from": "rm13_armor_on",
+    "extend": { "flags": [ "NO_RELOAD", "NO_UNLOAD", "WATER_FRIENDLY" ] },
+    "relic_data": { 
+      "passive_effects": [ { "has": "WORN", "condition": "ACTIVE", "values": [ { "value": "STRENGTH", "add": 2 } ] } ],
+      "recharge_scheme": [ { "type": "time", "interval": "12 m", "rate": 60 } ] }
+  },
+  {
+    "id": "exosuit_survivor",
+    "type": "TOOL_ARMOR",
+    "category": "armor",
+    "name": { "str": "survivor armored exo-suit" },
+    "copy-from": "exosuit_survivor",
+    "coverage": 100
+  },
+  {
+    "id": "exosuit_survivor_on",
+    "repairs_like": "exosuit_survivor",
+    "type": "TOOL_ARMOR",
+    "name": { "str_sp": "survivor armored exo-suit (active)" },
+    "copy-from": "exosuit_survivor_on",
+    "coverage": 100
+  }
+]

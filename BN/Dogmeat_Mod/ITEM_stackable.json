@@ -1,0 +1,394 @@
+[
+  {
+    "id": "pinecone",
+    "type": "GENERIC",
+    "name": { "str": "pinecone" },
+    "copy-from": "pinecone",
+    "stackable": true
+  },
+  {
+    "id": "pine_bough",
+    "type": "GENERIC",
+    "name": { "str": "pine bough" },
+    "copy-from": "pine_bough",
+    "stackable": true
+  },
+  {
+    "id": "poppy_bud",
+    "type": "GENERIC",
+    "name": { "str": "poppy bud" },
+    "copy-from": "poppy_bud",
+    "stackable": true
+  },
+  {
+    "id": "sunflower",
+    "type": "GENERIC",
+    "name": { "str": "sunflower" },
+    "copy-from": "sunflower",
+    "stackable": true
+  },
+  {
+    "id": "chamomile",
+    "type": "GENERIC",
+    "name": { "str_sp": "chamomile flowers" },
+    "copy-from": "chamomile",
+    "stackable": true
+  },
+  {
+    "id": "lotus",
+    "type": "GENERIC",
+    "name": { "str": "lotus flower" },
+    "copy-from": "lotus",
+    "stackable": true
+  },
+  {
+    "id": "spurge",
+    "type": "GENERIC",
+    "name": { "str_sp": "spurge flowers" },
+    "copy-from": "spurge",
+    "stackable": true
+  },
+  {
+    "id": "hickory_root",
+    "type": "GENERIC",
+    "name": { "str": "hickory root" },
+    "copy-from": "hickory_root",
+    "stackable": true
+  },
+  {
+    "id": "cig_butt",
+    "type": "GENERIC",
+    "name": { "str": "cigarette butt" },
+    "copy-from": "cig_butt",
+    "stackable": true
+  },
+  {
+    "id": "tanbark",
+    "type": "GENERIC",
+    "name": { "str_sp": "tanbark" },
+    "copy-from": "tanbark",
+    "stackable": true
+  },
+  {
+    "id": "birchbark",
+    "type": "GENERIC",
+    "name": { "str": "birchbark" },
+    "copy-from": "birchbark",
+    "stackable": true
+  },
+  {
+    "id": "willowbark",
+    "type": "GENERIC",
+    "name": { "str_sp": "willowbark" },
+    "copy-from": "willowbark",
+    "stackable": true
+  },
+  {
+    "id": "alloy_sheet",
+    "type": "GENERIC",
+    "name": { "str": "superalloy sheet" },
+    "copy-from": "alloy_sheet",
+    "stackable": true
+  },
+  {
+    "id": "material_aluminium_ingot",
+    "type": "GENERIC",
+    "name": { "str": "aluminum ingot" },
+    "copy-from": "material_aluminium_ingot",
+    "stackable": true
+  },
+  {
+    "id": "cu_pipe",
+    "type": "GENERIC",
+    "name": { "str": "copper tubing" },
+    "copy-from": "cu_pipe",
+    "stackable": true
+  },
+  {
+    "id": "blank_card",
+    "type": "GENERIC",
+    "name": { "str": "blank card" },
+    "copy-from": "blank_card",
+    "stackable": true
+  },
+  {
+    "id": "spike",
+    "type": "GENERIC",
+    "name": { "str": "spike" },
+    "copy-from": "spike",
+    "stackable": true
+  },
+  {
+    "id": "blade",
+    "type": "GENERIC",
+    "name": { "str": "blade" },
+    "copy-from": "blade",
+    "stackable": true
+  },
+  {
+    "id": "solar_cell",
+    "type": "GENERIC",
+    "name": { "str": "solar cell" },
+    "copy-from": "solar_cell",
+    "stackable": true
+  },
+  {
+    "id": "clockworks",
+    "type": "GENERIC",
+    "name": { "str": "clockworks" },
+    "copy-from": "clockworks",
+    "stackable": true
+  },
+  {
+    "id": "spring",
+    "type": "GENERIC",
+    "name": { "str": "spring" },
+    "copy-from": "spring",
+    "stackable": true
+  },
+  {
+    "id": "steel_armor",
+    "type": "GENERIC",
+    "name": { "str": "steel armor plate" },
+    "copy-from": "steel_armor",
+    "stackable": true
+  },
+  {
+    "id": "lock",
+    "type": "GENERIC",
+    "name": { "str": "small lock and key", "str_pl": "small locks and keys" },
+    "copy-from": "lock",
+    "stackable": true
+  },
+  {
+    "id": "ai_module",
+    "type": "GENERIC",
+    "name": { "str": "AI core" },
+    "copy-from": "ai_module",
+    "stackable": true
+  },
+  {
+    "id": "ai_module_basic",
+    "type": "GENERIC",
+    "name": { "str": "basic AI core" },
+    "copy-from": "ai_module_basic",
+    "stackable": true
+  },
+  {
+    "id": "ai_module_advanced",
+    "type": "GENERIC",
+    "name": { "str": "advanced AI core" },
+    "copy-from": "ai_module_advanced",
+    "stackable": true
+  },
+  {
+    "id": "targeting_module",
+    "type": "GENERIC",
+    "name": { "str": "targeting module" },
+    "copy-from": "targeting_module",
+    "stackable": true
+  },
+  {
+    "id": "identification_module",
+    "type": "GENERIC",
+    "name": { "str": "identification module" },
+    "copy-from": "identification_module",
+    "stackable": true
+  },
+  {
+    "id": "pathfinding_module",
+    "type": "GENERIC",
+    "name": { "str": "pathfinding module" },
+    "copy-from": "pathfinding_module",
+    "stackable": true
+  },
+  {
+    "id": "memory_module",
+    "type": "GENERIC",
+    "name": { "str": "memory banks module" },
+    "copy-from": "memory_module",
+    "stackable": true
+  },
+  {
+    "id": "sensor_module",
+    "type": "GENERIC",
+    "name": { "str": "sensor array" },
+    "copy-from": "sensor_module",
+    "stackable": true
+  },
+  {
+    "id": "self_monitoring_module",
+    "type": "GENERIC",
+    "name": { "str": "self monitoring sensors" },
+    "copy-from": "self_monitoring_module",
+    "stackable": true
+  },
+  {
+    "id": "gun_module",
+    "type": "GENERIC",
+    "name": { "str": "gun operating system" },
+    "copy-from": "gun_module",
+    "stackable": true
+  },
+  {
+    "id": "RAM",
+    "type": "GENERIC",
+    "name": { "str": "RAM" },
+    "copy-from": "RAM",
+    "stackable": true
+  },
+  {
+    "id": "laser_source",
+    "type": "GENERIC",
+    "name": { "str": "industrial laser" },
+    "copy-from": "laser_source",
+    "stackable": true
+  },
+  {
+    "id": "processor",
+    "type": "GENERIC",
+    "name": { "str": "processor board" },
+    "copy-from": "processor",
+    "stackable": true
+  },
+  {
+    "id": "power_supply",
+    "type": "GENERIC",
+    "name": { "str": "power converter" },
+    "copy-from": "power_supply",
+    "stackable": true
+  },
+  {
+    "id": "amplifier",
+    "type": "GENERIC",
+    "name": { "str": "amplifier circuit" },
+    "copy-from": "amplifier",
+    "stackable": true
+  },
+  {
+    "id": "transponder",
+    "type": "GENERIC",
+    "name": { "str": "transponder circuit" },
+    "copy-from": "transponder",
+    "stackable": true
+  },
+  {
+    "id": "receiver",
+    "type": "GENERIC",
+    "name": { "str": "signal receiver" },
+    "copy-from": "receiver",
+    "stackable": true
+  },
+  {
+    "id": "small_lcd_screen",
+    "type": "GENERIC",
+    "name": { "str": "small LCD screen" },
+    "copy-from": "small_lcd_screen",
+    "stackable": true
+  },
+  {
+    "id": "lens",
+    "type": "GENERIC",
+    "name": { "str": "high-quality lens" },
+    "copy-from": "lens",
+    "stackable": true
+  },
+  {
+    "id": "lens_small",
+    "type": "GENERIC",
+    "name": { "str": "small high-quality lens" },
+    "copy-from": "lens_small",
+    "stackable": true
+  },
+  {
+    "id": "glass_tinted",
+    "type": "GENERIC",
+    "name": { "str": "pair of tinted glass", "str_pl": "pairs of tinted glass" },
+    "copy-from": "glass_tinted",
+    "stackable": true
+  },
+  {
+    "id": "burnt_out_bionic",
+    "type": "GENERIC",
+    "name": { "str": "burnt out bionic" },
+    "copy-from": "burnt_out_bionic",
+    "stackable": true
+  },
+  {
+    "id": "antenna",
+    "type": "GENERIC",
+    "name": { "str": "antenna" },
+    "copy-from": "antenna",
+    "stackable": true
+  },
+  {
+    "id": "motor_micro",
+    "type": "GENERIC",
+    "name": { "str": "micro motor" },
+    "copy-from": "motor_micro",
+    "stackable": true
+  },
+  {
+    "id": "circuit",
+    "type": "GENERIC",
+    "name": { "str": "circuit board" },
+    "copy-from": "circuit",
+    "stackable": true
+  },
+  {
+    "id": "element",
+    "type": "GENERIC",
+    "name": { "str": "heating element" },
+    "copy-from": "element",
+    "stackable": true
+  },
+  {
+    "id": "light_bulb",
+    "type": "GENERIC",
+    "name": { "str": "light bulb" },
+    "copy-from": "light_bulb",
+    "stackable": true
+  },
+  {
+    "id": "pilot_light",
+    "type": "GENERIC",
+    "name": { "str": "pilot light" },
+    "copy-from": "pilot_light",
+    "stackable": true
+  },
+  {
+    "id": "delay_fuze",
+    "type": "GENERIC",
+    "name": { "str": "delayed fuze" },
+    "copy-from": "delay_fuze",
+    "stackable": true
+  },
+  {
+    "id": "impact_fuze",
+    "type": "GENERIC",
+    "name": { "str": "impact fuze" },
+    "copy-from": "impact_fuze",
+    "stackable": true
+  },
+  {
+    "id": "straw_pile",
+    "type": "GENERIC",
+    "name": { "str": "pile of straw", "str_pl": "piles of straw" },
+    "copy-from": "straw_pile",
+    "stackable": true
+  },
+  {
+    "id": "withered",
+    "type": "GENERIC",
+    "name": { "str": "withered plant" },
+    "copy-from": "withered",
+    "stackable": true
+  },
+  {
+    "id": "sharp_rock",
+    "type": "GENERIC",
+    "name": { "str": "sharp rock" },
+    "copy-from": "sharp_rock",
+    "stackable": true
+  }
+]

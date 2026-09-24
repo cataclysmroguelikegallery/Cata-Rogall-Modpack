@@ -1,0 +1,175 @@
+[
+  {
+    "id": "MOLLE",
+    "type": "json_flag",
+    "context": [ "GENERIC" ],
+    "info": "This item can be attached to a <info>molle</info> of the appropriate size."
+  },
+  {
+    "id": "mop",
+    "type": "GENERIC",
+    "name": { "str": "mop" },
+    "copy-from": "mop",
+    "extend": { "flags": [ "SHEATH_SPEAR", "REACH_ATTACK" ] }
+  },
+  {
+    "id": "mop_folded",
+    "type": "TOOL",
+    "name": { "str": "collapsible mop" },
+    "copy-from": "mop_folded",
+    "extend": { "flags": [ "BELT_CLIP" ] }
+  },
+  {
+    "id": "eink_tablet_pc",
+    "type": "TOOL",
+    "name": { "str": "e-ink tablet PC" },
+    "copy-from": "eink_tablet_pc",
+    "extend": { "flags": [ "BELT_CLIP" ] }
+  },
+  {
+    "id": "hammer_sledge",
+    "type": "GENERIC",
+    "name": { "str": "sledge hammer" },
+    "copy-from": "hammer_sledge",
+    "extend": { "flags": [ "BELT_CLIP" ] }
+  },
+  {
+    "id": "hammer_sledge_short",
+    "type": "GENERIC",
+    "name": { "str": "short sledge hammer" },
+    "copy-from": "hammer_sledge_short",
+    "extend": { "flags": [ "BELT_CLIP" ] }
+  },
+  {
+    "id": "hammer_sledge_heavy",
+    "type": "GENERIC",
+    "name": { "str": "heavy sledge hammer" },
+    "copy-from": "hammer_sledge_heavy",
+    "extend": { "flags": [ "BELT_CLIP" ] }
+  },
+  {
+    "id": "toolbox",
+    "type": "GENERIC",
+    "name": { "str": "toolbox", "str_pl": "toolboxes" },
+    "copy-from": "toolbox",
+    "extend": { "flags": [ "MOLLE" ] }
+  },
+  {
+    "id": "toolbox_workshop",
+    "type": "GENERIC",
+    "name": { "str": "workshop toolbox", "str_pl": "workshop toolboxes" },
+    "copy-from": "toolbox_workshop",
+    "extend": { "flags": [ "MOLLE" ] }
+  },
+  {
+    "id": "hose",
+    "type": "GENERIC",
+    "name": { "str": "rubber hose" },
+    "copy-from": "hose",
+    "extend": { "flags": [ "BELT_CLIP", "MOLLE" ] }
+  },
+  {
+    "id": "fishing_rod_basic",
+    "type": "GENERIC",
+    "category": "tools",
+    "name": { "str": "basic fishing rod" },
+    "copy-from": "fishing_rod_basic",
+    "extend": { "flags": [ "MOLLE", "BELT_CLIP" ] }
+  },
+  {
+    "id": "fishing_rod_professional",
+    "type": "GENERIC",
+    "category": "tools",
+    "name": { "str": "pro fishing rod" },
+    "copy-from": "fishing_rod_professional",
+    "extend": { "flags": [ "MOLLE", "BELT_CLIP" ] }
+  },
+  {
+    "id": "survivor_belt_notools",
+    "type": "ARMOR",
+    "name": { "str": "survivor belt" },
+    "copy-from": "survivor_belt_notools",
+    "use_action": {
+      "type": "holster",
+      "holster_prompt": "Store tool or blade",
+      "holster_msg": "You put your %1$s in your %2$s",
+      "multi": 6,
+      "min_volume": "40 ml",
+      "max_volume": "2000 ml",
+      "max_weight": "4000 g",
+      "flags": [ "BELT_CLIP", "SHEATH_KNIFE", "SHEATH_SWORD", "MAG_COMPACT" ],
+	     "skills": [ "pistol" ]
+    },
+    "encumbrance": 0,
+    "max_encumbrance": 0
+  },
+  {
+    "id": "molle_pack",
+    "repairs_like": "bigback",
+    "type": "ARMOR",
+    "name": { "str": "MOLLE pack" },
+    "copy-from": "molle_pack",
+    "use_action": {
+      "type": "holster",
+      "holster_prompt": "Attach what to holder?",
+      "holster_msg": "You attach your %s to your %s.",
+      "multi": 6,
+      "min_volume": "1 ml",
+      "max_volume": "10000 ml",
+      "draw_cost": 200,
+      "flags": [ "MOLLE", "BELT_CLIP", "SHEATH_KNIFE", "SHEATH_SWORD", "SHEATH_AXE", "SHEATH_SPEAR", "MAG_COMPACT", "MAG_BULKY", "SPEEDLOADER"  ],
+	  "skills": [ "archery", "pistol", "rifle", "smg", "launcher", "shotgun" ]
+    }
+  },
+  {
+    "id": "survivor_pack",
+    "type": "ARMOR",
+    "name": { "str": "survivor MOLLE pack" },
+    "copy-from": "survivor_pack",
+    "use_action": {
+      "type": "holster",
+      "holster_prompt": "Attach what to holder?",
+      "holster_msg": "You attach your %s to your %s.",
+      "multi": 8,
+      "min_volume": "1 ml",
+      "max_volume": "100000 ml",
+      "draw_cost": 200,
+      "flags": [ "MOLLE", "BELT_CLIP", "SHEATH_KNIFE", "SHEATH_SWORD", "SHEATH_AXE", "SHEATH_SPEAR", "MAG_COMPACT", "MAG_BULKY", "SPEEDLOADER"  ],
+	  "skills": [ "archery", "pistol", "rifle", "smg", "launcher", "shotgun" ]
+    }
+  },
+  {
+    "id": "power_armor_frame",
+    "type": "TOOL_ARMOR",
+    "name": { "str": "power armor hauling frame" },
+    "copy-from": "power_armor_frame",
+    "use_action": {
+      "type": "holster",
+      "holster_prompt": "Attach what to holder?",
+      "holster_msg": "You attach your %s to your %s.",
+      "multi": 10,
+      "min_volume": "1 ml",
+      "max_volume": "10000 ml",
+      "draw_cost": 200,
+      "flags": [ "MOLLE", "BELT_CLIP", "SHEATH_KNIFE", "SHEATH_SWORD", "SHEATH_AXE", "SHEATH_SPEAR", "MAG_COMPACT", "MAG_BULKY", "SPEEDLOADER"  ],
+	  "skills": [ "archery", "pistol", "rifle", "smg", "launcher", "shotgun" ]
+    }
+  },
+  {
+    "id": "heavy_power_armor_frame",
+    "type": "TOOL_ARMOR",
+    "name": { "str": "advanced power armor hauling frame" },
+    "copy-from": "heavy_power_armor_frame",
+    "use_action": {
+      "type": "holster",
+      "holster_prompt": "Attach what to holder?",
+      "holster_msg": "You attach your %s to your %s.",
+      "multi": 10,
+      "min_volume": "1 ml",
+      "max_volume": "10000 ml",
+      "draw_cost": 200,
+      "flags": [ "MOLLE", "BELT_CLIP", "SHEATH_KNIFE", "SHEATH_SWORD", "SHEATH_AXE", "SHEATH_SPEAR", "MAG_COMPACT", "MAG_BULKY", "SPEEDLOADER"  ],
+	  "skills": [ "archery", "pistol", "rifle", "smg", "launcher", "shotgun" ]
+    }
+  }
+]

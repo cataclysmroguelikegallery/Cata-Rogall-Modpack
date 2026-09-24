@@ -1,9 +1,0 @@
-[
-  {
-    "type": "MOD_INFO",
-    "id": "dogmeat_mod",
-    "name": "도그밋의 인벤토리",
-    "description": "도그밋의 인벤토리",
-    "dependencies": [ "bn" ]
-  }
-]

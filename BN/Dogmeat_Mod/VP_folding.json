@@ -1,0 +1,53 @@
+[
+  {
+    "id": "crane_medium",
+    "type": "vehicle_part",
+    "name": { "str": "boom crane" },
+    "copy-from": "crane_medium",
+    "folded_volume": "250ml",
+    "extend": { "flags": [ "FOLDABLE" ] }
+  },
+  {
+    "id": "autodoc",
+    "type": "vehicle_part",
+    "name": { "str": "autodoc" },
+    "copy-from": "autodoc",
+    "folded_volume": "250ml",
+    "extend": { "flags": [ "FOLDABLE" ] }
+  },
+  {
+    "id": "autodoc_couch",
+    "type": "vehicle_part",
+    "name": { "str": "autodoc couch" },
+    "copy-from": "autodoc_couch",
+    "folded_volume": "250ml",
+    "extend": { "flags": [ "FOLDABLE" ] }
+  },
+  {
+    "id": "workbench",
+    "type": "vehicle_part",
+    "name": { "str": "workbench" },
+    "copy-from": "workbench",
+    "folded_volume": "250ml",
+    "extend": { "flags": [ "FOLDABLE" ] },
+    "delete": { "flags": [ "OBSTACLE" ] }
+  },
+  {
+    "id": "survivors_workbench",
+    "type": "vehicle_part",
+    "name": { "str": "survivors workbench" },
+    "copy-from": "survivors_workbench",
+    "folded_volume": "250ml",
+    "extend": { "flags": [ "FOLDABLE" ] },
+    "delete": { "flags": [ "OBSTACLE" ] }
+  },
+  {
+    "id": "robobench",
+    "type": "vehicle_part",
+    "name": { "str": "robobench" },
+    "copy-from": "robobench",
+    "folded_volume": "250ml",
+    "extend": { "flags": [ "FOLDABLE" ] },
+    "delete": { "flags": [ "OBSTACLE" ] }
+  }
+]

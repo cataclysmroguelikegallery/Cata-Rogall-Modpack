@@ -1,0 +1,641 @@
+[
+  {
+    "id": "ammo_pouch",
+    "type": "ARMOR",
+    "name": { "str": "ammo satchel" },
+    "copy-from": "ammo_pouch",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true,
+    "extend": { "flags": [ "BELT_CLIP" ] }
+  },
+  {
+    "id": "ammo_satchel",
+    "type": "ARMOR",
+    "name": { "str": "magazine satchel" },
+    "copy-from": "ammo_satchel",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true
+  },
+  {
+    "id": "chestpouch",
+    "type": "ARMOR",
+    "name": { "str": "chest magazine pouch", "str_pl": "chest magazine pouches" },
+    "copy-from": "chestpouch",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true
+  },
+  {
+    "id": "chestrig",
+    "type": "ARMOR",
+    "name": { "str": "chest rig" },
+    "copy-from": "chestrig",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true
+  },
+  {
+    "id": "javelin_bag",
+    "type": "ARMOR",
+    "name": { "str": "javelin bag" },
+    "copy-from": "javelin_bag",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true
+  },
+  {
+    "id": "legpouch",
+    "type": "ARMOR",
+    "name": { "str": "ankle magazine pouch" },
+    "copy-from": "legpouch",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true
+  },
+  {
+    "id": "legpouch_large",
+    "type": "ARMOR",
+    "name": { "str": "leg magazine pouch", "str_pl": "leg magazine pouches" },
+    "copy-from": "legpouch_large",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true
+  },
+  {
+    "id": "mag_satchel_leg",
+    "type": "ARMOR",
+    "name": { "str": "leg magazine satchel" },
+    "copy-from": "mag_satchel_leg",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true
+  },
+  {
+    "id": "quiver",
+    "type": "ARMOR",
+    "name": { "str": "quiver" },
+    "copy-from": "quiver",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true,
+    "extend": { "flags": [ "BELT_CLIP" ] }
+  },
+  {
+    "id": "quiver_birchbark",
+    "type": "ARMOR",
+    "name": { "str": "birchbark quiver" },
+    "copy-from": "quiver_birchbark",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true
+  },
+  {
+    "id": "quiver_large",
+    "type": "ARMOR",
+    "name": { "str": "large quiver" },
+    "copy-from": "quiver_large",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true,
+    "extend": { "flags": [ "MOLLE" ] }
+  },
+  {
+    "id": "quiver_large_birchbark",
+    "type": "ARMOR",
+    "name": { "str": "large birchbark quiver" },
+    "copy-from": "quiver_large_birchbark",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true
+  },
+  {
+    "id": "quiver_atlatl",
+    "type": "ARMOR",
+    "name": { "str": "atlatl dart quiver" },
+    "copy-from": "quiver_atlatl",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true,
+    "extend": { "flags": [ "MOLLE" ] }
+  },
+  {
+    "id": "quiver_birchbark_atlatl",
+    "type": "ARMOR",
+    "name": { "str": "birchbark atlatl dart quiver" },
+    "copy-from": "quiver_birchbark_atlatl",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true
+  },
+  {
+    "id": "tacvest",
+    "type": "ARMOR",
+    "name": { "str": "tac vest" },
+    "copy-from": "tacvest",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true
+  },
+  {
+    "id": "ammo_satchel_leg",
+    "type": "ARMOR",
+    "name": { "str": "leg ammo satchel" },
+    "copy-from": "ammo_satchel_leg",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true
+  },
+  {
+    "id": "shoulder_pouch",
+    "type": "ARMOR",
+    "name": { "str": "shoulder magazine pouch", "str_pl": "shoulder magazine pouches" },
+    "copy-from": "shoulder_pouch",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true
+  },
+  {
+    "id": "bandolier_pistol",
+    "type": "ARMOR",
+    "name": { "str": "pistol bandolier" },
+    "copy-from": "bandolier_pistol",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true
+  },
+  {
+    "id": "bandolier_rifle",
+    "type": "ARMOR",
+    "name": { "str": "rifle bandolier" },
+    "copy-from": "bandolier_rifle",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true
+  },
+  {
+    "id": "bandolier_shotgun",
+    "type": "ARMOR",
+    "name": { "str": "waist shotgun bandolier" },
+    "copy-from": "bandolier_shotgun",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "use_action": { 
+       "type": "bandolier",
+       "capacity": 25,
+       "ammo": [ "410shot", "shot", "20x66mm", "signal_flare", "shotcanister" ],
+       "draw_cost": 25
+       },
+    "rigid": true
+  },
+  {
+    "id": "torso_bandolier_shotgun",
+    "type": "ARMOR",
+    "name": { "str": "torso shotgun bandolier" },
+    "copy-from": "torso_bandolier_shotgun",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "use_action": { 
+       "type": "bandolier",
+       "capacity": 50,
+       "ammo": [ "410shot", "shot", "20x66mm", "signal_flare", "shotcanister" ],
+       "draw_cost": 35
+       },
+    "rigid": true
+  },
+  {
+    "id": "flintlock_pouch",
+    "type": "ARMOR",
+    "name": { "str": "paper cartridge pouch", "str_pl": "paper cartridge pouches" },
+    "copy-from": "flintlock_pouch",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true,
+    "extend": { "flags": [ "BELT_CLIP" ] }
+  },
+  {
+    "id": "bandolier_wrist",
+    "type": "ARMOR",
+    "name": { "str": "wrist bandolier" },
+    "copy-from": "bandolier_wrist",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true
+  },
+  {
+    "id": "grenade_pouch",
+    "type": "ARMOR",
+    "name": { "str": "grenade ammo pouch", "str_pl": "grenade ammo pouches" },
+    "copy-from": "grenade_pouch",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true
+  },
+  {
+    "id": "stone_pouch",
+    "type": "ARMOR",
+    "name": { "str": "stone pouch", "str_pl": "stone pouches" },
+    "copy-from": "stone_pouch",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true,
+    "extend": { "flags": [ "BELT_CLIP" ] }
+  },
+  {
+    "id": "grenadebandolier",
+    "type": "ARMOR",
+    "name": { "str": "hand grenade pouch", "str_pl": "hand grenade pouches" },
+    "copy-from": "grenadebandolier",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true
+  },
+  {
+    "id": "bandolier_grenade",
+    "type": "ARMOR",
+    "name": { "str": "grenade ammo bandolier" },
+    "copy-from": "bandolier_grenade",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true
+  },
+  {
+    "id": "bandolier_knife",
+    "type": "ARMOR",
+    "name": { "str": "throwing knife bandolier" },
+    "copy-from": "bandolier_knife",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true
+  },
+  {
+    "id": "back_holster",
+    "type": "ARMOR",
+    "name": { "str": "back holster" },
+    "copy-from": "back_holster",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true
+  },
+  {
+    "id": "bootstrap",
+    "type": "ARMOR",
+    "name": { "str": "ankle holster" },
+    "copy-from": "bootstrap",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true
+  },
+  {
+    "id": "wristholster",
+    "type": "ARMOR",
+    "name": { "str": "wrist holster" },
+    "copy-from": "wristholster",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true
+  },
+  {
+    "id": "bow_sling",
+    "type": "ARMOR",
+    "name": { "str": "bow sling" },
+    "copy-from": "bow_sling",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true
+  },
+  {
+    "id": "holster",
+    "type": "ARMOR",
+    "name": { "str": "holster" },
+    "copy-from": "holster",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true
+  },
+  {
+    "id": "sholster",
+    "type": "ARMOR",
+    "name": { "str": "fast draw holster" },
+    "copy-from": "sholster",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true
+  },
+  {
+    "id": "bholster",
+    "type": "ARMOR",
+    "name": { "str": "deep concealment holster" },
+    "copy-from": "bholster",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true
+  },
+  {
+    "id": "shoulder_holster",
+    "type": "ARMOR",
+    "name": { "str": "shoulder holster" },
+    "copy-from": "shoulder_holster",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true
+  },
+  {
+    "id": "survivor_vest",
+    "type": "ARMOR",
+    "name": { "str": "survivor harness", "str_pl": "survivor harnesses" },
+    "copy-from": "survivor_vest",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true
+  },
+  {
+    "id": "baldric_holster",
+    "type": "ARMOR",
+    "name": { "str": "baldric holster" },
+    "copy-from": "baldric_holster",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true
+  },
+  {
+    "id": "XL_holster",
+    "type": "ARMOR",
+    "name": { "str": "XL holster" },
+    "copy-from": "XL_holster",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true
+  },
+  {
+    "id": "axe_ring",
+    "type": "ARMOR",
+    "name": { "str": "ring holster" },
+    "copy-from": "axe_ring",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true
+  },
+  {
+    "id": "baldric",
+    "type": "ARMOR",
+    "name": { "str": "baldric" },
+    "copy-from": "baldric",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true
+  },
+  {
+    "id": "bootsheath",
+    "type": "ARMOR",
+    "name": { "str": "ankle sheath" },
+    "copy-from": "bootsheath",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true
+  },
+  {
+    "id": "wristsheath",
+    "type": "ARMOR",
+    "name": { "str": "wrist sheath" },
+    "copy-from": "wristsheath",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true
+  },
+  {
+    "id": "bscabbard",
+    "type": "ARMOR",
+    "name": { "str": "back scabbard" },
+    "copy-from": "bscabbard",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true
+  },
+  {
+    "id": "scabbard",
+    "type": "ARMOR",
+    "name": { "str": "scabbard" },
+    "copy-from": "scabbard",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true
+  },
+  {
+    "id": "sheath",
+    "type": "ARMOR",
+    "name": { "str": "sheath", "str_pl": "sheathes" },
+    "copy-from": "sheath",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true
+  },
+  {
+    "id": "sheath_birchbark",
+    "type": "ARMOR",
+    "name": { "str": "birchbark sheath", "str_pl": "birchbark sheathes" },
+    "copy-from": "sheath_birchbark",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true
+  },
+  {
+    "id": "spearsling",
+    "type": "ARMOR",
+    "name": { "str": "spear strap" },
+    "copy-from": "spearsling",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true
+  },
+  {
+    "id": "power_armor_back_hardpoint",
+    "type": "ARMOR",
+    "name": { "str": "power armor weapon rack" },
+    "copy-from": "power_armor_back_hardpoint",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true
+  },
+  {
+    "id": "power_armor_leg_hardpoint",
+    "type": "ARMOR",
+    "name": { "str": "power armor leg mount" },
+    "copy-from": "power_armor_leg_hardpoint",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true
+  },
+  {
+    "id": "power_armor_chest_rig",
+    "type": "ARMOR",
+    "name": { "str": "power armor magazine carrier" },
+    "copy-from": "power_armor_chest_rig",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true
+  },
+  {
+    "id": "power_armor_back_holster",
+    "type": "ARMOR",
+    "name": { "str": "power armor back holster" },
+    "copy-from": "power_armor_back_holster",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true
+  },
+  {
+    "id": "power_armor_holster",
+    "type": "ARMOR",
+    "name": { "str": "power armor holster" },
+    "copy-from": "power_armor_holster",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true
+  },
+  {
+    "id": "power_armor_sholster",
+    "type": "ARMOR",
+    "name": { "str": "power armor fast draw holster" },
+    "copy-from": "power_armor_sholster",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true
+  },
+  {
+    "id": "power_armor_shoulder_holster",
+    "type": "ARMOR",
+    "name": { "str": "power armor shoulder holster" },
+    "copy-from": "power_armor_shoulder_holster",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true
+  },
+  {
+    "id": "power_armor_XL_holster",
+    "type": "ARMOR",
+    "name": { "str": "power armor XL holster" },
+    "copy-from": "power_armor_XL_holster",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true
+  },
+  {
+    "id": "power_armor_axe_ring",
+    "type": "ARMOR",
+    "name": { "str": "power armor ring holster" },
+    "copy-from": "power_armor_axe_ring",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true
+  },
+  {
+    "id": "power_armor_baldric",
+    "type": "ARMOR",
+    "name": { "str": "power armor baldric" },
+    "copy-from": "power_armor_baldric",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true
+  },
+  {
+    "id": "power_armor_bscabbard",
+    "type": "ARMOR",
+    "name": { "str": "power armor back scabbard" },
+    "copy-from": "power_armor_bscabbard",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true
+  },
+  {
+    "id": "power_armor_scabbard",
+    "type": "ARMOR",
+    "name": { "str": "power armor scabbard" },
+    "copy-from": "power_armor_scabbard",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true
+  },
+  {
+    "id": "power_armor_sheath",
+    "type": "ARMOR",
+    "name": { "str": "power armor sheath" },
+    "copy-from": "power_armor_sheath",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true
+  },
+  {
+    "id": "power_armor_ammo_pouch",
+    "type": "ARMOR",
+    "name": { "str": "power armor ammo satchel" },
+    "copy-from": "power_armor_ammo_pouch",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true
+  },
+  {
+    "id": "power_armor_ammo_satchel",
+    "type": "ARMOR",
+    "name": { "str": "power armor magazine satchel" },
+    "copy-from": "power_armor_ammo_satchel",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true
+  },
+  {
+    "id": "power_armor_legpouch_large",
+    "type": "ARMOR",
+    "name": { "str": "power armor leg magazine pouch" },
+    "copy-from": "power_armor_legpouch_large",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true
+  },
+  {
+    "id": "power_armor_mag_satchel_leg",
+    "type": "ARMOR",
+    "name": { "str": "power armor leg magazine satchel" },
+    "copy-from": "power_armor_mag_satchel_leg",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true
+  },
+  {
+    "id": "power_armor_ammo_satchel_leg",
+    "type": "ARMOR",
+    "name": { "str": "power armor leg ammo satchel" },
+    "copy-from": "power_armor_ammo_satchel_leg",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true
+  },
+  {
+    "id": "power_armor_grenade_pouch",
+    "type": "ARMOR",
+    "name": { "str": "power armor grenade ammo pouch" },
+    "copy-from": "power_armor_grenade_pouch",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true
+  },
+  {
+    "id": "power_armor_grenadebandolier",
+    "type": "ARMOR",
+    "name": { "str": "power armor hand grenade pouch" },
+    "copy-from": "power_armor_grenadebandolier",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true
+  },
+  {
+    "id": "power_armor_shoulder_pouch",
+    "type": "ARMOR",
+    "name": { "str": "power armor shoulder magazine pouch" },
+    "copy-from": "power_armor_shoulder_pouch",
+    "encumbrance": 0,
+    "max_encumbrance": 0,
+    "rigid": true
+  }
+]
