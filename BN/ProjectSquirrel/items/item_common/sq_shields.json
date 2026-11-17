@@ -119,7 +119,7 @@
     "type": "ARMOR",
     "name": { "str": "tactical shield: commando", "str_pl": "tactical shields: commando" },
     "category": "armor",
-    "description": "This shield offer high performance protection and magazine storage. If you don't know what to choose, the tactical shield: commando is the best choice. It's quite heavy but effective.",
+    "description": "This shield offers high performance protection and magazine storage. If you don't know what to choose, the tactical shield: commando is the best choice. It's quite heavy but effective.",
     "weight": "6582 g",
     "volume": "5500 ml",
     "price": "750 USD",

@@ -1424,35 +1424,35 @@
     "type": "mutation",
     "id": "MINOTAUR",
     "copy-from": "MINOTAUR",
-    "restricts_gear": [ "mouth" ],
+    "delete": { "restricts_gear": [ "mouth" ] },
     "extend": { "category": [ "MINOTAUR" ] }
   },
   {
     "type": "mutation",
     "id": "MUZZLE",
     "copy-from": "MUZZLE",
-    "restricts_gear": [ "mouth" ],
+    "delete": { "restricts_gear": [ "mouth" ] },
     "extend": { "category": [ "MUZZLE" ] }
   },
   {
     "type": "mutation",
     "id": "MUZZLE_BEAR",
     "copy-from": "MUZZLE_BEAR",
-    "restricts_gear": [ "mouth" ],
+    "delete": { "restricts_gear": [ "mouth" ] },
     "extend": { "category": [ "MUZZLE_BEAR" ] }
   },
   {
     "type": "mutation",
     "id": "MUZZLE_RAT",
     "copy-from": "MUZZLE_RAT",
-    "restricts_gear": [ "mouth" ],
+    "delete": { "restricts_gear": [ "mouth" ] },
     "extend": { "category": [ "MUZZLE_RAT" ] }
   },
   {
     "type": "mutation",
     "id": "MUZZLE_LONG",
     "copy-from": "MUZZLE_LONG",
-    "restricts_gear": [ "mouth" ],
+    "delete": { "restricts_gear": [ "mouth" ] },
     "extend": { "category": [ "MUZZLE_LONG" ] }
   },
   {

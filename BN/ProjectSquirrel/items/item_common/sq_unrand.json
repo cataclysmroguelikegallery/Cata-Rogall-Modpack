@@ -267,7 +267,7 @@
     "copy-from": "sq_hardlight_blade_off",
     "category": "artifacts",
     "name": { "str": "zero sabers", "str_pl": "zero sabers" },
-    "description": "A particle sword with a triangular hilt. Features an wide attack and a spinning slash.",
+    "description": "A particle sword with a triangular hilt. Features a wide attack and a spinning slash.",
     "weight": "925 g",
     "color": "light_green",
     "price_postapoc": "175 USD",
@@ -294,7 +294,7 @@
       "str": "zero sabers",
       "str_pl": "zero sabers"
     },
-    "description": "A particle sword with a triangular hilt. Features an wide attack and a spinning slash. Use to turn off.",
+    "description": "A particle sword with a triangular hilt. Features a wide attack and a spinning slash. Use to turn off.",
     "to_hit": 4,
     "techniques": [ "WBLOCK_2", "WIDE2", "SPIN2" ],
     "flags": [ "LEAK_DAM", "RADIOACTIVE", "UNBREAKABLE_MELEE", "TRADER_AVOID", "NO_SALVAGE", "NONCONDUCTIVE" ],

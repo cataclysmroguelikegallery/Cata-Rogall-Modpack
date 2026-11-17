@@ -1,0 +1,114 @@
+[
+  {
+    "id": "sq_jige",
+    "type": "ARMOR",
+    "name": { "str": "pack frame" },
+    "copy-from": "sq_jige",
+    "encumbrance": 0,
+    "max_encumbrance": 0
+  },
+  {
+    "id": "sq_crude_jige",
+    "type": "ARMOR",
+    "name": { "str": "crude pack frame" },
+    "copy-from": "sq_crude_jige",
+    "encumbrance": 0,
+    "max_encumbrance": 0
+  },
+  {
+    "id": "sq_pipe_jige",
+    "type": "ARMOR",
+    "name": { "str": "pipe A-frame pack" },
+    "copy-from": "sq_pipe_jige",
+    "encumbrance": 0,
+    "max_encumbrance": 0
+  },
+  {
+    "id": "sq_steel_jige",
+    "type": "ARMOR",
+    "name": { "str": "steel carrier frame" },
+    "copy-from": "sq_steel_jige",
+    "encumbrance": 0,
+    "max_encumbrance": 0
+  },
+  {
+    "id": "sq_frame_backpack",
+    "type": "ARMOR",
+    "name": { "str": "frame pack" },
+    "copy-from": "sq_frame_backpack",
+    "encumbrance": 0,
+    "max_encumbrance": 0
+  },
+  {
+    "id": "sq_squirrel_pack",
+    "type": "ARMOR",
+    "name": { "str": "rat-pack" },
+    "copy-from": "sq_squirrel_pack",
+    "encumbrance": 0,
+    "max_encumbrance": 0
+  },
+  {
+    "id": "sq_dimension_pack",
+    "type": "ARMOR",
+    "name": { "str": "dimension stabilizer" },
+    "copy-from": "sq_dimension_pack",
+    "encumbrance": 0,
+    "max_encumbrance": 0
+  },
+  {
+    "id": "sq_power_armor_dimension_pack",
+    "type": "ARMOR",
+    "name": { "str": "power armor dimension stabilizer" },
+    "copy-from": "sq_power_armor_dimension_pack",
+    "encumbrance": 0,
+    "max_encumbrance": 0
+  },
+  {
+    "id": "sq_dimension_pack_black",
+    "type": "ARMOR",
+    "name": { "str": "dimension stabilizer" },
+    "copy-from": "sq_dimension_pack_black",
+    "encumbrance": 0,
+    "max_encumbrance": 0
+  },
+  {
+    "id": "sq_fsurvivor_pack",
+    "type": "ARMOR",
+    "name": { "str": "survivor fireproof backpack" },
+    "copy-from": "sq_fsurvivor_pack",
+    "encumbrance": 0,
+    "max_encumbrance": 0
+  },
+  {
+    "id": "sq_fsurvivor_rucksack",
+    "type": "ARMOR",
+    "name": { "str": "survivor fireproof rucksack" },
+    "copy-from": "sq_fsurvivor_rucksack",
+    "encumbrance": 0,
+    "max_encumbrance": 0
+  },
+  {
+    "id": "sq_fsurvivor_duffel_bag",
+    "type": "ARMOR",
+    "name": { "str": "survivor fireproof duffel bag" },
+    "copy-from": "sq_fsurvivor_duffel_bag",
+    "encumbrance": 0,
+    "max_encumbrance": 0
+  },
+  {
+    "id": "sq_fsurvivor_runner_pack",
+    "type": "ARMOR",
+    "name": { "str": "survivor fireproof runnerpack" },
+    "copy-from": "sq_fsurvivor_runner_pack",
+    "encumbrance": 0,
+    "max_encumbrance": 0
+  },
+  {
+    "id": "sq_fsurvivor_hiking_backpack",
+    "type": "ARMOR",
+    "name": { "str": "survivor fireproof hiking backpack" },
+    "copy-from": "sq_fsurvivor_hiking_backpack",
+    "encumbrance": 0,
+    "max_encumbrance": 0
+  }
+]

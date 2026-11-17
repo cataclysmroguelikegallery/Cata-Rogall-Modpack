@@ -256,7 +256,7 @@
     "copy-from": "iv_mutagen_flavor",
     "type": "COMESTIBLE",
     "name": "Quickening serum",
-    "description": "A special mutagenic serum designed to give you a single mutation. This one will make faster in general.",
+    "description": "A special mutagenic serum designed to give you a single mutation. This one will make you faster in general.",
     "color": "light_gray",
     "use_action": { "type": "mutagen_iv", "mutation_category": "QUICK" }
   },
@@ -427,7 +427,7 @@
     "copy-from": "iv_mutagen_flavor",
     "type": "COMESTIBLE",
     "name": "Gourmand serum",
-    "description": "A special mutagenic serum designed to give you a single mutation. Increases dopamine production in response to ingesting good-tasting foods and expands digestive system to accomodate more volume.",
+    "description": "A special mutagenic serum designed to give you a single mutation. Increases dopamine production in response to ingesting good-tasting foods and expands digestive system to accommodate more volume.",
     "color": "light_gray",
     "use_action": { "type": "mutagen_iv", "mutation_category": "GOURMAND" }
   },
@@ -659,7 +659,7 @@
     "id": "target_iv_mutagen_birdeye",
     "copy-from": "iv_mutagen_flavor",
     "type": "COMESTIBLE",
-    "name": "Bird eyes serums",
+    "name": "Bird eyes serum",
     "description": "A special mutagenic serum designed to give you a single mutation. Structurally changes your eyes to be similar to that of avians, heightening visual acuity and perception, if your body supports it.",
     "color": "light_gray",
     "use_action": { "type": "mutagen_iv", "mutation_category": "BIRD_EYE" }
@@ -984,7 +984,7 @@
     "copy-from": "iv_mutagen_flavor",
     "type": "COMESTIBLE",
     "name": "Quills serum",
-    "description": "A special mutagenic serum designed to give you a single mutation. Covers your large sharp quills for defense.",
+    "description": "A special mutagenic serum designed to give you a single mutation. Covers you in large sharp quills for defense.",
     "color": "light_gray",
     "use_action": { "type": "mutagen_iv", "mutation_category": "QUILLS" }
   },
@@ -1056,7 +1056,7 @@
     "copy-from": "iv_mutagen_flavor",
     "type": "COMESTIBLE",
     "name": "Transpiration serum",
-    "description": "A special mutagenic serum designed to give you a single mutation. Changes your to use the evaporation of water as a way to move nutrients, if your body supports it.",
+    "description": "A special mutagenic serum designed to give you a single mutation. Changes your body to use the evaporation of water as a way to move nutrients, if your body supports it.",
     "color": "light_gray",
     "use_action": { "type": "mutagen_iv", "mutation_category": "TRANSPIRATION" }
   },
@@ -1146,7 +1146,7 @@
     "copy-from": "iv_mutagen_flavor",
     "type": "COMESTIBLE",
     "name": "Bulging reservoir serum",
-    "description": "A special mutagenic serum designed to give you a single mutation. This one makes you develop a reservoir of fluids that buldges out of your abdomen allowing you to adapt to containing extra liquids.",
+    "description": "A special mutagenic serum designed to give you a single mutation. This one makes you develop a reservoir of fluids that bulges out of your abdomen allowing you to adapt to containing extra liquids.",
     "color": "light_gray",
     "use_action": { "type": "mutagen_iv", "mutation_category": "INSECT_RESERVOIR" }
   },
@@ -1155,7 +1155,7 @@
     "copy-from": "iv_mutagen_flavor",
     "type": "COMESTIBLE",
     "name": "Talons serum",
-    "description": "A special mutagenic serum designed to give you a single mutation. Grows your index fingers into hude talons.",
+    "description": "A special mutagenic serum designed to give you a single mutation. Grows your index fingers into huge talons.",
     "color": "light_gray",
     "use_action": { "type": "mutagen_iv", "mutation_category": "TALONS" }
   },
@@ -1182,7 +1182,7 @@
     "copy-from": "iv_mutagen_flavor",
     "type": "COMESTIBLE",
     "name": "Mammal pheromones serum",
-    "description": "A special mutagenic serum designed to give you a single mutation. Makes your body produce mammal pheromones that calms most mammals and makes them more friendly.",
+    "description": "A special mutagenic serum designed to give you a single mutation. Makes your body produce mammal pheromones that calm most mammals and make them more friendly.",
     "color": "light_gray",
     "use_action": { "type": "mutagen_iv", "mutation_category": "PHEROMONE_MAMMAL" }
   },
@@ -1254,7 +1254,7 @@
     "copy-from": "iv_mutagen_flavor",
     "type": "COMESTIBLE",
     "name": "Rubbery limbs serum",
-    "description": "A special mutagenic serum designed to give you a single mutation. Signifigantly flexifies your limbs, if your body supports it.",
+    "description": "A special mutagenic serum designed to give you a single mutation. Significantly flexifies your limbs, if your body supports it.",
     "color": "light_gray",
     "use_action": { "type": "mutagen_iv", "mutation_category": "BENDY2" }
   },
@@ -1641,7 +1641,7 @@
     "copy-from": "iv_mutagen_flavor",
     "type": "COMESTIBLE",
     "name": "Bird wings serum",
-    "description": "A special mutagenic serum designed to give you a single mutation. Grows feathery wings that won't fly but will stop falls form hurting.",
+    "description": "A special mutagenic serum designed to give you a single mutation. Grows feathery wings that won't fly but will stop falls from hurting.",
     "color": "light_gray",
     "use_action": { "type": "mutagen_iv", "mutation_category": "WINGS_BIRD" }
   },
@@ -1668,7 +1668,7 @@
     "copy-from": "iv_mutagen_flavor",
     "type": "COMESTIBLE",
     "name": "Mandibles serum",
-    "description": "A special mutagenic serum designed to give you a single mutation. TUrns your mouth into a system that uses insectoid mandibles.",
+    "description": "A special mutagenic serum designed to give you a single mutation. Turns your mouth into a system that uses insectoid mandibles.",
     "color": "light_gray",
     "use_action": { "type": "mutagen_iv", "mutation_category": "MANDIBLES" }
   },
@@ -1758,7 +1758,7 @@
     "copy-from": "iv_mutagen_flavor",
     "type": "COMESTIBLE",
     "name": "Web diver serum",
-    "description": "A special mutagenic serum designed to give you a single mutation. Allows you to use your webs as a way to scale shear drops, if your body supports it.",
+    "description": "A special mutagenic serum designed to give you a single mutation. Allows you to use your webs as a way to scale sheer drops, if your body supports it.",
     "color": "light_gray",
     "use_action": { "type": "mutagen_iv", "mutation_category": "WEB_RAPPEL" }
   },
@@ -1812,7 +1812,7 @@
     "copy-from": "iv_mutagen_flavor",
     "type": "COMESTIBLE",
     "name": "Enlargening serum",
-    "description": "A special mutagenic serum designed to give you a single mutation, if your body supports it. Try this enlargement serum and get bigger, today! Large Inc. is not responsible for any lack of growth due to unsupported infratructure.",
+    "description": "A special mutagenic serum designed to give you a single mutation, if your body supports it. Try this enlargement serum and get bigger, today! Large Inc. is not responsible for any lack of growth due to unsupported infrastructure.",
     "color": "light_gray",
     "use_action": { "type": "mutagen_iv", "mutation_category": "LARGE_OK" }
   },
@@ -2235,7 +2235,7 @@
     "copy-from": "iv_mutagen_flavor",
     "type": "COMESTIBLE",
     "name": "Broad paws serum",
-    "description": "A special mutagenic serum designed to give you a single mutation. Turn your hands into large paws that're better at swimming but manula dexteriry and manipulation is going to be a problem.",
+    "description": "A special mutagenic serum designed to give you a single mutation. Turn your hands into large paws that're better at swimming but manual dexterity and manipulation is going to be a problem.",
     "color": "light_gray",
     "use_action": { "type": "mutagen_iv", "mutation_category": "PAWS_LARGE" }
   },
@@ -2298,7 +2298,7 @@
     "copy-from": "iv_mutagen_flavor",
     "type": "COMESTIBLE",
     "name": "Amorphous body serum",
-    "description": "A special mutagenic serum designed to give you a single mutation. Make your flesh and pleasing gel-like consistency, if your body supports it.",
+    "description": "A special mutagenic serum designed to give you a single mutation. Give your flesh a pleasing gel-like consistency, if your body supports it.",
     "color": "light_gray",
     "use_action": { "type": "mutagen_iv", "mutation_category": "AMORPHOUS" }
   },
@@ -2541,7 +2541,7 @@
     "copy-from": "iv_mutagen_flavor",
     "type": "COMESTIBLE",
     "name": "Amphibious serum",
-    "description": "A special mutagenic serum designed to give you a single mutation. Become amphibiousm comfortable both on land and in water if your body supports it.",
+    "description": "A special mutagenic serum designed to give you a single mutation. Become amphibious, comfortable both on land and in water if your body supports it.",
     "color": "light_gray",
     "use_action": { "type": "mutagen_iv", "mutation_category": "AMPHIBIAN" }
   },
@@ -2685,7 +2685,7 @@
     "copy-from": "iv_mutagen_flavor",
     "type": "COMESTIBLE",
     "name": "Serpentine body serum",
-    "description": "A special mutagenic serum designed to give you a single mutation. With the lower body of a giant snake, you can glide effortlessly over any terrain., if your body supports it.",
+    "description": "A special mutagenic serum designed to give you a single mutation. With the lower body of a giant snake, you can glide effortlessly over any terrain, if your body supports it.",
     "color": "light_gray",
     "use_action": { "type": "mutagen_iv", "mutation_category": "TAIL_SNAKE_OK" }
   },
